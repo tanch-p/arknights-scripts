@@ -4,16 +4,16 @@ import os
 script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
 cn_enemy_handbook_path = os.path.join(
-    script_dir, "zh_CN/gamedata/excel/enemy_handbook_table.json"
+    script_dir, "cn_data/zh_CN/gamedata/excel/enemy_handbook_table.json"
 )
 en_enemy_handbook_path = os.path.join(
-    script_dir, "en_US/gamedata/excel/enemy_handbook_table.json"
+    script_dir, "global_data/en_US/gamedata/excel/enemy_handbook_table.json"
 )
 jp_enemy_handbook_path = os.path.join(
-    script_dir, "ja_JP/gamedata/excel/enemy_handbook_table.json"
+    script_dir, "global_data/ja_JP/gamedata/excel/enemy_handbook_table.json"
 )
 enemy_database_path = os.path.join(
-    script_dir, "zh_CN/gamedata/levels/enemydata/enemy_database.json"
+    script_dir, "cn_data/zh_CN/gamedata/levels/enemydata/enemy_database.json"
 )
 
 with open(cn_enemy_handbook_path, encoding="utf-8") as f:
@@ -57,7 +57,7 @@ for key in cn_enemy_handbook['enemyData']:
         if "drone" in enemyTags:
             enemyTags.append("flying")
         enemyTags.append(enemyStats[0]['enemyData']['levelType']['m_value']
-                            if enemyStats[0]['enemyData']['levelType']['m_defined'] else 'NORMAL')
+                         if enemyStats[0]['enemyData']['levelType']['m_defined'] else 'NORMAL')
 
         status_immune = []
         if enemyStats[0]["enemyData"]["attributes"]["stunImmune"]["m_value"]:
@@ -70,6 +70,8 @@ for key in cn_enemy_handbook['enemyData']:
             status_immune.append("freeze")
         if enemyStats[0]["enemyData"]["attributes"]["levitateImmune"]["m_value"]:
             status_immune.append("levitate")
+        if enemyStats[0]["enemyData"]["attributes"]["disarmedCombatImmune"]["m_value"]:
+            status_immune.append("disarmedCombat")
 
         data["id"] = enemyIndex
         data["key"] = key
@@ -121,7 +123,17 @@ for key in cn_enemy_handbook['enemyData']:
                 if stat["enemyData"]["attributes"]["moveSpeed"]["m_defined"]
                 else enemyStats[0]["enemyData"]["attributes"]["moveSpeed"][
                     "m_value"
-                ]
+                ],
+                "epDamageResistance": stat["enemyData"]["attributes"]["epDamageResistance"]["m_value"]
+                if stat["enemyData"]["attributes"]["epDamageResistance"]["m_defined"]
+                else enemyStats[0]["enemyData"]["attributes"]["epDamageResistance"][
+                    "m_value"
+                ],
+                "epResistance": stat["enemyData"]["attributes"]["epResistance"]["m_value"]
+                if stat["enemyData"]["attributes"]["epResistance"]["m_defined"]
+                else enemyStats[0]["enemyData"]["attributes"]["epResistance"][
+                    "m_value"
+                ],
             }
             for stat in enemyStats
         ]

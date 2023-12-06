@@ -4,16 +4,16 @@ import os
 script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
 cn_enemy_handbook_path = os.path.join(
-    script_dir, "zh_CN/gamedata/excel/enemy_handbook_table.json"
+    script_dir, "cn_data/zh_CN/gamedata/excel/enemy_handbook_table.json"
 )
 en_enemy_handbook_path = os.path.join(
-    script_dir, "en_US/gamedata/excel/enemy_handbook_table.json"
+    script_dir, "global_data/en_US/gamedata/excel/enemy_handbook_table.json"
 )
 jp_enemy_handbook_path = os.path.join(
-    script_dir, "ja_JP/gamedata/excel/enemy_handbook_table.json"
+    script_dir, "global_data/ja_JP/gamedata/excel/enemy_handbook_table.json"
 )
 enemy_database_path = os.path.join(
-    script_dir, "zh_CN/gamedata/levels/enemydata/enemy_database.json"
+    script_dir, "cn_data/zh_CN/gamedata/levels/enemydata/enemy_database.json"
 )
 
 with open(cn_enemy_handbook_path, encoding="utf-8") as f:
@@ -36,7 +36,6 @@ for key in existing_data:
     data["name_en"] = (
         en_enemy_handbook[key]["name"] if key in en_enemy_handbook else ""
     )
- 
     enemies[key] = data
 
 with open("enemy_database.json", "w", encoding="utf-8") as f:

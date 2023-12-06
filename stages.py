@@ -12,16 +12,16 @@ STAT_KEY_CONVERSION_TABLE = {
 script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
 cn_roguelike_topic_path = os.path.join(
-    script_dir, "zh_CN/gamedata/excel/roguelike_topic_table.json"
+    script_dir, "cn_data/zh_CN/gamedata/excel/roguelike_topic_table.json"
 )
 en_roguelike_topic_path = os.path.join(
-    script_dir, "en_US/gamedata/excel/roguelike_topic_table.json"
+    script_dir, "global_data/en_US/gamedata/excel/roguelike_topic_table.json"
 )
 jp_roguelike_topic_path = os.path.join(
-    script_dir, "ja_JP/gamedata/excel/roguelike_topic_table.json"
+    script_dir, "global_data/ja_JP/gamedata/excel/roguelike_topic_table.json"
 )
 enemy_database_path = os.path.join(
-    script_dir, "zh_CN/gamedata/levels/enemydata/enemy_database.json"
+    script_dir, "cn_data/zh_CN/gamedata/levels/enemydata/enemy_database.json"
 )
 
 with open(cn_roguelike_topic_path, encoding="utf-8") as f:
@@ -41,7 +41,7 @@ with open("talent_overwrite_list.json", encoding="utf-8") as f:
 stages_list = []
 
 roguelike_topics = [
-    {"topic": "rogue_1", "folder": "ro1"},
+    # {"topic": "rogue_1", "folder": "ro1"},
     {"topic": "rogue_2", "folder": "ro2"},
     {"topic": "rogue_3", "folder": "ro3"},
 ]
@@ -66,7 +66,7 @@ for topic_dict in roguelike_topics:
             folder = topic_dict["folder"]
             stage_data_path = os.path.join(
                 script_dir,
-                f"zh_CN/gamedata/levels/obt/roguelike/{folder}/{levelId}.json",
+                f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{folder}/{levelId}.json",
             )
             with open(stage_data_path, encoding="utf-8") as f:
                 stage_data = json.load(f)
