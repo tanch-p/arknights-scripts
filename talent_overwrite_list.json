@@ -1,0 +1,40 @@
+{
+  "rogue_3": {
+    "enemy_1106_byokai_b": [
+      {
+        "key": "byokai_buff",
+        "duration": 60.0
+      }
+    ]
+  },
+  "level_rogue2_3-1": {
+    "enemy_1083_sotiab_2": [
+      { "key": "guerilla_siegebreaker_leader_buff", "value": 100 }
+    ]
+  },
+  "level_rogue2_3-5": {
+    "enemy_1062_rager": [
+      {
+        "key": "bleed_true",
+        "value": 350
+      }
+    ],
+    "enemy_1063_rageth": [
+      {
+        "key": "bleed_true",
+        "value": 350
+      }
+    ]
+  },
+  "level_rogue3_6-2": {
+    "enemy_2007_flwitch": [[{ "key": "invincible", "value": 40 }]]
+  },
+  "level_rogue3_ev-5": {
+    "enemy_3004_speople": [
+      {
+        "key": "speople_1",
+        "dead": 200
+      }
+    ]
+  }
+}

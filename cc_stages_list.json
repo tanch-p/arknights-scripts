@@ -1,0 +1,609 @@
+[
+	{
+		"id": "level_rune_10-01.json",
+		"cc_type": "perma",
+		"tags": ["night"],
+		"characterLimit": 9,
+		"initialCost": 10,
+		"costIncreaseTime": 1.0,
+		"code": null,
+		"name_zh": null,
+		"name_ja": null,
+		"name_en": null,
+		"inner_name_zh": null,
+		"inner_name_ja": null,
+		"inner_name_en": null,
+		"routes": null,
+		"sp_terrain": null,
+		"contracts": null,
+		"enemies": [
+			{
+				"id": "enemy_1178_dscorp",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1179_aruarw",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1180_aruass",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1181_napkgt",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1181_napkgt_2",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1184_cadkgt_3",
+				"level": 1,
+				"overwrittenData": {
+					"lifepoint": 3
+				}
+			},
+			{
+				"id": "enemy_1185_nmekgt_2",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1185_nmekgt_3",
+				"level": 0,
+				"overwrittenData": {
+					"lifepoint": 3
+				}
+			},
+			{
+				"id": "enemy_1099_nbkght",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1182_flasrt",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1183_mlasrt",
+				"level": 0,
+				"overwrittenData": null
+			}
+		]
+	},
+	{
+		"id": "level_rune_10-02.json",
+		"cc_type": "daily",
+		"tags": null,
+		"characterLimit": 9,
+		"initialCost": 10,
+		"costIncreaseTime": 1.0,
+		"code": null,
+		"name_zh": null,
+		"name_ja": null,
+		"name_en": null,
+		"inner_name_zh": null,
+		"inner_name_ja": null,
+		"inner_name_en": null,
+		"routes": null,
+		"sp_terrain": null,
+		"contracts": null,
+		"enemies": [
+			{
+				"id": "enemy_1141_merbow",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1142_mershd",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1143_merrpg",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1144_merlgd",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1046_agent_2",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1052_noramr",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1041_lazerd",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1145_atkspd",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1146_defspd",
+				"level": 0,
+				"overwrittenData": null
+			}
+		]
+	},
+	{
+		"id": "level_rune_11-01.json",
+		"cc_type": "perma",
+		"tags": null,
+		"characterLimit": 9,
+		"initialCost": 10,
+		"costIncreaseTime": 1.0,
+		"code": null,
+		"name_zh": null,
+		"name_ja": null,
+		"name_en": null,
+		"inner_name_zh": null,
+		"inner_name_ja": null,
+		"inner_name_en": null,
+		"routes": null,
+		"sp_terrain": null,
+		"contracts": null,
+		"enemies": [
+			{
+				"id": "enemy_1148_dssbr",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1149_dsbow",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1151_dslntc",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1154_dsmant",
+				"level": 0,
+				"overwrittenData": {
+					"lifepoint": 2
+				}
+			},
+			{
+				"id": "enemy_1152_dsurch",
+				"level": 0,
+				"overwrittenData": null
+			}
+		]
+	},
+	{
+		"id": "level_rune_11-02.json",
+		"cc_type": "daily",
+		"tags": null,
+		"characterLimit": 8,
+		"initialCost": 10,
+		"costIncreaseTime": 1.0,
+		"code": null,
+		"name_zh": null,
+		"name_ja": null,
+		"name_en": null,
+		"inner_name_zh": null,
+		"inner_name_ja": null,
+		"inner_name_en": null,
+		"routes": null,
+		"sp_terrain": null,
+		"contracts": null,
+		"enemies": [
+			{
+				"id": "enemy_1195_sfyin",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1196_msfyin",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1209_sfden",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1210_msfden",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1205_sfpin",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1206_msfpin",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1207_sfji_2",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1208_msfji_2",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1123_spsbr",
+				"level": 0,
+				"overwrittenData": null
+			}
+		]
+	},
+	{
+		"id": "level_rune_12-01.json",
+		"cc_type": "perma",
+		"tags": null,
+		"characterLimit": 9,
+		"initialCost": 10,
+		"costIncreaseTime": 1.0,
+		"code": null,
+		"name_zh": null,
+		"name_ja": null,
+		"name_en": null,
+		"inner_name_zh": null,
+		"inner_name_ja": null,
+		"inner_name_en": null,
+		"routes": null,
+		"sp_terrain": null,
+		"contracts": null,
+		"enemies": [
+			{
+				"id": "enemy_1071_dftman",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1022_dmage",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1226_dklord",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1223_dmech",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1227_dair",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1220_dzoms",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1221_dzomg",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1528_manfri",
+				"level": 0,
+				"overwrittenData": {
+					"hp": 20000,
+					"lifepoint": 3,
+					"atk": 600,
+					"res": 20.0
+				}
+			}
+		]
+	},
+	{
+		"id": "level_rune_12-02.json",
+		"cc_type": "daily",
+		"tags": null,
+		"characterLimit": 8,
+		"initialCost": 10,
+		"costIncreaseTime": 1.0,
+		"code": null,
+		"name_zh": null,
+		"name_ja": null,
+		"name_en": null,
+		"inner_name_zh": null,
+		"inner_name_ja": null,
+		"inner_name_en": null,
+		"routes": null,
+		"sp_terrain": null,
+		"contracts": null,
+		"enemies": [
+			{
+				"id": "enemy_1166_dusbr",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1168_dumage",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1173_duspfr",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1176_dusocr",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1172_dugago",
+				"level": 0,
+				"overwrittenData": null
+			}
+		]
+	},
+	{
+		"id": "level_rune_13-01.json",
+		"cc_type": "perma",
+		"tags": ["water"],
+		"characterLimit": 9,
+		"initialCost": 10,
+		"costIncreaseTime": 1.0,
+		"code": null,
+		"name_zh": null,
+		"name_ja": null,
+		"name_en": null,
+		"inner_name_zh": null,
+		"inner_name_ja": null,
+		"inner_name_en": null,
+		"routes": null,
+		"sp_terrain": null,
+		"contracts": null,
+		"enemies": [
+			{
+				"id": "enemy_1158_divman",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1159_swfmob",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1159_swfmob_2",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1263_durbus",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1260_durmag",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1160_hvyslr",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1160_hvyslr_2",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1053_norgst",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1053_norgst_2",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1262_durplc",
+				"level": 0,
+				"overwrittenData": null
+			}
+		]
+	},
+	{
+		"id": "level_rune_13-02.json",
+		"cc_type": "daily",
+		"tags": null,
+		"characterLimit": 8,
+		"initialCost": 10,
+		"costIncreaseTime": 1.0,
+		"code": null,
+		"name_zh": null,
+		"name_ja": null,
+		"name_en": null,
+		"inner_name_zh": null,
+		"inner_name_ja": null,
+		"inner_name_en": null,
+		"routes": null,
+		"sp_terrain": null,
+		"contracts": null,
+		"enemies": [
+			{
+				"id": "enemy_1113_empace",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1111_ucommd",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1107_uoffcr",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1109_uabone",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1110_uamord",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_3001_upeopl",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1112_emppnt",
+				"level": 0,
+				"overwrittenData": null
+			}
+		]
+	},
+	{
+		"id": "level_rune_14-01.json",
+		"cc_type": "perma",
+		"tags": null,
+		"characterLimit": 9,
+		"initialCost": 10,
+		"costIncreaseTime": 1.0,
+		"code": null,
+		"name_zh": null,
+		"name_ja": null,
+		"name_en": null,
+		"inner_name_zh": null,
+		"inner_name_ja": null,
+		"inner_name_en": null,
+		"routes": null,
+		"sp_terrain": null,
+		"contracts": null,
+		"enemies": [
+			{
+				"id": "enemy_1000_gopro_3",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1078_sotisc",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1023_jmage",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1082_soticn",
+				"level": 0,
+				"overwrittenData": {
+					"atk": 350
+				}
+			},
+			{
+				"id": "enemy_1084_sotidm",
+				"level": 0,
+				"overwrittenData": {
+					"def": 280
+				}
+			},
+			{
+				"id": "enemy_1025_reveng",
+				"level": 0,
+				"overwrittenData": {
+					"hp": 7000,
+					"atk": 470,
+					"aspd": 3.0
+				}
+			},
+			{
+				"id": "enemy_1025_reveng_2",
+				"level": 0,
+				"overwrittenData": {
+					"atk": 650,
+					"aspd": 3.0
+				}
+			},
+			{
+				"id": "enemy_1539_reid",
+				"level": 0,
+				"overwrittenData": null
+			}
+		]
+	},
+	{
+		"id": "level_rune_14-02.json",
+		"cc_type": "daily",
+		"tags": null,
+		"characterLimit": 8,
+		"initialCost": 10,
+		"costIncreaseTime": 1.0,
+		"code": null,
+		"name_zh": null,
+		"name_ja": null,
+		"name_en": null,
+		"inner_name_zh": null,
+		"inner_name_ja": null,
+		"inner_name_en": null,
+		"routes": null,
+		"sp_terrain": null,
+		"contracts": null,
+		"enemies": [
+			{
+				"id": "enemy_1071_dftman",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1267_nhpbr",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1268_nhnrs",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1273_stmgun",
+				"level": 0,
+				"overwrittenData": null
+			},
+			{
+				"id": "enemy_1272_nhtank",
+				"level": 0,
+				"overwrittenData": null
+			}
+		]
+	}
+]

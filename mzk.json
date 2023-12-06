@@ -1,0 +1,1795 @@
+{
+    "syboss_jely1-fragment0": {
+        "3.0": [
+            {
+                "key": "enemy_2041_syjely_e",
+                "enemy": "精干打手",
+                "count": "1/1",
+                "route": "↙",
+                "routeIndex": 0
+            }
+        ],
+        "11.0": [
+            {
+                "key": "enemy_2041_syjely_f",
+                "enemy": "法术近卫组长",
+                "count": "1/2",
+                "interval": 6.0,
+                "route": "↖",
+                "routeIndex": 2
+            }
+        ],
+        "12.0": [
+            {
+                "key": "enemy_2041_syjely",
+                "enemy": "骨海漂流体",
+                "count": "1/1",
+                "route": "↙",
+                "routeIndex": 1
+            }
+        ],
+        "17.0": [
+            {
+                "key": "enemy_2041_syjely_f",
+                "enemy": "法术近卫组长",
+                "count": "2/2",
+                "interval": 6.0,
+                "route": "↖",
+                "routeIndex": 2
+            }
+        ]
+    },
+    "syboss_jely1-fragment1": {
+        "3.0": [
+            {
+                "key": "enemy_2041_syjely",
+                "enemy": "骨海漂流体",
+                "count": "1/2",
+                "interval": 9.0,
+                "route": "↖",
+                "routeIndex": 4
+            }
+        ],
+        "12.0": [
+            {
+                "key": "enemy_2041_syjely_e",
+                "enemy": "精干打手",
+                "count": "1/2",
+                "interval": 6.0,
+                "route": "↙",
+                "routeIndex": 3
+            },
+            {
+                "key": "enemy_2041_syjely",
+                "enemy": "骨海漂流体",
+                "count": "2/2",
+                "interval": 9.0,
+                "route": "↖",
+                "routeIndex": 4
+            }
+        ],
+        "18.0": [
+            {
+                "key": "enemy_2041_syjely_e",
+                "enemy": "精干打手",
+                "count": "2/2",
+                "interval": 6.0,
+                "route": "↙",
+                "routeIndex": 3
+            }
+        ]
+    },
+    "syboss_jely2-fragment0": {
+        "0.0": [
+            {
+                "key": "enemy_2041_syjely",
+                "enemy": "骨海漂流体",
+                "count": "1/1",
+                "route": "➚",
+                "routeIndex": 9
+            }
+        ],
+        "1.0": [
+            {
+                "key": "enemy_2041_syjely",
+                "enemy": "骨海漂流体",
+                "count": "1/2",
+                "interval": 2.0,
+                "route": "↙",
+                "routeIndex": 7
+            }
+        ],
+        "3.0": [
+            {
+                "key": "enemy_2041_syjely",
+                "enemy": "骨海漂流体",
+                "count": "2/2",
+                "interval": 2.0,
+                "route": "↙",
+                "routeIndex": 7
+            },
+            {
+                "key": "enemy_2041_syjely_i",
+                "enemy": "冰爆源石虫",
+                "count": "1/1",
+                "route": "➚",
+                "routeIndex": 10
+            }
+        ],
+        "4.0": [
+            {
+                "key": "enemy_2041_syjely_e",
+                "enemy": "精干打手",
+                "count": "1/2",
+                "interval": 3.0,
+                "route": "↖",
+                "routeIndex": 5
+            }
+        ],
+        "7.0": [
+            {
+                "key": "enemy_2041_syjely_e",
+                "enemy": "精干打手",
+                "count": "2/2",
+                "interval": 3.0,
+                "route": "↖",
+                "routeIndex": 5
+            },
+            {
+                "key": "enemy_2041_syjely_e",
+                "enemy": "精干打手",
+                "count": "1/1",
+                "route": "↙",
+                "routeIndex": 8
+            }
+        ],
+        "10.0": [
+            {
+                "key": "enemy_2041_syjely",
+                "enemy": "骨海漂流体",
+                "count": "1/1",
+                "route": "↖",
+                "routeIndex": 6
+            }
+        ]
+    },
+    "syboss_jely2-fragment1": {
+        "0.0": [
+            {
+                "key": "enemy_2041_syjely",
+                "enemy": "骨海漂流体",
+                "count": "1/1",
+                "route": "➚",
+                "routeIndex": 15
+            }
+        ],
+        "1.0": [
+            {
+                "key": "enemy_2041_syjely_f",
+                "enemy": "法术近卫组长",
+                "count": "1/3",
+                "interval": 2.0,
+                "route": "↙",
+                "routeIndex": 13
+            }
+        ],
+        "3.0": [
+            {
+                "key": "enemy_2041_syjely_f",
+                "enemy": "法术近卫组长",
+                "count": "2/3",
+                "interval": 2.0,
+                "route": "↙",
+                "routeIndex": 13
+            },
+            {
+                "key": "enemy_2041_syjely",
+                "enemy": "骨海漂流体",
+                "count": "1/1",
+                "route": "➚",
+                "routeIndex": 16
+            }
+        ],
+        "4.0": [
+            {
+                "key": "enemy_2041_syjely_f",
+                "enemy": "法术近卫组长",
+                "count": "1/1",
+                "route": "↖",
+                "routeIndex": 11
+            }
+        ],
+        "5.0": [
+            {
+                "key": "enemy_2041_syjely_f",
+                "enemy": "法术近卫组长",
+                "count": "3/3",
+                "interval": 2.0,
+                "route": "↙",
+                "routeIndex": 13
+            }
+        ],
+        "7.0": [
+            {
+                "key": "enemy_2041_syjely",
+                "enemy": "骨海漂流体",
+                "count": "1/1",
+                "route": "↙",
+                "routeIndex": 14
+            }
+        ],
+        "10.0": [
+            {
+                "key": "enemy_2041_syjely_f",
+                "enemy": "法术近卫组长",
+                "count": "1/1",
+                "route": "↖",
+                "routeIndex": 12
+            }
+        ]
+    },
+    "syboss_jely2-fragment2": {
+        "0.0": [
+            {
+                "key": "enemy_2041_syjely_i",
+                "enemy": "冰爆源石虫",
+                "count": "1/1",
+                "route": "➚",
+                "routeIndex": 21
+            }
+        ],
+        "1.0": [
+            {
+                "key": "enemy_2041_syjely",
+                "enemy": "骨海漂流体",
+                "count": "1/3",
+                "interval": 2.0,
+                "route": "↙",
+                "routeIndex": 19
+            }
+        ],
+        "3.0": [
+            {
+                "key": "enemy_2041_syjely",
+                "enemy": "骨海漂流体",
+                "count": "2/3",
+                "interval": 2.0,
+                "route": "↙",
+                "routeIndex": 19
+            },
+            {
+                "key": "enemy_2041_syjely_i",
+                "enemy": "冰爆源石虫",
+                "count": "1/1",
+                "route": "➚",
+                "routeIndex": 22
+            }
+        ],
+        "4.0": [
+            {
+                "key": "enemy_2041_syjely",
+                "enemy": "骨海漂流体",
+                "count": "1/2",
+                "interval": 3.0,
+                "route": "↖",
+                "routeIndex": 17
+            }
+        ],
+        "5.0": [
+            {
+                "key": "enemy_2041_syjely",
+                "enemy": "骨海漂流体",
+                "count": "3/3",
+                "interval": 2.0,
+                "route": "↙",
+                "routeIndex": 19
+            }
+        ],
+        "7.0": [
+            {
+                "key": "enemy_2041_syjely",
+                "enemy": "骨海漂流体",
+                "count": "2/2",
+                "interval": 3.0,
+                "route": "↖",
+                "routeIndex": 17
+            },
+            {
+                "key": "enemy_2041_syjely_e",
+                "enemy": "精干打手",
+                "count": "1/1",
+                "route": "↙",
+                "routeIndex": 20
+            }
+        ],
+        "10.0": [
+            {
+                "key": "enemy_2041_syjely",
+                "enemy": "骨海漂流体",
+                "count": "1/1",
+                "route": "↖",
+                "routeIndex": 18
+            }
+        ]
+    },
+    "syboss_jely2-fragment3": {
+        "0.0": [
+            {
+                "key": "enemy_2041_syjely_i",
+                "enemy": "冰爆源石虫",
+                "count": "1/1",
+                "route": "➚",
+                "routeIndex": 27
+            }
+        ],
+        "1.0": [
+            {
+                "key": "enemy_2041_syjely",
+                "enemy": "骨海漂流体",
+                "count": "1/3",
+                "interval": 2.0,
+                "route": "↙",
+                "routeIndex": 25
+            }
+        ],
+        "3.0": [
+            {
+                "key": "enemy_2041_syjely",
+                "enemy": "骨海漂流体",
+                "count": "2/3",
+                "interval": 2.0,
+                "route": "↙",
+                "routeIndex": 25
+            },
+            {
+                "key": "enemy_2041_syjely_i",
+                "enemy": "冰爆源石虫",
+                "count": "1/1",
+                "route": "➚",
+                "routeIndex": 28
+            }
+        ],
+        "4.0": [
+            {
+                "key": "enemy_2041_syjely",
+                "enemy": "骨海漂流体",
+                "count": "1/2",
+                "interval": 3.0,
+                "route": "↖",
+                "routeIndex": 23
+            }
+        ],
+        "5.0": [
+            {
+                "key": "enemy_2041_syjely",
+                "enemy": "骨海漂流体",
+                "count": "3/3",
+                "interval": 2.0,
+                "route": "↙",
+                "routeIndex": 25
+            }
+        ],
+        "7.0": [
+            {
+                "key": "enemy_2041_syjely",
+                "enemy": "骨海漂流体",
+                "count": "2/2",
+                "interval": 3.0,
+                "route": "↖",
+                "routeIndex": 23
+            },
+            {
+                "key": "enemy_2041_syjely",
+                "enemy": "骨海漂流体",
+                "count": "1/1",
+                "route": "↙",
+                "routeIndex": 26
+            }
+        ],
+        "10.0": [
+            {
+                "key": "enemy_2041_syjely",
+                "enemy": "骨海漂流体",
+                "count": "1/1",
+                "route": "↖",
+                "routeIndex": 24
+            }
+        ]
+    },
+    "syboss_jely3-fragment0": {
+        "0.0": [
+            {
+                "key": "enemy_2041_syjely_i",
+                "enemy": "冰爆源石虫",
+                "count": "1/1",
+                "route": "➚",
+                "routeIndex": 34
+            }
+        ],
+        "1.0": [
+            {
+                "key": "enemy_2041_syjely_g",
+                "enemy": "呼啸骑士团学徒",
+                "count": "1/1",
+                "route": "↑",
+                "routeIndex": 37
+            }
+        ],
+        "3.0": [
+            {
+                "key": "enemy_2041_syjely_e",
+                "enemy": "精干打手",
+                "count": "1/3",
+                "interval": 2.0,
+                "route": "↙",
+                "routeIndex": 29
+            },
+            {
+                "key": "enemy_2041_syjely_f",
+                "enemy": "法术近卫组长",
+                "count": "1/1",
+                "route": "↖",
+                "routeIndex": 31
+            }
+        ],
+        "5.0": [
+            {
+                "key": "enemy_2041_syjely_e",
+                "enemy": "精干打手",
+                "count": "2/3",
+                "interval": 2.0,
+                "route": "↙",
+                "routeIndex": 29
+            },
+            {
+                "key": "enemy_2041_syjely_i",
+                "enemy": "冰爆源石虫",
+                "count": "1/1",
+                "route": "➚",
+                "routeIndex": 35
+            },
+            {
+                "key": "enemy_2041_syjely_boom2",
+                "enemy": "游击队迫击炮兵",
+                "count": "1/1",
+                "route": "↑",
+                "routeIndex": 38
+            }
+        ],
+        "7.0": [
+            {
+                "key": "enemy_2041_syjely_e",
+                "enemy": "精干打手",
+                "count": "3/3",
+                "interval": 2.0,
+                "route": "↙",
+                "routeIndex": 29
+            },
+            {
+                "key": "enemy_2041_syjely_f",
+                "enemy": "法术近卫组长",
+                "count": "1/1",
+                "route": "↖",
+                "routeIndex": 32
+            }
+        ],
+        "9.0": [
+            {
+                "key": "enemy_2041_syjely_g",
+                "enemy": "呼啸骑士团学徒",
+                "count": "1/1",
+                "route": "↑",
+                "routeIndex": 39
+            }
+        ],
+        "10.0": [
+            {
+                "key": "enemy_2041_syjely_c",
+                "enemy": "萨卡兹大剑手",
+                "count": "1/1",
+                "route": "➚",
+                "routeIndex": 36
+            }
+        ],
+        "11.0": [
+            {
+                "key": "enemy_2041_syjely_f",
+                "enemy": "法术近卫组长",
+                "count": "1/1",
+                "route": "↖",
+                "routeIndex": 33
+            }
+        ],
+        "12.0": [
+            {
+                "key": "enemy_2041_syjely_e",
+                "enemy": "精干打手",
+                "count": "1/1",
+                "route": "↙",
+                "routeIndex": 30
+            }
+        ]
+    },
+    "syboss_jely3-fragment1": {
+        "0.0": [
+            {
+                "key": "enemy_2041_syjely_c",
+                "enemy": "萨卡兹大剑手",
+                "count": "1/1",
+                "route": "➚",
+                "routeIndex": 45
+            }
+        ],
+        "1.0": [
+            {
+                "key": "enemy_2041_syjely_g",
+                "enemy": "呼啸骑士团学徒",
+                "count": "1/1",
+                "route": "↑",
+                "routeIndex": 48
+            }
+        ],
+        "3.0": [
+            {
+                "key": "enemy_2041_syjely_e",
+                "enemy": "精干打手",
+                "count": "1/3",
+                "interval": 2.0,
+                "route": "↙",
+                "routeIndex": 40
+            },
+            {
+                "key": "enemy_2041_syjely_f",
+                "enemy": "法术近卫组长",
+                "count": "1/1",
+                "route": "↖",
+                "routeIndex": 42
+            }
+        ],
+        "5.0": [
+            {
+                "key": "enemy_2041_syjely_e",
+                "enemy": "精干打手",
+                "count": "2/3",
+                "interval": 2.0,
+                "route": "↙",
+                "routeIndex": 40
+            },
+            {
+                "key": "enemy_2041_syjely_c",
+                "enemy": "萨卡兹大剑手",
+                "count": "1/1",
+                "route": "➚",
+                "routeIndex": 46
+            },
+            {
+                "key": "enemy_2041_syjely_g",
+                "enemy": "呼啸骑士团学徒",
+                "count": "1/1",
+                "route": "↑",
+                "routeIndex": 49
+            }
+        ],
+        "7.0": [
+            {
+                "key": "enemy_2041_syjely_e",
+                "enemy": "精干打手",
+                "count": "3/3",
+                "interval": 2.0,
+                "route": "↙",
+                "routeIndex": 40
+            },
+            {
+                "key": "enemy_2041_syjely",
+                "enemy": "骨海漂流体",
+                "count": "1/1",
+                "route": "↖",
+                "routeIndex": 43
+            }
+        ],
+        "9.0": [
+            {
+                "key": "enemy_2041_syjely_g",
+                "enemy": "呼啸骑士团学徒",
+                "count": "1/1",
+                "route": "↑",
+                "routeIndex": 50
+            }
+        ],
+        "10.0": [
+            {
+                "key": "enemy_2041_syjely_i",
+                "enemy": "冰爆源石虫",
+                "count": "1/1",
+                "route": "➚",
+                "routeIndex": 47
+            }
+        ],
+        "11.0": [
+            {
+                "key": "enemy_2041_syjely_i",
+                "enemy": "冰爆源石虫",
+                "count": "1/1",
+                "route": "↖",
+                "routeIndex": 44
+            }
+        ],
+        "12.0": [
+            {
+                "key": "enemy_2041_syjely_e",
+                "enemy": "精干打手",
+                "count": "1/1",
+                "route": "↙",
+                "routeIndex": 41
+            }
+        ]
+    },
+    "syboss_jely3-fragment2": {
+        "0.0": [
+            {
+                "key": "enemy_2041_syjely_c",
+                "enemy": "萨卡兹大剑手",
+                "count": "1/1",
+                "route": "➚",
+                "routeIndex": 56
+            }
+        ],
+        "1.0": [
+            {
+                "key": "enemy_2041_syjely_n",
+                "enemy": "萨卡兹术师",
+                "count": "1/1",
+                "route": "↑",
+                "routeIndex": 59
+            }
+        ],
+        "3.0": [
+            {
+                "key": "enemy_2041_syjely_j",
+                "enemy": "领潮员",
+                "count": "1/3",
+                "interval": 2.0,
+                "route": "↙",
+                "routeIndex": 51
+            },
+            {
+                "key": "enemy_2041_syjely_f",
+                "enemy": "法术近卫组长",
+                "count": "1/1",
+                "route": "↖",
+                "routeIndex": 53
+            }
+        ],
+        "5.0": [
+            {
+                "key": "enemy_2041_syjely_j",
+                "enemy": "领潮员",
+                "count": "2/3",
+                "interval": 2.0,
+                "route": "↙",
+                "routeIndex": 51
+            },
+            {
+                "key": "enemy_2041_syjely_i",
+                "enemy": "冰爆源石虫",
+                "count": "1/1",
+                "route": "➚",
+                "routeIndex": 57
+            },
+            {
+                "key": "enemy_2041_syjely_boom2",
+                "enemy": "游击队迫击炮兵",
+                "count": "1/1",
+                "route": "↑",
+                "routeIndex": 60
+            }
+        ],
+        "7.0": [
+            {
+                "key": "enemy_2041_syjely_j",
+                "enemy": "领潮员",
+                "count": "3/3",
+                "interval": 2.0,
+                "route": "↙",
+                "routeIndex": 51
+            },
+            {
+                "key": "enemy_2041_syjely_f",
+                "enemy": "法术近卫组长",
+                "count": "1/1",
+                "route": "↖",
+                "routeIndex": 54
+            }
+        ],
+        "9.0": [
+            {
+                "key": "enemy_2041_syjely_g",
+                "enemy": "呼啸骑士团学徒",
+                "count": "1/1",
+                "route": "↑",
+                "routeIndex": 61
+            }
+        ],
+        "10.0": [
+            {
+                "key": "enemy_2041_syjely_i",
+                "enemy": "冰爆源石虫",
+                "count": "1/1",
+                "route": "➚",
+                "routeIndex": 58
+            }
+        ],
+        "11.0": [
+            {
+                "key": "enemy_2041_syjely",
+                "enemy": "骨海漂流体",
+                "count": "1/1",
+                "route": "↖",
+                "routeIndex": 55
+            }
+        ],
+        "12.0": [
+            {
+                "key": "enemy_2041_syjely_j",
+                "enemy": "领潮员",
+                "count": "1/1",
+                "route": "↙",
+                "routeIndex": 52
+            }
+        ]
+    },
+    "syboss_jely3-fragment3": {
+        "0.0": [
+            {
+                "key": "enemy_2041_syjely_c",
+                "enemy": "萨卡兹大剑手",
+                "count": "1/1",
+                "route": "➚",
+                "routeIndex": 67
+            }
+        ],
+        "1.0": [
+            {
+                "key": "enemy_2041_syjely_g",
+                "enemy": "呼啸骑士团学徒",
+                "count": "1/1",
+                "route": "↑",
+                "routeIndex": 70
+            }
+        ],
+        "3.0": [
+            {
+                "key": "enemy_2041_syjely_j",
+                "enemy": "领潮员",
+                "count": "1/3",
+                "interval": 2.0,
+                "route": "↙",
+                "routeIndex": 62
+            },
+            {
+                "key": "enemy_2041_syjely_f",
+                "enemy": "法术近卫组长",
+                "count": "1/1",
+                "route": "↖",
+                "routeIndex": 64
+            }
+        ],
+        "5.0": [
+            {
+                "key": "enemy_2041_syjely_j",
+                "enemy": "领潮员",
+                "count": "2/3",
+                "interval": 2.0,
+                "route": "↙",
+                "routeIndex": 62
+            },
+            {
+                "key": "enemy_2041_syjely_i",
+                "enemy": "冰爆源石虫",
+                "count": "1/1",
+                "route": "➚",
+                "routeIndex": 68
+            },
+            {
+                "key": "enemy_2041_syjely_g",
+                "enemy": "呼啸骑士团学徒",
+                "count": "1/1",
+                "route": "↑",
+                "routeIndex": 71
+            }
+        ],
+        "7.0": [
+            {
+                "key": "enemy_2041_syjely_j",
+                "enemy": "领潮员",
+                "count": "3/3",
+                "interval": 2.0,
+                "route": "↙",
+                "routeIndex": 62
+            },
+            {
+                "key": "enemy_2041_syjely_f",
+                "enemy": "法术近卫组长",
+                "count": "1/1",
+                "route": "↖",
+                "routeIndex": 65
+            }
+        ],
+        "9.0": [
+            {
+                "key": "enemy_2041_syjely_g",
+                "enemy": "呼啸骑士团学徒",
+                "count": "1/1",
+                "route": "↑",
+                "routeIndex": 72
+            }
+        ],
+        "10.0": [
+            {
+                "key": "enemy_2041_syjely_c",
+                "enemy": "萨卡兹大剑手",
+                "count": "1/1",
+                "route": "➚",
+                "routeIndex": 69
+            }
+        ],
+        "11.0": [
+            {
+                "key": "enemy_2041_syjely_f",
+                "enemy": "法术近卫组长",
+                "count": "1/1",
+                "route": "↖",
+                "routeIndex": 66
+            }
+        ],
+        "12.0": [
+            {
+                "key": "enemy_2041_syjely_e",
+                "enemy": "精干打手",
+                "count": "1/1",
+                "route": "↙",
+                "routeIndex": 63
+            }
+        ]
+    },
+    "syboss_jely3-fragment4": {
+        "0.0": [
+            {
+                "key": "enemy_2041_syjely_c",
+                "enemy": "萨卡兹大剑手",
+                "count": "1/1",
+                "route": "➚",
+                "routeIndex": 78
+            }
+        ],
+        "1.0": [
+            {
+                "key": "enemy_2041_syjely_g",
+                "enemy": "呼啸骑士团学徒",
+                "count": "1/1",
+                "route": "↑",
+                "routeIndex": 81
+            }
+        ],
+        "3.0": [
+            {
+                "key": "enemy_2041_syjely_j",
+                "enemy": "领潮员",
+                "count": "1/3",
+                "interval": 2.0,
+                "route": "↙",
+                "routeIndex": 73
+            },
+            {
+                "key": "enemy_2041_syjely_boom1",
+                "enemy": "游击队萨卡兹术师组长",
+                "count": "1/1",
+                "route": "↖",
+                "routeIndex": 75
+            }
+        ],
+        "5.0": [
+            {
+                "key": "enemy_2041_syjely_j",
+                "enemy": "领潮员",
+                "count": "2/3",
+                "interval": 2.0,
+                "route": "↙",
+                "routeIndex": 73
+            },
+            {
+                "key": "enemy_2041_syjely_i",
+                "enemy": "冰爆源石虫",
+                "count": "1/1",
+                "route": "➚",
+                "routeIndex": 79
+            },
+            {
+                "key": "enemy_2041_syjely_g",
+                "enemy": "呼啸骑士团学徒",
+                "count": "1/1",
+                "route": "↑",
+                "routeIndex": 82
+            }
+        ],
+        "7.0": [
+            {
+                "key": "enemy_2041_syjely_j",
+                "enemy": "领潮员",
+                "count": "3/3",
+                "interval": 2.0,
+                "route": "↙",
+                "routeIndex": 73
+            },
+            {
+                "key": "enemy_2041_syjely_boom1",
+                "enemy": "游击队萨卡兹术师组长",
+                "count": "1/1",
+                "route": "↖",
+                "routeIndex": 76
+            }
+        ],
+        "9.0": [
+            {
+                "key": "enemy_2041_syjely",
+                "enemy": "骨海漂流体",
+                "count": "1/1",
+                "route": "↑",
+                "routeIndex": 83
+            }
+        ],
+        "10.0": [
+            {
+                "key": "enemy_2041_syjely_i",
+                "enemy": "冰爆源石虫",
+                "count": "1/1",
+                "route": "➚",
+                "routeIndex": 80
+            }
+        ],
+        "11.0": [
+            {
+                "key": "enemy_2041_syjely_n",
+                "enemy": "萨卡兹术师",
+                "count": "1/1",
+                "route": "↖",
+                "routeIndex": 77
+            }
+        ],
+        "12.0": [
+            {
+                "key": "enemy_2041_syjely_e",
+                "enemy": "精干打手",
+                "count": "1/2",
+                "interval": 2.0,
+                "route": "↙",
+                "routeIndex": 74
+            }
+        ],
+        "14.0": [
+            {
+                "key": "enemy_2041_syjely_e",
+                "enemy": "精干打手",
+                "count": "2/2",
+                "interval": 2.0,
+                "route": "↙",
+                "routeIndex": 74
+            }
+        ]
+    },
+    "syboss_jely4-fragment0": {
+        "0.0": [
+            {
+                "key": "enemy_2041_syjely_c",
+                "enemy": "萨卡兹大剑手",
+                "count": "1/1",
+                "route": "➚",
+                "routeIndex": 89
+            }
+        ],
+        "1.0": [
+            {
+                "key": "enemy_2041_syjely_n",
+                "enemy": "萨卡兹术师",
+                "count": "1/1",
+                "route": "↑",
+                "routeIndex": 92
+            }
+        ],
+        "3.0": [
+            {
+                "key": "enemy_2041_syjely_e",
+                "enemy": "精干打手",
+                "count": "1/4",
+                "interval": 1.0,
+                "route": "↙",
+                "routeIndex": 84
+            },
+            {
+                "key": "enemy_2041_syjely_f",
+                "enemy": "法术近卫组长",
+                "count": "1/1",
+                "route": "↖",
+                "routeIndex": 86
+            },
+            {
+                "key": "enemy_2041_syjely_i",
+                "enemy": "冰爆源石虫",
+                "count": "1/1",
+                "route": "➚",
+                "routeIndex": 90
+            },
+            {
+                "key": "enemy_2041_syjely_g",
+                "enemy": "呼啸骑士团学徒",
+                "count": "1/1",
+                "route": "↑",
+                "routeIndex": 93
+            }
+        ],
+        "4.0": [
+            {
+                "key": "enemy_2041_syjely_e",
+                "enemy": "精干打手",
+                "count": "2/4",
+                "interval": 1.0,
+                "route": "↙",
+                "routeIndex": 84
+            }
+        ],
+        "5.0": [
+            {
+                "key": "enemy_2041_syjely_e",
+                "enemy": "精干打手",
+                "count": "3/4",
+                "interval": 1.0,
+                "route": "↙",
+                "routeIndex": 84
+            },
+            {
+                "key": "enemy_2041_syjely_f",
+                "enemy": "法术近卫组长",
+                "count": "1/1",
+                "route": "↖",
+                "routeIndex": 87
+            }
+        ],
+        "6.0": [
+            {
+                "key": "enemy_2041_syjely_e",
+                "enemy": "精干打手",
+                "count": "4/4",
+                "interval": 1.0,
+                "route": "↙",
+                "routeIndex": 84
+            },
+            {
+                "key": "enemy_2041_syjely_d",
+                "enemy": "爆破攻坚手",
+                "count": "1/2",
+                "interval": 5.0,
+                "route": "➚",
+                "routeIndex": 91
+            }
+        ],
+        "7.0": [
+            {
+                "key": "enemy_2041_syjely_f",
+                "enemy": "法术近卫组长",
+                "count": "1/1",
+                "route": "↖",
+                "routeIndex": 88
+            }
+        ],
+        "11.0": [
+            {
+                "key": "enemy_2041_syjely_d",
+                "enemy": "爆破攻坚手",
+                "count": "2/2",
+                "interval": 5.0,
+                "route": "➚",
+                "routeIndex": 91
+            }
+        ],
+        "12.0": [
+            {
+                "key": "enemy_2041_syjely_e",
+                "enemy": "精干打手",
+                "count": "1/3",
+                "interval": 1.0,
+                "route": "↙",
+                "routeIndex": 85
+            }
+        ],
+        "13.0": [
+            {
+                "key": "enemy_2041_syjely_e",
+                "enemy": "精干打手",
+                "count": "2/3",
+                "interval": 1.0,
+                "route": "↙",
+                "routeIndex": 85
+            }
+        ],
+        "14.0": [
+            {
+                "key": "enemy_2041_syjely_e",
+                "enemy": "精干打手",
+                "count": "3/3",
+                "interval": 1.0,
+                "route": "↙",
+                "routeIndex": 85
+            }
+        ]
+    },
+    "syboss_jely4-fragment1": {
+        "0.0": [
+            {
+                "key": "enemy_2041_syjely_c",
+                "enemy": "萨卡兹大剑手",
+                "count": "1/1",
+                "route": "➚",
+                "routeIndex": 99
+            }
+        ],
+        "3.0": [
+            {
+                "key": "enemy_2041_syjely_e",
+                "enemy": "精干打手",
+                "count": "1/4",
+                "interval": 1.0,
+                "route": "↙",
+                "routeIndex": 94
+            },
+            {
+                "key": "enemy_2041_syjely_f",
+                "enemy": "法术近卫组长",
+                "count": "1/1",
+                "route": "↖",
+                "routeIndex": 96
+            },
+            {
+                "key": "enemy_2041_syjely_i",
+                "enemy": "冰爆源石虫",
+                "count": "1/1",
+                "route": "➚",
+                "routeIndex": 100
+            },
+            {
+                "key": "enemy_2041_syjely_l",
+                "enemy": "碎岩者组长",
+                "count": "1/1",
+                "route": "↑",
+                "routeIndex": 102
+            }
+        ],
+        "4.0": [
+            {
+                "key": "enemy_2041_syjely_e",
+                "enemy": "精干打手",
+                "count": "2/4",
+                "interval": 1.0,
+                "route": "↙",
+                "routeIndex": 94
+            }
+        ],
+        "5.0": [
+            {
+                "key": "enemy_2041_syjely_e",
+                "enemy": "精干打手",
+                "count": "3/4",
+                "interval": 1.0,
+                "route": "↙",
+                "routeIndex": 94
+            },
+            {
+                "key": "enemy_2041_syjely_f",
+                "enemy": "法术近卫组长",
+                "count": "1/1",
+                "route": "↖",
+                "routeIndex": 97
+            },
+            {
+                "key": "enemy_2041_syjely_l",
+                "enemy": "碎岩者组长",
+                "count": "1/2",
+                "interval": 3.0,
+                "route": "↑",
+                "routeIndex": 103
+            }
+        ],
+        "6.0": [
+            {
+                "key": "enemy_2041_syjely_e",
+                "enemy": "精干打手",
+                "count": "4/4",
+                "interval": 1.0,
+                "route": "↙",
+                "routeIndex": 94
+            },
+            {
+                "key": "enemy_2041_syjely_d",
+                "enemy": "爆破攻坚手",
+                "count": "1/1",
+                "route": "➚",
+                "routeIndex": 101
+            }
+        ],
+        "7.0": [
+            {
+                "key": "enemy_2041_syjely_f",
+                "enemy": "法术近卫组长",
+                "count": "1/2",
+                "interval": 3.0,
+                "route": "↖",
+                "routeIndex": 98
+            }
+        ],
+        "8.0": [
+            {
+                "key": "enemy_2041_syjely_l",
+                "enemy": "碎岩者组长",
+                "count": "2/2",
+                "interval": 3.0,
+                "route": "↑",
+                "routeIndex": 103
+            }
+        ],
+        "10.0": [
+            {
+                "key": "enemy_2041_syjely_f",
+                "enemy": "法术近卫组长",
+                "count": "2/2",
+                "interval": 3.0,
+                "route": "↖",
+                "routeIndex": 98
+            }
+        ],
+        "12.0": [
+            {
+                "key": "enemy_2041_syjely_e",
+                "enemy": "精干打手",
+                "count": "1/3",
+                "interval": 1.0,
+                "route": "↙",
+                "routeIndex": 95
+            }
+        ],
+        "13.0": [
+            {
+                "key": "enemy_2041_syjely_e",
+                "enemy": "精干打手",
+                "count": "2/3",
+                "interval": 1.0,
+                "route": "↙",
+                "routeIndex": 95
+            }
+        ],
+        "14.0": [
+            {
+                "key": "enemy_2041_syjely_e",
+                "enemy": "精干打手",
+                "count": "3/3",
+                "interval": 1.0,
+                "route": "↙",
+                "routeIndex": 95
+            }
+        ]
+    },
+    "syboss_extra-fragment0": {
+        "0.0": [
+            {
+                "key": "enemy_2041_syjely_boom1",
+                "enemy": "游击队萨卡兹术师组长",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 104
+            },
+            {
+                "key": "enemy_2041_syjely_boom1",
+                "enemy": "游击队萨卡兹术师组长",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 109
+            }
+        ],
+        "0.1": [
+            {
+                "key": "enemy_2041_syjely_boom1",
+                "enemy": "游击队萨卡兹术师组长",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 105
+            },
+            {
+                "key": "enemy_2041_syjely_boom1",
+                "enemy": "游击队萨卡兹术师组长",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 106
+            },
+            {
+                "key": "enemy_2041_syjely_boom1",
+                "enemy": "游击队萨卡兹术师组长",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 107
+            }
+        ],
+        "0.2": [
+            {
+                "key": "enemy_2041_syjely_boom1",
+                "enemy": "游击队萨卡兹术师组长",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 108
+            }
+        ]
+    },
+    "syboss_extra-fragment1": {
+        "0.0": [
+            {
+                "key": "enemy_2041_syjely_boom1",
+                "enemy": "游击队萨卡兹术师组长",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 111
+            }
+        ],
+        "0.1": [
+            {
+                "key": "enemy_2041_syjely_boom1",
+                "enemy": "游击队萨卡兹术师组长",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 110
+            },
+            {
+                "key": "enemy_2041_syjely_boom1",
+                "enemy": "游击队萨卡兹术师组长",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 112
+            }
+        ],
+        "0.2": [
+            {
+                "key": "enemy_2041_syjely_boom1",
+                "enemy": "游击队萨卡兹术师组长",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 114
+            },
+            {
+                "key": "enemy_2041_syjely_o",
+                "enemy": "掠海漂移体",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 115
+            }
+        ],
+        "0.3": [
+            {
+                "key": "enemy_2041_syjely_boom1",
+                "enemy": "游击队萨卡兹术师组长",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 113
+            }
+        ]
+    },
+    "syboss_extra-fragment2": {
+        "0.0": [
+            {
+                "key": "enemy_2041_syjely_j",
+                "enemy": "领潮员",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 116
+            },
+            {
+                "key": "enemy_2041_syjely_j",
+                "enemy": "领潮员",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 121
+            }
+        ],
+        "0.1": [
+            {
+                "key": "enemy_2041_syjely_j",
+                "enemy": "领潮员",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 117
+            },
+            {
+                "key": "enemy_2041_syjely_j",
+                "enemy": "领潮员",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 118
+            }
+        ],
+        "0.2": [
+            {
+                "key": "enemy_2041_syjely_j",
+                "enemy": "领潮员",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 119
+            }
+        ],
+        "0.3": [
+            {
+                "key": "enemy_2041_syjely_j",
+                "enemy": "领潮员",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 120
+            }
+        ]
+    },
+    "syboss_extra-fragment3": {
+        "0.0": [
+            {
+                "key": "enemy_2041_syjely_f",
+                "enemy": "法术近卫组长",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 122
+            }
+        ],
+        "0.1": [
+            {
+                "key": "enemy_2041_syjely_f",
+                "enemy": "法术近卫组长",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 123
+            },
+            {
+                "key": "enemy_2041_syjely_f",
+                "enemy": "法术近卫组长",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 125
+            }
+        ],
+        "0.2": [
+            {
+                "key": "enemy_2041_syjely_f",
+                "enemy": "法术近卫组长",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 126
+            },
+            {
+                "key": "enemy_2041_syjely_f",
+                "enemy": "法术近卫组长",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 127
+            }
+        ],
+        "0.3": [
+            {
+                "key": "enemy_2041_syjely_f",
+                "enemy": "法术近卫组长",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 124
+            }
+        ]
+    },
+    "syboss_extra-fragment4": {
+        "0.0": [
+            {
+                "key": "enemy_2041_syjely_j",
+                "enemy": "领潮员",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 129
+            }
+        ],
+        "0.1": [
+            {
+                "key": "enemy_2041_syjely_o",
+                "enemy": "掠海漂移体",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 128
+            }
+        ],
+        "0.2": [
+            {
+                "key": "enemy_2041_syjely_j",
+                "enemy": "领潮员",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 130
+            },
+            {
+                "key": "enemy_2041_syjely_j",
+                "enemy": "领潮员",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 132
+            },
+            {
+                "key": "enemy_2041_syjely_j",
+                "enemy": "领潮员",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 133
+            }
+        ],
+        "0.3": [
+            {
+                "key": "enemy_2041_syjely_j",
+                "enemy": "领潮员",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 131
+            }
+        ]
+    },
+    "syboss_extra-fragment5": {
+        "0.0": [
+            {
+                "key": "enemy_2041_syjely_h",
+                "enemy": "深池重甲卫士队长",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 134
+            },
+            {
+                "key": "enemy_2041_syjely_h",
+                "enemy": "深池重甲卫士队长",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 136
+            }
+        ],
+        "0.1": [
+            {
+                "key": "enemy_2041_syjely_h",
+                "enemy": "深池重甲卫士队长",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 137
+            }
+        ],
+        "0.2": [
+            {
+                "key": "enemy_2041_syjely_h",
+                "enemy": "深池重甲卫士队长",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 138
+            },
+            {
+                "key": "enemy_2041_syjely_h",
+                "enemy": "深池重甲卫士队长",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 139
+            }
+        ],
+        "0.3": [
+            {
+                "key": "enemy_2041_syjely_h",
+                "enemy": "深池重甲卫士队长",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 135
+            }
+        ]
+    },
+    "syboss_extra-fragment6": {
+        "0.0": [
+            {
+                "key": "enemy_2041_syjely_h",
+                "enemy": "深池重甲卫士队长",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 142
+            }
+        ],
+        "0.1": [
+            {
+                "key": "enemy_2041_syjely_h",
+                "enemy": "深池重甲卫士队长",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 141
+            },
+            {
+                "key": "enemy_2041_syjely_o",
+                "enemy": "掠海漂移体",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 144
+            }
+        ],
+        "0.2": [
+            {
+                "key": "enemy_2041_syjely_h",
+                "enemy": "深池重甲卫士队长",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 140
+            },
+            {
+                "key": "enemy_2041_syjely_h",
+                "enemy": "深池重甲卫士队长",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 143
+            }
+        ],
+        "0.3": [
+            {
+                "key": "enemy_2041_syjely_h",
+                "enemy": "深池重甲卫士队长",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 145
+            }
+        ]
+    },
+    "syboss_extra-fragment7": {
+        "0.0": [
+            {
+                "key": "enemy_2041_syjely_m",
+                "enemy": "帝国前锋精锐",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 146
+            },
+            {
+                "key": "enemy_2041_syjely_m",
+                "enemy": "帝国前锋精锐",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 151
+            }
+        ],
+        "0.1": [
+            {
+                "key": "enemy_2041_syjely_m",
+                "enemy": "帝国前锋精锐",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 147
+            },
+            {
+                "key": "enemy_2041_syjely_m",
+                "enemy": "帝国前锋精锐",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 149
+            }
+        ],
+        "0.2": [
+            {
+                "key": "enemy_2041_syjely_m",
+                "enemy": "帝国前锋精锐",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 150
+            }
+        ],
+        "0.3": [
+            {
+                "key": "enemy_2041_syjely_m",
+                "enemy": "帝国前锋精锐",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 148
+            }
+        ]
+    },
+    "syboss_extra-fragment8": {
+        "0.0": [
+            {
+                "key": "enemy_2041_syjely_boom2",
+                "enemy": "游击队迫击炮兵",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 154
+            },
+            {
+                "key": "enemy_2041_syjely_boom2",
+                "enemy": "游击队迫击炮兵",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 157
+            }
+        ],
+        "0.1": [
+            {
+                "key": "enemy_2041_syjely_boom2",
+                "enemy": "游击队迫击炮兵",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 152
+            }
+        ],
+        "0.2": [
+            {
+                "key": "enemy_2041_syjely_boom2",
+                "enemy": "游击队迫击炮兵",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 153
+            },
+            {
+                "key": "enemy_2041_syjely_boom2",
+                "enemy": "游击队迫击炮兵",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 156
+            }
+        ],
+        "0.3": [
+            {
+                "key": "enemy_2041_syjely_boom2",
+                "enemy": "游击队迫击炮兵",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 155
+            }
+        ]
+    },
+    "syboss_extra-fragment9": {
+        "0.0": [
+            {
+                "key": "enemy_2041_syjely_m",
+                "enemy": "帝国前锋精锐",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 158
+            },
+            {
+                "key": "enemy_2041_syjely_m",
+                "enemy": "帝国前锋精锐",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 159
+            },
+            {
+                "key": "enemy_2041_syjely_n",
+                "enemy": "萨卡兹术师",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 160
+            }
+        ],
+        "0.1": [
+            {
+                "key": "enemy_2041_syjely_m",
+                "enemy": "帝国前锋精锐",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 161
+            },
+            {
+                "key": "enemy_2041_syjely_m",
+                "enemy": "帝国前锋精锐",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 163
+            }
+        ],
+        "0.3": [
+            {
+                "key": "enemy_2041_syjely_m",
+                "enemy": "帝国前锋精锐",
+                "count": "1/1",
+                "route": null,
+                "routeIndex": 162
+            }
+        ]
+    }
+}
