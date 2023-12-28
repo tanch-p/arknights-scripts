@@ -7,15 +7,17 @@ pp = pprint.PrettyPrinter(indent=4)
 
 script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 mzk_path = os.path.join(
-    script_dir, "zh_CN\\gamedata\\levels\\obt\\roguelike\\ro2\\level_rogue2_b-7.json"
+    script_dir, "cn_data\\zh_CN\\gamedata\\levels\\obt\\roguelike\\ro2\\level_rogue2_b-7.json"
 )
 with open(mzk_path, encoding="utf-8") as f:
     mzk_stage_info = json.load(f)
 
 lower_left_routes = []
 upper_left_routes = []
-top_routes = []
+top_routes = [] 
 upper_right_routes = []
+extra_routes = []
+extra_routes_indexes = []
 
 key_replace = {
     "enemy_2041_syjely_e": "精干打手",
@@ -45,6 +47,10 @@ def get_start_pos(routeIndex):
         return "↑"
     if routeIndex in upper_right_routes:
         return "➚"
+    start_pos = mzk_stage_info['extraRoutes'][routeIndex]['startPosition']
+    x = start_pos['col']
+    y = start_pos['row']
+    return f"x:{x} y:{y}"
 
 
 for index, route in enumerate(mzk_stage_info['extraRoutes']):
@@ -65,6 +71,22 @@ for index, route in enumerate(mzk_stage_info['extraRoutes']):
         top_routes.append(index)
     else:
         pass
+    
+    if index > 103:
+        found = False
+        for item in extra_routes:
+            if route == item:
+                found = True
+                break
+        if not found:
+            extra_routes.append(route)
+            extra_routes_indexes.append(index)
+
+print(extra_routes_indexes)
+print(len(extra_routes_indexes))
+
+with open("test.json", "w", encoding="utf-8") as f:
+    json.dump(extra_routes, f, ensure_ascii=False, indent=4)
 
 prev_phase_time = 0
 data = {}

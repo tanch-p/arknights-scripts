@@ -27,7 +27,7 @@ for key in extra_stages_list:
 
     stage_data_path = os.path.join(
         script_dir,
-        f"zh_CN/gamedata/levels/obt/roguelike/{folder}/{key}.json",
+        f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{folder}/{key}.json",
     )
 
     with open(stage_data_path, encoding="utf-8") as f:
