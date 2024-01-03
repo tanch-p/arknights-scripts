@@ -50,7 +50,7 @@ test_cases = [
 for case in test_cases:
     stage_data_path = os.path.join(
         script_dir,
-        f"zh_CN/gamedata/levels/obt/roguelike/{case['path']}",
+        f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{case['path']}",
     )
     with open(stage_data_path, encoding="utf-8") as f:
         stage_data = json.load(f)

@@ -287,7 +287,7 @@ script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
 stage_data_path = os.path.join(
     script_dir,
-    f"zh_CN/gamedata/levels/obt/roguelike/ro3/level_rogue3_1-4.json",
+    f"cn_data/zh_CN/gamedata/levels/obt/roguelike/ro3/level_rogue3_1-3.json",
 )
 with open(stage_data_path, encoding="utf-8") as f:
     stage_data = json.load(f)
