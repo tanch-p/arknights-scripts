@@ -41,7 +41,7 @@ with open("talent_overwrite_list.json", encoding="utf-8") as f:
 stages_list = []
 
 roguelike_topics = [
-    # {"topic": "rogue_1", "folder": "ro1"},
+    {"topic": "rogue_1", "folder": "ro1"},
     {"topic": "rogue_2", "folder": "ro2"},
     {"topic": "rogue_3", "folder": "ro3"},
 ]
@@ -132,7 +132,9 @@ for topic_dict in roguelike_topics:
                             overwrittenData["range"] = enemy["overwrittenData"][
                                 "rangeRadius"
                             ]["m_value"]
-                        if enemy['overwrittenData']['talentBlackboard']:
+                        if enemy['overwrittenData']['talentBlackboard'] or enemy['overwrittenData']['skills']:
+                            if levelId not in talent_overwrite_list and enemy['id'] != 'enemy_1106_byokai_b':
+                                print(enemy['id'],levelId)
                             if enemy['id'] == 'enemy_1106_byokai_b' and folder == 'ro3':
                                 overwrittenData['talentBlackboard'] = talent_overwrite_list['rogue_3'][enemy['id']]
                             elif levelId in talent_overwrite_list and enemy['id'] in talent_overwrite_list[levelId]:

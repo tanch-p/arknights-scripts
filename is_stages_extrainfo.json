@@ -15809,15 +15809,15 @@
     "addInfo_en": ["【路网】效果: Additional 2 <匪帮射手> appear"],
     "eliteDesc_zh": [
       "所有敌方单位的攻击力+20%，防御力+10%，生命值+50%",
-      "辐能源石虫自爆时增加的能量+3"
+      "辐能源石虫自爆时增加的能量额外+3"
     ],
     "eliteDesc_ja": [
       "敵全員の攻撃力+20%、防御力+10%、最大HP+50%",
-      "<辐能源石虫>自爆時補充するエネルギー+3"
+      "<辐能源石虫>自爆時補充するエネルギーさらに+3"
     ],
     "eliteDesc_en": [
       "All enemy units have +20% ATK, +10% DEF, and +50% Max HP",
-      "<辐能源石虫>'s energy charge upon explosion +3"
+      "<辐能源石虫>'s energy charge upon explosion additional +3"
     ],
     "elite_mods": [
       {
@@ -15839,13 +15839,13 @@
               "hits": 1,
               "tooltip": {
                 "en": [
-                  "Explodes on death, giving all enemies $+3$ energy and deals <v.atk.multiplier>% ATK dmg to nearby units (Can be silenced)"
+                  "Explodes on death, giving all enemies $+4$ energy and deals <v.atk.multiplier>% ATK dmg to nearby units (Can be silenced)"
                 ],
                 "ja": [
-                  "死亡時には爆発する、マップ上の敵のエネルギーを$3$点補充して、周囲に攻撃力<v.atk.multiplier>%の術ダメージを与える（無効化可能）"
+                  "死亡時には爆発する、マップ上の敵のエネルギーを$4$点補充して、周囲に攻撃力<v.atk.multiplier>%の術ダメージを与える（無効化可能）"
                 ],
                 "zh": [
-                  "死亡后使场上所有敌人获得$3$点能量，并对周围我造成攻击力<v.atk.multiplier>%的法术溅射伤害（可被沉默）"
+                  "死亡后使场上所有敌人获得$4$点能量，并对周围我造成攻击力<v.atk.multiplier>%的法术溅射伤害（可被沉默）"
                 ]
               }
             }
@@ -17647,8 +17647,8 @@
               },
               "hits": 1,
               "tooltip": {
-                "en": ["隐匿效果失效后的下一次攻击造成更高伤害"],
-                "ja": ["隐匿效果失效后的下一次攻击造成更高伤害"],
+                "en": ["Attacks from Stealth state does $400$% damage"],
+                "ja": ["ステルス状態からの攻撃の倍率が$400$%に増加"],
                 "zh": ["隐匿效果失效后的下一次攻击造成更高伤害"]
               }
             }
@@ -17659,7 +17659,7 @@
         "targets": ["enemy_1300_ymmir_2"],
         "mods": {
           "special": {
-            "ymmir_2": {
+            "ymmir_1": {
               "atk": {
                 "multiplier": 2
               },
@@ -17669,18 +17669,20 @@
                 "zh": "技能"
               },
               "hits": 1,
+              "value": 225,
               "tooltip": {
                 "en": [
-                  "技能（初始10SP，消耗35SP）",
-                  "蓄力约5s后，对目标造成攻击力200%的法术伤害，之后攻击速度$+225$，持续$30s$"
+                  "Skill (Initial CD: 10s, ~CD: 35s)",
+                  "after charging for 5s does <v.atk.multiplier>% dmg to target and gains ASPD +$<v.value>$ for $30$s"
                 ],
                 "ja": [
-                  "技能（初始10SP，消耗35SP）",
-                  "蓄力约5s后，对目标造成攻击力200%的法术伤害，之后攻击速度$+225$，持续$30s$"
+                  "スキル（初動10秒/再動35秒）",
+                  "5秒間チャージした後、攻撃力の<v.atk.multiplier>%の術ダメージを与える",
+                  "その後$30$秒間、自身の攻撃速度+$<v.value>$"
                 ],
                 "zh": [
-                  "技能（初始10SP，消耗35SP）",
-                  "蓄力约5s后，对目标造成攻击力200%的法术伤害，之后攻击速度$+225$，持续$30s$"
+                  "技能（初始冷却10s，后35s）",
+                  "蓄力约5s后，对目标造成攻击力<v.atk.multiplier>%的法术伤害，之后攻击速度+$<v.value>$，持续$30$s"
                 ]
               }
             }
