@@ -31,10 +31,10 @@ for key in existing_data:
     data = existing_data[key]
 
     data["name_ja"] = (
-        jp_enemy_handbook[key]["name"] if key in jp_enemy_handbook else ""
+        jp_enemy_handbook['enemyData'][key]["name"] if key in jp_enemy_handbook['enemyData'] else ""
     )
     data["name_en"] = (
-        en_enemy_handbook[key]["name"] if key in en_enemy_handbook else ""
+        en_enemy_handbook['enemyData'][key]["name"] if key in en_enemy_handbook['enemyData'] else ""
     )
     enemies[key] = data
 
