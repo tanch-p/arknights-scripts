@@ -1,10 +1,9 @@
 import json
 import os
-import sqlite3
 
 status_ailments = ["stun", "sluggish", "sleep",
                    "silence", "levitate", "cold",
-                   "root", "fragile", "berserk",
+                   "root", "tremble", "fragile", "berserk",
                    "dying", "buffres", "dt.element",
                    "shield", "strong", "magicfragile",
                    "invisible", "camou", "protect",
@@ -14,21 +13,21 @@ status_ailments = ["stun", "sluggish", "sleep",
 script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
 cn_char_table_path = os.path.join(
-    script_dir, "zh_CN/gamedata/excel/character_table.json")
+    script_dir, "cn_data/zh_CN/gamedata/excel/character_table.json")
 cn_skill_table_path = os.path.join(
-    script_dir, "zh_CN/gamedata/excel/skill_table.json")
+    script_dir, "cn_data/zh_CN/gamedata/excel/skill_table.json")
 cn_uniequip_path = os.path.join(
-    script_dir, "zh_CN/gamedata/excel/uniequip_table.json")
+    script_dir, "cn_data/zh_CN/gamedata/excel/uniequip_table.json")
 cn_battle_equip_path = os.path.join(
-    script_dir, "zh_CN/gamedata/excel/battle_equip_table.json")
+    script_dir, "cn_data/zh_CN/gamedata/excel/battle_equip_table.json")
 en_char_table_path = os.path.join(
-    script_dir, "en_US/gamedata/excel/character_table.json")
+    script_dir, "global_data/en_US/gamedata/excel/character_table.json")
 en_skill_table_path = os.path.join(
-    script_dir, "en_US/gamedata/excel/skill_table.json")
+    script_dir, "global_data/en_US/gamedata/excel/skill_table.json")
 jp_char_table_path = os.path.join(
-    script_dir, "ja_JP/gamedata/excel/character_table.json")
+    script_dir, "global_data/ja_JP/gamedata/excel/character_table.json")
 jp_skill_table_path = os.path.join(
-    script_dir, "ja_JP/gamedata/excel/skill_table.json")
+    script_dir, "global_data/ja_JP/gamedata/excel/skill_table.json")
 
 with open(cn_char_table_path, encoding='utf-8') as f:
     cn_char_table = json.load(f)
@@ -49,7 +48,7 @@ with open(jp_skill_table_path, encoding='utf-8') as f:
 
 with open('chara_skills.json', encoding='utf-8') as f:
     chara_skills = json.load(f)
-with open('character_talent_tags.json', encoding='utf-8') as f:
+with open('chara_talents.json', encoding='utf-8') as f:
     chara_talents = json.load(f)
 
 data = []
@@ -63,7 +62,8 @@ for id in filtered_cn_char_table:
     skills = []
     talents = []
     for skill in character_dict['skills']:
-        blackboard = chara_skills[skill['skillId']]['blackboard']
+        blackboard = chara_skills[skill['skillId']
+                                  ]['blackboard'] if skill['skillId'] in chara_skills else None
         skills.append({"skillId": skill['skillId'], "blackboard": blackboard})
     if character_dict['talents']:
         for talent_index, talent in enumerate(character_dict['talents']):
@@ -79,7 +79,7 @@ for id in filtered_cn_char_table:
                 talent_holder["name_ja"] = jp_char_table[id]['talents'][talent_index]['candidates'][max_candidate_index]["name"]
                 talent_holder["description_ja"] = jp_char_table[id]['talents'][
                     talent_index]['candidates'][max_candidate_index]["description"]
-            talent_holder['blackboard'] = chara_talents[id]['talents'][talent_index]['blackboard']
+            talent_holder['blackboard'] = chara_talents[id]['talents'][talent_index]['blackboard'] if id in chara_talents else None
             talents.append(talent_holder)
 
     uniequip_list = []
@@ -90,7 +90,7 @@ for id in filtered_cn_char_table:
                    "nationId": character_dict['nationId'], "groupId": character_dict['groupId'], "tagList": [],
                    "isSpChar": character_dict['isSpChar'], "rarity": character_dict['rarity'],
                    "profession": character_dict['profession'], "subProfessionId": character_dict['subProfessionId'],
-                   "skills": skills, "talents": talents, "tagList": [], "uniequip": uniequip_list}
+                   "skills": skills, "talents": talents, "tagList": []}
     if id in en_char_table:
         return_dict['name_en'] = en_char_table[id]['name']
         return_dict['name_ja'] = jp_char_table[id]['name']
@@ -123,45 +123,13 @@ with open('characters.json', 'w', encoding='utf-8') as f:
                 skill_ailments = [
                     ailment for ailment in status_ailments if ailment in maxed_talent["description"]]
                 talent_holder['blackboard'] = [
-                    {"key": ailment, "value": None, "prob": 1, "target_air": False, } for ailment in skill_ailments]
+                    {"key": ailment, "value": None, "prob": 1, "target_air": False, "condition": None} for ailment in skill_ailments]
                 talents.append(talent_holder)
 
         return_dict[id] = {
             "appellation": filtered_cn_char_table[id]['appellation'], "talents": talents}
 
-with open('character_talent_tags.json', 'w', encoding='utf-8') as f:
-    json.dump(return_dict, f, ensure_ascii=False, indent=4)
-
-# append new skills to skill tags json
-    new_skill_list = [skill for skill in dict.keys(
-        cn_skill_table) if skill not in set(dict.keys({}))]
-    return_dict = {}
-    for skill in new_skill_list:
-        if 'sktok' in skill:
-            continue
-        chara_list = []
-        for id in cn_char_table:
-            for skill_dict in cn_char_table[id]["skills"]:
-                if skill_dict["skillId"] == skill:
-                    chara_list.append(cn_char_table[id]['name'])
-        levels = cn_skill_table[skill]['levels']
-
-        if len(levels) > 6:
-            l7 = levels[6]
-            m1 = None
-            m2 = None
-            m3 = None
-            if len(levels) > 8:
-                m1 = levels[7]
-                m2 = levels[8]
-                m3 = levels[9]
-            levels = [l7, m1, m2, m3]
-        skill_ailments = [
-            ailment for ailment in status_ailments if cn_skill_table[skill]["levels"][0]["description"] and ailment in cn_skill_table[skill]["levels"][0]["description"]]
-        return_dict[skill] = {"chara_list": chara_list, "blackboard": [
-            {"key": ailment, "value": None, "prob": 1, "target_air": False, } for ailment in skill_ailments], "levels": levels}
-
-with open('chara_skills.json', 'w', encoding='utf-8') as f:
+with open('chara_talents.json', 'w', encoding='utf-8') as f:
     json.dump(return_dict, f, ensure_ascii=False, indent=4)
 
 
@@ -169,3 +137,6 @@ with open('chara_skills.json', 'w', encoding='utf-8') as f:
 # can affect air? target ground? enemy types
 # roguelike artifacts
 # summons
+# values with a range will always take minimum
+# probability
+# condition
