@@ -4,15 +4,15 @@ script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
 with open(os.path.join(
         script_dir,
-        f"zh_CN/gamedata/excel/gamedata_const.json"), encoding="utf-8") as f:
+        f"cn_data/zh_CN/gamedata/excel/gamedata_const.json"), encoding="utf-8") as f:
     cn_gameconst = json.load(f)
 with open(os.path.join(
         script_dir,
-        f"en_US/gamedata/excel/gamedata_const.json"), encoding="utf-8") as f:
+        f"global_data/en_US/gamedata/excel/gamedata_const.json"), encoding="utf-8") as f:
     en_gameconst = json.load(f)
 with open(os.path.join(
         script_dir,
-        f"ja_JP/gamedata/excel/gamedata_const.json"), encoding="utf-8") as f:
+        f"global_data/ja_JP/gamedata/excel/gamedata_const.json"), encoding="utf-8") as f:
     jp_gameconst = json.load(f)
 
 data = {}

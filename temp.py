@@ -33,3 +33,5 @@ script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 #             print(key)
 
 
+# handpicked 50 characters for testing
+testing_chars = ['char_4116_blkkgt','char_003_kalts','char_4048_doroth','']

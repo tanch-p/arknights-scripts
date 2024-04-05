@@ -1,14 +1,17 @@
 import json
 import os
 
-status_ailments = ["stun", "sluggish", "sleep",
-                   "silence", "levitate", "cold",
-                   "root", "tremble", "fragile", "berserk",
-                   "dying", "buffres", "dt.element",
-                   "shield", "strong", "magicfragile",
-                   "invisible", "camou", "protect",
-                   "dt.apoptosis2", "steal", "weightless",
-                   "charged", "barrier", "overdrive", "inspire"]
+buffs_list = [
+    "berserk", "dying", "buffres",
+    "shield", "strong", "invisible",
+    "camou", "protect", "weightless",
+    "charged", "barrier", "overdrive",
+    "inspire"]
+debuffs_list = ["stun", "sluggish", "sleep",
+           "silence", "levitate", "cold",
+           "magicfragile", "root", "tremble",
+           "fragile", "dt.apoptosis2", "dt.burning2",
+           "steal", "weightless"]
 
 script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
@@ -112,7 +115,7 @@ with open('characters.json', 'w', encoding='utf-8') as f:
                 maxed_talent = talent['candidates'][max_candidate_index]
                 talent_holder = {
                     "prefabKey": maxed_talent["prefabKey"], "name_zh": maxed_talent["name"], "name_en": "", "name_ja": "",
-                    "description_zh": maxed_talent["description"], "description_en": "", "description_ja": ""}
+                    "description_zh": maxed_talent["description"], "description_en": "", "description_ja": "", "blackboard":maxed_talent['blackboard']}
                 if id in en_char_table:
                     talent_holder["name_en"] = en_char_table[id]['talents'][talent_index]['candidates'][max_candidate_index]["name"]
                     talent_holder["description_en"] = en_char_table[id]['talents'][
@@ -120,14 +123,10 @@ with open('characters.json', 'w', encoding='utf-8') as f:
                     talent_holder["name_ja"] = jp_char_table[id]['talents'][talent_index]['candidates'][max_candidate_index]["name"]
                     talent_holder["description_ja"] = jp_char_table[id]['talents'][
                         talent_index]['candidates'][max_candidate_index]["description"]
-                skill_ailments = [
-                    ailment for ailment in status_ailments if ailment in maxed_talent["description"]]
-                talent_holder['blackboard'] = [
-                    {"key": ailment, "value": None, "prob": 1, "target_air": False, "condition": None} for ailment in skill_ailments]
                 talents.append(talent_holder)
-
         return_dict[id] = {
             "appellation": filtered_cn_char_table[id]['appellation'], "talents": talents}
+    return_dict = chara_talents | return_dict
 
 with open('chara_talents.json', 'w', encoding='utf-8') as f:
     json.dump(return_dict, f, ensure_ascii=False, indent=4)

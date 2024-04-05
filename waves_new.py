@@ -285,15 +285,16 @@ def create_timeline(waves):
 
 script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
+stage_id = 'level_rogue3_1-1'
 stage_data_path = os.path.join(
     script_dir,
-    f"cn_data/zh_CN/gamedata/levels/obt/roguelike/ro3/level_rogue3_1-3.json",
+    f"cn_data/zh_CN/gamedata/levels/obt/roguelike/ro3/{stage_id}.json",
 )
 with open(stage_data_path, encoding="utf-8") as f:
     stage_data = json.load(f)
     normal_group_name, elite_group_name, enemies_to_replace = itemgetter(
         'normal_group_name', 'elite_group_name', 'enemies_to_replace')(get_runes_data(stage_data['runes']))
-    stage_id = 'level_rogue3_1-1.json'
+    
     has_bonus_wave = not (
         '_ev-' in stage_id or '_t-' in stage_id or "_b-" in stage_id)
     permutations = get_group_permutations(stage_data)

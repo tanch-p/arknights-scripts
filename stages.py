@@ -141,9 +141,13 @@ for topic_dict in roguelike_topics:
                                 overwrittenData['talentBlackboard'] = talent_overwrite_list[levelId][enemy['id']]
                     if len(overwrittenData) == 0:
                         overwrittenData = None
+                    '''
+                    LOGIC FOR ENEMY LIST
+                    if elite_enemy_list is none, just take enemy_list
+                    '''
                     min_count = 0
                     max_count = 0
-                    elite_min_count = None
+                    elite_min_count = None 
                     elite_max_count = None
                     if enemy_list is not None:
                         for enemy_info in enemy_list:
