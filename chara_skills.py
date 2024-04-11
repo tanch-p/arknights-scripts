@@ -47,7 +47,7 @@ with open('chara_skills.json', encoding='utf-8') as f:
 
 # append new skills to skill tags json
     new_skill_list = [skill for skill in dict.keys(
-        cn_skill_table) if skill not in set(dict.keys({}))]
+        cn_skill_table) if skill not in set(dict.keys(chara_skills))]
     return_dict = {}
     for skill in new_skill_list:
         if 'sktok' in skill:
@@ -98,7 +98,7 @@ with open('chara_skills.json', encoding='utf-8') as f:
         #         blackboard.append(
         #             {"key": key, "value": None, "prob": 1, "condition": None})
         return_dict[skill] = {"chara_list": chara_list,
-                              "levels": levels, "blackboard": blackboard}
+                              "levels": levels, "tags":[], "blackboard": blackboard}
         # if skill == 'skchr_mm_1':
         #     print(debuffs)
     return_dict = chara_skills | return_dict

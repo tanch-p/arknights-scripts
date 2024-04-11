@@ -1,0 +1,3 @@
+for ailment debuffs - value = duration
+for buffs/other debuffs like fragile - value = value, duration = duration
+all values are to be set as highest values inclusive of module effects: for example, manticore's S1M3 50% slow, + module = 60% slow

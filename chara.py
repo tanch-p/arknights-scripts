@@ -91,7 +91,7 @@ with open('characters.json', 'w', encoding='utf-8') as f:
 
 # append new charas to char talent tags json
     new_chara_list = [id for id in dict.keys(
-        filtered_cn_char_table) if id not in set(dict.keys({}))]
+        filtered_cn_char_table) if id not in set(dict.keys(chara_talents))]
     return_dict = {}
     for id in new_chara_list:
         talents = []
@@ -101,7 +101,7 @@ with open('characters.json', 'w', encoding='utf-8') as f:
                 maxed_talent = talent['candidates'][max_candidate_index]
                 talent_holder = {
                     "prefabKey": maxed_talent["prefabKey"], "name_zh": maxed_talent["name"], "name_en": "", "name_ja": "",
-                    "description_zh": maxed_talent["description"], "description_en": "", "description_ja": "", "blackboard":maxed_talent['blackboard']}
+                    "description_zh": maxed_talent["description"], "description_en": "", "description_ja": "", "tags":[],"blackboard":maxed_talent['blackboard']}
                 if id in en_char_table:
                     talent_holder["name_en"] = en_char_table[id]['talents'][talent_index]['candidates'][max_candidate_index]["name"]
                     talent_holder["description_en"] = en_char_table[id]['talents'][

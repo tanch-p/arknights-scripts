@@ -40,7 +40,7 @@ with open('uniequip.json', encoding='utf-8') as f:
 data = []
 
 new_equips = [id for id in dict.keys(
-    cn_battle_equip_table) if id not in set(dict.keys({}))]
+    cn_uniequip_table['equipDict']) if id not in set(dict.keys(curr_uniequip))]
 return_dict = {}
 for equip_id in new_equips:
     equip = cn_uniequip_table['equipDict'][equip_id]
@@ -87,7 +87,7 @@ for equip_id in new_equips:
                                       })
                 blackboard = blackboard + max_candidate['blackboard']
         combat_data = {'parts': concise_parts, 'attributeBlackboard': phase3['attributeBlackboard'],
-                       'tokenAttributeBlackboard': phase3['tokenAttributeBlackboard'], "blackboard":blackboard}
+                       'tokenAttributeBlackboard': phase3['tokenAttributeBlackboard'], "tags":[], "blackboard":blackboard}
 
     return_dict[equip_id] = {
         "uniEquipId": equip['uniEquipId'], "typeIcon": equip['typeIcon'], 'charId': char_id, "combatData": combat_data}
