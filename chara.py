@@ -76,7 +76,7 @@ for id in filtered_cn_char_table:
             uniequip_list.append(uniequip_dict[equip_id])
 
     return_dict = {"id": id, "appellation": character_dict['appellation'], "name_zh": character_dict['name'], "name_en": "", "name_ja": "",
-                   "nationId": character_dict['nationId'], "groupId": character_dict['groupId'], "tagList": [],
+                   "nationId": character_dict['nationId'], "groupId": character_dict['groupId'], "teamId": character_dict['teamId'], "tagList": [],
                    "isSpChar": character_dict['isSpChar'], "rarity": character_dict['rarity'],
                    "profession": character_dict['profession'], "subProfessionId": character_dict['subProfessionId'],
                    "skills": skills, "talents": talents, "tagList": [], 'uniequip':uniequip_list}

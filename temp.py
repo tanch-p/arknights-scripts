@@ -7,13 +7,13 @@ pp = pprint.PrettyPrinter(indent=4)
 
 script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
-# with open('characters.json', encoding='utf-8') as f:
-#     char_table = json.load(f)
+with open('characters.json', encoding='utf-8') as f:
+    char_table = json.load(f)
 
-# list = []
-# for chara in char_table:
-#     if not chara['subProfessionId'] in list:
-#         list.append(chara['subProfessionId'])
+list = []
+for chara in char_table:
+    if chara['teamId'] is not None and chara['groupId'] is not None:
+        print(chara["id"])
 
 # return_dict = [ele for ele in list]
 
