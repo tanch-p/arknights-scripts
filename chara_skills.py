@@ -50,7 +50,7 @@ with open('chara_skills.json', encoding='utf-8') as f:
         cn_skill_table) if skill not in set(dict.keys(chara_skills))]
     return_dict = {}
     for skill in new_skill_list:
-        if 'sktok' in skill:
+        if 'sktok' in skill or 'skcom' in skill:
             continue
         chara_list = []
         for id in cn_char_table:

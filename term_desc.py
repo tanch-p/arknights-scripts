@@ -16,6 +16,7 @@ with open(os.path.join(
     jp_gameconst = json.load(f)
 
 data = {}
+data['richTextStyles'] = cn_gameconst['richTextStyles']
 for key in cn_gameconst['termDescriptionDict']:
     global_has_key = key in en_gameconst['termDescriptionDict']
     data[key] = {

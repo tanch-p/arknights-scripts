@@ -1,219 +1,4137 @@
 {
-    "groups": {
-        "none": {
-            "zh": "无团队",
-            "en": "No team",
-            "ja": "所属なし"
-        },
-        "rhodes": {
-            "zh": "罗德岛",
-            "en": "Rhodes Island",
-            "ja": "ロドス・アイランド"
-        },
-        "yan": {
-            "zh": "炎",
-            "en": "Yan",
-            "ja": "炎"
-        },
-        "lungmen": {
-            "zh": "炎-龙门",
-            "en": "Yan-Lungmen",
-            "ja": "炎−龍門"
-        },
-        "egir": {
-            "zh": "阿戈尔",
-            "en": "Ægir",
-            "ja": "エーギル"
-        },
-        "bolivar": {
-            "zh": "玻利瓦尔",
-            "en": "Bolívar",
-            "ja": "ボリバル"
-        },
-        "columbia": {
-            "zh": "哥伦比亚",
-            "en": "Columbia",
-            "ja": "クルビア"
-        },
-        "higashi": {
-            "zh": "东",
-            "en": "Higashi",
-            "ja": "極東"
-        },
-        "iberia": {
-            "zh": "伊比利亚",
-            "en": "Iberia",
-            "ja": "イベリア"
-        },
-        "kazimierz": {
-            "zh": "卡西米尔",
-            "en": "Kazimierz",
-            "ja": "カジミエーシュ"
-        },
-        "kjerag": {
-            "zh": "谢拉格",
-            "en": "Kjerag",
-            "ja": "イェラグ"
-        },
-        "laterano": {
-            "zh": "拉特兰",
-            "en": "Laterano",
-            "ja": "ラテラーノ"
-        },
-        "leithanien": {
-            "zh": "莱塔尼亚",
-            "en": "Leithanien",
-            "ja": "リターニア"
-        },
-        "minos": {
-            "zh": "米诺斯",
-            "en": "Minos",
-            "ja": "ミノス"
-        },
-        "rim": {
-            "zh": "雷姆必拓",
-            "en": "Rim Billiton",
-            "ja": "レム・ビリトン"
-        },
-        "sami": {
-            "zh": "萨米",
-            "en": "Sami",
-            "ja": "サーミ"
-        },
-        "sargon": {
-            "zh": "萨尔贡",
-            "en": "Sargon",
-            "ja": "サルゴン"
-        },
-        "siracusa": {
-            "zh": "叙拉古",
-            "en": "Siracusa",
-            "ja": "シラクーザ"
-        },
-        "ursus": {
-            "zh": "乌萨斯",
-            "en": "Ursus",
-            "ja": "ウルサス"
-        },
-        "victoria": {
-            "zh": "维多利亚",
-            "en": "Victoria",
-            "ja": "ヴィクトリア"
-        },
-        "elite": {
-            "zh": "罗德岛-精英干员",
-            "en": "Rhodes Island-Elite Operator",
-            "ja": "エリートオペレーター"
-        },
-        "sweep": {
-            "zh": "S.W.E.E.P.",
-            "en": "S.W.E.E.P",
-            "ja": "S.W.E.E.P"
-        },
-        "babel": {
-            "zh": "巴别塔",
-            "en": "Babel",
-            "ja": "バベル"
-        },
-        "abyssal": {
-            "zh": "深海猎人",
-            "en": "Abyssal Hunters",
-            "ja": "アビサル"
-        },
-        "blacksteel": {
-            "zh": "黑钢国际",
-            "en": "BSW",
-            "ja": "BSW"
-        },
-        "glasgow": {
-            "zh": "格拉斯哥帮",
-            "en": "Glasgow",
-            "ja": "グラスゴー"
-        },
-        "karlan": {
-            "zh": "喀兰贸易",
-            "en": "Karlan Trade",
-            "ja": "カランド貿易"
-        },
-        "lgd": {
-            "zh": "龙门近卫局",
-            "en": "Lungmen Guard Department",
-            "ja": "龍門近衛局"
-        },
-        "penguin": {
-            "zh": "企鹅物流",
-            "en": "Penguin Logistics",
-            "ja": "ペンギン急便"
-        },
-        "pinus": {
-            "zh": "红松骑士团",
-            "en": "Pinus Sylvestris",
-            "ja": "レッドパイン騎士団"
-        },
-        "rhine": {
-            "zh": "莱茵生命",
-            "en": "Rhine Lab",
-            "ja": "ライン生命"
-        },
-        "siesta": {
-            "zh": "汐斯塔",
-            "en": "Siesta",
-            "ja": "シエスタ"
-        },
-        "sui": {
-            "zh": "炎-岁",
-            "en": "Yan-Sui",
-            "ja": "炎-歳"
-        },
-        "dublinn": {
-            "zh": "深池",
-            "en": "Dublinn",
-            "ja": "ダブリン"
-        },
-        "action4": {
-            "zh": "行动组A4", 
-            "en": "Op Team A4",
-            "ja": "行動隊A4"
-        },
-        "reserve1": {
-            "zh": "行动预备组A1",
-            "en": "Reserve Op Team A1",
-            "ja": "行動予備隊A1"
-        },
-        "reserve4": {
-            "zh": "行动预备组A4",
-            "en": "Reserve Op Team A4",
-            "ja": "行動予備隊A4"
-        },
-        "reserve6": {
-            "zh": "行动预备组A6",
-            "en": "Reserve Op Team A6",
-            "ja": "行動予備隊A6"
-        },
-        "chiave": {
-            "zh": "贾维团伙",
-            "en": "Chiave Gang",
-            "ja": "キアーベ一味"
-        },
-        "followers": {
-            "zh": "使徒",
-            "en": "Followers",
-            "ja": "使徒"
-        },
-        "lee": {
-            "zh": "鲤氏侦探事务所",
-            "en": "Lee's Detective Agency",
-            "ja": "リー探偵事務所"
-        },
-        "rainbow": {
-            "zh": "彩虹小队",
-            "en": "Team Rainbow",
-            "ja": "レインボー小隊"
-        },
-        "student": {
-            "zh": "乌萨斯学生自治团",
-            "en": "Ursus Student Self-Governing Group",
-            "ja": "ウルサス学生自治団"
-        }
+  "chara_handbook": {
+    "char_500_noirc": {
+      "race": {
+        "zh": "鬼",
+        "en": "Oni",
+        "ja": "鬼"
+      },
+      "birthplace": {
+        "zh": "东国",
+        "en": "Higashi",
+        "ja": "極東"
+      }
+    },
+    "char_501_durin": {
+      "race": {
+        "zh": "杜林",
+        "en": "Durin",
+        "ja": "ドゥリン"
+      },
+      "birthplace": {
+        "zh": "未公开",
+        "en": "Undisclosed",
+        "ja": "非公開"
+      }
+    },
+    "char_502_nblade": {
+      "race": {
+        "zh": "鬼",
+        "en": "Oni",
+        "ja": "鬼"
+      },
+      "birthplace": {
+        "zh": "东国",
+        "en": "Higashi",
+        "ja": "極東"
+      }
+    },
+    "char_503_rang": {
+      "race": {
+        "zh": "萨弗拉",
+        "en": "Savra",
+        "ja": "サヴラ"
+      },
+      "birthplace": {
+        "zh": "未公开",
+        "en": "Undisclosed",
+        "ja": "非公開"
+      }
+    },
+    "char_122_beagle": {
+      "race": {
+        "zh": "佩洛",
+        "en": "Perro",
+        "ja": "ペッロー"
+      },
+      "birthplace": {
+        "zh": "玻利瓦尔",
+        "en": "Bolívar",
+        "ja": "ボリバル"
+      }
+    },
+    "char_123_fang": {
+      "race": {
+        "zh": "库兰塔",
+        "en": "Kuranta",
+        "ja": "クランタ"
+      },
+      "birthplace": {
+        "zh": "卡西米尔",
+        "en": "Kazimierz",
+        "ja": "カジミエーシュ"
+      }
+    },
+    "char_124_kroos": {
+      "race": {
+        "zh": "卡特斯",
+        "en": "Cautus",
+        "ja": "コータス"
+      },
+      "birthplace": {
+        "zh": "雷姆必拓",
+        "en": "Rim Billiton",
+        "ja": "レム・ビリトン"
+      }
+    },
+    "char_121_lava": {
+      "race": {
+        "zh": "萨卡兹",
+        "en": "Sarkaz",
+        "ja": "サルカズ"
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "Victoria",
+        "ja": "ヴィクトリア"
+      }
+    },
+    "char_120_hibisc": {
+      "race": {
+        "zh": "萨卡兹",
+        "en": "Sarkaz",
+        "ja": "サルカズ"
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "Victoria",
+        "ja": "ヴィクトリア"
+      }
+    },
+    "char_208_melan": {
+      "race": {
+        "zh": "菲林",
+        "en": "Feline",
+        "ja": "フェリーン"
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "Victoria",
+        "ja": "ヴィクトリア"
+      }
+    },
+    "char_209_ardign": {
+      "race": {
+        "zh": "佩洛",
+        "en": "Perro",
+        "ja": "ペッロー"
+      },
+      "birthplace": {
+        "zh": "莱塔尼亚",
+        "en": "Leithanien",
+        "ja": "リターニア"
+      }
+    },
+    "char_210_stward": {
+      "race": {
+        "zh": "沃尔珀",
+        "en": "Vulpo",
+        "ja": "ヴァルポ"
+      },
+      "birthplace": {
+        "zh": "谢拉格",
+        "en": "Kjerag",
+        "ja": "イェラグ"
+      }
+    },
+    "char_211_adnach": {
+      "race": {
+        "zh": "萨科塔",
+        "en": "Sankta",
+        "ja": "サンクタ"
+      },
+      "birthplace": {
+        "zh": "拉特兰",
+        "en": "Laterano",
+        "ja": "ラテラーノ"
+      }
+    },
+    "char_212_ansel": {
+      "race": {
+        "zh": "卡特斯",
+        "en": "Cautus",
+        "ja": "コータス"
+      },
+      "birthplace": {
+        "zh": "雷姆必拓",
+        "en": "Rim Billiton",
+        "ja": "レム・ビリトン"
+      }
+    },
+    "char_108_silent": {
+      "race": {
+        "zh": "黎博利",
+        "en": "Liberi",
+        "ja": "リーべリ"
+      },
+      "birthplace": {
+        "zh": "哥伦比亚",
+        "en": "Columbia",
+        "ja": "クルビア"
+      }
+    },
+    "char_134_ifrit": {
+      "race": {
+        "zh": "萨卡兹",
+        "en": "Sarkaz",
+        "ja": "サルカズ"
+      },
+      "birthplace": {
+        "zh": "未公开",
+        "en": "Unknown",
+        "ja": "非公開"
+      }
+    },
+    "char_202_demkni": {
+      "race": {
+        "zh": "瓦伊凡",
+        "en": "Vouivre",
+        "ja": "ヴイーヴル"
+      },
+      "birthplace": {
+        "zh": "哥伦比亚",
+        "en": "Columbia",
+        "ja": "クルビア"
+      }
+    },
+    "char_128_plosis": {
+      "race": {
+        "zh": "黎博利",
+        "en": "Liberi",
+        "ja": "リーべリ"
+      },
+      "birthplace": {
+        "zh": "哥伦比亚",
+        "en": "Columbia",
+        "ja": "クルビア"
+      }
+    },
+    "char_242_otter": {
+      "race": {
+        "zh": "阿纳缇",
+        "en": "Anaty",
+        "ja": "アナティ"
+      },
+      "birthplace": {
+        "zh": "哥伦比亚",
+        "en": "Columbia",
+        "ja": "クルビア"
+      }
+    },
+    "char_215_mantic": {
+      "race": {
+        "zh": "曼提柯",
+        "en": "Manticore",
+        "ja": "マンティコア"
+      },
+      "birthplace": {
+        "zh": "萨尔贡",
+        "en": "Sargon",
+        "ja": "サルゴン"
+      }
+    },
+    "char_149_scave": {
+      "race": {
+        "zh": "札拉克",
+        "en": "Zalak",
+        "ja": "ザラック"
+      },
+      "birthplace": {
+        "zh": "未公开",
+        "en": "Unknown",
+        "ja": "非公開"
+      }
+    },
+    "char_204_platnm": {
+      "race": {
+        "zh": "库兰塔",
+        "en": "Kuranta",
+        "ja": "クランタ"
+      },
+      "birthplace": {
+        "zh": "卡西米尔",
+        "en": "Kazimierz",
+        "ja": "カジミエーシュ"
+      }
+    },
+    "char_172_svrash": {
+      "race": {
+        "zh": "菲林",
+        "en": "Feline",
+        "ja": "フェリーン"
+      },
+      "birthplace": {
+        "zh": "谢拉格",
+        "en": "Kjerag",
+        "ja": "イェラグ"
+      }
+    },
+    "char_173_slchan": {
+      "race": {
+        "zh": "菲林",
+        "en": "Feline",
+        "ja": "フェリーン"
+      },
+      "birthplace": {
+        "zh": "谢拉格",
+        "en": "Kjerag",
+        "ja": "イェラグ"
+      }
+    },
+    "char_174_slbell": {
+      "race": {
+        "zh": "菲林",
+        "en": "Feline",
+        "ja": "フェリーン"
+      },
+      "birthplace": {
+        "zh": "谢拉格",
+        "en": "Kjerag",
+        "ja": "イェラグ"
+      }
+    },
+    "char_198_blackd": {
+      "race": {
+        "zh": "依特拉",
+        "en": "Itra",
+        "ja": "イトラ"
+      },
+      "birthplace": {
+        "zh": "谢拉格",
+        "en": "Kjerag",
+        "ja": "イェラグ"
+      }
+    },
+    "char_199_yak": {
+      "race": {
+        "zh": "丰蹄",
+        "en": "Forte",
+        "ja": "フォルテ"
+      },
+      "birthplace": {
+        "zh": "谢拉格",
+        "en": "Kjerag",
+        "ja": "イェラグ"
+      }
+    },
+    "char_219_meteo": {
+      "race": {
+        "zh": "萨卡兹",
+        "en": "Sarkaz",
+        "ja": "サルカズ"
+      },
+      "birthplace": {
+        "zh": "卡兹戴尔",
+        "en": "Kazdel",
+        "ja": "カズデル"
+      }
+    },
+    "char_158_milu": {
+      "race": {
+        "zh": "埃拉菲亚",
+        "en": "Elafia",
+        "ja": "エラフィア"
+      },
+      "birthplace": {
+        "zh": "未公开",
+        "en": "Unknown",
+        "ja": "非公開"
+      }
+    },
+    "char_115_headbr": {
+      "race": {
+        "zh": "乌萨斯",
+        "en": "Ursus",
+        "ja": "ウルサス"
+      },
+      "birthplace": {
+        "zh": "乌萨斯",
+        "en": "Ursus",
+        "ja": "ウルサス"
+      }
+    },
+    "char_195_glassb": {
+      "race": {
+        "zh": "乌萨斯",
+        "en": "Ursus",
+        "ja": "ウルサス"
+      },
+      "birthplace": {
+        "zh": "乌萨斯",
+        "en": "Ursus",
+        "ja": "ウルサス"
+      }
+    },
+    "char_196_sunbr": {
+      "race": {
+        "zh": "乌萨斯",
+        "en": "Ursus",
+        "ja": "ウルサス"
+      },
+      "birthplace": {
+        "zh": "乌萨斯",
+        "en": "Ursus",
+        "ja": "ウルサス"
+      }
+    },
+    "char_147_shining": {
+      "race": {
+        "zh": "萨卡兹",
+        "en": "Sarkaz",
+        "ja": "サルカズ"
+      },
+      "birthplace": {
+        "zh": "卡兹戴尔",
+        "en": "Kazdel",
+        "ja": "カズデル"
+      }
+    },
+    "char_148_nearl": {
+      "race": {
+        "zh": "库兰塔",
+        "en": "Kuranta",
+        "ja": "クランタ"
+      },
+      "birthplace": {
+        "zh": "卡西米尔",
+        "en": "Kazimierz",
+        "ja": "カジミエーシュ"
+      }
+    },
+    "char_179_cgbird": {
+      "race": {
+        "zh": "萨卡兹",
+        "en": "Sarkaz",
+        "ja": "サルカズ"
+      },
+      "birthplace": {
+        "zh": "卡兹戴尔",
+        "en": "Kazdel",
+        "ja": "カズデル"
+      }
+    },
+    "char_112_siege": {
+      "race": {
+        "zh": "阿斯兰",
+        "en": "Aslan",
+        "ja": "アスラン"
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "Victoria",
+        "ja": "ヴィクトリア"
+      }
+    },
+    "char_155_tiger": {
+      "race": {
+        "zh": "菲林",
+        "en": "Feline",
+        "ja": "フェリーン"
+      },
+      "birthplace": {
+        "zh": "不明",
+        "en": "Unknown",
+        "ja": "不明"
+      }
+    },
+    "char_101_sora": {
+      "race": {
+        "zh": "因经纪公司要求不公开",
+        "en": "Unknown as requested by management agency",
+        "ja": "所属事務所の要求により非公開"
+      },
+      "birthplace": {
+        "zh": "因经纪公司要求不公开",
+        "en": "Unknown as requested by management agency",
+        "ja": "所属事務所の要求により非公開"
+      }
+    },
+    "char_102_texas": {
+      "race": {
+        "zh": "鲁珀",
+        "en": "Lupo",
+        "ja": "ループス"
+      },
+      "birthplace": {
+        "zh": "哥伦比亚",
+        "en": "Columbia",
+        "ja": "クルビア"
+      }
+    },
+    "char_103_angel": {
+      "race": {
+        "zh": "萨科塔",
+        "en": "Sankta",
+        "ja": "サンクタ"
+      },
+      "birthplace": {
+        "zh": "拉特兰",
+        "en": "Laterano",
+        "ja": "ラテラーノ"
+      }
+    },
+    "char_201_moeshd": {
+      "race": {
+        "zh": "丰蹄",
+        "en": "Forte",
+        "ja": "フォルテ"
+      },
+      "birthplace": {
+        "zh": "米诺斯",
+        "en": "Minos",
+        "ja": "ミノス"
+      }
+    },
+    "char_118_yuki": {
+      "race": {
+        "zh": "阿纳缇",
+        "en": "Anaty",
+        "ja": "アナティ"
+      },
+      "birthplace": {
+        "zh": "东国",
+        "en": "Higashi",
+        "ja": "極東"
+      }
+    },
+    "char_136_hsguma": {
+      "race": {
+        "zh": "鬼",
+        "en": "Oni",
+        "ja": "鬼"
+      },
+      "birthplace": {
+        "zh": "东国",
+        "en": "Higashi",
+        "ja": "極東"
+      }
+    },
+    "char_106_franka": {
+      "race": {
+        "zh": "沃尔珀",
+        "en": "Vulpo",
+        "ja": "ヴァルポ"
+      },
+      "birthplace": {
+        "zh": "哥伦比亚",
+        "en": "Columbia",
+        "ja": "クルビア"
+      }
+    },
+    "char_107_liskam": {
+      "race": {
+        "zh": "瓦伊凡",
+        "en": "Vouivre",
+        "ja": "ヴイーヴル"
+      },
+      "birthplace": {
+        "zh": "瓦伊凡",
+        "en": "Vouivre",
+        "ja": "ヴイーヴル"
+      }
+    },
+    "char_117_myrrh": {
+      "race": {
+        "zh": "沃尔珀",
+        "en": "Vulpo",
+        "ja": "ヴァルポ"
+      },
+      "birthplace": {
+        "zh": "未公开",
+        "en": "Unknown",
+        "ja": "非公開"
+      }
+    },
+    "char_193_frostl": {
+      "race": {
+        "zh": "沃尔珀",
+        "en": "Vulpo",
+        "ja": "ヴァルポ"
+      },
+      "birthplace": {
+        "zh": "哥伦比亚",
+        "en": "Columbia",
+        "ja": "クルビア"
+      }
+    },
+    "char_129_bluep": {
+      "race": {
+        "zh": "安努拉",
+        "en": "Anura",
+        "ja": "アヌーラ"
+      },
+      "birthplace": {
+        "zh": "未公开",
+        "en": "Unknown",
+        "ja": "非公開"
+      }
+    },
+    "char_143_ghost": {
+      "race": {
+        "zh": "未公开",
+        "en": "Undisclosed",
+        "ja": "非公開"
+      },
+      "birthplace": {
+        "zh": "阿戈尔",
+        "en": "Ægir",
+        "ja": "エーギル"
+      }
+    },
+    "char_181_flower": {
+      "race": {
+        "zh": "沃尔珀",
+        "en": "Vulpo",
+        "ja": "ヴァルポ"
+      },
+      "birthplace": {
+        "zh": "米诺斯",
+        "en": "Minos",
+        "ja": "ミノス"
+      }
+    },
+    "char_109_fmout": {
+      "race": {
+        "zh": "埃拉菲亚",
+        "en": "Elafia",
+        "ja": "エラフィア"
+      },
+      "birthplace": {
+        "zh": "萨米",
+        "en": "Sami",
+        "ja": "サーミ"
+      }
+    },
+    "char_126_shotst": {
+      "race": {
+        "zh": "库兰塔",
+        "en": "Kuranta",
+        "ja": "クランタ"
+      },
+      "birthplace": {
+        "zh": "卡西米尔",
+        "en": "Kazimierz",
+        "ja": "カジミエーシュ"
+      }
+    },
+    "char_127_estell": {
+      "race": {
+        "zh": "阿达克利斯",
+        "en": "Archosauria",
+        "ja": "アダクリス"
+      },
+      "birthplace": {
+        "zh": "未公开",
+        "en": "Undisclosed",
+        "ja": "非公開"
+      }
+    },
+    "char_141_nights": {
+      "race": {
+        "zh": "菲林",
+        "en": "Feline",
+        "ja": "フェリーン"
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "Victoria",
+        "ja": "ヴィクトリア"
+      }
+    },
+    "char_145_prove": {
+      "race": {
+        "zh": "鲁珀",
+        "en": "Lupo",
+        "ja": "ループス"
+      },
+      "birthplace": {
+        "zh": "叙拉古",
+        "en": "Siracusa",
+        "ja": "シラクーザ"
+      }
+    },
+    "char_183_skgoat": {
+      "race": {
+        "zh": "卡普里尼",
+        "en": "Caprinae",
+        "ja": "キャプリニー"
+      },
+      "birthplace": {
+        "zh": "莱塔尼亚",
+        "en": "Leithanien",
+        "ja": "リターニア王国"
+      }
+    },
+    "char_187_ccheal": {
+      "race": {
+        "zh": "阿达克利斯",
+        "en": "Archosauria",
+        "ja": "アダクリス"
+      },
+      "birthplace": {
+        "zh": "未公开",
+        "en": "Undisclosed",
+        "ja": "非公開"
+      }
+    },
+    "char_241_panda": {
+      "race": {
+        "zh": "乌萨斯",
+        "en": "Ursus",
+        "ja": "ウルサス"
+      },
+      "birthplace": {
+        "zh": "炎",
+        "en": "Yan",
+        "ja": "炎国"
+      }
+    },
+    "char_180_amgoat": {
+      "race": {
+        "zh": "卡普里尼",
+        "en": "Caprinae",
+        "ja": "キャプリニー"
+      },
+      "birthplace": {
+        "zh": "莱塔尼亚",
+        "en": "Leithanien",
+        "ja": "リターニア"
+      }
+    },
+    "char_185_frncat": {
+      "race": {
+        "zh": "菲林",
+        "en": "Feline",
+        "ja": "フェリーン"
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "Victoria",
+        "ja": "ヴィクトリア"
+      }
+    },
+    "char_150_snakek": {
+      "race": {
+        "zh": "匹特拉姆",
+        "en": "Petram",
+        "ja": "ペートラム"
+      },
+      "birthplace": {
+        "zh": "未公开",
+        "en": "Undisclosed",
+        "ja": "非公開"
+      }
+    },
+    "char_130_doberm": {
+      "race": {
+        "zh": "佩洛",
+        "en": "Perro",
+        "ja": "ペッロー"
+      },
+      "birthplace": {
+        "zh": "玻利瓦尔",
+        "en": "Bolívar",
+        "ja": "ボリバル"
+      }
+    },
+    "char_163_hpsts": {
+      "race": {
+        "zh": "丰蹄",
+        "en": "Forte",
+        "ja": "フォルテ"
+      },
+      "birthplace": {
+        "zh": "米诺斯",
+        "en": "Minos",
+        "ja": "ミノス"
+      }
+    },
+    "char_144_red": {
+      "race": {
+        "zh": "鲁珀",
+        "en": "Lupo",
+        "ja": "ループス"
+      },
+      "birthplace": {
+        "zh": "未公开",
+        "en": "Undisclosed",
+        "ja": "非公開"
+      }
+    },
+    "char_140_whitew": {
+      "race": {
+        "zh": "鲁珀",
+        "en": "Lupo",
+        "ja": "ループス"
+      },
+      "birthplace": {
+        "zh": "叙拉古",
+        "en": "Siracusa",
+        "ja": "シラクーザ"
+      }
+    },
+    "char_171_bldsk": {
+      "race": {
+        "zh": "萨卡兹",
+        "en": "Sarkaz",
+        "ja": "サルカズ"
+      },
+      "birthplace": {
+        "zh": "卡兹戴尔",
+        "en": "Kazdel",
+        "ja": "カズデル"
+      }
+    },
+    "char_002_amiya": {
+      "race": {
+        "zh": "卡特斯/奇美拉",
+        "en": "Cautus/Chimera",
+        "ja": "コータス/キメラ"
+      },
+      "birthplace": {
+        "zh": "雷姆必拓",
+        "en": "Rim Billiton",
+        "ja": "レム・ビリトン"
+      }
+    },
+    "char_110_deepcl": {
+      "race": {
+        "zh": "未公开",
+        "en": "Undisclosed",
+        "ja": "非公開"
+      },
+      "birthplace": {
+        "zh": "未公开",
+        "en": "Undisclosed",
+        "ja": "非公開"
+      }
+    },
+    "char_166_skfire": {
+      "race": {
+        "zh": "菲林",
+        "en": "Feline",
+        "ja": "フェリーン"
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "Victoria",
+        "ja": "ヴィクトリア"
+      }
+    },
+    "char_240_wyvern": {
+      "race": {
+        "zh": "瓦伊凡",
+        "en": "Vouivre",
+        "ja": "ヴイーヴル"
+      },
+      "birthplace": {
+        "zh": "瓦伊凡",
+        "en": "Vouivre",
+        "ja": "ヴイーヴル"
+      }
+    },
+    "char_236_rope": {
+      "race": {
+        "zh": "卡特斯",
+        "en": "Cautus",
+        "ja": "コータス"
+      },
+      "birthplace": {
+        "zh": "雷姆必拓",
+        "en": "Rim Billiton",
+        "ja": "レム・ビリトン"
+      }
+    },
+    "char_237_gravel": {
+      "race": {
+        "zh": "札拉克",
+        "en": "Zalak",
+        "ja": "ザラック"
+      },
+      "birthplace": {
+        "zh": "卡西米尔",
+        "en": "Kazimierz",
+        "ja": "カジミエーシュ"
+      }
+    },
+    "char_286_cast3": {
+      "race": {
+        "zh": "其他",
+        "en": "Others",
+        "ja": "その他"
+      },
+      "birthplace": {}
+    },
+    "char_285_medic2": {
+      "race": {
+        "zh": "其他",
+        "en": "Others",
+        "ja": "その他"
+      },
+      "birthplace": {}
+    },
+    "char_009_12fce": {
+      "race": {
+        "zh": "萨弗拉",
+        "en": "Savra",
+        "ja": "サヴラ"
+      },
+      "birthplace": {
+        "zh": "不明",
+        "en": "Unknown",
+        "ja": "不明"
+      }
+    },
+    "char_278_orchid": {
+      "race": {
+        "zh": "黎博利",
+        "en": "Liberi",
+        "ja": "リーベリ"
+      },
+      "birthplace": {
+        "zh": "哥伦比亚",
+        "en": "Columbia",
+        "ja": "クルビア"
+      }
+    },
+    "char_235_jesica": {
+      "race": {
+        "zh": "菲林",
+        "en": "Feline",
+        "ja": "フェリーン"
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "Victoria",
+        "ja": "ヴィクトリア"
+      }
+    },
+    "char_290_vigna": {
+      "race": {
+        "zh": "萨卡兹",
+        "en": "Sarkaz",
+        "ja": "サルカズ"
+      },
+      "birthplace": {
+        "zh": "卡兹戴尔",
+        "en": "Kazdel",
+        "ja": "カズデル"
+      }
+    },
+    "char_289_gyuki": {
+      "race": {
+        "zh": "鬼",
+        "en": "Oni",
+        "ja": "鬼"
+      },
+      "birthplace": {
+        "zh": "东国",
+        "en": "Higashi",
+        "ja": "極東"
+      }
+    },
+    "char_277_sqrrel": {
+      "race": {
+        "zh": "札拉克",
+        "en": "Zalak",
+        "ja": "ザラック"
+      },
+      "birthplace": {
+        "zh": "龙门",
+        "en": "Lungmen",
+        "ja": "龍門"
+      }
+    },
+    "char_291_aglina": {
+      "race": {
+        "zh": "沃尔珀",
+        "en": "Vulpo",
+        "ja": "ヴァルポ"
+      },
+      "birthplace": {
+        "zh": "叙拉古",
+        "en": "Siracusa",
+        "ja": "シラクーザ"
+      }
+    },
+    "char_192_falco": {
+      "race": {
+        "zh": "黎博利",
+        "en": "Liberi",
+        "ja": "リーベリ"
+      },
+      "birthplace": {
+        "zh": "拉特兰",
+        "en": "Laterano",
+        "ja": "ラテラーノ"
+      }
+    },
+    "char_230_savage": {
+      "race": {
+        "zh": "卡特斯",
+        "en": "Cautus",
+        "ja": "コータス"
+      },
+      "birthplace": {
+        "zh": "雷姆必拓",
+        "en": "Rim Billiton",
+        "ja": "レム・ビリトン"
+      }
+    },
+    "char_282_catap": {
+      "race": {
+        "zh": "库兰塔",
+        "en": "Kuranta",
+        "ja": "クランタ"
+      },
+      "birthplace": {
+        "zh": "卡西米尔",
+        "en": "Kazimierz",
+        "ja": "カジミエーシュ"
+      }
+    },
+    "char_283_midn": {
+      "race": {
+        "zh": "萨卡兹",
+        "en": "Sarkaz",
+        "ja": "サルカズ"
+      },
+      "birthplace": {
+        "zh": "东国",
+        "en": "Far East",
+        "ja": "極東"
+      }
+    },
+    "char_137_brownb": {
+      "race": {
+        "zh": "乌萨斯",
+        "en": "Ursus",
+        "ja": "ウルサス"
+      },
+      "birthplace": {
+        "zh": "乌萨斯",
+        "en": "Ursus",
+        "ja": "ウルサス"
+      }
+    },
+    "char_164_nightm": {
+      "race": {
+        "zh": "菲林",
+        "en": "Feline",
+        "ja": "フェリーン"
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "Victoria",
+        "ja": "ヴィクトリア"
+      }
+    },
+    "char_220_grani": {
+      "race": {
+        "zh": "库兰塔",
+        "en": "Kuranta",
+        "ja": "クランタ"
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "Victoria",
+        "ja": "ヴィクトリア"
+      }
+    },
+    "char_263_skadi": {
+      "race": {
+        "zh": "未公开",
+        "en": "Unknown",
+        "ja": "非公開"
+      },
+      "birthplace": {
+        "zh": "阿戈尔",
+        "en": "Ægir",
+        "ja": "エーギル"
+      }
+    },
+    "char_284_spot": {
+      "race": {
+        "zh": "瑞柏巴",
+        "en": "Rebbah",
+        "ja": "レプロバ"
+      },
+      "birthplace": {
+        "zh": "萨尔贡",
+        "en": "Sargon",
+        "ja": "サルゴン"
+      }
+    },
+    "char_281_popka": {
+      "race": {
+        "zh": "卡特斯",
+        "en": "Cautus",
+        "ja": "コータス"
+      },
+      "birthplace": {
+        "zh": "雷姆必拓",
+        "en": "Rim Billiton",
+        "ja": "レム・ビリトン"
+      }
+    },
+    "char_308_swire": {
+      "race": {
+        "zh": "菲林",
+        "en": "Feline",
+        "ja": "フェリーン"
+      },
+      "birthplace": {
+        "zh": "龙门",
+        "en": "Lungmen",
+        "ja": "龍門"
+      }
+    },
+    "char_253_greyy": {
+      "race": {
+        "zh": "佩洛",
+        "en": "Perro",
+        "ja": "ペッロー"
+      },
+      "birthplace": {
+        "zh": "玻利瓦尔",
+        "en": "Bolívar",
+        "ja": "ボリバル"
+      }
+    },
+    "char_010_chen": {
+      "race": {
+        "zh": "龙",
+        "en": "Lung",
+        "ja": "龍"
+      },
+      "birthplace": {
+        "zh": "龙门",
+        "en": "Lungmen",
+        "ja": "龍門"
+      }
+    },
+    "char_298_susuro": {
+      "race": {
+        "zh": "沃尔珀",
+        "en": "Vulpo",
+        "ja": "ヴァルポ"
+      },
+      "birthplace": {
+        "zh": "叙拉古",
+        "en": "Siracusa",
+        "ja": "シラクーザ"
+      }
+    },
+    "char_151_myrtle": {
+      "race": {
+        "zh": "杜林",
+        "en": "Durin",
+        "ja": "ドゥリン"
+      },
+      "birthplace": {
+        "zh": "未公开",
+        "en": "Unknown",
+        "ja": "非公開"
+      }
+    },
+    "char_274_astesi": {
+      "race": {
+        "zh": "黎博利",
+        "en": "Liberi",
+        "ja": "リーベリ"
+      },
+      "birthplace": {
+        "zh": "哥伦比亚",
+        "en": "Columbia",
+        "ja": "クルビア"
+      }
+    },
+    "char_326_glacus": {
+      "race": {
+        "zh": "未公开",
+        "en": "Unknown",
+        "ja": "非公開"
+      },
+      "birthplace": {
+        "zh": "阿戈尔地区",
+        "en": "Ægir Region",
+        "ja": "エーギル"
+      }
+    },
+    "char_348_ceylon": {
+      "race": {
+        "zh": "黎博利",
+        "en": "Liberi",
+        "ja": "リーベリ"
+      },
+      "birthplace": {
+        "zh": "汐斯塔（独立城邦）",
+        "en": "Siesta (Independent City)",
+        "ja": "シエスタ（独立都市）"
+      }
+    },
+    "char_340_shwaz": {
+      "race": {
+        "zh": "菲林",
+        "en": "Feline",
+        "ja": "フェリーン"
+      },
+      "birthplace": {
+        "zh": "雷姆必拓",
+        "en": "Rim Billiton",
+        "ja": "レム・ビリトン"
+      }
+    },
+    "char_188_helage": {
+      "race": {
+        "zh": "黎博利",
+        "en": "Liberi",
+        "ja": "リーベリ"
+      },
+      "birthplace": {
+        "zh": "乌萨斯",
+        "en": "Ursus",
+        "ja": "ウルサス"
+      }
+    },
+    "char_260_durnar": {
+      "race": {
+        "zh": "沃尔珀",
+        "en": "Vulpo",
+        "ja": "ヴァルポ"
+      },
+      "birthplace": {
+        "zh": "哥伦比亚",
+        "en": "Columbia",
+        "ja": "クルビア"
+      }
+    },
+    "char_355_ethan": {
+      "race": {
+        "zh": "萨弗拉",
+        "en": "Savra",
+        "ja": "サヴラ"
+      },
+      "birthplace": {
+        "zh": "未公开",
+        "en": "Unknown",
+        "ja": "非公開"
+      }
+    },
+    "char_275_breeze": {
+      "race": {
+        "zh": "沃尔珀",
+        "en": "Vulpo",
+        "ja": "ヴァルポ"
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "Victoria",
+        "ja": "ヴィクトリア"
+      }
+    },
+    "char_248_mgllan": {
+      "race": {
+        "zh": "黎博利",
+        "en": "Liberi",
+        "ja": "リーベリ"
+      },
+      "birthplace": {
+        "zh": "哥伦比亚",
+        "en": "Columbia",
+        "ja": "クルビア"
+      }
+    },
+    "char_131_flameb": {
+      "race": {
+        "zh": "萨卡兹",
+        "en": "Sarkaz",
+        "ja": "サルカズ"
+      },
+      "birthplace": {
+        "zh": "卡兹戴尔",
+        "en": "Kazdel",
+        "ja": "カズデル"
+      }
+    },
+    "char_279_excu": {
+      "race": {
+        "zh": "萨科塔",
+        "en": "Sankta",
+        "ja": "サンクタ"
+      },
+      "birthplace": {
+        "zh": "拉特兰",
+        "en": "Laterano",
+        "ja": "ラテラーノ"
+      }
+    },
+    "char_190_clour": {
+      "race": {
+        "zh": "沃尔珀",
+        "en": "Vulpo",
+        "ja": "ヴァルポ"
+      },
+      "birthplace": {
+        "zh": "不明",
+        "en": "Unknown",
+        "ja": "不明"
+      }
+    },
+    "char_213_mostma": {
+      "race": {
+        "zh": "未公开",
+        "en": "Undisclosed",
+        "ja": "非公開"
+      },
+      "birthplace": {
+        "zh": "拉特兰",
+        "en": "Laterano",
+        "ja": "ラテラーノ"
+      }
+    },
+    "char_325_bison": {
+      "race": {
+        "zh": "丰蹄",
+        "en": "Forte",
+        "ja": "フォルテ"
+      },
+      "birthplace": {
+        "zh": "龙门",
+        "en": "Lungmen",
+        "ja": "龍門"
+      }
+    },
+    "char_243_waaifu": {
+      "race": {
+        "zh": "菲林",
+        "en": "Feline",
+        "ja": "フェリーン"
+      },
+      "birthplace": {
+        "zh": "炎",
+        "en": "Yan",
+        "ja": "炎国"
+      }
+    },
+    "char_133_mm": {
+      "race": {
+        "zh": "黎博利",
+        "en": "Liberi",
+        "ja": "リーベリ"
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "Victoria",
+        "ja": "ヴィクトリア"
+      }
+    },
+    "char_356_broca": {
+      "race": {
+        "zh": "菲林",
+        "en": "Feline",
+        "ja": "フェリーン"
+      },
+      "birthplace": {
+        "zh": "叙拉古",
+        "en": "Siracusa",
+        "ja": "シラクーザ"
+      }
+    },
+    "char_261_sddrag": {
+      "race": {
+        "zh": "德拉克",
+        "en": "Draco",
+        "ja": "ドラコ"
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "Victoria",
+        "ja": "ヴィクトリア"
+      }
+    },
+    "char_017_huang": {
+      "race": {
+        "zh": "菲林",
+        "en": "Feline",
+        "ja": "フェリーン"
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "Victoria",
+        "ja": "ヴィクトリア"
+      }
+    },
+    "char_367_swllow": {
+      "race": {
+        "zh": "黎博利",
+        "en": "Liberi",
+        "ja": "リーベリ"
+      },
+      "birthplace": {
+        "zh": "未公开",
+        "en": "Undisclosed",
+        "ja": "非公開"
+      }
+    },
+    "char_302_glaze": {
+      "race": {
+        "zh": "萨科塔",
+        "en": "Sankta",
+        "ja": "サンクタ"
+      },
+      "birthplace": {
+        "zh": "拉特兰",
+        "en": "Laterano",
+        "ja": "ラテラーノ"
+      }
+    },
+    "char_2014_nian": {
+      "race": {
+        "zh": "未公开",
+        "en": "Undisclosed",
+        "ja": "非公開"
+      },
+      "birthplace": {
+        "zh": "炎",
+        "en": "Yan",
+        "ja": "炎国"
+      }
+    },
+    "char_225_haak": {
+      "race": {
+        "zh": "菲林",
+        "en": "Feline",
+        "ja": "フェリーン"
+      },
+      "birthplace": {
+        "zh": "龙门",
+        "en": "Lungmen",
+        "ja": "龍門"
+      }
+    },
+    "char_226_hmau": {
+      "race": {
+        "zh": "佩洛",
+        "en": "Perro",
+        "ja": "ペッロー"
+      },
+      "birthplace": {
+        "zh": "龙门",
+        "en": "Lungmen",
+        "ja": "龍門"
+      }
+    },
+    "char_383_snsant": {
+      "race": {
+        "zh": "黎博利",
+        "en": "Liberi",
+        "ja": "リーべリ"
+      },
+      "birthplace": {
+        "zh": "龙门",
+        "en": "Lungmen",
+        "ja": "龍門"
+      }
+    },
+    "char_2013_cerber": {
+      "race": {
+        "zh": "佩洛",
+        "en": "Perro",
+        "ja": "ペッロー"
+      },
+      "birthplace": {
+        "zh": "玻利瓦尔",
+        "en": "Bolívar",
+        "ja": "ボリバル"
+      }
+    },
+    "char_306_leizi": {
+      "race": {
+        "zh": "麒麟",
+        "en": "Kylin",
+        "ja": "麒麟"
+      },
+      "birthplace": {
+        "zh": "炎",
+        "en": "Yan",
+        "ja": "炎国"
+      }
+    },
+    "char_385_finlpp": {
+      "race": {
+        "zh": "阿戈尔",
+        "en": "Ægir",
+        "ja": "エーギル"
+      },
+      "birthplace": {
+        "zh": "炎",
+        "en": "Yan",
+        "ja": "炎国"
+      }
+    },
+    "char_222_bpipe": {
+      "race": {
+        "zh": "瓦伊凡",
+        "en": "Vouivre",
+        "ja": "ヴイーヴル"
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "Victoria",
+        "ja": "ヴィクトリア"
+      }
+    },
+    "char_379_sesa": {
+      "race": {
+        "zh": "瓦伊凡",
+        "en": "Vouivre",
+        "ja": "ヴイーヴル"
+      },
+      "birthplace": {
+        "zh": "萨尔贡",
+        "en": "Sargon",
+        "ja": "サルゴン"
+      }
+    },
+    "char_337_utage": {
+      "race": {
+        "zh": "不明",
+        "en": "Unknown",
+        "ja": "不明"
+      },
+      "birthplace": {
+        "zh": "东国",
+        "en": "Higashi",
+        "ja": "極東"
+      }
+    },
+    "char_252_bibeak": {
+      "race": {
+        "zh": "黎博利",
+        "en": "Liberi",
+        "ja": "リーベリ"
+      },
+      "birthplace": {
+        "zh": "萨米",
+        "en": "Sami",
+        "ja": "サーミ"
+      }
+    },
+    "char_159_peacok": {
+      "race": {
+        "zh": "未知（疑似黎博利）",
+        "en": "Unknown (Suspected Liberi)",
+        "ja": "不明（疑似リーベリ）"
+      },
+      "birthplace": {
+        "zh": "米诺斯",
+        "en": "Minos",
+        "ja": "ミノス"
+      }
+    },
+    "char_376_therex": {
+      "race": {
+        "zh": "其他",
+        "en": "Others",
+        "ja": "その他"
+      },
+      "birthplace": {}
+    },
+    "char_301_cutter": {
+      "race": {
+        "zh": "沃尔珀",
+        "en": "Vulpo",
+        "ja": "ヴァルポ"
+      },
+      "birthplace": {
+        "zh": "哥伦比亚",
+        "en": "Columbia",
+        "ja": "クルビア"
+      }
+    },
+    "char_254_vodfox": {
+      "race": {
+        "zh": "沃尔珀",
+        "en": "Vulpo",
+        "ja": "ヴァルポ"
+      },
+      "birthplace": {
+        "zh": "叙拉古",
+        "en": "Siracusa",
+        "ja": "シラクーザ"
+      }
+    },
+    "char_333_sidero": {
+      "race": {
+        "zh": "丰蹄",
+        "en": "Forte",
+        "ja": "フォルテ"
+      },
+      "birthplace": {
+        "zh": "米诺斯",
+        "en": "Minos",
+        "ja": "ミノス"
+      }
+    },
+    "char_401_elysm": {
+      "race": {
+        "zh": "黎博利",
+        "en": "Liberi",
+        "ja": "リーベリ"
+      },
+      "birthplace": {
+        "zh": "伊比利亚",
+        "en": "Iberia",
+        "ja": "イベリア"
+      }
+    },
+    "char_250_phatom": {
+      "race": {
+        "zh": "菲林",
+        "en": "Feline",
+        "ja": "フェリーン"
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "Victoria",
+        "ja": "ヴィクトリア"
+      }
+    },
+    "char_400_weedy": {
+      "race": {
+        "zh": "阿戈尔",
+        "en": "Ægir",
+        "ja": "エーギル"
+      },
+      "birthplace": {
+        "zh": "伊比利亚",
+        "en": "Iberia",
+        "ja": "イベリア"
+      }
+    },
+    "char_113_cqbw": {
+      "race": {
+        "zh": "萨卡兹",
+        "en": "Sarkaz",
+        "ja": "サルカズ"
+      },
+      "birthplace": {
+        "zh": "卡兹戴尔",
+        "en": "Kazdel",
+        "ja": "カズデル"
+      }
+    },
+    "char_405_absin": {
+      "race": {
+        "zh": "乌萨斯",
+        "en": "Ursus",
+        "ja": "ウルサス"
+      },
+      "birthplace": {
+        "zh": "乌萨斯",
+        "en": "Ursus",
+        "ja": "ウルサス"
+      }
+    },
+    "char_373_lionhd": {
+      "race": {
+        "zh": "卡特斯",
+        "en": "Cautus",
+        "ja": "コータス"
+      },
+      "birthplace": {
+        "zh": "雷姆必拓",
+        "en": "Rim Billiton",
+        "ja": "レム・ビリトン"
+      }
+    },
+    "char_378_asbest": {
+      "race": {
+        "zh": "萨弗拉",
+        "en": "Savra",
+        "ja": "サヴラ"
+      },
+      "birthplace": {
+        "zh": "雷姆必拓",
+        "en": "Rim Billiton",
+        "ja": "レム・ビリトン"
+      }
+    },
+    "char_343_tknogi": {
+      "race": {
+        "zh": "埃拉菲亚",
+        "en": "Elafia",
+        "ja": "エラフィア"
+      },
+      "birthplace": {
+        "zh": "东国",
+        "en": "Higashi",
+        "ja": "極東"
+      }
+    },
+    "char_197_poca": {
+      "race": {
+        "zh": "乌萨斯",
+        "en": "Ursus",
+        "ja": "ウルサス"
+      },
+      "birthplace": {
+        "zh": "乌萨斯",
+        "en": "Ursus",
+        "ja": "ウルサス"
+      }
+    },
+    "char_258_podego": {
+      "race": {
+        "zh": "佩洛",
+        "en": "Perro",
+        "ja": "ペッロー"
+      },
+      "birthplace": {
+        "zh": "玻利瓦尔",
+        "en": "Bolívar",
+        "ja": "ボリバル"
+      }
+    },
+    "char_358_lisa": {
+      "race": {
+        "zh": "沃尔珀",
+        "en": "Vulpo",
+        "ja": "ヴァルポ"
+      },
+      "birthplace": {
+        "zh": "东国",
+        "en": "Higashi",
+        "ja": "極東"
+      }
+    },
+    "char_328_cammou": {
+      "race": {
+        "zh": "札拉克",
+        "en": "Zalak",
+        "ja": "ザラック"
+      },
+      "birthplace": {
+        "zh": "未公开",
+        "en": "Undisclosed",
+        "ja": "非公開"
+      }
+    },
+    "char_344_beewax": {
+      "race": {
+        "zh": "卡普里尼",
+        "en": "Caprinae",
+        "ja": "キャプリニー"
+      },
+      "birthplace": {
+        "zh": "萨尔贡",
+        "en": "Sargon",
+        "ja": "サルゴン"
+      }
+    },
+    "char_336_folivo": {
+      "race": {
+        "zh": "皮洛萨",
+        "en": "Pilosa",
+        "ja": "ピロサ"
+      },
+      "birthplace": {
+        "zh": "萨尔贡",
+        "en": "Sargon",
+        "ja": "サルゴン"
+      }
+    },
+    "char_294_ayer": {
+      "race": {
+        "zh": "卡特斯",
+        "en": "Cautus",
+        "ja": "コータス"
+      },
+      "birthplace": {
+        "zh": "雷姆必拓",
+        "en": "RIM Billiton",
+        "ja": "レム・ビリトン"
+      }
+    },
+    "char_349_chiave": {
+      "race": {
+        "zh": "沃尔珀",
+        "en": "Vulpo",
+        "ja": "ヴァルポ"
+      },
+      "birthplace": {
+        "zh": "叙拉古",
+        "en": "Siracusa",
+        "ja": "シラクーザ"
+      }
+    },
+    "char_345_folnic": {
+      "race": {
+        "zh": "菲林",
+        "en": "Feline",
+        "ja": "フェリーン"
+      },
+      "birthplace": {
+        "zh": "乌萨斯",
+        "en": "Ursus",
+        "ja": "ウルサス"
+      }
+    },
+    "char_293_thorns": {
+      "race": {
+        "zh": "阿戈尔",
+        "en": "Ægir",
+        "ja": "エーギル"
+      },
+      "birthplace": {
+        "zh": "伊比利亚",
+        "en": "Iberia",
+        "ja": "イベリア"
+      }
+    },
+    "char_218_cuttle": {
+      "race": {
+        "zh": "阿戈尔",
+        "en": "Ægir",
+        "ja": "エーギル"
+      },
+      "birthplace": {
+        "zh": "伊比利亚",
+        "en": "Iberia",
+        "ja": "イベリア"
+      }
+    },
+    "char_272_strong": {
+      "race": {
+        "zh": "乌萨斯",
+        "en": "Ursus",
+        "ja": "ウルサス"
+      },
+      "birthplace": {
+        "zh": "龙门",
+        "en": "Lungmen",
+        "ja": "龍門"
+      }
+    },
+    "char_366_acdrop": {
+      "race": {
+        "zh": "黎博利",
+        "en": "Liberi",
+        "ja": "リーベリ"
+      },
+      "birthplace": {
+        "zh": "哥伦比亚",
+        "en": "Columbia",
+        "ja": "クルビア"
+      }
+    },
+    "char_411_tomimi": {
+      "race": {
+        "zh": "阿达克利斯",
+        "en": "Archosauria",
+        "ja": "アダクリス"
+      },
+      "birthplace": {
+        "zh": "萨尔贡",
+        "en": "Sargon",
+        "ja": "サルゴン"
+      }
+    },
+    "char_415_flint": {
+      "race": {
+        "zh": "黎博利",
+        "en": "Liberi",
+        "ja": "リーベリ"
+      },
+      "birthplace": {
+        "zh": "萨尔贡",
+        "en": "Sargon",
+        "ja": "サルゴン"
+      }
+    },
+    "char_416_zumama": {
+      "race": {
+        "zh": "斐迪亚",
+        "en": "Pythia",
+        "ja": "フィディア"
+      },
+      "birthplace": {
+        "zh": "萨尔贡",
+        "en": "Sargon",
+        "ja": "サルゴン"
+      }
+    },
+    "char_271_spikes": {
+      "race": {
+        "zh": "萨科塔",
+        "en": "Sankta",
+        "ja": "サンクタ"
+      },
+      "birthplace": {
+        "zh": "拉特兰",
+        "en": "Laterano",
+        "ja": "ラテラーノ"
+      }
+    },
+    "char_365_aprl": {
+      "race": {
+        "zh": "卡特斯",
+        "en": "Cautus",
+        "ja": "コータス"
+      },
+      "birthplace": {
+        "zh": "雷姆必拓",
+        "en": "Rim Billiton",
+        "ja": "レム・ビリトン"
+      }
+    },
+    "char_388_mint": {
+      "race": {
+        "zh": "菲林",
+        "en": "Feline",
+        "ja": "フェリーン"
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "Victoria",
+        "ja": "ヴィクトリア"
+      }
+    },
+    "char_350_surtr": {
+      "race": {
+        "zh": "萨卡兹",
+        "en": "Sarkaz",
+        "ja": "サルカズ"
+      },
+      "birthplace": {
+        "zh": "不明",
+        "en": "Unknown",
+        "ja": "不明"
+      }
+    },
+    "char_381_bubble": {
+      "race": {
+        "zh": "塞拉托",
+        "en": "Cerato",
+        "ja": "セラト"
+      },
+      "birthplace": {
+        "zh": "萨尔贡",
+        "en": "Sargon",
+        "ja": "サルゴン"
+      }
+    },
+    "char_346_aosta": {
+      "race": {
+        "zh": "鲁珀",
+        "en": "Lupo",
+        "ja": "ループス"
+      },
+      "birthplace": {
+        "zh": "叙拉古",
+        "en": "Siracusa",
+        "ja": "シラクーザ"
+      }
+    },
+    "char_265_sophia": {
+      "race": {
+        "zh": "库兰塔",
+        "en": "Kuranta",
+        "ja": "クランタ"
+      },
+      "birthplace": {
+        "zh": "卡西米尔",
+        "en": "Kazimierz",
+        "ja": "カジミエーシュ"
+      }
+    },
+    "char_423_blemsh": {
+      "race": {
+        "zh": "库兰塔",
+        "en": "Kuranta",
+        "ja": "クランタ"
+      },
+      "birthplace": {
+        "zh": "卡西米尔",
+        "en": "Kazimierz",
+        "ja": "カジミエーシュ"
+      }
+    },
+    "char_311_mudrok": {
+      "race": {
+        "zh": "萨卡兹",
+        "en": "Sarkaz",
+        "ja": "サルカズ"
+      },
+      "birthplace": {
+        "zh": "卡兹戴尔",
+        "en": "Kazdel",
+        "ja": "カズデル"
+      }
+    },
+    "char_391_rosmon": {
+      "race": {
+        "zh": "菲林",
+        "en": "Feline",
+        "ja": "フェリーン"
+      },
+      "birthplace": {
+        "zh": "哥伦比亚",
+        "en": "Columbia",
+        "ja": "クルビア"
+      }
+    },
+    "char_436_whispr": {
+      "race": {
+        "zh": "阿戈尔",
+        "en": "Ægir",
+        "ja": "エーギル"
+      },
+      "birthplace": {
+        "zh": "伊比利亚",
+        "en": "Iberia",
+        "ja": "イベリア"
+      }
+    },
+    "char_347_jaksel": {
+      "race": {
+        "zh": "佩洛",
+        "en": "Perro",
+        "ja": "ペッロー"
+      },
+      "birthplace": {
+        "zh": "哥伦比亚",
+        "en": "Columbia",
+        "ja": "クルビア"
+      }
+    },
+    "char_264_f12yin": {
+      "race": {
+        "zh": "菲林",
+        "en": "Feline",
+        "ja": "フェリーン"
+      },
+      "birthplace": {
+        "zh": "哥伦比亚",
+        "en": "Columbia",
+        "ja": "クルビア"
+      }
+    },
+    "char_214_kafka": {
+      "race": {
+        "zh": "黎博利",
+        "en": "Liberi",
+        "ja": "リーベリ"
+      },
+      "birthplace": {
+        "zh": "哥伦比亚",
+        "en": "Columbia",
+        "ja": "クルビア"
+      }
+    },
+    "char_451_robin": {
+      "race": {
+        "zh": "阿纳缇",
+        "en": "Anaty",
+        "ja": "アナティ"
+      },
+      "birthplace": {
+        "zh": "哥伦比亚",
+        "en": "Columbia",
+        "ja": "クルビア"
+      }
+    },
+    "char_440_pinecn": {
+      "race": {
+        "zh": "黎博利",
+        "en": "Liberi",
+        "ja": "リーベリ"
+      },
+      "birthplace": {
+        "zh": "哥伦比亚",
+        "en": "Columbia",
+        "ja": "クルビア"
+      }
+    },
+    "char_332_archet": {
+      "race": {
+        "zh": "黎博利",
+        "en": "Liberi",
+        "ja": "リーベリ"
+      },
+      "birthplace": {
+        "zh": "拉特兰",
+        "en": "Laterano",
+        "ja": "ラテラーノ"
+      }
+    },
+    "char_338_iris": {
+      "race": {
+        "zh": "菲林",
+        "en": "Feline",
+        "ja": "フェリーン"
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "Victoria",
+        "ja": "ヴィクトリア"
+      }
+    },
+    "char_452_bstalk": {
+      "race": {
+        "zh": "瑞柏巴",
+        "en": "Reproba",
+        "ja": "レプロバ"
+      },
+      "birthplace": {
+        "zh": "哥伦比亚",
+        "en": "Columbia",
+        "ja": "クルビア"
+      }
+    },
+    "char_402_tuye": {
+      "race": {
+        "zh": "丰蹄",
+        "en": "Forte",
+        "ja": "フォルテ"
+      },
+      "birthplace": {
+        "zh": "萨尔贡",
+        "en": "Sargon",
+        "ja": "サルゴン"
+      }
+    },
+    "char_455_nothin": {
+      "race": {
+        "zh": "黎博利",
+        "en": "Liberi",
+        "ja": "リーベリ"
+      },
+      "birthplace": {
+        "zh": "炎",
+        "en": "Yan",
+        "ja": "炎国"
+      }
+    },
+    "char_362_saga": {
+      "race": {
+        "zh": "佩洛",
+        "en": "Perro",
+        "ja": "ペッロー"
+      },
+      "birthplace": {
+        "zh": "东国",
+        "en": "Higashi",
+        "ja": "極東"
+      }
+    },
+    "char_2015_dusk": {
+      "race": {
+        "zh": "未公开",
+        "en": "Undisclosed",
+        "ja": "非公開"
+      },
+      "birthplace": {
+        "zh": "炎",
+        "en": "Yan",
+        "ja": "炎"
+      }
+    },
+    "char_1011_lava2": {
+      "race": {
+        "zh": "萨卡兹",
+        "en": "Sarkaz",
+        "ja": "サルカズ"
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "Victoria",
+        "ja": "ヴィクトリア"
+      }
+    },
+    "char_456_ash": {
+      "race": {
+        "zh": "未知",
+        "en": "Unknown",
+        "ja": "不明"
+      },
+      "birthplace": {
+        "zh": "未知",
+        "en": "Unknown",
+        "ja": "不明"
+      }
+    },
+    "char_457_blitz": {
+      "race": {
+        "zh": "未知",
+        "en": "Unknown",
+        "ja": "不明"
+      },
+      "birthplace": {
+        "zh": "未知",
+        "en": "Unknown",
+        "ja": "不明"
+      }
+    },
+    "char_458_rfrost": {
+      "race": {
+        "zh": "未知",
+        "en": "Unknown",
+        "ja": "不明"
+      },
+      "birthplace": {
+        "zh": "未知",
+        "en": "Unknown",
+        "ja": "不明"
+      }
+    },
+    "char_459_tachak": {
+      "race": {
+        "zh": "未知",
+        "en": "Unknown",
+        "ja": "不明"
+      },
+      "birthplace": {
+        "zh": "未知",
+        "en": "Unknown",
+        "ja": "不明"
+      }
+    },
+    "char_472_pasngr": {
+      "race": {
+        "zh": "黎博利",
+        "en": "Liberi",
+        "ja": "リーベリ"
+      },
+      "birthplace": {
+        "zh": "哥伦比亚",
+        "en": "Columbia",
+        "ja": "クルビア"
+      }
+    },
+    "char_363_toddi": {
+      "race": {
+        "zh": "瓦伊凡",
+        "en": "Vouivre",
+        "ja": "ヴイーヴル"
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "Victoria",
+        "ja": "ヴィクトリア"
+      }
+    },
+    "char_304_zebra": {
+      "race": {
+        "zh": "库兰塔",
+        "en": "Kuranta",
+        "ja": "クランタ"
+      },
+      "birthplace": {
+        "zh": "萨尔贡",
+        "en": "Sargon",
+        "ja": "サルゴン"
+      }
+    },
+    "char_1012_skadi2": {
+      "race": {
+        "zh": "未公开",
+        "en": "Undisclosed",
+        "ja": "非公開"
+      },
+      "birthplace": {
+        "zh": "阿戈尔",
+        "en": "Ægir",
+        "ja": "エーギル"
+      }
+    },
+    "char_003_kalts": {
+      "race": {
+        "zh": "菲林",
+        "en": "Feline",
+        "ja": "フェリーン"
+      },
+      "birthplace": {
+        "zh": "罗德岛",
+        "en": "Rhodes Island",
+        "ja": "ロドス・アイランド"
+      }
+    },
+    "char_474_glady": {
+      "race": {
+        "zh": "未公开",
+        "en": "Undisclosed",
+        "ja": "非公開"
+      },
+      "birthplace": {
+        "zh": "阿戈尔",
+        "en": "Ægir",
+        "ja": "エーギル"
+      }
+    },
+    "char_475_akafyu": {
+      "race": {
+        "zh": "阿戈尔",
+        "en": "Ægir",
+        "ja": "エーギル"
+      },
+      "birthplace": {
+        "zh": "东国",
+        "en": "Higashi",
+        "ja": "極東"
+      }
+    },
+    "char_426_billro": {
+      "race": {
+        "zh": "卡普里尼",
+        "en": "Caprinae",
+        "ja": "キャプリニー"
+      },
+      "birthplace": {
+        "zh": "萨尔贡",
+        "en": "Sargon",
+        "ja": "サルゴン"
+      }
+    },
+    "char_478_kirara": {
+      "race": {
+        "zh": "阿戈尔",
+        "en": "Ægir",
+        "ja": "エーギル"
+      },
+      "birthplace": {
+        "zh": "东国",
+        "en": "Higashi",
+        "ja": "極東"
+      }
+    },
+    "char_369_bena": {
+      "race": {
+        "zh": "卡普里尼",
+        "en": "Caprinae",
+        "ja": "キャプリニー"
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "Victoria",
+        "ja": "ヴィクトリア"
+      }
+    },
+    "char_469_indigo": {
+      "race": {
+        "zh": "斐迪亚",
+        "en": "Phidia",
+        "ja": "フィディア"
+      },
+      "birthplace": {
+        "zh": "伊比利亚",
+        "en": "Iberia",
+        "ja": "イベリア"
+      }
+    },
+    "char_485_pallas": {
+      "race": {
+        "zh": "丰蹄",
+        "en": "Forte",
+        "ja": "フォルテ"
+      },
+      "birthplace": {
+        "zh": "米诺斯",
+        "en": "Minos",
+        "ja": "ミノス"
+      }
+    },
+    "char_421_crow": {
+      "race": {
+        "zh": "黎博利",
+        "en": "Liberi",
+        "ja": "リーベリ"
+      },
+      "birthplace": {
+        "zh": "玻利瓦尔",
+        "en": "Bolívar",
+        "ja": "ボリバル"
+      }
+    },
+    "char_437_mizuki": {
+      "race": {
+        "zh": "阿戈尔",
+        "en": "Ægir",
+        "ja": "エーギル"
+      },
+      "birthplace": {
+        "zh": "东国",
+        "en": "Higashi",
+        "ja": "極東"
+      }
+    },
+    "char_1013_chen2": {
+      "race": {
+        "zh": "龙",
+        "en": "Lung",
+        "ja": "龍"
+      },
+      "birthplace": {
+        "zh": "龙门",
+        "en": "Lungmen",
+        "ja": "龍門"
+      }
+    },
+    "char_486_takila": {
+      "race": {
+        "zh": "佩洛",
+        "en": "Perro",
+        "ja": "ペッロー"
+      },
+      "birthplace": {
+        "zh": "玻利瓦尔",
+        "en": "Bolívar",
+        "ja": "ボリバル"
+      }
+    },
+    "char_479_sleach": {
+      "race": {
+        "zh": "瓦伊凡",
+        "en": "Vouivre",
+        "ja": "ヴイーヴル"
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "Victoria",
+        "ja": "ヴィクトリア"
+      }
+    },
+    "char_473_mberry": {
+      "race": {
+        "zh": "黎博利",
+        "en": "Liberi",
+        "ja": "リーベリ"
+      },
+      "birthplace": {
+        "zh": "炎",
+        "en": "Yan",
+        "ja": "炎国"
+      }
+    },
+    "char_484_robrta": {
+      "race": {
+        "zh": "阿纳缇",
+        "en": "Anaty",
+        "ja": "アナティ"
+      },
+      "birthplace": {
+        "zh": "哥伦比亚",
+        "en": "Columbia",
+        "ja": "クルビア"
+      }
+    },
+    "char_430_fartth": {
+      "race": {
+        "zh": "黎博利",
+        "en": "Liberi",
+        "ja": "リーベリ"
+      },
+      "birthplace": {
+        "zh": "卡西米尔",
+        "en": "Kazimierz",
+        "ja": "カジミエーシュ"
+      }
+    },
+    "char_431_ashlok": {
+      "race": {
+        "zh": "札拉克",
+        "en": "Zalak",
+        "ja": "ザラック"
+      },
+      "birthplace": {
+        "zh": "卡西米尔",
+        "en": "Kazimierz",
+        "ja": "カジミエーシュ"
+      }
+    },
+    "char_1014_nearl2": {
+      "race": {
+        "zh": "库兰塔",
+        "en": "Kuranta",
+        "ja": "クランタ"
+      },
+      "birthplace": {
+        "zh": "卡西米尔",
+        "en": "Kazimierz",
+        "ja": "カジミエーシュ"
+      }
+    },
+    "char_420_flamtl": {
+      "race": {
+        "zh": "札拉克",
+        "en": "Zalak",
+        "ja": "ザラック"
+      },
+      "birthplace": {
+        "zh": "卡西米尔",
+        "en": "Kazimierz",
+        "ja": "カジミエーシュ"
+      }
+    },
+    "char_496_wildmn": {
+      "race": {
+        "zh": "库兰塔",
+        "en": "Kuranta",
+        "ja": "クランタ"
+      },
+      "birthplace": {
+        "zh": "卡西米尔",
+        "en": "Kazimierz",
+        "ja": "カジミエーシュ"
+      }
+    },
+    "char_4000_jnight": {
+      "race": {
+        "zh": "其他",
+        "en": "Others",
+        "ja": "その他"
+      },
+      "birthplace": {}
+    },
+    "char_489_serum": {
+      "race": {
+        "zh": "斐迪亚",
+        "en": "Phidia",
+        "ja": "フィディア"
+      },
+      "birthplace": {
+        "zh": "哥伦比亚",
+        "en": "Columbia",
+        "ja": "クルビア"
+      }
+    },
+    "char_449_glider": {
+      "race": {
+        "zh": "札拉克",
+        "en": "Zalak",
+        "ja": "ザラック"
+      },
+      "birthplace": {
+        "zh": "雷姆必拓",
+        "en": "Rim Billiton",
+        "ja": "レム・ビリトン"
+      }
+    },
+    "char_4004_pudd": {
+      "race": {
+        "zh": "阿戈尔",
+        "en": "Ægir",
+        "ja": "エーギル"
+      },
+      "birthplace": {
+        "zh": "哥伦比亚",
+        "en": "Columbia",
+        "ja": "クルビア"
+      }
+    },
+    "char_206_gnosis": {
+      "race": {
+        "zh": "黎博利",
+        "en": "Liberi",
+        "ja": "リーベリ"
+      },
+      "birthplace": {
+        "zh": "谢拉格",
+        "en": "Kjerag",
+        "ja": "イェラグ"
+      }
+    },
+    "char_422_aurora": {
+      "race": {
+        "zh": "乌萨斯",
+        "en": "Ursus",
+        "ja": "ウルサス"
+      },
+      "birthplace": {
+        "zh": "谢拉格",
+        "en": "Kjerag",
+        "ja": "イェラグ"
+      }
+    },
+    "char_4019_ncdeer": {
+      "race": {
+        "zh": "埃拉菲亚",
+        "en": "Elafia",
+        "ja": "エラフィア"
+      },
+      "birthplace": {
+        "zh": "炎",
+        "en": "Yan",
+        "ja": "炎国"
+      }
+    },
+    "char_4013_kjera": {
+      "race": {
+        "zh": "未公开",
+        "en": "Undisclosed",
+        "ja": "非公開"
+      },
+      "birthplace": {
+        "zh": "谢拉格",
+        "en": "Kjerag",
+        "ja": "イェラグ"
+      }
+    },
+    "char_4025_aprot2": {
+      "race": {
+        "zh": "斐迪亚",
+        "en": "Phidia",
+        "ja": "フィディア"
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "Victoria",
+        "ja": "ヴィクトリア"
+      }
+    },
+    "char_476_blkngt": {
+      "race": {
+        "zh": "萨弗拉",
+        "en": "Savra",
+        "ja": "サヴラ"
+      },
+      "birthplace": {
+        "zh": "雷姆必拓",
+        "en": "Rim Billiton",
+        "ja": "レム・ビリトン"
+      }
+    },
+    "char_377_gdglow": {
+      "race": {
+        "zh": "菲林",
+        "en": "Feline",
+        "ja": "フェリーン"
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "Victoria",
+        "ja": "ヴィクトリア"
+      }
+    },
+    "char_492_quercu": {
+      "race": {
+        "zh": "菲林",
+        "en": "Feline",
+        "ja": "フェリーン"
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "Victoria",
+        "ja": "ヴィクトリア"
+      }
+    },
+    "char_2023_ling": {
+      "race": {
+        "zh": "未公开",
+        "en": "Undisclosed",
+        "ja": "非公開"
+      },
+      "birthplace": {
+        "zh": "炎",
+        "en": "Yan",
+        "ja": "炎国"
+      }
+    },
+    "char_322_lmlee": {
+      "race": {
+        "zh": "龙",
+        "en": "Lung",
+        "ja": "龍"
+      },
+      "birthplace": {
+        "zh": "炎",
+        "en": "Yan",
+        "ja": "炎国"
+      }
+    },
+    "char_1021_kroos2": {
+      "race": {
+        "zh": "卡特斯",
+        "en": "Cautus",
+        "ja": "コータス"
+      },
+      "birthplace": {
+        "zh": "雷姆必拓",
+        "en": "Rim Billiton",
+        "ja": "レム・ビリトン"
+      }
+    },
+    "char_300_phenxi": {
+      "race": {
+        "zh": "黎博利",
+        "en": "Liberi",
+        "ja": "リーベリ"
+      },
+      "birthplace": {
+        "zh": "拉特兰",
+        "en": "Laterano",
+        "ja": "ラテラーノ"
+      }
+    },
+    "char_4016_kazema": {
+      "race": {
+        "zh": "菲林",
+        "en": "Feline",
+        "ja": "フェリーン"
+      },
+      "birthplace": {
+        "zh": "东国",
+        "en": "Higashi",
+        "ja": "極東"
+      }
+    },
+    "char_4036_forcer": {
+      "race": {
+        "zh": "萨科塔",
+        "en": "Sankta",
+        "ja": "サンクタ"
+      },
+      "birthplace": {
+        "zh": "拉特兰",
+        "en": "Laterano",
+        "ja": "ラテラーノ"
+      }
+    },
+    "char_4039_horn": {
+      "race": {
+        "zh": "鲁珀",
+        "en": "Lupo",
+        "ja": "ループス"
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "Victoria",
+        "ja": "ヴィクトリア"
+      }
+    },
+    "char_4040_rockr": {
+      "race": {
+        "zh": "菲林",
+        "en": "Feline",
+        "ja": "フェリーン"
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "Victoria",
+        "ja": "ヴィクトリア"
+      }
+    },
+    "char_4041_chnut": {
+      "race": {
+        "zh": "杜林",
+        "en": "Durin",
+        "ja": "ドゥリン"
+      },
+      "birthplace": {
+        "zh": "未公开",
+        "en": "Undisclosed",
+        "ja": "非公開"
+      }
+    },
+    "char_4045_heidi": {
+      "race": {
+        "zh": "菲林",
+        "en": "Feline",
+        "ja": "フェリーン"
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "Victoria",
+        "ja": "ヴィクトリア"
+      }
+    },
+    "char_1023_ghost2": {
+      "race": {
+        "zh": "阿戈尔",
+        "en": "Ægir",
+        "ja": "エーギル"
+      },
+      "birthplace": {
+        "zh": "阿戈尔",
+        "en": "Ægir",
+        "ja": "エーギル"
+      }
+    },
+    "char_4009_irene": {
+      "race": {
+        "zh": "黎博利",
+        "en": "Liberi",
+        "ja": "リーベリ"
+      },
+      "birthplace": {
+        "zh": "伊比利亚",
+        "en": "Iberia",
+        "ja": "イベリア"
+      }
+    },
+    "char_4042_lumen": {
+      "race": {
+        "zh": "阿戈尔",
+        "en": "Ægir",
+        "ja": "エーギル"
+      },
+      "birthplace": {
+        "zh": "伊比利亚",
+        "en": "Iberia",
+        "ja": "イベリア"
+      }
+    },
+    "char_4043_erato": {
+      "race": {
+        "zh": "黎博利",
+        "en": "Liberi",
+        "ja": "リーベリ"
+      },
+      "birthplace": {
+        "zh": "米诺斯",
+        "en": "Minos",
+        "ja": "ミノス"
+      }
+    },
+    "char_433_windft": {
+      "race": {
+        "zh": "佩洛",
+        "en": "Perro",
+        "ja": "ペッロー"
+      },
+      "birthplace": {
+        "zh": "哥伦比亚",
+        "en": "Columbia",
+        "ja": "グルビア"
+      }
+    },
+    "char_4046_ebnhlz": {
+      "race": {
+        "zh": "卡普里尼",
+        "en": "Caprinae",
+        "ja": "キャプリニー"
+      },
+      "birthplace": {
+        "zh": "莱塔尼亚",
+        "en": "Leithanien",
+        "ja": "リターニア"
+      }
+    },
+    "char_1024_hbisc2": {
+      "race": {
+        "zh": "萨卡兹",
+        "en": "Sarkaz",
+        "ja": "サルカズ"
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "Victoria",
+        "ja": "ヴィクトリア"
+      }
+    },
+    "char_4047_pianst": {
+      "race": {
+        "zh": "埃拉菲亚",
+        "en": "Elafia",
+        "ja": "エラフィア"
+      },
+      "birthplace": {
+        "zh": "莱塔尼亚",
+        "en": "Leithanien",
+        "ja": "リターニア"
+      }
+    },
+    "char_4048_doroth": {
+      "race": {
+        "zh": "札拉克",
+        "en": "Zalak",
+        "ja": "ザラック"
+      },
+      "birthplace": {
+        "zh": "哥伦比亚",
+        "en": "Columbia",
+        "ja": "クルビア"
+      }
+    },
+    "char_1027_greyy2": {
+      "race": {
+        "zh": "佩洛",
+        "en": "Perro",
+        "ja": "ペッロー"
+      },
+      "birthplace": {
+        "zh": "玻利瓦尔",
+        "en": "Bolívar",
+        "ja": "ボリバル"
+      }
+    },
+    "char_135_halo": {
+      "race": {
+        "zh": "黎博利",
+        "en": "Liberi",
+        "ja": "リーベリ"
+      },
+      "birthplace": {
+        "zh": "哥伦比亚",
+        "en": "Columbia",
+        "ja": "クルビア"
+      }
+    },
+    "char_1026_gvial2": {
+      "race": {
+        "zh": "阿达克利斯",
+        "en": "Archosauria",
+        "ja": "アダクリス"
+      },
+      "birthplace": {
+        "zh": "萨尔贡",
+        "en": "Sargon",
+        "ja": "サルゴン"
+      }
+    },
+    "char_4055_bgsnow": {
+      "race": {
+        "zh": "鲁珀",
+        "en": "Lupo",
+        "ja": "ループス"
+      },
+      "birthplace": {
+        "zh": "乌萨斯",
+        "en": "Ursus",
+        "ja": "ウルサス"
+      }
+    },
+    "char_497_ctable": {
+      "race": {
+        "zh": "黎博利",
+        "en": "Liberi",
+        "ja": "リーベリ"
+      },
+      "birthplace": {
+        "zh": "玻利瓦尔",
+        "en": "Bolívar",
+        "ja": "ボリバル"
+      }
+    },
+    "char_4054_malist": {
+      "race": {
+        "zh": "杜林",
+        "en": "Durin",
+        "ja": "ドゥリン"
+      },
+      "birthplace": {
+        "zh": "杜林",
+        "en": "Durin",
+        "ja": "ドゥリン"
+      }
+    },
+    "char_4067_lolxh": {
+      "race": {
+        "zh": "菲林",
+        "en": "Feline",
+        "ja": "フェリーン"
+      },
+      "birthplace": {
+        "zh": "未知",
+        "en": "Undisclosed",
+        "ja": "不明"
+      }
+    },
+    "char_4064_mlynar": {
+      "race": {
+        "zh": "库兰塔",
+        "en": "Kuranta",
+        "ja": "クランタ"
+      },
+      "birthplace": {
+        "zh": "卡西米尔",
+        "en": "Kazimierz",
+        "ja": "カジミエーシュ"
+      }
+    },
+    "char_4032_provs": {
+      "race": {
+        "zh": "库兰塔",
+        "en": "Kuranta",
+        "ja": "クランタ"
+      },
+      "birthplace": {
+        "zh": "卡西米尔",
+        "en": "Kazimierz",
+        "ja": "カジミエーシュ"
+      }
+    },
+    "char_4066_highmo": {
+      "race": {
+        "zh": "阿戈尔",
+        "en": "Ægir",
+        "ja": "エーギル"
+      },
+      "birthplace": {
+        "zh": "伊比利亚",
+        "en": "Iberia",
+        "ja": "イベリア"
+      }
+    },
+    "char_511_asnipe": {
+      "race": {
+        "zh": "萨卡兹",
+        "en": "Sarkaz",
+        "ja": "サルカズ"
+      },
+      "birthplace": {
+        "zh": "卡兹戴尔",
+        "en": "Kazdel",
+        "ja": "カズデル"
+      }
+    },
+    "char_510_amedic": {
+      "race": {
+        "zh": "卡普里尼",
+        "en": "Caprinae",
+        "ja": "キャプリニー"
+      },
+      "birthplace": {
+        "zh": "莱塔尼亚",
+        "en": "Leithanien",
+        "ja": "リターニア"
+      }
+    },
+    "char_508_aguard": {
+      "race": {
+        "zh": "斐迪亚",
+        "en": "Phidia",
+        "ja": "フィディア"
+      },
+      "birthplace": {
+        "zh": "哥伦比亚",
+        "en": "Columbia",
+        "ja": "クルビア"
+      }
+    },
+    "char_509_acast": {
+      "race": {
+        "zh": "黎博利",
+        "en": "Liberi",
+        "ja": "リーベリ"
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "Victoria",
+        "ja": "ヴィクトリア"
+      }
+    },
+    "char_513_apionr": {
+      "race": {
+        "zh": "斐迪亚",
+        "en": "Phidia",
+        "ja": "フィディア"
+      },
+      "birthplace": {
+        "zh": "伊比利亚",
+        "en": "Iberia",
+        "ja": "イベリア"
+      }
+    },
+    "char_157_dagda": {
+      "race": {
+        "zh": "菲林",
+        "en": "Feline",
+        "ja": "フェリーン"
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "Victoria",
+        "ja": "ヴィクトリア"
+      }
+    },
+    "char_4062_totter": {
+      "race": {
+        "zh": "黎博利",
+        "en": "Liberi",
+        "ja": "リーベリ"
+      },
+      "birthplace": {
+        "zh": "萨尔贡",
+        "en": "Sargon",
+        "ja": "サルゴン"
+      }
+    },
+    "char_4071_peper": {
+      "race": {
+        "zh": "萨卡兹",
+        "en": "Sarkaz",
+        "ja": "サルカズ"
+      },
+      "birthplace": {
+        "zh": "哥伦比亚",
+        "en": "Columbia",
+        "ja": "クルビア"
+      }
+    },
+    "char_4072_ironmn": {
+      "race": {
+        "zh": "菲林",
+        "en": "Feline",
+        "ja": "フェリーン"
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "Victoria",
+        "ja": "ヴィクトリア"
+      }
+    },
+    "char_4063_quartz": {
+      "race": {
+        "zh": "鲁珀",
+        "en": "Lupo",
+        "ja": "ループス"
+      },
+      "birthplace": {
+        "zh": "哥伦比亚",
+        "en": "Columbia",
+        "ja": "クルビア"
+      }
+    },
+    "char_4014_lunacu": {
+      "race": {
+        "zh": "鲁珀",
+        "en": "Lupo",
+        "ja": "ループス"
+      },
+      "birthplace": {
+        "zh": "叙拉古",
+        "en": "Siracusa",
+        "ja": "シラクーザ"
+      }
+    },
+    "char_466_qanik": {
+      "race": {
+        "zh": "沃尔珀",
+        "en": "Vulpo",
+        "ja": "ヴァルポ"
+      },
+      "birthplace": {
+        "zh": "萨米",
+        "en": "Sami",
+        "ja": "サーミ"
+      }
+    },
+    "char_427_vigil": {
+      "race": {
+        "zh": "鲁珀",
+        "en": "Lupo",
+        "ja": "ループス"
+      },
+      "birthplace": {
+        "zh": "叙拉古",
+        "en": "Siracusa",
+        "ja": "シラクーザ"
+      }
+    },
+    "char_4065_judge": {
+      "race": {
+        "zh": "鲁珀",
+        "en": "Lupo",
+        "ja": "ループス"
+      },
+      "birthplace": {
+        "zh": "叙拉古",
+        "en": "Siracusa",
+        "ja": "シラクーザ"
+      }
+    },
+    "char_1028_texas2": {
+      "race": {
+        "zh": "鲁珀",
+        "en": "Lupo",
+        "ja": "ループス"
+      },
+      "birthplace": {
+        "zh": "哥伦比亚",
+        "en": "Columbia",
+        "ja": "クルビア"
+      }
+    },
+    "char_4017_puzzle": {
+      "race": {
+        "zh": "瓦伊凡",
+        "en": "Vouivre",
+        "ja": "ヴイーヴル"
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "Victoria",
+        "ja": "ヴィクトリア"
+      }
+    },
+    "char_297_hamoni": {
+      "race": {
+        "zh": "菲林",
+        "en": "Feline",
+        "ja": "フェリーン"
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "Victoria",
+        "ja": "ヴィクトリア"
+      }
+    },
+    "char_1020_reed2": {
+      "race": {
+        "zh": "德拉克",
+        "en": "Draco",
+        "ja": "ドラコ"
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "Victoria",
+        "ja": "ヴィクトリア"
+      }
+    },
+    "char_4080_lin": {
+      "race": {
+        "zh": "札拉克",
+        "en": "Zalak",
+        "ja": "ザラック"
+      },
+      "birthplace": {
+        "zh": "龙门",
+        "en": "Lungmen",
+        "ja": "龍門"
+      }
+    },
+    "char_4082_qiubai": {
+      "race": {
+        "zh": "埃拉菲亚",
+        "en": "Elafia",
+        "ja": "エラフィア"
+      },
+      "birthplace": {
+        "zh": "炎",
+        "en": "Yan",
+        "ja": "炎国"
+      }
+    },
+    "char_493_firwhl": {
+      "race": {
+        "zh": "黎博利",
+        "en": "Liberi",
+        "ja": "リーベリ"
+      },
+      "birthplace": {
+        "zh": "雷姆必拓",
+        "en": "Rim Billiton",
+        "ja": "レム・ビリトン"
+      }
+    },
+    "char_4083_chimes": {
+      "race": {
+        "zh": "丰蹄",
+        "en": "Forte",
+        "ja": "フォルテ"
+      },
+      "birthplace": {
+        "zh": "炎",
+        "en": "Yan",
+        "ja": "炎国"
+      }
+    },
+    "char_2024_chyue": {
+      "race": {
+        "zh": "未公开",
+        "en": "Undisclosed",
+        "ja": "非公開"
+      },
+      "birthplace": {
+        "zh": "炎",
+        "en": "Yan",
+        "ja": "炎国"
+      }
+    },
+    "char_4078_bdhkgt": {
+      "race": {
+        "zh": "阿纳萨",
+        "en": "Anasa",
+        "ja": "アナサ"
+      },
+      "birthplace": {
+        "zh": "炎",
+        "en": "Yan",
+        "ja": "炎国"
+      }
+    },
+    "char_1029_yato2": {
+      "race": {
+        "zh": "鬼",
+        "en": "Oni",
+        "ja": "鬼"
+      },
+      "birthplace": {
+        "zh": "东国",
+        "en": "Higashi",
+        "ja": "極東"
+      }
+    },
+    "char_4077_palico": {
+      "race": {
+        "zh": "未公开",
+        "en": "Undisclosed",
+        "ja": "非公開"
+      },
+      "birthplace": {
+        "zh": "未知",
+        "en": "Unknown",
+        "ja": "不明"
+      }
+    },
+    "char_1030_noirc2": {
+      "race": {
+        "zh": "鬼",
+        "en": "Oni",
+        "ja": "鬼"
+      },
+      "birthplace": {
+        "zh": "东国",
+        "en": "Higashi",
+        "ja": "極東"
+      }
+    },
+    "char_4091_ulika": {
+      "race": {
+        "zh": "札拉克",
+        "en": "Zalak",
+        "ja": "ザラック"
+      },
+      "birthplace": {
+        "zh": "未公开",
+        "en": "Undisclosed",
+        "ja": "未公開"
+      }
+    },
+    "char_491_humus": {
+      "race": {
+        "zh": "丰蹄",
+        "en": "Forte",
+        "ja": "フォルテ"
+      },
+      "birthplace": {
+        "zh": "哥伦比亚",
+        "en": "Columbia",
+        "ja": "クルビア"
+      }
+    },
+    "char_154_morgan": {
+      "race": {
+        "zh": "菲林",
+        "en": "Feline",
+        "ja": "フェリーン"
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "Victoria",
+        "ja": "ヴィクトリア"
+      }
+    },
+    "char_464_cement": {
+      "race": {
+        "zh": "札拉克",
+        "en": "Zalak",
+        "ja": "ザラック"
+      },
+      "birthplace": {
+        "zh": "雷姆必拓",
+        "en": "Rim Billiton",
+        "ja": "レム・ビリトン"
+      }
+    },
+    "char_4087_ines": {
+      "race": {
+        "zh": "未公开",
+        "en": "Undisclosed",
+        "ja": "非公開"
+      },
+      "birthplace": {
+        "zh": "卡兹戴尔",
+        "en": "Kazdel",
+        "ja": "カズデル"
+      }
+    },
+    "char_1031_slent2": {
+      "race": {
+        "zh": "黎博利",
+        "en": "Liberi",
+        "ja": "リーべリ"
+      },
+      "birthplace": {
+        "zh": "哥伦比亚",
+        "en": "Columbia",
+        "ja": "クルビア"
+      }
+    },
+    "char_4006_melnte": {
+      "race": {
+        "zh": "斐迪亚",
+        "en": "Phidia",
+        "ja": "フィディア"
+      },
+      "birthplace": {
+        "zh": "哥伦比亚",
+        "en": "Columbia",
+        "ja": "クルビア"
+      }
+    },
+    "char_4027_heyak": {
+      "race": {
+        "zh": "未公开",
+        "en": "Undisclosed",
+        "ja": "非公開"
+      },
+      "birthplace": {
+        "zh": "哥伦比亚",
+        "en": "Columbia",
+        "ja": "クルビア"
+      }
+    },
+    "char_249_mlyss": {
+      "race": {
+        "zh": "精灵",
+        "en": "Elf",
+        "ja": "エルフ"
+      },
+      "birthplace": {
+        "zh": "未公开",
+        "en": "Undisclosed",
+        "ja": "非公開"
+      }
+    },
+    "char_4093_frston": {
+      "race": {
+        "zh": "其他",
+        "en": "Others",
+        "ja": "その他"
+      },
+      "birthplace": {}
+    },
+    "char_4015_spuria": {
+      "race": {
+        "zh": "萨科塔",
+        "en": "Sankta",
+        "ja": "サンクタ"
+      },
+      "birthplace": {
+        "zh": "拉特兰",
+        "en": "Laterano",
+        "ja": "ラテラーノ"
+      }
+    },
+    "char_1032_excu2": {
+      "race": {
+        "zh": "萨科塔",
+        "en": "Sankta",
+        "ja": "サンクタ"
+      },
+      "birthplace": {
+        "zh": "拉特兰",
+        "en": "Laterano",
+        "ja": "ラテラーノ"
+      }
+    },
+    "char_498_inside": {
+      "race": {
+        "zh": "萨科塔",
+        "en": "Sankta",
+        "ja": "サンクタ"
+      },
+      "birthplace": {
+        "zh": "拉特兰",
+        "en": "Laterano",
+        "ja": "ラテラーノ"
+      }
+    },
+    "char_2012_typhon": {
+      "race": {
+        "zh": "萨卡兹",
+        "en": "Sarkaz",
+        "ja": "サルカズ"
+      },
+      "birthplace": {
+        "zh": "萨米",
+        "en": "Sami",
+        "ja": "サーミ"
+      }
+    },
+    "char_341_sntlla": {
+      "race": {
+        "zh": "菲林",
+        "en": "Feline",
+        "ja": "フェリーン"
+      },
+      "birthplace": {
+        "zh": "萨米",
+        "en": "Sami",
+        "ja": "サーミ"
+      }
+    },
+    "char_4102_threye": {
+      "race": {
+        "zh": "萨卡兹",
+        "en": "Sarkaz",
+        "ja": "サルカズ"
+      },
+      "birthplace": {
+        "zh": "萨米",
+        "en": "Sami",
+        "ja": "サーミ"
+      }
+    },
+    "char_1016_agoat2": {
+      "race": {
+        "zh": "卡普里尼",
+        "en": "Caprinae",
+        "ja": "キャプリニー"
+      },
+      "birthplace": {
+        "zh": "莱塔尼亚",
+        "en": "Leithanien",
+        "ja": "リターニア"
+      }
+    },
+    "char_1033_swire2": {
+      "race": {
+        "zh": "菲林",
+        "en": "Feline",
+        "ja": "フェリーン"
+      },
+      "birthplace": {
+        "zh": "龙门",
+        "en": "Lungmen",
+        "ja": "龍門"
+      }
+    },
+    "char_488_buildr": {
+      "race": {
+        "zh": "黎博利",
+        "en": "Liberi",
+        "ja": "リーベリ"
+      },
+      "birthplace": {
+        "zh": "汐斯塔",
+        "en": "Siesta",
+        "ja": "シエスタ"
+      }
+    },
+    "char_4106_bryota": {
+      "race": {
+        "zh": "黎博利",
+        "en": "Liberi",
+        "ja": "リーベリ"
+      },
+      "birthplace": {
+        "zh": "汐斯塔",
+        "en": "Siesta",
+        "ja": "シエスタ"
+      }
+    },
+    "char_1034_jesca2": {
+      "race": {
+        "zh": "菲林",
+        "en": "Feline",
+        "ja": "フェリーン"
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "Victoria",
+        "ja": "ヴィクトリア"
+      }
+    },
+    "char_4105_almond": {
+      "race": {
+        "zh": "佩洛",
+        "en": "Perro",
+        "ja": "ペッロー"
+      },
+      "birthplace": {
+        "zh": "哥伦比亚",
+        "en": "Columbia",
+        "ja": "クルビア"
+      }
+    },
+    "char_4104_coldst": {
+      "race": {
+        "zh": "埃拉菲亚",
+        "en": "Elafia",
+        "ja": "エラフィア"
+      },
+      "birthplace": {
+        "zh": "哥伦比亚",
+        "en": "Columbia",
+        "ja": "クルビア"
+      }
+    },
+    "char_4107_vrdant": {
+      "race": {
+        "zh": "斐迪亚",
+        "en": "",
+        "ja": ""
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "",
+        "ja": ""
+      }
+    },
+    "char_494_vendla": {
+      "race": {
+        "zh": "菲林",
+        "en": "",
+        "ja": ""
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "",
+        "ja": ""
+      }
+    },
+    "char_4110_delphn": {
+      "race": {
+        "zh": "菲林",
+        "en": "",
+        "ja": ""
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "",
+        "ja": ""
+      }
+    },
+    "char_4088_hodrer": {
+      "race": {
+        "zh": "萨卡兹",
+        "en": "",
+        "ja": ""
+      },
+      "birthplace": {
+        "zh": "卡兹戴尔",
+        "en": "",
+        "ja": ""
+      }
+    },
+    "char_4109_baslin": {
+      "race": {
+        "zh": "鲁珀",
+        "en": "",
+        "ja": ""
+      },
+      "birthplace": {
+        "zh": "莱塔尼亚",
+        "en": "",
+        "ja": ""
+      }
+    },
+    "char_4100_caper": {
+      "race": {
+        "zh": "卡特斯",
+        "en": "",
+        "ja": ""
+      },
+      "birthplace": {
+        "zh": "玻利瓦尔",
+        "en": "",
+        "ja": ""
+      }
+    },
+    "char_4011_lessng": {
+      "race": {
+        "zh": "卡普里尼",
+        "en": "",
+        "ja": ""
+      },
+      "birthplace": {
+        "zh": "莱塔尼亚",
+        "en": "",
+        "ja": ""
+      }
+    },
+    "char_499_kaitou": {
+      "race": {
+        "zh": "卡普里尼",
+        "en": "",
+        "ja": ""
+      },
+      "birthplace": {
+        "zh": "莱塔尼亚",
+        "en": "",
+        "ja": ""
+      }
+    },
+    "char_4098_vvana": {
+      "race": {
+        "zh": "埃拉菲亚",
+        "en": "",
+        "ja": ""
+      },
+      "birthplace": {
+        "zh": "莱塔尼亚",
+        "en": "",
+        "ja": ""
+      }
+    },
+    "char_245_cello": {
+      "race": {
+        "zh": "萨科塔",
+        "en": "",
+        "ja": ""
+      },
+      "birthplace": {
+        "zh": "拉特兰",
+        "en": "",
+        "ja": ""
+      }
+    },
+    "char_194_leto": {
+      "race": {
+        "zh": "乌萨斯",
+        "en": "",
+        "ja": ""
+      },
+      "birthplace": {
+        "zh": "乌萨斯",
+        "en": "",
+        "ja": ""
+      }
+    },
+    "char_4116_blkkgt": {
+      "race": {
+        "zh": "卡普里尼",
+        "en": "",
+        "ja": ""
+      },
+      "birthplace": {
+        "zh": "莱塔尼亚",
+        "en": "",
+        "ja": ""
+      }
+    },
+    "char_4114_harold": {
+      "race": {
+        "zh": "菲林",
+        "en": "",
+        "ja": ""
+      },
+      "birthplace": {
+        "zh": "维多利亚",
+        "en": "",
+        "ja": ""
+      }
+    },
+    "char_4081_warmy": {
+      "race": {
+        "zh": "卡特斯",
+        "en": "",
+        "ja": ""
+      },
+      "birthplace": {
+        "zh": "雷姆必拓",
+        "en": "",
+        "ja": ""
+      }
+    },
+    "char_4117_ray": {
+      "race": {
+        "zh": "卡特斯",
+        "en": "",
+        "ja": ""
+      },
+      "birthplace": {
+        "zh": "雷姆必拓",
+        "en": "",
+        "ja": ""
+      }
+    },
+    "char_4121_zuole": {
+      "race": {
+        "zh": "斐迪亚",
+        "en": "",
+        "ja": ""
+      },
+      "birthplace": {
+        "zh": "炎",
+        "en": "",
+        "ja": ""
+      }
+    },
+    "char_4023_rfalcn": {
+      "race": {
+        "zh": "黎博利",
+        "en": "",
+        "ja": ""
+      },
+      "birthplace": {
+        "zh": "萨尔贡",
+        "en": "",
+        "ja": ""
+      }
+    },
+    "char_2025_shu": {
+      "race": {
+        "zh": "未公开",
+        "en": "",
+        "ja": ""
+      },
+      "birthplace": {
+        "zh": "炎",
+        "en": "",
+        "ja": ""
+      }
+    },
+    "char_4119_wanqin": {
+      "race": {
+        "zh": "丰蹄",
+        "en": "",
+        "ja": ""
+      },
+      "birthplace": {
+        "zh": "炎",
+        "en": "",
+        "ja": ""
+      }
+    },
+    "char_4122_grabds": {
+      "race": {
+        "zh": "黎博利",
+        "en": "",
+        "ja": ""
+      },
+      "birthplace": {
+        "zh": "炎",
+        "en": "",
+        "ja": ""
+      }
+    },
+    "char_4123_ela": {
+      "race": {
+        "zh": "未知",
+        "en": "",
+        "ja": ""
+      },
+      "birthplace": {
+        "zh": "未知",
+        "en": "",
+        "ja": ""
+      }
+    },
+    "char_4124_iana": {
+      "race": {
+        "zh": "未知",
+        "en": "",
+        "ja": ""
+      },
+      "birthplace": {
+        "zh": "未知",
+        "en": "",
+        "ja": ""
+      }
+    },
+    "char_4125_rdoc": {
+      "race": {
+        "zh": "未知",
+        "en": "",
+        "ja": ""
+      },
+      "birthplace": {
+        "zh": "未知",
+        "en": "",
+        "ja": ""
+      }
+    },
+    "char_4126_fuze": {
+      "race": {
+        "zh": "未知",
+        "en": "",
+        "ja": ""
+      },
+      "birthplace": {
+        "zh": "未知",
+        "en": "",
+        "ja": ""
+      }
+    },
+    "char_4131_odda": {
+      "race": {
+        "zh": "萨卡兹",
+        "en": "",
+        "ja": ""
+      },
+      "birthplace": {
+        "zh": "卡兹戴尔",
+        "en": "",
+        "ja": ""
+      }
+    },
+    "char_4130_luton": {
+      "race": {
+        "zh": "札拉克",
+        "en": "",
+        "ja": ""
+      },
+      "birthplace": {
+        "zh": "玻利瓦尔",
+        "en": "",
+        "ja": ""
+      }
+    },
+    "char_4132_ascln": {
+      "race": {
+        "zh": "萨卡兹",
+        "en": "",
+        "ja": ""
+      },
+      "birthplace": {
+        "zh": "卡兹戴尔",
+        "en": "",
+        "ja": ""
+      }
+    },
+    "char_446_aroma": {
+      "race": {
+        "zh": "鲁珀",
+        "en": "",
+        "ja": ""
+      },
+      "birthplace": {
+        "zh": "叙拉古",
+        "en": "",
+        "ja": ""
+      }
     }
+  },
+  "groups": {
+    "none": {
+      "zh": "无团队",
+      "en": "No team",
+      "ja": "所属なし"
+    },
+    "rhodes": {
+      "zh": "罗德岛",
+      "en": "Rhodes Island",
+      "ja": "ロドス・アイランド"
+    },
+    "yan": {
+      "zh": "炎",
+      "en": "Yan",
+      "ja": "炎"
+    },
+    "lungmen": {
+      "zh": "炎-龙门",
+      "en": "Yan-Lungmen",
+      "ja": "炎−龍門"
+    },
+    "egir": {
+      "zh": "阿戈尔",
+      "en": "Ægir",
+      "ja": "エーギル"
+    },
+    "bolivar": {
+      "zh": "玻利瓦尔",
+      "en": "Bolívar",
+      "ja": "ボリバル"
+    },
+    "columbia": {
+      "zh": "哥伦比亚",
+      "en": "Columbia",
+      "ja": "クルビア"
+    },
+    "higashi": {
+      "zh": "东",
+      "en": "Higashi",
+      "ja": "極東"
+    },
+    "iberia": {
+      "zh": "伊比利亚",
+      "en": "Iberia",
+      "ja": "イベリア"
+    },
+    "kazimierz": {
+      "zh": "卡西米尔",
+      "en": "Kazimierz",
+      "ja": "カジミエーシュ"
+    },
+    "kjerag": {
+      "zh": "谢拉格",
+      "en": "Kjerag",
+      "ja": "イェラグ"
+    },
+    "laterano": {
+      "zh": "拉特兰",
+      "en": "Laterano",
+      "ja": "ラテラーノ"
+    },
+    "leithanien": {
+      "zh": "莱塔尼亚",
+      "en": "Leithanien",
+      "ja": "リターニア"
+    },
+    "minos": {
+      "zh": "米诺斯",
+      "en": "Minos",
+      "ja": "ミノス"
+    },
+    "rim": {
+      "zh": "雷姆必拓",
+      "en": "Rim Billiton",
+      "ja": "レム・ビリトン"
+    },
+    "sami": {
+      "zh": "萨米",
+      "en": "Sami",
+      "ja": "サーミ"
+    },
+    "sargon": {
+      "zh": "萨尔贡",
+      "en": "Sargon",
+      "ja": "サルゴン"
+    },
+    "siracusa": {
+      "zh": "叙拉古",
+      "en": "Siracusa",
+      "ja": "シラクーザ"
+    },
+    "ursus": {
+      "zh": "乌萨斯",
+      "en": "Ursus",
+      "ja": "ウルサス"
+    },
+    "victoria": {
+      "zh": "维多利亚",
+      "en": "Victoria",
+      "ja": "ヴィクトリア"
+    },
+    "elite": {
+      "zh": "罗德岛-精英干员",
+      "en": "Rhodes Island-Elite Operator",
+      "ja": "エリートオペレーター"
+    },
+    "sweep": {
+      "zh": "S.W.E.E.P.",
+      "en": "S.W.E.E.P",
+      "ja": "S.W.E.E.P"
+    },
+    "babel": {
+      "zh": "巴别塔",
+      "en": "Babel",
+      "ja": "バベル"
+    },
+    "abyssal": {
+      "zh": "深海猎人",
+      "en": "Abyssal Hunters",
+      "ja": "アビサル"
+    },
+    "blacksteel": {
+      "zh": "黑钢国际",
+      "en": "Blacksteel Worldwide",
+      "ja": "BSW"
+    },
+    "glasgow": {
+      "zh": "格拉斯哥帮",
+      "en": "Glasgow",
+      "ja": "グラスゴー"
+    },
+    "karlan": {
+      "zh": "喀兰贸易",
+      "en": "Karlan Trade CO., LTD",
+      "ja": "カランド貿易"
+    },
+    "lgd": {
+      "zh": "龙门近卫局",
+      "en": "Lungmen Guard Department",
+      "ja": "龍門近衛局"
+    },
+    "penguin": {
+      "zh": "企鹅物流",
+      "en": "Penguin Logistics",
+      "ja": "ペンギン急便"
+    },
+    "pinus": {
+      "zh": "红松骑士团",
+      "en": "Pinus Sylvestris",
+      "ja": "レッドパイン騎士団"
+    },
+    "rhine": {
+      "zh": "莱茵生命",
+      "en": "Rhine Lab",
+      "ja": "ライン生命"
+    },
+    "siesta": {
+      "zh": "汐斯塔",
+      "en": "Siesta",
+      "ja": "シエスタ"
+    },
+    "sui": {
+      "zh": "炎-岁",
+      "en": "Yan-Sui",
+      "ja": "炎-歳"
+    },
+    "dublinn": {
+      "zh": "深池",
+      "en": "Dublinn",
+      "ja": "ダブリン"
+    },
+    "action4": {
+      "zh": "行动组A4",
+      "en": "Op Team A4",
+      "ja": "行動隊A4"
+    },
+    "reserve1": {
+      "zh": "行动预备组A1",
+      "en": "Reserve Op Team A1",
+      "ja": "行動予備隊A1"
+    },
+    "reserve4": {
+      "zh": "行动预备组A4",
+      "en": "Reserve Op Team A4",
+      "ja": "行動予備隊A4"
+    },
+    "reserve6": {
+      "zh": "行动预备组A6",
+      "en": "Reserve Op Team A6",
+      "ja": "行動予備隊A6"
+    },
+    "chiave": {
+      "zh": "贾维团伙",
+      "en": "Chiave Gang",
+      "ja": "キアーベ一味"
+    },
+    "followers": {
+      "zh": "使徒",
+      "en": "Followers",
+      "ja": "使徒"
+    },
+    "lee": {
+      "zh": "鲤氏侦探事务所",
+      "en": "Lee's Detective Agency",
+      "ja": "リー探偵事務所"
+    },
+    "rainbow": {
+      "zh": "彩虹小队",
+      "en": "Team Rainbow",
+      "ja": "レインボー小隊"
+    },
+    "student": {
+      "zh": "乌萨斯学生自治团",
+      "en": "Ursus Student Self-Governing Group",
+      "ja": "ウルサス学生自治団"
+    }
+  }
 }

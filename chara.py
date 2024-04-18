@@ -81,8 +81,8 @@ for id in filtered_cn_char_table:
                    "profession": character_dict['profession'], "subProfessionId": character_dict['subProfessionId'],
                    "skills": skills, "talents": talents, "tagList": [], 'uniequip':uniequip_list}
     if id in en_char_table:
-        return_dict['name_en'] = en_char_table[id]['name']
         return_dict['name_ja'] = jp_char_table[id]['name']
+        return_dict['name_en'] = en_char_table[id]['name']
     data.append(return_dict)
 
 with open('characters.json', 'w', encoding='utf-8') as f:
@@ -103,11 +103,11 @@ with open('characters.json', 'w', encoding='utf-8') as f:
                     "prefabKey": maxed_talent["prefabKey"], "name_zh": maxed_talent["name"], "name_en": "", "name_ja": "",
                     "description_zh": maxed_talent["description"], "description_en": "", "description_ja": "", "tags":[],"blackboard":maxed_talent['blackboard']}
                 if id in en_char_table:
-                    talent_holder["name_en"] = en_char_table[id]['talents'][talent_index]['candidates'][max_candidate_index]["name"]
-                    talent_holder["description_en"] = en_char_table[id]['talents'][
-                        talent_index]['candidates'][max_candidate_index]["description"]
                     talent_holder["name_ja"] = jp_char_table[id]['talents'][talent_index]['candidates'][max_candidate_index]["name"]
                     talent_holder["description_ja"] = jp_char_table[id]['talents'][
+                        talent_index]['candidates'][max_candidate_index]["description"]
+                    talent_holder["name_en"] = en_char_table[id]['talents'][talent_index]['candidates'][max_candidate_index]["name"]
+                    talent_holder["description_en"] = en_char_table[id]['talents'][
                         talent_index]['candidates'][max_candidate_index]["description"]
                 talents.append(talent_holder)
         return_dict[id] = {

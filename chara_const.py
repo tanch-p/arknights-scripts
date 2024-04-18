@@ -9,7 +9,7 @@ buffs_list = [
     "inspire"]
 debuffs_list = ["stun", "sluggish", "sleep",
                 "silence", "levitate", "cold",
-                "magicfragile", "root", "tremble",
+                 "root", "tremble", "magicfragile"
                 "fragile", "dt.apoptosis2", "dt.burning2",
                 "steal", "weightless"]
 
@@ -42,12 +42,43 @@ with open(jp_team_table_path, encoding='utf-8') as f:
     jp_team_table = json.load(f)
 
 data = {
+    'chara_handbook': {},
     "groups": {}
 }
 
 for key in cn_team_table:
     data['groups'][key] = {"zh": cn_team_table[key]['powerName'], "en": en_team_table[key]
                            ['powerName'], "ja": jp_team_table[key]['powerName']}
+for key in cn_handbook_info['handbookDict']:
+    race = {}
+    birthplace = {}
+    if 'npc' in key:
+        continue
+    cn_info = cn_handbook_info['handbookDict'][key]['storyTextAudio'][0]['stories'][0]['storyText']
+    # if not '种族' in cn_info:
+    #     print(key,"no 种族")
+    if not '种族' in cn_info:
+        race['zh'] = "其他"
+        race['en'] = "Others"
+        race['ja'] = "その他"
+    else:
+        race['zh'] = cn_info.split("【种族】")[1].split("\n")[0].strip()
+        birthplace['zh'] = cn_info.split("【出身地】")[1].split("\n")[0].strip()
+        if key in en_handbook_info['handbookDict']:
+            race['en'] = en_handbook_info['handbookDict'][key]['storyTextAudio'][0]['stories'][0]['storyText'].split("[Race]")[
+                1].split("\n")[0].strip()
+            birthplace['en'] = en_handbook_info['handbookDict'][key]['storyTextAudio'][0]['stories'][0]['storyText'].split("[Place of Birth]")[
+                1].split("\n")[0].strip()
+            race['ja'] = jp_handbook_info['handbookDict'][key]['storyTextAudio'][0]['stories'][0]['storyText'].split("【種族】")[
+                1].split("\n")[0].strip()
+            birthplace['ja'] = jp_handbook_info['handbookDict'][key]['storyTextAudio'][0]['stories'][0]['storyText'].split("【出身地】")[
+                1].split("\n")[0].strip()
+        else:
+            race['en'] = ''
+            birthplace['en'] = ''
+            race['ja'] = ''
+            birthplace['ja'] = ''
+    data['chara_handbook'][key] = {"race": race, "birthplace": birthplace}
 
 
 with open('chara_const.json', 'w', encoding='utf-8') as f:
