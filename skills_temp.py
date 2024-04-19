@@ -1,6 +1,7 @@
 import json
 import os
 import re
+import math
 
 buffs_list = [
     "berserk", "dying", "buffres",
@@ -47,7 +48,7 @@ with open('chara_skills.json', encoding='utf-8') as f:
     chara_skills = json.load(f)
 
 
-def replace_substrings(text, value):
+def replace_substrings(text, blackboard):
     # Define the regular expression pattern
     pattern = r'\{(.*?)\}'
 
@@ -55,6 +56,21 @@ def replace_substrings(text, value):
     def replace_match(match):
         # Extract the substring inside the curly braces
         matched_str = match.group(1)
+        value = matched_str
+        if ":" in matched_str:
+            board = next(
+                (n for n in blackboard if n['key'] in matched_str), None)
+        else:
+            board = next(
+                (n for n in blackboard if n['key'] == matched_str), None)
+        if board:
+            if '%' in matched_str:
+                value = f"{math.floor(board['value'] * 100)}%"
+            else:
+                if isinstance(board['value'], float) and f"{board['value']}"[-1] != "0":
+                    value = f"{board['value']}"
+                else:
+                    value = f"{math.floor(board['value'])}"
 
         # Replace the matched substring with the value
         return value
@@ -68,18 +84,20 @@ def replace_substrings(text, value):
 return_dict = {}
 for skill in chara_skills:
     in_global = skill in en_skill_table
-    if 'sktok' in skill or 'skcom' in skill:
+    if 'sktok' in skill or 'skcom_withdraw' in skill:
         continue
     levels = []
 
     index = 5
     for level in chara_skills[skill]['levels']:
+
         index += 1
         description_zh = replace_substrings(
-            cn_skill_table[skill]['levels'][index]['description'], "test")
-        description_ja = jp_skill_table[skill]['levels'][index]['description'] if in_global else ""
-        description_en = en_skill_table[skill]['levels'][index]['description'] if in_global else ""
-
+            cn_skill_table[skill]['levels'][index]['description'], cn_skill_table[skill]['levels'][index]['blackboard'])
+        description_ja = replace_substrings(
+            jp_skill_table[skill]['levels'][index]['description'], cn_skill_table[skill]['levels'][index]['blackboard']) if in_global else ""
+        description_en = replace_substrings(
+            en_skill_table[skill]['levels'][index]['description'], cn_skill_table[skill]['levels'][index]['blackboard']) if in_global else ""
         data = {
             "rangeId": level['rangeId'],
             "description_zh": description_zh,
@@ -97,6 +115,7 @@ for skill in chara_skills:
                           "chara_list": chara_skills[skill]['chara_list'], "skillType": cn_skill_table[skill]['levels'][0]['skillType'],
                           "durationType": cn_skill_table[skill]['levels'][0]['durationType'], "levels": levels,
                           "tags": chara_skills[skill]['tags'], "blackboard": chara_skills[skill]['blackboard']}
-
+print(len(return_dict))
+print(len(chara_skills))
 with open('chara_skills_temp.json', 'w', encoding='utf-8') as f:
     json.dump(return_dict, f, ensure_ascii=False, indent=4)

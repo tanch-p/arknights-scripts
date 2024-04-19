@@ -4,13 +4,26 @@ all values are to be set as highest values inclusive of module effects: for exam
 
 ### tags - for values that don't need comparison ###
 cancel_stealth, has_token, burst, target_air
-
-
+stop_attack
+reflect_dmg
+block_phys (拉普兰德)
+taunt
+def_penetrate
+range_up
+heal_ally, phys_evasion
+self_heal
+no_healing - cannot be healed by allies
+infinite_skill - skill with unlimited duration
+limited_use - skill with limited usage times
+multi_target
+undying
 
 ### blackboard keys - for values that need comparison  ###
 ---stat releated---
-reduce_move_speed, reduce_attack_speed
+reduce_move_speed -> move_speed_down, reduce_attack_speed -> aspd_down
 ally_res_up,
+self_magic_resistance
+ep_damage_resistance
 
 heal_scale,
 token_deploy_free,
@@ -44,3 +57,10 @@ enforcer skchr_forcer_2
 
 ### changes from original data ###
 added camouflage key to kafka skills
+
+### quirky behaviour in chara_skills string replace ###
+1. ABILITY_RANGE_FORWARD_EXTEND... (example: catapult,shirayuki)
+2. negative values % have 2 minus (example: haze)
+3. 攻击间隔 (example: 深靛)
+4. skchr_peacok_1
+5. skchr_frncat_1
