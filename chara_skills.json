@@ -4831,7 +4831,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["global_range"],
     "blackboard": [
       {
         "key": "atk",
@@ -10239,7 +10239,7 @@
         ]
       }
     ],
-    "tags": ["infinite_skill"],
+    "tags": ["unlimited_duration"],
     "blackboard": [
       {
         "key": "atk",
@@ -14174,7 +14174,7 @@
         ]
       }
     ],
-    "tags": ["infinite_skill"],
+    "tags": ["unlimited_duration"],
     "blackboard": [
       {
         "key": "cost",
@@ -17671,7 +17671,7 @@
         ]
       }
     ],
-    "tags": ["infinite_skill"],
+    "tags": ["unlimited_duration"],
     "blackboard": [
       {
         "key": "atk",
@@ -18921,7 +18921,7 @@
         ]
       }
     ],
-    "tags": ["infinite_skill","block_phys"],
+    "tags": ["unlimited_duration","block_phys"],
     "blackboard": [
       {
         "key": "atk",
@@ -23340,7 +23340,7 @@
         ]
       }
     ],
-    "tags": ["infinite_skill","range_up"],
+    "tags": ["unlimited_duration","range_up"],
     "blackboard": [
       {
         "key": "attack_speed",
@@ -26256,7 +26256,7 @@
         ]
       }
     ],
-    "tags": ["infinite_skill","priority:low_hp"],
+    "tags": ["unlimited_duration","priority:low_hp"],
     "blackboard": [
       {
         "key": "atk",
@@ -30646,7 +30646,7 @@
         ]
       }
     ],
-    "tags": ["infinite_skill","camouflage"],
+    "tags": ["unlimited_duration","camouflage"],
     "blackboard": [
       {
         "key": "atk",
@@ -31205,7 +31205,7 @@
     "tags": [],
     "blackboard": [
       {
-        "key": "atk_up",
+        "key": "ally_atk_up",
         "value": 0.9,
         "duration":15.0
       },
@@ -31711,7 +31711,7 @@
         ]
       }
     ],
-    "tags": ["infinite_skill"],
+    "tags": ["unlimited_duration"],
     "blackboard": [
       {
         "key": "atk",
@@ -31855,7 +31855,7 @@
     "tags": ["range_up"],
     "blackboard": [
       {
-        "key": "atk_up",
+        "key": "ally_atk_up",
         "value": 0.3,
         "condition":"medic"        
       },
@@ -32397,7 +32397,7 @@
         ]
       }
     ],
-    "tags": ["resist","infinite_skill"],
+    "tags": ["resist","unlimited_duration"],
     "blackboard": [
       {
         "key": "base_attack_time",
@@ -34399,7 +34399,7 @@
         ]
       }
     ],
-    "tags": ["dot"],
+    "tags": ["dot","arts"],
     "blackboard": [
       {
         "key": "poison_damage",
@@ -35982,7 +35982,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["burst"],
     "blackboard": [
       {
         "key": "atk_scale",
@@ -37121,9 +37121,9 @@
     "levels": [
       {
         "rangeId": null,
-        "description_zh": "阻挡数<@ba.vdown>-1</>，攻击间隔略微<@ba.vdown>增大</>，攻击力<@ba.vup>+105%</>，每次攻击恢复自身最大生命值的<@ba.vup>7%</>，同时攻击阻挡的所有敌人",
-        "description_ja": "ブロック数<@ba.vdown>-1</>、通常攻撃の間隔を<@ba.vdown>わずかに延長</>し、攻撃力<@ba.vup>+105%</>、攻撃する度HPが最大値の<@ba.vup>7%</>回復、ブロック中の敵全員を同時に攻撃",
-        "description_en": "Block <@ba.vdown>-1</>; Attack Interval slightly <@ba.vdown>increases</>; ATK <@ba.vup>+105%</>; Restores HP by <@ba.vup>7%</> of Max HP when attacking and attacks all targets blocked",
+        "description_zh": "阻挡数<@ba.vdown>-1</>，攻击间隔略微<@ba.vdown>增大(+0.4)</>，攻击力<@ba.vup>+105%</>，每次攻击恢复自身最大生命值的<@ba.vup>7%</>，同时攻击阻挡的所有敌人",
+        "description_ja": "ブロック数<@ba.vdown>-1</>、通常攻撃の間隔を<@ba.vdown>わずかに延長(+0.4)</>し、攻撃力<@ba.vup>+105%</>、攻撃する度HPが最大値の<@ba.vup>7%</>回復、ブロック中の敵全員を同時に攻撃",
+        "description_en": "Block <@ba.vdown>-1</>; Attack Interval slightly <@ba.vdown>increases (+0.4)</>; ATK <@ba.vup>+105%</>; Restores HP by <@ba.vup>7%</> of Max HP when attacking and attacks all targets blocked",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -37153,9 +37153,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "阻挡数<@ba.vdown>-1</>，攻击间隔略微<@ba.vdown>增大</>，攻击力<@ba.vup>+120%</>，每次攻击恢复自身最大生命值的<@ba.vup>8%</>，同时攻击阻挡的所有敌人",
-        "description_ja": "ブロック数<@ba.vdown>-1</>、通常攻撃の間隔を<@ba.vdown>わずかに延長</>し、攻撃力<@ba.vup>+120%</>、攻撃する度HPが最大値の<@ba.vup>8%</>回復、ブロック中の敵全員を同時に攻撃",
-        "description_en": "Block <@ba.vdown>-1</>; Attack Interval slightly <@ba.vdown>increases</>; ATK <@ba.vup>+120%</>; Restores HP by <@ba.vup>8%</> of Max HP when attacking and attacks all targets blocked",
+        "description_zh": "阻挡数<@ba.vdown>-1</>，攻击间隔略微<@ba.vdown>增大(+0.4)</>，攻击力<@ba.vup>+120%</>，每次攻击恢复自身最大生命值的<@ba.vup>8%</>，同时攻击阻挡的所有敌人",
+        "description_ja": "ブロック数<@ba.vdown>-1</>、通常攻撃の間隔を<@ba.vdown>わずかに延長(+0.4)</>し、攻撃力<@ba.vup>+120%</>、攻撃する度HPが最大値の<@ba.vup>8%</>回復、ブロック中の敵全員を同時に攻撃",
+        "description_en": "Block <@ba.vdown>-1</>; Attack Interval slightly <@ba.vdown>increases (+0.4)</>; ATK <@ba.vup>+120%</>; Restores HP by <@ba.vup>8%</> of Max HP when attacking and attacks all targets blocked",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -37185,9 +37185,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "阻挡数<@ba.vdown>-1</>，攻击间隔略微<@ba.vdown>增大</>，攻击力<@ba.vup>+135%</>，每次攻击恢复自身最大生命值的<@ba.vup>9%</>，同时攻击阻挡的所有敌人",
-        "description_ja": "ブロック数<@ba.vdown>-1</>、通常攻撃の間隔を<@ba.vdown>わずかに延長</>し、攻撃力<@ba.vup>+135%</>、攻撃する度HPが最大値の<@ba.vup>9%</>回復、ブロック中の敵全員を同時に攻撃",
-        "description_en": "Block <@ba.vdown>-1</>; Attack Interval slightly <@ba.vdown>increases</>; ATK <@ba.vup>+135%</>; Restores HP by <@ba.vup>9%</> of Max HP when attacking and attacks all targets blocked",
+        "description_zh": "阻挡数<@ba.vdown>-1</>，攻击间隔略微<@ba.vdown>增大(+0.4)</>，攻击力<@ba.vup>+135%</>，每次攻击恢复自身最大生命值的<@ba.vup>9%</>，同时攻击阻挡的所有敌人",
+        "description_ja": "ブロック数<@ba.vdown>-1</>、通常攻撃の間隔を<@ba.vdown>わずかに延長(+0.4)</>し、攻撃力<@ba.vup>+135%</>、攻撃する度HPが最大値の<@ba.vup>9%</>回復、ブロック中の敵全員を同時に攻撃",
+        "description_en": "Block <@ba.vdown>-1</>; Attack Interval slightly <@ba.vdown>increases (+0.4)</>; ATK <@ba.vup>+135%</>; Restores HP by <@ba.vup>9%</> of Max HP when attacking and attacks all targets blocked",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -37217,9 +37217,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "阻挡数<@ba.vdown>-1</>，攻击间隔略微<@ba.vdown>增大</>，攻击力<@ba.vup>+150%</>，每次攻击恢复自身最大生命值的<@ba.vup>10%</>，同时攻击阻挡的所有敌人",
-        "description_ja": "ブロック数<@ba.vdown>-1</>、通常攻撃の間隔を<@ba.vdown>わずかに延長</>し、攻撃力<@ba.vup>+150%</>、攻撃する度HPが最大値の<@ba.vup>10%</>回復、ブロック中の敵全員を同時に攻撃",
-        "description_en": "Block <@ba.vdown>-1</>; Attack Interval slightly <@ba.vdown>increases</>; ATK <@ba.vup>+150%</>; Restores HP by <@ba.vup>10%</> of Max HP when attacking and attacks all targets blocked",
+        "description_zh": "阻挡数<@ba.vdown>-1</>，攻击间隔略微<@ba.vdown>增大(+0.4)</>，攻击力<@ba.vup>+150%</>，每次攻击恢复自身最大生命值的<@ba.vup>10%</>，同时攻击阻挡的所有敌人",
+        "description_ja": "ブロック数<@ba.vdown>-1</>、通常攻撃の間隔を<@ba.vdown>わずかに延長(+0.4)</>し、攻撃力<@ba.vup>+150%</>、攻撃する度HPが最大値の<@ba.vup>10%</>回復、ブロック中の敵全員を同時に攻撃",
+        "description_en": "Block <@ba.vdown>-1</>; Attack Interval slightly <@ba.vdown>increases (+0.4)</>; ATK <@ba.vup>+150%</>; Restores HP by <@ba.vup>10%</> of Max HP when attacking and attacks all targets blocked",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -37395,9 +37395,9 @@
     "levels": [
       {
         "rangeId": "2-5",
-        "description_zh": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+60%</>，防御力<@ba.vup>+45%</>，攻击范围<@ba.vup>扩大</>，攻击变为群体攻击",
-        "description_ja": "通常攻撃の間隔を<@ba.vdown>延長</>し、攻撃力<@ba.vup>+60%</>、防御力<@ba.vup>+45%</>、攻撃範囲<@ba.vup>拡大</>、攻撃が敵に範囲ダメージを与える",
-        "description_en": "Attack Interval <@ba.vdown>increases</>, ATK <@ba.vup>+60%</>, DEF <@ba.vup>+45%</>, Attack Range <@ba.vup>expands</>, and normal attacks now deal AoE damage",
+        "description_zh": "攻击间隔<@ba.vdown>增大(+40%)</>，攻击力<@ba.vup>+60%</>，防御力<@ba.vup>+45%</>，攻击范围<@ba.vup>扩大</>，攻击变为群体攻击",
+        "description_ja": "通常攻撃の間隔を<@ba.vdown>延長(+40%)</>し、攻撃力<@ba.vup>+60%</>、防御力<@ba.vup>+45%</>、攻撃範囲<@ba.vup>拡大</>、攻撃が敵に範囲ダメージを与える",
+        "description_en": "Attack Interval <@ba.vdown>increases (+40%)</>, ATK <@ba.vup>+60%</>, DEF <@ba.vup>+45%</>, Attack Range <@ba.vup>expands</>, and normal attacks now deal AoE damage",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -37423,9 +37423,9 @@
       },
       {
         "rangeId": "3-13",
-        "description_zh": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+70%</>，防御力<@ba.vup>+50%</>，攻击范围<@ba.vup>更加扩大</>，攻击变为群体攻击",
-        "description_ja": "通常攻撃の間隔を<@ba.vdown>延長</>し、攻撃力<@ba.vup>+70%</>、防御力<@ba.vup>+50%</>、攻撃範囲が<@ba.vup>更に拡大</>、攻撃が敵に範囲ダメージを与える",
-        "description_en": "Attack Interval <@ba.vdown>increases</>, ATK <@ba.vup>+70%</>, DEF <@ba.vup>+50%</>, Attack Range <@ba.vup>expands significantly</>, and normal attacks now deal AoE damage",
+        "description_zh": "攻击间隔<@ba.vdown>增大(+40%)</>，攻击力<@ba.vup>+70%</>，防御力<@ba.vup>+50%</>，攻击范围<@ba.vup>更加扩大</>，攻击变为群体攻击",
+        "description_ja": "通常攻撃の間隔を<@ba.vdown>延長(+40%)</>し、攻撃力<@ba.vup>+70%</>、防御力<@ba.vup>+50%</>、攻撃範囲が<@ba.vup>更に拡大</>、攻撃が敵に範囲ダメージを与える",
+        "description_en": "Attack Interval <@ba.vdown>increases (+40%)</>, ATK <@ba.vup>+70%</>, DEF <@ba.vup>+50%</>, Attack Range <@ba.vup>expands significantly</>, and normal attacks now deal AoE damage",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -37451,9 +37451,9 @@
       },
       {
         "rangeId": "3-13",
-        "description_zh": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+80%</>，防御力<@ba.vup>+55%</>，攻击范围<@ba.vup>更加扩大</>，攻击变为群体攻击",
-        "description_ja": "通常攻撃の間隔を<@ba.vdown>延長</>し、攻撃力<@ba.vup>+80%</>、防御力<@ba.vup>+55%</>、攻撃範囲が<@ba.vup>更に拡大</>、攻撃が敵に範囲ダメージを与える",
-        "description_en": "Attack Interval <@ba.vdown>increases</>, ATK <@ba.vup>+80%</>, DEF <@ba.vup>+55%</>, Attack Range <@ba.vup>expands significantly</>, and normal attacks now deal AoE damage",
+        "description_zh": "攻击间隔<@ba.vdown>增大(+40%)</>，攻击力<@ba.vup>+80%</>，防御力<@ba.vup>+55%</>，攻击范围<@ba.vup>更加扩大</>，攻击变为群体攻击",
+        "description_ja": "通常攻撃の間隔を<@ba.vdown>延長(+40%)</>し、攻撃力<@ba.vup>+80%</>、防御力<@ba.vup>+55%</>、攻撃範囲が<@ba.vup>更に拡大</>、攻撃が敵に範囲ダメージを与える",
+        "description_en": "Attack Interval <@ba.vdown>increases (+40%)</>, ATK <@ba.vup>+80%</>, DEF <@ba.vup>+55%</>, Attack Range <@ba.vup>expands significantly</>, and normal attacks now deal AoE damage",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -37479,9 +37479,9 @@
       },
       {
         "rangeId": "3-13",
-        "description_zh": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+90%</>，防御力<@ba.vup>+60%</>，攻击范围<@ba.vup>更加扩大</>，攻击变为群体攻击",
-        "description_ja": "通常攻撃の間隔を<@ba.vdown>延長</>し、攻撃力<@ba.vup>+90%</>、防御力<@ba.vup>+60%</>、攻撃範囲が<@ba.vup>更に拡大</>、攻撃が敵に範囲ダメージを与える",
-        "description_en": "Attack Interval <@ba.vdown>increases</>, ATK <@ba.vup>+90%</>, DEF <@ba.vup>+60%</>, Attack Range <@ba.vup>expands significantly</>, and normal attacks now deal AoE damage",
+        "description_zh": "攻击间隔<@ba.vdown>增大(+40%)</>，攻击力<@ba.vup>+90%</>，防御力<@ba.vup>+60%</>，攻击范围<@ba.vup>更加扩大</>，攻击变为群体攻击",
+        "description_ja": "通常攻撃の間隔を<@ba.vdown>延長(+40%)</>し、攻撃力<@ba.vup>+90%</>、防御力<@ba.vup>+60%</>、攻撃範囲が<@ba.vup>更に拡大</>、攻撃が敵に範囲ダメージを与える",
+        "description_en": "Attack Interval <@ba.vdown>increases (+40%)</>, ATK <@ba.vup>+90%</>, DEF <@ba.vup>+60%</>, Attack Range <@ba.vup>expands significantly</>, and normal attacks now deal AoE damage",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -37532,9 +37532,9 @@
     "levels": [
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vup>缩短</>，生命上限<@ba.vup>+30%</>，同时攻击所有阻挡的敌人",
-        "description_ja": "通常攻撃の間隔を<@ba.vup>やや短縮</>し、最大HP<@ba.vup>+30%</>、ブロック中の敵全員を同時に攻撃",
-        "description_en": "Attack Interval <@ba.vup>reduces</>, Max HP <@ba.vup>+30%</> and attack all blocked enemies",
+        "description_zh": "攻击间隔<@ba.vup>缩短(-35%)</>，生命上限<@ba.vup>+30%</>，同时攻击所有阻挡的敌人",
+        "description_ja": "通常攻撃の間隔を<@ba.vup>やや短縮(-35%)</>し、最大HP<@ba.vup>+30%</>、ブロック中の敵全員を同時に攻撃",
+        "description_en": "Attack Interval <@ba.vup>reduces (-35%)</>, Max HP <@ba.vup>+30%</> and attack all blocked enemies",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -37556,9 +37556,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vup>缩短</>，生命上限<@ba.vup>+40%</>，同时攻击所有阻挡的敌人",
-        "description_ja": "通常攻撃の間隔を<@ba.vup>やや短縮</>し、最大HP<@ba.vup>+40%</>、ブロック中の敵全員を同時に攻撃",
-        "description_en": "Attack Interval <@ba.vup>reduces</>, Max HP <@ba.vup>+40%</> and attack all blocked enemies",
+        "description_zh": "攻击间隔<@ba.vup>缩短(-35%)</>，生命上限<@ba.vup>+40%</>，同时攻击所有阻挡的敌人",
+        "description_ja": "通常攻撃の間隔を<@ba.vup>やや短縮(-35%)</>し、最大HP<@ba.vup>+40%</>、ブロック中の敵全員を同時に攻撃",
+        "description_en": "Attack Interval <@ba.vup>reduces (-35%)</>, Max HP <@ba.vup>+40%</> and attack all blocked enemies",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -37580,9 +37580,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vup>缩短</>，生命上限<@ba.vup>+50%</>，同时攻击所有阻挡的敌人",
-        "description_ja": "通常攻撃の間隔を<@ba.vup>やや短縮</>し、最大HP<@ba.vup>+50%</>、ブロック中の敵全員を同時に攻撃",
-        "description_en": "Attack Interval <@ba.vup>reduces</>, Max HP <@ba.vup>+50%</> and attack all blocked enemies",
+        "description_zh": "攻击间隔<@ba.vup>缩短(-35%)</>，生命上限<@ba.vup>+50%</>，同时攻击所有阻挡的敌人",
+        "description_ja": "通常攻撃の間隔を<@ba.vup>やや短縮(-35%)</>し、最大HP<@ba.vup>+50%</>、ブロック中の敵全員を同時に攻撃",
+        "description_en": "Attack Interval <@ba.vup>reduces (-35%)</>, Max HP <@ba.vup>+50%</> and attack all blocked enemies",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -37604,9 +37604,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vup>较大幅度缩短</>，生命上限<@ba.vup>+50%</>，同时攻击所有阻挡的敌人",
-        "description_ja": "通常攻撃の間隔を<@ba.vup>短縮</>し、最大HP<@ba.vup>+50%</>、ブロック中の敵全員を同時に攻撃",
-        "description_en": "Attack Interval <@ba.vup>reduces moderately</>, Max HP <@ba.vup>+50%</> and attack all blocked enemies",
+        "description_zh": "攻击间隔<@ba.vup>较大幅度缩短(-45%)</>，生命上限<@ba.vup>+50%</>，同时攻击所有阻挡的敌人",
+        "description_ja": "通常攻撃の間隔を<@ba.vup>短縮(-45%)</>し、最大HP<@ba.vup>+50%</>、ブロック中の敵全員を同時に攻撃",
+        "description_en": "Attack Interval <@ba.vup>reduces moderately (-45%)</>, Max HP <@ba.vup>+50%</> and attack all blocked enemies",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -37649,9 +37649,9 @@
     "levels": [
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vup>缩短</>，生命上限<@ba.vup>+30%</>，同时攻击所有阻挡的敌人",
-        "description_ja": "通常攻撃の間隔を<@ba.vup>やや短縮</>し、最大HP<@ba.vup>+30%</>、ブロック中の敵全員を同時に攻撃",
-        "description_en": "Attack Interval <@ba.vup>reduces</>, Max HP <@ba.vup>+30%</> and attack all blocked enemies",
+        "description_zh": "攻击间隔<@ba.vup>缩短(-35%)</>，生命上限<@ba.vup>+30%</>，同时攻击所有阻挡的敌人",
+        "description_ja": "通常攻撃の間隔を<@ba.vup>やや短縮(-35%)</>し、最大HP<@ba.vup>+30%</>、ブロック中の敵全員を同時に攻撃",
+        "description_en": "Attack Interval <@ba.vup>reduces (-35%)</>, Max HP <@ba.vup>+30%</> and attack all blocked enemies",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -37673,9 +37673,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vup>缩短</>，生命上限<@ba.vup>+40%</>，同时攻击所有阻挡的敌人",
-        "description_ja": "通常攻撃の間隔を<@ba.vup>やや短縮</>し、最大HP<@ba.vup>+40%</>、ブロック中の敵全員を同時に攻撃",
-        "description_en": "Attack Interval <@ba.vup>reduces</>, Max HP <@ba.vup>+40%</> and attack all blocked enemies",
+        "description_zh": "攻击间隔<@ba.vup>缩短(-35%)</>，生命上限<@ba.vup>+40%</>，同时攻击所有阻挡的敌人",
+        "description_ja": "通常攻撃の間隔を<@ba.vup>やや短縮(-35%)</>し、最大HP<@ba.vup>+40%</>、ブロック中の敵全員を同時に攻撃",
+        "description_en": "Attack Interval <@ba.vup>reduces (-35%)</>, Max HP <@ba.vup>+40%</> and attack all blocked enemies",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -37697,9 +37697,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vup>缩短</>，生命上限<@ba.vup>+50%</>，同时攻击所有阻挡的敌人",
-        "description_ja": "通常攻撃の間隔を<@ba.vup>やや短縮</>し、最大HP<@ba.vup>+50%</>、ブロック中の敵全員を同時に攻撃",
-        "description_en": "Attack Interval <@ba.vup>reduces</>, Max HP <@ba.vup>+50%</> and attack all blocked enemies",
+        "description_zh": "攻击间隔<@ba.vup>缩短(-35%)</>，生命上限<@ba.vup>+50%</>，同时攻击所有阻挡的敌人",
+        "description_ja": "通常攻撃の間隔を<@ba.vup>やや短縮(-35%)</>し、最大HP<@ba.vup>+50%</>、ブロック中の敵全員を同時に攻撃",
+        "description_en": "Attack Interval <@ba.vup>reduces (-35%)</>, Max HP <@ba.vup>+50%</> and attack all blocked enemies",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -37721,9 +37721,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vup>较大幅度缩短</>，生命上限<@ba.vup>+50%</>，同时攻击所有阻挡的敌人",
-        "description_ja": "通常攻撃の間隔を<@ba.vup>短縮</>し、最大HP<@ba.vup>+50%</>、ブロック中の敵全員を同時に攻撃",
-        "description_en": "Attack Interval <@ba.vup>reduces moderately</>, Max HP <@ba.vup>+50%</> and attack all blocked enemies",
+        "description_zh": "攻击间隔<@ba.vup>较大幅度缩短(-45%)</>，生命上限<@ba.vup>+50%</>，同时攻击所有阻挡的敌人",
+        "description_ja": "通常攻撃の間隔を<@ba.vup>短縮(-45%)</>し、最大HP<@ba.vup>+50%</>、ブロック中の敵全員を同時に攻撃",
+        "description_en": "Attack Interval <@ba.vup>reduces moderately (-45%)</>, Max HP <@ba.vup>+50%</> and attack all blocked enemies",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -38743,7 +38743,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["stop_attack","camouflage"],
     "blackboard": [
       {
         "key": "max_hp",
@@ -38765,9 +38765,9 @@
     "levels": [
       {
         "rangeId": null,
-        "description_zh": "阻挡数变为0，只进行远程攻击，攻击间隔<@ba.vup>缩短</>，攻击力<@ba.vup>+40%</>",
-        "description_ja": "ブロック数が0になり、遠距離攻撃のみを行い、攻撃間隔を<@ba.vup>短縮</>し、攻撃力<@ba.vup>+40%</>",
-        "description_en": "Cannot block enemies and only carry out ranged attacks. Attack Interval <@ba.vup>reduces</>, ATK <@ba.vup>+40%</>",
+        "description_zh": "阻挡数变为0，只进行远程攻击，攻击间隔<@ba.vup>缩短(-50%)</>，攻击力<@ba.vup>+40%</>",
+        "description_ja": "ブロック数が0になり、遠距離攻撃のみを行い、攻撃間隔を<@ba.vup>短縮(-50%)</>し、攻撃力<@ba.vup>+40%</>",
+        "description_en": "Cannot block enemies and only carry out ranged attacks. Attack Interval <@ba.vup>reduces (-50%)</>, ATK <@ba.vup>+40%</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -38789,9 +38789,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "阻挡数变为0，只进行远程攻击，攻击间隔<@ba.vup>缩短</>，攻击力<@ba.vup>+45%</>",
-        "description_ja": "ブロック数が0になり、遠距離攻撃のみを行い、攻撃間隔を<@ba.vup>短縮</>し、攻撃力<@ba.vup>+45%</>",
-        "description_en": "Cannot block enemies and only carry out ranged attacks. Attack Interval <@ba.vup>reduces</>, ATK <@ba.vup>+45%</>",
+        "description_zh": "阻挡数变为0，只进行远程攻击，攻击间隔<@ba.vup>缩短(-50%)</>，攻击力<@ba.vup>+45%</>",
+        "description_ja": "ブロック数が0になり、遠距離攻撃のみを行い、攻撃間隔を<@ba.vup>短縮(-50%)</>し、攻撃力<@ba.vup>+45%</>",
+        "description_en": "Cannot block enemies and only carry out ranged attacks. Attack Interval <@ba.vup>reduces (-50%)</>, ATK <@ba.vup>+45%</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -38813,9 +38813,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "阻挡数变为0，只进行远程攻击，攻击间隔<@ba.vup>缩短</>，攻击力<@ba.vup>+50%</>",
-        "description_ja": "ブロック数が0になり、遠距離攻撃のみを行い、攻撃間隔を<@ba.vup>短縮</>し、攻撃力<@ba.vup>+50%</>",
-        "description_en": "Cannot block enemies and only carry out ranged attacks. Attack Interval <@ba.vup>reduces</>, ATK <@ba.vup>+50%</>",
+        "description_zh": "阻挡数变为0，只进行远程攻击，攻击间隔<@ba.vup>缩短(-50%)</>，攻击力<@ba.vup>+50%</>",
+        "description_ja": "ブロック数が0になり、遠距離攻撃のみを行い、攻撃間隔を<@ba.vup>短縮(-50%)</>し、攻撃力<@ba.vup>+50%</>",
+        "description_en": "Cannot block enemies and only carry out ranged attacks. Attack Interval <@ba.vup>reduces (-50%)</>, ATK <@ba.vup>+50%</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -38837,9 +38837,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "阻挡数变为0，只进行远程攻击，攻击间隔<@ba.vup>大幅缩短</>，攻击力<@ba.vup>+55%</>",
-        "description_ja": "ブロック数が0になり、遠距離攻撃のみを行い、攻撃間隔を<@ba.vup>大幅に短縮</>し、攻撃力<@ba.vup>+55%</>",
-        "description_en": "Cannot block enemies and only carry out ranged attacks. Attack Interval <@ba.vup>reduces significantly</>, ATK <@ba.vup>+55%</>",
+        "description_zh": "阻挡数变为0，只进行远程攻击，攻击间隔<@ba.vup>大幅缩短(-65%)</>，攻击力<@ba.vup>+55%</>",
+        "description_ja": "ブロック数が0になり、遠距離攻撃のみを行い、攻撃間隔を<@ba.vup>大幅に短縮(-65%)</>し、攻撃力<@ba.vup>+55%</>",
+        "description_en": "Cannot block enemies and only carry out ranged attacks. Attack Interval <@ba.vup>reduces significantly (-65%)</>, ATK <@ba.vup>+55%</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -38860,7 +38860,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["no_block"],
     "blackboard": [
       {
         "key": "atk",
@@ -38993,7 +38993,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["burst","dot","arts"],
     "blackboard": [
       {
         "key": "burn_duration",
@@ -39146,7 +39146,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["arts","dot"],
     "blackboard": [
       {
         "key": "projectile_life_time",
@@ -39303,7 +39303,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["block_up","resist"],
     "blackboard": [
       {
         "key": "def",
@@ -39333,9 +39333,9 @@
     "levels": [
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vdown>略微增大</>，攻击力<@ba.vup>+60%</>，攻击对目标造成<@ba.vup>2.5</>秒<$ba.cold>寒冷</>，若目标已经处于<$ba.frozen>冻结</>状态，则改为使本次攻击的攻击力提高至<@ba.vup>60%</>\\n<@ba.rem>攻击装有9发子弹，打完后技能结束（期间可随时停止技能）</>",
-        "description_ja": "攻撃力<@ba.vup>+60%</>、通常攻撃の間隔を<@ba.vdown>わずかに延長し</>、攻撃対象に<@ba.vup>2.5</>秒の<$ba.cold>寒冷</>状態を付与する。<$ba.frozen>凍結</>状態の敵を攻撃時、攻撃力が<@ba.vup>60%</>まで上昇\n<@ba.rem>合計9発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
-        "description_en": "Attack Interval <@ba.vdown>increases slightly</>, ATK <@ba.vup>+60%</>. Attacks inflict <$ba.cold>Cold</> for <@ba.vup>2.5</> seconds to the target; If the target is already <$ba.frozen>Frozen</>, the attack will instead deal <@ba.vup>60%</> of ATK as damage\n<@ba.rem>Skill activation grants 9 ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
+        "description_zh": "攻击间隔<@ba.vdown>略微增大(+25%)</>，攻击力<@ba.vup>+60%</>，攻击对目标造成<@ba.vup>2.5</>秒<$ba.cold>寒冷</>，若目标已经处于<$ba.frozen>冻结</>状态，则改为使本次攻击的攻击力提高至<@ba.vup>300%</>\\n<@ba.rem>攻击装有9发子弹，打完后技能结束（期间可随时停止技能）</>",
+        "description_ja": "攻撃力<@ba.vup>+60%</>、通常攻撃の間隔を<@ba.vdown>わずかに延長し(+25%)</>、攻撃対象に<@ba.vup>2.5</>秒の<$ba.cold>寒冷</>状態を付与する。<$ba.frozen>凍結</>状態の敵を攻撃時、攻撃力が<@ba.vup>300%</>まで上昇\n<@ba.rem>合計9発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+        "description_en": "Attack Interval <@ba.vdown>increases slightly(+25%)</>, ATK <@ba.vup>+60%</>. Attacks inflict <$ba.cold>Cold</> for <@ba.vup>2.5</> seconds to the target; If the target is already <$ba.frozen>Frozen</>, the attack will instead deal <@ba.vup>300%</> of ATK as damage\n<@ba.rem>Skill activation grants 9 ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -39365,9 +39365,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vdown>略微增大</>，攻击力<@ba.vup>+65%</>，攻击对目标造成<@ba.vup>2.5</>秒<$ba.cold>寒冷</>，若目标已经处于<$ba.frozen>冻结</>状态，则改为使本次攻击的攻击力提高至<@ba.vup>65%</>\\n<@ba.rem>攻击装有9发子弹，打完后技能结束（期间可随时停止技能）</>",
-        "description_ja": "攻撃力<@ba.vup>+65%</>、通常攻撃の間隔を<@ba.vdown>わずかに延長し</>、攻撃対象に<@ba.vup>2.5</>秒の<$ba.cold>寒冷</>状態を付与する。<$ba.frozen>凍結</>状態の敵を攻撃時、攻撃力が<@ba.vup>65%</>まで上昇\n<@ba.rem>合計9発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
-        "description_en": "Attack Interval <@ba.vdown>increases slightly</>, ATK <@ba.vup>+65%</>. Attacks inflict <$ba.cold>Cold</> for <@ba.vup>2.5</> seconds to the target; If the target is already <$ba.frozen>Frozen</>, the attack will instead deal <@ba.vup>65%</> of ATK as damage\n<@ba.rem>Skill activation grants 9 ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
+        "description_zh": "攻击间隔<@ba.vdown>略微增大(+25%)</>，攻击力<@ba.vup>+65%</>，攻击对目标造成<@ba.vup>2.5</>秒<$ba.cold>寒冷</>，若目标已经处于<$ba.frozen>冻结</>状态，则改为使本次攻击的攻击力提高至<@ba.vup>310%</>\\n<@ba.rem>攻击装有9发子弹，打完后技能结束（期间可随时停止技能）</>",
+        "description_ja": "攻撃力<@ba.vup>+65%</>、通常攻撃の間隔を<@ba.vdown>わずかに延長し(+25%)</>、攻撃対象に<@ba.vup>2.5</>秒の<$ba.cold>寒冷</>状態を付与する。<$ba.frozen>凍結</>状態の敵を攻撃時、攻撃力が<@ba.vup>310%</>まで上昇\n<@ba.rem>合計9発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+        "description_en": "Attack Interval <@ba.vdown>increases slightly(+25%)</>, ATK <@ba.vup>+65%</>. Attacks inflict <$ba.cold>Cold</> for <@ba.vup>2.5</> seconds to the target; If the target is already <$ba.frozen>Frozen</>, the attack will instead deal <@ba.vup>310%</> of ATK as damage\n<@ba.rem>Skill activation grants 9 ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -39397,9 +39397,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vdown>略微增大</>，攻击力<@ba.vup>+70%</>，攻击对目标造成<@ba.vup>2.5</>秒<$ba.cold>寒冷</>，若目标已经处于<$ba.frozen>冻结</>状态，则改为使本次攻击的攻击力提高至<@ba.vup>70%</>\\n<@ba.rem>攻击装有9发子弹，打完后技能结束（期间可随时停止技能）</>",
-        "description_ja": "攻撃力<@ba.vup>+70%</>、通常攻撃の間隔を<@ba.vdown>わずかに延長し</>、攻撃対象に<@ba.vup>2.5</>秒の<$ba.cold>寒冷</>状態を付与する。<$ba.frozen>凍結</>状態の敵を攻撃時、攻撃力が<@ba.vup>70%</>まで上昇\n<@ba.rem>合計9発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
-        "description_en": "Attack Interval <@ba.vdown>increases slightly</>, ATK <@ba.vup>+70%</>. Attacks inflict <$ba.cold>Cold</> for <@ba.vup>2.5</> seconds to the target; If the target is already <$ba.frozen>Frozen</>, the attack will instead deal <@ba.vup>70%</> of ATK as damage\n<@ba.rem>Skill activation grants 9 ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
+        "description_zh": "攻击间隔<@ba.vdown>略微增大(+25%)</>，攻击力<@ba.vup>+70%</>，攻击对目标造成<@ba.vup>2.5</>秒<$ba.cold>寒冷</>，若目标已经处于<$ba.frozen>冻结</>状态，则改为使本次攻击的攻击力提高至<@ba.vup>320%</>\\n<@ba.rem>攻击装有9发子弹，打完后技能结束（期间可随时停止技能）</>",
+        "description_ja": "攻撃力<@ba.vup>+70%</>、通常攻撃の間隔を<@ba.vdown>わずかに延長し(+25%)</>、攻撃対象に<@ba.vup>2.5</>秒の<$ba.cold>寒冷</>状態を付与する。<$ba.frozen>凍結</>状態の敵を攻撃時、攻撃力が<@ba.vup>320%</>まで上昇\n<@ba.rem>合計9発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+        "description_en": "Attack Interval <@ba.vdown>increases slightly(+25%)</>, ATK <@ba.vup>+70%</>. Attacks inflict <$ba.cold>Cold</> for <@ba.vup>2.5</> seconds to the target; If the target is already <$ba.frozen>Frozen</>, the attack will instead deal <@ba.vup>320%</> of ATK as damage\n<@ba.rem>Skill activation grants 9 ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -39429,9 +39429,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vdown>略微增大</>，攻击力<@ba.vup>+75%</>，攻击对目标造成<@ba.vup>2.5</>秒<$ba.cold>寒冷</>，若目标已经处于<$ba.frozen>冻结</>状态，则改为使本次攻击的攻击力提高至<@ba.vup>75%</>\\n<@ba.rem>攻击装有9发子弹，打完后技能结束（期间可随时停止技能）</>",
-        "description_ja": "攻撃力<@ba.vup>+75%</>、通常攻撃の間隔を<@ba.vdown>わずかに延長し</>、攻撃対象に<@ba.vup>2.5</>秒の<$ba.cold>寒冷</>状態を付与する。<$ba.frozen>凍結</>状態の敵を攻撃時、攻撃力が<@ba.vup>75%</>まで上昇\n<@ba.rem>合計9発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
-        "description_en": "Attack Interval <@ba.vdown>increases slightly</>, ATK <@ba.vup>+75%</>. Attacks inflict <$ba.cold>Cold</> for <@ba.vup>2.5</> seconds to the target; If the target is already <$ba.frozen>Frozen</>, the attack will instead deal <@ba.vup>75%</> of ATK as damage\n<@ba.rem>Skill activation grants 9 ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
+        "description_zh": "攻击间隔<@ba.vdown>略微增大(+25%)</>，攻击力<@ba.vup>+75%</>，攻击对目标造成<@ba.vup>2.5</>秒<$ba.cold>寒冷</>，若目标已经处于<$ba.frozen>冻结</>状态，则改为使本次攻击的攻击力提高至<@ba.vup>330%</>\\n<@ba.rem>攻击装有9发子弹，打完后技能结束（期间可随时停止技能）</>",
+        "description_ja": "攻撃力<@ba.vup>+75%</>、通常攻撃の間隔を<@ba.vdown>わずかに延長し(+25%)</>、攻撃対象に<@ba.vup>2.5</>秒の<$ba.cold>寒冷</>状態を付与する。<$ba.frozen>凍結</>状態の敵を攻撃時、攻撃力が<@ba.vup>330%</>まで上昇\n<@ba.rem>合計9発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+        "description_en": "Attack Interval <@ba.vdown>increases slightly(+25%)</>, ATK <@ba.vup>+75%</>. Attacks inflict <$ba.cold>Cold</> for <@ba.vup>2.5</> seconds to the target; If the target is already <$ba.frozen>Frozen</>, the attack will instead deal <@ba.vup>330%</> of ATK as damage\n<@ba.rem>Skill activation grants 9 ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -39460,7 +39460,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["cold"],
     "blackboard": [
       {
         "key": "atk",
@@ -39585,7 +39585,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["burst","aoe"],
     "blackboard": [
       {
         "key": "atk_scale",
@@ -39940,7 +39940,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["target_hp"],
     "blackboard": [
       {
         "key": "atk",
@@ -39958,9 +39958,9 @@
     "levels": [
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+160%</>",
-        "description_ja": "攻撃間隔を<@ba.vdown>延長</>し、攻撃力<@ba.vup>+160%</>",
-        "description_en": "Attack Interval <@ba.vdown>Increases</>, ATK<@ba.vup>+160%</>",
+        "description_zh": "攻击间隔<@ba.vdown>增大(+0.8)</>，攻击力<@ba.vup>+160%</>",
+        "description_ja": "攻撃間隔を<@ba.vdown>延長(+0.8)</>し、攻撃力<@ba.vup>+160%</>",
+        "description_en": "Attack Interval <@ba.vdown>Increases (+0.8)</>, ATK<@ba.vup>+160%</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -39982,9 +39982,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+170%</>",
-        "description_ja": "攻撃間隔を<@ba.vdown>延長</>し、攻撃力<@ba.vup>+170%</>",
-        "description_en": "Attack Interval <@ba.vdown>Increases</>, ATK<@ba.vup>+170%</>",
+        "description_zh": "攻击间隔<@ba.vdown>增大(+0.8)</>，攻击力<@ba.vup>+170%</>",
+        "description_ja": "攻撃間隔を<@ba.vdown>延長(+0.8)</>し、攻撃力<@ba.vup>+170%</>",
+        "description_en": "Attack Interval <@ba.vdown>Increases (+0.8)</>, ATK<@ba.vup>+170%</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -40006,9 +40006,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+175%</>",
-        "description_ja": "攻撃間隔を<@ba.vdown>延長</>し、攻撃力<@ba.vup>+175%</>",
-        "description_en": "Attack Interval <@ba.vdown>Increases</>, ATK<@ba.vup>+175%</>",
+        "description_zh": "攻击间隔<@ba.vdown>增大(+0.8)</>，攻击力<@ba.vup>+175%</>",
+        "description_ja": "攻撃間隔を<@ba.vdown>延長(+0.8)</>し、攻撃力<@ba.vup>+175%</>",
+        "description_en": "Attack Interval <@ba.vdown>Increases (+0.8)</>, ATK<@ba.vup>+175%</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -40030,9 +40030,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+180%</>",
-        "description_ja": "攻撃間隔を<@ba.vdown>延長</>し、攻撃力<@ba.vup>+180%</>",
-        "description_en": "Attack Interval <@ba.vdown>Increases</>, ATK<@ba.vup>+180%</>",
+        "description_zh": "攻击间隔<@ba.vdown>增大(+0.8)</>，攻击力<@ba.vup>+180%</>",
+        "description_ja": "攻撃間隔を<@ba.vdown>延長(+0.8)</>し、攻撃力<@ba.vup>+180%</>",
+        "description_en": "Attack Interval <@ba.vdown>Increases (+0.8)</>, ATK<@ba.vup>+180%</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -40170,7 +40170,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["burst"],
     "blackboard": [
       {
         "key": "atk_scale",
@@ -40271,7 +40271,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["stealth"],
     "blackboard": [
       {
         "key": "atk",
@@ -40517,15 +40517,16 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["move_speed_down","target_hp"],
     "blackboard": [
       {
         "key": "atk",
         "value": 2.4
       },
       {
-        "key": "move_speed",
-        "value": -0.4
+        "key": "move_speed_down",
+        "value": 0.4,
+        "duration": 6.0
       },
       {
         "key": "duration",
@@ -40751,7 +40752,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["camouflage"],
     "blackboard": [
       {
         "key": "attack_speed",
@@ -40895,8 +40896,8 @@
         "value": 1.8
       },
       {
-        "key": "def",
-        "value": -0.3
+        "key": "def_down",
+        "value": 0.3
       },
       {
         "key": "taunt_level",
@@ -41057,7 +41058,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["aoe"],
     "blackboard": [
       {
         "key": "base_attack_time",
@@ -41186,7 +41187,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["burst"],
     "blackboard": [
       {
         "key": "atk_scale",
@@ -41303,7 +41304,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["priority:sleep"],
     "blackboard": [
       {
         "key": "atk",
@@ -41504,7 +41505,9 @@
       },
       {
         "key": "sluggish",
-        "value": 1.6
+        "value": 1.6,
+        "prob": 0.4,
+        "target_air":false
       },
       {
         "key": "prob",
@@ -41883,7 +41886,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["ally_stun"],
     "blackboard": [
       {
         "key": "atk",
@@ -41895,11 +41898,8 @@
       },
       {
         "key": "ally_stun",
-        "value": 1.8
-      },
-      {
-        "key": "prob",
-        "value": 0.2
+        "value": 1.8,
+        "prob": 0.2
       }
     ]
   },
@@ -42008,7 +42008,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["pull","force","arts","burst"],
     "blackboard": [
       {
         "key": "atk_scale",
@@ -42157,7 +42157,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["multi_target","pull","force","true","burst"],
     "blackboard": [
       {
         "key": "atk_scale",
@@ -42298,7 +42298,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["pull","force","burst"],
     "blackboard": [
       {
         "key": "atk_scale",
@@ -42435,7 +42435,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["pull","force","burst","arts","aoe"],
     "blackboard": [
       {
         "key": "atk_scale",
@@ -42572,7 +42572,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["pull","force","burst"],
     "blackboard": [
       {
         "key": "atk_scale",
@@ -42725,7 +42725,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["pull","force"],
     "blackboard": [
       {
         "key": "atk_scale",
@@ -42755,9 +42755,9 @@
     "levels": [
       {
         "rangeId": null,
-        "description_zh": "同时攻击<@ba.vup>2</>个目标，攻击范围内所有敌人攻击速度<@ba.vup>-attack_speed</>",
-        "description_ja": "敵最大<@ba.vup>2</>体を同時に攻撃\n攻撃範囲内の敵全員の攻撃速度<@ba.vup>-attack_speed</>",
-        "description_en": "Simultaneously attacks <@ba.vup>2</> targets; ASPD of all enemies in range <@ba.vup>-attack_speed</>",
+        "description_zh": "同时攻击<@ba.vup>2</>个目标，攻击范围内所有敌人攻击速度<@ba.vup>-50</>",
+        "description_ja": "敵最大<@ba.vup>2</>体を同時に攻撃\n攻撃範囲内の敵全員の攻撃速度<@ba.vup>-50</>",
+        "description_en": "Simultaneously attacks <@ba.vup>2</> targets; ASPD of all enemies in range <@ba.vup>-50</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -42779,9 +42779,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "同时攻击<@ba.vup>2</>个目标，攻击范围内所有敌人攻击速度<@ba.vup>-attack_speed</>",
-        "description_ja": "敵最大<@ba.vup>2</>体を同時に攻撃\n攻撃範囲内の敵全員の攻撃速度<@ba.vup>-attack_speed</>",
-        "description_en": "Simultaneously attacks <@ba.vup>2</> targets; ASPD of all enemies in range <@ba.vup>-attack_speed</>",
+        "description_zh": "同时攻击<@ba.vup>2</>个目标，攻击范围内所有敌人攻击速度<@ba.vup>-53</>",
+        "description_ja": "敵最大<@ba.vup>2</>体を同時に攻撃\n攻撃範囲内の敵全員の攻撃速度<@ba.vup>-53</>",
+        "description_en": "Simultaneously attacks <@ba.vup>2</> targets; ASPD of all enemies in range <@ba.vup>-53</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -42803,9 +42803,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "同时攻击<@ba.vup>2</>个目标，攻击范围内所有敌人攻击速度<@ba.vup>-attack_speed</>",
-        "description_ja": "敵最大<@ba.vup>2</>体を同時に攻撃\n攻撃範囲内の敵全員の攻撃速度<@ba.vup>-attack_speed</>",
-        "description_en": "Simultaneously attacks <@ba.vup>2</> targets; ASPD of all enemies in range <@ba.vup>-attack_speed</>",
+        "description_zh": "同时攻击<@ba.vup>2</>个目标，攻击范围内所有敌人攻击速度<@ba.vup>-56</>",
+        "description_ja": "敵最大<@ba.vup>2</>体を同時に攻撃\n攻撃範囲内の敵全員の攻撃速度<@ba.vup>-56</>",
+        "description_en": "Simultaneously attacks <@ba.vup>2</> targets; ASPD of all enemies in range <@ba.vup>-56</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -42827,9 +42827,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "同时攻击<@ba.vup>2</>个目标，攻击范围内所有敌人攻击速度<@ba.vup>-attack_speed</>",
-        "description_ja": "敵最大<@ba.vup>2</>体を同時に攻撃\n攻撃範囲内の敵全員の攻撃速度<@ba.vup>-attack_speed</>",
-        "description_en": "Simultaneously attacks <@ba.vup>2</> targets; ASPD of all enemies in range <@ba.vup>-attack_speed</>",
+        "description_zh": "同时攻击<@ba.vup>2</>个目标，攻击范围内所有敌人攻击速度<@ba.vup>-60</>",
+        "description_ja": "敵最大<@ba.vup>2</>体を同時に攻撃\n攻撃範囲内の敵全員の攻撃速度<@ba.vup>-60</>",
+        "description_en": "Simultaneously attacks <@ba.vup>2</> targets; ASPD of all enemies in range <@ba.vup>-60</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -42850,11 +42850,12 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["aspd_down"],
     "blackboard": [
       {
-        "key": "attack_speed",
-        "value": -60.0
+        "key": "aspd_down",
+        "value": 60.0,
+        "duration": 20
       },
       {
         "key": "max_target",
@@ -42967,15 +42968,15 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["def_down","res_down"],
     "blackboard": [
       {
-        "key": "def",
-        "value": -0.6
+        "key": "def_down",
+        "value": 0.6
       },
       {
-        "key": "magic_resistance",
-        "value": -0.3
+        "key": "res_down",
+        "value": 0.3
       }
     ]
   },
@@ -43084,7 +43085,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["unlimited_duration"],
     "blackboard": [
       {
         "key": "scale_delta_to_one",
@@ -43093,6 +43094,10 @@
       {
         "key": "atk",
         "value": 0.6
+      },
+      {
+        "key": "damage_scale",
+        "value": 1.39
       }
     ]
   },
@@ -43201,15 +43206,17 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["summon","atk_down","def_down"],
     "blackboard": [
       {
-        "key": "atk",
-        "value": -0.5
+        "key": "atk_down",
+        "value": 0.5,
+        "duration": 15.0
       },
       {
-        "key": "def",
-        "value": -0.5
+        "key": "def_down",
+        "value": 0.5,
+        "duration": 15.0
       }
     ]
   },
@@ -43223,9 +43230,9 @@
     "levels": [
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vup>大幅度缩短</>",
-        "description_ja": "通常攻撃の間隔を<@ba.vup>大幅に短縮</>",
-        "description_en": "<@ba.vup>Significant</> Attack Interval reduction",
+        "description_zh": "攻击间隔<@ba.vup>大幅度缩短(-1.0)</>",
+        "description_ja": "通常攻撃の間隔を<@ba.vup>大幅に短縮(-1.0)</>",
+        "description_en": "<@ba.vup>Significant</> Attack Interval reduction (-1.0)",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -43243,9 +43250,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vup>大幅度缩短</>",
-        "description_ja": "通常攻撃の間隔を<@ba.vup>大幅に短縮</>",
-        "description_en": "<@ba.vup>Significant</> Attack Interval reduction",
+        "description_zh": "攻击间隔<@ba.vup>大幅度缩短(-1.0)</>",
+        "description_ja": "通常攻撃の間隔を<@ba.vup>大幅に短縮(-1.0)</>",
+        "description_en": "<@ba.vup>Significant</> Attack Interval reduction (-1.0)",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -43263,9 +43270,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vup>大幅度缩短</>",
-        "description_ja": "通常攻撃の間隔を<@ba.vup>大幅に短縮</>",
-        "description_en": "<@ba.vup>Significant</> Attack Interval reduction",
+        "description_zh": "攻击间隔<@ba.vup>大幅度缩短(-1.0)</>",
+        "description_ja": "通常攻撃の間隔を<@ba.vup>大幅に短縮(-1.0)</>",
+        "description_en": "<@ba.vup>Significant</> Attack Interval reduction (-1.0)",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -43283,9 +43290,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vup>极大幅度缩短</>",
-        "description_ja": "通常攻撃の間隔を<@ba.vup>超大幅に短縮</>",
-        "description_en": "<@ba.vup>Very Significant</> Attack Interval reduction",
+        "description_zh": "攻击间隔<@ba.vup>极大幅度缩短(-1.1)</>",
+        "description_ja": "通常攻撃の間隔を<@ba.vup>超大幅に短縮(-1.1)</>",
+        "description_en": "<@ba.vup>Very Significant</> Attack Interval reduction (-1.1)",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -43415,7 +43422,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["multi_target"],
     "blackboard": [
       {
         "key": "atk",
@@ -43532,7 +43539,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["multi_target"],
     "blackboard": [
       {
         "key": "atk",
@@ -43685,7 +43692,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["burst"],
     "blackboard": [
       {
         "key": "atk_scale[drone]",
@@ -43702,7 +43709,7 @@
       {
         "key": "stun",
         "value": 6.0,
-        "condition": "type:drone"
+        "condition": "drone"
       }
     ]
   },
@@ -43827,7 +43834,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["burst"],
     "blackboard": [
       {
         "key": "atk_scale",
@@ -43980,7 +43987,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["burst"],
     "blackboard": [
       {
         "key": "atk_scale",
@@ -44105,7 +44112,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["burst","multi_target"],
     "blackboard": [
       {
         "key": "atk_scale",
@@ -44238,7 +44245,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["stop_attack","multi_target"],
     "blackboard": [
       {
         "key": "max_target",
@@ -44375,7 +44382,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["burst","ally_sp"],
     "blackboard": [
       {
         "key": "atk_scale",
@@ -44401,9 +44408,9 @@
     "levels": [
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+130%</>，天赋的攻击力加成效果提升至<@ba.vup>1.7</>倍，技能结束后获得一个可靠电池",
-        "description_ja": "通常攻撃の間隔を<@ba.vdown>延長</>し、攻撃力<@ba.vup>+130%</>、素質の攻撃力上昇効果が<@ba.vup>1.7</>倍まで上昇、スキルの効果時間終了後高信頼性バッテリーを1個獲得",
-        "description_en": "Attack interval <@ba.vdown>increases</>, ATK <@ba.vup>+130%</>; Talent ATK bonus increased to <@ba.vup>1.7</>x; When the skill ends, obtain 1 Reliable Battery",
+        "description_zh": "攻击间隔<@ba.vdown>增大(+0.5)</>，攻击力<@ba.vup>+130%</>，天赋的攻击力加成效果提升至<@ba.vup>1.7</>倍，技能结束后获得一个可靠电池",
+        "description_ja": "通常攻撃の間隔を<@ba.vdown>延長(+0.5)</>し、攻撃力<@ba.vup>+130%</>、素質の攻撃力上昇効果が<@ba.vup>1.7</>倍まで上昇、スキルの効果時間終了後高信頼性バッテリーを1個獲得",
+        "description_en": "Attack interval <@ba.vdown>increases (+0.5)</>, ATK <@ba.vup>+130%</>; Talent ATK bonus increased to <@ba.vup>1.7</>x; When the skill ends, obtain 1 Reliable Battery",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -44433,9 +44440,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+140%</>，天赋的攻击力加成效果提升至<@ba.vup>1.8</>倍，技能结束后获得一个可靠电池",
-        "description_ja": "通常攻撃の間隔を<@ba.vdown>延長</>し、攻撃力<@ba.vup>+140%</>、素質の攻撃力上昇効果が<@ba.vup>1.8</>倍まで上昇、スキルの効果時間終了後高信頼性バッテリーを1個獲得",
-        "description_en": "Attack interval <@ba.vdown>increases</>, ATK <@ba.vup>+140%</>; Talent ATK bonus increased to <@ba.vup>1.8</>x; When the skill ends, obtain 1 Reliable Battery",
+        "description_zh": "攻击间隔<@ba.vdown>增大(+0.5)</>，攻击力<@ba.vup>+140%</>，天赋的攻击力加成效果提升至<@ba.vup>1.8</>倍，技能结束后获得一个可靠电池",
+        "description_ja": "通常攻撃の間隔を<@ba.vdown>延長(+0.5)</>し、攻撃力<@ba.vup>+140%</>、素質の攻撃力上昇効果が<@ba.vup>1.8</>倍まで上昇、スキルの効果時間終了後高信頼性バッテリーを1個獲得",
+        "description_en": "Attack interval <@ba.vdown>increases (+0.5)</>, ATK <@ba.vup>+140%</>; Talent ATK bonus increased to <@ba.vup>1.8</>x; When the skill ends, obtain 1 Reliable Battery",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -44465,9 +44472,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+150%</>，天赋的攻击力加成效果提升至<@ba.vup>1.9</>倍，技能结束后获得一个可靠电池",
-        "description_ja": "通常攻撃の間隔を<@ba.vdown>延長</>し、攻撃力<@ba.vup>+150%</>、素質の攻撃力上昇効果が<@ba.vup>1.9</>倍まで上昇、スキルの効果時間終了後高信頼性バッテリーを1個獲得",
-        "description_en": "Attack interval <@ba.vdown>increases</>, ATK <@ba.vup>+150%</>; Talent ATK bonus increased to <@ba.vup>1.9</>x; When the skill ends, obtain 1 Reliable Battery",
+        "description_zh": "攻击间隔<@ba.vdown>增大(+0.5)</>，攻击力<@ba.vup>+150%</>，天赋的攻击力加成效果提升至<@ba.vup>1.9</>倍，技能结束后获得一个可靠电池",
+        "description_ja": "通常攻撃の間隔を<@ba.vdown>延長(+0.5)</>し、攻撃力<@ba.vup>+150%</>、素質の攻撃力上昇効果が<@ba.vup>1.9</>倍まで上昇、スキルの効果時間終了後高信頼性バッテリーを1個獲得",
+        "description_en": "Attack interval <@ba.vdown>increases (+0.5)</>, ATK <@ba.vup>+150%</>; Talent ATK bonus increased to <@ba.vup>1.9</>x; When the skill ends, obtain 1 Reliable Battery",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -44497,9 +44504,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+160%</>，天赋的攻击力加成效果提升至<@ba.vup>2</>倍，技能结束后获得一个可靠电池",
-        "description_ja": "通常攻撃の間隔を<@ba.vdown>延長</>し、攻撃力<@ba.vup>+160%</>、素質の攻撃力上昇効果が<@ba.vup>2</>倍まで上昇、スキルの効果時間終了後高信頼性バッテリーを1個獲得",
-        "description_en": "Attack interval <@ba.vdown>increases</>, ATK <@ba.vup>+160%</>; Talent ATK bonus increased to <@ba.vup>2</>x; When the skill ends, obtain 1 Reliable Battery",
+        "description_zh": "攻击间隔<@ba.vdown>增大(+0.5)</>，攻击力<@ba.vup>+160%</>，天赋的攻击力加成效果提升至<@ba.vup>2</>倍，技能结束后获得一个可靠电池",
+        "description_ja": "通常攻撃の間隔を<@ba.vdown>延長(+0.5)</>し、攻撃力<@ba.vup>+160%</>、素質の攻撃力上昇効果が<@ba.vup>2</>倍まで上昇、スキルの効果時間終了後高信頼性バッテリーを1個獲得",
+        "description_en": "Attack interval <@ba.vdown>increases (+0.5)</>, ATK <@ba.vup>+160%</>; Talent ATK bonus increased to <@ba.vup>2</>x; When the skill ends, obtain 1 Reliable Battery",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -44653,7 +44660,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["range_up"],
     "blackboard": [
       {
         "key": "atk_to_hp_recovery_ratio",
@@ -44754,10 +44761,10 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["ally_atk_up"],
     "blackboard": [
       {
-        "key": "atk",
+        "key": "ally_atk_up",
         "value": 1.0
       }
     ]
@@ -44883,10 +44890,10 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["block_down","ally_atk_up"],
     "blackboard": [
       {
-        "key": "atk",
+        "key": "ally_atk_up",
         "value": 1.1
       },
       {
@@ -45036,18 +45043,18 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["block_up"],
     "blackboard": [
       {
         "key": "block_cnt",
         "value": 1.0
       },
       {
-        "key": "def",
+        "key": "ally_def_up",
         "value": 0.7
       },
       {
-        "key": "max_hp",
+        "key": "max_hp_up",
         "value": 0.3
       },
       {
@@ -45145,10 +45152,10 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["cancel_stealth","evasion"],
     "blackboard": [
       {
-        "key": "prob",
+        "key": "evasion",
         "value": 0.35
       }
     ]
@@ -45274,7 +45281,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["heal_ally"],
     "blackboard": [
       {
         "key": "talent@hp_ratio",
@@ -45519,8 +45526,9 @@
         "value": 1.0
       },
       {
-        "key": "prob",
-        "value": 0.7
+        "key": "block_dmg",
+        "value": 0.7,
+        "condition":"ranged"
       }
     ]
   },
@@ -45613,7 +45621,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["unlimited_duration","heal_ally"],
     "blackboard": [
       {
         "key": "atk",
@@ -45726,7 +45734,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["heal_ally","ally_sp"],
     "blackboard": [
       {
         "key": "attack_speed",
@@ -45859,7 +45867,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["burst","apoptosis","element"],
     "blackboard": [
       {
         "key": "atk_scale",
@@ -45980,7 +45988,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["multi_target","apoptosis","element"],
     "blackboard": [
       {
         "key": "attack_speed",
@@ -46097,11 +46105,11 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["move_speed_down"],
     "blackboard": [
       {
-        "key": "move_speed",
-        "value": -0.5
+        "key": "move_speed_down",
+        "value": 0.5
       },
       {
         "key": "duration",
@@ -46119,9 +46127,9 @@
     "levels": [
       {
         "rangeId": null,
-        "description_zh": "攻击前摇和攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+60%</>，使命中目标<$ba.stun>晕眩</><@ba.vup>0.7</>秒",
-        "description_ja": "通常攻撃の間隔を<@ba.vdown>延長</>し、攻撃力<@ba.vup>+60%</>、攻撃した敵を<@ba.vup>0.7</>秒間<$ba.stun>スタン</>させる",
-        "description_en": "Attack wind-up and Attack Interval <@ba.vdown>increases</>. ATK <@ba.vup>+60%</> and hit targets are <$ba.stun>Stunned</> for <@ba.vup>0.7</> seconds",
+        "description_zh": "攻击前摇和攻击间隔<@ba.vdown>增大(+1.7)</>，攻击力<@ba.vup>+60%</>，使命中目标<$ba.stun>晕眩</><@ba.vup>0.7</>秒",
+        "description_ja": "通常攻撃の間隔を<@ba.vdown>延長(+1.7)</>し、攻撃力<@ba.vup>+60%</>、攻撃した敵を<@ba.vup>0.7</>秒間<$ba.stun>スタン</>させる",
+        "description_en": "Attack wind-up and Attack Interval <@ba.vdown>increases (+1.7)</>. ATK <@ba.vup>+60%</> and hit targets are <$ba.stun>Stunned</> for <@ba.vup>0.7</> seconds",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -46147,9 +46155,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "攻击前摇和攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+70%</>，使命中目标<$ba.stun>晕眩</><@ba.vup>0.8</>秒",
-        "description_ja": "通常攻撃の間隔を<@ba.vdown>延長</>し、攻撃力<@ba.vup>+70%</>、攻撃した敵を<@ba.vup>0.8</>秒間<$ba.stun>スタン</>させる",
-        "description_en": "Attack wind-up and Attack Interval <@ba.vdown>increases</>. ATK <@ba.vup>+70%</> and hit targets are <$ba.stun>Stunned</> for <@ba.vup>0.8</> seconds",
+        "description_zh": "攻击前摇和攻击间隔<@ba.vdown>增大(+1.7)</>，攻击力<@ba.vup>+70%</>，使命中目标<$ba.stun>晕眩</><@ba.vup>0.8</>秒",
+        "description_ja": "通常攻撃の間隔を<@ba.vdown>延長(+1.7)</>し、攻撃力<@ba.vup>+70%</>、攻撃した敵を<@ba.vup>0.8</>秒間<$ba.stun>スタン</>させる",
+        "description_en": "Attack wind-up and Attack Interval <@ba.vdown>increases (+1.7)</>. ATK <@ba.vup>+70%</> and hit targets are <$ba.stun>Stunned</> for <@ba.vup>0.8</> seconds",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -46175,9 +46183,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "攻击前摇和攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+80%</>，使命中目标<$ba.stun>晕眩</><@ba.vup>0.9</>秒",
-        "description_ja": "通常攻撃の間隔を<@ba.vdown>延長</>し、攻撃力<@ba.vup>+80%</>、攻撃した敵を<@ba.vup>0.9</>秒間<$ba.stun>スタン</>させる",
-        "description_en": "Attack wind-up and Attack Interval <@ba.vdown>increases</>. ATK <@ba.vup>+80%</> and hit targets are <$ba.stun>Stunned</> for <@ba.vup>0.9</> seconds",
+        "description_zh": "攻击前摇和攻击间隔<@ba.vdown>增大(+1.7)</>，攻击力<@ba.vup>+80%</>，使命中目标<$ba.stun>晕眩</><@ba.vup>0.9</>秒",
+        "description_ja": "通常攻撃の間隔を<@ba.vdown>延長(+1.7)</>し、攻撃力<@ba.vup>+80%</>、攻撃した敵を<@ba.vup>0.9</>秒間<$ba.stun>スタン</>させる",
+        "description_en": "Attack wind-up and Attack Interval <@ba.vdown>increases (+1.7)</>. ATK <@ba.vup>+80%</> and hit targets are <$ba.stun>Stunned</> for <@ba.vup>0.9</> seconds",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -46203,9 +46211,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "攻击前摇和攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+90%</>，使命中目标<$ba.stun>晕眩</><@ba.vup>1</>秒",
-        "description_ja": "通常攻撃の間隔を<@ba.vdown>延長</>し、攻撃力<@ba.vup>+90%</>、攻撃した敵を<@ba.vup>1</>秒間<$ba.stun>スタン</>させる",
-        "description_en": "Attack wind-up and Attack Interval <@ba.vdown>increases</>. ATK <@ba.vup>+90%</> and hit targets are <$ba.stun>Stunned</> for <@ba.vup>1</> seconds",
+        "description_zh": "攻击前摇和攻击间隔<@ba.vdown>增大(+1.7)</>，攻击力<@ba.vup>+90%</>，使命中目标<$ba.stun>晕眩</><@ba.vup>1</>秒",
+        "description_ja": "通常攻撃の間隔を<@ba.vdown>延長(+1.7)</>し、攻撃力<@ba.vup>+90%</>、攻撃した敵を<@ba.vup>1</>秒間<$ba.stun>スタン</>させる",
+        "description_en": "Attack wind-up and Attack Interval <@ba.vdown>increases (+1.7)</>. ATK <@ba.vup>+90%</> and hit targets are <$ba.stun>Stunned</> for <@ba.vup>1</> seconds",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -46335,7 +46343,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["burst"],
     "blackboard": [
       {
         "key": "kirara_s_1.atk_scale",
@@ -46464,7 +46472,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["arts"],
     "blackboard": [
       {
         "key": "talent_scale",
@@ -46601,15 +46609,12 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["push","force","move_speed_down"],
     "blackboard": [
       {
-        "key": "duration",
-        "value": 5.0
-      },
-      {
         "key": "move_speed",
-        "value": -0.3
+        "value": 0.3,
+        "duration": 5.0
       },
       {
         "key": "force",
@@ -46754,23 +46759,20 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["push","force","move_speed_down","burst","aoe","infinite_range_straight"],
     "blackboard": [
       {
         "key": "atk_scale",
         "value": 2.5
       },
       {
-        "key": "move_speed",
-        "value": -0.3
+        "key": "move_speed_down",
+        "value": 0.3,
+        "duration": 5.0
       },
       {
         "key": "force",
         "value": 3.0
-      },
-      {
-        "key": "duration",
-        "value": 5.0
       }
     ]
   },
@@ -46879,7 +46881,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["push","force"],
     "blackboard": [
       {
         "key": "force",
@@ -47044,7 +47046,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["push","force"],
     "blackboard": [
       {
         "key": "force",
@@ -47052,7 +47054,7 @@
       },
       {
         "key": "stun",
-        "value": 4.0
+        "value": 2.5
       },
       {
         "key": "forcer_s_2[brush].stun",
@@ -47326,7 +47328,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["push","force"],
     "blackboard": [
       {
         "key": "cnt",
@@ -47777,7 +47779,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["def_penetrate"],
     "blackboard": [
       {
         "key": "max_hp",
@@ -48035,7 +48037,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["burst"],
     "blackboard": [
       {
         "key": "atk_scale",
@@ -48152,7 +48154,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["burst","target_air"],
     "blackboard": [
       {
         "key": "atk",
@@ -48253,7 +48255,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["burst"],
     "blackboard": [
       {
         "key": "atk_scale",
@@ -48366,7 +48368,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["cancel_stealth","stealth"],
     "blackboard": [
       {
         "key": "attack_speed",
@@ -48483,7 +48485,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["burst"],
     "blackboard": [
       {
         "key": "atk_scale",
@@ -48622,9 +48624,9 @@
     "levels": [
       {
         "rangeId": null,
-        "description_zh": "攻击变为<@ba.vup>5</>连射，攻击间隔<@ba.vup>少量缩短</>\\n<@ba.rem>技能会自动开启</>",
-        "description_ja": "通常攻撃が<@ba.vup>5</>回連続攻撃になり、攻撃間隔を<@ba.vup>やや短縮</>",
-        "description_en": "Shoots <@ba.vup>5</> times in a row; <@ba.vup>Minor</> Attack Interval reduction\n<@ba.rem>Automatically activated</>",
+        "description_zh": "攻击变为<@ba.vup>5</>连射，攻击间隔<@ba.vup>少量缩短(-0.16)</>\\n<@ba.rem>技能会自动开启</>",
+        "description_ja": "通常攻撃が<@ba.vup>5</>回連続攻撃になり、攻撃間隔を<@ba.vup>やや短縮(-0.16)</>",
+        "description_en": "Shoots <@ba.vup>5</> times in a row; <@ba.vup>Minor</> Attack Interval reduction (-0.16)\n<@ba.rem>Automatically activated</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -48650,9 +48652,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "攻击变为<@ba.vup>5</>连射，攻击间隔<@ba.vup>少量缩短</>，攻击力<@ba.vup>提升至103%</>\\n<@ba.rem>技能会自动开启</>",
-        "description_ja": "通常攻撃が<@ba.vup>5</>回連続攻撃になり、攻撃間隔を<@ba.vup>やや短縮</>し、攻撃力が<@ba.vup>103%まで上昇</>",
-        "description_en": "Shoots <@ba.vup>5</> times in a row; <@ba.vup>Minor</> Attack Interval reduction; ATK <@ba.vup>increases to 103%</>\n<@ba.rem>Automatically activated</>",
+        "description_zh": "攻击变为<@ba.vup>5</>连射，攻击间隔<@ba.vup>少量缩短(-0.16)</>，攻击力<@ba.vup>提升至103%</>\\n<@ba.rem>技能会自动开启</>",
+        "description_ja": "通常攻撃が<@ba.vup>5</>回連続攻撃になり、攻撃間隔を<@ba.vup>やや短縮(-0.16)</>し、攻撃力が<@ba.vup>103%まで上昇</>",
+        "description_en": "Shoots <@ba.vup>5</> times in a row; <@ba.vup>Minor</> Attack Interval reduction (-0.16); ATK <@ba.vup>increases to 103%</>\n<@ba.rem>Automatically activated</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -48678,9 +48680,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "攻击变为<@ba.vup>5</>连射，攻击间隔<@ba.vup>少量缩短</>，攻击力<@ba.vup>提升至107%</>\\n<@ba.rem>技能会自动开启</>",
-        "description_ja": "通常攻撃が<@ba.vup>5</>回連続攻撃になり、攻撃間隔を<@ba.vup>やや短縮</>し、攻撃力が<@ba.vup>107%まで上昇</>",
-        "description_en": "Shoots <@ba.vup>5</> times in a row; <@ba.vup>Minor</> Attack Interval reduction; ATK <@ba.vup>increases to 107%</>\n<@ba.rem>Automatically activated</>",
+        "description_zh": "攻击变为<@ba.vup>5</>连射，攻击间隔<@ba.vup>少量缩短(-0.16)</>，攻击力<@ba.vup>提升至107%</>\\n<@ba.rem>技能会自动开启</>",
+        "description_ja": "通常攻撃が<@ba.vup>5</>回連続攻撃になり、攻撃間隔を<@ba.vup>やや短縮(-0.16)</>し、攻撃力が<@ba.vup>107%まで上昇</>",
+        "description_en": "Shoots <@ba.vup>5</> times in a row; <@ba.vup>Minor</> Attack Interval reduction (-0.16); ATK <@ba.vup>increases to 107%</>\n<@ba.rem>Automatically activated</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -48706,9 +48708,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "攻击变为<@ba.vup>5</>连射，攻击间隔<@ba.vup>一定程度缩短</>，攻击力<@ba.vup>提升至110%</>\\n<@ba.rem>技能会自动开启</>",
-        "description_ja": "通常攻撃が<@ba.vup>5</>回連続攻撃になり、攻撃間隔を<@ba.vup>短縮</>し、攻撃力が<@ba.vup>110%まで上昇</>",
-        "description_en": "Shoots <@ba.vup>5</> times in a row; <@ba.vup>Slight</> Attack Interval reduction; ATK <@ba.vup>increases to 110%</>\n<@ba.rem>Automatically activated</>",
+        "description_zh": "攻击变为<@ba.vup>5</>连射，攻击间隔<@ba.vup>一定程度缩短(-0.22)</>，攻击力<@ba.vup>提升至110%</>\\n<@ba.rem>技能会自动开启</>",
+        "description_ja": "通常攻撃が<@ba.vup>5</>回連続攻撃になり、攻撃間隔を<@ba.vup>短縮(-0.22)</>し、攻撃力が<@ba.vup>110%まで上昇</>",
+        "description_en": "Shoots <@ba.vup>5</> times in a row; <@ba.vup>Slight</> Attack Interval reduction (-0.22); ATK <@ba.vup>increases to 110%</>\n<@ba.rem>Automatically activated</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -48886,7 +48888,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["burst","multi_target"],
     "blackboard": [
       {
         "key": "atk_scale",
@@ -49027,7 +49029,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["burst"],
     "blackboard": [
       {
         "key": "atk_scale",
@@ -49180,7 +49182,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["range_up","multi_target"],
     "blackboard": [
       {
         "key": "atk",
@@ -49305,7 +49307,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["unlimited_duration"],
     "blackboard": [
       {
         "key": "atk",
@@ -49327,9 +49329,9 @@
     "levels": [
       {
         "rangeId": null,
-        "description_zh": "立即触发第一天赋，攻击间隔<@ba.vup>大幅度缩短</>，且攻击被<$ba.stun>晕眩</>目标时攻击力提高至<@ba.vup>210%</>\\n<@ba.rem>攻击装有31发子弹，打完后技能结束（期间可随时停止技能）</>",
-        "description_ja": "直ちに第一素質を発動し、通常攻撃の間隔を<@ba.vup>大幅に短縮</>する。<$ba.stun>スタン</>状態の敵を攻撃する時、攻撃力が<@ba.vup>210%</>まで上昇\n<@ba.rem>合計31発の銃弾を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
-        "description_en": "Immediately trigger the first talent. Attack Interval is <@ba.vup>reduced significantly</> and increase ATK to <@ba.vup>210%</> when attacking <$ba.stun>Stunned</> targets\n<@ba.rem>Skill activation grants 31 bullets and the skill ends when all bullets are used (Can manually deactivate skill)</>",
+        "description_zh": "立即触发第一天赋，攻击间隔<@ba.vup>大幅度缩短(-80%)</>，且攻击被<$ba.stun>晕眩</>目标时攻击力提高至<@ba.vup>210%</>\\n<@ba.rem>攻击装有31发子弹，打完后技能结束（期间可随时停止技能）</>",
+        "description_ja": "直ちに第一素質を発動し、通常攻撃の間隔を<@ba.vup>大幅に短縮(-80%)</>する。<$ba.stun>スタン</>状態の敵を攻撃する時、攻撃力が<@ba.vup>210%</>まで上昇\n<@ba.rem>合計31発の銃弾を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+        "description_en": "Immediately trigger the first talent. Attack Interval is <@ba.vup>reduced significantly (-80%)</> and increase ATK to <@ba.vup>210%</> when attacking <$ba.stun>Stunned</> targets\n<@ba.rem>Skill activation grants 31 bullets and the skill ends when all bullets are used (Can manually deactivate skill)</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -49351,9 +49353,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "立即触发第一天赋，攻击间隔<@ba.vup>大幅度缩短</>，且攻击被<$ba.stun>晕眩</>目标时攻击力提高至<@ba.vup>220%</>\\n<@ba.rem>攻击装有31发子弹，打完后技能结束（期间可随时停止技能）</>",
-        "description_ja": "直ちに第一素質を発動し、通常攻撃の間隔を<@ba.vup>大幅に短縮</>する。<$ba.stun>スタン</>状態の敵を攻撃する時、攻撃力が<@ba.vup>220%</>まで上昇\n<@ba.rem>合計31発の銃弾を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
-        "description_en": "Immediately trigger the first talent. Attack Interval is <@ba.vup>reduced significantly</> and increase ATK to <@ba.vup>220%</> when attacking <$ba.stun>Stunned</> targets\n<@ba.rem>Skill activation grants 31 bullets and the skill ends when all bullets are used (Can manually deactivate skill)</>",
+        "description_zh": "立即触发第一天赋，攻击间隔<@ba.vup>大幅度缩短(-80%)</>，且攻击被<$ba.stun>晕眩</>目标时攻击力提高至<@ba.vup>220%</>\\n<@ba.rem>攻击装有31发子弹，打完后技能结束（期间可随时停止技能）</>",
+        "description_ja": "直ちに第一素質を発動し、通常攻撃の間隔を<@ba.vup>大幅に短縮(-80%)</>する。<$ba.stun>スタン</>状態の敵を攻撃する時、攻撃力が<@ba.vup>220%</>まで上昇\n<@ba.rem>合計31発の銃弾を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+        "description_en": "Immediately trigger the first talent. Attack Interval is <@ba.vup>reduced significantly (-80%)</> and increase ATK to <@ba.vup>220%</> when attacking <$ba.stun>Stunned</> targets\n<@ba.rem>Skill activation grants 31 bullets and the skill ends when all bullets are used (Can manually deactivate skill)</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -49375,9 +49377,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "立即触发第一天赋，攻击间隔<@ba.vup>大幅度缩短</>，且攻击被<$ba.stun>晕眩</>目标时攻击力提高至<@ba.vup>230%</>\\n<@ba.rem>攻击装有31发子弹，打完后技能结束（期间可随时停止技能）</>",
-        "description_ja": "直ちに第一素質を発動し、通常攻撃の間隔を<@ba.vup>大幅に短縮</>する。<$ba.stun>スタン</>状態の敵を攻撃する時、攻撃力が<@ba.vup>230%</>まで上昇\n<@ba.rem>合計31発の銃弾を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
-        "description_en": "Immediately trigger the first talent. Attack Interval is <@ba.vup>reduced significantly</> and increase ATK to <@ba.vup>230%</> when attacking <$ba.stun>Stunned</> targets\n<@ba.rem>Skill activation grants 31 bullets and the skill ends when all bullets are used (Can manually deactivate skill)</>",
+        "description_zh": "立即触发第一天赋，攻击间隔<@ba.vup>大幅度缩短(-80%)</>，且攻击被<$ba.stun>晕眩</>目标时攻击力提高至<@ba.vup>230%</>\\n<@ba.rem>攻击装有31发子弹，打完后技能结束（期间可随时停止技能）</>",
+        "description_ja": "直ちに第一素質を発動し、通常攻撃の間隔を<@ba.vup>大幅に短縮(-80%)</>する。<$ba.stun>スタン</>状態の敵を攻撃する時、攻撃力が<@ba.vup>230%</>まで上昇\n<@ba.rem>合計31発の銃弾を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+        "description_en": "Immediately trigger the first talent. Attack Interval is <@ba.vup>reduced significantly (-80%)</> and increase ATK to <@ba.vup>230%</> when attacking <$ba.stun>Stunned</> targets\n<@ba.rem>Skill activation grants 31 bullets and the skill ends when all bullets are used (Can manually deactivate skill)</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -49399,9 +49401,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "立即触发第一天赋，攻击间隔<@ba.vup>大幅度缩短</>，且攻击被<$ba.stun>晕眩</>目标时攻击力提高至<@ba.vup>250%</>\\n<@ba.rem>攻击装有31发子弹，打完后技能结束（期间可随时停止技能）</>",
-        "description_ja": "直ちに第一素質を発動し、通常攻撃の間隔を<@ba.vup>大幅に短縮</>する。<$ba.stun>スタン</>状態の敵を攻撃する時、攻撃力が<@ba.vup>250%</>まで上昇\n<@ba.rem>合計31発の銃弾を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
-        "description_en": "Immediately trigger the first talent. Attack Interval is <@ba.vup>reduced significantly</> and increase ATK to <@ba.vup>250%</> when attacking <$ba.stun>Stunned</> targets\n<@ba.rem>Skill activation grants 31 bullets and the skill ends when all bullets are used (Can manually deactivate skill)</>",
+        "description_zh": "立即触发第一天赋，攻击间隔<@ba.vup>大幅度缩短(-80%)</>，且攻击被<$ba.stun>晕眩</>目标时攻击力提高至<@ba.vup>250%</>\\n<@ba.rem>攻击装有31发子弹，打完后技能结束（期间可随时停止技能）</>",
+        "description_ja": "直ちに第一素質を発動し、通常攻撃の間隔を<@ba.vup>大幅に短縮(-80%)</>する。<$ba.stun>スタン</>状態の敵を攻撃する時、攻撃力が<@ba.vup>250%</>まで上昇\n<@ba.rem>合計31発の銃弾を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+        "description_en": "Immediately trigger the first talent. Attack Interval is <@ba.vup>reduced significantly (-80%)</> and increase ATK to <@ba.vup>250%</> when attacking <$ba.stun>Stunned</> targets\n<@ba.rem>Skill activation grants 31 bullets and the skill ends when all bullets are used (Can manually deactivate skill)</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -49431,6 +49433,10 @@
       {
         "key": "ash_s_2[atk_scale].atk_scale",
         "value": 2.5
+      },
+      {
+        "key":"stun",
+        "value": 5.0
       }
     ]
   },
@@ -49587,7 +49593,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["push","force","limited_use","aoe"],
     "blackboard": [
       {
         "key": "atk_scale",
@@ -49716,7 +49722,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["burst"],
     "blackboard": [
       {
         "key": "atk_scale",
@@ -49855,9 +49861,9 @@
     "levels": [
       {
         "rangeId": "3-2",
-        "description_zh": "攻击范围改为前方<@ba.rem>3格</>，攻击间隔<@ba.vdown>略微增大</>，攻击力<@ba.vup>+140%</>，天赋的发动概率提高至<@ba.vup>100%</>",
-        "description_ja": "攻撃範囲が前方<@ba.rem>3マス</>になり、通常攻撃の間隔を<@ba.vdown>わずかに延長</>。攻撃力<@ba.vup>+140%</>、素質の発動率が<@ba.vup>100%</>まで上昇",
-        "description_en": "Changes attack range to frontal <@ba.rem>3 tiles</>, Attack Interval <@ba.vdown>increases a bit</>, ATK <@ba.vup>+140%</>, increasing Talent triggering chance to <@ba.vup>100%</>",
+        "description_zh": "攻击范围改为前方<@ba.rem>3格</>，攻击间隔<@ba.vdown>略微增大(+0.4)</>，攻击力<@ba.vup>+140%</>，天赋的发动概率提高至<@ba.vup>100%</>",
+        "description_ja": "攻撃範囲が前方<@ba.rem>3マス</>になり、通常攻撃の間隔を<@ba.vdown>わずかに延長(+0.4)</>。攻撃力<@ba.vup>+140%</>、素質の発動率が<@ba.vup>100%</>まで上昇",
+        "description_en": "Changes attack range to frontal <@ba.rem>3 tiles</>, Attack Interval <@ba.vdown>increases a bit (+0.4)</>, ATK <@ba.vup>+140%</>, increasing Talent triggering chance to <@ba.vup>100%</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -49883,9 +49889,9 @@
       },
       {
         "rangeId": "4-1",
-        "description_zh": "攻击范围改为前方<@ba.rem>4格</>，攻击间隔<@ba.vdown>略微增大</>，攻击力<@ba.vup>+150%</>，天赋的发动概率提高至<@ba.vup>100%</>",
-        "description_ja": "攻撃範囲が前方<@ba.rem>4マス</>になり、通常攻撃の間隔を<@ba.vdown>わずかに延長</>。攻撃力<@ba.vup>+150%</>、素質の発動率が<@ba.vup>100%</>まで上昇",
-        "description_en": "Changes attack range to frontal <@ba.rem>4 tiles</>, Attack Interval <@ba.vdown>increases a bit</>, ATK <@ba.vup>+150%</>, increasing Talent triggering chance to <@ba.vup>100%</>",
+        "description_zh": "攻击范围改为前方<@ba.rem>4格</>，攻击间隔<@ba.vdown>略微增大(+0.4)</>，攻击力<@ba.vup>+150%</>，天赋的发动概率提高至<@ba.vup>100%</>",
+        "description_ja": "攻撃範囲が前方<@ba.rem>4マス</>になり、通常攻撃の間隔を<@ba.vdown>わずかに延長(+0.4)</>。攻撃力<@ba.vup>+150%</>、素質の発動率が<@ba.vup>100%</>まで上昇",
+        "description_en": "Changes attack range to frontal <@ba.rem>4 tiles</>, Attack Interval <@ba.vdown>increases a bit (+0.4)</>, ATK <@ba.vup>+150%</>, increasing Talent triggering chance to <@ba.vup>100%</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -49911,9 +49917,9 @@
       },
       {
         "rangeId": "4-1",
-        "description_zh": "攻击范围改为前方<@ba.rem>4格</>，攻击间隔<@ba.vdown>略微增大</>，攻击力<@ba.vup>+160%</>，天赋的发动概率提高至<@ba.vup>100%</>",
-        "description_ja": "攻撃範囲が前方<@ba.rem>4マス</>になり、通常攻撃の間隔を<@ba.vdown>わずかに延長</>。攻撃力<@ba.vup>+160%</>、素質の発動率が<@ba.vup>100%</>まで上昇",
-        "description_en": "Changes attack range to frontal <@ba.rem>4 tiles</>, Attack Interval <@ba.vdown>increases a bit</>, ATK <@ba.vup>+160%</>, increasing Talent triggering chance to <@ba.vup>100%</>",
+        "description_zh": "攻击范围改为前方<@ba.rem>4格</>，攻击间隔<@ba.vdown>略微增大(+0.4)</>，攻击力<@ba.vup>+160%</>，天赋的发动概率提高至<@ba.vup>100%</>",
+        "description_ja": "攻撃範囲が前方<@ba.rem>4マス</>になり、通常攻撃の間隔を<@ba.vdown>わずかに延長(+0.4)</>。攻撃力<@ba.vup>+160%</>、素質の発動率が<@ba.vup>100%</>まで上昇",
+        "description_en": "Changes attack range to frontal <@ba.rem>4 tiles</>, Attack Interval <@ba.vdown>increases a bit (+0.4)</>, ATK <@ba.vup>+160%</>, increasing Talent triggering chance to <@ba.vup>100%</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -49939,9 +49945,9 @@
       },
       {
         "rangeId": "4-1",
-        "description_zh": "攻击范围改为前方<@ba.rem>4格</>，攻击间隔<@ba.vdown>略微增大</>，攻击力<@ba.vup>+180%</>，天赋的发动概率提高至<@ba.vup>100%</>",
-        "description_ja": "攻撃範囲が前方<@ba.rem>4マス</>になり、通常攻撃の間隔を<@ba.vdown>わずかに延長</>。攻撃力<@ba.vup>+180%</>、素質の発動率が<@ba.vup>100%</>まで上昇",
-        "description_en": "Changes attack range to frontal <@ba.rem>4 tiles</>, Attack Interval <@ba.vdown>increases a bit</>, ATK <@ba.vup>+180%</>, increasing Talent triggering chance to <@ba.vup>100%</>",
+        "description_zh": "攻击范围改为前方<@ba.rem>4格</>，攻击间隔<@ba.vdown>略微增大(+0.4)</>，攻击力<@ba.vup>+180%</>，天赋的发动概率提高至<@ba.vup>100%</>",
+        "description_ja": "攻撃範囲が前方<@ba.rem>4マス</>になり、通常攻撃の間隔を<@ba.vdown>わずかに延長(+0.4)</>。攻撃力<@ba.vup>+180%</>、素質の発動率が<@ba.vup>100%</>まで上昇",
+        "description_en": "Changes attack range to frontal <@ba.rem>4 tiles</>, Attack Interval <@ba.vdown>increases a bit (+0.4)</>, ATK <@ba.vup>+180%</>, increasing Talent triggering chance to <@ba.vup>100%</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -50103,7 +50109,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["unlimited_duration"],
     "blackboard": [
       {
         "key": "atk",
@@ -50224,7 +50230,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["burst"],
     "blackboard": [
       {
         "key": "atk_scale",
@@ -50246,9 +50252,9 @@
     "levels": [
       {
         "rangeId": "3-1",
-        "description_zh": "攻击范围<@ba.vup>扩大</>，攻击间隔<@ba.vup>缩短</>，每次攻击的攻击力提升至<@ba.vup>170%</>（对正前方3格提升至<@ba.vup>170%</>）",
-        "description_ja": "攻撃範囲<@ba.vup>拡大</>、通常攻撃の間隔を<@ba.vup>短縮</>し、攻撃時、攻撃力が<@ba.vup>170%</>まで上昇し、前方直線3マス以内の敵を攻撃時、上昇の効果値が<@ba.vup>170%</>になる",
-        "description_en": "Attack Range <@ba.vup>expands</>, Attack Interval is <@ba.vup>reduced</>, and each attack deals <@ba.vup>170%</> damage (Increased to <@ba.vup>170%</> against enemies in the front 3 tiles)",
+        "description_zh": "攻击范围<@ba.vup>扩大</>，攻击间隔<@ba.vup>缩短(-0.6)</>，每次攻击的攻击力提升至<@ba.vup>170%</>（对正前方3格提升至<@ba.vup>170%</>）",
+        "description_ja": "攻撃範囲<@ba.vup>拡大</>、通常攻撃の間隔を<@ba.vup>短縮(-0.6)</>し、攻撃時、攻撃力が<@ba.vup>170%</>まで上昇し、前方直線3マス以内の敵を攻撃時、上昇の効果値が<@ba.vup>170%</>になる",
+        "description_en": "Attack Range <@ba.vup>expands</>, Attack Interval is <@ba.vup>reduced (-0.6)</>, and each attack deals <@ba.vup>170%</> damage (Increased to <@ba.vup>170%</> against enemies in the front 3 tiles)",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -50274,9 +50280,9 @@
       },
       {
         "rangeId": "3-1",
-        "description_zh": "攻击范围<@ba.vup>扩大</>，攻击间隔<@ba.vup>缩短</>，每次攻击的攻击力提升至<@ba.vup>180%</>（对正前方3格提升至<@ba.vup>180%</>）",
-        "description_ja": "攻撃範囲<@ba.vup>拡大</>、通常攻撃の間隔を<@ba.vup>短縮</>し、攻撃時、攻撃力が<@ba.vup>180%</>まで上昇し、前方直線3マス以内の敵を攻撃時、上昇の効果値が<@ba.vup>180%</>になる",
-        "description_en": "Attack Range <@ba.vup>expands</>, Attack Interval is <@ba.vup>reduced</>, and each attack deals <@ba.vup>180%</> damage (Increased to <@ba.vup>180%</> against enemies in the front 3 tiles)",
+        "description_zh": "攻击范围<@ba.vup>扩大</>，攻击间隔<@ba.vup>缩短(-0.6)</>，每次攻击的攻击力提升至<@ba.vup>180%</>（对正前方3格提升至<@ba.vup>180%</>）",
+        "description_ja": "攻撃範囲<@ba.vup>拡大</>、通常攻撃の間隔を<@ba.vup>短縮(-0.6)</>し、攻撃時、攻撃力が<@ba.vup>180%</>まで上昇し、前方直線3マス以内の敵を攻撃時、上昇の効果値が<@ba.vup>180%</>になる",
+        "description_en": "Attack Range <@ba.vup>expands</>, Attack Interval is <@ba.vup>reduced (-0.6)</>, and each attack deals <@ba.vup>180%</> damage (Increased to <@ba.vup>180%</> against enemies in the front 3 tiles)",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -50302,9 +50308,9 @@
       },
       {
         "rangeId": "3-1",
-        "description_zh": "攻击范围<@ba.vup>扩大</>，攻击间隔<@ba.vup>缩短</>，每次攻击的攻击力提升至<@ba.vup>190%</>（对正前方3格提升至<@ba.vup>190%</>）",
-        "description_ja": "攻撃範囲<@ba.vup>拡大</>、通常攻撃の間隔を<@ba.vup>短縮</>し、攻撃時、攻撃力が<@ba.vup>190%</>まで上昇し、前方直線3マス以内の敵を攻撃時、上昇の効果値が<@ba.vup>190%</>になる",
-        "description_en": "Attack Range <@ba.vup>expands</>, Attack Interval is <@ba.vup>reduced</>, and each attack deals <@ba.vup>190%</> damage (Increased to <@ba.vup>190%</> against enemies in the front 3 tiles)",
+        "description_zh": "攻击范围<@ba.vup>扩大</>，攻击间隔<@ba.vup>缩短(-0.6)</>，每次攻击的攻击力提升至<@ba.vup>190%</>（对正前方3格提升至<@ba.vup>190%</>）",
+        "description_ja": "攻撃範囲<@ba.vup>拡大</>、通常攻撃の間隔を<@ba.vup>短縮(-0.6)</>し、攻撃時、攻撃力が<@ba.vup>190%</>まで上昇し、前方直線3マス以内の敵を攻撃時、上昇の効果値が<@ba.vup>190%</>になる",
+        "description_en": "Attack Range <@ba.vup>expands</>, Attack Interval is <@ba.vup>reduced (-0.6)</>, and each attack deals <@ba.vup>190%</> damage (Increased to <@ba.vup>190%</> against enemies in the front 3 tiles)",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -50330,9 +50336,9 @@
       },
       {
         "rangeId": "3-1",
-        "description_zh": "攻击范围<@ba.vup>扩大</>，攻击间隔<@ba.vup>缩短</>，每次攻击的攻击力提升至<@ba.vup>200%</>（对正前方3格提升至<@ba.vup>200%</>）",
-        "description_ja": "攻撃範囲<@ba.vup>拡大</>、通常攻撃の間隔を<@ba.vup>短縮</>し、攻撃時、攻撃力が<@ba.vup>200%</>まで上昇し、前方直線3マス以内の敵を攻撃時、上昇の効果値が<@ba.vup>200%</>になる",
-        "description_en": "Attack Range <@ba.vup>expands</>, Attack Interval is <@ba.vup>reduced</>, and each attack deals <@ba.vup>200%</> damage (Increased to <@ba.vup>200%</> against enemies in the front 3 tiles)",
+        "description_zh": "攻击范围<@ba.vup>扩大</>，攻击间隔<@ba.vup>缩短(-0.6)</>，每次攻击的攻击力提升至<@ba.vup>200%</>（对正前方3格提升至<@ba.vup>200%</>）",
+        "description_ja": "攻撃範囲<@ba.vup>拡大</>、通常攻撃の間隔を<@ba.vup>短縮(-0.6)</>し、攻撃時、攻撃力が<@ba.vup>200%</>まで上昇し、前方直線3マス以内の敵を攻撃時、上昇の効果値が<@ba.vup>200%</>になる",
+        "description_en": "Attack Range <@ba.vup>expands</>, Attack Interval is <@ba.vup>reduced (-0.6)</>, and each attack deals <@ba.vup>200%</> damage (Increased to <@ba.vup>200%</> against enemies in the front 3 tiles)",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -50357,7 +50363,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["range_up"],
     "blackboard": [
       {
         "key": "base_attack_time",
@@ -50462,7 +50468,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["global_range"],
     "blackboard": [
       {
         "key": "attack_speed",
@@ -50575,7 +50581,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["infinite_range_straight"],
     "blackboard": [
       {
         "key": "atk",
@@ -50692,7 +50698,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["burst"],
     "blackboard": [
       {
         "key": "atk_scale",
@@ -50809,7 +50815,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["summon"],
     "blackboard": [
       {
         "key": "atk_scale",
@@ -50942,7 +50948,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["multi_target"],
     "blackboard": [
       {
         "key": "max_target",
@@ -51063,7 +51069,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["range_up"],
     "blackboard": [
       {
         "key": "atk",
@@ -51222,9 +51228,9 @@
     "levels": [
       {
         "rangeId": null,
-        "description_zh": "持续固定攻击范围内正前方最远一格，爆炸范围<@ba.vup>扩大</>，攻击力提升至<@ba.vup>185%</>，对目标位置附近小范围内的敌人攻击力额外提升至<@ba.vup>185%</>\\n<@ba.rem>持续时间无限，可主动关闭技能</>",
-        "description_ja": "攻撃範囲内の正面一番遠いマスを攻撃し続け、ダメージ発生範囲が<@ba.vup>拡大</>し、攻撃力が<@ba.vup>185%</>まで上昇する。対象マスの周囲一定範囲内の敵に対する攻撃力が更に<@ba.vup>185%</>まで上昇する。\n<@ba.rem>退場まで効果継続、手動でスキルを停止可能</>",
-        "description_en": "Continuously barrages a fixed area in front of this unit at max range, <@ba.vup>expanding</> explosion area and increasing ATK to <@ba.vup>185%</>. Enemies closer to the impact site in a smaller area will instead take <@ba.vup>185%</> ATK as damage. \n<@ba.rem>Unlimited duration, can manually deactivate skill</>",
+        "description_zh": "持续固定攻击范围内正前方最远一格，爆炸范围<@ba.vup>扩大</>，攻击力提升至<@ba.vup>115%</>，对目标位置附近小范围内的敌人攻击力额外提升至<@ba.vup>185%</>\\n<@ba.rem>持续时间无限，可主动关闭技能</>",
+        "description_ja": "攻撃範囲内の正面一番遠いマスを攻撃し続け、ダメージ発生範囲が<@ba.vup>拡大</>し、攻撃力が<@ba.vup>115%</>まで上昇する。対象マスの周囲一定範囲内の敵に対する攻撃力が更に<@ba.vup>185%</>まで上昇する。\n<@ba.rem>退場まで効果継続、手動でスキルを停止可能</>",
+        "description_en": "Continuously barrages a fixed area in front of this unit at max range, <@ba.vup>expanding</> explosion area and increasing ATK to <@ba.vup>115%</>. Enemies closer to the impact site in a smaller area will instead take <@ba.vup>185%</> ATK as damage. \n<@ba.rem>Unlimited duration, can manually deactivate skill</>",
         "spData": {
           "spType": "INCREASE_WHEN_ATTACK",
           "maxChargeTime": 1,
@@ -51254,9 +51260,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "持续固定攻击范围内正前方最远一格，爆炸范围<@ba.vup>扩大</>，攻击力提升至<@ba.vup>190%</>，对目标位置附近小范围内的敌人攻击力额外提升至<@ba.vup>190%</>\\n<@ba.rem>持续时间无限，可主动关闭技能</>",
-        "description_ja": "攻撃範囲内の正面一番遠いマスを攻撃し続け、ダメージ発生範囲が<@ba.vup>拡大</>し、攻撃力が<@ba.vup>190%</>まで上昇する。対象マスの周囲一定範囲内の敵に対する攻撃力が更に<@ba.vup>190%</>まで上昇する。\n<@ba.rem>退場まで効果継続、手動でスキルを停止可能</>",
-        "description_en": "Continuously barrages a fixed area in front of this unit at max range, <@ba.vup>expanding</> explosion area and increasing ATK to <@ba.vup>190%</>. Enemies closer to the impact site in a smaller area will instead take <@ba.vup>190%</> ATK as damage. \n<@ba.rem>Unlimited duration, can manually deactivate skill</>",
+        "description_zh": "持续固定攻击范围内正前方最远一格，爆炸范围<@ba.vup>扩大</>，攻击力提升至<@ba.vup>115%</>，对目标位置附近小范围内的敌人攻击力额外提升至<@ba.vup>190%</>\\n<@ba.rem>持续时间无限，可主动关闭技能</>",
+        "description_ja": "攻撃範囲内の正面一番遠いマスを攻撃し続け、ダメージ発生範囲が<@ba.vup>拡大</>し、攻撃力が<@ba.vup>115%</>まで上昇する。対象マスの周囲一定範囲内の敵に対する攻撃力が更に<@ba.vup>190%</>まで上昇する。\n<@ba.rem>退場まで効果継続、手動でスキルを停止可能</>",
+        "description_en": "Continuously barrages a fixed area in front of this unit at max range, <@ba.vup>expanding</> explosion area and increasing ATK to <@ba.vup>115%</>. Enemies closer to the impact site in a smaller area will instead take <@ba.vup>190%</> ATK as damage. \n<@ba.rem>Unlimited duration, can manually deactivate skill</>",
         "spData": {
           "spType": "INCREASE_WHEN_ATTACK",
           "maxChargeTime": 1,
@@ -51286,9 +51292,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "持续固定攻击范围内正前方最远一格，爆炸范围<@ba.vup>扩大</>，攻击力提升至<@ba.vup>200%</>，对目标位置附近小范围内的敌人攻击力额外提升至<@ba.vup>200%</>\\n<@ba.rem>持续时间无限，可主动关闭技能</>",
-        "description_ja": "攻撃範囲内の正面一番遠いマスを攻撃し続け、ダメージ発生範囲が<@ba.vup>拡大</>し、攻撃力が<@ba.vup>200%</>まで上昇する。対象マスの周囲一定範囲内の敵に対する攻撃力が更に<@ba.vup>200%</>まで上昇する。\n<@ba.rem>退場まで効果継続、手動でスキルを停止可能</>",
-        "description_en": "Continuously barrages a fixed area in front of this unit at max range, <@ba.vup>expanding</> explosion area and increasing ATK to <@ba.vup>200%</>. Enemies closer to the impact site in a smaller area will instead take <@ba.vup>200%</> ATK as damage. \n<@ba.rem>Unlimited duration, can manually deactivate skill</>",
+        "description_zh": "持续固定攻击范围内正前方最远一格，爆炸范围<@ba.vup>扩大</>，攻击力提升至<@ba.vup>115%</>，对目标位置附近小范围内的敌人攻击力额外提升至<@ba.vup>200%</>\\n<@ba.rem>持续时间无限，可主动关闭技能</>",
+        "description_ja": "攻撃範囲内の正面一番遠いマスを攻撃し続け、ダメージ発生範囲が<@ba.vup>拡大</>し、攻撃力が<@ba.vup>115%</>まで上昇する。対象マスの周囲一定範囲内の敵に対する攻撃力が更に<@ba.vup>200%</>まで上昇する。\n<@ba.rem>退場まで効果継続、手動でスキルを停止可能</>",
+        "description_en": "Continuously barrages a fixed area in front of this unit at max range, <@ba.vup>expanding</> explosion area and increasing ATK to <@ba.vup>115%</>. Enemies closer to the impact site in a smaller area will instead take <@ba.vup>200%</> ATK as damage. \n<@ba.rem>Unlimited duration, can manually deactivate skill</>",
         "spData": {
           "spType": "INCREASE_WHEN_ATTACK",
           "maxChargeTime": 1,
@@ -51318,9 +51324,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "持续固定攻击范围内正前方最远一格，爆炸范围<@ba.vup>扩大</>，攻击力提升至<@ba.vup>220%</>，对目标位置附近小范围内的敌人攻击力额外提升至<@ba.vup>220%</>\\n<@ba.rem>持续时间无限，可主动关闭技能</>",
-        "description_ja": "攻撃範囲内の正面一番遠いマスを攻撃し続け、ダメージ発生範囲が<@ba.vup>拡大</>し、攻撃力が<@ba.vup>220%</>まで上昇する。対象マスの周囲一定範囲内の敵に対する攻撃力が更に<@ba.vup>220%</>まで上昇する。\n<@ba.rem>退場まで効果継続、手動でスキルを停止可能</>",
-        "description_en": "Continuously barrages a fixed area in front of this unit at max range, <@ba.vup>expanding</> explosion area and increasing ATK to <@ba.vup>220%</>. Enemies closer to the impact site in a smaller area will instead take <@ba.vup>220%</> ATK as damage. \n<@ba.rem>Unlimited duration, can manually deactivate skill</>",
+        "description_zh": "持续固定攻击范围内正前方最远一格，爆炸范围<@ba.vup>扩大</>，攻击力提升至<@ba.vup>125%</>，对目标位置附近小范围内的敌人攻击力额外提升至<@ba.vup>220%</>\\n<@ba.rem>持续时间无限，可主动关闭技能</>",
+        "description_ja": "攻撃範囲内の正面一番遠いマスを攻撃し続け、ダメージ発生範囲が<@ba.vup>拡大</>し、攻撃力が<@ba.vup>125%</>まで上昇する。対象マスの周囲一定範囲内の敵に対する攻撃力が更に<@ba.vup>220%</>まで上昇する。\n<@ba.rem>退場まで効果継続、手動でスキルを停止可能</>",
+        "description_en": "Continuously barrages a fixed area in front of this unit at max range, <@ba.vup>expanding</> explosion area and increasing ATK to <@ba.vup>125%</>. Enemies closer to the impact site in a smaller area will instead take <@ba.vup>220%</> ATK as damage. \n<@ba.rem>Unlimited duration, can manually deactivate skill</>",
         "spData": {
           "spType": "INCREASE_WHEN_ATTACK",
           "maxChargeTime": 1,
@@ -51349,7 +51355,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["unlimited_duration"],
     "blackboard": [
       {
         "key": "atk_scale",
@@ -51474,7 +51480,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["multi_target"],
     "blackboard": [
       {
         "key": "atk",
@@ -51623,7 +51629,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["multi_target"],
     "blackboard": [
       {
         "key": "max_target",
@@ -51780,7 +51786,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["unlimited_duration"],
     "blackboard": [
       {
         "key": "atk",
@@ -51792,7 +51798,8 @@
       },
       {
         "key": "stun",
-        "value": 1.0
+        "value": 1.0,
+        "prob": 0.4
       },
       {
         "key": "first_duration",
@@ -51810,9 +51817,9 @@
     "levels": [
       {
         "rangeId": null,
-        "description_zh": "立刻标记攻击范围内的一名目标，攻击间隔<@ba.vdown>大幅增大</>，攻击变为对标记目标发射一轮箭雨；箭雨会随机攻击标记目标周围的敌人，共造成<@ba.vup>4</>次相当于攻击力<@ba.vup>160%</>的物理伤害并使目标晕眩<@ba.vup>0.4</>秒\\n<@ba.rem>攻击装有8发弹药，打完后结束（可随时停止技能）</>",
-        "description_ja": "攻撃範囲内の敵を1体マークする。攻撃間隔が<@ba.vdown>大幅に延長</>し、通常攻撃が対象へ矢の雨を降らせる攻撃に変化する。矢の雨はマークした対象の周囲にいる敵をランダムで攻撃し、攻撃力の<@ba.vup>160%</>の物理ダメージを<@ba.vup>4</>回与え、さらに対象を<@ba.vup>0.4</>秒スタンさせる\n<@ba.rem>合計8発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
-        "description_en": "Immediately marks a target within range, Attack Interval <@ba.vdown>lengthens significantly</>, and attacks become a hail of arrows aimed at the marked target; the hail of arrows will randomly strike enemies around the marked target, dealing <@ba.vup>4</> hits of <@ba.vup>160%</> ATK as Physical damage and stunning targets hit for <@ba.vup>0.4</> seconds\n<@ba.rem>Skill activation grants 8 ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
+        "description_zh": "立刻标记攻击范围内的一名目标，攻击间隔<@ba.vdown>大幅增大(+3.1)</>，攻击变为对标记目标发射一轮箭雨；箭雨会随机攻击标记目标周围的敌人，共造成<@ba.vup>4</>次相当于攻击力<@ba.vup>160%</>的物理伤害并使目标晕眩<@ba.vup>0.4</>秒\\n<@ba.rem>攻击装有8发弹药，打完后结束（可随时停止技能）</>",
+        "description_ja": "攻撃範囲内の敵を1体マークする。攻撃間隔が<@ba.vdown>大幅に延長(+3.1)</>し、通常攻撃が対象へ矢の雨を降らせる攻撃に変化する。矢の雨はマークした対象の周囲にいる敵をランダムで攻撃し、攻撃力の<@ba.vup>160%</>の物理ダメージを<@ba.vup>4</>回与え、さらに対象を<@ba.vup>0.4</>秒スタンさせる\n<@ba.rem>合計8発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+        "description_en": "Immediately marks a target within range, Attack Interval <@ba.vdown>lengthens significantly (+3.1)</>, and attacks become a hail of arrows aimed at the marked target; the hail of arrows will randomly strike enemies around the marked target, dealing <@ba.vup>4</> hits of <@ba.vup>160%</> ATK as Physical damage and stunning targets hit for <@ba.vup>0.4</> seconds\n<@ba.rem>Skill activation grants 8 ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -51846,9 +51853,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "立刻标记攻击范围内的一名目标，攻击间隔<@ba.vdown>大幅增大</>，攻击变为对标记目标发射一轮箭雨；箭雨会随机攻击标记目标周围的敌人，共造成<@ba.vup>5</>次相当于攻击力<@ba.vup>165%</>的物理伤害并使目标晕眩<@ba.vup>0.4</>秒\\n<@ba.rem>攻击装有8发弹药，打完后结束（可随时停止技能）</>",
-        "description_ja": "攻撃範囲内の敵を1体マークする。攻撃間隔が<@ba.vdown>大幅に延長</>し、通常攻撃が対象へ矢の雨を降らせる攻撃に変化する。矢の雨はマークした対象の周囲にいる敵をランダムで攻撃し、攻撃力の<@ba.vup>165%</>の物理ダメージを<@ba.vup>5</>回与え、さらに対象を<@ba.vup>0.4</>秒スタンさせる\n<@ba.rem>合計8発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
-        "description_en": "Immediately marks a target within range, Attack Interval <@ba.vdown>lengthens significantly</>, and attacks become a hail of arrows aimed at the marked target; the hail of arrows will randomly strike enemies around the marked target, dealing <@ba.vup>5</> hits of <@ba.vup>165%</> ATK as Physical damage and stunning targets hit for <@ba.vup>0.4</> seconds\n<@ba.rem>Skill activation grants 8 ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
+        "description_zh": "立刻标记攻击范围内的一名目标，攻击间隔<@ba.vdown>大幅增大(+3.1)</>，攻击变为对标记目标发射一轮箭雨；箭雨会随机攻击标记目标周围的敌人，共造成<@ba.vup>5</>次相当于攻击力<@ba.vup>165%</>的物理伤害并使目标晕眩<@ba.vup>0.4</>秒\\n<@ba.rem>攻击装有8发弹药，打完后结束（可随时停止技能）</>",
+        "description_ja": "攻撃範囲内の敵を1体マークする。攻撃間隔が<@ba.vdown>大幅に延長(+3.1)</>し、通常攻撃が対象へ矢の雨を降らせる攻撃に変化する。矢の雨はマークした対象の周囲にいる敵をランダムで攻撃し、攻撃力の<@ba.vup>165%</>の物理ダメージを<@ba.vup>5</>回与え、さらに対象を<@ba.vup>0.4</>秒スタンさせる\n<@ba.rem>合計8発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+        "description_en": "Immediately marks a target within range, Attack Interval <@ba.vdown>lengthens significantly (+3.1)</>, and attacks become a hail of arrows aimed at the marked target; the hail of arrows will randomly strike enemies around the marked target, dealing <@ba.vup>5</> hits of <@ba.vup>165%</> ATK as Physical damage and stunning targets hit for <@ba.vup>0.4</> seconds\n<@ba.rem>Skill activation grants 8 ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -51882,9 +51889,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "立刻标记攻击范围内的一名目标，攻击间隔<@ba.vdown>大幅增大</>，攻击变为对标记目标发射一轮箭雨；箭雨会随机攻击标记目标周围的敌人，共造成<@ba.vup>5</>次相当于攻击力<@ba.vup>170%</>的物理伤害并使目标晕眩<@ba.vup>0.4</>秒\\n<@ba.rem>攻击装有9发弹药，打完后结束（可随时停止技能）</>",
-        "description_ja": "攻撃範囲内の敵を1体マークする。攻撃間隔が<@ba.vdown>大幅に延長</>し、通常攻撃が対象へ矢の雨を降らせる攻撃に変化する。矢の雨はマークした対象の周囲にいる敵をランダムで攻撃し、攻撃力の<@ba.vup>170%</>の物理ダメージを<@ba.vup>5</>回与え、さらに対象を<@ba.vup>0.4</>秒スタンさせる\n<@ba.rem>合計9発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
-        "description_en": "Immediately marks a target within range, Attack Interval <@ba.vdown>lengthens significantly</>, and attacks become a hail of arrows aimed at the marked target; the hail of arrows will randomly strike enemies around the marked target, dealing <@ba.vup>5</> hits of <@ba.vup>170%</> ATK as Physical damage and stunning targets hit for <@ba.vup>0.4</> seconds\n<@ba.rem>Skill activation grants 9 ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
+        "description_zh": "立刻标记攻击范围内的一名目标，攻击间隔<@ba.vdown>大幅增大(+3.1)</>，攻击变为对标记目标发射一轮箭雨；箭雨会随机攻击标记目标周围的敌人，共造成<@ba.vup>5</>次相当于攻击力<@ba.vup>170%</>的物理伤害并使目标晕眩<@ba.vup>0.4</>秒\\n<@ba.rem>攻击装有9发弹药，打完后结束（可随时停止技能）</>",
+        "description_ja": "攻撃範囲内の敵を1体マークする。攻撃間隔が<@ba.vdown>大幅に延長(+3.1)</>し、通常攻撃が対象へ矢の雨を降らせる攻撃に変化する。矢の雨はマークした対象の周囲にいる敵をランダムで攻撃し、攻撃力の<@ba.vup>170%</>の物理ダメージを<@ba.vup>5</>回与え、さらに対象を<@ba.vup>0.4</>秒スタンさせる\n<@ba.rem>合計9発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+        "description_en": "Immediately marks a target within range, Attack Interval <@ba.vdown>lengthens significantly (+3.1)</>, and attacks become a hail of arrows aimed at the marked target; the hail of arrows will randomly strike enemies around the marked target, dealing <@ba.vup>5</> hits of <@ba.vup>170%</> ATK as Physical damage and stunning targets hit for <@ba.vup>0.4</> seconds\n<@ba.rem>Skill activation grants 9 ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -51918,9 +51925,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "立刻标记攻击范围内的一名目标，攻击间隔<@ba.vdown>大幅增大</>，攻击变为对标记目标发射一轮箭雨；箭雨会随机攻击标记目标周围的敌人，共造成<@ba.vup>5</>次相当于攻击力<@ba.vup>175%</>的物理伤害并使目标晕眩<@ba.vup>0.4</>秒\\n<@ba.rem>攻击装有10发弹药，打完后结束（可随时停止技能）</>",
-        "description_ja": "攻撃範囲内の敵を1体マークする。攻撃間隔が<@ba.vdown>大幅に延長</>し、通常攻撃が対象へ矢の雨を降らせる攻撃に変化する。矢の雨はマークした対象の周囲にいる敵をランダムで攻撃し、攻撃力の<@ba.vup>175%</>の物理ダメージを<@ba.vup>5</>回与え、さらに対象を<@ba.vup>0.4</>秒スタンさせる\n<@ba.rem>合計10発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
-        "description_en": "Immediately marks a target within range, Attack Interval <@ba.vdown>lengthens significantly</>, and attacks become a hail of arrows aimed at the marked target; the hail of arrows will randomly strike enemies around the marked target, dealing <@ba.vup>5</> hits of <@ba.vup>175%</> ATK as Physical damage and stunning targets hit for <@ba.vup>0.4</> seconds\n<@ba.rem>Skill activation grants 10 ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
+        "description_zh": "立刻标记攻击范围内的一名目标，攻击间隔<@ba.vdown>大幅增大(+3.1)</>，攻击变为对标记目标发射一轮箭雨；箭雨会随机攻击标记目标周围的敌人，共造成<@ba.vup>5</>次相当于攻击力<@ba.vup>175%</>的物理伤害并使目标晕眩<@ba.vup>0.4</>秒\\n<@ba.rem>攻击装有10发弹药，打完后结束（可随时停止技能）</>",
+        "description_ja": "攻撃範囲内の敵を1体マークする。攻撃間隔が<@ba.vdown>大幅に延長(+3.1)</>し、通常攻撃が対象へ矢の雨を降らせる攻撃に変化する。矢の雨はマークした対象の周囲にいる敵をランダムで攻撃し、攻撃力の<@ba.vup>175%</>の物理ダメージを<@ba.vup>5</>回与え、さらに対象を<@ba.vup>0.4</>秒スタンさせる\n<@ba.rem>合計10発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+        "description_en": "Immediately marks a target within range, Attack Interval <@ba.vdown>lengthens significantly (+3.1)</>, and attacks become a hail of arrows aimed at the marked target; the hail of arrows will randomly strike enemies around the marked target, dealing <@ba.vup>5</> hits of <@ba.vup>175%</> ATK as Physical damage and stunning targets hit for <@ba.vup>0.4</> seconds\n<@ba.rem>Skill activation grants 10 ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -51953,7 +51960,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["follow_target"],
     "blackboard": [
       {
         "key": "base_attack_time",
@@ -52082,7 +52089,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["arts"],
     "blackboard": [
       {
         "key": "extra_atk_scale",
@@ -52104,9 +52111,9 @@
     "levels": [
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+30%</>，溅射范围<@ba.vup>扩大</>，每次攻击额外造成<@ba.vup>2</>次余震；受到攻击和余震的目标有<@ba.vup>20%</>的几率<$ba.stun>晕眩</><@ba.vup>1.1</>秒",
-        "description_ja": "通常攻撃の間隔を<@ba.vdown>延長</>し、攻撃力<@ba.vup>+30%</>、ダメージ発生範囲<@ba.vup>拡大</>、余震がさらに<@ba.vup>2</>回発生する。攻撃と余震が敵に命中時、<@ba.vup>20%</>の確率で<@ba.vup>1.1</>秒間<$ba.stun>スタン</>させる",
-        "description_en": "Attack Interval <@ba.vdown>increases</>, ATK <@ba.vup>+30%</>, splash area <@ba.vup>expands</>, and each attack causes <@ba.vup>2</> additional shockwaves; Enemies hit by this unit's attacks and shockwaves have a <@ba.vup>20%</> chance to be <$ba.stun>Stunned</> for <@ba.vup>1.1</> seconds",
+        "description_zh": "攻击间隔<@ba.vdown>增大(+50%)</>，攻击力<@ba.vup>+30%</>，溅射范围<@ba.vup>扩大</>，每次攻击额外造成<@ba.vup>2</>次余震；受到攻击和余震的目标有<@ba.vup>20%</>的几率<$ba.stun>晕眩</><@ba.vup>1.1</>秒",
+        "description_ja": "通常攻撃の間隔を<@ba.vdown>延長(+50%)</>し、攻撃力<@ba.vup>+30%</>、ダメージ発生範囲<@ba.vup>拡大</>、余震がさらに<@ba.vup>2</>回発生する。攻撃と余震が敵に命中時、<@ba.vup>20%</>の確率で<@ba.vup>1.1</>秒間<$ba.stun>スタン</>させる",
+        "description_en": "Attack Interval <@ba.vdown>increases (+50%)</>, ATK <@ba.vup>+30%</>, splash area <@ba.vup>expands</>, and each attack causes <@ba.vup>2</> additional shockwaves; Enemies hit by this unit's attacks and shockwaves have a <@ba.vup>20%</> chance to be <$ba.stun>Stunned</> for <@ba.vup>1.1</> seconds",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -52140,9 +52147,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+37%</>，溅射范围<@ba.vup>扩大</>，每次攻击额外造成<@ba.vup>2</>次余震；受到攻击和余震的目标有<@ba.vup>20%</>的几率<$ba.stun>晕眩</><@ba.vup>1.2</>秒",
-        "description_ja": "通常攻撃の間隔を<@ba.vdown>延長</>し、攻撃力<@ba.vup>+37%</>、ダメージ発生範囲<@ba.vup>拡大</>、余震がさらに<@ba.vup>2</>回発生する。攻撃と余震が敵に命中時、<@ba.vup>20%</>の確率で<@ba.vup>1.2</>秒間<$ba.stun>スタン</>させる",
-        "description_en": "Attack Interval <@ba.vdown>increases</>, ATK <@ba.vup>+37%</>, splash area <@ba.vup>expands</>, and each attack causes <@ba.vup>2</> additional shockwaves; Enemies hit by this unit's attacks and shockwaves have a <@ba.vup>20%</> chance to be <$ba.stun>Stunned</> for <@ba.vup>1.2</> seconds",
+        "description_zh": "攻击间隔<@ba.vdown>增大(+50%)</>，攻击力<@ba.vup>+37%</>，溅射范围<@ba.vup>扩大</>，每次攻击额外造成<@ba.vup>2</>次余震；受到攻击和余震的目标有<@ba.vup>20%</>的几率<$ba.stun>晕眩</><@ba.vup>1.2</>秒",
+        "description_ja": "通常攻撃の間隔を<@ba.vdown>延長(+50%)</>し、攻撃力<@ba.vup>+37%</>、ダメージ発生範囲<@ba.vup>拡大</>、余震がさらに<@ba.vup>2</>回発生する。攻撃と余震が敵に命中時、<@ba.vup>20%</>の確率で<@ba.vup>1.2</>秒間<$ba.stun>スタン</>させる",
+        "description_en": "Attack Interval <@ba.vdown>increases (+50%)</>, ATK <@ba.vup>+37%</>, splash area <@ba.vup>expands</>, and each attack causes <@ba.vup>2</> additional shockwaves; Enemies hit by this unit's attacks and shockwaves have a <@ba.vup>20%</> chance to be <$ba.stun>Stunned</> for <@ba.vup>1.2</> seconds",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -52176,9 +52183,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+45%</>，溅射范围<@ba.vup>扩大</>，每次攻击额外造成<@ba.vup>2</>次余震；受到攻击和余震的目标有<@ba.vup>20%</>的几率<$ba.stun>晕眩</><@ba.vup>1.3</>秒",
-        "description_ja": "通常攻撃の間隔を<@ba.vdown>延長</>し、攻撃力<@ba.vup>+45%</>、ダメージ発生範囲<@ba.vup>拡大</>、余震がさらに<@ba.vup>2</>回発生する。攻撃と余震が敵に命中時、<@ba.vup>20%</>の確率で<@ba.vup>1.3</>秒間<$ba.stun>スタン</>させる",
-        "description_en": "Attack Interval <@ba.vdown>increases</>, ATK <@ba.vup>+45%</>, splash area <@ba.vup>expands</>, and each attack causes <@ba.vup>2</> additional shockwaves; Enemies hit by this unit's attacks and shockwaves have a <@ba.vup>20%</> chance to be <$ba.stun>Stunned</> for <@ba.vup>1.3</> seconds",
+        "description_zh": "攻击间隔<@ba.vdown>增大(+50%)</>，攻击力<@ba.vup>+45%</>，溅射范围<@ba.vup>扩大</>，每次攻击额外造成<@ba.vup>2</>次余震；受到攻击和余震的目标有<@ba.vup>20%</>的几率<$ba.stun>晕眩</><@ba.vup>1.3</>秒",
+        "description_ja": "通常攻撃の間隔を<@ba.vdown>延長(+50%)</>し、攻撃力<@ba.vup>+45%</>、ダメージ発生範囲<@ba.vup>拡大</>、余震がさらに<@ba.vup>2</>回発生する。攻撃と余震が敵に命中時、<@ba.vup>20%</>の確率で<@ba.vup>1.3</>秒間<$ba.stun>スタン</>させる",
+        "description_en": "Attack Interval <@ba.vdown>increases (+50%)</>, ATK <@ba.vup>+45%</>, splash area <@ba.vup>expands</>, and each attack causes <@ba.vup>2</> additional shockwaves; Enemies hit by this unit's attacks and shockwaves have a <@ba.vup>20%</> chance to be <$ba.stun>Stunned</> for <@ba.vup>1.3</> seconds",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -52212,9 +52219,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+55%</>，溅射范围<@ba.vup>扩大</>，每次攻击额外造成<@ba.vup>2</>次余震；受到攻击和余震的目标有<@ba.vup>20%</>的几率<$ba.stun>晕眩</><@ba.vup>1.5</>秒",
-        "description_ja": "通常攻撃の間隔を<@ba.vdown>延長</>し、攻撃力<@ba.vup>+55%</>、ダメージ発生範囲<@ba.vup>拡大</>、余震がさらに<@ba.vup>2</>回発生する。攻撃と余震が敵に命中時、<@ba.vup>20%</>の確率で<@ba.vup>1.5</>秒間<$ba.stun>スタン</>させる",
-        "description_en": "Attack Interval <@ba.vdown>increases</>, ATK <@ba.vup>+55%</>, splash area <@ba.vup>expands</>, and each attack causes <@ba.vup>2</> additional shockwaves; Enemies hit by this unit's attacks and shockwaves have a <@ba.vup>20%</> chance to be <$ba.stun>Stunned</> for <@ba.vup>1.5</> seconds",
+        "description_zh": "攻击间隔<@ba.vdown>增大(+50%)</>，攻击力<@ba.vup>+55%</>，溅射范围<@ba.vup>扩大</>，每次攻击额外造成<@ba.vup>2</>次余震；受到攻击和余震的目标有<@ba.vup>20%</>的几率<$ba.stun>晕眩</><@ba.vup>1.5</>秒",
+        "description_ja": "通常攻撃の間隔を<@ba.vdown>延長(+50%)</>し、攻撃力<@ba.vup>+55%</>、ダメージ発生範囲<@ba.vup>拡大</>、余震がさらに<@ba.vup>2</>回発生する。攻撃と余震が敵に命中時、<@ba.vup>20%</>の確率で<@ba.vup>1.5</>秒間<$ba.stun>スタン</>させる",
+        "description_en": "Attack Interval <@ba.vdown>increases (+50%)</>, ATK <@ba.vup>+55%</>, splash area <@ba.vup>expands</>, and each attack causes <@ba.vup>2</> additional shockwaves; Enemies hit by this unit's attacks and shockwaves have a <@ba.vup>20%</> chance to be <$ba.stun>Stunned</> for <@ba.vup>1.5</> seconds",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -52267,7 +52274,8 @@
       },
       {
         "key": "stun",
-        "value": 1.5
+        "value": 1.5,
+        "prob":"0.2*hits"
       }
     ]
   },
@@ -52281,9 +52289,9 @@
     "levels": [
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vup>缩短</>，攻击力<@ba.vup>+40%</>，同时攻击<@ba.vup>2</>个敌人但仅选择<@ba.rem>被阻挡的</>敌人作为目标；立即在攻击范围内的近战位部署两个战术装备（部署后<$ba.stun>晕眩</>周围敌人<@ba.vup>2.5</>秒，阻挡的敌人防御力<@ba.vup>-160</>）",
-        "description_ja": "通常攻撃の間隔を<@ba.vup>短縮</>し、攻撃力<@ba.vup>+40%</>。通常攻撃が<@ba.rem>ブロックされている</>敵のみを選択し、<@ba.vup>2</>体を同時に攻撃する。攻撃範囲内の近距離配置マスに戦術装備を配置（配置後、周囲にいる敵全員を<@ba.vup>2.5</>秒間<$ba.stun>スタン</>させる、戦術装備にブロックされている敵の防御力<@ba.vup>-160</>）",
-        "description_en": "Attack Interval <@ba.vup>decreases</>, ATK <@ba.vup>+40%</>, and attacks up to <@ba.vup>2</> <@ba.rem>blocked</> enemies at a time; Immediately deploys two pieces of Tactical Equipment on ground tiles within Attack Range (After deployment, surrounding enemies are <$ba.stun>Stunned</> for <@ba.vup>2.5</> seconds, and the blocked enemies' DEF <@ba.vup>-160</>)",
+        "description_zh": "攻击间隔<@ba.vup>缩短(-50%)</>，攻击力<@ba.vup>+40%</>，同时攻击<@ba.vup>2</>个敌人但仅选择<@ba.rem>被阻挡的</>敌人作为目标；立即在攻击范围内的近战位部署两个战术装备（部署后<$ba.stun>晕眩</>周围敌人<@ba.vup>2.5</>秒，阻挡的敌人防御力<@ba.vup>-160</>）",
+        "description_ja": "通常攻撃の間隔を<@ba.vup>短縮(-50%)</>し、攻撃力<@ba.vup>+40%</>。通常攻撃が<@ba.rem>ブロックされている</>敵のみを選択し、<@ba.vup>2</>体を同時に攻撃する。攻撃範囲内の近距離配置マスに戦術装備を配置（配置後、周囲にいる敵全員を<@ba.vup>2.5</>秒間<$ba.stun>スタン</>させる、戦術装備にブロックされている敵の防御力<@ba.vup>-160</>）",
+        "description_en": "Attack Interval <@ba.vup>decreases (-50%)</>, ATK <@ba.vup>+40%</>, and attacks up to <@ba.vup>2</> <@ba.rem>blocked</> enemies at a time; Immediately deploys two pieces of Tactical Equipment on ground tiles within Attack Range (After deployment, surrounding enemies are <$ba.stun>Stunned</> for <@ba.vup>2.5</> seconds, and the blocked enemies' DEF <@ba.vup>-160</>)",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -52321,9 +52329,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vup>缩短</>，攻击力<@ba.vup>+50%</>，同时攻击<@ba.vup>2</>个敌人但仅选择<@ba.rem>被阻挡的</>敌人作为目标；立即在攻击范围内的近战位部署两个战术装备（部署后<$ba.stun>晕眩</>周围敌人<@ba.vup>2.5</>秒，阻挡的敌人防御力<@ba.vup>-160</>）",
-        "description_ja": "通常攻撃の間隔を<@ba.vup>短縮</>し、攻撃力<@ba.vup>+50%</>。通常攻撃が<@ba.rem>ブロックされている</>敵のみを選択し、<@ba.vup>2</>体を同時に攻撃する。攻撃範囲内の近距離配置マスに戦術装備を配置（配置後、周囲にいる敵全員を<@ba.vup>2.5</>秒間<$ba.stun>スタン</>させる、戦術装備にブロックされている敵の防御力<@ba.vup>-160</>）",
-        "description_en": "Attack Interval <@ba.vup>decreases</>, ATK <@ba.vup>+50%</>, and attacks up to <@ba.vup>2</> <@ba.rem>blocked</> enemies at a time; Immediately deploys two pieces of Tactical Equipment on ground tiles within Attack Range (After deployment, surrounding enemies are <$ba.stun>Stunned</> for <@ba.vup>2.5</> seconds, and the blocked enemies' DEF <@ba.vup>-160</>)",
+        "description_zh": "攻击间隔<@ba.vup>缩短(-50%)</>，攻击力<@ba.vup>+50%</>，同时攻击<@ba.vup>2</>个敌人但仅选择<@ba.rem>被阻挡的</>敌人作为目标；立即在攻击范围内的近战位部署两个战术装备（部署后<$ba.stun>晕眩</>周围敌人<@ba.vup>2.5</>秒，阻挡的敌人防御力<@ba.vup>-160</>）",
+        "description_ja": "通常攻撃の間隔を<@ba.vup>短縮(-50%)</>し、攻撃力<@ba.vup>+50%</>。通常攻撃が<@ba.rem>ブロックされている</>敵のみを選択し、<@ba.vup>2</>体を同時に攻撃する。攻撃範囲内の近距離配置マスに戦術装備を配置（配置後、周囲にいる敵全員を<@ba.vup>2.5</>秒間<$ba.stun>スタン</>させる、戦術装備にブロックされている敵の防御力<@ba.vup>-160</>）",
+        "description_en": "Attack Interval <@ba.vup>decreases (-50%)</>, ATK <@ba.vup>+50%</>, and attacks up to <@ba.vup>2</> <@ba.rem>blocked</> enemies at a time; Immediately deploys two pieces of Tactical Equipment on ground tiles within Attack Range (After deployment, surrounding enemies are <$ba.stun>Stunned</> for <@ba.vup>2.5</> seconds, and the blocked enemies' DEF <@ba.vup>-160</>)",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -52361,9 +52369,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vup>缩短</>，攻击力<@ba.vup>+60%</>，同时攻击<@ba.vup>2</>个敌人但仅选择<@ba.rem>被阻挡的</>敌人作为目标；立即在攻击范围内的近战位部署两个战术装备（部署后<$ba.stun>晕眩</>周围敌人<@ba.vup>2.5</>秒，阻挡的敌人防御力<@ba.vup>-160</>）",
-        "description_ja": "通常攻撃の間隔を<@ba.vup>短縮</>し、攻撃力<@ba.vup>+60%</>。通常攻撃が<@ba.rem>ブロックされている</>敵のみを選択し、<@ba.vup>2</>体を同時に攻撃する。攻撃範囲内の近距離配置マスに戦術装備を配置（配置後、周囲にいる敵全員を<@ba.vup>2.5</>秒間<$ba.stun>スタン</>させる、戦術装備にブロックされている敵の防御力<@ba.vup>-160</>）",
-        "description_en": "Attack Interval <@ba.vup>decreases</>, ATK <@ba.vup>+60%</>, and attacks up to <@ba.vup>2</> <@ba.rem>blocked</> enemies at a time; Immediately deploys two pieces of Tactical Equipment on ground tiles within Attack Range (After deployment, surrounding enemies are <$ba.stun>Stunned</> for <@ba.vup>2.5</> seconds, and the blocked enemies' DEF <@ba.vup>-160</>)",
+        "description_zh": "攻击间隔<@ba.vup>缩短(-50%)</>，攻击力<@ba.vup>+60%</>，同时攻击<@ba.vup>2</>个敌人但仅选择<@ba.rem>被阻挡的</>敌人作为目标；立即在攻击范围内的近战位部署两个战术装备（部署后<$ba.stun>晕眩</>周围敌人<@ba.vup>2.5</>秒，阻挡的敌人防御力<@ba.vup>-160</>）",
+        "description_ja": "通常攻撃の間隔を<@ba.vup>短縮(-50%)</>し、攻撃力<@ba.vup>+60%</>。通常攻撃が<@ba.rem>ブロックされている</>敵のみを選択し、<@ba.vup>2</>体を同時に攻撃する。攻撃範囲内の近距離配置マスに戦術装備を配置（配置後、周囲にいる敵全員を<@ba.vup>2.5</>秒間<$ba.stun>スタン</>させる、戦術装備にブロックされている敵の防御力<@ba.vup>-160</>）",
+        "description_en": "Attack Interval <@ba.vup>decreases (-50%)</>, ATK <@ba.vup>+60%</>, and attacks up to <@ba.vup>2</> <@ba.rem>blocked</> enemies at a time; Immediately deploys two pieces of Tactical Equipment on ground tiles within Attack Range (After deployment, surrounding enemies are <$ba.stun>Stunned</> for <@ba.vup>2.5</> seconds, and the blocked enemies' DEF <@ba.vup>-160</>)",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -52401,9 +52409,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vup>缩短</>，攻击力<@ba.vup>+75%</>，同时攻击<@ba.vup>2</>个敌人但仅选择<@ba.rem>被阻挡的</>敌人作为目标；立即在攻击范围内的近战位部署两个战术装备（部署后<$ba.stun>晕眩</>周围敌人<@ba.vup>3</>秒，阻挡的敌人防御力<@ba.vup>-160</>）",
-        "description_ja": "通常攻撃の間隔を<@ba.vup>短縮</>し、攻撃力<@ba.vup>+75%</>。通常攻撃が<@ba.rem>ブロックされている</>敵のみを選択し、<@ba.vup>2</>体を同時に攻撃する。攻撃範囲内の近距離配置マスに戦術装備を配置（配置後、周囲にいる敵全員を<@ba.vup>3</>秒間<$ba.stun>スタン</>させる、戦術装備にブロックされている敵の防御力<@ba.vup>-160</>）",
-        "description_en": "Attack Interval <@ba.vup>decreases</>, ATK <@ba.vup>+75%</>, and attacks up to <@ba.vup>2</> <@ba.rem>blocked</> enemies at a time; Immediately deploys two pieces of Tactical Equipment on ground tiles within Attack Range (After deployment, surrounding enemies are <$ba.stun>Stunned</> for <@ba.vup>3</> seconds, and the blocked enemies' DEF <@ba.vup>-160</>)",
+        "description_zh": "攻击间隔<@ba.vup>缩短(-50%)</>，攻击力<@ba.vup>+75%</>，同时攻击<@ba.vup>2</>个敌人但仅选择<@ba.rem>被阻挡的</>敌人作为目标；立即在攻击范围内的近战位部署两个战术装备（部署后<$ba.stun>晕眩</>周围敌人<@ba.vup>3</>秒，阻挡的敌人防御力<@ba.vup>-160</>）",
+        "description_ja": "通常攻撃の間隔を<@ba.vup>短縮(-50%)</>し、攻撃力<@ba.vup>+75%</>。通常攻撃が<@ba.rem>ブロックされている</>敵のみを選択し、<@ba.vup>2</>体を同時に攻撃する。攻撃範囲内の近距離配置マスに戦術装備を配置（配置後、周囲にいる敵全員を<@ba.vup>3</>秒間<$ba.stun>スタン</>させる、戦術装備にブロックされている敵の防御力<@ba.vup>-160</>）",
+        "description_en": "Attack Interval <@ba.vup>decreases (-50%)</>, ATK <@ba.vup>+75%</>, and attacks up to <@ba.vup>2</> <@ba.rem>blocked</> enemies at a time; Immediately deploys two pieces of Tactical Equipment on ground tiles within Attack Range (After deployment, surrounding enemies are <$ba.stun>Stunned</> for <@ba.vup>3</> seconds, and the blocked enemies' DEF <@ba.vup>-160</>)",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -52440,7 +52448,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["target_block"],
     "blackboard": [
       {
         "key": "base_attack_time",
@@ -52754,15 +52762,15 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["move_speed_down"],
     "blackboard": [
       {
         "key": "atk",
         "value": 0.8
       },
       {
-        "key": "move_speed",
-        "value": -0.35
+        "key": "move_speed_down",
+        "value": 0.35
       },
       {
         "key": "def",
@@ -52935,15 +52943,15 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["move_speed_down"],
     "blackboard": [
       {
         "key": "atk",
         "value": 1.0
       },
       {
-        "key": "move_speed",
-        "value": -0.45
+        "key": "move_speed_down",
+        "value": 0.45
       },
       {
         "key": "def",
@@ -53080,7 +53088,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["force","push","burst"],
     "blackboard": [
       {
         "key": "atk_scale",
@@ -53201,7 +53209,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["range_up","unlimited_duration"],
     "blackboard": [
       {
         "key": "atk",
@@ -53223,7 +53231,7 @@
     "levels": [
       {
         "rangeId": "3-8",
-        "description_zh": "立即<@ba.vdown>停止攻击</>直至子弹装满，装填间隔<@ba.vup>大幅缩短</>，攻击范围<@ba.vup>扩大</>，攻击造成相当于攻击力<@ba.vup>270%</>的物理伤害并使目标束缚<@ba.vup>2</>秒\\n<@ba.rem>技能期间若击倒敌人，技能结束时获得10点技力</>",
+        "description_zh": "立即<@ba.vdown>停止攻击</>直至子弹装满，装填间隔<@ba.vup>大幅缩短(-1.2)</>，攻击范围<@ba.vup>扩大</>，攻击造成相当于攻击力<@ba.vup>270%</>的物理伤害并使目标束缚<@ba.vup>2</>秒\\n<@ba.rem>技能期间若击倒敌人，技能结束时获得10点技力</>",
         "description_ja": "",
         "description_en": "",
         "spData": {
@@ -53244,7 +53252,7 @@
             "value": 2.7
           },
           {
-            "key": "unmove_duration",
+            "key": "root",
             "value": 2.0
           },
           {
@@ -53255,7 +53263,7 @@
       },
       {
         "rangeId": "3-8",
-        "description_zh": "立即<@ba.vdown>停止攻击</>直至子弹装满，装填间隔<@ba.vup>大幅缩短</>，攻击范围<@ba.vup>扩大</>，攻击造成相当于攻击力<@ba.vup>290%</>的物理伤害并使目标束缚<@ba.vup>2</>秒\\n<@ba.rem>技能期间若击倒敌人，技能结束时获得10点技力</>",
+        "description_zh": "立即<@ba.vdown>停止攻击</>直至子弹装满，装填间隔<@ba.vup>大幅缩短(-1.2)</>，攻击范围<@ba.vup>扩大</>，攻击造成相当于攻击力<@ba.vup>290%</>的物理伤害并使目标束缚<@ba.vup>2</>秒\\n<@ba.rem>技能期间若击倒敌人，技能结束时获得10点技力</>",
         "description_ja": "",
         "description_en": "",
         "spData": {
@@ -53276,7 +53284,7 @@
             "value": 2.9
           },
           {
-            "key": "unmove_duration",
+            "key": "root",
             "value": 2.0
           },
           {
@@ -53287,7 +53295,7 @@
       },
       {
         "rangeId": "3-8",
-        "description_zh": "立即<@ba.vdown>停止攻击</>直至子弹装满，装填间隔<@ba.vup>大幅缩短</>，攻击范围<@ba.vup>扩大</>，攻击造成相当于攻击力<@ba.vup>310%</>的物理伤害并使目标束缚<@ba.vup>2</>秒\\n<@ba.rem>技能期间若击倒敌人，技能结束时获得10点技力</>",
+        "description_zh": "立即<@ba.vdown>停止攻击</>直至子弹装满，装填间隔<@ba.vup>大幅缩短(-1.2)</>，攻击范围<@ba.vup>扩大</>，攻击造成相当于攻击力<@ba.vup>310%</>的物理伤害并使目标束缚<@ba.vup>2</>秒\\n<@ba.rem>技能期间若击倒敌人，技能结束时获得10点技力</>",
         "description_ja": "",
         "description_en": "",
         "spData": {
@@ -53308,7 +53316,7 @@
             "value": 3.1
           },
           {
-            "key": "unmove_duration",
+            "key": "root",
             "value": 2.0
           },
           {
@@ -53319,7 +53327,7 @@
       },
       {
         "rangeId": "3-8",
-        "description_zh": "立即<@ba.vdown>停止攻击</>直至子弹装满，装填间隔<@ba.vup>大幅缩短</>，攻击范围<@ba.vup>扩大</>，攻击造成相当于攻击力<@ba.vup>330%</>的物理伤害并使目标束缚<@ba.vup>2</>秒\\n<@ba.rem>技能期间若击倒敌人，技能结束时获得10点技力</>",
+        "description_zh": "立即<@ba.vdown>停止攻击</>直至子弹装满，装填间隔<@ba.vup>大幅缩短(-1.2)</>，攻击范围<@ba.vup>扩大</>，攻击造成相当于攻击力<@ba.vup>330%</>的物理伤害并使目标束缚<@ba.vup>2</>秒\\n<@ba.rem>技能期间若击倒敌人，技能结束时获得10点技力</>",
         "description_ja": "",
         "description_en": "",
         "spData": {
@@ -53340,7 +53348,7 @@
             "value": 3.3
           },
           {
-            "key": "unmove_duration",
+            "key": "root",
             "value": 2.0
           },
           {
@@ -53361,7 +53369,7 @@
         "value": 3.3
       },
       {
-        "key": "unmove_duration",
+        "key": "root",
         "value": 2.0
       },
       {
@@ -53491,7 +53499,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["aoe","burst"],
     "blackboard": [
       {
         "key": "atk_scale",
@@ -53517,8 +53525,8 @@
     "levels": [
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vdown>增大</>，攻击时攻击力提高至<@ba.vup>320%</>，并且有<@ba.vup>40%</>的概率<$ba.stun>晕眩</>目标<@ba.vup>1.1</>秒",
-        "description_ja": "攻撃間隔を<@ba.vdown>延長</>し、攻撃時攻撃力が<@ba.vup>320%まで上昇</>、<@ba.vup>更に40%</>の確率で攻撃した敵を<@ba.vup>1.1</>秒間<$ba.stun>スタン</>させる",
+        "description_zh": "攻击间隔<@ba.vdown>增大(+1.0)</>，攻击时攻击力提高至<@ba.vup>320%</>，并且有<@ba.vup>40%</>的概率<$ba.stun>晕眩</>目标<@ba.vup>1.1</>秒",
+        "description_ja": "攻撃間隔を<@ba.vdown>延長(+1.0)</>し、攻撃時攻撃力が<@ba.vup>320%まで上昇</>、<@ba.vup>更に40%</>の確率で攻撃した敵を<@ba.vup>1.1</>秒間<$ba.stun>スタン</>させる",
         "description_en": "Attack Interval <@ba.vdown>increases</>. Increases ATK to <@ba.vup>320%</> when attacking and has <@ba.vup>40%</> chance to <$ba.stun>Stun</> the target for <@ba.vup>1.1</> seconds",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
@@ -53549,9 +53557,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vdown>增大</>，攻击时攻击力提高至<@ba.vup>340%</>，并且有<@ba.vup>40%</>的概率<$ba.stun>晕眩</>目标<@ba.vup>1.2</>秒",
-        "description_ja": "攻撃間隔を<@ba.vdown>延長</>し、攻撃時攻撃力が<@ba.vup>340%まで上昇</>、<@ba.vup>更に40%</>の確率で攻撃した敵を<@ba.vup>1.2</>秒間<$ba.stun>スタン</>させる",
-        "description_en": "Attack Interval <@ba.vdown>increases</>. Increases ATK to <@ba.vup>340%</> when attacking and has <@ba.vup>40%</> chance to <$ba.stun>Stun</> the target for <@ba.vup>1.2</> seconds",
+        "description_zh": "攻击间隔<@ba.vdown>增大(+1.0)</>，攻击时攻击力提高至<@ba.vup>340%</>，并且有<@ba.vup>40%</>的概率<$ba.stun>晕眩</>目标<@ba.vup>1.2</>秒",
+        "description_ja": "攻撃間隔を<@ba.vdown>延長(+1.0)</>し、攻撃時攻撃力が<@ba.vup>340%まで上昇</>、<@ba.vup>更に40%</>の確率で攻撃した敵を<@ba.vup>1.2</>秒間<$ba.stun>スタン</>させる",
+        "description_en": "Attack Interval <@ba.vdown>increases (+1.0)</>. Increases ATK to <@ba.vup>340%</> when attacking and has <@ba.vup>40%</> chance to <$ba.stun>Stun</> the target for <@ba.vup>1.2</> seconds",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -53581,9 +53589,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vdown>增大</>，攻击时攻击力提高至<@ba.vup>360%</>，并且有<@ba.vup>40%</>的概率<$ba.stun>晕眩</>目标<@ba.vup>1.3</>秒",
-        "description_ja": "攻撃間隔を<@ba.vdown>延長</>し、攻撃時攻撃力が<@ba.vup>360%まで上昇</>、<@ba.vup>更に40%</>の確率で攻撃した敵を<@ba.vup>1.3</>秒間<$ba.stun>スタン</>させる",
-        "description_en": "Attack Interval <@ba.vdown>increases</>. Increases ATK to <@ba.vup>360%</> when attacking and has <@ba.vup>40%</> chance to <$ba.stun>Stun</> the target for <@ba.vup>1.3</> seconds",
+        "description_zh": "攻击间隔<@ba.vdown>增大(+1.0)</>，攻击时攻击力提高至<@ba.vup>360%</>，并且有<@ba.vup>40%</>的概率<$ba.stun>晕眩</>目标<@ba.vup>1.3</>秒",
+        "description_ja": "攻撃間隔を<@ba.vdown>延長(+1.0)</>し、攻撃時攻撃力が<@ba.vup>360%まで上昇</>、<@ba.vup>更に40%</>の確率で攻撃した敵を<@ba.vup>1.3</>秒間<$ba.stun>スタン</>させる",
+        "description_en": "Attack Interval <@ba.vdown>increases (+1.0)</>. Increases ATK to <@ba.vup>360%</> when attacking and has <@ba.vup>40%</> chance to <$ba.stun>Stun</> the target for <@ba.vup>1.3</> seconds",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -53613,9 +53621,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vdown>增大</>，攻击时攻击力提高至<@ba.vup>380%</>，并且有<@ba.vup>40%</>的概率<$ba.stun>晕眩</>目标<@ba.vup>1.5</>秒",
-        "description_ja": "攻撃間隔を<@ba.vdown>延長</>し、攻撃時攻撃力が<@ba.vup>380%まで上昇</>、<@ba.vup>更に40%</>の確率で攻撃した敵を<@ba.vup>1.5</>秒間<$ba.stun>スタン</>させる",
-        "description_en": "Attack Interval <@ba.vdown>increases</>. Increases ATK to <@ba.vup>380%</> when attacking and has <@ba.vup>40%</> chance to <$ba.stun>Stun</> the target for <@ba.vup>1.5</> seconds",
+        "description_zh": "攻击间隔<@ba.vdown>增大(+1.0)</>，攻击时攻击力提高至<@ba.vup>380%</>，并且有<@ba.vup>40%</>的概率<$ba.stun>晕眩</>目标<@ba.vup>1.5</>秒",
+        "description_ja": "攻撃間隔を<@ba.vdown>延長(+1.0)</>し、攻撃時攻撃力が<@ba.vup>380%まで上昇</>、<@ba.vup>更に40%</>の確率で攻撃した敵を<@ba.vup>1.5</>秒間<$ba.stun>スタン</>させる",
+        "description_en": "Attack Interval <@ba.vdown>increases (+1.0)</>. Increases ATK to <@ba.vup>380%</> when attacking and has <@ba.vup>40%</> chance to <$ba.stun>Stun</> the target for <@ba.vup>1.5</> seconds",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -53656,7 +53664,8 @@
       },
       {
         "key": "stun",
-        "value": 1.5
+        "value": 1.5,
+        "prob": 0.4
       },
       {
         "key": "base_attack_time",
@@ -53785,7 +53794,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["crit_wound","burst"],
     "blackboard": [
       {
         "key": "atk_scale",
@@ -53811,9 +53820,9 @@
     "levels": [
       {
         "rangeId": null,
-        "description_zh": "技能持续时间内逐渐获得<@ba.vup>20</>点部署费用，攻击间隔<@ba.vdown>稍微增大</>，攻击距离<@ba.vup>+1</>，攻击力<@ba.vup>+100%</>，同时攻击阻挡的所有敌人，目标生命值低于一半时额外追加一次攻击",
-        "description_ja": "スキル発動中、所持コストが徐々に増加（合計<@ba.vup>20</>）、通常攻撃の間隔を<@ba.vdown>わずかに延長</>、攻撃範囲<@ba.vup>+1</>、攻撃力<@ba.vup>+100%</>、ブロック中の敵全員を同時に攻撃し、さらにHPが最大値の半分以下の敵に追加でもう一度攻撃する",
-        "description_en": "Gradually gains <@ba.vup>20</> DP over the skill duration. Attack Interval <@ba.vdown>slightly increases</>, Attack Range <@ba.vup>+1</> tile, ATK <@ba.vup>+100%</>, attack all blocked enemies and perform an additional attack against targets with less than 50% HP",
+        "description_zh": "技能持续时间内逐渐获得<@ba.vup>20</>点部署费用，攻击间隔<@ba.vdown>稍微增大(+0.5s)</>，攻击距离<@ba.vup>+1</>，攻击力<@ba.vup>+100%</>，同时攻击阻挡的所有敌人，目标生命值低于一半时额外追加一次攻击",
+        "description_ja": "スキル発動中、所持コストが徐々に増加（合計<@ba.vup>20</>）、通常攻撃の間隔を<@ba.vdown>わずかに延長(+0.5s)</>、攻撃範囲<@ba.vup>+1</>、攻撃力<@ba.vup>+100%</>、ブロック中の敵全員を同時に攻撃し、さらにHPが最大値の半分以下の敵に追加でもう一度攻撃する",
+        "description_en": "Gradually gains <@ba.vup>20</> DP over the skill duration. Attack Interval <@ba.vdown>slightly increases (+0.5s)</>, Attack Range <@ba.vup>+1</> tile, ATK <@ba.vup>+100%</>, attack all blocked enemies and perform an additional attack against targets with less than 50% HP",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -53855,9 +53864,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "技能持续时间内逐渐获得<@ba.vup>20</>点部署费用，攻击间隔<@ba.vdown>稍微增大</>，攻击距离<@ba.vup>+1</>，攻击力<@ba.vup>+110%</>，同时攻击阻挡的所有敌人，目标生命值低于一半时额外追加一次攻击",
-        "description_ja": "スキル発動中、所持コストが徐々に増加（合計<@ba.vup>20</>）、通常攻撃の間隔を<@ba.vdown>わずかに延長</>、攻撃範囲<@ba.vup>+1</>、攻撃力<@ba.vup>+110%</>、ブロック中の敵全員を同時に攻撃し、さらにHPが最大値の半分以下の敵に追加でもう一度攻撃する",
-        "description_en": "Gradually gains <@ba.vup>20</> DP over the skill duration. Attack Interval <@ba.vdown>slightly increases</>, Attack Range <@ba.vup>+1</> tile, ATK <@ba.vup>+110%</>, attack all blocked enemies and perform an additional attack against targets with less than 50% HP",
+        "description_zh": "技能持续时间内逐渐获得<@ba.vup>20</>点部署费用，攻击间隔<@ba.vdown>稍微增大(+0.5s)</>，攻击距离<@ba.vup>+1</>，攻击力<@ba.vup>+110%</>，同时攻击阻挡的所有敌人，目标生命值低于一半时额外追加一次攻击",
+        "description_ja": "スキル発動中、所持コストが徐々に増加（合計<@ba.vup>20</>）、通常攻撃の間隔を<@ba.vdown>わずかに延長(+0.5s)</>、攻撃範囲<@ba.vup>+1</>、攻撃力<@ba.vup>+110%</>、ブロック中の敵全員を同時に攻撃し、さらにHPが最大値の半分以下の敵に追加でもう一度攻撃する",
+        "description_en": "Gradually gains <@ba.vup>20</> DP over the skill duration. Attack Interval <@ba.vdown>slightly increases (+0.5s)</>, Attack Range <@ba.vup>+1</> tile, ATK <@ba.vup>+110%</>, attack all blocked enemies and perform an additional attack against targets with less than 50% HP",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -53899,9 +53908,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "技能持续时间内逐渐获得<@ba.vup>20</>点部署费用，攻击间隔<@ba.vdown>稍微增大</>，攻击距离<@ba.vup>+1</>，攻击力<@ba.vup>+120%</>，同时攻击阻挡的所有敌人，目标生命值低于一半时额外追加一次攻击",
-        "description_ja": "スキル発動中、所持コストが徐々に増加（合計<@ba.vup>20</>）、通常攻撃の間隔を<@ba.vdown>わずかに延長</>、攻撃範囲<@ba.vup>+1</>、攻撃力<@ba.vup>+120%</>、ブロック中の敵全員を同時に攻撃し、さらにHPが最大値の半分以下の敵に追加でもう一度攻撃する",
-        "description_en": "Gradually gains <@ba.vup>20</> DP over the skill duration. Attack Interval <@ba.vdown>slightly increases</>, Attack Range <@ba.vup>+1</> tile, ATK <@ba.vup>+120%</>, attack all blocked enemies and perform an additional attack against targets with less than 50% HP",
+        "description_zh": "技能持续时间内逐渐获得<@ba.vup>20</>点部署费用，攻击间隔<@ba.vdown>稍微增大(+0.5s)</>，攻击距离<@ba.vup>+1</>，攻击力<@ba.vup>+120%</>，同时攻击阻挡的所有敌人，目标生命值低于一半时额外追加一次攻击",
+        "description_ja": "スキル発動中、所持コストが徐々に増加（合計<@ba.vup>20</>）、通常攻撃の間隔を<@ba.vdown>わずかに延長(+0.5s)</>、攻撃範囲<@ba.vup>+1</>、攻撃力<@ba.vup>+120%</>、ブロック中の敵全員を同時に攻撃し、さらにHPが最大値の半分以下の敵に追加でもう一度攻撃する",
+        "description_en": "Gradually gains <@ba.vup>20</> DP over the skill duration. Attack Interval <@ba.vdown>slightly increases (+0.5s)</>, Attack Range <@ba.vup>+1</> tile, ATK <@ba.vup>+120%</>, attack all blocked enemies and perform an additional attack against targets with less than 50% HP",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -53943,9 +53952,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "技能持续时间内逐渐获得<@ba.vup>20</>点部署费用，攻击间隔<@ba.vdown>稍微增大</>，攻击距离<@ba.vup>+1</>，攻击力<@ba.vup>+130%</>，同时攻击阻挡的所有敌人，目标生命值低于一半时额外追加一次攻击",
-        "description_ja": "スキル発動中、所持コストが徐々に増加（合計<@ba.vup>20</>）、通常攻撃の間隔を<@ba.vdown>わずかに延長</>、攻撃範囲<@ba.vup>+1</>、攻撃力<@ba.vup>+130%</>、ブロック中の敵全員を同時に攻撃し、さらにHPが最大値の半分以下の敵に追加でもう一度攻撃する",
-        "description_en": "Gradually gains <@ba.vup>20</> DP over the skill duration. Attack Interval <@ba.vdown>slightly increases</>, Attack Range <@ba.vup>+1</> tile, ATK <@ba.vup>+130%</>, attack all blocked enemies and perform an additional attack against targets with less than 50% HP",
+        "description_zh": "技能持续时间内逐渐获得<@ba.vup>20</>点部署费用，攻击间隔<@ba.vdown>稍微增大(+0.5s)</>，攻击距离<@ba.vup>+1</>，攻击力<@ba.vup>+130%</>，同时攻击阻挡的所有敌人，目标生命值低于一半时额外追加一次攻击",
+        "description_ja": "スキル発動中、所持コストが徐々に増加（合計<@ba.vup>20</>）、通常攻撃の間隔を<@ba.vdown>わずかに延長(+0.5s)</>、攻撃範囲<@ba.vup>+1</>、攻撃力<@ba.vup>+130%</>、ブロック中の敵全員を同時に攻撃し、さらにHPが最大値の半分以下の敵に追加でもう一度攻撃する",
+        "description_en": "Gradually gains <@ba.vup>20</> DP over the skill duration. Attack Interval <@ba.vdown>slightly increases (+0.5s)</>, Attack Range <@ba.vup>+1</> tile, ATK <@ba.vup>+130%</>, attack all blocked enemies and perform an additional attack against targets with less than 50% HP",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -53986,7 +53995,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["range_up"],
     "blackboard": [
       {
         "key": "atk",
@@ -54123,7 +54132,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["burst"],
     "blackboard": [
       {
         "key": "atk_scale",
@@ -54145,9 +54154,9 @@
     "levels": [
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vdown>增大</>，阻挡数<@ba.vup>+1</>，攻击力和防御力<@ba.vup>+90%</>，攻击变为<@ba.vup>三连击</>",
-        "description_ja": "攻撃間隔を<@ba.vdown>延長</>。ブロック数<@ba.vup>+1</>、攻撃力、防御力<@ba.vup>+90%</>、通常攻撃が<@ba.vup>3連撃</>になる",
-        "description_en": "ATK interval <@ba.vdown>increases</>, Block <@ba.vup>+1</>, ATK and DEF <@ba.vup>+90%</>, and attacks hit <@ba.vup>3 times in a row</>",
+        "description_zh": "攻击间隔<@ba.vdown>增大(+70%)</>，阻挡数<@ba.vup>+1</>，攻击力和防御力<@ba.vup>+90%</>，攻击变为<@ba.vup>三连击</>",
+        "description_ja": "攻撃間隔を<@ba.vdown>延長(+70%)</>。ブロック数<@ba.vup>+1</>、攻撃力、防御力<@ba.vup>+90%</>、通常攻撃が<@ba.vup>3連撃</>になる",
+        "description_en": "ATK interval <@ba.vdown>increases (+70%)</>, Block <@ba.vup>+1</>, ATK and DEF <@ba.vup>+90%</>, and attacks hit <@ba.vup>3 times in a row</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -54177,9 +54186,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vdown>增大</>，阻挡数<@ba.vup>+1</>，攻击力和防御力<@ba.vup>+100%</>，攻击变为<@ba.vup>三连击</>",
-        "description_ja": "攻撃間隔を<@ba.vdown>延長</>。ブロック数<@ba.vup>+1</>、攻撃力、防御力<@ba.vup>+100%</>、通常攻撃が<@ba.vup>3連撃</>になる",
-        "description_en": "ATK interval <@ba.vdown>increases</>, Block <@ba.vup>+1</>, ATK and DEF <@ba.vup>+100%</>, and attacks hit <@ba.vup>3 times in a row</>",
+        "description_zh": "攻击间隔<@ba.vdown>增大(+70%)</>，阻挡数<@ba.vup>+1</>，攻击力和防御力<@ba.vup>+100%</>，攻击变为<@ba.vup>三连击</>",
+        "description_ja": "攻撃間隔を<@ba.vdown>延長(+70%)</>。ブロック数<@ba.vup>+1</>、攻撃力、防御力<@ba.vup>+100%</>、通常攻撃が<@ba.vup>3連撃</>になる",
+        "description_en": "ATK interval <@ba.vdown>increases (+70%)</>, Block <@ba.vup>+1</>, ATK and DEF <@ba.vup>+100%</>, and attacks hit <@ba.vup>3 times in a row</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -54209,9 +54218,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vdown>增大</>，阻挡数<@ba.vup>+1</>，攻击力和防御力<@ba.vup>+110%</>，攻击变为<@ba.vup>三连击</>",
-        "description_ja": "攻撃間隔を<@ba.vdown>延長</>。ブロック数<@ba.vup>+1</>、攻撃力、防御力<@ba.vup>+110%</>、通常攻撃が<@ba.vup>3連撃</>になる",
-        "description_en": "ATK interval <@ba.vdown>increases</>, Block <@ba.vup>+1</>, ATK and DEF <@ba.vup>+110%</>, and attacks hit <@ba.vup>3 times in a row</>",
+        "description_zh": "攻击间隔<@ba.vdown>增大(+70%)</>，阻挡数<@ba.vup>+1</>，攻击力和防御力<@ba.vup>+110%</>，攻击变为<@ba.vup>三连击</>",
+        "description_ja": "攻撃間隔を<@ba.vdown>延長(+70%)</>。ブロック数<@ba.vup>+1</>、攻撃力、防御力<@ba.vup>+110%</>、通常攻撃が<@ba.vup>3連撃</>になる",
+        "description_en": "ATK interval <@ba.vdown>increases (+70%)</>, Block <@ba.vup>+1</>, ATK and DEF <@ba.vup>+110%</>, and attacks hit <@ba.vup>3 times in a row</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -54241,9 +54250,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "攻击间隔<@ba.vdown>增大</>，阻挡数<@ba.vup>+1</>，攻击力和防御力<@ba.vup>+120%</>，攻击变为<@ba.vup>三连击</>",
-        "description_ja": "攻撃間隔を<@ba.vdown>延長</>。ブロック数<@ba.vup>+1</>、攻撃力、防御力<@ba.vup>+120%</>、通常攻撃が<@ba.vup>3連撃</>になる",
-        "description_en": "ATK interval <@ba.vdown>increases</>, Block <@ba.vup>+1</>, ATK and DEF <@ba.vup>+120%</>, and attacks hit <@ba.vup>3 times in a row</>",
+        "description_zh": "攻击间隔<@ba.vdown>增大(+70%)</>，阻挡数<@ba.vup>+1</>，攻击力和防御力<@ba.vup>+120%</>，攻击变为<@ba.vup>三连击</>",
+        "description_ja": "攻撃間隔を<@ba.vdown>延長(+70%)</>。ブロック数<@ba.vup>+1</>、攻撃力、防御力<@ba.vup>+120%</>、通常攻撃が<@ba.vup>3連撃</>になる",
+        "description_en": "ATK interval <@ba.vdown>increases (+70%)</>, Block <@ba.vup>+1</>, ATK and DEF <@ba.vup>+120%</>, and attacks hit <@ba.vup>3 times in a row</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -54272,7 +54281,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["block_up"],
     "blackboard": [
       {
         "key": "atk",
@@ -54445,11 +54454,12 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["ally_def_up","stop_attack","heal_ally"],
     "blackboard": [
       {
-        "key": "def",
-        "value": 0.5
+        "key": "ally_def_up",
+        "value": 0.5,
+        "duration": 15.0
       },
       {
         "key": "atk_to_hp_recovery_ratio",
@@ -54476,12 +54486,13 @@
     "chara_list": ["琴柳"],
     "skillType": "MANUAL",
     "durationType": "NONE",
+    "target_air":true,
     "levels": [
       {
         "rangeId": "2-1",
-        "description_zh": "停止攻击，立即回复<@ba.vup>10</>点部署费用，将军旗掷向地面敌人所在位置，并对周围造成<@ba.vup>240%</>的物理伤害和<@ba.vup>3</>秒晕眩；期间军旗周围8格敌人受到<$ba.sluggish>停顿</>和<@ba.vup>125%</>的<$ba.fragile>脆弱</>效果。技能结束时收回军旗。",
-        "description_ja": "所持コスト<@ba.vup>+10</>\n攻撃しなくなり、軍旗を効果範囲内地面上の敵がいるマスに投擲し、周囲一定範囲内の敵全員に<@ba.vup>240%</>の物理ダメージを与え、<@ba.vup>3</>秒間<$ba.stun>スタン</>させる。スキルスキル発動中、軍旗の周囲8マス以内の敵全員に<$ba.sluggish>足止め</>と<@ba.vup>125%</>の<$ba.fragile>脆弱</>を付与する\nスキルの効果時間終了時、軍旗を回収する",
-        "description_en": "Stops attacking and immediately gains <@ba.vup>10</> DP. Throws the banner to the location of ground enemies, dealing <@ba.vup>240%</> Physical damage and Stunning them for <@ba.vup>3</> seconds. Enemies within the surrounding 8 tiles of the banner are inflicted with <$ba.sluggish>Slow</> and <@ba.vup>125%</> <$ba.fragile>Fragile</> effect. When the skill ends, retrieve the banner",
+        "description_zh": "停止攻击，立即回复<@ba.vup>10</>点部署费用，将军旗掷向地面敌人所在位置，并对周围造成<@ba.vup>240%</>的物理伤害和<@ba.vup>3</>秒晕眩；期间军旗周围8格敌人受到<$ba.sluggish>停顿</>和<@ba.vup>25%</>的<$ba.fragile>脆弱</>效果。技能结束时收回军旗。",
+        "description_ja": "所持コスト<@ba.vup>+10</>\n攻撃しなくなり、軍旗を効果範囲内地面上の敵がいるマスに投擲し、周囲一定範囲内の敵全員に<@ba.vup>240%</>の物理ダメージを与え、<@ba.vup>3</>秒間<$ba.stun>スタン</>させる。スキルスキル発動中、軍旗の周囲8マス以内の敵全員に<$ba.sluggish>足止め</>と<@ba.vup>25%</>の<$ba.fragile>脆弱</>を付与する\nスキルの効果時間終了時、軍旗を回収する",
+        "description_en": "Stops attacking and immediately gains <@ba.vup>10</> DP. Throws the banner to the location of ground enemies, dealing <@ba.vup>240%</> Physical damage and Stunning them for <@ba.vup>3</> seconds. Enemies within the surrounding 8 tiles of the banner are inflicted with <$ba.sluggish>Slow</> and <@ba.vup>25%</> <$ba.fragile>Fragile</> effect. When the skill ends, retrieve the banner",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -54519,9 +54530,9 @@
       },
       {
         "rangeId": "2-1",
-        "description_zh": "停止攻击，立即回复<@ba.vup>10</>点部署费用，将军旗掷向地面敌人所在位置，并对周围造成<@ba.vup>260%</>的物理伤害和<@ba.vup>3.5</>秒晕眩；期间军旗周围8格敌人受到<$ba.sluggish>停顿</>和<@ba.vup>125%</>的<$ba.fragile>脆弱</>效果。技能结束时收回军旗。",
-        "description_ja": "所持コスト<@ba.vup>+10</>\n攻撃しなくなり、軍旗を効果範囲内地面上の敵がいるマスに投擲し、周囲一定範囲内の敵全員に<@ba.vup>260%</>の物理ダメージを与え、<@ba.vup>3.5</>秒間<$ba.stun>スタン</>させる。スキルスキル発動中、軍旗の周囲8マス以内の敵全員に<$ba.sluggish>足止め</>と<@ba.vup>125%</>の<$ba.fragile>脆弱</>を付与する\nスキルの効果時間終了時、軍旗を回収する",
-        "description_en": "Stops attacking and immediately gains <@ba.vup>10</> DP. Throws the banner to the location of ground enemies, dealing <@ba.vup>260%</> Physical damage and Stunning them for <@ba.vup>3.5</> seconds. Enemies within the surrounding 8 tiles of the banner are inflicted with <$ba.sluggish>Slow</> and <@ba.vup>125%</> <$ba.fragile>Fragile</> effect. When the skill ends, retrieve the banner",
+        "description_zh": "停止攻击，立即回复<@ba.vup>10</>点部署费用，将军旗掷向地面敌人所在位置，并对周围造成<@ba.vup>260%</>的物理伤害和<@ba.vup>3.5</>秒晕眩；期间军旗周围8格敌人受到<$ba.sluggish>停顿</>和<@ba.vup>25%</>的<$ba.fragile>脆弱</>效果。技能结束时收回军旗。",
+        "description_ja": "所持コスト<@ba.vup>+10</>\n攻撃しなくなり、軍旗を効果範囲内地面上の敵がいるマスに投擲し、周囲一定範囲内の敵全員に<@ba.vup>260%</>の物理ダメージを与え、<@ba.vup>3.5</>秒間<$ba.stun>スタン</>させる。スキルスキル発動中、軍旗の周囲8マス以内の敵全員に<$ba.sluggish>足止め</>と<@ba.vup>25%</>の<$ba.fragile>脆弱</>を付与する\nスキルの効果時間終了時、軍旗を回収する",
+        "description_en": "Stops attacking and immediately gains <@ba.vup>10</> DP. Throws the banner to the location of ground enemies, dealing <@ba.vup>260%</> Physical damage and Stunning them for <@ba.vup>3.5</> seconds. Enemies within the surrounding 8 tiles of the banner are inflicted with <$ba.sluggish>Slow</> and <@ba.vup>25%</> <$ba.fragile>Fragile</> effect. When the skill ends, retrieve the banner",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -54559,9 +54570,9 @@
       },
       {
         "rangeId": "2-1",
-        "description_zh": "停止攻击，立即回复<@ba.vup>10</>点部署费用，将军旗掷向地面敌人所在位置，并对周围造成<@ba.vup>280%</>的物理伤害和<@ba.vup>3.5</>秒晕眩；期间军旗周围8格敌人受到<$ba.sluggish>停顿</>和<@ba.vup>127%</>的<$ba.fragile>脆弱</>效果。技能结束时收回军旗。",
-        "description_ja": "所持コスト<@ba.vup>+10</>\n攻撃しなくなり、軍旗を効果範囲内地面上の敵がいるマスに投擲し、周囲一定範囲内の敵全員に<@ba.vup>280%</>の物理ダメージを与え、<@ba.vup>3.5</>秒間<$ba.stun>スタン</>させる。スキルスキル発動中、軍旗の周囲8マス以内の敵全員に<$ba.sluggish>足止め</>と<@ba.vup>127%</>の<$ba.fragile>脆弱</>を付与する\nスキルの効果時間終了時、軍旗を回収する",
-        "description_en": "Stops attacking and immediately gains <@ba.vup>10</> DP. Throws the banner to the location of ground enemies, dealing <@ba.vup>280%</> Physical damage and Stunning them for <@ba.vup>3.5</> seconds. Enemies within the surrounding 8 tiles of the banner are inflicted with <$ba.sluggish>Slow</> and <@ba.vup>127%</> <$ba.fragile>Fragile</> effect. When the skill ends, retrieve the banner",
+        "description_zh": "停止攻击，立即回复<@ba.vup>10</>点部署费用，将军旗掷向地面敌人所在位置，并对周围造成<@ba.vup>280%</>的物理伤害和<@ba.vup>3.5</>秒晕眩；期间军旗周围8格敌人受到<$ba.sluggish>停顿</>和<@ba.vup>27%</>的<$ba.fragile>脆弱</>效果。技能结束时收回军旗。",
+        "description_ja": "所持コスト<@ba.vup>+10</>\n攻撃しなくなり、軍旗を効果範囲内地面上の敵がいるマスに投擲し、周囲一定範囲内の敵全員に<@ba.vup>280%</>の物理ダメージを与え、<@ba.vup>3.5</>秒間<$ba.stun>スタン</>させる。スキルスキル発動中、軍旗の周囲8マス以内の敵全員に<$ba.sluggish>足止め</>と<@ba.vup>27%</>の<$ba.fragile>脆弱</>を付与する\nスキルの効果時間終了時、軍旗を回収する",
+        "description_en": "Stops attacking and immediately gains <@ba.vup>10</> DP. Throws the banner to the location of ground enemies, dealing <@ba.vup>280%</> Physical damage and Stunning them for <@ba.vup>3.5</> seconds. Enemies within the surrounding 8 tiles of the banner are inflicted with <$ba.sluggish>Slow</> and <@ba.vup>27%</> <$ba.fragile>Fragile</> effect. When the skill ends, retrieve the banner",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -54599,9 +54610,9 @@
       },
       {
         "rangeId": "2-1",
-        "description_zh": "停止攻击，立即回复<@ba.vup>10</>点部署费用，将军旗掷向地面敌人所在位置，并对周围造成<@ba.vup>300%</>的物理伤害和<@ba.vup>3.5</>秒晕眩；期间军旗周围8格敌人受到<$ba.sluggish>停顿</>和<@ba.vup>130%</>的<$ba.fragile>脆弱</>效果。技能结束时收回军旗。",
-        "description_ja": "所持コスト<@ba.vup>+10</>\n攻撃しなくなり、軍旗を効果範囲内地面上の敵がいるマスに投擲し、周囲一定範囲内の敵全員に<@ba.vup>300%</>の物理ダメージを与え、<@ba.vup>3.5</>秒間<$ba.stun>スタン</>させる。スキルスキル発動中、軍旗の周囲8マス以内の敵全員に<$ba.sluggish>足止め</>と<@ba.vup>130%</>の<$ba.fragile>脆弱</>を付与する\nスキルの効果時間終了時、軍旗を回収する",
-        "description_en": "Stops attacking and immediately gains <@ba.vup>10</> DP. Throws the banner to the location of ground enemies, dealing <@ba.vup>300%</> Physical damage and Stunning them for <@ba.vup>3.5</> seconds. Enemies within the surrounding 8 tiles of the banner are inflicted with <$ba.sluggish>Slow</> and <@ba.vup>130%</> <$ba.fragile>Fragile</> effect. When the skill ends, retrieve the banner",
+        "description_zh": "停止攻击，立即回复<@ba.vup>10</>点部署费用，将军旗掷向地面敌人所在位置，并对周围造成<@ba.vup>300%</>的物理伤害和<@ba.vup>3.5</>秒晕眩；期间军旗周围8格敌人受到<$ba.sluggish>停顿</>和<@ba.vup>30%</>的<$ba.fragile>脆弱</>效果。技能结束时收回军旗。",
+        "description_ja": "所持コスト<@ba.vup>+10</>\n攻撃しなくなり、軍旗を効果範囲内地面上の敵がいるマスに投擲し、周囲一定範囲内の敵全員に<@ba.vup>300%</>の物理ダメージを与え、<@ba.vup>3.5</>秒間<$ba.stun>スタン</>させる。スキルスキル発動中、軍旗の周囲8マス以内の敵全員に<$ba.sluggish>足止め</>と<@ba.vup>30%</>の<$ba.fragile>脆弱</>を付与する\nスキルの効果時間終了時、軍旗を回収する",
+        "description_en": "Stops attacking and immediately gains <@ba.vup>10</> DP. Throws the banner to the location of ground enemies, dealing <@ba.vup>300%</> Physical damage and Stunning them for <@ba.vup>3.5</> seconds. Enemies within the surrounding 8 tiles of the banner are inflicted with <$ba.sluggish>Slow</> and <@ba.vup>30%</> <$ba.fragile>Fragile</> effect. When the skill ends, retrieve the banner",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -54639,6 +54650,7 @@
       }
     ],
     "tags": [],
+    "remarks":null,
     "blackboard": [
       {
         "key": "atk_scale",
@@ -54755,7 +54767,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["phys_evasion"],
     "blackboard": [
       {
         "key": "cost",
@@ -54932,7 +54944,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["ally_phys_evasion","burst"],
     "blackboard": [
       {
         "key": "cost",
@@ -54951,8 +54963,9 @@
         "value": 6.0
       },
       {
-        "key": "flamtl_s_2.prob",
-        "value": 0.5
+        "key": "ally_phys_evasion",
+        "value": 0.5,
+        "duration":10
       },
       {
         "key": "flamtl_s_2.duration",
@@ -55129,7 +55142,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["block_up","evasion"],
     "blackboard": [
       {
         "key": "atk",
@@ -55140,7 +55153,7 @@
         "value": 1.0
       },
       {
-        "key": "prob",
+        "key": "evasion",
         "value": 0.8
       },
       {
@@ -55548,7 +55561,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["arts"],
     "blackboard": [
       {
         "key": "vigil_s_3.atk_scale",
@@ -55882,7 +55895,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["damage_res"],
     "blackboard": [
       {
         "key": "cost",
@@ -56055,7 +56068,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["pull","force"],
     "blackboard": [
       {
         "key": "cost",
@@ -56068,6 +56081,11 @@
       {
         "key": "force",
         "value": 0.0
+      },
+      {
+        "key":"stun",
+        "value":15.0,
+        "condition":"block"
       },
       {
         "key": "mlyss_s_3[token_melee_trigger].interval",
@@ -56200,7 +56218,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["arts","dot"],
     "blackboard": [
       {
         "key": "cost",
@@ -56353,7 +56371,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["aspd_down","range_up","stealth"],
     "blackboard": [
       {
         "key": "cost",
@@ -56368,8 +56386,9 @@
         "value": 7.0
       },
       {
-        "key": "steal_atk_speed_max",
-        "value": 70.0
+        "key": "aspd_down",
+        "value": 70.0,
+        "duration": 12.0
       }
     ]
   },
@@ -56526,7 +56545,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["map_attack"],
     "blackboard": [
       {
         "key": "cost",
@@ -56820,7 +56839,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["dot","def_down"],
     "blackboard": [
       {
         "key": "atk_scale",
@@ -56831,8 +56850,8 @@
         "value": 0.33
       },
       {
-        "key": "def",
-        "value": -300.0
+        "key": "def_down",
+        "value": 300.0
       },
       {
         "key": "duration",
@@ -56854,9 +56873,9 @@
     "levels": [
       {
         "rangeId": null,
-        "description_zh": "对攻击范围内的地面敌人造成每秒相当于攻击力<@ba.vup>110%</>的法术伤害，命中目标的法术抗性<@ba.vup>-magic_resistance</>\\n<@ba.rem>自己每秒流失最大生命值的2%</>",
-        "description_ja": "攻撃範囲内、地面にいる敵全員に1秒ごとに攻撃力の<@ba.vup>110%</>の術ダメージを与え、術耐性<@ba.vup>-magic_resistance</>\n<@ba.rem>自身のHPが1秒ごとに最大値の2%減少</>",
-        "description_en": "Deals <@ba.vup>110%</> ATK as Arts damage to ground enemies within Attack Range every second, and reduce their RES by <@ba.vup>-magic_resistance</>\n<@ba.rem>This unit loses 2% Max HP every second</>",
+        "description_zh": "对攻击范围内的地面敌人造成每秒相当于攻击力<@ba.vup>110%</>的法术伤害，命中目标的法术抗性<@ba.vup>-10</>\\n<@ba.rem>自己每秒流失最大生命值的2%</>",
+        "description_ja": "攻撃範囲内、地面にいる敵全員に1秒ごとに攻撃力の<@ba.vup>110%</>の術ダメージを与え、術耐性<@ba.vup>-10</>\n<@ba.rem>自身のHPが1秒ごとに最大値の2%減少</>",
+        "description_en": "Deals <@ba.vup>110%</> ATK as Arts damage to ground enemies within Attack Range every second, and reduce their RES by <@ba.vup>-10</>\n<@ba.rem>This unit loses 2% Max HP every second</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -56882,9 +56901,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "对攻击范围内的地面敌人造成每秒相当于攻击力<@ba.vup>120%</>的法术伤害，命中目标的法术抗性<@ba.vup>-magic_resistance</>\\n<@ba.rem>自己每秒流失最大生命值的2%</>",
-        "description_ja": "攻撃範囲内、地面にいる敵全員に1秒ごとに攻撃力の<@ba.vup>120%</>の術ダメージを与え、術耐性<@ba.vup>-magic_resistance</>\n<@ba.rem>自身のHPが1秒ごとに最大値の2%減少</>",
-        "description_en": "Deals <@ba.vup>120%</> ATK as Arts damage to ground enemies within Attack Range every second, and reduce their RES by <@ba.vup>-magic_resistance</>\n<@ba.rem>This unit loses 2% Max HP every second</>",
+        "description_zh": "对攻击范围内的地面敌人造成每秒相当于攻击力<@ba.vup>120%</>的法术伤害，命中目标的法术抗性<@ba.vup>-13</>\\n<@ba.rem>自己每秒流失最大生命值的2%</>",
+        "description_ja": "攻撃範囲内、地面にいる敵全員に1秒ごとに攻撃力の<@ba.vup>120%</>の術ダメージを与え、術耐性<@ba.vup>-13</>\n<@ba.rem>自身のHPが1秒ごとに最大値の2%減少</>",
+        "description_en": "Deals <@ba.vup>120%</> ATK as Arts damage to ground enemies within Attack Range every second, and reduce their RES by <@ba.vup>-13</>\n<@ba.rem>This unit loses 2% Max HP every second</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -56910,9 +56929,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "对攻击范围内的地面敌人造成每秒相当于攻击力<@ba.vup>130%</>的法术伤害，命中目标的法术抗性<@ba.vup>-magic_resistance</>\\n<@ba.rem>自己每秒流失最大生命值的2%</>",
-        "description_ja": "攻撃範囲内、地面にいる敵全員に1秒ごとに攻撃力の<@ba.vup>130%</>の術ダメージを与え、術耐性<@ba.vup>-magic_resistance</>\n<@ba.rem>自身のHPが1秒ごとに最大値の2%減少</>",
-        "description_en": "Deals <@ba.vup>130%</> ATK as Arts damage to ground enemies within Attack Range every second, and reduce their RES by <@ba.vup>-magic_resistance</>\n<@ba.rem>This unit loses 2% Max HP every second</>",
+        "description_zh": "对攻击范围内的地面敌人造成每秒相当于攻击力<@ba.vup>130%</>的法术伤害，命中目标的法术抗性<@ba.vup>-16</>\\n<@ba.rem>自己每秒流失最大生命值的2%</>",
+        "description_ja": "攻撃範囲内、地面にいる敵全員に1秒ごとに攻撃力の<@ba.vup>130%</>の術ダメージを与え、術耐性<@ba.vup>-16</>\n<@ba.rem>自身のHPが1秒ごとに最大値の2%減少</>",
+        "description_en": "Deals <@ba.vup>130%</> ATK as Arts damage to ground enemies within Attack Range every second, and reduce their RES by <@ba.vup>-16</>\n<@ba.rem>This unit loses 2% Max HP every second</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -56938,9 +56957,9 @@
       },
       {
         "rangeId": null,
-        "description_zh": "对攻击范围内的地面敌人造成每秒相当于攻击力<@ba.vup>140%</>的法术伤害，命中目标的法术抗性<@ba.vup>-magic_resistance</>\\n<@ba.rem>自己每秒流失最大生命值的2%</>",
-        "description_ja": "攻撃範囲内、地面にいる敵全員に1秒ごとに攻撃力の<@ba.vup>140%</>の術ダメージを与え、術耐性<@ba.vup>-magic_resistance</>\n<@ba.rem>自身のHPが1秒ごとに最大値の2%減少</>",
-        "description_en": "Deals <@ba.vup>140%</> ATK as Arts damage to ground enemies within Attack Range every second, and reduce their RES by <@ba.vup>-magic_resistance</>\n<@ba.rem>This unit loses 2% Max HP every second</>",
+        "description_zh": "对攻击范围内的地面敌人造成每秒相当于攻击力<@ba.vup>140%</>的法术伤害，命中目标的法术抗性<@ba.vup>-20</>\\n<@ba.rem>自己每秒流失最大生命值的2%</>",
+        "description_ja": "攻撃範囲内、地面にいる敵全員に1秒ごとに攻撃力の<@ba.vup>140%</>の術ダメージを与え、術耐性<@ba.vup>-20</>\n<@ba.rem>自身のHPが1秒ごとに最大値の2%減少</>",
+        "description_en": "Deals <@ba.vup>140%</> ATK as Arts damage to ground enemies within Attack Range every second, and reduce their RES by <@ba.vup>-20</>\n<@ba.rem>This unit loses 2% Max HP every second</>",
         "spData": {
           "spType": "INCREASE_WITH_TIME",
           "maxChargeTime": 1,
@@ -56965,7 +56984,7 @@
         ]
       }
     ],
-    "tags": [],
+    "tags": ["res_down"],
     "blackboard": [
       {
         "key": "atk_scale",
@@ -56976,8 +56995,8 @@
         "value": 0.02
       },
       {
-        "key": "magic_resistance",
-        "value": -20.0
+        "key": "res_down",
+        "value": 20.0
       }
     ]
   },

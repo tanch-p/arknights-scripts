@@ -13,10 +13,18 @@ range_up
 heal_ally, phys_evasion
 self_heal
 no_healing - cannot be healed by allies
-infinite_skill - skill with unlimited duration
+unlimited_duration
+infinite_range_straight
+global_range
+follow_target
 limited_use - skill with limited usage times
 multi_target
 undying
+target_hp
+aoe
+ally_sp
+anti_invisible
+stealth
 
 ### blackboard keys - for values that need comparison  ###
 ---stat releated---
@@ -44,7 +52,8 @@ token_hp_below_50
 
 ### change of keys ###
 not_combat -> tremble
-
+magic_resistance -> res
+anti_invisible -> cancel_stealth
 
 
 ### keys untouched ###
@@ -64,3 +73,5 @@ added camouflage key to kafka skills
 3. 攻击间隔 (example: 深靛)
 4. skchr_peacok_1
 5. skchr_frncat_1
+6. skchr_aurora_2
+7. skchr_slbell_1
