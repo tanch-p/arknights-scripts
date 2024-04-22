@@ -8,6 +8,7 @@ stop_attack
 reflect_dmg
 block_phys (拉普兰德)
 taunt
+lower_target_priority
 def_penetrate
 range_up
 heal_ally, phys_evasion
@@ -24,7 +25,11 @@ target_hp
 aoe
 ally_sp
 anti_invisible
+skill_time_invincible
 stealth
+remove_status
+teleport_enemy
+status_immune
 
 ### blackboard keys - for values that need comparison  ###
 ---stat releated---
