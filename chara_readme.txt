@@ -30,6 +30,16 @@ stealth
 remove_status
 teleport_enemy
 status_immune
+starting_cost
+ele_heal
+heal_scale - nearl
+change_direction - jessica alter
+respawn_time - silverash
+remaining_spawn_time - gravel
+token_deploy_free
+deploy_all - doberman/ela
+ally_sp_gain - saria
+ally_sp_regen - suzuran
 
 ### blackboard keys - for values that need comparison  ###
 ---stat releated---
@@ -59,6 +69,8 @@ token_hp_below_50
 not_combat -> tremble
 magic_resistance -> res
 anti_invisible -> cancel_stealth
+damage_scale -> fragile
+damage_scale -> magic_fragile
 
 
 ### keys untouched ###

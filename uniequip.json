@@ -64,7 +64,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["stealth","token_deploy_free"],
       "blackboard": [
         {
           "key": "token_deploy_free",
@@ -189,7 +189,7 @@
           }
         ]
       },
-      "tags": [],
+      "tags": ["summon"],
       "blackboard": [
         {
           "key": "max_token",
@@ -263,7 +263,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["token_deploy_free","summon"],
       "blackboard": [
         {
           "key": "token_deploy_free",
@@ -341,7 +341,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["token_deploy_free","summon"],
       "blackboard": [
         {
           "key": "token_deploy_free",
@@ -426,7 +426,7 @@
           }
         ]
       },
-      "tags": [],
+      "tags": ["summon"],
       "blackboard": [
         {
           "key": "cnt",
@@ -484,7 +484,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["peak_performance","minos"],
       "blackboard": [
         {
           "key": "atk_scale",
@@ -493,7 +493,7 @@
         {
           "key": "peak_performance",
           "value": 0.3,
-          "condition": "hp_above_50"
+          "condition": "minos"
         }
       ]
     }
@@ -539,7 +539,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["shield"],
       "blackboard": [
         {
           "key": "atk_scale",
@@ -663,7 +663,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["deploy_all"],
       "blackboard": [
         {
           "key": "buildable_type",
@@ -796,7 +796,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["resist"],
       "blackboard": [
         {
           "key": "resist",
@@ -863,7 +863,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["sp_regen"],
       "blackboard": [
         {
           "key": "sp_recovery_per_sec",
@@ -929,7 +929,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["global_heal"],
       "blackboard": [
         {
           "key": "attack@max_target",
@@ -1049,7 +1049,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["ranged","no_attack"],
       "blackboard": [
         {
           "key": "sp",
@@ -1103,7 +1103,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["abyssal"],
       "blackboard": [
         {
           "key": "max_dist",
@@ -1460,7 +1460,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["remaining_spawn_time"],
       "blackboard": [
         {
           "key": "withdraw_cost_recover_ratio",
@@ -2110,7 +2110,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["phys_evasion"],
       "blackboard": [
         {
           "key": "cost",
@@ -2121,7 +2121,7 @@
           "value": 1.0
         },
         {
-          "key": "prob",
+          "key": "phys_evasion",
           "value": 0.35
         }
       ]
@@ -2479,7 +2479,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["revive","abyssal"],
       "blackboard": [
         {
           "key": "attack_speed",
@@ -2549,7 +2549,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["revive"],
       "blackboard": [
         {
           "key": "attack_speed",
@@ -2619,7 +2619,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["def_penetrate"],
       "blackboard": [
         {
           "key": "atk_scale",
@@ -2735,7 +2735,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["revive"],
       "blackboard": [
         {
           "key": "attack_speed",
@@ -2946,7 +2946,7 @@
         {
           "key": "stun",
           "value": 4.0,
-          "condition": "debuff:stun|frozen"
+          "condition": "stun|frozen"
         }
       ]
     }
@@ -3386,12 +3386,12 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "move_speed",
-          "value": -0.33
+          "key": "move_speed_down",
+          "value": 0.33
         },
         {
-          "key": "mostma_e_t_2[global].move_speed",
-          "value": -0.18
+          "key": "global_move_speed_down",
+          "value": 0.18
         }
       ]
     }
@@ -3449,7 +3449,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["sp"],
       "blackboard": [
         {
           "key": "lava2_t_1[ally].sp",
@@ -3751,7 +3751,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["sniper"],
       "blackboard": [
         {
           "key": "atk",
@@ -3867,7 +3867,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["min_damage"],
       "blackboard": [
         {
           "key": "atk_scale",
@@ -3991,7 +3991,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["global_heal"],
       "blackboard": [
         {
           "key": "sluggish",
@@ -4057,7 +4057,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["drone"],
       "blackboard": [
         {
           "key": "sp_recovery_per_sec",
@@ -4185,7 +4185,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["supporter"],
       "blackboard": [
         {
           "key": "sp_recovery_per_sec",
@@ -4324,8 +4324,8 @@
           "value": 0.0
         },
         {
-          "key": "move_speed",
-          "value": -0.6
+          "key": "move_speed_down",
+          "value": 0.6
         },
         {
           "key": "atk_scale",
@@ -4507,7 +4507,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["resist","lower_target_priority"],
       "blackboard": [
         {
           "key": "heal_scale",
@@ -4585,7 +4585,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["resist","water"],
       "blackboard": [
         {
           "key": "heal_scale",
@@ -4651,7 +4651,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["resist"],
       "blackboard": [
         {
           "key": "heal_scale",
@@ -5069,7 +5069,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["ally_sp_gain"],
       "blackboard": [
         {
           "key": "heal_scale",

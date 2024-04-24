@@ -113,6 +113,7 @@ for skill in chara_skills:
                           "name_ja": jp_skill_table[skill]['levels'][0]['name'] if in_global else "",
                           "name_en": en_skill_table[skill]['levels'][0]['name'] if in_global else "",
                           "chara_list": chara_skills[skill]['chara_list'], "skillType": cn_skill_table[skill]['levels'][0]['skillType'],
+                          "target_air": None, 
                           "durationType": cn_skill_table[skill]['levels'][0]['durationType'], "levels": levels,
                           "tags": chara_skills[skill]['tags'], "blackboard": chara_skills[skill]['blackboard']}
 print(len(return_dict))
