@@ -11,7 +11,8 @@ taunt
 lower_target_priority
 def_penetrate
 range_up
-heal_ally, phys_evasion
+heal_ally
+phys_evasion
 self_heal
 no_healing - cannot be healed by allies
 unlimited_duration
@@ -40,6 +41,7 @@ token_deploy_free
 deploy_all - doberman/ela
 ally_sp_gain - saria
 ally_sp_regen - suzuran
+抵挡 - nullify_damage
 
 ### blackboard keys - for values that need comparison  ###
 ---stat releated---
@@ -70,7 +72,7 @@ not_combat -> tremble
 magic_resistance -> res
 anti_invisible -> cancel_stealth
 damage_scale -> fragile
-damage_scale -> magic_fragile
+damage_scale -> magicfragile
 
 
 ### keys untouched ###

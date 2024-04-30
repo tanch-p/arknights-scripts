@@ -5131,7 +5131,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["heal_scale"],
       "blackboard": [
         {
           "key": "heal_scale",
@@ -5209,7 +5209,8 @@
         },
         {
           "key": "stun",
-          "value": 1.5
+          "value": 1.5,
+          "prob": 0.26
         }
       ]
     }
@@ -5259,7 +5260,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["damage_resistance"],
       "blackboard": [
         {
           "key": "damage_resistance",
@@ -5321,7 +5322,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["damage_resistance"],
       "blackboard": [
         {
           "key": "heal_scale",
@@ -5511,7 +5512,8 @@
         },
         {
           "key": "root",
-          "value": 4.0
+          "value": 4.0,
+          "prob": 0.27
         }
       ]
     }
@@ -6147,7 +6149,8 @@
         },
         {
           "key": "stun",
-          "value": 0.2
+          "value": 0.2,
+          "prob":0.2
         }
       ]
     }
@@ -6193,7 +6196,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["ally_atk","ally_max_hp"],
       "blackboard": [
         {
           "key": "atk_scale",
@@ -6407,7 +6410,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["deploy_all"],
       "blackboard": [
         {
           "key": "buildable_type",
@@ -6668,7 +6671,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["arts"],
       "blackboard": [
         {
           "key": "dist",
@@ -6734,7 +6737,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["arts"],
       "blackboard": [
         {
           "key": "dist",
@@ -6800,7 +6803,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["arts"],
       "blackboard": [
         {
           "key": "dist",
@@ -6821,7 +6824,7 @@
         {
           "key": "silence",
           "value": 12.0,
-          "condition": "type:infection"
+          "condition": "infection"
         }
       ]
     }
@@ -6867,7 +6870,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["arts","phys_evasion"],
       "blackboard": [
         {
           "key": "dist",
@@ -6882,7 +6885,7 @@
           "value": 0.066
         },
         {
-          "key": "prob",
+          "key": "phys_evasion",
           "value": 0.44
         }
       ]
@@ -7159,7 +7162,8 @@
         },
         {
           "key": "root",
-          "value": 3.5
+          "value": 3.5,
+          "prob": 0.28
         },
         {
           "key": "reduce_move_speed",
@@ -7275,7 +7279,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["abyssal","sp_regen"],
       "blackboard": [
         {
           "key": "duration",
@@ -7352,7 +7356,7 @@
           }
         ]
       },
-      "tags": [],
+      "tags": ["summon","ignore_evasion"],
       "blackboard": [
         {
           "key": "atk_scale",
@@ -7521,8 +7525,8 @@
           "value": 0.2
         },
         {
-          "key": "atk",
-          "value": -0.12
+          "key": "atk_down",
+          "value": 0.12
         },
         {
           "key": "duration",
@@ -7688,7 +7692,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["ally_evasion"],
       "blackboard": [
         {
           "key": "prob",
@@ -7742,7 +7746,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["block_damage"],
       "blackboard": [
         {
           "key": "prob",
@@ -7804,7 +7808,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["shield"],
       "blackboard": [
         {
           "key": "def",
@@ -7952,7 +7956,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["protect"],
       "blackboard": [
         {
           "key": "sp_recover_ratio",
@@ -8116,7 +8120,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["true"],
       "blackboard": [
         {
           "key": "heal_scale",
@@ -8299,7 +8303,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["lower_env_damage"],
       "blackboard": [
         {
           "key": "heal_scale",
@@ -8361,7 +8365,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["ally_sp_gain"],
       "blackboard": [
         {
           "key": "heal_scale",
@@ -9180,7 +9184,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["lower_cost"],
       "blackboard": [
         {
           "key": "atk",
@@ -9374,7 +9378,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["ignore_evasion"],
       "blackboard": [
         {
           "key": "atk_scale",
@@ -9922,7 +9926,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["protect"],
       "blackboard": [
         {
           "key": "value",
@@ -10000,7 +10004,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["protect"],
       "blackboard": [
         {
           "key": "value",
@@ -10350,7 +10354,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["res_penetrate"],
       "blackboard": [
         {
           "key": "magic_resist_penetrate_fixed",
@@ -10404,7 +10408,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["res_penetrate"],
       "blackboard": [
         {
           "key": "magic_resist_penetrate_fixed",
@@ -10474,7 +10478,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["res_penetrate"],
       "blackboard": [
         {
           "key": "magic_resist_penetrate_fixed",
@@ -10532,7 +10536,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["res_penetrate"],
       "blackboard": [
         {
           "key": "magic_resist_penetrate_fixed",
@@ -11168,7 +11172,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["phys_evasion"],
       "blackboard": [
         {
           "key": "cnt",
@@ -11179,7 +11183,7 @@
           "value": 1.0
         },
         {
-          "key": "prob",
+          "key": "phys_evasion",
           "value": 0.55
         }
       ]
