@@ -42,6 +42,7 @@ deploy_all - doberman/ela
 ally_sp_gain - saria
 ally_sp_regen - suzuran
 抵挡 - nullify_damage
+protect - protect (because of same name take highest value issue)
 
 ### blackboard keys - for values that need comparison  ###
 ---stat releated---

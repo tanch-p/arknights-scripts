@@ -21,12 +21,12 @@ def replace_substrings(text, blackboard):
                 (n for n in blackboard if n['key'] == matched_str), None)
         if board:
             if '%' in matched_str:
-                value = f"{math.round(board['value'] * 100)}%"
+                value = f"{round(board['value'] * 100)}%"
             else:
                 if isinstance(board['value'], float) and f"{board['value']}"[-1] != "0":
                     value = f"{board['value']}"
                 else:
-                    value = f"{math.round(board['value'])}"
+                    value = f"{round(board['value'])}"
         # Replace the matched substring with the value
         return value
 
@@ -83,7 +83,7 @@ with open('chara_skills.json', encoding='utf-8') as f:
 
 # append new skills to skill tags json
     new_skill_list = [skill for skill in dict.keys(
-        cn_skill_table) if skill not in set(dict.keys({}))]
+        cn_skill_table) if skill not in set(dict.keys(chara_skills))]
     return_dict = {}
     for skill in new_skill_list:
         in_global = skill in en_skill_table
@@ -134,27 +134,6 @@ with open('chara_skills.json', encoding='utf-8') as f:
             key for key in debuffs_list if cn_skill_table[skill]["levels"][0]["description"] and key in cn_skill_table[skill]["levels"][0]["description"]]
         buffs = [
             key for key in buffs_list if cn_skill_table[skill]["levels"][0]["description"] and key in cn_skill_table[skill]["levels"][0]["description"]]
-
-        # for key in debuffs:
-        #     in_bb = False
-        #     for item in blackboard:
-        #         if item['key'] == key:
-        #             in_bb = True
-        #             item = {
-        #                 "key": key, "value": item['value'], "prob": 1, "target_air": False, "condition": None}
-        #     if not in_bb:
-        #         blackboard.append(
-        #             {"key": key, "value": None, "prob": 1, "target_air": False, "condition": None})
-        # for key in buffs:
-        #     in_bb = False
-        #     for item in blackboard:
-        #         if item['key'] == key:
-        #             in_bb = True
-        #             item = {
-        #                 "key": key, "value": item['value'], "prob": 1, "target_air": False, "condition": None}
-        #     if not in_bb:
-        #         blackboard.append(
-        #             {"key": key, "value": None, "prob": 1, "condition": None})
         return_dict[skill] = {"name_zh": cn_skill_table[skill]['levels'][0]['name'],
                               "name_ja": jp_skill_table[skill]['levels'][0]['name'] if in_global else "",
                               "name_en": en_skill_table[skill]['levels'][0]['name'] if in_global else "",
@@ -162,8 +141,6 @@ with open('chara_skills.json', encoding='utf-8') as f:
                               "skillType": cn_skill_table[skill]['levels'][0]['skillType'],
                               "durationType": cn_skill_table[skill]['levels'][0]['durationType'],
                               "levels": return_levels, "tags": [], "blackboard": blackboard}
-        # if skill == 'skchr_mm_1':
-        #     print(debuffs)
     return_dict = chara_skills | return_dict
 
 with open('chara_skills.json', 'w', encoding='utf-8') as f:

@@ -8,10 +8,10 @@ buffs_list = [
     "charged", "barrier", "overdrive",
     "inspire"]
 debuffs_list = ["stun", "sluggish", "sleep",
-           "silence", "levitate", "cold",
-           "magicfragile", "root", "tremble",
-           "fragile", "dt.apoptosis2", "dt.burning2",
-           "steal", "weightless"]
+                "silence", "levitate", "cold",
+                "magicfragile", "root", "tremble",
+                "fragile", "dt.apoptosis2", "dt.burning2",
+                "steal", "weightless"]
 
 script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
@@ -51,8 +51,16 @@ for id in filtered_cn_char_table:
     talents = []
     for skill in character_dict['skills']:
         blackboard = chara_skills[skill['skillId']
-                                  ]['blackboard'] if skill['skillId'] in chara_skills else None
-        skills.append({"skillId": skill['skillId'], "blackboard": blackboard})
+                                  ]['blackboard'] if skill['skillId'] in chara_skills else []
+        skills.append({"skillId": skill['skillId'], 
+                       "name_zh": chara_skills[skill['skillId']]['name_zh'],
+                       "name_ja": chara_skills[skill['skillId']]['name_ja'],
+                       "name_en": chara_skills[skill['skillId']]['name_en'],
+                       "skillType": chara_skills[skill['skillId']]['skillType'],
+                       "durationType": chara_skills[skill['skillId']]['durationType'],
+                       "levels": chara_skills[skill['skillId']]['levels'], 
+                       "tags": chara_skills[skill['skillId']]['tags'] if skill['skillId'] in chara_skills else [], 
+                       "blackboard": blackboard})
     if character_dict['talents']:
         for talent_index, talent in enumerate(character_dict['talents']):
             max_candidate_index = len(talent['candidates'])-1
@@ -67,7 +75,8 @@ for id in filtered_cn_char_table:
                 talent_holder["name_ja"] = jp_char_table[id]['talents'][talent_index]['candidates'][max_candidate_index]["name"]
                 talent_holder["description_ja"] = jp_char_table[id]['talents'][
                     talent_index]['candidates'][max_candidate_index]["description"]
-            talent_holder['blackboard'] = chara_talents[id]['talents'][talent_index]['blackboard'] if id in chara_talents else None
+            talent_holder['tags'] = chara_talents[id]['talents'][talent_index]['tags'] if id in chara_talents else []
+            talent_holder['blackboard'] = chara_talents[id]['talents'][talent_index]['blackboard'] if id in chara_talents else []
             talents.append(talent_holder)
 
     uniequip_list = []
@@ -79,7 +88,7 @@ for id in filtered_cn_char_table:
                    "nationId": character_dict['nationId'], "groupId": character_dict['groupId'], "teamId": character_dict['teamId'], "tagList": [],
                    "isSpChar": character_dict['isSpChar'], "rarity": character_dict['rarity'],
                    "profession": character_dict['profession'], "subProfessionId": character_dict['subProfessionId'],
-                   "skills": skills, "talents": talents, "tagList": [], 'uniequip':uniequip_list}
+                   "skills": skills, "talents": talents, "tagList": [], 'uniequip': uniequip_list}
     if id in en_char_table:
         return_dict['name_ja'] = jp_char_table[id]['name']
         return_dict['name_en'] = en_char_table[id]['name']
@@ -101,7 +110,7 @@ with open('characters.json', 'w', encoding='utf-8') as f:
                 maxed_talent = talent['candidates'][max_candidate_index]
                 talent_holder = {
                     "prefabKey": maxed_talent["prefabKey"], "name_zh": maxed_talent["name"], "name_en": "", "name_ja": "",
-                    "description_zh": maxed_talent["description"], "description_en": "", "description_ja": "", "tags":[],"blackboard":maxed_talent['blackboard']}
+                    "description_zh": maxed_talent["description"], "description_en": "", "description_ja": "", "tags": [], "blackboard": maxed_talent['blackboard']}
                 if id in en_char_table:
                     talent_holder["name_ja"] = jp_char_table[id]['talents'][talent_index]['candidates'][max_candidate_index]["name"]
                     talent_holder["description_ja"] = jp_char_table[id]['talents'][

@@ -64,7 +64,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["stealth","token_deploy_free"],
+      "tags": ["stealth", "token_deploy_free"],
       "blackboard": [
         {
           "key": "token_deploy_free",
@@ -263,7 +263,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["token_deploy_free","summon"],
+      "tags": ["token_deploy_free", "summon"],
       "blackboard": [
         {
           "key": "token_deploy_free",
@@ -341,7 +341,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["token_deploy_free","summon"],
+      "tags": ["token_deploy_free", "summon"],
       "blackboard": [
         {
           "key": "token_deploy_free",
@@ -484,7 +484,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["peak_performance","minos"],
+      "tags": ["peak_performance", "minos"],
       "blackboard": [
         {
           "key": "atk_scale",
@@ -1049,7 +1049,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["ranged","no_attack"],
+      "tags": ["ranged", "no_attack"],
       "blackboard": [
         {
           "key": "sp",
@@ -2479,7 +2479,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["revive","abyssal"],
+      "tags": ["revive", "abyssal"],
       "blackboard": [
         {
           "key": "attack_speed",
@@ -4507,7 +4507,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["resist","lower_target_priority"],
+      "tags": ["resist", "lower_target_priority"],
       "blackboard": [
         {
           "key": "heal_scale",
@@ -4585,7 +4585,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["resist","water"],
+      "tags": ["resist", "water"],
       "blackboard": [
         {
           "key": "heal_scale",
@@ -5322,7 +5322,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["damage_resistance"],
+      "tags": [],
       "blackboard": [
         {
           "key": "heal_scale",
@@ -5337,7 +5337,7 @@
           "value": 85.0
         },
         {
-          "key": "damage_resistance",
+          "key": "protect",
           "value": 0.17
         },
         {
@@ -6150,7 +6150,7 @@
         {
           "key": "stun",
           "value": 0.2,
-          "prob":0.2
+          "prob": 0.2
         }
       ]
     }
@@ -6196,7 +6196,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["ally_atk","ally_max_hp"],
+      "tags": ["ally_atk", "ally_max_hp"],
       "blackboard": [
         {
           "key": "atk_scale",
@@ -6870,7 +6870,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["arts","phys_evasion"],
+      "tags": ["arts", "phys_evasion"],
       "blackboard": [
         {
           "key": "dist",
@@ -7279,7 +7279,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["abyssal","sp_regen"],
+      "tags": ["abyssal", "sp_regen"],
       "blackboard": [
         {
           "key": "duration",
@@ -7356,7 +7356,7 @@
           }
         ]
       },
-      "tags": ["summon","ignore_evasion"],
+      "tags": ["summon", "ignore_evasion"],
       "blackboard": [
         {
           "key": "atk_scale",
@@ -7956,7 +7956,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["protect"],
+      "tags": [],
       "blackboard": [
         {
           "key": "sp_recover_ratio",
@@ -7975,7 +7975,7 @@
           "value": 0.5
         },
         {
-          "key": "damage_resistance",
+          "key": "protect",
           "value": 0.3
         },
         {
@@ -9926,7 +9926,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["protect"],
+      "tags": [],
       "blackboard": [
         {
           "key": "value",
@@ -9937,7 +9937,7 @@
           "value": 0.5
         },
         {
-          "key": "damage_resistance",
+          "key": "protect",
           "value": 0.25
         },
         {
@@ -10004,7 +10004,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["protect"],
+      "tags": [],
       "blackboard": [
         {
           "key": "value",
@@ -10015,7 +10015,7 @@
           "value": 0.5
         },
         {
-          "key": "damage_resistance",
+          "key": "protect",
           "value": 0.25
         },
         {
@@ -10089,7 +10089,7 @@
           "value": 0.5
         },
         {
-          "key": "damage_resistance",
+          "key": "protect",
           "value": 0.25
         },
         {
@@ -11685,7 +11685,7 @@
           "value": 0.5
         },
         {
-          "key": "damage_resistance",
+          "key": "protect",
           "value": 0.25
         },
         {
@@ -15374,7 +15374,7 @@
           "value": 0.4
         },
         {
-          "key": "damage_resistance",
+          "key": "protect",
           "value": 0.24
         }
       ]
@@ -15432,7 +15432,7 @@
           "value": 0.6
         },
         {
-          "key": "damage_resistance",
+          "key": "protect",
           "value": 0.26
         }
       ]
@@ -15494,7 +15494,7 @@
           "value": 0.6
         },
         {
-          "key": "damage_resistance",
+          "key": "protect",
           "value": 0.18
         }
       ]
@@ -17547,7 +17547,7 @@
           "value": 0.5
         },
         {
-          "key": "damage_resistance",
+          "key": "protect",
           "value": 0.25
         },
         {
@@ -20900,6 +20900,1002 @@
         {
           "key": "hp_ratio",
           "value": 0.5
+        }
+      ]
+    }
+  },
+  "uniequip_001_svrash": {
+    "uniEquipId": "uniequip_001_svrash",
+    "typeIcon": "original",
+    "charId": "char_172_svrash",
+    "combatData": null
+  },
+  "uniequip_002_svrash": {
+    "uniEquipId": "uniequip_002_svrash",
+    "typeIcon": "lor-x",
+    "charId": "char_172_svrash",
+    "combatData": {
+      "parts": [
+        {
+          "resKey": "svrash_equip_1_3_p1",
+          "target": "TRAIT",
+          "isToken": false,
+          "addDesc_zh": "攻击附带<@ba.vup>{atk_scale_m:0%}</>攻击力的法术伤害",
+          "addDesc_en": "",
+          "addDesc_ja": "",
+          "overrideDesc_zh": null,
+          "overrideDesc_en": "",
+          "overrideDesc_ja": ""
+        },
+        {
+          "resKey": null,
+          "target": "TALENT_DATA_ONLY",
+          "isToken": false,
+          "name_zh": "领袖",
+          "displayRangeId": false,
+          "rangeId": null,
+          "talentIndex": 0,
+          "upgradeDesc_zh": "攻击力+27%<@ba.talpu>（+2%）</>且攻击精英与领袖敌人时攻击力提升至115%，编入队伍时所有我方单位的再部署时间-12%<@ba.talpu>（+2%）</>，银灰及周围8格的其他友军再部署时间额外-10%",
+          "upgradeDesc_en": "",
+          "upgradeDesc_ja": ""
+        },
+        {
+          "resKey": "svrash_equip_1_3_p2",
+          "target": "TALENT",
+          "isToken": false,
+          "name_zh": null,
+          "displayRangeId": false,
+          "rangeId": null,
+          "talentIndex": -1,
+          "upgradeDesc_zh": "",
+          "upgradeDesc_en": "",
+          "upgradeDesc_ja": ""
+        },
+        {
+          "resKey": "svrash_equip_1_3_p3",
+          "target": "TALENT",
+          "isToken": false,
+          "name_zh": null,
+          "displayRangeId": false,
+          "rangeId": null,
+          "talentIndex": -1,
+          "upgradeDesc_zh": "",
+          "upgradeDesc_en": "",
+          "upgradeDesc_ja": ""
+        }
+      ],
+      "attributeBlackboard": [
+        {
+          "key": "max_hp",
+          "value": 330.0
+        },
+        {
+          "key": "atk",
+          "value": 70.0
+        }
+      ],
+      "tokenAttributeBlackboard": {},
+      "tags": [],
+      "blackboard": [
+        {
+          "key": "atk_scale",
+          "value": 0.8
+        },
+        {
+          "key": "atk_scale_m",
+          "value": 0.1
+        },
+        {
+          "key": "atk",
+          "value": 0.27
+        },
+        {
+          "key": "respawn_time",
+          "value": -0.12
+        },
+        {
+          "key": "atk_scale",
+          "value": 1.15
+        },
+        {
+          "key": "respawn_time",
+          "value": -0.1
+        }
+      ]
+    }
+  },
+  "uniequip_001_thorns": {
+    "uniEquipId": "uniequip_001_thorns",
+    "typeIcon": "original",
+    "charId": "char_293_thorns",
+    "combatData": null
+  },
+  "uniequip_002_thorns": {
+    "uniEquipId": "uniequip_002_thorns",
+    "typeIcon": "lor-x",
+    "charId": "char_293_thorns",
+    "combatData": {
+      "parts": [
+        {
+          "resKey": "thorns_equip_1_3_p1",
+          "target": "TRAIT",
+          "isToken": false,
+          "addDesc_zh": "攻击附带<@ba.vup>{atk_scale_m:0%}</>攻击力的法术伤害",
+          "addDesc_en": "",
+          "addDesc_ja": "",
+          "overrideDesc_zh": null,
+          "overrideDesc_en": "",
+          "overrideDesc_ja": ""
+        },
+        {
+          "resKey": "thorns_equip_1_3_p2",
+          "target": "TALENT",
+          "isToken": false,
+          "name_zh": "神经腐蚀",
+          "displayRangeId": false,
+          "rangeId": null,
+          "talentIndex": 0,
+          "upgradeDesc_zh": "攻击使目标中毒，在3秒内每秒受到150<@ba.talpu>（+15）</>点法术伤害，可叠加4次（对会远程攻击的目标伤害加倍）",
+          "upgradeDesc_en": "",
+          "upgradeDesc_ja": ""
+        }
+      ],
+      "attributeBlackboard": [
+        {
+          "key": "max_hp",
+          "value": 260.0
+        },
+        {
+          "key": "atk",
+          "value": 55.0
+        },
+        {
+          "key": "attack_speed",
+          "value": 7.0
+        }
+      ],
+      "tokenAttributeBlackboard": {},
+      "tags": [],
+      "blackboard": [
+        {
+          "key": "atk_scale",
+          "value": 0.8
+        },
+        {
+          "key": "atk_scale_m",
+          "value": 0.1
+        },
+        {
+          "key": "duration",
+          "value": 3.0
+        },
+        {
+          "key": "damage[normal]",
+          "value": 150.0
+        },
+        {
+          "key": "damage[ranged]",
+          "value": 300.0
+        },
+        {
+          "key": "max_cnt",
+          "value": 4.0
+        }
+      ]
+    }
+  },
+  "uniequip_001_qiubai": {
+    "uniEquipId": "uniequip_001_qiubai",
+    "typeIcon": "original",
+    "charId": "char_4082_qiubai",
+    "combatData": null
+  },
+  "uniequip_002_qiubai": {
+    "uniEquipId": "uniequip_002_qiubai",
+    "typeIcon": "lor-x",
+    "charId": "char_4082_qiubai",
+    "combatData": {
+      "parts": [
+        {
+          "resKey": "qiubai_equip_1_3_p1",
+          "target": "TRAIT",
+          "isToken": false,
+          "addDesc_zh": "攻击附带<@ba.vup>{atk_scale_m:0%}</>攻击力的法术伤害",
+          "addDesc_en": "",
+          "addDesc_ja": "",
+          "overrideDesc_zh": null,
+          "overrideDesc_en": "",
+          "overrideDesc_ja": ""
+        },
+        {
+          "resKey": "qiubai_equip_1_3_p2",
+          "target": "TALENT",
+          "isToken": false,
+          "name_zh": "入隙",
+          "displayRangeId": false,
+          "rangeId": null,
+          "talentIndex": 0,
+          "upgradeDesc_zh": "攻击处于<$ba.sluggish>停顿</>、<$ba.root>束缚</>的敌人时，额外造成相当于攻击力48%<@ba.talpu>（+3%）</>的法术伤害，目标同时处于<$ba.sluggish>停顿</>和<$ba.root>束缚</>时该伤害提升至原本的1.2倍",
+          "upgradeDesc_en": "",
+          "upgradeDesc_ja": ""
+        }
+      ],
+      "attributeBlackboard": [
+        {
+          "key": "atk",
+          "value": 55.0
+        },
+        {
+          "key": "def",
+          "value": 45.0
+        },
+        {
+          "key": "attack_speed",
+          "value": 7.0
+        }
+      ],
+      "tokenAttributeBlackboard": {},
+      "tags": [],
+      "blackboard": [
+        {
+          "key": "atk_scale",
+          "value": 0.8
+        },
+        {
+          "key": "atk_scale_m",
+          "value": 0.1
+        },
+        {
+          "key": "atk_scale_t",
+          "value": 0.48
+        },
+        {
+          "key": "value",
+          "value": 1.2
+        }
+      ]
+    }
+  },
+  "uniequip_001_whitew": {
+    "uniEquipId": "uniequip_001_whitew",
+    "typeIcon": "original",
+    "charId": "char_140_whitew",
+    "combatData": null
+  },
+  "uniequip_002_whitew": {
+    "uniEquipId": "uniequip_002_whitew",
+    "typeIcon": "lor-x",
+    "charId": "char_140_whitew",
+    "combatData": {
+      "parts": [
+        {
+          "resKey": "whitew_equip_1_2_p1",
+          "target": "TRAIT",
+          "isToken": false,
+          "addDesc_zh": "攻击附带<@ba.vup>{atk_scale_m:0%}</>攻击力的法术伤害",
+          "addDesc_en": "",
+          "addDesc_ja": "",
+          "overrideDesc_zh": null,
+          "overrideDesc_en": "",
+          "overrideDesc_ja": ""
+        },
+        {
+          "resKey": "whitew_equip_1_3_p2",
+          "target": "TALENT",
+          "isToken": false,
+          "name_zh": "精神摧毁",
+          "displayRangeId": false,
+          "rangeId": null,
+          "talentIndex": 0,
+          "upgradeDesc_zh": "攻击使目标的特殊能力失效并获得8%的<$ba.fragile>脆弱</>，持续7<@ba.talpu>（+1）</>秒",
+          "upgradeDesc_en": "",
+          "upgradeDesc_ja": ""
+        }
+      ],
+      "attributeBlackboard": [
+        {
+          "key": "max_hp",
+          "value": 175.0
+        },
+        {
+          "key": "atk",
+          "value": 40.0
+        },
+        {
+          "key": "attack_speed",
+          "value": 6.0
+        }
+      ],
+      "tokenAttributeBlackboard": {},
+      "tags": [],
+      "blackboard": [
+        {
+          "key": "atk_scale",
+          "value": 0.8
+        },
+        {
+          "key": "atk_scale_m",
+          "value": 0.1
+        },
+        {
+          "key": "duration",
+          "value": 7.0
+        },
+        {
+          "key": "fragile",
+          "value": 1.08
+        },
+        {
+          "key": "weak[limit]",
+          "value": 7.0
+        }
+      ]
+    }
+  },
+  "uniequip_001_leto": {
+    "uniEquipId": "uniequip_001_leto",
+    "typeIcon": "original",
+    "charId": "char_194_leto",
+    "combatData": null
+  },
+  "uniequip_002_leto": {
+    "uniEquipId": "uniequip_002_leto",
+    "typeIcon": "lor-y",
+    "charId": "char_194_leto",
+    "combatData": {
+      "parts": [
+        {
+          "resKey": null,
+          "target": "DISPLAY",
+          "isToken": false,
+          "addDesc_zh": "攻击范围内存在2名及以上敌人时攻击速度<@ba.vup>+12</>",
+          "addDesc_en": "",
+          "addDesc_ja": "",
+          "overrideDesc_zh": null,
+          "overrideDesc_en": "",
+          "overrideDesc_ja": ""
+        },
+        {
+          "resKey": "leto_equip_1_3_p1",
+          "target": "TALENT",
+          "isToken": false,
+          "name_zh": null,
+          "displayRangeId": false,
+          "rangeId": null,
+          "talentIndex": -1,
+          "upgradeDesc_zh": "",
+          "upgradeDesc_en": "",
+          "upgradeDesc_ja": ""
+        },
+        {
+          "resKey": null,
+          "target": "TALENT_DATA_ONLY",
+          "isToken": false,
+          "name_zh": "快点快点！",
+          "displayRangeId": false,
+          "rangeId": null,
+          "talentIndex": 0,
+          "upgradeDesc_zh": "开启技能时，【乌萨斯学生自治团】干员攻击速度+35<@ba.talpu>（+3）</>，持续至技能结束",
+          "upgradeDesc_en": "",
+          "upgradeDesc_ja": ""
+        }
+      ],
+      "attributeBlackboard": [
+        {
+          "key": "atk",
+          "value": 59.0
+        },
+        {
+          "key": "def",
+          "value": 50.0
+        }
+      ],
+      "tokenAttributeBlackboard": {},
+      "tags": [],
+      "blackboard": [
+        {
+          "key": "cnt",
+          "value": 2.0
+        },
+        {
+          "key": "attack_speed",
+          "value": 12.0
+        },
+        {
+          "key": "ally_aspd",
+          "value": 35.0
+        }
+      ]
+    }
+  },
+  "uniequip_001_ayer": {
+    "uniEquipId": "uniequip_001_ayer",
+    "typeIcon": "original",
+    "charId": "char_294_ayer",
+    "combatData": null
+  },
+  "uniequip_002_ayer": {
+    "uniEquipId": "uniequip_002_ayer",
+    "typeIcon": "lor-x",
+    "charId": "char_294_ayer",
+    "combatData": {
+      "parts": [
+        {
+          "resKey": "ayer_equip_1_3_p1",
+          "target": "TRAIT",
+          "isToken": false,
+          "addDesc_zh": "攻击附带<@ba.vup>{atk_scale_m:0%}</>攻击力的法术伤害",
+          "addDesc_en": "",
+          "addDesc_ja": "",
+          "overrideDesc_zh": null,
+          "overrideDesc_en": "",
+          "overrideDesc_ja": ""
+        },
+        {
+          "resKey": null,
+          "target": "TALENT_DATA_ONLY",
+          "isToken": false,
+          "name_zh": "索敌援助",
+          "displayRangeId": false,
+          "rangeId": "x-4",
+          "talentIndex": 0,
+          "upgradeDesc_zh": "自身与周围8格友方干员攻速+13<@ba.talpu>（+2）</>，其中阻挡敌人的友军攻速额外+5",
+          "upgradeDesc_en": "",
+          "upgradeDesc_ja": ""
+        },
+        {
+          "resKey": "ayer_equip_1_3_p2",
+          "target": "TALENT",
+          "isToken": false,
+          "name_zh": null,
+          "displayRangeId": false,
+          "rangeId": "x-4",
+          "talentIndex": -1,
+          "upgradeDesc_zh": "",
+          "upgradeDesc_en": "",
+          "upgradeDesc_ja": ""
+        }
+      ],
+      "attributeBlackboard": [
+        {
+          "key": "max_hp",
+          "value": 195.0
+        },
+        {
+          "key": "atk",
+          "value": 55.0
+        }
+      ],
+      "tokenAttributeBlackboard": {},
+      "tags": [],
+      "blackboard": [
+        {
+          "key": "atk_scale",
+          "value": 0.8
+        },
+        {
+          "key": "atk_scale_m",
+          "value": 0.1
+        },
+        {
+          "key": "ally_aspd",
+          "value": 13.0
+        },
+        {
+          "key": "attack_speed",
+          "value": 5.0
+        }
+      ]
+    }
+  },
+  "uniequip_001_spikes": {
+    "uniEquipId": "uniequip_001_spikes",
+    "typeIcon": "original",
+    "charId": "char_271_spikes",
+    "combatData": null
+  },
+  "uniequip_002_spikes": {
+    "uniEquipId": "uniequip_002_spikes",
+    "typeIcon": "lor-y",
+    "charId": "char_271_spikes",
+    "combatData": {
+      "parts": [
+        {
+          "resKey": null,
+          "target": "DISPLAY",
+          "isToken": false,
+          "addDesc_zh": "攻击范围内存在2名及以上敌人时攻击速度<@ba.vup>+12</>",
+          "addDesc_en": "",
+          "addDesc_ja": "",
+          "overrideDesc_zh": null,
+          "overrideDesc_en": "",
+          "overrideDesc_ja": ""
+        },
+        {
+          "resKey": "spikes_equip_1_3_p1",
+          "target": "TALENT",
+          "isToken": false,
+          "name_zh": null,
+          "displayRangeId": false,
+          "rangeId": null,
+          "talentIndex": -1,
+          "upgradeDesc_zh": "",
+          "upgradeDesc_en": "",
+          "upgradeDesc_ja": ""
+        },
+        {
+          "resKey": null,
+          "target": "TALENT_DATA_ONLY",
+          "isToken": false,
+          "name_zh": "结构分解",
+          "displayRangeId": false,
+          "rangeId": null,
+          "talentIndex": 0,
+          "upgradeDesc_zh": "优先攻击【无人机】单位，且攻击【无人机】时攻击力+58%<@ba.talpu>（+3%）</>",
+          "upgradeDesc_en": "",
+          "upgradeDesc_ja": ""
+        }
+      ],
+      "attributeBlackboard": [
+        {
+          "key": "max_hp",
+          "value": 185.0
+        },
+        {
+          "key": "atk",
+          "value": 45.0
+        }
+      ],
+      "tokenAttributeBlackboard": {},
+      "tags": [],
+      "blackboard": [
+        {
+          "key": "cnt",
+          "value": 2.0
+        },
+        {
+          "key": "attack_speed",
+          "value": 12.0
+        },
+        {
+          "key": "atk_scale",
+          "value": 1.58
+        }
+      ]
+    }
+  },
+  "uniequip_001_frostl": {
+    "uniEquipId": "uniequip_001_frostl",
+    "typeIcon": "original",
+    "charId": "char_193_frostl",
+    "combatData": null
+  },
+  "uniequip_002_frostl": {
+    "uniEquipId": "uniequip_002_frostl",
+    "typeIcon": "lor-x",
+    "charId": "char_193_frostl",
+    "combatData": {
+      "parts": [
+        {
+          "resKey": "frostl_equip_1_3_p1",
+          "target": "TRAIT",
+          "isToken": false,
+          "addDesc_zh": "攻击附带<@ba.vup>{atk_scale_m:0%}</>攻击力的法术伤害",
+          "addDesc_en": "",
+          "addDesc_ja": "",
+          "overrideDesc_zh": null,
+          "overrideDesc_en": "",
+          "overrideDesc_ja": ""
+        },
+        {
+          "resKey": "frostl_equip_1_3_p2",
+          "target": "TALENT",
+          "isToken": false,
+          "name_zh": null,
+          "displayRangeId": false,
+          "rangeId": null,
+          "talentIndex": -1,
+          "upgradeDesc_zh": "",
+          "upgradeDesc_en": "",
+          "upgradeDesc_ja": ""
+        },
+        {
+          "resKey": null,
+          "target": "TALENT_DATA_ONLY",
+          "isToken": false,
+          "name_zh": "掩护打击",
+          "displayRangeId": false,
+          "rangeId": "3-1",
+          "talentIndex": 0,
+          "upgradeDesc_zh": "攻击范围扩大，攻击有25%概率造成1.5秒<$ba.cold>寒冷</>，但攻击间隔略微增大",
+          "upgradeDesc_en": "",
+          "upgradeDesc_ja": ""
+        }
+      ],
+      "attributeBlackboard": [
+        {
+          "key": "atk",
+          "value": 50.0
+        },
+        {
+          "key": "def",
+          "value": 35.0
+        }
+      ],
+      "tokenAttributeBlackboard": {},
+      "tags": [],
+      "blackboard": [
+        {
+          "key": "atk_scale",
+          "value": 0.8
+        },
+        {
+          "key": "atk_scale_m",
+          "value": 0.1
+        },
+        {
+          "key": "prob",
+          "value": 0.25
+        },
+        {
+          "key": "cold",
+          "value": 1.5
+        },
+        {
+          "key": "base_attack_time",
+          "value": 0.15
+        }
+      ]
+    }
+  },
+  "uniequip_001_lolxh": {
+    "uniEquipId": "uniequip_001_lolxh",
+    "typeIcon": "original",
+    "charId": "char_4067_lolxh",
+    "combatData": null
+  },
+  "uniequip_002_lolxh": {
+    "uniEquipId": "uniequip_002_lolxh",
+    "typeIcon": "lor-y",
+    "charId": "char_4067_lolxh",
+    "combatData": {
+      "parts": [
+        {
+          "resKey": null,
+          "target": "DISPLAY",
+          "isToken": false,
+          "addDesc_zh": "攻击范围内存在2名及以上敌人时攻击速度<@ba.vup>+12</>",
+          "addDesc_en": "",
+          "addDesc_ja": "",
+          "overrideDesc_zh": null,
+          "overrideDesc_en": "",
+          "overrideDesc_ja": ""
+        },
+        {
+          "resKey": "lolxh_equip_1_3_p1",
+          "target": "TALENT",
+          "isToken": false,
+          "name_zh": null,
+          "displayRangeId": false,
+          "rangeId": null,
+          "talentIndex": -1,
+          "upgradeDesc_zh": "",
+          "upgradeDesc_en": "",
+          "upgradeDesc_ja": ""
+        },
+        {
+          "resKey": "lolxh_equip_1_3_p2",
+          "target": "TALENT",
+          "isToken": false,
+          "name_zh": null,
+          "displayRangeId": false,
+          "rangeId": null,
+          "talentIndex": -1,
+          "upgradeDesc_zh": "",
+          "upgradeDesc_en": "",
+          "upgradeDesc_ja": ""
+        },
+        {
+          "resKey": null,
+          "target": "TALENT_DATA_ONLY",
+          "isToken": false,
+          "name_zh": "见习执行者",
+          "displayRangeId": false,
+          "rangeId": null,
+          "talentIndex": 0,
+          "upgradeDesc_zh": "对生命值低于一半的单位造成的伤害提升12%；造成致命伤害时使敌人保留1点生命并使其<$ba.dying>重伤</>（击杀者技力+2）；罗小黑不攻击<$ba.dying>重伤</>单位",
+          "upgradeDesc_en": "",
+          "upgradeDesc_ja": ""
+        }
+      ],
+      "attributeBlackboard": [
+        {
+          "key": "max_hp",
+          "value": 100.0
+        },
+        {
+          "key": "atk",
+          "value": 40.0
+        },
+        {
+          "key": "def",
+          "value": 25.0
+        }
+      ],
+      "tokenAttributeBlackboard": {},
+      "tags": [],
+      "blackboard": [
+        {
+          "key": "cnt",
+          "value": 2.0
+        },
+        {
+          "key": "attack_speed",
+          "value": 12.0
+        },
+        {
+          "key": "hp_ratio",
+          "value": 0.5
+        },
+        {
+          "key": "damage_scale",
+          "value": 1.12
+        },
+        {
+          "key": "move_speed",
+          "value": -0.8
+        },
+        {
+          "key": "sp",
+          "value": 2.0
+        },
+        {
+          "key": "interval",
+          "value": 10.0
+        }
+      ]
+    }
+  },
+  "uniequip_001_fang2": {
+    "uniEquipId": "uniequip_001_fang2",
+    "typeIcon": "original",
+    "charId": "char_1036_fang2",
+    "combatData": null
+  },
+  "uniequip_002_fang2": {
+    "uniEquipId": "uniequip_002_fang2",
+    "typeIcon": "chg-x",
+    "charId": "char_1036_fang2",
+    "combatData": {
+      "parts": [
+        {
+          "resKey": null,
+          "target": "TRAIT_DATA_ONLY",
+          "isToken": false,
+          "addDesc_zh": null,
+          "addDesc_en": "",
+          "addDesc_ja": "",
+          "overrideDesc_zh": "击杀敌人后获得<@ba.vup>{cost:0}</>点部署费用，撤退时返还<@ba.kw>该次</>部署费用",
+          "overrideDesc_en": "",
+          "overrideDesc_ja": ""
+        },
+        {
+          "resKey": "fang2_equip_1_3_p1",
+          "target": "TALENT",
+          "isToken": false,
+          "name_zh": null,
+          "displayRangeId": false,
+          "rangeId": null,
+          "talentIndex": -1,
+          "upgradeDesc_zh": "",
+          "upgradeDesc_en": "",
+          "upgradeDesc_ja": ""
+        },
+        {
+          "resKey": null,
+          "target": "TALENT_DATA_ONLY",
+          "isToken": false,
+          "name_zh": "轻装上阵",
+          "displayRangeId": false,
+          "rangeId": null,
+          "talentIndex": 0,
+          "upgradeDesc_zh": "自身初次部署费用-4；撤退后使下一名干员部署费用-2",
+          "upgradeDesc_en": "",
+          "upgradeDesc_ja": ""
+        }
+      ],
+      "attributeBlackboard": [
+        {
+          "key": "atk",
+          "value": 65.0
+        },
+        {
+          "key": "attack_speed",
+          "value": 5.0
+        }
+      ],
+      "tokenAttributeBlackboard": {},
+      "tags": [],
+      "blackboard": [
+        {
+          "key": "cost",
+          "value": 2.0
+        },
+        {
+          "key": "withdraw_cost_recover_ratio",
+          "value": 1.0
+        },
+        {
+          "key": "runtime_cost",
+          "value": -4.0
+        },
+        {
+          "key": "value",
+          "value": -2.0
+        }
+      ]
+    }
+  },
+  "uniequip_001_logos": {
+    "uniEquipId": "uniequip_001_logos",
+    "typeIcon": "original",
+    "charId": "char_4133_logos",
+    "combatData": null
+  },
+  "uniequip_002_logos": {
+    "uniEquipId": "uniequip_002_logos",
+    "typeIcon": "ccr-d",
+    "charId": "char_4133_logos",
+    "combatData": {
+      "parts": [
+        {
+          "resKey": null,
+          "target": "DISPLAY",
+          "isToken": false,
+          "addDesc_zh": "造成法术伤害时附带相当于<@ba.vup>8%</>伤害的<$ba.dt.apoptosis2>凋亡损伤</>",
+          "addDesc_en": "",
+          "addDesc_ja": "",
+          "overrideDesc_zh": null,
+          "overrideDesc_en": "",
+          "overrideDesc_ja": ""
+        },
+        {
+          "resKey": "logos_equip_1_3_p1",
+          "target": "TALENT",
+          "isToken": false,
+          "name_zh": null,
+          "displayRangeId": false,
+          "rangeId": null,
+          "talentIndex": -1,
+          "upgradeDesc_zh": "",
+          "upgradeDesc_en": "",
+          "upgradeDesc_ja": ""
+        },
+        {
+          "resKey": "logos_equip_1_3_p2",
+          "target": "TALENT",
+          "isToken": false,
+          "name_zh": "语汇演化",
+          "displayRangeId": false,
+          "rangeId": null,
+          "talentIndex": 0,
+          "upgradeDesc_zh": "对一个目标发起攻击时，有60%几率额外对攻击范围内一个随机目标造成相当于攻击力65%<@ba.talpu>（+5%）</>的法术伤害并使其<$ba.sluggish>停顿</>0.8秒，若该随机目标处于<$ba.dt.apoptosis2>凋亡损伤</>爆发期间则同时造成相当于攻击力60%的元素伤害",
+          "upgradeDesc_en": "",
+          "upgradeDesc_ja": ""
+        }
+      ],
+      "attributeBlackboard": [
+        {
+          "key": "max_hp",
+          "value": 170.0
+        },
+        {
+          "key": "atk",
+          "value": 67.0
+        }
+      ],
+      "tokenAttributeBlackboard": {},
+      "tags": ["apoptosis","ele_dmg"],
+      "blackboard": [
+        {
+          "key": "ep_damage_ratio",
+          "value": 0.08
+        },
+        {
+          "key": "prob",
+          "value": 0.6
+        },
+        {
+          "key": "atk_scale",
+          "value": 0.65
+        },
+        {
+          "key": "sluggish",
+          "value": 0.8
+        },
+        {
+          "key": "element_atk_scale",
+          "value": 0.6
+        }
+      ]
+    }
+  },
+  "uniequip_001_wisdel": {
+    "uniEquipId": "uniequip_001_wisdel",
+    "typeIcon": "original",
+    "charId": "char_1035_wisdel",
+    "combatData": null
+  },
+  "uniequip_002_wisdel": {
+    "uniEquipId": "uniequip_002_wisdel",
+    "typeIcon": "bom-x",
+    "charId": "char_1035_wisdel",
+    "combatData": {
+      "parts": [
+        {
+          "resKey": null,
+          "target": "TRAIT_DATA_ONLY",
+          "isToken": false,
+          "addDesc_zh": null,
+          "addDesc_en": "",
+          "addDesc_ja": "",
+          "overrideDesc_zh": "攻击对小范围的<@ba.kw>地面</>敌人造成<@ba.kw>三次</>物理伤害（后两次为余震，伤害降低至攻击力的50％）",
+          "overrideDesc_en": "",
+          "overrideDesc_ja": ""
+        },
+        {
+          "resKey": null,
+          "target": "TALENT_DATA_ONLY",
+          "isToken": false,
+          "name_zh": "好礼",
+          "displayRangeId": false,
+          "rangeId": null,
+          "talentIndex": 0,
+          "upgradeDesc_zh": "攻击时对主目标的攻击力提升至125%并为其附着残影，残影受到维什戴尔的余震影响时有15%概率爆炸，对周围所有敌人造成185%<@ba.talpu>（+10%）</>攻击力的物理伤害并使其<$ba.stun>晕眩</>1秒",
+          "upgradeDesc_en": "",
+          "upgradeDesc_ja": ""
+        }
+      ],
+      "attributeBlackboard": [
+        {
+          "key": "atk",
+          "value": 65.0
+        },
+        {
+          "key": "attack_speed",
+          "value": 7.0
+        }
+      ],
+      "tokenAttributeBlackboard": {},
+      "tags": [],
+      "blackboard": [
+        {
+          "key": "attack@append_atk_scale",
+          "value": 0.5
+        },
+        {
+          "key": "attack@enable_third_attack",
+          "value": 1.0
+        },
+        {
+          "key": "attack@main_atk_scale",
+          "value": 1.25
+        },
+        {
+          "key": "attack@prob",
+          "value": 0.15
+        },
+        {
+          "key": "attack@bomb_atk_scale",
+          "value": 1.85
+        },
+        {
+          "key": "attack@stun",
+          "value": 1.0
+        },
+        {
+          "key": "attack@range_radius",
+          "value": 1.1
         }
       ]
     }
