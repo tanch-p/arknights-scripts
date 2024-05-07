@@ -201,8 +201,8 @@
             "value": 10.0
           },
           {
-            "key": "damage_resistance",
-            "value": -75.0
+            "key": "damage_resistance_fixed",
+            "value": 75.0
           }
         ]
       }
@@ -4841,11 +4841,11 @@
         "description_zh": "自身获得15%<@ba.talpu>（+3%）</>的物理减伤；在战场停留35秒后效果翻倍",
         "description_en": "Gains 15% <@ba.talpu>(+3%)</> Physical damage reduction; effect doubles after being deployed for 35 seconds",
         "description_ja": "物理の被ダメージ-15%<@ba.talpu>（+3%）</>。配置から35秒後に効果値倍増",
-        "tags": ["damage_res"],
+        "tags": [],
         "blackboard": [
           {
             "key": "damage_resistance",
-            "value": 0.15
+            "value": 0.3
           },
           {
             "key": "interval",
@@ -8663,14 +8663,14 @@
         "description_zh": "生命值高于一半时，攻击造成117%<@ba.talpu>（+2%）</>伤害；生命值不高于一半时，获得22%<@ba.talpu>（+2%）</>的<$ba.protect>庇护</>",
         "description_en": "When HP is above 50%, attacks deal 117%<@ba.talpu>(+2%)</> damage; when HP is 50% or lower, gain 22%<@ba.talpu>(+2%)</> <$ba.protect>Sanctuary</>",
         "description_ja": "HPが最大値の50％を超える時、攻撃の与ダメージが117％<@ba.talpu>（+2%）</>まで上昇\nHPが最大値の50％以下時、自身が22%<@ba.talpu>（+2%）</>の<$ba.protect>加護</>状態になる",
-        "tags": ["protect"],
+        "tags": [],
         "blackboard": [
           {
             "key": "hp_ratio",
             "value": 0.5
           },
           {
-            "key": "damage_resistance",
+            "key": "protect",
             "value": 0.22
           },
           {
@@ -9051,7 +9051,7 @@
         "tags": [],
         "blackboard": [
           {
-            "key": "damage_resistance",
+            "key": "protect",
             "value": 0.21
           }
         ]
@@ -9356,8 +9356,8 @@
         "tags": [],
         "blackboard": [
           {
-            "key": "damage_resistance_pm",
-            "value": 0.09
+            "key": "damage_resistance",
+            "value": 0.18
           },
           {
             "key": "damage_scale_m",
@@ -9583,8 +9583,7 @@
         "blackboard": [
           {
             "key": "damage_resistance",
-            "value": 0.35,
-            "condition": "croc_duel"
+            "value": 0.35
           }
         ]
       },
@@ -10151,7 +10150,7 @@
         "description_zh": "部署后立刻在攻击范围内召唤一个魂灵之影，在魂灵之影周围时获得<$ba.camou>迷彩</>",
         "description_en": "",
         "description_ja": "",
-        "tags": ["camouflage"],
+        "tags": ["camouflage","summon"],
         "blackboard": []
       }
     ]
