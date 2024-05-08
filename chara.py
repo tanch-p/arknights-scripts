@@ -52,14 +52,14 @@ for id in filtered_cn_char_table:
     for skill in character_dict['skills']:
         blackboard = chara_skills[skill['skillId']
                                   ]['blackboard'] if skill['skillId'] in chara_skills else []
-        skills.append({"skillId": skill['skillId'], 
+        skills.append({"skillId": skill['skillId'],
                        "name_zh": chara_skills[skill['skillId']]['name_zh'],
                        "name_ja": chara_skills[skill['skillId']]['name_ja'],
                        "name_en": chara_skills[skill['skillId']]['name_en'],
                        "skillType": chara_skills[skill['skillId']]['skillType'],
                        "durationType": chara_skills[skill['skillId']]['durationType'],
-                       "levels": chara_skills[skill['skillId']]['levels'], 
-                       "tags": chara_skills[skill['skillId']]['tags'] if skill['skillId'] in chara_skills else [], 
+                       "levels": chara_skills[skill['skillId']]['levels'],
+                       "tags": chara_skills[skill['skillId']]['tags'] if skill['skillId'] in chara_skills else [],
                        "blackboard": blackboard})
     if character_dict['talents']:
         for talent_index, talent in enumerate(character_dict['talents']):
@@ -84,11 +84,23 @@ for id in filtered_cn_char_table:
         if uniequip_dict[equip_id]['charId'] == id:
             uniequip_list.append(uniequip_dict[equip_id])
 
+    stats = {}
+    stats['rangeId'] = character_dict['phases'][-1]['rangeId']
+    stats['level'] = character_dict['phases'][-1]['attributesKeyFrames'][-1]['level']
+    stats['hp'] = character_dict['phases'][-1]['attributesKeyFrames'][-1]['data']["maxHp"]
+    stats['atk'] = character_dict['phases'][-1]['attributesKeyFrames'][-1]['data']["atk"]
+    stats['def'] = character_dict['phases'][-1]['attributesKeyFrames'][-1]['data']["def"]
+    stats['res'] = character_dict['phases'][-1]['attributesKeyFrames'][-1]['data']["magicResistance"]
+    stats['cost'] = character_dict['phases'][-1]['attributesKeyFrames'][-1]['data']["cost"]
+    stats['blockCnt'] = character_dict['phases'][-1]['attributesKeyFrames'][-1]['data']["blockCnt"]
+    stats['aspd'] = character_dict['phases'][-1]['attributesKeyFrames'][-1]['data']["baseAttackTime"]
+    stats['respawnTime'] = character_dict['phases'][-1]['attributesKeyFrames'][-1]['data']["respawnTime"]
+
     return_dict = {"id": id, "appellation": character_dict['appellation'], "name_zh": character_dict['name'], "name_ja": "", "name_en": "",
                    "desc_zh": character_dict['description'], "desc_ja": "", "desc_en": "",
                    "nationId": character_dict['nationId'], "groupId": character_dict['groupId'], "teamId": character_dict['teamId'], "tagList": [],
                    "isSpChar": character_dict['isSpChar'], "rarity": character_dict['rarity'],
-                   "profession": character_dict['profession'], "subProfessionId": character_dict['subProfessionId'],
+                   "profession": character_dict['profession'], "subProfessionId": character_dict['subProfessionId'], "stats": stats,
                    "skills": skills, "talents": talents, "tagList": [], 'uniequip': uniequip_list}
     if id in en_char_table:
         return_dict['name_ja'] = jp_char_table[id]['name']
