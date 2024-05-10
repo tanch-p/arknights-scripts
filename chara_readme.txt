@@ -50,6 +50,8 @@ reduce_move_speed -> move_speed_down, reduce_attack_speed -> aspd_down
 ally_res_up,
 self_magic_resistance
 ep_damage_resistance
+ally_cost
+damage_scale - sesa
 
 heal_scale,
 token_deploy_free,
@@ -66,6 +68,13 @@ peak_performance, damage_scale, damage_resistance
 ### conditions ###
 hp_above_50
 token_hp_below_50
+not_blocked|blocked
+melee
+ranged
+various professions
+various groups
+melee_attack - indra
+ranged_attack - fuze
 
 
 ### change of keys ###
