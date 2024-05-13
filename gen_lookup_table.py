@@ -34,6 +34,9 @@ with open("temp.txt", "w") as file:
             icon_name = icon.split(".")[0]
             replaced_name = icon_name.replace("[","").replace("]","")
             file.write(f"'{icon_name}': {replaced_name},\n")
+    file.write("skill_icon_skchr_stward_1: skill_icon_skcom_powerstrike1,\n")
+    file.write("skill_icon_skchr_midn_1: skill_icon_skcom_enchant1,\n")
+    file.write("skill_icon_skchr_catap_1: skill_icon_skcom_blowrange_up1\n")
     file.write("}")
 
 
