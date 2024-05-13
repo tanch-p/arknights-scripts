@@ -83,7 +83,7 @@ for id in filtered_cn_char_table:
     for equip_id in uniequip_dict:
         if uniequip_dict[equip_id]['charId'] == id:
             uniequip_list.append(uniequip_dict[equip_id])
-
+    uniequip_list.sort(key=lambda equip: equip['uniEquipId'])  
     stats = {}
     stats['rangeId'] = character_dict['phases'][-1]['rangeId']
     stats['level'] = character_dict['phases'][-1]['attributesKeyFrames'][-1]['level']
