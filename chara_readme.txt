@@ -8,7 +8,7 @@ stop_attack
 reflect_dmg
 block_phys (拉普兰德)
 taunt
-lower_target_priority
+taunt_level_down
 def_penetrate
 range_up
 heal_ally
@@ -43,6 +43,9 @@ ally_sp_gain - saria
 ally_sp_regen - suzuran
 抵挡 - nullify_damage
 protect - protect (because of same name take highest value issue)
+ignore_evasion
+def_scale_dmg - ceobe
+fast_redeploy
 
 ### blackboard keys - for values that need comparison  ###
 ---stat releated---
@@ -75,6 +78,12 @@ various professions
 various groups
 melee_attack - indra
 ranged_attack - fuze
+first_deploy - ash
+shield_break - archetto
+first_hit
+dmg_below_200 - lin
+when_attacked - lin
+skill_atk_def_recovery
 
 
 ### change of keys ###
@@ -91,7 +100,7 @@ fake_damage - increase dmg taken
 
 ### chars to settle ###
 enforcer skchr_forcer_2
-
+cqbw_equip_1_3_p2
 
 ### changes from original data ###
 added camouflage key to kafka skills
@@ -104,3 +113,4 @@ added camouflage key to kafka skills
 5. skchr_frncat_1
 6. skchr_aurora_2
 7. skchr_slbell_1
+

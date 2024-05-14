@@ -64,7 +64,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["stealth", "token_deploy_free"],
+      "tags": ["stealth", "first_token_free"],
       "blackboard": [
         {
           "key": "token_deploy_free",
@@ -91,9 +91,9 @@
           "resKey": "ling_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "召唤物持有上限<@ba.kw>+{cnt}</>，召唤物部署费用<@ba.kw>减少</>",
-          "addDesc_en": "Can hold <@ba.kw>+{cnt}</> additional summoned units and summoned unit deployment costs are <@ba.kw>reduced</>",
-          "addDesc_ja": "召喚ユニット最大所持数<@ba.kw>+{cnt}</>、召喚ユニットの配置コスト<@ba.kw>減少</>",
+          "addDesc_zh": "召唤物持有上限<@ba.kw>+3</>，召唤物部署费用<@ba.kw>减少</>",
+          "addDesc_en": "Can hold <@ba.kw>+3</> additional summoned units and summoned unit deployment costs are <@ba.kw>reduced</>",
+          "addDesc_ja": "召喚ユニット最大所持数<@ba.kw>+3</>、召喚ユニットの配置コスト<@ba.kw>減少</>",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -189,7 +189,7 @@
           }
         ]
       },
-      "tags": ["summon"],
+      "tags": [],
       "blackboard": [
         {
           "key": "max_token",
@@ -263,7 +263,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["token_deploy_free", "summon"],
+      "tags": ["first_token_free"],
       "blackboard": [
         {
           "key": "token_deploy_free",
@@ -341,7 +341,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["token_deploy_free", "summon"],
+      "tags": ["first_token_free"],
       "blackboard": [
         {
           "key": "token_deploy_free",
@@ -372,9 +372,9 @@
           "resKey": "deepcl_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "召唤物持有上限<@ba.kw>+{cnt}</>，召唤物部署费用<@ba.kw>减少</>",
-          "addDesc_en": "Can hold <@ba.kw>+{cnt}</> additional summoned units and summoned unit deployment costs are <@ba.kw>reduced</>",
-          "addDesc_ja": "召喚ユニット最大所持数<@ba.kw>+{cnt}</>、召喚ユニットの配置コスト<@ba.kw>減少</>",
+          "addDesc_zh": "召唤物持有上限<@ba.kw>+3</>，召唤物部署费用<@ba.kw>减少</>",
+          "addDesc_en": "Can hold <@ba.kw>+3</> additional summoned units and summoned unit deployment costs are <@ba.kw>reduced</>",
+          "addDesc_ja": "召喚ユニット最大所持数<@ba.kw>+3</>、召喚ユニットの配置コスト<@ba.kw>減少</>",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -456,9 +456,9 @@
           "addDesc_zh": null,
           "addDesc_en": null,
           "addDesc_ja": null,
-          "overrideDesc_zh": "可以攻击到<@ba.kw>较远敌人</>，攻击自身未阻挡的敌人时攻击力提升至<@ba.kw>{atk_scale:0%}</>",
-          "overrideDesc_en": "Can attack enemies <@ba.kw>from range</>; When attacking enemies not blocked by self, increase ATK to <@ba.kw>{atk_scale:0%}</>",
-          "overrideDesc_ja": "攻撃距離が<@ba.kw>やや長い</>\n自身がブロックしていない敵を攻撃時、攻撃力が<@ba.kw>{atk_scale:0%}</>まで上昇"
+          "overrideDesc_zh": "可以攻击到<@ba.kw>较远敌人</>，攻击自身未阻挡的敌人时攻击力提升至<@ba.kw>130%</>",
+          "overrideDesc_en": "Can attack enemies <@ba.kw>from range</>; When attacking enemies not blocked by self, increase ATK to <@ba.kw>130%</>",
+          "overrideDesc_ja": "攻撃距離が<@ba.kw>やや長い</>\n自身がブロックしていない敵を攻撃時、攻撃力が<@ba.kw>130%</>まで上昇"
         },
         {
           "resKey": null,
@@ -484,14 +484,14 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["peak_performance", "minos"],
+      "tags": ["ally_peak_performance", "minos"],
       "blackboard": [
         {
           "key": "atk_scale",
           "value": 1.3
         },
         {
-          "key": "peak_performance",
+          "key": "ally_peak_performance",
           "value": 0.3,
           "condition": "minos"
         }
@@ -511,9 +511,9 @@
           "addDesc_zh": null,
           "addDesc_en": null,
           "addDesc_ja": null,
-          "overrideDesc_zh": "可以攻击到<@ba.kw>较远敌人</>，攻击自身未阻挡的敌人时攻击力提升至<@ba.kw>{atk_scale:0%}</>",
-          "overrideDesc_en": "Can attack enemies <@ba.kw>from range</>; When attacking enemies not blocked by self, increase ATK to <@ba.kw>{atk_scale:0%}</>",
-          "overrideDesc_ja": "攻撃距離が<@ba.kw>やや長い</>\n自身がブロックしていない敵を攻撃時、攻撃力が<@ba.kw>{atk_scale:0%}</>まで上昇"
+          "overrideDesc_zh": "可以攻击到<@ba.kw>较远敌人</>，攻击自身未阻挡的敌人时攻击力提升至<@ba.kw>130%</>",
+          "overrideDesc_en": "Can attack enemies <@ba.kw>from range</>; When attacking enemies not blocked by self, increase ATK to <@ba.kw>130%</>",
+          "overrideDesc_ja": "攻撃距離が<@ba.kw>やや長い</>\n自身がブロックしていない敵を攻撃時、攻撃力が<@ba.kw>130%</>まで上昇"
         },
         {
           "resKey": "sophia_equip_1_3_p1",
@@ -544,6 +544,10 @@
         {
           "key": "atk_scale",
           "value": 1.3
+        },
+        {
+          "key": "shield",
+          "value": 1
         }
       ]
     }
@@ -561,9 +565,9 @@
           "addDesc_zh": null,
           "addDesc_en": null,
           "addDesc_ja": null,
-          "overrideDesc_zh": "可以攻击到<@ba.kw>较远敌人</>，攻击自身未阻挡的敌人时攻击力提升至<@ba.kw>{atk_scale:0%}</>",
-          "overrideDesc_en": "Can attack enemies <@ba.kw>from range</>; When attacking enemies not blocked by self, increase ATK to <@ba.kw>{atk_scale:0%}</>",
-          "overrideDesc_ja": "攻撃距離が<@ba.kw>やや長い</>\n自身がブロックしていない敵を攻撃時、攻撃力が<@ba.kw>{atk_scale:0%}</>まで上昇"
+          "overrideDesc_zh": "可以攻击到<@ba.kw>较远敌人</>，攻击自身未阻挡的敌人时攻击力提升至<@ba.kw>130%</>",
+          "overrideDesc_en": "Can attack enemies <@ba.kw>from range</>; When attacking enemies not blocked by self, increase ATK to <@ba.kw>130%</>",
+          "overrideDesc_ja": "攻撃距離が<@ba.kw>やや長い</>\n自身がブロックしていない敵を攻撃時、攻撃力が<@ba.kw>130%</>まで上昇"
         },
         {
           "resKey": "swire_equip_1_3_p1",
@@ -600,7 +604,7 @@
           "value": 3.0
         },
         {
-          "key": "sp",
+          "key": "sp_gain",
           "value": 1.0
         }
       ]
@@ -732,12 +736,11 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "res_up",
-          "value": 17.0,
-          "rangeId": "y-3"
+          "key": "ally_res",
+          "value": 17.0
         },
         {
-          "key": "heal_scale",
+          "key": "ally_heal_scale",
           "value": 1.05
         }
       ]
@@ -796,13 +799,8 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["resist"],
+      "tags": [],
       "blackboard": [
-        {
-          "key": "resist",
-          "value": "skill_duration",
-          "condition": "supporter|medic"
-        },
         {
           "key": "max_hp",
           "value": 0.15
@@ -952,9 +950,9 @@
           "resKey": "fartth_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "攻击越远的敌人造成的伤害越高（最高提升<@ba.kw>{damage_scale:0%}</>）",
-          "addDesc_en": "The further away the enemy, the higher the damage dealt (up to an increase of <@ba.kw>{damage_scale:0%}</>)",
-          "addDesc_ja": "攻撃時、攻撃対象との距離が離れるほど与ダメージが上昇する（最大<@ba.kw>{damage_scale:0%}</>上昇）",
+          "addDesc_zh": "攻击越远的敌人造成的伤害越高（最高提升<@ba.kw>15%</>）",
+          "addDesc_en": "The further away the enemy, the higher the damage dealt (up to an increase of <@ba.kw>15%</>)",
+          "addDesc_ja": "攻撃時、攻撃対象との距離が離れるほど与ダメージが上昇する（最大<@ba.kw>15%</>上昇）",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -1018,9 +1016,9 @@
           "resKey": "milu_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "攻击的敌人未被击倒时自身额外获得<@ba.kw>{sp}</>点技力",
-          "addDesc_en": "If the attacked enemy remains alive, gain <@ba.kw>{sp}</> additional SP",
-          "addDesc_ja": "攻撃時に攻撃対象を倒せなかった場合、追加でSPを<@ba.kw>{sp}</>回復する",
+          "addDesc_zh": "攻击的敌人未被击倒时自身额外获得<@ba.kw>1</>点技力",
+          "addDesc_en": "If the attacked enemy remains alive, gain <@ba.kw>1</> additional SP",
+          "addDesc_ja": "攻撃時に攻撃対象を倒せなかった場合、追加でSPを<@ba.kw>1</>回復する",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -1049,10 +1047,10 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["ranged", "no_attack"],
+      "tags": ["no_attack"],
       "blackboard": [
         {
-          "key": "sp",
+          "key": "sp_gain",
           "value": 1.0
         },
         {
@@ -1072,9 +1070,9 @@
           "resKey": "cuttle_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "攻击越远的敌人造成的伤害越高（最高提升<@ba.kw>{damage_scale:0%}</>）",
-          "addDesc_en": "The further away the enemy, the higher the damage dealt (up to an increase of <@ba.kw>{damage_scale:0%}</>)",
-          "addDesc_ja": "攻撃時、攻撃対象との距離が離れるほど与ダメージが上昇する（最大<@ba.kw>{damage_scale:0%}</>上昇）",
+          "addDesc_zh": "攻击越远的敌人造成的伤害越高（最高提升<@ba.kw>15%</>）",
+          "addDesc_en": "The further away the enemy, the higher the damage dealt (up to an increase of <@ba.kw>15%</>)",
+          "addDesc_ja": "攻撃時、攻撃対象との距離が離れるほど与ダメージが上昇する（最大<@ba.kw>15%</>上昇）",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -1103,7 +1101,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["abyssal"],
+      "tags": ["abyssal", "squad_effect"],
       "blackboard": [
         {
           "key": "max_dist",
@@ -1118,8 +1116,9 @@
           "value": 0.15
         },
         {
-          "key": "attack_speed",
-          "value": 22.0
+          "key": "ally_aspd",
+          "value": 22.0,
+          "condition": "group:abyssal"
         }
       ]
     }
@@ -1134,9 +1133,9 @@
           "resKey": "glaze_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "攻击越远的敌人造成的伤害越高（最高提升<@ba.kw>{damage_scale:0%}</>）",
-          "addDesc_en": "The further away the enemy, the higher the damage dealt (up to an increase of <@ba.kw>{damage_scale:0%}</>)",
-          "addDesc_ja": "攻撃時、攻撃対象との距離が離れるほど与ダメージが上昇する（最大<@ba.kw>{damage_scale:0%}</>上昇）",
+          "addDesc_zh": "攻击越远的敌人造成的伤害越高（最高提升<@ba.kw>15%</>）",
+          "addDesc_en": "The further away the enemy, the higher the damage dealt (up to an increase of <@ba.kw>15%</>)",
+          "addDesc_ja": "攻撃時、攻撃対象との距離が離れるほど与ダメージが上昇する（最大<@ba.kw>15%</>上昇）",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -1244,7 +1243,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["fast_redeploy"],
       "blackboard": [
         {
           "key": "withdraw_cost_recover_ratio",
@@ -1267,9 +1266,9 @@
           "resKey": "kafka_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "周围四格没有友方干员时攻击力<@ba.kw>+{atk:0%}</>",
-          "addDesc_en": "When there are no allied units in the four adjacent tiles, ATK <@ba.kw>+{atk:0%}</>",
-          "addDesc_ja": "隣接4マス内に味方がいない場合、攻撃力<@ba.kw>+{atk:0%}</>",
+          "addDesc_zh": "周围四格没有友方干员时攻击力<@ba.kw>+10%</>",
+          "addDesc_en": "When there are no allied units in the four adjacent tiles, ATK <@ba.kw>+10%</>",
+          "addDesc_ja": "隣接4マス内に味方がいない場合、攻撃力<@ba.kw>+10%</>",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -1321,9 +1320,9 @@
           "resKey": "red_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "周围四格没有友方干员时攻击力<@ba.kw>+{atk:0%}</>",
-          "addDesc_en": "When there are no allied units in the four adjacent tiles, ATK <@ba.kw>+{atk:0%}</>",
-          "addDesc_ja": "隣接4マス内に味方がいない場合、攻撃力<@ba.kw>+{atk:0%}</>",
+          "addDesc_zh": "周围四格没有友方干员时攻击力<@ba.kw>+10%</>",
+          "addDesc_en": "When there are no allied units in the four adjacent tiles, ATK <@ba.kw>+10%</>",
+          "addDesc_ja": "隣接4マス内に味方がいない場合、攻撃力<@ba.kw>+10%</>",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -1352,7 +1351,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["min_damage"],
       "blackboard": [
         {
           "key": "atk",
@@ -1406,7 +1405,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["infected"],
       "blackboard": [
         {
           "key": "withdraw_cost_recover_ratio",
@@ -1460,7 +1459,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["remaining_spawn_time"],
+      "tags": ["ally_respawn_time"],
       "blackboard": [
         {
           "key": "withdraw_cost_recover_ratio",
@@ -1486,9 +1485,9 @@
           "addDesc_zh": null,
           "addDesc_en": null,
           "addDesc_ja": null,
-          "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>{attack@max_target}</>个敌人间跳跃，每次跳跃伤害降低<@ba.kw>{value:0%}</>并造成一定时间<$ba.sluggish>停顿</>",
-          "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>{attack@max_target}</> enemies. Each jump deals <@ba.kw>{value:0%}</> less damage and inflicts a short <$ba.sluggish>Slow</>",
-          "overrideDesc_ja": "<@ba.kw>{attack@max_target}</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>{value:0%}</>減衰し、敵を一定時間<$ba.sluggish>足止め</>"
+          "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>4</>个敌人间跳跃，每次跳跃伤害降低<@ba.kw>10%</>并造成一定时间<$ba.sluggish>停顿 (0.8s)</>",
+          "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>4</> enemies. Each jump deals <@ba.kw>10%</> less damage and inflicts a short <$ba.sluggish>Slow (0.8s)</>",
+          "overrideDesc_ja": "<@ba.kw>4</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>10%</>減衰し、敵を一定時間<$ba.sluggish>足止め (0.8秒)</>"
         },
         {
           "resKey": "pasngr_equip_1_3_p1",
@@ -1564,9 +1563,9 @@
           "addDesc_zh": null,
           "addDesc_en": null,
           "addDesc_ja": null,
-          "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>{attack@max_target}</>个敌人间跳跃，每次跳跃伤害降低<@ba.kw>{value:0%}</>并造成一定时间<$ba.sluggish>停顿</>",
-          "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>{attack@max_target}</> enemies. Each jump deals <@ba.kw>{value:0%}</> less damage and inflicts a short <$ba.sluggish>Slow</>",
-          "overrideDesc_ja": "<@ba.kw>{attack@max_target}</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>{value:0%}</>減衰し、敵を一定時間<$ba.sluggish>足止め</>"
+          "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>4</>个敌人间跳跃，每次跳跃伤害降低<@ba.kw>10%</>并造成一定时间<$ba.sluggish>停顿 (0.8s)</>",
+          "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>4</> enemies. Each jump deals <@ba.kw>10%</> less damage and inflicts a short <$ba.sluggish>Slow (0.8s)</>",
+          "overrideDesc_ja": "<@ba.kw>4</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>10%</>減衰し、敵を一定時間<$ba.sluggish>足止め (0.8秒)</>"
         },
         {
           "resKey": null,
@@ -1604,7 +1603,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["no_block"],
       "blackboard": [
         {
           "key": "attack@max_target",
@@ -1627,7 +1626,7 @@
           "value": 1.29
         },
         {
-          "key": "sp",
+          "key": "sp_gain",
           "value": 1.0
         }
       ]
@@ -1646,9 +1645,9 @@
           "addDesc_zh": null,
           "addDesc_en": null,
           "addDesc_ja": null,
-          "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>{attack@max_target}</>个敌人间跳跃，每次跳跃伤害<@ba.kw>不再降低</>并造成短暂的<$ba.sluggish>停顿</>",
-          "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>{attack@max_target}</> enemies. Each jump <@ba.kw>no longer deals less damage</> and inflicts a brief <$ba.sluggish>Slow</>",
-          "overrideDesc_ja": "<@ba.kw>{attack@max_target}</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>減衰しなくなり</>、敵を一瞬<$ba.sluggish>足止め</>"
+          "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>4</>个敌人间跳跃，每次跳跃伤害<@ba.kw>不再降低</>并造成短暂的<$ba.sluggish>停顿</>",
+          "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>4</> enemies. Each jump <@ba.kw>no longer deals less damage</> and inflicts a brief <$ba.sluggish>Slow</>",
+          "overrideDesc_ja": "<@ba.kw>4</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>減衰しなくなり</>、敵を一瞬<$ba.sluggish>足止め</>"
         },
         {
           "resKey": null,
@@ -1705,9 +1704,9 @@
           "resKey": "chen_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "技能造成的伤害提升<@ba.vup>{value:0%}</>",
-          "addDesc_en": "Deals <@ba.vup>{value:0%}</> more damage with skills",
-          "addDesc_ja": "スキルの与ダメージ<@ba.vup>+{value:0%}</>",
+          "addDesc_zh": "技能造成的伤害提升<@ba.vup>10%</>",
+          "addDesc_en": "Deals <@ba.vup>10%</> more damage with skills",
+          "addDesc_ja": "スキルの与ダメージ<@ba.vup>+10%</>",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -1763,7 +1762,7 @@
           "value": 3.0
         },
         {
-          "key": "sp",
+          "key": "ally_sp_gain",
           "value": 1.0
         },
         {
@@ -1771,7 +1770,7 @@
           "value": 3.0
         },
         {
-          "key": "sp",
+          "key": "sp_gain",
           "value": 1.0
         }
       ]
@@ -1787,9 +1786,9 @@
           "resKey": "tachak_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "技能造成的伤害提升<@ba.vup>{value:0%}</>",
-          "addDesc_en": "Deals <@ba.vup>{value:0%}</> more damage with skills",
-          "addDesc_ja": "スキルの与ダメージ<@ba.vup>+{value:0%}</>",
+          "addDesc_zh": "技能造成的伤害提升<@ba.vup>10%</>",
+          "addDesc_en": "Deals <@ba.vup>10%</> more damage with skills",
+          "addDesc_ja": "スキルの与ダメージ<@ba.vup>+10%</>",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -1853,9 +1852,9 @@
           "resKey": "bibeak_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "技能造成的伤害提升<@ba.vup>{value:0%}</>",
-          "addDesc_en": "Deals <@ba.vup>{value:0%}</> more damage with skills",
-          "addDesc_ja": "スキルの与ダメージ<@ba.vup>+{value:0%}</>",
+          "addDesc_zh": "技能造成的伤害提升<@ba.vup>10%</>",
+          "addDesc_en": "Deals <@ba.vup>10%</> more damage with skills",
+          "addDesc_ja": "スキルの与ダメージ<@ba.vup>+10%</>",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -1935,9 +1934,9 @@
           "resKey": "cutter_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "攻击时无视敌人<@ba.vup>{def_penetrate_fixed}</>点的防御力",
-          "addDesc_en": "Attacks ignore <@ba.vup>{def_penetrate_fixed}</> DEF",
-          "addDesc_ja": "攻撃時、敵の防御力を<@ba.vup>{def_penetrate_fixed}</>無視",
+          "addDesc_zh": "攻击时无视敌人<@ba.vup>70</>点的防御力",
+          "addDesc_en": "Attacks ignore <@ba.vup>70</> DEF",
+          "addDesc_ja": "攻撃時、敵の防御力を<@ba.vup>70</>無視",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -1973,7 +1972,7 @@
           "value": 70.0
         },
         {
-          "key": "sp",
+          "key": "sp_gain",
           "value": 1.0
         },
         {
@@ -1996,9 +1995,9 @@
           "addDesc_zh": null,
           "addDesc_en": null,
           "addDesc_ja": null,
-          "overrideDesc_zh": "击杀敌人后获得<@ba.vup>{cost:0}</>点部署费用，撤退时返还<@ba.kw>该次</>部署费用",
-          "overrideDesc_en": "Generates <@ba.vup>{cost:0}</> DP after this unit defeats an enemy; Refunds the <@ba.kw>current</> DP Cost when retreated",
-          "overrideDesc_ja": "敵を倒す度所持コスト<@ba.vup>+{cost:0}</>\n撤退時に<@ba.kw>今回</>の配置時のコストを返却"
+          "overrideDesc_zh": "击杀敌人后获得<@ba.vup>2</>点部署费用，撤退时返还<@ba.kw>该次</>部署费用",
+          "overrideDesc_en": "Generates <@ba.vup>2</> DP after this unit defeats an enemy; Refunds the <@ba.kw>current</> DP Cost when retreated",
+          "overrideDesc_ja": "敵を倒す度所持コスト<@ba.vup>+2</>\n撤退時に<@ba.kw>今回</>の配置時のコストを返却"
         },
         {
           "resKey": "bpipe_equip_1_3_p1",
@@ -2070,9 +2069,9 @@
           "addDesc_zh": null,
           "addDesc_en": null,
           "addDesc_ja": null,
-          "overrideDesc_zh": "击杀敌人后获得<@ba.vup>{cost:0}</>点部署费用，撤退时返还<@ba.kw>该次</>部署费用",
-          "overrideDesc_en": "Generates <@ba.vup>{cost:0}</> DP after this unit defeats an enemy; Refunds the <@ba.kw>current</> DP Cost when retreated",
-          "overrideDesc_ja": "敵を倒す度所持コスト<@ba.vup>+{cost:0}</>\n撤退時に<@ba.kw>今回</>の配置時のコストを返却"
+          "overrideDesc_zh": "击杀敌人后获得<@ba.vup>2</>点部署费用，撤退时返还<@ba.kw>该次</>部署费用",
+          "overrideDesc_en": "Generates <@ba.vup>2</> DP after this unit defeats an enemy; Refunds the <@ba.kw>current</> DP Cost when retreated",
+          "overrideDesc_ja": "敵を倒す度所持コスト<@ba.vup>+2</>\n撤退時に<@ba.kw>今回</>の配置時のコストを返却"
         },
         {
           "resKey": "grani_equip_1_3_p1",
@@ -2110,7 +2109,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["phys_evasion"],
+      "tags": [],
       "blackboard": [
         {
           "key": "cost",
@@ -2122,7 +2121,8 @@
         },
         {
           "key": "phys_evasion",
-          "value": 0.35
+          "value": 0.35,
+          "condition": "pioneer"
         }
       ]
     }
@@ -2140,9 +2140,9 @@
           "addDesc_zh": null,
           "addDesc_en": null,
           "addDesc_ja": null,
-          "overrideDesc_zh": "击杀敌人后获得<@ba.vup>{cost:0}</>点部署费用，撤退时返还<@ba.kw>该次</>部署费用",
-          "overrideDesc_en": "Generates <@ba.vup>{cost:0}</> DP after this unit defeats an enemy; Refunds the <@ba.kw>current</> DP Cost when retreated",
-          "overrideDesc_ja": "敵を倒す度所持コスト<@ba.vup>+{cost:0}</>\n撤退時に<@ba.kw>今回</>の配置時のコストを返却"
+          "overrideDesc_zh": "击杀敌人后获得<@ba.vup>2</>点部署费用，撤退时返还<@ba.kw>该次</>部署费用",
+          "overrideDesc_en": "Generates <@ba.vup>2</> DP after this unit defeats an enemy; Refunds the <@ba.kw>current</> DP Cost when retreated",
+          "overrideDesc_ja": "敵を倒す度所持コスト<@ba.vup>+2</>\n撤退時に<@ba.kw>今回</>の配置時のコストを返却"
         },
         {
           "resKey": "wildmn_equip_1_3_p1",
@@ -2207,9 +2207,9 @@
           "resKey": null,
           "target": "DISPLAY",
           "isToken": false,
-          "addDesc_zh": "攻击生命值低于<@ba.vup>{hp_ratio:0%}</>的敌人时攻击力提升至<@ba.vup>{atk_scale:0%}</>",
-          "addDesc_en": "When attacking enemies with less than <@ba.vup>{hp_ratio:0%}</> of their max HP, increase ATK to <@ba.vup>{atk_scale:0%}</>",
-          "addDesc_ja": "HPが最大値の<@ba.vup>{hp_ratio:0%}</>未満の敵を攻撃時、攻撃力が<@ba.vup>{atk_scale:0%}</>まで上昇",
+          "addDesc_zh": "攻击生命值低于<@ba.vup>40%</>的敌人时攻击力提升至<@ba.vup>115%</>",
+          "addDesc_en": "When attacking enemies with less than <@ba.vup>40%</> of their max HP, increase ATK to <@ba.vup>115%</>",
+          "addDesc_ja": "HPが最大値の<@ba.vup>40%</>未満の敵を攻撃時、攻撃力が<@ba.vup>115%</>まで上昇",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -2293,9 +2293,9 @@
           "resKey": null,
           "target": "DISPLAY",
           "isToken": false,
-          "addDesc_zh": "攻击生命值低于<@ba.vup>{hp_ratio:0%}</>的敌人时攻击力提升至<@ba.vup>{atk_scale:0%}</>",
-          "addDesc_en": "When attacking enemies with less than <@ba.vup>{hp_ratio:0%}</> of their max HP, increase ATK to <@ba.vup>{atk_scale:0%}</>",
-          "addDesc_ja": "HPが最大値の<@ba.vup>{hp_ratio:0%}</>未満の敵を攻撃時、攻撃力が<@ba.vup>{atk_scale:0%}</>まで上昇",
+          "addDesc_zh": "攻击生命值低于<@ba.vup>40%</>的敌人时攻击力提升至<@ba.vup>115%</>",
+          "addDesc_en": "When attacking enemies with less than <@ba.vup>40%</> of their max HP, increase ATK to <@ba.vup>115%</>",
+          "addDesc_ja": "HPが最大値の<@ba.vup>40%</>未満の敵を攻撃時、攻撃力が<@ba.vup>115%</>まで上昇",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -2379,9 +2379,9 @@
           "resKey": "nearl2_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "攻击被阻挡的敌人时攻击力提升至<@ba.vup>{atk_scale:0%}</>",
-          "addDesc_en": "Increases ATK to <@ba.vup>{atk_scale:0%}</> when attacking blocked enemies",
-          "addDesc_ja": "ブロックされている敵を攻撃時、攻撃力が<@ba.vup>{atk_scale:0%}</>まで上昇",
+          "addDesc_zh": "攻击被阻挡的敌人时攻击力提升至<@ba.vup>115%</>",
+          "addDesc_en": "Increases ATK to <@ba.vup>115%</> when attacking blocked enemies",
+          "addDesc_ja": "ブロックされている敵を攻撃時、攻撃力が<@ba.vup>115%</>まで上昇",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -2448,9 +2448,9 @@
           "resKey": "skadi_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "被击倒时不撤退且回复所有生命但生命上限<@ba.vdown>-{value:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>（单次部署只触发1次）",
-          "addDesc_en": "When defeated, does not retreat and recovers all HP instead. However, Max HP <@ba.vdown>-{value:0%}</> and ASPD <@ba.vup>+{attack_speed}</> (Can only activate once every deployment)",
-          "addDesc_ja": "致命的なダメージを受けても撤退せず、最大HP<@ba.vdown>-{value:0%}</>、HPが全回復して、攻撃速度<@ba.vup>+{attack_speed}</>（1回の配置につき、1回のみ発動可能）  ",
+          "addDesc_zh": "被击倒时不撤退且回复所有生命但生命上限<@ba.vdown>-60%</>，攻击速度<@ba.vup>+30</>（单次部署只触发1次）",
+          "addDesc_en": "When defeated, does not retreat and recovers all HP instead. However, Max HP <@ba.vdown>-60%</> and ASPD <@ba.vup>+30</> (Can only activate once every deployment)",
+          "addDesc_ja": "致命的なダメージを受けても撤退せず、最大HP<@ba.vdown>-60%</>、HPが全回復して、攻撃速度<@ba.vup>+30</>（1回の配置につき、1回のみ発動可能）  ",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -2479,7 +2479,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["revive", "abyssal"],
+      "tags": ["revive", "abyssal", "squad_effect"],
       "blackboard": [
         {
           "key": "attack_speed",
@@ -2498,12 +2498,14 @@
           "value": 0.6
         },
         {
-          "key": "atk",
-          "value": 0.24
+          "key": "ally_atk",
+          "value": 0.24,
+          "condition": "group:abyssal"
         },
         {
-          "key": "max_hp",
-          "value": 0.2
+          "key": "ally_max_hp",
+          "value": 0.2,
+          "condition": "group:abyssal"
         }
       ]
     }
@@ -2518,9 +2520,9 @@
           "resKey": "flameb_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "被击倒时不撤退且回复所有生命但生命上限<@ba.vdown>-{value:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>（单次部署只触发1次）",
-          "addDesc_en": "When defeated, does not retreat and recovers all HP instead. However, Max HP <@ba.vdown>-{value:0%}</> and ASPD <@ba.vup>+{attack_speed}</> (Can only activate once every deployment)",
-          "addDesc_ja": "致命的なダメージを受けても撤退せず、最大HP<@ba.vdown>-{value:0%}</>、HPが全回復して、攻撃速度<@ba.vup>+{attack_speed}</>（1回の配置につき、1回のみ発動可能）  ",
+          "addDesc_zh": "被击倒时不撤退且回复所有生命但生命上限<@ba.vdown>-60%</>，攻击速度<@ba.vup>+30</>（单次部署只触发1次）",
+          "addDesc_en": "When defeated, does not retreat and recovers all HP instead. However, Max HP <@ba.vdown>-60%</> and ASPD <@ba.vup>+30</> (Can only activate once every deployment)",
+          "addDesc_ja": "致命的なダメージを受けても撤退せず、最大HP<@ba.vdown>-60%</>、HPが全回復して、攻撃速度<@ba.vup>+30</>（1回の配置につき、1回のみ発動可能）  ",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -2588,9 +2590,9 @@
           "resKey": "franka_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "攻击被阻挡的敌人时攻击力提升至<@ba.vup>{atk_scale:0%}</>",
-          "addDesc_en": "Increases ATK to <@ba.vup>{atk_scale:0%}</> when attacking blocked enemies",
-          "addDesc_ja": "ブロックされている敵を攻撃時、攻撃力が<@ba.vup>{atk_scale:0%}</>まで上昇",
+          "addDesc_zh": "攻击被阻挡的敌人时攻击力提升至<@ba.vup>115%</>",
+          "addDesc_en": "Increases ATK to <@ba.vup>115%</> when attacking blocked enemies",
+          "addDesc_ja": "ブロックされている敵を攻撃時、攻撃力が<@ba.vup>115%</>まで上昇",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -2619,11 +2621,15 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["def_penetrate"],
+      "tags": [],
       "blackboard": [
         {
           "key": "atk_scale",
           "value": 1.15
+        },
+        {
+          "key": "def_penetrate",
+          "value": 1
         },
         {
           "key": "prob",
@@ -2642,9 +2648,9 @@
           "resKey": "peacok_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "攻击被阻挡的敌人时攻击力提升至<@ba.vup>{atk_scale:0%}</>",
-          "addDesc_en": "Increases ATK to <@ba.vup>{atk_scale:0%}</> when attacking blocked enemies",
-          "addDesc_ja": "ブロックされている敵を攻撃時、攻撃力が<@ba.vup>{atk_scale:0%}</>まで上昇",
+          "addDesc_zh": "攻击被阻挡的敌人时攻击力提升至<@ba.vup>115%</>",
+          "addDesc_en": "Increases ATK to <@ba.vup>115%</> when attacking blocked enemies",
+          "addDesc_ja": "ブロックされている敵を攻撃時、攻撃力が<@ba.vup>115%</>まで上昇",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -2704,9 +2710,9 @@
           "resKey": "gyuki_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "被击倒时不撤退且回复所有生命但生命上限<@ba.vdown>-{value:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>（单次部署只触发1次）",
-          "addDesc_en": "When defeated, does not retreat and recovers all HP instead. However, Max HP <@ba.vdown>-{value:0%}</> and ASPD <@ba.vup>+{attack_speed}</> (Can only activate once every deployment)",
-          "addDesc_ja": "致命的なダメージを受けても撤退せず、最大HP<@ba.vdown>-{value:0%}</>、HPが全回復して、攻撃速度<@ba.vup>+{attack_speed}</>（1回の配置につき、1回のみ発動可能）  ",
+          "addDesc_zh": "被击倒时不撤退且回复所有生命但生命上限<@ba.vdown>-60%</>，攻击速度<@ba.vup>+30</>（单次部署只触发1次）",
+          "addDesc_en": "When defeated, does not retreat and recovers all HP instead. However, Max HP <@ba.vdown>-60%</> and ASPD <@ba.vup>+30</> (Can only activate once every deployment)",
+          "addDesc_ja": "致命的なダメージを受けても撤退せず、最大HP<@ba.vdown>-60%</>、HPが全回復して、攻撃速度<@ba.vup>+30</>（1回の配置につき、1回のみ発動可能）  ",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -2871,7 +2877,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["infected"],
       "blackboard": [
         {
           "key": "interval",
@@ -2929,7 +2935,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["target_air"],
+      "tags": [],
       "blackboard": [
         {
           "key": "interval",
@@ -2961,12 +2967,12 @@
           "resKey": "cqbw_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "攻击被阻挡的敌人时攻击力提升至<@ba.kw>{atk_scale:0%}</>",
-          "addDesc_en": "Increases ATK to <@ba.kw>{atk_scale:0%}</> when attacking blocked enemies",
-          "addDesc_ja": "ブロックされている敵を攻撃時、攻撃力が<@ba.kw>{atk_scale:0%}</>まで上昇",
-          "overrideDesc_zh": "攻击造成<@ba.kw>群体物理伤害</>",
-          "overrideDesc_en": "Deals <@ba.kw>AOE Physical damage</>",
-          "overrideDesc_ja": "敵に<@ba.kw>範囲物理ダメージ</>を与える"
+          "addDesc_zh": "攻击被阻挡的敌人时攻击力提升至<@ba.kw>110%</>",
+          "addDesc_en": "Increases ATK to <@ba.kw>110%</> when attacking blocked enemies",
+          "addDesc_ja": "ブロックされている敵を攻撃時、攻撃力が<@ba.kw>110%</>まで上昇",
+          "overrideDesc_zh": null,
+          "overrideDesc_en": null,
+          "overrideDesc_ja": null
         },
         {
           "resKey": "token_cqbw_equip_1_3_p1",
@@ -3015,7 +3021,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["stun"],
       "blackboard": [
         {
           "key": "atk_scale",
@@ -3030,11 +3036,7 @@
           "value": 1.27
         },
         {
-          "key": "sp",
-          "value": 1.0
-        },
-        {
-          "key": "sp",
+          "key": "sp_gain",
           "value": 1.0
         }
       ]
@@ -3050,12 +3052,12 @@
           "resKey": "phenxi_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "攻击时无视敌人<@ba.vup>{def_penetrate_fixed}</>点的防御力",
-          "addDesc_en": "Attacks ignore <@ba.vup>{def_penetrate_fixed}</> DEF",
-          "addDesc_ja": "攻撃時、敵の防御力を<@ba.vup>{def_penetrate_fixed}</>無視",
-          "overrideDesc_zh": "攻击造成<@ba.kw>群体物理伤害</>",
-          "overrideDesc_en": "Deals <@ba.kw>AOE Physical damage</>",
-          "overrideDesc_ja": "敵に<@ba.kw>範囲物理ダメージ</>を与える"
+          "addDesc_zh": "攻击时无视敌人<@ba.vup>100</>点的防御力",
+          "addDesc_en": "Attacks ignore <@ba.vup>100</> DEF",
+          "addDesc_ja": "攻撃時、敵の防御力を<@ba.vup>100</>無視",
+          "overrideDesc_zh": null,
+          "overrideDesc_en": null,
+          "overrideDesc_ja": null
         },
         {
           "resKey": "phenxi_equip_1_3_p2",
@@ -3108,12 +3110,12 @@
           "resKey": "meteo_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "攻击时无视敌人<@ba.vup>{def_penetrate_fixed}</>点的防御力",
-          "addDesc_en": "Attacks ignore <@ba.vup>{def_penetrate_fixed}</> DEF",
-          "addDesc_ja": "攻撃時、敵の防御力を<@ba.vup>{def_penetrate_fixed}</>無視",
-          "overrideDesc_zh": "攻击造成<@ba.kw>群体物理伤害</>",
-          "overrideDesc_en": "Deals <@ba.kw>AOE Physical damage</>",
-          "overrideDesc_ja": "敵に<@ba.kw>範囲物理ダメージ</>を与える"
+          "addDesc_zh": "攻击时无视敌人<@ba.vup>100</>点的防御力",
+          "addDesc_en": "Attacks ignore <@ba.vup>100</> DEF",
+          "addDesc_ja": "攻撃時、敵の防御力を<@ba.vup>100</>無視",
+          "overrideDesc_zh": null,
+          "overrideDesc_en": null,
+          "overrideDesc_ja": null
         },
         {
           "resKey": null,
@@ -3166,12 +3168,12 @@
           "resKey": "sesa_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "攻击被阻挡的敌人时攻击力提升至<@ba.kw>{atk_scale:0%}</>",
-          "addDesc_en": "Increases ATK to <@ba.kw>{atk_scale:0%}</> when attacking blocked enemies",
-          "addDesc_ja": "ブロックされている敵を攻撃時、攻撃力が<@ba.kw>{atk_scale:0%}</>まで上昇",
-          "overrideDesc_zh": "攻击造成<@ba.kw>群体物理伤害</>",
-          "overrideDesc_en": "Deals <@ba.kw>AOE Physical damage</>",
-          "overrideDesc_ja": "敵に<@ba.kw>範囲物理ダメージ</>を与える"
+          "addDesc_zh": "攻击被阻挡的敌人时攻击力提升至<@ba.kw>110%</>",
+          "addDesc_en": "Increases ATK to <@ba.kw>110%</> when attacking blocked enemies",
+          "addDesc_ja": "ブロックされている敵を攻撃時、攻撃力が<@ba.kw>110%</>まで上昇",
+          "overrideDesc_zh": null,
+          "overrideDesc_en": null,
+          "overrideDesc_ja": null
         },
         {
           "resKey": null,
@@ -3220,12 +3222,12 @@
           "resKey": "yuki_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "攻击时无视敌人<@ba.vup>{def_penetrate_fixed}</>点的防御力",
-          "addDesc_en": "Attacks ignore <@ba.vup>{def_penetrate_fixed}</> DEF",
-          "addDesc_ja": "攻撃時、敵の防御力を<@ba.vup>{def_penetrate_fixed}</>無視",
-          "overrideDesc_zh": "攻击造成<@ba.kw>群体物理伤害</>",
-          "overrideDesc_en": "Deals <@ba.kw>AOE Physical damage</>",
-          "overrideDesc_ja": "敵に<@ba.kw>範囲物理ダメージ</>を与える"
+          "addDesc_zh": "攻击时无视敌人<@ba.vup>100</>点的防御力",
+          "addDesc_en": "Attacks ignore <@ba.vup>100</> DEF",
+          "addDesc_ja": "攻撃時、敵の防御力を<@ba.vup>100</>無視",
+          "overrideDesc_zh": null,
+          "overrideDesc_en": null,
+          "overrideDesc_ja": null
         },
         {
           "resKey": "yuki_equip_1_3_p2",
@@ -3285,9 +3287,9 @@
           "addDesc_zh": "攻击范围<@ba.kw>扩大</>",
           "addDesc_en": "Attack Range <@ba.kw>expands</>",
           "addDesc_ja": "攻撃範囲<@ba.kw>拡大</>",
-          "overrideDesc_zh": "攻击造成<@ba.kw>群体法术伤害</>",
-          "overrideDesc_en": "Deals <@ba.kw>AOE Arts damage</>",
-          "overrideDesc_ja": "敵に<@ba.kw>範囲術ダメージ</>を与える"
+          "overrideDesc_zh": null,
+          "overrideDesc_en": null,
+          "overrideDesc_ja": null
         },
         {
           "resKey": "dusk_equip_1_3_p1",
@@ -3351,9 +3353,9 @@
           "addDesc_zh": "部署费用<@ba.kw>减少</>",
           "addDesc_en": "<@ba.kw>Reduces</> Deployment Cost",
           "addDesc_ja": "配置コスト<@ba.kw>減少</>",
-          "overrideDesc_zh": "攻击造成<@ba.kw>群体法术伤害</>",
-          "overrideDesc_en": "Deals <@ba.kw>AOE Arts damage</>",
-          "overrideDesc_ja": "敵に<@ba.kw>範囲術ダメージ</>を与える"
+          "overrideDesc_zh": null,
+          "overrideDesc_en": null,
+          "overrideDesc_ja": null
         },
         {
           "resKey": "mostma_equip_1_3_p1",
@@ -3383,7 +3385,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["global_move_speed_down"],
       "blackboard": [
         {
           "key": "move_speed_down",
@@ -3409,9 +3411,9 @@
           "addDesc_zh": "攻击范围<@ba.kw>扩大</>",
           "addDesc_en": "Attack Range <@ba.kw>expands</>",
           "addDesc_ja": "攻撃範囲<@ba.kw>拡大</>",
-          "overrideDesc_zh": "攻击造成<@ba.kw>群体法术伤害</>",
-          "overrideDesc_en": "Deals <@ba.kw>AOE Arts damage</>",
-          "overrideDesc_ja": "敵に<@ba.kw>範囲術ダメージ</>を与える"
+          "overrideDesc_zh": null,
+          "overrideDesc_en": null,
+          "overrideDesc_ja": null
         },
         {
           "resKey": "lava2_equip_1_3_p1",
@@ -3449,7 +3451,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["sp"],
+      "tags": [],
       "blackboard": [
         {
           "key": "lava2_t_1[ally].sp",
@@ -3475,9 +3477,9 @@
           "addDesc_zh": "部署费用<@ba.kw>减少</>",
           "addDesc_en": "<@ba.kw>Reduces</> Deployment Cost",
           "addDesc_ja": "配置コスト<@ba.kw>減少</>",
-          "overrideDesc_zh": "攻击造成<@ba.kw>群体法术伤害</>",
-          "overrideDesc_en": "Deals <@ba.kw>AOE Arts damage</>",
-          "overrideDesc_ja": "敵に<@ba.kw>範囲術ダメージ</>を与える"
+          "overrideDesc_zh": null,
+          "overrideDesc_en": null,
+          "overrideDesc_ja": null
         },
         {
           "resKey": null,
@@ -3529,9 +3531,9 @@
           "addDesc_zh": "攻击范围<@ba.kw>扩大</>",
           "addDesc_en": "Attack Range <@ba.kw>expands</>",
           "addDesc_ja": "攻撃範囲<@ba.kw>拡大</>",
-          "overrideDesc_zh": "攻击造成<@ba.kw>群体法术伤害</>",
-          "overrideDesc_en": "Deals <@ba.kw>AOE Arts damage</>",
-          "overrideDesc_ja": "敵に<@ba.kw>範囲術ダメージ</>を与える"
+          "overrideDesc_zh": null,
+          "overrideDesc_en": null,
+          "overrideDesc_ja": null
         },
         {
           "resKey": "lionhd_equip_1_3_p1",
@@ -3595,9 +3597,9 @@
           "addDesc_zh": "攻击范围<@ba.kw>扩大</>",
           "addDesc_en": "Attack Range <@ba.kw>expands</>",
           "addDesc_ja": "攻撃範囲<@ba.kw>拡大</>",
-          "overrideDesc_zh": "攻击造成<@ba.kw>群体法术伤害</>",
-          "overrideDesc_en": "Deals <@ba.kw>AOE Arts damage</>",
-          "overrideDesc_ja": "敵に<@ba.kw>範囲術ダメージ</>を与える"
+          "overrideDesc_zh": null,
+          "overrideDesc_en": null,
+          "overrideDesc_ja": null
         },
         {
           "resKey": "fmout_equip_1_3_p1",
@@ -3665,9 +3667,9 @@
           "addDesc_zh": "部署费用<@ba.kw>减少</>",
           "addDesc_en": "<@ba.kw>Reduces</> Deployment Cost",
           "addDesc_ja": "配置コスト<@ba.kw>減少</>",
-          "overrideDesc_zh": "攻击造成<@ba.kw>群体法术伤害</>",
-          "overrideDesc_en": "Deals <@ba.kw>AOE Arts damage</>",
-          "overrideDesc_ja": "敵に<@ba.kw>範囲術ダメージ</>を与える"
+          "overrideDesc_zh": null,
+          "overrideDesc_en": null,
+          "overrideDesc_ja": null
         },
         {
           "resKey": null,
@@ -3716,9 +3718,9 @@
           "resKey": null,
           "target": "DISPLAY",
           "isToken": false,
-          "addDesc_zh": "再部署时间<@ba.kw>减少</>",
-          "addDesc_en": "Redeployment Time <@ba.kw>reduced</>",
-          "addDesc_ja": "再配置までの時間が<@ba.kw>短い</>",
+          "addDesc_zh": "再部署时间<@ba.kw>减少(-25s)</>",
+          "addDesc_en": "Redeployment Time <@ba.kw>reduced (-25s)</>",
+          "addDesc_ja": "再配置までの時間が<@ba.kw>短い(-25秒)</>",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -3751,11 +3753,12 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["sniper"],
+      "tags": ["sniper", "squad_effect", "fast_redeploy"],
       "blackboard": [
         {
-          "key": "atk",
-          "value": 0.15
+          "key": "ally_atk",
+          "value": 0.15,
+          "condition": "sniper"
         }
       ]
     }
@@ -3770,9 +3773,9 @@
           "resKey": null,
           "target": "DISPLAY",
           "isToken": false,
-          "addDesc_zh": "再部署时间<@ba.kw>减少</>",
-          "addDesc_en": "Redeployment Time <@ba.kw>reduced</>",
-          "addDesc_ja": "再配置までの時間が<@ba.kw>短い</>",
+          "addDesc_zh": "再部署时间<@ba.kw>减少(-25s)</>",
+          "addDesc_en": "Redeployment Time <@ba.kw>reduced(-25s)</>",
+          "addDesc_ja": "再配置までの時間が<@ba.kw>短い(-25秒)</>",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -3832,9 +3835,9 @@
           "resKey": null,
           "target": "DISPLAY",
           "isToken": false,
-          "addDesc_zh": "再部署时间<@ba.kw>减少</>",
-          "addDesc_en": "Redeployment Time <@ba.kw>reduced</>",
-          "addDesc_ja": "再配置までの時間が<@ba.kw>短い</>",
+          "addDesc_zh": "再部署时间<@ba.kw>减少(-25s)</>",
+          "addDesc_en": "Redeployment Time <@ba.kw>reduced(-25s)</>",
+          "addDesc_ja": "再配置までの時間が<@ba.kw>短い(-25秒)</>",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -3963,9 +3966,9 @@
           "addDesc_zh": null,
           "addDesc_en": null,
           "addDesc_ja": null,
-          "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长</>的<$ba.sluggish>停顿</>",
-          "overrideDesc_en": "Attacks deal <@ba.kw>Arts damage</>, and <$ba.sluggish>Slow</> the enemy for a <@ba.kw>moderate</> period of time",
-          "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与え\n攻撃時、敵を<@ba.kw>やや長い間</><$ba.sluggish>足止め</>"
+          "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长</>的<$ba.sluggish>停顿(1.2s)</>",
+          "overrideDesc_en": "Attacks deal <@ba.kw>Arts damage</>, and <$ba.sluggish>Slow</> the enemy for a <@ba.kw>moderate (1.2s)</> period of time",
+          "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与え\n攻撃時、敵を<@ba.kw>やや長い間(1.2秒)</><$ba.sluggish>足止め</>"
         },
         {
           "resKey": null,
@@ -4083,9 +4086,9 @@
           "addDesc_zh": null,
           "addDesc_en": null,
           "addDesc_ja": null,
-          "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长</>的<$ba.sluggish>停顿</>",
-          "overrideDesc_en": "Attacks deal <@ba.kw>Arts damage</>, and <$ba.sluggish>Slow</> the enemy for a <@ba.kw>moderate</> period of time",
-          "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与え\n攻撃時、敵を<@ba.kw>やや長い間</><$ba.sluggish>足止め</>"
+          "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长</>的<$ba.sluggish>停顿(1.2s)</>",
+          "overrideDesc_en": "Attacks deal <@ba.kw>Arts damage</>, and <$ba.sluggish>Slow</> the enemy for a <@ba.kw>moderate (1.2s)</> period of time",
+          "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与え\n攻撃時、敵を<@ba.kw>やや長い間(1.2秒)</><$ba.sluggish>足止め</>"
         },
         {
           "resKey": "glassb_equip_1_3_p1",
@@ -4185,19 +4188,21 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["supporter"],
+      "tags": ["support"],
       "blackboard": [
         {
           "key": "sp_recovery_per_sec",
           "value": 0.2
         },
         {
-          "key": "atk",
-          "value": 0.11
+          "key": "ally_atk",
+          "value": 0.11,
+          "condition": "support"
         },
         {
-          "key": "attack_speed",
-          "value": 5.0
+          "key": "ally_aspd",
+          "value": 5.0,
+          "condition": "support"
         }
       ]
     }
@@ -4215,9 +4220,9 @@
           "addDesc_zh": null,
           "addDesc_en": null,
           "addDesc_ja": null,
-          "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长</>的<$ba.sluggish>停顿</>",
-          "overrideDesc_en": "Attacks deal <@ba.kw>Arts damage</>, and <$ba.sluggish>Slow</> the enemy for a <@ba.kw>moderate</> period of time",
-          "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与え\n攻撃時、敵を<@ba.kw>やや長い間</><$ba.sluggish>足止め</>"
+          "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长(1.2s)</>的<$ba.sluggish>停顿</>",
+          "overrideDesc_en": "Attacks deal <@ba.kw>Arts damage</>, and <$ba.sluggish>Slow</> the enemy for a <@ba.kw>moderate (1.2s)</> period of time",
+          "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与え\n攻撃時、敵を<@ba.kw>やや長い間(1.2秒)</><$ba.sluggish>足止め</>"
         },
         {
           "resKey": null,
@@ -4227,9 +4232,9 @@
           "displayRangeId": false,
           "rangeId": null,
           "talentIndex": 0,
-          "upgradeDesc_zh": "更进一步延长特性<$ba.sluggish>停顿</>的持续时间",
-          "upgradeDesc_en": "Further the duration of<$ba.sluggish>Slow</> caused by the Trait significantly",
-          "upgradeDesc_ja": "特性による<$ba.sluggish>足止め</>効果の効果時間をさらに一層延長"
+          "upgradeDesc_zh": "更进一步延长特性<$ba.sluggish>停顿</>的持续时间(+0.3s)",
+          "upgradeDesc_en": "Further the duration of<$ba.sluggish>Slow</> caused by the Trait significantly (+0.3s)",
+          "upgradeDesc_ja": "特性による<$ba.sluggish>足止め</>効果の効果時間をさらに一層延長(+0.3秒)"
         }
       ],
       "attributeBlackboard": [
@@ -4585,7 +4590,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["resist", "water"],
+      "tags": ["resist", "water", "lower_target_priority"],
       "blackboard": [
         {
           "key": "heal_scale",
@@ -4651,7 +4656,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["resist"],
+      "tags": ["resist", "lower_target_priority"],
       "blackboard": [
         {
           "key": "heal_scale",
@@ -4848,9 +4853,9 @@
           "resKey": "irene_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "攻击时无视敌人<@ba.vup>{def_penetrate_fixed}</>点的防御力",
-          "addDesc_en": "Attacks ignore <@ba.vup>{def_penetrate_fixed}</> DEF",
-          "addDesc_ja": "攻撃時、敵の防御力を<@ba.vup>{def_penetrate_fixed}</>無視",
+          "addDesc_zh": "攻击时无视敌人<@ba.vup>70</>点的防御力",
+          "addDesc_en": "Attacks ignore <@ba.vup>70</> DEF",
+          "addDesc_ja": "攻撃時、敵の防御力を<@ba.vup>70</>無視",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -4906,9 +4911,9 @@
           "resKey": "skadi_equip_2_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "攻击被阻挡的敌人时攻击力提升至<@ba.vup>{atk_scale:0%}</>",
-          "addDesc_en": "Increases ATK to <@ba.vup>{atk_scale:0%}</> when attacking blocked enemies",
-          "addDesc_ja": "ブロックされている敵を攻撃時、攻撃力が<@ba.vup>{atk_scale:0%}</>まで上昇",
+          "addDesc_zh": "攻击被阻挡的敌人时攻击力提升至<@ba.vup>115%</>",
+          "addDesc_en": "Increases ATK to <@ba.vup>115%</> when attacking blocked enemies",
+          "addDesc_ja": "ブロックされている敵を攻撃時、攻撃力が<@ba.vup>115%</>まで上昇",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -4937,7 +4942,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["fast_redeploy"],
       "blackboard": [
         {
           "key": "atk_scale",
@@ -4963,9 +4968,9 @@
           "addDesc_zh": null,
           "addDesc_en": null,
           "addDesc_ja": null,
-          "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>{attack@max_target}</>个敌人间跳跃，每次跳跃伤害<@ba.kw>不再降低</>并造成短暂的<$ba.sluggish>停顿</>",
-          "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>{attack@max_target}</> enemies. Each jump <@ba.kw>no longer deals less damage</> and inflicts a brief <$ba.sluggish>Slow</>",
-          "overrideDesc_ja": "<@ba.kw>{attack@max_target}</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>減衰しなくなり</>、敵を一瞬<$ba.sluggish>足止め</>"
+          "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>4</>个敌人间跳跃，每次跳跃伤害<@ba.kw>不再降低</>并造成短暂的<$ba.sluggish>停顿</>",
+          "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>4</> enemies. Each jump <@ba.kw>no longer deals less damage</> and inflicts a brief <$ba.sluggish>Slow</>",
+          "overrideDesc_ja": "<@ba.kw>4</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>減衰しなくなり</>、敵を一瞬<$ba.sluggish>足止め</>"
         },
         {
           "resKey": null,
@@ -5069,7 +5074,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["ally_sp_gain"],
+      "tags": [],
       "blackboard": [
         {
           "key": "heal_scale",
@@ -5080,7 +5085,7 @@
           "value": 0.5
         },
         {
-          "key": "demkni_e_sp.sp",
+          "key": "ally_sp_gain",
           "value": 2.0
         },
         {
@@ -5131,7 +5136,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["heal_scale"],
+      "tags": [],
       "blackboard": [
         {
           "key": "heal_scale",
@@ -5142,7 +5147,7 @@
           "value": 0.5
         },
         {
-          "key": "heal_scale",
+          "key": "ally_heal_scale",
           "value": 1.17
         }
       ]
@@ -5260,7 +5265,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["damage_resistance"],
+      "tags": [],
       "blackboard": [
         {
           "key": "damage_resistance",
@@ -5271,8 +5276,9 @@
           "value": 1.0
         },
         {
-          "key": "blemsh_e_sp.sp",
-          "value": 3.0
+          "key": "sp_gain",
+          "value": 3.0,
+          "condition": "kazimierz"
         }
       ]
     }
@@ -5656,9 +5662,9 @@
           "resKey": "shotst_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "攻击空中单位时攻击力提升至<@ba.kw>{atk_scale:0%}</>",
-          "addDesc_en": "Increases ATK to <@ba.kw>{atk_scale:0%}</> when attacking aerial targets",
-          "addDesc_ja": "飛行ユニットを攻撃時、攻撃力が<@ba.kw>{atk_scale:0%}</>まで上昇",
+          "addDesc_zh": "攻击空中单位时攻击力提升至<@ba.kw>110%</>",
+          "addDesc_en": "Increases ATK to <@ba.kw>110%</> when attacking aerial targets",
+          "addDesc_ja": "飛行ユニットを攻撃時、攻撃力が<@ba.kw>110%</>まで上昇",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -5710,9 +5716,9 @@
           "resKey": "clour_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "攻击空中单位时攻击力提升至<@ba.kw>{atk_scale:0%}</>",
-          "addDesc_en": "Increases ATK to <@ba.kw>{atk_scale:0%}</> when attacking aerial targets",
-          "addDesc_ja": "飛行ユニットを攻撃時、攻撃力が<@ba.kw>{atk_scale:0%}</>まで上昇",
+          "addDesc_zh": "攻击空中单位时攻击力提升至<@ba.kw>110%</>",
+          "addDesc_en": "Increases ATK to <@ba.kw>110%</> when attacking aerial targets",
+          "addDesc_ja": "飛行ユニットを攻撃時、攻撃力が<@ba.kw>110%</>まで上昇",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -5764,9 +5770,9 @@
           "resKey": "mm_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "攻击空中单位时攻击力提升至<@ba.kw>{atk_scale:0%}</>",
-          "addDesc_en": "Increases ATK to <@ba.kw>{atk_scale:0%}</> when attacking aerial targets",
-          "addDesc_ja": "飛行ユニットを攻撃時、攻撃力が<@ba.kw>{atk_scale:0%}</>まで上昇",
+          "addDesc_zh": "攻击空中单位时攻击力提升至<@ba.kw>110%</>",
+          "addDesc_en": "Increases ATK to <@ba.kw>110%</> when attacking aerial targets",
+          "addDesc_ja": "飛行ユニットを攻撃時、攻撃力が<@ba.kw>110%</>まで上昇",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -5865,7 +5871,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["dot"],
       "blackboard": [
         {
           "key": "attack_speed",
@@ -5892,9 +5898,9 @@
           "resKey": "platnm_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "攻击空中单位时攻击力提升至<@ba.kw>{atk_scale:0%}</>",
-          "addDesc_en": "Increases ATK to <@ba.kw>{atk_scale:0%}</> when attacking aerial targets",
-          "addDesc_ja": "飛行ユニットを攻撃時、攻撃力が<@ba.kw>{atk_scale:0%}</>まで上昇",
+          "addDesc_zh": "攻击空中单位时攻击力提升至<@ba.kw>110%</>",
+          "addDesc_en": "Increases ATK to <@ba.kw>110%</> when attacking aerial targets",
+          "addDesc_ja": "飛行ユニットを攻撃時、攻撃力が<@ba.kw>110%</>まで上昇",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -6075,7 +6081,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["fast_redeploy"],
       "blackboard": [
         {
           "key": "attack_speed",
@@ -6102,9 +6108,9 @@
           "resKey": "kroos2_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "攻击空中单位时攻击力提升至<@ba.kw>{atk_scale:0%}</>",
-          "addDesc_en": "Increases ATK to <@ba.kw>{atk_scale:0%}</> when attacking aerial targets",
-          "addDesc_ja": "飛行ユニットを攻撃時、攻撃力が<@ba.kw>{atk_scale:0%}</>まで上昇",
+          "addDesc_zh": "攻击空中单位时攻击力提升至<@ba.kw>110%</>",
+          "addDesc_en": "Increases ATK to <@ba.kw>110%</> when attacking aerial targets",
+          "addDesc_ja": "飛行ユニットを攻撃時、攻撃力が<@ba.kw>110%</>まで上昇",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -6165,9 +6171,9 @@
           "resKey": "angel_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "攻击空中单位时攻击力提升至<@ba.kw>{atk_scale:0%}</>",
-          "addDesc_en": "Increases ATK to <@ba.kw>{atk_scale:0%}</> when attacking aerial targets",
-          "addDesc_ja": "飛行ユニットを攻撃時、攻撃力が<@ba.kw>{atk_scale:0%}</>まで上昇",
+          "addDesc_zh": "攻击空中单位时攻击力提升至<@ba.kw>110%</>",
+          "addDesc_en": "Increases ATK to <@ba.kw>110%</> when attacking aerial targets",
+          "addDesc_ja": "飛行ユニットを攻撃時、攻撃力が<@ba.kw>110%</>まで上昇",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -6196,18 +6202,18 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["ally_atk", "ally_max_hp"],
+      "tags": [],
       "blackboard": [
         {
           "key": "atk_scale",
           "value": 1.1
         },
         {
-          "key": "atk",
+          "key": "ally_atk",
           "value": 0.1
         },
         {
-          "key": "max_hp",
+          "key": "ally_max_hp",
           "value": 0.17
         }
       ]
@@ -6277,12 +6283,13 @@
           "value": 8.0
         },
         {
-          "key": "archet_e_t_2.sp",
+          "key": "sp_gain",
           "value": 9.0
         },
         {
-          "key": "sp",
-          "value": 9.0
+          "key": "sp_gain",
+          "value": 9.0,
+          "condition": "shield_break"
         }
       ]
     }
@@ -6351,8 +6358,9 @@
           "value": -5.0
         },
         {
-          "key": "sp",
-          "value": 20.0
+          "key": "sp_gain",
+          "value": 20.0,
+          "condition": "first_deploy"
         }
       ]
     }
@@ -6440,9 +6448,9 @@
           "addDesc_zh": null,
           "addDesc_en": null,
           "addDesc_ja": null,
-          "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>{attack@chain.max_target}</>个敌人间跳跃，每次跳跃伤害<@ba.kw>不再降低</>并造成短暂的<$ba.sluggish>停顿</>",
-          "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>{attack@chain.max_target}</> enemies. Each jump <@ba.kw>no longer deals less damage</> and inflicts a brief <$ba.sluggish>Slow</>",
-          "overrideDesc_ja": "<@ba.kw>{attack@chain.max_target}</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>減衰しなくなり</>、敵を一瞬<$ba.sluggish>足止め</>"
+          "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>4</>个敌人间跳跃，每次跳跃伤害<@ba.kw>不再降低</>并造成短暂的<$ba.sluggish>停顿</>",
+          "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>4</> enemies. Each jump <@ba.kw>no longer deals less damage</> and inflicts a brief <$ba.sluggish>Slow</>",
+          "overrideDesc_ja": "<@ba.kw>4</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>減衰しなくなり</>、敵を一瞬<$ba.sluggish>足止め</>"
         },
         {
           "resKey": null,
@@ -6511,9 +6519,9 @@
           "resKey": "mgllan_equip_2_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "召唤物持有上限<@ba.kw>+{cnt}</>，召唤物部署费用<@ba.kw>减少</>",
-          "addDesc_en": "Can hold <@ba.kw>+{cnt}</> additional summoned units and summoned unit deployment costs are <@ba.kw>reduced</>",
-          "addDesc_ja": "召喚ユニット最大所持数<@ba.kw>+{cnt}</>、召喚ユニットの配置コスト<@ba.kw>減少</>",
+          "addDesc_zh": "召唤物持有上限<@ba.kw>+3</>，召唤物部署费用<@ba.kw>减少</>",
+          "addDesc_en": "Can hold <@ba.kw>+3</> additional summoned units and summoned unit deployment costs are <@ba.kw>reduced</>",
+          "addDesc_ja": "召喚ユニット最大所持数<@ba.kw>+3</>、召喚ユニットの配置コスト<@ba.kw>減少</>",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -6691,7 +6699,8 @@
         },
         {
           "key": "damage_resistance",
-          "value": 0.3
+          "value": 0.3,
+          "condition": "abyssal|seamonster"
         }
       ]
     }
@@ -6870,7 +6879,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["arts", "phys_evasion"],
+      "tags": ["arts"],
       "blackboard": [
         {
           "key": "dist",
@@ -6955,8 +6964,8 @@
           "value": 2.0
         },
         {
-          "key": "move_speed",
-          "value": -0.2
+          "key": "move_speed_down",
+          "value": 0.2
         }
       ]
     }
@@ -7025,8 +7034,8 @@
           "value": 0.64
         },
         {
-          "key": "move_speed",
-          "value": -0.2
+          "key": "move_speed_down",
+          "value": 0.2
         }
       ]
     }
@@ -7095,8 +7104,8 @@
           "value": 0.045
         },
         {
-          "key": "move_speed",
-          "value": -0.2
+          "key": "move_speed_down",
+          "value": 0.2
         }
       ]
     }
@@ -7166,7 +7175,7 @@
           "prob": 0.28
         },
         {
-          "key": "reduce_move_speed",
+          "key": "move_speed_down",
           "value": 0.2
         }
       ]
@@ -7182,9 +7191,9 @@
           "resKey": "fartth_equip_2_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "攻击的敌人未被击倒时自身额外获得<@ba.kw>{sp}</>点技力",
-          "addDesc_en": "If the attacked enemy remains alive, gain <@ba.kw>{sp}</> additional SP",
-          "addDesc_ja": "攻撃時に攻撃対象を倒せなかった場合、追加でSPを<@ba.kw>{sp}</>回復する",
+          "addDesc_zh": "攻击的敌人未被击倒时自身额外获得<@ba.kw>1</>点技力",
+          "addDesc_en": "If the attacked enemy remains alive, gain <@ba.kw>1</> additional SP",
+          "addDesc_ja": "攻撃時に攻撃対象を倒せなかった場合、追加でSPを<@ba.kw>1</>回復する",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -7216,7 +7225,7 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "sp",
+          "key": "sp_gain",
           "value": 1.0
         },
         {
@@ -7279,7 +7288,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["abyssal", "sp_regen"],
+      "tags": ["abyssal", "squad_effect", "ally_sp_regen"],
       "blackboard": [
         {
           "key": "duration",
@@ -7298,8 +7307,9 @@
           "value": 1.0
         },
         {
-          "key": "max_hp",
-          "value": 0.33
+          "key": "ally_max_hp",
+          "value": 0.33,
+          "condition": "abyssal"
         },
         {
           "key": "sp_recovery_per_sec",
@@ -7356,7 +7366,7 @@
           }
         ]
       },
-      "tags": ["summon", "ignore_evasion"],
+      "tags": ["ignore_evasion"],
       "blackboard": [
         {
           "key": "atk_scale",
@@ -7468,7 +7478,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["block_4"],
       "blackboard": [
         {
           "key": "magic_resistance",
@@ -7580,14 +7590,14 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["block_4"],
       "blackboard": [
         {
-          "key": "moeshd_t_1[self].prob",
+          "key": "block_dmg",
           "value": 0.3
         },
         {
-          "key": "moeshd_t_1[aura].prob",
+          "key": "ally_block_dmg",
           "value": 0.15
         }
       ]
@@ -7692,11 +7702,12 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["ally_evasion"],
+      "tags": [],
       "blackboard": [
         {
-          "key": "prob",
-          "value": 0.28
+          "key": "ally_phys_evasion",
+          "value": 0.28,
+          "condition": "ranged"
         }
       ]
     }
@@ -7746,10 +7757,10 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["block_damage"],
+      "tags": ["block_4"],
       "blackboard": [
         {
-          "key": "prob",
+          "key": "block_dmg",
           "value": 0.35
         },
         {
@@ -7808,14 +7819,14 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["shield"],
+      "tags": [],
       "blackboard": [
         {
           "key": "def",
           "value": 0.2
         },
         {
-          "key": "times",
+          "key": "shield",
           "value": 3.0
         },
         {
@@ -7827,8 +7838,9 @@
           "value": 0.07
         },
         {
-          "key": "sp",
-          "value": 3.0
+          "key": "sp_gain",
+          "value": 3.0,
+          "condition": "shield_break"
         },
         {
           "key": "max_stack_cnt",
@@ -8045,12 +8057,14 @@
           "value": 0.2
         },
         {
-          "key": "attack_speed",
-          "value": 12.0
+          "key": "ally_aspd",
+          "value": 12.0,
+          "condition": "kazimierz"
         },
         {
-          "key": "atk",
-          "value": 0.08
+          "key": "ally_atk",
+          "value": 0.08,
+          "condition": "kazimierz"
         }
       ]
     }
@@ -8120,6 +8134,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
+      "target_air": true,
       "tags": ["true"],
       "blackboard": [
         {
@@ -8190,7 +8205,7 @@
           "value": 1.15
         },
         {
-          "key": "def",
+          "key": "ally_def",
           "value": 105.0
         },
         {
@@ -8256,7 +8271,7 @@
           "value": 4.0
         },
         {
-          "key": "heal_scale_2",
+          "key": "heal_scale",
           "value": 1.85
         }
       ]
@@ -8303,7 +8318,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["lower_env_damage"],
+      "tags": ["env", "ally_env"],
       "blackboard": [
         {
           "key": "heal_scale",
@@ -8376,20 +8391,22 @@
           "value": 0.5
         },
         {
-          "key": "bldsk_t_1[self][no].sp",
+          "key": "sp_gain",
           "value": 2.0
         },
         {
-          "key": "bldsk_t_1[rand][no].sp",
+          "key": "ally_sp_gain",
           "value": 2.0
         },
         {
-          "key": "bldsk_t_1[self][ex].sp",
-          "value": 4.0
+          "key": "sp_gain",
+          "value": 4.0,
+          "condition": "elite|boss"
         },
         {
-          "key": "bldsk_t_1[rand][ex].sp",
-          "value": 4.0
+          "key": "ally_sp_gain",
+          "value": 4.0,
+          "condition": "elite|boss"
         }
       ]
     }
@@ -8442,8 +8459,9 @@
           "value": 1.15
         },
         {
-          "key": "attack_speed",
-          "value": 19.0
+          "key": "ally_aspd",
+          "value": 19.0,
+          "condition": "healer"
         }
       ]
     }
@@ -8505,7 +8523,8 @@
         },
         {
           "key": "heal_scale",
-          "value": 1.28
+          "value": 1.28,
+          "condition": "cost_below_10"
         }
       ]
     }
@@ -8558,12 +8577,14 @@
           "value": 1.15
         },
         {
-          "key": "atk",
-          "value": 0.12
+          "key": "ally_atk",
+          "value": 0.12,
+          "condition": "healer"
         },
         {
-          "key": "def",
-          "value": 120.0
+          "key": "ally_def",
+          "value": 120.0,
+          "condition": "healer"
         },
         {
           "key": "duration",
@@ -8643,9 +8664,9 @@
           "addDesc_zh": "部署费用<@ba.kw>减少</>",
           "addDesc_en": "<@ba.kw>Reduces</> Deployment Cost",
           "addDesc_ja": "配置コスト<@ba.kw>減少</>",
-          "overrideDesc_zh": "攻击造成<@ba.kw>群体法术伤害</>",
-          "overrideDesc_en": "Deals <@ba.kw>AOE Arts damage</>",
-          "overrideDesc_ja": "敵に<@ba.kw>範囲術ダメージ</>を与える"
+          "overrideDesc_zh": null,
+          "overrideDesc_en": null,
+          "overrideDesc_ja": null
         },
         {
           "resKey": "dusk_equip_2_3_p2",
@@ -8783,8 +8804,8 @@
           "value": 0.2
         },
         {
-          "key": "attack_speed",
-          "value": 5.0
+          "key": "ally_aspd",
+          "value": 13.0
         }
       ]
     }
@@ -8833,12 +8854,14 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "atk",
-          "value": 0.08
+          "key": "ally_atk",
+          "value": 0.1,
+          "condition": "pioneer"
         },
         {
-          "key": "def",
-          "value": 0.08
+          "key": "ally_def",
+          "value": 0.1,
+          "condition": "pioneer"
         },
         {
           "key": "atk",
@@ -8923,7 +8946,7 @@
           "value": 0.07
         },
         {
-          "key": "prob",
+          "key": "phys_evasion",
           "value": 0.7
         },
         {
@@ -9122,7 +9145,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["ally_respawn_time"],
       "blackboard": [
         {
           "key": "runtime_cost",
@@ -9184,7 +9207,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["lower_cost"],
+      "tags": ["squad_effect", "pioneer"],
       "blackboard": [
         {
           "key": "atk",
@@ -9393,7 +9416,7 @@
           "value": 1.7
         },
         {
-          "key": "def",
+          "key": "def_down",
           "value": -0.25
         },
         {
@@ -9471,8 +9494,9 @@
           "value": 0.06
         },
         {
-          "key": "def",
-          "value": 0.13
+          "key": "ally_def",
+          "value": 0.13,
+          "condition": "tank"
         }
       ]
     }
@@ -9487,9 +9511,9 @@
           "resKey": "lunacu_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "攻击的敌人未被击倒时自身额外获得<@ba.kw>{sp}</>点技力",
-          "addDesc_en": "If the attacked enemy remains alive, gain <@ba.kw>{sp}</> additional SP",
-          "addDesc_ja": "攻撃時に攻撃対象を倒せなかった場合、追加でSPを<@ba.kw>{sp}</>回復する",
+          "addDesc_zh": "攻击的敌人未被击倒时自身额外获得<@ba.kw>1</>点技力",
+          "addDesc_en": "If the attacked enemy remains alive, gain <@ba.kw>1</> additional SP",
+          "addDesc_ja": "攻撃時に攻撃対象を倒せなかった場合、追加でSPを<@ba.kw>1</>回復する",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -9521,7 +9545,7 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "sp",
+          "key": "sp_gain",
           "value": 1.0
         },
         {
@@ -9541,9 +9565,9 @@
           "resKey": "texas2_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "周围四格没有友方干员时攻击力<@ba.kw>+{atk:0%}</>",
-          "addDesc_en": "When there are no allied units in the four adjacent tiles, ATK <@ba.kw>+{atk:0%}</>",
-          "addDesc_ja": "隣接4マス内に味方がいない場合、攻撃力<@ba.kw>+{atk:0%}</>",
+          "addDesc_zh": "周围四格没有友方干员时攻击力<@ba.kw>+10%</>",
+          "addDesc_en": "When there are no allied units in the four adjacent tiles, ATK <@ba.kw>+10%</>",
+          "addDesc_ja": "隣接4マス内に味方がいない場合、攻撃力<@ba.kw>+10%</>",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -9642,7 +9666,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["weight"],
       "blackboard": [
         {
           "key": "atk_scale",
@@ -9786,7 +9810,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["sarkaz"],
       "blackboard": [
         {
           "key": "atk_scale",
@@ -9938,7 +9962,8 @@
         },
         {
           "key": "protect",
-          "value": 0.25
+          "value": 0.25,
+          "condition": "hp_under_50"
         },
         {
           "key": "min_hp_ratio",
@@ -10016,7 +10041,8 @@
         },
         {
           "key": "protect",
-          "value": 0.25
+          "value": 0.25,
+          "condition": "hp_under_50"
         },
         {
           "key": "def",
@@ -10090,7 +10116,8 @@
         },
         {
           "key": "protect",
-          "value": 0.25
+          "value": 0.25,
+          "condition": "hp_under_50"
         },
         {
           "key": "hp_ratio",
@@ -10117,9 +10144,9 @@
           "resKey": "archet_equip_2_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "攻击空中单位时攻击力提升至<@ba.kw>{atk_scale:0%}</>",
-          "addDesc_en": "Increases ATK to <@ba.kw>{atk_scale:0%}</> when attacking aerial targets",
-          "addDesc_ja": "飛行ユニットを攻撃時、攻撃力が<@ba.kw>{atk_scale:0%}</>まで上昇",
+          "addDesc_zh": "攻击空中单位时攻击力提升至<@ba.kw>110%</>",
+          "addDesc_en": "Increases ATK to <@ba.kw>110%</> when attacking aerial targets",
+          "addDesc_ja": "飛行ユニットを攻撃時、攻撃力が<@ba.kw>110%</>まで上昇",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -10171,7 +10198,7 @@
           "value": 2.2
         },
         {
-          "key": "sp",
+          "key": "ally_sp_gain",
           "value": 1.0
         },
         {
@@ -10179,7 +10206,7 @@
           "value": 1.8
         },
         {
-          "key": "sp",
+          "key": "sp_gain",
           "value": 1.0
         }
       ]
@@ -10241,7 +10268,11 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "prob",
+          "key": "phys_evasion",
+          "value": 0.65
+        },
+        {
+          "key": "arts_evasion",
           "value": 0.65
         },
         {
@@ -10300,7 +10331,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["block"],
       "blackboard": [
         {
           "key": "times",
@@ -10323,9 +10354,9 @@
           "resKey": "amgoat_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "无视目标<@ba.kw>{magic_resist_penetrate_fixed}</>点法术抗性",
-          "addDesc_en": "Ignore <@ba.kw>{magic_resist_penetrate_fixed}</> of target's RES",
-          "addDesc_ja": "対象の術耐性を<@ba.kw>{magic_resist_penetrate_fixed}</>無視",
+          "addDesc_zh": "无视目标<@ba.kw>10</>点法术抗性",
+          "addDesc_en": "Ignore <@ba.kw>10</> of target's RES",
+          "addDesc_ja": "対象の術耐性を<@ba.kw>10</>無視",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -10354,15 +10385,16 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["res_penetrate"],
+      "tags": ["res_penetrate", "squad_effect"],
       "blackboard": [
         {
-          "key": "magic_resist_penetrate_fixed",
+          "key": "res_penetrate_fixed",
           "value": 10.0
         },
         {
-          "key": "atk",
-          "value": 0.24
+          "key": "ally_atk",
+          "value": 0.24,
+          "condition": "caster"
         }
       ]
     }
@@ -10377,9 +10409,9 @@
           "resKey": "cerber_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "无视目标<@ba.kw>{magic_resist_penetrate_fixed}</>点法术抗性",
-          "addDesc_en": "Ignore <@ba.kw>{magic_resist_penetrate_fixed}</> of target's RES",
-          "addDesc_ja": "対象の術耐性を<@ba.kw>{magic_resist_penetrate_fixed}</>無視",
+          "addDesc_zh": "无视目标<@ba.kw>10</>点法术抗性",
+          "addDesc_en": "Ignore <@ba.kw>10</> of target's RES",
+          "addDesc_ja": "対象の術耐性を<@ba.kw>10</>無視",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -10408,10 +10440,10 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["res_penetrate"],
+      "tags": ["def_atk_scale"],
       "blackboard": [
         {
-          "key": "magic_resist_penetrate_fixed",
+          "key": "res_penetrate_fixed",
           "value": 10.0
         },
         {
@@ -10447,9 +10479,9 @@
           "resKey": "absin_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "无视目标<@ba.kw>{magic_resist_penetrate_fixed}</>点法术抗性",
-          "addDesc_en": "Ignore <@ba.kw>{magic_resist_penetrate_fixed}</> of target's RES",
-          "addDesc_ja": "対象の術耐性を<@ba.kw>{magic_resist_penetrate_fixed}</>無視",
+          "addDesc_zh": "无视目标<@ba.kw>10</>点法术抗性",
+          "addDesc_en": "Ignore <@ba.kw>10</> of target's RES",
+          "addDesc_ja": "対象の術耐性を<@ba.kw>10</>無視",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -10478,10 +10510,10 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["res_penetrate"],
+      "tags": [],
       "blackboard": [
         {
-          "key": "magic_resist_penetrate_fixed",
+          "key": "res_penetrate_fixed",
           "value": 10.0
         },
         {
@@ -10505,9 +10537,9 @@
           "resKey": "nights_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "无视目标<@ba.kw>{magic_resist_penetrate_fixed}</>点法术抗性",
-          "addDesc_en": "Ignore <@ba.kw>{magic_resist_penetrate_fixed}</> of target's RES",
-          "addDesc_ja": "対象の術耐性を<@ba.kw>{magic_resist_penetrate_fixed}</>無視",
+          "addDesc_zh": "无视目标<@ba.kw>10</>点法术抗性",
+          "addDesc_en": "Ignore <@ba.kw>10</> of target's RES",
+          "addDesc_ja": "対象の術耐性を<@ba.kw>10</>無視",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -10536,10 +10568,10 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["res_penetrate"],
+      "tags": [],
       "blackboard": [
         {
-          "key": "magic_resist_penetrate_fixed",
+          "key": "res_penetrate_fixed",
           "value": 10.0
         },
         {
@@ -10547,8 +10579,8 @@
           "value": 1.0
         },
         {
-          "key": "magic_resistance",
-          "value": -0.3
+          "key": "res_down",
+          "value": 0.3
         }
       ]
     }
@@ -10563,9 +10595,9 @@
           "resKey": "qanik_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "普通攻击命中精英或领袖敌人时获得<@ba.kw>{sp}</>点技力",
-          "addDesc_en": "Gain <@ba.kw>{sp}</> SP when normal attacks hit an elite or leader enemy.",
-          "addDesc_ja": "通常攻撃が敵【エリート】または【ボス】に命中するたびにSPが<@ba.kw>{sp}</>回復",
+          "addDesc_zh": "普通攻击命中精英或领袖敌人时获得<@ba.kw>1</>点技力",
+          "addDesc_en": "Gain <@ba.kw>1</> SP when normal attacks hit an elite or leader enemy.",
+          "addDesc_ja": "通常攻撃が敵【エリート】または【ボス】に命中するたびにSPが<@ba.kw>1</>回復",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -10597,11 +10629,12 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "sp",
-          "value": 1.0
+          "key": "sp_gain",
+          "value": 1.0,
+          "condition": "elite|boss"
         },
         {
-          "key": "damage_scale",
+          "key": "magicfragile",
           "value": 1.3
         }
       ]
@@ -10667,7 +10700,11 @@
           "value": 1.0
         },
         {
-          "key": "prob",
+          "key": "phys_evasion",
+          "value": 0.55
+        },
+        {
+          "key": "arts_evasion",
           "value": 0.55
         },
         {
@@ -10687,9 +10724,9 @@
           "resKey": "amiya_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "普通攻击命中精英或领袖敌人时获得<@ba.kw>{sp}</>点技力",
-          "addDesc_en": "Gain <@ba.kw>{sp}</> SP when normal attacks hit an elite or leader enemy.",
-          "addDesc_ja": "通常攻撃が敵【エリート】または【ボス】に命中するたびにSPが<@ba.kw>{sp}</>回復",
+          "addDesc_zh": "普通攻击命中精英或领袖敌人时获得<@ba.kw>1</>点技力",
+          "addDesc_en": "Gain <@ba.kw>1</> SP when normal attacks hit an elite or leader enemy.",
+          "addDesc_ja": "通常攻撃が敵【エリート】または【ボス】に命中するたびにSPが<@ba.kw>1</>回復",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -10721,16 +10758,17 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "sp",
+          "key": "sp_gain",
           "value": 1.0
         },
         {
-          "key": "amiya_t_1[atk].sp",
+          "key": "sp_gain",
           "value": 4.0
         },
         {
-          "key": "amiya_t_1[kill].sp",
-          "value": 12.0
+          "key": "sp_gain",
+          "value": 12.0,
+          "condition": "kill"
         }
       ]
     }
@@ -10745,9 +10783,9 @@
           "resKey": "tomimi_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "普通攻击命中精英或领袖敌人时获得<@ba.kw>{sp}</>点技力",
-          "addDesc_en": "Gain <@ba.kw>{sp}</> SP when normal attacks hit an elite or leader enemy.",
-          "addDesc_ja": "通常攻撃が敵【エリート】または【ボス】に命中するたびにSPが<@ba.kw>{sp}</>回復",
+          "addDesc_zh": "普通攻击命中精英或领袖敌人时获得<@ba.kw>1</>点技力",
+          "addDesc_en": "Gain <@ba.kw>1</> SP when normal attacks hit an elite or leader enemy.",
+          "addDesc_ja": "通常攻撃が敵【エリート】または【ボス】に命中するたびにSPが<@ba.kw>1</>回復",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -10779,7 +10817,7 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "sp",
+          "key": "sp_gain",
           "value": 1.0
         },
         {
@@ -10931,12 +10969,12 @@
           "resKey": "bdhkgt_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "攻击时无视敌人<@ba.vup>{def_penetrate_fixed}</>点的防御力",
-          "addDesc_en": "Attacks ignore <@ba.vup>{def_penetrate_fixed}</> DEF",
-          "addDesc_ja": "攻撃時、敵の防御力を<@ba.vup>{def_penetrate_fixed}</>無視",
-          "overrideDesc_zh": "攻击造成<@ba.kw>群体物理伤害</>",
-          "overrideDesc_en": "Deals <@ba.kw>AOE Physical damage</>",
-          "overrideDesc_ja": "敵に<@ba.kw>範囲物理ダメージ</>を与える"
+          "addDesc_zh": "攻击时无视敌人<@ba.vup>100</>点的防御力",
+          "addDesc_en": "Attacks ignore <@ba.vup>100</> DEF",
+          "addDesc_ja": "攻撃時、敵の防御力を<@ba.vup>100</>無視",
+          "overrideDesc_zh": null,
+          "overrideDesc_en": null,
+          "overrideDesc_ja": null
         },
         {
           "resKey": null,
@@ -11063,7 +11101,7 @@
           "value": 2.0
         },
         {
-          "key": "sp",
+          "key": "sp_gain",
           "value": 1.0
         }
       ]
@@ -11113,7 +11151,7 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "value",
+          "key": "withdraw_cost_recover_ratio",
           "value": 0.5
         },
         {
@@ -11172,7 +11210,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["phys_evasion"],
+      "tags": [],
       "blackboard": [
         {
           "key": "cnt",
@@ -11611,12 +11649,13 @@
           "value": -4.0
         },
         {
-          "key": "sp",
+          "key": "sp_gain",
           "value": 3.0
         },
         {
-          "key": "sp",
-          "value": 1.0
+          "key": "ally_sp_gain",
+          "value": 1.0,
+          "condition": "pioneer"
         }
       ]
     }
@@ -11686,7 +11725,8 @@
         },
         {
           "key": "protect",
-          "value": 0.25
+          "value": 0.25,
+          "condition": "hp_under_50"
         },
         {
           "key": "atk",
@@ -11716,9 +11756,9 @@
           "addDesc_zh": null,
           "addDesc_en": null,
           "addDesc_ja": null,
-          "overrideDesc_zh": "通常时<@ba.kw>不攻击</>且防御力和法术抗性更大幅度<@ba.kw>提升</>，技能开启时保留部分效果且攻击造成<@ba.kw>群体法术伤害</>",
-          "overrideDesc_en": "Normally <@ba.kw>does not attack</>, but has <@ba.kw>greatly increased</> DEF and RES; when skill is active, retains some of the bonus and attacks deal <@ba.kw>AoE Arts Damage</>",
-          "overrideDesc_ja": "通常時<@ba.kw>攻撃しない</>、防御力と術耐性がさらに大幅<@ba.kw>上昇</>\nスキル発動中、防御力と術耐性の上昇効果を一部維持し、通常攻撃が攻撃範囲内の敵全員に<@ba.kw>範囲術ダメージ</>を与える"
+          "overrideDesc_zh": "通常时<@ba.kw>不攻击</>且防御力和法术抗性更大幅度<@ba.kw>提升</>（防御力+215%，法术抗性+25），技能开启时保留部分效果（防御力+100%，法术抗性+10）且攻击造成<@ba.kw>群体法术伤害</>",
+          "overrideDesc_en": "Normally <@ba.kw>does not attack</>, but has <@ba.kw>greatly increased</> DEF (+215%) and RES (+10); when skill is active, retains some of the bonus (DEF +100%, RES +10) and attacks deal <@ba.kw>AoE Arts Damage</>",
+          "overrideDesc_ja": "通常時<@ba.kw>攻撃しない</>、防御力と術耐性がさらに大幅<@ba.kw>上昇</>（防御力+215%，術耐性+25）\nスキル発動中、防御力と術耐性の上昇効果を一部維持し（防御力+100%，術耐性+10）、通常攻撃が攻撃範囲内の敵全員に<@ba.kw>範囲術ダメージ</>を与える"
         },
         {
           "resKey": null,
@@ -11794,9 +11834,9 @@
           "addDesc_zh": null,
           "addDesc_en": null,
           "addDesc_ja": null,
-          "overrideDesc_zh": "通常时<@ba.kw>不攻击</>且防御力和法术抗性更大幅度<@ba.kw>提升</>，技能开启时保留部分效果且攻击造成<@ba.kw>群体法术伤害</>",
-          "overrideDesc_en": "Normally <@ba.kw>does not attack</>, but has <@ba.kw>greatly increased</> DEF and RES; when skill is active, retains some of the bonus and attacks deal <@ba.kw>AoE Arts Damage</>",
-          "overrideDesc_ja": "通常時<@ba.kw>攻撃しない</>、防御力と術耐性がさらに大幅<@ba.kw>上昇</>\nスキル発動中、防御力と術耐性の上昇効果を一部維持し、通常攻撃が攻撃範囲内の敵全員に<@ba.kw>範囲術ダメージ</>を与える"
+          "overrideDesc_zh": "通常时<@ba.kw>不攻击</>且防御力和法术抗性更大幅度<@ba.kw>提升</>（防御力+215%，法术抗性+25），技能开启时保留部分效果（防御力+100%，法术抗性+10）且攻击造成<@ba.kw>群体法术伤害</>",
+          "overrideDesc_en": "Normally <@ba.kw>does not attack</>, but has <@ba.kw>greatly increased</> DEF (+215%) and RES (+10); when skill is active, retains some of the bonus (DEF +100%, RES +10) and attacks deal <@ba.kw>AoE Arts Damage</>",
+          "overrideDesc_ja": "通常時<@ba.kw>攻撃しない</>、防御力と術耐性がさらに大幅<@ba.kw>上昇</>（防御力+215%，術耐性+25）\nスキル発動中、防御力と術耐性の上昇効果を一部維持し（防御力+100%，術耐性+10）、通常攻撃が攻撃範囲内の敵全員に<@ba.kw>範囲術ダメージ</>を与える"
         },
         {
           "resKey": null,
@@ -11845,8 +11885,9 @@
           "value": 0.8
         },
         {
-          "key": "sp",
-          "value": 2.0
+          "key": "sp_gain",
+          "value": 2.0,
+          "condition":"when_attacked"
         }
       ]
     }
@@ -11864,9 +11905,9 @@
           "addDesc_zh": null,
           "addDesc_en": null,
           "addDesc_ja": null,
-          "overrideDesc_zh": "通常时<@ba.kw>不攻击</>且防御力和法术抗性更大幅度<@ba.kw>提升</>，技能开启时保留部分效果且攻击造成<@ba.kw>群体法术伤害</>",
-          "overrideDesc_en": "Normally <@ba.kw>does not attack</>, but has <@ba.kw>greatly increased</> DEF and RES; when skill is active, retains some of the bonus and attacks deal <@ba.kw>AoE Arts Damage</>",
-          "overrideDesc_ja": "通常時<@ba.kw>攻撃しない</>、防御力と術耐性がさらに大幅<@ba.kw>上昇</>\nスキル発動中、防御力と術耐性の上昇効果を一部維持し、通常攻撃が攻撃範囲内の敵全員に<@ba.kw>範囲術ダメージ</>を与える"
+          "overrideDesc_zh": "通常时<@ba.kw>不攻击</>且防御力和法术抗性更大幅度<@ba.kw>提升</>（防御力+215%，法术抗性+25），技能开启时保留部分效果（防御力+100%，法术抗性+10）且攻击造成<@ba.kw>群体法术伤害</>",
+          "overrideDesc_en": "Normally <@ba.kw>does not attack</>, but has <@ba.kw>greatly increased</> DEF (+215%) and RES (+10); when skill is active, retains some of the bonus (DEF +100%, RES +10) and attacks deal <@ba.kw>AoE Arts Damage</>",
+          "overrideDesc_ja": "通常時<@ba.kw>攻撃しない</>、防御力と術耐性がさらに大幅<@ba.kw>上昇</>（防御力+215%，術耐性+25）\nスキル発動中、防御力と術耐性の上昇効果を一部維持し（防御力+100%，術耐性+10）、通常攻撃が攻撃範囲内の敵全員に<@ba.kw>範囲術ダメージ</>を与える"
         },
         {
           "resKey": null,
@@ -11915,7 +11956,7 @@
           "value": 10.0
         },
         {
-          "key": "def",
+          "key": "ally_def",
           "value": 0.23
         },
         {
@@ -11942,9 +11983,9 @@
           "addDesc_zh": null,
           "addDesc_en": null,
           "addDesc_ja": null,
-          "overrideDesc_zh": "通常时<@ba.kw>不攻击</>且防御力和法术抗性更大幅度<@ba.kw>提升</>，技能开启时保留部分效果且攻击造成<@ba.kw>群体法术伤害</>",
-          "overrideDesc_en": "Normally <@ba.kw>does not attack</>, but has <@ba.kw>greatly increased</> DEF and RES; when skill is active, retains some of the bonus and attacks deal <@ba.kw>AoE Arts Damage</>",
-          "overrideDesc_ja": "通常時<@ba.kw>攻撃しない</>、防御力と術耐性がさらに大幅<@ba.kw>上昇</>\nスキル発動中、防御力と術耐性の上昇効果を一部維持し、通常攻撃が攻撃範囲内の敵全員に<@ba.kw>範囲術ダメージ</>を与える"
+          "overrideDesc_zh": "通常时<@ba.kw>不攻击</>且防御力和法术抗性更大幅度<@ba.kw>提升</>（防御力+215%，法术抗性+25），技能开启时保留部分效果（防御力+100%，法术抗性+10）且攻击造成<@ba.kw>群体法术伤害</>",
+          "overrideDesc_en": "Normally <@ba.kw>does not attack</>, but has <@ba.kw>greatly increased</> DEF (+215%) and RES (+10); when skill is active, retains some of the bonus (DEF +100%, RES +10) and attacks deal <@ba.kw>AoE Arts Damage</>",
+          "overrideDesc_ja": "通常時<@ba.kw>攻撃しない</>、防御力と術耐性がさらに大幅<@ba.kw>上昇</>（防御力+215%，術耐性+25）\nスキル発動中、防御力と術耐性の上昇効果を一部維持し（防御力+100%，術耐性+10）、通常攻撃が攻撃範囲内の敵全員に<@ba.kw>範囲術ダメージ</>を与える"
         },
         {
           "resKey": "beewax_equip_1_3_p2",
@@ -12102,7 +12143,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["camouflage"],
       "blackboard": [
         {
           "key": "prob",
@@ -12242,7 +12283,7 @@
         },
         {
           "key": "damage_resistance",
-          "value": 0.19
+          "value": 0.38
         },
         {
           "key": "interval",
@@ -12265,9 +12306,9 @@
           "resKey": "morgan_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "攻击被阻挡的敌人时攻击力提升至<@ba.vup>{atk_scale:0%}</>",
-          "addDesc_en": "Increases ATK to <@ba.vup>{atk_scale:0%}</> when attacking blocked enemies",
-          "addDesc_ja": "ブロックされている敵を攻撃時、攻撃力が<@ba.vup>{atk_scale:0%}</>まで上昇",
+          "addDesc_zh": "攻击被阻挡的敌人时攻击力提升至<@ba.vup>115%</>",
+          "addDesc_en": "Increases ATK to <@ba.vup>115%</> when attacking blocked enemies",
+          "addDesc_ja": "ブロックされている敵を攻撃時、攻撃力が<@ba.vup>115%</>まで上昇",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -12362,7 +12403,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["block_4","squad_effect"],
       "blackboard": [
         {
           "key": "max_hp",
@@ -12385,8 +12426,9 @@
           "value": 1.12
         },
         {
-          "key": "max_hp",
-          "value": 0.25
+          "key": "ally_max_hp",
+          "value": 0.25,
+          "condition":"tank"
         }
       ]
     }
@@ -12401,9 +12443,9 @@
           "resKey": "cerber_equip_2_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "普通攻击命中精英或领袖敌人时获得<@ba.kw>{sp}</>点技力",
-          "addDesc_en": "Gain <@ba.kw>{sp}</> SP when normal attacks hit an elite or leader enemy.",
-          "addDesc_ja": "通常攻撃が敵【エリート】または【ボス】に命中するたびにSPが<@ba.kw>{sp}</>回復",
+          "addDesc_zh": "普通攻击命中精英或领袖敌人时获得<@ba.kw>1</>点技力",
+          "addDesc_en": "Gain <@ba.kw>1</> SP when normal attacks hit an elite or leader enemy.",
+          "addDesc_ja": "通常攻撃が敵【エリート】または【ボス】に命中するたびにSPが<@ba.kw>1</>回復",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -12498,7 +12540,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["weaken"],
       "blackboard": [
         {
           "key": "atk",
@@ -12509,22 +12551,13 @@
           "value": 2.0
         },
         {
-          "key": "damage_scale_cold",
+          "key": "fragile",
           "value": 1.32
         },
         {
-          "key": "damage_scale_freeze",
-          "value": 1.64
-        },
-        {
-          "key": "damage_scale",
-          "value": 1.32,
-          "condition": "ailment:cold"
-        },
-        {
-          "key": "damage_scale",
-          "value": 1.32,
-          "condition": "ailment:freeze"
+          "key": "fragile",
+          "value": 1.64,
+          "condition":"freeze"
         },
         {
           "key": "cold",
@@ -12574,7 +12607,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["weaken"],
       "blackboard": [
         {
           "key": "atk",
@@ -12640,7 +12673,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["weaken","lower_target_priority"],
       "blackboard": [
         {
           "key": "atk",
@@ -12799,9 +12832,9 @@
           "resKey": "heyak_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "无视目标<@ba.kw>{magic_resist_penetrate_fixed}</>点法术抗性",
-          "addDesc_en": "Ignore <@ba.kw>{magic_resist_penetrate_fixed}</> of target's RES",
-          "addDesc_ja": "対象の術耐性を<@ba.kw>{magic_resist_penetrate_fixed}</>無視",
+          "addDesc_zh": "无视目标<@ba.kw>10</>点法术抗性",
+          "addDesc_en": "Ignore <@ba.kw>10</> of target's RES",
+          "addDesc_ja": "対象の術耐性を<@ba.kw>10</>無視",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -12833,7 +12866,7 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "magic_resist_penetrate_fixed",
+          "key": "res_penetrate_fixed",
           "value": 10.0
         },
         {
@@ -12843,7 +12876,7 @@
         {
           "key": "silence",
           "value": 5.0,
-          "condtion": "type:flying"
+          "condtion": "flying"
         }
       ]
     }
@@ -12889,7 +12922,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["ignore_evasion"],
       "blackboard": [
         {
           "key": "atk_scale",
@@ -12986,12 +13019,12 @@
           "resKey": "cqbw_equip_2_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "攻击时无视敌人<@ba.vup>{def_penetrate_fixed}</>点的防御力",
-          "addDesc_en": "Attacks ignore <@ba.vup>{def_penetrate_fixed}</> DEF",
-          "addDesc_ja": "攻撃時、敵の防御力を<@ba.vup>{def_penetrate_fixed}</>無視",
-          "overrideDesc_zh": "攻击造成<@ba.kw>群体物理伤害</>",
-          "overrideDesc_en": "Deals <@ba.kw>AOE Physical damage</>",
-          "overrideDesc_ja": "敵に<@ba.kw>範囲物理ダメージ</>を与える"
+          "addDesc_zh": "攻击时无视敌人<@ba.vup>100</>点的防御力",
+          "addDesc_en": "Attacks ignore <@ba.vup>100</> DEF",
+          "addDesc_ja": "攻撃時、敵の防御力を<@ba.vup>100</>無視",
+          "overrideDesc_zh": null,
+          "overrideDesc_en": null,
+          "overrideDesc_ja": null
         },
         {
           "resKey": null,
@@ -13040,7 +13073,11 @@
           "value": 8.0
         },
         {
-          "key": "prob",
+          "key": "phys_evasion",
+          "value": 0.6
+        },
+        {
+          "key": "arts_evasion",
           "value": 0.6
         },
         {
@@ -13068,9 +13105,9 @@
           "resKey": "ironmn_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "<支援装置>的持有上限<@ba.kw>+{cnt}</>且部署费用<@ba.kw>减少</>",
-          "addDesc_en": "Increases the max number of Support Devices that can be held by <@ba.kw>+{cnt}</> and <@ba.kw>reduces</> their Deployment Cost",
-          "addDesc_ja": "「支援装置」の最大所持数<@ba.kw>+{cnt}</>、配置コスト<@ba.kw>減少</>",
+          "addDesc_zh": "<支援装置>的持有上限<@ba.kw>+1</>且部署费用<@ba.kw>减少</>",
+          "addDesc_en": "Increases the max number of Support Devices that can be held by <@ba.kw>+1</> and <@ba.kw>reduces</> their Deployment Cost",
+          "addDesc_ja": "「支援装置」の最大所持数<@ba.kw>+1</>、配置コスト<@ba.kw>減少</>",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -13177,9 +13214,9 @@
           "resKey": "windft_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "<支援装置>的持有上限<@ba.kw>+{cnt}</>且部署费用<@ba.kw>减少</>",
-          "addDesc_en": "Increases the max number of Support Devices that can be held by <@ba.kw>+{cnt}</> and <@ba.kw>reduces</> their Deployment Cost",
-          "addDesc_ja": "「支援装置」の最大所持数<@ba.kw>+{cnt}</>、配置コスト<@ba.kw>減少</>",
+          "addDesc_zh": "<支援装置>的持有上限<@ba.kw>+1</>且部署费用<@ba.kw>减少</>",
+          "addDesc_en": "Increases the max number of Support Devices that can be held by <@ba.kw>+1</> and <@ba.kw>reduces</> their Deployment Cost",
+          "addDesc_ja": "「支援装置」の最大所持数<@ba.kw>+1</>、配置コスト<@ba.kw>減少</>",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -13242,8 +13279,9 @@
           "value": 3.0
         },
         {
-          "key": "atk",
-          "value": 0.22
+          "key": "ally_atk",
+          "value": 0.22,
+          "condition":"support|caster"
         },
         {
           "key": "duration",
@@ -13274,9 +13312,9 @@
           "resKey": "robrta_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "<支援装置>的持有上限<@ba.kw>+{cnt}</>且部署费用<@ba.kw>减少</>",
-          "addDesc_en": "Increases the max number of Support Devices that can be held by <@ba.kw>+{cnt}</> and <@ba.kw>reduces</> their Deployment Cost",
-          "addDesc_ja": "「支援装置」の最大所持数<@ba.kw>+{cnt}</>、配置コスト<@ba.kw>減少</>",
+          "addDesc_zh": "<支援装置>的持有上限<@ba.kw>+1</>且部署费用<@ba.kw>减少</>",
+          "addDesc_en": "Increases the max number of Support Devices that can be held by <@ba.kw>+1</> and <@ba.kw>reduces</> their Deployment Cost",
+          "addDesc_ja": "「支援装置」の最大所持数<@ba.kw>+1</>、配置コスト<@ba.kw>減少</>",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -13331,16 +13369,17 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "cnt",
-          "value": 1.0
+          "key": "shield",
+          "value": 2.0
         },
         {
           "key": "cnt",
           "value": 3.0
         },
         {
-          "key": "def",
-          "value": 0.43
+          "key": "ally_def",
+          "value": 0.43,
+          "condition":"melee"
         },
         {
           "key": "duration",
@@ -13519,9 +13558,9 @@
           "resKey": "inside_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "攻击空中单位时攻击力提升至<@ba.kw>{atk_scale:0%}</>",
-          "addDesc_en": "Increases ATK to <@ba.kw>{atk_scale:0%}</> when attacking aerial targets",
-          "addDesc_ja": "飛行ユニットを攻撃時、攻撃力が<@ba.kw>{atk_scale:0%}</>まで上昇",
+          "addDesc_zh": "攻击空中单位时攻击力提升至<@ba.kw>110%</>",
+          "addDesc_en": "Increases ATK to <@ba.kw>110%</> when attacking aerial targets",
+          "addDesc_ja": "飛行ユニットを攻撃時、攻撃力が<@ba.kw>110%</>まで上昇",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -13550,7 +13589,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["laterano"],
       "blackboard": [
         {
           "key": "atk_scale",
@@ -13566,7 +13605,8 @@
         },
         {
           "key": "ally_ammo",
-          "value": 1.0
+          "value": 1.0,
+          "condition":"laterano"
         }
       ]
     }
@@ -13713,8 +13753,9 @@
           "value": 3.0
         },
         {
-          "key": "prob",
-          "value": 0.33
+          "key": "phys_evasion",
+          "value": 0.33,
+          "condition":"kazimierz"
         }
       ]
     }
@@ -13763,16 +13804,16 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "block_cnt",
+          "key": "ally_block_up",
           "value": 1.0
         },
         {
-          "key": "sleach_t_1[ally].attack_speed",
+          "key": "ally_aspd",
           "value": 15.0
         },
         {
-          "key": "sleach_t_1[enemy].attack_speed",
-          "value": -15.0
+          "key": "aspd_down",
+          "value": 15.0
         }
       ]
     }
@@ -13790,9 +13831,9 @@
           "addDesc_zh": "部署费用<@ba.kw>减少</>",
           "addDesc_en": "<@ba.kw>Reduces</> Deployment Cost",
           "addDesc_ja": "配置コスト<@ba.kw>減少</>",
-          "overrideDesc_zh": "攻击造成<@ba.kw>群体法术伤害</>",
-          "overrideDesc_en": "Deals <@ba.kw>AOE Arts damage</>",
-          "overrideDesc_ja": "敵に<@ba.kw>範囲術ダメージ</>を与える"
+          "overrideDesc_zh": null,
+          "overrideDesc_en": null,
+          "overrideDesc_ja": null
         },
         {
           "resKey": null,
@@ -13849,9 +13890,9 @@
           "resKey": "helage_equip_2_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "被击倒时不撤退且回复<@ba.kw>{hp_ratio:0%}</>生命（单次部署只触发1次）",
-          "addDesc_en": "When defeated, does not retreat and instead recovers <@ba.kw>{hp_ratio:0%}</> HP (can only activate once every deployment)",
-          "addDesc_ja": "致命的なダメージを受けても撤退せず、HPが<@ba.kw>{hp_ratio:0%}</>回復する（1回の配置につき、1回のみ発動可能）",
+          "addDesc_zh": "被击倒时不撤退且回复<@ba.kw>30%</>生命（单次部署只触发1次）",
+          "addDesc_en": "When defeated, does not retreat and instead recovers <@ba.kw>30%</> HP (can only activate once every deployment)",
+          "addDesc_ja": "致命的なダメージを受けても撤退せず、HPが<@ba.kw>30%</>回復する（1回の配置につき、1回のみ発動可能）",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -13961,16 +14002,18 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "block_cnt",
+          "key": "ally_block_up",
           "value": 1.0
         },
         {
-          "key": "value",
-          "value": -2.0
+          "key": "ally_cost_down",
+          "value": -2.0,
+          "condition":"sniper"
         },
         {
-          "key": "attack_speed",
-          "value": 28.0
+          "key": "ally_aspd",
+          "value": 28.0,
+          "condition":"sniper"
         }
       ]
     }
@@ -14019,7 +14062,7 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "block_cnt",
+          "key": "ally_block_up",
           "value": 1.0
         },
         {
@@ -14039,9 +14082,9 @@
           "resKey": "phatom_equip_2_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "周围四格没有友方干员时攻击力<@ba.kw>+{atk:0%}</>",
-          "addDesc_en": "When there are no allied units in the four adjacent tiles, ATK <@ba.kw>+{atk:0%}</>",
-          "addDesc_ja": "隣接4マス内に味方がいない場合、攻撃力<@ba.kw>+{atk:0%}</>",
+          "addDesc_zh": "周围四格没有友方干员时攻击力<@ba.kw>+10%</>",
+          "addDesc_en": "When there are no allied units in the four adjacent tiles, ATK <@ba.kw>+10%</>",
+          "addDesc_ja": "隣接4マス内に味方がいない場合、攻撃力<@ba.kw>+10%</>",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -14175,7 +14218,7 @@
         },
         {
           "key": "def_penetrate",
-          "value": 0.12
+          "value": 0.60
         },
         {
           "key": "duration",
@@ -14205,9 +14248,9 @@
           "addDesc_zh": null,
           "addDesc_en": null,
           "addDesc_ja": null,
-          "overrideDesc_zh": "同时攻击阻挡的<@ba.kw>所有敌人</>，攻击被阻挡的敌人攻击力提升至<@ba.kw>{atk_scale:0%}</>",
-          "overrideDesc_en": "Attacks <@ba.kw>all blocked enemies</>; ATK is increased to <@ba.kw>{atk_scale:0%}</> when attacking blocked enemies",
-          "overrideDesc_ja": "ブロック中の<@ba.kw>敵全員</>を同時に攻撃。ブロックされている敵を攻撃時、攻撃力が<@ba.kw>{atk_scale:0%}</>まで上昇"
+          "overrideDesc_zh": "同时攻击阻挡的<@ba.kw>所有敌人</>，攻击被阻挡的敌人攻击力提升至<@ba.kw>110%</>",
+          "overrideDesc_en": "Attacks <@ba.kw>all blocked enemies</>; ATK is increased to <@ba.kw>110%</> when attacking blocked enemies",
+          "overrideDesc_ja": "ブロック中の<@ba.kw>敵全員</>を同時に攻撃。ブロックされている敵を攻撃時、攻撃力が<@ba.kw>110%</>まで上昇"
         },
         {
           "resKey": "huang_equip_1_3_p2",
@@ -14279,9 +14322,9 @@
           "addDesc_zh": null,
           "addDesc_en": null,
           "addDesc_ja": null,
-          "overrideDesc_zh": "同时攻击阻挡的<@ba.kw>所有敌人</>，攻击被阻挡的敌人攻击力提升至<@ba.kw>{atk_scale:0%}</>",
-          "overrideDesc_en": "Attacks <@ba.kw>all blocked enemies</>; ATK is increased to <@ba.kw>{atk_scale:0%}</> when attacking blocked enemies",
-          "overrideDesc_ja": "ブロック中の<@ba.kw>敵全員</>を同時に攻撃。ブロックされている敵を攻撃時、攻撃力が<@ba.kw>{atk_scale:0%}</>まで上昇"
+          "overrideDesc_zh": "同时攻击阻挡的<@ba.kw>所有敌人</>，攻击被阻挡的敌人攻击力提升至<@ba.kw>110%</>",
+          "overrideDesc_en": "Attacks <@ba.kw>all blocked enemies</>; ATK is increased to <@ba.kw>110%</> when attacking blocked enemies",
+          "overrideDesc_ja": "ブロック中の<@ba.kw>敵全員</>を同時に攻撃。ブロックされている敵を攻撃時、攻撃力が<@ba.kw>110%</>まで上昇"
         },
         {
           "resKey": null,
@@ -14349,9 +14392,9 @@
           "addDesc_zh": null,
           "addDesc_en": null,
           "addDesc_ja": null,
-          "overrideDesc_zh": "同时攻击阻挡的<@ba.kw>所有敌人</>，攻击被阻挡的敌人攻击力提升至<@ba.kw>{atk_scale:0%}</>",
-          "overrideDesc_en": "Attacks <@ba.kw>all blocked enemies</>; ATK is increased to <@ba.kw>{atk_scale:0%}</> when attacking blocked enemies",
-          "overrideDesc_ja": "ブロック中の<@ba.kw>敵全員</>を同時に攻撃。ブロックされている敵を攻撃時、攻撃力が<@ba.kw>{atk_scale:0%}</>まで上昇"
+          "overrideDesc_zh": "同时攻击阻挡的<@ba.kw>所有敌人</>，攻击被阻挡的敌人攻击力提升至<@ba.kw>110%</>",
+          "overrideDesc_en": "Attacks <@ba.kw>all blocked enemies</>; ATK is increased to <@ba.kw>110%</> when attacking blocked enemies",
+          "overrideDesc_ja": "ブロック中の<@ba.kw>敵全員</>を同時に攻撃。ブロックされている敵を攻撃時、攻撃力が<@ba.kw>110%</>まで上昇"
         },
         {
           "resKey": null,
@@ -14408,9 +14451,9 @@
           "resKey": "estell_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "生命值高于50%时受到的物理伤害降低<@ba.kw>{damage_resistance:0%}</>",
-          "addDesc_en": "While above 50% HP, reduces the amount of Physical damage taken by <@ba.kw>{damage_resistance:0%}</>",
-          "addDesc_ja": "HPが最大値の50%以上の場合、物理の被ダメージ<@ba.kw>-{damage_resistance:0%}</>",
+          "addDesc_zh": "生命值高于50%时受到的物理伤害降低<@ba.kw>20%</>",
+          "addDesc_en": "While above 50% HP, reduces the amount of Physical damage taken by <@ba.kw>20%</>",
+          "addDesc_ja": "HPが最大値の50%以上の場合、物理の被ダメージ<@ba.kw>-20%</>",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -14447,7 +14490,8 @@
         },
         {
           "key": "damage_resistance",
-          "value": 0.2
+          "value": 0.2,
+          "condition":"hp_above_50"
         },
         {
           "key": "hp_ratio",
@@ -14469,9 +14513,9 @@
           "addDesc_zh": null,
           "addDesc_en": null,
           "addDesc_ja": null,
-          "overrideDesc_zh": "同时攻击阻挡的<@ba.kw>所有敌人</>，攻击被阻挡的敌人攻击力提升至<@ba.kw>{atk_scale:0%}</>",
-          "overrideDesc_en": "Attacks <@ba.kw>all blocked enemies</>; ATK is increased to <@ba.kw>{atk_scale:0%}</> when attacking blocked enemies",
-          "overrideDesc_ja": "ブロック中の<@ba.kw>敵全員</>を同時に攻撃。ブロックされている敵を攻撃時、攻撃力が<@ba.kw>{atk_scale:0%}</>まで上昇"
+          "overrideDesc_zh": "同时攻击阻挡的<@ba.kw>所有敌人</>，攻击被阻挡的敌人攻击力提升至<@ba.kw>110%</>",
+          "overrideDesc_en": "Attacks <@ba.kw>all blocked enemies</>; ATK is increased to <@ba.kw>110%</> when attacking blocked enemies",
+          "overrideDesc_ja": "ブロック中の<@ba.kw>敵全員</>を同時に攻撃。ブロックされている敵を攻撃時、攻撃力が<@ba.kw>110%</>まで上昇"
         },
         {
           "resKey": null,
@@ -14535,9 +14579,9 @@
           "addDesc_zh": null,
           "addDesc_en": null,
           "addDesc_ja": null,
-          "overrideDesc_zh": "同时攻击阻挡的<@ba.kw>所有敌人</>，攻击被阻挡的敌人攻击力提升至<@ba.kw>{atk_scale:0%}</>",
-          "overrideDesc_en": "Attacks <@ba.kw>all blocked enemies</>; ATK is increased to <@ba.kw>{atk_scale:0%}</> when attacking blocked enemies",
-          "overrideDesc_ja": "ブロック中の<@ba.kw>敵全員</>を同時に攻撃。ブロックされている敵を攻撃時、攻撃力が<@ba.kw>{atk_scale:0%}</>まで上昇"
+          "overrideDesc_zh": "同时攻击阻挡的<@ba.kw>所有敌人</>，攻击被阻挡的敌人攻击力提升至<@ba.kw>110%</>",
+          "overrideDesc_en": "Attacks <@ba.kw>all blocked enemies</>; ATK is increased to <@ba.kw>110%</> when attacking blocked enemies",
+          "overrideDesc_ja": "ブロック中の<@ba.kw>敵全員</>を同時に攻撃。ブロックされている敵を攻撃時、攻撃力が<@ba.kw>110%</>まで上昇"
         },
         {
           "resKey": "ghost_equip_1_3_p2",
@@ -14570,8 +14614,9 @@
           "value": 1.1
         },
         {
-          "key": "damage_scale",
-          "value": 1.05
+          "key": "ally_damage_scale",
+          "value": 1.05,
+          "condition":"abyssal"
         }
       ]
     }
@@ -14725,9 +14770,9 @@
           "addDesc_zh": null,
           "addDesc_en": null,
           "addDesc_ja": null,
-          "overrideDesc_zh": "可以攻击到<@ba.kw>较远敌人</>，攻击自身未阻挡的敌人时攻击力提升至<@ba.kw>{atk_scale:0%}</>",
-          "overrideDesc_en": "Can attack enemies <@ba.kw>from range</>; When attacking enemies not blocked by self, increase ATK to <@ba.kw>{atk_scale:0%}</>",
-          "overrideDesc_ja": "攻撃距離が<@ba.kw>やや長い</>\n自身がブロックしていない敵を攻撃時、攻撃力が<@ba.kw>{atk_scale:0%}</>まで上昇"
+          "overrideDesc_zh": "可以攻击到<@ba.kw>较远敌人</>，攻击自身未阻挡的敌人时攻击力提升至<@ba.kw>130%</>",
+          "overrideDesc_en": "Can attack enemies <@ba.kw>from range</>; When attacking enemies not blocked by self, increase ATK to <@ba.kw>130%</>",
+          "overrideDesc_ja": "攻撃距離が<@ba.kw>やや長い</>\n自身がブロックしていない敵を攻撃時、攻撃力が<@ba.kw>130%</>まで上昇"
         },
         {
           "resKey": null,
@@ -14760,8 +14805,9 @@
           "value": 1.3
         },
         {
-          "key": "bryota_t_ally.def",
-          "value": 0.19
+          "key": "ally_def",
+          "value": 0.19,
+          "condition":"melee"
         },
         {
           "key": "bryota_t_self.def",
@@ -14783,9 +14829,9 @@
           "addDesc_zh": null,
           "addDesc_en": null,
           "addDesc_ja": null,
-          "overrideDesc_zh": "无法被友方角色治疗，攻击造成<@ba.kw>群体伤害</>，每攻击到一个敌人回复自身<@ba.kw>{value}</>生命，最大生效数等于阻挡数",
-          "overrideDesc_en": "Cannot be healed by allies; Attacks deal <@ba.kw>AoE damage</>; Recovers <@ba.kw>{value}</> HP for every enemy hit during attacks, up to Block count",
-          "overrideDesc_ja": "味方の治療対象にならない\n攻撃は<@ba.kw>範囲物理ダメージ</>を与え、敵を1体攻撃する度自身のHPを<@ba.kw>{value}</>回復（攻撃毎の最大回復回数はブロック数と同じ）"
+          "overrideDesc_zh": "无法被友方角色治疗，攻击造成<@ba.kw>群体伤害</>，每攻击到一个敌人回复自身<@ba.kw>60</>生命，最大生效数等于阻挡数",
+          "overrideDesc_en": "Cannot be healed by allies; Attacks deal <@ba.kw>AoE damage</>; Recovers <@ba.kw>60</> HP for every enemy hit during attacks, up to Block count",
+          "overrideDesc_ja": "味方の治療対象にならない\n攻撃は<@ba.kw>範囲物理ダメージ</>を与え、敵を1体攻撃する度自身のHPを<@ba.kw>60</>回復（攻撃毎の最大回復回数はブロック数と同じ）"
         },
         {
           "resKey": null,
@@ -14849,9 +14895,9 @@
           "addDesc_zh": null,
           "addDesc_en": null,
           "addDesc_ja": null,
-          "overrideDesc_zh": "无法被友方角色治疗，攻击造成<@ba.kw>群体伤害</>，每攻击到一个敌人回复自身<@ba.kw>{value}</>生命，最大生效数等于阻挡数",
-          "overrideDesc_en": "Cannot be healed by allies; Attacks deal <@ba.kw>AoE damage</>; Recovers <@ba.kw>{value}</> HP for every enemy hit during attacks, up to Block count",
-          "overrideDesc_ja": "味方の治療対象にならない\n攻撃は<@ba.kw>範囲物理ダメージ</>を与え、敵を1体攻撃する度自身のHPを<@ba.kw>{value}</>回復（攻撃毎の最大回復回数はブロック数と同じ）"
+          "overrideDesc_zh": "无法被友方角色治疗，攻击造成<@ba.kw>群体伤害</>，每攻击到一个敌人回复自身<@ba.kw>60</>生命，最大生效数等于阻挡数",
+          "overrideDesc_en": "Cannot be healed by allies; Attacks deal <@ba.kw>AoE damage</>; Recovers <@ba.kw>60</> HP for every enemy hit during attacks, up to Block count",
+          "overrideDesc_ja": "味方の治療対象にならない\n攻撃は<@ba.kw>範囲物理ダメージ</>を与え、敵を1体攻撃する度自身のHPを<@ba.kw>60</>回復（攻撃毎の最大回復回数はブロック数と同じ）"
         },
         {
           "resKey": null,
@@ -14915,9 +14961,9 @@
           "addDesc_zh": null,
           "addDesc_en": null,
           "addDesc_ja": null,
-          "overrideDesc_zh": "无法被友方角色治疗，攻击造成<@ba.kw>群体伤害</>，每攻击到一个敌人回复自身<@ba.kw>{value}</>生命，最大生效数等于阻挡数",
-          "overrideDesc_en": "Cannot be healed by allies; Attacks deal <@ba.kw>AoE damage</>; Recovers <@ba.kw>{value}</> HP for every enemy hit during attacks, up to Block count",
-          "overrideDesc_ja": "味方の治療対象にならない\n攻撃は<@ba.kw>範囲物理ダメージ</>を与え、敵を1体攻撃する度自身のHPを<@ba.kw>{value}</>回復（攻撃毎の最大回復回数はブロック数と同じ）"
+          "overrideDesc_zh": "无法被友方角色治疗，攻击造成<@ba.kw>群体伤害</>，每攻击到一个敌人回复自身<@ba.kw>60</>生命，最大生效数等于阻挡数",
+          "overrideDesc_en": "Cannot be healed by allies; Attacks deal <@ba.kw>AoE damage</>; Recovers <@ba.kw>60</> HP for every enemy hit during attacks, up to Block count",
+          "overrideDesc_ja": "味方の治療対象にならない\n攻撃は<@ba.kw>範囲物理ダメージ</>を与え、敵を1体攻撃する度自身のHPを<@ba.kw>60</>回復（攻撃毎の最大回復回数はブロック数と同じ）"
         },
         {
           "resKey": null,
@@ -14969,9 +15015,9 @@
           "addDesc_zh": null,
           "addDesc_en": null,
           "addDesc_ja": null,
-          "overrideDesc_zh": "无法被友方角色治疗，攻击造成<@ba.kw>群体伤害</>，每攻击到一个敌人回复自身<@ba.kw>{value}</>生命，最大生效数等于阻挡数",
-          "overrideDesc_en": "Cannot be healed by allies; Attacks deal <@ba.kw>AoE damage</>; Recovers <@ba.kw>{value}</> HP for every enemy hit during attacks, up to Block count",
-          "overrideDesc_ja": "味方の治療対象にならない\n攻撃は<@ba.kw>範囲物理ダメージ</>を与え、敵を1体攻撃する度自身のHPを<@ba.kw>{value}</>回復（攻撃毎の最大回復回数はブロック数と同じ）"
+          "overrideDesc_zh": "无法被友方角色治疗，攻击造成<@ba.kw>群体伤害</>，每攻击到一个敌人回复自身<@ba.kw>60</>生命，最大生效数等于阻挡数",
+          "overrideDesc_en": "Cannot be healed by allies; Attacks deal <@ba.kw>AoE damage</>; Recovers <@ba.kw>60</> HP for every enemy hit during attacks, up to Block count",
+          "overrideDesc_ja": "味方の治療対象にならない\n攻撃は<@ba.kw>範囲物理ダメージ</>を与え、敵を1体攻撃する度自身のHPを<@ba.kw>60</>回復（攻撃毎の最大回復回数はブロック数と同じ）"
         },
         {
           "resKey": null,
@@ -15028,9 +15074,9 @@
           "resKey": "chen_equip_2_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "攻击时无视敌人<@ba.vup>{def_penetrate_fixed}</>点的防御力",
-          "addDesc_en": "Attacks ignore <@ba.vup>{def_penetrate_fixed}</> DEF",
-          "addDesc_ja": "攻撃時、敵の防御力を<@ba.vup>{def_penetrate_fixed}</>無視",
+          "addDesc_zh": "攻击时无视敌人<@ba.vup>70</>点的防御力",
+          "addDesc_en": "Attacks ignore <@ba.vup>70</> DEF",
+          "addDesc_ja": "攻撃時、敵の防御力を<@ba.vup>70</>無視",
           "overrideDesc_zh": null,
           "overrideDesc_en": null,
           "overrideDesc_ja": null
@@ -15074,7 +15120,7 @@
           "value": 0.16
         },
         {
-          "key": "prob",
+          "key": "phys_evasion",
           "value": 0.21
         }
       ]
@@ -15207,7 +15253,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["arts"],
       "blackboard": [
         {
           "key": "dist",
@@ -15222,7 +15268,7 @@
           "value": 0.066
         },
         {
-          "key": "sp",
+          "key": "sp_gain",
           "value": 14.0
         }
       ]
@@ -15241,9 +15287,9 @@
           "addDesc_zh": null,
           "addDesc_en": null,
           "addDesc_ja": null,
-          "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，技能开启后改为治疗友方单位（治疗量相当于<@ba.kw>{heal_scale:0%}</>攻击力）",
-          "overrideDesc_en": "Deals <@ba.kw>Arts damage</>; When skill is active, attacks instead restore the HP of allies (heal amount is equal to <@ba.kw>{heal_scale:0%}</> of ATK)",
-          "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与える\nスキル発動中、通常攻撃が味方に対する治療行動になる（HP回復量は攻撃力の<@ba.kw>{heal_scale:0%}</>）"
+          "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，技能开启后改为治疗友方单位（治疗量相当于<@ba.kw>100%</>攻击力）",
+          "overrideDesc_en": "Deals <@ba.kw>Arts damage</>; When skill is active, attacks instead restore the HP of allies (heal amount is equal to <@ba.kw>100%</> of ATK)",
+          "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与える\nスキル発動中、通常攻撃が味方に対する治療行動になる（HP回復量は攻撃力の<@ba.kw>100%</>）"
         },
         {
           "resKey": "slent2_equip_1_3_p1",
@@ -15288,7 +15334,7 @@
           "value": 1.0
         },
         {
-          "key": "max_hp",
+          "key": "ally_max_hp",
           "value": 0.1
         },
         {
@@ -15315,9 +15361,9 @@
           "addDesc_zh": null,
           "addDesc_en": null,
           "addDesc_ja": null,
-          "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，技能开启后改为治疗友方单位（治疗量相当于<@ba.kw>{heal_scale:0%}</>攻击力）",
-          "overrideDesc_en": "Deals <@ba.kw>Arts damage</>; When skill is active, attacks instead restore the HP of allies (heal amount is equal to <@ba.kw>{heal_scale:0%}</> of ATK)",
-          "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与える\nスキル発動中、通常攻撃が味方に対する治療行動になる（HP回復量は攻撃力の<@ba.kw>{heal_scale:0%}</>）"
+          "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，技能开启后改为治疗友方单位（治疗量相当于<@ba.kw>100%</>攻击力）",
+          "overrideDesc_en": "Deals <@ba.kw>Arts damage</>; When skill is active, attacks instead restore the HP of allies (heal amount is equal to <@ba.kw>100%</> of ATK)",
+          "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与える\nスキル発動中、通常攻撃が味方に対する治療行動になる（HP回復量は攻撃力の<@ba.kw>100%</>）"
         },
         {
           "resKey": "tknogi_equip_1_3_p1",
@@ -15366,8 +15412,9 @@
           "value": 0.4
         },
         {
-          "key": "def",
-          "value": 0.08
+          "key": "ally_def",
+          "value": 0.08,
+          "condition":"hp_under_40"
         },
         {
           "key": "hp_ratio",
@@ -15375,7 +15422,8 @@
         },
         {
           "key": "protect",
-          "value": 0.24
+          "value": 0.24,
+          "condition":"hp_under_40"
         }
       ]
     }
@@ -15393,9 +15441,9 @@
           "addDesc_zh": null,
           "addDesc_en": null,
           "addDesc_ja": null,
-          "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，技能开启后改为治疗友方单位（治疗量相当于<@ba.kw>{heal_scale:0%}</>攻击力）",
-          "overrideDesc_en": "Deals <@ba.kw>Arts damage</>; When skill is active, attacks instead restore the HP of allies (heal amount is equal to <@ba.kw>{heal_scale:0%}</> of ATK)",
-          "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与える\nスキル発動中、通常攻撃が味方に対する治療行動になる（HP回復量は攻撃力の<@ba.kw>{heal_scale:0%}</>）"
+          "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，技能开启后改为治疗友方单位（治疗量相当于<@ba.kw>100%</>攻击力）",
+          "overrideDesc_en": "Deals <@ba.kw>Arts damage</>; When skill is active, attacks instead restore the HP of allies (heal amount is equal to <@ba.kw>100%</> of ATK)",
+          "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与える\nスキル発動中、通常攻撃が味方に対する治療行動になる（HP回復量は攻撃力の<@ba.kw>100%</>）"
         },
         {
           "resKey": null,
@@ -15433,7 +15481,8 @@
         },
         {
           "key": "protect",
-          "value": 0.26
+          "value": 0.26,
+          "condition":"hp_under_60"
         }
       ]
     }
@@ -15451,9 +15500,9 @@
           "addDesc_zh": null,
           "addDesc_en": null,
           "addDesc_ja": null,
-          "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，技能开启后改为治疗友方单位（治疗量相当于<@ba.kw>{heal_scale:0%}</>攻击力）",
-          "overrideDesc_en": "Deals <@ba.kw>Arts damage</>; When skill is active, attacks instead restore the HP of allies (heal amount is equal to <@ba.kw>{heal_scale:0%}</> of ATK)",
-          "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与える\nスキル発動中、通常攻撃が味方に対する治療行動になる（HP回復量は攻撃力の<@ba.kw>{heal_scale:0%}</>）"
+          "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，技能开启后改为治疗友方单位（治疗量相当于<@ba.kw>100%</>攻击力）",
+          "overrideDesc_en": "Deals <@ba.kw>Arts damage</>; When skill is active, attacks instead restore the HP of allies (heal amount is equal to <@ba.kw>100%</> of ATK)",
+          "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与える\nスキル発動中、通常攻撃が味方に対する治療行動になる（HP回復量は攻撃力の<@ba.kw>100%</>）"
         },
         {
           "resKey": null,
@@ -15495,7 +15544,8 @@
         },
         {
           "key": "protect",
-          "value": 0.18
+          "value": 0.18,
+          "condition":"hp_above_60"
         }
       ]
     }
@@ -15510,7 +15560,7 @@
           "resKey": "horn_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "攻击被阻挡的敌人时攻击力提升至<@ba.vup>{atk_scale:0%}</>",
+          "addDesc_zh": "攻击被阻挡的敌人时攻击力提升至<@ba.vup>110%</>",
           "addDesc_en": "",
           "addDesc_ja": "",
           "overrideDesc_zh": null,
@@ -15548,8 +15598,9 @@
           "value": 1.1
         },
         {
-          "key": "atk",
-          "value": 0.31
+          "key": "ally_atk",
+          "value": 0.31,
+          "condition":"tank"
         }
       ]
     }
@@ -15564,7 +15615,7 @@
           "resKey": "firwhl_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "攻击被阻挡的敌人时攻击力提升至<@ba.vup>{atk_scale:0%}</>",
+          "addDesc_zh": "攻击被阻挡的敌人时攻击力提升至<@ba.vup>110%</>",
           "addDesc_en": "",
           "addDesc_ja": "",
           "overrideDesc_zh": null,
@@ -15622,7 +15673,7 @@
           "resKey": "ashlok_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "攻击被阻挡的敌人时攻击力提升至<@ba.vup>{atk_scale:0%}</>",
+          "addDesc_zh": "攻击被阻挡的敌人时攻击力提升至<@ba.vup>110%</>",
           "addDesc_en": "",
           "addDesc_ja": "",
           "overrideDesc_zh": null,
@@ -15820,7 +15871,7 @@
           "resKey": "phenxi_equip_2_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "攻击被阻挡的敌人时攻击力提升至<@ba.vup>{atk_scale:0%}</>",
+          "addDesc_zh": "攻击被阻挡的敌人时攻击力提升至<@ba.vup>110%</>",
           "addDesc_en": "",
           "addDesc_ja": "",
           "overrideDesc_zh": null,
@@ -15851,7 +15902,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["peak_performance"],
       "blackboard": [
         {
           "key": "atk_scale",
@@ -15941,7 +15992,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["apoptosis"],
       "blackboard": [
         {
           "key": "ep_damage_ratio",
@@ -16010,8 +16061,8 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "damage_scale",
-          "value": 0.85
+          "key": "damage_resistance",
+          "value": 0.15
         },
         {
           "key": "interval",
@@ -16030,8 +16081,9 @@
           "value": 0.25
         },
         {
-          "key": "sp",
-          "value": 2.0
+          "key": "sp_gain",
+          "value": 2.0,
+          "condition":"shield_break"
         }
       ]
     }
@@ -16084,8 +16136,8 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "damage_scale",
-          "value": 0.85
+          "key": "damage_resistance",
+          "value": 0.15
         },
         {
           "key": "max_hp_ratio",
@@ -16162,16 +16214,17 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "damage_scale",
-          "value": 0.85
+          "key": "damage_resistance",
+          "value": 0.15
         },
         {
           "key": "hp_recovery_per_sec_by_max_hp_ratio",
           "value": 0.05
         },
         {
-          "key": "prob",
-          "value": 0.3
+          "key": "phys_evasion",
+          "value": 0.3,
+          "condition":"melee_attack"
         },
         {
           "key": "hp_ratio",
@@ -16190,7 +16243,7 @@
           "resKey": "lessng_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "攻击被阻挡的敌人时攻击力提升至<@ba.vup>{atk_scale:0%}</>",
+          "addDesc_zh": "攻击被阻挡的敌人时攻击力提升至<@ba.vup>115%</>",
           "addDesc_en": "",
           "addDesc_ja": "",
           "overrideDesc_zh": null,
@@ -16326,7 +16379,7 @@
           "resKey": null,
           "target": "DISPLAY",
           "isToken": false,
-          "addDesc_zh": "攻击生命值低于<@ba.vup>{hp_ratio:0%}</>的敌人时攻击力提升至<@ba.vup>{atk_scale:0%}</>",
+          "addDesc_zh": "攻击生命值低于<@ba.vup>40%</>的敌人时攻击力提升至<@ba.vup>115%</>",
           "addDesc_en": "",
           "addDesc_ja": "",
           "overrideDesc_zh": null,
@@ -16408,7 +16461,7 @@
           "resKey": "nearl2_equip_2_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "被击倒时不撤退且回复所有生命但生命上限<@ba.vdown>-{value:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>（单次部署只触发1次）",
+          "addDesc_zh": "被击倒时不撤退且回复所有生命但生命上限<@ba.vdown>-60%</>，攻击速度<@ba.vup>+30</>（单次部署只触发1次）",
           "addDesc_en": "",
           "addDesc_ja": "",
           "overrideDesc_zh": null,
@@ -16463,7 +16516,8 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "target_air":false,
+      "tags": ["true"],
       "blackboard": [
         {
           "key": "attack_speed",
@@ -16895,7 +16949,7 @@
           "addDesc_zh": null,
           "addDesc_en": "",
           "addDesc_ja": "",
-          "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，攻击敌人时为攻击范围内一名友方干员治疗相当于<@ba.kw>{scale:0%}</>伤害的生命值",
+          "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，攻击敌人时为攻击范围内一名友方干员治疗相当于<@ba.kw>60%</>伤害的生命值",
           "overrideDesc_en": "",
           "overrideDesc_ja": ""
         },
@@ -16953,7 +17007,7 @@
           "addDesc_zh": null,
           "addDesc_en": "",
           "addDesc_ja": "",
-          "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，攻击敌人时为攻击范围内一名友方干员治疗相当于<@ba.kw>{scale:0%}</>伤害的生命值",
+          "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，攻击敌人时为攻击范围内一名友方干员治疗相当于<@ba.kw>60%</>伤害的生命值",
           "overrideDesc_en": "",
           "overrideDesc_ja": ""
         },
@@ -16992,8 +17046,9 @@
           "value": 5.0
         },
         {
-          "key": "damage_scale",
-          "value": 1.22
+          "key": "magicfragile",
+          "value": 1.22,
+          "duration": 5.0
         }
       ]
     }
@@ -17011,7 +17066,7 @@
           "addDesc_zh": null,
           "addDesc_en": "",
           "addDesc_ja": "",
-          "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，攻击敌人时为攻击范围内一名友方干员治疗相当于<@ba.kw>{scale:0%}</>伤害的生命值",
+          "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，攻击敌人时为攻击范围内一名友方干员治疗相当于<@ba.kw>60%</>伤害的生命值",
           "overrideDesc_en": "",
           "overrideDesc_ja": ""
         },
@@ -17062,7 +17117,7 @@
           "resKey": "blkkgt_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "技能造成的伤害提升<@ba.vup>{value:0%}</>",
+          "addDesc_zh": "技能造成的伤害提升<@ba.vup>10%</>",
           "addDesc_en": "",
           "addDesc_ja": "",
           "overrideDesc_zh": null,
@@ -17217,7 +17272,7 @@
           "addDesc_zh": null,
           "addDesc_en": "",
           "addDesc_ja": "",
-          "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长</>的<$ba.sluggish>停顿</>",
+          "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长</>的<$ba.sluggish>停顿 (1.2s)</>",
           "overrideDesc_en": "",
           "overrideDesc_ja": ""
         },
@@ -17245,7 +17300,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["weaken"],
       "blackboard": [
         {
           "key": "sluggish",
@@ -17333,7 +17388,7 @@
           "resKey": null,
           "target": "DISPLAY",
           "isToken": false,
-          "addDesc_zh": "范围内敌人越多造成的伤害越高（最高提升<@ba.kw>{damage_scale:0%}</>）",
+          "addDesc_zh": "范围内敌人越多造成的伤害越高（最高提升<@ba.kw>15%</>）",
           "addDesc_en": "",
           "addDesc_ja": "",
           "overrideDesc_zh": null,
@@ -17388,7 +17443,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["lower_target_priority"],
       "blackboard": [
         {
           "key": "damage_scale",
@@ -17548,7 +17603,8 @@
         },
         {
           "key": "protect",
-          "value": 0.25
+          "value": 0.25,
+          "condition": "hp_under_50"
         },
         {
           "key": "min_hp_ratio",
@@ -17622,7 +17678,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["sandbox"],
       "blackboard": [
         {
           "key": "runtime_cost",
@@ -17687,8 +17743,8 @@
           "value": 0.1
         },
         {
-          "key": "wanqin_t_1[hp_common].wanqin_t_1[hp_extra].max_hp",
-          "value": 0.04
+          "key": "ally_max_hp",
+          "value": 0.14
         }
       ]
     }
@@ -17753,15 +17809,16 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "prob",
+          "key": "phys_evasion",
           "value": 0.15
         },
         {
-          "key": "sp",
-          "value": 4.0
+          "key": "sp_gain",
+          "value": 4.0,
+          "condition":"kill"
         },
         {
-          "key": "sp",
+          "key": "sp_gain",
           "value": 1.0
         }
       ]
@@ -17780,7 +17837,7 @@
           "addDesc_zh": null,
           "addDesc_en": "",
           "addDesc_ja": "",
-          "overrideDesc_zh": "能够阻挡一个敌人，生命值高于50%时攻击速度<@ba.vup>+{attack_speed}</>",
+          "overrideDesc_zh": "能够阻挡一个敌人，生命值高于50%时攻击速度<@ba.vup>+10</>",
           "overrideDesc_en": "",
           "overrideDesc_ja": ""
         },
@@ -17881,12 +17938,8 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "prob",
-          "value": 0.15
-        },
-        {
-          "key": "prob",
-          "value": 0.4
+          "key": "phys_evasion",
+          "value": 0.49
         },
         {
           "key": "charge_atk_speed_on_evade.attack_speed",
@@ -17912,7 +17965,7 @@
           "addDesc_zh": null,
           "addDesc_en": "",
           "addDesc_ja": "",
-          "overrideDesc_zh": "能够阻挡一个敌人，生命值高于50%时攻击速度<@ba.vup>+{attack_speed}</>",
+          "overrideDesc_zh": "能够阻挡一个敌人，生命值高于50%时攻击速度<@ba.vup>+10</>",
           "overrideDesc_en": "",
           "overrideDesc_ja": ""
         },
@@ -17959,8 +18012,8 @@
           "value": 0.25
         },
         {
-          "key": "atk",
-          "value": -0.15
+          "key": "atk_down",
+          "value": 0.15
         },
         {
           "key": "duration",
@@ -17982,7 +18035,7 @@
           "addDesc_zh": null,
           "addDesc_en": "",
           "addDesc_ja": "",
-          "overrideDesc_zh": "能够阻挡一个敌人，生命值高于50%时攻击速度<@ba.vup>+{attack_speed}</>",
+          "overrideDesc_zh": "能够阻挡一个敌人，生命值高于50%时攻击速度<@ba.vup>+10</>",
           "overrideDesc_en": "",
           "overrideDesc_ja": ""
         },
@@ -18017,8 +18070,9 @@
           "value": 10.0
         },
         {
-          "key": "tiger_t_1[evade].prob",
-          "value": 0.33
+          "key": "phys_evasion",
+          "value": 0.33,
+          "condition":"melee_attack"
         },
         {
           "key": "charge_on_evade.atk",
@@ -18040,7 +18094,7 @@
           "addDesc_zh": null,
           "addDesc_en": "",
           "addDesc_ja": "",
-          "overrideDesc_zh": "能够阻挡一个敌人，生命值高于50%时攻击速度<@ba.vup>+{attack_speed}</>",
+          "overrideDesc_zh": "能够阻挡一个敌人，生命值高于50%时攻击速度<@ba.vup>+10</>",
           "overrideDesc_en": "",
           "overrideDesc_ja": ""
         },
@@ -18068,7 +18122,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["no_block"],
       "blackboard": [
         {
           "key": "attack_speed",
@@ -18094,7 +18148,7 @@
           "addDesc_zh": null,
           "addDesc_en": "",
           "addDesc_ja": "",
-          "overrideDesc_zh": "能够阻挡一个敌人，生命值高于50%时攻击速度<@ba.vup>+{attack_speed}</>",
+          "overrideDesc_zh": "能够阻挡一个敌人，生命值高于50%时攻击速度<@ba.vup>+10</>",
           "overrideDesc_en": "",
           "overrideDesc_ja": ""
         },
@@ -18219,15 +18273,16 @@
           }
         ]
       },
-      "tags": [],
+      "tags": ["cancel_stealth"],
       "blackboard": [
         {
           "key": "cnt",
           "value": 1.0
         },
         {
-          "key": "def",
-          "value": 0.18
+          "key": "ally_def",
+          "value": 0.18,
+          "condition":"behind"
         },
         {
           "key": "duration",
@@ -18305,7 +18360,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["cancel_stealth"],
       "blackboard": [
         {
           "key": "extra_sp",
@@ -18316,7 +18371,7 @@
           "value": 0.6
         },
         {
-          "key": "sp",
+          "key": "ally_sp_gain",
           "value": 1.0
         }
       ]
@@ -18375,7 +18430,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["cancel_stealth","stun"],
       "blackboard": [
         {
           "key": "atk_scale",
@@ -18394,7 +18449,7 @@
           "resKey": "ash_equip_2_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "攻击空中单位时攻击力提升至<@ba.kw>{atk_scale:0%}</>",
+          "addDesc_zh": "攻击空中单位时攻击力提升至<@ba.kw>110%</>",
           "addDesc_en": "",
           "addDesc_ja": "",
           "overrideDesc_zh": null,
@@ -18429,6 +18484,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
+      "target_air":true,
       "tags": [],
       "blackboard": [
         {
@@ -18577,7 +18633,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": [],
+      "tags": ["cancel_stealth"],
       "blackboard": [
         {
           "key": "duration",
@@ -18600,8 +18656,10 @@
           "value": 10.0
         },
         {
-          "key": "damage_scale",
-          "value": 1.3
+          "key": "fragile",
+          "value": 1.3,
+          "duration":10,
+          "condition":"when_attacked"
         },
         {
           "key": "block_cnt",
@@ -18694,7 +18752,7 @@
           "resKey": "fuze_equip_1_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "生命值高于50%时受到的物理伤害降低<@ba.kw>{damage_resistance:0%}</>",
+          "addDesc_zh": "生命值高于50%时受到的物理伤害降低<@ba.kw>20%</>",
           "addDesc_en": "",
           "addDesc_ja": "",
           "overrideDesc_zh": null,
@@ -18736,8 +18794,9 @@
           "value": 0.2
         },
         {
-          "key": "prob",
-          "value": 0.35
+          "key": "block_dmg",
+          "value": 0.35,
+          "condition":"ranged_attack|phys"
         },
         {
           "key": "def",
@@ -20836,7 +20895,7 @@
           "resKey": "heyak_equip_2_3_p1",
           "target": "TRAIT",
           "isToken": false,
-          "addDesc_zh": "普通攻击命中精英或领袖敌人时获得<@ba.kw>{sp}</>点技力",
+          "addDesc_zh": "普通攻击命中精英或领袖敌人时获得<@ba.kw>1</>点技力",
           "addDesc_en": "",
           "addDesc_ja": "",
           "overrideDesc_zh": null,
@@ -21795,7 +21854,7 @@
         }
       ],
       "tokenAttributeBlackboard": {},
-      "tags": ["apoptosis","ele_dmg"],
+      "tags": ["apoptosis", "ele_dmg"],
       "blackboard": [
         {
           "key": "ep_damage_ratio",
