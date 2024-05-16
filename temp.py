@@ -6,15 +6,18 @@ import json
 pp = pprint.PrettyPrinter(indent=4)
 
 script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
+cn_char_table_path = os.path.join(
+    script_dir, "cn_data/zh_CN/gamedata/excel/character_table.json")
+with open(cn_char_table_path, encoding='utf-8') as f:
+    char_table = json.load(f)
 
-# with open('characters.json', encoding='utf-8') as f:
-#     char_table = json.load(f)
-
-# list = []
-# for chara in char_table:
-#     if chara['teamId'] is not None and chara['groupId'] is not None:
-#         print(chara["id"])
-
+list = []
+for id in char_table:
+    chara_dict = char_table[id]
+    for pot in chara_dict['potentialRanks']:
+        if pot['buff']:
+            if len(pot['buff']['attributes']['attributeModifiers']) > 1:
+                print(id)
 # return_dict = [ele for ele in list]
 
 # with open('temp.json','w', encoding='utf-8') as f:
@@ -32,22 +35,22 @@ script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 #         if stats['enemyData']['attributes']['epDamageResistance']['m_value'] != 0 or stats['enemyData']['attributes']['epResistance']['m_value'] != 0:
 #             print(key)
 
-with open('chara_talents.json', encoding='utf-8') as f:
-    chara_talents = json.load(f)
+# with open('chara_talents.json', encoding='utf-8') as f:
+#     chara_talents = json.load(f)
 
-return_dict = {}
-for id in chara_talents:
-    talents = []
-    for talent_index, talent in enumerate(chara_talents[id]['talents']):
-        talent_holder = {
-            "prefabKey": talent["prefabKey"], "name_zh": talent["name_zh"], "name_ja": talent['name_ja'], "name_en": talent['name_en'],
-            "desc_zh": talent["description_zh"], "desc_ja":  talent['description_ja'], "desc_en": talent['description_en'], "target_air": None, "tags": talent['tags'] , "blackboard": talent['blackboard']}
-        talents.append(talent_holder)
-    return_dict[id] = {
-        "appellation": chara_talents[id]['appellation'], "talents": talents}
+# return_dict = {}
+# for id in chara_talents:
+#     talents = []
+#     for talent_index, talent in enumerate(chara_talents[id]['talents']):
+#         talent_holder = {
+#             "prefabKey": talent["prefabKey"], "name_zh": talent["name_zh"], "name_ja": talent['name_ja'], "name_en": talent['name_en'],
+#             "desc_zh": talent["description_zh"], "desc_ja":  talent['description_ja'], "desc_en": talent['description_en'], "target_air": None, "tags": talent['tags'] , "blackboard": talent['blackboard']}
+#         talents.append(talent_holder)
+#     return_dict[id] = {
+#         "appellation": chara_talents[id]['appellation'], "talents": talents}
 
-with open('chara_talents.json', 'w', encoding='utf-8') as f:
-    json.dump(return_dict, f, ensure_ascii=False, indent=4)
+# with open('chara_talents.json', 'w', encoding='utf-8') as f:
+#     json.dump(return_dict, f, ensure_ascii=False, indent=4)
 
 # handpicked 50 characters for testing
 testing_chars = ['char_4116_blkkgt', 'char_003_kalts', 'char_4048_doroth', '']

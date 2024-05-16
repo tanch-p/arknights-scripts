@@ -1,17 +1,6 @@
 import json
 import os
-
-buffs_list = [
-    "berserk", "dying", "buffres",
-    "shield", "strong", "invisible",
-    "camou", "protect", "weightless",
-    "charged", "barrier", "overdrive",
-    "inspire"]
-debuffs_list = ["stun", "sluggish", "sleep",
-                "silence", "levitate", "cold",
-                "magicfragile", "root", "tremble",
-                "fragile", "dt.apoptosis2", "dt.burning2",
-                "steal", "weightless"]
+from chara_skills import replace_substrings
 
 script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
@@ -37,8 +26,6 @@ with open(en_battle_equip_path, encoding='utf-8') as f:
 with open('uniequip.json', encoding='utf-8') as f:
     curr_uniequip = json.load(f)
 
-data = []
-
 new_equips = [id for id in dict.keys(
     cn_uniequip_table['equipDict']) if id not in set(dict.keys(curr_uniequip))]
 return_dict = {}
@@ -49,45 +36,51 @@ for equip_id in new_equips:
     in_global = equip_id in en_battle_equip_table
     combat_data = None
     if battle_equip:
-        phase3 = battle_equip['phases'][-1]
+        phases = []
         blackboard = []
-        concise_parts = []
-        for index, part in enumerate(phase3['parts']):
-            if not part['target'] in ['TALENT', 'TALENT_DATA_ONLY', 'TRAIT', 'TRAIT_DATA_ONLY', 'DISPLAY']:
-                print(part['target'])
-            if 'TRAIT' in part['target'] or part['target'] == 'DISPLAY':
-                if part['addOrOverrideTalentDataBundle']['candidates'] is not None:
-                    print('TRAIT or DISPLAY TalentDataBundle not NONE', equip_id)
-                max_candidate = part['overrideTraitDataBundle']['candidates'][-1]
-                max_candidate_en = en_battle_equip_table[equip_id][
-                    'phases'][-1]['parts'][index]['overrideTraitDataBundle']['candidates'][-1] if in_global else None
-                max_candidate_jp = jp_battle_equip_table[equip_id][
-                    'phases'][-1]['parts'][index]['overrideTraitDataBundle']['candidates'][-1] if in_global else None
-                if max_candidate['rangeId'] is not None:
-                    print('TRAIT rangeId not NONE', equip_id)
-                concise_parts.append({"resKey": part['resKey'], "target": part['target'], "isToken": part['isToken'],
-                                      "addDesc_zh": max_candidate['additionalDescription'], "addDesc_en": max_candidate_en['additionalDescription'] if in_global else "", "addDesc_ja": max_candidate_jp['additionalDescription'] if in_global else "",
-                                      "overrideDesc_zh": max_candidate['overrideDescripton'], "overrideDesc_en": max_candidate_en['overrideDescripton'] if in_global else "", "overrideDesc_ja": max_candidate_jp['overrideDescripton'] if in_global else ""})
-                blackboard = blackboard + max_candidate['blackboard']
+        for phase_idx, phase in enumerate(battle_equip['phases']):
+            concise_parts = []
+            for index, part in enumerate(phase['parts']):
+                if not part['target'] in ['TALENT', 'TALENT_DATA_ONLY', 'TRAIT', 'TRAIT_DATA_ONLY', 'DISPLAY']:
+                    print(part['target'])
+                if 'TRAIT' in part['target'] or part['target'] == 'DISPLAY':
+                    if part['addOrOverrideTalentDataBundle']['candidates'] is not None:
+                        print('TRAIT or DISPLAY TalentDataBundle not NONE', equip_id)
+                    max_candidate = part['overrideTraitDataBundle']['candidates'][-1]
+                    max_candidate_en = en_battle_equip_table[equip_id][
+                        'phases'][phase_idx]['parts'][index]['overrideTraitDataBundle']['candidates'][-1] if in_global else None
+                    max_candidate_jp = jp_battle_equip_table[equip_id][
+                        'phases'][phase_idx]['parts'][index]['overrideTraitDataBundle']['candidates'][-1] if in_global else None
+                    if max_candidate['rangeId'] is not None:
+                        print('TRAIT rangeId not NONE', equip_id)
+                    concise_parts.append({"resKey": part['resKey'], "target": part['target'], "isToken": part['isToken'],
+                                          "addDesc_zh": replace_substrings(max_candidate['additionalDescription'], max_candidate['blackboard']), "addDesc_en": replace_substrings(max_candidate_en['additionalDescription'], max_candidate['blackboard']) if in_global else "", "addDesc_ja": replace_substrings(max_candidate_jp['additionalDescription'], max_candidate['blackboard']) if in_global else "",
+                                          "overrideDesc_zh": replace_substrings(max_candidate['overrideDescripton'], max_candidate['blackboard']), "overrideDesc_en": replace_substrings(max_candidate_en['overrideDescripton'], max_candidate['blackboard']) if in_global else "", "overrideDesc_ja": replace_substrings(max_candidate_jp['overrideDescripton'], max_candidate['blackboard']) if in_global else ""})
+                    if phase_idx == 2:
+                        blackboard = blackboard + max_candidate['blackboard']
 
-            if 'TALENT' in part['target']:
-                if part['overrideTraitDataBundle']['candidates'] is not None:
-                    print('TALENT TraitDataBundle not NONE', equip_id)
-                max_candidate = part['addOrOverrideTalentDataBundle']['candidates'][-1]
-                max_candidate_en = en_battle_equip_table[equip_id][
-                    'phases'][-1]['parts'][index]['addOrOverrideTalentDataBundle']['candidates'][-1] if in_global else None
-                max_candidate_jp = jp_battle_equip_table[equip_id][
-                    'phases'][-1]['parts'][index]['addOrOverrideTalentDataBundle']['candidates'][-1] if in_global else None
-                if max_candidate['description'] is not None:
-                    print('TALENT description not NONE', equip_id)
+                if 'TALENT' in part['target']:
+                    if part['overrideTraitDataBundle']['candidates'] is not None:
+                        print('TALENT TraitDataBundle not NONE', equip_id)
+                    max_candidate = part['addOrOverrideTalentDataBundle']['candidates'][-1]
+                    max_candidate_en = en_battle_equip_table[equip_id][
+                        'phases'][phase_idx]['parts'][index]['addOrOverrideTalentDataBundle']['candidates'][-1] if in_global else None
+                    max_candidate_jp = jp_battle_equip_table[equip_id][
+                        'phases'][phase_idx]['parts'][index]['addOrOverrideTalentDataBundle']['candidates'][-1] if in_global else None
+                    if max_candidate['description'] is not None:
+                        print('TALENT description not NONE', equip_id)
 
-                concise_parts.append({"resKey": part['resKey'], "target": part['target'], "isToken": part['isToken'], "name_zh": max_candidate['name'],
-                                      "displayRangeId": max_candidate['displayRangeId'], "rangeId": max_candidate['rangeId'], "talentIndex": max_candidate['talentIndex'],
-                                      "upgradeDesc_zh": max_candidate['upgradeDescription'], "upgradeDesc_en": max_candidate_en['upgradeDescription'] if in_global else "", "upgradeDesc_ja": max_candidate_jp['upgradeDescription'] if in_global else "",
-                                      })
-                blackboard = blackboard + max_candidate['blackboard']
-        combat_data = {'parts': concise_parts, 'attributeBlackboard': phase3['attributeBlackboard'],
-                       'tokenAttributeBlackboard': phase3['tokenAttributeBlackboard'], "tags":[], "blackboard":blackboard}
+                    concise_parts.append({"resKey": part['resKey'], "target": part['target'], "isToken": part['isToken'], "name_zh": max_candidate['name'],
+                                          "displayRangeId": max_candidate['displayRangeId'], "rangeId": max_candidate['rangeId'], "talentIndex": max_candidate['talentIndex'],
+                                          "upgradeDesc_zh": replace_substrings(max_candidate['upgradeDescription'], max_candidate['blackboard']), "upgradeDesc_en": replace_substrings(max_candidate_en['upgradeDescription'], max_candidate['blackboard']) if in_global else "", "upgradeDesc_ja": replace_substrings(max_candidate_jp['upgradeDescription'], max_candidate['blackboard']) if in_global else "",
+                                          })
+
+                    if phase_idx == 2:
+                        blackboard = blackboard + max_candidate['blackboard']
+            phases.append({'parts': concise_parts, 'attributeBlackboard': phase['attributeBlackboard'],
+                           'tokenAttributeBlackboard': phase['tokenAttributeBlackboard'], })
+        combat_data = {'phases': phases,
+                       "tags": [], "blackboard": blackboard}
 
     return_dict[equip_id] = {
         "uniEquipId": equip['uniEquipId'], "typeIcon": equip['typeIcon'], 'charId': char_id, "combatData": combat_data}
@@ -96,12 +89,3 @@ return_dict = curr_uniequip | return_dict
 
 with open('uniequip.json', 'w', encoding='utf-8') as f:
     json.dump(return_dict, f, ensure_ascii=False, indent=4)
-
-
-# schema has to take care of the following requirements:
-# can affect air? target ground? enemy types
-# roguelike artifacts
-# summons
-# values with a range will always take minimum
-# probability
-# condition

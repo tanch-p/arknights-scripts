@@ -1,10 +1,11 @@
 import json
 import os
 import re
-import math
 
 
 def replace_substrings(text, blackboard):
+    if text is None:
+        return text
     # Define the regular expression pattern
     pattern = r'\{(.*?)\}'
 
@@ -27,8 +28,10 @@ def replace_substrings(text, blackboard):
                     value = f"{board['value']}"
                 else:
                     value = f"{round(board['value'])}"
+            return value
+        else:
+            return "{"+matched_str+"}"
         # Replace the matched substring with the value
-        return value
 
     # Replace the substrings using the regular expression and the replace_match function
     result = re.sub(pattern, replace_match, text)

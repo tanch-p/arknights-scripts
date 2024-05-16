@@ -23,6 +23,12 @@ en_char_table_path = os.path.join(
     script_dir, "global_data/en_US/gamedata/excel/character_table.json")
 jp_char_table_path = os.path.join(
     script_dir, "global_data/ja_JP/gamedata/excel/character_table.json")
+cn_patch_table_path = os.path.join(
+    script_dir, "cn_data/zh_CN/gamedata/excel/char_patch_table.json")
+en_patch_table_path = os.path.join(
+    script_dir, "global_data/en_US/gamedata/excel/char_patch_table.json")
+jp_patch_table_path = os.path.join(
+    script_dir, "global_data/ja_JP/gamedata/excel/char_patch_table.json")
 
 with open(cn_char_table_path, encoding='utf-8') as f:
     cn_char_table = json.load(f)
@@ -32,6 +38,12 @@ with open(en_char_table_path, encoding='utf-8') as f:
     en_char_table = json.load(f)
 with open(jp_char_table_path, encoding='utf-8') as f:
     jp_char_table = json.load(f)
+with open(cn_patch_table_path, encoding='utf-8') as f:
+    cn_patch_table = json.load(f)
+with open(en_patch_table_path, encoding='utf-8') as f:
+    en_patch_table = json.load(f)
+with open(jp_patch_table_path, encoding='utf-8') as f:
+    jp_patch_table = json.load(f)
 
 with open('chara_skills.json', encoding='utf-8') as f:
     chara_skills = json.load(f)
@@ -58,6 +70,7 @@ for id in filtered_cn_char_table:
                        "name_en": chara_skills[skill['skillId']]['name_en'],
                        "skillType": chara_skills[skill['skillId']]['skillType'],
                        "durationType": chara_skills[skill['skillId']]['durationType'],
+                       'spType' : chara_skills[skill['skillId']]['spType'],
                        "levels": chara_skills[skill['skillId']]['levels'],
                        "tags": chara_skills[skill['skillId']]['tags'] if skill['skillId'] in chara_skills else [],
                        "blackboard": blackboard})
@@ -83,7 +96,7 @@ for id in filtered_cn_char_table:
     for equip_id in uniequip_dict:
         if uniequip_dict[equip_id]['charId'] == id:
             uniequip_list.append(uniequip_dict[equip_id])
-    uniequip_list.sort(key=lambda equip: equip['uniEquipId'])  
+    uniequip_list.sort(key=lambda equip: equip['uniEquipId'])
     stats = {}
     stats['rangeId'] = character_dict['phases'][-1]['rangeId']
     stats['level'] = character_dict['phases'][-1]['attributesKeyFrames'][-1]['level']
@@ -96,11 +109,27 @@ for id in filtered_cn_char_table:
     stats['aspd'] = character_dict['phases'][-1]['attributesKeyFrames'][-1]['data']["baseAttackTime"]
     stats['respawnTime'] = character_dict['phases'][-1]['attributesKeyFrames'][-1]['data']["respawnTime"]
 
+    potential = []
+    attribute_translate_table = {'COST': "cost", "RESPAWN_TIME": 'respawnTime', 'ATK': "atk",
+                                 "MAX_HP": "hp", "ATTACK_SPEED": "aspd", "DEF": "def", "MAGIC_RESISTANCE": "res"}
+
+    for idx, pot in enumerate(character_dict['potentialRanks']):
+        pot_dict = {
+            "desc_zh": pot['description'],
+            'desc_ja': jp_char_table[id]['potentialRanks'][idx]['description'] if id in en_char_table and idx < len(jp_char_table[id]['potentialRanks']) else "",
+            'desc_en': en_char_table[id]['potentialRanks'][idx]['description'] if id in en_char_table and idx < len(jp_char_table[id]['potentialRanks']) else ""
+        }
+
+        attribute = {attribute_translate_table[pot['buff']['attributes']['attributeModifiers'][0]['attributeType']]: pot['buff']['attributes']['attributeModifiers'][0]['value']}if pot['buff'] else None
+        pot_dict['attribute'] = attribute
+        potential.append(pot_dict)
+
     return_dict = {"id": id, "appellation": character_dict['appellation'], "name_zh": character_dict['name'], "name_ja": "", "name_en": "",
                    "desc_zh": character_dict['description'], "desc_ja": "", "desc_en": "",
-                   "nationId": character_dict['nationId'], "groupId": character_dict['groupId'], "teamId": character_dict['teamId'], "position":character_dict['position'], "tagList": [],
+                   "nationId": character_dict['nationId'], "groupId": character_dict['groupId'], "teamId": character_dict['teamId'], "position": character_dict['position'], "tagList": [],
                    "isSpChar": character_dict['isSpChar'], "rarity": character_dict['rarity'],
                    "profession": character_dict['profession'], "subProfessionId": character_dict['subProfessionId'], "stats": stats,
+                   'potential': potential,
                    "skills": skills, "talents": talents, "tagList": [], 'uniequip': uniequip_list}
     if id in en_char_table:
         return_dict['name_ja'] = jp_char_table[id]['name']
