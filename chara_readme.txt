@@ -46,6 +46,9 @@ protect - protect (because of same name take highest value issue)
 ignore_evasion
 def_scale_dmg - ceobe
 fast_redeploy
+damage_taken_scale - for increased damage taken
+activate_skill - 烈夏
+share_dmg - skadi
 
 ### blackboard keys - for values that need comparison  ###
 ---stat releated---

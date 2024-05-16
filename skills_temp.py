@@ -83,15 +83,13 @@ def replace_substrings(text, blackboard):
 
 return_dict = {}
 for skill in chara_skills:
-    in_global = skill in en_skill_table
-    if 'sktok' in skill or 'skcom_withdraw' in skill:
-        continue
+    # in_global = skill in en_skill_table
+    # if 'sktok' in skill or 'skcom_withdraw' in skill:
+    #     continue
     levels = []
 
-    index = 5
     for level in chara_skills[skill]['levels']:
 
-        index += 1
         description_zh = replace_substrings(
             cn_skill_table[skill]['levels'][index]['description'], cn_skill_table[skill]['levels'][index]['blackboard'])
         description_ja = replace_substrings(
@@ -109,12 +107,17 @@ for skill in chara_skills:
         }
         levels.append(data)
 
-    return_dict[skill] = {"name_zh": cn_skill_table[skill]['levels'][0]['name'],
-                          "name_ja": jp_skill_table[skill]['levels'][0]['name'] if in_global else "",
-                          "name_en": en_skill_table[skill]['levels'][0]['name'] if in_global else "",
-                          "chara_list": chara_skills[skill]['chara_list'], "skillType": cn_skill_table[skill]['levels'][0]['skillType'],
-                          "target_air": None, 
-                          "durationType": cn_skill_table[skill]['levels'][0]['durationType'], "levels": levels,
+    add_remarks = chara_skills[skill]['remarks']['zh'] if "remarks" in dict.keys(chara_skills[skill]) else ""
+
+    return_dict[skill] = {"name_zh": chara_skills[skill]['name_zh'],
+                          "name_ja": chara_skills[skill]['name_ja'],
+                          "name_en": chara_skills[skill]['name_en'],
+                          "chara_list": chara_skills[skill]['chara_list'],
+                          "skillType": chara_skills[skill]['skillType'],
+                          "durationType": chara_skills[skill]['durationType'],
+                          "spType": chara_skills[skill]['spType'],
+                          "levels": chara_skills[skill]['levels'],
+                          "remarks": None if chara_skills[skill]['target_air'] is None else {"zh": f"target_air: {chara_skills[skill]['target_air']} {',' +add_remarks}", "ja": "", "en": ""},
                           "tags": chara_skills[skill]['tags'], "blackboard": chara_skills[skill]['blackboard']}
 print(len(return_dict))
 print(len(chara_skills))

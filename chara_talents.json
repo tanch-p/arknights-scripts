@@ -2363,11 +2363,13 @@
         "blackboard": [
           {
             "key": "ally_aspd",
-            "value": 8.0
+            "value": 8.0,
+            "condition":"melee|block_3_more"
           },
           {
             "key": "ally_def",
-            "value": 0.14
+            "value": 0.14,
+            "condition":"melee|block_3_more"
           },
           {
             "key": "sophia_t_1_less.attack_speed",
@@ -7087,7 +7089,7 @@
         "blackboard": [
           {
             "key": "block_dmg",
-            "value": 100.0,
+            "value": 1.0,
             "condition": "dmg_below_200"
           },
           {
