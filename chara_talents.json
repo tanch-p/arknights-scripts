@@ -10813,5 +10813,57 @@
                 ]
             }
         ]
+    },
+    "char_1001_amiya2": {
+        "appellation": "Amiya",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "青色怒火",
+                "name_en": "Wrathful Cerulean Flame",
+                "name_ja": "蒼き怒火",
+                "description_zh": "在场时所有友方单位的攻击力和防御力+7%，技能开启期间效果加倍",
+                "description_en": "All allied units on the battlefield gain +7% ATK and DEF, doubled when this unit's skill is active",
+                "description_ja": "配置中、味方全員の攻撃力と防御力+7％、スキル発動中素質の効果倍増",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "ally_atk",
+                        "value": 0.07
+                    },
+                    {
+                        "key": "ally_def",
+                        "value": 0.07
+                    }
+                ]
+            }
+        ]
+    },
+    "char_1037_amiya3": {
+        "appellation": "Amiya",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "诚挚期许",
+                "name_en": "",
+                "name_ja": "",
+                "description_zh": "在场时所有友方单位最大生命+8%，技能期间所有友方单位每秒恢复2.5%最大生命",
+                "description_en": "",
+                "description_ja": "",
+                "tags": [
+                    "global_heal"
+                ],
+                "blackboard": [
+                    {
+                        "key": "ally_max_hp",
+                        "value": 0.08
+                    },
+                    {
+                        "key": "hp_recovery_per_sec_by_max_hp_ratio",
+                        "value": 0.025
+                    }
+                ]
+            }
+        ]
     }
 }
