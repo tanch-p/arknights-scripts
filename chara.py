@@ -137,13 +137,18 @@ for id in filtered_cn_char_table:
             if bool(character_dict['favorKeyFrames'][-1]['data'][key]):
                 favor_data[stat_convert[key]
                            ] = character_dict['favorKeyFrames'][-1]['data'][key]
+    
+    # tokens
+    tokens = None
+    if character_dict['displayTokenDict'] is not None:
+        tokens =[key for key in character_dict['displayTokenDict']]
 
     return_dict = {"id": id, "appellation": character_dict['appellation'], "name_zh": character_dict['name'], "name_ja": "", "name_en": "",
                    "desc_zh": character_dict['description'].replace("<$ba","<ba"), "desc_ja": "", "desc_en": "",
                    "nationId": character_dict['nationId'], "groupId": character_dict['groupId'], "teamId": character_dict['teamId'], "position": character_dict['position'], "tagList": [],
                    "isSpChar": character_dict['isSpChar'], "rarity": character_dict['rarity'],
                    "profession": character_dict['profession'], "subProfessionId": character_dict['subProfessionId'], "stats": stats,
-                   'potential': potential, "favorData": favor_data,
+                   'potential': potential, "favorData": favor_data, "tokens": tokens,
                    "skills": skills, "talents": talents, "tagList": [], 'uniequip': uniequip_list}
     if id in en_char_table:
         return_dict['name_ja'] = jp_char_table[id]['name']
@@ -230,13 +235,18 @@ for id in cn_patch_table['patchChars']:
             if bool(character_dict['favorKeyFrames'][-1]['data'][key]):
                 favor_data[stat_convert[key]
                            ] = character_dict['favorKeyFrames'][-1]['data'][key]
+    
+    # tokens
+    tokens = None
+    if character_dict['displayTokenDict'] is not None:
+        tokens =[key for key in character_dict['displayTokenDict']]
 
     return_dict = {"id": id, "appellation": character_dict['appellation'], "name_zh": character_dict['name'], "name_ja": "", "name_en": "",
                    "desc_zh": character_dict['description'].replace("<$ba","<ba"), "desc_ja": "", "desc_en": "",
                    "nationId": character_dict['nationId'], "groupId": character_dict['groupId'], "teamId": character_dict['teamId'], "position": character_dict['position'], "tagList": [],
                    "isSpChar": character_dict['isSpChar'], "rarity": character_dict['rarity'],
                    "profession": character_dict['profession'], "subProfessionId": character_dict['subProfessionId'], "stats": stats,
-                   'potential': potential,  "favorData": favor_data,
+                   'potential': potential,  "favorData": favor_data, "tokens": tokens,
                    "skills": skills, "talents": talents, "tagList": [], 'uniequip': uniequip_list}
     if in_global:
         return_dict['name_ja'] = jp_patch_table['patchChars'][id]['name']
