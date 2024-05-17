@@ -63,9 +63,9 @@
                 "name_zh": "延迟引爆·VI",
                 "name_ja": "遅延起爆Ⅵ",
                 "name_en": "Delayed Detonation 6",
-                "desc_zh": "部署经过3秒后，对周围8格内的所有敌人造成相当于攻击力400%的物理伤害，并令其获得8秒30%的<$ba.fragile>脆弱</>效果，之后自身强制退出战场",
-                "desc_ja": "配置から3秒後、周囲8マスの敵に攻撃力の400％の物理ダメージを与え、8秒間30％の<$ba.fragile>脆弱</>状態を付与する。効果発動後強制退場",
-                "desc_en": "3 seconds after deployment, inflicts 400% ATK as Physical damage to enemies in the nearby 8 tiles and applies 30% <$ba.fragile>Fragile</> effect for 8 seconds, then automatically retreats from battle",
+                "desc_zh": "部署经过3秒后，对周围8格内的所有敌人造成相当于攻击力400%的物理伤害，并令其获得8秒30%的<ba.fragile>脆弱</>效果，之后自身强制退出战场",
+                "desc_ja": "配置から3秒後、周囲8マスの敵に攻撃力の400％の物理ダメージを与え、8秒間30％の<ba.fragile>脆弱</>状態を付与する。効果発動後強制退場",
+                "desc_en": "3 seconds after deployment, inflicts 400% ATK as Physical damage to enemies in the nearby 8 tiles and applies 30% <ba.fragile>Fragile</> effect for 8 seconds, then automatically retreats from battle",
                 "target_air": true,
                 "tags": [],
                 "blackboard": [
@@ -98,9 +98,9 @@
                 "name_zh": "正义助威·VI",
                 "name_ja": "ジャスティスコールⅥ",
                 "name_en": "Justice Drive VI",
-                "desc_zh": "部署后20秒内攻击范围内所有友方远程位单位更不容易被攻击且敌方空中单位获得25%的<$ba.fragile>脆弱</>效果",
-                "desc_ja": "配置後20秒間、攻撃範囲内の味方遠距離ユニット全員が狙われにくくなり、範囲内の敵空中ユニットに25％の<$ba.fragile>脆弱</>効果を付与する",
-                "desc_en": "For 20 seconds after deployment, all ranged allied units within Attack Range become less likely to be attacked and apply 25% <$ba.fragile>Fragile</> effect to aerial enemies",
+                "desc_zh": "部署后20秒内攻击范围内所有友方远程位单位更不容易被攻击且敌方空中单位获得25%的<ba.fragile>脆弱</>效果",
+                "desc_ja": "配置後20秒間、攻撃範囲内の味方遠距離ユニット全員が狙われにくくなり、範囲内の敵空中ユニットに25％の<ba.fragile>脆弱</>効果を付与する",
+                "desc_en": "For 20 seconds after deployment, all ranged allied units within Attack Range become less likely to be attacked and apply 25% <ba.fragile>Fragile</> effect to aerial enemies",
                 "tags": [
                     "ally_lower_target_priority"
                 ],
@@ -131,9 +131,9 @@
                 "name_zh": "猫式抽签爆弹·VI",
                 "name_ja": "ネコ式おみくじ爆弾・陸",
                 "name_en": "Felyne Lottery Bomb VI",
-                "desc_zh": "攻击后会延时引爆，随机触发下列效果之一： 造成450%的物理伤害；目标<$ba.sleep>沉睡</>1秒；目标<$ba.stun>晕眩</>0.2秒；什么都没有发生！触发3次伤害效果后天赋失效",
-                "desc_ja": "攻撃後遅れて爆弾が起爆し、次の効果からランダムに1つ発動する（ダメージを与える効果が3回発動したあと、素質は効果を失う ）：\n450%の物理ダメージを与える/対象を1秒間<$ba.sleep>睡眠</>させる/対象を0.2秒間<$ba.stun>スタン</>させる/何も起こらない……",
-                "desc_en": "Attacks detonate after a delay, with one of the following random effects: Deal 450% Physical Damage / Puts the target to <$ba.sleep>Sleep</> for 1 second / <$ba.stun>Stuns</> the target for 0.2 seconds / Nothing happens at all! Talent deactivates after triggering Damage effect 3 times",
+                "desc_zh": "攻击后会延时引爆，随机触发下列效果之一： 造成450%的物理伤害；目标<ba.sleep>沉睡</>1秒；目标<ba.stun>晕眩</>0.2秒；什么都没有发生！触发3次伤害效果后天赋失效",
+                "desc_ja": "攻撃後遅れて爆弾が起爆し、次の効果からランダムに1つ発動する（ダメージを与える効果が3回発動したあと、素質は効果を失う ）：\n450%の物理ダメージを与える/対象を1秒間<ba.sleep>睡眠</>させる/対象を0.2秒間<ba.stun>スタン</>させる/何も起こらない……",
+                "desc_en": "Attacks detonate after a delay, with one of the following random effects: Deal 450% Physical Damage / Puts the target to <ba.sleep>Sleep</> for 1 second / <ba.stun>Stuns</> the target for 0.2 seconds / Nothing happens at all! Talent deactivates after triggering Damage effect 3 times",
                 "tags": [],
                 "blackboard": [
                     {
@@ -178,9 +178,9 @@
                 "name_zh": "短路天才·VI",
                 "name_ja": "天才トラブルメーカーⅥ",
                 "name_en": "Short-Circuiting Genius VI",
-                "desc_zh": "不容易受到攻击，部署一段时间后，使攻击范围内其它单位<$ba.stun>晕眩</>7.5秒",
-                "desc_ja": "敵に狙われにくい。配置から一定時間後、攻撃範囲内のほかのユニット全員を7.5秒間<$ba.stun>スタン</>させる",
-                "desc_en": "Less likely to be attacked; After being deployed for a certain duration, <$ba.stun>Stuns</> other units within range for 7.5 seconds",
+                "desc_zh": "不容易受到攻击，部署一段时间后，使攻击范围内其它单位<ba.stun>晕眩</>7.5秒",
+                "desc_ja": "敵に狙われにくい。配置から一定時間後、攻撃範囲内のほかのユニット全員を7.5秒間<ba.stun>スタン</>させる",
+                "desc_en": "Less likely to be attacked; After being deployed for a certain duration, <ba.stun>Stuns</> other units within range for 7.5 seconds",
                 "target_air": true,
                 "tags": [
                     "lower_target_priority",
@@ -751,9 +751,9 @@
                 "name_zh": "静电场",
                 "name_ja": "静電場",
                 "name_en": "Electrostatic Field",
-                "desc_zh": "攻击时对攻击目标造成0.6秒的<$ba.sluggish>停顿</>",
-                "desc_ja": "攻撃時、攻撃対象を0.6秒<$ba.sluggish>足止め</>する",
-                "desc_en": "<$ba.sluggish>Slows</> the target for 0.6 seconds when attacking",
+                "desc_zh": "攻击时对攻击目标造成0.6秒的<ba.sluggish>停顿</>",
+                "desc_ja": "攻撃時、攻撃対象を0.6秒<ba.sluggish>足止め</>する",
+                "desc_en": "<ba.sluggish>Slows</> the target for 0.6 seconds when attacking",
                 "tags": [],
                 "blackboard": [
                     {
@@ -793,9 +793,9 @@
                 "name_zh": "柔光缚目",
                 "name_ja": "柔光のとばり",
                 "name_en": "Gentle Binding Gaze",
-                "desc_zh": "攻击时有20%<@ba.talpu>（+2%）</>的几率使目标<$ba.root>束缚</>4秒，不以束缚状态的敌人为攻击目标",
-                "desc_ja": "攻撃時、20%<@ba.talpu>（+2%）</>の確率で攻撃対象を4秒間<$ba.root>バインド</>する（バインド状態の敵を攻撃しない）",
-                "desc_en": "When attacking, has a 20% <@ba.talpu>(+2%)</> chance to <$ba.root>Bind</> the target for 4 seconds. Will not target Bound enemies",
+                "desc_zh": "攻击时有20%<@ba.talpu>（+2%）</>的几率使目标<ba.root>束缚</>4秒，不以束缚状态的敌人为攻击目标",
+                "desc_ja": "攻撃時、20%<@ba.talpu>（+2%）</>の確率で攻撃対象を4秒間<ba.root>バインド</>する（バインド状態の敵を攻撃しない）",
+                "desc_en": "When attacking, has a 20% <@ba.talpu>(+2%)</> chance to <ba.root>Bind</> the target for 4 seconds. Will not target Bound enemies",
                 "tags": [],
                 "blackboard": [
                     {
@@ -980,9 +980,9 @@
                 "name_zh": "精确打击",
                 "name_ja": "超長距離狙撃",
                 "name_en": "Precise Strike",
-                "desc_zh": "攻击原本攻击范围以外的目标时，有28%<@ba.talpu>（+3%）</>的几率使其<$ba.stun>晕眩</>2秒",
-                "desc_ja": "通常の攻撃範囲以外の敵を攻撃時、28%<@ba.talpu>（+3%）</>の確率で2秒間<$ba.stun>スタン</>させる",
-                "desc_en": "Has a 28% <@ba.talpu>(+3%)</> chance to <$ba.stun>Stun</> target for 2 seconds when attacking an enemy outside this unit's normal Attack Range",
+                "desc_zh": "攻击原本攻击范围以外的目标时，有28%<@ba.talpu>（+3%）</>的几率使其<ba.stun>晕眩</>2秒",
+                "desc_ja": "通常の攻撃範囲以外の敵を攻撃時、28%<@ba.talpu>（+3%）</>の確率で2秒間<ba.stun>スタン</>させる",
+                "desc_en": "Has a 28% <@ba.talpu>(+3%)</> chance to <ba.stun>Stun</> target for 2 seconds when attacking an enemy outside this unit's normal Attack Range",
                 "tags": [],
                 "blackboard": [
                     {
@@ -1034,9 +1034,9 @@
                 "name_zh": "目光如炬",
                 "name_ja": "鋭い眼光",
                 "name_en": "Illuminating Eyes",
-                "desc_zh": "可以攻击<$ba.invisible>隐匿</>敌人，并且攻击范围内存在<$ba.invisible>隐匿</>敌人时，攻击力+20%<@ba.talpu>（+3%）</>",
-                "desc_ja": "<$ba.invisible>ステルス</>状態の敵を攻撃することができ、攻撃範囲内に<$ba.invisible>ステルス</>状態の敵がいる場合、攻撃力+20%<@ba.talpu>（+3%）</>",
-                "desc_en": "Can attack <$ba.invisible>Invisible</> enemies. If there are <$ba.invisible>Invisible</> enemies within attack range, ATK +20% <@ba.talpu>(+3%)</>",
+                "desc_zh": "可以攻击<ba.invisible>隐匿</>敌人，并且攻击范围内存在<ba.invisible>隐匿</>敌人时，攻击力+20%<@ba.talpu>（+3%）</>",
+                "desc_ja": "<ba.invisible>ステルス</>状態の敵を攻撃することができ、攻撃範囲内に<ba.invisible>ステルス</>状態の敵がいる場合、攻撃力+20%<@ba.talpu>（+3%）</>",
+                "desc_en": "Can attack <ba.invisible>Invisible</> enemies. If there are <ba.invisible>Invisible</> enemies within attack range, ATK +20% <@ba.talpu>(+3%)</>",
                 "tags": [
                     "attack_stealth"
                 ],
@@ -1261,9 +1261,9 @@
                 "name_zh": "稳妥降落",
                 "name_ja": "備えなき降臨",
                 "name_en": "Safe Landing",
-                "desc_zh": "部署费用-4，再部署时间-15秒，但部署后<$ba.stun>晕眩</>10秒",
-                "desc_ja": "自身の配置コスト-4、再配置時間-15秒、配置後10秒間<$ba.stun>スタン</>状態になる",
-                "desc_en": "DP Cost -4, Redeployment Time -15 seconds. This unit is <$ba.stun>Stunned</> for 10 seconds upon deployment.",
+                "desc_zh": "部署费用-4，再部署时间-15秒，但部署后<ba.stun>晕眩</>10秒",
+                "desc_ja": "自身の配置コスト-4、再配置時間-15秒、配置後10秒間<ba.stun>スタン</>状態になる",
+                "desc_en": "DP Cost -4, Redeployment Time -15 seconds. This unit is <ba.stun>Stunned</> for 10 seconds upon deployment.",
                 "tags": [
                     "ally_ailment"
                 ],
@@ -1382,9 +1382,9 @@
                 "name_zh": "认真模式",
                 "name_ja": "マジモード",
                 "name_en": "Serious Mode",
-                "desc_zh": "在场时，自身获得最高+100攻击速度的<$ba.berserk>坚忍</>（损失70%生命值时达到最大加成）",
-                "desc_ja": "配置中、最大で攻撃速度+100の<$ba.berserk>不屈</>状態を獲得する（HPが最大値の70%減少時、効果最大）",
-                "desc_en": "Gains up to +100 ASPD <$ba.berserk>Tenacity</> (reaches maximum bonus when losing 70% Max HP)",
+                "desc_zh": "在场时，自身获得最高+100攻击速度的<ba.berserk>坚忍</>（损失70%生命值时达到最大加成）",
+                "desc_ja": "配置中、最大で攻撃速度+100の<ba.berserk>不屈</>状態を獲得する（HPが最大値の70%減少時、効果最大）",
+                "desc_en": "Gains up to +100 ASPD <ba.berserk>Tenacity</> (reaches maximum bonus when losing 70% Max HP)",
                 "tags": [
                     "berserk"
                 ],
@@ -1433,9 +1433,9 @@
                 "name_zh": "见习执行者",
                 "name_ja": "執行人見習い",
                 "name_en": "Executor-in-Training",
-                "desc_zh": "造成致命伤害时使敌人保留1点生命并使其<$ba.dying>重伤</>（击杀者技力+2）；罗小黑不攻击<$ba.dying>重伤</>单位",
-                "desc_ja": "敵に致命的なダメージを与えた時、対象のHPを1残し、<$ba.dying>重傷</>（倒すとSPが2回復）を付与する。自身は<$ba.dying>重傷</>状態の敵を攻撃しない",
-                "desc_en": "When dealing lethal damage, leave the enemy with 1 HP and inflict <$ba.dying>Critically Wounded</> (gives +2 SP to the attacker when killed); Luo Xiaohei will not attack <$ba.dying>Critically Wounded</> targets",
+                "desc_zh": "造成致命伤害时使敌人保留1点生命并使其<ba.dying>重伤</>（击杀者技力+2）；罗小黑不攻击<ba.dying>重伤</>单位",
+                "desc_ja": "敵に致命的なダメージを与えた時、対象のHPを1残し、<ba.dying>重傷</>（倒すとSPが2回復）を付与する。自身は<ba.dying>重傷</>状態の敵を攻撃しない",
+                "desc_en": "When dealing lethal damage, leave the enemy with 1 HP and inflict <ba.dying>Critically Wounded</> (gives +2 SP to the attacker when killed); Luo Xiaohei will not attack <ba.dying>Critically Wounded</> targets",
                 "tags": [
                     "dying"
                 ],
@@ -1489,9 +1489,9 @@
                 "name_zh": "再回收",
                 "name_ja": "再利用",
                 "name_en": "Re-recycle",
-                "desc_zh": "超出自身生命上限的生命值可转化为<$ba.barrier>屏障</>；最多不超过自身最大生命值的104%<@ba.talpu>（+4%）</>",
-                "desc_ja": "自身のHP回復時、最大値を超えた分のHPは等量の<$ba.barrier>バリア</>に変換される。この効果によるのバリア最大値は自身の最大HPの104%<@ba.talpu>（+4%）</>まで",
-                "desc_en": "Any HP gain exceeding this unit's Max HP is converted into a <$ba.barrier>Barrier</>; caps at 104% <@ba.talpu>(+4%)</> of Max HP",
+                "desc_zh": "超出自身生命上限的生命值可转化为<ba.barrier>屏障</>；最多不超过自身最大生命值的104%<@ba.talpu>（+4%）</>",
+                "desc_ja": "自身のHP回復時、最大値を超えた分のHPは等量の<ba.barrier>バリア</>に変換される。この効果によるのバリア最大値は自身の最大HPの104%<@ba.talpu>（+4%）</>まで",
+                "desc_en": "Any HP gain exceeding this unit's Max HP is converted into a <ba.barrier>Barrier</>; caps at 104% <@ba.talpu>(+4%)</> of Max HP",
                 "tags": [
                     "barrier"
                 ],
@@ -1688,9 +1688,9 @@
                 "name_zh": "快速愈合",
                 "name_ja": "クイックメンド",
                 "name_en": "Rapid Restoration",
-                "desc_zh": "在治疗目标后使其获得4秒<$ba.buffres>抵抗</>",
-                "desc_ja": "味方を回復後、対象に4秒の<$ba.buffres>レジスト</>状態を付与する",
-                "desc_en": "Targets healed by this unit gain <$ba.buffres>status resistance</> for 4 seconds",
+                "desc_zh": "在治疗目标后使其获得4秒<ba.buffres>抵抗</>",
+                "desc_ja": "味方を回復後、対象に4秒の<ba.buffres>レジスト</>状態を付与する",
+                "desc_en": "Targets healed by this unit gain <ba.buffres>status resistance</> for 4 seconds",
                 "tags": [
                     "ally_resist"
                 ],
@@ -1715,9 +1715,9 @@
                 "name_zh": "脚踏实地",
                 "name_ja": "地固め",
                 "name_en": "Solidly Grounded",
-                "desc_zh": "治疗地面单位，<$ba.dt.element>元素损伤</>回复量提高23%<@ba.talpu>（+3%）</>",
-                "desc_ja": "地面マスにいるユニットを治療する時、<$ba.dt.element>元素損傷</>に対する治療効果+23%<@ba.talpu>（+3%）</>",
-                "desc_en": "<$ba.dt.element>Elemental Damage</> recovery +23%<@ba.talpu>(+3%)</> when healing ground units",
+                "desc_zh": "治疗地面单位，<ba.dt.element>元素损伤</>回复量提高23%<@ba.talpu>（+3%）</>",
+                "desc_ja": "地面マスにいるユニットを治療する時、<ba.dt.element>元素損傷</>に対する治療効果+23%<@ba.talpu>（+3%）</>",
+                "desc_en": "<ba.dt.element>Elemental Damage</> recovery +23%<@ba.talpu>(+3%)</> when healing ground units",
                 "tags": [],
                 "blackboard": [
                     {
@@ -1804,9 +1804,9 @@
                 "name_zh": "平底锅专精",
                 "name_ja": "フライパンマスター",
                 "name_en": "Frying Pan Specialist",
-                "desc_zh": "攻击时，18%<@ba.talpu>（+3%）</>几率当次攻击的攻击力提升至200%，并<$ba.stun>晕眩</>敌人1秒",
-                "desc_ja": "攻撃時、18%<@ba.talpu>(+3%)</>の確率でその攻撃のみ攻撃力が200％に上昇、敵を1秒間<$ba.stun>スタン</>させる",
-                "desc_en": "When attacking, has a 18% <@ba.talpu>(+3%)</> chance to deal 200% damage and <$ba.stun>Stun</> the target for 1 second",
+                "desc_zh": "攻击时，18%<@ba.talpu>（+3%）</>几率当次攻击的攻击力提升至200%，并<ba.stun>晕眩</>敌人1秒",
+                "desc_ja": "攻撃時、18%<@ba.talpu>(+3%)</>の確率でその攻撃のみ攻撃力が200％に上昇、敵を1秒間<ba.stun>スタン</>させる",
+                "desc_en": "When attacking, has a 18% <@ba.talpu>(+3%)</> chance to deal 200% damage and <ba.stun>Stun</> the target for 1 second",
                 "tags": [
                     "crit"
                 ],
@@ -1884,9 +1884,9 @@
                 "name_zh": "地质勘探",
                 "name_ja": "地質調査",
                 "name_en": "Geological Survey",
-                "desc_zh": "稍微延长特性<$ba.sluggish>停顿</>的持续时间",
-                "desc_ja": "特性による<$ba.sluggish>足止め</>状態の継続時間をやや延長",
-                "desc_en": "Extends <$ba.sluggish>Slow</> duration moderately",
+                "desc_zh": "稍微延长特性<ba.sluggish>停顿</>的持续时间",
+                "desc_ja": "特性による<ba.sluggish>足止め</>状態の継続時間をやや延長",
+                "desc_en": "Extends <ba.sluggish>Slow</> duration moderately",
                 "tags": [],
                 "blackboard": [
                     {
@@ -1928,9 +1928,9 @@
                 "name_zh": "造型仪调试",
                 "name_ja": "メイクツール調達",
                 "name_en": "Modeler Debugging",
-                "desc_zh": "携带3个造型仪（最多部署3个），使一名近战位上的单位防御力+33%<@ba.talpu>（+3%）</>并获得2层<$ba.shield>护盾</>（持续25秒，防御加成不叠加）",
-                "desc_ja": "「メイクアップマシン」を3体配置可能（最大3体まで同時配置可能）、「メイクアップマシン」前方の近距離マスにいる味方1体に防御力+33%<@ba.talpu>（+3%）</>の効果と<$ba.shield>シールド</>2枚を付与する（25秒継続、防御上昇効果重複不可）",
-                "desc_en": "Carries 3 Modelers (max 3 deployed at once). Modelers grant DEF +33% <@ba.talpu>(+3%)</> and 2 <$ba.shield>Shields</> to the melee allied unit ahead (lasts for 25 seconds, DEF increase does not stack)",
+                "desc_zh": "携带3个造型仪（最多部署3个），使一名近战位上的单位防御力+33%<@ba.talpu>（+3%）</>并获得2层<ba.shield>护盾</>（持续25秒，防御加成不叠加）",
+                "desc_ja": "「メイクアップマシン」を3体配置可能（最大3体まで同時配置可能）、「メイクアップマシン」前方の近距離マスにいる味方1体に防御力+33%<@ba.talpu>（+3%）</>の効果と<ba.shield>シールド</>2枚を付与する（25秒継続、防御上昇効果重複不可）",
+                "desc_en": "Carries 3 Modelers (max 3 deployed at once). Modelers grant DEF +33% <@ba.talpu>(+3%)</> and 2 <ba.shield>Shields</> to the melee allied unit ahead (lasts for 25 seconds, DEF increase does not stack)",
                 "tags": [
                     "summon"
                 ],
@@ -1959,9 +1959,9 @@
                 "name_zh": "缠绕",
                 "name_ja": "絡みつく",
                 "name_en": "Entwined",
-                "desc_zh": "攻击时有25%的几率使目标<$ba.root>束缚</>3秒",
-                "desc_ja": "攻撃時、25％の確率で攻撃対象を3秒間<$ba.root>バインド</>させる",
-                "desc_en": "When attacking, has a 25% chance to <$ba.root>Bind</> the target for 3 seconds",
+                "desc_zh": "攻击时有25%的几率使目标<ba.root>束缚</>3秒",
+                "desc_ja": "攻撃時、25％の確率で攻撃対象を3秒間<ba.root>バインド</>させる",
+                "desc_en": "When attacking, has a 25% chance to <ba.root>Bind</> the target for 3 seconds",
                 "tags": [],
                 "blackboard": [
                     {
@@ -2050,9 +2050,9 @@
                 "name_zh": "医疗班保护",
                 "name_ja": "医療班保護",
                 "name_en": "Medic Squad Protection",
-                "desc_zh": "技能开启时，所有【医疗】和【辅助】干员获得<$ba.buffres>抵抗</>",
-                "desc_ja": "スキル発動中、配置中の味方【医療】と【補助】全員に<$ba.buffres>レジスト</>状態を付与",
-                "desc_en": "When this unit's skill is active, all Medic and Supporter Operators gain <$ba.buffres>status resistance</>",
+                "desc_zh": "技能开启时，所有【医疗】和【辅助】干员获得<ba.buffres>抵抗</>",
+                "desc_ja": "スキル発動中、配置中の味方【医療】と【補助】全員に<ba.buffres>レジスト</>状態を付与",
+                "desc_en": "When this unit's skill is active, all Medic and Supporter Operators gain <ba.buffres>status resistance</>",
                 "tags": [
                     "ally_resist"
                 ],
@@ -2522,7 +2522,7 @@
                 "name_zh": "交感神经激活",
                 "name_ja": "",
                 "name_en": "",
-                "desc_zh": "治疗友方单位生命时，超过目标生命上限的治疗量可转化为不断衰减的<$ba.barrier>屏障</>",
+                "desc_zh": "治疗友方单位生命时，超过目标生命上限的治疗量可转化为不断衰减的<ba.barrier>屏障</>",
                 "desc_ja": "",
                 "desc_en": "",
                 "tags": [
@@ -2595,9 +2595,9 @@
                 "name_zh": "沸血先锋",
                 "name_ja": "熱血先鋒",
                 "name_en": "Hot-Blooded Vanguard",
-                "desc_zh": "在场时，自身获得最高+52%<@ba.talpu>（+2%）</>攻击力的<$ba.berserk>坚忍</>（损失70%生命值时达最大加成）",
-                "desc_ja": "配置中、最大で攻撃力+52%<@ba.talpu>（+2%）</>の<$ba.berserk>不屈</>状態を獲得する（HPが最大値の70%減少時、効果最大）",
-                "desc_en": "Gains up to +52% <@ba.talpu>(+2%)</> ATK <$ba.berserk>Tenacity</> (reaches maximum bonus when losing 70% Max HP)",
+                "desc_zh": "在场时，自身获得最高+52%<@ba.talpu>（+2%）</>攻击力的<ba.berserk>坚忍</>（损失70%生命值时达最大加成）",
+                "desc_ja": "配置中、最大で攻撃力+52%<@ba.talpu>（+2%）</>の<ba.berserk>不屈</>状態を獲得する（HPが最大値の70%減少時、効果最大）",
+                "desc_en": "Gains up to +52% <@ba.talpu>(+2%)</> ATK <ba.berserk>Tenacity</> (reaches maximum bonus when losing 70% Max HP)",
                 "tags": [
                     "berserk"
                 ],
@@ -2826,9 +2826,9 @@
                 "name_zh": "走山路",
                 "name_ja": "山路を往く",
                 "name_en": "Mountain Traveler",
-                "desc_zh": "生命上限+5%，生命值高于50%时获得+22%<@ba.talpu>（+2%）</>攻击力的<$ba.strong>精力充沛</>",
-                "desc_ja": "最大HP+5％。HPが最大値の50％以上の場合、攻撃力+22％<@ba.talpu>（+2％）</>の<$ba.strong>勇猛</>状態を獲得する",
-                "desc_en": "Max HP +5%, gain <$ba.strong>Vigor</> effect of +22% <@ba.talpu>(+2%)</>ATK when HP is above 50%",
+                "desc_zh": "生命上限+5%，生命值高于50%时获得+22%<@ba.talpu>（+2%）</>攻击力的<ba.strong>精力充沛</>",
+                "desc_ja": "最大HP+5％。HPが最大値の50％以上の場合、攻撃力+22％<@ba.talpu>（+2％）</>の<ba.strong>勇猛</>状態を獲得する",
+                "desc_en": "Max HP +5%, gain <ba.strong>Vigor</> effect of +22% <@ba.talpu>(+2%)</>ATK when HP is above 50%",
                 "tags": [
                     "peak_performance"
                 ],
@@ -3016,9 +3016,9 @@
                 "name_zh": "佣兵之韧",
                 "name_ja": "傭兵の意地",
                 "name_en": "Mercenary's Tenacity",
-                "desc_zh": "击杀5<@ba.talpu>（-2）</>个敌人后获得攻击速度+15和<$ba.buffres>抵抗</>",
-                "desc_ja": "敵を5<@ba.talpu>（-2）</>体倒した後、自身が<$ba.buffres>レジスト</>状態になり、攻撃速度+15",
-                "desc_en": "After defeating 5 <@ba.talpu>(-2)</> enemies, Sideroca gains +15 ASPD and <$ba.buffres>status resistance</>",
+                "desc_zh": "击杀5<@ba.talpu>（-2）</>个敌人后获得攻击速度+15和<ba.buffres>抵抗</>",
+                "desc_ja": "敵を5<@ba.talpu>（-2）</>体倒した後、自身が<ba.buffres>レジスト</>状態になり、攻撃速度+15",
+                "desc_en": "After defeating 5 <@ba.talpu>(-2)</> enemies, Sideroca gains +15 ASPD and <ba.buffres>status resistance</>",
                 "tags": [
                     "resist"
                 ],
@@ -3047,9 +3047,9 @@
                 "name_zh": "信影流·羽飞",
                 "name_ja": "信影流・羽飛",
                 "name_en": "Nobukage-ryu - Hatobu",
-                "desc_zh": "在场时，自身获得最高+100攻击速度的<$ba.berserk>坚忍</>（损失70%生命值时达到最大加成）",
-                "desc_ja": "配置中、最大で攻撃速度+100の<$ba.berserk>不屈</>状態を獲得する（HPが最大値の70%減少時、効果最大）",
-                "desc_en": "Gains up to +100 ASPD <$ba.berserk>Tenacity</> (reaches maximum bonus when losing 70% Max HP)",
+                "desc_zh": "在场时，自身获得最高+100攻击速度的<ba.berserk>坚忍</>（损失70%生命值时达到最大加成）",
+                "desc_ja": "配置中、最大で攻撃速度+100の<ba.berserk>不屈</>状態を獲得する（HPが最大値の70%減少時、効果最大）",
+                "desc_en": "Gains up to +100 ASPD <ba.berserk>Tenacity</> (reaches maximum bonus when losing 70% Max HP)",
                 "tags": [
                     "berserk"
                 ],
@@ -3074,9 +3074,9 @@
                 "name_zh": "坚韧",
                 "name_ja": "剛毅",
                 "name_en": "Decisive",
-                "desc_zh": "在场时，自身获得最高+50攻击速度和最高+50%防御力的<$ba.berserk>坚忍</>（损失70%生命值时达到最大加成）",
-                "desc_ja": "配置中、最大で攻撃速度+50と最大で防御力+50%の<$ba.berserk>不屈</>状態を獲得する（HPが最大値の70%減少時、効果最大）",
-                "desc_en": "Gains up to +50 ASPD and +50% DEF <$ba.berserk>Tenacity</> (reaches maximum bonus when missing 70% Max HP)",
+                "desc_zh": "在场时，自身获得最高+50攻击速度和最高+50%防御力的<ba.berserk>坚忍</>（损失70%生命值时达到最大加成）",
+                "desc_ja": "配置中、最大で攻撃速度+50と最大で防御力+50%の<ba.berserk>不屈</>状態を獲得する（HPが最大値の70%減少時、効果最大）",
+                "desc_en": "Gains up to +50 ASPD and +50% DEF <ba.berserk>Tenacity</> (reaches maximum bonus when missing 70% Max HP)",
                 "tags": [
                     "berserk"
                 ],
@@ -3154,9 +3154,9 @@
                 "name_zh": "收割，给养",
                 "name_ja": "捕食、消化",
                 "name_en": "Sustenance from the Reaper",
-                "desc_zh": "每攻击到一个敌人回复自身35<@ba.talpu>（+5）</><$ba.dt.element>元素损伤</>，最大生效数等于阻挡数",
-                "desc_ja": "敵を1体攻撃する度自身に蓄積された<$ba.dt.element>元素損傷</>を35<@ba.talpu>（+5）</>回復（攻撃毎の最大回復回数はブロック数と同じ）",
-                "desc_en": "Recover 35 <@ba.talpu>(+5)</> <$ba.dt.element>Elemental Damage</> for each enemy hit during attacks, up to Block count",
+                "desc_zh": "每攻击到一个敌人回复自身35<@ba.talpu>（+5）</><ba.dt.element>元素损伤</>，最大生效数等于阻挡数",
+                "desc_ja": "敵を1体攻撃する度自身に蓄積された<ba.dt.element>元素損傷</>を35<@ba.talpu>（+5）</>回復（攻撃毎の最大回復回数はブロック数と同じ）",
+                "desc_en": "Recover 35 <@ba.talpu>(+5)</> <ba.dt.element>Elemental Damage</> for each enemy hit during attacks, up to Block count",
                 "tags": [
                     "ele_heal"
                 ],
@@ -3366,9 +3366,9 @@
                 "name_zh": "中的",
                 "name_ja": "的中",
                 "name_en": "Bullseye",
-                "desc_zh": "攻击时，20%几率当次攻击的攻击力提升至160%<@ba.talpu>（+10%）</>，并使敌人<$ba.stun>晕眩</>0.2秒",
-                "desc_ja": "攻撃時、20%の確率でその攻撃のみ攻撃力が160%<@ba.talpu>（+10%）</>に上昇し、敵を0.2秒間<$ba.stun>スタン</>させる",
-                "desc_en": "When attacking, has a 20% chance to deal 160% <@ba.talpu>(+10%)</> damage and <$ba.stun>Stun</> the target for 0.2 seconds",
+                "desc_zh": "攻击时，20%几率当次攻击的攻击力提升至160%<@ba.talpu>（+10%）</>，并使敌人<ba.stun>晕眩</>0.2秒",
+                "desc_ja": "攻撃時、20%の確率でその攻撃のみ攻撃力が160%<@ba.talpu>（+10%）</>に上昇し、敵を0.2秒間<ba.stun>スタン</>させる",
+                "desc_en": "When attacking, has a 20% chance to deal 160% <@ba.talpu>(+10%)</> damage and <ba.stun>Stun</> the target for 0.2 seconds",
                 "tags": [
                     "crit"
                 ],
@@ -3631,9 +3631,9 @@
                 "name_zh": "冰原生存",
                 "name_ja": "氷原生存術",
                 "name_en": "Tundra Survival",
-                "desc_zh": "攻击范围内的所有空中单位获得22%<@ba.talpu>（+2%）</>的<$ba.magicfragile>【法术脆弱】</>效果",
-                "desc_ja": "攻撃範囲内の空中にいる敵全員に22%<@ba.talpu>（+2%）</>の<$ba.magicfragile>対術脆弱</>状態を付与",
-                "desc_en": "Inflicts 22% <@ba.talpu>(+2%)</> <$ba.magicfragile>[Arts Fragility]</> on all Aerial units within range",
+                "desc_zh": "攻击范围内的所有空中单位获得22%<@ba.talpu>（+2%）</>的<ba.magicfragile>【法术脆弱】</>效果",
+                "desc_ja": "攻撃範囲内の空中にいる敵全員に22%<@ba.talpu>（+2%）</>の<ba.magicfragile>対術脆弱</>状態を付与",
+                "desc_en": "Inflicts 22% <@ba.talpu>(+2%)</> <ba.magicfragile>[Arts Fragility]</> on all Aerial units within range",
                 "tags": [
                     "flying"
                 ],
@@ -3800,9 +3800,9 @@
                 "name_zh": "生于冰寒",
                 "name_ja": "寒地の民",
                 "name_en": "Born of the Biting Cold",
-                "desc_zh": "在战场停留20秒后，攻击力+18%<@ba.talpu>（+3%）</>且获得<$ba.buffres>抵抗</>",
-                "desc_ja": "配置から20秒後、攻撃力+18%<@ba.talpu>（+3%）</>、<$ba.buffres>レジスト</>状態になる",
-                "desc_en": "After being deployed for 20 seconds, this unit gains +18% <@ba.talpu>(+3%)</> ATK and <$ba.buffres>Status Resistance</>",
+                "desc_zh": "在战场停留20秒后，攻击力+18%<@ba.talpu>（+3%）</>且获得<ba.buffres>抵抗</>",
+                "desc_ja": "配置から20秒後、攻撃力+18%<@ba.talpu>（+3%）</>、<ba.buffres>レジスト</>状態になる",
+                "desc_en": "After being deployed for 20 seconds, this unit gains +18% <@ba.talpu>(+3%)</> ATK and <ba.buffres>Status Resistance</>",
                 "tags": [
                     "resist"
                 ],
@@ -4092,7 +4092,7 @@
                 "name_zh": "预先告知",
                 "name_ja": "",
                 "name_en": "",
-                "desc_zh": "攻击范围内存在处于<$ba.dt.apoptosis2>凋亡损伤</>爆发期间的敌方单位时，攻击力+21%<@ba.talpu>（+3%）</>",
+                "desc_zh": "攻击范围内存在处于<ba.dt.apoptosis2>凋亡损伤</>爆发期间的敌方单位时，攻击力+21%<@ba.talpu>（+3%）</>",
                 "desc_ja": "",
                 "desc_en": "",
                 "tags": [],
@@ -4113,7 +4113,7 @@
                 "name_zh": "难免会溢锅",
                 "name_ja": "",
                 "name_en": "",
-                "desc_zh": "攻击范围内的敌人<$ba.dt.burning2>灼燃损伤</>爆发开始时立即受到相当于攻击力320%<@ba.talpu>（+20%）</>的元素伤害",
+                "desc_zh": "攻击范围内的敌人<ba.dt.burning2>灼燃损伤</>爆发开始时立即受到相当于攻击力320%<@ba.talpu>（+20%）</>的元素伤害",
                 "desc_ja": "",
                 "desc_en": "",
                 "tags": [
@@ -4164,9 +4164,9 @@
                 "name_zh": "摄影小队",
                 "name_ja": "ロボット撮影隊",
                 "name_en": "Camera Squad",
-                "desc_zh": "可以使用5个移动摄影车。摄影车周围8格内敌人的<$ba.invisible>隐匿</>效果失效",
-                "desc_ja": "「撮影ロボット」を5体配置可能。撮影ロボットの周囲8マス以内の敵全員の<$ba.invisible>ステルス</>状態を無効にする",
-                "desc_en": "Can summon 5 Buggy Cams; Buggy Cams will reveal <$ba.invisible>Invisible</> enemies within the surrounding 8 tiles",
+                "desc_zh": "可以使用5个移动摄影车。摄影车周围8格内敌人的<ba.invisible>隐匿</>效果失效",
+                "desc_ja": "「撮影ロボット」を5体配置可能。撮影ロボットの周囲8マス以内の敵全員の<ba.invisible>ステルス</>状態を無効にする",
+                "desc_en": "Can summon 5 Buggy Cams; Buggy Cams will reveal <ba.invisible>Invisible</> enemies within the surrounding 8 tiles",
                 "tags": [
                     "cancel_stealth",
                     "summon"
@@ -4237,9 +4237,9 @@
                 "name_zh": "药物阻断技巧",
                 "name_ja": "薬物遮断技術",
                 "name_en": "Drug Inhibition Technique",
-                "desc_zh": "拥有<$ba.buffres>抵抗</>且受到来自自然环境的伤害-50%<@ba.talpu>（+10%）</>",
-                "desc_ja": "配置後、自身が<$ba.buffres>レジスト</>状態になり、自然環境からの被ダメージ-50％<@ba.talpu>（+10%）</>",
-                "desc_en": "Gains <$ba.buffres>status resistance</> and -50% <@ba.talpu>(+10%)</> damage taken from environmental effects",
+                "desc_zh": "拥有<ba.buffres>抵抗</>且受到来自自然环境的伤害-50%<@ba.talpu>（+10%）</>",
+                "desc_ja": "配置後、自身が<ba.buffres>レジスト</>状態になり、自然環境からの被ダメージ-50％<@ba.talpu>（+10%）</>",
+                "desc_en": "Gains <ba.buffres>status resistance</> and -50% <@ba.talpu>(+10%)</> damage taken from environmental effects",
                 "tags": [
                     "resist",
                     "env"
@@ -4313,9 +4313,9 @@
                 "name_zh": "生命塔台",
                 "name_ja": "命の灯台",
                 "name_en": "Tower of Life",
-                "desc_zh": "攻击范围内拥有<$ba.buffres>抵抗</>的友方单位每秒恢复相当于絮雨攻击力7%<@ba.talpu>（+1%）</>的生命（不受特性影响）",
-                "desc_ja": "攻撃範囲内の<$ba.buffres>レジスト</>状態中の味方全員のHPが1秒ごとにウィスパーレインの攻撃力の7%<@ba.talpu>（+1%）</>回復（回復量は特性に影響されない）",
-                "desc_en": "Allied units with <$ba.buffres>status resistance</> within this unit's Attack Range will restore HP per second equal to 7% <@ba.talpu>(+1%)</> of Whisperain's ATK (Unaffected by this unit's Trait)",
+                "desc_zh": "攻击范围内拥有<ba.buffres>抵抗</>的友方单位每秒恢复相当于絮雨攻击力7%<@ba.talpu>（+1%）</>的生命（不受特性影响）",
+                "desc_ja": "攻撃範囲内の<ba.buffres>レジスト</>状態中の味方全員のHPが1秒ごとにウィスパーレインの攻撃力の7%<@ba.talpu>（+1%）</>回復（回復量は特性に影響されない）",
+                "desc_en": "Allied units with <ba.buffres>status resistance</> within this unit's Attack Range will restore HP per second equal to 7% <@ba.talpu>(+1%)</> of Whisperain's ATK (Unaffected by this unit's Trait)",
                 "tags": [],
                 "blackboard": [
                     {
@@ -4407,7 +4407,7 @@
                 "name_zh": "我即军营",
                 "name_ja": "",
                 "name_en": "",
-                "desc_zh": "攻击范围内元素损伤累计超过一半的目标受到的<$ba.dt.element>元素损伤</>降低18%<@ba.talpu>（+3%）</>",
+                "desc_zh": "攻击范围内元素损伤累计超过一半的目标受到的<ba.dt.element>元素损伤</>降低18%<@ba.talpu>（+3%）</>",
                 "desc_ja": "",
                 "desc_en": "",
                 "tags": [
@@ -4430,9 +4430,9 @@
                 "name_zh": "朝开夕落",
                 "name_ja": "朝瞬の花",
                 "name_en": "Dusk and Dawn",
-                "desc_zh": "攻击敌人时对目标施加14%<@ba.talpu>（+2%）</>的<$ba.magicfragile>【法术脆弱】</>，持续5秒",
-                "desc_ja": "攻撃時、対象に14%<@ba.talpu>（+2%）</>の<$ba.magicfragile>対術脆弱</>効果を5秒間付与する",
-                "desc_en": "Attacks inflict 14% <@ba.talpu>(+2%)</> <$ba.magicfragile>[Arts Fragility]</> to the target for 5 seconds",
+                "desc_zh": "攻击敌人时对目标施加14%<@ba.talpu>（+2%）</>的<ba.magicfragile>【法术脆弱】</>，持续5秒",
+                "desc_ja": "攻撃時、対象に14%<@ba.talpu>（+2%）</>の<ba.magicfragile>対術脆弱</>効果を5秒間付与する",
+                "desc_en": "Attacks inflict 14% <@ba.talpu>(+2%)</> <ba.magicfragile>[Arts Fragility]</> to the target for 5 seconds",
                 "tags": [],
                 "blackboard": [
                     {
@@ -4629,9 +4629,9 @@
                 "name_zh": "注意力误导",
                 "name_ja": "ミスディレクション",
                 "name_en": "Misdirection",
-                "desc_zh": "被动技能触发期间攻击力+18%<@ba.talpu>（+3%）</>，阻挡数降至0且获得<$ba.camou>迷彩</>",
-                "desc_ja": "パッシブスキルの効果期間中攻撃力+18%<@ba.talpu>（+3%）</>、ブロック数が0になり、<$ba.camou>迷彩</>状態になる",
-                "desc_en": "When skill is active, ATK +18% <@ba.talpu>(+3%)</>, Block becomes 0 and Kafka gains <$ba.camou>Camouflage</>",
+                "desc_zh": "被动技能触发期间攻击力+18%<@ba.talpu>（+3%）</>，阻挡数降至0且获得<ba.camou>迷彩</>",
+                "desc_ja": "パッシブスキルの効果期間中攻撃力+18%<@ba.talpu>（+3%）</>、ブロック数が0になり、<ba.camou>迷彩</>状態になる",
+                "desc_en": "When skill is active, ATK +18% <@ba.talpu>(+3%)</>, Block becomes 0 and Kafka gains <ba.camou>Camouflage</>",
                 "tags": [
                     "camouflage"
                 ],
@@ -4652,9 +4652,9 @@
                 "name_zh": "出其不意",
                 "name_ja": "不意打ち",
                 "name_en": "Unexpected Strike",
-                "desc_zh": "如果4秒内没有主动攻击过，下一次攻击的攻击力提升至155%<@ba.talpu>（+5%）</>并<$ba.stun>晕眩</>目标4秒",
-                "desc_ja": "4秒間通常攻撃せずにいると、次の通常攻撃時、攻撃力が155%<@ba.talpu>（+5%）</>まで上昇し、敵を4秒間<$ba.stun>スタン</>させる",
-                "desc_en": "After not attacking for 4 seconds, increase the ATK of the next attack to 155% <@ba.talpu>(+5%)</> and <$ba.stun>Stun</> the target for 4 seconds",
+                "desc_zh": "如果4秒内没有主动攻击过，下一次攻击的攻击力提升至155%<@ba.talpu>（+5%）</>并<ba.stun>晕眩</>目标4秒",
+                "desc_ja": "4秒間通常攻撃せずにいると、次の通常攻撃時、攻撃力が155%<@ba.talpu>（+5%）</>まで上昇し、敵を4秒間<ba.stun>スタン</>させる",
+                "desc_en": "After not attacking for 4 seconds, increase the ATK of the next attack to 155% <@ba.talpu>(+5%)</> and <ba.stun>Stun</> the target for 4 seconds",
                 "tags": [],
                 "blackboard": [
                     {
@@ -4923,9 +4923,9 @@
                 "name_zh": "持盾射击",
                 "name_ja": "盾持ち射撃",
                 "name_en": "Shielded Shooting",
-                "desc_zh": "优先攻击<$ba.stun>晕眩</>的敌人且攻击<$ba.stun>晕眩</>敌人时攻击力提升至165%<@ba.talpu>（+5%）</>",
-                "desc_ja": "<$ba.stun>スタン</>状態の敵を優先して攻撃する\n<$ba.stun>スタン</>状態の敵を攻撃時、攻撃力が165%<@ba.talpu>（+5%）</>まで上昇",
-                "desc_en": "Prioritize <$ba.stun>Stunned</> enemies; Increase ATK to 165% <@ba.talpu>(+5%)</> when attacking <$ba.stun>Stunned</> enemies",
+                "desc_zh": "优先攻击<ba.stun>晕眩</>的敌人且攻击<ba.stun>晕眩</>敌人时攻击力提升至165%<@ba.talpu>（+5%）</>",
+                "desc_ja": "<ba.stun>スタン</>状態の敵を優先して攻撃する\n<ba.stun>スタン</>状態の敵を攻撃時、攻撃力が165%<@ba.talpu>（+5%）</>まで上昇",
+                "desc_en": "Prioritize <ba.stun>Stunned</> enemies; Increase ATK to 165% <@ba.talpu>(+5%)</> when attacking <ba.stun>Stunned</> enemies",
                 "tags": [
                     "stun"
                 ],
@@ -5204,9 +5204,9 @@
                 "name_zh": "荒野本能",
                 "name_ja": "荒野の掟",
                 "name_en": "Wilderness Instinct",
-                "desc_zh": "未开启技能时，获得<$ba.camou>迷彩</>，开启技能后攻击间隔略微缩短(-15%)",
-                "desc_ja": "スキル未発動時、<$ba.camou>迷彩</>状態になる。スキル発動中通常攻撃の間隔をわずかに短縮(-15%)",
-                "desc_en": "Gains <$ba.camou>Camouflage</> while this unit's skill is not active; Attack Interval reduced slightly (-15%) after skill activation",
+                "desc_zh": "未开启技能时，获得<ba.camou>迷彩</>，开启技能后攻击间隔略微缩短(-15%)",
+                "desc_ja": "スキル未発動時、<ba.camou>迷彩</>状態になる。スキル発動中通常攻撃の間隔をわずかに短縮(-15%)",
+                "desc_en": "Gains <ba.camou>Camouflage</> while this unit's skill is not active; Attack Interval reduced slightly (-15%) after skill activation",
                 "tags": [
                     "camouflage"
                 ],
@@ -5250,9 +5250,9 @@
                 "name_zh": "琴音入梦",
                 "name_ja": "微睡へ捧ぐリラ",
                 "name_en": "Song of Dreams",
-                "desc_zh": "自身可以攻击<$ba.sleep>沉睡</>的敌人，并且攻击<$ba.sleep>沉睡</>敌人时无视其防御力的50%",
-                "desc_ja": "<$ba.sleep>睡眠</>状態の敵を攻撃でき、<$ba.sleep>睡眠</>状態の敵を攻撃時敵の防御力を50％無視",
-                "desc_en": "Can attack <$ba.sleep>Sleeping</> enemies, and ignores 50% DEF when attacking <$ba.sleep>Sleeping</> enemies",
+                "desc_zh": "自身可以攻击<ba.sleep>沉睡</>的敌人，并且攻击<ba.sleep>沉睡</>敌人时无视其防御力的50%",
+                "desc_ja": "<ba.sleep>睡眠</>状態の敵を攻撃でき、<ba.sleep>睡眠</>状態の敵を攻撃時敵の防御力を50％無視",
+                "desc_en": "Can attack <ba.sleep>Sleeping</> enemies, and ignores 50% DEF when attacking <ba.sleep>Sleeping</> enemies",
                 "tags": [
                     "sleep"
                 ],
@@ -5273,9 +5273,9 @@
                 "name_zh": "窃光链缚",
                 "name_ja": "ライトニングチェーン",
                 "name_en": "Light-Stealing Chain",
-                "desc_zh": "攻击时有40%的几率对攻击目标造成2秒的<$ba.sluggish>停顿</>",
-                "desc_ja": "攻撃時、40%の確率で攻撃対象を2秒間<$ba.sluggish>足止め</>する",
-                "desc_en": "Attacks have 40% chance to <$ba.sluggish>Slow</> the target for 2 seconds",
+                "desc_zh": "攻击时有40%的几率对攻击目标造成2秒的<ba.sluggish>停顿</>",
+                "desc_ja": "攻撃時、40%の確率で攻撃対象を2秒間<ba.sluggish>足止め</>する",
+                "desc_en": "Attacks have 40% chance to <ba.sluggish>Slow</> the target for 2 seconds",
                 "tags": [],
                 "blackboard": [
                     {
@@ -5324,9 +5324,9 @@
                 "name_zh": "装弹对比实验",
                 "name_ja": "弾薬性能比較試験",
                 "name_en": "Differential Reloading Experiment",
-                "desc_zh": "每次攻击时有70%概率触发下列效果之一：攻击变为二连击；目标<$ba.stun>晕眩</>1秒；攻击无视目标防御力的80%",
-                "desc_ja": "攻撃時、70%の確率で次の効果からランダムな1つを発動：その攻撃のみ2回攻撃になる/攻撃対象を1秒間<$ba.stun>スタン</>させる/攻撃対象の防御力を80%無視",
-                "desc_en": "Each attack has a 70% chance to trigger one of the following effects: the attack instead hits twice; the target is <$ba.stun>Stunned</> for 1 second; the attack ignores 80% of the target's DEF",
+                "desc_zh": "每次攻击时有70%概率触发下列效果之一：攻击变为二连击；目标<ba.stun>晕眩</>1秒；攻击无视目标防御力的80%",
+                "desc_ja": "攻撃時、70%の確率で次の効果からランダムな1つを発動：その攻撃のみ2回攻撃になる/攻撃対象を1秒間<ba.stun>スタン</>させる/攻撃対象の防御力を80%無視",
+                "desc_en": "Each attack has a 70% chance to trigger one of the following effects: the attack instead hits twice; the target is <ba.stun>Stunned</> for 1 second; the attack ignores 80% of the target's DEF",
                 "tags": [],
                 "blackboard": [
                     {
@@ -5430,9 +5430,9 @@
                 "name_zh": "虚弱化",
                 "name_ja": "弱体化",
                 "name_en": "Weakening",
-                "desc_zh": "攻击范围内的敌人生命少于40%时，令其获得33%<@ba.talpu>（+3%）</>的<$ba.fragile>脆弱</>效果",
-                "desc_ja": "攻撃範囲内のHPが40％未満の敵に33%<@ba.talpu>（+3%）</>の<$ba.fragile>脆弱</>状態を付与する",
-                "desc_en": "Apply 33% <@ba.talpu>(+3%)</> <$ba.fragile>Fragile</> effect to enemies within range with less than 40% HP",
+                "desc_zh": "攻击范围内的敌人生命少于40%时，令其获得33%<@ba.talpu>（+3%）</>的<ba.fragile>脆弱</>效果",
+                "desc_ja": "攻撃範囲内のHPが40％未満の敵に33%<@ba.talpu>（+3%）</>の<ba.fragile>脆弱</>状態を付与する",
+                "desc_en": "Apply 33% <@ba.talpu>(+3%)</> <ba.fragile>Fragile</> effect to enemies within range with less than 40% HP",
                 "tags": [],
                 "blackboard": [
                     {
@@ -5474,9 +5474,9 @@
                 "name_zh": "溃败暗示 ",
                 "name_ja": "潰敗への誘い",
                 "name_en": "Omen of Defeat",
-                "desc_zh": "攻击范围内的敌人生命少于40%时，令其获得33%<@ba.talpu>（+3%）</>的<$ba.fragile>脆弱</>效果",
-                "desc_ja": "攻撃範囲内のHPが40％未満の敵に33%<@ba.talpu>（+3%）</>の<$ba.fragile>脆弱</>状態を付与する",
-                "desc_en": "Apply 33% <@ba.talpu>(+3%)</> <$ba.fragile>Fragile</> effect to enemies within range with less than 40% HP",
+                "desc_zh": "攻击范围内的敌人生命少于40%时，令其获得33%<@ba.talpu>（+3%）</>的<ba.fragile>脆弱</>效果",
+                "desc_ja": "攻撃範囲内のHPが40％未満の敵に33%<@ba.talpu>（+3%）</>の<ba.fragile>脆弱</>状態を付与する",
+                "desc_en": "Apply 33% <@ba.talpu>(+3%)</> <ba.fragile>Fragile</> effect to enemies within range with less than 40% HP",
                 "tags": [],
                 "blackboard": [
                     {
@@ -5577,7 +5577,7 @@
                 "name_zh": "好好听话",
                 "name_ja": "",
                 "name_en": "",
-                "desc_zh": "攻击速度+12<@ba.talpu>（+2）</>，若目标为【野生动物】则特性的<$ba.sluggish>停顿</>时间延长",
+                "desc_zh": "攻击速度+12<@ba.talpu>（+2）</>，若目标为【野生动物】则特性的<ba.sluggish>停顿</>时间延长",
                 "desc_ja": "",
                 "desc_en": "",
                 "tags": [
@@ -5705,9 +5705,9 @@
                 "name_zh": "祝",
                 "name_ja": "祝",
                 "name_en": "Blessing",
-                "desc_zh": "攻击范围内的友军生命少于40%时，使其获得20%<@ba.talpu>（+2%）</>的<$ba.protect>庇护</>",
-                "desc_ja": "攻撃範囲内のHPが40％未満の味方に20%<@ba.talpu>（+2%）</>の<$ba.protect>加護</>状態を付与する",
-                "desc_en": "Apply 20% <@ba.talpu>(+2%)</> <$ba.protect>Sanctuary</> effect to allies within range with less than 40% HP",
+                "desc_zh": "攻击范围内的友军生命少于40%时，使其获得20%<@ba.talpu>（+2%）</>的<ba.protect>庇护</>",
+                "desc_ja": "攻撃範囲内のHPが40％未満の味方に20%<@ba.talpu>（+2%）</>の<ba.protect>加護</>状態を付与する",
+                "desc_en": "Apply 20% <@ba.talpu>(+2%)</> <ba.protect>Sanctuary</> effect to allies within range with less than 40% HP",
                 "tags": [],
                 "blackboard": [
                     {
@@ -5731,9 +5731,9 @@
                 "name_zh": "飘渺彩云",
                 "name_ja": "縹渺彩雲",
                 "name_en": "Ethereal Iridescent Clouds",
-                "desc_zh": "攻击范围内的友军生命少于40%时，使其获得20%的<$ba.protect>庇护</>",
-                "desc_ja": "攻撃範囲内のHPが40％未満の味方に20％の<$ba.protect>加護</>状態を付与する",
-                "desc_en": "Apply 20% <$ba.protect>Sanctuary</> effect to allies within range with less than 40% HP",
+                "desc_zh": "攻击范围内的友军生命少于40%时，使其获得20%的<ba.protect>庇护</>",
+                "desc_ja": "攻撃範囲内のHPが40％未満の味方に20％の<ba.protect>加護</>状態を付与する",
+                "desc_en": "Apply 20% <ba.protect>Sanctuary</> effect to allies within range with less than 40% HP",
                 "tags": [],
                 "blackboard": [
                     {
@@ -5757,9 +5757,9 @@
                 "name_zh": "丛林的荫庇",
                 "name_ja": "森林の庇護",
                 "name_en": "Forest Sanctuary",
-                "desc_zh": "攻击范围内的友军生命大于70%时，使其获得16%<@ba.talpu>（+2%）</>的<$ba.protect>庇护</>",
-                "desc_ja": "攻撃範囲内のHPが70％超えの味方に16%<@ba.talpu>（+2%）</>の<$ba.protect>加護</>状態を付与する",
-                "desc_en": "Apply 16% <@ba.talpu>(+2%)</> <$ba.protect>Sanctuary</> effect to allies within range with more than 70% HP",
+                "desc_zh": "攻击范围内的友军生命大于70%时，使其获得16%<@ba.talpu>（+2%）</>的<ba.protect>庇护</>",
+                "desc_ja": "攻撃範囲内のHPが70％超えの味方に16%<@ba.talpu>（+2%）</>の<ba.protect>加護</>状態を付与する",
+                "desc_en": "Apply 16% <@ba.talpu>(+2%)</> <ba.protect>Sanctuary</> effect to allies within range with more than 70% HP",
                 "tags": [],
                 "blackboard": [
                     {
@@ -5783,9 +5783,9 @@
                 "name_zh": "揭示者",
                 "name_ja": "開示する者",
                 "name_en": "The One Who Reveals",
-                "desc_zh": "在【探索者的银凇止境】中，攻击附带相当于30%攻击力的<$ba.dt.apoptosis2>凋亡损伤</>",
-                "desc_ja": "【探索者と銀氷の果て】において、攻撃時、対象に追加で攻撃力の30%の<$ba.dt.apoptosis2>壊死損傷</>を与える",
-                "desc_en": "During [Expeditioner's Jǫklumarkar], attacks deal an additional 30% of ATK as <$ba.dt.apoptosis2>Necrosis damage</>",
+                "desc_zh": "在【探索者的银凇止境】中，攻击附带相当于30%攻击力的<ba.dt.apoptosis2>凋亡损伤</>",
+                "desc_ja": "【探索者と銀氷の果て】において、攻撃時、対象に追加で攻撃力の30%の<ba.dt.apoptosis2>壊死損傷</>を与える",
+                "desc_en": "During [Expeditioner's Jǫklumarkar], attacks deal an additional 30% of ATK as <ba.dt.apoptosis2>Necrosis damage</>",
                 "tags": [],
                 "blackboard": [
                     {
@@ -5824,9 +5824,9 @@
                 "name_zh": "隐匿的杀手·精英",
                 "name_ja": "暗殺の猛毒",
                 "name_en": "Hidden Killer - Elite",
-                "desc_zh": "平时处于<$ba.invisible>隐匿</>状态，攻击时会解除<$ba.invisible>隐匿</>状态，且当次攻击的攻击力+54%<@ba.talpu>（+4%）</>。停止攻击5秒后，重新进入<$ba.invisible>隐匿</>状态",
-                "desc_ja": "5秒間攻撃せずにいると<$ba.invisible>ステルス</>状態になる。攻撃時、<$ba.invisible>ステルス</>状態を解除し、その攻撃のみ攻撃力+54%<@ba.talpu>(+4%)</>",
-                "desc_en": "Stays <$ba.invisible>Invisible</> normally. The first attack made gains +54% <@ba.talpu>(+4%)</> ATK and removes <$ba.invisible>Invisibility</>. Regains <$ba.invisible>Invisible</> state after not attacking for 5 seconds",
+                "desc_zh": "平时处于<ba.invisible>隐匿</>状态，攻击时会解除<ba.invisible>隐匿</>状态，且当次攻击的攻击力+54%<@ba.talpu>（+4%）</>。停止攻击5秒后，重新进入<ba.invisible>隐匿</>状态",
+                "desc_ja": "5秒間攻撃せずにいると<ba.invisible>ステルス</>状態になる。攻撃時、<ba.invisible>ステルス</>状態を解除し、その攻撃のみ攻撃力+54%<@ba.talpu>(+4%)</>",
+                "desc_en": "Stays <ba.invisible>Invisible</> normally. The first attack made gains +54% <@ba.talpu>(+4%)</> ATK and removes <ba.invisible>Invisibility</>. Regains <ba.invisible>Invisible</> state after not attacking for 5 seconds",
                 "tags": [
                     "stealth"
                 ],
@@ -6122,9 +6122,9 @@
                 "name_zh": "铁弦",
                 "name_ja": "鉄弦",
                 "name_en": "Iron Bowstring",
-                "desc_zh": "部署后立即获得一层<$ba.shield>护盾</>，护盾破裂后获得9<@ba.talpu>（+2）</>点技力",
-                "desc_ja": "配置後、<$ba.shield>シールド</>を1枚形成する、<$ba.shield>シールド</>が消耗される時、SPを9<@ba.talpu>（+2）</>回復",
-                "desc_en": "When deployed, this unit gains 1 <$ba.shield>Shield</>. Restores 9 <@ba.talpu>(+2)</> Skill Points after the Shield breaks",
+                "desc_zh": "部署后立即获得一层<ba.shield>护盾</>，护盾破裂后获得9<@ba.talpu>（+2）</>点技力",
+                "desc_ja": "配置後、<ba.shield>シールド</>を1枚形成する、<ba.shield>シールド</>が消耗される時、SPを9<@ba.talpu>（+2）</>回復",
+                "desc_en": "When deployed, this unit gains 1 <ba.shield>Shield</>. Restores 9 <@ba.talpu>(+2)</> Skill Points after the Shield breaks",
                 "tags": [],
                 "blackboard": [
                     {
@@ -6148,9 +6148,9 @@
                 "name_zh": "辅助装备",
                 "name_ja": "スタングレネード",
                 "name_en": "Auxiliary Equipment",
-                "desc_zh": "部署后立即对攻击范围内一个敌人投掷闪光弹，使其和周围敌人<$ba.stun>晕眩</>4秒",
-                "desc_ja": "配置後、攻撃範囲内の敵1体に閃光弾を投擲し、対象と周囲一定範囲内の敵全員を4秒間<$ba.stun>スタン</>させる",
-                "desc_en": "After deployment, immediately throw a Stun Grenade at an enemy within range, <$ba.stun>Stunning</> them and nearby enemies for 4 seconds",
+                "desc_zh": "部署后立即对攻击范围内一个敌人投掷闪光弹，使其和周围敌人<ba.stun>晕眩</>4秒",
+                "desc_ja": "配置後、攻撃範囲内の敵1体に閃光弾を投擲し、対象と周囲一定範囲内の敵全員を4秒間<ba.stun>スタン</>させる",
+                "desc_en": "After deployment, immediately throw a Stun Grenade at an enemy within range, <ba.stun>Stunning</> them and nearby enemies for 4 seconds",
                 "target_air": true,
                 "tags": [],
                 "blackboard": [
@@ -6361,9 +6361,9 @@
                 "name_zh": "落井下石",
                 "name_ja": "悪巧み",
                 "name_en": "Insult to Injury",
-                "desc_zh": "攻击范围内的敌人在被<$ba.stun>晕眩</>时受到的物理伤害+21%<@ba.talpu>（+3%）</>",
-                "desc_ja": "攻撃範囲内の<$ba.stun>スタン状態</>の敵が受ける物理ダメージ+21%<@ba.talpu>（+3%）</>",
-                "desc_en": "Enemies in range take +21% <@ba.talpu>(+3%)</> Physical damage when <$ba.stun>Stunned</>",
+                "desc_zh": "攻击范围内的敌人在被<ba.stun>晕眩</>时受到的物理伤害+21%<@ba.talpu>（+3%）</>",
+                "desc_ja": "攻撃範囲内の<ba.stun>スタン状態</>の敵が受ける物理ダメージ+21%<@ba.talpu>（+3%）</>",
+                "desc_en": "Enemies in range take +21% <@ba.talpu>(+3%)</> Physical damage when <ba.stun>Stunned</>",
                 "tags": [
                     "stun"
                 ],
@@ -6384,9 +6384,9 @@
                 "name_zh": "陈述苦难",
                 "name_ja": "苦難陳述",
                 "name_en": "Sufferer of Tribulations",
-                "desc_zh": "自身生命会不断流失（该效果不会使生命降至0）；生命值高于50%时获得+25%攻击力的<$ba.strong>精力充沛</>；高于80%效果翻倍",
-                "desc_ja": "HPが徐々に減少（この効果でHPは0にならない）。HPが最大値の50％以上で攻撃力+25%の<$ba.strong>勇猛</>状態を付与する。HPが80％以上の場合、攻撃力上昇の効果値倍増",
-                "desc_en": "Continually loses HP over time (HP cannot drop to 0 as a result of this effect); While HP is above 50%, this unit gains <$ba.strong>Vigor</>, increasing ATK by 25%; this effect is doubled above 80% HP.",
+                "desc_zh": "自身生命会不断流失（该效果不会使生命降至0）；生命值高于50%时获得+25%攻击力的<ba.strong>精力充沛</>；高于80%效果翻倍",
+                "desc_ja": "HPが徐々に減少（この効果でHPは0にならない）。HPが最大値の50％以上で攻撃力+25%の<ba.strong>勇猛</>状態を付与する。HPが80％以上の場合、攻撃力上昇の効果値倍増",
+                "desc_en": "Continually loses HP over time (HP cannot drop to 0 as a result of this effect); While HP is above 50%, this unit gains <ba.strong>Vigor</>, increasing ATK by 25%; this effect is doubled above 80% HP.",
                 "tags": [
                     "peak_performance"
                 ],
@@ -6512,9 +6512,9 @@
                 "name_zh": "重如沼泥",
                 "name_ja": "泥沼の如く",
                 "name_en": "Heavy as the Swamp's Mire",
-                "desc_zh": "技能期间对每个敌人首次造成伤害时，攻击力提升至170%<@ba.talpu>（+10%）</>并使目标<$ba.sluggish>停顿</>3秒",
-                "desc_ja": "スキル発動中、同じ敵に初めてダメージを与える際、攻撃力が170%<@ba.talpu>（+10%）</>まで上昇し、3秒間<$ba.sluggish>足止め</>する",
-                "desc_en": "When damaging an enemy for the first time while a skill is active, ATK increases to 170% <@ba.talpu>(+10%)</> and <$ba.sluggish>Slows</> targets for 3 seconds",
+                "desc_zh": "技能期间对每个敌人首次造成伤害时，攻击力提升至170%<@ba.talpu>（+10%）</>并使目标<ba.sluggish>停顿</>3秒",
+                "desc_ja": "スキル発動中、同じ敵に初めてダメージを与える際、攻撃力が170%<@ba.talpu>（+10%）</>まで上昇し、3秒間<ba.sluggish>足止め</>する",
+                "desc_en": "When damaging an enemy for the first time while a skill is active, ATK increases to 170% <@ba.talpu>(+10%)</> and <ba.sluggish>Slows</> targets for 3 seconds",
                 "tags": [],
                 "blackboard": [
                     {
@@ -6760,9 +6760,9 @@
                 "name_zh": "劝善",
                 "name_ja": "勧善",
                 "name_en": "Preaching",
-                "desc_zh": "造成致命伤害时使敌人保留1点生命并使其<$ba.dying>重伤</>（击杀者技力+2）；嵯峨不攻击<$ba.dying>重伤</>单位",
-                "desc_ja": "敵に致命的なダメージを与えた時、対象のHPを1残し、<$ba.dying>重傷</>（倒すとSPが2回復）を付与する。自身は<$ba.dying>重傷</>状態の敵を攻撃しない",
-                "desc_en": "When dealing lethal damage, leave the enemy with 1 HP and inflict <$ba.dying>Critically Wounded</> (gives +2 SP to the attacker when killed); Saga will not attack <$ba.dying>Critically Wounded</> targets",
+                "desc_zh": "造成致命伤害时使敌人保留1点生命并使其<ba.dying>重伤</>（击杀者技力+2）；嵯峨不攻击<ba.dying>重伤</>单位",
+                "desc_ja": "敵に致命的なダメージを与えた時、対象のHPを1残し、<ba.dying>重傷</>（倒すとSPが2回復）を付与する。自身は<ba.dying>重傷</>状態の敵を攻撃しない",
+                "desc_en": "When dealing lethal damage, leave the enemy with 1 HP and inflict <ba.dying>Critically Wounded</> (gives +2 SP to the attacker when killed); Saga will not attack <ba.dying>Critically Wounded</> targets",
                 "tags": [
                     "crit_wound"
                 ],
@@ -6980,9 +6980,9 @@
                 "name_zh": "影织",
                 "name_ja": "影織り",
                 "name_en": "Shadow Weaver",
-                "desc_zh": "对每个敌人首次造成伤害后，使目标<$ba.root>束缚</>5秒并<$ba.steal>偷取</>其100<@ba.talpu>（+10）</>点攻击力（持续至目标被击倒或伊内丝离场）",
-                "desc_ja": "敵にダメージを与えた際、対象ごとに一回限り5秒間<$ba.root>バインド</>させ、さらに対象の攻撃力を100<@ba.talpu>（+10）</><$ba.steal>奪取</>（対象が撃破されるか、イネスが退場するまで効果が持続）",
-                "desc_en": "The first hit on each enemy <$ba.root>Binds</> the target for 5 seconds and <$ba.steal>Steals</> 100 <@ba.talpu>(+10)</> ATK (effect expires when enemy is defeated or Ines retreats)",
+                "desc_zh": "对每个敌人首次造成伤害后，使目标<ba.root>束缚</>5秒并<ba.steal>偷取</>其100<@ba.talpu>（+10）</>点攻击力（持续至目标被击倒或伊内丝离场）",
+                "desc_ja": "敵にダメージを与えた際、対象ごとに一回限り5秒間<ba.root>バインド</>させ、さらに対象の攻撃力を100<@ba.talpu>（+10）</><ba.steal>奪取</>（対象が撃破されるか、イネスが退場するまで効果が持続）",
+                "desc_en": "The first hit on each enemy <ba.root>Binds</> the target for 5 seconds and <ba.steal>Steals</> 100 <@ba.talpu>(+10)</> ATK (effect expires when enemy is defeated or Ines retreats)",
                 "tags": [],
                 "blackboard": [
                     {
@@ -7009,9 +7009,9 @@
                 "name_zh": "影哨",
                 "name_ja": "影哨",
                 "name_en": "Shadow Sentry",
-                "desc_zh": "攻击范围内敌人的<$ba.invisible>隐匿</>效果失效且移动速度-30%，撤退后留下一个影哨使该效果持续生效（最多1个）",
-                "desc_ja": "攻撃範囲内の敵の<$ba.invisible>ステルス</>状態が無効になり、さらに移動速度-30%。撤退後、影哨を1体残して効果を持続させる（最大1体まで）",
-                "desc_en": "Enemies within Attack Range lose <$ba.invisible>Invisibility</> and have -30% Movement Speed; after retreating, Ines leaves behind a Shadow Sentry with the same effect (Max 1)",
+                "desc_zh": "攻击范围内敌人的<ba.invisible>隐匿</>效果失效且移动速度-30%，撤退后留下一个影哨使该效果持续生效（最多1个）",
+                "desc_ja": "攻撃範囲内の敵の<ba.invisible>ステルス</>状態が無効になり、さらに移動速度-30%。撤退後、影哨を1体残して効果を持続させる（最大1体まで）",
+                "desc_en": "Enemies within Attack Range lose <ba.invisible>Invisibility</> and have -30% Movement Speed; after retreating, Ines leaves behind a Shadow Sentry with the same effect (Max 1)",
                 "tags": [
                     "cancel_stealth"
                 ],
@@ -7219,9 +7219,9 @@
                 "name_zh": "曾有羽翼",
                 "name_ja": "今は無き翼",
                 "name_en": "Bygone Wings",
-                "desc_zh": "攻击范围内所有生命值高于80%的敌人<$ba.weightless>失重</>",
-                "desc_ja": "攻撃範囲内のHPが最大値の80%以上の敵全員に<$ba.weightless>反重力</>状態を付与する",
-                "desc_en": "Applies <$ba.weightless>Weightless</> to enemies with 80% or more HP within Attack Range",
+                "desc_zh": "攻击范围内所有生命值高于80%的敌人<ba.weightless>失重</>",
+                "desc_ja": "攻撃範囲内のHPが最大値の80%以上の敵全員に<ba.weightless>反重力</>状態を付与する",
+                "desc_en": "Applies <ba.weightless>Weightless</> to enemies with 80% or more HP within Attack Range",
                 "tags": [
                     "weightless"
                 ],
@@ -7330,9 +7330,9 @@
                 "name_zh": "生命之餐",
                 "name_ja": "血肉饗宴",
                 "name_en": "Meal of Life",
-                "desc_zh": "开启技能时立即恢复45%<@ba.talpu>（+5%）</>最大生命值；\\n<$ba.charged>蓄力</>时效果翻倍",
-                "desc_ja": "スキル発動時、HPが最大値の45%<@ba.talpu>（+5%）</>回復\n<$ba.charged>オーバーチャージ</>効果発動時、HPの回復量が2倍になる",
-                "desc_en": "Restores 45% <@ba.talpu>(+5%)</> Max HP when skill is activated; \nEffect is doubled when <$ba.charged>Charged</>",
+                "desc_zh": "开启技能时立即恢复45%<@ba.talpu>（+5%）</>最大生命值；\\n<ba.charged>蓄力</>时效果翻倍",
+                "desc_ja": "スキル発動時、HPが最大値の45%<@ba.talpu>（+5%）</>回復\n<ba.charged>オーバーチャージ</>効果発動時、HPの回復量が2倍になる",
+                "desc_en": "Restores 45% <@ba.talpu>(+5%)</> Max HP when skill is activated; \nEffect is doubled when <ba.charged>Charged</>",
                 "tags": [
                     "self_heal"
                 ],
@@ -7373,9 +7373,9 @@
                 "name_zh": "计出万全",
                 "name_ja": "万策の構え",
                 "name_en": "Foolproof Plan",
-                "desc_zh": "拥有可以抵挡所有伤害的琉璃璧；琉璃璧在受到单次超过200点伤害时破碎，对周围所有敌人造成相当于林攻击力110%<@ba.talpu>（+10%）</>的法术伤害、使其<$ba.stun>晕眩</>1秒，并在8秒后再次生成",
-                "desc_ja": "1度の被ダメージが200以下であればそれを無効化できる浄瑠壁を持つ。200を超えた場合は浄瑠壁が破壊され、周囲一定範囲内の敵全員にリンの攻撃力の110%<@ba.talpu>（+10%）</>の術ダメージを与え、さらに1秒間<$ba.stun>スタン</>させる。浄瑠壁は8秒後に再生成される",
-                "desc_en": "A Crystal Barrier blocks all damage, shattering when 200 or more damage is taken from a single source, dealing 110%<@ba.talpu> (+10%)</> of Lin's ATK as Arts damage to all nearby enemies and <$ba.stun>stunning</> them for 1s; reforms after 8s",
+                "desc_zh": "拥有可以抵挡所有伤害的琉璃璧；琉璃璧在受到单次超过200点伤害时破碎，对周围所有敌人造成相当于林攻击力110%<@ba.talpu>（+10%）</>的法术伤害、使其<ba.stun>晕眩</>1秒，并在8秒后再次生成",
+                "desc_ja": "1度の被ダメージが200以下であればそれを無効化できる浄瑠壁を持つ。200を超えた場合は浄瑠壁が破壊され、周囲一定範囲内の敵全員にリンの攻撃力の110%<@ba.talpu>（+10%）</>の術ダメージを与え、さらに1秒間<ba.stun>スタン</>させる。浄瑠壁は8秒後に再生成される",
+                "desc_en": "A Crystal Barrier blocks all damage, shattering when 200 or more damage is taken from a single source, dealing 110%<@ba.talpu> (+10%)</> of Lin's ATK as Arts damage to all nearby enemies and <ba.stun>stunning</> them for 1s; reforms after 8s",
                 "tags": [
                     "block_dmg"
                 ],
@@ -7524,9 +7524,9 @@
                 "name_zh": "坚冰",
                 "name_ja": "堅氷",
                 "name_en": "Rigid Ice",
-                "desc_zh": "攻击造成1秒<$ba.cold>寒冷</>；范围内<$ba.cold>寒冷</>的敌人受到27%<@ba.talpu>（+2%）</>的<$ba.fragile>脆弱</>，范围内<$ba.frozen>冻结</>的敌人<$ba.fragile>脆弱</>效果提升至2倍",
-                "desc_ja": "攻撃時、対象に1秒の<$ba.cold>寒冷</>状態を付与する。攻撃範囲内の<$ba.cold>寒冷</>状態の敵に27%<@ba.talpu>（+2%）</>の<$ba.fragile>脆弱</>状態を付与する。<$ba.frozen>凍結</>状態の敵に対しては<$ba.fragile>脆弱</>の効果値倍増",
-                "desc_en": "Attacks inflict <$ba.cold>Cold</> for 1 second; Apply 27% <@ba.talpu>(+2%)</> <$ba.fragile>Fragile</> effect to <$ba.cold>Cold</> enemies within range. <$ba.frozen>Frozen</> enemies within range receive double the <$ba.fragile>Fragile</> effect",
+                "desc_zh": "攻击造成1秒<ba.cold>寒冷</>；范围内<ba.cold>寒冷</>的敌人受到27%<@ba.talpu>（+2%）</>的<ba.fragile>脆弱</>，范围内<ba.frozen>冻结</>的敌人<ba.fragile>脆弱</>效果提升至2倍",
+                "desc_ja": "攻撃時、対象に1秒の<ba.cold>寒冷</>状態を付与する。攻撃範囲内の<ba.cold>寒冷</>状態の敵に27%<@ba.talpu>（+2%）</>の<ba.fragile>脆弱</>状態を付与する。<ba.frozen>凍結</>状態の敵に対しては<ba.fragile>脆弱</>の効果値倍増",
+                "desc_en": "Attacks inflict <ba.cold>Cold</> for 1 second; Apply 27% <@ba.talpu>(+2%)</> <ba.fragile>Fragile</> effect to <ba.cold>Cold</> enemies within range. <ba.frozen>Frozen</> enemies within range receive double the <ba.fragile>Fragile</> effect",
                 "tags": [],
                 "blackboard": [
                     {
@@ -7545,9 +7545,9 @@
                 "name_zh": "殊途同归",
                 "name_ja": "履霜",
                 "name_en": "Two Paths, One Goal",
-                "desc_zh": "灵知在场且部署后经过10秒时，使所有【喀兰贸易】干员获得<$ba.buffres>抵抗</>",
-                "desc_ja": "配置から10秒後、配置されている間味方【カランド貿易】全員に<$ba.buffres>レジスト</>状態を付与する",
-                "desc_en": "Grants <$ba.buffres>Resist</> to all [Karlan Trade] Operators after Gnosis has been deployed for 10 seconds",
+                "desc_zh": "灵知在场且部署后经过10秒时，使所有【喀兰贸易】干员获得<ba.buffres>抵抗</>",
+                "desc_ja": "配置から10秒後、配置されている間味方【カランド貿易】全員に<ba.buffres>レジスト</>状態を付与する",
+                "desc_en": "Grants <ba.buffres>Resist</> to all [Karlan Trade] Operators after Gnosis has been deployed for 10 seconds",
                 "tags": [
                     "resist",
                     "ally_resist"
@@ -7627,9 +7627,9 @@
                 "name_zh": "画地为牢",
                 "name_ja": "狐の祟り",
                 "name_en": "Binding Circle",
-                "desc_zh": "攻击范围内被<$ba.sluggish>停顿</>的敌人在下一瞬间起还会受到等长时间的23%<@ba.talpu>（+3%）</>的<$ba.fragile>脆弱</>效果",
-                "desc_ja": "攻撃範囲内の敵が<$ba.sluggish>足止め</>された時、次の瞬間から<$ba.sluggish>足止め</>と同じ時間の23%<@ba.talpu>（+3%）</>の<$ba.fragile>脆弱</>状態も付与される",
-                "desc_en": "Enemies in range that are <$ba.sluggish>Slowed</> are inflicted with 23% <@ba.talpu>(+3%)</> <$ba.fragile>Fragile</> effect for an equivalent duration",
+                "desc_zh": "攻击范围内被<ba.sluggish>停顿</>的敌人在下一瞬间起还会受到等长时间的23%<@ba.talpu>（+3%）</>的<ba.fragile>脆弱</>效果",
+                "desc_ja": "攻撃範囲内の敵が<ba.sluggish>足止め</>された時、次の瞬間から<ba.sluggish>足止め</>と同じ時間の23%<@ba.talpu>（+3%）</>の<ba.fragile>脆弱</>状態も付与される",
+                "desc_en": "Enemies in range that are <ba.sluggish>Slowed</> are inflicted with 23% <@ba.talpu>(+3%)</> <ba.fragile>Fragile</> effect for an equivalent duration",
                 "tags": [],
                 "blackboard": [
                     {
@@ -7671,9 +7671,9 @@
                 "name_zh": "光学折射配件",
                 "name_ja": "光学迷彩カスタム",
                 "name_en": "Optical Refraction Accessories",
-                "desc_zh": "无人机在部署后的22<@ba.talpu>（+2）</>秒内处于<$ba.invisible>隐匿</>状态（不会成为敌方远程单位的攻击目标）",
-                "desc_ja": "支援ドローンは配置後22<@ba.talpu>(+2)</>秒間<$ba.invisible>ステルス</>状態になる",
-                "desc_en": "Drones gain <$ba.invisible>Invisibility</> for 22 <@ba.talpu>(+2)</> seconds after deployment (cannot be targeted by enemy ranged attacks)",
+                "desc_zh": "无人机在部署后的22<@ba.talpu>（+2）</>秒内处于<ba.invisible>隐匿</>状态（不会成为敌方远程单位的攻击目标）",
+                "desc_ja": "支援ドローンは配置後22<@ba.talpu>(+2)</>秒間<ba.invisible>ステルス</>状態になる",
+                "desc_en": "Drones gain <ba.invisible>Invisibility</> for 22 <@ba.talpu>(+2)</> seconds after deployment (cannot be targeted by enemy ranged attacks)",
                 "tags": [
                     "stealth"
                 ],
@@ -7732,9 +7732,9 @@
                 "name_zh": "无声砥柱",
                 "name_ja": "無言の支え",
                 "name_en": "Silent Sentinel",
-                "desc_zh": "使攻击范围内的友军获得10%的<$ba.protect>庇护</>，友军的生命越低该效果越强（低于30%生命时获得最大24%的<$ba.protect>庇护</>）",
-                "desc_ja": "攻撃範囲内の味方全員に10%の<$ba.protect>加護</>を付与する。味方のHPが低いほど効果が強まる（最大効果値：HPが最大値の30%未満時、24%の<$ba.protect>加護</>を獲得）",
-                "desc_en": "Applies 10% <$ba.protect>Sanctuary</> to allies within Attack Range; effect increases as ally's HP decreases (reaches maximum gain of 24% <$ba.protect>Sanctuary</> when below 30% HP)",
+                "desc_zh": "使攻击范围内的友军获得10%的<ba.protect>庇护</>，友军的生命越低该效果越强（低于30%生命时获得最大24%的<ba.protect>庇护</>）",
+                "desc_ja": "攻撃範囲内の味方全員に10%の<ba.protect>加護</>を付与する。味方のHPが低いほど効果が強まる（最大効果値：HPが最大値の30%未満時、24%の<ba.protect>加護</>を獲得）",
+                "desc_en": "Applies 10% <ba.protect>Sanctuary</> to allies within Attack Range; effect increases as ally's HP decreases (reaches maximum gain of 24% <ba.protect>Sanctuary</> when below 30% HP)",
                 "tags": [],
                 "blackboard": [
                     {
@@ -7877,7 +7877,7 @@
                 "name_zh": "无词哀歌",
                 "name_ja": "",
                 "name_en": "",
-                "desc_zh": "使攻击范围内敌人每秒受到相当于攻击力10%的<$ba.dt.apoptosis2>凋亡损伤</>并<$ba.sluggish>停顿</>0.2秒",
+                "desc_zh": "使攻击范围内敌人每秒受到相当于攻击力10%的<ba.dt.apoptosis2>凋亡损伤</>并<ba.sluggish>停顿</>0.2秒",
                 "desc_ja": "",
                 "desc_en": "",
                 "tags": [
@@ -7899,7 +7899,7 @@
                 "name_zh": "精神逆构",
                 "name_ja": "",
                 "name_en": "",
-                "desc_zh": "使攻击范围内敌人受到的<$ba.dt.apoptosis2>凋亡损伤</>提高22%<@ba.talpu>（+2%）</>",
+                "desc_zh": "使攻击范围内敌人受到的<ba.dt.apoptosis2>凋亡损伤</>提高22%<@ba.talpu>（+2%）</>",
                 "desc_ja": "",
                 "desc_en": "",
                 "tags": [
@@ -8069,9 +8069,9 @@
                 "name_zh": "有备无患",
                 "name_ja": "世渡りの知恵",
                 "name_en": "Preparedness Averts Peril",
-                "desc_zh": "特性消耗费用时，若费用足够则改为消耗5费用，抵消自身受到的下一次<$ba.stun>晕眩</>/<$ba.frozen>冻结</>，并使攻击来源晕眩3秒",
-                "desc_ja": "特性によるコスト消費時、所持コストが5以上の場合、代わりにコストを5消費して、自身が次に受ける<$ba.stun>スタン</>/<$ba.frozen>凍結</>の効果を打ち消し、その効果を付与した対象を3秒間スタンさせる（効果中及び消費分のコスト不足時は発動しない）",
-                "desc_en": "When DP is consumed by this unit's Trait, if there is sufficient DP, consumes 5 DP instead to block the next <$ba.stun>Stun</>/<$ba.frozen>Freeze</> effect inflicted on this unit, and stuns the attacker for 3 seconds",
+                "desc_zh": "特性消耗费用时，若费用足够则改为消耗5费用，抵消自身受到的下一次<ba.stun>晕眩</>/<ba.frozen>冻结</>，并使攻击来源晕眩3秒",
+                "desc_ja": "特性によるコスト消費時、所持コストが5以上の場合、代わりにコストを5消費して、自身が次に受ける<ba.stun>スタン</>/<ba.frozen>凍結</>の効果を打ち消し、その効果を付与した対象を3秒間スタンさせる（効果中及び消費分のコスト不足時は発動しない）",
+                "desc_en": "When DP is consumed by this unit's Trait, if there is sufficient DP, consumes 5 DP instead to block the next <ba.stun>Stun</>/<ba.frozen>Freeze</> effect inflicted on this unit, and stuns the attacker for 3 seconds",
                 "tags": [],
                 "blackboard": [
                     {
@@ -8193,9 +8193,9 @@
                 "name_zh": "混合药物射击",
                 "name_ja": "混合薬物弾",
                 "name_en": "Drug Cocktail Administration",
-                "desc_zh": "每次攻击时会随机触发下列效果之一：回复自身生命15%；当次攻击力提升至150%；目标<$ba.sluggish>停顿</>1.4秒；目标<$ba.stun>晕眩</>1秒",
-                "desc_ja": "攻撃時ランダムで次の効果から1つを発動：自身のHPを15%回復／その攻撃のみ攻撃力が150%まで上昇／対象を1.4秒<$ba.sluggish>足止め</>する／対象を1秒間<$ba.stun>スタン</>させる",
-                "desc_en": "Each attack will randomly trigger one of the following effects: Restores own HP by 15%, that attack deals 150% damage, <$ba.sluggish>Slows</> the enemy for 1.4 seconds, or <$ba.stun>Stuns</> the enemy for 1 second",
+                "desc_zh": "每次攻击时会随机触发下列效果之一：回复自身生命15%；当次攻击力提升至150%；目标<ba.sluggish>停顿</>1.4秒；目标<ba.stun>晕眩</>1秒",
+                "desc_ja": "攻撃時ランダムで次の効果から1つを発動：自身のHPを15%回復／その攻撃のみ攻撃力が150%まで上昇／対象を1.4秒<ba.sluggish>足止め</>する／対象を1秒間<ba.stun>スタン</>させる",
+                "desc_en": "Each attack will randomly trigger one of the following effects: Restores own HP by 15%, that attack deals 150% damage, <ba.sluggish>Slows</> the enemy for 1.4 seconds, or <ba.stun>Stuns</> the enemy for 1 second",
                 "tags": [],
                 "blackboard": [
                     {
@@ -8591,9 +8591,9 @@
                 "name_zh": "不毁重构",
                 "name_ja": "ブレークリビルド",
                 "name_en": "Non-Damaging Restructuring",
-                "desc_zh": "Mon3tr在被击倒后（不包括撤退）使周围8格内所有敌人<$ba.stun>晕眩</>3.5<@ba.talpu>（+0.5）</>秒并对其造成1400<@ba.talpu>（+200）</>点真实伤害",
-                "desc_ja": "「Mon3tr」が倒された時（撤退時発動ぜず）、周囲8マス内にいる敵全員に1400<@ba.talpu>（+200）</>の確定ダメージを与え、3.5<@ba.talpu>（+0.5）</>秒間<$ba.stun>スタン</>させる",
-                "desc_en": "When Mon3tr is defeated (excluding retreat), all enemies in the surrounding 8 tiles are <$ba.stun>Stunned</> for 3.5 <@ba.talpu>(+0.5)</> seconds and receive 1400 <@ba.talpu>(+200)</> True damage",
+                "desc_zh": "Mon3tr在被击倒后（不包括撤退）使周围8格内所有敌人<ba.stun>晕眩</>3.5<@ba.talpu>（+0.5）</>秒并对其造成1400<@ba.talpu>（+200）</>点真实伤害",
+                "desc_ja": "「Mon3tr」が倒された時（撤退時発動ぜず）、周囲8マス内にいる敵全員に1400<@ba.talpu>（+200）</>の確定ダメージを与え、3.5<@ba.talpu>（+0.5）</>秒間<ba.stun>スタン</>させる",
+                "desc_en": "When Mon3tr is defeated (excluding retreat), all enemies in the surrounding 8 tiles are <ba.stun>Stunned</> for 3.5 <@ba.talpu>(+0.5)</> seconds and receive 1400 <@ba.talpu>(+200)</> True damage",
                 "target_air": true,
                 "tags": [
                     "true"
@@ -8616,9 +8616,9 @@
                 "name_zh": "凡人之愿",
                 "name_ja": "凡人の願い",
                 "name_en": "An Everyman's Wish",
-                "desc_zh": "治疗的目标获得4秒<$ba.buffres>抵抗</>，若目标生命值高于75%则改为6秒<$ba.buffres>抵抗</>",
-                "desc_ja": "味方を回復後、対象に4秒の<$ba.buffres>レジスト</>状態を付与、対象のHPが最大値の75%を超える場合、<$ba.buffres>レジスト</>状態の継続時間が6秒に上昇",
-                "desc_en": "Healing targets gain <$ba.buffres>status resistance</> for 4 seconds. If the target's HP is above 75%, they gain <$ba.buffres>status resistance</> for 6 seconds instead.",
+                "desc_zh": "治疗的目标获得4秒<ba.buffres>抵抗</>，若目标生命值高于75%则改为6秒<ba.buffres>抵抗</>",
+                "desc_ja": "味方を回復後、対象に4秒の<ba.buffres>レジスト</>状態を付与、対象のHPが最大値の75%を超える場合、<ba.buffres>レジスト</>状態の継続時間が6秒に上昇",
+                "desc_en": "Healing targets gain <ba.buffres>status resistance</> for 4 seconds. If the target's HP is above 75%, they gain <ba.buffres>status resistance</> for 6 seconds instead.",
                 "tags": [
                     "ally_resist"
                 ],
@@ -8675,9 +8675,9 @@
                 "name_zh": "氤氲",
                 "name_ja": "白き雲",
                 "name_en": "Replenishing Mist",
-                "desc_zh": "普通治疗使目标每秒额外受到一次治疗量和<$ba.dt.element>元素损伤</>回复量为10%的增益治疗，持续6秒（最多叠加3层）",
-                "desc_ja": "通常治療後、対象のHPと蓄積された<$ba.dt.element>元素損傷</>を6秒間、1秒ごとに10%治療する（最大3回まで重複可能）",
-                "desc_en": "Normal heals additionally restore HP and <$ba.dt.element>Elemental Damage</> per second equal to 10% of the original amount, lasting for 6 seconds (stacks up to 3 times)",
+                "desc_zh": "普通治疗使目标每秒额外受到一次治疗量和<ba.dt.element>元素损伤</>回复量为10%的增益治疗，持续6秒（最多叠加3层）",
+                "desc_ja": "通常治療後、対象のHPと蓄積された<ba.dt.element>元素損傷</>を6秒間、1秒ごとに10%治療する（最大3回まで重複可能）",
+                "desc_en": "Normal heals additionally restore HP and <ba.dt.element>Elemental Damage</> per second equal to 10% of the original amount, lasting for 6 seconds (stacks up to 3 times)",
                 "tags": [
                     "ele_heal"
                 ],
@@ -8701,9 +8701,9 @@
                 "name_zh": "火山灰疗愈",
                 "name_ja": "火山灰療法",
                 "name_en": "Volcanic Ash Remedy",
-                "desc_zh": "攻击范围内的友方单位生命上限+8%<@ba.talpu>（+2%）</>，且受到的<$ba.dt.element>元素损伤</>降低12%",
-                "desc_ja": "攻撃範囲内の味方の最大HP+8%<@ba.talpu>（+2%）</>、受ける<$ba.dt.element>元素損傷</>の値-12%",
-                "desc_en": "Increases the Max HP of friendly units within range by +8% <@ba.talpu>(+2%)</>, and reduces the <$ba.dt.element>Elemental Damage</> they take by 12%",
+                "desc_zh": "攻击范围内的友方单位生命上限+8%<@ba.talpu>（+2%）</>，且受到的<ba.dt.element>元素损伤</>降低12%",
+                "desc_ja": "攻撃範囲内の味方の最大HP+8%<@ba.talpu>（+2%）</>、受ける<ba.dt.element>元素損傷</>の値-12%",
+                "desc_en": "Increases the Max HP of friendly units within range by +8% <@ba.talpu>(+2%)</>, and reduces the <ba.dt.element>Elemental Damage</> they take by 12%",
                 "tags": [],
                 "blackboard": [
                     {
@@ -8726,9 +8726,9 @@
                 "name_zh": "灼痕",
                 "name_ja": "灼けつく炎",
                 "name_en": "Cinder",
-                "desc_zh": "造成伤害时有30%概率对敌人施加灼痕效果：攻击力-22%<@ba.talpu>（+2）</>、32%<@ba.talpu>（+2）</>的<$ba.magicfragile>【法术脆弱】</>，不可叠加持续6秒",
-                "desc_ja": "敵にダメージを与えた際、30％の確率で対象に6秒間攻撃力-22％<@ba.talpu>（+2）</>、32％<@ba.talpu>（+2）</>の<$ba.magicfragile>【対術脆弱】</>効果をもたらす灼痕を付与する（重複不可）",
-                "desc_en": "When dealing damage, 30% chance to inflict Cinder: ATK -22%<@ba.talpu> (+2)</>, 32%<@ba.talpu> (+2)</> <$ba.magicfragile>[Arts Fragility]</>, does not stack, lasts 6s",
+                "desc_zh": "造成伤害时有30%概率对敌人施加灼痕效果：攻击力-22%<@ba.talpu>（+2）</>、32%<@ba.talpu>（+2）</>的<ba.magicfragile>【法术脆弱】</>，不可叠加持续6秒",
+                "desc_ja": "敵にダメージを与えた際、30％の確率で対象に6秒間攻撃力-22％<@ba.talpu>（+2）</>、32％<@ba.talpu>（+2）</>の<ba.magicfragile>【対術脆弱】</>効果をもたらす灼痕を付与する（重複不可）",
+                "desc_en": "When dealing damage, 30% chance to inflict Cinder: ATK -22%<@ba.talpu> (+2)</>, 32%<@ba.talpu> (+2)</> <ba.magicfragile>[Arts Fragility]</>, does not stack, lasts 6s",
                 "tags": [],
                 "blackboard": [
                     {
@@ -8890,9 +8890,9 @@
                 "name_zh": "仁慈",
                 "name_ja": "憐憫",
                 "name_en": "Mercy",
-                "desc_zh": "自身可以攻击并优先攻击<$ba.sleep>沉睡</>的目标且攻击力提升至144%<@ba.talpu>（+4%）</>",
-                "desc_ja": "<$ba.sleep>睡眠</>状態の敵を攻撃でき、優先して攻撃する\n<$ba.sleep>睡眠</>状態の敵を攻撃時、攻撃力が144%<@ba.talpu>（+4%）</>まで上昇",
-                "desc_en": "Blemishine can attack and will prioritize <$ba.sleep>Sleeping</> enemies; Increase ATK to 144% <@ba.talpu>(+4%)</> when attacking <$ba.sleep>Sleeping</> enemies",
+                "desc_zh": "自身可以攻击并优先攻击<ba.sleep>沉睡</>的目标且攻击力提升至144%<@ba.talpu>（+4%）</>",
+                "desc_ja": "<ba.sleep>睡眠</>状態の敵を攻撃でき、優先して攻撃する\n<ba.sleep>睡眠</>状態の敵を攻撃時、攻撃力が144%<@ba.talpu>（+4%）</>まで上昇",
+                "desc_en": "Blemishine can attack and will prioritize <ba.sleep>Sleeping</> enemies; Increase ATK to 144% <@ba.talpu>(+4%)</> when attacking <ba.sleep>Sleeping</> enemies",
                 "tags": [
                     "sleep",
                     "priority_sleep"
@@ -8914,7 +8914,7 @@
                 "name_zh": "百谷长青",
                 "name_ja": "",
                 "name_en": "",
-                "desc_zh": "治疗干员时对其与周围四格地块进行播种施加如下效果：每秒恢复75<@ba.talpu>（+5）</>生命、获得12%<@ba.talpu>（+2%）</><$ba.protect>庇护</>",
+                "desc_zh": "治疗干员时对其与周围四格地块进行播种施加如下效果：每秒恢复75<@ba.talpu>（+5）</>生命、获得12%<@ba.talpu>（+2%）</><ba.protect>庇护</>",
                 "desc_ja": "",
                 "desc_en": "",
                 "tags": [],
@@ -8993,9 +8993,9 @@
                 "name_zh": "干明可鉴",
                 "name_ja": "赤鉄明鏡",
                 "name_en": "Clairvoyance",
-                "desc_zh": "部署后立即获得3层<$ba.shield>护盾</>",
-                "desc_ja": "配置後、<$ba.shield>シールド</>を3枚形成する",
-                "desc_en": "After deployment, immediately gains 3 <$ba.shield>Shields</>",
+                "desc_zh": "部署后立即获得3层<ba.shield>护盾</>",
+                "desc_ja": "配置後、<ba.shield>シールド</>を3枚形成する",
+                "desc_en": "After deployment, immediately gains 3 <ba.shield>Shields</>",
                 "tags": [],
                 "blackboard": [
                     {
@@ -9014,9 +9014,9 @@
                 "name_zh": "沃土予身",
                 "name_ja": "沃土を我が身に",
                 "name_en": "Ward of the Fertile Soil",
-                "desc_zh": "每9秒获得1层<$ba.shield>护盾</>（最多3层，部署后立即获得1层），每层护盾破裂时恢复自身22%<@ba.talpu>（+2%）</>最大生命",
-                "desc_ja": "9秒ごとに<$ba.shield>シールド</>を1枚形成する（最大3枚まで重複でき、配置後<$ba.shield>シールド</>を1枚形成する）。<$ba.shield>シールド</>が1枚消耗される時、自身のHPが最大値の22%<@ba.talpu>（+2%）</>回復",
-                "desc_en": "Every 9 seconds, gains 1 <$ba.shield>Shield</> (Can have up to 3 stacks, with 1 stack granted immediately when deployed). When a Shield is broken, restores 22% <@ba.talpu>(+2%)</> of Max HP",
+                "desc_zh": "每9秒获得1层<ba.shield>护盾</>（最多3层，部署后立即获得1层），每层护盾破裂时恢复自身22%<@ba.talpu>（+2%）</>最大生命",
+                "desc_ja": "9秒ごとに<ba.shield>シールド</>を1枚形成する（最大3枚まで重複でき、配置後<ba.shield>シールド</>を1枚形成する）。<ba.shield>シールド</>が1枚消耗される時、自身のHPが最大値の22%<@ba.talpu>（+2%）</>回復",
+                "desc_en": "Every 9 seconds, gains 1 <ba.shield>Shield</> (Can have up to 3 stacks, with 1 stack granted immediately when deployed). When a Shield is broken, restores 22% <@ba.talpu>(+2%)</> of Max HP",
                 "tags": [
                     "self_heal"
                 ],
@@ -9068,9 +9068,9 @@
                 "name_zh": "律法卫士",
                 "name_ja": "法の番人",
                 "name_en": "Guardian of the Law",
-                "desc_zh": "部署后立即获得相当于生命上限55%<@ba.talpu>（+5%）</>的<$ba.barrier>屏障</>，每击倒一名敌人时获得相当于生命上限10%的<$ba.barrier>屏障</>（最多不超过生命上限300%）",
-                "desc_ja": "配置後、最大HPの55%<@ba.talpu>（+5%）</>までの被ダメージを吸収可能な<$ba.barrier>バリア</>を獲得し、敵を倒す度自身の最大HPの10%までの被ダメージを吸収可能な<$ba.barrier>バリア</>を獲得（効果値が最大HPの300％まで重複可能）",
-                "desc_en": "After deployment, immediately gains a <$ba.barrier>Barrier</> equal to 55% <@ba.talpu>(+5%)</> Max HP; When defeating an enemy, gains a <$ba.barrier>Barrier</> equal to 10% Max HP (Cannot exceed 300% Max HP)",
+                "desc_zh": "部署后立即获得相当于生命上限55%<@ba.talpu>（+5%）</>的<ba.barrier>屏障</>，每击倒一名敌人时获得相当于生命上限10%的<ba.barrier>屏障</>（最多不超过生命上限300%）",
+                "desc_ja": "配置後、最大HPの55%<@ba.talpu>（+5%）</>までの被ダメージを吸収可能な<ba.barrier>バリア</>を獲得し、敵を倒す度自身の最大HPの10%までの被ダメージを吸収可能な<ba.barrier>バリア</>を獲得（効果値が最大HPの300％まで重複可能）",
+                "desc_en": "After deployment, immediately gains a <ba.barrier>Barrier</> equal to 55% <@ba.talpu>(+5%)</> Max HP; When defeating an enemy, gains a <ba.barrier>Barrier</> equal to 10% Max HP (Cannot exceed 300% Max HP)",
                 "tags": [
                     "barrier"
                 ],
@@ -9098,9 +9098,9 @@
                 "name_zh": "荆棘环身",
                 "name_ja": "茨纏う身",
                 "name_en": "Wreathed in Thorns",
-                "desc_zh": "拥有来源于自身的<$ba.barrier>屏障</>时，每次受到攻击对目标造成相当于斥罪攻击力53%<@ba.talpu>（+3%）</>的法术伤害",
-                "desc_ja": "自身により獲得する<$ba.barrier>バリア</>の存続期間中、攻撃される度ペナンスの攻撃力の53％<@ba.talpu>（+3%）</>の術ダメージで攻撃者に反撃",
-                "desc_en": "Each time this unit is attacked while under the effect of her own <$ba.barrier>Barrier</>, deals 53% <@ba.talpu>(+3%)</> ATK as Arts damage to the attacker",
+                "desc_zh": "拥有来源于自身的<ba.barrier>屏障</>时，每次受到攻击对目标造成相当于斥罪攻击力53%<@ba.talpu>（+3%）</>的法术伤害",
+                "desc_ja": "自身により獲得する<ba.barrier>バリア</>の存続期間中、攻撃される度ペナンスの攻撃力の53％<@ba.talpu>（+3%）</>の術ダメージで攻撃者に反撃",
+                "desc_en": "Each time this unit is attacked while under the effect of her own <ba.barrier>Barrier</>, deals 53% <@ba.talpu>(+3%)</> ATK as Arts damage to the attacker",
                 "tags": [
                     "reflect_dmg"
                 ],
@@ -9121,9 +9121,9 @@
                 "name_zh": "勇冠三军",
                 "name_ja": "勇武無双",
                 "name_en": "Peerless Bravery",
-                "desc_zh": "生命值高于一半时，攻击造成117%<@ba.talpu>（+2%）</>伤害；生命值不高于一半时，获得22%<@ba.talpu>（+2%）</>的<$ba.protect>庇护</>",
-                "desc_ja": "HPが最大値の50％を超える時、攻撃の与ダメージが117％<@ba.talpu>（+2%）</>まで上昇\nHPが最大値の50％以下時、自身が22%<@ba.talpu>（+2%）</>の<$ba.protect>加護</>状態になる",
-                "desc_en": "When HP is above 50%, attacks deal 117%<@ba.talpu>(+2%)</> damage; when HP is 50% or lower, gain 22%<@ba.talpu>(+2%)</> <$ba.protect>Sanctuary</>",
+                "desc_zh": "生命值高于一半时，攻击造成117%<@ba.talpu>（+2%）</>伤害；生命值不高于一半时，获得22%<@ba.talpu>（+2%）</>的<ba.protect>庇护</>",
+                "desc_ja": "HPが最大値の50％を超える時、攻撃の与ダメージが117％<@ba.talpu>（+2%）</>まで上昇\nHPが最大値の50％以下時、自身が22%<@ba.talpu>（+2%）</>の<ba.protect>加護</>状態になる",
+                "desc_en": "When HP is above 50%, attacks deal 117%<@ba.talpu>(+2%)</> damage; when HP is 50% or lower, gain 22%<@ba.talpu>(+2%)</> <ba.protect>Sanctuary</>",
                 "tags": [],
                 "blackboard": [
                     {
@@ -9398,9 +9398,9 @@
                 "name_zh": "鹰眼视觉",
                 "name_ja": "ホークビジョン",
                 "name_en": "Eagle Eyes",
-                "desc_zh": "攻击范围内敌人的<$ba.invisible>隐匿</>效果失效",
-                "desc_ja": "攻撃範囲内の敵の<$ba.invisible>ステルス</>状態を無効にする",
-                "desc_en": "Reveals <$ba.invisible>Invisible</> enemies within range",
+                "desc_zh": "攻击范围内敌人的<ba.invisible>隐匿</>效果失效",
+                "desc_ja": "攻撃範囲内の敵の<ba.invisible>ステルス</>状態を無効にする",
+                "desc_en": "Reveals <ba.invisible>Invisible</> enemies within range",
                 "tags": [
                     "cancel_stealth"
                 ],
@@ -9470,9 +9470,9 @@
                 "name_zh": "入隙",
                 "name_ja": "虚突",
                 "name_en": "Find an Opening",
-                "desc_zh": "攻击处于<$ba.sluggish>停顿</>、<$ba.root>束缚</>的敌人时，额外造成相当于攻击力43%<@ba.talpu>（+3%）</>的法术伤害",
-                "desc_ja": "<$ba.sluggish>足止め</>、<$ba.root>バインド</>状態の敵に攻撃時、追加で攻撃力の43％<@ba.talpu>（+3％）</>の術ダメージを与える",
-                "desc_en": "Deal an additional 43%<@ba.talpu> (+3%)</> of ATK as Arts damage when attacking enemies affected by <$ba.sluggish>Slow</> or <$ba.root>Bind</>",
+                "desc_zh": "攻击处于<ba.sluggish>停顿</>、<ba.root>束缚</>的敌人时，额外造成相当于攻击力43%<@ba.talpu>（+3%）</>的法术伤害",
+                "desc_ja": "<ba.sluggish>足止め</>、<ba.root>バインド</>状態の敵に攻撃時、追加で攻撃力の43％<@ba.talpu>（+3％）</>の術ダメージを与える",
+                "desc_en": "Deal an additional 43%<@ba.talpu> (+3%)</> of ATK as Arts damage when attacking enemies affected by <ba.sluggish>Slow</> or <ba.root>Bind</>",
                 "tags": [
                     "arts",
                     "sluggish",
@@ -9490,9 +9490,9 @@
                 "name_zh": "落英",
                 "name_ja": "落英",
                 "name_en": "Falling Petals",
-                "desc_zh": "攻击时有23%<@ba.talpu>（+3%）</>的几率使目标<$ba.root>束缚</>1.5秒",
-                "desc_ja": "攻撃時、23％<@ba.talpu>（+3％）</>の確率で対象を1.5秒間<$ba.root>バインド</>させる",
-                "desc_en": "Attacks have a 23%<@ba.talpu> (+3%)</> chance to <$ba.root>Bind</> the target for 1.5s",
+                "desc_zh": "攻击时有23%<@ba.talpu>（+3%）</>的几率使目标<ba.root>束缚</>1.5秒",
+                "desc_ja": "攻撃時、23％<@ba.talpu>（+3％）</>の確率で対象を1.5秒間<ba.root>バインド</>させる",
+                "desc_en": "Attacks have a 23%<@ba.talpu> (+3%)</> chance to <ba.root>Bind</> the target for 1.5s",
                 "tags": [],
                 "blackboard": [
                     {
@@ -9516,7 +9516,7 @@
                 "name_zh": "及锋而试",
                 "name_ja": "",
                 "name_en": "",
-                "desc_zh": "攻击敌人时攻击力提升至110%，若目标处于<$ba.stun>晕眩</>、<$ba.root>束缚</>则改为提升至140%",
+                "desc_zh": "攻击敌人时攻击力提升至110%，若目标处于<ba.stun>晕眩</>、<ba.root>束缚</>则改为提升至140%",
                 "desc_ja": "",
                 "desc_en": "",
                 "tags": [
@@ -9539,7 +9539,7 @@
                 "name_zh": "余火之氅",
                 "name_ja": "",
                 "name_en": "",
-                "desc_zh": "使自身与身后一格的友军获得21%<@ba.talpu>（+3%）</>的<$ba.protect>庇护</>",
+                "desc_zh": "使自身与身后一格的友军获得21%<@ba.talpu>（+3%）</>的<ba.protect>庇护</>",
                 "desc_ja": "",
                 "desc_en": "",
                 "tags": [],
@@ -9651,7 +9651,7 @@
                 "name_zh": "“天生的武者”",
                 "name_ja": "",
                 "name_en": "",
-                "desc_zh": "造成伤害时有10%的几率攻击力提升至165%<@ba.talpu>（+5%）</>，并使目标<$ba.tremble>战栗</>5秒",
+                "desc_zh": "造成伤害时有10%的几率攻击力提升至165%<@ba.talpu>（+5%）</>，并使目标<ba.tremble>战栗</>5秒",
                 "desc_ja": "",
                 "desc_en": "",
                 "tags": [],
@@ -9676,7 +9676,7 @@
                 "name_zh": "活着的传奇",
                 "name_ja": "",
                 "name_en": "",
-                "desc_zh": "攻击被<$ba.tremble>战栗</>的目标时，无视目标30%<@ba.talpu>（+5%）</>的防御力",
+                "desc_zh": "攻击被<ba.tremble>战栗</>的目标时，无视目标30%<@ba.talpu>（+5%）</>的防御力",
                 "desc_ja": "",
                 "desc_en": "",
                 "tags": [],
@@ -9726,9 +9726,9 @@
                 "name_zh": "严酷训练",
                 "name_ja": "スパルタ訓練の成果",
                 "name_en": "Harsh Training",
-                "desc_zh": "在战场停留12<@ba.talpu>（-3）</>秒后获得<$ba.buffres>抵抗</>",
-                "desc_ja": "配置から12<@ba.talpu>（-3）</>秒後、自身が<$ba.buffres>レジスト</>状態になる",
-                "desc_en": "Gains <$ba.buffres>status resistance</> after being deployed for 12 <@ba.talpu>(-3)</> seconds",
+                "desc_zh": "在战场停留12<@ba.talpu>（-3）</>秒后获得<ba.buffres>抵抗</>",
+                "desc_ja": "配置から12<@ba.talpu>（-3）</>秒後、自身が<ba.buffres>レジスト</>状態になる",
+                "desc_en": "Gains <ba.buffres>status resistance</> after being deployed for 12 <@ba.talpu>(-3)</> seconds",
                 "tags": [
                     "resist"
                 ],
@@ -9873,7 +9873,7 @@
                 "name_zh": "散华",
                 "name_ja": "",
                 "name_en": "",
-                "desc_zh": "攻击精英或领袖敌人时，有20%<@ba.talpu>（+2%）</>概率获得一层仅抵挡近战攻击的<$ba.shield>护盾</>（最多1层）",
+                "desc_zh": "攻击精英或领袖敌人时，有20%<@ba.talpu>（+2%）</>概率获得一层仅抵挡近战攻击的<ba.shield>护盾</>（最多1层）",
                 "desc_ja": "",
                 "desc_en": "",
                 "tags": [],
@@ -9895,9 +9895,9 @@
                 "name_zh": "月盈星亏",
                 "name_ja": "月満ち星隠る",
                 "name_en": "Waxing Moon",
-                "desc_zh": "在场时，自身获得最高+100攻击速度的<$ba.berserk>坚忍</>（损失70%生命值时达到最大加成）",
-                "desc_ja": "配置中、最大で攻撃速度+100の<$ba.berserk>不屈</>状態を獲得する（HPが最大値の70%減少時、効果最大）",
-                "desc_en": "Gains up to +100 ASPD <$ba.berserk>Tenacity</> (reaches maximum bonus when losing 70% Max HP)",
+                "desc_zh": "在场时，自身获得最高+100攻击速度的<ba.berserk>坚忍</>（损失70%生命值时达到最大加成）",
+                "desc_ja": "配置中、最大で攻撃速度+100の<ba.berserk>不屈</>状態を獲得する（HPが最大値の70%減少時、効果最大）",
+                "desc_en": "Gains up to +100 ASPD <ba.berserk>Tenacity</> (reaches maximum bonus when losing 70% Max HP)",
                 "tags": [
                     "berserk"
                 ],
@@ -9940,7 +9940,7 @@
                 "name_zh": "秉烛照影",
                 "name_ja": "",
                 "name_en": "",
-                "desc_zh": "在场时，自身获得最高+50攻击速度和技力自然回复速度+2/秒的<$ba.berserk>坚忍</>（损失70%生命值时达到最大加成）",
+                "desc_zh": "在场时，自身获得最高+50攻击速度和技力自然回复速度+2/秒的<ba.berserk>坚忍</>（损失70%生命值时达到最大加成）",
                 "desc_ja": "",
                 "desc_en": "",
                 "tags": [
@@ -9999,9 +9999,9 @@
                 "name_zh": "英雄的诞生",
                 "name_ja": "英雄の生誕",
                 "name_en": "Birth of a Hero",
-                "desc_zh": "在场时，所有【米诺斯】干员生命值高于80%时获得+25%攻击力的<$ba.strong>精力充沛</>",
-                "desc_ja": "配置中、味方【ミノス】にHPが最大値の80％以上で攻撃力+25%の<$ba.strong>勇猛</>状態を付与する",
-                "desc_en": "When deployed, all 'Minoan' Operators gain <$ba.strong>Vigor</> effect of +25% ATK when HP is above 80%",
+                "desc_zh": "在场时，所有【米诺斯】干员生命值高于80%时获得+25%攻击力的<ba.strong>精力充沛</>",
+                "desc_ja": "配置中、味方【ミノス】にHPが最大値の80％以上で攻撃力+25%の<ba.strong>勇猛</>状態を付与する",
+                "desc_en": "When deployed, all 'Minoan' Operators gain <ba.strong>Vigor</> effect of +25% ATK when HP is above 80%",
                 "tags": [
                     "ally_peak_performance",
                     "minos"
@@ -10045,9 +10045,9 @@
                 "name_zh": "不畏苦暗",
                 "name_ja": "「長夜の終わり」",
                 "name_en": "Brave the Darkness",
-                "desc_zh": "部署时对周围四格敌人造成80%攻击力的真实伤害并<$ba.stun>晕眩</>3秒，上一名部署干员势力为【卡西米尔】时额外造成一次伤害",
-                "desc_ja": "配置後、隣接4マス以内の敵全員に攻撃力の80％の確定ダメージを与え、3秒間<$ba.stun>スタン</>させる\n直前に配置したオペレーターが【カジミエーシュ】に属する場合、追加でさらに1回ダメージを与える",
-                "desc_en": "When deploying, deals 80% ATK as True damage to enemies in the four adjacent tiles and <$ba.stun>Stuns</> them for 3 seconds. If the previously deployed Operator is from Kazimierz, deals an additional hit",
+                "desc_zh": "部署时对周围四格敌人造成80%攻击力的真实伤害并<ba.stun>晕眩</>3秒，上一名部署干员势力为【卡西米尔】时额外造成一次伤害",
+                "desc_ja": "配置後、隣接4マス以内の敵全員に攻撃力の80％の確定ダメージを与え、3秒間<ba.stun>スタン</>させる\n直前に配置したオペレーターが【カジミエーシュ】に属する場合、追加でさらに1回ダメージを与える",
+                "desc_en": "When deploying, deals 80% ATK as True damage to enemies in the four adjacent tiles and <ba.stun>Stuns</> them for 3 seconds. If the previously deployed Operator is from Kazimierz, deals an additional hit",
                 "rangeId": "x-5",
                 "target_air": false,
                 "tags": [
@@ -10598,7 +10598,7 @@
                 "name_zh": "悠远河谷的齐唱·VI",
                 "name_ja": "",
                 "name_en": "",
-                "desc_zh": "部署后40秒内攻击附带60点凋亡损伤，并使攻击范围内的所有敌人受到10%的<$ba.magicfragile>【法术脆弱】</>和<$ba.elementfragile>【元素脆弱】</>",
+                "desc_zh": "部署后40秒内攻击附带60点凋亡损伤，并使攻击范围内的所有敌人受到10%的<ba.magicfragile>【法术脆弱】</>和<ba.elementfragile>【元素脆弱】</>",
                 "desc_ja": "",
                 "desc_en": "",
                 "tags": [
@@ -10658,7 +10658,7 @@
                 "name_zh": "好礼",
                 "name_ja": "",
                 "name_en": "",
-                "desc_zh": "攻击时对主目标的攻击力提升至115%并为其附着残影，残影受到维什戴尔的余震影响时有15%概率爆炸，对周围所有敌人造成160%<@ba.talpu>（+10%）</>攻击力的物理伤害并使其<$ba.stun>晕眩</>1秒",
+                "desc_zh": "攻击时对主目标的攻击力提升至115%并为其附着残影，残影受到维什戴尔的余震影响时有15%概率爆炸，对周围所有敌人造成160%<@ba.talpu>（+10%）</>攻击力的物理伤害并使其<ba.stun>晕眩</>1秒",
                 "desc_ja": "",
                 "desc_en": "",
                 "target_air": true,
@@ -10691,7 +10691,7 @@
                 "name_zh": "死魂灵的余息",
                 "name_ja": "",
                 "name_en": "",
-                "desc_zh": "部署后立刻在攻击范围内召唤一个魂灵之影，在魂灵之影周围时获得<$ba.camou>迷彩</>",
+                "desc_zh": "部署后立刻在攻击范围内召唤一个魂灵之影，在魂灵之影周围时获得<ba.camou>迷彩</>",
                 "desc_ja": "",
                 "desc_en": "",
                 "tags": [
@@ -10710,7 +10710,7 @@
                 "name_zh": "语汇演化",
                 "name_ja": "",
                 "name_en": "",
-                "desc_zh": "对一个目标发起攻击时，有40%几率额外对攻击范围内一个随机目标造成相当于攻击力65%<@ba.talpu>（+5%）</>的法术伤害并使其<$ba.sluggish>停顿</>0.8秒",
+                "desc_zh": "对一个目标发起攻击时，有40%几率额外对攻击范围内一个随机目标造成相当于攻击力65%<@ba.talpu>（+5%）</>的法术伤害并使其<ba.sluggish>停顿</>0.8秒",
                 "desc_ja": "",
                 "desc_en": "",
                 "target_air": true,
@@ -10822,9 +10822,9 @@
                 "name_zh": "青色怒火",
                 "name_en": "Wrathful Cerulean Flame",
                 "name_ja": "蒼き怒火",
-                "description_zh": "在场时所有友方单位的攻击力和防御力+7%，技能开启期间效果加倍",
-                "description_en": "All allied units on the battlefield gain +7% ATK and DEF, doubled when this unit's skill is active",
-                "description_ja": "配置中、味方全員の攻撃力と防御力+7％、スキル発動中素質の効果倍増",
+                "desc_zh": "在场时所有友方单位的攻击力和防御力+7%，技能开启期间效果加倍",
+                "desc_en": "All allied units on the battlefield gain +7% ATK and DEF, doubled when this unit's skill is active",
+                "desc_ja": "配置中、味方全員の攻撃力と防御力+7％、スキル発動中素質の効果倍増",
                 "tags": [],
                 "blackboard": [
                     {
@@ -10847,9 +10847,9 @@
                 "name_zh": "诚挚期许",
                 "name_en": "",
                 "name_ja": "",
-                "description_zh": "在场时所有友方单位最大生命+8%，技能期间所有友方单位每秒恢复2.5%最大生命",
-                "description_en": "",
-                "description_ja": "",
+                "desc_zh": "在场时所有友方单位最大生命+8%，技能期间所有友方单位每秒恢复2.5%最大生命",
+                "desc_en": "",
+                "desc_ja": "",
                 "tags": [
                     "global_heal"
                 ],

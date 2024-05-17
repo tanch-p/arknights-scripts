@@ -16,8 +16,11 @@ for id in char_table:
     chara_dict = char_table[id]
     for pot in chara_dict['potentialRanks']:
         if pot['buff']:
-            if len(pot['buff']['attributes']['attributeModifiers']) > 1:
-                print(id)
+            for item in pot['buff']['attributes']['attributeModifiers']:
+                if not item['attributeType'] in list:
+                    list.append(item['attributeType'])
+                   
+print(list)
 # return_dict = [ele for ele in list]
 
 # with open('temp.json','w', encoding='utf-8') as f:

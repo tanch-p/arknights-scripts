@@ -13,6 +13,9 @@ debuffs_list = ["stun", "sluggish", "sleep",
                 "fragile", "dt.apoptosis2", "dt.burning2",
                 "steal", "weightless"]
 
+stat_convert = {'maxHp': "hp", "magicResistance": "res", "attackSpeed": "aspd",
+                "moveSpeed": "ms", "respawnTime": "respawnTime", "atk": 'atk', "def": "def", "cost": "cost"}
+
 script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
 cn_char_table_path = os.path.join(
@@ -56,9 +59,12 @@ data = []
 filtered_cn_char_table = {key: cn_char_table[key] for key in cn_char_table.keys(
 ) if not "token" in key and not "trap" in key}
 
+subProfessionIds = []
 
 for id in filtered_cn_char_table:
     character_dict = filtered_cn_char_table[id]
+    if character_dict['subProfessionId'] not in subProfessionIds:
+        subProfessionIds.append(character_dict['subProfessionId'])
     skills = []
     talents = []
     for skill in character_dict['skills']:
@@ -70,7 +76,7 @@ for id in filtered_cn_char_table:
                        "name_en": chara_skills[skill['skillId']]['name_en'],
                        "skillType": chara_skills[skill['skillId']]['skillType'],
                        "durationType": chara_skills[skill['skillId']]['durationType'],
-                       'spType' : chara_skills[skill['skillId']]['spType'],
+                       'spType': chara_skills[skill['skillId']]['spType'],
                        "levels": chara_skills[skill['skillId']]['levels'],
                        "tags": chara_skills[skill['skillId']]['tags'] if skill['skillId'] in chara_skills else [],
                        "blackboard": blackboard})
@@ -80,14 +86,12 @@ for id in filtered_cn_char_table:
             maxed_talent = talent['candidates'][max_candidate_index]
             talent_holder = {
                 "prefabKey": maxed_talent["prefabKey"], "name_zh": maxed_talent["name"], "name_en": "", "name_ja": "",
-                "description_zh": maxed_talent["description"], "description_en": "", "description_ja": ""}
+                "desc_zh": chara_talents[id]['talents'][talent_index]["desc_zh"] if id in chara_talents else maxed_talent['description'], "desc_en": "", "desc_ja": ""}
             if id in en_char_table:
                 talent_holder["name_en"] = en_char_table[id]['talents'][talent_index]['candidates'][max_candidate_index]["name"]
-                talent_holder["description_en"] = en_char_table[id]['talents'][
-                    talent_index]['candidates'][max_candidate_index]["description"]
+                talent_holder["desc_en"] = chara_talents[id]['talents'][talent_index]["desc_en"]
                 talent_holder["name_ja"] = jp_char_table[id]['talents'][talent_index]['candidates'][max_candidate_index]["name"]
-                talent_holder["description_ja"] = jp_char_table[id]['talents'][
-                    talent_index]['candidates'][max_candidate_index]["description"]
+                talent_holder["desc_ja"] = chara_talents[id]['talents'][talent_index]["desc_ja"]
             talent_holder['tags'] = chara_talents[id]['talents'][talent_index]['tags'] if id in chara_talents else []
             talent_holder['blackboard'] = chara_talents[id]['talents'][talent_index]['blackboard'] if id in chara_talents else []
             talents.append(talent_holder)
@@ -113,6 +117,7 @@ for id in filtered_cn_char_table:
     attribute_translate_table = {'COST': "cost", "RESPAWN_TIME": 'respawnTime', 'ATK': "atk",
                                  "MAX_HP": "hp", "ATTACK_SPEED": "aspd", "DEF": "def", "MAGIC_RESISTANCE": "res"}
 
+    # potential
     for idx, pot in enumerate(character_dict['potentialRanks']):
         pot_dict = {
             "desc_zh": pot['description'],
@@ -120,25 +125,34 @@ for id in filtered_cn_char_table:
             'desc_en': en_char_table[id]['potentialRanks'][idx]['description'] if id in en_char_table and idx < len(jp_char_table[id]['potentialRanks']) else ""
         }
 
-        attribute = {attribute_translate_table[pot['buff']['attributes']['attributeModifiers'][0]['attributeType']]: pot['buff']['attributes']['attributeModifiers'][0]['value']}if pot['buff'] else None
+        attribute = {attribute_translate_table[pot['buff']['attributes']['attributeModifiers'][0]['attributeType']]
+            : pot['buff']['attributes']['attributeModifiers'][0]['value']}if pot['buff'] else None
         pot_dict['attribute'] = attribute
         potential.append(pot_dict)
 
+    # trust/favor
+    favor_data = {}
+    if character_dict['favorKeyFrames'] is not None:
+        for key in character_dict['favorKeyFrames'][-1]['data']:
+            if bool(character_dict['favorKeyFrames'][-1]['data'][key]):
+                favor_data[stat_convert[key]
+                           ] = character_dict['favorKeyFrames'][-1]['data'][key]
+
     return_dict = {"id": id, "appellation": character_dict['appellation'], "name_zh": character_dict['name'], "name_ja": "", "name_en": "",
-                   "desc_zh": character_dict['description'], "desc_ja": "", "desc_en": "",
+                   "desc_zh": character_dict['description'].replace("<$ba","<ba"), "desc_ja": "", "desc_en": "",
                    "nationId": character_dict['nationId'], "groupId": character_dict['groupId'], "teamId": character_dict['teamId'], "position": character_dict['position'], "tagList": [],
                    "isSpChar": character_dict['isSpChar'], "rarity": character_dict['rarity'],
                    "profession": character_dict['profession'], "subProfessionId": character_dict['subProfessionId'], "stats": stats,
-                   'potential': potential,
+                   'potential': potential, "favorData": favor_data,
                    "skills": skills, "talents": talents, "tagList": [], 'uniequip': uniequip_list}
     if id in en_char_table:
         return_dict['name_ja'] = jp_char_table[id]['name']
         return_dict['name_en'] = en_char_table[id]['name']
-        return_dict['desc_ja'] = jp_char_table[id]['description']
-        return_dict['desc_en'] = en_char_table[id]['description']
+        return_dict['desc_ja'] = jp_char_table[id]['description'].replace("<$ba","<ba")
+        return_dict['desc_en'] = en_char_table[id]['description'].replace("<$ba","<ba")
     data.append(return_dict)
 
-#patch table for amiya
+# patch table for amiya
 for id in cn_patch_table['patchChars']:
     character_dict = cn_patch_table['patchChars'][id]
     in_global = id in en_patch_table['patchChars']
@@ -153,7 +167,7 @@ for id in cn_patch_table['patchChars']:
                        "name_en": chara_skills[skill['skillId']]['name_en'],
                        "skillType": chara_skills[skill['skillId']]['skillType'],
                        "durationType": chara_skills[skill['skillId']]['durationType'],
-                       'spType' : chara_skills[skill['skillId']]['spType'],
+                       'spType': chara_skills[skill['skillId']]['spType'],
                        "levels": chara_skills[skill['skillId']]['levels'],
                        "tags": chara_skills[skill['skillId']]['tags'] if skill['skillId'] in chara_skills else [],
                        "blackboard": blackboard})
@@ -163,14 +177,14 @@ for id in cn_patch_table['patchChars']:
             maxed_talent = talent['candidates'][max_candidate_index]
             talent_holder = {
                 "prefabKey": maxed_talent["prefabKey"], "name_zh": maxed_talent["name"], "name_en": "", "name_ja": "",
-                "description_zh": maxed_talent["description"], "description_en": "", "description_ja": ""}
+                "desc_zh": chara_talents[id]['talents'][talent_index]["desc_zh"] if id in chara_talents else maxed_talent['description'], "desc_en": "", "desc_ja": ""}
             if in_global:
-                talent_holder["name_en"] = en_patch_table['patchChars'][id]['talents'][talent_index]['candidates'][max_candidate_index]["name"]
-                talent_holder["description_en"] = en_patch_table['patchChars'][id]['talents'][
-                    talent_index]['candidates'][max_candidate_index]["description"]
-                talent_holder["name_ja"] = jp_patch_table['patchChars'][id]['talents'][talent_index]['candidates'][max_candidate_index]["name"]
-                talent_holder["description_ja"] = jp_patch_table['patchChars'][id]['talents'][
-                    talent_index]['candidates'][max_candidate_index]["description"]
+                talent_holder["name_en"] = en_patch_table['patchChars'][id][
+                    'talents'][talent_index]['candidates'][max_candidate_index]["name"]
+                talent_holder["desc_en"] = chara_talents[id]['talents'][talent_index]["desc_en"]
+                talent_holder["name_ja"] = jp_patch_table['patchChars'][id][
+                    'talents'][talent_index]['candidates'][max_candidate_index]["name"]
+                talent_holder["desc_ja"] = chara_talents[id]['talents'][talent_index]["desc_ja"]
             talent_holder['tags'] = chara_talents[id]['talents'][talent_index]['tags'] if id in chara_talents else []
             talent_holder['blackboard'] = chara_talents[id]['talents'][talent_index]['blackboard'] if id in chara_talents else []
             talents.append(talent_holder)
@@ -196,6 +210,7 @@ for id in cn_patch_table['patchChars']:
     attribute_translate_table = {'COST': "cost", "RESPAWN_TIME": 'respawnTime', 'ATK': "atk",
                                  "MAX_HP": "hp", "ATTACK_SPEED": "aspd", "DEF": "def", "MAGIC_RESISTANCE": "res"}
 
+    # potential
     for idx, pot in enumerate(character_dict['potentialRanks']):
         pot_dict = {
             "desc_zh": pot['description'],
@@ -203,24 +218,32 @@ for id in cn_patch_table['patchChars']:
             'desc_en': en_patch_table['patchChars'][id]['potentialRanks'][idx]['description'] if in_global else ""
         }
 
-        attribute = {attribute_translate_table[pot['buff']['attributes']['attributeModifiers'][0]['attributeType']]: pot['buff']['attributes']['attributeModifiers'][0]['value']}if pot['buff'] else None
+        attribute = {attribute_translate_table[pot['buff']['attributes']['attributeModifiers'][0]['attributeType']]
+            : pot['buff']['attributes']['attributeModifiers'][0]['value']}if pot['buff'] else None
         pot_dict['attribute'] = attribute
         potential.append(pot_dict)
 
+    # trust/favor
+    favor_data = {}
+    if character_dict['favorKeyFrames'] is not None:
+        for key in character_dict['favorKeyFrames'][-1]['data']:
+            if bool(character_dict['favorKeyFrames'][-1]['data'][key]):
+                favor_data[stat_convert[key]
+                           ] = character_dict['favorKeyFrames'][-1]['data'][key]
+
     return_dict = {"id": id, "appellation": character_dict['appellation'], "name_zh": character_dict['name'], "name_ja": "", "name_en": "",
-                   "desc_zh": character_dict['description'], "desc_ja": "", "desc_en": "",
+                   "desc_zh": character_dict['description'].replace("<$ba","<ba"), "desc_ja": "", "desc_en": "",
                    "nationId": character_dict['nationId'], "groupId": character_dict['groupId'], "teamId": character_dict['teamId'], "position": character_dict['position'], "tagList": [],
                    "isSpChar": character_dict['isSpChar'], "rarity": character_dict['rarity'],
                    "profession": character_dict['profession'], "subProfessionId": character_dict['subProfessionId'], "stats": stats,
-                   'potential': potential,
+                   'potential': potential,  "favorData": favor_data,
                    "skills": skills, "talents": talents, "tagList": [], 'uniequip': uniequip_list}
     if in_global:
         return_dict['name_ja'] = jp_patch_table['patchChars'][id]['name']
         return_dict['name_en'] = en_patch_table['patchChars'][id]['name']
-        return_dict['desc_ja'] = jp_patch_table['patchChars'][id]['description']
-        return_dict['desc_en'] = en_patch_table['patchChars'][id]['description']
+        return_dict['desc_ja'] = jp_patch_table['patchChars'][id]['description'].replace("<$ba","<ba")
+        return_dict['desc_en'] = en_patch_table['patchChars'][id]['description'].replace("<$ba","<ba")
     data.append(return_dict)
-
 
 with open('characters.json', 'w', encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False, indent=4)
@@ -238,19 +261,19 @@ with open('characters.json', 'w', encoding='utf-8') as f:
                 maxed_talent = talent['candidates'][max_candidate_index]
                 talent_holder = {
                     "prefabKey": maxed_talent["prefabKey"], "name_zh": maxed_talent["name"], "name_en": "", "name_ja": "",
-                    "description_zh": maxed_talent["description"], "description_en": "", "description_ja": "", "tags": [], "blackboard": maxed_talent['blackboard']}
+                    "desc_zh": maxed_talent["description"], "desc_ja": "", "desc_en": "", "tags": [], "blackboard": maxed_talent['blackboard']}
                 if id in en_char_table:
                     talent_holder["name_ja"] = jp_char_table[id]['talents'][talent_index]['candidates'][max_candidate_index]["name"]
-                    talent_holder["description_ja"] = jp_char_table[id]['talents'][
+                    talent_holder["desc_ja"] = jp_char_table[id]['talents'][
                         talent_index]['candidates'][max_candidate_index]["description"]
                     talent_holder["name_en"] = en_char_table[id]['talents'][talent_index]['candidates'][max_candidate_index]["name"]
-                    talent_holder["description_en"] = en_char_table[id]['talents'][
+                    talent_holder["desc_en"] = en_char_table[id]['talents'][
                         talent_index]['candidates'][max_candidate_index]["description"]
                 talents.append(talent_holder)
         return_dict[id] = {
             "appellation": filtered_cn_char_table[id]['appellation'], "talents": talents}
-    
-    #char patch table
+
+    # char patch table
     new_chara_list = [id for id in dict.keys(
         cn_patch_table['patchChars']) if id not in set(dict.keys(chara_talents))]
     for id in new_chara_list:
@@ -261,13 +284,15 @@ with open('characters.json', 'w', encoding='utf-8') as f:
                 maxed_talent = talent['candidates'][max_candidate_index]
                 talent_holder = {
                     "prefabKey": maxed_talent["prefabKey"], "name_zh": maxed_talent["name"], "name_en": "", "name_ja": "",
-                    "description_zh": maxed_talent["description"], "description_en": "", "description_ja": "", "tags": [], "blackboard": maxed_talent['blackboard']}
+                    "desc_zh": maxed_talent["description"], "desc_ja": "", "desc_en": "", "tags": [], "blackboard": maxed_talent['blackboard']}
                 if id in en_patch_table['patchChars']:
-                    talent_holder["name_ja"] = jp_patch_table['patchChars'][id]['talents'][talent_index]['candidates'][max_candidate_index]["name"]
-                    talent_holder["description_ja"] = jp_patch_table['patchChars'][id]['talents'][
+                    talent_holder["name_ja"] = jp_patch_table['patchChars'][id][
+                        'talents'][talent_index]['candidates'][max_candidate_index]["name"]
+                    talent_holder["desc_ja"] = jp_patch_table['patchChars'][id]['talents'][
                         talent_index]['candidates'][max_candidate_index]["description"]
-                    talent_holder["name_en"] = en_patch_table['patchChars'][id]['talents'][talent_index]['candidates'][max_candidate_index]["name"]
-                    talent_holder["description_en"] = en_patch_table['patchChars'][id]['talents'][
+                    talent_holder["name_en"] = en_patch_table['patchChars'][id][
+                        'talents'][talent_index]['candidates'][max_candidate_index]["name"]
+                    talent_holder["desc_en"] = en_patch_table['patchChars'][id]['talents'][
                         talent_index]['candidates'][max_candidate_index]["description"]
                 talents.append(talent_holder)
         return_dict[id] = {
@@ -277,6 +302,7 @@ with open('characters.json', 'w', encoding='utf-8') as f:
 with open('chara_talents.json', 'w', encoding='utf-8') as f:
     json.dump(return_dict, f, ensure_ascii=False, indent=4)
 
+print(subProfessionIds)
 
 # schema has to take care of the following requirements:
 # can affect air? target ground? enemy types

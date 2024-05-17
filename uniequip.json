@@ -64,9 +64,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 1,
-              "upgradeDesc_zh": "部署后<$ba.invisible>隐匿</>25<@ba.talpu>（+2）</>秒",
-              "upgradeDesc_en": "<$ba.invisible>Invisible</> for 25 <@ba.talpu>(+2)</> seconds after deployment",
-              "upgradeDesc_ja": "配置後25<@ba.talpu>（+2）</>秒間<$ba.invisible>ステルス</>状態になる"
+              "upgradeDesc_zh": "部署后<ba.invisible>隐匿</>25<@ba.talpu>（+2）</>秒",
+              "upgradeDesc_en": "<ba.invisible>Invisible</> for 25 <@ba.talpu>(+2)</> seconds after deployment",
+              "upgradeDesc_ja": "配置後25<@ba.talpu>（+2）</>秒間<ba.invisible>ステルス</>状態になる"
             },
             {
               "resKey": "mgllan_equip_1_2_p2",
@@ -126,9 +126,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 1,
-              "upgradeDesc_zh": "部署后<$ba.invisible>隐匿</>28<@ba.talpu>（+2）</>秒",
-              "upgradeDesc_en": "<$ba.invisible>Invisible</> for 28 <@ba.talpu>(+2)</> seconds after deployment",
-              "upgradeDesc_ja": "配置後28<@ba.talpu>（+2）</>秒間<$ba.invisible>ステルス</>状態になる"
+              "upgradeDesc_zh": "部署后<ba.invisible>隐匿</>28<@ba.talpu>（+2）</>秒",
+              "upgradeDesc_en": "<ba.invisible>Invisible</> for 28 <@ba.talpu>(+2)</> seconds after deployment",
+              "upgradeDesc_ja": "配置後28<@ba.talpu>（+2）</>秒間<ba.invisible>ステルス</>状態になる"
             },
             {
               "resKey": "mgllan_equip_1_3_p2",
@@ -497,9 +497,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "可以使用5个移动摄影车。摄影车周围8格内敌人的<$ba.invisible>隐匿</>效果失效且移动速度-5%",
-              "upgradeDesc_en": "Can summon 5 Buggy Cams; Buggy Cams will reveal <$ba.invisible>Invisible</> enemies within the surrounding 8 tiles and inflict -5% Movement Speed",
-              "upgradeDesc_ja": "「撮影ロボット」を5体配置可能。撮影ロボットの周囲8マスにいる敵全員の<$ba.invisible>ステルス</>状態を無効かつ移動速度-5%にする"
+              "upgradeDesc_zh": "可以使用5个移动摄影车。摄影车周围8格内敌人的<ba.invisible>隐匿</>效果失效且移动速度-5%",
+              "upgradeDesc_en": "Can summon 5 Buggy Cams; Buggy Cams will reveal <ba.invisible>Invisible</> enemies within the surrounding 8 tiles and inflict -5% Movement Speed",
+              "upgradeDesc_ja": "「撮影ロボット」を5体配置可能。撮影ロボットの周囲8マスにいる敵全員の<ba.invisible>ステルス</>状態を無効かつ移動速度-5%にする"
             },
             {
               "resKey": null,
@@ -547,9 +547,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "可以使用5个移动摄影车。摄影车周围8格内敌人的<$ba.invisible>隐匿</>效果失效且移动速度-8%",
-              "upgradeDesc_en": "Can summon 5 Buggy Cams; Buggy Cams will reveal <$ba.invisible>Invisible</> enemies within the surrounding 8 tiles and inflict -8% Movement Speed",
-              "upgradeDesc_ja": "「撮影ロボット」を5体配置可能。撮影ロボットの周囲8マスにいる敵全員の<$ba.invisible>ステルス</>状態を無効かつ移動速度-8%にする"
+              "upgradeDesc_zh": "可以使用5个移动摄影车。摄影车周围8格内敌人的<ba.invisible>隐匿</>效果失效且移动速度-8%",
+              "upgradeDesc_en": "Can summon 5 Buggy Cams; Buggy Cams will reveal <ba.invisible>Invisible</> enemies within the surrounding 8 tiles and inflict -8% Movement Speed",
+              "upgradeDesc_ja": "「撮影ロボット」を5体配置可能。撮影ロボットの周囲8マスにいる敵全員の<ba.invisible>ステルス</>状態を無効かつ移動速度-8%にする"
             },
             {
               "resKey": null,
@@ -992,9 +992,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "在场时，所有【米诺斯】干员生命值高于50%时获得+27%攻击力的<$ba.strong>精力充沛</>",
-              "upgradeDesc_en": "When deployed, all [Minos] Operators gain <$ba.strong>Vigor</> effect of +27% ATK when HP is above 50%",
-              "upgradeDesc_ja": "配置中、味方【ミノス】にHPが最大値の50%以上で攻撃力+27%の<$ba.strong>勇猛</>状態を付与する"
+              "upgradeDesc_zh": "在场时，所有【米诺斯】干员生命值高于50%时获得+27%攻击力的<ba.strong>精力充沛</>",
+              "upgradeDesc_en": "When deployed, all [Minos] Operators gain <ba.strong>Vigor</> effect of +27% ATK when HP is above 50%",
+              "upgradeDesc_ja": "配置中、味方【ミノス】にHPが最大値の50%以上で攻撃力+27%の<ba.strong>勇猛</>状態を付与する"
             }
           ],
           "attributeBlackboard": [
@@ -1030,9 +1030,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "在场时，所有【米诺斯】干员生命值高于50%时获得+30%攻击力的<$ba.strong>精力充沛</>",
-              "upgradeDesc_en": "When deployed, all [Minos] Operators gain <$ba.strong>Vigor</> effect of +30% ATK when HP is above 50%",
-              "upgradeDesc_ja": "配置中、味方【ミノス】にHPが最大値の50%以上で攻撃力+30%の<$ba.strong>勇猛</>状態を付与する"
+              "upgradeDesc_zh": "在场时，所有【米诺斯】干员生命值高于50%时获得+30%攻击力的<ba.strong>精力充沛</>",
+              "upgradeDesc_en": "When deployed, all [Minos] Operators gain <ba.strong>Vigor</> effect of +30% ATK when HP is above 50%",
+              "upgradeDesc_ja": "配置中、味方【ミノス】にHPが最大値の50%以上で攻撃力+30%の<ba.strong>勇猛</>状態を付与する"
             }
           ],
           "attributeBlackboard": [
@@ -1115,9 +1115,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": -1,
-              "upgradeDesc_zh": "部署后，使场上阻挡数大于等于3的友方近战单位获得1层<$ba.physhield>物理护盾</>",
-              "upgradeDesc_en": "On deployment, all Melee allies with 3 or more Block gain 1 <$ba.physhield>Physical Shield</>",
-              "upgradeDesc_ja": "配置後、ブロック数が3以上の味方近距離ユニットに<$ba.physhield>対物理シールド</>を1枚付与"
+              "upgradeDesc_zh": "部署后，使场上阻挡数大于等于3的友方近战单位获得1层<ba.physhield>物理护盾</>",
+              "upgradeDesc_en": "On deployment, all Melee allies with 3 or more Block gain 1 <ba.physhield>Physical Shield</>",
+              "upgradeDesc_ja": "配置後、ブロック数が3以上の味方近距離ユニットに<ba.physhield>対物理シールド</>を1枚付与"
             }
           ],
           "attributeBlackboard": [
@@ -1153,9 +1153,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": -1,
-              "upgradeDesc_zh": "部署后，使场上阻挡数大于等于3的友方近战单位获得1层<$ba.physhield>物理护盾</>，【卡西米尔】阵营干员额外再获得1层",
-              "upgradeDesc_en": "On deployment, all Melee allies with 3 or more Block gain 1 <$ba.physhield>Physical Shield</>; [Kazimierz] Operators gain 1 additional stack",
-              "upgradeDesc_ja": "配置後、ブロック数が3以上の味方近距離ユニットに<$ba.physhield>対物理シールド</>を1枚付与、味方【カジミエーシュ】には追加でさらに1枚付与"
+              "upgradeDesc_zh": "部署后，使场上阻挡数大于等于3的友方近战单位获得1层<ba.physhield>物理护盾</>，【卡西米尔】阵营干员额外再获得1层",
+              "upgradeDesc_en": "On deployment, all Melee allies with 3 or more Block gain 1 <ba.physhield>Physical Shield</>; [Kazimierz] Operators gain 1 additional stack",
+              "upgradeDesc_ja": "配置後、ブロック数が3以上の味方近距離ユニットに<ba.physhield>対物理シールド</>を1枚付与、味方【カジミエーシュ】には追加でさらに1枚付与"
             }
           ],
           "attributeBlackboard": [
@@ -1711,9 +1711,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "技能开启时，所有【医疗】和【辅助】干员生命上限+10%并获得<$ba.buffres>抵抗</>",
-              "upgradeDesc_en": "When this unit's skill is active, all Medic and Supporter Operators gain +10% Max HP and <$ba.buffres>status resistance</>",
-              "upgradeDesc_ja": "スキル発動中、味方【医療】・【補助】が最大HP+10%、<$ba.buffres>レジスト</>状態を獲得"
+              "upgradeDesc_zh": "技能开启时，所有【医疗】和【辅助】干员生命上限+10%并获得<ba.buffres>抵抗</>",
+              "upgradeDesc_en": "When this unit's skill is active, all Medic and Supporter Operators gain +10% Max HP and <ba.buffres>status resistance</>",
+              "upgradeDesc_ja": "スキル発動中、味方【医療】・【補助】が最大HP+10%、<ba.buffres>レジスト</>状態を獲得"
             }
           ],
           "attributeBlackboard": [
@@ -1761,9 +1761,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "技能开启时，所有【医疗】和【辅助】干员生命上限+15%并获得<$ba.buffres>抵抗</>",
-              "upgradeDesc_en": "When this unit's skill is active, all Medic and Supporter Operators gain +15% Max HP and <$ba.buffres>status resistance</>",
-              "upgradeDesc_ja": "スキル発動中、味方【医療】、【補助】が最大HP+15%、<$ba.buffres>レジスト</>状態を獲得"
+              "upgradeDesc_zh": "技能开启时，所有【医疗】和【辅助】干员生命上限+15%并获得<ba.buffres>抵抗</>",
+              "upgradeDesc_en": "When this unit's skill is active, all Medic and Supporter Operators gain +15% Max HP and <ba.buffres>status resistance</>",
+              "upgradeDesc_ja": "スキル発動中、味方【医療】、【補助】が最大HP+15%、<ba.buffres>レジスト</>状態を獲得"
             }
           ],
           "attributeBlackboard": [
@@ -2825,9 +2825,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "被动技能触发期间攻击力+25%<@ba.talpu>（+3%）</>，阻挡数降至0且获得<$ba.camou>迷彩</>",
-              "upgradeDesc_en": "When skill is active, ATK +25% <@ba.talpu>(+3%)</>, Block becomes 0 and gain <$ba.camou>Camouflage</>",
-              "upgradeDesc_ja": "パッシブスキルの効果期間中攻撃力+25%<@ba.talpu>（+3%）</>、ブロック数が0になり、<$ba.camou>迷彩</>状態になる"
+              "upgradeDesc_zh": "被动技能触发期间攻击力+25%<@ba.talpu>（+3%）</>，阻挡数降至0且获得<ba.camou>迷彩</>",
+              "upgradeDesc_en": "When skill is active, ATK +25% <@ba.talpu>(+3%)</>, Block becomes 0 and gain <ba.camou>Camouflage</>",
+              "upgradeDesc_ja": "パッシブスキルの効果期間中攻撃力+25%<@ba.talpu>（+3%）</>、ブロック数が0になり、<ba.camou>迷彩</>状態になる"
             }
           ],
           "attributeBlackboard": [
@@ -2863,9 +2863,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "被动技能触发期间攻击力+28%<@ba.talpu>（+3%）</>，阻挡数降至0且获得<$ba.camou>迷彩</>",
-              "upgradeDesc_en": "When skill is active, ATK +28% <@ba.talpu>(+3%)</>, Block becomes 0 and gain <$ba.camou>Camouflage</>",
-              "upgradeDesc_ja": "パッシブスキルの効果期間中攻撃力+28%<@ba.talpu>（+3%）</>、ブロック数が0になり、<$ba.camou>迷彩</>状態になる"
+              "upgradeDesc_zh": "被动技能触发期间攻击力+28%<@ba.talpu>（+3%）</>，阻挡数降至0且获得<ba.camou>迷彩</>",
+              "upgradeDesc_en": "When skill is active, ATK +28% <@ba.talpu>(+3%)</>, Block becomes 0 and gain <ba.camou>Camouflage</>",
+              "upgradeDesc_ja": "パッシブスキルの効果期間中攻撃力+28%<@ba.talpu>（+3%）</>、ブロック数が0になり、<ba.camou>迷彩</>状態になる"
             }
           ],
           "attributeBlackboard": [
@@ -3275,9 +3275,9 @@
               "addDesc_zh": null,
               "addDesc_en": null,
               "addDesc_ja": null,
-              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>4</>个敌人间跳跃，每次跳跃伤害降低<@ba.kw>10%</>并造成一定时间<$ba.sluggish>停顿</>",
-              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>4</> enemies. Each jump deals <@ba.kw>10%</> less damage and inflicts a short <$ba.sluggish>Slow</>",
-              "overrideDesc_ja": "<@ba.kw>4</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>10%</>減衰し、敵を一定時間<$ba.sluggish>足止め</>"
+              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>4</>个敌人间跳跃，每次跳跃伤害降低<@ba.kw>10%</>并造成一定时间<ba.sluggish>停顿</>",
+              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>4</> enemies. Each jump deals <@ba.kw>10%</> less damage and inflicts a short <ba.sluggish>Slow</>",
+              "overrideDesc_ja": "<@ba.kw>4</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>10%</>減衰し、敵を一定時間<ba.sluggish>足止め</>"
             }
           ],
           "attributeBlackboard": [
@@ -3301,9 +3301,9 @@
               "addDesc_zh": null,
               "addDesc_en": null,
               "addDesc_ja": null,
-              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>4</>个敌人间跳跃，每次跳跃伤害降低<@ba.kw>10%</>并造成一定时间<$ba.sluggish>停顿</>",
-              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>4</> enemies. Each jump deals <@ba.kw>10%</> less damage and inflicts a short <$ba.sluggish>Slow</>",
-              "overrideDesc_ja": "<@ba.kw>4</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>10%</>減衰し、敵を一定時間<$ba.sluggish>足止め</>"
+              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>4</>个敌人间跳跃，每次跳跃伤害降低<@ba.kw>10%</>并造成一定时间<ba.sluggish>停顿</>",
+              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>4</> enemies. Each jump deals <@ba.kw>10%</> less damage and inflicts a short <ba.sluggish>Slow</>",
+              "overrideDesc_ja": "<@ba.kw>4</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>10%</>減衰し、敵を一定時間<ba.sluggish>足止め</>"
             },
             {
               "resKey": "pasngr_equip_1_2_p1",
@@ -3339,9 +3339,9 @@
               "addDesc_zh": null,
               "addDesc_en": null,
               "addDesc_ja": null,
-              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>4</>个敌人间跳跃，每次跳跃伤害降低<@ba.kw>10%</>并造成一定时间<$ba.sluggish>停顿</>",
-              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>4</> enemies. Each jump deals <@ba.kw>10%</> less damage and inflicts a short <$ba.sluggish>Slow</>",
-              "overrideDesc_ja": "<@ba.kw>4</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>10%</>減衰し、敵を一定時間<$ba.sluggish>足止め</>"
+              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>4</>个敌人间跳跃，每次跳跃伤害降低<@ba.kw>10%</>并造成一定时间<ba.sluggish>停顿</>",
+              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>4</> enemies. Each jump deals <@ba.kw>10%</> less damage and inflicts a short <ba.sluggish>Slow</>",
+              "overrideDesc_ja": "<@ba.kw>4</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>10%</>減衰し、敵を一定時間<ba.sluggish>足止め</>"
             },
             {
               "resKey": "pasngr_equip_1_3_p1",
@@ -3421,9 +3421,9 @@
               "addDesc_zh": null,
               "addDesc_en": null,
               "addDesc_ja": null,
-              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>4</>个敌人间跳跃，每次跳跃伤害降低<@ba.kw>10%</>并造成一定时间<$ba.sluggish>停顿</>",
-              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>4</> enemies. Each jump deals <@ba.kw>10%</> less damage and inflicts a short <$ba.sluggish>Slow</>",
-              "overrideDesc_ja": "<@ba.kw>4</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>10%</>減衰し、敵を一定時間<$ba.sluggish>足止め</>"
+              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>4</>个敌人间跳跃，每次跳跃伤害降低<@ba.kw>10%</>并造成一定时间<ba.sluggish>停顿</>",
+              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>4</> enemies. Each jump deals <@ba.kw>10%</> less damage and inflicts a short <ba.sluggish>Slow</>",
+              "overrideDesc_ja": "<@ba.kw>4</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>10%</>減衰し、敵を一定時間<ba.sluggish>足止め</>"
             }
           ],
           "attributeBlackboard": [
@@ -3447,9 +3447,9 @@
               "addDesc_zh": null,
               "addDesc_en": null,
               "addDesc_ja": null,
-              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>4</>个敌人间跳跃，每次跳跃伤害降低<@ba.kw>10%</>并造成一定时间<$ba.sluggish>停顿</>",
-              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>4</> enemies. Each jump deals <@ba.kw>10%</> less damage and inflicts a short <$ba.sluggish>Slow</>",
-              "overrideDesc_ja": "<@ba.kw>4</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>10%</>減衰し、敵を一定時間<$ba.sluggish>足止め</>"
+              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>4</>个敌人间跳跃，每次跳跃伤害降低<@ba.kw>10%</>并造成一定时间<ba.sluggish>停顿</>",
+              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>4</> enemies. Each jump deals <@ba.kw>10%</> less damage and inflicts a short <ba.sluggish>Slow</>",
+              "overrideDesc_ja": "<@ba.kw>4</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>10%</>減衰し、敵を一定時間<ba.sluggish>足止め</>"
             },
             {
               "resKey": null,
@@ -3497,9 +3497,9 @@
               "addDesc_zh": null,
               "addDesc_en": null,
               "addDesc_ja": null,
-              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>4</>个敌人间跳跃，每次跳跃伤害降低<@ba.kw>10%</>并造成一定时间<$ba.sluggish>停顿</>",
-              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>4</> enemies. Each jump deals <@ba.kw>10%</> less damage and inflicts a short <$ba.sluggish>Slow</>",
-              "overrideDesc_ja": "<@ba.kw>4</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>10%</>減衰し、敵を一定時間<$ba.sluggish>足止め</>"
+              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>4</>个敌人间跳跃，每次跳跃伤害降低<@ba.kw>10%</>并造成一定时间<ba.sluggish>停顿</>",
+              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>4</> enemies. Each jump deals <@ba.kw>10%</> less damage and inflicts a short <ba.sluggish>Slow</>",
+              "overrideDesc_ja": "<@ba.kw>4</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>10%</>減衰し、敵を一定時間<ba.sluggish>足止め</>"
             },
             {
               "resKey": null,
@@ -3583,9 +3583,9 @@
               "addDesc_zh": null,
               "addDesc_en": null,
               "addDesc_ja": null,
-              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>4</>个敌人间跳跃，每次跳跃伤害<@ba.kw>不再降低</>并造成短暂的<$ba.sluggish>停顿</>",
-              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>4</> enemies. Each jump <@ba.kw>no longer deals less damage</> and inflicts a brief <$ba.sluggish>Slow</>",
-              "overrideDesc_ja": "<@ba.kw>4</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>減衰しなくなり</>、敵を一瞬<$ba.sluggish>足止め</>"
+              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>4</>个敌人间跳跃，每次跳跃伤害<@ba.kw>不再降低</>并造成短暂的<ba.sluggish>停顿</>",
+              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>4</> enemies. Each jump <@ba.kw>no longer deals less damage</> and inflicts a brief <ba.sluggish>Slow</>",
+              "overrideDesc_ja": "<@ba.kw>4</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>減衰しなくなり</>、敵を一瞬<ba.sluggish>足止め</>"
             }
           ],
           "attributeBlackboard": [
@@ -3609,9 +3609,9 @@
               "addDesc_zh": null,
               "addDesc_en": null,
               "addDesc_ja": null,
-              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>4</>个敌人间跳跃，每次跳跃伤害<@ba.kw>不再降低</>并造成短暂的<$ba.sluggish>停顿</>",
-              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>4</> enemies. Each jump <@ba.kw>no longer deals less damage</> and inflicts a brief <$ba.sluggish>Slow</>",
-              "overrideDesc_ja": "<@ba.kw>4</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>減衰しなくなり</>、敵を一瞬<$ba.sluggish>足止め</>"
+              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>4</>个敌人间跳跃，每次跳跃伤害<@ba.kw>不再降低</>并造成短暂的<ba.sluggish>停顿</>",
+              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>4</> enemies. Each jump <@ba.kw>no longer deals less damage</> and inflicts a brief <ba.sluggish>Slow</>",
+              "overrideDesc_ja": "<@ba.kw>4</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>減衰しなくなり</>、敵を一瞬<ba.sluggish>足止め</>"
             },
             {
               "resKey": null,
@@ -3647,9 +3647,9 @@
               "addDesc_zh": null,
               "addDesc_en": null,
               "addDesc_ja": null,
-              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>4</>个敌人间跳跃，每次跳跃伤害<@ba.kw>不再降低</>并造成短暂的<$ba.sluggish>停顿</>",
-              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>4</> enemies. Each jump <@ba.kw>no longer deals less damage</> and inflicts a brief <$ba.sluggish>Slow</>",
-              "overrideDesc_ja": "<@ba.kw>4</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>減衰しなくなり</>、敵を一瞬<$ba.sluggish>足止め</>"
+              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>4</>个敌人间跳跃，每次跳跃伤害<@ba.kw>不再降低</>并造成短暂的<ba.sluggish>停顿</>",
+              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>4</> enemies. Each jump <@ba.kw>no longer deals less damage</> and inflicts a brief <ba.sluggish>Slow</>",
+              "overrideDesc_ja": "<@ba.kw>4</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>減衰しなくなり</>、敵を一瞬<ba.sluggish>足止め</>"
             },
             {
               "resKey": null,
@@ -5733,9 +5733,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "部署费用-6，再部署时间-25秒，但部署后<$ba.stun>晕眩</>10秒",
-              "upgradeDesc_en": "DP Cost -6, Redeployment Time -25 seconds. This unit is <$ba.stun>Stunned</> for 10 seconds upon deployment.",
-              "upgradeDesc_ja": "自身の配置コスト-6、再配置時間-25秒、配置後10秒間<$ba.stun>スタン</>状態になる"
+              "upgradeDesc_zh": "部署费用-6，再部署时间-25秒，但部署后<ba.stun>晕眩</>10秒",
+              "upgradeDesc_en": "DP Cost -6, Redeployment Time -25 seconds. This unit is <ba.stun>Stunned</> for 10 seconds upon deployment.",
+              "upgradeDesc_ja": "自身の配置コスト-6、再配置時間-25秒、配置後10秒間<ba.stun>スタン</>状態になる"
             }
           ],
           "attributeBlackboard": [
@@ -5771,9 +5771,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "部署费用-8，再部署时间-30秒，但部署后<$ba.stun>晕眩</>10秒",
-              "upgradeDesc_en": "DP Cost -8, Redeployment Time -30 seconds. This unit is <$ba.stun>Stunned</> for 10 seconds upon deployment.",
-              "upgradeDesc_ja": "自身の配置コスト-8、再配置時間-30秒、配置後10秒間<$ba.stun>スタン</>状態になる"
+              "upgradeDesc_zh": "部署费用-8，再部署时间-30秒，但部署后<ba.stun>晕眩</>10秒",
+              "upgradeDesc_en": "DP Cost -8, Redeployment Time -30 seconds. This unit is <ba.stun>Stunned</> for 10 seconds upon deployment.",
+              "upgradeDesc_ja": "自身の配置コスト-8、再配置時間-30秒、配置後10秒間<ba.stun>スタン</>状態になる"
             }
           ],
           "attributeBlackboard": [
@@ -6001,9 +6001,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "如果4秒内没有主动攻击过，下一次攻击的攻击力提升至170%<@ba.talpu>（+5%）</>并<$ba.stun>晕眩</>目标5秒",
-              "upgradeDesc_en": "After not attacking for 4 seconds, increase the ATK of the next attack to 170% <@ba.talpu>(+5%)</> and <$ba.stun>Stun</> the target for 5 seconds",
-              "upgradeDesc_ja": "4秒間通常攻撃せずにいると、次の通常攻撃時、攻撃力が170%<@ba.talpu>（+5%）</>まで上昇し、敵を5秒間<$ba.stun>スタン</>させる"
+              "upgradeDesc_zh": "如果4秒内没有主动攻击过，下一次攻击的攻击力提升至170%<@ba.talpu>（+5%）</>并<ba.stun>晕眩</>目标5秒",
+              "upgradeDesc_en": "After not attacking for 4 seconds, increase the ATK of the next attack to 170% <@ba.talpu>(+5%)</> and <ba.stun>Stun</> the target for 5 seconds",
+              "upgradeDesc_ja": "4秒間通常攻撃せずにいると、次の通常攻撃時、攻撃力が170%<@ba.talpu>（+5%）</>まで上昇し、敵を5秒間<ba.stun>スタン</>させる"
             }
           ],
           "attributeBlackboard": [
@@ -6039,9 +6039,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "如果3秒内没有主动攻击过，下一次攻击的攻击力提升至180%<@ba.talpu>（+5%）</>并<$ba.stun>晕眩</>目标5秒",
-              "upgradeDesc_en": "After not attacking for 3 seconds, increase the ATK of the next attack to 180% <@ba.talpu>(+5%)</> and <$ba.stun>Stun</> the target for 5 seconds",
-              "upgradeDesc_ja": "3秒間通常攻撃せずにいると、次の通常攻撃時、攻撃力が180%<@ba.talpu>（+5%）</>まで上昇し、敵を5秒間<$ba.stun>スタン</>させる"
+              "upgradeDesc_zh": "如果3秒内没有主动攻击过，下一次攻击的攻击力提升至180%<@ba.talpu>（+5%）</>并<ba.stun>晕眩</>目标5秒",
+              "upgradeDesc_en": "After not attacking for 3 seconds, increase the ATK of the next attack to 180% <@ba.talpu>(+5%)</> and <ba.stun>Stun</> the target for 5 seconds",
+              "upgradeDesc_ja": "3秒間通常攻撃せずにいると、次の通常攻撃時、攻撃力が180%<@ba.talpu>（+5%）</>まで上昇し、敵を5秒間<ba.stun>スタン</>させる"
             }
           ],
           "attributeBlackboard": [
@@ -6261,9 +6261,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 1,
-              "upgradeDesc_zh": "特性消耗费用时，若费用足够则改为消耗5费用，抵消自身受到的下一次<$ba.stun>晕眩</>/<$ba.frozen>冻结</>，并使攻击来源晕眩4秒",
-              "upgradeDesc_en": "When DP is consumed by this unit's Trait, if there is sufficient DP, consumes 5 DP instead to block the next <$ba.stun>Stun</>/<$ba.frozen>Freeze</> effect inflicted on this unit, and stuns the attacker for 4 seconds",
-              "upgradeDesc_ja": "特性によるコスト消費時、所持コストが5以上の場合、代わりにコストを5消費して、自身が次に受ける<$ba.stun>スタン</>/<$ba.frozen>凍結</>の効果を打ち消し、その効果を付与した対象を4秒間スタンさせる（効果中及び消費分のコスト不足時は発動しない）"
+              "upgradeDesc_zh": "特性消耗费用时，若费用足够则改为消耗5费用，抵消自身受到的下一次<ba.stun>晕眩</>/<ba.frozen>冻结</>，并使攻击来源晕眩4秒",
+              "upgradeDesc_en": "When DP is consumed by this unit's Trait, if there is sufficient DP, consumes 5 DP instead to block the next <ba.stun>Stun</>/<ba.frozen>Freeze</> effect inflicted on this unit, and stuns the attacker for 4 seconds",
+              "upgradeDesc_ja": "特性によるコスト消費時、所持コストが5以上の場合、代わりにコストを5消費して、自身が次に受ける<ba.stun>スタン</>/<ba.frozen>凍結</>の効果を打ち消し、その効果を付与した対象を4秒間スタンさせる（効果中及び消費分のコスト不足時は発動しない）"
             }
           ],
           "attributeBlackboard": [
@@ -6299,9 +6299,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 1,
-              "upgradeDesc_zh": "特性消耗费用时，若费用足够则改为消耗4费用，抵消自身受到的下一次<$ba.stun>晕眩</>/<$ba.frozen>冻结</>，并使攻击来源晕眩4秒",
-              "upgradeDesc_en": "When DP is consumed by this unit's Trait, if there is sufficient DP, consumes 4 DP instead to block the next <$ba.stun>Stun</>/<$ba.frozen>Freeze</> effect inflicted on this unit, and stuns the attacker for 4 seconds",
-              "upgradeDesc_ja": "特性によるコスト消費時、所持コストが4以上の場合、代わりにコストを4消費して、自身が次に受ける<$ba.stun>スタン</>/<$ba.frozen>凍結</>の効果を打ち消し、その効果を付与した対象を4秒間スタンさせる（効果中及び消費分のコスト不足時は発動しない）"
+              "upgradeDesc_zh": "特性消耗费用时，若费用足够则改为消耗4费用，抵消自身受到的下一次<ba.stun>晕眩</>/<ba.frozen>冻结</>，并使攻击来源晕眩4秒",
+              "upgradeDesc_en": "When DP is consumed by this unit's Trait, if there is sufficient DP, consumes 4 DP instead to block the next <ba.stun>Stun</>/<ba.frozen>Freeze</> effect inflicted on this unit, and stuns the attacker for 4 seconds",
+              "upgradeDesc_ja": "特性によるコスト消費時、所持コストが4以上の場合、代わりにコストを4消費して、自身が次に受ける<ba.stun>スタン</>/<ba.frozen>凍結</>の効果を打ち消し、その効果を付与した対象を4秒間スタンさせる（効果中及び消費分のコスト不足時は発動しない）"
             }
           ],
           "attributeBlackboard": [
@@ -6414,9 +6414,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 1,
-              "upgradeDesc_zh": "攻击范围内的敌人在被<$ba.stun>晕眩</>时受到的物理伤害+24%<@ba.talpu>（+3%）</>，击倒敌人时获得1点技力",
-              "upgradeDesc_en": "Enemies in range take +24% <@ba.talpu>(+3%)</> Physical damage when <$ba.stun>Stunned</>. Recover 1 SP when defeating an enemy",
-              "upgradeDesc_ja": "攻撃範囲内の<$ba.stun>スタン</>状態の敵が受ける物理ダメージ+24%<@ba.talpu>（+3%）</>、敵を倒す度SP+1"
+              "upgradeDesc_zh": "攻击范围内的敌人在被<ba.stun>晕眩</>时受到的物理伤害+24%<@ba.talpu>（+3%）</>，击倒敌人时获得1点技力",
+              "upgradeDesc_en": "Enemies in range take +24% <@ba.talpu>(+3%)</> Physical damage when <ba.stun>Stunned</>. Recover 1 SP when defeating an enemy",
+              "upgradeDesc_ja": "攻撃範囲内の<ba.stun>スタン</>状態の敵が受ける物理ダメージ+24%<@ba.talpu>（+3%）</>、敵を倒す度SP+1"
             },
             {
               "resKey": "token_cqbw_equip_1_2_p2",
@@ -6475,9 +6475,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 1,
-              "upgradeDesc_zh": "攻击范围内的敌人在被<$ba.stun>晕眩</>时受到的物理伤害+27%<@ba.talpu>（+3%）</>，击倒敌人时获得1点技力",
-              "upgradeDesc_en": "Enemies in range take +27% <@ba.talpu>(+3%)</> Physical damage when <$ba.stun>Stunned</>. Recover 1 SP when defeating an enemy",
-              "upgradeDesc_ja": "攻撃範囲内の<$ba.stun>スタン</>状態の敵が受ける物理ダメージ+27%<@ba.talpu>（+3%）</>、敵を倒す度SP+1"
+              "upgradeDesc_zh": "攻击范围内的敌人在被<ba.stun>晕眩</>时受到的物理伤害+27%<@ba.talpu>（+3%）</>，击倒敌人时获得1点技力",
+              "upgradeDesc_en": "Enemies in range take +27% <@ba.talpu>(+3%)</> Physical damage when <ba.stun>Stunned</>. Recover 1 SP when defeating an enemy",
+              "upgradeDesc_ja": "攻撃範囲内の<ba.stun>スタン</>状態の敵が受ける物理ダメージ+27%<@ba.talpu>（+3%）</>、敵を倒す度SP+1"
             },
             {
               "resKey": "token_cqbw_equip_1_3_p2",
@@ -7991,9 +7991,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "攻击时对攻击目标造成0.8秒的<$ba.sluggish>停顿</>",
-              "upgradeDesc_en": "<$ba.sluggish>Slows</> the target for 0.8 seconds when attacking",
-              "upgradeDesc_ja": "敵を攻撃時、0.8秒間<$ba.sluggish>足止め</>する"
+              "upgradeDesc_zh": "攻击时对攻击目标造成0.8秒的<ba.sluggish>停顿</>",
+              "upgradeDesc_en": "<ba.sluggish>Slows</> the target for 0.8 seconds when attacking",
+              "upgradeDesc_ja": "敵を攻撃時、0.8秒間<ba.sluggish>足止め</>する"
             }
           ],
           "attributeBlackboard": [
@@ -8033,9 +8033,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "攻击时对攻击目标造成1秒的<$ba.sluggish>停顿</>",
-              "upgradeDesc_en": "<$ba.sluggish>Slows</> the target for 1 second when attacking",
-              "upgradeDesc_ja": "敵を攻撃時、1秒間<$ba.sluggish>足止め</>する"
+              "upgradeDesc_zh": "攻击时对攻击目标造成1秒的<ba.sluggish>停顿</>",
+              "upgradeDesc_en": "<ba.sluggish>Slows</> the target for 1 second when attacking",
+              "upgradeDesc_ja": "敵を攻撃時、1秒間<ba.sluggish>足止め</>する"
             }
           ],
           "attributeBlackboard": [
@@ -8644,9 +8644,9 @@
               "addDesc_zh": null,
               "addDesc_en": null,
               "addDesc_ja": null,
-              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长</>的<$ba.sluggish>停顿</>",
-              "overrideDesc_en": "Attacks deal <@ba.kw>Arts damage</>, and <$ba.sluggish>Slow</> the enemy for a <@ba.kw>moderate</> period of time",
-              "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与え\n攻撃時、敵を<@ba.kw>やや長い間</><$ba.sluggish>足止め</>"
+              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长</>的<ba.sluggish>停顿</>",
+              "overrideDesc_en": "Attacks deal <@ba.kw>Arts damage</>, and <ba.sluggish>Slow</> the enemy for a <@ba.kw>moderate</> period of time",
+              "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与え\n攻撃時、敵を<@ba.kw>やや長い間</><ba.sluggish>足止め</>"
             }
           ],
           "attributeBlackboard": [
@@ -8670,9 +8670,9 @@
               "addDesc_zh": null,
               "addDesc_en": null,
               "addDesc_ja": null,
-              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长</>的<$ba.sluggish>停顿</>",
-              "overrideDesc_en": "Attacks deal <@ba.kw>Arts damage</>, and <$ba.sluggish>Slow</> the enemy for a <@ba.kw>moderate</> period of time",
-              "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与え\n攻撃時、敵を<@ba.kw>やや長い間</><$ba.sluggish>足止め</>"
+              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长</>的<ba.sluggish>停顿</>",
+              "overrideDesc_en": "Attacks deal <@ba.kw>Arts damage</>, and <ba.sluggish>Slow</> the enemy for a <@ba.kw>moderate</> period of time",
+              "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与え\n攻撃時、敵を<@ba.kw>やや長い間</><ba.sluggish>足止め</>"
             },
             {
               "resKey": null,
@@ -8708,9 +8708,9 @@
               "addDesc_zh": null,
               "addDesc_en": null,
               "addDesc_ja": null,
-              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长</>的<$ba.sluggish>停顿</>",
-              "overrideDesc_en": "Attacks deal <@ba.kw>Arts damage</>, and <$ba.sluggish>Slow</> the enemy for a <@ba.kw>moderate</> period of time",
-              "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与え\n攻撃時、敵を<@ba.kw>やや長い間</><$ba.sluggish>足止め</>"
+              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长</>的<ba.sluggish>停顿</>",
+              "overrideDesc_en": "Attacks deal <@ba.kw>Arts damage</>, and <ba.sluggish>Slow</> the enemy for a <@ba.kw>moderate</> period of time",
+              "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与え\n攻撃時、敵を<@ba.kw>やや長い間</><ba.sluggish>足止め</>"
             },
             {
               "resKey": null,
@@ -8924,9 +8924,9 @@
               "addDesc_zh": null,
               "addDesc_en": null,
               "addDesc_ja": null,
-              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长</>的<$ba.sluggish>停顿</>",
-              "overrideDesc_en": "Attacks deal <@ba.kw>Arts damage</>, and <$ba.sluggish>Slow</> the enemy for a <@ba.kw>moderate</> period of time",
-              "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与え\n攻撃時、敵を<@ba.kw>やや長い間</><$ba.sluggish>足止め</>"
+              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长</>的<ba.sluggish>停顿</>",
+              "overrideDesc_en": "Attacks deal <@ba.kw>Arts damage</>, and <ba.sluggish>Slow</> the enemy for a <@ba.kw>moderate</> period of time",
+              "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与え\n攻撃時、敵を<@ba.kw>やや長い間</><ba.sluggish>足止め</>"
             }
           ],
           "attributeBlackboard": [
@@ -8950,9 +8950,9 @@
               "addDesc_zh": null,
               "addDesc_en": null,
               "addDesc_ja": null,
-              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长</>的<$ba.sluggish>停顿</>",
-              "overrideDesc_en": "Attacks deal <@ba.kw>Arts damage</>, and <$ba.sluggish>Slow</> the enemy for a <@ba.kw>moderate</> period of time",
-              "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与え\n攻撃時、敵を<@ba.kw>やや長い間</><$ba.sluggish>足止め</>"
+              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长</>的<ba.sluggish>停顿</>",
+              "overrideDesc_en": "Attacks deal <@ba.kw>Arts damage</>, and <ba.sluggish>Slow</> the enemy for a <@ba.kw>moderate</> period of time",
+              "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与え\n攻撃時、敵を<@ba.kw>やや長い間</><ba.sluggish>足止め</>"
             },
             {
               "resKey": "glassb_equip_1_2_p1",
@@ -8988,9 +8988,9 @@
               "addDesc_zh": null,
               "addDesc_en": null,
               "addDesc_ja": null,
-              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长</>的<$ba.sluggish>停顿</>",
-              "overrideDesc_en": "Attacks deal <@ba.kw>Arts damage</>, and <$ba.sluggish>Slow</> the enemy for a <@ba.kw>moderate</> period of time",
-              "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与え\n攻撃時、敵を<@ba.kw>やや長い間</><$ba.sluggish>足止め</>"
+              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长</>的<ba.sluggish>停顿</>",
+              "overrideDesc_en": "Attacks deal <@ba.kw>Arts damage</>, and <ba.sluggish>Slow</> the enemy for a <@ba.kw>moderate</> period of time",
+              "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与え\n攻撃時、敵を<@ba.kw>やや長い間</><ba.sluggish>足止め</>"
             },
             {
               "resKey": "glassb_equip_1_3_p1",
@@ -9218,9 +9218,9 @@
               "addDesc_zh": null,
               "addDesc_en": null,
               "addDesc_ja": null,
-              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长</>的<$ba.sluggish>停顿</>",
-              "overrideDesc_en": "Attacks deal <@ba.kw>Arts damage</>, and <$ba.sluggish>Slow</> the enemy for a <@ba.kw>moderate</> period of time",
-              "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与え\n攻撃時、敵を<@ba.kw>やや長い間</><$ba.sluggish>足止め</>"
+              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长</>的<ba.sluggish>停顿</>",
+              "overrideDesc_en": "Attacks deal <@ba.kw>Arts damage</>, and <ba.sluggish>Slow</> the enemy for a <@ba.kw>moderate</> period of time",
+              "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与え\n攻撃時、敵を<@ba.kw>やや長い間</><ba.sluggish>足止め</>"
             }
           ],
           "attributeBlackboard": [
@@ -9244,9 +9244,9 @@
               "addDesc_zh": null,
               "addDesc_en": null,
               "addDesc_ja": null,
-              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长</>的<$ba.sluggish>停顿</>",
-              "overrideDesc_en": "Attacks deal <@ba.kw>Arts damage</>, and <$ba.sluggish>Slow</> the enemy for a <@ba.kw>moderate</> period of time",
-              "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与え\n攻撃時、敵を<@ba.kw>やや長い間</><$ba.sluggish>足止め</>"
+              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长</>的<ba.sluggish>停顿</>",
+              "overrideDesc_en": "Attacks deal <@ba.kw>Arts damage</>, and <ba.sluggish>Slow</> the enemy for a <@ba.kw>moderate</> period of time",
+              "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与え\n攻撃時、敵を<@ba.kw>やや長い間</><ba.sluggish>足止め</>"
             },
             {
               "resKey": null,
@@ -9256,9 +9256,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "更加延长特性<$ba.sluggish>停顿</>的持续时间",
-              "upgradeDesc_en": "Extends the duration of<$ba.sluggish>Slow</> caused by the Trait greatly",
-              "upgradeDesc_ja": "特性による<$ba.sluggish>足止め</>効果の効果時間をより延長"
+              "upgradeDesc_zh": "更加延长特性<ba.sluggish>停顿</>的持续时间",
+              "upgradeDesc_en": "Extends the duration of<ba.sluggish>Slow</> caused by the Trait greatly",
+              "upgradeDesc_ja": "特性による<ba.sluggish>足止め</>効果の効果時間をより延長"
             }
           ],
           "attributeBlackboard": [
@@ -9282,9 +9282,9 @@
               "addDesc_zh": null,
               "addDesc_en": null,
               "addDesc_ja": null,
-              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长</>的<$ba.sluggish>停顿</>",
-              "overrideDesc_en": "Attacks deal <@ba.kw>Arts damage</>, and <$ba.sluggish>Slow</> the enemy for a <@ba.kw>moderate</> period of time",
-              "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与え\n攻撃時、敵を<@ba.kw>やや長い間</><$ba.sluggish>足止め</>"
+              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长</>的<ba.sluggish>停顿</>",
+              "overrideDesc_en": "Attacks deal <@ba.kw>Arts damage</>, and <ba.sluggish>Slow</> the enemy for a <@ba.kw>moderate</> period of time",
+              "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与え\n攻撃時、敵を<@ba.kw>やや長い間</><ba.sluggish>足止め</>"
             },
             {
               "resKey": null,
@@ -9294,9 +9294,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "更进一步延长特性<$ba.sluggish>停顿</>的持续时间",
-              "upgradeDesc_en": "Further the duration of<$ba.sluggish>Slow</> caused by the Trait significantly",
-              "upgradeDesc_ja": "特性による<$ba.sluggish>足止め</>効果の効果時間をさらに一層延長"
+              "upgradeDesc_zh": "更进一步延长特性<ba.sluggish>停顿</>的持续时间",
+              "upgradeDesc_en": "Further the duration of<ba.sluggish>Slow</> caused by the Trait significantly",
+              "upgradeDesc_ja": "特性による<ba.sluggish>足止め</>効果の効果時間をさらに一層延長"
             }
           ],
           "attributeBlackboard": [
@@ -9767,9 +9767,9 @@
               "resKey": "lumen_equip_1_1_p1",
               "target": "TRAIT",
               "isToken": false,
-              "addDesc_zh": "自身获得<$ba.buffres>抵抗</>且更不容易受到敌人的攻击",
-              "addDesc_en": "Gain <$ba.buffres>status resistance</>, and become less likely to be attacked",
-              "addDesc_ja": "自身が<$ba.buffres>レジスト</>状態になり、敵に狙われにくくなる",
+              "addDesc_zh": "自身获得<ba.buffres>抵抗</>且更不容易受到敌人的攻击",
+              "addDesc_en": "Gain <ba.buffres>status resistance</>, and become less likely to be attacked",
+              "addDesc_ja": "自身が<ba.buffres>レジスト</>状態になり、敵に狙われにくくなる",
               "overrideDesc_zh": null,
               "overrideDesc_en": null,
               "overrideDesc_ja": null
@@ -9793,9 +9793,9 @@
               "resKey": "lumen_equip_1_2_p1",
               "target": "TRAIT",
               "isToken": false,
-              "addDesc_zh": "自身获得<$ba.buffres>抵抗</>且更不容易受到敌人的攻击",
-              "addDesc_en": "Gain <$ba.buffres>status resistance</>, and become less likely to be attacked",
-              "addDesc_ja": "自身が<$ba.buffres>レジスト</>状態になり、敵に狙われにくくなる",
+              "addDesc_zh": "自身获得<ba.buffres>抵抗</>且更不容易受到敌人的攻击",
+              "addDesc_en": "Gain <ba.buffres>status resistance</>, and become less likely to be attacked",
+              "addDesc_ja": "自身が<ba.buffres>レジスト</>状態になり、敵に狙われにくくなる",
               "overrideDesc_zh": null,
               "overrideDesc_en": null,
               "overrideDesc_ja": null
@@ -9808,9 +9808,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "治疗的目标获得5秒<$ba.buffres>抵抗</>，若目标生命值高于75%则改为7秒<$ba.buffres>抵抗</>",
-              "upgradeDesc_en": "Healing targets gain <$ba.buffres>status resistance</> for 5 seconds. If the target's HP is above 75%, they gain <$ba.buffres>status resistance</> for 7 seconds instead.",
-              "upgradeDesc_ja": "味方を回復後、対象に5秒の<$ba.buffres>レジスト</>状態を付与、対象のHPが最大値の75%を超える場合、<$ba.buffres>レジスト</>状態の継続時間が7秒に上昇"
+              "upgradeDesc_zh": "治疗的目标获得5秒<ba.buffres>抵抗</>，若目标生命值高于75%则改为7秒<ba.buffres>抵抗</>",
+              "upgradeDesc_en": "Healing targets gain <ba.buffres>status resistance</> for 5 seconds. If the target's HP is above 75%, they gain <ba.buffres>status resistance</> for 7 seconds instead.",
+              "upgradeDesc_ja": "味方を回復後、対象に5秒の<ba.buffres>レジスト</>状態を付与、対象のHPが最大値の75%を超える場合、<ba.buffres>レジスト</>状態の継続時間が7秒に上昇"
             }
           ],
           "attributeBlackboard": [
@@ -9831,9 +9831,9 @@
               "resKey": "lumen_equip_1_3_p1",
               "target": "TRAIT",
               "isToken": false,
-              "addDesc_zh": "自身获得<$ba.buffres>抵抗</>且更不容易受到敌人的攻击",
-              "addDesc_en": "Gain <$ba.buffres>status resistance</>, and become less likely to be attacked",
-              "addDesc_ja": "自身が<$ba.buffres>レジスト</>状態になり、敵に狙われにくくなる",
+              "addDesc_zh": "自身获得<ba.buffres>抵抗</>且更不容易受到敌人的攻击",
+              "addDesc_en": "Gain <ba.buffres>status resistance</>, and become less likely to be attacked",
+              "addDesc_ja": "自身が<ba.buffres>レジスト</>状態になり、敵に狙われにくくなる",
               "overrideDesc_zh": null,
               "overrideDesc_en": null,
               "overrideDesc_ja": null
@@ -9846,9 +9846,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "治疗的目标获得5秒<$ba.buffres>抵抗</>，若目标生命值高于75%则改为8秒<$ba.buffres>抵抗</>",
-              "upgradeDesc_en": "Healing targets gain <$ba.buffres>status resistance</> for 5 seconds. If the target's HP is above 75%, they gain <$ba.buffres>status resistance</> for 8 seconds instead.",
-              "upgradeDesc_ja": "味方を回復後、対象に5秒の<$ba.buffres>レジスト</>状態を付与、対象のHPが最大値の75%を超える場合、<$ba.buffres>レジスト</>状態の継続時間が8秒に上昇"
+              "upgradeDesc_zh": "治疗的目标获得5秒<ba.buffres>抵抗</>，若目标生命值高于75%则改为8秒<ba.buffres>抵抗</>",
+              "upgradeDesc_en": "Healing targets gain <ba.buffres>status resistance</> for 5 seconds. If the target's HP is above 75%, they gain <ba.buffres>status resistance</> for 8 seconds instead.",
+              "upgradeDesc_ja": "味方を回復後、対象に5秒の<ba.buffres>レジスト</>状態を付与、対象のHPが最大値の75%を超える場合、<ba.buffres>レジスト</>状態の継続時間が8秒に上昇"
             }
           ],
           "attributeBlackboard": [
@@ -9913,9 +9913,9 @@
               "resKey": "ceylon_equip_1_1_p1",
               "target": "TRAIT",
               "isToken": false,
-              "addDesc_zh": "自身获得<$ba.buffres>抵抗</>且更不容易受到敌人的攻击",
-              "addDesc_en": "Gain <$ba.buffres>status resistance</>, and become less likely to be attacked",
-              "addDesc_ja": "自身が<$ba.buffres>レジスト</>状態になり、敵に狙われにくくなる",
+              "addDesc_zh": "自身获得<ba.buffres>抵抗</>且更不容易受到敌人的攻击",
+              "addDesc_en": "Gain <ba.buffres>status resistance</>, and become less likely to be attacked",
+              "addDesc_ja": "自身が<ba.buffres>レジスト</>状態になり、敵に狙われにくくなる",
               "overrideDesc_zh": null,
               "overrideDesc_en": null,
               "overrideDesc_ja": null
@@ -9939,9 +9939,9 @@
               "resKey": "ceylon_equip_1_2_p1",
               "target": "TRAIT",
               "isToken": false,
-              "addDesc_zh": "自身获得<$ba.buffres>抵抗</>且更不容易受到敌人的攻击",
-              "addDesc_en": "Gain <$ba.buffres>status resistance</>, and become less likely to be attacked",
-              "addDesc_ja": "自身が<$ba.buffres>レジスト</>状態になり、敵に狙われにくくなる",
+              "addDesc_zh": "自身获得<ba.buffres>抵抗</>且更不容易受到敌人的攻击",
+              "addDesc_en": "Gain <ba.buffres>status resistance</>, and become less likely to be attacked",
+              "addDesc_ja": "自身が<ba.buffres>レジスト</>状態になり、敵に狙われにくくなる",
               "overrideDesc_zh": null,
               "overrideDesc_en": null,
               "overrideDesc_ja": null
@@ -9977,9 +9977,9 @@
               "resKey": "ceylon_equip_1_3_p1",
               "target": "TRAIT",
               "isToken": false,
-              "addDesc_zh": "自身获得<$ba.buffres>抵抗</>且更不容易受到敌人的攻击",
-              "addDesc_en": "Gain <$ba.buffres>status resistance</>, and become less likely to be attacked",
-              "addDesc_ja": "自身が<$ba.buffres>レジスト</>状態になり、敵に狙われにくくなる",
+              "addDesc_zh": "自身获得<ba.buffres>抵抗</>且更不容易受到敌人的攻击",
+              "addDesc_en": "Gain <ba.buffres>status resistance</>, and become less likely to be attacked",
+              "addDesc_ja": "自身が<ba.buffres>レジスト</>状態になり、敵に狙われにくくなる",
               "overrideDesc_zh": null,
               "overrideDesc_en": null,
               "overrideDesc_ja": null
@@ -10047,9 +10047,9 @@
               "resKey": "whispr_equip_1_1_p1",
               "target": "TRAIT",
               "isToken": false,
-              "addDesc_zh": "自身获得<$ba.buffres>抵抗</>且更不容易受到敌人的攻击",
-              "addDesc_en": "Gain <$ba.buffres>status resistance</>, and become less likely to be attacked",
-              "addDesc_ja": "自身が<$ba.buffres>レジスト</>状態になり、敵に狙われにくくなる",
+              "addDesc_zh": "自身获得<ba.buffres>抵抗</>且更不容易受到敌人的攻击",
+              "addDesc_en": "Gain <ba.buffres>status resistance</>, and become less likely to be attacked",
+              "addDesc_ja": "自身が<ba.buffres>レジスト</>状態になり、敵に狙われにくくなる",
               "overrideDesc_zh": null,
               "overrideDesc_en": null,
               "overrideDesc_ja": null
@@ -10073,9 +10073,9 @@
               "resKey": "whispr_equip_1_2_p1",
               "target": "TRAIT",
               "isToken": false,
-              "addDesc_zh": "自身获得<$ba.buffres>抵抗</>且更不容易受到敌人的攻击",
-              "addDesc_en": "Gain <$ba.buffres>status resistance</>, and become less likely to be attacked",
-              "addDesc_ja": "自身が<$ba.buffres>レジスト</>状態になり、敵に狙われにくくなる",
+              "addDesc_zh": "自身获得<ba.buffres>抵抗</>且更不容易受到敌人的攻击",
+              "addDesc_en": "Gain <ba.buffres>status resistance</>, and become less likely to be attacked",
+              "addDesc_ja": "自身が<ba.buffres>レジスト</>状態になり、敵に狙われにくくなる",
               "overrideDesc_zh": null,
               "overrideDesc_en": null,
               "overrideDesc_ja": null
@@ -10088,9 +10088,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "攻击范围内拥有<$ba.buffres>抵抗</>的友方单位每秒恢复相当于絮雨攻击力9%<@ba.talpu>（+1%）</>的生命（不受特性影响）",
-              "upgradeDesc_en": "Allied units with <$ba.buffres>status resistance</> within this unit's Attack Range will restore HP per second equal to 9% <@ba.talpu>(+1%)</> of Whisperain's ATK (Unaffected by this unit's Trait)",
-              "upgradeDesc_ja": "攻撃範囲内で<$ba.buffres>レジスト</>を有する味方全員のHPが1秒ごとにウィスパーレインの攻撃力の9%<@ba.talpu>（+1%）</>回復（回復量は特性に影響されない）"
+              "upgradeDesc_zh": "攻击范围内拥有<ba.buffres>抵抗</>的友方单位每秒恢复相当于絮雨攻击力9%<@ba.talpu>（+1%）</>的生命（不受特性影响）",
+              "upgradeDesc_en": "Allied units with <ba.buffres>status resistance</> within this unit's Attack Range will restore HP per second equal to 9% <@ba.talpu>(+1%)</> of Whisperain's ATK (Unaffected by this unit's Trait)",
+              "upgradeDesc_ja": "攻撃範囲内で<ba.buffres>レジスト</>を有する味方全員のHPが1秒ごとにウィスパーレインの攻撃力の9%<@ba.talpu>（+1%）</>回復（回復量は特性に影響されない）"
             }
           ],
           "attributeBlackboard": [
@@ -10111,9 +10111,9 @@
               "resKey": "whispr_equip_1_3_p1",
               "target": "TRAIT",
               "isToken": false,
-              "addDesc_zh": "自身获得<$ba.buffres>抵抗</>且更不容易受到敌人的攻击",
-              "addDesc_en": "Gain <$ba.buffres>status resistance</>, and become less likely to be attacked",
-              "addDesc_ja": "自身が<$ba.buffres>レジスト</>状態になり、敵に狙われにくくなる",
+              "addDesc_zh": "自身获得<ba.buffres>抵抗</>且更不容易受到敌人的攻击",
+              "addDesc_en": "Gain <ba.buffres>status resistance</>, and become less likely to be attacked",
+              "addDesc_ja": "自身が<ba.buffres>レジスト</>状態になり、敵に狙われにくくなる",
               "overrideDesc_zh": null,
               "overrideDesc_en": null,
               "overrideDesc_ja": null
@@ -10126,9 +10126,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "攻击范围内拥有<$ba.buffres>抵抗</>的友方单位每秒恢复相当于絮雨攻击力10%<@ba.talpu>（+1%）</>的生命（不受特性影响）",
-              "upgradeDesc_en": "Allied units with <$ba.buffres>status resistance</> within this unit's Attack Range will restore HP per second equal to 10% <@ba.talpu>(+1%)</> of Whisperain's ATK (Unaffected by this unit's Trait)",
-              "upgradeDesc_ja": "攻撃範囲内で<$ba.buffres>レジスト</>を有する味方全員のHPが1秒ごとにウィスパーレインの攻撃力の10%<@ba.talpu>（+1%）</>回復（回復量は特性に影響されない）"
+              "upgradeDesc_zh": "攻击范围内拥有<ba.buffres>抵抗</>的友方单位每秒恢复相当于絮雨攻击力10%<@ba.talpu>（+1%）</>的生命（不受特性影响）",
+              "upgradeDesc_en": "Allied units with <ba.buffres>status resistance</> within this unit's Attack Range will restore HP per second equal to 10% <@ba.talpu>(+1%)</> of Whisperain's ATK (Unaffected by this unit's Trait)",
+              "upgradeDesc_ja": "攻撃範囲内で<ba.buffres>レジスト</>を有する味方全員のHPが1秒ごとにウィスパーレインの攻撃力の10%<@ba.talpu>（+1%）</>回復（回復量は特性に影響されない）"
             }
           ],
           "attributeBlackboard": [
@@ -10798,9 +10798,9 @@
               "addDesc_zh": null,
               "addDesc_en": null,
               "addDesc_ja": null,
-              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>4</>个敌人间跳跃，每次跳跃伤害<@ba.kw>不再降低</>并造成短暂的<$ba.sluggish>停顿</>",
-              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>4</> enemies. Each jump <@ba.kw>no longer deals less damage</> and inflicts a brief <$ba.sluggish>Slow</>",
-              "overrideDesc_ja": "<@ba.kw>4</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>減衰しなくなり</>、敵を一瞬<$ba.sluggish>足止め</>"
+              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>4</>个敌人间跳跃，每次跳跃伤害<@ba.kw>不再降低</>并造成短暂的<ba.sluggish>停顿</>",
+              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>4</> enemies. Each jump <@ba.kw>no longer deals less damage</> and inflicts a brief <ba.sluggish>Slow</>",
+              "overrideDesc_ja": "<@ba.kw>4</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>減衰しなくなり</>、敵を一瞬<ba.sluggish>足止め</>"
             }
           ],
           "attributeBlackboard": [
@@ -10824,9 +10824,9 @@
               "addDesc_zh": null,
               "addDesc_en": null,
               "addDesc_ja": null,
-              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>4</>个敌人间跳跃，每次跳跃伤害<@ba.kw>不再降低</>并造成短暂的<$ba.sluggish>停顿</>",
-              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>4</> enemies. Each jump <@ba.kw>no longer deals less damage</> and inflicts a brief <$ba.sluggish>Slow</>",
-              "overrideDesc_ja": "<@ba.kw>4</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>減衰しなくなり</>、敵を一瞬<$ba.sluggish>足止め</>"
+              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>4</>个敌人间跳跃，每次跳跃伤害<@ba.kw>不再降低</>并造成短暂的<ba.sluggish>停顿</>",
+              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>4</> enemies. Each jump <@ba.kw>no longer deals less damage</> and inflicts a brief <ba.sluggish>Slow</>",
+              "overrideDesc_ja": "<@ba.kw>4</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>減衰しなくなり</>、敵を一瞬<ba.sluggish>足止め</>"
             },
             {
               "resKey": null,
@@ -10862,9 +10862,9 @@
               "addDesc_zh": null,
               "addDesc_en": null,
               "addDesc_ja": null,
-              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>4</>个敌人间跳跃，每次跳跃伤害<@ba.kw>不再降低</>并造成短暂的<$ba.sluggish>停顿</>",
-              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>4</> enemies. Each jump <@ba.kw>no longer deals less damage</> and inflicts a brief <$ba.sluggish>Slow</>",
-              "overrideDesc_ja": "<@ba.kw>4</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>減衰しなくなり</>、敵を一瞬<$ba.sluggish>足止め</>"
+              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>4</>个敌人间跳跃，每次跳跃伤害<@ba.kw>不再降低</>并造成短暂的<ba.sluggish>停顿</>",
+              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>4</> enemies. Each jump <@ba.kw>no longer deals less damage</> and inflicts a brief <ba.sluggish>Slow</>",
+              "overrideDesc_ja": "<@ba.kw>4</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>減衰しなくなり</>、敵を一瞬<ba.sluggish>足止め</>"
             },
             {
               "resKey": null,
@@ -11238,9 +11238,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "攻击时，23%<@ba.talpu>（+3%）</>几率当次攻击的攻击力提升至200%，并<$ba.stun>晕眩</>敌人1.5秒",
-              "upgradeDesc_en": "When attacking, has a 23% <@ba.talpu>(+3%)</> chance to deal 200% damage and <$ba.stun>Stun</> the target for 1.5 seconds",
-              "upgradeDesc_ja": "攻撃時、23%<@ba.talpu>（+3%）</>の確率でその攻撃のみ攻撃力が200%に上昇し、敵を1.5秒間<$ba.stun>スタン</>させる"
+              "upgradeDesc_zh": "攻击时，23%<@ba.talpu>（+3%）</>几率当次攻击的攻击力提升至200%，并<ba.stun>晕眩</>敌人1.5秒",
+              "upgradeDesc_en": "When attacking, has a 23% <@ba.talpu>(+3%)</> chance to deal 200% damage and <ba.stun>Stun</> the target for 1.5 seconds",
+              "upgradeDesc_ja": "攻撃時、23%<@ba.talpu>（+3%）</>の確率でその攻撃のみ攻撃力が200%に上昇し、敵を1.5秒間<ba.stun>スタン</>させる"
             }
           ],
           "attributeBlackboard": [
@@ -11276,9 +11276,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "攻击时，26%<@ba.talpu>（+3%）</>几率当次攻击的攻击力提升至200%，并<$ba.stun>晕眩</>敌人1.5秒",
-              "upgradeDesc_en": "When attacking, has a 26% <@ba.talpu>(+3%)</> chance to deal 200% damage and <$ba.stun>Stun</> the target for 1.5 seconds",
-              "upgradeDesc_ja": "攻撃時、26%<@ba.talpu>（+3%）</>の確率でその攻撃のみ攻撃力が200%に上昇し、敵を1.5秒間<$ba.stun>スタン</>させる"
+              "upgradeDesc_zh": "攻击时，26%<@ba.talpu>（+3%）</>几率当次攻击的攻击力提升至200%，并<ba.stun>晕眩</>敌人1.5秒",
+              "upgradeDesc_en": "When attacking, has a 26% <@ba.talpu>(+3%)</> chance to deal 200% damage and <ba.stun>Stun</> the target for 1.5 seconds",
+              "upgradeDesc_ja": "攻撃時、26%<@ba.talpu>（+3%）</>の確率でその攻撃のみ攻撃力が200%に上昇し、敵を1.5秒間<ba.stun>スタン</>させる"
             }
           ],
           "attributeBlackboard": [
@@ -11516,7 +11516,7 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "治疗干员时对其与周围四格地块进行播种施加如下效果：每秒恢复85<@ba.talpu>（+5）</>生命、获得12%<@ba.talpu>（+2%）</><$ba.protect>庇护</>",
+              "upgradeDesc_zh": "治疗干员时对其与周围四格地块进行播种施加如下效果：每秒恢复85<@ba.talpu>（+5）</>生命、获得12%<@ba.talpu>（+2%）</><ba.protect>庇护</>",
               "upgradeDesc_en": "",
               "upgradeDesc_ja": ""
             }
@@ -11558,7 +11558,7 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "治疗干员时对其与周围四格地块进行播种施加如下效果：每秒恢复85<@ba.talpu>（+5）</>生命、获得17%<@ba.talpu>（+2%）</><$ba.protect>庇护</>，部署时立即给所处地块播种该效果",
+              "upgradeDesc_zh": "治疗干员时对其与周围四格地块进行播种施加如下效果：每秒恢复85<@ba.talpu>（+5）</>生命、获得17%<@ba.talpu>（+2%）</><ba.protect>庇护</>，部署时立即给所处地块播种该效果",
               "upgradeDesc_en": "",
               "upgradeDesc_ja": ""
             }
@@ -11906,9 +11906,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "攻击时有25%<@ba.talpu>（+2%）</>的几率使目标<$ba.root>束缚</>4秒，不以束缚状态的敌人为攻击目标",
-              "upgradeDesc_en": "When attacking, has a 25% <@ba.talpu>(+2%)</> chance to <$ba.root>Bind</> the target for 4 seconds. Will not target Bound enemies",
-              "upgradeDesc_ja": "攻撃時、25%<@ba.talpu>（+2%）</>の確率で攻撃対象を4秒間<$ba.root>バインド</>する（バインド状態の敵を攻撃しない）"
+              "upgradeDesc_zh": "攻击时有25%<@ba.talpu>（+2%）</>的几率使目标<ba.root>束缚</>4秒，不以束缚状态的敌人为攻击目标",
+              "upgradeDesc_en": "When attacking, has a 25% <@ba.talpu>(+2%)</> chance to <ba.root>Bind</> the target for 4 seconds. Will not target Bound enemies",
+              "upgradeDesc_ja": "攻撃時、25%<@ba.talpu>（+2%）</>の確率で攻撃対象を4秒間<ba.root>バインド</>する（バインド状態の敵を攻撃しない）"
             }
           ],
           "attributeBlackboard": [
@@ -11944,9 +11944,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "攻击时有27%<@ba.talpu>（+2%）</>的几率使目标<$ba.root>束缚</>4秒，不以束缚状态的敌人为攻击目标",
-              "upgradeDesc_en": "When attacking, has a 27% <@ba.talpu>(+2%)</> chance to <$ba.root>Bind</> the target for 4 seconds. Will not target Bound enemies",
-              "upgradeDesc_ja": "攻撃時、27%<@ba.talpu>（+2%）</>の確率で攻撃対象を4秒間<$ba.root>バインド</>する（バインド状態の敵を攻撃しない）"
+              "upgradeDesc_zh": "攻击时有27%<@ba.talpu>（+2%）</>的几率使目标<ba.root>束缚</>4秒，不以束缚状态的敌人为攻击目标",
+              "upgradeDesc_en": "When attacking, has a 27% <@ba.talpu>(+2%)</> chance to <ba.root>Bind</> the target for 4 seconds. Will not target Bound enemies",
+              "upgradeDesc_ja": "攻撃時、27%<@ba.talpu>（+2%）</>の確率で攻撃対象を4秒間<ba.root>バインド</>する（バインド状態の敵を攻撃しない）"
             }
           ],
           "attributeBlackboard": [
@@ -13315,9 +13315,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "攻击时，20%几率当次攻击的攻击力提升至170%<@ba.talpu>（+10%）</>，并使敌人<$ba.stun>晕眩</>0.2秒",
-              "upgradeDesc_en": "When attacking, has a 20% chance to deal 170% <@ba.talpu>(+10%)</> damage and <$ba.stun>Stun</> the target for 0.2 seconds",
-              "upgradeDesc_ja": "攻撃時、20%の確率でその攻撃のみ攻撃力が170%<@ba.talpu>（+10%）</>に上昇し、敵を0.2秒間<$ba.stun>スタン</>させる"
+              "upgradeDesc_zh": "攻击时，20%几率当次攻击的攻击力提升至170%<@ba.talpu>（+10%）</>，并使敌人<ba.stun>晕眩</>0.2秒",
+              "upgradeDesc_en": "When attacking, has a 20% chance to deal 170% <@ba.talpu>(+10%)</> damage and <ba.stun>Stun</> the target for 0.2 seconds",
+              "upgradeDesc_ja": "攻撃時、20%の確率でその攻撃のみ攻撃力が170%<@ba.talpu>（+10%）</>に上昇し、敵を0.2秒間<ba.stun>スタン</>させる"
             }
           ],
           "attributeBlackboard": [
@@ -13353,9 +13353,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "攻击时，20%几率当次攻击的攻击力提升至175%<@ba.talpu>（+10%）</>，并使敌人<$ba.stun>晕眩</>0.2秒",
-              "upgradeDesc_en": "When attacking, has a 20% chance to deal 175% <@ba.talpu>(+10%)</> damage and <$ba.stun>Stun</> the target for 0.2 seconds",
-              "upgradeDesc_ja": "攻撃時、20%の確率でその攻撃のみ攻撃力が175%<@ba.talpu>（+10%）</>に上昇し、敵を0.2秒間<$ba.stun>スタン</>させる"
+              "upgradeDesc_zh": "攻击时，20%几率当次攻击的攻击力提升至175%<@ba.talpu>（+10%）</>，并使敌人<ba.stun>晕眩</>0.2秒",
+              "upgradeDesc_en": "When attacking, has a 20% chance to deal 175% <@ba.talpu>(+10%)</> damage and <ba.stun>Stun</> the target for 0.2 seconds",
+              "upgradeDesc_ja": "攻撃時、20%の確率でその攻撃のみ攻撃力が175%<@ba.talpu>（+10%）</>に上昇し、敵を0.2秒間<ba.stun>スタン</>させる"
             }
           ],
           "attributeBlackboard": [
@@ -13600,9 +13600,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 1,
-              "upgradeDesc_zh": "部署后立即获得5点技力与一层<$ba.shield>护盾</>，护盾破裂后获得9点<@ba.talpu>（+2）</>技力",
-              "upgradeDesc_en": "When deployed, this unit gains 1 <$ba.shield>Shield</> and 5 Skill Points. Restores 9 <@ba.talpu>(+2)</> Skill Points when the Shield breaks",
-              "upgradeDesc_ja": "配置後、自身のSP+5、<$ba.shield>シールド</>を1枚形成する、シールドが消耗される時、SPを9<@ba.talpu>（+2）</>回復"
+              "upgradeDesc_zh": "部署后立即获得5点技力与一层<ba.shield>护盾</>，护盾破裂后获得9点<@ba.talpu>（+2）</>技力",
+              "upgradeDesc_en": "When deployed, this unit gains 1 <ba.shield>Shield</> and 5 Skill Points. Restores 9 <@ba.talpu>(+2)</> Skill Points when the Shield breaks",
+              "upgradeDesc_ja": "配置後、自身のSP+5、<ba.shield>シールド</>を1枚形成する、シールドが消耗される時、SPを9<@ba.talpu>（+2）</>回復"
             }
           ],
           "attributeBlackboard": [
@@ -13654,9 +13654,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 1,
-              "upgradeDesc_zh": "部署后立即获得9点技力与一层<$ba.shield>护盾</>，护盾破裂后获得9点<@ba.talpu>（+2）</>技力",
-              "upgradeDesc_en": "When deployed, this unit gains 1 <$ba.shield>Shield</> and 9 Skill Points. Restores 9 <@ba.talpu>(+2)</> Skill Points when the Shield breaks",
-              "upgradeDesc_ja": "配置後、自身のSP+9、<$ba.shield>シールド</>を1枚形成する、シールドが消耗される時、SPを9<@ba.talpu>（+2）</>回復"
+              "upgradeDesc_zh": "部署后立即获得9点技力与一层<ba.shield>护盾</>，护盾破裂后获得9点<@ba.talpu>（+2）</>技力",
+              "upgradeDesc_en": "When deployed, this unit gains 1 <ba.shield>Shield</> and 9 Skill Points. Restores 9 <@ba.talpu>(+2)</> Skill Points when the Shield breaks",
+              "upgradeDesc_ja": "配置後、自身のSP+9、<ba.shield>シールド</>を1枚形成する、シールドが消耗される時、SPを9<@ba.talpu>（+2）</>回復"
             }
           ],
           "attributeBlackboard": [
@@ -14034,9 +14034,9 @@
               "addDesc_zh": null,
               "addDesc_en": null,
               "addDesc_ja": null,
-              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>4</>个敌人间跳跃，每次跳跃伤害<@ba.kw>不再降低</>并造成短暂的<$ba.sluggish>停顿</>",
-              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>4</> enemies. Each jump <@ba.kw>no longer deals less damage</> and inflicts a brief <$ba.sluggish>Slow</>",
-              "overrideDesc_ja": "<@ba.kw>4</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>減衰しなくなり</>、敵を一瞬<$ba.sluggish>足止め</>"
+              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>4</>个敌人间跳跃，每次跳跃伤害<@ba.kw>不再降低</>并造成短暂的<ba.sluggish>停顿</>",
+              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>4</> enemies. Each jump <@ba.kw>no longer deals less damage</> and inflicts a brief <ba.sluggish>Slow</>",
+              "overrideDesc_ja": "<@ba.kw>4</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>減衰しなくなり</>、敵を一瞬<ba.sluggish>足止め</>"
             }
           ],
           "attributeBlackboard": [
@@ -14060,9 +14060,9 @@
               "addDesc_zh": null,
               "addDesc_en": null,
               "addDesc_ja": null,
-              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>4</>个敌人间跳跃，每次跳跃伤害<@ba.kw>不再降低</>并造成短暂的<$ba.sluggish>停顿</>",
-              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>4</> enemies. Each jump <@ba.kw>no longer deals less damage</> and inflicts a brief <$ba.sluggish>Slow</>",
-              "overrideDesc_ja": "<@ba.kw>4</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>減衰しなくなり</>、敵を一瞬<$ba.sluggish>足止め</>"
+              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>4</>个敌人间跳跃，每次跳跃伤害<@ba.kw>不再降低</>并造成短暂的<ba.sluggish>停顿</>",
+              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>4</> enemies. Each jump <@ba.kw>no longer deals less damage</> and inflicts a brief <ba.sluggish>Slow</>",
+              "overrideDesc_ja": "<@ba.kw>4</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>減衰しなくなり</>、敵を一瞬<ba.sluggish>足止め</>"
             },
             {
               "resKey": null,
@@ -14098,9 +14098,9 @@
               "addDesc_zh": null,
               "addDesc_en": null,
               "addDesc_ja": null,
-              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>4</>个敌人间跳跃，每次跳跃伤害<@ba.kw>不再降低</>并造成短暂的<$ba.sluggish>停顿</>",
-              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>4</> enemies. Each jump <@ba.kw>no longer deals less damage</> and inflicts a brief <$ba.sluggish>Slow</>",
-              "overrideDesc_ja": "<@ba.kw>4</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>減衰しなくなり</>、敵を一瞬<$ba.sluggish>足止め</>"
+              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>4</>个敌人间跳跃，每次跳跃伤害<@ba.kw>不再降低</>并造成短暂的<ba.sluggish>停顿</>",
+              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>4</> enemies. Each jump <@ba.kw>no longer deals less damage</> and inflicts a brief <ba.sluggish>Slow</>",
+              "overrideDesc_ja": "<@ba.kw>4</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが<@ba.kw>減衰しなくなり</>、敵を一瞬<ba.sluggish>足止め</>"
             },
             {
               "resKey": null,
@@ -15156,8 +15156,8 @@
               "rangeId": null,
               "talentIndex": -1,
               "upgradeDesc_zh": "",
-              "upgradeDesc_en": "Stays <$ba.invisible>Invisible</> normally. The first attack made gains +64% <@ba.talpu>(+4%)</> ATK and removes <$ba.invisible>Invisibility</>. Regains <$ba.invisible>Invisible</> state after not attacking for 5 seconds",
-              "upgradeDesc_ja": "5秒間攻撃せずにいると、<$ba.invisible>ステルス</>状態になる。攻撃時、<$ba.invisible>ステルス</>状態を解除し、その攻撃のみ攻撃力+64%<@ba.talpu>（+4%）</>"
+              "upgradeDesc_en": "Stays <ba.invisible>Invisible</> normally. The first attack made gains +64% <@ba.talpu>(+4%)</> ATK and removes <ba.invisible>Invisibility</>. Regains <ba.invisible>Invisible</> state after not attacking for 5 seconds",
+              "upgradeDesc_ja": "5秒間攻撃せずにいると、<ba.invisible>ステルス</>状態になる。攻撃時、<ba.invisible>ステルス</>状態を解除し、その攻撃のみ攻撃力+64%<@ba.talpu>（+4%）</>"
             }
           ],
           "attributeBlackboard": [
@@ -15193,9 +15193,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "平时处于<$ba.invisible>隐匿</>状态，攻击时会解除<$ba.invisible>隐匿</>状态，且当次攻击的攻击力+59%<@ba.talpu>（+4%）</>。停止攻击5秒后，重新进入<$ba.invisible>隐匿</>状态",
-              "upgradeDesc_en": "Stays <$ba.invisible>Invisible</> normally. The first attack made gains +59% <@ba.talpu>(+4%)</> ATK and removes <$ba.invisible>Invisibility</>. Regains <$ba.invisible>Invisible</> state after not attacking for 5 seconds",
-              "upgradeDesc_ja": "5秒間攻撃せずにいると、<$ba.invisible>ステルス</>状態になる。攻撃時、<$ba.invisible>ステルス</>状態を解除し、その攻撃のみ攻撃力+59%<@ba.talpu>（+4%）</>"
+              "upgradeDesc_zh": "平时处于<ba.invisible>隐匿</>状态，攻击时会解除<ba.invisible>隐匿</>状态，且当次攻击的攻击力+59%<@ba.talpu>（+4%）</>。停止攻击5秒后，重新进入<ba.invisible>隐匿</>状态",
+              "upgradeDesc_en": "Stays <ba.invisible>Invisible</> normally. The first attack made gains +59% <@ba.talpu>(+4%)</> ATK and removes <ba.invisible>Invisibility</>. Regains <ba.invisible>Invisible</> state after not attacking for 5 seconds",
+              "upgradeDesc_ja": "5秒間攻撃せずにいると、<ba.invisible>ステルス</>状態になる。攻撃時、<ba.invisible>ステルス</>状態を解除し、その攻撃のみ攻撃力+59%<@ba.talpu>（+4%）</>"
             },
             {
               "resKey": "mantic_equip_1_2_p1",
@@ -15243,9 +15243,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "平时处于<$ba.invisible>隐匿</>状态，攻击时会解除<$ba.invisible>隐匿</>状态，且当次攻击的攻击力+64%<@ba.talpu>（+4%）</>。停止攻击5秒后，重新进入<$ba.invisible>隐匿</>状态",
-              "upgradeDesc_en": "Stays <$ba.invisible>Invisible</> normally. The first attack made gains +64% <@ba.talpu>(+4%)</> ATK and removes <$ba.invisible>Invisibility</>. Regains <$ba.invisible>Invisible</> state after not attacking for 5 seconds",
-              "upgradeDesc_ja": "5秒間攻撃せずにいると、<$ba.invisible>ステルス</>状態になる。攻撃時、<$ba.invisible>ステルス</>状態を解除し、その攻撃のみ攻撃力+64%<@ba.talpu>（+4%）</>"
+              "upgradeDesc_zh": "平时处于<ba.invisible>隐匿</>状态，攻击时会解除<ba.invisible>隐匿</>状态，且当次攻击的攻击力+64%<@ba.talpu>（+4%）</>。停止攻击5秒后，重新进入<ba.invisible>隐匿</>状态",
+              "upgradeDesc_en": "Stays <ba.invisible>Invisible</> normally. The first attack made gains +64% <@ba.talpu>(+4%)</> ATK and removes <ba.invisible>Invisibility</>. Regains <ba.invisible>Invisible</> state after not attacking for 5 seconds",
+              "upgradeDesc_ja": "5秒間攻撃せずにいると、<ba.invisible>ステルス</>状態になる。攻撃時、<ba.invisible>ステルス</>状態を解除し、その攻撃のみ攻撃力+64%<@ba.talpu>（+4%）</>"
             },
             {
               "resKey": "mantic_equip_1_3_p1",
@@ -15480,8 +15480,8 @@
               "rangeId": null,
               "talentIndex": -1,
               "upgradeDesc_zh": "",
-              "upgradeDesc_en": "When attacking, has a 28% chance to <$ba.root>Bind</> the target for 3.5 seconds",
-              "upgradeDesc_ja": "攻撃時、28％の確率で攻撃した敵を3.5秒間<$ba.root>バインド</>させる"
+              "upgradeDesc_en": "When attacking, has a 28% chance to <ba.root>Bind</> the target for 3.5 seconds",
+              "upgradeDesc_ja": "攻撃時、28％の確率で攻撃した敵を3.5秒間<ba.root>バインド</>させる"
             }
           ],
           "attributeBlackboard": [
@@ -15517,9 +15517,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "攻击时有25%的几率使目标<$ba.root>束缚</>3.5秒",
-              "upgradeDesc_en": "When attacking, has a 25% chance to <$ba.root>Bind</> the target for 3.5 seconds",
-              "upgradeDesc_ja": "攻撃時、25％の確率で攻撃した敵を3.5秒間<$ba.root>バインド</>させる"
+              "upgradeDesc_zh": "攻击时有25%的几率使目标<ba.root>束缚</>3.5秒",
+              "upgradeDesc_en": "When attacking, has a 25% chance to <ba.root>Bind</> the target for 3.5 seconds",
+              "upgradeDesc_ja": "攻撃時、25％の確率で攻撃した敵を3.5秒間<ba.root>バインド</>させる"
             },
             {
               "resKey": "ethan_equip_1_2_p1",
@@ -15567,9 +15567,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "攻击时有28%的几率使目标<$ba.root>束缚</>3.5秒",
-              "upgradeDesc_en": "When attacking, has a 28% chance to <$ba.root>Bind</> the target for 3.5 seconds",
-              "upgradeDesc_ja": "攻撃時、28％の確率で攻撃した敵を3.5秒間<$ba.root>バインド</>させる"
+              "upgradeDesc_zh": "攻击时有28%的几率使目标<ba.root>束缚</>3.5秒",
+              "upgradeDesc_en": "When attacking, has a 28% chance to <ba.root>Bind</> the target for 3.5 seconds",
+              "upgradeDesc_ja": "攻撃時、28％の確率で攻撃した敵を3.5秒間<ba.root>バインド</>させる"
             },
             {
               "resKey": "ethan_equip_1_3_p1",
@@ -16988,9 +16988,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 1,
-              "upgradeDesc_zh": "部署后立即获得3层<$ba.shield>护盾</>，每层护盾破裂时，攻击力+5%，防御力+5%且获得2点技力",
-              "upgradeDesc_en": "After deployment, immediately gains 3 <$ba.shield>Shield</>. When a shield is broken, ATK +5%, DEF +5%, and gain 2 SP",
-              "upgradeDesc_ja": "配置後、<$ba.shield>シールド</>を3枚形成する、<$ba.shield>シールド</>が消耗される時、攻撃力と防御力+5％、SPを2回復"
+              "upgradeDesc_zh": "部署后立即获得3层<ba.shield>护盾</>，每层护盾破裂时，攻击力+5%，防御力+5%且获得2点技力",
+              "upgradeDesc_en": "After deployment, immediately gains 3 <ba.shield>Shield</>. When a shield is broken, ATK +5%, DEF +5%, and gain 2 SP",
+              "upgradeDesc_ja": "配置後、<ba.shield>シールド</>を3枚形成する、<ba.shield>シールド</>が消耗される時、攻撃力と防御力+5％、SPを2回復"
             }
           ],
           "attributeBlackboard": [
@@ -17030,9 +17030,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 1,
-              "upgradeDesc_zh": "部署后立即获得3层<$ba.shield>护盾</>，每层护盾破裂时，攻击力+7%，防御力+7%且获得3点技力",
-              "upgradeDesc_en": "After deployment, immediately gains 3 <$ba.shield>Shield</>. When a shield is broken, ATK +7%, DEF +7%, and gain 3 SP",
-              "upgradeDesc_ja": "配置後、<$ba.shield>シールド</>を3枚形成する、<$ba.shield>シールド</>が消耗される時、攻撃力と防御力+7％、SPを3回復"
+              "upgradeDesc_zh": "部署后立即获得3层<ba.shield>护盾</>，每层护盾破裂时，攻击力+7%，防御力+7%且获得3点技力",
+              "upgradeDesc_en": "After deployment, immediately gains 3 <ba.shield>Shield</>. When a shield is broken, ATK +7%, DEF +7%, and gain 3 SP",
+              "upgradeDesc_ja": "配置後、<ba.shield>シールド</>を3枚形成する、<ba.shield>シールド</>が消耗される時、攻撃力と防御力+7％、SPを3回復"
             }
           ],
           "attributeBlackboard": [
@@ -17305,9 +17305,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "生命值高于一半时，攻击造成122%<@ba.talpu>（+2%）</>伤害；生命值不高于一半时，获得27%<@ba.talpu>（+2%）</>的<$ba.protect>庇护</>",
-              "upgradeDesc_en": "When HP is above 50%, attacks deal 122%<@ba.talpu>(+2%)</> damage; when HP is 50% or lower, gain 27%<@ba.talpu>(+2%)</> <$ba.protect>Sanctuary</>",
-              "upgradeDesc_ja": "HPが最大値の50％を超える時、攻撃の与ダメージが122%<@ba.talpu>（+2%）</>まで上昇\nHPが最大値の50％以下時、自身が27%<@ba.talpu>（+2%）</>の<$ba.protect>加護</>状態を獲得"
+              "upgradeDesc_zh": "生命值高于一半时，攻击造成122%<@ba.talpu>（+2%）</>伤害；生命值不高于一半时，获得27%<@ba.talpu>（+2%）</>的<ba.protect>庇护</>",
+              "upgradeDesc_en": "When HP is above 50%, attacks deal 122%<@ba.talpu>(+2%)</> damage; when HP is 50% or lower, gain 27%<@ba.talpu>(+2%)</> <ba.protect>Sanctuary</>",
+              "upgradeDesc_ja": "HPが最大値の50％を超える時、攻撃の与ダメージが122%<@ba.talpu>（+2%）</>まで上昇\nHPが最大値の50％以下時、自身が27%<@ba.talpu>（+2%）</>の<ba.protect>加護</>状態を獲得"
             }
           ],
           "attributeBlackboard": [
@@ -17343,9 +17343,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "生命值高于一半时，攻击造成125%<@ba.talpu>（+2%）</>伤害；生命值不高于一半时，获得30%<@ba.talpu>（+2%）</>的<$ba.protect>庇护</>",
-              "upgradeDesc_en": "When HP is above 50%, attacks deal 125%<@ba.talpu>(+2%)</> damage; when HP is 50% or lower, gain 30%<@ba.talpu>(+2%)</> <$ba.protect>Sanctuary</>",
-              "upgradeDesc_ja": "HPが最大値の50％を超える時、攻撃の与ダメージが125%<@ba.talpu>（+2%）</>まで上昇\nHPが最大値の50％以下時、自身が30%<@ba.talpu>（+2%）</>の<$ba.protect>加護</>状態を獲得"
+              "upgradeDesc_zh": "生命值高于一半时，攻击造成125%<@ba.talpu>（+2%）</>伤害；生命值不高于一半时，获得30%<@ba.talpu>（+2%）</>的<ba.protect>庇护</>",
+              "upgradeDesc_en": "When HP is above 50%, attacks deal 125%<@ba.talpu>(+2%)</> damage; when HP is 50% or lower, gain 30%<@ba.talpu>(+2%)</> <ba.protect>Sanctuary</>",
+              "upgradeDesc_ja": "HPが最大値の50％を超える時、攻撃の与ダメージが125%<@ba.talpu>（+2%）</>まで上昇\nHPが最大値の50％以下時、自身が30%<@ba.talpu>（+2%）</>の<ba.protect>加護</>状態を獲得"
             }
           ],
           "attributeBlackboard": [
@@ -17607,9 +17607,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 1,
-              "upgradeDesc_zh": "Mon3tr在生命值首次低于50%和被击倒后（不包括撤退）使周围8格内所有敌人<$ba.stun>晕眩</>3.5<@ba.talpu>（+0.5）</>秒并对其造成1400<@ba.talpu>（+200）</>点真实伤害",
-              "upgradeDesc_en": "When Mon3tr is defeated (excluding retreat) or if its HP drops below 50% for the first time, all enemies in the surrounding 8 tiles are <$ba.stun>Stunned</> for 3.5 <@ba.talpu>(+0.5)</> seconds and receive 1400 <@ba.talpu>(+200)</> True damage",
-              "upgradeDesc_ja": "「Mon3tr」が配置中初めてHPが最大値の50％未満になる時と倒された時（撤退時発動せず）、周囲8マス内にいる敵全員に1400<@ba.talpu>（+200）</>の確定ダメージを与え、3.5<@ba.talpu>（+0.5）</>秒間<$ba.stun>スタン</>させる"
+              "upgradeDesc_zh": "Mon3tr在生命值首次低于50%和被击倒后（不包括撤退）使周围8格内所有敌人<ba.stun>晕眩</>3.5<@ba.talpu>（+0.5）</>秒并对其造成1400<@ba.talpu>（+200）</>点真实伤害",
+              "upgradeDesc_en": "When Mon3tr is defeated (excluding retreat) or if its HP drops below 50% for the first time, all enemies in the surrounding 8 tiles are <ba.stun>Stunned</> for 3.5 <@ba.talpu>(+0.5)</> seconds and receive 1400 <@ba.talpu>(+200)</> True damage",
+              "upgradeDesc_ja": "「Mon3tr」が配置中初めてHPが最大値の50％未満になる時と倒された時（撤退時発動せず）、周囲8マス内にいる敵全員に1400<@ba.talpu>（+200）</>の確定ダメージを与え、3.5<@ba.talpu>（+0.5）</>秒間<ba.stun>スタン</>させる"
             },
             {
               "resKey": null,
@@ -17619,9 +17619,9 @@
               "displayRangeId": false,
               "rangeId": "x-4",
               "talentIndex": 1,
-              "upgradeDesc_zh": "生命值首次低于50%和被击倒后（不包括撤退）使周围8格内所有敌人<$ba.stun>晕眩</>3.5<@ba.talpu>（+0.5）</>秒并对其造成1400<@ba.talpu>（+200）</>点真实伤害",
-              "upgradeDesc_en": "When defeated (excluding retreat) or on falling below 50% HP for the first time, all enemies in the surrounding 8 tiles are <$ba.stun>Stunned</> for 3.5 <@ba.talpu>(+0.5)</> seconds and receive 1400 <@ba.talpu>(+200)</> True damage",
-              "upgradeDesc_ja": "初めてHPが最大値の50％未満になる時と倒された時（撤退時発動せず）、周囲8マス内にいる敵全員に1400<@ba.talpu>（+200）</>の確定ダメージを与え、3.5<@ba.talpu>（+0.5）</>秒間<$ba.stun>スタン</>させる"
+              "upgradeDesc_zh": "生命值首次低于50%和被击倒后（不包括撤退）使周围8格内所有敌人<ba.stun>晕眩</>3.5<@ba.talpu>（+0.5）</>秒并对其造成1400<@ba.talpu>（+200）</>点真实伤害",
+              "upgradeDesc_en": "When defeated (excluding retreat) or on falling below 50% HP for the first time, all enemies in the surrounding 8 tiles are <ba.stun>Stunned</> for 3.5 <@ba.talpu>(+0.5)</> seconds and receive 1400 <@ba.talpu>(+200)</> True damage",
+              "upgradeDesc_ja": "初めてHPが最大値の50％未満になる時と倒された時（撤退時発動せず）、周囲8マス内にいる敵全員に1400<@ba.talpu>（+200）</>の確定ダメージを与え、3.5<@ba.talpu>（+0.5）</>秒間<ba.stun>スタン</>させる"
             },
             {
               "resKey": "kalts_equip_1_2_p2",
@@ -17669,9 +17669,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 1,
-              "upgradeDesc_zh": "Mon3tr在生命值首次低于50%和被击倒后（不包括撤退）使周围8格内所有敌人<$ba.stun>晕眩</>4<@ba.talpu>（+0.5）</>秒并对其造成1700<@ba.talpu>（+200）</>点真实伤害",
-              "upgradeDesc_en": "When Mon3tr is defeated (excluding retreat) or if its HP drops below 50% for the first time, all enemies in the surrounding 8 tiles are <$ba.stun>Stunned</> for 4 <@ba.talpu>(+0.5)</> seconds and receive 1700 <@ba.talpu>(+200)</> True damage",
-              "upgradeDesc_ja": "「Mon3tr」が配置中初めてHPが最大値の50％未満になる時と倒された時（撤退時発動せず）、周囲8マス内にいる敵全員に1700<@ba.talpu>（+200）</>の確定ダメージを与え、4<@ba.talpu>（+0.5）</>秒間<$ba.stun>スタン</>させる"
+              "upgradeDesc_zh": "Mon3tr在生命值首次低于50%和被击倒后（不包括撤退）使周围8格内所有敌人<ba.stun>晕眩</>4<@ba.talpu>（+0.5）</>秒并对其造成1700<@ba.talpu>（+200）</>点真实伤害",
+              "upgradeDesc_en": "When Mon3tr is defeated (excluding retreat) or if its HP drops below 50% for the first time, all enemies in the surrounding 8 tiles are <ba.stun>Stunned</> for 4 <@ba.talpu>(+0.5)</> seconds and receive 1700 <@ba.talpu>(+200)</> True damage",
+              "upgradeDesc_ja": "「Mon3tr」が配置中初めてHPが最大値の50％未満になる時と倒された時（撤退時発動せず）、周囲8マス内にいる敵全員に1700<@ba.talpu>（+200）</>の確定ダメージを与え、4<@ba.talpu>（+0.5）</>秒間<ba.stun>スタン</>させる"
             },
             {
               "resKey": null,
@@ -17681,9 +17681,9 @@
               "displayRangeId": false,
               "rangeId": "x-4",
               "talentIndex": 1,
-              "upgradeDesc_zh": "生命值首次低于50%和被击倒后（不包括撤退）使周围8格内所有敌人<$ba.stun>晕眩</>4<@ba.talpu>（+0.5）</>秒并对其造成1700<@ba.talpu>（+200）</>点真实伤害",
-              "upgradeDesc_en": "When defeated (excluding retreat) or on falling below 50% HP for the first time, all enemies in the surrounding 8 tiles are <$ba.stun>Stunned</> for 4 <@ba.talpu>(+0.5)</> seconds and receive 1700 <@ba.talpu>(+200)</> True damage",
-              "upgradeDesc_ja": "初めてHPが最大値の50％未満になる時と倒された時（撤退時発動せず）、周囲8マス内にいる敵全員に1700<@ba.talpu>（+200）</>の確定ダメージを与え、4<@ba.talpu>（+0.5）</>秒間<$ba.stun>スタン</>させる"
+              "upgradeDesc_zh": "生命值首次低于50%和被击倒后（不包括撤退）使周围8格内所有敌人<ba.stun>晕眩</>4<@ba.talpu>（+0.5）</>秒并对其造成1700<@ba.talpu>（+200）</>点真实伤害",
+              "upgradeDesc_en": "When defeated (excluding retreat) or on falling below 50% HP for the first time, all enemies in the surrounding 8 tiles are <ba.stun>Stunned</> for 4 <@ba.talpu>(+0.5)</> seconds and receive 1700 <@ba.talpu>(+200)</> True damage",
+              "upgradeDesc_ja": "初めてHPが最大値の50％未満になる時と倒された時（撤退時発動せず）、周囲8マス内にいる敵全員に1700<@ba.talpu>（+200）</>の確定ダメージを与え、4<@ba.talpu>（+0.5）</>秒間<ba.stun>スタン</>させる"
             },
             {
               "resKey": "kalts_equip_1_3_p2",
@@ -18042,9 +18042,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "拥有<$ba.buffres>抵抗</>且受到来自自然环境的伤害-50%<@ba.talpu>（+10%）</>，攻击范围内的其他友方角色受到来自自然环境的伤害-15%",
-              "upgradeDesc_en": "Gains <$ba.buffres>status resistance</> and -50%<@ba.talpu>(+10%)</> damage taken from environmental effects. Other allies within range take -15% damage from environmental effects",
-              "upgradeDesc_ja": "配置後、自身が<$ba.buffres>レジスト</>状態になり、自然環境からの被ダメージ-50%<@ba.talpu>（+10%）</>、攻撃範囲内の他の味方も自然環境からの被ダメージ-15％"
+              "upgradeDesc_zh": "拥有<ba.buffres>抵抗</>且受到来自自然环境的伤害-50%<@ba.talpu>（+10%）</>，攻击范围内的其他友方角色受到来自自然环境的伤害-15%",
+              "upgradeDesc_en": "Gains <ba.buffres>status resistance</> and -50%<@ba.talpu>(+10%)</> damage taken from environmental effects. Other allies within range take -15% damage from environmental effects",
+              "upgradeDesc_ja": "配置後、自身が<ba.buffres>レジスト</>状態になり、自然環境からの被ダメージ-50%<@ba.talpu>（+10%）</>、攻撃範囲内の他の味方も自然環境からの被ダメージ-15％"
             }
           ],
           "attributeBlackboard": [
@@ -18080,9 +18080,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "拥有<$ba.buffres>抵抗</>且受到来自自然环境的伤害-50%<@ba.talpu>（+10%）</>，攻击范围内的其他友方角色受到来自自然环境的伤害-25%",
-              "upgradeDesc_en": "Gains <$ba.buffres>status resistance</> and -50%<@ba.talpu>(+10%)</> damage taken from environmental effects. Other allies within range take -25% damage from environmental effects",
-              "upgradeDesc_ja": "配置後、自身が<$ba.buffres>レジスト</>状態になり、自然環境からの被ダメージ-50%<@ba.talpu>（+10%）</>、攻撃範囲内の他の味方も自然環境からの被ダメージ-25％"
+              "upgradeDesc_zh": "拥有<ba.buffres>抵抗</>且受到来自自然环境的伤害-50%<@ba.talpu>（+10%）</>，攻击范围内的其他友方角色受到来自自然环境的伤害-25%",
+              "upgradeDesc_en": "Gains <ba.buffres>status resistance</> and -50%<@ba.talpu>(+10%)</> damage taken from environmental effects. Other allies within range take -25% damage from environmental effects",
+              "upgradeDesc_ja": "配置後、自身が<ba.buffres>レジスト</>状態になり、自然環境からの被ダメージ-50%<@ba.talpu>（+10%）</>、攻撃範囲内の他の味方も自然環境からの被ダメージ-25％"
             }
           ],
           "attributeBlackboard": [
@@ -20705,9 +20705,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "未开启技能时，获得<$ba.camou>迷彩</>，开启技能后攻击间隔小幅度缩短",
-              "upgradeDesc_en": "Gains <$ba.camou>Camouflage</> while this unit's skill is not active; Attack Interval reduced slightly after skill activation",
-              "upgradeDesc_ja": "スキル未発動時、<$ba.camou>迷彩</>状態になる。スキル発動中、通常攻撃の間隔をやや短縮"
+              "upgradeDesc_zh": "未开启技能时，获得<ba.camou>迷彩</>，开启技能后攻击间隔小幅度缩短",
+              "upgradeDesc_en": "Gains <ba.camou>Camouflage</> while this unit's skill is not active; Attack Interval reduced slightly after skill activation",
+              "upgradeDesc_ja": "スキル未発動時、<ba.camou>迷彩</>状態になる。スキル発動中、通常攻撃の間隔をやや短縮"
             }
           ],
           "attributeBlackboard": [
@@ -20743,9 +20743,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "未开启技能时，获得<$ba.camou>迷彩</>，开启技能后攻击间隔缩短",
-              "upgradeDesc_en": "Gains <$ba.camou>Camouflage</> while this unit's skill is not active; Attack Interval reduced after skill activation",
-              "upgradeDesc_ja": "スキル未発動時、<$ba.camou>迷彩</>状態になる。スキル発動中、通常攻撃の間隔を短縮"
+              "upgradeDesc_zh": "未开启技能时，获得<ba.camou>迷彩</>，开启技能后攻击间隔缩短",
+              "upgradeDesc_en": "Gains <ba.camou>Camouflage</> while this unit's skill is not active; Attack Interval reduced after skill activation",
+              "upgradeDesc_ja": "スキル未発動時、<ba.camou>迷彩</>状態になる。スキル発動中、通常攻撃の間隔を短縮"
             }
           ],
           "attributeBlackboard": [
@@ -21143,9 +21143,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "可以攻击<$ba.invisible>隐匿</>敌人，并且攻击范围内存在<$ba.invisible>隐匿</>敌人时，攻击力+25%<@ba.talpu>（+3%）</>",
-              "upgradeDesc_en": "Can attack <$ba.invisible>Invisible</> enemies. If there are <$ba.invisible>Invisible</> enemies within attack range, ATK +25% <@ba.talpu>(+3%)</>",
-              "upgradeDesc_ja": "<$ba.invisible>ステルス</>状態の敵を攻撃でき、攻撃範囲内に<$ba.invisible>ステルス</>状態の敵がいる場合、攻撃力+25％<@ba.talpu>（+3％）</>"
+              "upgradeDesc_zh": "可以攻击<ba.invisible>隐匿</>敌人，并且攻击范围内存在<ba.invisible>隐匿</>敌人时，攻击力+25%<@ba.talpu>（+3%）</>",
+              "upgradeDesc_en": "Can attack <ba.invisible>Invisible</> enemies. If there are <ba.invisible>Invisible</> enemies within attack range, ATK +25% <@ba.talpu>(+3%)</>",
+              "upgradeDesc_ja": "<ba.invisible>ステルス</>状態の敵を攻撃でき、攻撃範囲内に<ba.invisible>ステルス</>状態の敵がいる場合、攻撃力+25％<@ba.talpu>（+3％）</>"
             }
           ],
           "attributeBlackboard": [
@@ -21193,9 +21193,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "可以攻击<$ba.invisible>隐匿</>敌人，并且攻击范围内存在<$ba.invisible>隐匿</>敌人时，攻击力+30%<@ba.talpu>（+3%）</>",
-              "upgradeDesc_en": "Can attack <$ba.invisible>Invisible</> enemies. If there are <$ba.invisible>Invisible</> enemies within attack range, ATK +30% <@ba.talpu>(+3%)</>",
-              "upgradeDesc_ja": "<$ba.invisible>ステルス</>状態の敵を攻撃でき、攻撃範囲内に<$ba.invisible>ステルス</>状態の敵がいる場合、攻撃力+30％<@ba.talpu>（+3％）</>"
+              "upgradeDesc_zh": "可以攻击<ba.invisible>隐匿</>敌人，并且攻击范围内存在<ba.invisible>隐匿</>敌人时，攻击力+30%<@ba.talpu>（+3%）</>",
+              "upgradeDesc_en": "Can attack <ba.invisible>Invisible</> enemies. If there are <ba.invisible>Invisible</> enemies within attack range, ATK +30% <@ba.talpu>(+3%)</>",
+              "upgradeDesc_ja": "<ba.invisible>ステルス</>状態の敵を攻撃でき、攻撃範囲内に<ba.invisible>ステルス</>状態の敵がいる場合、攻撃力+30％<@ba.talpu>（+3％）</>"
             }
           ],
           "attributeBlackboard": [
@@ -21467,9 +21467,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "自身可以攻击<$ba.sleep>沉睡</>的敌人，并且攻击<$ba.sleep>沉睡</>敌人时无视其防御力的55%",
-              "upgradeDesc_en": "Can attack <$ba.sleep>Sleeping</> enemies, and ignores 55% DEF when attacking <$ba.sleep>Sleeping</> enemies",
-              "upgradeDesc_ja": "<$ba.sleep>睡眠</>状態の敵を攻撃でき、<$ba.sleep>睡眠</>状態の敵を攻撃時、敵の防御力を55％無視"
+              "upgradeDesc_zh": "自身可以攻击<ba.sleep>沉睡</>的敌人，并且攻击<ba.sleep>沉睡</>敌人时无视其防御力的55%",
+              "upgradeDesc_en": "Can attack <ba.sleep>Sleeping</> enemies, and ignores 55% DEF when attacking <ba.sleep>Sleeping</> enemies",
+              "upgradeDesc_ja": "<ba.sleep>睡眠</>状態の敵を攻撃でき、<ba.sleep>睡眠</>状態の敵を攻撃時、敵の防御力を55％無視"
             }
           ],
           "attributeBlackboard": [
@@ -21517,9 +21517,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "自身可以攻击<$ba.sleep>沉睡</>的敌人，并且攻击<$ba.sleep>沉睡</>敌人时无视其防御力的60%",
-              "upgradeDesc_en": "Can attack <$ba.sleep>Sleeping</> enemies, and ignores 60% DEF when attacking <$ba.sleep>Sleeping</> enemies",
-              "upgradeDesc_ja": "<$ba.sleep>睡眠</>状態の敵を攻撃でき、<$ba.sleep>睡眠</>状態の敵を攻撃時、敵の防御力を60％無視"
+              "upgradeDesc_zh": "自身可以攻击<ba.sleep>沉睡</>的敌人，并且攻击<ba.sleep>沉睡</>敌人时无视其防御力的60%",
+              "upgradeDesc_en": "Can attack <ba.sleep>Sleeping</> enemies, and ignores 60% DEF when attacking <ba.sleep>Sleeping</> enemies",
+              "upgradeDesc_ja": "<ba.sleep>睡眠</>状態の敵を攻撃でき、<ba.sleep>睡眠</>状態の敵を攻撃時、敵の防御力を60％無視"
             }
           ],
           "attributeBlackboard": [
@@ -21564,9 +21564,9 @@
               "resKey": null,
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
-              "addDesc_zh": "生命值低于50%时，获得25%的<$ba.protect>庇护</>",
-              "addDesc_en": "Gain 25% <$ba.protect>Sanctuary</> when HP is below 50%",
-              "addDesc_ja": "HPが50％未満の時、25％の<$ba.protect>加護</>状態を獲得",
+              "addDesc_zh": "生命值低于50%时，获得25%的<ba.protect>庇护</>",
+              "addDesc_en": "Gain 25% <ba.protect>Sanctuary</> when HP is below 50%",
+              "addDesc_ja": "HPが50％未満の時、25％の<ba.protect>加護</>状態を獲得",
               "overrideDesc_zh": null,
               "overrideDesc_en": null,
               "overrideDesc_ja": null
@@ -21602,9 +21602,9 @@
               "resKey": null,
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
-              "addDesc_zh": "生命值低于50%时，获得25%的<$ba.protect>庇护</>",
-              "addDesc_en": "Gain 25% <$ba.protect>Sanctuary</> when HP is below 50%",
-              "addDesc_ja": "HPが50％未満の時、25％の<$ba.protect>加護</>状態を獲得",
+              "addDesc_zh": "生命值低于50%时，获得25%的<ba.protect>庇护</>",
+              "addDesc_en": "Gain 25% <ba.protect>Sanctuary</> when HP is below 50%",
+              "addDesc_ja": "HPが50％未満の時、25％の<ba.protect>加護</>状態を獲得",
               "overrideDesc_zh": null,
               "overrideDesc_en": null,
               "overrideDesc_ja": null
@@ -21629,9 +21629,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "在场时，自身获得最高+120攻击速度的<$ba.berserk>坚忍</>（损失60%生命值时达到最大加成）",
-              "upgradeDesc_en": "Gains up to +120 ASPD <$ba.berserk>Tenacity</> (reaches maximum bonus when losing 60% Max HP)",
-              "upgradeDesc_ja": "配置中、最大で攻撃速度+120の<$ba.berserk>不屈</>状態を獲得する（HPが最大値の60%減少時、効果最大）"
+              "upgradeDesc_zh": "在场时，自身获得最高+120攻击速度的<ba.berserk>坚忍</>（损失60%生命值时达到最大加成）",
+              "upgradeDesc_en": "Gains up to +120 ASPD <ba.berserk>Tenacity</> (reaches maximum bonus when losing 60% Max HP)",
+              "upgradeDesc_ja": "配置中、最大で攻撃速度+120の<ba.berserk>不屈</>状態を獲得する（HPが最大値の60%減少時、効果最大）"
             }
           ],
           "attributeBlackboard": [
@@ -21652,9 +21652,9 @@
               "resKey": null,
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
-              "addDesc_zh": "生命值低于50%时，获得25%的<$ba.protect>庇护</>",
-              "addDesc_en": "Gain 25% <$ba.protect>Sanctuary</> when HP is below 50%",
-              "addDesc_ja": "HPが50％未満の時、25％の<$ba.protect>加護</>状態を獲得",
+              "addDesc_zh": "生命值低于50%时，获得25%的<ba.protect>庇护</>",
+              "addDesc_en": "Gain 25% <ba.protect>Sanctuary</> when HP is below 50%",
+              "addDesc_ja": "HPが50％未満の時、25％の<ba.protect>加護</>状態を獲得",
               "overrideDesc_zh": null,
               "overrideDesc_en": null,
               "overrideDesc_ja": null
@@ -21679,9 +21679,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "在场时，自身获得最高+130攻击速度的<$ba.berserk>坚忍</>（损失50%生命值时达到最大加成）",
-              "upgradeDesc_en": "Gains up to +130 ASPD <$ba.berserk>Tenacity</> (reaches maximum bonus when losing 50% Max HP)",
-              "upgradeDesc_ja": "配置中、最大で攻撃速度+130の<$ba.berserk>不屈</>状態を獲得する（HPが最大値の50%減少時、効果最大）"
+              "upgradeDesc_zh": "在场时，自身获得最高+130攻击速度的<ba.berserk>坚忍</>（损失50%生命值时达到最大加成）",
+              "upgradeDesc_en": "Gains up to +130 ASPD <ba.berserk>Tenacity</> (reaches maximum bonus when losing 50% Max HP)",
+              "upgradeDesc_ja": "配置中、最大で攻撃速度+130の<ba.berserk>不屈</>状態を獲得する（HPが最大値の50%減少時、効果最大）"
             }
           ],
           "attributeBlackboard": [
@@ -21735,9 +21735,9 @@
               "resKey": null,
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
-              "addDesc_zh": "生命值低于50%时，获得25%的<$ba.protect>庇护</>",
-              "addDesc_en": "Gain 25% <$ba.protect>Sanctuary</> when HP is below 50%",
-              "addDesc_ja": "HPが50％未満の時、25％の<$ba.protect>加護</>状態を獲得",
+              "addDesc_zh": "生命值低于50%时，获得25%的<ba.protect>庇护</>",
+              "addDesc_en": "Gain 25% <ba.protect>Sanctuary</> when HP is below 50%",
+              "addDesc_ja": "HPが50％未満の時、25％の<ba.protect>加護</>状態を獲得",
               "overrideDesc_zh": null,
               "overrideDesc_en": null,
               "overrideDesc_ja": null
@@ -21773,9 +21773,9 @@
               "resKey": null,
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
-              "addDesc_zh": "生命值低于50%时，获得25%的<$ba.protect>庇护</>",
-              "addDesc_en": "Gain 25% <$ba.protect>Sanctuary</> when HP is below 50%",
-              "addDesc_ja": "HPが50％未満の時、25％の<$ba.protect>加護</>状態を獲得",
+              "addDesc_zh": "生命值低于50%时，获得25%的<ba.protect>庇护</>",
+              "addDesc_en": "Gain 25% <ba.protect>Sanctuary</> when HP is below 50%",
+              "addDesc_ja": "HPが50％未満の時、25％の<ba.protect>加護</>状態を獲得",
               "overrideDesc_zh": null,
               "overrideDesc_en": null,
               "overrideDesc_ja": null
@@ -21823,9 +21823,9 @@
               "resKey": null,
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
-              "addDesc_zh": "生命值低于50%时，获得25%的<$ba.protect>庇护</>",
-              "addDesc_en": "Gain 25% <$ba.protect>Sanctuary</> when HP is below 50%",
-              "addDesc_ja": "HPが50％未満の時、25％の<$ba.protect>加護</>状態を獲得",
+              "addDesc_zh": "生命值低于50%时，获得25%的<ba.protect>庇护</>",
+              "addDesc_en": "Gain 25% <ba.protect>Sanctuary</> when HP is below 50%",
+              "addDesc_ja": "HPが50％未満の時、25％の<ba.protect>加護</>状態を獲得",
               "overrideDesc_zh": null,
               "overrideDesc_en": null,
               "overrideDesc_ja": null
@@ -21902,9 +21902,9 @@
               "resKey": null,
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
-              "addDesc_zh": "生命值低于50%时，获得25%的<$ba.protect>庇护</>",
-              "addDesc_en": "Gain 25% <$ba.protect>Sanctuary</> when HP is below 50%",
-              "addDesc_ja": "HPが50％未満の時、25％の<$ba.protect>加護</>状態を獲得",
+              "addDesc_zh": "生命值低于50%时，获得25%的<ba.protect>庇护</>",
+              "addDesc_en": "Gain 25% <ba.protect>Sanctuary</> when HP is below 50%",
+              "addDesc_ja": "HPが50％未満の時、25％の<ba.protect>加護</>状態を獲得",
               "overrideDesc_zh": null,
               "overrideDesc_en": null,
               "overrideDesc_ja": null
@@ -21940,9 +21940,9 @@
               "resKey": null,
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
-              "addDesc_zh": "生命值低于50%时，获得25%的<$ba.protect>庇护</>",
-              "addDesc_en": "Gain 25% <$ba.protect>Sanctuary</> when HP is below 50%",
-              "addDesc_ja": "HPが50％未満の時、25％の<$ba.protect>加護</>状態を獲得",
+              "addDesc_zh": "生命值低于50%时，获得25%的<ba.protect>庇护</>",
+              "addDesc_en": "Gain 25% <ba.protect>Sanctuary</> when HP is below 50%",
+              "addDesc_ja": "HPが50％未満の時、25％の<ba.protect>加護</>状態を獲得",
               "overrideDesc_zh": null,
               "overrideDesc_en": null,
               "overrideDesc_ja": null
@@ -21990,9 +21990,9 @@
               "resKey": null,
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
-              "addDesc_zh": "生命值低于50%时，获得25%的<$ba.protect>庇护</>",
-              "addDesc_en": "Gain 25% <$ba.protect>Sanctuary</> when HP is below 50%",
-              "addDesc_ja": "HPが50％未満の時、25％の<$ba.protect>加護</>状態を獲得",
+              "addDesc_zh": "生命值低于50%时，获得25%的<ba.protect>庇护</>",
+              "addDesc_en": "Gain 25% <ba.protect>Sanctuary</> when HP is below 50%",
+              "addDesc_ja": "HPが50％未満の時、25％の<ba.protect>加護</>状態を獲得",
               "overrideDesc_zh": null,
               "overrideDesc_en": null,
               "overrideDesc_ja": null
@@ -23069,9 +23069,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "攻击范围内的所有空中单位获得27%<@ba.talpu>（+2%）</>的<$ba.magicfragile>【法术脆弱】</>效果",
-              "upgradeDesc_en": "Inflicts 27% <@ba.talpu>(+2%)</> <$ba.magicfragile>[Arts Fragility]</> on all Aerial units within range",
-              "upgradeDesc_ja": "攻撃範囲内にいるすべての飛行ユニットに27％<@ba.talpu>（+2％）</>の<$ba.magicfragile>【対術脆弱】</>を付与する"
+              "upgradeDesc_zh": "攻击范围内的所有空中单位获得27%<@ba.talpu>（+2%）</>的<ba.magicfragile>【法术脆弱】</>效果",
+              "upgradeDesc_en": "Inflicts 27% <@ba.talpu>(+2%)</> <ba.magicfragile>[Arts Fragility]</> on all Aerial units within range",
+              "upgradeDesc_ja": "攻撃範囲内にいるすべての飛行ユニットに27％<@ba.talpu>（+2％）</>の<ba.magicfragile>【対術脆弱】</>を付与する"
             }
           ],
           "attributeBlackboard": [
@@ -23107,9 +23107,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "攻击范围内的所有空中单位获得30%<@ba.talpu>（+2%）</>的<$ba.magicfragile>【法术脆弱】</>效果",
-              "upgradeDesc_en": "Inflicts 30% <@ba.talpu>(+2%)</> <$ba.magicfragile>[Arts Fragility]</> on all Aerial units within range",
-              "upgradeDesc_ja": "攻撃範囲内にいるすべての飛行ユニットに30％<@ba.talpu>（+2％）</>の<$ba.magicfragile>【対術脆弱】</>を付与する"
+              "upgradeDesc_zh": "攻击范围内的所有空中单位获得30%<@ba.talpu>（+2%）</>的<ba.magicfragile>【法术脆弱】</>效果",
+              "upgradeDesc_en": "Inflicts 30% <@ba.talpu>(+2%)</> <ba.magicfragile>[Arts Fragility]</> on all Aerial units within range",
+              "upgradeDesc_ja": "攻撃範囲内にいるすべての飛行ユニットに30％<@ba.talpu>（+2％）</>の<ba.magicfragile>【対術脆弱】</>を付与する"
             }
           ],
           "attributeBlackboard": [
@@ -25319,9 +25319,9 @@
               "resKey": null,
               "target": "DISPLAY",
               "isToken": false,
-              "addDesc_zh": "生命值低于50%时，获得25%的<$ba.protect>庇护</>",
-              "addDesc_en": "Gain 25% <$ba.protect>Sanctuary</> when HP is below 50%",
-              "addDesc_ja": "HPが50％未満の時、25％の<$ba.protect>加護</>状態を獲得",
+              "addDesc_zh": "生命值低于50%时，获得25%的<ba.protect>庇护</>",
+              "addDesc_en": "Gain 25% <ba.protect>Sanctuary</> when HP is below 50%",
+              "addDesc_ja": "HPが50％未満の時、25％の<ba.protect>加護</>状態を獲得",
               "overrideDesc_zh": null,
               "overrideDesc_en": null,
               "overrideDesc_ja": null
@@ -25357,9 +25357,9 @@
               "resKey": null,
               "target": "DISPLAY",
               "isToken": false,
-              "addDesc_zh": "生命值低于50%时，获得25%的<$ba.protect>庇护</>",
-              "addDesc_en": "Gain 25% <$ba.protect>Sanctuary</> when HP is below 50%",
-              "addDesc_ja": "HPが50％未満の時、25％の<$ba.protect>加護</>状態を獲得",
+              "addDesc_zh": "生命值低于50%时，获得25%的<ba.protect>庇护</>",
+              "addDesc_en": "Gain 25% <ba.protect>Sanctuary</> when HP is below 50%",
+              "addDesc_ja": "HPが50％未満の時、25％の<ba.protect>加護</>状態を獲得",
               "overrideDesc_zh": null,
               "overrideDesc_en": null,
               "overrideDesc_ja": null
@@ -25407,9 +25407,9 @@
               "resKey": null,
               "target": "DISPLAY",
               "isToken": false,
-              "addDesc_zh": "生命值低于50%时，获得25%的<$ba.protect>庇护</>",
-              "addDesc_en": "Gain 25% <$ba.protect>Sanctuary</> when HP is below 50%",
-              "addDesc_ja": "HPが50％未満の時、25％の<$ba.protect>加護</>状態を獲得",
+              "addDesc_zh": "生命值低于50%时，获得25%的<ba.protect>庇护</>",
+              "addDesc_en": "Gain 25% <ba.protect>Sanctuary</> when HP is below 50%",
+              "addDesc_ja": "HPが50％未満の時、25％の<ba.protect>加護</>状態を獲得",
               "overrideDesc_zh": null,
               "overrideDesc_en": null,
               "overrideDesc_ja": null
@@ -25535,9 +25535,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "技能期间提高自身30%生命值上限，开启技能时立即恢复45%<@ba.talpu>（+5%）</>最大生命值；\\n<$ba.charged>蓄力</>时效果翻倍",
-              "upgradeDesc_en": "+30% Max HP when skill is active, restores 45% <@ba.talpu>(+5%)</>Max HP when skill is activated; \nEffect is doubled when<$ba.charged>Charged</>",
-              "upgradeDesc_ja": "スキル発動中、最大HP+30%。スキル発動時にHPが最大値の45%<@ba.talpu>（+5%）</>回復\n<$ba.charged>オーバーチャージ</>効果発動時、HPの回復量が2倍になる"
+              "upgradeDesc_zh": "技能期间提高自身30%生命值上限，开启技能时立即恢复45%<@ba.talpu>（+5%）</>最大生命值；\\n<ba.charged>蓄力</>时效果翻倍",
+              "upgradeDesc_en": "+30% Max HP when skill is active, restores 45% <@ba.talpu>(+5%)</>Max HP when skill is activated; \nEffect is doubled when<ba.charged>Charged</>",
+              "upgradeDesc_ja": "スキル発動中、最大HP+30%。スキル発動時にHPが最大値の45%<@ba.talpu>（+5%）</>回復\n<ba.charged>オーバーチャージ</>効果発動時、HPの回復量が2倍になる"
             }
           ],
           "attributeBlackboard": [
@@ -25573,9 +25573,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "技能期间提高自身45%生命值上限，开启技能时立即恢复50%<@ba.talpu>（+5%）</>最大生命值；\\n<$ba.charged>蓄力</>时效果翻倍",
-              "upgradeDesc_en": "+45% Max HP when skill is active, restores 50% <@ba.talpu>(+5%)</>Max HP when skill is activated; \nEffect is doubled when<$ba.charged>Charged</>",
-              "upgradeDesc_ja": "スキル発動中、最大HP+45%。スキル発動時にHPが最大値の50%<@ba.talpu>（+5%）</>回復\n<$ba.charged>オーバーチャージ</>効果発動時、HPの回復量が2倍になる"
+              "upgradeDesc_zh": "技能期间提高自身45%生命值上限，开启技能时立即恢复50%<@ba.talpu>（+5%）</>最大生命值；\\n<ba.charged>蓄力</>时效果翻倍",
+              "upgradeDesc_en": "+45% Max HP when skill is active, restores 50% <@ba.talpu>(+5%)</>Max HP when skill is activated; \nEffect is doubled when<ba.charged>Charged</>",
+              "upgradeDesc_ja": "スキル発動中、最大HP+45%。スキル発動時にHPが最大値の50%<@ba.talpu>（+5%）</>回復\n<ba.charged>オーバーチャージ</>効果発動時、HPの回復量が2倍になる"
             }
           ],
           "attributeBlackboard": [
@@ -26652,9 +26652,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "在场时，自身获得最高+57%<@ba.talpu>（+2%）</>攻击力的<$ba.berserk>坚忍</>（损失70%生命值时达最大加成）",
-              "upgradeDesc_en": "Gains up to +57% <@ba.talpu>(+2%)</> ATK <$ba.berserk>Tenacity</> (reaches maximum bonus when losing 70% Max HP)",
-              "upgradeDesc_ja": "配置中、最大で攻撃力+57%<@ba.talpu>（+2%）</>の<$ba.berserk>不屈</>状態を獲得する（HPが最大値の70%減少時、効果最大）"
+              "upgradeDesc_zh": "在场时，自身获得最高+57%<@ba.talpu>（+2%）</>攻击力的<ba.berserk>坚忍</>（损失70%生命值时达最大加成）",
+              "upgradeDesc_en": "Gains up to +57% <@ba.talpu>(+2%)</> ATK <ba.berserk>Tenacity</> (reaches maximum bonus when losing 70% Max HP)",
+              "upgradeDesc_ja": "配置中、最大で攻撃力+57%<@ba.talpu>（+2%）</>の<ba.berserk>不屈</>状態を獲得する（HPが最大値の70%減少時、効果最大）"
             }
           ],
           "attributeBlackboard": [
@@ -26690,9 +26690,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "在场时，自身获得最高+60%<@ba.talpu>（+2%）</>攻击力的<$ba.berserk>坚忍</>（损失70%生命值时达最大加成）",
-              "upgradeDesc_en": "Gains up to +60% <@ba.talpu>(+2%)</> ATK <$ba.berserk>Tenacity</> (reaches maximum bonus when losing 70% Max HP)",
-              "upgradeDesc_ja": "配置中、最大で攻撃力+60%<@ba.talpu>（+2%）</>の<$ba.berserk>不屈</>状態を獲得する（HPが最大値の70%減少時、効果最大）"
+              "upgradeDesc_zh": "在场时，自身获得最高+60%<@ba.talpu>（+2%）</>攻击力的<ba.berserk>坚忍</>（损失70%生命值时达最大加成）",
+              "upgradeDesc_en": "Gains up to +60% <@ba.talpu>(+2%)</> ATK <ba.berserk>Tenacity</> (reaches maximum bonus when losing 70% Max HP)",
+              "upgradeDesc_ja": "配置中、最大で攻撃力+60%<@ba.talpu>（+2%）</>の<ba.berserk>不屈</>状態を獲得する（HPが最大値の70%減少時、効果最大）"
             }
           ],
           "attributeBlackboard": [
@@ -27038,9 +27038,9 @@
               "resKey": "gnosis_equip_1_1_p1",
               "target": "TRAIT",
               "isToken": false,
-              "addDesc_zh": "并对目标造成10％<$ba.weaken>虚弱</>效果，持续2秒",
-              "addDesc_en": "Applies 10% <$ba.weaken>Enfeeble</> to targets for 2 seconds",
-              "addDesc_ja": "対象に10%の<$ba.weaken>虚弱</>効果を2秒間付与する",
+              "addDesc_zh": "并对目标造成10％<ba.weaken>虚弱</>效果，持续2秒",
+              "addDesc_en": "Applies 10% <ba.weaken>Enfeeble</> to targets for 2 seconds",
+              "addDesc_ja": "対象に10%の<ba.weaken>虚弱</>効果を2秒間付与する",
               "overrideDesc_zh": null,
               "overrideDesc_en": null,
               "overrideDesc_ja": null
@@ -27068,9 +27068,9 @@
               "resKey": "gnosis_equip_1_2_p1",
               "target": "TRAIT",
               "isToken": false,
-              "addDesc_zh": "并对目标造成10％<$ba.weaken>虚弱</>效果，持续2秒",
-              "addDesc_en": "Applies 10% <$ba.weaken>Enfeeble</> to targets for 2 seconds",
-              "addDesc_ja": "対象に10%の<$ba.weaken>虚弱</>効果を2秒間付与する",
+              "addDesc_zh": "并对目标造成10％<ba.weaken>虚弱</>效果，持续2秒",
+              "addDesc_en": "Applies 10% <ba.weaken>Enfeeble</> to targets for 2 seconds",
+              "addDesc_ja": "対象に10%の<ba.weaken>虚弱</>効果を2秒間付与する",
               "overrideDesc_zh": null,
               "overrideDesc_en": null,
               "overrideDesc_ja": null
@@ -27083,9 +27083,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "攻击造成1秒<$ba.cold>寒冷</>；范围内<$ba.cold>寒冷</>的敌人受到30%<@ba.talpu>（+2%）</>的<$ba.fragile>脆弱</>，范围内<$ba.frozen>冻结</>的敌人<$ba.fragile>脆弱</>效果提升至2倍",
-              "upgradeDesc_en": "Attacks inflict <$ba.cold>Cold</> for 1 second; apply 30% <@ba.talpu>(+2%)</> <$ba.fragile>Fragile</> effect to <$ba.cold>Cold</> enemies within range. <$ba.frozen>Frozen</> enemies within range receive double the <$ba.fragile>Fragile</> effect",
-              "upgradeDesc_ja": "攻撃時、対象に1秒の<$ba.cold>寒冷</>状態を付与する。攻撃範囲内の<$ba.cold>寒冷</>状態の敵に30%<@ba.talpu>（+2%）</>の<$ba.fragile>脆弱</>状態を付与する。<$ba.frozen>凍結</>状態の敵に対しては<$ba.fragile>脆弱</>の効果値倍増"
+              "upgradeDesc_zh": "攻击造成1秒<ba.cold>寒冷</>；范围内<ba.cold>寒冷</>的敌人受到30%<@ba.talpu>（+2%）</>的<ba.fragile>脆弱</>，范围内<ba.frozen>冻结</>的敌人<ba.fragile>脆弱</>效果提升至2倍",
+              "upgradeDesc_en": "Attacks inflict <ba.cold>Cold</> for 1 second; apply 30% <@ba.talpu>(+2%)</> <ba.fragile>Fragile</> effect to <ba.cold>Cold</> enemies within range. <ba.frozen>Frozen</> enemies within range receive double the <ba.fragile>Fragile</> effect",
+              "upgradeDesc_ja": "攻撃時、対象に1秒の<ba.cold>寒冷</>状態を付与する。攻撃範囲内の<ba.cold>寒冷</>状態の敵に30%<@ba.talpu>（+2%）</>の<ba.fragile>脆弱</>状態を付与する。<ba.frozen>凍結</>状態の敵に対しては<ba.fragile>脆弱</>の効果値倍増"
             }
           ],
           "attributeBlackboard": [
@@ -27110,9 +27110,9 @@
               "resKey": "gnosis_equip_1_3_p1",
               "target": "TRAIT",
               "isToken": false,
-              "addDesc_zh": "并对目标造成10％<$ba.weaken>虚弱</>效果，持续2秒",
-              "addDesc_en": "Applies 10% <$ba.weaken>Enfeeble</> to targets for 2 seconds",
-              "addDesc_ja": "対象に10%の<$ba.weaken>虚弱</>効果を2秒間付与する",
+              "addDesc_zh": "并对目标造成10％<ba.weaken>虚弱</>效果，持续2秒",
+              "addDesc_en": "Applies 10% <ba.weaken>Enfeeble</> to targets for 2 seconds",
+              "addDesc_ja": "対象に10%の<ba.weaken>虚弱</>効果を2秒間付与する",
               "overrideDesc_zh": null,
               "overrideDesc_en": null,
               "overrideDesc_ja": null
@@ -27125,9 +27125,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "攻击造成1秒<$ba.cold>寒冷</>；范围内<$ba.cold>寒冷</>的敌人受到32%<@ba.talpu>（+2%）</>的<$ba.fragile>脆弱</>，范围内<$ba.frozen>冻结</>的敌人<$ba.fragile>脆弱</>效果提升至2倍",
-              "upgradeDesc_en": "Attacks inflict <$ba.cold>Cold</> for 1 second; apply 32% <@ba.talpu>(+2%)</> <$ba.fragile>Fragile</> effect to <$ba.cold>Cold</> enemies within range. <$ba.frozen>Frozen</> enemies within range receive double the <$ba.fragile>Fragile</> effect",
-              "upgradeDesc_ja": "攻撃時、対象に1秒の<$ba.cold>寒冷</>状態を付与する。攻撃範囲内の<$ba.cold>寒冷</>状態の敵に32%<@ba.talpu>（+2%）</>の<$ba.fragile>脆弱</>状態を付与する。<$ba.frozen>凍結</>状態の敵に対しては<$ba.fragile>脆弱</>の効果値倍増"
+              "upgradeDesc_zh": "攻击造成1秒<ba.cold>寒冷</>；范围内<ba.cold>寒冷</>的敌人受到32%<@ba.talpu>（+2%）</>的<ba.fragile>脆弱</>，范围内<ba.frozen>冻结</>的敌人<ba.fragile>脆弱</>效果提升至2倍",
+              "upgradeDesc_en": "Attacks inflict <ba.cold>Cold</> for 1 second; apply 32% <@ba.talpu>(+2%)</> <ba.fragile>Fragile</> effect to <ba.cold>Cold</> enemies within range. <ba.frozen>Frozen</> enemies within range receive double the <ba.fragile>Fragile</> effect",
+              "upgradeDesc_ja": "攻撃時、対象に1秒の<ba.cold>寒冷</>状態を付与する。攻撃範囲内の<ba.cold>寒冷</>状態の敵に32%<@ba.talpu>（+2%）</>の<ba.fragile>脆弱</>状態を付与する。<ba.frozen>凍結</>状態の敵に対しては<ba.fragile>脆弱</>の効果値倍増"
             }
           ],
           "attributeBlackboard": [
@@ -27185,9 +27185,9 @@
               "resKey": "slbell_equip_1_1_p1",
               "target": "TRAIT",
               "isToken": false,
-              "addDesc_zh": "并对目标造成10％<$ba.weaken>虚弱</>效果，持续2秒",
-              "addDesc_en": "Applies 10% <$ba.weaken>Enfeeble</> to targets for 2 seconds",
-              "addDesc_ja": "対象に10%の<$ba.weaken>虚弱</>効果を2秒間付与する",
+              "addDesc_zh": "并对目标造成10％<ba.weaken>虚弱</>效果，持续2秒",
+              "addDesc_en": "Applies 10% <ba.weaken>Enfeeble</> to targets for 2 seconds",
+              "addDesc_ja": "対象に10%の<ba.weaken>虚弱</>効果を2秒間付与する",
               "overrideDesc_zh": null,
               "overrideDesc_en": null,
               "overrideDesc_ja": null
@@ -27211,9 +27211,9 @@
               "resKey": "slbell_equip_1_2_p1",
               "target": "TRAIT",
               "isToken": false,
-              "addDesc_zh": "并对目标造成10％<$ba.weaken>虚弱</>效果，持续2秒",
-              "addDesc_en": "Applies 10% <$ba.weaken>Enfeeble</> to targets for 2 seconds",
-              "addDesc_ja": "対象に10%の<$ba.weaken>虚弱</>効果を2秒間付与する",
+              "addDesc_zh": "并对目标造成10％<ba.weaken>虚弱</>效果，持续2秒",
+              "addDesc_en": "Applies 10% <ba.weaken>Enfeeble</> to targets for 2 seconds",
+              "addDesc_ja": "対象に10%の<ba.weaken>虚弱</>効果を2秒間付与する",
               "overrideDesc_zh": null,
               "overrideDesc_en": null,
               "overrideDesc_ja": null
@@ -27226,9 +27226,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 1,
-              "upgradeDesc_zh": "攻击时同时攻击两个目标，攻击有20%概率造成1秒<$ba.cold>寒冷</>",
-              "upgradeDesc_en": "Attacks 2 enemies simultaneously, and has 20% chance to inflict <$ba.cold>Cold</> for 1 second",
-              "upgradeDesc_ja": "攻撃対象数+1、攻撃時20%の確率で対象を1秒間<$ba.cold>寒冷</>状態にする"
+              "upgradeDesc_zh": "攻击时同时攻击两个目标，攻击有20%概率造成1秒<ba.cold>寒冷</>",
+              "upgradeDesc_en": "Attacks 2 enemies simultaneously, and has 20% chance to inflict <ba.cold>Cold</> for 1 second",
+              "upgradeDesc_ja": "攻撃対象数+1、攻撃時20%の確率で対象を1秒間<ba.cold>寒冷</>状態にする"
             }
           ],
           "attributeBlackboard": [
@@ -27249,9 +27249,9 @@
               "resKey": "slbell_equip_1_3_p1",
               "target": "TRAIT",
               "isToken": false,
-              "addDesc_zh": "并对目标造成10％<$ba.weaken>虚弱</>效果，持续2秒",
-              "addDesc_en": "Applies 10% <$ba.weaken>Enfeeble</> to targets for 2 seconds",
-              "addDesc_ja": "対象に10%の<$ba.weaken>虚弱</>効果を2秒間付与する",
+              "addDesc_zh": "并对目标造成10％<ba.weaken>虚弱</>效果，持续2秒",
+              "addDesc_en": "Applies 10% <ba.weaken>Enfeeble</> to targets for 2 seconds",
+              "addDesc_ja": "対象に10%の<ba.weaken>虚弱</>効果を2秒間付与する",
               "overrideDesc_zh": null,
               "overrideDesc_en": null,
               "overrideDesc_ja": null
@@ -27264,9 +27264,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 1,
-              "upgradeDesc_zh": "攻击时同时攻击两个目标，攻击有25%概率造成1秒<$ba.cold>寒冷</>",
-              "upgradeDesc_en": "Attacks 2 enemies simultaneously, and has 25% chance to inflict <$ba.cold>Cold</> for 1 second",
-              "upgradeDesc_ja": "攻撃対象数+1、攻撃時25%の確率で対象を1秒間<$ba.cold>寒冷</>状態にする"
+              "upgradeDesc_zh": "攻击时同时攻击两个目标，攻击有25%概率造成1秒<ba.cold>寒冷</>",
+              "upgradeDesc_en": "Attacks 2 enemies simultaneously, and has 25% chance to inflict <ba.cold>Cold</> for 1 second",
+              "upgradeDesc_ja": "攻撃対象数+1、攻撃時25%の確率で対象を1秒間<ba.cold>寒冷</>状態にする"
             }
           ],
           "attributeBlackboard": [
@@ -27319,9 +27319,9 @@
               "resKey": "vodfox_equip_1_1_p1",
               "target": "TRAIT",
               "isToken": false,
-              "addDesc_zh": "并对目标造成10％<$ba.weaken>虚弱</>效果，持续2秒",
-              "addDesc_en": "Applies 10% <$ba.weaken>Enfeeble</> to targets for 2 seconds",
-              "addDesc_ja": "対象に10%の<$ba.weaken>虚弱</>効果を2秒間付与する",
+              "addDesc_zh": "并对目标造成10％<ba.weaken>虚弱</>效果，持续2秒",
+              "addDesc_en": "Applies 10% <ba.weaken>Enfeeble</> to targets for 2 seconds",
+              "addDesc_ja": "対象に10%の<ba.weaken>虚弱</>効果を2秒間付与する",
               "overrideDesc_zh": null,
               "overrideDesc_en": null,
               "overrideDesc_ja": null
@@ -27345,9 +27345,9 @@
               "resKey": "vodfox_equip_1_2_p1",
               "target": "TRAIT",
               "isToken": false,
-              "addDesc_zh": "并对目标造成10％<$ba.weaken>虚弱</>效果，持续2秒",
-              "addDesc_en": "Applies 10% <$ba.weaken>Enfeeble</> to targets for 2 seconds",
-              "addDesc_ja": "対象に10%の<$ba.weaken>虚弱</>効果を2秒間付与する",
+              "addDesc_zh": "并对目标造成10％<ba.weaken>虚弱</>效果，持续2秒",
+              "addDesc_en": "Applies 10% <ba.weaken>Enfeeble</> to targets for 2 seconds",
+              "addDesc_ja": "対象に10%の<ba.weaken>虚弱</>効果を2秒間付与する",
               "overrideDesc_zh": null,
               "overrideDesc_en": null,
               "overrideDesc_ja": null
@@ -27383,9 +27383,9 @@
               "resKey": "vodfox_equip_1_3_p1",
               "target": "TRAIT",
               "isToken": false,
-              "addDesc_zh": "并对目标造成10％<$ba.weaken>虚弱</>效果，持续2秒",
-              "addDesc_en": "Applies 10% <$ba.weaken>Enfeeble</> to targets for 2 seconds",
-              "addDesc_ja": "対象に10%の<$ba.weaken>虚弱</>効果を2秒間付与する",
+              "addDesc_zh": "并对目标造成10％<ba.weaken>虚弱</>效果，持续2秒",
+              "addDesc_en": "Applies 10% <ba.weaken>Enfeeble</> to targets for 2 seconds",
+              "addDesc_ja": "対象に10%の<ba.weaken>虚弱</>効果を2秒間付与する",
               "overrideDesc_zh": null,
               "overrideDesc_en": null,
               "overrideDesc_ja": null
@@ -27620,9 +27620,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "攻击时有40%的几率对攻击目标造成2秒的<$ba.sluggish>停顿</>，对处于<$ba.sluggish>停顿</>中的敌人造成的伤害提升10％",
-              "upgradeDesc_en": "Attacks have a 40% chance to <$ba.sluggish>Slow</> the target for 2 seconds, and <$ba.sluggish>Slowed</> enemies take +10% damage",
-              "upgradeDesc_ja": "攻撃時、40%の確率で攻撃対象を2秒間<$ba.sluggish>足止め</>する。<$ba.sluggish>足止め</>されている敵への与ダメージ+10%"
+              "upgradeDesc_zh": "攻击时有40%的几率对攻击目标造成2秒的<ba.sluggish>停顿</>，对处于<ba.sluggish>停顿</>中的敌人造成的伤害提升10％",
+              "upgradeDesc_en": "Attacks have a 40% chance to <ba.sluggish>Slow</> the target for 2 seconds, and <ba.sluggish>Slowed</> enemies take +10% damage",
+              "upgradeDesc_ja": "攻撃時、40%の確率で攻撃対象を2秒間<ba.sluggish>足止め</>する。<ba.sluggish>足止め</>されている敵への与ダメージ+10%"
             }
           ],
           "attributeBlackboard": [
@@ -27662,9 +27662,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "攻击时有40%的几率对攻击目标造成2秒的<$ba.sluggish>停顿</>，对处于<$ba.sluggish>停顿</>中的敌人造成的伤害提升15％",
-              "upgradeDesc_en": "Attacks have a 40% chance to <$ba.sluggish>Slow</> the target for 2 seconds, and <$ba.sluggish>Slowed</> enemies take +15% damage",
-              "upgradeDesc_ja": "攻撃時、40%の確率で攻撃対象を2秒間<$ba.sluggish>足止め</>する。<$ba.sluggish>足止め</>されている敵への与ダメージ+15%"
+              "upgradeDesc_zh": "攻击时有40%的几率对攻击目标造成2秒的<ba.sluggish>停顿</>，对处于<ba.sluggish>停顿</>中的敌人造成的伤害提升15％",
+              "upgradeDesc_en": "Attacks have a 40% chance to <ba.sluggish>Slow</> the target for 2 seconds, and <ba.sluggish>Slowed</> enemies take +15% damage",
+              "upgradeDesc_ja": "攻撃時、40%の確率で攻撃対象を2秒間<ba.sluggish>足止め</>する。<ba.sluggish>足止め</>されている敵への与ダメージ+15%"
             }
           ],
           "attributeBlackboard": [
@@ -28801,9 +28801,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "携带3个造型仪（最多部署3个），使一名近战位上的单位防御力+39%<@ba.talpu>（+3%）</>并获得2层<$ba.shield>护盾</>（持续25秒，防御加成不叠加）",
-              "upgradeDesc_en": "Carries 3 Modelers (max 3 deployed at once). Modelers grant DEF +39% <@ba.talpu>(+3%)</> and 2 <$ba.shield>Shields</> to a unit on a melee tile (lasts 25 seconds, DEF increase does not stack)",
-              "upgradeDesc_ja": "「メイクアップマシン」を3体配置可能（最大3体まで同時配置可能）、「メイクアップマシン」前方の近距離マスにいる味方1体に防御力+39%<@ba.talpu>（+3%）</>の効果と<$ba.shield>シールド</>2枚を付与する（25秒継続、防御上昇効果重複不可）"
+              "upgradeDesc_zh": "携带3个造型仪（最多部署3个），使一名近战位上的单位防御力+39%<@ba.talpu>（+3%）</>并获得2层<ba.shield>护盾</>（持续25秒，防御加成不叠加）",
+              "upgradeDesc_en": "Carries 3 Modelers (max 3 deployed at once). Modelers grant DEF +39% <@ba.talpu>(+3%)</> and 2 <ba.shield>Shields</> to a unit on a melee tile (lasts 25 seconds, DEF increase does not stack)",
+              "upgradeDesc_ja": "「メイクアップマシン」を3体配置可能（最大3体まで同時配置可能）、「メイクアップマシン」前方の近距離マスにいる味方1体に防御力+39%<@ba.talpu>（+3%）</>の効果と<ba.shield>シールド</>2枚を付与する（25秒継続、防御上昇効果重複不可）"
             },
             {
               "resKey": null,
@@ -28813,9 +28813,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "使一名近战位上的单位防御力+39%<@ba.talpu>（+3%）</>并获得2层<$ba.shield>护盾</>（持续25秒，防御加成不叠加）",
-              "upgradeDesc_en": "Grants +39% DEF <@ba.talpu>(+3%)</> and 2 <$ba.shield>Shields</> to a unit on a melee tile (lasts 25 seconds, DEF increase does not stack)",
-              "upgradeDesc_ja": "前方の近距離マスにいる味方1体に防御力+39%<@ba.talpu>（+3%）</>の効果と<$ba.shield>シールド</>2枚を付与する（25秒継続、防御上昇効果重複不可）"
+              "upgradeDesc_zh": "使一名近战位上的单位防御力+39%<@ba.talpu>（+3%）</>并获得2层<ba.shield>护盾</>（持续25秒，防御加成不叠加）",
+              "upgradeDesc_en": "Grants +39% DEF <@ba.talpu>(+3%)</> and 2 <ba.shield>Shields</> to a unit on a melee tile (lasts 25 seconds, DEF increase does not stack)",
+              "upgradeDesc_ja": "前方の近距離マスにいる味方1体に防御力+39%<@ba.talpu>（+3%）</>の効果と<ba.shield>シールド</>2枚を付与する（25秒継続、防御上昇効果重複不可）"
             }
           ],
           "attributeBlackboard": [
@@ -28862,9 +28862,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "携带3个造型仪（最多部署3个），使一名近战位上的单位防御力+43%<@ba.talpu>（+3%）</>并获得2层<$ba.shield>护盾</>（持续25秒，防御加成不叠加）",
-              "upgradeDesc_en": "Carries 3 Modelers (max 3 deployed at once). Modelers grant DEF +43% <@ba.talpu>(+3%)</> and 2 <$ba.shield>Shields</> to a unit on a melee tile (lasts 25 seconds, DEF increase does not stack)",
-              "upgradeDesc_ja": "「メイクアップマシン」を3体配置可能（最大3体まで同時配置可能）、「メイクアップマシン」前方の近距離マスにいる味方1体に防御力+43%<@ba.talpu>（+3%）</>の効果と<$ba.shield>シールド</>2枚を付与する（25秒継続、防御上昇効果重複不可）"
+              "upgradeDesc_zh": "携带3个造型仪（最多部署3个），使一名近战位上的单位防御力+43%<@ba.talpu>（+3%）</>并获得2层<ba.shield>护盾</>（持续25秒，防御加成不叠加）",
+              "upgradeDesc_en": "Carries 3 Modelers (max 3 deployed at once). Modelers grant DEF +43% <@ba.talpu>(+3%)</> and 2 <ba.shield>Shields</> to a unit on a melee tile (lasts 25 seconds, DEF increase does not stack)",
+              "upgradeDesc_ja": "「メイクアップマシン」を3体配置可能（最大3体まで同時配置可能）、「メイクアップマシン」前方の近距離マスにいる味方1体に防御力+43%<@ba.talpu>（+3%）</>の効果と<ba.shield>シールド</>2枚を付与する（25秒継続、防御上昇効果重複不可）"
             },
             {
               "resKey": null,
@@ -28874,9 +28874,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "使一名近战位上的单位防御力+43%<@ba.talpu>（+3%）</>并获得2层<$ba.shield>护盾</>（持续25秒，防御加成不叠加）",
-              "upgradeDesc_en": "Grants +43% DEF <@ba.talpu>(+3%)</> and 2 <$ba.shield>Shields</> to a unit on a melee tile (lasts 25 seconds, DEF increase does not stack)",
-              "upgradeDesc_ja": "前方の近距離マスにいる味方1体に防御力+43%<@ba.talpu>（+3%）</>の効果と<$ba.shield>シールド</>2枚を付与する（25秒継続、防御上昇効果重複不可）"
+              "upgradeDesc_zh": "使一名近战位上的单位防御力+43%<@ba.talpu>（+3%）</>并获得2层<ba.shield>护盾</>（持续25秒，防御加成不叠加）",
+              "upgradeDesc_en": "Grants +43% DEF <@ba.talpu>(+3%)</> and 2 <ba.shield>Shields</> to a unit on a melee tile (lasts 25 seconds, DEF increase does not stack)",
+              "upgradeDesc_ja": "前方の近距離マスにいる味方1体に防御力+43%<@ba.talpu>（+3%）</>の効果と<ba.shield>シールド</>2枚を付与する（25秒継続、防御上昇効果重複不可）"
             }
           ],
           "attributeBlackboard": [
@@ -29002,9 +29002,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "每次攻击时会随机触发下列效果之一：回复自身生命18%；当次攻击力提升至160%；目标<$ba.sluggish>停顿</>1.5秒；目标<$ba.stun>晕眩</>1.1秒；有20%概率同时触发以上所有效果",
-              "upgradeDesc_en": "Each attack will randomly trigger one of the following effects: Restores own HP by 18%, that attack deals 160% damage, <$ba.sluggish>Slows</> the enemy for 1.5 seconds, or <$ba.stun>Stuns</> the enemy for 1.1 seconds; additionally has a 20% chance to activate all the above effects at once.",
-              "upgradeDesc_ja": "攻撃時、ランダムで次の効果から1つを発動：自身のHPを18%回復/その攻撃のみ攻撃力が160%まで上昇/対象を1.5秒<$ba.sluggish>足止め</>する/対象を1.1秒間<$ba.stun>スタン</>させる/20%の確率で上記の効果がすべて発動する"
+              "upgradeDesc_zh": "每次攻击时会随机触发下列效果之一：回复自身生命18%；当次攻击力提升至160%；目标<ba.sluggish>停顿</>1.5秒；目标<ba.stun>晕眩</>1.1秒；有20%概率同时触发以上所有效果",
+              "upgradeDesc_en": "Each attack will randomly trigger one of the following effects: Restores own HP by 18%, that attack deals 160% damage, <ba.sluggish>Slows</> the enemy for 1.5 seconds, or <ba.stun>Stuns</> the enemy for 1.1 seconds; additionally has a 20% chance to activate all the above effects at once.",
+              "upgradeDesc_ja": "攻撃時、ランダムで次の効果から1つを発動：自身のHPを18%回復/その攻撃のみ攻撃力が160%まで上昇/対象を1.5秒<ba.sluggish>足止め</>する/対象を1.1秒間<ba.stun>スタン</>させる/20%の確率で上記の効果がすべて発動する"
             }
           ],
           "attributeBlackboard": [
@@ -29052,9 +29052,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "每次攻击时会随机触发下列效果之一：回复自身生命20%；当次攻击力提升至165%；目标<$ba.sluggish>停顿</>1.6秒；目标<$ba.stun>晕眩</>1.2秒；有30%概率同时触发以上所有效果",
-              "upgradeDesc_en": "Each attack will randomly trigger one of the following effects: Restores own HP by 20%, that attack deals 165% damage, <$ba.sluggish>Slows</> the enemy for 1.6 seconds, or <$ba.stun>Stuns</> the enemy for 1.2 seconds; additionally has a 30% chance to activate all the above effects at once.",
-              "upgradeDesc_ja": "攻撃時、ランダムで次の効果から1つを発動：自身のHPを20%回復/その攻撃のみ攻撃力が165%まで上昇/対象を1.6秒<$ba.sluggish>足止め</>する/対象を1.2秒間<$ba.stun>スタン</>させる/30%の確率で上記の効果がすべて発動する"
+              "upgradeDesc_zh": "每次攻击时会随机触发下列效果之一：回复自身生命20%；当次攻击力提升至165%；目标<ba.sluggish>停顿</>1.6秒；目标<ba.stun>晕眩</>1.2秒；有30%概率同时触发以上所有效果",
+              "upgradeDesc_en": "Each attack will randomly trigger one of the following effects: Restores own HP by 20%, that attack deals 165% damage, <ba.sluggish>Slows</> the enemy for 1.6 seconds, or <ba.stun>Stuns</> the enemy for 1.2 seconds; additionally has a 30% chance to activate all the above effects at once.",
+              "upgradeDesc_ja": "攻撃時、ランダムで次の効果から1つを発動：自身のHPを20%回復/その攻撃のみ攻撃力が165%まで上昇/対象を1.6秒<ba.sluggish>足止め</>する/対象を1.2秒間<ba.stun>スタン</>させる/30%の確率で上記の効果がすべて発動する"
             }
           ],
           "attributeBlackboard": [
@@ -29465,9 +29465,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 1,
-              "upgradeDesc_zh": "自身可以攻击并优先攻击<$ba.sleep>沉睡</>的目标且攻击力提升至154%<@ba.talpu>（+4%）</>；部署后，使自身这格内的所有地面敌人陷入5秒<$ba.sleep>沉睡</>",
-              "upgradeDesc_en": "Can attack and will prioritize attacking <$ba.sleep>Sleeping</> enemies; when doing so, increases ATK to 154% <@ba.talpu>(+4%)</>. After deployment, all ground enemies on that tile will <$ba.sleep>fall asleep</> for 5 seconds",
-              "upgradeDesc_ja": "<$ba.sleep>睡眠</>状態の敵を攻撃でき、かつ優先して攻撃し、攻撃力が154%<@ba.talpu>（+4%）</>まで上昇。配置後、自身と同じマス内にいる地面上の敵全員を5秒間<$ba.sleep>睡眠</>状態にする"
+              "upgradeDesc_zh": "自身可以攻击并优先攻击<ba.sleep>沉睡</>的目标且攻击力提升至154%<@ba.talpu>（+4%）</>；部署后，使自身这格内的所有地面敌人陷入5秒<ba.sleep>沉睡</>",
+              "upgradeDesc_en": "Can attack and will prioritize attacking <ba.sleep>Sleeping</> enemies; when doing so, increases ATK to 154% <@ba.talpu>(+4%)</>. After deployment, all ground enemies on that tile will <ba.sleep>fall asleep</> for 5 seconds",
+              "upgradeDesc_ja": "<ba.sleep>睡眠</>状態の敵を攻撃でき、かつ優先して攻撃し、攻撃力が154%<@ba.talpu>（+4%）</>まで上昇。配置後、自身と同じマス内にいる地面上の敵全員を5秒間<ba.sleep>睡眠</>状態にする"
             }
           ],
           "attributeBlackboard": [
@@ -29515,9 +29515,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 1,
-              "upgradeDesc_zh": "自身可以攻击并优先攻击<$ba.sleep>沉睡</>的目标且攻击力提升至164%<@ba.talpu>（+4%）</>；部署后，使自身这格内的所有地面敌人陷入8秒<$ba.sleep>沉睡</>",
-              "upgradeDesc_en": "Can attack and will prioritize attacking <$ba.sleep>Sleeping</> enemies; when doing so, increases ATK to 164% <@ba.talpu>(+4%)</>. After deployment, all ground enemies on that tile will <$ba.sleep>fall asleep</> for 8 seconds",
-              "upgradeDesc_ja": "<$ba.sleep>睡眠</>状態の敵を攻撃でき、かつ優先して攻撃し、攻撃力が164%<@ba.talpu>（+4%）</>まで上昇。配置後、自身と同じマス内にいる地面上の敵全員を8秒間<$ba.sleep>睡眠</>状態にする"
+              "upgradeDesc_zh": "自身可以攻击并优先攻击<ba.sleep>沉睡</>的目标且攻击力提升至164%<@ba.talpu>（+4%）</>；部署后，使自身这格内的所有地面敌人陷入8秒<ba.sleep>沉睡</>",
+              "upgradeDesc_en": "Can attack and will prioritize attacking <ba.sleep>Sleeping</> enemies; when doing so, increases ATK to 164% <@ba.talpu>(+4%)</>. After deployment, all ground enemies on that tile will <ba.sleep>fall asleep</> for 8 seconds",
+              "upgradeDesc_ja": "<ba.sleep>睡眠</>状態の敵を攻撃でき、かつ優先して攻撃し、攻撃力が164%<@ba.talpu>（+4%）</>まで上昇。配置後、自身と同じマス内にいる地面上の敵全員を8秒間<ba.sleep>睡眠</>状態にする"
             }
           ],
           "attributeBlackboard": [
@@ -29892,9 +29892,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "在战场停留15秒后，攻击力+21%<@ba.talpu>（+3%）</>且获得<$ba.buffres>抵抗</>",
-              "upgradeDesc_en": "After being deployed for 15 seconds, this unit gains +21% <@ba.talpu>(+3%)</> ATK and <$ba.buffres>Status Resistance</>",
-              "upgradeDesc_ja": "配置から15秒後、攻撃力+21%<@ba.talpu>（+3%）</>、<$ba.buffres>レジスト</>状態になる"
+              "upgradeDesc_zh": "在战场停留15秒后，攻击力+21%<@ba.talpu>（+3%）</>且获得<ba.buffres>抵抗</>",
+              "upgradeDesc_en": "After being deployed for 15 seconds, this unit gains +21% <@ba.talpu>(+3%)</> ATK and <ba.buffres>Status Resistance</>",
+              "upgradeDesc_ja": "配置から15秒後、攻撃力+21%<@ba.talpu>（+3%）</>、<ba.buffres>レジスト</>状態になる"
             }
           ],
           "attributeBlackboard": [
@@ -29934,9 +29934,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "在战场停留15秒后，攻击力+23%<@ba.talpu>（+3%）</>且获得<$ba.buffres>抵抗</>",
-              "upgradeDesc_en": "After being deployed for 15 seconds, this unit gains +23% <@ba.talpu>(+3%)</> ATK and <$ba.buffres>Status Resistance</>",
-              "upgradeDesc_ja": "配置から15秒後、攻撃力+23%<@ba.talpu>（+3%）</>、<$ba.buffres>レジスト</>状態になる"
+              "upgradeDesc_zh": "在战场停留15秒后，攻击力+23%<@ba.talpu>（+3%）</>且获得<ba.buffres>抵抗</>",
+              "upgradeDesc_en": "After being deployed for 15 seconds, this unit gains +23% <@ba.talpu>(+3%)</> ATK and <ba.buffres>Status Resistance</>",
+              "upgradeDesc_ja": "配置から15秒後、攻撃力+23%<@ba.talpu>（+3%）</>、<ba.buffres>レジスト</>状態になる"
             }
           ],
           "attributeBlackboard": [
@@ -30769,9 +30769,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 1,
-              "upgradeDesc_zh": "在战场停留12<@ba.talpu>（-3）</>秒后获得<$ba.buffres>抵抗</>，30秒后攻击力+4%，45秒后攻速+7",
-              "upgradeDesc_en": "This unit gains <$ba.buffres>Status Resistance</> after being deployed for 12 <@ba.talpu>(-3)</> seconds, +4% ATK after 30 seconds, and +7 ASPD after 45 seconds",
-              "upgradeDesc_ja": "配置から12<@ba.talpu>（-3）</>秒後、自身が<$ba.buffres>レジスト</>状態になる。配置から30秒後、攻撃力+4%。配置から45秒後、攻撃速度+7"
+              "upgradeDesc_zh": "在战场停留12<@ba.talpu>（-3）</>秒后获得<ba.buffres>抵抗</>，30秒后攻击力+4%，45秒后攻速+7",
+              "upgradeDesc_en": "This unit gains <ba.buffres>Status Resistance</> after being deployed for 12 <@ba.talpu>(-3)</> seconds, +4% ATK after 30 seconds, and +7 ASPD after 45 seconds",
+              "upgradeDesc_ja": "配置から12<@ba.talpu>（-3）</>秒後、自身が<ba.buffres>レジスト</>状態になる。配置から30秒後、攻撃力+4%。配置から45秒後、攻撃速度+7"
             }
           ],
           "attributeBlackboard": [
@@ -30807,9 +30807,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 1,
-              "upgradeDesc_zh": "在战场停留12<@ba.talpu>（-3）</>秒后获得<$ba.buffres>抵抗</>，30秒后攻击力+6%，45秒后攻速+12",
-              "upgradeDesc_en": "This unit gains <$ba.buffres>Status Resistance</> after being deployed for 12 <@ba.talpu>(-3)</> seconds, +6% ATK after 30 seconds, and +12 ASPD after 45 seconds",
-              "upgradeDesc_ja": "配置から12<@ba.talpu>（-3）</>秒後、自身が<$ba.buffres>レジスト</>状態になる。配置から30秒後、攻撃力+6%。配置から45秒後、攻撃速度+12"
+              "upgradeDesc_zh": "在战场停留12<@ba.talpu>（-3）</>秒后获得<ba.buffres>抵抗</>，30秒后攻击力+6%，45秒后攻速+12",
+              "upgradeDesc_en": "This unit gains <ba.buffres>Status Resistance</> after being deployed for 12 <@ba.talpu>(-3)</> seconds, +6% ATK after 30 seconds, and +12 ASPD after 45 seconds",
+              "upgradeDesc_ja": "配置から12<@ba.talpu>（-3）</>秒後、自身が<ba.buffres>レジスト</>状態になる。配置から30秒後、攻撃力+6%。配置から45秒後、攻撃速度+12"
             }
           ],
           "attributeBlackboard": [
@@ -32270,9 +32270,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "每攻击到一个敌人回复自身40<@ba.talpu>（+5）</><$ba.dt.element>元素损伤</>，最大生效数等于阻挡数",
-              "upgradeDesc_en": "Recover 40 <@ba.talpu>(+5)</> <$ba.dt.element>Elemental Damage</> for each enemy hit during attacks, up to Block count",
-              "upgradeDesc_ja": "敵を1体攻撃する度自身に蓄積された<$ba.dt.element>元素損傷</>を40<@ba.talpu>（+5）</>回復（攻撃毎の最大回復回数はブロック数と同じ）"
+              "upgradeDesc_zh": "每攻击到一个敌人回复自身40<@ba.talpu>（+5）</><ba.dt.element>元素损伤</>，最大生效数等于阻挡数",
+              "upgradeDesc_en": "Recover 40 <@ba.talpu>(+5)</> <ba.dt.element>Elemental Damage</> for each enemy hit during attacks, up to Block count",
+              "upgradeDesc_ja": "敵を1体攻撃する度自身に蓄積された<ba.dt.element>元素損傷</>を40<@ba.talpu>（+5）</>回復（攻撃毎の最大回復回数はブロック数と同じ）"
             }
           ],
           "attributeBlackboard": [
@@ -32308,9 +32308,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "每攻击到一个敌人回复自身45<@ba.talpu>（+5）</><$ba.dt.element>元素损伤</>，最大生效数等于阻挡数",
-              "upgradeDesc_en": "Recover 45 <@ba.talpu>(+5)</> <$ba.dt.element>Elemental Damage</> for each enemy hit during attacks, up to Block count",
-              "upgradeDesc_ja": "敵を1体攻撃する度自身に蓄積された<$ba.dt.element>元素損傷</>を45<@ba.talpu>（+5）</>回復（攻撃毎の最大回復回数はブロック数と同じ）"
+              "upgradeDesc_zh": "每攻击到一个敌人回复自身45<@ba.talpu>（+5）</><ba.dt.element>元素损伤</>，最大生效数等于阻挡数",
+              "upgradeDesc_en": "Recover 45 <@ba.talpu>(+5)</> <ba.dt.element>Elemental Damage</> for each enemy hit during attacks, up to Block count",
+              "upgradeDesc_ja": "敵を1体攻撃する度自身に蓄積された<ba.dt.element>元素損傷</>を45<@ba.talpu>（+5）</>回復（攻撃毎の最大回復回数はブロック数と同じ）"
             }
           ],
           "attributeBlackboard": [
@@ -32396,9 +32396,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "超出自身生命上限的生命值可转化为<$ba.barrier>屏障</>，最多不超过自身最大生命值的104%<@ba.talpu>（+4%）</>；拥有来源于自身的<$ba.barrier>屏障</>时防御力+5%",
-              "upgradeDesc_en": "Any HP gain exceeding this unit's Max HP is converted into a <$ba.barrier>Barrier</> that caps at 104% <@ba.talpu>(+4%)</> of Max HP; +5% DEF while this <$ba.barrier>Barrier</> is active",
-              "upgradeDesc_ja": "自身のHP回復時、最大値を超えた分のHPは等量のバリアに変換される。この効果によるのバリア最大値は自身の最大HPの104%<@ba.talpu>（+4%）</>まで。自身により獲得する<$ba.barrier>バリア</>の存続期間中、防御力+5%"
+              "upgradeDesc_zh": "超出自身生命上限的生命值可转化为<ba.barrier>屏障</>，最多不超过自身最大生命值的104%<@ba.talpu>（+4%）</>；拥有来源于自身的<ba.barrier>屏障</>时防御力+5%",
+              "upgradeDesc_en": "Any HP gain exceeding this unit's Max HP is converted into a <ba.barrier>Barrier</> that caps at 104% <@ba.talpu>(+4%)</> of Max HP; +5% DEF while this <ba.barrier>Barrier</> is active",
+              "upgradeDesc_ja": "自身のHP回復時、最大値を超えた分のHPは等量のバリアに変換される。この効果によるのバリア最大値は自身の最大HPの104%<@ba.talpu>（+4%）</>まで。自身により獲得する<ba.barrier>バリア</>の存続期間中、防御力+5%"
             }
           ],
           "attributeBlackboard": [
@@ -32438,9 +32438,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "超出自身生命上限的生命值可转化为<$ba.barrier>屏障</>，最多不超过自身最大生命值的104%<@ba.talpu>（+4%）</>；拥有来源于自身的<$ba.barrier>屏障</>时防御力+8%",
-              "upgradeDesc_en": "Any HP gain exceeding this unit's Max HP is converted into a <$ba.barrier>Barrier</> that caps at 104% <@ba.talpu>(+4%)</> of Max HP; +8% DEF while this <$ba.barrier>Barrier</> is active",
-              "upgradeDesc_ja": "自身のHP回復時、最大値を超えた分のHPは等量のバリアに変換される。この効果によるのバリア最大値は自身の最大HPの104%<@ba.talpu>（+4%）</>まで。自身により獲得する<$ba.barrier>バリア</>の存続期間中、防御力+8%"
+              "upgradeDesc_zh": "超出自身生命上限的生命值可转化为<ba.barrier>屏障</>，最多不超过自身最大生命值的104%<@ba.talpu>（+4%）</>；拥有来源于自身的<ba.barrier>屏障</>时防御力+8%",
+              "upgradeDesc_en": "Any HP gain exceeding this unit's Max HP is converted into a <ba.barrier>Barrier</> that caps at 104% <@ba.talpu>(+4%)</> of Max HP; +8% DEF while this <ba.barrier>Barrier</> is active",
+              "upgradeDesc_ja": "自身のHP回復時、最大値を超えた分のHPは等量のバリアに変換される。この効果によるのバリア最大値は自身の最大HPの104%<@ba.talpu>（+4%）</>まで。自身により獲得する<ba.barrier>バリア</>の存続期間中、防御力+8%"
             }
           ],
           "attributeBlackboard": [
@@ -32672,9 +32672,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "对生命值低于一半的单位造成的伤害提升10%；造成致命伤害时使敌人保留1点生命并使其<$ba.dying>重伤</>（击杀者技力+2）；嵯峨不攻击<$ba.dying>重伤</>单位",
-              "upgradeDesc_en": "Increases damage dealt to enemies below half HP by 10%; when dealing lethal damage, leaves the target with 1 HP and inflicts <$ba.dying>Critically Wounded</> (gives +2 SP to the attacker when killed); Saga will not attack <$ba.dying>Critically Wounded</> targets",
-              "upgradeDesc_ja": "HPが最大値の半分以下のユニットに与えるダメージ+10%。敵に致命的なダメージを与えた時、対象のHPを1残し、<$ba.dying>重傷</>（倒すとSPが2回復）を付与する。自身は<$ba.dying>重傷</>状態の敵を攻撃しない"
+              "upgradeDesc_zh": "对生命值低于一半的单位造成的伤害提升10%；造成致命伤害时使敌人保留1点生命并使其<ba.dying>重伤</>（击杀者技力+2）；嵯峨不攻击<ba.dying>重伤</>单位",
+              "upgradeDesc_en": "Increases damage dealt to enemies below half HP by 10%; when dealing lethal damage, leaves the target with 1 HP and inflicts <ba.dying>Critically Wounded</> (gives +2 SP to the attacker when killed); Saga will not attack <ba.dying>Critically Wounded</> targets",
+              "upgradeDesc_ja": "HPが最大値の半分以下のユニットに与えるダメージ+10%。敵に致命的なダメージを与えた時、対象のHPを1残し、<ba.dying>重傷</>（倒すとSPが2回復）を付与する。自身は<ba.dying>重傷</>状態の敵を攻撃しない"
             }
           ],
           "attributeBlackboard": [
@@ -32722,9 +32722,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "对生命值低于一半的单位造成的伤害提升15%；造成致命伤害时使敌人保留1点生命并使其<$ba.dying>重伤</>（击杀者技力+2）；嵯峨不攻击<$ba.dying>重伤</>单位",
-              "upgradeDesc_en": "Increases damage dealt to enemies below half HP by 15%; when dealing lethal damage, leaves the target with 1 HP and inflicts <$ba.dying>Critically Wounded</> (gives +2 SP to the attacker when killed); Saga will not attack <$ba.dying>Critically Wounded</> targets",
-              "upgradeDesc_ja": "HPが最大値の半分以下のユニットに与えるダメージ+15%。敵に致命的なダメージを与えた時、対象のHPを1残し、<$ba.dying>重傷</>（倒すとSPが2回復）を付与する。自身は<$ba.dying>重傷</>状態の敵を攻撃しない"
+              "upgradeDesc_zh": "对生命值低于一半的单位造成的伤害提升15%；造成致命伤害时使敌人保留1点生命并使其<ba.dying>重伤</>（击杀者技力+2）；嵯峨不攻击<ba.dying>重伤</>单位",
+              "upgradeDesc_en": "Increases damage dealt to enemies below half HP by 15%; when dealing lethal damage, leaves the target with 1 HP and inflicts <ba.dying>Critically Wounded</> (gives +2 SP to the attacker when killed); Saga will not attack <ba.dying>Critically Wounded</> targets",
+              "upgradeDesc_ja": "HPが最大値の半分以下のユニットに与えるダメージ+15%。敵に致命的なダメージを与えた時、対象のHPを1残し、<ba.dying>重傷</>（倒すとSPが2回復）を付与する。自身は<ba.dying>重傷</>状態の敵を攻撃しない"
             }
           ],
           "attributeBlackboard": [
@@ -33122,9 +33122,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "攻击范围内的友军生命少于40%时，使其获得22%<@ba.talpu>（+2%）</>的<$ba.protect>庇护</>，防御力+5%",
-              "upgradeDesc_en": "Grants a 22% <@ba.talpu>(+2%)</> <$ba.protect>Sanctuary</> effect and +5% DEF to all friendly units within range with less than 40% HP",
-              "upgradeDesc_ja": "攻撃範囲内のHPが40%未満の味方の防御力+5%、そして対象に22%<@ba.talpu>（+2%）</>の<$ba.protect>加護</>状態を付与"
+              "upgradeDesc_zh": "攻击范围内的友军生命少于40%时，使其获得22%<@ba.talpu>（+2%）</>的<ba.protect>庇护</>，防御力+5%",
+              "upgradeDesc_en": "Grants a 22% <@ba.talpu>(+2%)</> <ba.protect>Sanctuary</> effect and +5% DEF to all friendly units within range with less than 40% HP",
+              "upgradeDesc_ja": "攻撃範囲内のHPが40%未満の味方の防御力+5%、そして対象に22%<@ba.talpu>（+2%）</>の<ba.protect>加護</>状態を付与"
             }
           ],
           "attributeBlackboard": [
@@ -33172,9 +33172,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "攻击范围内的友军生命少于40%时，使其获得24%<@ba.talpu>（+2%）</>的<$ba.protect>庇护</>，防御力+8%",
-              "upgradeDesc_en": "Grants a 24% <@ba.talpu>(+2%)</> <$ba.protect>Sanctuary</> effect and +8% DEF to all friendly units within range with less than 40% HP",
-              "upgradeDesc_ja": "攻撃範囲内のHPが40%未満の味方の防御力+8%、そして対象に24%<@ba.talpu>（+2%）</>の<$ba.protect>加護</>状態を付与"
+              "upgradeDesc_zh": "攻击范围内的友军生命少于40%时，使其获得24%<@ba.talpu>（+2%）</>的<ba.protect>庇护</>，防御力+8%",
+              "upgradeDesc_en": "Grants a 24% <@ba.talpu>(+2%)</> <ba.protect>Sanctuary</> effect and +8% DEF to all friendly units within range with less than 40% HP",
+              "upgradeDesc_ja": "攻撃範囲内のHPが40%未満の味方の防御力+8%、そして対象に24%<@ba.talpu>（+2%）</>の<ba.protect>加護</>状態を付与"
             }
           ],
           "attributeBlackboard": [
@@ -33270,9 +33270,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "攻击范围内的友军生命少于50%时，使其获得23%的<$ba.protect>庇护</>",
-              "upgradeDesc_en": "Grants a 23% <$ba.protect>Sanctuary</> effect to all friendly units within range with less than 50% HP",
-              "upgradeDesc_ja": "攻撃範囲内のHPが50%未満の味方に23%の<$ba.protect>加護</>状態を付与"
+              "upgradeDesc_zh": "攻击范围内的友军生命少于50%时，使其获得23%的<ba.protect>庇护</>",
+              "upgradeDesc_en": "Grants a 23% <ba.protect>Sanctuary</> effect to all friendly units within range with less than 50% HP",
+              "upgradeDesc_ja": "攻撃範囲内のHPが50%未満の味方に23%の<ba.protect>加護</>状態を付与"
             }
           ],
           "attributeBlackboard": [
@@ -33308,9 +33308,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "攻击范围内的友军生命少于60%时，使其获得26%的<$ba.protect>庇护</>",
-              "upgradeDesc_en": "Grants a 26% <$ba.protect>Sanctuary</> effect to all friendly units within range with less than 60% HP",
-              "upgradeDesc_ja": "攻撃範囲内のHPが60%未満の味方に26%の<$ba.protect>加護</>状態を付与"
+              "upgradeDesc_zh": "攻击范围内的友军生命少于60%时，使其获得26%的<ba.protect>庇护</>",
+              "upgradeDesc_en": "Grants a 26% <ba.protect>Sanctuary</> effect to all friendly units within range with less than 60% HP",
+              "upgradeDesc_ja": "攻撃範囲内のHPが60%未満の味方に26%の<ba.protect>加護</>状態を付与"
             }
           ],
           "attributeBlackboard": [
@@ -33401,9 +33401,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "攻击范围内的友军生命大于70%时，使其获得18%<@ba.talpu>（+2%）</>的<$ba.protect>庇护</>",
-              "upgradeDesc_en": "Grants an 18% <@ba.talpu>(+2%)</> <$ba.protect>Sanctuary</> effect to all friendly units within range with more than 70% HP",
-              "upgradeDesc_ja": "攻撃範囲内のHPが70％超えの味方に18％<@ba.talpu>（+2%）</>の<$ba.protect>加護</>状態を付与"
+              "upgradeDesc_zh": "攻击范围内的友军生命大于70%时，使其获得18%<@ba.talpu>（+2%）</>的<ba.protect>庇护</>",
+              "upgradeDesc_en": "Grants an 18% <@ba.talpu>(+2%)</> <ba.protect>Sanctuary</> effect to all friendly units within range with more than 70% HP",
+              "upgradeDesc_ja": "攻撃範囲内のHPが70％超えの味方に18％<@ba.talpu>（+2%）</>の<ba.protect>加護</>状態を付与"
             }
           ],
           "attributeBlackboard": [
@@ -33443,9 +33443,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "攻击范围内的友军生命大于60%时，使其获得18%<@ba.talpu>（+2%）</>的<$ba.protect>庇护</>",
-              "upgradeDesc_en": "Grants an 18% <@ba.talpu>(+2%)</> <$ba.protect>Sanctuary</> effect to all friendly units within range with more than 60% HP",
-              "upgradeDesc_ja": "攻撃範囲内のHPが60％超えの味方に18％<@ba.talpu>（+2%）</>の<$ba.protect>加護</>状態を付与"
+              "upgradeDesc_zh": "攻击范围内的友军生命大于60%时，使其获得18%<@ba.talpu>（+2%）</>的<ba.protect>庇护</>",
+              "upgradeDesc_en": "Grants an 18% <@ba.talpu>(+2%)</> <ba.protect>Sanctuary</> effect to all friendly units within range with more than 60% HP",
+              "upgradeDesc_ja": "攻撃範囲内のHPが60％超えの味方に18％<@ba.talpu>（+2%）</>の<ba.protect>加護</>状態を付与"
             }
           ],
           "attributeBlackboard": [
@@ -34211,9 +34211,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "自身生命会不断流失（该效果不会使生命降至30%以下）；生命值高于50%时获得+28%攻击力的<$ba.strong>精力充沛</>；高于80%效果翻倍",
-              "upgradeDesc_en": "Continually loses HP over time (HP cannot drop below 30% as a result of this effect); While HP is above 50%, this unit gains <$ba.strong>Vigor</>, increasing ATK by 28%; this effect is doubled above 80% HP",
-              "upgradeDesc_ja": "HPが徐々に減少（この効果でHPは最大値の30％以下にならない）。HPが最大値の50％以上のとき、攻撃力+28%の<$ba.strong>勇猛</>状態を獲得。HPが80％以上の場合、効果値倍増"
+              "upgradeDesc_zh": "自身生命会不断流失（该效果不会使生命降至30%以下）；生命值高于50%时获得+28%攻击力的<ba.strong>精力充沛</>；高于80%效果翻倍",
+              "upgradeDesc_en": "Continually loses HP over time (HP cannot drop below 30% as a result of this effect); While HP is above 50%, this unit gains <ba.strong>Vigor</>, increasing ATK by 28%; this effect is doubled above 80% HP",
+              "upgradeDesc_ja": "HPが徐々に減少（この効果でHPは最大値の30％以下にならない）。HPが最大値の50％以上のとき、攻撃力+28%の<ba.strong>勇猛</>状態を獲得。HPが80％以上の場合、効果値倍増"
             }
           ],
           "attributeBlackboard": [
@@ -34249,9 +34249,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "自身生命会不断流失（该效果不会使生命降至50%以下）；生命值高于50%时获得+30%攻击力的<$ba.strong>精力充沛</>；高于80%效果翻倍",
-              "upgradeDesc_en": "Continually loses HP over time (HP cannot drop below 50% as a result of this effect); While HP is above 50%, this unit gains <$ba.strong>Vigor</>, increasing ATK by 30%; this effect is doubled above 80% HP",
-              "upgradeDesc_ja": "HPが徐々に減少（この効果でHPは最大値の50％以下にならない）。HPが最大値の50％以上のとき、攻撃力+30%の<$ba.strong>勇猛</>状態を獲得。HPが80％以上の場合、効果値倍増"
+              "upgradeDesc_zh": "自身生命会不断流失（该效果不会使生命降至50%以下）；生命值高于50%时获得+30%攻击力的<ba.strong>精力充沛</>；高于80%效果翻倍",
+              "upgradeDesc_en": "Continually loses HP over time (HP cannot drop below 50% as a result of this effect); While HP is above 50%, this unit gains <ba.strong>Vigor</>, increasing ATK by 30%; this effect is doubled above 80% HP",
+              "upgradeDesc_ja": "HPが徐々に減少（この効果でHPは最大値の50％以下にならない）。HPが最大値の50％以上のとき、攻撃力+30%の<ba.strong>勇猛</>状態を獲得。HPが80％以上の場合、効果値倍増"
             }
           ],
           "attributeBlackboard": [
@@ -34316,9 +34316,9 @@
               "resKey": null,
               "target": "DISPLAY",
               "isToken": false,
-              "addDesc_zh": "造成法术伤害时附带相当于<@ba.vup>8%</>伤害的<$ba.dt.apoptosis2>凋亡损伤</>",
-              "addDesc_en": "When dealing Arts damage, deals an additional <@ba.vup>8%</> as <$ba.dt.apoptosis2>Necrosis damage</>",
-              "addDesc_ja": "術ダメージを与えたとき、追加で与ダメージの<@ba.vup>8%</>の<$ba.dt.apoptosis2>壊死損傷</>を与える",
+              "addDesc_zh": "造成法术伤害时附带相当于<@ba.vup>8%</>伤害的<ba.dt.apoptosis2>凋亡损伤</>",
+              "addDesc_en": "When dealing Arts damage, deals an additional <@ba.vup>8%</> as <ba.dt.apoptosis2>Necrosis damage</>",
+              "addDesc_ja": "術ダメージを与えたとき、追加で与ダメージの<@ba.vup>8%</>の<ba.dt.apoptosis2>壊死損傷</>を与える",
               "overrideDesc_zh": null,
               "overrideDesc_en": null,
               "overrideDesc_ja": null
@@ -34354,9 +34354,9 @@
               "resKey": null,
               "target": "DISPLAY",
               "isToken": false,
-              "addDesc_zh": "造成法术伤害时附带相当于<@ba.vup>8%</>伤害的<$ba.dt.apoptosis2>凋亡损伤</>",
-              "addDesc_en": "When dealing Arts damage, deals an additional <@ba.vup>8%</> as <$ba.dt.apoptosis2>Necrosis damage</>",
-              "addDesc_ja": "術ダメージを与えたとき、追加で与ダメージの<@ba.vup>8%</>の<$ba.dt.apoptosis2>壊死損傷</>を与える",
+              "addDesc_zh": "造成法术伤害时附带相当于<@ba.vup>8%</>伤害的<ba.dt.apoptosis2>凋亡损伤</>",
+              "addDesc_en": "When dealing Arts damage, deals an additional <@ba.vup>8%</> as <ba.dt.apoptosis2>Necrosis damage</>",
+              "addDesc_ja": "術ダメージを与えたとき、追加で与ダメージの<@ba.vup>8%</>の<ba.dt.apoptosis2>壊死損傷</>を与える",
               "overrideDesc_zh": null,
               "overrideDesc_en": null,
               "overrideDesc_ja": null
@@ -34381,9 +34381,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 1,
-              "upgradeDesc_zh": "若攻击目标周围没有其他敌人，攻击对其额外造成相当于攻击力26%<@ba.talpu>（+2%）</>的法术伤害；若攻击目标处于<$ba.dt.apoptosis2>凋亡损伤</>爆发期间，攻击对其额外造成相当于攻击力20%的元素伤害",
-              "upgradeDesc_en": "If there are no other enemies near the target, attacks deal an additional 26% <@ba.talpu>(+2%)</> ATK as Arts damage; if the target is under the burst effect of <$ba.dt.apoptosis2>Necrosis damage</>, the attack deals an additional 20% ATK as Elemental damage",
-              "upgradeDesc_ja": "攻撃対象の周囲に他の敵がいない場合、攻撃時に追加で攻撃力の26%<@ba.talpu>（+2%）</>の術ダメージを与える。攻撃対象が<$ba.dt.apoptosis2>壊死損傷</>の爆発効果中の場合、攻撃時に追加で攻撃力の20%の元素ダメージを与える"
+              "upgradeDesc_zh": "若攻击目标周围没有其他敌人，攻击对其额外造成相当于攻击力26%<@ba.talpu>（+2%）</>的法术伤害；若攻击目标处于<ba.dt.apoptosis2>凋亡损伤</>爆发期间，攻击对其额外造成相当于攻击力20%的元素伤害",
+              "upgradeDesc_en": "If there are no other enemies near the target, attacks deal an additional 26% <@ba.talpu>(+2%)</> ATK as Arts damage; if the target is under the burst effect of <ba.dt.apoptosis2>Necrosis damage</>, the attack deals an additional 20% ATK as Elemental damage",
+              "upgradeDesc_ja": "攻撃対象の周囲に他の敵がいない場合、攻撃時に追加で攻撃力の26%<@ba.talpu>（+2%）</>の術ダメージを与える。攻撃対象が<ba.dt.apoptosis2>壊死損傷</>の爆発効果中の場合、攻撃時に追加で攻撃力の20%の元素ダメージを与える"
             }
           ],
           "attributeBlackboard": [
@@ -34404,9 +34404,9 @@
               "resKey": null,
               "target": "DISPLAY",
               "isToken": false,
-              "addDesc_zh": "造成法术伤害时附带相当于<@ba.vup>8%</>伤害的<$ba.dt.apoptosis2>凋亡损伤</>",
-              "addDesc_en": "When dealing Arts damage, deals an additional <@ba.vup>8%</> as <$ba.dt.apoptosis2>Necrosis damage</>",
-              "addDesc_ja": "術ダメージを与えたとき、追加で与ダメージの<@ba.vup>8%</>の<$ba.dt.apoptosis2>壊死損傷</>を与える",
+              "addDesc_zh": "造成法术伤害时附带相当于<@ba.vup>8%</>伤害的<ba.dt.apoptosis2>凋亡损伤</>",
+              "addDesc_en": "When dealing Arts damage, deals an additional <@ba.vup>8%</> as <ba.dt.apoptosis2>Necrosis damage</>",
+              "addDesc_ja": "術ダメージを与えたとき、追加で与ダメージの<@ba.vup>8%</>の<ba.dt.apoptosis2>壊死損傷</>を与える",
               "overrideDesc_zh": null,
               "overrideDesc_en": null,
               "overrideDesc_ja": null
@@ -34431,9 +34431,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 1,
-              "upgradeDesc_zh": "若攻击目标周围没有其他敌人，攻击对其额外造成相当于攻击力32%<@ba.talpu>（+2%）</>的法术伤害；若攻击目标处于<$ba.dt.apoptosis2>凋亡损伤</>爆发期间，攻击对其额外造成相当于攻击力30%的元素伤害",
-              "upgradeDesc_en": "If there are no other enemies near the target, attacks deal an additional 32% <@ba.talpu>(+2%)</> ATK as Arts damage; if the target is under the burst effect of <$ba.dt.apoptosis2>Necrosis damage</>, the attack deals an additional 30% ATK as Elemental damage",
-              "upgradeDesc_ja": "攻撃対象の周囲に他の敵がいない場合、攻撃時に追加で攻撃力の32%<@ba.talpu>（+2%）</>の術ダメージを与える。攻撃対象が<$ba.dt.apoptosis2>壊死損傷</>の爆発効果中の場合、攻撃時に追加で攻撃力の30%の元素ダメージを与える"
+              "upgradeDesc_zh": "若攻击目标周围没有其他敌人，攻击对其额外造成相当于攻击力32%<@ba.talpu>（+2%）</>的法术伤害；若攻击目标处于<ba.dt.apoptosis2>凋亡损伤</>爆发期间，攻击对其额外造成相当于攻击力30%的元素伤害",
+              "upgradeDesc_en": "If there are no other enemies near the target, attacks deal an additional 32% <@ba.talpu>(+2%)</> ATK as Arts damage; if the target is under the burst effect of <ba.dt.apoptosis2>Necrosis damage</>, the attack deals an additional 30% ATK as Elemental damage",
+              "upgradeDesc_ja": "攻撃対象の周囲に他の敵がいない場合、攻撃時に追加で攻撃力の32%<@ba.talpu>（+2%）</>の術ダメージを与える。攻撃対象が<ba.dt.apoptosis2>壊死損傷</>の爆発効果中の場合、攻撃時に追加で攻撃力の30%の元素ダメージを与える"
             }
           ],
           "attributeBlackboard": [
@@ -34527,9 +34527,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "每9秒获得1层<$ba.shield>护盾</>（最多3层，部署后立即获得1层），每层护盾破裂时恢复自身24%<@ba.talpu>（+2%）</>最大生命和1点技力",
-              "upgradeDesc_en": "Every 9 seconds, gains 1 <$ba.shield>Shield</> (Can have up to 3 stacks, with 1 stack granted immediately when deployed). When a Shield is broken, restores 24% <@ba.talpu>(+2%)</> of Max HP and 1 SP",
-              "upgradeDesc_ja": "9秒ごとに<$ba.shield>シールド</>を1枚形成する（最大3枚まで重複でき、配置後シールドを1枚形成する）。シールドが1枚消耗されるたびに、自身のHPが最大値の24%<@ba.talpu>（+2%）</>、SPが1回復する"
+              "upgradeDesc_zh": "每9秒获得1层<ba.shield>护盾</>（最多3层，部署后立即获得1层），每层护盾破裂时恢复自身24%<@ba.talpu>（+2%）</>最大生命和1点技力",
+              "upgradeDesc_en": "Every 9 seconds, gains 1 <ba.shield>Shield</> (Can have up to 3 stacks, with 1 stack granted immediately when deployed). When a Shield is broken, restores 24% <@ba.talpu>(+2%)</> of Max HP and 1 SP",
+              "upgradeDesc_ja": "9秒ごとに<ba.shield>シールド</>を1枚形成する（最大3枚まで重複でき、配置後シールドを1枚形成する）。シールドが1枚消耗されるたびに、自身のHPが最大値の24%<@ba.talpu>（+2%）</>、SPが1回復する"
             }
           ],
           "attributeBlackboard": [
@@ -34565,9 +34565,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "每9秒获得1层<$ba.shield>护盾</>（最多3层，部署后立即获得1层），每层护盾破裂时恢复自身25%<@ba.talpu>（+2%）</>最大生命和2点技力",
-              "upgradeDesc_en": "Every 9 seconds, gains 1 <$ba.shield>Shield</> (Can have up to 3 stacks, with 1 stack granted immediately when deployed). When a Shield is broken, restores 25% <@ba.talpu>(+2%)</> of Max HP and 2 SP",
-              "upgradeDesc_ja": "9秒ごとに<$ba.shield>シールド</>を1枚形成する（最大3枚まで重複でき、配置後シールドを1枚形成する）。シールドが1枚消耗されるたびに、自身のHPが最大値の25%<@ba.talpu>（+2%）</>、SPが2回復する"
+              "upgradeDesc_zh": "每9秒获得1层<ba.shield>护盾</>（最多3层，部署后立即获得1层），每层护盾破裂时恢复自身25%<@ba.talpu>（+2%）</>最大生命和2点技力",
+              "upgradeDesc_en": "Every 9 seconds, gains 1 <ba.shield>Shield</> (Can have up to 3 stacks, with 1 stack granted immediately when deployed). When a Shield is broken, restores 25% <@ba.talpu>(+2%)</> of Max HP and 2 SP",
+              "upgradeDesc_ja": "9秒ごとに<ba.shield>シールド</>を1枚形成する（最大3枚まで重複でき、配置後シールドを1枚形成する）。シールドが1枚消耗されるたびに、自身のHPが最大値の25%<@ba.talpu>（+2%）</>、SPが2回復する"
             }
           ],
           "attributeBlackboard": [
@@ -34670,9 +34670,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "部署后立即获得相当于生命上限65%<@ba.talpu>（+5%）</>的<$ba.barrier>屏障</>，每击倒一名敌人时获得相当于生命上限11%的<$ba.barrier>屏障</>（最多不超过生命上限300%）",
-              "upgradeDesc_en": "After deployment, immediately gains a <$ba.barrier>Barrier</> equal to 65% <@ba.talpu>(+5%)</> Max HP; When defeating an enemy, gains a <$ba.barrier>Barrier</> equal to 11% Max HP (Cannot exceed 300% Max HP)",
-              "upgradeDesc_ja": "配置後、最大HPの65%<@ba.talpu>（+5%）</>までの被ダメージを吸収可能な<$ba.barrier>バリア</>を獲得し、敵を倒す度自身の最大HPの11%までの被ダメージを吸収可能な<$ba.barrier>バリア</>を獲得（効果値は最大HPの300%まで重複可能）"
+              "upgradeDesc_zh": "部署后立即获得相当于生命上限65%<@ba.talpu>（+5%）</>的<ba.barrier>屏障</>，每击倒一名敌人时获得相当于生命上限11%的<ba.barrier>屏障</>（最多不超过生命上限300%）",
+              "upgradeDesc_en": "After deployment, immediately gains a <ba.barrier>Barrier</> equal to 65% <@ba.talpu>(+5%)</> Max HP; When defeating an enemy, gains a <ba.barrier>Barrier</> equal to 11% Max HP (Cannot exceed 300% Max HP)",
+              "upgradeDesc_ja": "配置後、最大HPの65%<@ba.talpu>（+5%）</>までの被ダメージを吸収可能な<ba.barrier>バリア</>を獲得し、敵を倒す度自身の最大HPの11%までの被ダメージを吸収可能な<ba.barrier>バリア</>を獲得（効果値は最大HPの300%まで重複可能）"
             }
           ],
           "attributeBlackboard": [
@@ -34712,9 +34712,9 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "部署后立即获得相当于生命上限75%<@ba.talpu>（+5%）</>的<$ba.barrier>屏障</>，每击倒一名敌人时获得相当于生命上限12%的<$ba.barrier>屏障</>（最多不超过生命上限300%）",
-              "upgradeDesc_en": "After deployment, immediately gains a <$ba.barrier>Barrier</> equal to 75% <@ba.talpu>(+5%)</> Max HP; When defeating an enemy, gains a <$ba.barrier>Barrier</> equal to 12% Max HP (Cannot exceed 300% Max HP)",
-              "upgradeDesc_ja": "配置後、最大HPの75%<@ba.talpu>（+5%）</>までの被ダメージを吸収可能な<$ba.barrier>バリア</>を獲得し、敵を倒す度自身の最大HPの12%までの被ダメージを吸収可能な<$ba.barrier>バリア</>を獲得（効果値は最大HPの300%まで重複可能）"
+              "upgradeDesc_zh": "部署后立即获得相当于生命上限75%<@ba.talpu>（+5%）</>的<ba.barrier>屏障</>，每击倒一名敌人时获得相当于生命上限12%的<ba.barrier>屏障</>（最多不超过生命上限300%）",
+              "upgradeDesc_en": "After deployment, immediately gains a <ba.barrier>Barrier</> equal to 75% <@ba.talpu>(+5%)</> Max HP; When defeating an enemy, gains a <ba.barrier>Barrier</> equal to 12% Max HP (Cannot exceed 300% Max HP)",
+              "upgradeDesc_ja": "配置後、最大HPの75%<@ba.talpu>（+5%）</>までの被ダメージを吸収可能な<ba.barrier>バリア</>を獲得し、敵を倒す度自身の最大HPの12%までの被ダメージを吸収可能な<ba.barrier>バリア</>を獲得（効果値は最大HPの300%まで重複可能）"
             }
           ],
           "attributeBlackboard": [
@@ -35433,9 +35433,9 @@
               "displayRangeId": false,
               "rangeId": "x-5",
               "talentIndex": 0,
-              "upgradeDesc_zh": "部署时及首次被击倒时对周围四格敌人造成80%攻击力的真实伤害并<$ba.stun>晕眩</>3秒，上一名部署干员势力为【卡西米尔】时额外造成一次伤害",
-              "upgradeDesc_en": "When deploying and when defeated for the first time, deals 80% ATK as True damage to enemies in the four adjacent tiles and <$ba.stun>Stuns</> them for 3s. If the previously deployed operator is from [Kazimierz], deals an additional hit",
-              "upgradeDesc_ja": "配置後、および初めて致命的なダメージを受けたとき、隣接4マス内の敵全員に攻撃力の80%の確定ダメージを与え、3秒間<$ba.stun>スタン</>させる。直前に配置したオペレーターが【カジミエーシュ】に属する場合、追加でさらに1回ダメージを与える"
+              "upgradeDesc_zh": "部署时及首次被击倒时对周围四格敌人造成80%攻击力的真实伤害并<ba.stun>晕眩</>3秒，上一名部署干员势力为【卡西米尔】时额外造成一次伤害",
+              "upgradeDesc_en": "When deploying and when defeated for the first time, deals 80% ATK as True damage to enemies in the four adjacent tiles and <ba.stun>Stuns</> them for 3s. If the previously deployed operator is from [Kazimierz], deals an additional hit",
+              "upgradeDesc_ja": "配置後、および初めて致命的なダメージを受けたとき、隣接4マス内の敵全員に攻撃力の80%の確定ダメージを与え、3秒間<ba.stun>スタン</>させる。直前に配置したオペレーターが【カジミエーシュ】に属する場合、追加でさらに1回ダメージを与える"
             },
             {
               "resKey": "nearl2_equip_2_2_p2",
@@ -35495,9 +35495,9 @@
               "displayRangeId": false,
               "rangeId": "x-5",
               "talentIndex": 0,
-              "upgradeDesc_zh": "部署时及首次被击倒时对周围四格敌人造成100%攻击力的真实伤害并<$ba.stun>晕眩</>4秒，上一名部署干员势力为【卡西米尔】时额外造成一次伤害",
-              "upgradeDesc_en": "When deploying and when defeated for the first time, deals 100% ATK as True damage to enemies in the four adjacent tiles and <$ba.stun>Stuns</> them for 4s. If the previously deployed operator is from [Kazimierz], deals an additional hit",
-              "upgradeDesc_ja": "配置後、および初めて致命的なダメージを受けたとき、隣接4マス内の敵全員に攻撃力の100%の確定ダメージを与え、4秒間<$ba.stun>スタン</>させる。直前に配置したオペレーターが【カジミエーシュ】に属する場合、追加でさらに1回ダメージを与える"
+              "upgradeDesc_zh": "部署时及首次被击倒时对周围四格敌人造成100%攻击力的真实伤害并<ba.stun>晕眩</>4秒，上一名部署干员势力为【卡西米尔】时额外造成一次伤害",
+              "upgradeDesc_en": "When deploying and when defeated for the first time, deals 100% ATK as True damage to enemies in the four adjacent tiles and <ba.stun>Stuns</> them for 4s. If the previously deployed operator is from [Kazimierz], deals an additional hit",
+              "upgradeDesc_ja": "配置後、および初めて致命的なダメージを受けたとき、隣接4マス内の敵全員に攻撃力の100%の確定ダメージを与え、4秒間<ba.stun>スタン</>させる。直前に配置したオペレーターが【カジミエーシュ】に属する場合、追加でさらに1回ダメージを与える"
             },
             {
               "resKey": "nearl2_equip_2_3_p2",
@@ -36483,7 +36483,7 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "攻击敌人时对目标施加19%<@ba.talpu>（+2%）</>的<$ba.magicfragile>【法术脆弱】</>，持续5秒",
+              "upgradeDesc_zh": "攻击敌人时对目标施加19%<@ba.talpu>（+2%）</>的<ba.magicfragile>【法术脆弱】</>，持续5秒",
               "upgradeDesc_en": "",
               "upgradeDesc_ja": ""
             }
@@ -36521,7 +36521,7 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "攻击敌人时对目标施加22%<@ba.talpu>（+2%）</>的<$ba.magicfragile>【法术脆弱】</>，持续5秒",
+              "upgradeDesc_zh": "攻击敌人时对目标施加22%<@ba.talpu>（+2%）</>的<ba.magicfragile>【法术脆弱】</>，持续5秒",
               "upgradeDesc_en": "",
               "upgradeDesc_ja": ""
             }
@@ -36736,7 +36736,7 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "造成伤害时有10%的几率攻击力提升至170%<@ba.talpu>（+5%）</>，并使目标<$ba.tremble>战栗</>5秒",
+              "upgradeDesc_zh": "造成伤害时有10%的几率攻击力提升至170%<@ba.talpu>（+5%）</>，并使目标<ba.tremble>战栗</>5秒",
               "upgradeDesc_en": "",
               "upgradeDesc_ja": ""
             }
@@ -36778,7 +36778,7 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "造成伤害时有10%的几率攻击力提升至175%<@ba.talpu>（+5%）</>，并使目标<$ba.tremble>战栗</>5秒",
+              "upgradeDesc_zh": "造成伤害时有10%的几率攻击力提升至175%<@ba.talpu>（+5%）</>，并使目标<ba.tremble>战栗</>5秒",
               "upgradeDesc_en": "",
               "upgradeDesc_ja": ""
             }
@@ -37014,7 +37014,7 @@
               "addDesc_zh": null,
               "addDesc_en": "",
               "addDesc_ja": "",
-              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长</>的<$ba.sluggish>停顿</>",
+              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长</>的<ba.sluggish>停顿</>",
               "overrideDesc_en": "",
               "overrideDesc_ja": ""
             }
@@ -37040,7 +37040,7 @@
               "addDesc_zh": null,
               "addDesc_en": "",
               "addDesc_ja": "",
-              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长</>的<$ba.sluggish>停顿</>",
+              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长</>的<ba.sluggish>停顿</>",
               "overrideDesc_en": "",
               "overrideDesc_ja": ""
             },
@@ -37052,7 +37052,7 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 1,
-              "upgradeDesc_zh": "攻击范围内被<$ba.sluggish>停顿</>的敌人在下一瞬间起还会受到等长时间的24%<@ba.talpu>（+3%）</>的<$ba.fragile>脆弱</>效果和5％<$ba.weaken>虚弱</>效果",
+              "upgradeDesc_zh": "攻击范围内被<ba.sluggish>停顿</>的敌人在下一瞬间起还会受到等长时间的24%<@ba.talpu>（+3%）</>的<ba.fragile>脆弱</>效果和5％<ba.weaken>虚弱</>效果",
               "upgradeDesc_en": "",
               "upgradeDesc_ja": ""
             }
@@ -37078,7 +37078,7 @@
               "addDesc_zh": null,
               "addDesc_en": "",
               "addDesc_ja": "",
-              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长</>的<$ba.sluggish>停顿</>",
+              "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长</>的<ba.sluggish>停顿</>",
               "overrideDesc_en": "",
               "overrideDesc_ja": ""
             },
@@ -37090,7 +37090,7 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 1,
-              "upgradeDesc_zh": "攻击范围内被<$ba.sluggish>停顿</>的敌人在下一瞬间起还会受到等长时间的25%<@ba.talpu>（+3%）</>的<$ba.fragile>脆弱</>效果和8％<$ba.weaken>虚弱</>效果",
+              "upgradeDesc_zh": "攻击范围内被<ba.sluggish>停顿</>的敌人在下一瞬间起还会受到等长时间的25%<@ba.talpu>（+3%）</>的<ba.fragile>脆弱</>效果和8％<ba.weaken>虚弱</>效果",
               "upgradeDesc_en": "",
               "upgradeDesc_ja": ""
             }
@@ -37532,7 +37532,7 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "攻击速度+14<@ba.talpu>（+2）</>，若目标为【野生动物】则特性的<$ba.sluggish>停顿</>进一步延长",
+              "upgradeDesc_zh": "攻击速度+14<@ba.talpu>（+2）</>，若目标为【野生动物】则特性的<ba.sluggish>停顿</>进一步延长",
               "upgradeDesc_en": "",
               "upgradeDesc_ja": ""
             }
@@ -37582,7 +37582,7 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "攻击速度+16<@ba.talpu>（+2）</>，若目标为【野生动物】则特性的<$ba.sluggish>停顿</>更进一步延长",
+              "upgradeDesc_zh": "攻击速度+16<@ba.talpu>（+2）</>，若目标为【野生动物】则特性的<ba.sluggish>停顿</>更进一步延长",
               "upgradeDesc_en": "",
               "upgradeDesc_ja": ""
             }
@@ -37629,7 +37629,7 @@
               "resKey": null,
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
-              "addDesc_zh": "生命值低于50%时，获得25%的<$ba.protect>庇护</>",
+              "addDesc_zh": "生命值低于50%时，获得25%的<ba.protect>庇护</>",
               "addDesc_en": "",
               "addDesc_ja": "",
               "overrideDesc_zh": null,
@@ -37667,7 +37667,7 @@
               "resKey": null,
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
-              "addDesc_zh": "生命值低于50%时，获得25%的<$ba.protect>庇护</>",
+              "addDesc_zh": "生命值低于50%时，获得25%的<ba.protect>庇护</>",
               "addDesc_en": "",
               "addDesc_ja": "",
               "overrideDesc_zh": null,
@@ -37694,7 +37694,7 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "在场时，自身获得最高+60攻击速度和技力自然回复速度+2.2/秒的<$ba.berserk>坚忍</>（损失60%生命值时达到最大加成）",
+              "upgradeDesc_zh": "在场时，自身获得最高+60攻击速度和技力自然回复速度+2.2/秒的<ba.berserk>坚忍</>（损失60%生命值时达到最大加成）",
               "upgradeDesc_en": "",
               "upgradeDesc_ja": ""
             }
@@ -37717,7 +37717,7 @@
               "resKey": null,
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
-              "addDesc_zh": "生命值低于50%时，获得25%的<$ba.protect>庇护</>",
+              "addDesc_zh": "生命值低于50%时，获得25%的<ba.protect>庇护</>",
               "addDesc_en": "",
               "addDesc_ja": "",
               "overrideDesc_zh": null,
@@ -37744,7 +37744,7 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "在场时，自身获得最高+70攻击速度和技力自然回复速度+2.3/秒的<$ba.berserk>坚忍</>（损失50%生命值时达到最大加成）",
+              "upgradeDesc_zh": "在场时，自身获得最高+70攻击速度和技力自然回复速度+2.3/秒的<ba.berserk>坚忍</>（损失50%生命值时达到最大加成）",
               "upgradeDesc_en": "",
               "upgradeDesc_ja": ""
             }
@@ -39044,7 +39044,7 @@
               "resKey": null,
               "target": "DISPLAY",
               "isToken": false,
-              "addDesc_zh": "攻击范围内敌人的<$ba.invisible>隐匿</>效果失效",
+              "addDesc_zh": "攻击范围内敌人的<ba.invisible>隐匿</>效果失效",
               "addDesc_en": "",
               "addDesc_ja": "",
               "overrideDesc_zh": null,
@@ -39086,7 +39086,7 @@
               "resKey": null,
               "target": "DISPLAY",
               "isToken": false,
-              "addDesc_zh": "攻击范围内敌人的<$ba.invisible>隐匿</>效果失效",
+              "addDesc_zh": "攻击范围内敌人的<ba.invisible>隐匿</>效果失效",
               "addDesc_en": "",
               "addDesc_ja": "",
               "overrideDesc_zh": null,
@@ -39163,7 +39163,7 @@
               "resKey": null,
               "target": "DISPLAY",
               "isToken": false,
-              "addDesc_zh": "攻击范围内敌人的<$ba.invisible>隐匿</>效果失效",
+              "addDesc_zh": "攻击范围内敌人的<ba.invisible>隐匿</>效果失效",
               "addDesc_en": "",
               "addDesc_ja": "",
               "overrideDesc_zh": null,
@@ -39269,7 +39269,7 @@
               "resKey": null,
               "target": "DISPLAY",
               "isToken": false,
-              "addDesc_zh": "攻击范围内敌人的<$ba.invisible>隐匿</>效果失效",
+              "addDesc_zh": "攻击范围内敌人的<ba.invisible>隐匿</>效果失效",
               "addDesc_en": "",
               "addDesc_ja": "",
               "overrideDesc_zh": null,
@@ -39307,7 +39307,7 @@
               "resKey": null,
               "target": "DISPLAY",
               "isToken": false,
-              "addDesc_zh": "攻击范围内敌人的<$ba.invisible>隐匿</>效果失效",
+              "addDesc_zh": "攻击范围内敌人的<ba.invisible>隐匿</>效果失效",
               "addDesc_en": "",
               "addDesc_ja": "",
               "overrideDesc_zh": null,
@@ -39369,7 +39369,7 @@
               "resKey": null,
               "target": "DISPLAY",
               "isToken": false,
-              "addDesc_zh": "攻击范围内敌人的<$ba.invisible>隐匿</>效果失效",
+              "addDesc_zh": "攻击范围内敌人的<ba.invisible>隐匿</>效果失效",
               "addDesc_en": "",
               "addDesc_ja": "",
               "overrideDesc_zh": null,
@@ -39455,7 +39455,7 @@
               "resKey": null,
               "target": "DISPLAY",
               "isToken": false,
-              "addDesc_zh": "攻击范围内敌人的<$ba.invisible>隐匿</>效果失效",
+              "addDesc_zh": "攻击范围内敌人的<ba.invisible>隐匿</>效果失效",
               "addDesc_en": "",
               "addDesc_ja": "",
               "overrideDesc_zh": null,
@@ -39493,7 +39493,7 @@
               "resKey": null,
               "target": "DISPLAY",
               "isToken": false,
-              "addDesc_zh": "攻击范围内敌人的<$ba.invisible>隐匿</>效果失效",
+              "addDesc_zh": "攻击范围内敌人的<ba.invisible>隐匿</>效果失效",
               "addDesc_en": "",
               "addDesc_ja": "",
               "overrideDesc_zh": null,
@@ -39520,7 +39520,7 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "优先攻击<$ba.stun>晕眩</>的敌人且攻击<$ba.stun>晕眩</>敌人时攻击力提升至175%<@ba.talpu>（+5%）</>",
+              "upgradeDesc_zh": "优先攻击<ba.stun>晕眩</>的敌人且攻击<ba.stun>晕眩</>敌人时攻击力提升至175%<@ba.talpu>（+5%）</>",
               "upgradeDesc_en": "",
               "upgradeDesc_ja": ""
             }
@@ -39543,7 +39543,7 @@
               "resKey": null,
               "target": "DISPLAY",
               "isToken": false,
-              "addDesc_zh": "攻击范围内敌人的<$ba.invisible>隐匿</>效果失效",
+              "addDesc_zh": "攻击范围内敌人的<ba.invisible>隐匿</>效果失效",
               "addDesc_en": "",
               "addDesc_ja": "",
               "overrideDesc_zh": null,
@@ -39570,7 +39570,7 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "优先攻击<$ba.stun>晕眩</>的敌人且攻击<$ba.stun>晕眩</>敌人时攻击力提升至185%<@ba.talpu>（+5%）</>",
+              "upgradeDesc_zh": "优先攻击<ba.stun>晕眩</>的敌人且攻击<ba.stun>晕眩</>敌人时攻击力提升至185%<@ba.talpu>（+5%）</>",
               "upgradeDesc_en": "",
               "upgradeDesc_ja": ""
             }
@@ -39654,7 +39654,7 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "部署后立即对攻击范围内一个敌人投掷闪光弹，使其和周围敌人<$ba.stun>晕眩</>5秒，且5秒内灰烬对这些敌人造成的物理伤害提升7%",
+              "upgradeDesc_zh": "部署后立即对攻击范围内一个敌人投掷闪光弹，使其和周围敌人<ba.stun>晕眩</>5秒，且5秒内灰烬对这些敌人造成的物理伤害提升7%",
               "upgradeDesc_en": "",
               "upgradeDesc_ja": ""
             }
@@ -39696,7 +39696,7 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "部署后立即对攻击范围内一个敌人投掷闪光弹，使其和周围敌人<$ba.stun>晕眩</>6秒，且6秒内灰烬对这些敌人造成的物理伤害提升10%",
+              "upgradeDesc_zh": "部署后立即对攻击范围内一个敌人投掷闪光弹，使其和周围敌人<ba.stun>晕眩</>6秒，且6秒内灰烬对这些敌人造成的物理伤害提升10%",
               "upgradeDesc_en": "",
               "upgradeDesc_ja": ""
             }
@@ -43207,7 +43207,7 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 1,
-              "upgradeDesc_zh": "攻击范围内所有生命值高于60%的敌人<$ba.weightless>失重</>，生命值低于50%的敌人获得10%的<$ba.magicfragile>【法术脆弱】</>",
+              "upgradeDesc_zh": "攻击范围内所有生命值高于60%的敌人<ba.weightless>失重</>，生命值低于50%的敌人获得10%的<ba.magicfragile>【法术脆弱】</>",
               "upgradeDesc_en": "",
               "upgradeDesc_ja": ""
             },
@@ -43261,7 +43261,7 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 1,
-              "upgradeDesc_zh": "攻击范围内所有生命值高于50%的敌人<$ba.weightless>失重</>，生命值低于50%的敌人获得20%的<$ba.magicfragile>【法术脆弱】</>",
+              "upgradeDesc_zh": "攻击范围内所有生命值高于50%的敌人<ba.weightless>失重</>，生命值低于50%的敌人获得20%的<ba.magicfragile>【法术脆弱】</>",
               "upgradeDesc_en": "",
               "upgradeDesc_ja": ""
             },
@@ -43715,7 +43715,7 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "攻击处于<$ba.sluggish>停顿</>、<$ba.root>束缚</>的敌人时，额外造成相当于攻击力48%<@ba.talpu>（+3%）</>的法术伤害，目标同时处于<$ba.sluggish>停顿</>和<$ba.root>束缚</>时该伤害提升至原本的1.1倍",
+              "upgradeDesc_zh": "攻击处于<ba.sluggish>停顿</>、<ba.root>束缚</>的敌人时，额外造成相当于攻击力48%<@ba.talpu>（+3%）</>的法术伤害，目标同时处于<ba.sluggish>停顿</>和<ba.root>束缚</>时该伤害提升至原本的1.1倍",
               "upgradeDesc_en": "",
               "upgradeDesc_ja": ""
             }
@@ -43757,7 +43757,7 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "攻击处于<$ba.sluggish>停顿</>、<$ba.root>束缚</>的敌人时，额外造成相当于攻击力48%<@ba.talpu>（+3%）</>的法术伤害，目标同时处于<$ba.sluggish>停顿</>和<$ba.root>束缚</>时该伤害提升至原本的1.2倍",
+              "upgradeDesc_zh": "攻击处于<ba.sluggish>停顿</>、<ba.root>束缚</>的敌人时，额外造成相当于攻击力48%<@ba.talpu>（+3%）</>的法术伤害，目标同时处于<ba.sluggish>停顿</>和<ba.root>束缚</>时该伤害提升至原本的1.2倍",
               "upgradeDesc_en": "",
               "upgradeDesc_ja": ""
             }
@@ -43863,7 +43863,7 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "攻击使目标的特殊能力失效并获得4%的<$ba.fragile>脆弱</>，持续7<@ba.talpu>（+1）</>秒",
+              "upgradeDesc_zh": "攻击使目标的特殊能力失效并获得4%的<ba.fragile>脆弱</>，持续7<@ba.talpu>（+1）</>秒",
               "upgradeDesc_en": "",
               "upgradeDesc_ja": ""
             }
@@ -43905,7 +43905,7 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "攻击使目标的特殊能力失效并获得8%的<$ba.fragile>脆弱</>，持续7<@ba.talpu>（+1）</>秒",
+              "upgradeDesc_zh": "攻击使目标的特殊能力失效并获得8%的<ba.fragile>脆弱</>，持续7<@ba.talpu>（+1）</>秒",
               "upgradeDesc_en": "",
               "upgradeDesc_ja": ""
             }
@@ -44519,7 +44519,7 @@
               "displayRangeId": false,
               "rangeId": "3-1",
               "talentIndex": 0,
-              "upgradeDesc_zh": "攻击范围扩大，攻击有15%概率造成1.5秒<$ba.cold>寒冷</>，但攻击间隔略微增大",
+              "upgradeDesc_zh": "攻击范围扩大，攻击有15%概率造成1.5秒<ba.cold>寒冷</>，但攻击间隔略微增大",
               "upgradeDesc_en": "",
               "upgradeDesc_ja": ""
             }
@@ -44569,7 +44569,7 @@
               "displayRangeId": false,
               "rangeId": "3-1",
               "talentIndex": 0,
-              "upgradeDesc_zh": "攻击范围扩大，攻击有25%概率造成1.5秒<$ba.cold>寒冷</>，但攻击间隔略微增大",
+              "upgradeDesc_zh": "攻击范围扩大，攻击有25%概率造成1.5秒<ba.cold>寒冷</>，但攻击间隔略微增大",
               "upgradeDesc_en": "",
               "upgradeDesc_ja": ""
             }
@@ -44711,7 +44711,7 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "对生命值低于一半的单位造成的伤害提升8%；造成致命伤害时使敌人保留1点生命并使其<$ba.dying>重伤</>（击杀者技力+2）；罗小黑不攻击<$ba.dying>重伤</>单位",
+              "upgradeDesc_zh": "对生命值低于一半的单位造成的伤害提升8%；造成致命伤害时使敌人保留1点生命并使其<ba.dying>重伤</>（击杀者技力+2）；罗小黑不攻击<ba.dying>重伤</>单位",
               "upgradeDesc_en": "",
               "upgradeDesc_ja": ""
             }
@@ -44777,7 +44777,7 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "对生命值低于一半的单位造成的伤害提升12%；造成致命伤害时使敌人保留1点生命并使其<$ba.dying>重伤</>（击杀者技力+2）；罗小黑不攻击<$ba.dying>重伤</>单位",
+              "upgradeDesc_zh": "对生命值低于一半的单位造成的伤害提升12%；造成致命伤害时使敌人保留1点生命并使其<ba.dying>重伤</>（击杀者技力+2）；罗小黑不攻击<ba.dying>重伤</>单位",
               "upgradeDesc_en": "",
               "upgradeDesc_ja": ""
             }
@@ -45022,7 +45022,7 @@
               "resKey": null,
               "target": "DISPLAY",
               "isToken": false,
-              "addDesc_zh": "造成法术伤害时附带相当于<@ba.vup>8%</>伤害的<$ba.dt.apoptosis2>凋亡损伤</>",
+              "addDesc_zh": "造成法术伤害时附带相当于<@ba.vup>8%</>伤害的<ba.dt.apoptosis2>凋亡损伤</>",
               "addDesc_en": "",
               "addDesc_ja": "",
               "overrideDesc_zh": null,
@@ -45060,7 +45060,7 @@
               "resKey": null,
               "target": "DISPLAY",
               "isToken": false,
-              "addDesc_zh": "造成法术伤害时附带相当于<@ba.vup>8%</>伤害的<$ba.dt.apoptosis2>凋亡损伤</>",
+              "addDesc_zh": "造成法术伤害时附带相当于<@ba.vup>8%</>伤害的<ba.dt.apoptosis2>凋亡损伤</>",
               "addDesc_en": "",
               "addDesc_ja": "",
               "overrideDesc_zh": null,
@@ -45087,7 +45087,7 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "对一个目标发起攻击时，有50%几率额外对攻击范围内一个随机目标造成相当于攻击力65%<@ba.talpu>（+5%）</>的法术伤害并使其<$ba.sluggish>停顿</>0.8秒，若该随机目标处于<$ba.dt.apoptosis2>凋亡损伤</>爆发期间则同时造成相当于攻击力40%的元素伤害",
+              "upgradeDesc_zh": "对一个目标发起攻击时，有50%几率额外对攻击范围内一个随机目标造成相当于攻击力65%<@ba.talpu>（+5%）</>的法术伤害并使其<ba.sluggish>停顿</>0.8秒，若该随机目标处于<ba.dt.apoptosis2>凋亡损伤</>爆发期间则同时造成相当于攻击力40%的元素伤害",
               "upgradeDesc_en": "",
               "upgradeDesc_ja": ""
             }
@@ -45110,7 +45110,7 @@
               "resKey": null,
               "target": "DISPLAY",
               "isToken": false,
-              "addDesc_zh": "造成法术伤害时附带相当于<@ba.vup>8%</>伤害的<$ba.dt.apoptosis2>凋亡损伤</>",
+              "addDesc_zh": "造成法术伤害时附带相当于<@ba.vup>8%</>伤害的<ba.dt.apoptosis2>凋亡损伤</>",
               "addDesc_en": "",
               "addDesc_ja": "",
               "overrideDesc_zh": null,
@@ -45137,7 +45137,7 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "对一个目标发起攻击时，有60%几率额外对攻击范围内一个随机目标造成相当于攻击力65%<@ba.talpu>（+5%）</>的法术伤害并使其<$ba.sluggish>停顿</>0.8秒，若该随机目标处于<$ba.dt.apoptosis2>凋亡损伤</>爆发期间则同时造成相当于攻击力60%的元素伤害",
+              "upgradeDesc_zh": "对一个目标发起攻击时，有60%几率额外对攻击范围内一个随机目标造成相当于攻击力65%<@ba.talpu>（+5%）</>的法术伤害并使其<ba.sluggish>停顿</>0.8秒，若该随机目标处于<ba.dt.apoptosis2>凋亡损伤</>爆发期间则同时造成相当于攻击力60%的元素伤害",
               "upgradeDesc_en": "",
               "upgradeDesc_ja": ""
             }
@@ -45239,7 +45239,7 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "攻击时对主目标的攻击力提升至120%并为其附着残影，残影受到维什戴尔的余震影响时有15%概率爆炸，对周围所有敌人造成180%<@ba.talpu>（+10%）</>攻击力的物理伤害并使其<$ba.stun>晕眩</>1秒",
+              "upgradeDesc_zh": "攻击时对主目标的攻击力提升至120%并为其附着残影，残影受到维什戴尔的余震影响时有15%概率爆炸，对周围所有敌人造成180%<@ba.talpu>（+10%）</>攻击力的物理伤害并使其<ba.stun>晕眩</>1秒",
               "upgradeDesc_en": "",
               "upgradeDesc_ja": ""
             }
@@ -45277,7 +45277,7 @@
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
-              "upgradeDesc_zh": "攻击时对主目标的攻击力提升至125%并为其附着残影，残影受到维什戴尔的余震影响时有15%概率爆炸，对周围所有敌人造成185%<@ba.talpu>（+10%）</>攻击力的物理伤害并使其<$ba.stun>晕眩</>1秒",
+              "upgradeDesc_zh": "攻击时对主目标的攻击力提升至125%并为其附着残影，残影受到维什戴尔的余震影响时有15%概率爆炸，对周围所有敌人造成185%<@ba.talpu>（+10%）</>攻击力的物理伤害并使其<ba.stun>晕眩</>1秒",
               "upgradeDesc_en": "",
               "upgradeDesc_ja": ""
             }
