@@ -84,6 +84,7 @@ for id in tokens_list:
                         "desc_en": replace_substrings(en_skill_table[skillId]['levels'][-1]['description'],blackboard) if in_global and desc else "",
                         "skillType": level['skillType'],
                         "durationType": level['durationType'],
+                        "spType": level['spData']['spType'],
                         'spData': level['spData']})
     talents = []
     if token_dict['talents']:

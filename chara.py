@@ -57,7 +57,7 @@ with open('uniequip.json', encoding='utf-8') as f:
 data = []
 
 filtered_cn_char_table = {key: cn_char_table[key] for key in cn_char_table.keys(
-) if not "token" in key and not "trap" in key}
+) if not "token" in key and not "trap" in key and key != "char_512_aprot"}
 
 subProfessionIds = []
 
