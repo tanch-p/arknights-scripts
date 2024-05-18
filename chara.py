@@ -145,11 +145,12 @@ for id in filtered_cn_char_table:
 
     return_dict = {"id": id, "appellation": character_dict['appellation'], "name_zh": character_dict['name'], "name_ja": "", "name_en": "",
                    "desc_zh": character_dict['description'].replace("<$ba","<ba"), "desc_ja": "", "desc_en": "",
-                   "nationId": character_dict['nationId'], "groupId": character_dict['groupId'], "teamId": character_dict['teamId'], "position": character_dict['position'], "tagList": [],
+                   "nationId": character_dict['nationId'], "groupId": character_dict['groupId'], "teamId": character_dict['teamId'], "position": character_dict['position'], 
+                   "tagList": [],
                    "isSpChar": character_dict['isSpChar'], "rarity": character_dict['rarity'],
                    "profession": character_dict['profession'], "subProfessionId": character_dict['subProfessionId'], "stats": stats,
                    'potential': potential, "favorData": favor_data, "tokens": tokens,
-                   "skills": skills, "talents": talents, "tagList": [], 'uniequip': uniequip_list}
+                   "skills": skills, "talents": talents, 'uniequip': uniequip_list}
     if id in en_char_table:
         return_dict['name_ja'] = jp_char_table[id]['name']
         return_dict['name_en'] = en_char_table[id]['name']
@@ -243,11 +244,12 @@ for id in cn_patch_table['patchChars']:
 
     return_dict = {"id": id, "appellation": character_dict['appellation'], "name_zh": character_dict['name'], "name_ja": "", "name_en": "",
                    "desc_zh": character_dict['description'].replace("<$ba","<ba"), "desc_ja": "", "desc_en": "",
-                   "nationId": character_dict['nationId'], "groupId": character_dict['groupId'], "teamId": character_dict['teamId'], "position": character_dict['position'], "tagList": [],
+                   "nationId": character_dict['nationId'], "groupId": character_dict['groupId'], "teamId": character_dict['teamId'], "position": character_dict['position'], 
+                   "tagList": [],
                    "isSpChar": character_dict['isSpChar'], "rarity": character_dict['rarity'],
                    "profession": character_dict['profession'], "subProfessionId": character_dict['subProfessionId'], "stats": stats,
                    'potential': potential,  "favorData": favor_data, "tokens": tokens,
-                   "skills": skills, "talents": talents, "tagList": [], 'uniequip': uniequip_list}
+                   "skills": skills, "talents": talents,'uniequip': uniequip_list}
     if in_global:
         return_dict['name_ja'] = jp_patch_table['patchChars'][id]['name']
         return_dict['name_en'] = en_patch_table['patchChars'][id]['name']
@@ -255,8 +257,11 @@ for id in cn_patch_table['patchChars']:
         return_dict['desc_en'] = en_patch_table['patchChars'][id]['description'].replace("<$ba","<ba")
     data.append(return_dict)
 
-with open('characters.json', 'w', encoding='utf-8') as f:
+with open('characters_read.json', 'w', encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False, indent=4)
+
+with open('characters.json', 'w', encoding='utf-8') as f:
+    json.dump(data, f, ensure_ascii=False, separators=(',', ':'))
 
 
 # append new charas to char talent tags json

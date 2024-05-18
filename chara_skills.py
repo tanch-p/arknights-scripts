@@ -22,12 +22,16 @@ def replace_substrings(text, blackboard):
                 (n for n in blackboard if n['key'] == matched_str), None)
         if board:
             if '%' in matched_str:
-                value = f"{round(board['value'] * 100)}%"
+                value = abs(round(board['value'] * 100))
+                if board['key'] == 'damage_scale' and board['value'] > 1:
+                    value -= 100
+                value = f"{value}%"
+                print(value)
             else:
                 if isinstance(board['value'], float) and f"{board['value']}"[-1] != "0":
-                    value = f"{board['value']}"
+                    value =f"{abs(board['value'])}"
                 else:
-                    value = f"{round(board['value'])}"
+                    value = f"{abs(round(board['value']))}"
             return value
         else:
             return "{"+matched_str+"}"
@@ -36,7 +40,7 @@ def replace_substrings(text, blackboard):
     # Replace the substrings using the regular expression and the replace_match function
     result = re.sub(pattern, replace_match, text)
 
-    return result
+    return result.replace("<$ba","<ba")
 
 
 buffs_list = [
