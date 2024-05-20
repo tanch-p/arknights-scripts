@@ -54,6 +54,8 @@ with open('chara_talents.json', encoding='utf-8') as f:
     chara_talents = json.load(f)
 with open('uniequip.json', encoding='utf-8') as f:
     uniequip_dict = json.load(f)
+with open('tokens.json', encoding='utf-8') as f:
+    tokens_dict = json.load(f)
 data = []
 
 filtered_cn_char_table = {key: cn_char_table[key] for key in cn_char_table.keys(
@@ -139,9 +141,9 @@ for id in filtered_cn_char_table:
                            ] = character_dict['favorKeyFrames'][-1]['data'][key]
     
     # tokens
-    tokens = None
+    tokens = []
     if character_dict['displayTokenDict'] is not None:
-        tokens =[key for key in character_dict['displayTokenDict']]
+        tokens =[tokens_dict[key] for key in character_dict['displayTokenDict']]
 
     return_dict = {"id": id, "appellation": character_dict['appellation'], "name_zh": character_dict['name'], "name_ja": "", "name_en": "",
                    "desc_zh": character_dict['description'].replace("<$ba","<ba"), "desc_ja": "", "desc_en": "",
@@ -238,9 +240,9 @@ for id in cn_patch_table['patchChars']:
                            ] = character_dict['favorKeyFrames'][-1]['data'][key]
     
     # tokens
-    tokens = None
+    tokens = []
     if character_dict['displayTokenDict'] is not None:
-        tokens =[key for key in character_dict['displayTokenDict']]
+        tokens =[tokens_dict[key] for key in character_dict['displayTokenDict']]
 
     return_dict = {"id": id, "appellation": character_dict['appellation'], "name_zh": character_dict['name'], "name_ja": "", "name_en": "",
                    "desc_zh": character_dict['description'].replace("<$ba","<ba"), "desc_ja": "", "desc_en": "",

@@ -26,7 +26,6 @@ def replace_substrings(text, blackboard):
                 if board['key'] == 'damage_scale' and board['value'] > 1:
                     value -= 100
                 value = f"{value}%"
-                print(value)
             else:
                 if isinstance(board['value'], float) and f"{board['value']}"[-1] != "0":
                     value =f"{abs(board['value'])}"
