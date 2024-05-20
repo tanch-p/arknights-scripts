@@ -1,5 +1,6 @@
 import json
 import os
+from chara_skills import replace_substrings
 
 buffs_list = [
     "berserk", "dying", "buffres",
@@ -127,8 +128,7 @@ for id in filtered_cn_char_table:
             'desc_en': en_char_table[id]['potentialRanks'][idx]['description'] if id in en_char_table and idx < len(jp_char_table[id]['potentialRanks']) else ""
         }
 
-        attribute = {attribute_translate_table[pot['buff']['attributes']['attributeModifiers'][0]['attributeType']]
-            : pot['buff']['attributes']['attributeModifiers'][0]['value']}if pot['buff'] else None
+        attribute = {attribute_translate_table[pot['buff']['attributes']['attributeModifiers'][0]['attributeType']]                     : pot['buff']['attributes']['attributeModifiers'][0]['value']}if pot['buff'] else None
         pot_dict['attribute'] = attribute
         potential.append(pot_dict)
 
@@ -139,25 +139,64 @@ for id in filtered_cn_char_table:
             if bool(character_dict['favorKeyFrames'][-1]['data'][key]):
                 favor_data[stat_convert[key]
                            ] = character_dict['favorKeyFrames'][-1]['data'][key]
-    
+
     # tokens
     tokens = []
     if character_dict['displayTokenDict'] is not None:
-        tokens =[tokens_dict[key] for key in character_dict['displayTokenDict']]
+        tokens = [tokens_dict[key]
+                  for key in character_dict['displayTokenDict']]
+
+    # subprofession stuff
+    desc_zh= character_dict['description'].replace("<$ba", "<ba")
+    blackboard = []
+    tags = []
+    if character_dict['subProfessionId'] == "slower":
+        blackboard.append({"key": "sluggish", "value": 0.8})
+    if character_dict['subProfessionId'] == "chain":
+        blackboard.append({"key": "sluggish", "value": 0.5})
+    if character_dict['subProfessionId'] == "stalker":
+        blackboard.append({"key": "phys_evasion", "value": 0.5})
+        blackboard.append({"key": "arts_evasion", "value": 0.5})
+        tags.append("lower_target_priority")
+    if character_dict['subProfessionId'] == "loopshooter":
+        tags.append("aspd_unrelated")
+    if character_dict['subProfessionId'] == "fastshot":
+        tags.append("priority_flying")
+    if character_dict['subProfessionId'] == "longrange":
+        tags.append("priority_low_def")
+    if character_dict['subProfessionId'] == "siegesniper":
+        tags.append("priority_highest_weight")
+    if character_dict["subProfessionId"] == "librator":
+        tags.append("block_0")
+        desc_zh = replace_substrings(character_dict['trait']['candidates'][-1]['overrideDescripton'],character_dict['trait']['candidates'][-1]['blackboard'])
+    if character_dict['subProfessionId'] in ["executor", "merchant","agent"]:
+        tags.append("fast_redeploy")
+    if character_dict['subProfessionId'] in ["pusher", "hookmaster"]:
+        tags.append("position_all")
+    if character_dict['subProfessionId'] in ["unyield", "musha"]:
+        tags.append("no_healing")
 
     return_dict = {"id": id, "appellation": character_dict['appellation'], "name_zh": character_dict['name'], "name_ja": "", "name_en": "",
-                   "desc_zh": character_dict['description'].replace("<$ba","<ba"), "desc_ja": "", "desc_en": "",
-                   "nationId": character_dict['nationId'], "groupId": character_dict['groupId'], "teamId": character_dict['teamId'], "position": character_dict['position'], 
-                   "tagList": [],
+                   "desc_zh": desc_zh, "desc_ja": "", "desc_en": "",
+                   "tags": tags, "blackboard": blackboard,
+                   "nationId": character_dict['nationId'], "groupId": character_dict['groupId'], "teamId": character_dict['teamId'], "position": character_dict['position'],
                    "isSpChar": character_dict['isSpChar'], "rarity": character_dict['rarity'],
                    "profession": character_dict['profession'], "subProfessionId": character_dict['subProfessionId'], "stats": stats,
                    'potential': potential, "favorData": favor_data, "tokens": tokens,
-                   "skills": skills, "talents": talents, 'uniequip': uniequip_list}
+                   "skills": skills, "talents": talents, 'uniequip': uniequip_list, }
     if id in en_char_table:
+        desc_en = en_char_table[id]['description'].replace(
+            "<$ba", "<ba")
+        desc_ja = jp_char_table[id]['description'].replace(
+            "<$ba", "<ba")
+        if character_dict["subProfessionId"] == "librator":
+            desc_en = replace_substrings(en_char_table[id]['trait']['candidates'][-1]['overrideDescripton'],en_char_table[id]['trait']['candidates'][-1]['blackboard'])
+            desc_ja = replace_substrings(jp_char_table[id]['trait']['candidates'][-1]['overrideDescripton'],jp_char_table[id]['trait']['candidates'][-1]['blackboard'])
+
         return_dict['name_ja'] = jp_char_table[id]['name']
         return_dict['name_en'] = en_char_table[id]['name']
-        return_dict['desc_ja'] = jp_char_table[id]['description'].replace("<$ba","<ba")
-        return_dict['desc_en'] = en_char_table[id]['description'].replace("<$ba","<ba")
+        return_dict['desc_ja'] = desc_ja
+        return_dict['desc_en'] = desc_en
     data.append(return_dict)
 
 # patch table for amiya
@@ -229,8 +268,7 @@ for id in cn_patch_table['patchChars']:
             'desc_en': en_patch_table['patchChars'][id]['potentialRanks'][idx]['description'] if in_global else ""
         }
 
-        attribute = {attribute_translate_table[pot['buff']['attributes']['attributeModifiers'][0]['attributeType']]
-            : pot['buff']['attributes']['attributeModifiers'][0]['value']}if pot['buff'] else None
+        attribute = {attribute_translate_table[pot['buff']['attributes']['attributeModifiers'][0]['attributeType']]                     : pot['buff']['attributes']['attributeModifiers'][0]['value']}if pot['buff'] else None
         pot_dict['attribute'] = attribute
         potential.append(pot_dict)
 
@@ -241,25 +279,33 @@ for id in cn_patch_table['patchChars']:
             if bool(character_dict['favorKeyFrames'][-1]['data'][key]):
                 favor_data[stat_convert[key]
                            ] = character_dict['favorKeyFrames'][-1]['data'][key]
-    
+
     # tokens
     tokens = []
     if character_dict['displayTokenDict'] is not None:
-        tokens =[tokens_dict[key] for key in character_dict['displayTokenDict']]
+        tokens = [tokens_dict[key]
+                  for key in character_dict['displayTokenDict']]
+
+    blackboard = []
+    tags = []
+    if character_dict['subProfessionId'] == "slower":
+        blackboard.append({"key": "sluggish", "value": 0.8})
 
     return_dict = {"id": id, "appellation": character_dict['appellation'], "name_zh": character_dict['name'], "name_ja": "", "name_en": "",
-                   "desc_zh": character_dict['description'].replace("<$ba","<ba"), "desc_ja": "", "desc_en": "",
-                   "nationId": character_dict['nationId'], "groupId": character_dict['groupId'], "teamId": character_dict['teamId'], "position": character_dict['position'], 
-                   "tagList": [],
+                   "desc_zh": character_dict['description'].replace("<$ba", "<ba"), "desc_ja": "", "desc_en": "",
+                   "tags": tags, "blackboard": blackboard,
+                   "nationId": character_dict['nationId'], "groupId": character_dict['groupId'], "teamId": character_dict['teamId'], "position": character_dict['position'],
                    "isSpChar": character_dict['isSpChar'], "rarity": character_dict['rarity'],
                    "profession": character_dict['profession'], "subProfessionId": character_dict['subProfessionId'], "stats": stats,
                    'potential': potential,  "favorData": favor_data, "tokens": tokens,
-                   "skills": skills, "talents": talents,'uniequip': uniequip_list}
+                   "skills": skills, "talents": talents, 'uniequip': uniequip_list}
     if in_global:
         return_dict['name_ja'] = jp_patch_table['patchChars'][id]['name']
         return_dict['name_en'] = en_patch_table['patchChars'][id]['name']
-        return_dict['desc_ja'] = jp_patch_table['patchChars'][id]['description'].replace("<$ba","<ba")
-        return_dict['desc_en'] = en_patch_table['patchChars'][id]['description'].replace("<$ba","<ba")
+        return_dict['desc_ja'] = jp_patch_table['patchChars'][id]['description'].replace(
+            "<$ba", "<ba")
+        return_dict['desc_en'] = en_patch_table['patchChars'][id]['description'].replace(
+            "<$ba", "<ba")
     data.append(return_dict)
 
 with open('characters_read.json', 'w', encoding='utf-8') as f:

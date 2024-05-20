@@ -19392,7 +19392,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["env", "ally_env"],
+      "tags": ["ally_env_dmg_reduce"],
       "blackboard": [
         {
           "key": "heal_scale",
@@ -42838,7 +42838,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["position_all"],
       "blackboard": [
         {
           "key": "prob",
