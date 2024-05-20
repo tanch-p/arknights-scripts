@@ -1298,7 +1298,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["deploy_all"],
+      "tags": ["position_all"],
       "blackboard": [
         {
           "key": "buildable_type",
@@ -15277,7 +15277,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["deploy_all"],
+      "tags": ["position_all"],
       "blackboard": [
         {
           "key": "buildable_type",
@@ -43327,7 +43327,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["position_all"],
       "blackboard": [
         {
           "key": "buildable_type",
