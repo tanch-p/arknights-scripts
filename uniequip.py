@@ -22,18 +22,6 @@ with open(jp_battle_equip_path, encoding='utf-8') as f:
 with open(en_battle_equip_path, encoding='utf-8') as f:
     en_battle_equip_table = json.load(f)
 
-
-def get_new_trait(parts):
-    for part in parts:
-        if not part["isToken"] and (part["target"] == "TRAIT" or part['target'] == 'DISPLAY'):
-            if part["addDesc_zh"]:
-                return {"addDesc_zh": part["addDesc_zh"], "addDesc_ja": part["addDesc_ja"], "addDesc_en": part["addDesc_en"],
-                        "overrideDesc_zh": "", "overrideDesc_ja": "", "overrideDesc_en": ""}
-            if part["overrideDesc_zh"]:
-                return {"addDesc_zh": "", "addDesc_ja": "", "addDesc_en": "",
-                        "overrideDesc_zh": part["overrideDesc_zh"], "overrideDesc_ja": part["overrideDesc_ja"], "overrideDesc_en": part["overrideDesc_en"]}
-
-
 with open('uniequip.json', encoding='utf-8') as f:
     curr_uniequip = json.load(f)
 
@@ -65,8 +53,8 @@ for equip_id in new_equips:
                     if max_candidate['rangeId'] is not None:
                         print('TRAIT rangeId not NONE', equip_id)
                     concise_parts.append({"resKey": part['resKey'], "target": part['target'], "isToken": part['isToken'],
-                                          "addDesc_zh": replace_substrings(max_candidate['additionalDescription'], max_candidate['blackboard']), "addDesc_en": replace_substrings(max_candidate_en['additionalDescription'], max_candidate['blackboard']) if in_global else "", "addDesc_ja": replace_substrings(max_candidate_jp['additionalDescription'], max_candidate['blackboard']) if in_global else "",
-                                          "overrideDesc_zh": replace_substrings(max_candidate['overrideDescripton'], max_candidate['blackboard']), "overrideDesc_en": replace_substrings(max_candidate_en['overrideDescripton'], max_candidate['blackboard']) if in_global else "", "overrideDesc_ja": replace_substrings(max_candidate_jp['overrideDescripton'], max_candidate['blackboard']) if in_global else ""})
+                                          "addDesc_zh": replace_substrings(max_candidate['additionalDescription'], max_candidate['blackboard']), "addDesc_ja": replace_substrings(max_candidate_jp['additionalDescription'], max_candidate['blackboard']) if in_global else "", "addDesc_en": replace_substrings(max_candidate_en['additionalDescription'], max_candidate['blackboard']) if in_global else "",
+                                          "overrideDesc_zh": replace_substrings(max_candidate['overrideDescripton'], max_candidate['blackboard']), "overrideDesc_ja": replace_substrings(max_candidate_jp['overrideDescripton'], max_candidate['blackboard']) if in_global else "", "overrideDesc_en": replace_substrings(max_candidate_en['overrideDescripton'], max_candidate['blackboard']) if in_global else ""})
                     if phase_idx == 2:
                         blackboard = blackboard + max_candidate['blackboard']
 
@@ -83,7 +71,7 @@ for equip_id in new_equips:
 
                     concise_parts.append({"resKey": part['resKey'], "target": part['target'], "isToken": part['isToken'], "name_zh": max_candidate['name'], "name_ja": max_candidate_jp['name'] if in_global else "", "name_en": max_candidate_en['name'] if in_global else "",
                                           "displayRangeId": max_candidate['displayRangeId'], "rangeId": max_candidate['rangeId'], "talentIndex": max_candidate['talentIndex'],
-                                          "upgradeDesc_zh": replace_substrings(max_candidate['upgradeDescription'], max_candidate['blackboard']), "upgradeDesc_en": replace_substrings(max_candidate_en['upgradeDescription'], max_candidate['blackboard']) if in_global else "", "upgradeDesc_ja": replace_substrings(max_candidate_jp['upgradeDescription'], max_candidate['blackboard']) if in_global else "",
+                                          "upgradeDesc_zh": replace_substrings(max_candidate['upgradeDescription'], max_candidate['blackboard']), "upgradeDesc_ja": replace_substrings(max_candidate_jp['upgradeDescription'], max_candidate['blackboard']) if in_global else "", "upgradeDesc_en": replace_substrings(max_candidate_en['upgradeDescription'], max_candidate['blackboard']) if in_global else "",
                                           })
 
                     if phase_idx == 2:
@@ -91,12 +79,12 @@ for equip_id in new_equips:
             phases.append({'parts': concise_parts, 'attributeBlackboard': phase['attributeBlackboard'],
                            'tokenAttributeBlackboard': phase['tokenAttributeBlackboard'], })
         combat_data = {'phases': phases,
-                       "tags": [], "blackboard": blackboard}
+                       "tags": curr_uniequip[equip_id]["combatData"]['tags'], "blackboard": curr_uniequip[equip_id]["combatData"]['blackboard']}
 
     return_dict[equip_id] = {
         "uniEquipId": equip['uniEquipId'], "typeIcon": equip['typeIcon'], 'charId': char_id, "combatData": combat_data}
 
-return_dict = curr_uniequip | return_dict
+# return_dict = curr_uniequip | return_dict
 
 with open('uniequip2.json', 'w', encoding='utf-8') as f:
     json.dump(return_dict, f, ensure_ascii=False, indent=4)
