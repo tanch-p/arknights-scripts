@@ -76,12 +76,17 @@ for id in tokens_list:
         level = skill['levels'][-1]
         blackboard = level['blackboard']
         desc = cn_skill_table[skillId]['levels'][-1]['description']
+
+        icon_id = skill['iconId']
+        if id == "token_10012_rosmon_shield":
+            icon_id = "sktok_rosmon"
+
         if desc:
             skills.append({"skillId": skillId,
                            "name_zh": cn_skill_table[skillId]['levels'][-1]['name'],
                            "name_ja":  jp_skill_table[skillId]['levels'][-1]['name'] if in_global else "",
                            "name_en":  en_skill_table[skillId]['levels'][-1]['name'] if in_global else "",
-                           "iconId": skill['iconId'],
+                           "iconId": icon_id,
                            "rangeId": level['rangeId'],
                            "desc_zh": replace_substrings(cn_skill_table[skillId]['levels'][-1]['description'], blackboard) if desc else "",
                            "desc_ja": replace_substrings(jp_skill_table[skillId]['levels'][-1]['description'], blackboard) if in_global and desc else "",
