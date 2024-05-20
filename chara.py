@@ -169,6 +169,9 @@ for id in cn_patch_table['patchChars']:
     for skill in character_dict['skills']:
         blackboard = chara_skills[skill['skillId']
                                   ]['blackboard'] if skill['skillId'] in chara_skills else []
+        levels = chara_skills[skill['skillId']]['levels']
+        for level in levels:
+            del level['blackboard']
         skills.append({"skillId": skill['skillId'],
                        "name_zh": chara_skills[skill['skillId']]['name_zh'],
                        "name_ja": chara_skills[skill['skillId']]['name_ja'],
@@ -176,7 +179,7 @@ for id in cn_patch_table['patchChars']:
                        "skillType": chara_skills[skill['skillId']]['skillType'],
                        "durationType": chara_skills[skill['skillId']]['durationType'],
                        'spType': chara_skills[skill['skillId']]['spType'],
-                       "levels": chara_skills[skill['skillId']]['levels'],
+                       "levels": levels,
                        "tags": chara_skills[skill['skillId']]['tags'] if skill['skillId'] in chara_skills else [],
                        "blackboard": blackboard})
     if character_dict['talents']:
