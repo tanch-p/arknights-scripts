@@ -10692,7 +10692,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["resist", "lower_target_priority"],
+      "tags": ["ally_resist", "lower_target_priority"],
       "blackboard": [
         {
           "key": "heal_scale",
@@ -10848,7 +10848,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["resist", "water", "lower_target_priority"],
+      "tags": ["resist", "terrain_water", "lower_target_priority"],
       "blackboard": [
         {
           "key": "heal_scale",
@@ -40961,7 +40961,7 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "block_cnt",
+          "key": "ally_block_up",
           "value": 1.0
         },
         {
