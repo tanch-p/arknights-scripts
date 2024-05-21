@@ -1139,7 +1139,7 @@
         "desc_zh": "在场时，所有【先锋】干员每秒回复28<@ba.talpu>（+3）</>点生命",
         "desc_ja": "配置中、味方【先鋒】のHPが1秒ごとに28<@ba.talpu>(+3)</>回復",
         "desc_en": "All [Vanguard] Operators recover 28<@ba.talpu> (+3)</> HP per second while Myrtle is deployed",
-        "tags": ["heal_ally", "pioneer"],
+        "tags": ["heal_ally", "pioneer","global_heal"],
         "blackboard": [
           {
             "key": "hp_recovery_per_sec",
@@ -4336,7 +4336,7 @@
         "tags": [],
         "blackboard": [
           {
-            "key": "heal_scale",
+            "key": "ally_heal_scale",
             "value": 1.12
           }
         ]
