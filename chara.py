@@ -166,10 +166,10 @@ for id in filtered_cn_char_table:
         tags.append("priority_low_def")
     if character_dict['subProfessionId'] == "siegesniper":
         tags.append("priority_highest_weight")
-    if character_dict["subProfessionId"] == "librator":
+    if character_dict["subProfessionId"] == "librator" or character_dict['subProfessionId'] == "healer":
         tags.append("block_0")
         desc_zh = replace_substrings(character_dict['trait']['candidates'][-1]['overrideDescripton'],character_dict['trait']['candidates'][-1]['blackboard'])
-    if character_dict['subProfessionId'] in ["executor", "merchant","agent"]:
+    if character_dict['subProfessionId'] in ["executor", "merchant","agent"] and id != "char_376_therex":
         tags.append("fast_redeploy")
     if character_dict['subProfessionId'] in ["pusher", "hookmaster"]:
         tags.append("position_all")
@@ -189,7 +189,7 @@ for id in filtered_cn_char_table:
             "<$ba", "<ba")
         desc_ja = jp_char_table[id]['description'].replace(
             "<$ba", "<ba")
-        if character_dict["subProfessionId"] == "librator":
+        if character_dict["subProfessionId"] == "librator" or character_dict['subProfessionId'] == "healer":
             desc_en = replace_substrings(en_char_table[id]['trait']['candidates'][-1]['overrideDescripton'],en_char_table[id]['trait']['candidates'][-1]['blackboard'])
             desc_ja = replace_substrings(jp_char_table[id]['trait']['candidates'][-1]['overrideDescripton'],jp_char_table[id]['trait']['candidates'][-1]['blackboard'])
 

@@ -117,3 +117,38 @@ added camouflage key to kafka skills
 6. skchr_aurora_2
 7. skchr_slbell_1
 
+
+
+conditions to add
+ranged_attack
+highest_max_hp
+enemy_hp_under_40
+hp_above_70
+hp_above_50
+hp_under_40
+hp_under_30
+bunker_defense
+skill_1
+skill_2
+weight_gte_3
+shield_usage
+first_deploy
+first_hit
+four_tile_enemy_defeat
+dmg_below_200
+condition_laoli
+weight_under_3 (char_474_glady)
+heal
+ally_behind
+token_attacked (jessica)
+skill_atk_def_recovery
+croc_duel
+enemy_3_around (mlynar)
+skill_active
+
+keys not in list
+ele_heal
+ranged (Firewatch)
+def_scale_dmg (ceobe)
+add_sp_gain_option (blemishine)
+change_direction (jessica)

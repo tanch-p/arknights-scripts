@@ -10,7 +10,7 @@
         "desc_zh": "部署后立即恢复全场友方单位500点生命",
         "desc_ja": "配置後味方全員のHPを500回復",
         "desc_en": "Immediately restores the HP of all allies by 500 after deployment",
-        "tags": ["heal_ally"],
+        "tags": [],
         "blackboard": [
           {
             "key": "value",
@@ -41,13 +41,13 @@
             "key": "ally_atk",
             "value": 0.2,
             "duration": 20.0,
-            "condition": "melee"
+            "conditions": ["melee"]
           },
           {
             "key": "ally_def",
             "value": 0.2,
             "duration": 20.0,
-            "condition": "melee"
+            "conditions": ["melee"]
           }
         ]
       }
@@ -65,6 +65,7 @@
         "desc_ja": "配置から3秒後、周囲8マスの敵に攻撃力の400％の物理ダメージを与え、8秒間30％の<ba.fragile>脆弱</>状態を付与する。効果発動後強制退場",
         "desc_en": "3 seconds after deployment, inflicts 400% ATK as Physical damage to enemies in the nearby 8 tiles and applies 30% <ba.fragile>Fragile</> effect for 8 seconds, then automatically retreats from battle",
         "target_air": true,
+        "remarks": ["target_air"],
         "tags": [],
         "blackboard": [
           {
@@ -109,7 +110,7 @@
             "key": "fragile",
             "value": 1.25,
             "duration": 20.0,
-            "condition": "flying"
+            "conditions": ["type:flying"]
           },
           {
             "key": "jnight_t.taunt_level",
@@ -130,6 +131,7 @@
         "desc_zh": "攻击后会延时引爆，随机触发下列效果之一： 造成450%的物理伤害；目标<ba.sleep>沉睡</>1秒；目标<ba.stun>晕眩</>0.2秒；什么都没有发生！触发3次伤害效果后天赋失效",
         "desc_ja": "攻撃後遅れて爆弾が起爆し、次の効果からランダムに1つ発動する（ダメージを与える効果が3回発動したあと、素質は効果を失う ）：\n450%の物理ダメージを与える/対象を1秒間<ba.sleep>睡眠</>させる/対象を0.2秒間<ba.stun>スタン</>させる/何も起こらない……",
         "desc_en": "Attacks detonate after a delay, with one of the following random effects: Deal 450% Physical Damage / Puts the target to <ba.sleep>Sleep</> for 1 second / <ba.stun>Stuns</> the target for 0.2 seconds / Nothing happens at all! Talent deactivates after triggering Damage effect 3 times",
+        "target_air": null,
         "tags": [],
         "blackboard": [
           {
@@ -206,12 +208,10 @@
         "tags": [],
         "blackboard": [
           {
-            "key": "duration",
-            "value": 10.0
-          },
-          {
-            "key": "damage_resistance_fixed",
-            "value": 75.0
+            "key": "dmg_res",
+            "type": "fixed",
+            "value": 75.0,
+            "duration": 10.0
           }
         ]
       }
@@ -274,7 +274,7 @@
         "desc_zh": "攻击飞行目标时，攻击力+50%",
         "desc_ja": "飛行ユニットを攻撃時、攻撃力+50%",
         "desc_en": "ATK +50% when attacking aerial targets",
-        "tags": ["flying"],
+        "tags": ["type_flying"],
         "blackboard": [
           {
             "key": "atk_scale",
@@ -502,6 +502,11 @@
             "key": "ally_phys_evasion",
             "value": 0.25,
             "duration": 3.0
+          },
+          {
+            "key": "phys_evasion",
+            "value": 0.25,
+            "duration": 3.0
           }
         ]
       }
@@ -543,7 +548,7 @@
         "desc_zh": "攻击速度+8，优先攻击使用远程武器的敌人",
         "desc_ja": "攻撃速度+8、遠距離攻撃する敵を優先して攻撃",
         "desc_en": "ASPD +8; Attacks ranged enemies first",
-        "tags": ["priority_ranged"],
+        "tags": ["priority_ranged", "type_ranged"],
         "blackboard": [
           {
             "key": "attack_speed",
@@ -571,7 +576,7 @@
         "tags": [],
         "blackboard": [
           {
-            "key": "sp",
+            "key": "sp_stock",
             "value": 35.0
           }
         ]
@@ -689,6 +694,7 @@
           },
           {
             "key": "res_down",
+            "type": "percent",
             "value": 0.23
           }
         ]
@@ -845,7 +851,7 @@
         "desc_zh": "攻击空中目标时，攻击力提升至140%<@ba.talpu>（+5%）</>",
         "desc_ja": "飛行ユニットを攻撃時、攻撃力が140%<@ba.talpu>（+5%）</>まで上昇",
         "desc_en": "Increases ATK to 140% <@ba.talpu>(+5%)</> when attacking aerial targets",
-        "tags": ["flying"],
+        "tags": ["type_flying"],
         "blackboard": [
           {
             "key": "atk_scale",
@@ -869,7 +875,7 @@
         "tags": [],
         "blackboard": [
           {
-            "key": "sp_recovery_per_sec",
+            "key": "sp_regen",
             "value": 0.3
           }
         ]
@@ -940,7 +946,7 @@
         "tags": [],
         "blackboard": [
           {
-            "key": "sp_recovery_per_sec",
+            "key": "sp_regen",
             "value": 0.5
           },
           {
@@ -972,7 +978,7 @@
             "key": "stun",
             "value": 2.0,
             "prob": 0.28,
-            "condition": "outside_atk_range"
+            "condition": "outside_normal_atk_range"
           }
         ]
       }
@@ -1014,7 +1020,7 @@
         "desc_zh": "可以攻击<ba.invisible>隐匿</>敌人，并且攻击范围内存在<ba.invisible>隐匿</>敌人时，攻击力+20%<@ba.talpu>（+3%）</>",
         "desc_ja": "<ba.invisible>ステルス</>状態の敵を攻撃することができ、攻撃範囲内に<ba.invisible>ステルス</>状態の敵がいる場合、攻撃力+20%<@ba.talpu>（+3%）</>",
         "desc_en": "Can attack <ba.invisible>Invisible</> enemies. If there are <ba.invisible>Invisible</> enemies within attack range, ATK +20% <@ba.talpu>(+3%)</>",
-        "tags": ["attack_stealth"],
+        "tags": ["ignore_stealth"],
         "blackboard": [
           {
             "key": "atk",
@@ -1068,7 +1074,8 @@
           },
           {
             "key": "def",
-            "value": 0.19
+            "value": 0.19,
+            "condition": "block_2_enemy"
           }
         ]
       }
@@ -1139,7 +1146,7 @@
         "desc_zh": "在场时，所有【先锋】干员每秒回复28<@ba.talpu>（+3）</>点生命",
         "desc_ja": "配置中、味方【先鋒】のHPが1秒ごとに28<@ba.talpu>(+3)</>回復",
         "desc_en": "All [Vanguard] Operators recover 28<@ba.talpu> (+3)</> HP per second while Myrtle is deployed",
-        "tags": ["heal_ally", "pioneer","global_heal"],
+        "tags": ["heal_ally", "buff_pioneer","global_heal"],
         "blackboard": [
           {
             "key": "hp_recovery_per_sec",
@@ -1228,7 +1235,7 @@
         "desc_zh": "部署费用-4，再部署时间-15秒，但部署后<ba.stun>晕眩</>10秒",
         "desc_ja": "自身の配置コスト-4、再配置時間-15秒、配置後10秒間<ba.stun>スタン</>状態になる",
         "desc_en": "DP Cost -4, Redeployment Time -15 seconds. This unit is <ba.stun>Stunned</> for 10 seconds upon deployment.",
-        "tags": ["ally_ailment"],
+        "tags": [],
         "blackboard": [
           {
             "key": "cost",
@@ -1257,7 +1264,8 @@
         "desc_zh": "攻击范围扩大，但攻击间隔略微增大(+0.15s)",
         "desc_ja": "攻撃範囲拡大、攻撃間隔をわずかに延長(+0.15s)",
         "desc_en": "Range expands, but Attack Interval increases slightly (+0.15s)",
-        "tags": [],
+        "rangeId": "3-1",
+        "tags": ["override_range"],
         "blackboard": [
           {
             "key": "base_attack_time",
@@ -1278,7 +1286,7 @@
         "desc_zh": "周围8格内有敌人倒下时，恢复自身最大生命值14%<@ba.talpu>（+2%）</>的生命",
         "desc_ja": "周囲8マス内で敵が倒れた時、自身のHPが最大値の14%<@ba.talpu>(+2%)</>回復",
         "desc_en": "Restores HP by 14% <@ba.talpu>(+2%)</> of Max HP when there is an enemy killed within the 8 surrounding tiles",
-        "tags": ["self_heal"],
+        "tags": ["heal_self"],
         "blackboard": [
           {
             "key": "hp_ratio",
@@ -1323,12 +1331,9 @@
         "tags": [],
         "blackboard": [
           {
-            "key": "sp",
-            "value": 1.0
-          },
-          {
-            "key": "prob",
-            "value": 0.23
+            "key": "sp_gain",
+            "value": 1.0,
+            "prob": 0.23
           }
         ]
       }
@@ -1370,7 +1375,7 @@
         "desc_zh": "优先攻击【无人机】单位，且攻击【无人机】时攻击力+43%<@ba.talpu>（+3%）</>",
         "desc_ja": "【ドローン】を優先して攻撃。【ドローン】を攻撃時攻撃力+43%<@ba.talpu>（+3%）</>",
         "desc_en": "Prioritize attacking drones; ATK +43% <@ba.talpu>(+3%)</> when attacking drones",
-        "tags": ["drone", "priority_drone"],
+        "tags": ["type_drone", "priority_drone"],
         "blackboard": [
           {
             "key": "atk_scale",
@@ -1496,7 +1501,7 @@
         "desc_zh": "攻击【感染生物】时，攻击力提升至150%<@ba.talpu>（+5%）</>",
         "desc_ja": "【感染生物】を攻撃時、攻撃力が150％<@ba.talpu>（+5%）</>まで上昇",
         "desc_en": "Increases ATK to 150% <@ba.talpu>(+5%)</> when attacking [Infected Creatures]",
-        "tags": ["infected"],
+        "tags": ["type_infected"],
         "blackboard": [
           {
             "key": "atk_scale",
@@ -1538,7 +1543,7 @@
         "desc_zh": "部署后立刻恢复全体友方单位的生命值，恢复量为末药攻击力的160%<@ba.talpu>（+10%）</>",
         "desc_ja": "配置後味方全員のHPをミルラの攻撃力の160%<@ba.talpu>(+10%)</>回復",
         "desc_en": "Immediately restores the HP of all allies by 160% <@ba.talpu>(+10%)</> of Myrrh's ATK after deployment",
-        "tags": ["heal_ally"],
+        "tags": [],
         "blackboard": [
           {
             "key": "heal_scale",
@@ -1559,7 +1564,7 @@
         "desc_zh": "部署后全体友方【医疗】职业干员攻击力+12%<@ba.talpu>（+2%）</>，防御力+120<@ba.talpu>（+20）</>，持续17<@ba.talpu>（+2）</>秒",
         "desc_ja": "配置後17<@ba.talpu>(+2)</>秒間味方【医療】の攻撃力+12%<@ba.talpu>(+2%)</>、防御力+120<@ba.talpu>(+20)</>",
         "desc_en": "After deployed, all [Medic] Operators' ATK +12% <@ba.talpu>(+2%)</> and DEF +120 <@ba.talpu>(+20)</>, lasting 17 <@ba.talpu>(+2)</> seconds",
-        "tags": [],
+        "tags": ["medic"],
         "blackboard": [
           {
             "key": "atk",
@@ -1595,8 +1600,9 @@
             "value": 10.0
           },
           {
-            "key": "heal_scale",
-            "value": 1.23
+            "key": "ally_heal_scale",
+            "value": 1.23,
+            "condition": "cost_under_10"
           }
         ]
       }
@@ -1634,7 +1640,7 @@
         "desc_zh": "在治疗目标后使其获得4秒<ba.buffres>抵抗</>",
         "desc_ja": "味方を回復後、対象に4秒の<ba.buffres>レジスト</>状態を付与する",
         "desc_en": "Targets healed by this unit gain <ba.buffres>status resistance</> for 4 seconds",
-        "tags": ["ally_resist"],
+        "tags": ["ally_resist", "resist"],
         "blackboard": [
           {
             "key": "status_resistance[limit]",
@@ -1727,7 +1733,8 @@
           {
             "key": "atk_down",
             "value": 0.08,
-            "duration": 5.0
+            "duration": 5.0,
+            "condition": "when_attacked"
           },
           {
             "key": "duration",
@@ -1874,7 +1881,8 @@
           },
           {
             "key": "ally_def",
-            "value": 0.33
+            "value": 0.33,
+            "duration": 25.0
           },
           {
             "key": "ally_shield",
@@ -1897,10 +1905,6 @@
         "desc_en": "When attacking, has a 25% chance to <ba.root>Bind</> the target for 3 seconds",
         "tags": [],
         "blackboard": [
-          {
-            "key": "prob",
-            "value": 0.25
-          },
           {
             "key": "root",
             "value": 3.0,
@@ -1966,7 +1970,7 @@
         "tags": ["ally_sp_regen"],
         "blackboard": [
           {
-            "key": "sp_recovery_per_sec",
+            "key": "sp_regen",
             "value": 0.3
           }
         ]
@@ -1984,7 +1988,7 @@
         "desc_zh": "技能开启时，所有【医疗】和【辅助】干员获得<ba.buffres>抵抗</>",
         "desc_ja": "スキル発動中、配置中の味方【医療】と【補助】全員に<ba.buffres>レジスト</>状態を付与",
         "desc_en": "When this unit's skill is active, all Medic and Supporter Operators gain <ba.buffres>status resistance</>",
-        "tags": ["ally_resist"],
+        "tags": ["ally_resist", "resist", "medic", "support"],
         "blackboard": [
           {
             "key": "one_minus_status_resistance",
@@ -2047,7 +2051,7 @@
         "desc_zh": "在场时，所有【支援机械】干员的再部署时间-75%；场上每有一名【支援机械】干员，自身的攻击力和防御力+13%<@ba.talpu>（+2%）</>",
         "desc_ja": "配置中、味方【ロボット】の再配置時間-75％\n配置中の味方【ロボット】1体につき、自身の攻撃力と防御力+13％<@ba.talpu>（+2%）</>",
         "desc_en": "When deployed, all [Robot] Operators have -75% Redeployment Time; For every [Robot] Operator currently deployed, this unit gains +13% <@ba.talpu>(+2%)</> ATK and DEF",
-        "tags": ["ally_respawn_time"],
+        "tags": ["ally_respawn_time", "robot"],
         "blackboard": [
           {
             "key": "atk",
@@ -2100,7 +2104,7 @@
         "tags": [],
         "blackboard": [
           {
-            "key": "sp_recovery_per_sec",
+            "key": "sp_regen",
             "value": 1.0
           },
           {
@@ -2179,12 +2183,12 @@
         "desc_zh": "部署后，所有未部署的【近卫】干员的部署费用-1（每个干员每次被部署前，最多可被减少5费）",
         "desc_ja": "配置後、未配置の【前衛】全員の配置コスト-1（重複可能、最大-5まで）",
         "desc_en": "After deployment, all undeployed Guard Operators get DP Cost -1 (each Operator can have a maximum of -5 DP Cost before each deployment)",
-        "tags": [],
+        "tags": ["warrior"],
         "blackboard": [
           {
             "key": "ally_cost_down",
             "value": 1.0,
-            "condition": "warrior"
+            "condition": "WARRIOR"
           },
           {
             "key": "value",
@@ -2214,7 +2218,7 @@
           {
             "key": "ally_cost_down",
             "value": 2.0,
-            "condition": "sniper"
+            "condition": "SNIPER"
           },
           {
             "key": "ally_aspd",
@@ -2315,7 +2319,8 @@
           },
           {
             "key": "sp_gain",
-            "value": 2.0
+            "value": 2.0,
+            "condition": "enemy_full_hp"
           }
         ]
       }
@@ -2337,7 +2342,7 @@
           {
             "key": "ally_atk",
             "value": 0.12,
-            "condition": "melee"
+            "condition": "position_melee"
           }
         ]
       }
@@ -2359,12 +2364,12 @@
           {
             "key": "ally_aspd",
             "value": 8.0,
-            "condition": "melee|block_3_more"
+            "condition": "position_melee|block_3_more"
           },
           {
             "key": "ally_def",
             "value": 0.14,
-            "condition": "melee|block_3_more"
+            "condition": "position_melee|block_3_more"
           },
           {
             "key": "sophia_t_1_less.attack_speed",
@@ -2394,7 +2399,7 @@
           {
             "key": "ally_def",
             "value": 0.14,
-            "condition": "melee"
+            "condition": "position_melee"
           },
           {
             "key": "bryota_t_self.def",
@@ -2422,8 +2427,9 @@
             "value": 0.12
           },
           {
-            "key": "def_penetrate_fixed",
-            "value": 140.0
+            "key": "def_penetrate",
+            "value": 140.0,
+            "type": "fixed"
           }
         ]
       },
@@ -2435,7 +2441,7 @@
         "desc_zh": "治疗友方单位生命时，超过目标生命上限的治疗量可转化为不断衰减的<ba.barrier>屏障</>",
         "desc_ja": "",
         "desc_en": "",
-        "tags": ["barrier"],
+        "tags": ["ally_barrier"],
         "blackboard": [
           {
             "key": "dec_rate",
@@ -2464,7 +2470,8 @@
         "blackboard": [
           {
             "key": "def_penetrate",
-            "value": 0.2
+            "value": 1,
+            "prob": 0.2
           }
         ]
       }
@@ -2693,6 +2700,10 @@
           {
             "key": "ally_aspd",
             "value": 10.0
+          },
+          {
+            "key": "attack_speed",
+            "value": 10.0
           }
         ]
       }
@@ -2709,12 +2720,12 @@
         "desc_zh": "开启技能时，【乌萨斯学生自治团】干员攻击速度+24<@ba.talpu>（+3）</>，持续至技能结束",
         "desc_ja": "",
         "desc_en": "",
-        "tags": [],
+        "tags": ["student"],
         "blackboard": [
           {
             "key": "ally_aspd",
             "value": 24.0,
-            "condition": "ussg"
+            "condition": "student"
           }
         ]
       }
@@ -2731,7 +2742,7 @@
         "desc_zh": "生命上限+5%，生命值高于50%时获得+22%<@ba.talpu>（+2%）</>攻击力的<ba.strong>精力充沛</>",
         "desc_ja": "最大HP+5％。HPが最大値の50％以上の場合、攻撃力+22％<@ba.talpu>（+2％）</>の<ba.strong>勇猛</>状態を獲得する",
         "desc_en": "Max HP +5%, gain <ba.strong>Vigor</> effect of +22% <@ba.talpu>(+2%)</>ATK when HP is above 50%",
-        "tags": ["peak_performance"],
+        "tags": ["vigor"],
         "blackboard": [
           {
             "key": "max_hp",
@@ -2760,7 +2771,7 @@
         "blackboard": [
           {
             "key": "attack_speed",
-            "value": 6.0
+            "value": 36.0
           },
           {
             "key": "max_stack_cnt",
@@ -2781,14 +2792,14 @@
         "desc_zh": "攻击距离+2，防御力+15%<@ba.talpu>（+5%）</>，再部署时间+20秒",
         "desc_ja": "攻撃範囲+2マス、防御力+15％<@ba.talpu>（+5%）</>、再配置時間+20秒",
         "desc_en": "Attack Range +2 tile, DEF +15% <@ba.talpu>(+5%)</>, Redeployment Time +20 seconds",
-        "tags": ["range_up"],
+        "tags": ["override_range"],
         "blackboard": [
           {
             "key": "def",
             "value": 0.15
           },
           {
-            "key": "respawn_time",
+            "key": "respawn_time_up",
             "value": 20.0
           },
           {
@@ -2810,7 +2821,7 @@
         "desc_zh": "生命上限+12%<@ba.talpu>（+2%）</>，每秒回复最大生命2.5%<@ba.talpu>（+0.5%）</>的生命",
         "desc_ja": "最大HP+12%<@ba.talpu>(+2%)</>、1秒ごとにHPが最大値の2.5%<@ba.talpu>(+0.5%)</>回復",
         "desc_en": "Max HP +12% <@ba.talpu>(+2%)</>; Restores HP by 2.5% <@ba.talpu>(+0.5%)</> of Max HP per second",
-        "tags": ["self_heal"],
+        "tags": ["heal_self"],
         "blackboard": [
           {
             "key": "max_hp",
@@ -2868,8 +2879,9 @@
         "blackboard": [
           {
             "key": "block_dmg",
+            "type": ["phys"],
             "value": 0.3,
-            "condition": "phys|ranged_attack"
+            "condition": "ranged_attack"
           }
         ]
       }
@@ -2898,7 +2910,7 @@
           },
           {
             "key": "attack_speed",
-            "value": 5.0
+            "value": 25.0
           }
         ]
       }
@@ -2997,7 +3009,7 @@
         "blackboard": [
           {
             "key": "atk",
-            "value": 0.07
+            "value": 0.35
           },
           {
             "key": "hit_num",
@@ -3026,7 +3038,7 @@
         "blackboard": [
           {
             "key": "attack_speed",
-            "value": 3.0
+            "value": 36.0
           },
           {
             "key": "max_stack_cnt",
@@ -3276,7 +3288,7 @@
         "desc_zh": "在场停留20秒后，自身弹药类技能弹药上限+3，其他随机一名【拉特兰】干员的弹药类技能弹药上限+1",
         "desc_ja": "配置から20秒後、自身の弾薬消費系スキルの弾薬上限+3、さらにランダムな味方【ラテラーノ】1名の弾薬消費系スキルの弾薬上限+1",
         "desc_en": "After being deployed for 20 seconds, increases the ammo capacity for this unit's skills by +3, and increases the ammo cap for a random Laterano Operator's ammo-based skill by +1",
-        "tags": [],
+        "tags": ["laterano"],
         "blackboard": [
           {
             "key": "self_ammo",
@@ -3331,12 +3343,12 @@
         "desc_zh": "在场时所有被阻挡的敌方单位受到的物理伤害提高16%<@ba.talpu>（+2%）</>",
         "desc_ja": "配置中、ブロックされている敵が受ける物理ダメージ+16%<@ba.talpu>（+2%）</>",
         "desc_en": "When deployed, all blocked enemies take +16% <@ba.talpu>(+2%)</> Physical damage",
-        "tags": [],
+        "tags": ["blocked"],
         "blackboard": [
           {
-            "key": "damage_scale",
+            "key": "damage_scale_phys",
             "value": 1.16,
-            "condition": "phys|blocked"
+            "condition": "blocked"
           }
         ]
       }
@@ -3381,7 +3393,7 @@
         "tags": [],
         "blackboard": [
           {
-            "key": "def_penetrate_fixed",
+            "key": "def_penetrate",
             "value": 175.0
           }
         ]
@@ -3425,15 +3437,16 @@
         "desc_zh": "攻击敌人时额外回复3<@ba.talpu>（+1）</>点技力，消灭敌人后额外获得10<@ba.talpu>（+2）</>点技力",
         "desc_ja": "敵を攻撃する度SPが3<@ba.talpu>(+1)</>回復、敵を倒すと更に10<@ba.talpu>(+2)</>回復",
         "desc_en": "Restores 3 <@ba.talpu>(+1)</> extra Skill Points when attacking an enemy and 10 <@ba.talpu>(+2)</> extra Skill Points when killing an enemy",
-        "tags": ["sp_gain"],
+        "tags": [],
         "blackboard": [
           {
-            "key": "amiya_t_1[atk].sp",
+            "key": "sp_gain",
             "value": 3.0
           },
           {
-            "key": "amiya_t_1[kill].sp",
-            "value": 10.0
+            "key": "sp_gain",
+            "value": 10.0,
+            "condition": "kill"
           }
         ]
       }
@@ -3501,11 +3514,11 @@
         "desc_zh": "攻击范围内的所有空中单位获得22%<@ba.talpu>（+2%）</>的<ba.magicfragile>【法术脆弱】</>效果",
         "desc_ja": "攻撃範囲内の空中にいる敵全員に22%<@ba.talpu>（+2%）</>の<ba.magicfragile>対術脆弱</>状態を付与",
         "desc_en": "Inflicts 22% <@ba.talpu>(+2%)</> <ba.magicfragile>[Arts Fragility]</> on all Aerial units within range",
-        "tags": ["flying"],
+        "tags": ["type_flying"],
         "blackboard": [
           {
             "key": "magicfragile",
-            "value": 0.22,
+            "value": 1.22,
             "condition": "flying"
           }
         ]
@@ -3523,12 +3536,12 @@
         "desc_zh": "在场时，所有被阻挡的敌人受到法术伤害时伤害提升18%<@ba.talpu>（+3%）</>",
         "desc_ja": "配置中、ブロック中の敵が受ける術ダメージ+18%<@ba.talpu>(+3%)</>",
         "desc_en": "Increases the Arts damage taken by all blocked enemies by 18% <@ba.talpu>(+3%)</> when deployed",
-        "tags": ["block"],
+        "tags": ["blocked"],
         "blackboard": [
           {
-            "key": "damage_scale",
+            "key": "damage_scale_arts",
             "value": 1.18,
-            "condition": "arts|blocked"
+            "condition": "blocked"
           }
         ]
       }
@@ -3599,7 +3612,7 @@
           },
           {
             "key": "attack_speed",
-            "value": 4.0
+            "value": 20.0
           }
         ]
       }
@@ -3616,7 +3629,7 @@
         "desc_zh": "技能未开启时，每秒恢复4%的最大生命",
         "desc_ja": "スキル未発動時、1秒ごとHPが最大値の4％回復",
         "desc_en": "When this unit's skill is not active, restores 4% Max HP per second",
-        "tags": ["self_heal"],
+        "tags": ["heal_self"],
         "blackboard": [
           {
             "key": "hp_recovery_per_sec_by_max_hp_ratio",
@@ -3737,7 +3750,7 @@
         "desc_zh": "攻击被阻挡的敌人造成伤害提升20%<@ba.talpu>（+3%）</>",
         "desc_ja": "ブロックされている敵への与ダメージ+20％<@ba.talpu>（+3％）</>",
         "desc_en": "Deal 20% <@ba.talpu>(+3%)</> more damage when attacking blocked enemies",
-        "tags": ["block"],
+        "tags": ["blocked"],
         "blackboard": [
           {
             "key": "atk_scale",
@@ -3816,7 +3829,7 @@
             "condition": "caster"
           },
           {
-            "key": "lava2_t_1[self].sp",
+            "key": "sp_stock",
             "value": 35.0
           }
         ]
@@ -3834,14 +3847,14 @@
         "desc_zh": "4秒内没有主动攻击过，技力自然回复速度+0.5<@ba.talpu>（+0.05）</>/秒",
         "desc_ja": "4秒間通常攻撃せずにいると、SPの自然回復速度+0.5<@ba.talpu>（+0.05）</>sp/秒",
         "desc_en": "After not attacking for 4 seconds, own SP recovery rate +0.5 <@ba.talpu>(+0.05)</>/second",
-        "tags": ["sp_regen"],
+        "tags": [],
         "blackboard": [
           {
             "key": "delay",
             "value": 4.0
           },
           {
-            "key": "sp_recovery_per_sec",
+            "key": "sp_regen",
             "value": 0.5
           }
         ]
@@ -3892,7 +3905,7 @@
         "blackboard": [
           {
             "key": "atk",
-            "value": 0.05
+            "value": 0.2
           },
           {
             "key": "max_stack_cnt",
@@ -3963,7 +3976,7 @@
         "desc_zh": "攻击范围内的敌人<ba.dt.burning2>灼燃损伤</>爆发开始时立即受到相当于攻击力320%<@ba.talpu>（+20%）</>的元素伤害",
         "desc_ja": "",
         "desc_en": "",
-        "tags": ["element"],
+        "tags": ["ele_dmg"],
         "blackboard": [
           {
             "key": "ep_damage_scale",
@@ -4036,7 +4049,7 @@
           {
             "key": "ally_aspd",
             "value": 14.0,
-            "condition": "medic"
+            "condition": "MEDIC"
           }
         ]
       }
@@ -4107,6 +4120,10 @@
         "blackboard": [
           {
             "key": "ally_sp_gain",
+            "value": 3.0
+          },
+          {
+            "key": "sp_gain",
             "value": 3.0
           }
         ]
@@ -4200,7 +4217,7 @@
           {
             "key": "ally_atk",
             "value": 0.11,
-            "condition": "medic"
+            "condition": "MEDIC"
           }
         ]
       }
@@ -4217,12 +4234,12 @@
         "desc_zh": "攻击范围内的远程干员最大生命值+12%<@ba.talpu>（+2%）</>",
         "desc_ja": "攻撃範囲内の味方遠距離ユニットの最大HP+12%<@ba.talpu>（+2%）</>",
         "desc_en": "Ranged Operators within Attack Range gain Max HP +12% <@ba.talpu>(+2%)</>",
-        "tags": ["ranged"],
+        "tags": ["position_ranged"],
         "blackboard": [
           {
             "key": "ally_max_hp",
             "value": 0.12,
-            "condition": "ranged"
+            "condition": "position_ranged"
           }
         ]
       }
@@ -4289,7 +4306,7 @@
         "tags": [],
         "blackboard": [
           {
-            "key": "heal_scale",
+            "key": "ally_heal_scale",
             "value": 1.18,
             "condition": "highest_max_hp"
           }
@@ -4357,7 +4374,7 @@
         "tags": [],
         "blackboard": [
           {
-            "key": "self_heal_scale",
+            "key": "heal_scale",
             "value": 1.85
           },
           {
@@ -4382,8 +4399,8 @@
         "tags": [],
         "blackboard": [
           {
-            "key": "baslin_t[self].magic_resistance",
-            "value": 12.0
+            "key": "magic_resistance",
+            "value": 16.0
           },
           {
             "key": "baslin_t[ally].magic_resistance",
@@ -4549,11 +4566,13 @@
         "blackboard": [
           {
             "key": "block_dmg",
-            "value": 0.23
+            "value": 0.23,
+            "type": ["phys", "arts"]
           },
           {
             "key": "ally_block_dmg",
-            "value": 0.115
+            "value": 0.115,
+            "type": ["phys", "arts"]
           }
         ]
       }
@@ -4579,7 +4598,7 @@
           {
             "key": "ally_def",
             "value": 70,
-            "condition": "pioneer|warrior"
+            "condition": "PIONEER|WARRIOR"
           }
         ]
       }
@@ -4596,7 +4615,7 @@
         "desc_zh": "技能开启时，每秒恢复最大生命值5%<@ba.talpu>（+1%）</>的生命，同时获得30%<@ba.talpu>（+5%）</>的近战物理闪避",
         "desc_ja": "スキル発動中、1秒ごとにHPが最大値の5%<@ba.talpu>(+1%)</>回復、30%<@ba.talpu>(+5%)</>の確率で近距離物理攻撃を回避",
         "desc_en": "Restores HP by 5% <@ba.talpu>(+1%)</> of Max HP per second and obtains 30% <@ba.talpu>(+5%)</> Physical Melee Dodge when the skill is activated",
-        "tags": ["phys_evasion", "self_heal"],
+        "tags": ["heal_self"],
         "blackboard": [
           {
             "key": "hp_recovery_per_sec_by_max_hp_ratio",
@@ -4605,7 +4624,7 @@
           {
             "key": "phys_evasion",
             "value": 0.3,
-            "condition": "melee"
+            "condition": "melee_attack"
           }
         ]
       }
@@ -4741,7 +4760,7 @@
         "desc_zh": "优先攻击<ba.stun>晕眩</>的敌人且攻击<ba.stun>晕眩</>敌人时攻击力提升至165%<@ba.talpu>（+5%）</>",
         "desc_ja": "<ba.stun>スタン</>状態の敵を優先して攻撃する\n<ba.stun>スタン</>状態の敵を攻撃時、攻撃力が165%<@ba.talpu>（+5%）</>まで上昇",
         "desc_en": "Prioritize <ba.stun>Stunned</> enemies; Increase ATK to 165% <@ba.talpu>(+5%)</> when attacking <ba.stun>Stunned</> enemies",
-        "tags": ["stun"],
+        "tags": ["priority_stun", "bonus_stun"],
         "blackboard": [
           {
             "key": "atk_scale",
@@ -4766,7 +4785,8 @@
           {
             "key": "block_dmg",
             "value": 0.25,
-            "condition": "phys"
+            "types": ["phys"],
+            "condition": "bunker_defense"
           }
         ]
       }
@@ -4788,7 +4808,7 @@
           {
             "key": "ally_phys_evasion",
             "value": 0.23,
-            "condition": "ranged"
+            "condition": "position_ranged"
           },
           {
             "key": "phys_evasion",
@@ -4863,7 +4883,7 @@
         "desc_zh": "未开启技能且技力小于或等于最大值一半时，停止攻击并每秒恢复3.5%<@ba.talpu>（+0.5%）</>最大生命值",
         "desc_ja": "スキル未発動なおかつSPが最大値の半分以下の時、攻撃しなくなり、HPが1秒ごとに最大値の3.5%<@ba.talpu>（+0.5%）</>回復",
         "desc_en": "When this unit's skill is not active and SP is less than or equal half the maximum, stops attacking and restores 3.5% <@ba.talpu>(+0.5%)</> Max HP every second",
-        "tags": ["self_heal"],
+        "tags": ["heal_self"],
         "blackboard": [
           {
             "key": "hp_recovery_per_sec_by_max_hp_ratio",
@@ -4891,9 +4911,9 @@
         "tags": [],
         "blackboard": [
           {
-            "key": "damage_resistance",
-            "value": 0.3,
-            "condition": "phys"
+            "key": "dmg_res",
+            "types": ["phys"],
+            "value": 0.3
           },
           {
             "key": "interval",
@@ -5032,7 +5052,7 @@
         "desc_zh": "攻击【萨卡兹】敌人时，攻击力提升至150%<@ba.talpu>（+5%）</>",
         "desc_ja": "【サルカズ】を攻撃時、攻撃力が150%<@ba.talpu>（+5%）</>まで上昇",
         "desc_en": "When attacking Sarkaz enemies, increase ATK to 150% <@ba.talpu>(+5%)</>",
-        "tags": ["sarkaz"],
+        "tags": ["type_sarkaz"],
         "blackboard": [
           {
             "key": "atk_scale",
@@ -5053,7 +5073,7 @@
         "desc_zh": "自身可以攻击<ba.sleep>沉睡</>的敌人，并且攻击<ba.sleep>沉睡</>敌人时无视其防御力的50%",
         "desc_ja": "<ba.sleep>睡眠</>状態の敵を攻撃でき、<ba.sleep>睡眠</>状態の敵を攻撃時敵の防御力を50％無視",
         "desc_en": "Can attack <ba.sleep>Sleeping</> enemies, and ignores 50% DEF when attacking <ba.sleep>Sleeping</> enemies",
-        "tags": ["sleep"],
+        "tags": ["bonus_sleep"],
         "blackboard": [
           {
             "key": "def_penetrate",
@@ -5083,7 +5103,7 @@
           {
             "key": "sluggish",
             "value": 2.0,
-            "prob": "1-0.6^hits"
+            "prob": 0.4
           }
         ]
       }
@@ -5134,7 +5154,7 @@
           {
             "key": "stun",
             "value": 1.0,
-            "prob": "0.7/3"
+            "prob": 0.23
           },
           {
             "key": "def_penetrate",
@@ -5180,7 +5200,7 @@
         "desc_zh": "在拖拽【感染生物】时，力度提升一个等级并额外使其失去特殊能力8<@ba.talpu>（+4）</>秒",
         "desc_ja": "【感染生物】を引き寄せる時、力加減が1ランク上昇、対象の一部の特殊能力を8<@ba.talpu>（+4）</>秒間無効化する",
         "desc_en": "When dragging an 'Infected Creature,' the strength of the shift increases by 1 degree, and silences the target for 8 <@ba.talpu>(+4)</> seconds",
-        "tags": ["infected"],
+        "tags": ["type_infected"],
         "blackboard": [
           {
             "key": "skill@delta_force",
@@ -5206,10 +5226,10 @@
         "desc_zh": "每场战斗中首次释放技能结束后立即回复10<@ba.talpu>（+2）</>点技力",
         "desc_ja": "スキル終了時に一度だけ、SPを10<@ba.talpu>（+2）</>回復",
         "desc_en": "Immediately restores 10 <@ba.talpu>(+2)</> SP after activating a skill for the first time each battle",
-        "tags": ["sp"],
+        "tags": [],
         "blackboard": [
           {
-            "key": "sp",
+            "key": "sp_gain",
             "value": 10.0
           }
         ]
@@ -5236,7 +5256,7 @@
           {
             "key": "fragile",
             "value": 1.33,
-            "condition": "hp_under_40"
+            "condition": "enemy_hp_under_40"
           }
         ]
       },
@@ -5320,7 +5340,7 @@
         "desc_zh": "优先攻击【无人机】单位，且攻击【无人机】时攻击力提升至155%<@ba.talpu>（+5%）</>",
         "desc_ja": "【ドローン】を優先して攻撃。【ドローン】を攻撃時攻撃力が155%<@ba.talpu>（+5%）</>まで上昇",
         "desc_en": "Prioritizes attacking Drones; Increases ATK to 155% <@ba.talpu>(+5%)</> when attacking Drones",
-        "tags": ["drone", "priority_drone"],
+        "tags": ["type_drone", "priority_drone"],
         "blackboard": [
           {
             "key": "atk_scale",
@@ -5421,14 +5441,14 @@
         "desc_zh": "技能结束后，50%几率立即回复50%的最大技力",
         "desc_ja": "スキル終了後、50%の確率でSPが最大値の50%回復",
         "desc_en": "Has a 50% chance to immediately restore Skill Point by 50% of Max Skill Points when the skill ends",
-        "tags": ["sp"],
+        "tags": [],
         "blackboard": [
           {
             "key": "prob",
             "value": 0.5
           },
           {
-            "key": "sp",
+            "key": "sp_gain",
             "value": 0.5
           }
         ]
@@ -5450,11 +5470,13 @@
         "blackboard": [
           {
             "key": "ally_atk",
-            "value": 0.06
+            "value": 0.06,
+            "condition": "skill_1"
           },
           {
             "key": "ally_def",
-            "value": 0.06
+            "value": 0.06,
+            "condition": "skill_2"
           }
         ]
       },
@@ -5469,7 +5491,7 @@
         "tags": [],
         "blackboard": [
           {
-            "key": "sp_recovery_per_sec",
+            "key": "sp_sp_regen",
             "value": 0.5
           }
         ]
@@ -5631,7 +5653,7 @@
         "desc_zh": "每秒回复2%生命值，周围8格没有友方干员时，改为每秒回复4%<@ba.talpu>（+0.5%）</>生命值",
         "desc_ja": "HPが1秒ごとに最大値の2％回復。周囲8マスに味方がいない場合、1秒ごとの回復値が最大値の4％<@ba.talpu>（+0.5%）</>になる",
         "desc_en": "Restores 2% HP per second. If there are no allied Operators in the surrounding 8 tiles, restores 4% <@ba.talpu>(+0.5%)</> HP per second instead",
-        "tags": ["self_heal"],
+        "tags": ["heal_self"],
         "blackboard": [
           {
             "key": "hp_recovery_per_sec_by_max_hp_ratio",
@@ -5684,9 +5706,9 @@
             "value": 3.0
           },
           {
-            "key": "def_penetrate_fixed",
+            "key": "def_penetrate",
             "value": 200.0,
-            "condition": "weight"
+            "condition": "weight_gte_3"
           }
         ]
       }
@@ -5748,7 +5770,8 @@
         "tags": ["arts"],
         "blackboard": [
           {
-            "key": "damage_resistance",
+            "key": "dmg_res",
+            "types": ["phys", "arts"],
             "value": 0.43
           },
           {
@@ -5841,7 +5864,7 @@
         "desc_zh": "攻击力+8%<@ba.talpu>（+2%）</>，生命上限+13%<@ba.talpu>（+3%）</>。置入战场后这个效果会同样赋予给一名随机友方单位",
         "desc_ja": "自身の攻撃力+8%<@ba.talpu>(+2%)</>、最大HP+13%<@ba.talpu>(+3%)</>。配置中、ランダムな味方1人に同じ効果を付与",
         "desc_en": "ATK +8% <@ba.talpu>(+2%)</>; Max HP +13% <@ba.talpu>(+3%)</>; The same buff is given to a random ally when Exusiai is deployed",
-        "tags": ["ally_max_hp", "ally_atk"],
+        "tags": [],
         "blackboard": [
           {
             "key": "ally_max_hp",
@@ -5849,6 +5872,14 @@
           },
           {
             "key": "ally_atk",
+            "value": 0.08
+          },
+          {
+            "key": "max_hp",
+            "value": 0.13
+          },
+          {
+            "key": "atk",
             "value": 0.08
           }
         ]
@@ -5871,7 +5902,11 @@
           {
             "key": "ally_sp_gain",
             "value": 1.0,
-            "condition": "sniper"
+            "condition": "SNIPER"
+          },
+          {
+            "key": "sp_gain",
+            "value": 1.0
           },
           {
             "key": "interval",
@@ -5991,7 +6026,7 @@
           {
             "key": "ally_atk",
             "value": 0.1,
-            "condition": "sniper"
+            "condition": "SNIPER"
           }
         ]
       }
@@ -6115,11 +6150,12 @@
         "desc_zh": "攻击范围内的敌人在被<ba.stun>晕眩</>时受到的物理伤害+21%<@ba.talpu>（+3%）</>",
         "desc_ja": "攻撃範囲内の<ba.stun>スタン状態</>の敵が受ける物理ダメージ+21%<@ba.talpu>（+3%）</>",
         "desc_en": "Enemies in range take +21% <@ba.talpu>(+3%)</> Physical damage when <ba.stun>Stunned</>",
-        "tags": ["stun"],
+        "tags": ["bonus_stun"],
         "blackboard": [
           {
-            "key": "damage_scale",
-            "value": 1.21
+            "key": "damage_scale_phys",
+            "value": 1.21,
+            "condition": "stun"
           }
         ]
       }
@@ -6136,7 +6172,7 @@
         "desc_zh": "自身生命会不断流失（该效果不会使生命降至0）；生命值高于50%时获得+25%攻击力的<ba.strong>精力充沛</>；高于80%效果翻倍",
         "desc_ja": "HPが徐々に減少（この効果でHPは0にならない）。HPが最大値の50％以上で攻撃力+25%の<ba.strong>勇猛</>状態を付与する。HPが80％以上の場合、攻撃力上昇の効果値倍増",
         "desc_en": "Continually loses HP over time (HP cannot drop to 0 as a result of this effect); While HP is above 50%, this unit gains <ba.strong>Vigor</>, increasing ATK by 25%; this effect is doubled above 80% HP.",
-        "tags": ["peak_performance"],
+        "tags": ["vigor"],
         "blackboard": [
           {
             "key": "interval",
@@ -6147,20 +6183,10 @@
             "value": 0.005
           },
           {
-            "key": "phenxi_t_1[peak_1].peak_performance.atk",
-            "value": 0.25
-          },
-          {
-            "key": "phenxi_t_1[peak_1].peak_performance.hp_ratio",
-            "value": 0.5
-          },
-          {
-            "key": "phenxi_t_1[peak_2].peak_performance.atk",
-            "value": 0.5
-          },
-          {
-            "key": "phenxi_t_1[peak_2].peak_performance.hp_ratio",
-            "value": 0.8
+            "key": "atk",
+            "value": 0.5,
+            "type": "vigor",
+            "condition": "hp_above_80"
           }
         ]
       },
@@ -6202,7 +6228,7 @@
           {
             "key": "def_penetrate",
             "value": 0.6,
-            "condition": "weight"
+            "condition": "weight_gte_3"
           }
         ]
       },
@@ -6214,11 +6240,12 @@
         "desc_zh": "编入队伍时，所有【乌萨斯学生自治团】干员攻击力+10%<@ba.talpu>（+2%）</>",
         "desc_ja": "編成中、味方【ウルサス学生団】の攻撃力+10%<@ba.talpu>（+2%）</>",
         "desc_en": "When this unit is in the squad, all [Ursus Student Self-Governing Group] Operators gain +10% ATK <@ba.talpu>(+2%)</>",
-        "tags": ["ussg", "squad_effect"],
+        "tags": ["student", "squad_effect"],
         "blackboard": [
           {
             "key": "ally_atk",
-            "value": 0.1
+            "value": 0.1,
+            "condition": "student"
           }
         ]
       }
@@ -6288,7 +6315,7 @@
         "tags": [],
         "blackboard": [
           {
-            "key": "def_penetrate_fixed",
+            "key": "def_penetrate",
             "value": 175.0
           }
         ]
@@ -6306,6 +6333,11 @@
           {
             "key": "atk",
             "value": 0.08
+          },
+          {
+            "key": "ally_atk",
+            "value": 0.08,
+            "condition": "CASTER"
           }
         ]
       }
@@ -6342,7 +6374,7 @@
         "desc_zh": "攻击速度+8，当场地中存在水地形时改为攻击速度+12",
         "desc_ja": "通常時攻撃速度+8、フィールドに水場がある時攻撃速度+12",
         "desc_en": "ASPD +8, when there is water terrain on the battlefield, the effect becomes ASPD +12",
-        "tags": [],
+        "tags": ["terrain_water"],
         "blackboard": [
           {
             "key": "chen2_t_2[common].attack_speed",
@@ -6367,7 +6399,7 @@
         "desc_zh": "可以在攻击范围内部署沙地兽于25秒内侦察一片区域延伸攻击范围，自身优先攻击该区域内的目标且对其造成的物理伤害提高15%",
         "desc_ja": "",
         "desc_en": "",
-        "tags": ["range_up", "summon"],
+        "tags": ["extend_range", "summon"],
         "blackboard": [
           {
             "key": "damage_scale",
@@ -6412,11 +6444,13 @@
         "blackboard": [
           {
             "key": "ally_atk",
-            "value": 0.1
+            "value": 0.1,
+            "condition": "PIONEER"
           },
           {
             "key": "ally_def",
-            "value": 0.1
+            "value": 0.1,
+            "condition": "PIONEER"
           }
         ]
       },
@@ -6470,12 +6504,12 @@
         "desc_zh": "编入队伍时所有【先锋】干员的初始技力+8<@ba.talpu>（+2）</>",
         "desc_ja": "編成中、味方【先鋒】のストックSP+8<@ba.talpu>（+2）</>",
         "desc_en": "When this unit is in the squad, all Vanguards gain +8<@ba.talpu>(+2)</> Initial SP",
-        "tags": ["pioneer", "sp_stock", "squad_effect"],
+        "tags": ["pioneer", "squad_effect"],
         "blackboard": [
           {
             "key": "ally_sp_stock",
             "value": 8.0,
-            "condition": "pioneer"
+            "condition": "PIONEER"
           }
         ]
       }
@@ -6643,7 +6677,7 @@
         "tags": [],
         "blackboard": [
           {
-            "key": "def_penetrate_fixed",
+            "key": "def_penetrate",
             "value": 200.0
           }
         ]
@@ -6797,9 +6831,8 @@
         "tags": ["ally_sp_regen"],
         "blackboard": [
           {
-            "key": "sp_recovery_per_sec",
-            "value": 0.4,
-            "condition": "caster"
+            "key": "sp_regen",
+            "value": 0.4
           }
         ]
       },
@@ -6837,7 +6870,7 @@
           {
             "key": "ally_atk",
             "value": 0.16,
-            "condition": "caster"
+            "condition": "CASTER"
           }
         ]
       },
@@ -6911,7 +6944,7 @@
         "desc_zh": "攻击空中目标时攻击力提升至123%<@ba.talpu>（+3%）</>，并使其特殊能力失效3秒",
         "desc_ja": "飛行ユニットを攻撃時、攻撃力が123%<@ba.talpu>（+3%）</>まで上昇し、対象の特殊能力を3秒間無効化する",
         "desc_en": "When attacking aerial targets, increases ATK to 123% <@ba.talpu>(+3%)</>, and silences targets for 3 seconds",
-        "tags": ["flying"],
+        "tags": ["type_flying"],
         "blackboard": [
           {
             "key": "atk_scale",
@@ -7039,7 +7072,7 @@
         "desc_zh": "开启技能时立即恢复45%<@ba.talpu>（+5%）</>最大生命值；\\n<ba.charged>蓄力</>时效果翻倍",
         "desc_ja": "スキル発動時、HPが最大値の45%<@ba.talpu>（+5%）</>回復\n<ba.charged>オーバーチャージ</>効果発動時、HPの回復量が2倍になる",
         "desc_en": "Restores 45% <@ba.talpu>(+5%)</> Max HP when skill is activated; \nEffect is doubled when <ba.charged>Charged</>",
-        "tags": ["self_heal"],
+        "tags": ["heal_self"],
         "blackboard": [
           {
             "key": "heal_scale",
@@ -7062,7 +7095,7 @@
         "tags": [],
         "blackboard": [
           {
-            "key": "sp_recovery_per_sec",
+            "key": "sp_regen",
             "value": 0.6
           }
         ]
@@ -7162,7 +7195,7 @@
         "tags": [],
         "blackboard": [
           {
-            "key": "res_penetrate_fixed",
+            "key": "res_penetrate",
             "value": 18.0
           }
         ]
@@ -7237,6 +7270,11 @@
           },
           {
             "key": "fragile",
+            "value": 1.27,
+            "condition": "cold"
+          },
+          {
+            "key": "fragile",
             "value": 1.54,
             "condition": "freeze"
           }
@@ -7250,7 +7288,7 @@
         "desc_zh": "灵知在场且部署后经过10秒时，使所有【喀兰贸易】干员获得<ba.buffres>抵抗</>",
         "desc_ja": "配置から10秒後、配置されている間味方【カランド貿易】全員に<ba.buffres>レジスト</>状態を付与する",
         "desc_en": "Grants <ba.buffres>Resist</> to all [Karlan Trade] Operators after Gnosis has been deployed for 10 seconds",
-        "tags": ["resist", "ally_resist"],
+        "tags": ["resist", "ally_resist", "karlan"],
         "blackboard": [
           {
             "key": "interval",
@@ -7287,7 +7325,7 @@
         "desc_zh": "技能未开启时，全场友方单位每秒回复25<@ba.talpu>（+5）</>点生命",
         "desc_ja": "スキル未使用時、味方全員のHPが1秒ごとに25<@ba.talpu>(+5)</>回復",
         "desc_en": "Restores the HP of all allies by 25 <@ba.talpu>(+5)</> per second when the skill is not activated",
-        "tags": ["global_heal"],
+        "tags": ["global_heal", "heal_ally"],
         "blackboard": [
           {
             "key": "hp_recovery_per_sec",
@@ -7311,9 +7349,8 @@
         "tags": ["ally_sp_regen"],
         "blackboard": [
           {
-            "key": "sp_recovery_per_sec",
-            "value": 0.4,
-            "condition": "supporter"
+            "key": "sp_regen",
+            "value": 0.4
           }
         ]
       },
@@ -7383,7 +7420,7 @@
         "desc_zh": "可以使用一个持续25秒的海嗣，海嗣的攻击范围视为自身攻击范围的延伸",
         "desc_ja": "「スカジのシーボーン」を配置可能（配置から25秒後強制退場）。シーボーンの攻撃範囲を自身の追加攻撃範囲と見なす",
         "desc_en": "Can use a Seaborn that lasts for 25 seconds. The Seaborn's Attack Range is regarded as an extension of this unit's Attack Range",
-        "tags": ["summon"],
+        "tags": ["summon", "extend_range"],
         "blackboard": [
           {
             "key": "cnt",
@@ -7402,7 +7439,7 @@
         "tags": [],
         "blackboard": [
           {
-            "key": "skadi2_t_2[atk][1].atk",
+            "key": "atk",
             "value": 0.09
           },
           {
@@ -7428,7 +7465,12 @@
         "blackboard": [
           {
             "key": "protect",
-            "value": 0.24
+            "value": 0.1
+          },
+          {
+            "key": "protect",
+            "value": 0.24,
+            "condition": "hp_under_30"
           },
           {
             "key": "resistance_scale",
@@ -7452,7 +7494,7 @@
         "desc_zh": "攻击范围内生命低于50%的友军每秒恢复相当于淬羽赫默攻击力6%<@ba.talpu>（+1%）</>的生命，【莱茵生命】干员的恢复效果翻倍",
         "desc_ja": "1秒ごとに攻撃範囲内のHPが最大値の50%未満の味方のHPを、淬羽サイレンスの攻撃力の6%<@ba.talpu>（+1%）</>回復。味方【ライン生命】に対する効果値倍増",
         "desc_en": "Allies with less than 50% HP within this unit's Attack Range heal HP equal to 6% <@ba.talpu>(+1%)</> of this unit's ATK every second; effect doubles for [Rhine Lab] Operators",
-        "tags": ["heal_ally"],
+        "tags": ["heal_ally", "rhine"],
         "blackboard": [
           {
             "key": "hp_ratio",
@@ -7563,7 +7605,7 @@
         "desc_zh": "使攻击范围内敌人每秒受到相当于攻击力10%的<ba.dt.apoptosis2>凋亡损伤</>并<ba.sluggish>停顿</>0.2秒",
         "desc_ja": "",
         "desc_en": "",
-        "tags": ["apoptosis"],
+        "tags": ["apoptosis", "ele_dmg"],
         "blackboard": [
           {
             "key": "ep_damage_ratio",
@@ -7583,7 +7625,7 @@
         "desc_zh": "使攻击范围内敌人受到的<ba.dt.apoptosis2>凋亡损伤</>提高22%<@ba.talpu>（+2%）</>",
         "desc_ja": "",
         "desc_en": "",
-        "tags": ["ele_dmg_scale"],
+        "tags": ["apoptosis_scale"],
         "blackboard": [
           {
             "key": "ep_damage_scale",
@@ -7663,7 +7705,7 @@
             "value": 10.0
           },
           {
-            "key": "damage_resistance",
+            "key": "dmg_res",
             "value": 0.3
           }
         ]
@@ -7756,7 +7798,7 @@
           {
             "key": "stun",
             "value": 3.0,
-            "condition": "stun|freeze"
+            "condition": "condition_laoli"
           }
         ]
       }
@@ -7785,7 +7827,7 @@
           },
           {
             "key": "atk",
-            "value": 0.04
+            "value": 0.36
           },
           {
             "key": "max_stack_cnt",
@@ -7918,14 +7960,14 @@
         "desc_zh": "在场时，所有【深海猎人】干员每秒回复2.5%最大生命值且受到【海怪】敌人的物理与法术伤害降低25%",
         "desc_ja": "配置中、味方【アビサル】全員のHPが1秒ごとに最大値の2.5%回復し、【海の怪物】からの物理と術の被ダメージ-25%",
         "desc_en": "When deployed, all [Abyssal Hunter] Operators recover 2.5% Max HP every second and receive 25% less Physical and Arts damage from [Sea Monster] enemies",
-        "tags": ["heal_ally", "abyssal"],
+        "tags": ["heal_ally", "abyssal", "seamonster"],
         "blackboard": [
           {
             "key": "hp_recovery_per_sec_by_max_hp_ratio",
             "value": 0.025
           },
           {
-            "key": "damage_resistance",
+            "key": "dmg_res",
             "value": 0.25,
             "condition": "abyssal|seamonster"
           }
@@ -7939,7 +7981,7 @@
         "desc_zh": "攻击重量小于等于3的敌人时攻击力提升至136%<@ba.talpu>（+6%）</>",
         "desc_ja": "重量ランクが3以下の敵を攻撃時、攻撃力が136%<@ba.talpu>（+6%）</>まで上昇",
         "desc_en": "When attacking enemies with 3 or less weight, increase ATK to 136% <@ba.talpu>(+6%)</>",
-        "tags": ["weight"],
+        "tags": ["weight_under_3"],
         "blackboard": [
           {
             "key": "value",
@@ -8009,6 +8051,7 @@
         "desc_zh": "<替身>使周围敌人移动速度-40%且每秒造成相当于40%攻击力的法术伤害",
         "desc_ja": "<身替り>状態時、周囲の敵の移動速度-40%、1秒ごとに攻撃力の40%の術ダメージを与える",
         "desc_en": "<Substitute> reduces Movement Speed of nearby enemies by 40%, and deals 40% ATK as Arts damage to them per second",
+        "target_air": false,
         "tags": ["arts"],
         "blackboard": [
           {
@@ -8079,7 +8122,7 @@
         "blackboard": [
           {
             "key": "atk",
-            "value": 0.02
+            "value": 0.24
           },
           {
             "key": "max_stack_cnt",
@@ -8224,14 +8267,6 @@
           {
             "key": "cnt",
             "value": 1.0
-          },
-          {
-            "key": "def",
-            "value": 0.0
-          },
-          {
-            "key": "attack_speed",
-            "value": 0.0
           }
         ]
       },
@@ -8323,7 +8358,7 @@
         "desc_zh": "普通治疗使目标每秒额外受到一次治疗量和<ba.dt.element>元素损伤</>回复量为10%的增益治疗，持续6秒（最多叠加3层）",
         "desc_ja": "通常治療後、対象のHPと蓄積された<ba.dt.element>元素損傷</>を6秒間、1秒ごとに10%治療する（最大3回まで重複可能）",
         "desc_en": "Normal heals additionally restore HP and <ba.dt.element>Elemental Damage</> per second equal to 10% of the original amount, lasting for 6 seconds (stacks up to 3 times)",
-        "tags": ["ele_heal"],
+        "tags": [],
         "blackboard": [
           {
             "key": "heal_scale",
@@ -8384,7 +8419,8 @@
           },
           {
             "key": "magicfragile",
-            "value": 1.32
+            "value": 1.32,
+            "duration": 6.0
           },
           {
             "key": "duration",
@@ -8433,6 +8469,7 @@
         "blackboard": [
           {
             "key": "block_dmg",
+            "types": ["phys", "arts", "true"],
             "value": 0.28
           }
         ]
@@ -8445,12 +8482,12 @@
         "desc_zh": "在场时所有友方【重装】职业干员的防御力提升8%<@ba.talpu>（+2%）</>",
         "desc_ja": "配置中、味方【重装】の防御力+8%<@ba.talpu>(+2%)</>",
         "desc_en": "When deployed, allied Defender Operators gain +8%<@ba.talpu>(+2%)</> DEF",
-        "tags": ["defender"],
+        "tags": ["tank"],
         "blackboard": [
           {
             "key": "ally_def",
             "value": 0.08,
-            "condition": "tank"
+            "condition": "TANK"
           }
         ]
       }
@@ -8479,11 +8516,11 @@
           },
           {
             "key": "atk",
-            "value": 0.06
+            "value": 0.3
           },
           {
             "key": "def",
-            "value": 0.05
+            "value": 0.25
           }
         ]
       },
@@ -8517,12 +8554,11 @@
         "desc_zh": "在场时所有受击回复的技能在干员攻击时也回复1点技力",
         "desc_ja": "配置中、味方全員の被撃回復系のスキルは、攻撃時にもSPを1回復できる",
         "desc_en": "When deployed, allies that have a Defensive Recovery skill also gain 1 SP when attacking",
-        "tags": [],
+        "tags": ["add_sp_gain_option"],
         "blackboard": [
           {
-            "key": "ally_sp_gain",
-            "value": 1.0,
-            "condition": "skill_defensive_recovery"
+            "key": "sp",
+            "value": 1.0
           }
         ]
       },
@@ -8534,7 +8570,7 @@
         "desc_zh": "自身可以攻击并优先攻击<ba.sleep>沉睡</>的目标且攻击力提升至144%<@ba.talpu>（+4%）</>",
         "desc_ja": "<ba.sleep>睡眠</>状態の敵を攻撃でき、優先して攻撃する\n<ba.sleep>睡眠</>状態の敵を攻撃時、攻撃力が144%<@ba.talpu>（+4%）</>まで上昇",
         "desc_en": "Blemishine can attack and will prioritize <ba.sleep>Sleeping</> enemies; Increase ATK to 144% <@ba.talpu>(+4%)</> when attacking <ba.sleep>Sleeping</> enemies",
-        "tags": ["sleep", "priority_sleep"],
+        "tags": ["bonus_sleep", "priority_sleep"],
         "blackboard": [
           {
             "key": "atk_scale",
@@ -8612,12 +8648,12 @@
         "desc_zh": "编入队伍时，所有【重装】职业干员的生命上限+20%<@ba.talpu>（+4%）</>",
         "desc_ja": "編成中、味方【重装】の最大HP+20%<@ba.talpu>（+4%）</>",
         "desc_en": "When this unit is in the squad, all Defenders gain +20%<@ba.talpu>(+4%)</> Max HP",
-        "tags": ["defender", "squad_effect"],
+        "tags": ["tank", "squad_effect"],
         "blackboard": [
           {
             "key": "ally_max_hp",
             "value": 0.2,
-            "condition": "defender"
+            "condition": "TANK"
           }
         ]
       },
@@ -8650,7 +8686,7 @@
         "desc_zh": "每9秒获得1层<ba.shield>护盾</>（最多3层，部署后立即获得1层），每层护盾破裂时恢复自身22%<@ba.talpu>（+2%）</>最大生命",
         "desc_ja": "9秒ごとに<ba.shield>シールド</>を1枚形成する（最大3枚まで重複でき、配置後<ba.shield>シールド</>を1枚形成する）。<ba.shield>シールド</>が1枚消耗される時、自身のHPが最大値の22%<@ba.talpu>（+2%）</>回復",
         "desc_en": "Every 9 seconds, gains 1 <ba.shield>Shield</> (Can have up to 3 stacks, with 1 stack granted immediately when deployed). When a Shield is broken, restores 22% <@ba.talpu>(+2%)</> of Max HP",
-        "tags": ["self_heal"],
+        "tags": ["heal_self"],
         "blackboard": [
           {
             "key": "interval",
@@ -8658,7 +8694,7 @@
           },
           {
             "key": "shield",
-            "value": "1 - 3"
+            "value": 3.0
           },
           {
             "key": "max_times",
@@ -8681,7 +8717,7 @@
         "tags": ["sarkaz"],
         "blackboard": [
           {
-            "key": "damage_resistance",
+            "key": "dmg_res",
             "value": 0.3,
             "condition": "sarkaz"
           }
@@ -8728,7 +8764,7 @@
         "desc_zh": "拥有来源于自身的<ba.barrier>屏障</>时，每次受到攻击对目标造成相当于斥罪攻击力53%<@ba.talpu>（+3%）</>的法术伤害",
         "desc_ja": "自身により獲得する<ba.barrier>バリア</>の存続期間中、攻撃される度ペナンスの攻撃力の53％<@ba.talpu>（+3%）</>の術ダメージで攻撃者に反撃",
         "desc_en": "Each time this unit is attacked while under the effect of her own <ba.barrier>Barrier</>, deals 53% <@ba.talpu>(+3%)</> ATK as Arts damage to the attacker",
-        "tags": ["reflect_dmg"],
+        "tags": ["reflect_dmg","arts"],
         "blackboard": [
           {
             "key": "atk_scale",
@@ -8757,11 +8793,13 @@
           },
           {
             "key": "protect",
-            "value": 0.22
+            "value": 0.22,
+            "condition":"hp_under_50"
           },
           {
             "key": "atk_scale",
-            "value": 1.17
+            "value": 1.17,
+            "condition":"hp_above_50"
           }
         ]
       },
@@ -8773,11 +8811,12 @@
         "desc_zh": "阻挡敌人时技力回复速度+0.2/秒",
         "desc_ja": "敵をブロック中、自身のSP自然回復速度+0.2sp/秒",
         "desc_en": "Increases this unit's SP recovery by 0.2/sec when blocking enemies",
-        "tags": ["sp_regen"],
+        "tags": [],
         "blackboard": [
           {
-            "key": "sp_recovery_per_sec",
-            "value": 0.2
+            "key": "sp_regen",
+            "value": 0.2,
+            "condition": "block"
           }
         ]
       }
@@ -8794,12 +8833,12 @@
         "desc_zh": "在场时所有重装干员的攻击力+23%<@ba.talpu>（+3%）</>",
         "desc_ja": "配置中、味方【重装】の攻撃力+23%<@ba.talpu>（+3%）</>",
         "desc_en": "When this unit is on the field, Defender Operators gain +23%<@ba.talpu>(+3%)</> ATK",
-        "tags": ["defender"],
+        "tags": ["tank"],
         "blackboard": [
           {
             "key": "ally_atk",
             "value": 0.23,
-            "condition": "defender"
+            "condition": "TANK"
           }
         ]
       },
@@ -8857,7 +8896,7 @@
           {
             "key": "ally_def",
             "value": 0.18,
-            "condition": "behind"
+            "condition": "ally_behind"
           }
         ]
       },
@@ -8873,7 +8912,8 @@
         "blackboard": [
           {
             "key": "sp_gain",
-            "value": 1.0
+            "value": 1.0,
+            "condition":"token_attacked"
           },
           {
             "key": "prob",
@@ -9002,6 +9042,10 @@
           {
             "key": "respawn_time",
             "value": 0.12
+          },
+          {
+            "key": "ally_respawn_time",
+            "value": 0.12
           }
         ]
       },
@@ -9053,7 +9097,7 @@
         "desc_zh": "如果2秒内没有主动攻击过，每秒恢复最大生命4%<@ba.talpu>（+0.5%）</>的生命",
         "desc_ja": "2秒間通常攻撃せずにいると、1秒ごとにHPが最大値の4%<@ba.talpu>（+0.5%）</>回復",
         "desc_en": "If this unit hasn't attacked for 2 seconds, restores 4% <@ba.talpu>(+0.5%)</> of Max HP every second",
-        "tags": ["self_heal"],
+        "tags": ["heal_self"],
         "blackboard": [
           {
             "key": "delay",
@@ -9120,7 +9164,7 @@
         "desc_zh": "攻击敌人时攻击力提升至110%，若目标处于<ba.stun>晕眩</>、<ba.root>束缚</>则改为提升至140%",
         "desc_ja": "",
         "desc_en": "",
-        "tags": ["stun", "root"],
+        "tags": ["bonus_stun", "bonus_root"],
         "blackboard": [
           {
             "key": "atk_scale",
@@ -9144,7 +9188,8 @@
         "blackboard": [
           {
             "key": "protect",
-            "value": 0.21
+            "value": 0.21,
+            "condition":"ally_behind"
           }
         ]
       }
@@ -9219,7 +9264,8 @@
           },
           {
             "key": "def_penetrate",
-            "value": 0.5
+            "value": 0.5,
+            "prob": 0.5
           }
         ]
       },
@@ -9231,11 +9277,12 @@
         "desc_zh": "攻击速度+21<@ba.talpu>（+3）</>，场上有【海怪】敌人时效果翻倍",
         "desc_ja": "攻撃速度+21<@ba.talpu>（+3）</>、マップ上に【海の怪物】がいる時、効果値倍増",
         "desc_en": "ASPD +21<@ba.talpu>(+3)</>. Effect doubles when there are [Sea Monster] enemies on the battlefield.",
-        "tags": [],
+        "tags": ["seamonster"],
         "blackboard": [
           {
             "key": "attack_speed",
-            "value": 21.0
+            "value": 21.0,
+            "condition":"seamonster"
           }
         ]
       }
@@ -9387,7 +9434,7 @@
             "value": 1.25
           },
           {
-            "key": "heal_scale_2",
+            "key": "heal_scale",
             "value": 1.45
           },
           {
@@ -9409,10 +9456,10 @@
         "desc_zh": "无视攻击目标22<@ba.talpu>（+2）</>法术抗性",
         "desc_ja": "敵の術耐性を22<@ba.talpu>（+2）</>無視して攻撃",
         "desc_en": "Attacks ignore 22 <@ba.talpu>(+2)</> RES",
-        "tags": ["res_penetrate"],
+        "tags": [],
         "blackboard": [
           {
-            "key": "res_penetrate_fixed",
+            "key": "res_penetrate",
             "value": 22.0
           }
         ]
@@ -9449,7 +9496,7 @@
         "tags": [],
         "blackboard": [
           {
-            "key": "damage_resistance",
+            "key": "dmg_res",
             "value": 0.18
           },
           {
@@ -9475,7 +9522,7 @@
           {
             "key": "shield",
             "value": 1,
-            "condition": "melee"
+            "condition": "melee_attack"
           }
         ]
       }
@@ -9512,7 +9559,7 @@
         "desc_zh": "未阻挡敌人时每秒回复70<@ba.talpu>（+10）</>生命",
         "desc_ja": "敵をブロックしていない時、1秒ごとにHPが70<@ba.talpu>(+10)</>回復",
         "desc_en": "Regenerate 70 <@ba.talpu>(+10)</> HP per second when this unit is not blocking an enemy.",
-        "tags": ["self_heal"],
+        "tags": ["heal_self"],
         "blackboard": [
           {
             "key": "hp_recovery_per_sec",
@@ -9544,7 +9591,7 @@
             "value": 0.3
           },
           {
-            "key": "min_sp_recovery_per_sec",
+            "key": "sp_regen",
             "value": 2.0
           }
         ]
@@ -9590,7 +9637,7 @@
         "desc_zh": "在场时，所有【米诺斯】干员生命值高于80%时获得+25%攻击力的<ba.strong>精力充沛</>",
         "desc_ja": "配置中、味方【ミノス】にHPが最大値の80％以上で攻撃力+25%の<ba.strong>勇猛</>状態を付与する",
         "desc_en": "When deployed, all 'Minoan' Operators gain <ba.strong>Vigor</> effect of +25% ATK when HP is above 80%",
-        "tags": ["ally_peak_performance", "minos"],
+        "tags": ["vigor", "minos"],
         "blackboard": [
           {
             "key": "peak_performance.hp_ratio",
@@ -9633,7 +9680,7 @@
         "desc_en": "When deploying, deals 80% ATK as True damage to enemies in the four adjacent tiles and <ba.stun>Stuns</> them for 3 seconds. If the previously deployed Operator is from Kazimierz, deals an additional hit",
         "rangeId": "x-5",
         "target_air": false,
-        "tags": ["true"],
+        "tags": ["true","kazimierz"],
         "blackboard": [
           {
             "key": "atk_scale",
@@ -9677,8 +9724,9 @@
         "tags": [],
         "blackboard": [
           {
-            "key": "damage_resistance",
-            "value": 0.35
+            "key": "dmg_res",
+            "value": 0.35,
+            "condition":"croc_duel"
           }
         ]
       },
@@ -9775,8 +9823,9 @@
             "value": 1.18
           },
           {
-            "key": "damage_resistance",
-            "value": 0.15
+            "key": "dmg_res",
+            "value": 0.15,
+            "condition":"enemy_3_around"
           }
         ]
       },
@@ -9788,7 +9837,7 @@
         "desc_zh": "在场时，自身更容易受到攻击，所有卡西米尔干员被攻击时反弹相当于玛恩纳攻击力18%<@ba.talpu>（+3%）</>的真实伤害",
         "desc_ja": "配置中、敵に攻撃されやすくなり、味方【カジミエーシュ】が攻撃を受ける度、ムリナールの攻撃力の18%<@ba.talpu>（+3%）</>の確定ダメージで敵に反撃する",
         "desc_en": "More likely to be attacked while deployed. When any Kazimierz Operator is attacked, reflect 18%<@ba.talpu>(+3%)</> of Młynar's ATK as True Damage",
-        "tags": ["taunt", "true", "ally_reflect_dmg", "reflect_dmg"],
+        "tags": ["taunt", "true", "ally_reflect_dmg", "reflect_dmg","kazimierz"],
         "blackboard": [
           {
             "key": "taunt_level",
@@ -9946,15 +9995,18 @@
         "blackboard": [
           {
             "key": "phys_evasion",
-            "value": 0.45
+            "value": 0.45,
+            "condition":"skill_1"
           },
           {
             "key": "arts_evasion",
-            "value": 0.45
+            "value": 0.45,
+            "condition":"skill_1"
           },
           {
             "key": "atk",
-            "value": 0.18
+            "value": 0.18,
+            "condition":"skill_2"
           }
         ]
       }
@@ -9976,7 +10028,7 @@
           {
             "key": "phys_evasion",
             "value": 0.25,
-            "condition": "pioneer"
+            "condition": "PIONEER"
           }
         ]
       }
@@ -10031,7 +10083,7 @@
         "desc_zh": "自身阻挡的敌方单位被击杀时，回复自身18%<@ba.talpu>（+2%）</>的生命",
         "desc_ja": "",
         "desc_en": "",
-        "tags": ["self_heal"],
+        "tags": ["heal_self"],
         "blackboard": [
           {
             "key": "hp_ratio",
@@ -10164,7 +10216,7 @@
         "desc_zh": "部署后40秒内攻击附带60点凋亡损伤，并使攻击范围内的所有敌人受到10%的<ba.magicfragile>【法术脆弱】</>和<ba.elementfragile>【元素脆弱】</>",
         "desc_ja": "",
         "desc_en": "",
-        "tags": ["apoptosis"],
+        "tags": ["apoptosis","ele_dmg"],
         "blackboard": [
           {
             "key": "duration",
@@ -10223,7 +10275,7 @@
         "desc_ja": "",
         "desc_en": "",
         "target_air": true,
-        "tags": [],
+        "tags": ["crit"],
         "blackboard": [
           {
             "key": "attack@main_atk_scale",
@@ -10271,7 +10323,6 @@
         "desc_zh": "对一个目标发起攻击时，有40%几率额外对攻击范围内一个随机目标造成相当于攻击力65%<@ba.talpu>（+5%）</>的法术伤害并使其<ba.sluggish>停顿</>0.8秒",
         "desc_ja": "",
         "desc_en": "",
-        "target_air": true,
         "tags": [],
         "blackboard": [
           {
@@ -10284,7 +10335,8 @@
           },
           {
             "key": "sluggish",
-            "value": 0.8
+            "value": 0.8,
+            "prob":0.4
           }
         ]
       },
@@ -10304,10 +10356,11 @@
           },
           {
             "key": "res_down",
-            "value": 10.0
+            "value": 10.0,
+            "duration":5.0
           },
           {
-            "key": "atk_addition",
+            "key": "damage_scale_arts",
             "value": 165.0
           }
         ]
@@ -10361,10 +10414,10 @@
         "desc_zh": "上阵时，所有友方单位受到【萨卡兹】敌人的伤害降低15%<@ba.talpu>（+5%）</>",
         "desc_ja": "",
         "desc_en": "",
-        "tags": [],
+        "tags": ["type_sarkaz"],
         "blackboard": [
           {
-            "key": "damage_resistance",
+            "key": "dmg_res",
             "value": 0.15,
             "condition": "sarkaz"
           }
@@ -10392,6 +10445,16 @@
           {
             "key": "ally_def",
             "value": 0.07
+          },
+          {
+            "key": "ally_atk",
+            "value": 0.14,
+            "condition":"skill_active"
+          },
+          {
+            "key": "ally_def",
+            "value": 0.14,
+            "condition":"skill_active"
           }
         ]
       }
