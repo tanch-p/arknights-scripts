@@ -128,7 +128,7 @@ for id in filtered_cn_char_table:
             'desc_en': en_char_table[id]['potentialRanks'][idx]['description'] if id in en_char_table and idx < len(jp_char_table[id]['potentialRanks']) else ""
         }
 
-        attribute = {attribute_translate_table[pot['buff']['attributes']['attributeModifiers'][0]['attributeType']]                     : pot['buff']['attributes']['attributeModifiers'][0]['value']}if pot['buff'] else None
+        attribute = {attribute_translate_table[pot['buff']['attributes']['attributeModifiers'][0]['attributeType']]: pot['buff']['attributes']['attributeModifiers'][0]['value']}if pot['buff'] else None
         pot_dict['attribute'] = attribute
         potential.append(pot_dict)
 
@@ -147,7 +147,7 @@ for id in filtered_cn_char_table:
                   for key in character_dict['displayTokenDict']]
 
     # subprofession stuff
-    desc_zh= character_dict['description'].replace("<$ba", "<ba")
+    desc_zh = character_dict['description'].replace("<$ba", "<ba")
     blackboard = []
     tags = []
     if character_dict['subProfessionId'] == "slower":
@@ -168,8 +168,9 @@ for id in filtered_cn_char_table:
         tags.append("priority_highest_weight")
     if character_dict["subProfessionId"] == "librator" or character_dict['subProfessionId'] == "healer":
         tags.append("block_0")
-        desc_zh = replace_substrings(character_dict['trait']['candidates'][-1]['overrideDescripton'],character_dict['trait']['candidates'][-1]['blackboard'])
-    if character_dict['subProfessionId'] in ["executor", "merchant","agent"] and id != "char_376_therex":
+        desc_zh = replace_substrings(
+            character_dict['trait']['candidates'][-1]['overrideDescripton'], character_dict['trait']['candidates'][-1]['blackboard'])
+    if character_dict['subProfessionId'] in ["executor", "merchant", "agent"] and id != "char_376_therex":
         tags.append("fast_redeploy")
     if character_dict['subProfessionId'] in ["pusher", "hookmaster"]:
         tags.append("position_all")
@@ -190,8 +191,10 @@ for id in filtered_cn_char_table:
         desc_ja = jp_char_table[id]['description'].replace(
             "<$ba", "<ba")
         if character_dict["subProfessionId"] == "librator" or character_dict['subProfessionId'] == "healer":
-            desc_en = replace_substrings(en_char_table[id]['trait']['candidates'][-1]['overrideDescripton'],en_char_table[id]['trait']['candidates'][-1]['blackboard'])
-            desc_ja = replace_substrings(jp_char_table[id]['trait']['candidates'][-1]['overrideDescripton'],jp_char_table[id]['trait']['candidates'][-1]['blackboard'])
+            desc_en = replace_substrings(
+                en_char_table[id]['trait']['candidates'][-1]['overrideDescripton'], en_char_table[id]['trait']['candidates'][-1]['blackboard'])
+            desc_ja = replace_substrings(
+                jp_char_table[id]['trait']['candidates'][-1]['overrideDescripton'], jp_char_table[id]['trait']['candidates'][-1]['blackboard'])
 
         return_dict['name_ja'] = jp_char_table[id]['name']
         return_dict['name_en'] = en_char_table[id]['name']
@@ -268,7 +271,7 @@ for id in cn_patch_table['patchChars']:
             'desc_en': en_patch_table['patchChars'][id]['potentialRanks'][idx]['description'] if in_global else ""
         }
 
-        attribute = {attribute_translate_table[pot['buff']['attributes']['attributeModifiers'][0]['attributeType']]                     : pot['buff']['attributes']['attributeModifiers'][0]['value']}if pot['buff'] else None
+        attribute = {attribute_translate_table[pot['buff']['attributes']['attributeModifiers'][0]['attributeType']]: pot['buff']['attributes']['attributeModifiers'][0]['value']}if pot['buff'] else None
         pot_dict['attribute'] = attribute
         potential.append(pot_dict)
 
@@ -327,14 +330,14 @@ with open('characters.json', 'w', encoding='utf-8') as f:
                 maxed_talent = talent['candidates'][max_candidate_index]
                 talent_holder = {
                     "prefabKey": maxed_talent["prefabKey"], "name_zh": maxed_talent["name"], "name_en": "", "name_ja": "",
-                    "desc_zh": maxed_talent["description"], "desc_ja": "", "desc_en": "", "tags": [], "blackboard": maxed_talent['blackboard']}
+                    "desc_zh": replace_substrings(maxed_talent["description"], maxed_talent['blackboard']), "desc_ja": "", "desc_en": "", "tags": [], "blackboard": maxed_talent['blackboard']}
                 if id in en_char_table:
                     talent_holder["name_ja"] = jp_char_table[id]['talents'][talent_index]['candidates'][max_candidate_index]["name"]
-                    talent_holder["desc_ja"] = jp_char_table[id]['talents'][
-                        talent_index]['candidates'][max_candidate_index]["description"]
+                    talent_holder["desc_ja"] = replace_substrings(
+                        jp_char_table[id]['talents'][talent_index]['candidates'][max_candidate_index]["description"], maxed_talent['blackboard'])
                     talent_holder["name_en"] = en_char_table[id]['talents'][talent_index]['candidates'][max_candidate_index]["name"]
-                    talent_holder["desc_en"] = en_char_table[id]['talents'][
-                        talent_index]['candidates'][max_candidate_index]["description"]
+                    talent_holder["desc_en"] = replace_substrings(en_char_table[id]['talents'][
+                        talent_index]['candidates'][max_candidate_index]["description"], maxed_talent['blackboard'])
                 talents.append(talent_holder)
         return_dict[id] = {
             "appellation": filtered_cn_char_table[id]['appellation'], "talents": talents}

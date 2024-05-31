@@ -2,6 +2,9 @@ import json
 import os
 import re
 
+def replace_key(string):
+    if string == "ABILITY_RANGE_FORWARD_EXTEND":
+        pass
 
 def replace_substrings(text, blackboard):
     if text is None:
@@ -28,7 +31,7 @@ def replace_substrings(text, blackboard):
                 value = f"{value}%"
             else:
                 if isinstance(board['value'], float) and f"{board['value']}"[-1] != "0":
-                    value =f"{abs(board['value'])}"
+                    value = f"{abs(board['value'])}"
                 else:
                     value = f"{abs(round(board['value']))}"
             return value
@@ -37,23 +40,11 @@ def replace_substrings(text, blackboard):
         # Replace the matched substring with the value
 
     # Replace the substrings using the regular expression and the replace_match function
+    text= text.replace("ABILITY_RANGE_FORWARD_EXTEND","ability_range_forward_extend")
     result = re.sub(pattern, replace_match, text)
 
-    return result.replace("<$ba","<ba")
+    return result.replace("<$ba", "<ba")
 
-
-buffs_list = [
-    "berserk", "dying", "buffres",
-    "shield", "strong", "invisible",
-    "camou", "protect", "weightless",
-    "charged", "barrier", "overdrive",
-    "inspire"]
-debuffs_list = ["stun", "sluggish", "sleep",
-                "silence", "levitate", "cold",
-                "magicfragile", "root", "tremble",
-                "fragile", "dt.apoptosis2", "dt.burning2",
-                "steal", "weightless"]
-target_air_professions = ['']
 
 script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
@@ -136,10 +127,6 @@ with open('chara_skills.json', encoding='utf-8') as f:
             return_levels.append(data)
 
         blackboard = levels[-1]['blackboard']
-        debuffs = [
-            key for key in debuffs_list if cn_skill_table[skill]["levels"][0]["description"] and key in cn_skill_table[skill]["levels"][0]["description"]]
-        buffs = [
-            key for key in buffs_list if cn_skill_table[skill]["levels"][0]["description"] and key in cn_skill_table[skill]["levels"][0]["description"]]
         return_dict[skill] = {"name_zh": cn_skill_table[skill]['levels'][0]['name'],
                               "name_ja": jp_skill_table[skill]['levels'][0]['name'] if in_global else "",
                               "name_en": en_skill_table[skill]['levels'][0]['name'] if in_global else "",
@@ -147,7 +134,9 @@ with open('chara_skills.json', encoding='utf-8') as f:
                               "skillType": cn_skill_table[skill]['levels'][0]['skillType'],
                               "durationType": cn_skill_table[skill]['levels'][0]['durationType'],
                               "spType": chara_skills[skill]['levels'][0]['spData']['spType'],
-                              "levels": return_levels, "tags": [], "blackboard": blackboard}
+                              "levels": return_levels,
+                              "target_air": None, "remarks": None,
+                              "tags": [], "blackboard": blackboard}
     return_dict = chara_skills | return_dict
 
 with open('chara_skills.json', 'w', encoding='utf-8') as f:

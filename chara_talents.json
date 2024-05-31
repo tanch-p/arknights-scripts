@@ -1036,11 +1036,11 @@
       {
         "prefabKey": "1",
         "name_zh": "戏耍随心",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "遊び心",
+        "name_en": "Larking About",
         "desc_zh": "攻击时，25%几率当次攻击的攻击力提升至160%<@ba.talpu>（+10%）</>",
-        "desc_ja": "",
-        "desc_en": "",
+        "desc_ja": "攻撃時、25%の確率でその攻撃のみ攻撃力が160%<@ba.talpu>（+10%）</>に上昇",
+        "desc_en": "When attacking, 25% chance to increase that attack's ATK to 160% <@ba.talpu>(+10%)</>",
         "tags": ["crit"],
         "blackboard": [
           {
@@ -1146,7 +1146,7 @@
         "desc_zh": "在场时，所有【先锋】干员每秒回复28<@ba.talpu>（+3）</>点生命",
         "desc_ja": "配置中、味方【先鋒】のHPが1秒ごとに28<@ba.talpu>(+3)</>回復",
         "desc_en": "All [Vanguard] Operators recover 28<@ba.talpu> (+3)</> HP per second while Myrtle is deployed",
-        "tags": ["heal_ally", "buff_pioneer","global_heal"],
+        "tags": ["heal_ally", "buff_pioneer", "global_heal"],
         "blackboard": [
           {
             "key": "hp_recovery_per_sec",
@@ -1941,11 +1941,11 @@
       {
         "prefabKey": "1",
         "name_zh": "植物自愈力",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "植物の回復力",
+        "name_en": "Vegetative Regeneration",
         "desc_zh": "<替身>每秒回复4%<@ba.talpu>（+0.5%）</>生命值",
-        "desc_ja": "",
-        "desc_en": "",
+        "desc_ja": "<身替り>のHPが1秒ごとに最大値の4%<@ba.talpu>（+0.5%）</>回復",
+        "desc_en": "<Substitute> restores 4% <@ba.talpu>(+0.5%)</> HP per second",
         "tags": [],
         "blackboard": [
           {
@@ -3766,11 +3766,11 @@
       {
         "prefabKey": "1",
         "name_zh": "濯洗剑锋",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "血で刃を濯ぐ",
+        "name_en": "Baptize the Blade",
         "desc_zh": "攻击生命值高于80%的敌人时造成的伤害提高20%<@ba.talpu>（+2%）</>",
-        "desc_ja": "",
-        "desc_en": "",
+        "desc_ja": "HPが80％以上の敵への与ダメージ+20%<@ba.talpu>（+2%）</>",
+        "desc_en": "Increases damage dealt to enemies above 80% HP by 20% <@ba.talpu>(+2%)</>",
         "tags": ["enemy_hp"],
         "blackboard": [
           {
@@ -3786,11 +3786,11 @@
       {
         "prefabKey": "2",
         "name_zh": "挥斩敌愁",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "仇討ちの決意",
+        "name_en": "Cut Without Mercy",
         "desc_zh": "在【恶兆湍流】中，攻击【萨卡兹】敌人时攻击力提升至120%，且可额外储存一个仅用于攻击【萨卡兹】敌人的攻击能量",
-        "desc_ja": "",
-        "desc_en": "",
+        "desc_ja": "【悪兆渦流】において、敵【サルカズ】を攻撃時、攻撃力が120%まで上昇する。さらに、特性によりチャージできるエネルギーのほか、【サルカズ】への攻撃時にのみに発射されるエネルギーを追加で1回分チャージできる",
+        "desc_en": "In [The Whirlpool that is Passion], ATK is increased to 120% against [Sarkaz] enemies, and stores an additional attack charge that only fires against [Sarkaz] enemies",
         "tags": [],
         "blackboard": [
           {
@@ -3950,11 +3950,11 @@
       {
         "prefabKey": "1",
         "name_zh": "预先告知",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "予告状",
+        "name_en": "Advanced Notice",
         "desc_zh": "攻击范围内存在处于<ba.dt.apoptosis2>凋亡损伤</>爆发期间的敌方单位时，攻击力+21%<@ba.talpu>（+3%）</>",
-        "desc_ja": "",
-        "desc_en": "",
+        "desc_ja": "攻撃範囲内に<ba.dt.apoptosis2>壊死損傷</>の爆発効果中の敵が存在する場合、攻撃力+21%<@ba.talpu>（+3%）</>",
+        "desc_en": "If there is an enemy within attack range under the burst effect of <ba.dt.apoptosis2>Necrosis damage</>, ATK +21% <@ba.talpu>(+3%)</>",
         "tags": [],
         "blackboard": [
           {
@@ -4298,11 +4298,11 @@
       {
         "prefabKey": "1",
         "name_zh": "土壤基肥改良",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "土壌改良",
+        "name_en": "Soil Fertilizer Enhancement",
         "desc_zh": "攻击范围内生命上限最高的友方角色受到的治疗效果提升18%<@ba.talpu>（+3%）</>",
-        "desc_ja": "",
-        "desc_en": "",
+        "desc_ja": "攻撃範囲内で最大HPが最も高い味方が受ける治療効果+18%<@ba.talpu>（+3%）</>",
+        "desc_en": "The ally with the highest Max HP within range receives 18% <@ba.talpu>(+3%)</> more healing",
         "tags": [],
         "blackboard": [
           {
@@ -4391,11 +4391,11 @@
       {
         "prefabKey": "1",
         "name_zh": "威权教诲",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "大権の教え",
+        "name_en": "Authoritarian Teachings",
         "desc_zh": "法术抗性+12，周围8格有友方干员时，法术抗性额外+4",
-        "desc_ja": "",
-        "desc_en": "",
+        "desc_ja": "術耐性+12、周囲8マス内に味方オペレーターが存在する場合、追加で術耐性+4",
+        "desc_en": "RES +12; if there are allied Operators in the 8 surrounding tiles, gain another RES +4",
         "tags": [],
         "blackboard": [
           {
@@ -7600,11 +7600,11 @@
       {
         "prefabKey": "1",
         "name_zh": "无词哀歌",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "言葉なき哀歌",
+        "name_en": "Wordless Elegy",
         "desc_zh": "使攻击范围内敌人每秒受到相当于攻击力10%的<ba.dt.apoptosis2>凋亡损伤</>并<ba.sluggish>停顿</>0.2秒",
-        "desc_ja": "",
-        "desc_en": "",
+        "desc_ja": "1秒ごとに攻撃範囲内の敵に攻撃力の10%の<ba.dt.apoptosis2>壊死損傷</>を与え、0.2秒<ba.sluggish>足止め</>する",
+        "desc_en": "Enemies within attack range take 10% ATK as <ba.dt.apoptosis2>Necrosis damage</> per second, and are <ba.sluggish>Slowed</> for 0.2s",
         "tags": ["apoptosis", "ele_dmg"],
         "blackboard": [
           {
@@ -7620,11 +7620,11 @@
       {
         "prefabKey": "2",
         "name_zh": "精神逆构",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "精神逆構築",
+        "name_en": "Mental Inversion",
         "desc_zh": "使攻击范围内敌人受到的<ba.dt.apoptosis2>凋亡损伤</>提高22%<@ba.talpu>（+2%）</>",
-        "desc_ja": "",
-        "desc_en": "",
+        "desc_ja": "攻撃範囲内の敵が受ける<ba.dt.apoptosis2>壊死損傷</>の効果値+22%<@ba.talpu>（+2%）</>",
+        "desc_en": "Enemies within attack range take 22% more <ba.dt.apoptosis2>Necrosis damage</> <@ba.talpu>(+2%)</>",
         "tags": ["apoptosis_scale"],
         "blackboard": [
           {
@@ -8764,7 +8764,7 @@
         "desc_zh": "拥有来源于自身的<ba.barrier>屏障</>时，每次受到攻击对目标造成相当于斥罪攻击力53%<@ba.talpu>（+3%）</>的法术伤害",
         "desc_ja": "自身により獲得する<ba.barrier>バリア</>の存続期間中、攻撃される度ペナンスの攻撃力の53％<@ba.talpu>（+3%）</>の術ダメージで攻撃者に反撃",
         "desc_en": "Each time this unit is attacked while under the effect of her own <ba.barrier>Barrier</>, deals 53% <@ba.talpu>(+3%)</> ATK as Arts damage to the attacker",
-        "tags": ["reflect_dmg","arts"],
+        "tags": ["reflect_dmg", "arts"],
         "blackboard": [
           {
             "key": "atk_scale",
@@ -8794,12 +8794,12 @@
           {
             "key": "protect",
             "value": 0.22,
-            "condition":"hp_under_50"
+            "condition": "hp_under_50"
           },
           {
             "key": "atk_scale",
             "value": 1.17,
-            "condition":"hp_above_50"
+            "condition": "hp_above_50"
           }
         ]
       },
@@ -8913,7 +8913,7 @@
           {
             "key": "sp_gain",
             "value": 1.0,
-            "condition":"token_attacked"
+            "condition": "token_attacked"
           },
           {
             "key": "prob",
@@ -9159,11 +9159,11 @@
       {
         "prefabKey": "1",
         "name_zh": "及锋而试",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "攻勢の機",
+        "name_en": "Do or Die",
         "desc_zh": "攻击敌人时攻击力提升至110%，若目标处于<ba.stun>晕眩</>、<ba.root>束缚</>则改为提升至140%",
-        "desc_ja": "",
-        "desc_en": "",
+        "desc_ja": "攻撃時、攻撃力が110%まで上昇。対象が<ba.stun>スタン</>、<ba.root>バインド</>状態の場合、攻撃力が140%まで上昇",
+        "desc_en": "ATK increases to 110% when attacking an enemy; if the target is <ba.stun>stunned</> or <ba.root>bound</>, ATK further increases to 140%",
         "tags": ["bonus_stun", "bonus_root"],
         "blackboard": [
           {
@@ -9179,17 +9179,17 @@
       {
         "prefabKey": "2",
         "name_zh": "余火之氅",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "残火の幕",
+        "name_en": "Cloak of Lingering Flame",
         "desc_zh": "使自身与身后一格的友军获得21%<@ba.talpu>（+3%）</>的<ba.protect>庇护</>",
-        "desc_ja": "",
-        "desc_en": "",
+        "desc_ja": "自身と後ろ1マスにいる味方に21%<@ba.talpu>（+3%）</>の<ba.protect>加護</>状態を付与",
+        "desc_en": "Provides a 21% <@ba.talpu>(+3%)</> <ba.protect>Sanctuary</> effect to self and the allied unit directly behind this unit",
         "tags": [],
         "blackboard": [
           {
             "key": "protect",
             "value": 0.21,
-            "condition":"ally_behind"
+            "condition": "ally_behind"
           }
         ]
       }
@@ -9282,7 +9282,7 @@
           {
             "key": "attack_speed",
             "value": 21.0,
-            "condition":"seamonster"
+            "condition": "seamonster"
           }
         ]
       }
@@ -9488,11 +9488,11 @@
       {
         "prefabKey": "1",
         "name_zh": "燃烛施明",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "眼前を照らす燭火",
+        "name_en": "Candlelight",
         "desc_zh": "造成的法术伤害+9%<@ba.talpu>（+1%）</>，受到的物理和法术伤害-9%<@ba.talpu>（-1%）</>。攻击范围内存在精英或领袖敌人时，该效果提升至2倍",
-        "desc_ja": "",
-        "desc_en": "",
+        "desc_ja": "術の与ダメージ+9%<@ba.talpu>（+1%）</>、物理・術の被ダメージ-9%<@ba.talpu>（-1%）</>。攻撃範囲内に敵【エリート】・【ボス】が存在する場合、この効果は2倍になる",
+        "desc_en": "Deal +9% <@ba.talpu>(+1%)</> Arts damage and take -9% <@ba.talpu>(-1%)</> Physical and Arts damage. Double effect if there is an elite or leader enemy within attack range",
         "tags": [],
         "blackboard": [
           {
@@ -9512,11 +9512,11 @@
       {
         "prefabKey": "2",
         "name_zh": "散华",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "散華",
+        "name_en": "Nova",
         "desc_zh": "攻击精英或领袖敌人时，有20%<@ba.talpu>（+2%）</>概率获得一层仅抵挡近战攻击的<ba.shield>护盾</>（最多1层）",
-        "desc_ja": "",
-        "desc_en": "",
+        "desc_ja": "敵【エリート】・【ボス】を攻撃するとき、近接攻撃を1回無効化する<ba.shield>シールド</>を20%<@ba.talpu>（+2%）</>の確率で獲得する（重複不可）",
+        "desc_en": "When attacking an elite or leader enemy, there is a 20% <@ba.talpu>(+2%)</> chance to gain a <ba.shield>Shield</> that only blocks melee attacks (max 1 stack)",
         "tags": [],
         "blackboard": [
           {
@@ -9680,7 +9680,7 @@
         "desc_en": "When deploying, deals 80% ATK as True damage to enemies in the four adjacent tiles and <ba.stun>Stuns</> them for 3 seconds. If the previously deployed Operator is from Kazimierz, deals an additional hit",
         "rangeId": "x-5",
         "target_air": false,
-        "tags": ["true","kazimierz"],
+        "tags": ["true", "kazimierz"],
         "blackboard": [
           {
             "key": "atk_scale",
@@ -9716,28 +9716,28 @@
       {
         "prefabKey": "1",
         "name_zh": "苦痛专注",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "苦しみを意志に",
+        "name_en": "Pain Focus",
         "desc_zh": "阻挡时，受到来自非自身阻挡敌人的物理和法术伤害降低35%",
-        "desc_ja": "",
-        "desc_en": "",
+        "desc_ja": "ブロック時、自身がブロックしている敵以外からの物理・術の被ダメージ-35%",
+        "desc_en": "When blocking, take 35% less Physical and Arts damage from enemies not blocked by this unit",
         "tags": [],
         "blackboard": [
           {
             "key": "dmg_res",
             "value": 0.35,
-            "condition":"croc_duel"
+            "condition": "croc_duel"
           }
         ]
       },
       {
         "prefabKey": "2",
         "name_zh": "痛楚砺刃",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "痛みを砥石に",
+        "name_en": "Whetted With Pain",
         "desc_zh": "受到伤害后，攻击力+16%<@ba.talpu>（+4%）</>，持续15秒（不可叠加）",
-        "desc_ja": "",
-        "desc_en": "",
+        "desc_ja": "ダメージを受けたあと、15秒間攻撃力+16%<@ba.talpu>（+4%）</>（重複不可）",
+        "desc_en": "When damage is taken, ATK +16%<@ba.talpu>(+4%)</> for 15s (does not stack)",
         "tags": [],
         "blackboard": [
           {
@@ -9825,7 +9825,7 @@
           {
             "key": "dmg_res",
             "value": 0.15,
-            "condition":"enemy_3_around"
+            "condition": "enemy_3_around"
           }
         ]
       },
@@ -9837,7 +9837,13 @@
         "desc_zh": "在场时，自身更容易受到攻击，所有卡西米尔干员被攻击时反弹相当于玛恩纳攻击力18%<@ba.talpu>（+3%）</>的真实伤害",
         "desc_ja": "配置中、敵に攻撃されやすくなり、味方【カジミエーシュ】が攻撃を受ける度、ムリナールの攻撃力の18%<@ba.talpu>（+3%）</>の確定ダメージで敵に反撃する",
         "desc_en": "More likely to be attacked while deployed. When any Kazimierz Operator is attacked, reflect 18%<@ba.talpu>(+3%)</> of Młynar's ATK as True Damage",
-        "tags": ["taunt", "true", "ally_reflect_dmg", "reflect_dmg","kazimierz"],
+        "tags": [
+          "taunt",
+          "true",
+          "ally_reflect_dmg",
+          "reflect_dmg",
+          "kazimierz"
+        ],
         "blackboard": [
           {
             "key": "taunt_level",
@@ -9996,17 +10002,17 @@
           {
             "key": "phys_evasion",
             "value": 0.45,
-            "condition":"skill_1"
+            "condition": "skill_1"
           },
           {
             "key": "arts_evasion",
             "value": 0.45,
-            "condition":"skill_1"
+            "condition": "skill_1"
           },
           {
             "key": "atk",
             "value": 0.18,
-            "condition":"skill_2"
+            "condition": "skill_2"
           }
         ]
       }
@@ -10216,7 +10222,7 @@
         "desc_zh": "部署后40秒内攻击附带60点凋亡损伤，并使攻击范围内的所有敌人受到10%的<ba.magicfragile>【法术脆弱】</>和<ba.elementfragile>【元素脆弱】</>",
         "desc_ja": "",
         "desc_en": "",
-        "tags": ["apoptosis","ele_dmg"],
+        "tags": ["apoptosis", "ele_dmg"],
         "blackboard": [
           {
             "key": "duration",
@@ -10336,7 +10342,7 @@
           {
             "key": "sluggish",
             "value": 0.8,
-            "prob":0.4
+            "prob": 0.4
           }
         ]
       },
@@ -10357,7 +10363,7 @@
           {
             "key": "res_down",
             "value": 10.0,
-            "duration":5.0
+            "duration": 5.0
           },
           {
             "key": "damage_scale_arts",
@@ -10449,12 +10455,12 @@
           {
             "key": "ally_atk",
             "value": 0.14,
-            "condition":"skill_active"
+            "condition": "skill_active"
           },
           {
             "key": "ally_def",
             "value": 0.14,
-            "condition":"skill_active"
+            "condition": "skill_active"
           }
         ]
       }
