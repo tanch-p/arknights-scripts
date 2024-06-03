@@ -2,9 +2,16 @@ import json
 import os
 import re
 
+
 def replace_key(string):
-    if string == "ABILITY_RANGE_FORWARD_EXTEND":
-        pass
+    string = string.replace("ABILITY_RANGE_FORWARD_EXTEND",
+                            "ability_range_forward_extend")
+    string = string.replace("HP_RECOVERY_PER_SEC_BY_MAX_HP_RATIO",
+                            "hp_recovery_per_sec_by_max_hp_ratio")
+    string = string.replace("HP_RECOVERY_PER_SEC",
+                            "hp_recovery_per_sec")
+    return string
+
 
 def replace_substrings(text, blackboard):
     if text is None:
@@ -17,12 +24,11 @@ def replace_substrings(text, blackboard):
         # Extract the substring inside the curly braces
         matched_str = match.group(1)
         value = matched_str
-        if ":" in matched_str:
-            board = next(
-                (n for n in blackboard if n['key'] in matched_str), None)
-        else:
-            board = next(
-                (n for n in blackboard if n['key'] == matched_str), None)
+        key = matched_str
+        if ":" in key:
+            key = key.split(":")[0]
+        board = next(
+            (n for n in blackboard if n['key'] == key), None)
         if board:
             if '%' in matched_str:
                 value = abs(round(board['value'] * 100))
@@ -40,7 +46,7 @@ def replace_substrings(text, blackboard):
         # Replace the matched substring with the value
 
     # Replace the substrings using the regular expression and the replace_match function
-    text= text.replace("ABILITY_RANGE_FORWARD_EXTEND","ability_range_forward_extend")
+    text = replace_key(text)
     result = re.sub(pattern, replace_match, text)
 
     return result.replace("<$ba", "<ba")

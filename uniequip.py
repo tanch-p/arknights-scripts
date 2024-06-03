@@ -8,8 +8,12 @@ cn_uniequip_path = os.path.join(
     script_dir, "cn_data/zh_CN/gamedata/excel/uniequip_table.json")
 cn_battle_equip_path = os.path.join(
     script_dir, "cn_data/zh_CN/gamedata/excel/battle_equip_table.json")
+jp_uniequip_path = os.path.join(
+    script_dir, "global_data/ja_JP/gamedata/excel/uniequip_table.json")
 jp_battle_equip_path = os.path.join(
     script_dir, "global_data/ja_JP/gamedata/excel/battle_equip_table.json")
+en_uniequip_path = os.path.join(
+    script_dir, "global_data/en_US/gamedata/excel/uniequip_table.json")
 en_battle_equip_path = os.path.join(
     script_dir, "global_data/en_US/gamedata/excel/battle_equip_table.json")
 
@@ -17,8 +21,12 @@ with open(cn_uniequip_path, encoding='utf-8') as f:
     cn_uniequip_table = json.load(f)
 with open(cn_battle_equip_path, encoding='utf-8') as f:
     cn_battle_equip_table = json.load(f)
+with open(jp_uniequip_path, encoding='utf-8') as f:
+    jp_uniequip_table = json.load(f)
 with open(jp_battle_equip_path, encoding='utf-8') as f:
     jp_battle_equip_table = json.load(f)
+with open(en_uniequip_path, encoding='utf-8') as f:
+    en_uniequip_table = json.load(f)
 with open(en_battle_equip_path, encoding='utf-8') as f:
     en_battle_equip_table = json.load(f)
 
@@ -26,7 +34,7 @@ with open('uniequip.json', encoding='utf-8') as f:
     curr_uniequip = json.load(f)
 
 new_equips = [id for id in dict.keys(
-    cn_uniequip_table['equipDict']) if id not in set(dict.keys({}))]
+    cn_uniequip_table['equipDict']) if id not in set(dict.keys(curr_uniequip))]
 return_dict = {}
 for equip_id in new_equips:
     equip = cn_uniequip_table['equipDict'][equip_id]
@@ -82,9 +90,12 @@ for equip_id in new_equips:
                        "tags": curr_uniequip[equip_id]["combatData"]['tags'], "blackboard": curr_uniequip[equip_id]["combatData"]['blackboard']}
 
     return_dict[equip_id] = {
-        "uniEquipId": equip['uniEquipId'], "typeIcon": equip['typeIcon'], 'charId': char_id, "combatData": combat_data}
+        "uniEquipId": equip['uniEquipId'], "name_zh": equip['uniEquipName'], "name_ja": "", "name_en": "", "typeIcon": equip['typeIcon'], 'charId': char_id, "combatData": combat_data}
+    if in_global:
+        return_dict[equip_id]['name_ja'] = jp_uniequip_table['equipDict'][equip_id]['uniEquipName']
+        return_dict[equip_id]['name_en'] = en_uniequip_table['equipDict'][equip_id]['uniEquipName']
 
-# return_dict = curr_uniequip | return_dict
+return_dict = curr_uniequip | return_dict
 
-with open('uniequip2.json', 'w', encoding='utf-8') as f:
+with open('uniequip.json', 'w', encoding='utf-8') as f:
     json.dump(return_dict, f, ensure_ascii=False, indent=4)
