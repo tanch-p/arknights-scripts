@@ -95,6 +95,8 @@ for id in filtered_cn_char_table:
                 talent_holder["desc_en"] = chara_talents[id]['talents'][talent_index]["desc_en"]
                 talent_holder["name_ja"] = jp_char_table[id]['talents'][talent_index]['candidates'][max_candidate_index]["name"]
                 talent_holder["desc_ja"] = chara_talents[id]['talents'][talent_index]["desc_ja"]
+            talent_holder['rangeId'] = chara_talents[id]['talents'][talent_index][
+                'rangeId'] if id in chara_talents and 'rangeId' in chara_talents[id]['talents'][talent_index] else None
             talent_holder['tags'] = chara_talents[id]['talents'][talent_index]['tags'] if id in chara_talents else []
             talent_holder['blackboard'] = chara_talents[id]['talents'][talent_index]['blackboard'] if id in chara_talents else []
             talents.append(talent_holder)
@@ -128,7 +130,7 @@ for id in filtered_cn_char_table:
             'desc_en': en_char_table[id]['potentialRanks'][idx]['description'] if id in en_char_table and idx < len(jp_char_table[id]['potentialRanks']) else ""
         }
 
-        attribute = {attribute_translate_table[pot['buff']['attributes']['attributeModifiers'][0]['attributeType']]: pot['buff']['attributes']['attributeModifiers'][0]['value']}if pot['buff'] else None
+        attribute = {attribute_translate_table[pot['buff']['attributes']['attributeModifiers'][0]['attributeType']]                     : pot['buff']['attributes']['attributeModifiers'][0]['value']}if pot['buff'] else None
         pot_dict['attribute'] = attribute
         potential.append(pot_dict)
 
@@ -271,7 +273,7 @@ for id in cn_patch_table['patchChars']:
             'desc_en': en_patch_table['patchChars'][id]['potentialRanks'][idx]['description'] if in_global else ""
         }
 
-        attribute = {attribute_translate_table[pot['buff']['attributes']['attributeModifiers'][0]['attributeType']]: pot['buff']['attributes']['attributeModifiers'][0]['value']}if pot['buff'] else None
+        attribute = {attribute_translate_table[pot['buff']['attributes']['attributeModifiers'][0]['attributeType']]                     : pot['buff']['attributes']['attributeModifiers'][0]['value']}if pot['buff'] else None
         pot_dict['attribute'] = attribute
         potential.append(pot_dict)
 

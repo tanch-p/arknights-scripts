@@ -26842,7 +26842,7 @@
         "spType": "INCREASE_WITH_TIME",
         "levels": [
             {
-                "rangeId": null,
+                "rangeId": "get_talent_1",
                 "description_zh": "攻击速度<@ba.vup>+60</>",
                 "description_ja": "攻撃速度<@ba.vup>+60</>",
                 "description_en": "ASPD <@ba.vup>+60</>",
@@ -26861,7 +26861,7 @@
                 ]
             },
             {
-                "rangeId": null,
+                "rangeId": "get_talent_1",
                 "description_zh": "攻击速度<@ba.vup>+70</>",
                 "description_ja": "攻撃速度<@ba.vup>+70</>",
                 "description_en": "ASPD <@ba.vup>+70</>",
@@ -26880,7 +26880,7 @@
                 ]
             },
             {
-                "rangeId": null,
+                "rangeId": "get_talent_1",
                 "description_zh": "攻击速度<@ba.vup>+80</>",
                 "description_ja": "攻撃速度<@ba.vup>+80</>",
                 "description_en": "ASPD <@ba.vup>+80</>",
@@ -26899,7 +26899,7 @@
                 ]
             },
             {
-                "rangeId": null,
+                "rangeId": "get_talent_1",
                 "description_zh": "攻击速度<@ba.vup>+90</>",
                 "description_ja": "攻撃速度<@ba.vup>+90</>",
                 "description_en": "ASPD <@ba.vup>+90</>",
@@ -26945,7 +26945,7 @@
         "spType": "INCREASE_WITH_TIME",
         "levels": [
             {
-                "rangeId": null,
+                "rangeId": "get_talent_1",
                 "description_zh": "每次攻击有<@ba.vup>70%</>的概率随机触发下列效果之一：目标<ba.stun>晕眩</><@ba.vup>1.2</>秒；当次攻击力提升至<@ba.vup>190%</>；当次攻击造成群体伤害",
                 "description_ja": "攻撃時<@ba.vup>70%</>の確率で次の効果からランダムで一つ発動する：攻撃対象を<@ba.vup>1.2</>秒間<ba.stun>スタン</>させる/その攻撃のみ攻撃力が<@ba.vup>190%</>まで上昇/その攻撃のみ範囲ダメージを与える",
                 "description_en": "Each attack has a <@ba.vup>70%</> chance to randomly trigger one of the following effects: <ba.stun>Stuns</> the target for <@ba.vup>1.2</> second(s), that attack deals <@ba.vup>190%</> damage, or that attack deals AoE damage",
@@ -26972,7 +26972,7 @@
                 ]
             },
             {
-                "rangeId": null,
+                "rangeId": "get_talent_1",
                 "description_zh": "每次攻击有<@ba.vup>80%</>的概率随机触发下列效果之一：目标<ba.stun>晕眩</><@ba.vup>1.2</>秒；当次攻击力提升至<@ba.vup>205%</>；当次攻击造成群体伤害",
                 "description_ja": "攻撃時<@ba.vup>80%</>の確率で次の効果からランダムで一つ発動する：攻撃対象を<@ba.vup>1.2</>秒間<ba.stun>スタン</>させる/その攻撃のみ攻撃力が<@ba.vup>205%</>まで上昇/その攻撃のみ範囲ダメージを与える",
                 "description_en": "Each attack has a <@ba.vup>80%</> chance to randomly trigger one of the following effects: <ba.stun>Stuns</> the target for <@ba.vup>1.2</> second(s), that attack deals <@ba.vup>205%</> damage, or that attack deals AoE damage",
@@ -26999,7 +26999,7 @@
                 ]
             },
             {
-                "rangeId": null,
+                "rangeId": "get_talent_1",
                 "description_zh": "每次攻击有<@ba.vup>90%</>的概率随机触发下列效果之一：目标<ba.stun>晕眩</><@ba.vup>1.2</>秒；当次攻击力提升至<@ba.vup>220%</>；当次攻击造成群体伤害",
                 "description_ja": "攻撃時<@ba.vup>90%</>の確率で次の効果からランダムで一つ発動する：攻撃対象を<@ba.vup>1.2</>秒間<ba.stun>スタン</>させる/その攻撃のみ攻撃力が<@ba.vup>220%</>まで上昇/その攻撃のみ範囲ダメージを与える",
                 "description_en": "Each attack has a <@ba.vup>90%</> chance to randomly trigger one of the following effects: <ba.stun>Stuns</> the target for <@ba.vup>1.2</> second(s), that attack deals <@ba.vup>220%</> damage, or that attack deals AoE damage",
@@ -27026,7 +27026,7 @@
                 ]
             },
             {
-                "rangeId": null,
+                "rangeId": "get_talent_1",
                 "description_zh": "每次攻击有<@ba.vup>100%</>的概率随机触发下列效果之一：目标<ba.stun>晕眩</><@ba.vup>1.6</>秒；当次攻击力提升至<@ba.vup>220%</>；当次攻击造成群体伤害",
                 "description_ja": "攻撃時<@ba.vup>100%</>の確率で次の効果からランダムで一つ発動する：攻撃対象を<@ba.vup>1.6</>秒間<ba.stun>スタン</>させる/その攻撃のみ攻撃力が<@ba.vup>220%</>まで上昇/その攻撃のみ範囲ダメージを与える",
                 "description_en": "Each attack has a <@ba.vup>100%</> chance to randomly trigger one of the following effects: <ba.stun>Stuns</> the target for <@ba.vup>1.6</> second(s), that attack deals <@ba.vup>220%</> damage, or that attack deals AoE damage",
