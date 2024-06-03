@@ -87,7 +87,7 @@ for equip_id in new_equips:
             phases.append({'parts': concise_parts, 'attributeBlackboard': phase['attributeBlackboard'],
                            'tokenAttributeBlackboard': phase['tokenAttributeBlackboard'], })
         combat_data = {'phases': phases,
-                       "tags": curr_uniequip[equip_id]["combatData"]['tags'], "blackboard": curr_uniequip[equip_id]["combatData"]['blackboard']}
+                       "tags": [], "blackboard": blackboard}
 
     return_dict[equip_id] = {
         "uniEquipId": equip['uniEquipId'], "name_zh": equip['uniEquipName'], "name_ja": "", "name_en": "", "typeIcon": equip['typeIcon'], 'charId': char_id, "combatData": combat_data}
