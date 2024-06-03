@@ -2043,10 +2043,12 @@
                 "desc_zh": "在场时所有友方单位的技力自然回复速度+0.3/秒（同类效果取最高）",
                 "desc_ja": "配置中、味方全員のSPの自動回復速度＋0.3sp/秒（同種の効果は高いほうのみ適用）",
                 "desc_en": "When deployed, increases the SP recovery of all allies by 0.3/sec (only the highest effect of this type will be applied)",
-                "tags": [
-                    "ally_sp_regen"
-                ],
+                "tags": [],
                 "blackboard": [
+                    {
+                        "key": "ally_sp_regen",
+                        "value": 0.3
+                    },
                     {
                         "key": "sp_regen",
                         "value": 0.3
@@ -7134,13 +7136,16 @@
                 "desc_zh": "在场时所有【术师】干员的技力自然回复速度+0.4/秒（同类效果取最高）",
                 "desc_ja": "配置中、味方【術師】のSPの自然回復速度+0.4sp/秒（同種の効果は高いほうのみ適用）",
                 "desc_en": "When deployed, increases the SP recovery rate of all Casters by +0.4/second (only the highest effect of this type takes place)",
-                "tags": [
-                    "ally_sp_regen"
-                ],
+                "tags": [],
                 "blackboard": [
                     {
                         "key": "sp_regen",
                         "value": 0.4
+                    },
+                    {
+                        "key": "ally_sp_regen",
+                        "value": 0.4,
+                        "condition": "CASTER"
                     }
                 ]
             },
@@ -7675,13 +7680,16 @@
                 "desc_zh": "在场时所有【辅助】干员的技力自然回复速度+0.4/秒（同类效果取最高）",
                 "desc_ja": "配置中、味方【補助】のSPの自然回復速度+0.4sp/秒（同種の効果は高いほうのみ適用）",
                 "desc_en": "When deployed, increases the SP recovery rate of all Supporters by +0.4/second (only the highest effect of this type takes place)",
-                "tags": [
-                    "ally_sp_regen"
-                ],
+                "tags": [],
                 "blackboard": [
                     {
                         "key": "sp_regen",
                         "value": 0.4
+                    },
+                    {
+                        "key": "ally_sp_regen",
+                        "value": 0.4,
+                        "condition": "SUPPORT"
                     }
                 ]
             },

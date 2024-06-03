@@ -17643,7 +17643,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["abyssal", "squad_effect", "ally_sp_regen"],
+      "tags": ["abyssal", "squad_effect"],
       "blackboard": [
         {
           "key": "duration",
@@ -17668,6 +17668,15 @@
         },
         {
           "key": "sp_recovery_per_sec",
+          "value": 0.5
+        },
+        {
+          "key": "ally_sp_regen",
+          "value": 0.5,
+          "condition": "abyssal"
+        },
+        {
+          "key": "sp_regen",
           "value": 0.5
         }
       ]
