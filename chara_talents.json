@@ -6076,17 +6076,12 @@
                 "desc_ja": "",
                 "desc_en": "",
                 "tags": [
-                    "cancel_stealth",
-                    "stop_attack"
+                    "cancel_stealth"
                 ],
                 "blackboard": [
                     {
-                        "key": "duration",
-                        "value": 8.0
-                    },
-                    {
-                        "key": "weak[limit]",
-                        "value": 8.0
+                        "key": "block_no_attack",
+                        "value": 999
                     },
                     {
                         "key": "fragile",

@@ -22,15 +22,15 @@ def replace_substrings(text, blackboard):
     # Define a function to replace the matched substrings
     def replace_match(match):
         # Extract the substring inside the curly braces
-        matched_str = match.group(1)
-        value = matched_str
-        key = matched_str
+        value = match.group(1)
+        key = value
         if ":" in key:
             key = key.split(":")[0]
+        key = key.replace("-","")
         board = next(
             (n for n in blackboard if n['key'] == key), None)
         if board:
-            if '%' in matched_str:
+            if '%' in value:
                 value = abs(round(board['value'] * 100))
                 if board['key'] == 'damage_scale' and board['value'] > 1:
                     value -= 100
@@ -42,7 +42,8 @@ def replace_substrings(text, blackboard):
                     value = f"{abs(round(board['value']))}"
             return value
         else:
-            return "{"+matched_str+"}"
+            print('unchanged key',value)
+            return "{"+value+"}"
         # Replace the matched substring with the value
 
     # Replace the substrings using the regular expression and the replace_match function
