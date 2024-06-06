@@ -142,7 +142,7 @@ with open('chara_skills.json', encoding='utf-8') as f:
                               "durationType": cn_skill_table[skill]['levels'][0]['durationType'],
                               "spType": chara_skills[skill]['levels'][0]['spData']['spType'],
                               "levels": return_levels,
-                              "target_air": None, "remarks": None,
+                              "remarks": None,
                               "tags": [], "blackboard": blackboard}
     return_dict = chara_skills | return_dict
 

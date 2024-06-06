@@ -4878,9 +4878,15 @@
           "value": 1.0
         },
         {
-          "key": "phys_evasion",
+          "key": "ally_evasion",
           "value": 0.35,
+          "types": ["phys"],
           "conditions": ["PIONEER"]
+        },
+        {
+          "key": "evasion",
+          "value": 0.35,
+          "types": ["phys"]
         }
       ]
     }
@@ -7324,6 +7330,7 @@
         },
         {
           "key": "damage_scale",
+          "targets": 99,
           "value": 1.27,
           "types": ["phys"],
           "conditions": ["stun"],
@@ -7753,6 +7760,7 @@
         },
         {
           "key": "damage_scale",
+          "targets": 99,
           "value": 1.24,
           "types": ["phys"],
           "conditions": ["blocked"],
@@ -8562,6 +8570,7 @@
       "blackboard": [
         {
           "key": "damage_scale",
+          "targets": 99,
           "value": 1.26,
           "types": ["arts"],
           "conditions": ["blocked"],
@@ -16630,8 +16639,9 @@
           "value": 0.066
         },
         {
-          "key": "phys_evasion",
-          "value": 0.44
+          "key": "evasion",
+          "value": 0.44,
+          "types": ["phys"]
         }
       ]
     }
@@ -18432,7 +18442,9 @@
         },
         {
           "key": "atk_down",
-          "value": 0.12
+          "value": 0.12,
+          "category": ["others"],
+          "conditions":["when_attacked"]
         },
         {
           "key": "duration",
@@ -18871,9 +18883,15 @@
       "tags": ["block_4"],
       "blackboard": [
         {
-          "key": "ally_phys_evasion",
+          "key": "ally_evasion",
           "value": 0.28,
-          "conditions": ["ranged"]
+          "types": ["phys"],
+          "conditions": ["position_ranged"]
+        },
+        {
+          "key": "evasion",
+          "value": 0.28,
+          "types": ["phys"]
         }
       ]
     }
@@ -21617,8 +21635,10 @@
           "value": 0.07
         },
         {
-          "key": "phys_evasion",
-          "value": 0.7
+          "key": "evasion",
+          "value": 0.7,
+          "types": ["phys"],
+          "conditions": ["hp_lt_40"]
         },
         {
           "key": "duration",
@@ -25023,12 +25043,9 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "phys_evasion",
-          "value": 0.65
-        },
-        {
-          "key": "arts_evasion",
-          "value": 0.65
+          "key": "evasion",
+          "value": 0.65,
+          "types": ["phys", "arts"]
         },
         {
           "key": "hp_ratio",
@@ -25756,6 +25773,7 @@
         },
         {
           "key": "damage_scale",
+          "targets": 99,
           "value": 1.3,
           "types": ["arts"],
           "conditions": ["flying"],
@@ -25938,12 +25956,9 @@
           "value": 1.0
         },
         {
-          "key": "phys_evasion",
-          "value": 0.55
-        },
-        {
-          "key": "arts_evasion",
-          "value": 0.55
+          "key": "evasion",
+          "value": 0.55,
+          "types": ["phys", "arts"]
         },
         {
           "key": "atk",
@@ -27161,8 +27176,9 @@
           "value": 1.0
         },
         {
-          "key": "phys_evasion",
-          "value": 0.55
+          "key": "evasion",
+          "value": 0.55,
+          "types": ["phys", "arts"]
         }
       ]
     }
@@ -30204,18 +30220,17 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["weaken"],
+      "tags": [],
       "blackboard": [
         {
-          "key": "atk",
-          "value": -0.1
-        },
-        {
-          "key": "duration",
-          "value": 2.0
+          "key": "atk_down",
+          "value": 0.1,
+          "duration":2.0,
+          "category": ["weaken"]
         },
         {
           "key": "damage_scale",
+          "targets": 99,
           "value": 1.64,
           "types": ["phys", "arts", "true"],
           "conditions": ["freeze"],
@@ -30223,6 +30238,7 @@
         },
         {
           "key": "damage_scale",
+          "targets": 99,
           "value": 1.32,
           "types": ["phys", "arts", "true"],
           "conditions": ["cold"],
@@ -30360,15 +30376,13 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["weaken"],
+      "tags": [],
       "blackboard": [
         {
-          "key": "atk",
-          "value": -0.1
-        },
-        {
-          "key": "duration",
-          "value": 2.0
+          "key": "atk_down",
+          "value": 0.1,
+          "duration":2.0,
+          "category": ["weaken"]
         },
         {
           "key": "attack@max_target",
@@ -30510,15 +30524,13 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["weaken", "lower_target_priority"],
+      "tags": ["lower_target_priority"],
       "blackboard": [
         {
-          "key": "atk",
-          "value": -0.1
-        },
-        {
-          "key": "duration",
-          "value": 2.0
+          "key": "atk_down",
+          "value": 0.1,
+          "duration":2.0,
+          "category": ["weaken"]
         },
         {
           "key": "duration",
@@ -31271,12 +31283,9 @@
           "value": 8.0
         },
         {
-          "key": "phys_evasion",
-          "value": 0.6
-        },
-        {
-          "key": "arts_evasion",
-          "value": 0.6
+          "key": "evasion",
+          "value": 0.6,
+          "types": ["phys", "arts"]
         },
         {
           "key": "taunt_level",
@@ -33011,7 +33020,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["kazimierz"],
       "blackboard": [
         {
           "key": "atk",
@@ -33026,9 +33035,15 @@
           "value": 3.0
         },
         {
-          "key": "phys_evasion",
+          "key": "ally_evasion",
           "value": 0.33,
+          "types": ["phys"],
           "conditions": ["kazimierz"]
+        },
+        {
+          "key": "evasion",
+          "value": 0.33,
+          "types": ["phys"]
         }
       ]
     }
@@ -37046,8 +37061,9 @@
           "value": 0.16
         },
         {
-          "key": "phys_evasion",
-          "value": 0.21
+          "key": "evasion",
+          "value": 0.21,
+          "types": ["phys"]
         }
       ]
     }
@@ -38301,8 +38317,15 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["apoptosis"],
+      "tags": ["apoptosis","ele_dmg"],
       "blackboard": [
+        {
+          "key": "atk_down",
+          "value": 0.5,
+          "duration":15.0,
+          "conditions": ["apoptosis_burst"],
+          "category": ["weaken"]
+        },
         {
           "key": "ep_damage_ratio",
           "value": 0.08
@@ -38807,8 +38830,9 @@
           "value": 0.05
         },
         {
-          "key": "phys_evasion",
+          "key": "evasion",
           "value": 0.3,
+          "types": ["phys"],
           "conditions": ["melee_attack"]
         },
         {
@@ -40783,6 +40807,7 @@
       "blackboard": [
         {
           "key": "damage_scale",
+          "targets": 1,
           "value": 1.22,
           "duration": 5.0,
           "types": ["arts"],
@@ -41395,7 +41420,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["weaken"],
+      "tags": [],
       "blackboard": [
         {
           "key": "atk_down",
@@ -41409,6 +41434,7 @@
         },
         {
           "key": "damage_scale",
+          "targets": 99,
           "value": 1.25,
           "types": ["phys", "arts", "true"],
           "conditions": ["sluggish"],
@@ -41762,8 +41788,9 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "phys_evasion",
-          "value": 0.15
+          "key": "evasion",
+          "value": 0.15,
+          "types": ["phys"]
         },
         {
           "key": "sp_gain",
@@ -42615,7 +42642,8 @@
         },
         {
           "key": "atk_down",
-          "value": 0.15
+          "value": 0.15,
+          "category":["others"]
         },
         {
           "key": "duration",
@@ -42906,8 +42934,9 @@
           "value": 10.0
         },
         {
-          "key": "phys_evasion",
+          "key": "evasion",
           "value": 0.33,
+          "types": ["phys"],
           "conditions": ["melee_attack"]
         },
         {
@@ -43195,8 +43224,9 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "phys_evasion",
-          "value": 0.49
+          "key": "evasion",
+          "value": 0.4,
+          "types": ["phys"]
         },
         {
           "key": "charge_atk_speed_on_evade.attack_speed",
@@ -44716,6 +44746,7 @@
         },
         {
           "key": "damage_scale",
+          "targets": 1,
           "value": 1.3,
           "duration": 10.0,
           "types": ["phys", "arts", "true"],
@@ -46682,6 +46713,7 @@
         },
         {
           "key": "damage_scale",
+          "targets": 99,
           "value": 1.2,
           "types": ["arts"],
           "conditions": ["enemy_hp_lt_50"],
@@ -47355,6 +47387,7 @@
       "blackboard": [
         {
           "key": "damage_scale",
+          "targets": 1,
           "value": 1.08,
           "duration": 7.0,
           "types": ["phys", "arts", "true"],
@@ -48680,6 +48713,13 @@
       ],
       "tags": ["apoptosis", "ele_dmg"],
       "blackboard": [
+        {
+          "key": "atk_down",
+          "value": 0.5,
+          "duration":15.0,
+          "conditions": ["apoptosis_burst"],
+          "category": ["weaken"]
+        },
         {
           "key": "ep_damage_ratio",
           "value": 0.08

@@ -122,7 +122,6 @@ added camouflage key to kafka skills
 conditions to add
 ranged_attack
 highest_max_hp
-enemy_hp_under_40
 hp_above_70
 hp_above_50
 hp_under_40
@@ -146,6 +145,7 @@ croc_duel
 enemy_3_around (mlynar)
 skill_active
 collision_wall (enforcer)
+one_time
 
 keys not in list
 ele_heal

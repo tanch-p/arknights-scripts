@@ -68,10 +68,7 @@
                 "desc_zh": "部署经过3秒后，对周围8格内的所有敌人造成相当于攻击力400%的物理伤害，并令其获得8秒30%的<ba.fragile>脆弱</>效果，之后自身强制退出战场",
                 "desc_ja": "配置から3秒後、周囲8マスの敵に攻撃力の400％の物理ダメージを与え、8秒間30％の<ba.fragile>脆弱</>状態を付与する。効果発動後強制退場",
                 "desc_en": "3 seconds after deployment, inflicts 400% ATK as Physical damage to enemies in the nearby 8 tiles and applies 30% <ba.fragile>Fragile</> effect for 8 seconds, then automatically retreats from battle",
-                "target_air": true,
-                "remarks": [
-                    "target_air"
-                ],
+                "remarks": [],
                 "tags": [],
                 "blackboard": [
                     {
@@ -84,6 +81,7 @@
                     },
                     {
                         "key": "damage_scale",
+                        "targets": 99,
                         "value": 1.3,
                         "duration": 8.0,
                         "types": [
@@ -120,6 +118,7 @@
                     },
                     {
                         "key": "damage_scale",
+                        "targets": 99,
                         "value": 1.25,
                         "types": [
                             "phys",
@@ -152,7 +151,6 @@
                 "desc_zh": "攻击后会延时引爆，随机触发下列效果之一： 造成450%的物理伤害；目标<ba.sleep>沉睡</>1秒；目标<ba.stun>晕眩</>0.2秒；什么都没有发生！触发3次伤害效果后天赋失效",
                 "desc_ja": "攻撃後遅れて爆弾が起爆し、次の効果からランダムに1つ発動する（ダメージを与える効果が3回発動したあと、素質は効果を失う ）：\n450%の物理ダメージを与える/対象を1秒間<ba.sleep>睡眠</>させる/対象を0.2秒間<ba.stun>スタン</>させる/何も起こらない……",
                 "desc_en": "Attacks detonate after a delay, with one of the following random effects: Deal 450% Physical Damage / Puts the target to <ba.sleep>Sleep</> for 1 second / <ba.stun>Stuns</> the target for 0.2 seconds / Nothing happens at all! Talent deactivates after triggering Damage effect 3 times",
-                "target_air": null,
                 "tags": [],
                 "blackboard": [
                     {
@@ -200,7 +198,6 @@
                 "desc_zh": "不容易受到攻击，部署一段时间后，使攻击范围内其它单位<ba.stun>晕眩</>7.5秒",
                 "desc_ja": "敵に狙われにくい。配置から一定時間後、攻撃範囲内のほかのユニット全員を7.5秒間<ba.stun>スタン</>させる",
                 "desc_en": "Less likely to be attacked; After being deployed for a certain duration, <ba.stun>Stuns</> other units within range for 7.5 seconds",
-                "target_air": true,
                 "tags": [
                     "lower_target_priority",
                     "ally_ailment"
@@ -326,8 +323,11 @@
                 "tags": [],
                 "blackboard": [
                     {
-                        "key": "arts_evasion",
-                        "value": 0.5
+                        "key": "evasion",
+                        "value": 0.5,
+                        "types": [
+                            "arts"
+                        ]
                     }
                 ]
             }
@@ -347,8 +347,11 @@
                 "tags": [],
                 "blackboard": [
                     {
-                        "key": "phys_evasion",
-                        "value": 0.5
+                        "key": "evasion",
+                        "value": 0.5,
+                        "types": [
+                            "phys"
+                        ]
                     }
                 ]
             }
@@ -527,14 +530,20 @@
                 "tags": [],
                 "blackboard": [
                     {
-                        "key": "ally_phys_evasion",
+                        "key": "ally_evasion",
                         "value": 0.25,
-                        "duration": 3.0
+                        "duration": 3.0,
+                        "types": [
+                            "phys"
+                        ]
                     },
                     {
-                        "key": "phys_evasion",
+                        "key": "evasion",
                         "value": 0.25,
-                        "duration": 3.0
+                        "duration": 3.0,
+                        "types": [
+                            "phys"
+                        ]
                     }
                 ]
             }
@@ -1595,8 +1604,11 @@
                 "tags": [],
                 "blackboard": [
                     {
-                        "key": "phys_evasion",
-                        "value": 0.34
+                        "key": "evasion",
+                        "value": 0.34,
+                        "types": [
+                            "phys"
+                        ]
                     }
                 ]
             }
@@ -1813,7 +1825,12 @@
                         "key": "atk_down",
                         "value": 0.08,
                         "duration": 5.0,
-                        "conditions": "when_attacked"
+                        "conditions": [
+                            "when_attacked"
+                        ],
+                        "category": [
+                            "others"
+                        ]
                     },
                     {
                         "key": "duration",
@@ -2675,8 +2692,11 @@
                         "value": 0.15
                     },
                     {
-                        "key": "phys_evasion",
-                        "value": 0.3
+                        "key": "evasion",
+                        "value": 0.3,
+                        "types": [
+                            "phys"
+                        ]
                     }
                 ]
             }
@@ -2696,9 +2716,14 @@
                 "tags": [],
                 "blackboard": [
                     {
-                        "key": "phys_evasion",
+                        "key": "evasion",
                         "value": 0.33,
-                        "conditions": "melee_attack"
+                        "types": [
+                            "phys"
+                        ],
+                        "conditions": [
+                            "melee_attack"
+                        ]
                     },
                     {
                         "key": "charge_on_evade.atk",
@@ -3509,6 +3534,7 @@
                 "blackboard": [
                     {
                         "key": "damage_scale",
+                        "targets": 99,
                         "value": 1.16,
                         "types": [
                             "phys"
@@ -3698,6 +3724,7 @@
                 "blackboard": [
                     {
                         "key": "damage_scale",
+                        "targets": 99,
                         "value": 1.22,
                         "types": [
                             "arts"
@@ -3730,6 +3757,7 @@
                 "blackboard": [
                     {
                         "key": "damage_scale",
+                        "targets": 99,
                         "value": 1.26,
                         "types": [
                             "arts"
@@ -4516,7 +4544,8 @@
                 "blackboard": [
                     {
                         "key": "damage_scale",
-                        "value": 1.3,
+                        "targets": 1,
+                        "value": 1.14,
                         "duration": 5.0,
                         "types": [
                             "arts"
@@ -4878,9 +4907,14 @@
                         "value": 0.05
                     },
                     {
-                        "key": "phys_evasion",
+                        "key": "evasion",
                         "value": 0.3,
-                        "conditions": "melee_attack"
+                        "types": [
+                            "phys"
+                        ],
+                        "conditions": [
+                            "melee_attack"
+                        ]
                     }
                 ]
             }
@@ -5051,7 +5085,9 @@
                             "melee_attack",
                             "ranged_attack"
                         ],
-                        "conditions": "bunker_defense"
+                        "conditions": [
+                            "bunker_defense"
+                        ]
                     }
                 ]
             }
@@ -5071,13 +5107,21 @@
                 "tags": [],
                 "blackboard": [
                     {
-                        "key": "ally_phys_evasion",
+                        "key": "ally_evasion",
                         "value": 0.23,
-                        "conditions": "position_ranged"
+                        "types": [
+                            "phys"
+                        ],
+                        "conditions": [
+                            "position_ranged"
+                        ]
                     },
                     {
-                        "key": "phys_evasion",
-                        "value": 0.23
+                        "key": "evasion",
+                        "value": 0.23,
+                        "types": [
+                            "phys"
+                        ]
                     }
                 ]
             }
@@ -5539,6 +5583,7 @@
                     },
                     {
                         "key": "damage_scale",
+                        "targets": 99,
                         "value": 1.33,
                         "types": [
                             "phys",
@@ -5589,6 +5634,7 @@
                 "blackboard": [
                     {
                         "key": "damage_scale",
+                        "targets": 99,
                         "value": 1.33,
                         "types": [
                             "phys",
@@ -5998,8 +6044,11 @@
                 "tags": [],
                 "blackboard": [
                     {
-                        "key": "phys_evasion",
-                        "value": 0.43
+                        "key": "evasion",
+                        "value": 0.43,
+                        "types": [
+                            "phys"
+                        ]
                     }
                 ]
             }
@@ -6154,6 +6203,7 @@
                     },
                     {
                         "key": "damage_scale",
+                        "targets": 1,
                         "value": 1.22,
                         "duration": 8.0,
                         "types": [
@@ -6287,7 +6337,6 @@
                 "desc_zh": "部署后立即对攻击范围内一个敌人投掷闪光弹，使其和周围敌人<ba.stun>晕眩</>4秒",
                 "desc_ja": "配置後、攻撃範囲内の敵1体に閃光弾を投擲し、対象と周囲一定範囲内の敵全員を4秒間<ba.stun>スタン</>させる",
                 "desc_en": "After deployment, immediately throw a Stun Grenade at an enemy within range, <ba.stun>Stunning</> them and nearby enemies for 4 seconds",
-                "target_air": true,
                 "tags": [],
                 "blackboard": [
                     {
@@ -6479,12 +6528,12 @@
                         "value": 10.0
                     },
                     {
-                        "key": "phys_evasion",
-                        "value": 0.6
-                    },
-                    {
-                        "key": "arts_evasion",
-                        "value": 0.6
+                        "key": "evasion",
+                        "value": 0.6,
+                        "types": [
+                            "phys",
+                            "arts"
+                        ]
                     },
                     {
                         "key": "taunt_level",
@@ -6506,6 +6555,7 @@
                 "blackboard": [
                     {
                         "key": "damage_scale",
+                        "targets": 99,
                         "value": 1.21,
                         "types": [
                             "phys"
@@ -6944,9 +6994,15 @@
                         "value": 0.06
                     },
                     {
-                        "key": "phys_evasion",
+                        "key": "evasion",
                         "value": 0.7,
-                        "duration": 17.0
+                        "duration": 17.0,
+                        "types": [
+                            "phys"
+                        ],
+                        "conditions": [
+                            "hp_lt_40"
+                        ]
                     },
                     {
                         "key": "duration",
@@ -7022,9 +7078,21 @@
                 "tags": [],
                 "blackboard": [
                     {
-                        "key": "ally_phys_evasion",
+                        "key": "ally_evasion",
                         "value": 0.25,
-                        "conditions": "kazimierz"
+                        "types": [
+                            "phys"
+                        ],
+                        "conditions": [
+                            "kazimierz"
+                        ]
+                    },
+                    {
+                        "key": "evasion",
+                        "value": 0.25,
+                        "types": [
+                            "phys"
+                        ]
                     }
                 ]
             }
@@ -7135,7 +7203,10 @@
                     },
                     {
                         "key": "atk_down",
-                        "value": 100.0
+                        "value": 100.0,
+                        "category": [
+                            "others"
+                        ]
                     },
                     {
                         "key": "steal_atk_max",
@@ -7689,6 +7760,7 @@
                     },
                     {
                         "key": "damage_scale",
+                        "targets": 99,
                         "value": 1.54,
                         "types": [
                             "phys",
@@ -7704,6 +7776,7 @@
                     },
                     {
                         "key": "damage_scale",
+                        "targets": 99,
                         "value": 1.27,
                         "types": [
                             "phys",
@@ -7817,6 +7890,7 @@
                 "blackboard": [
                     {
                         "key": "damage_scale",
+                        "targets": 99,
                         "value": 1.23,
                         "types": [
                             "phys",
@@ -8109,6 +8183,7 @@
                 "blackboard": [
                     {
                         "key": "damage_scale",
+                        "targets": 99,
                         "value": 1.22,
                         "types": [
                             "apoptosis"
@@ -8553,7 +8628,6 @@
                 "desc_zh": "<替身>使周围敌人移动速度-40%且每秒造成相当于40%攻击力的法术伤害",
                 "desc_ja": "<身替り>状態時、周囲の敵の移動速度-40%、1秒ごとに攻撃力の40%の術ダメージを与える",
                 "desc_en": "<Substitute> reduces Movement Speed of nearby enemies by 40%, and deals 40% ATK as Arts damage to them per second",
-                "target_air": false,
                 "tags": [
                     "arts"
                 ],
@@ -8758,8 +8832,14 @@
                         "value": 2.0
                     },
                     {
-                        "key": "phys_evasion",
-                        "value": 0.3
+                        "key": "evasion",
+                        "value": 0.3,
+                        "types": [
+                            "phys"
+                        ],
+                        "conditions": [
+                            "token"
+                        ]
                     }
                 ]
             }
@@ -8795,7 +8875,6 @@
                 "desc_zh": "Mon3tr在被击倒后（不包括撤退）使周围8格内所有敌人<ba.stun>晕眩</>3.5<@ba.talpu>（+0.5）</>秒并对其造成1400<@ba.talpu>（+200）</>点真实伤害",
                 "desc_ja": "「Mon3tr」が倒された時（撤退時発動ぜず）、周囲8マス内にいる敵全員に1400<@ba.talpu>（+200）</>の確定ダメージを与え、3.5<@ba.talpu>（+0.5）</>秒間<ba.stun>スタン</>させる",
                 "desc_en": "When Mon3tr is defeated (excluding retreat), all enemies in the surrounding 8 tiles are <ba.stun>Stunned</> for 3.5 <@ba.talpu>(+0.5)</> seconds and receive 1400 <@ba.talpu>(+200)</> True damage",
-                "target_air": true,
                 "tags": [
                     "true"
                 ],
@@ -8936,10 +9015,15 @@
                     },
                     {
                         "key": "atk_down",
-                        "value": 0.22
+                        "value": 0.22,
+                        "duration": 6.0,
+                        "category": [
+                            "others"
+                        ]
                     },
                     {
                         "key": "damage_scale",
+                        "targets": 1,
                         "value": 1.32,
                         "duration": 6.0,
                         "types": [
@@ -9510,7 +9594,10 @@
                     {
                         "key": "atk_down",
                         "value": 0.15,
-                        "duration": 3.0
+                        "duration": 3.0,
+                        "category": [
+                            "others"
+                        ]
                     },
                     {
                         "key": "duration",
@@ -9533,8 +9620,11 @@
                         "value": 0.1
                     },
                     {
-                        "key": "phys_evasion",
-                        "value": 0.15
+                        "key": "evasion",
+                        "value": 0.15,
+                        "types": [
+                            "phys"
+                        ]
                     }
                 ]
             }
@@ -9820,8 +9910,11 @@
                         "value": 0.06
                     },
                     {
-                        "key": "phys_evasion",
-                        "value": 0.13
+                        "key": "evasion",
+                        "value": 0.13,
+                        "types": [
+                            "phys"
+                        ]
                     }
                 ]
             }
@@ -10276,7 +10369,6 @@
                 "desc_ja": "配置後、隣接4マス以内の敵全員に攻撃力の80％の確定ダメージを与え、3秒間<ba.stun>スタン</>させる\n直前に配置したオペレーターが【カジミエーシュ】に属する場合、追加でさらに1回ダメージを与える",
                 "desc_en": "When deploying, deals 80% ATK as True damage to enemies in the four adjacent tiles and <ba.stun>Stuns</> them for 3 seconds. If the previously deployed Operator is from Kazimierz, deals an additional hit",
                 "rangeId": "x-5",
-                "target_air": false,
                 "tags": [
                     "true",
                     "kazimierz"
@@ -10575,8 +10667,11 @@
                 "tags": [],
                 "blackboard": [
                     {
-                        "key": "phys_evasion",
-                        "value": 0.33
+                        "key": "evasion",
+                        "value": 0.33,
+                        "types": [
+                            "phys"
+                        ]
                     },
                     {
                         "key": "charge_atk_speed_on_evade.attack_speed",
@@ -10604,19 +10699,16 @@
                 "tags": [],
                 "blackboard": [
                     {
-                        "key": "phys_evasion",
+                        "key": "evasion",
                         "value": 0.45,
-                        "conditions": "skill_1"
-                    },
-                    {
-                        "key": "arts_evasion",
-                        "value": 0.45,
-                        "conditions": "skill_1"
+                        "types": [
+                            "phys",
+                            "arts"
+                        ]
                     },
                     {
                         "key": "atk",
-                        "value": 0.18,
-                        "conditions": "skill_2"
+                        "value": 0.18
                     }
                 ]
             }
@@ -10638,9 +10730,21 @@
                 ],
                 "blackboard": [
                     {
-                        "key": "phys_evasion",
+                        "key": "ally_evasion",
                         "value": 0.25,
-                        "conditions": "PIONEER"
+                        "types": [
+                            "phys"
+                        ],
+                        "conditions": [
+                            "PIONEER"
+                        ]
+                    },
+                    {
+                        "key": "evasion",
+                        "value": 0.25,
+                        "types": [
+                            "phys"
+                        ]
                     }
                 ]
             }
@@ -10841,6 +10945,17 @@
                 ],
                 "blackboard": [
                     {
+                        "key": "atk_down",
+                        "value": 0.5,
+                        "duration": 15.0,
+                        "conditions": [
+                            "apoptosis_burst"
+                        ],
+                        "category": [
+                            "weaken"
+                        ]
+                    },
+                    {
                         "key": "duration",
                         "value": 40.0
                     },
@@ -10850,6 +10965,7 @@
                     },
                     {
                         "key": "damage_scale",
+                        "targets": 99,
                         "value": 1.1,
                         "types": [
                             "arts",
@@ -10900,7 +11016,6 @@
                 "desc_zh": "攻击时对主目标的攻击力提升至115%并为其附着残影，残影受到维什戴尔的余震影响时有15%概率爆炸，对周围所有敌人造成160%<@ba.talpu>（+10%）</>攻击力的物理伤害并使其<ba.stun>晕眩</>1秒",
                 "desc_ja": "",
                 "desc_en": "",
-                "target_air": true,
                 "tags": [
                     "crit"
                 ],

@@ -157,8 +157,8 @@ for id in filtered_cn_char_table:
     if character_dict['subProfessionId'] == "chain":
         blackboard.append({"key": "sluggish", "value": 0.5})
     if character_dict['subProfessionId'] == "stalker":
-        blackboard.append({"key": "phys_evasion", "value": 0.5})
-        blackboard.append({"key": "arts_evasion", "value": 0.5})
+        blackboard.append({"key": "evasion", "value": 0.5,
+                          "types": ["phys", "arts"]})
         tags.append("lower_target_priority")
     if character_dict['subProfessionId'] == "loopshooter":
         tags.append("aspd_unrelated")
