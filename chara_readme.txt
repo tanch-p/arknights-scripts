@@ -145,6 +145,7 @@ skill_atk_def_recovery
 croc_duel
 enemy_3_around (mlynar)
 skill_active
+collision_wall (enforcer)
 
 keys not in list
 ele_heal

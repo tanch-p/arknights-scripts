@@ -2818,6 +2818,7 @@
                 ]
             }
         ],
+        "target_air": true,
         "remarks": {
             "zh": "target_air: True ,",
             "ja": "",
@@ -2838,8 +2839,7 @@
                 "value": 1.0,
                 "prob": 0.27
             }
-        ],
-        "target_air": null
+        ]
     },
     "skchr_stward_1": {
         "name_zh": "强力击·α型",
@@ -9427,10 +9427,6 @@
                 "duration": 20.0,
                 "blackboard": [
                     {
-                        "key": "damage_scale",
-                        "value": 1.25
-                    },
-                    {
                         "key": "attack_speed",
                         "value": 65.0
                     },
@@ -9465,10 +9461,6 @@
                 },
                 "duration": 20.0,
                 "blackboard": [
-                    {
-                        "key": "damage_scale",
-                        "value": 1.25
-                    },
                     {
                         "key": "attack_speed",
                         "value": 70.0
@@ -9505,10 +9497,6 @@
                 "duration": 20.0,
                 "blackboard": [
                     {
-                        "key": "damage_scale",
-                        "value": 1.25
-                    },
-                    {
                         "key": "attack_speed",
                         "value": 75.0
                     },
@@ -9544,10 +9532,6 @@
                 "duration": 20.0,
                 "blackboard": [
                     {
-                        "key": "damage_scale",
-                        "value": 1.25
-                    },
-                    {
                         "key": "attack_speed",
                         "value": 80.0
                     },
@@ -9570,6 +9554,7 @@
                 ]
             }
         ],
+        "target_air": false,
         "remarks": null,
         "tags": [
             "damage_taken_scale"
@@ -9600,8 +9585,7 @@
                 "key": "fake_damage",
                 "value": 0.25
             }
-        ],
-        "target_air": null
+        ]
     },
     "skchr_humus_1": {
         "name_zh": "固废切割",
@@ -14116,6 +14100,7 @@
                 ]
             }
         ],
+        "target_air": true,
         "remarks": {
             "zh": "target_air: True ,",
             "ja": "",
@@ -14137,8 +14122,7 @@
                 "key": "stun",
                 "value": 3.0
             }
-        ],
-        "target_air": null
+        ]
     },
     "skchr_chiave_2": {
         "name_zh": "火焰剥离",
@@ -15384,7 +15368,6 @@
         "remarks": null,
         "tags": [
             "push",
-            "force",
             "range_up"
         ],
         "blackboard": [
@@ -15573,11 +15556,14 @@
             "en": ""
         },
         "tags": [
-            "cancel_stealth",
             "stop_attack",
             "no_block"
         ],
         "blackboard": [
+            {
+                "key": "cancel_stealth",
+                "value": 15.0
+            },
             {
                 "key": "max_target",
                 "value": 4.0
@@ -18911,7 +18897,6 @@
         "remarks": null,
         "tags": [
             "push",
-            "force",
             "burst"
         ],
         "blackboard": [
@@ -19412,6 +19397,7 @@
                 ]
             }
         ],
+        "target_air": null,
         "remarks": null,
         "tags": [
             "unlimited_duration"
@@ -19423,10 +19409,14 @@
             },
             {
                 "key": "block_dmg",
+                "types": [
+                    "phys",
+                    "melee_attack",
+                    "ranged_attack"
+                ],
                 "value": 0.4
             }
-        ],
-        "target_air": null
+        ]
     },
     "skchr_whitew_2": {
         "name_zh": "狼魂",
@@ -22065,7 +22055,9 @@
         "remarks": null,
         "tags": [
             "true",
-            "limited_use"
+            "limited_use",
+            "skill_invincible",
+            "aspd_unrelated"
         ],
         "blackboard": [
             {
@@ -22362,9 +22354,9 @@
         "levels": [
             {
                 "rangeId": "3-2",
-                "description_zh": "纳刀后<@ba.vdown>停止</>攻击，直到下一次受到攻击时<@ba.vup>抵挡</>此次伤害并选择范围内一名敌人造成<@ba.vup>4</>次相当于攻击力<@ba.vup>120%</>的物理伤害并立即<@ba.vup>触发一次</>第二天赋。\\n<@ba.rem>技能期间击倒敌人时再次纳刀触发技能",
-                "description_ja": "納刀後攻撃を<@ba.vdown>停止</>し、次に攻撃を受けた際、そのダメージを<@ba.vup>無効化</>して範囲内の敵1体に攻撃力の<@ba.vup>120%</>の物理ダメージを<@ba.vup>4</>回与え、第二素質を即座に<@ba.vup>1回発動</>する。\n<@ba.rem>スキル発動中に敵を倒すと、再び納刀してスキルを発動する",
-                "description_en": "Sheathe and <@ba.vdown>stop</> attacking. When next attacked, <@ba.vup>resist</> that damage, deal <@ba.vup>120%</> ATK as Physical Damage <@ba.vup>4</> times to a selected enemy in range, and immediately <@ba.vup>activate</> Talent 2 once.\n<@ba.rem>When an enemy is defeated with this skill, skill activates and sheathes again automatically",
+                "description_zh": "纳刀后<@ba.vdown>停止</>攻击，直到下一次受到攻击时<@ba.vup>抵挡</>此次伤害并选择范围内一名敌人造成<@ba.vup>4</>次相当于攻击力<@ba.vup>120%</>的物理伤害并立即<@ba.vup>触发一次</>第二天赋。\\n<@ba.rem>技能期间击倒敌人时再次纳刀触发技能</>",
+                "description_ja": "納刀後攻撃を<@ba.vdown>停止</>し、次に攻撃を受けた際、そのダメージを<@ba.vup>無効化</>して範囲内の敵1体に攻撃力の<@ba.vup>120%</>の物理ダメージを<@ba.vup>4</>回与え、第二素質を即座に<@ba.vup>1回発動</>する。\n<@ba.rem>スキル発動中に敵を倒すと、再び納刀してスキルを発動する</>",
+                "description_en": "Sheathe and <@ba.vdown>stop</> attacking. When next attacked, <@ba.vup>resist</> that damage, deal <@ba.vup>120%</> ATK as Physical Damage <@ba.vup>4</> times to a selected enemy in range, and immediately <@ba.vup>activate</> Talent 2 once.\n<@ba.rem>When an enemy is defeated with this skill, skill activates and sheathes again automatically</>",
                 "spData": {
                     "maxChargeTime": 1,
                     "spCost": 10,
@@ -22397,9 +22389,9 @@
             },
             {
                 "rangeId": "3-2",
-                "description_zh": "纳刀后<@ba.vdown>停止</>攻击，直到下一次受到攻击时<@ba.vup>抵挡</>此次伤害并选择范围内一名敌人造成<@ba.vup>4</>次相当于攻击力<@ba.vup>130%</>的物理伤害并立即<@ba.vup>触发一次</>第二天赋。\\n<@ba.rem>技能期间击倒敌人时再次纳刀触发技能",
-                "description_ja": "納刀後攻撃を<@ba.vdown>停止</>し、次に攻撃を受けた際、そのダメージを<@ba.vup>無効化</>して範囲内の敵1体に攻撃力の<@ba.vup>130%</>の物理ダメージを<@ba.vup>4</>回与え、第二素質を即座に<@ba.vup>1回発動</>する。\n<@ba.rem>スキル発動中に敵を倒すと、再び納刀してスキルを発動する",
-                "description_en": "Sheathe and <@ba.vdown>stop</> attacking. When next attacked, <@ba.vup>resist</> that damage, deal <@ba.vup>130%</> ATK as Physical Damage <@ba.vup>4</> times to a selected enemy in range, and immediately <@ba.vup>activate</> Talent 2 once.\n<@ba.rem>When an enemy is defeated with this skill, skill activates and sheathes again automatically",
+                "description_zh": "纳刀后<@ba.vdown>停止</>攻击，直到下一次受到攻击时<@ba.vup>抵挡</>此次伤害并选择范围内一名敌人造成<@ba.vup>4</>次相当于攻击力<@ba.vup>130%</>的物理伤害并立即<@ba.vup>触发一次</>第二天赋。\\n<@ba.rem>技能期间击倒敌人时再次纳刀触发技能</>",
+                "description_ja": "納刀後攻撃を<@ba.vdown>停止</>し、次に攻撃を受けた際、そのダメージを<@ba.vup>無効化</>して範囲内の敵1体に攻撃力の<@ba.vup>130%</>の物理ダメージを<@ba.vup>4</>回与え、第二素質を即座に<@ba.vup>1回発動</>する。\n<@ba.rem>スキル発動中に敵を倒すと、再び納刀してスキルを発動する</>",
+                "description_en": "Sheathe and <@ba.vdown>stop</> attacking. When next attacked, <@ba.vup>resist</> that damage, deal <@ba.vup>130%</> ATK as Physical Damage <@ba.vup>4</> times to a selected enemy in range, and immediately <@ba.vup>activate</> Talent 2 once.\n<@ba.rem>When an enemy is defeated with this skill, skill activates and sheathes again automatically</>",
                 "spData": {
                     "maxChargeTime": 1,
                     "spCost": 10,
@@ -22432,9 +22424,9 @@
             },
             {
                 "rangeId": "3-2",
-                "description_zh": "纳刀后<@ba.vdown>停止</>攻击，直到下一次受到攻击时<@ba.vup>抵挡</>此次伤害并选择范围内一名敌人造成<@ba.vup>4</>次相当于攻击力<@ba.vup>140%</>的物理伤害并立即<@ba.vup>触发一次</>第二天赋。\\n<@ba.rem>技能期间击倒敌人时再次纳刀触发技能",
-                "description_ja": "納刀後攻撃を<@ba.vdown>停止</>し、次に攻撃を受けた際、そのダメージを<@ba.vup>無効化</>して範囲内の敵1体に攻撃力の<@ba.vup>140%</>の物理ダメージを<@ba.vup>4</>回与え、第二素質を即座に<@ba.vup>1回発動</>する。\n<@ba.rem>スキル発動中に敵を倒すと、再び納刀してスキルを発動する",
-                "description_en": "Sheathe and <@ba.vdown>stop</> attacking. When next attacked, <@ba.vup>resist</> that damage, deal <@ba.vup>140%</> ATK as Physical Damage <@ba.vup>4</> times to a selected enemy in range, and immediately <@ba.vup>activate</> Talent 2 once.\n<@ba.rem>When an enemy is defeated with this skill, skill activates and sheathes again automatically",
+                "description_zh": "纳刀后<@ba.vdown>停止</>攻击，直到下一次受到攻击时<@ba.vup>抵挡</>此次伤害并选择范围内一名敌人造成<@ba.vup>4</>次相当于攻击力<@ba.vup>140%</>的物理伤害并立即<@ba.vup>触发一次</>第二天赋。\\n<@ba.rem>技能期间击倒敌人时再次纳刀触发技能</>",
+                "description_ja": "納刀後攻撃を<@ba.vdown>停止</>し、次に攻撃を受けた際、そのダメージを<@ba.vup>無効化</>して範囲内の敵1体に攻撃力の<@ba.vup>140%</>の物理ダメージを<@ba.vup>4</>回与え、第二素質を即座に<@ba.vup>1回発動</>する。\n<@ba.rem>スキル発動中に敵を倒すと、再び納刀してスキルを発動する</>",
+                "description_en": "Sheathe and <@ba.vdown>stop</> attacking. When next attacked, <@ba.vup>resist</> that damage, deal <@ba.vup>140%</> ATK as Physical Damage <@ba.vup>4</> times to a selected enemy in range, and immediately <@ba.vup>activate</> Talent 2 once.\n<@ba.rem>When an enemy is defeated with this skill, skill activates and sheathes again automatically</>",
                 "spData": {
                     "maxChargeTime": 1,
                     "spCost": 10,
@@ -22467,9 +22459,9 @@
             },
             {
                 "rangeId": "3-2",
-                "description_zh": "纳刀后<@ba.vdown>停止</>攻击，直到下一次受到攻击时<@ba.vup>抵挡</>此次伤害并选择范围内一名敌人造成<@ba.vup>4</>次相当于攻击力<@ba.vup>150%</>的物理伤害并立即<@ba.vup>触发一次</>第二天赋。\\n<@ba.rem>技能期间击倒敌人时再次纳刀触发技能",
-                "description_ja": "納刀後攻撃を<@ba.vdown>停止</>し、次に攻撃を受けた際、そのダメージを<@ba.vup>無効化</>して範囲内の敵1体に攻撃力の<@ba.vup>150%</>の物理ダメージを<@ba.vup>4</>回与え、第二素質を即座に<@ba.vup>1回発動</>する。\n<@ba.rem>スキル発動中に敵を倒すと、再び納刀してスキルを発動する",
-                "description_en": "Sheathe and <@ba.vdown>stop</> attacking. When next attacked, <@ba.vup>resist</> that damage, deal <@ba.vup>150%</> ATK as Physical Damage <@ba.vup>4</> times to a selected enemy in range, and immediately <@ba.vup>activate</> Talent 2 once.\n<@ba.rem>When an enemy is defeated with this skill, skill activates and sheathes again automatically",
+                "description_zh": "纳刀后<@ba.vdown>停止</>攻击，直到下一次受到攻击时<@ba.vup>抵挡</>此次伤害并选择范围内一名敌人造成<@ba.vup>4</>次相当于攻击力<@ba.vup>150%</>的物理伤害并立即<@ba.vup>触发一次</>第二天赋。\\n<@ba.rem>技能期间击倒敌人时再次纳刀触发技能</>",
+                "description_ja": "納刀後攻撃を<@ba.vdown>停止</>し、次に攻撃を受けた際、そのダメージを<@ba.vup>無効化</>して範囲内の敵1体に攻撃力の<@ba.vup>150%</>の物理ダメージを<@ba.vup>4</>回与え、第二素質を即座に<@ba.vup>1回発動</>する。\n<@ba.rem>スキル発動中に敵を倒すと、再び納刀してスキルを発動する</>",
+                "description_en": "Sheathe and <@ba.vdown>stop</> attacking. When next attacked, <@ba.vup>resist</> that damage, deal <@ba.vup>150%</> ATK as Physical Damage <@ba.vup>4</> times to a selected enemy in range, and immediately <@ba.vup>activate</> Talent 2 once.\n<@ba.rem>When an enemy is defeated with this skill, skill activates and sheathes again automatically</>",
                 "spData": {
                     "maxChargeTime": 1,
                     "spCost": 8,
@@ -22512,6 +22504,13 @@
             },
             {
                 "key": "block_dmg",
+                "types": [
+                    "phys",
+                    "arts",
+                    "true",
+                    "melee_attack",
+                    "ranged_attack"
+                ],
                 "value": 1.0
             },
             {
@@ -28704,8 +28703,7 @@
         ],
         "remarks": null,
         "tags": [
-            "pull",
-            "force"
+            "pull"
         ],
         "blackboard": [
             {
@@ -33996,7 +33994,9 @@
             }
         ],
         "remarks": null,
-        "tags": [],
+        "tags": [
+            "aspd_unrelated"
+        ],
         "blackboard": [
             {
                 "key": "atk_scale",
@@ -34743,10 +34743,6 @@
             "heal_ally"
         ],
         "blackboard": [
-            {
-                "key": "block_no_attack",
-                "value": 25.0
-            },
             {
                 "key": "atk",
                 "value": 0.6
@@ -37015,7 +37011,8 @@
         ],
         "remarks": null,
         "tags": [
-            "arts"
+            "arts",
+            "aspd_unrelated"
         ],
         "blackboard": [
             {
@@ -37268,10 +37265,6 @@
                 "duration": -1.0,
                 "blackboard": [
                     {
-                        "key": "block_dmg",
-                        "value": 1
-                    },
-                    {
                         "key": "def",
                         "value": 1.0
                     },
@@ -37285,6 +37278,17 @@
         "remarks": null,
         "tags": [],
         "blackboard": [
+            {
+                "key": "block_dmg",
+                "types": [
+                    "phys",
+                    "arts",
+                    "true",
+                    "melee_attack",
+                    "ranged_attack"
+                ],
+                "value": 1
+            },
             {
                 "key": "def",
                 "value": 1.0
@@ -37735,6 +37739,7 @@
                 ]
             }
         ],
+        "target_air": false,
         "remarks": null,
         "tags": [
             "push",
@@ -37754,8 +37759,7 @@
                 "key": "stun",
                 "value": 4.0
             }
-        ],
-        "target_air": null
+        ]
     },
     "skchr_bison_2": {
         "name_zh": "深化阵线",
@@ -38228,7 +38232,7 @@
                 "duration": 20.0,
                 "blackboard": [
                     {
-                        "key": "damage_scale",
+                        "key": "dmg_res",
                         "value": 0.8
                     },
                     {
@@ -38251,7 +38255,7 @@
                 "duration": 20.0,
                 "blackboard": [
                     {
-                        "key": "damage_scale",
+                        "key": "dmg_res",
                         "value": 0.77
                     },
                     {
@@ -38274,7 +38278,7 @@
                 "duration": 20.0,
                 "blackboard": [
                     {
-                        "key": "damage_scale",
+                        "key": "dmg_res",
                         "value": 0.74
                     },
                     {
@@ -38297,7 +38301,7 @@
                 "duration": 20.0,
                 "blackboard": [
                     {
-                        "key": "damage_scale",
+                        "key": "dmg_res",
                         "value": 0.7
                     },
                     {
@@ -38312,6 +38316,11 @@
         "blackboard": [
             {
                 "key": "block_dmg",
+                "types": [
+                    "arts",
+                    "melee_attack",
+                    "ranged_attack"
+                ],
                 "value": 1
             },
             {
@@ -39459,7 +39468,9 @@
             }
         ],
         "remarks": null,
-        "tags": [],
+        "tags": [
+            "burst"
+        ],
         "blackboard": [
             {
                 "key": "atk_scale",
@@ -44168,8 +44179,19 @@
                 "value": 0.6
             },
             {
-                "key": "fragile",
-                "value": 1.39
+                "key": "damage_scale",
+                "value": 1.594,
+                "types": [
+                    "phys",
+                    "arts",
+                    "true"
+                ],
+                "category": [
+                    "fragile"
+                ],
+                "conditions": [
+                    "enemy_hp_lt_40"
+                ]
             }
         ],
         "target_air": null
@@ -44187,9 +44209,9 @@
         "levels": [
             {
                 "rangeId": null,
-                "description_zh": "获得一个诅咒娃娃（最多可库存1个）\\n<@ba.rem>诅咒娃娃周围敌人的攻击力和防御力<@ba.vup>-30%</>，15秒后自动销毁</>",
-                "description_ja": "「呪いの人形」1体が配置可能になる(上限1体)\n<@ba.rem>「呪いの人形」の周囲の敵全員の攻撃力と防御力<@ba.vup>-30%</>、配置から15秒後消滅する</>",
-                "description_en": "Obtains 1 Curse Doll (can store up to 1)\n<@ba.rem>Reduces the ATK and DEF of enemies around the Curse Doll by <@ba.vup>-30%</>, lasts for a maximum of 15 seconds</>",
+                "description_zh": "获得一个诅咒娃娃（最多可库存1个）\\n<@ba.rem>诅咒娃娃周围敌人的攻击力和防御力</><@ba.vup>-30%</><@ba.rem>，15秒后自动销毁</>",
+                "description_ja": "「呪いの人形」1体が配置可能になる(上限1体)\n<@ba.rem>「呪いの人形」の周囲の敵全員の攻撃力と防御力</><@ba.vup>-30%</><@ba.rem>、配置から15秒後消滅する</>",
+                "description_en": "Obtains 1 Curse Doll (can store up to 1)\n<@ba.rem>Reduces the ATK and DEF of enemies around the Curse Doll by </><@ba.vup>-30%</><@ba.rem>, lasts for a maximum of 15 seconds</>",
                 "spData": {
                     "maxChargeTime": 1,
                     "spCost": 38,
@@ -44210,9 +44232,9 @@
             },
             {
                 "rangeId": null,
-                "description_zh": "获得一个诅咒娃娃（最多可库存1个）\\n<@ba.rem>诅咒娃娃周围敌人的攻击力和防御力<@ba.vup>-40%</>，15秒后自动销毁</>",
-                "description_ja": "「呪いの人形」1体が配置可能になる(上限1体)\n<@ba.rem>「呪いの人形」の周囲の敵全員の攻撃力と防御力<@ba.vup>-40%</>、配置から15秒後消滅する</>",
-                "description_en": "Obtains 1 Curse Doll (can store up to 1)\n<@ba.rem>Reduces the ATK and DEF of enemies around the Curse Doll by <@ba.vup>-40%</>, lasts for a maximum of 15 seconds</>",
+                "description_zh": "获得一个诅咒娃娃（最多可库存1个）\\n<@ba.rem>诅咒娃娃周围敌人的攻击力和防御力</><@ba.vup>-40%</><@ba.rem>，15秒后自动销毁</>",
+                "description_ja": "「呪いの人形」1体が配置可能になる(上限1体)\n<@ba.rem>「呪いの人形」の周囲の敵全員の攻撃力と防御力</><@ba.vup>-40%</><@ba.rem>、配置から15秒後消滅する</>",
+                "description_en": "Obtains 1 Curse Doll (can store up to 1)\n<@ba.rem>Reduces the ATK and DEF of enemies around the Curse Doll by </><@ba.vup>-40%</><@ba.rem>, lasts for a maximum of 15 seconds</>",
                 "spData": {
                     "maxChargeTime": 1,
                     "spCost": 36,
@@ -44233,9 +44255,9 @@
             },
             {
                 "rangeId": null,
-                "description_zh": "获得一个诅咒娃娃（最多可库存1个）\\n<@ba.rem>诅咒娃娃周围敌人的攻击力和防御力<@ba.vup>-45%</>，15秒后自动销毁</>",
-                "description_ja": "「呪いの人形」1体が配置可能になる(上限1体)\n<@ba.rem>「呪いの人形」の周囲の敵全員の攻撃力と防御力<@ba.vup>-45%</>、配置から15秒後消滅する</>",
-                "description_en": "Obtains 1 Curse Doll (can store up to 1)\n<@ba.rem>Reduces the ATK and DEF of enemies around the Curse Doll by <@ba.vup>-45%</>, lasts for a maximum of 15 seconds</>",
+                "description_zh": "获得一个诅咒娃娃（最多可库存1个）\\n<@ba.rem>诅咒娃娃周围敌人的攻击力和防御力</><@ba.vup>-45%</><@ba.rem>，15秒后自动销毁</>",
+                "description_ja": "「呪いの人形」1体が配置可能になる(上限1体)\n<@ba.rem>「呪いの人形」の周囲の敵全員の攻撃力と防御力</><@ba.vup>-45%</><@ba.rem>、配置から15秒後消滅する</>",
+                "description_en": "Obtains 1 Curse Doll (can store up to 1)\n<@ba.rem>Reduces the ATK and DEF of enemies around the Curse Doll by </><@ba.vup>-45%</><@ba.rem>, lasts for a maximum of 15 seconds</>",
                 "spData": {
                     "maxChargeTime": 1,
                     "spCost": 34,
@@ -44256,9 +44278,9 @@
             },
             {
                 "rangeId": null,
-                "description_zh": "获得一个诅咒娃娃（最多可库存1个）\\n<@ba.rem>诅咒娃娃周围敌人的攻击力和防御力<@ba.vup>-50%</>，15秒后自动销毁</>",
-                "description_ja": "「呪いの人形」1体が配置可能になる(上限1体)\n<@ba.rem>「呪いの人形」の周囲の敵全員の攻撃力と防御力<@ba.vup>-50%</>、配置から15秒後消滅する</>",
-                "description_en": "Obtains 1 Curse Doll (can store up to 1)\n<@ba.rem>Reduces the ATK and DEF of enemies around the Curse Doll by <@ba.vup>-50%</>, lasts for a maximum of 15 seconds</>",
+                "description_zh": "获得一个诅咒娃娃（最多可库存1个）\\n<@ba.rem>诅咒娃娃周围敌人的攻击力和防御力</><@ba.vup>-50%</><@ba.rem>，15秒后自动销毁</>",
+                "description_ja": "「呪いの人形」1体が配置可能になる(上限1体)\n<@ba.rem>「呪いの人形」の周囲の敵全員の攻撃力と防御力<@ba.vup>-50%</><@ba.rem>、配置から15秒後消滅する</>",
+                "description_en": "Obtains 1 Curse Doll (can store up to 1)\n<@ba.rem>Reduces the ATK and DEF of enemies around the Curse Doll by </><@ba.vup>-50%</><@ba.rem>, lasts for a maximum of 15 seconds</>",
                 "spData": {
                     "maxChargeTime": 1,
                     "spCost": 30,
@@ -44675,7 +44697,7 @@
                     {
                         "key": "stun",
                         "value": 4.5,
-                        "condition": "type:drone"
+                        "condition": "drone"
                     }
                 ]
             },
@@ -44775,6 +44797,7 @@
                 ]
             }
         ],
+        "target_air": true,
         "remarks": null,
         "tags": [
             "burst"
@@ -44797,8 +44820,7 @@
                 "value": 6.0,
                 "condition": "drone"
             }
-        ],
-        "target_air": null
+        ]
     },
     "skchr_provs_1": {
         "name_zh": "纠纷起诉",
@@ -46269,10 +46291,12 @@
             }
         ],
         "remarks": null,
-        "tags": [
-            "cancel_stealth"
-        ],
+        "tags": [],
         "blackboard": [
+            {
+                "key": "cancel_stealth",
+                "value": 35.0
+            },
             {
                 "key": "phys_evasion",
                 "value": 0.35
@@ -46660,8 +46684,11 @@
             },
             {
                 "key": "block_dmg",
-                "value": 0.7,
-                "condition": "ranged_attack|phys"
+                "types": [
+                    "phys",
+                    "ranged_attack"
+                ],
+                "value": 0.7
             }
         ],
         "target_air": null
@@ -47389,6 +47416,7 @@
                 ]
             }
         ],
+        "target_air": false,
         "remarks": null,
         "tags": [],
         "blackboard": [
@@ -47404,8 +47432,7 @@
                 "key": "stun",
                 "value": 1.0
             }
-        ],
-        "target_air": null
+        ]
     },
     "skchr_kirara_1": {
         "name_zh": "锚击",
@@ -48062,7 +48089,8 @@
             },
             {
                 "key": "stun",
-                "value": 2.0
+                "value": 2.0,
+                "condition": "collision_wall"
             }
         ],
         "target_air": null
@@ -48232,6 +48260,11 @@
             {
                 "key": "stun",
                 "value": 2.5
+            },
+            {
+                "key": "stun",
+                "value": 4.0,
+                "condition": "collision_wall"
             },
             {
                 "key": "forcer_s_2[brush].stun",
@@ -48647,6 +48680,7 @@
                 ]
             }
         ],
+        "target_air": false,
         "remarks": null,
         "tags": [],
         "blackboard": [
@@ -48662,8 +48696,7 @@
                 "key": "stun",
                 "value": 1.5
             }
-        ],
-        "target_air": null
+        ]
     },
     "skchr_rfrost_2": {
         "name_zh": "击倒猎物",
@@ -49565,10 +49598,13 @@
         ],
         "remarks": null,
         "tags": [
-            "cancel_stealth",
             "stealth"
         ],
         "blackboard": [
+            {
+                "key": "cancel_stealth",
+                "value": 10.0
+            },
             {
                 "key": "attack_speed",
                 "value": 300.0
@@ -50814,7 +50850,6 @@
         "remarks": null,
         "tags": [
             "push",
-            "force",
             "limited_use",
             "aoe"
         ],
@@ -51747,7 +51782,7 @@
                         "value": 1.0
                     },
                     {
-                        "key": "damage_scale",
+                        "key": "self_damage_scale",
                         "value": 1.3
                     }
                 ]
@@ -51770,7 +51805,7 @@
                         "value": 1.1
                     },
                     {
-                        "key": "damage_scale",
+                        "key": "self_damage_scale",
                         "value": 1.3
                     }
                 ]
@@ -51793,7 +51828,7 @@
                         "value": 1.2
                     },
                     {
-                        "key": "damage_scale",
+                        "key": "self_damage_scale",
                         "value": 1.3
                     }
                 ]
@@ -51816,7 +51851,7 @@
                         "value": 1.4
                     },
                     {
-                        "key": "damage_scale",
+                        "key": "self_damage_scale",
                         "value": 1.4
                     }
                 ]
@@ -51832,7 +51867,7 @@
                 "value": 1.4
             },
             {
-                "key": "damage_scale",
+                "key": "self_damage_scale",
                 "value": 1.4
             }
         ],
@@ -51942,6 +51977,7 @@
                 ]
             }
         ],
+        "target_air": true,
         "remarks": null,
         "tags": [
             "burst"
@@ -51955,8 +51991,7 @@
                 "key": "stun",
                 "value": 3.0
             }
-        ],
-        "target_air": null
+        ]
     },
     "skchr_cqbw_2": {
         "name_zh": "惊吓盒子",
@@ -52062,6 +52097,7 @@
                 ]
             }
         ],
+        "target_air": false,
         "remarks": null,
         "tags": [
             "summon"
@@ -52075,8 +52111,7 @@
                 "key": "stun",
                 "value": 2.2
             }
-        ],
-        "target_air": null
+        ]
     },
     "skchr_cqbw_3": {
         "name_zh": "D12",
@@ -52198,6 +52233,7 @@
                 ]
             }
         ],
+        "target_air": true,
         "remarks": null,
         "tags": [
             "multi_target"
@@ -52215,8 +52251,7 @@
                 "key": "stun",
                 "value": 5.0
             }
-        ],
-        "target_air": null
+        ]
     },
     "skchr_phenxi_1": {
         "name_zh": "“你须直面”",
@@ -52894,7 +52929,8 @@
         ],
         "remarks": null,
         "tags": [
-            "multi_target"
+            "multi_target",
+            "aspd_unrelated"
         ],
         "blackboard": [
             {
@@ -53552,7 +53588,7 @@
             {
                 "key": "stun",
                 "value": 1.5,
-                "prob": "1-0.8^hits"
+                "prob": 0.2
             }
         ],
         "target_air": null
@@ -54374,7 +54410,6 @@
         ],
         "remarks": null,
         "tags": [
-            "force",
             "push",
             "burst"
         ],
@@ -55977,16 +56012,20 @@
                 "value": 10.0
             },
             {
-                "key": "fragile",
-                "value": 1.3
+                "key": "damage_scale",
+                "value": 1.3,
+                "types": [
+                    "phys",
+                    "arts",
+                    "true"
+                ],
+                "category": [
+                    "fragile"
+                ]
             },
             {
                 "key": "cost",
                 "value": 10.0
-            },
-            {
-                "key": "debuff.damage_scale",
-                "value": 0.3
             }
         ],
         "target_air": null
@@ -56261,6 +56300,7 @@
                 ]
             }
         ],
+        "target_air": true,
         "remarks": null,
         "tags": [
             "burst"
@@ -56291,13 +56331,8 @@
                 "key": "phys_evasion",
                 "value": 0.5,
                 "duration": 10
-            },
-            {
-                "key": "flamtl_s_2.duration",
-                "value": 10.0
             }
-        ],
-        "target_air": null
+        ]
     },
     "skchr_flamtl_3": {
         "name_zh": "焰心",
@@ -57430,7 +57465,9 @@
             {
                 "key": "stun",
                 "value": 15.0,
-                "condition": "block"
+                "conditions": [
+                    "block"
+                ]
             },
             {
                 "key": "mlyss_s_3[token_melee_trigger].interval",
@@ -58627,7 +58664,6 @@
         ],
         "remarks": null,
         "tags": [
-            "force",
             "push"
         ],
         "blackboard": [
@@ -58807,7 +58843,7 @@
                         "value": 0.5
                     },
                     {
-                        "key": "damage_scale",
+                        "key": "self_damage_scale",
                         "value": 1.25
                     }
                 ]
@@ -58922,7 +58958,7 @@
                 "value": 0.5
             },
             {
-                "key": "damage_scale",
+                "key": "self_damage_scale",
                 "value": 1.3
             }
         ],
@@ -61131,7 +61167,7 @@
                         "value": 2.0
                     },
                     {
-                        "key": "damage_scale",
+                        "key": "self_damage_scale",
                         "value": 0.2
                     }
                 ]
@@ -61216,7 +61252,7 @@
                 "value": 2.8
             },
             {
-                "key": "damage_scale",
+                "key": "self_damage_scale",
                 "value": 0.2
             }
         ],
@@ -61479,6 +61515,13 @@
             },
             {
                 "key": "ally_block_dmg",
+                "types": [
+                    "phys",
+                    "arts",
+                    "true",
+                    "melee_attack",
+                    "ranged_attack"
+                ],
                 "value": 1,
                 "condition": "dmg_under_200"
             }
@@ -61580,6 +61623,13 @@
                 "blackboard": [
                     {
                         "key": "block_dmg",
+                        "types": [
+                            "phys",
+                            "arts",
+                            "true",
+                            "melee_attack",
+                            "ranged_attack"
+                        ],
                         "value": 1.0,
                         "condition": "dmg_under_600"
                     },
@@ -61995,7 +62045,8 @@
         ],
         "remarks": null,
         "tags": [
-            "global_range"
+            "global_range",
+            "ailment_but_skill_cont"
         ],
         "blackboard": [
             {
@@ -62898,7 +62949,7 @@
                         "value": 0.15
                     },
                     {
-                        "key": "damage_scale",
+                        "key": "self_damage_scale",
                         "value": 0.4
                     }
                 ]
@@ -62981,7 +63032,7 @@
                 "value": 0.15
             },
             {
-                "key": "damage_scale",
+                "key": "self_damage_scale",
                 "value": 0.45
             }
         ],
@@ -63473,7 +63524,19 @@
         "blackboard": [
             {
                 "key": "damage_scale",
-                "value": "2*talent"
+                "value": 1.5,
+                "duration": 35.0,
+                "types": [
+                    "phys",
+                    "arts",
+                    "true"
+                ],
+                "conditions": [
+                    "sluggish"
+                ],
+                "category": [
+                    "fragile"
+                ]
             },
             {
                 "key": "scale_delta_to_one",
@@ -65931,8 +65994,15 @@
                 "value": 1.8
             },
             {
-                "key": "scale_delta_to_one",
-                "value": 2.5
+                "key": "damage_scale",
+                "value": 1.55,
+                "duration": 40,
+                "types": [
+                    "apoptosis"
+                ],
+                "category": [
+                    "others"
+                ]
             },
             {
                 "key": "ally_max_hp",
@@ -66376,15 +66446,18 @@
             },
             {
                 "key": "sluggish",
-                "value": 4.5
+                "value": 4.5,
+                "prob": 0.33
             },
             {
                 "key": "root",
-                "value": 4.5
+                "value": 4.5,
+                "prob": 0.33
             },
             {
                 "key": "stun",
-                "value": 4.5
+                "value": 4.5,
+                "prob": 0.33
             }
         ],
         "target_air": null
@@ -66886,6 +66959,7 @@
                 ]
             }
         ],
+        "target_air": true,
         "remarks": null,
         "tags": [],
         "blackboard": [
@@ -66909,8 +66983,7 @@
                 "key": "stun",
                 "value": 2.0
             }
-        ],
-        "target_air": null
+        ]
     },
     "skchr_yato2_1": {
         "name_zh": "鬼人化",
@@ -67150,7 +67223,7 @@
         "tags": [
             "taunt",
             "aoe",
-            "ignore_status"
+            "ailment_but_skill_cont"
         ],
         "blackboard": [
             {
@@ -67328,7 +67401,7 @@
         "tags": [
             "burst",
             "aoe",
-            "skill_time_invincible"
+            "skill_invincible"
         ],
         "blackboard": [
             {
@@ -68443,6 +68516,7 @@
                 ]
             }
         ],
+        "target_air": false,
         "remarks": null,
         "tags": [
             "burst",
@@ -68462,8 +68536,7 @@
                 "key": "stun",
                 "value": 1.2
             }
-        ],
-        "target_air": null
+        ]
     },
     "skchr_weedy_2": {
         "name_zh": "水炮模式",
@@ -70162,6 +70235,7 @@
                 ]
             }
         ],
+        "target_air": false,
         "remarks": null,
         "tags": [
             "range_up"
@@ -70183,8 +70257,7 @@
                 "key": "max_target",
                 "value": 2.0
             }
-        ],
-        "target_air": null
+        ]
     },
     "skchr_ghost2_1": {
         "name_zh": "生存的技巧",
@@ -71391,6 +71464,7 @@
                 ]
             }
         ],
+        "target_air": false,
         "remarks": null,
         "tags": [],
         "blackboard": [
@@ -71632,6 +71706,7 @@
                 ]
             }
         ],
+        "target_air": false,
         "remarks": null,
         "tags": [],
         "blackboard": [
@@ -71640,17 +71715,19 @@
                 "value": 7.0
             },
             {
-                "key": "weak[limit]",
-                "value": 7.0
-            },
-            {
-                "key": "fragile",
+                "key": "damage_scale",
                 "value": 1.35,
-                "duration": 7.0
-            },
-            {
-                "key": "fake_damage_scale",
-                "value": 0.35
+                "types": [
+                    "phys",
+                    "arts",
+                    "true"
+                ],
+                "category": [
+                    "fragile"
+                ],
+                "conditions": [
+                    "enemy_melee"
+                ]
             },
             {
                 "key": "projectile_range",
@@ -72203,8 +72280,12 @@
             },
             {
                 "key": "block_dmg",
-                "value": 0.5,
-                "condition": "phys"
+                "types": [
+                    "phys",
+                    "melee_attack",
+                    "ranged_attack"
+                ],
+                "value": 0.5
             }
         ],
         "target_air": null
@@ -74650,10 +74731,6 @@
                     {
                         "key": "demkni_s_3.damage_scale",
                         "value": 1.55
-                    },
-                    {
-                        "key": "fake.b",
-                        "value": 0.55
                     }
                 ]
             }
@@ -74670,15 +74747,18 @@
             {
                 "key": "ms_down",
                 "value": 0.6,
-                "duration": 30
+                "duration": 30.0
             },
             {
-                "key": "fragile_arts",
-                "value": 0.55
-            },
-            {
-                "key": "fake.b",
-                "value": 0.55
+                "key": "damage_scale",
+                "value": 1.55,
+                "duration": 30.0,
+                "types": [
+                    "arts"
+                ],
+                "category": [
+                    "others"
+                ]
             }
         ],
         "target_air": null
@@ -76049,10 +76129,13 @@
         ],
         "remarks": null,
         "tags": [
-            "ally_block_up",
             "ally_resist"
         ],
         "blackboard": [
+            {
+                "key": "ally_block_up",
+                "value": 1.0
+            },
             {
                 "key": "nian_s_3[self].block_cnt",
                 "value": 0.0
@@ -76212,6 +76295,7 @@
                 ]
             }
         ],
+        "target_air": false,
         "remarks": null,
         "tags": [
             "heal_self",
@@ -76234,8 +76318,7 @@
                 "key": "hp_ratio",
                 "value": 0.06
             }
-        ],
-        "target_air": null
+        ]
     },
     "skchr_mudrok_3": {
         "name_zh": "秽壤的血脉",
@@ -76421,8 +76504,11 @@
                 ]
             }
         ],
+        "target_air": null,
         "remarks": null,
-        "tags": [],
+        "tags": [
+            "skill_invincible"
+        ],
         "blackboard": [
             {
                 "key": "atk",
@@ -76452,8 +76538,7 @@
                 "key": "stun",
                 "value": 5.0
             }
-        ],
-        "target_air": null
+        ]
     },
     "skchr_judge_1": {
         "name_zh": "一锤定音",
@@ -76575,6 +76660,7 @@
                 ]
             }
         ],
+        "target_air": false,
         "remarks": null,
         "tags": [
             "arts",
@@ -76593,8 +76679,7 @@
                 "key": "stun",
                 "value": 5.0
             }
-        ],
-        "target_air": null
+        ]
     },
     "skchr_judge_2": {
         "name_zh": "坚心苦修",
@@ -77137,6 +77222,7 @@
                 ]
             }
         ],
+        "target_air": false,
         "remarks": null,
         "tags": [],
         "blackboard": [
@@ -77150,10 +77236,10 @@
             },
             {
                 "key": "stun",
-                "value": 18
+                "value": 18,
+                "condition": "block"
             }
-        ],
-        "target_air": null
+        ]
     },
     "skchr_zumama_3": {
         "name_zh": "钢铁意志",
@@ -77473,11 +77559,15 @@
             }
         ],
         "remarks": null,
+        "target_air": false,
         "tags": [
-            "burst",
-            "cancel_stealth"
+            "burst"
         ],
         "blackboard": [
+            {
+                "key": "cancel_stealth",
+                "value": 8.0
+            },
             {
                 "key": "atk_scale",
                 "value": 2.8
@@ -77494,8 +77584,7 @@
                 "key": "cnt",
                 "value": 2.0
             }
-        ],
-        "target_air": null
+        ]
     },
     "skchr_horn_2": {
         "name_zh": "暴风号令",
@@ -78373,6 +78462,7 @@
                 ]
             }
         ],
+        "target_air": true,
         "remarks": {
             "zh": "target_air: True ,",
             "ja": "",
@@ -78416,8 +78506,7 @@
                 "key": "jesca2_s_3[def].def",
                 "value": 0.8
             }
-        ],
-        "target_air": null
+        ]
     },
     "skchr_skadi_2": {
         "name_zh": "跃浪击",
@@ -79928,8 +80017,7 @@
         ],
         "remarks": null,
         "tags": [
-            "push",
-            "force"
+            "push"
         ],
         "blackboard": [
             {
@@ -81794,6 +81882,7 @@
                 ]
             }
         ],
+        "target_air": false,
         "remarks": null,
         "tags": [
             "unlimited_duration",
@@ -81816,8 +81905,7 @@
                 "key": "stun",
                 "value": 1.0
             }
-        ],
-        "target_air": null
+        ]
     },
     "skchr_hodrer_3": {
         "name_zh": "死境硝烟",
@@ -81831,7 +81919,7 @@
         "spType": "INCREASE_WITH_TIME",
         "levels": [
             {
-                "rangeId": null,
+                "rangeId": "2-2",
                 "description_zh": "每秒流失<@ba.vdown>100</>点生命，并使自身攻击过和攻击过自身的敌人每秒受到<@ba.vup>200</>点真实伤害；攻击距离<@ba.vup>+1</>，生命上限<@ba.vup>+45%</>，攻击力<@ba.vup>+90%</>，每次攻击回复自身<@ba.vup>5%</>的生命且有<@ba.vup>25%</>概率使目标<ba.stun>晕眩</><@ba.vup>4</>秒",
                 "description_ja": "1秒ごとにHPを<@ba.vdown>100</>失い、スキル発動中に自身が攻撃した敵、および自身を攻撃した敵に、1秒ごとに<@ba.vup>200</>の確定ダメージを与える。攻撃距離<@ba.vup>+1</>、最大HP<@ba.vup>+45%</>、攻撃力<@ba.vup>+90%</>、攻撃するたびに自身のHPを<@ba.vup>5%</>回復し、<@ba.vup>25%</>の確率で対象を<@ba.vup>4</>秒<ba.stun>スタン</>させる",
                 "description_en": "Consumes <@ba.vdown>100</> HP per second and deals <@ba.vup>200</> True damage per second to enemies that have either attacked or been attacked by this unit. Attack Range <@ba.vup>+1</>, Max HP <@ba.vup>+45%</>, ATK <@ba.vup>+90%</>, and each attack restores <@ba.vup>5%</> HP and has a <@ba.vup>25%</> chance to <ba.stun>stun</> targets for <@ba.vup>4</> seconds",
@@ -81878,7 +81966,7 @@
                 ]
             },
             {
-                "rangeId": null,
+                "rangeId": "2-2",
                 "description_zh": "每秒流失<@ba.vdown>100</>点生命，并使自身攻击过和攻击过自身的敌人每秒受到<@ba.vup>200</>点真实伤害；攻击距离<@ba.vup>+1</>，生命上限<@ba.vup>+45%</>，攻击力<@ba.vup>+100%</>，每次攻击回复自身<@ba.vup>5%</>的生命且有<@ba.vup>25%</>概率使目标<ba.stun>晕眩</><@ba.vup>4</>秒",
                 "description_ja": "1秒ごとにHPを<@ba.vdown>100</>失い、スキル発動中に自身が攻撃した敵、および自身を攻撃した敵に、1秒ごとに<@ba.vup>200</>の確定ダメージを与える。攻撃距離<@ba.vup>+1</>、最大HP<@ba.vup>+45%</>、攻撃力<@ba.vup>+100%</>、攻撃するたびに自身のHPを<@ba.vup>5%</>回復し、<@ba.vup>25%</>の確率で対象を<@ba.vup>4</>秒<ba.stun>スタン</>させる",
                 "description_en": "Consumes <@ba.vdown>100</> HP per second and deals <@ba.vup>200</> True damage per second to enemies that have either attacked or been attacked by this unit. Attack Range <@ba.vup>+1</>, Max HP <@ba.vup>+45%</>, ATK <@ba.vup>+100%</>, and each attack restores <@ba.vup>5%</> HP and has a <@ba.vup>25%</> chance to <ba.stun>stun</> targets for <@ba.vup>4</> seconds",
@@ -81925,7 +82013,7 @@
                 ]
             },
             {
-                "rangeId": null,
+                "rangeId": "2-2",
                 "description_zh": "每秒流失<@ba.vdown>100</>点生命，并使自身攻击过和攻击过自身的敌人每秒受到<@ba.vup>200</>点真实伤害；攻击距离<@ba.vup>+1</>，生命上限<@ba.vup>+45%</>，攻击力<@ba.vup>+110%</>，每次攻击回复自身<@ba.vup>5%</>的生命且有<@ba.vup>25%</>概率使目标<ba.stun>晕眩</><@ba.vup>4</>秒",
                 "description_ja": "1秒ごとにHPを<@ba.vdown>100</>失い、スキル発動中に自身が攻撃した敵、および自身を攻撃した敵に、1秒ごとに<@ba.vup>200</>の確定ダメージを与える。攻撃距離<@ba.vup>+1</>、最大HP<@ba.vup>+45%</>、攻撃力<@ba.vup>+110%</>、攻撃するたびに自身のHPを<@ba.vup>5%</>回復し、<@ba.vup>25%</>の確率で対象を<@ba.vup>4</>秒<ba.stun>スタン</>させる",
                 "description_en": "Consumes <@ba.vdown>100</> HP per second and deals <@ba.vup>200</> True damage per second to enemies that have either attacked or been attacked by this unit. Attack Range <@ba.vup>+1</>, Max HP <@ba.vup>+45%</>, ATK <@ba.vup>+110%</>, and each attack restores <@ba.vup>5%</> HP and has a <@ba.vup>25%</> chance to <ba.stun>stun</> targets for <@ba.vup>4</> seconds",
@@ -81972,7 +82060,7 @@
                 ]
             },
             {
-                "rangeId": null,
+                "rangeId": "2-2",
                 "description_zh": "每秒流失<@ba.vdown>100</>点生命，并使自身攻击过和攻击过自身的敌人每秒受到<@ba.vup>200</>点真实伤害；攻击距离<@ba.vup>+1</>，生命上限<@ba.vup>+60%</>，攻击力<@ba.vup>+120%</>，每次攻击回复自身<@ba.vup>5%</>的生命且有<@ba.vup>25%</>概率使目标<ba.stun>晕眩</><@ba.vup>5</>秒",
                 "description_ja": "1秒ごとにHPを<@ba.vdown>100</>失い、スキル発動中に自身が攻撃した敵、および自身を攻撃した敵に、1秒ごとに<@ba.vup>200</>の確定ダメージを与える。攻撃距離<@ba.vup>+1</>、最大HP<@ba.vup>+60%</>、攻撃力<@ba.vup>+120%</>、攻撃するたびに自身のHPを<@ba.vup>5%</>回復し、<@ba.vup>25%</>の確率で対象を<@ba.vup>5</>秒<ba.stun>スタン</>させる",
                 "description_en": "Consumes <@ba.vdown>100</> HP per second and deals <@ba.vup>200</> True damage per second to enemies that have either attacked or been attacked by this unit. Attack Range <@ba.vup>+1</>, Max HP <@ba.vup>+60%</>, ATK <@ba.vup>+120%</>, and each attack restores <@ba.vup>5%</> HP and has a <@ba.vup>25%</> chance to <ba.stun>stun</> targets for <@ba.vup>5</> seconds",
@@ -82019,6 +82107,7 @@
                 ]
             }
         ],
+        "target_air": false,
         "remarks": null,
         "tags": [
             "dot",
@@ -82059,8 +82148,7 @@
                 "key": "damage",
                 "value": 200.0
             }
-        ],
-        "target_air": null
+        ]
     },
     "skchr_chen_1": {
         "name_zh": "鞘击",
@@ -82166,6 +82254,7 @@
                 ]
             }
         ],
+        "target_air": false,
         "remarks": null,
         "tags": [
             "burst"
@@ -82179,8 +82268,7 @@
                 "key": "stun",
                 "value": 1.5
             }
-        ],
-        "target_air": null
+        ]
     },
     "skchr_chen_2": {
         "name_zh": "赤霄·拔刀",
@@ -82427,12 +82515,15 @@
                 ]
             }
         ],
+        "target_air": false,
         "remarks": {
-            "zh": "target_air: False ,",
-            "ja": "",
-            "en": ""
+            "zh": "{no_target_air}",
+            "ja": "{no_target_air}",
+            "en": "{no_target_air}"
         },
-        "tags": [],
+        "tags": [
+            "skill_invincible"
+        ],
         "blackboard": [
             {
                 "key": "atk_scale",
@@ -82446,8 +82537,7 @@
                 "key": "stun",
                 "value": 4.0
             }
-        ],
-        "target_air": null
+        ]
     },
     "skchr_irene_1": {
         "name_zh": "起风",
@@ -83415,7 +83505,8 @@
         "tags": [
             "burst",
             "pull",
-            "force"
+            "skill_invincible",
+            "aspd_unrelated"
         ],
         "blackboard": [
             {
@@ -83435,8 +83526,14 @@
                 "value": 0.3
             },
             {
-                "key": "p_force",
-                "value": 1.0
+                "key": "force",
+                "value": 2.0,
+                "condition": "end"
+            },
+            {
+                "key": "force",
+                "value": 1.0,
+                "condition": "initial"
             },
             {
                 "key": "p_hit_interval",
@@ -83445,10 +83542,6 @@
             {
                 "key": "e_atk_scale_end",
                 "value": 3.3
-            },
-            {
-                "key": "e_force",
-                "value": 2.0
             }
         ]
     },
@@ -86230,6 +86323,7 @@
                 ]
             }
         ],
+        "target_air": false,
         "remarks": {
             "zh": "target_air: False ,",
             "ja": "",
@@ -86381,7 +86475,7 @@
         "spType": "INCREASE_WITH_TIME",
         "levels": [
             {
-                "rangeId": null,
+                "rangeId": "3-2",
                 "description_zh": "攻击范围向前延伸一格，攻击力<@ba.vup>+50%</>，每次攻击有<@ba.vup>70%</>几率使目标<ba.stun>晕眩</><@ba.vup>0.2</>秒",
                 "description_ja": "攻撃範囲+1マス、攻撃力<@ba.vup>+50%</>、攻撃時<@ba.vup>70%</>の確率で敵を<@ba.vup>0.2</>秒間<ba.stun>スタン</>させる",
                 "description_en": "Attack Range +1 tile, ATK <@ba.vup>+50%</> and every attack has <@ba.vup>70%</> chance to <ba.stun>Stun</> the target for <@ba.vup>0.2</> seconds",
@@ -86412,7 +86506,7 @@
                 ]
             },
             {
-                "rangeId": null,
+                "rangeId": "3-2",
                 "description_zh": "攻击范围向前延伸一格，攻击力<@ba.vup>+60%</>，每次攻击有<@ba.vup>70%</>几率使目标<ba.stun>晕眩</><@ba.vup>0.2</>秒",
                 "description_ja": "攻撃範囲+1マス、攻撃力<@ba.vup>+60%</>、攻撃時<@ba.vup>70%</>の確率で敵を<@ba.vup>0.2</>秒間<ba.stun>スタン</>させる",
                 "description_en": "Attack Range +1 tile, ATK <@ba.vup>+60%</> and every attack has <@ba.vup>70%</> chance to <ba.stun>Stun</> the target for <@ba.vup>0.2</> seconds",
@@ -86443,7 +86537,7 @@
                 ]
             },
             {
-                "rangeId": null,
+                "rangeId": "3-2",
                 "description_zh": "攻击范围向前延伸一格，攻击力<@ba.vup>+70%</>，每次攻击有<@ba.vup>80%</>几率使目标<ba.stun>晕眩</><@ba.vup>0.2</>秒",
                 "description_ja": "攻撃範囲+1マス、攻撃力<@ba.vup>+70%</>、攻撃時<@ba.vup>80%</>の確率で敵を<@ba.vup>0.2</>秒間<ba.stun>スタン</>させる",
                 "description_en": "Attack Range +1 tile, ATK <@ba.vup>+70%</> and every attack has <@ba.vup>80%</> chance to <ba.stun>Stun</> the target for <@ba.vup>0.2</> seconds",
@@ -86474,7 +86568,7 @@
                 ]
             },
             {
-                "rangeId": null,
+                "rangeId": "3-2",
                 "description_zh": "攻击范围向前延伸一格，攻击力<@ba.vup>+80%</>，每次攻击有<@ba.vup>85%</>几率使目标<ba.stun>晕眩</><@ba.vup>0.2</>秒",
                 "description_ja": "攻撃範囲+1マス、攻撃力<@ba.vup>+80%</>、攻撃時<@ba.vup>85%</>の確率で敵を<@ba.vup>0.2</>秒間<ba.stun>スタン</>させる",
                 "description_en": "Attack Range +1 tile, ATK <@ba.vup>+80%</> and every attack has <@ba.vup>85%</> chance to <ba.stun>Stun</> the target for <@ba.vup>0.2</> seconds",
@@ -86524,7 +86618,8 @@
             },
             {
                 "key": "stun",
-                "value": 0.2
+                "value": 0.2,
+                "prob": 0.85
             }
         ],
         "target_air": null
@@ -87973,7 +88068,7 @@
         ],
         "blackboard": [
             {
-                "key": "p_force",
+                "key": "force",
                 "value": 0.0
             },
             {
@@ -89700,6 +89795,7 @@
                 ]
             }
         ],
+        "target_air": null,
         "remarks": null,
         "tags": [],
         "blackboard": [
@@ -89708,7 +89804,7 @@
                 "value": 1.2
             },
             {
-                "key": "stun_duration",
+                "key": "stun",
                 "value": 1.5
             }
         ]
@@ -90034,6 +90130,7 @@
                 ]
             }
         ],
+        "target_air": true,
         "remarks": null,
         "tags": [
             "summon"
@@ -90062,6 +90159,10 @@
             {
                 "key": "attack@trigger_time",
                 "value": 6.0
+            },
+            {
+                "key": "stun",
+                "value": 1.0
             },
             {
                 "key": "sp",

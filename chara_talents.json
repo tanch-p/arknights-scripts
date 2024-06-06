@@ -83,13 +83,17 @@
                         "value": 4.0
                     },
                     {
-                        "key": "weak[limit]",
-                        "value": 8.0
-                    },
-                    {
-                        "key": "fragile",
+                        "key": "damage_scale",
                         "value": 1.3,
-                        "duration": 8.0
+                        "duration": 8.0,
+                        "types": [
+                            "phys",
+                            "arts",
+                            "true"
+                        ],
+                        "category": [
+                            "fragile"
+                        ]
                     }
                 ]
             }
@@ -115,11 +119,18 @@
                         "value": 20.0
                     },
                     {
-                        "key": "fragile",
+                        "key": "damage_scale",
                         "value": 1.25,
-                        "duration": 20.0,
+                        "types": [
+                            "phys",
+                            "arts",
+                            "true"
+                        ],
                         "conditions": [
-                            "type:flying"
+                            "flying"
+                        ],
+                        "category": [
+                            "fragile"
                         ]
                     },
                     {
@@ -1006,7 +1017,7 @@
                         "key": "stun",
                         "value": 2.0,
                         "prob": 0.28,
-                        "condition": "outside_normal_atk_range"
+                        "conditions": "outside_normal_atk_range"
                     }
                 ]
             }
@@ -1109,7 +1120,7 @@
                     {
                         "key": "def",
                         "value": 0.19,
-                        "condition": "block_2_enemy"
+                        "conditions": "block_2_enemy"
                     }
                 ]
             }
@@ -1237,7 +1248,7 @@
                     {
                         "key": "ally_atk",
                         "value": 0.11,
-                        "condition": "three_star"
+                        "conditions": "three_star"
                     }
                 ]
             }
@@ -1537,7 +1548,7 @@
                     {
                         "key": "ally_def",
                         "value": 0.08,
-                        "condition": "cost_under_10"
+                        "conditions": "cost_under_10"
                     },
                     {
                         "key": "cond.cost",
@@ -1665,7 +1676,7 @@
                     {
                         "key": "ally_heal_scale",
                         "value": 1.23,
-                        "condition": "cost_under_10"
+                        "conditions": "cost_under_10"
                     }
                 ]
             }
@@ -1802,7 +1813,7 @@
                         "key": "atk_down",
                         "value": 0.08,
                         "duration": 5.0,
-                        "condition": "when_attacked"
+                        "conditions": "when_attacked"
                     },
                     {
                         "key": "duration",
@@ -2288,7 +2299,7 @@
                     {
                         "key": "ally_cost_down",
                         "value": 1.0,
-                        "condition": "WARRIOR"
+                        "conditions": "WARRIOR"
                     },
                     {
                         "key": "value",
@@ -2320,12 +2331,12 @@
                     {
                         "key": "ally_cost_down",
                         "value": 2.0,
-                        "condition": "SNIPER"
+                        "conditions": "SNIPER"
                     },
                     {
                         "key": "ally_aspd",
                         "value": 23.0,
-                        "condition": "sniper"
+                        "conditions": "sniper"
                     }
                 ]
             }
@@ -2424,7 +2435,7 @@
                     {
                         "key": "sp_gain",
                         "value": 2.0,
-                        "condition": "enemy_full_hp"
+                        "conditions": "enemy_full_hp"
                     }
                 ]
             }
@@ -2446,7 +2457,7 @@
                     {
                         "key": "ally_atk",
                         "value": 0.12,
-                        "condition": "position_melee"
+                        "conditions": "position_melee"
                     }
                 ]
             }
@@ -2468,12 +2479,12 @@
                     {
                         "key": "ally_aspd",
                         "value": 8.0,
-                        "condition": "position_melee|block_3_more"
+                        "conditions": "position_melee|block_3_more"
                     },
                     {
                         "key": "ally_def",
                         "value": 0.14,
-                        "condition": "position_melee|block_3_more"
+                        "conditions": "position_melee|block_3_more"
                     },
                     {
                         "key": "sophia_t_1_less.attack_speed",
@@ -2503,7 +2514,7 @@
                     {
                         "key": "ally_def",
                         "value": 0.14,
-                        "condition": "position_melee"
+                        "conditions": "position_melee"
                     },
                     {
                         "key": "bryota_t_self.def",
@@ -2687,7 +2698,7 @@
                     {
                         "key": "phys_evasion",
                         "value": 0.33,
-                        "condition": "melee_attack"
+                        "conditions": "melee_attack"
                     },
                     {
                         "key": "charge_on_evade.atk",
@@ -2839,7 +2850,7 @@
                     {
                         "key": "ally_aspd",
                         "value": 24.0,
-                        "condition": "student"
+                        "conditions": "student"
                     }
                 ]
             }
@@ -3000,11 +3011,12 @@
                 "blackboard": [
                     {
                         "key": "block_dmg",
-                        "type": [
-                            "phys"
+                        "types": [
+                            "phys",
+                            "ranged_attack"
                         ],
                         "value": 0.3,
-                        "condition": "ranged_attack"
+                        "conditions": "ranged_attack"
                     }
                 ]
             }
@@ -3447,7 +3459,7 @@
                     {
                         "key": "ally_ammo",
                         "value": 1.0,
-                        "condition": "laterano"
+                        "conditions": "laterano"
                     }
                 ]
             }
@@ -3496,9 +3508,17 @@
                 ],
                 "blackboard": [
                     {
-                        "key": "damage_scale_phys",
+                        "key": "damage_scale",
                         "value": 1.16,
-                        "condition": "blocked"
+                        "types": [
+                            "phys"
+                        ],
+                        "conditions": [
+                            "blocked"
+                        ],
+                        "category": [
+                            "others"
+                        ]
                     }
                 ]
             }
@@ -3567,8 +3587,10 @@
                 "blackboard": [
                     {
                         "key": "bleed",
-                        "value": "0.2*ATK",
-                        "condition": "not_blocked"
+                        "value": 0.2,
+                        "conditions": [
+                            "not_blocked"
+                        ]
                     },
                     {
                         "key": "duration",
@@ -3598,7 +3620,9 @@
                     {
                         "key": "sp_gain",
                         "value": 10.0,
-                        "condition": "kill"
+                        "conditions": [
+                            "kill"
+                        ]
                     }
                 ]
             }
@@ -3624,7 +3648,7 @@
                         "value": 0.4
                     },
                     {
-                        "key": "damage_scale",
+                        "key": "self_damage_scale",
                         "value": 1.3
                     }
                 ]
@@ -3673,9 +3697,17 @@
                 ],
                 "blackboard": [
                     {
-                        "key": "magicfragile",
+                        "key": "damage_scale",
                         "value": 1.22,
-                        "condition": "flying"
+                        "types": [
+                            "arts"
+                        ],
+                        "conditions": [
+                            "flying"
+                        ],
+                        "category": [
+                            "magicfragile"
+                        ]
                     }
                 ]
             }
@@ -3697,9 +3729,17 @@
                 ],
                 "blackboard": [
                     {
-                        "key": "damage_scale_arts",
-                        "value": 1.18,
-                        "condition": "blocked"
+                        "key": "damage_scale",
+                        "value": 1.26,
+                        "types": [
+                            "arts"
+                        ],
+                        "conditions": [
+                            "blocked"
+                        ],
+                        "category": [
+                            "others"
+                        ]
                     }
                 ]
             }
@@ -3948,7 +3988,7 @@
                         "value": 0.8
                     },
                     {
-                        "key": "damage_scale",
+                        "key": "self_damage_scale",
                         "value": 1.2
                     }
                 ]
@@ -3991,12 +4031,16 @@
                     {
                         "key": "ally_sp_gain",
                         "value": 5.0,
-                        "condition": "caster"
+                        "conditions": [
+                            "caster"
+                        ]
                     },
                     {
                         "key": "ally_sp_stock",
                         "value": 5.0,
-                        "condition": "caster"
+                        "conditions": [
+                            "caster"
+                        ]
                     },
                     {
                         "key": "sp_stock",
@@ -4182,7 +4226,7 @@
                     {
                         "key": "aspd_down",
                         "value": 25,
-                        "condition": "blocked"
+                        "conditions": "blocked"
                     }
                 ]
             }
@@ -4200,10 +4244,13 @@
                 "desc_ja": "「撮影ロボット」を5体配置可能。撮影ロボットの周囲8マス以内の敵全員の<ba.invisible>ステルス</>状態を無効にする",
                 "desc_en": "Can summon 5 Buggy Cams; Buggy Cams will reveal <ba.invisible>Invisible</> enemies within the surrounding 8 tiles",
                 "tags": [
-                    "cancel_stealth",
                     "summon"
                 ],
                 "blackboard": [
+                    {
+                        "key": "cancel_stealth",
+                        "value": 999
+                    },
                     {
                         "key": "cnt",
                         "value": 5.0
@@ -4230,7 +4277,7 @@
                     {
                         "key": "ally_aspd",
                         "value": 14.0,
-                        "condition": "MEDIC"
+                        "conditions": "MEDIC"
                     }
                 ]
             }
@@ -4280,10 +4327,6 @@
                     {
                         "key": "one_minus_status_resistance",
                         "value": -0.5
-                    },
-                    {
-                        "key": "damage_scale",
-                        "value": 0.5
                     }
                 ]
             }
@@ -4405,7 +4448,7 @@
                     {
                         "key": "ally_atk",
                         "value": 0.11,
-                        "condition": "MEDIC"
+                        "conditions": "MEDIC"
                     }
                 ]
             }
@@ -4429,7 +4472,7 @@
                     {
                         "key": "ally_max_hp",
                         "value": 0.12,
-                        "condition": "position_ranged"
+                        "conditions": "position_ranged"
                     }
                 ]
             }
@@ -4472,13 +4515,15 @@
                 "tags": [],
                 "blackboard": [
                     {
-                        "key": "weak[magic][limit]",
-                        "value": 5.0
-                    },
-                    {
-                        "key": "magicfragile",
-                        "value": 1.14,
-                        "duration": 5.0
+                        "key": "damage_scale",
+                        "value": 1.3,
+                        "duration": 5.0,
+                        "types": [
+                            "arts"
+                        ],
+                        "category": [
+                            "magicfragile"
+                        ]
                     }
                 ]
             }
@@ -4500,7 +4545,7 @@
                     {
                         "key": "ally_heal_scale",
                         "value": 1.18,
-                        "condition": "highest_max_hp"
+                        "conditions": "highest_max_hp"
                     }
                 ]
             }
@@ -4766,17 +4811,21 @@
                     {
                         "key": "block_dmg",
                         "value": 0.23,
-                        "type": [
+                        "types": [
                             "phys",
-                            "arts"
+                            "arts",
+                            "melee_attack",
+                            "ranged_attack"
                         ]
                     },
                     {
                         "key": "ally_block_dmg",
                         "value": 0.115,
-                        "type": [
+                        "types": [
                             "phys",
-                            "arts"
+                            "arts",
+                            "melee_attack",
+                            "ranged_attack"
                         ]
                     }
                 ]
@@ -4803,7 +4852,7 @@
                     {
                         "key": "ally_def",
                         "value": 70,
-                        "condition": "PIONEER|WARRIOR"
+                        "conditions": "PIONEER|WARRIOR"
                     }
                 ]
             }
@@ -4831,7 +4880,7 @@
                     {
                         "key": "phys_evasion",
                         "value": 0.3,
-                        "condition": "melee_attack"
+                        "conditions": "melee_attack"
                     }
                 ]
             }
@@ -4857,7 +4906,7 @@
                     {
                         "key": "sp_gain",
                         "value": 3.0,
-                        "condition": "arts"
+                        "conditions": "arts"
                     }
                 ]
             }
@@ -4998,9 +5047,11 @@
                         "key": "block_dmg",
                         "value": 0.25,
                         "types": [
-                            "phys"
+                            "phys",
+                            "melee_attack",
+                            "ranged_attack"
                         ],
-                        "condition": "bunker_defense"
+                        "conditions": "bunker_defense"
                     }
                 ]
             }
@@ -5022,7 +5073,7 @@
                     {
                         "key": "ally_phys_evasion",
                         "value": 0.23,
-                        "condition": "position_ranged"
+                        "conditions": "position_ranged"
                     },
                     {
                         "key": "phys_evasion",
@@ -5190,7 +5241,7 @@
                 "tags": [],
                 "blackboard": [
                     {
-                        "key": "damage_scale",
+                        "key": "skill_damage_scale",
                         "value": 1.16
                     }
                 ]
@@ -5239,7 +5290,7 @@
                     {
                         "key": "ally_aspd",
                         "value": 14.0,
-                        "condition": "abyssal"
+                        "conditions": "abyssal"
                     }
                 ]
             }
@@ -5442,7 +5493,7 @@
                     {
                         "key": "silence",
                         "value": 8.0,
-                        "condition": "infected"
+                        "conditions": "infected"
                     }
                 ]
             }
@@ -5487,9 +5538,19 @@
                         "value": 0.4
                     },
                     {
-                        "key": "fragile",
+                        "key": "damage_scale",
                         "value": 1.33,
-                        "condition": "enemy_hp_under_40"
+                        "types": [
+                            "phys",
+                            "arts",
+                            "true"
+                        ],
+                        "conditions": [
+                            "enemy_hp_lt_40"
+                        ],
+                        "category": [
+                            "fragile"
+                        ]
                     }
                 ]
             },
@@ -5527,13 +5588,19 @@
                 "tags": [],
                 "blackboard": [
                     {
-                        "key": "hp_ratio",
-                        "value": 0.4
-                    },
-                    {
-                        "key": "fragile",
+                        "key": "damage_scale",
                         "value": 1.33,
-                        "condition": "hp_under_40"
+                        "types": [
+                            "phys",
+                            "arts",
+                            "true"
+                        ],
+                        "conditions": [
+                            "enemy_hp_lt_40"
+                        ],
+                        "category": [
+                            "fragile"
+                        ]
                     }
                 ]
             }
@@ -5610,7 +5677,7 @@
                     {
                         "key": "ally_aspd",
                         "value": 12.0,
-                        "condition": "kazimierz"
+                        "conditions": "kazimierz"
                     }
                 ]
             }
@@ -5717,12 +5784,12 @@
                     {
                         "key": "ally_atk",
                         "value": 0.06,
-                        "condition": "skill_1"
+                        "conditions": "skill_1"
                     },
                     {
                         "key": "ally_def",
                         "value": 0.06,
-                        "condition": "skill_2"
+                        "conditions": "skill_2"
                     }
                 ]
             },
@@ -5764,7 +5831,7 @@
                     {
                         "key": "ally_protect",
                         "value": 0.2,
-                        "condition": "hp_under_40"
+                        "conditions": "hp_under_40"
                     }
                 ]
             }
@@ -5790,7 +5857,7 @@
                     {
                         "key": "ally_protect",
                         "value": 0.2,
-                        "condition": "hp_under_40"
+                        "conditions": "hp_under_40"
                     }
                 ]
             }
@@ -5816,7 +5883,7 @@
                     {
                         "key": "ally_protect",
                         "value": 0.16,
-                        "condition": "hp_above_70"
+                        "conditions": "hp_above_70"
                     }
                 ]
             }
@@ -5958,7 +6025,7 @@
                     {
                         "key": "def_penetrate",
                         "value": 200.0,
-                        "condition": "weight_gte_3"
+                        "conditions": "weight_gte_3"
                     }
                 ]
             }
@@ -6057,7 +6124,7 @@
                 ],
                 "blackboard": [
                     {
-                        "key": "damage_scale",
+                        "key": "atk_scale",
                         "value": 2.75
                     }
                 ]
@@ -6075,18 +6142,31 @@
                 "desc_zh": "部署时原地释放全息幻影，该幻影不会攻击，受到攻击时使攻击幻影的敌人在8秒内受到22%<@ba.talpu>（+2%）</>的脆弱且隐匿效果失效，并立即切换为<替身>作战",
                 "desc_ja": "",
                 "desc_en": "",
-                "tags": [
-                    "cancel_stealth"
-                ],
+                "tags": [],
                 "blackboard": [
+                    {
+                        "key": "cancel_stealth",
+                        "value": 8.0
+                    },
                     {
                         "key": "block_no_attack",
                         "value": 999
                     },
                     {
-                        "key": "fragile",
+                        "key": "damage_scale",
                         "value": 1.22,
-                        "duration": 8.0
+                        "duration": 8.0,
+                        "types": [
+                            "phys",
+                            "arts",
+                            "true"
+                        ],
+                        "category": [
+                            "fragile"
+                        ],
+                        "conditions": [
+                            "when_attacked"
+                        ]
                     },
                     {
                         "key": "block_cnt",
@@ -6161,7 +6241,7 @@
                     {
                         "key": "ally_sp_gain",
                         "value": 1.0,
-                        "condition": "SNIPER"
+                        "conditions": "SNIPER"
                     },
                     {
                         "key": "sp_gain",
@@ -6190,7 +6270,7 @@
                     {
                         "key": "sp_gain",
                         "value": 9.0,
-                        "condition": "shield_usage"
+                        "conditions": "shield_usage"
                     }
                 ]
             }
@@ -6233,7 +6313,7 @@
                     {
                         "key": "sp_gain",
                         "value": 20.0,
-                        "condition": "first_deploy"
+                        "conditions": "first_deploy"
                     }
                 ]
             }
@@ -6289,7 +6369,7 @@
                     {
                         "key": "ally_atk",
                         "value": 0.1,
-                        "condition": "SNIPER"
+                        "conditions": "SNIPER"
                     }
                 ]
             }
@@ -6425,9 +6505,17 @@
                 ],
                 "blackboard": [
                     {
-                        "key": "damage_scale_phys",
+                        "key": "damage_scale",
                         "value": 1.21,
-                        "condition": "stun"
+                        "types": [
+                            "phys"
+                        ],
+                        "conditions": [
+                            "stun"
+                        ],
+                        "category": [
+                            "others"
+                        ]
                     }
                 ]
             }
@@ -6460,7 +6548,7 @@
                         "key": "atk",
                         "value": 0.5,
                         "type": "vigor",
-                        "condition": "hp_above_80"
+                        "conditions": "hp_above_80"
                     }
                 ]
             },
@@ -6502,7 +6590,7 @@
                     {
                         "key": "def_penetrate",
                         "value": 0.6,
-                        "condition": "weight_gte_3"
+                        "conditions": "weight_gte_3"
                     }
                 ]
             },
@@ -6522,7 +6610,7 @@
                     {
                         "key": "ally_atk",
                         "value": 0.1,
-                        "condition": "student"
+                        "conditions": "student"
                     }
                 ]
             }
@@ -6572,7 +6660,7 @@
                     {
                         "key": "sluggish",
                         "value": 3.0,
-                        "condition": "first_hit"
+                        "conditions": "first_hit"
                     }
                 ]
             }
@@ -6616,7 +6704,7 @@
                     {
                         "key": "ally_atk",
                         "value": 0.08,
-                        "condition": "CASTER"
+                        "conditions": "CASTER"
                     }
                 ]
             }
@@ -6688,7 +6776,7 @@
                 ],
                 "blackboard": [
                     {
-                        "key": "damage_scale",
+                        "key": "self_damage_scale",
                         "value": 0.15
                     }
                 ]
@@ -6733,12 +6821,12 @@
                     {
                         "key": "ally_atk",
                         "value": 0.1,
-                        "condition": "PIONEER"
+                        "conditions": "PIONEER"
                     },
                     {
                         "key": "ally_def",
                         "value": 0.1,
-                        "condition": "PIONEER"
+                        "conditions": "PIONEER"
                     }
                 ]
             },
@@ -6755,7 +6843,7 @@
                     {
                         "key": "sp_gain",
                         "value": 1.0,
-                        "condition": "four_tile_enemy_defeat"
+                        "conditions": "four_tile_enemy_defeat"
                     }
                 ]
             }
@@ -6802,7 +6890,7 @@
                     {
                         "key": "ally_sp_stock",
                         "value": 8.0,
-                        "condition": "PIONEER"
+                        "conditions": "PIONEER"
                     }
                 ]
             }
@@ -6936,7 +7024,7 @@
                     {
                         "key": "ally_phys_evasion",
                         "value": 0.25,
-                        "condition": "kazimierz"
+                        "conditions": "kazimierz"
                     }
                 ]
             }
@@ -7018,7 +7106,7 @@
                     {
                         "key": "ally_cost_down",
                         "value": -2.0,
-                        "condition": "rhine"
+                        "conditions": "rhine"
                     },
                     {
                         "key": "runtime_cost",
@@ -7056,7 +7144,7 @@
                     {
                         "key": "root",
                         "value": 5.0,
-                        "condition": "first_hit"
+                        "conditions": "first_hit"
                     }
                 ]
             },
@@ -7068,10 +7156,12 @@
                 "desc_zh": "攻击范围内敌人的<ba.invisible>隐匿</>效果失效且移动速度-30%，撤退后留下一个影哨使该效果持续生效（最多1个）",
                 "desc_ja": "攻撃範囲内の敵の<ba.invisible>ステルス</>状態が無効になり、さらに移動速度-30%。撤退後、影哨を1体残して効果を持続させる（最大1体まで）",
                 "desc_en": "Enemies within Attack Range lose <ba.invisible>Invisibility</> and have -30% Movement Speed; after retreating, Ines leaves behind a Shadow Sentry with the same effect (Max 1)",
-                "tags": [
-                    "cancel_stealth"
-                ],
+                "tags": [],
                 "blackboard": [
+                    {
+                        "key": "cancel_stealth",
+                        "value": 999
+                    },
                     {
                         "key": "move_speed_down",
                         "value": 0.3
@@ -7141,7 +7231,7 @@
                     {
                         "key": "ally_sp_regen",
                         "value": 0.4,
-                        "condition": "CASTER"
+                        "conditions": "CASTER"
                     }
                 ]
             },
@@ -7181,7 +7271,7 @@
                     {
                         "key": "ally_atk",
                         "value": 0.16,
-                        "condition": "CASTER"
+                        "conditions": "CASTER"
                     }
                 ]
             },
@@ -7268,7 +7358,7 @@
                     {
                         "key": "silence",
                         "value": 3.0,
-                        "condition": "flying"
+                        "conditions": "flying"
                     }
                 ]
             },
@@ -7434,14 +7524,19 @@
                 "desc_zh": "拥有可以抵挡所有伤害的琉璃璧；琉璃璧在受到单次超过200点伤害时破碎，对周围所有敌人造成相当于林攻击力110%<@ba.talpu>（+10%）</>的法术伤害、使其<ba.stun>晕眩</>1秒，并在8秒后再次生成",
                 "desc_ja": "1度の被ダメージが200以下であればそれを無効化できる浄瑠壁を持つ。200を超えた場合は浄瑠壁が破壊され、周囲一定範囲内の敵全員にリンの攻撃力の110%<@ba.talpu>（+10%）</>の術ダメージを与え、さらに1秒間<ba.stun>スタン</>させる。浄瑠壁は8秒後に再生成される",
                 "desc_en": "A Crystal Barrier blocks all damage, shattering when 200 or more damage is taken from a single source, dealing 110%<@ba.talpu> (+10%)</> of Lin's ATK as Arts damage to all nearby enemies and <ba.stun>stunning</> them for 1s; reforms after 8s",
-                "tags": [
-                    "block_dmg"
-                ],
+                "tags": [],
                 "blackboard": [
                     {
                         "key": "block_dmg",
                         "value": 1.0,
-                        "condition": "dmg_below_200"
+                        "types": [
+                            "phys",
+                            "arts",
+                            "true",
+                            "melee_attack",
+                            "ranged_attack"
+                        ],
+                        "conditions": "dmg_below_200"
                     },
                     {
                         "key": "atk_scale",
@@ -7449,7 +7544,8 @@
                     },
                     {
                         "key": "stun",
-                        "value": 1.0
+                        "value": 1.0,
+                        "conditions": "shield_usage"
                     },
                     {
                         "key": "interval",
@@ -7474,7 +7570,7 @@
                     {
                         "key": "sp_gain",
                         "value": 1.0,
-                        "condition": "when_attacked"
+                        "conditions": "when_attacked"
                     }
                 ]
             }
@@ -7592,14 +7688,34 @@
                         "value": 1.0
                     },
                     {
-                        "key": "fragile",
-                        "value": 1.27,
-                        "condition": "cold"
+                        "key": "damage_scale",
+                        "value": 1.54,
+                        "types": [
+                            "phys",
+                            "arts",
+                            "true"
+                        ],
+                        "conditions": [
+                            "freeze"
+                        ],
+                        "category": [
+                            "fragile"
+                        ]
                     },
                     {
-                        "key": "fragile",
-                        "value": 1.54,
-                        "condition": "freeze"
+                        "key": "damage_scale",
+                        "value": 1.27,
+                        "types": [
+                            "phys",
+                            "arts",
+                            "true"
+                        ],
+                        "conditions": [
+                            "cold"
+                        ],
+                        "category": [
+                            "fragile"
+                        ]
                     }
                 ]
             },
@@ -7685,7 +7801,7 @@
                     {
                         "key": "ally_sp_regen",
                         "value": 0.4,
-                        "condition": "SUPPORT"
+                        "conditions": "SUPPORT"
                     }
                 ]
             },
@@ -7700,9 +7816,19 @@
                 "tags": [],
                 "blackboard": [
                     {
-                        "key": "fragile",
+                        "key": "damage_scale",
                         "value": 1.23,
-                        "condition": "sluggish"
+                        "types": [
+                            "phys",
+                            "arts",
+                            "true"
+                        ],
+                        "conditions": [
+                            "sluggish"
+                        ],
+                        "category": [
+                            "fragile"
+                        ]
                     },
                     {
                         "key": "atk",
@@ -7812,7 +7938,7 @@
                     {
                         "key": "protect",
                         "value": 0.24,
-                        "condition": "hp_under_30"
+                        "conditions": "hp_under_30"
                     },
                     {
                         "key": "resistance_scale",
@@ -7982,8 +8108,14 @@
                 ],
                 "blackboard": [
                     {
-                        "key": "ep_damage_scale",
-                        "value": 1.22
+                        "key": "damage_scale",
+                        "value": 1.22,
+                        "types": [
+                            "apoptosis"
+                        ],
+                        "category": [
+                            "others"
+                        ]
                     }
                 ]
             }
@@ -8127,7 +8259,7 @@
                     {
                         "key": "aspd_down",
                         "value": 30.0,
-                        "condition": "block"
+                        "conditions": "block"
                     },
                     {
                         "key": "lmlee_t_1[self].attack_speed",
@@ -8156,7 +8288,7 @@
                     {
                         "key": "stun",
                         "value": 3.0,
-                        "condition": "condition_laoli"
+                        "conditions": "condition_laoli"
                     }
                 ]
             }
@@ -8335,7 +8467,7 @@
                     {
                         "key": "dmg_res",
                         "value": 0.25,
-                        "condition": "abyssal|seamonster"
+                        "conditions": "abyssal|seamonster"
                     }
                 ]
             },
@@ -8456,7 +8588,7 @@
                     {
                         "key": "ally_max_hp",
                         "value": 0.23,
-                        "condition": "abyssal"
+                        "conditions": "abyssal"
                     }
                 ]
             }
@@ -8671,7 +8803,7 @@
                     {
                         "key": "stun",
                         "value": 3.5,
-                        "condition": "defeat"
+                        "conditions": "defeat"
                     }
                 ]
             }
@@ -8807,9 +8939,15 @@
                         "value": 0.22
                     },
                     {
-                        "key": "magicfragile",
+                        "key": "damage_scale",
                         "value": 1.32,
-                        "duration": 6.0
+                        "duration": 6.0,
+                        "types": [
+                            "arts"
+                        ],
+                        "category": [
+                            "magicfragile"
+                        ]
                     },
                     {
                         "key": "duration",
@@ -8861,7 +8999,9 @@
                         "types": [
                             "phys",
                             "arts",
-                            "true"
+                            "true",
+                            "melee_attack",
+                            "ranged_attack"
                         ],
                         "value": 0.28
                     }
@@ -8882,7 +9022,7 @@
                     {
                         "key": "ally_def",
                         "value": 0.08,
-                        "condition": "TANK"
+                        "conditions": "TANK"
                     }
                 ]
             }
@@ -8932,7 +9072,7 @@
                     {
                         "key": "ally_sp_gain",
                         "value": 1.0,
-                        "condition": "heal"
+                        "conditions": "heal"
                     }
                 ]
             }
@@ -9058,7 +9198,7 @@
                     {
                         "key": "ally_max_hp",
                         "value": 0.2,
-                        "condition": "TANK"
+                        "conditions": "TANK"
                     }
                 ]
             },
@@ -9128,7 +9268,7 @@
                     {
                         "key": "dmg_res",
                         "value": 0.3,
-                        "condition": "sarkaz"
+                        "conditions": "sarkaz"
                     }
                 ]
             }
@@ -9208,12 +9348,12 @@
                     {
                         "key": "protect",
                         "value": 0.22,
-                        "condition": "hp_under_50"
+                        "conditions": "hp_under_50"
                     },
                     {
                         "key": "atk_scale",
                         "value": 1.17,
-                        "condition": "hp_above_50"
+                        "conditions": "hp_above_50"
                     }
                 ]
             },
@@ -9230,7 +9370,7 @@
                     {
                         "key": "sp_regen",
                         "value": 0.2,
-                        "condition": "block"
+                        "conditions": "block"
                     }
                 ]
             }
@@ -9254,7 +9394,7 @@
                     {
                         "key": "ally_atk",
                         "value": 0.23,
-                        "condition": "TANK"
+                        "conditions": "TANK"
                     }
                 ]
             },
@@ -9317,7 +9457,7 @@
                     {
                         "key": "ally_def",
                         "value": 0.18,
-                        "condition": "ally_behind"
+                        "conditions": "ally_behind"
                     }
                 ]
             },
@@ -9334,7 +9474,7 @@
                     {
                         "key": "sp_gain",
                         "value": 1.0,
-                        "condition": "token_attacked"
+                        "conditions": "token_attacked"
                     },
                     {
                         "key": "prob",
@@ -9418,7 +9558,7 @@
                         "value": 0.25
                     },
                     {
-                        "key": "damage_scale",
+                        "key": "self_damage_scale",
                         "value": 1.7
                     },
                     {
@@ -9482,10 +9622,13 @@
                 "desc_zh": "攻击范围内敌人的<ba.invisible>隐匿</>效果失效",
                 "desc_ja": "攻撃範囲内の敵の<ba.invisible>ステルス</>状態を無効にする",
                 "desc_en": "Reveals <ba.invisible>Invisible</> enemies within range",
-                "tags": [
-                    "cancel_stealth"
-                ],
-                "blackboard": []
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "cancel_stealth",
+                        "value": 999
+                    }
+                ]
             }
         ]
     },
@@ -9628,7 +9771,7 @@
                     {
                         "key": "protect",
                         "value": 0.21,
-                        "condition": "ally_behind"
+                        "conditions": "ally_behind"
                     }
                 ]
             }
@@ -9654,7 +9797,7 @@
                     {
                         "key": "sp_gain",
                         "value": 1.0,
-                        "condition": "skill_atk_def_recovery"
+                        "conditions": "skill_atk_def_recovery"
                     }
                 ]
             },
@@ -9723,7 +9866,7 @@
                     {
                         "key": "attack_speed",
                         "value": 21.0,
-                        "condition": "seamonster"
+                        "conditions": "seamonster"
                     }
                 ]
             }
@@ -9770,7 +9913,7 @@
                     {
                         "key": "def_penetrate",
                         "value": 0.3,
-                        "condition": "tremble"
+                        "conditions": "tremble"
                     }
                 ]
             }
@@ -9965,7 +10108,7 @@
                     {
                         "key": "shield",
                         "value": 1,
-                        "condition": "melee_attack"
+                        "conditions": "melee_attack"
                     }
                 ]
             }
@@ -10183,7 +10326,7 @@
                     {
                         "key": "dmg_res",
                         "value": 0.35,
-                        "condition": "croc_duel"
+                        "conditions": "croc_duel"
                     }
                 ]
             },
@@ -10284,7 +10427,7 @@
                     {
                         "key": "dmg_res",
                         "value": 0.15,
-                        "condition": "enemy_3_around"
+                        "conditions": "enemy_3_around"
                     }
                 ]
             },
@@ -10463,17 +10606,17 @@
                     {
                         "key": "phys_evasion",
                         "value": 0.45,
-                        "condition": "skill_1"
+                        "conditions": "skill_1"
                     },
                     {
                         "key": "arts_evasion",
                         "value": 0.45,
-                        "condition": "skill_1"
+                        "conditions": "skill_1"
                     },
                     {
                         "key": "atk",
                         "value": 0.18,
-                        "condition": "skill_2"
+                        "conditions": "skill_2"
                     }
                 ]
             }
@@ -10497,7 +10640,7 @@
                     {
                         "key": "phys_evasion",
                         "value": 0.25,
-                        "condition": "PIONEER"
+                        "conditions": "PIONEER"
                     }
                 ]
             }
@@ -10522,7 +10665,7 @@
                     {
                         "key": "ally_atk",
                         "value": 0.16,
-                        "condition": "abyssal"
+                        "conditions": "abyssal"
                     }
                 ]
             },
@@ -10608,10 +10751,10 @@
                     {
                         "key": "levitate",
                         "value": 2.5,
-                        "condition": "first_hit"
+                        "conditions": "first_hit"
                     },
                     {
-                        "key": "damage_scale",
+                        "key": "self_damage_scale",
                         "value": 1.15
                     }
                 ]
@@ -10706,12 +10849,16 @@
                         "value": 60.0
                     },
                     {
-                        "key": "magicfragile",
-                        "value": 1.1
-                    },
-                    {
-                        "key": "elementfragile",
-                        "value": 1.1
+                        "key": "damage_scale",
+                        "value": 1.1,
+                        "types": [
+                            "arts",
+                            "ele_dmg"
+                        ],
+                        "category": [
+                            "magicfragile",
+                            "elementfragile"
+                        ]
                     }
                 ]
             }
@@ -10772,7 +10919,8 @@
                     },
                     {
                         "key": "stun",
-                        "value": 1.0
+                        "value": 1.0,
+                        "prob": 0.15
                     },
                     {
                         "key": "attack@range_radius",
@@ -10905,7 +11053,7 @@
                     {
                         "key": "dmg_res",
                         "value": 0.15,
-                        "condition": "sarkaz"
+                        "conditions": "sarkaz"
                     }
                 ]
             }
@@ -10935,12 +11083,12 @@
                     {
                         "key": "ally_atk",
                         "value": 0.14,
-                        "condition": "skill_active"
+                        "conditions": "skill_active"
                     },
                     {
                         "key": "ally_def",
                         "value": 0.14,
-                        "condition": "skill_active"
+                        "conditions": "skill_active"
                     }
                 ]
             }

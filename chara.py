@@ -313,8 +313,8 @@ for id in cn_patch_table['patchChars']:
             "<$ba", "<ba")
     data.append(return_dict)
 
-with open('characters_read.json', 'w', encoding='utf-8') as f:
-    json.dump(data, f, ensure_ascii=False, indent=4)
+# with open('characters_read.json', 'w', encoding='utf-8') as f:
+#     json.dump(data, f, ensure_ascii=False, indent=4)
 
 with open('characters.json', 'w', encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False, separators=(',', ':'))
@@ -374,11 +374,3 @@ with open('chara_talents.json', 'w', encoding='utf-8') as f:
     json.dump(return_dict, f, ensure_ascii=False, indent=4)
 
 print(subProfessionIds)
-
-# schema has to take care of the following requirements:
-# can affect air? target ground? enemy types
-# roguelike artifacts
-# summons
-# values with a range will always take minimum
-# probability
-# condition
