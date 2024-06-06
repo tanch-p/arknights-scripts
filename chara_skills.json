@@ -2790,7 +2790,9 @@
             "ja": "",
             "en": ""
         },
-        "tags": [],
+        "tags": [
+            "ailment_but_skill_cont"
+        ],
         "blackboard": [
             {
                 "key": "atk",
@@ -2802,8 +2804,10 @@
             },
             {
                 "key": "stun",
+                "targets": 1,
                 "value": 1.0,
-                "prob": 0.27
+                "prob": 0.27,
+                "target_air": true
             }
         ]
     },
@@ -4149,8 +4153,10 @@
             },
             {
                 "key": "stun",
+                "targets": 1,
                 "value": 1.2,
-                "prob": 0.3
+                "prob": 0.3,
+                "target_air": true
             },
             {
                 "key": "prob",
@@ -9500,8 +9506,10 @@
             },
             {
                 "key": "stun",
+                "targets": 3,
                 "value": 2.0,
-                "prob": 0.25
+                "prob": 0.25,
+                "target_air": false
             },
             {
                 "key": "fake_damage",
@@ -13997,7 +14005,8 @@
             "en": ""
         },
         "tags": [
-            "burst"
+            "burst",
+            "aspd_unrelated"
         ],
         "blackboard": [
             {
@@ -14010,7 +14019,9 @@
             },
             {
                 "key": "stun",
-                "value": 3.0
+                "targets": 99,
+                "value": 3.0,
+                "target_air": true
             }
         ]
     },
@@ -20004,7 +20015,9 @@
             },
             {
                 "key": "stun",
-                "value": 1.8
+                "targets": 6,
+                "value": 1.8,
+                "target_air": true
             },
             {
                 "key": "atk_scale",
@@ -20625,7 +20638,7 @@
                         "value": 0.65
                     },
                     {
-                        "key": "stun",
+                        "key": "self_stun",
                         "value": 6.0
                     }
                 ]
@@ -23456,7 +23469,9 @@
             },
             {
                 "key": "stun",
-                "value": 1.0
+                "targets": 99,
+                "value": 1.0,
+                "target_air": false
             },
             {
                 "key": "atk_scale",
@@ -27096,8 +27111,10 @@
         "blackboard": [
             {
                 "key": "stun",
+                "targets": 1,
                 "value": 1.6,
-                "prob": 0.33
+                "prob": 0.33,
+                "target_air": false
             },
             {
                 "key": "atk_scale",
@@ -27538,7 +27555,9 @@
             },
             {
                 "key": "stun",
-                "value": 1.0
+                "targets": 99,
+                "value": 1.0,
+                "target_air": true
             }
         ]
     },
@@ -28271,7 +28290,9 @@
             },
             {
                 "key": "stun",
-                "value": 3.0
+                "targets": 99,
+                "value": 3.0,
+                "target_air": true
             }
         ]
     },
@@ -31108,7 +31129,9 @@
             },
             {
                 "key": "stun",
-                "value": 2.0
+                "targets": 99,
+                "value": 2.0,
+                "target_air": true
             }
         ]
     },
@@ -36397,7 +36420,9 @@
             },
             {
                 "key": "stun",
-                "value": 3.0
+                "targets": 99,
+                "value": 3.0,
+                "target_air": false
             }
         ]
     },
@@ -37259,8 +37284,10 @@
             },
             {
                 "key": "stun",
+                "targets": 4,
                 "value": 1.0,
-                "prob": 0.25
+                "prob": 0.25,
+                "target_air": true
             },
             {
                 "key": "self_stun",
@@ -37526,7 +37553,9 @@
             },
             {
                 "key": "stun",
-                "value": 4.0
+                "targets": 99,
+                "value": 4.0,
+                "target_air": false
             }
         ]
     },
@@ -39084,7 +39113,9 @@
         "blackboard": [
             {
                 "key": "stun",
-                "value": 4.5
+                "targets": 99,
+                "value": 4.5,
+                "target_air": true
             },
             {
                 "key": "silence",
@@ -39239,8 +39270,12 @@
             },
             {
                 "key": "stun",
+                "targets": 3,
                 "value": 7.0,
-                "condition": "block"
+                "conditions": [
+                    "blocked"
+                ],
+                "target_air": false
             },
             {
                 "key": "attack_speed",
@@ -42954,7 +42989,9 @@
             },
             {
                 "key": "stun",
-                "value": 3.0
+                "targets": 3,
+                "value": 3.0,
+                "target_air": true
             },
             {
                 "key": "max_target",
@@ -44534,12 +44571,17 @@
             },
             {
                 "key": "root",
+                "targets": 99,
                 "value": 6.0
             },
             {
                 "key": "stun",
+                "targets": 99,
                 "value": 6.0,
-                "condition": "drone"
+                "conditions": [
+                    "drone"
+                ],
+                "target_air": true
             }
         ]
     },
@@ -47156,7 +47198,9 @@
             },
             {
                 "key": "stun",
-                "value": 1.0
+                "targets": 99,
+                "value": 1.0,
+                "target_air": false
             }
         ]
     },
@@ -47811,8 +47855,12 @@
             },
             {
                 "key": "stun",
+                "targets": 99,
                 "value": 2.0,
-                "condition": "collision_wall"
+                "conditions": [
+                    "wall_collision"
+                ],
+                "target_air": false
             }
         ]
     },
@@ -47980,12 +48028,18 @@
             },
             {
                 "key": "stun",
-                "value": 2.5
+                "targets": 99,
+                "value": 2.5,
+                "target_air": false
             },
             {
                 "key": "stun",
+                "targets": 99,
                 "value": 4.0,
-                "condition": "collision_wall"
+                "conditions": [
+                    "wall_collision"
+                ],
+                "target_air": false
             },
             {
                 "key": "forcer_s_2[brush].stun",
@@ -48411,7 +48465,9 @@
             },
             {
                 "key": "stun",
-                "value": 1.5
+                "targets": 1,
+                "value": 1.5,
+                "target_air": false
             }
         ]
     },
@@ -50396,7 +50452,9 @@
             },
             {
                 "key": "stun",
-                "value": 5.0
+                "targets": 99,
+                "value": 6.0,
+                "target_air": true
             }
         ]
     },
@@ -51684,7 +51742,9 @@
             },
             {
                 "key": "stun",
-                "value": 3.0
+                "targets": 99,
+                "value": 3.0,
+                "target_air": true
             }
         ]
     },
@@ -51803,7 +51863,9 @@
             },
             {
                 "key": "stun",
-                "value": 2.2
+                "targets": 99,
+                "value": 2.2,
+                "target_air": false
             }
         ]
     },
@@ -51942,7 +52004,9 @@
             },
             {
                 "key": "stun",
-                "value": 5.0
+                "targets": 99,
+                "value": 5.0,
+                "target_air": true
             }
         ]
     },
@@ -52792,8 +52856,10 @@
             },
             {
                 "key": "stun",
+                "targets": 2,
                 "value": 1.0,
-                "prob": 0.4
+                "prob": 0.4,
+                "target_air": true
             },
             {
                 "key": "first_duration",
@@ -52964,7 +53030,9 @@
             },
             {
                 "key": "stun",
-                "value": 0.4
+                "targets": 4,
+                "value": 0.4,
+                "target_air": true
             },
             {
                 "key": "s3_atk_scale",
@@ -53272,8 +53340,10 @@
             },
             {
                 "key": "stun",
+                "targets": 99,
                 "value": 1.5,
-                "prob": 0.2
+                "prob": 0.2,
+                "target_air": false
             }
         ]
     },
@@ -53473,7 +53543,9 @@
             },
             {
                 "key": "stun",
-                "value": 3.0
+                "targets": 99,
+                "value": 3.0,
+                "target_air": false
             }
         ]
     },
@@ -54674,8 +54746,10 @@
             },
             {
                 "key": "stun",
+                "targets": 1,
                 "value": 1.5,
-                "prob": 0.4
+                "prob": 0.4,
+                "target_air": false
             },
             {
                 "key": "base_attack_time",
@@ -55678,11 +55752,14 @@
             },
             {
                 "key": "stun",
-                "value": 3.5
+                "targets": 99,
+                "value": 3.5,
+                "target_air": true
             },
             {
                 "key": "sluggish",
-                "value": 10.0
+                "value": 10.0,
+                "target_air": true
             },
             {
                 "key": "damage_scale",
@@ -55994,7 +56071,9 @@
             },
             {
                 "key": "stun",
-                "value": 0.5
+                "targets": 6,
+                "value": 0.5,
+                "target_air": true
             },
             {
                 "key": "max_target",
@@ -57144,9 +57223,11 @@
             {
                 "key": "stun",
                 "value": 15.0,
+                "targets": 3,
                 "conditions": [
-                    "block"
-                ]
+                    "blocked"
+                ],
+                "target_air": false
             },
             {
                 "key": "mlyss_s_3[token_melee_trigger].interval",
@@ -58192,7 +58273,9 @@
             },
             {
                 "key": "stun",
-                "value": 7
+                "targets": 99,
+                "value": 7,
+                "target_air": true
             }
         ]
     },
@@ -61307,8 +61390,12 @@
             },
             {
                 "key": "stun",
+                "targets": 99,
                 "value": 1.0,
-                "condition": "kill"
+                "conditions": [
+                    "kill_enemy"
+                ],
+                "target_air": true
             }
         ]
     },
@@ -66084,7 +66171,8 @@
         "tags": [
             "burst",
             "push",
-            "force"
+            "force",
+            "aspd_unrelated"
         ],
         "blackboard": [
             {
@@ -66108,7 +66196,8 @@
             {
                 "key": "stun",
                 "value": 4.5,
-                "prob": 0.33
+                "prob": 0.33,
+                "target_air": false
             }
         ]
     },
@@ -66608,7 +66697,9 @@
             }
         ],
         "remarks": null,
-        "tags": [],
+        "tags": [
+            "aspd_unrelated"
+        ],
         "blackboard": [
             {
                 "key": "atk_scale",
@@ -66628,7 +66719,8 @@
             },
             {
                 "key": "stun",
-                "value": 2.0
+                "value": 2.0,
+                "target_air": true
             }
         ]
     },
@@ -68175,7 +68267,8 @@
             },
             {
                 "key": "stun",
-                "value": 1.2
+                "value": 1.2,
+                "target_air": false
             }
         ]
     },
@@ -69877,7 +69970,8 @@
             },
             {
                 "key": "stun",
-                "value": 1.0
+                "value": 1.0,
+                "target_air": false
             },
             {
                 "key": "hp_ratio",
@@ -71094,7 +71188,8 @@
         "blackboard": [
             {
                 "key": "stun",
-                "value": 5.0
+                "value": 5.0,
+                "target_air": false
             },
             {
                 "key": "projectile_range",
@@ -75911,7 +76006,8 @@
             },
             {
                 "key": "stun",
-                "value": 1.2
+                "value": 1.2,
+                "target_air": false
             },
             {
                 "key": "hp_ratio",
@@ -76134,7 +76230,8 @@
             },
             {
                 "key": "stun",
-                "value": 5.0
+                "value": 5.0,
+                "target_air": false
             }
         ]
     },
@@ -76274,7 +76371,8 @@
             },
             {
                 "key": "stun",
-                "value": 5.0
+                "value": 5.0,
+                "target_air": false
             }
         ]
     },
@@ -76830,7 +76928,10 @@
             {
                 "key": "stun",
                 "value": 18,
-                "condition": "block"
+                "conditions": [
+                    "blocked"
+                ],
+                "target_air": false
             }
         ]
     },
@@ -78074,7 +78175,8 @@
             },
             {
                 "key": "stun",
-                "value": 6.0
+                "value": 6.0,
+                "target_air": true
             },
             {
                 "key": "extrabomb.atk_scale",
@@ -78801,7 +78903,8 @@
             },
             {
                 "key": "stun",
-                "value": 3.0
+                "value": 3.0,
+                "target_air": false
             }
         ]
     },
@@ -81464,7 +81567,8 @@
             },
             {
                 "key": "stun",
-                "value": 1.0
+                "value": 1.0,
+                "target_air": false
             }
         ]
     },
@@ -81694,7 +81798,8 @@
             {
                 "key": "stun",
                 "value": 5.0,
-                "prob": 0.25
+                "prob": 0.25,
+                "target_air": false
             },
             {
                 "key": "ability_range_forward_extend",
@@ -81825,7 +81930,8 @@
             },
             {
                 "key": "stun",
-                "value": 1.5
+                "value": 1.5,
+                "target_air": false
             }
         ]
     },
@@ -81939,7 +82045,8 @@
         },
         "tags": [
             "arts",
-            "burst"
+            "burst",
+            "aspd_unrelated"
         ],
         "blackboard": [
             {
@@ -82074,7 +82181,8 @@
         ],
         "remarks": {},
         "tags": [
-            "skill_invincible"
+            "skill_invincible",
+            "aspd_unrelated"
         ],
         "blackboard": [
             {
@@ -82087,7 +82195,8 @@
             },
             {
                 "key": "stun",
-                "value": 4.0
+                "value": 4.0,
+                "target_air": false
             }
         ]
     },
@@ -85864,7 +85973,8 @@
             "en": ""
         },
         "tags": [
-            "burst"
+            "burst",
+            "aspd_unrelated"
         ],
         "blackboard": [
             {
@@ -85877,7 +85987,8 @@
             },
             {
                 "key": "stun",
-                "value": 5.0
+                "value": 5.0,
+                "target_air": false
             },
             {
                 "key": "last_atk_bonus",
@@ -86152,7 +86263,8 @@
             {
                 "key": "stun",
                 "value": 0.2,
-                "prob": 0.85
+                "prob": 0.85,
+                "target_air": false
             }
         ]
     },
@@ -89335,7 +89447,8 @@
             },
             {
                 "key": "stun",
-                "value": 1.5
+                "value": 1.5,
+                "target_air": true
             }
         ]
     },
@@ -89691,7 +89804,8 @@
             },
             {
                 "key": "stun",
-                "value": 1.0
+                "value": 1.0,
+                "target_air": true
             },
             {
                 "key": "sp",

@@ -180,8 +180,10 @@
                     },
                     {
                         "key": "stun",
+                        "targets": 99,
                         "value": 0.2,
-                        "prob": 0.3
+                        "prob": 0.3,
+                        "target_air": false
                     }
                 ]
             }
@@ -205,7 +207,9 @@
                 "blackboard": [
                     {
                         "key": "stun",
-                        "value": 7.5
+                        "targets": 99,
+                        "value": 7.5,
+                        "target_air": true
                     },
                     {
                         "key": "attack@stun_anim_duration",
@@ -1024,9 +1028,13 @@
                     },
                     {
                         "key": "stun",
+                        "targets": 1,
                         "value": 2.0,
                         "prob": 0.28,
-                        "conditions": "outside_normal_atk_range"
+                        "conditions": [
+                            "outside_normal_atk_range"
+                        ],
+                        "target_air": true
                     }
                 ]
             }
@@ -1865,8 +1873,10 @@
                     },
                     {
                         "key": "stun",
+                        "targets": 1,
                         "value": 1.0,
-                        "prob": 0.18
+                        "prob": 0.18,
+                        "target_air": false
                     }
                 ]
             }
@@ -3451,8 +3461,10 @@
                     },
                     {
                         "key": "stun",
+                        "targets": 1,
                         "value": 0.2,
-                        "prob": 0.2
+                        "prob": 0.2,
+                        "target_air": true
                     }
                 ]
             }
@@ -4777,7 +4789,12 @@
                     },
                     {
                         "key": "stun",
-                        "value": 4.0
+                        "targets": 1,
+                        "value": 4.0,
+                        "conditions": [
+                            "no_attack_4s"
+                        ],
+                        "target_air": false
                     }
                 ]
             }
@@ -5479,8 +5496,10 @@
                     },
                     {
                         "key": "stun",
+                        "targets": 1,
                         "value": 1.0,
-                        "prob": 0.23
+                        "prob": 0.23,
+                        "target_air": true
                     },
                     {
                         "key": "def_penetrate",
@@ -6341,7 +6360,9 @@
                 "blackboard": [
                     {
                         "key": "stun",
-                        "value": 4.0
+                        "targets": 99,
+                        "value": 4.0,
+                        "target_air": true
                     }
                 ]
             },
@@ -7615,8 +7636,12 @@
                     },
                     {
                         "key": "stun",
+                        "targets": 99,
                         "value": 1.0,
-                        "conditions": "shield_usage"
+                        "conditions": [
+                            "shield_usage"
+                        ],
+                        "target_air": true
                     },
                     {
                         "key": "interval",
@@ -8362,8 +8387,12 @@
                     },
                     {
                         "key": "stun",
+                        "targets": 1,
                         "value": 3.0,
-                        "conditions": "condition_laoli"
+                        "conditions": [
+                            "stun_or_freeze"
+                        ],
+                        "target_air": true
                     }
                 ]
             }
@@ -8495,8 +8524,10 @@
                     },
                     {
                         "key": "stun",
+                        "targets": 1,
                         "value": 1.0,
-                        "prob": 0.25
+                        "prob": 0.25,
+                        "target_air": true
                     }
                 ]
             },
@@ -8881,8 +8912,12 @@
                 "blackboard": [
                     {
                         "key": "stun",
+                        "targets": 99,
                         "value": 3.5,
-                        "conditions": "defeat"
+                        "conditions": [
+                            "defeat"
+                        ],
+                        "target_air": true
                     }
                 ]
             }
@@ -10380,7 +10415,12 @@
                     },
                     {
                         "key": "stun",
-                        "value": 3.0
+                        "targets": 99,
+                        "value": 3.0,
+                        "target_air": false,
+                        "conditions": [
+                            "deploy"
+                        ]
                     }
                 ]
             },
@@ -11034,8 +11074,10 @@
                     },
                     {
                         "key": "stun",
+                        "targets": 99,
                         "value": 1.0,
-                        "prob": 0.15
+                        "prob": 0.15,
+                        "target_air": true
                     },
                     {
                         "key": "attack@range_radius",

@@ -1939,9 +1939,11 @@
         },
         {
           "key": "stun",
+          "targets":1,
           "value": 3.0,
           "prob": 0.36,
-          "conditions": ["outside_atk_range"]
+          "conditions": ["outside_normal_atk_range"],
+          "target_air": true
         }
       ]
     }
@@ -6547,7 +6549,10 @@
         },
         {
           "key": "stun",
-          "value": 5.0
+          "targets":1,
+          "value": 5.0,
+          "conditions": ["no_attack_4s"],
+          "target_air": false
         }
       ]
     }
@@ -6835,8 +6840,10 @@
         },
         {
           "key": "stun",
+          "targets":1,
           "value": 4.0,
-          "conditions": ["stun|frozen"]
+          "conditions": ["stun_or_freeze"],
+          "target_air": true
         }
       ]
     }
@@ -13165,8 +13172,10 @@
         },
         {
           "key": "stun",
+          "targets":1,
           "value": 1.5,
-          "prob": 0.26
+          "prob": 0.26,
+          "target_air": false
         }
       ]
     }
@@ -14902,8 +14911,10 @@
         },
         {
           "key": "stun",
+          "targets":1,
           "value": 0.2,
-          "prob": 0.2
+          "prob": 0.2,
+          "target_air": false
         }
       ]
     }
@@ -18444,7 +18455,7 @@
           "key": "atk_down",
           "value": 0.12,
           "category": ["others"],
-          "conditions":["when_attacked"]
+          "conditions": ["when_attacked"]
         },
         {
           "key": "duration",
@@ -19735,8 +19746,10 @@
         },
         {
           "key": "stun",
+          "targets":99,
           "value": 4.0,
-          "condtion:": "token_hp_below_50"
+          "conditions": ["token_hp_lt_50", "defeat"],
+          "target_air": true
         },
         {
           "key": "value",
@@ -30225,7 +30238,7 @@
         {
           "key": "atk_down",
           "value": 0.1,
-          "duration":2.0,
+          "duration": 2.0,
           "category": ["weaken"]
         },
         {
@@ -30381,7 +30394,7 @@
         {
           "key": "atk_down",
           "value": 0.1,
-          "duration":2.0,
+          "duration": 2.0,
           "category": ["weaken"]
         },
         {
@@ -30529,7 +30542,7 @@
         {
           "key": "atk_down",
           "value": 0.1,
-          "duration":2.0,
+          "duration": 2.0,
           "category": ["weaken"]
         },
         {
@@ -32365,6 +32378,7 @@
         },
         {
           "key": "stun",
+          "targets":1,
           "value": 1.2,
           "prob": 0.5
         }
@@ -32550,8 +32564,10 @@
         },
         {
           "key": "stun",
+          "targets":1,
           "value": 1.0,
-          "prob": 0.23
+          "prob": 0.23,
+          "target_air": true
         },
         {
           "key": "def_penetrate",
@@ -38317,12 +38333,12 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["apoptosis","ele_dmg"],
+      "tags": ["apoptosis", "ele_dmg"],
       "blackboard": [
         {
           "key": "atk_down",
           "value": 0.5,
-          "duration":15.0,
+          "duration": 15.0,
           "conditions": ["apoptosis_burst"],
           "category": ["weaken"]
         },
@@ -39529,7 +39545,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["true"],
+      "tags": ["true","revive"],
       "blackboard": [
         {
           "key": "attack_speed",
@@ -39553,7 +39569,10 @@
         },
         {
           "key": "stun",
-          "value": 4.0
+          "targets":99,
+          "value": 4.0,
+          "target_air": false,
+          "conditions":["deploy","defeat"]
         },
         {
           "key": "atk_scale",
@@ -42643,7 +42662,7 @@
         {
           "key": "atk_down",
           "value": 0.15,
-          "category":["others"]
+          "category": ["others"]
         },
         {
           "key": "duration",
@@ -45092,7 +45111,9 @@
         },
         {
           "key": "stun",
-          "value": 6.0
+          "targets":99,
+          "value": 6.0,
+          "target_air": true
         },
         {
           "key": "scale_duration",
@@ -48716,7 +48737,7 @@
         {
           "key": "atk_down",
           "value": 0.5,
-          "duration":15.0,
+          "duration": 15.0,
           "conditions": ["apoptosis_burst"],
           "category": ["weaken"]
         },
