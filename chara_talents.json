@@ -11149,8 +11149,15 @@
                         "duration": 5.0
                     },
                     {
-                        "key": "damage_scale_arts",
-                        "value": 165.0
+                      "key": "damage_scale",
+                      "targets": 4,
+                      "value": 165.0,
+                      "types": [
+                          "arts"
+                      ],
+                      "category": [
+                          "others"
+                      ]
                     }
                 ]
             }
