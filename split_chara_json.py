@@ -15,14 +15,15 @@ for lang in languages:
         for skill in chara_dict['skills']:
             levels = []
             for level in skill['levels']:
-                levels.append(
-                    {
-                        "rangeId": level['rangeId'],
-                        "desc": level[f'description_{lang}'] if level[f'description_{lang}'] else level['description_zh'],
-                        "spData": level['spData'],
-                        "duration": level['duration']
-                    },
-                )
+                level_options = {
+                    "rangeId": level['rangeId'],
+                    "desc": level[f'description_{lang}'] if level[f'description_{lang}'] else level['description_zh'],
+                    "spData": level['spData'],
+                    "duration": level['duration']
+                }
+                if 'rangeExtend' in level:
+                    level_options['rangeExtend'] = level['rangeExtend']
+                levels.append(level_options)
             skills.append({"skillId": skill['skillId'],
                            "name": skill[f'name_{lang}'] if skill[f'name_{lang}'] else skill['name_zh'],
                            "skillType": skill['skillType'],
@@ -126,6 +127,7 @@ for lang in languages:
         return_dict = {"id": chara_dict['id'], "appellation": chara_dict['appellation'],
                        "name": chara_dict[f'name_{lang}'] if chara_dict[f'name_{lang}'] else chara_dict['name_zh'],
                        "desc": chara_dict[f'desc_{lang}'] if chara_dict[f'desc_{lang}'] else chara_dict['desc_zh'],
+                       "time": chara_dict['time'],
                        "tags": tags, "blackboard": chara_dict['blackboard'],
                        "nationId": chara_dict['nationId'], "groupId": chara_dict['groupId'], "teamId": chara_dict['teamId'], "position": chara_dict['position'],
                        "isSpChar": chara_dict['isSpChar'], "rarity": chara_dict['rarity'],

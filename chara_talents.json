@@ -11149,15 +11149,15 @@
                         "duration": 5.0
                     },
                     {
-                      "key": "damage_scale",
-                      "targets": 4,
-                      "value": 165.0,
-                      "types": [
-                          "arts"
-                      ],
-                      "category": [
-                          "others"
-                      ]
+                        "key": "damage_scale",
+                        "targets": 4,
+                        "value": 165.0,
+                        "types": [
+                            "arts"
+                        ],
+                        "category": [
+                            "others"
+                        ]
                     }
                 ]
             }
@@ -11282,6 +11282,150 @@
                         "value": 0.025
                     }
                 ]
+            }
+        ]
+    },
+    "char_4137_udflow": {
+        "appellation": "Underflow",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "细胞活性抑制剂",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "攻击使目标在3秒内每秒受到90<@ba.talpu>（+10）</>点法术伤害（对【海怪】敌人伤害加倍）",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "duration",
+                        "value": 3.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "interval",
+                        "value": 1.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "damage",
+                        "value": 90.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "damage_seamonster",
+                        "value": 180.0,
+                        "valueStr": null
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4079_haini": {
+        "appellation": "Lucilla",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "测绘器材的奇用",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "攻击范围内的非精英和领袖敌人获得18%<@ba.talpu>（+2%）</>的<ba.fragile>脆弱</>效果",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "damage_scale",
+                        "value": 1.18,
+                        "valueStr": null
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4145_ulpia": {
+        "appellation": "Ulpianus",
+        "talents": [
+            {
+                "prefabKey": "2",
+                "name_zh": "本性的坚守",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "每次受到伤害时，治疗自身100点生命值；生命值低于50%时，治疗效果提升至160点生命值",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "hp_ratio",
+                        "value": 0.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "value1",
+                        "value": 100.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "value2",
+                        "value": 160.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "prefabKey": "1",
+                "name_zh": "血脉的哺养",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "每次击倒一名敌人时，自身的生命上限提高120，攻击力提高30，最多叠加10<@ba.talpu>（+1）</>次，其他【深海猎人】干员获得50%的提高效果",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "max_stack_cnt",
+                        "value": 10.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "max_hp",
+                        "value": 120.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "atk",
+                        "value": 30.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "ulpia_t_1[abyssal].max_hp",
+                        "value": 60.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "ulpia_t_1[abyssal].atk",
+                        "value": 15.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "ulpia_t_1[abyssal].max_stack_cnt",
+                        "value": 10.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "prefabKey": "-1",
+                "name_zh": null,
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": null,
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": []
             }
         ]
     }

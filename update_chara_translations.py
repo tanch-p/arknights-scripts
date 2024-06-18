@@ -139,16 +139,19 @@ for skill_id in chara_skills:
             m3 = levels[9]
         levels = [l7, m1, m2, m3]
         levels = [i for i in levels if i is not None]
-    return_levels = []
     index = 6
     for level_index, level in enumerate(levels):
-        level_data = level
+        range_extend = 0
+        for item in level['blackboard']:
+            if item['key'] == "ability_range_forward_extend":
+                range_extend = item['value']
+        if range_extend >0:
+            level['rangeExtend'] = range_extend
         if not level['description_ja']:
             level["description_ja"] = replace_substrings(
                 jp_skill_table[skill_id]['levels'][index]['description'], jp_skill_table[skill_id]['levels'][index+level_index]['blackboard'])
             level["description_en"] = replace_substrings(
                 en_skill_table[skill_id]['levels'][index]['description'], en_skill_table[skill_id]['levels'][index+level_index]['blackboard'])
-        return_levels.append(levels_data)
     return_dict[skill_id] = data
 return_dict = chara_skills | return_dict
 

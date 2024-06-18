@@ -57,6 +57,8 @@ with open('uniequip.json', encoding='utf-8') as f:
     uniequip_dict = json.load(f)
 with open('tokens.json', encoding='utf-8') as f:
     tokens_dict = json.load(f)
+with open('chara_imple_dates.json', encoding='utf-8') as f:
+    imple_dates = json.load(f)
 data = []
 
 filtered_cn_char_table = {key: cn_char_table[key] for key in cn_char_table.keys(
@@ -168,6 +170,8 @@ for id in filtered_cn_char_table:
         tags.append("priority_low_def")
     if character_dict['subProfessionId'] == "siegesniper":
         tags.append("priority_highest_weight")
+    if character_dict['subProfessionId'] == "bard":
+        tags.append("heal_unhealable")
     if character_dict["subProfessionId"] == "librator" or character_dict['subProfessionId'] == "healer":
         tags.append("block_0")
         desc_zh = replace_substrings(
@@ -180,7 +184,8 @@ for id in filtered_cn_char_table:
         tags.append("no_healing")
 
     return_dict = {"id": id, "appellation": character_dict['appellation'], "name_zh": character_dict['name'], "name_ja": "", "name_en": "",
-                   "desc_zh": desc_zh, "desc_ja": "", "desc_en": "",
+                   "desc_zh": desc_zh, "desc_ja": "", "desc_en": "", 
+                   "time": imple_dates[id],
                    "tags": tags, "blackboard": blackboard,
                    "nationId": character_dict['nationId'], "groupId": character_dict['groupId'], "teamId": character_dict['teamId'], "position": character_dict['position'],
                    "isSpChar": character_dict['isSpChar'], "rarity": character_dict['rarity'],
@@ -298,6 +303,7 @@ for id in cn_patch_table['patchChars']:
 
     return_dict = {"id": id, "appellation": character_dict['appellation'], "name_zh": character_dict['name'], "name_ja": "", "name_en": "",
                    "desc_zh": character_dict['description'].replace("<$ba", "<ba"), "desc_ja": "", "desc_en": "",
+                   "time": imple_dates[id],
                    "tags": tags, "blackboard": blackboard,
                    "nationId": character_dict['nationId'], "groupId": character_dict['groupId'], "teamId": character_dict['teamId'], "position": character_dict['position'],
                    "isSpChar": character_dict['isSpChar'], "rarity": character_dict['rarity'],

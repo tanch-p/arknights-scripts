@@ -1791,7 +1791,8 @@
                         "key": "ability_range_forward_extend",
                         "value": 2.0
                     }
-                ]
+                ],
+                "rangeExtend": 2.0
             }
         ],
         "remarks": null,
@@ -4196,7 +4197,8 @@
                         "key": "ability_range_forward_extend",
                         "value": 2.0
                     }
-                ]
+                ],
+                "rangeExtend": 2.0
             },
             {
                 "rangeId": null,
@@ -4215,7 +4217,8 @@
                         "key": "ability_range_forward_extend",
                         "value": 2.0
                     }
-                ]
+                ],
+                "rangeExtend": 2.0
             },
             {
                 "rangeId": null,
@@ -4234,7 +4237,8 @@
                         "key": "ability_range_forward_extend",
                         "value": 2.0
                     }
-                ]
+                ],
+                "rangeExtend": 2.0
             },
             {
                 "rangeId": null,
@@ -4253,7 +4257,8 @@
                         "key": "ability_range_forward_extend",
                         "value": 2.0
                     }
-                ]
+                ],
+                "rangeExtend": 2.0
             }
         ],
         "remarks": null,
@@ -4740,7 +4745,8 @@
                         "key": "sluggish",
                         "value": 0.8
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": null,
@@ -4763,7 +4769,8 @@
                         "key": "sluggish",
                         "value": 0.8
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": null,
@@ -4786,7 +4793,8 @@
                         "key": "sluggish",
                         "value": 1.0
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": null,
@@ -4809,7 +4817,8 @@
                         "key": "sluggish",
                         "value": 1.2
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             }
         ],
         "remarks": null,
@@ -17005,7 +17014,8 @@
                         "key": "block_cnt",
                         "value": 1.0
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": null,
@@ -17036,7 +17046,8 @@
                         "key": "block_cnt",
                         "value": 1.0
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": null,
@@ -17067,7 +17078,8 @@
                         "key": "block_cnt",
                         "value": 1.0
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": null,
@@ -17098,7 +17110,8 @@
                         "key": "block_cnt",
                         "value": 1.0
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             }
         ],
         "remarks": null,
@@ -30543,7 +30556,8 @@
                         "key": "max_target",
                         "value": 2.0
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": null,
@@ -30570,7 +30584,8 @@
                         "key": "max_target",
                         "value": 2.0
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": null,
@@ -30597,7 +30612,8 @@
                         "key": "max_target",
                         "value": 2.0
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": null,
@@ -30624,7 +30640,8 @@
                         "key": "max_target",
                         "value": 2.0
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             }
         ],
         "remarks": null,
@@ -31840,7 +31857,8 @@
                         "key": "ability_range_forward_extend",
                         "value": 1.0
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": null,
@@ -31863,7 +31881,8 @@
                         "key": "ability_range_forward_extend",
                         "value": 2.0
                     }
-                ]
+                ],
+                "rangeExtend": 2.0
             },
             {
                 "rangeId": null,
@@ -31886,7 +31905,8 @@
                         "key": "ability_range_forward_extend",
                         "value": 2.0
                     }
-                ]
+                ],
+                "rangeExtend": 2.0
             },
             {
                 "rangeId": null,
@@ -31909,7 +31929,8 @@
                         "key": "ability_range_forward_extend",
                         "value": 2.0
                     }
-                ]
+                ],
+                "rangeExtend": 2.0
             }
         ],
         "remarks": null,
@@ -32360,7 +32381,8 @@
                         "key": "max_target",
                         "value": 2.0
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": null,
@@ -32387,7 +32409,8 @@
                         "key": "max_target",
                         "value": 2.0
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": null,
@@ -32414,7 +32437,8 @@
                         "key": "max_target",
                         "value": 2.0
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": null,
@@ -32441,7 +32465,8 @@
                         "key": "max_target",
                         "value": 2.0
                     }
-                ]
+                ],
+                "rangeExtend": 2.0
             }
         ],
         "remarks": null,
@@ -50096,7 +50121,8 @@
                         "key": "times",
                         "value": 3.0
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": null,
@@ -50127,7 +50153,8 @@
                         "key": "times",
                         "value": 3.0
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": null,
@@ -50158,7 +50185,8 @@
                         "key": "times",
                         "value": 3.0
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": null,
@@ -50189,7 +50217,8 @@
                         "key": "times",
                         "value": 3.0
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             }
         ],
         "remarks": null,
@@ -52042,7 +52071,8 @@
                         "key": "ability_range_forward_extend",
                         "value": 1.0
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": null,
@@ -52065,7 +52095,8 @@
                         "key": "ability_range_forward_extend",
                         "value": 1.0
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": null,
@@ -52088,7 +52119,8 @@
                         "key": "ability_range_forward_extend",
                         "value": 1.0
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": null,
@@ -52111,7 +52143,8 @@
                         "key": "ability_range_forward_extend",
                         "value": 1.0
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             }
         ],
         "remarks": null,
@@ -54949,7 +54982,8 @@
                         "key": "hp_ratio",
                         "value": 0.5
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": null,
@@ -54992,7 +55026,8 @@
                         "key": "hp_ratio",
                         "value": 0.5
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": null,
@@ -55035,7 +55070,8 @@
                         "key": "hp_ratio",
                         "value": 0.5
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": null,
@@ -55078,7 +55114,8 @@
                         "key": "hp_ratio",
                         "value": 0.5
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             }
         ],
         "remarks": null,
@@ -60282,7 +60319,8 @@
                         "key": "max_target",
                         "value": 5.0
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": null,
@@ -60313,7 +60351,8 @@
                         "key": "max_target",
                         "value": 5.0
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": null,
@@ -60344,7 +60383,8 @@
                         "key": "max_target",
                         "value": 5.0
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": null,
@@ -60375,7 +60415,8 @@
                         "key": "max_target",
                         "value": 5.0
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             }
         ],
         "remarks": null,
@@ -68312,7 +68353,8 @@
                         "key": "base_force_level",
                         "value": 0.0
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": null,
@@ -68343,7 +68385,8 @@
                         "key": "base_force_level",
                         "value": 0.0
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": null,
@@ -68374,7 +68417,8 @@
                         "key": "base_force_level",
                         "value": 0.0
                     }
-                ]
+                ],
+                "rangeExtend": 2.0
             },
             {
                 "rangeId": null,
@@ -68405,7 +68449,8 @@
                         "key": "base_force_level",
                         "value": 1.0
                     }
-                ]
+                ],
+                "rangeExtend": 2.0
             }
         ],
         "remarks": null,
@@ -77995,7 +78040,8 @@
                         "key": "jesca2_s_3[def].def",
                         "value": 0.65
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": null,
@@ -78046,7 +78092,8 @@
                         "key": "jesca2_s_3[def].def",
                         "value": 0.7
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": null,
@@ -78097,7 +78144,8 @@
                         "key": "jesca2_s_3[def].def",
                         "value": 0.75
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": null,
@@ -78148,7 +78196,8 @@
                         "key": "jesca2_s_3[def].def",
                         "value": 0.8
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             }
         ],
         "remarks": {
@@ -81628,7 +81677,8 @@
                         "key": "damage",
                         "value": 200.0
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": "2-2",
@@ -81675,7 +81725,8 @@
                         "key": "damage",
                         "value": 200.0
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": "2-2",
@@ -81722,7 +81773,8 @@
                         "key": "damage",
                         "value": 200.0
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": "2-2",
@@ -81769,7 +81821,8 @@
                         "key": "damage",
                         "value": 200.0
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             }
         ],
         "remarks": null,
@@ -84214,7 +84267,8 @@
                         "key": "surtr_s_2[critical].atk_scale",
                         "value": 1.5
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": null,
@@ -84245,7 +84299,8 @@
                         "key": "surtr_s_2[critical].atk_scale",
                         "value": 1.5
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": null,
@@ -84276,7 +84331,8 @@
                         "key": "surtr_s_2[critical].atk_scale",
                         "value": 1.5
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": null,
@@ -84307,7 +84363,8 @@
                         "key": "surtr_s_2[critical].atk_scale",
                         "value": 1.6
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             }
         ],
         "remarks": null,
@@ -84385,7 +84442,8 @@
                         "key": "max_target",
                         "value": 3.0
                     }
-                ]
+                ],
+                "rangeExtend": 2.0
             },
             {
                 "rangeId": null,
@@ -84428,7 +84486,8 @@
                         "key": "max_target",
                         "value": 3.0
                     }
-                ]
+                ],
+                "rangeExtend": 2.0
             },
             {
                 "rangeId": null,
@@ -84471,7 +84530,8 @@
                         "key": "max_target",
                         "value": 3.0
                     }
-                ]
+                ],
+                "rangeExtend": 2.0
             },
             {
                 "rangeId": null,
@@ -84514,7 +84574,8 @@
                         "key": "max_target",
                         "value": 4.0
                     }
-                ]
+                ],
+                "rangeExtend": 2.0
             }
         ],
         "remarks": null,
@@ -85343,7 +85404,8 @@
                         "key": "max_target",
                         "value": 3.0
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": null,
@@ -85370,7 +85432,8 @@
                         "key": "max_target",
                         "value": 3.0
                     }
-                ]
+                ],
+                "rangeExtend": 2.0
             },
             {
                 "rangeId": null,
@@ -85397,7 +85460,8 @@
                         "key": "max_target",
                         "value": 3.0
                     }
-                ]
+                ],
+                "rangeExtend": 2.0
             },
             {
                 "rangeId": null,
@@ -85424,7 +85488,8 @@
                         "key": "max_target",
                         "value": 3.0
                     }
-                ]
+                ],
+                "rangeExtend": 2.0
             }
         ],
         "remarks": null,
@@ -86147,7 +86212,8 @@
                         "key": "stun",
                         "value": 0.2
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": "3-2",
@@ -86178,7 +86244,8 @@
                         "key": "stun",
                         "value": 0.2
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": "3-2",
@@ -86209,7 +86276,8 @@
                         "key": "stun",
                         "value": 0.2
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             },
             {
                 "rangeId": "3-2",
@@ -86240,7 +86308,8 @@
                         "key": "stun",
                         "value": 0.2
                     }
-                ]
+                ],
+                "rangeExtend": 1.0
             }
         ],
         "remarks": null,
@@ -90767,6 +90836,1251 @@
             {
                 "key": "attack@cetsyr_s_3[collect_hp_ratio].interval",
                 "value": 2.0
+            }
+        ]
+    },
+    "skchr_udflow_1": {
+        "name_zh": "侵袭破坏应对",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "深巡"
+        ],
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": null,
+                "description_zh": "攻击力<@ba.vup>+39%</>，防御力<@ba.vup>+39%</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 35,
+                    "initSp": 10,
+                    "increment": 1.0
+                },
+                "duration": 30.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.39,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "def",
+                        "value": 0.39,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "攻击力<@ba.vup>+42%</>，防御力<@ba.vup>+42%</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 34,
+                    "initSp": 10,
+                    "increment": 1.0
+                },
+                "duration": 30.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.42,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "def",
+                        "value": 0.42,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "攻击力<@ba.vup>+45%</>，防御力<@ba.vup>+45%</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 33,
+                    "initSp": 10,
+                    "increment": 1.0
+                },
+                "duration": 30.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.45,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "def",
+                        "value": 0.45,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "攻击力<@ba.vup>+50%</>，防御力<@ba.vup>+50%</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 30,
+                    "initSp": 15,
+                    "increment": 1.0
+                },
+                "duration": 30.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "def",
+                        "value": 0.5,
+                        "valueStr": null
+                    }
+                ]
+            }
+        ],
+        "remarks": null,
+        "tags": [],
+        "blackboard": [
+            {
+                "key": "atk",
+                "value": 0.5,
+                "valueStr": null
+            },
+            {
+                "key": "def",
+                "value": 0.5,
+                "valueStr": null
+            }
+        ]
+    },
+    "skchr_udflow_2": {
+        "name_zh": "行动能力剥夺",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "深巡"
+        ],
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": "3-2",
+                "description_zh": "攻击距离<@ba.vup>加长</>，攻击力<@ba.vup>+40%</>，攻击速度<@ba.vup>+30</>，攻击变为向正前方发射的毒性鳍刺，能穿过<@ba.vup>3</>个目标且造成<@ba.vup>1</>秒<ba.sluggish>停顿</>。",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 36,
+                    "initSp": 22,
+                    "increment": 1.0
+                },
+                "duration": 15.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.4,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "mode",
+                        "value": 1.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@sluggish",
+                        "value": 1.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 30.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@max_target",
+                        "value": 3.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "rangeId": "3-2",
+                "description_zh": "攻击距离<@ba.vup>加长</>，攻击力<@ba.vup>+43%</>，攻击速度<@ba.vup>+36</>，攻击变为向正前方发射的毒性鳍刺，能穿过<@ba.vup>3</>个目标且造成<@ba.vup>1</>秒<ba.sluggish>停顿</>。",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 35,
+                    "initSp": 23,
+                    "increment": 1.0
+                },
+                "duration": 15.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.43,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "mode",
+                        "value": 1.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@sluggish",
+                        "value": 1.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 36.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@max_target",
+                        "value": 3.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "rangeId": "3-2",
+                "description_zh": "攻击距离<@ba.vup>加长</>，攻击力<@ba.vup>+46%</>，攻击速度<@ba.vup>+43</>，攻击变为向正前方发射的毒性鳍刺，能穿过<@ba.vup>3</>个目标且造成<@ba.vup>1</>秒<ba.sluggish>停顿</>。",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 34,
+                    "initSp": 24,
+                    "increment": 1.0
+                },
+                "duration": 15.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.46,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "mode",
+                        "value": 1.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@sluggish",
+                        "value": 1.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 43.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@max_target",
+                        "value": 3.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "rangeId": "3-2",
+                "description_zh": "攻击距离<@ba.vup>加长</>，攻击力<@ba.vup>+50%</>，攻击速度<@ba.vup>+50</>，攻击变为向正前方发射的毒性鳍刺，能穿过<@ba.vup>4</>个目标且造成<@ba.vup>1</>秒<ba.sluggish>停顿</>。",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 32,
+                    "initSp": 25,
+                    "increment": 1.0
+                },
+                "duration": 15.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "mode",
+                        "value": 1.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@sluggish",
+                        "value": 1.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 50.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@max_target",
+                        "value": 4.0,
+                        "valueStr": null
+                    }
+                ]
+            }
+        ],
+        "remarks": null,
+        "tags": [],
+        "blackboard": [
+            {
+                "key": "atk",
+                "value": 0.5,
+                "valueStr": null
+            },
+            {
+                "key": "mode",
+                "value": 1.0,
+                "valueStr": null
+            },
+            {
+                "key": "attack@sluggish",
+                "value": 1.0,
+                "valueStr": null
+            },
+            {
+                "key": "attack_speed",
+                "value": 50.0,
+                "valueStr": null
+            },
+            {
+                "key": "attack@max_target",
+                "value": 4.0,
+                "valueStr": null
+            }
+        ]
+    },
+    "skchr_haini_1": {
+        "name_zh": "迷惑性洋流图",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "海霓"
+        ],
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spType": "INCREASE_WHEN_ATTACK",
+        "levels": [
+            {
+                "rangeId": null,
+                "description_zh": "下次攻击的攻击力提升至<@ba.vup>145%</>，并同时攻击<@ba.vup>4</>个敌人",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WHEN_ATTACK",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 4,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 1.45,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "max_target",
+                        "value": 4.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "下次攻击的攻击力提升至<@ba.vup>160%</>，并同时攻击<@ba.vup>4</>个敌人",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WHEN_ATTACK",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 3,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 1.6,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "max_target",
+                        "value": 4.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "下次攻击的攻击力提升至<@ba.vup>180%</>，并同时攻击<@ba.vup>4</>个敌人",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WHEN_ATTACK",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 3,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 1.8,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "max_target",
+                        "value": 4.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "下次攻击的攻击力提升至<@ba.vup>200%</>，并同时攻击<@ba.vup>4</>个敌人",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WHEN_ATTACK",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 3,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 2.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "max_target",
+                        "value": 4.0,
+                        "valueStr": null
+                    }
+                ]
+            }
+        ],
+        "remarks": null,
+        "tags": [],
+        "blackboard": [
+            {
+                "key": "atk_scale",
+                "value": 2.0,
+                "valueStr": null
+            },
+            {
+                "key": "max_target",
+                "value": 4.0,
+                "valueStr": null
+            }
+        ]
+    },
+    "skchr_haini_2": {
+        "name_zh": "阻滞性显色剂",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "海霓"
+        ],
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": null,
+                "description_zh": "攻击力<@ba.vup>+40%</>，额外攻击一个目标，攻击范围内的非精英和领袖敌人移动速度<@ba.vup>50%</>，且被击倒时使天赋效果提升<@ba.vup>0.5</>倍，最多提升至<@ba.vup>3</>倍，持续至技能结束",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 38,
+                    "initSp": 22,
+                    "increment": 1.0
+                },
+                "duration": 27.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.4,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@move_speed",
+                        "value": -0.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@talent_up",
+                        "value": 0.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@max_talent_up",
+                        "value": 3.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@max_target",
+                        "value": 2.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "攻击力<@ba.vup>+43%</>，额外攻击一个目标，攻击范围内的非精英和领袖敌人移动速度<@ba.vup>55%</>，且被击倒时使天赋效果提升<@ba.vup>0.5</>倍，最多提升至<@ba.vup>3</>倍，持续至技能结束",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 37,
+                    "initSp": 23,
+                    "increment": 1.0
+                },
+                "duration": 28.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.43,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@move_speed",
+                        "value": -0.55,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@talent_up",
+                        "value": 0.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@max_talent_up",
+                        "value": 3.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@max_target",
+                        "value": 2.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "攻击力<@ba.vup>+46%</>，额外攻击一个目标，攻击范围内的非精英和领袖敌人移动速度<@ba.vup>55%</>，且被击倒时使天赋效果提升<@ba.vup>0.5</>倍，最多提升至<@ba.vup>3</>倍，持续至技能结束",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 36,
+                    "initSp": 24,
+                    "increment": 1.0
+                },
+                "duration": 29.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.46,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@move_speed",
+                        "value": -0.55,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@talent_up",
+                        "value": 0.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@max_talent_up",
+                        "value": 3.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@max_target",
+                        "value": 2.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "攻击力<@ba.vup>+50%</>，额外攻击一个目标，攻击范围内的非精英和领袖敌人移动速度<@ba.vup>60%</>，且被击倒时使天赋效果提升<@ba.vup>0.5</>倍，最多提升至<@ba.vup>3</>倍，持续至技能结束",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 35,
+                    "initSp": 25,
+                    "increment": 1.0
+                },
+                "duration": 30.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@move_speed",
+                        "value": -0.6,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@talent_up",
+                        "value": 0.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@max_talent_up",
+                        "value": 3.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@max_target",
+                        "value": 2.0,
+                        "valueStr": null
+                    }
+                ]
+            }
+        ],
+        "remarks": null,
+        "tags": [],
+        "blackboard": [
+            {
+                "key": "atk",
+                "value": 0.5,
+                "valueStr": null
+            },
+            {
+                "key": "attack@move_speed",
+                "value": -0.6,
+                "valueStr": null
+            },
+            {
+                "key": "attack@talent_up",
+                "value": 0.5,
+                "valueStr": null
+            },
+            {
+                "key": "attack@max_talent_up",
+                "value": 3.0,
+                "valueStr": null
+            },
+            {
+                "key": "attack@max_target",
+                "value": 2.0,
+                "valueStr": null
+            }
+        ]
+    },
+    "skchr_ulpia_1": {
+        "name_zh": "必须促成的接触",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "乌尔比安"
+        ],
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": "3-2",
+                "description_zh": "向前方扔出船锚，船锚会把目标地点周围的两名敌人<@ba.vup>中等力度地</>拖拽至面前，对其造成相当于攻击力<@ba.vup>210%</>的<@ba.vup>物理伤害</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 5,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 2.1,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "max_target",
+                        "value": 2.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "force",
+                        "value": 1.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "rangeId": "3-2",
+                "description_zh": "向前方扔出船锚，船锚会把目标地点周围的两名敌人<@ba.vup>中等力度地</>拖拽至面前，对其造成相当于攻击力<@ba.vup>230%</>的<@ba.vup>物理伤害</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 5,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 2.3,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "max_target",
+                        "value": 2.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "force",
+                        "value": 1.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "rangeId": "3-2",
+                "description_zh": "向前方扔出船锚，船锚会把目标地点周围的两名敌人<@ba.vup>中等力度地</>拖拽至面前，对其造成相当于攻击力<@ba.vup>250%</>的<@ba.vup>物理伤害</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 5,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 2.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "max_target",
+                        "value": 2.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "force",
+                        "value": 1.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "rangeId": "3-2",
+                "description_zh": "向前方扔出船锚，船锚会把目标地点周围的两名敌人<@ba.vup>中等力度地</>拖拽至面前，对其造成相当于攻击力<@ba.vup>270%</>的<@ba.vup>物理伤害</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 4,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 2.7,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "max_target",
+                        "value": 2.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "force",
+                        "value": 1.0,
+                        "valueStr": null
+                    }
+                ]
+            }
+        ],
+        "remarks": null,
+        "tags": [],
+        "blackboard": [
+            {
+                "key": "atk_scale",
+                "value": 2.7,
+                "valueStr": null
+            },
+            {
+                "key": "max_target",
+                "value": 2.0,
+                "valueStr": null
+            },
+            {
+                "key": "force",
+                "value": 1.0,
+                "valueStr": null
+            }
+        ]
+    },
+    "skchr_ulpia_2": {
+        "name_zh": "必须维系的界限",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "乌尔比安"
+        ],
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": null,
+                "description_zh": "第一天赋的效果提升至<@ba.vup>1.8</>倍，阻挡数<@ba.vup>+1</>，生命上限<@ba.vup>+40%</>，攻击力<@ba.vup>+130%</>\\n<@ba.rem>持续时间无限</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 78,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "talent_scale",
+                        "value": 1.8,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "atk",
+                        "value": 1.3,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "max_hp",
+                        "value": 0.4,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "block_cnt",
+                        "value": 1.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "第一天赋的效果提升至<@ba.vup>1.8</>倍，阻挡数<@ba.vup>+1</>，生命上限<@ba.vup>+45%</>，攻击力<@ba.vup>+140%</>\\n<@ba.rem>持续时间无限</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 76,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "talent_scale",
+                        "value": 1.8,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "atk",
+                        "value": 1.4,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "max_hp",
+                        "value": 0.45,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "block_cnt",
+                        "value": 1.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "第一天赋的效果提升至<@ba.vup>1.8</>倍，阻挡数<@ba.vup>+1</>，生命上限<@ba.vup>+50%</>，攻击力<@ba.vup>+150%</>\\n<@ba.rem>持续时间无限</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 74,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "talent_scale",
+                        "value": 1.8,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "atk",
+                        "value": 1.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "max_hp",
+                        "value": 0.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "block_cnt",
+                        "value": 1.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "第一天赋的效果提升至<@ba.vup>2</>倍，阻挡数<@ba.vup>+1</>，生命上限<@ba.vup>+60%</>，攻击力<@ba.vup>+160%</>\\n<@ba.rem>持续时间无限</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 70,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "talent_scale",
+                        "value": 2.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "atk",
+                        "value": 1.6,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "max_hp",
+                        "value": 0.6,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "block_cnt",
+                        "value": 1.0,
+                        "valueStr": null
+                    }
+                ]
+            }
+        ],
+        "remarks": null,
+        "tags": [],
+        "blackboard": [
+            {
+                "key": "talent_scale",
+                "value": 2.0,
+                "valueStr": null
+            },
+            {
+                "key": "atk",
+                "value": 1.6,
+                "valueStr": null
+            },
+            {
+                "key": "max_hp",
+                "value": 0.6,
+                "valueStr": null
+            },
+            {
+                "key": "block_cnt",
+                "value": 1.0,
+                "valueStr": null
+            }
+        ]
+    },
+    "skchr_ulpia_3": {
+        "name_zh": "必须开辟的通路",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "乌尔比安"
+        ],
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": "6-1",
+                "description_zh": "最大生命值<@ba.vup>+60%</>，攻击力<@ba.vup>+230%</>，立即朝面前扔出一个船锚，撞击到目标或达到最远距离时停止，并对周围所有敌人造成攻击力<@ba.vup>140%</>的物理伤害和<@ba.vup>6</>秒晕眩。若船锚停留的位置可以部署，乌尔比安会移动到该位置\\n<@ba.rem>可以手动结束技能，技能结束时乌尔比安会返回到初始的位置</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 28,
+                    "initSp": 15,
+                    "increment": 1.0
+                },
+                "duration": 25.0,
+                "blackboard": [
+                    {
+                        "key": "max_hp",
+                        "value": 0.6,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "atk",
+                        "value": 2.3,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "atk_scale",
+                        "value": 1.4,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "stun",
+                        "value": 6.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "projectile_range",
+                        "value": 1.8,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "rangeId": "6-1",
+                "description_zh": "最大生命值<@ba.vup>+60%</>，攻击力<@ba.vup>+240%</>，立即朝面前扔出一个船锚，撞击到目标或达到最远距离时停止，并对周围所有敌人造成攻击力<@ba.vup>145%</>的物理伤害和<@ba.vup>6</>秒晕眩。若船锚停留的位置可以部署，乌尔比安会移动到该位置\\n<@ba.rem>可以手动结束技能，技能结束时乌尔比安会返回到初始的位置</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 27,
+                    "initSp": 16,
+                    "increment": 1.0
+                },
+                "duration": 25.0,
+                "blackboard": [
+                    {
+                        "key": "max_hp",
+                        "value": 0.6,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "atk",
+                        "value": 2.4,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "atk_scale",
+                        "value": 1.45,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "stun",
+                        "value": 6.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "projectile_range",
+                        "value": 1.8,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "rangeId": "6-1",
+                "description_zh": "最大生命值<@ba.vup>+60%</>，攻击力<@ba.vup>+250%</>，立即朝面前扔出一个船锚，撞击到目标或达到最远距离时停止，并对周围所有敌人造成攻击力<@ba.vup>150%</>的物理伤害和<@ba.vup>6</>秒晕眩。若船锚停留的位置可以部署，乌尔比安会移动到该位置\\n<@ba.rem>可以手动结束技能，技能结束时乌尔比安会返回到初始的位置</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 26,
+                    "initSp": 18,
+                    "increment": 1.0
+                },
+                "duration": 25.0,
+                "blackboard": [
+                    {
+                        "key": "max_hp",
+                        "value": 0.6,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "atk",
+                        "value": 2.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "atk_scale",
+                        "value": 1.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "stun",
+                        "value": 6.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "projectile_range",
+                        "value": 1.8,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "rangeId": "6-1",
+                "description_zh": "最大生命值<@ba.vup>+80%</>，攻击力<@ba.vup>+260%</>，立即朝面前扔出一个船锚，撞击到目标或达到最远距离时停止，并对周围所有敌人造成攻击力<@ba.vup>160%</>的物理伤害和<@ba.vup>6</>秒晕眩。若船锚停留的位置可以部署，乌尔比安会移动到该位置\\n<@ba.rem>可以手动结束技能，技能结束时乌尔比安会返回到初始的位置</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 25,
+                    "initSp": 20,
+                    "increment": 1.0
+                },
+                "duration": 25.0,
+                "blackboard": [
+                    {
+                        "key": "max_hp",
+                        "value": 0.8,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "atk",
+                        "value": 2.6,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "atk_scale",
+                        "value": 1.6,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "stun",
+                        "value": 6.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "projectile_range",
+                        "value": 1.8,
+                        "valueStr": null
+                    }
+                ]
+            }
+        ],
+        "remarks": null,
+        "tags": [],
+        "blackboard": [
+            {
+                "key": "max_hp",
+                "value": 0.8,
+                "valueStr": null
+            },
+            {
+                "key": "atk",
+                "value": 2.6,
+                "valueStr": null
+            },
+            {
+                "key": "atk_scale",
+                "value": 1.6,
+                "valueStr": null
+            },
+            {
+                "key": "stun",
+                "value": 6.0,
+                "valueStr": null
+            },
+            {
+                "key": "projectile_range",
+                "value": 1.8,
+                "valueStr": null
             }
         ]
     }
