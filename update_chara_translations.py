@@ -128,30 +128,20 @@ for skill_id in chara_skills:
     data['name_ja'] = jp_skill_table[skill_id]['levels'][0]['name']
     data['name_en'] = en_skill_table[skill_id]['levels'][0]['name']
     levels = chara_skills[skill_id]['levels']
-    if len(levels) > 6:
-        l7 = levels[6]
-        m1 = None
-        m2 = None
-        m3 = None
-        if len(levels) > 8:
-            m1 = levels[7]
-            m2 = levels[8]
-            m3 = levels[9]
-        levels = [l7, m1, m2, m3]
-        levels = [i for i in levels if i is not None]
     index = 6
-    for level_index, level in enumerate(levels):
+    for i, level in enumerate(levels):
+        level_index = i + index
         range_extend = 0
         for item in level['blackboard']:
             if item['key'] == "ability_range_forward_extend":
                 range_extend = item['value']
-        if range_extend >0:
+        if range_extend > 0:
             level['rangeExtend'] = range_extend
         if not level['description_ja']:
             level["description_ja"] = replace_substrings(
-                jp_skill_table[skill_id]['levels'][index]['description'], jp_skill_table[skill_id]['levels'][index+level_index]['blackboard'])
+                jp_skill_table[skill_id]['levels'][level_index]['description'], jp_skill_table[skill_id]['levels'][level_index]['blackboard'])
             level["description_en"] = replace_substrings(
-                en_skill_table[skill_id]['levels'][index]['description'], en_skill_table[skill_id]['levels'][index+level_index]['blackboard'])
+                en_skill_table[skill_id]['levels'][level_index]['description'], en_skill_table[skill_id]['levels'][level_index]['blackboard'])
     return_dict[skill_id] = data
 return_dict = chara_skills | return_dict
 
