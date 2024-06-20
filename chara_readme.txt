@@ -146,6 +146,8 @@ enemy_3_around (mlynar)
 skill_active
 collision_wall (enforcer)
 one_time
+own_barrier (judge)
+no_ally_8tiles
 
 keys not in list
 ele_heal
@@ -153,3 +155,14 @@ ranged (Firewatch)
 def_scale_dmg (ceobe)
 add_sp_gain_option (blemishine)
 change_direction (jessica)
+range_scale (catapult)
+
+SCHEMA
+{
+            "key": "stun",
+            "targets": 99,
+            "value": 3.5,
+            "prob": 0.2,
+            "conditions": ["defeat"],
+            "target_air": true
+          }

@@ -1,6 +1,7 @@
 import json
 import os
 from chara_skills import replace_substrings
+from subprofession_tags import get_sub_profession_tags
 
 buffs_list = [
     "berserk", "dying", "buffres",
@@ -132,7 +133,8 @@ for id in filtered_cn_char_table:
             'desc_en': en_char_table[id]['potentialRanks'][idx]['description'] if id in en_char_table and idx < len(jp_char_table[id]['potentialRanks']) else ""
         }
 
-        attribute = {attribute_translate_table[pot['buff']['attributes']['attributeModifiers'][0]['attributeType']]                     : pot['buff']['attributes']['attributeModifiers'][0]['value']}if pot['buff'] else None
+        attribute = {attribute_translate_table[pot['buff']['attributes']['attributeModifiers'][0]['attributeType']]
+            : pot['buff']['attributes']['attributeModifiers'][0]['value']}if pot['buff'] else None
         pot_dict['attribute'] = attribute
         potential.append(pot_dict)
 
@@ -153,7 +155,7 @@ for id in filtered_cn_char_table:
     # subprofession stuff
     desc_zh = character_dict['description'].replace("<$ba", "<ba")
     blackboard = []
-    tags = []
+    tags = get_sub_profession_tags(character_dict,id)
     if character_dict['subProfessionId'] == "slower":
         blackboard.append({"key": "sluggish", "value": 0.8})
     if character_dict['subProfessionId'] == "chain":
@@ -161,31 +163,13 @@ for id in filtered_cn_char_table:
     if character_dict['subProfessionId'] == "stalker":
         blackboard.append({"key": "evasion", "value": 0.5,
                           "types": ["phys", "arts"]})
-        tags.append("lower_target_priority")
-    if character_dict['subProfessionId'] == "loopshooter":
-        tags.append("aspd_unrelated")
-    if character_dict['subProfessionId'] == "fastshot":
-        tags.append("priority_flying")
-    if character_dict['subProfessionId'] == "longrange":
-        tags.append("priority_low_def")
-    if character_dict['subProfessionId'] == "siegesniper":
-        tags.append("priority_highest_weight")
-    if character_dict['subProfessionId'] == "bard":
-        tags.append("heal_unhealable")
-    if character_dict["subProfessionId"] == "librator" or character_dict['subProfessionId'] == "healer":
-        tags.append("block_0")
+    if character_dict["subProfessionId"] == "librator":
         desc_zh = replace_substrings(
             character_dict['trait']['candidates'][-1]['overrideDescripton'], character_dict['trait']['candidates'][-1]['blackboard'])
-    if character_dict['subProfessionId'] in ["executor", "merchant", "agent"] and id != "char_376_therex":
-        tags.append("fast_redeploy")
-    if character_dict['subProfessionId'] in ["pusher", "hookmaster"]:
-        tags.append("position_all")
-    if character_dict['subProfessionId'] in ["unyield", "musha"]:
-        tags.append("no_healing")
 
     return_dict = {"id": id, "appellation": character_dict['appellation'], "name_zh": character_dict['name'], "name_ja": "", "name_en": "",
-                   "desc_zh": desc_zh, "desc_ja": "", "desc_en": "", 
-                   "time": imple_dates[id],
+                   "desc_zh": desc_zh, "desc_ja": "", "desc_en": "",
+                   "release_time": imple_dates[id],
                    "tags": tags, "blackboard": blackboard,
                    "nationId": character_dict['nationId'], "groupId": character_dict['groupId'], "teamId": character_dict['teamId'], "position": character_dict['position'],
                    "isSpChar": character_dict['isSpChar'], "rarity": character_dict['rarity'],
@@ -278,7 +262,8 @@ for id in cn_patch_table['patchChars']:
             'desc_en': en_patch_table['patchChars'][id]['potentialRanks'][idx]['description'] if in_global else ""
         }
 
-        attribute = {attribute_translate_table[pot['buff']['attributes']['attributeModifiers'][0]['attributeType']]                     : pot['buff']['attributes']['attributeModifiers'][0]['value']}if pot['buff'] else None
+        attribute = {attribute_translate_table[pot['buff']['attributes']['attributeModifiers'][0]['attributeType']]
+            : pot['buff']['attributes']['attributeModifiers'][0]['value']}if pot['buff'] else None
         pot_dict['attribute'] = attribute
         potential.append(pot_dict)
 
@@ -297,13 +282,11 @@ for id in cn_patch_table['patchChars']:
                   for key in character_dict['displayTokenDict']]
 
     blackboard = []
-    tags = []
-    if character_dict['subProfessionId'] == "slower":
-        blackboard.append({"key": "sluggish", "value": 0.8})
+    tags = get_sub_profession_tags(character_dict, id)
 
     return_dict = {"id": id, "appellation": character_dict['appellation'], "name_zh": character_dict['name'], "name_ja": "", "name_en": "",
                    "desc_zh": character_dict['description'].replace("<$ba", "<ba"), "desc_ja": "", "desc_en": "",
-                   "time": imple_dates[id],
+                   "release_time": imple_dates[id],
                    "tags": tags, "blackboard": blackboard,
                    "nationId": character_dict['nationId'], "groupId": character_dict['groupId'], "teamId": character_dict['teamId'], "position": character_dict['position'],
                    "isSpChar": character_dict['isSpChar'], "rarity": character_dict['rarity'],

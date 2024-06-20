@@ -42,7 +42,7 @@
                         "value": 0.2,
                         "duration": 20.0,
                         "conditions": [
-                            "melee"
+                            "position_melee"
                         ]
                     },
                     {
@@ -50,7 +50,7 @@
                         "value": 0.2,
                         "duration": 20.0,
                         "conditions": [
-                            "melee"
+                            "position_melee"
                         ]
                     }
                 ]
@@ -841,8 +841,10 @@
                     },
                     {
                         "key": "root",
+                        "targets": 1,
                         "value": 4.0,
-                        "prob": 0.2
+                        "prob": 0.2,
+                        "target_air": true
                     }
                 ]
             }
@@ -1137,7 +1139,9 @@
                     {
                         "key": "def",
                         "value": 0.19,
-                        "conditions": "block_2_enemy"
+                        "conditions": [
+                            "block_2_enemy"
+                        ]
                     }
                 ]
             }
@@ -1265,7 +1269,9 @@
                     {
                         "key": "ally_atk",
                         "value": 0.11,
-                        "conditions": "three_star"
+                        "conditions": [
+                            "three_star"
+                        ]
                     }
                 ]
             }
@@ -1565,7 +1571,9 @@
                     {
                         "key": "ally_def",
                         "value": 0.08,
-                        "conditions": "cost_under_10"
+                        "conditions": [
+                            "cost_under_10"
+                        ]
                     },
                     {
                         "key": "cond.cost",
@@ -1696,7 +1704,9 @@
                     {
                         "key": "ally_heal_scale",
                         "value": 1.23,
-                        "conditions": "cost_under_10"
+                        "conditions": [
+                            "cost_under_10"
+                        ]
                     }
                 ]
             }
@@ -1835,9 +1845,6 @@
                         "duration": 5.0,
                         "conditions": [
                             "when_attacked"
-                        ],
-                        "category": [
-                            "others"
                         ]
                     },
                     {
@@ -2320,13 +2327,15 @@
                 "desc_ja": "配置後、未配置の【前衛】全員の配置コスト-1（重複可能、最大-5まで）",
                 "desc_en": "After deployment, all undeployed Guard Operators get DP Cost -1 (each Operator can have a maximum of -5 DP Cost before each deployment)",
                 "tags": [
-                    "warrior"
+                    "WARRIOR"
                 ],
                 "blackboard": [
                     {
                         "key": "ally_cost_down",
                         "value": 1.0,
-                        "conditions": "WARRIOR"
+                        "conditions": [
+                            "WARRIOR"
+                        ]
                     },
                     {
                         "key": "value",
@@ -2352,18 +2361,22 @@
                 "desc_ja": "配置中、味方【狙撃】の配置コスト-2\nスキル発動中、味方【狙撃】の攻撃速度+23<@ba.talpu>（+3）</>",
                 "desc_en": "When deployed, all [Sniper] Operators have -2 DP Cost and gain +23 <@ba.talpu>(+3)</> ASPD when Elysium's skill is active",
                 "tags": [
-                    "sniper"
+                    "SNIPER"
                 ],
                 "blackboard": [
                     {
                         "key": "ally_cost_down",
                         "value": 2.0,
-                        "conditions": "SNIPER"
+                        "conditions": [
+                            "SNIPER"
+                        ]
                     },
                     {
                         "key": "ally_aspd",
                         "value": 23.0,
-                        "conditions": "sniper"
+                        "conditions": [
+                            "SNIPER"
+                        ]
                     }
                 ]
             }
@@ -2462,7 +2475,9 @@
                     {
                         "key": "sp_gain",
                         "value": 2.0,
-                        "conditions": "enemy_full_hp"
+                        "conditions": [
+                            "enemy_full_hp"
+                        ]
                     }
                 ]
             }
@@ -2484,7 +2499,9 @@
                     {
                         "key": "ally_atk",
                         "value": 0.12,
-                        "conditions": "position_melee"
+                        "conditions": [
+                            "position_melee"
+                        ]
                     }
                 ]
             }
@@ -2506,12 +2523,18 @@
                     {
                         "key": "ally_aspd",
                         "value": 8.0,
-                        "conditions": "position_melee|block_3_more"
+                        "conditions": [
+                            "position_melee",
+                            "block_3_more"
+                        ]
                     },
                     {
                         "key": "ally_def",
                         "value": 0.14,
-                        "conditions": "position_melee|block_3_more"
+                        "conditions": [
+                            "position_melee",
+                            "block_3_more"
+                        ]
                     },
                     {
                         "key": "sophia_t_1_less.attack_speed",
@@ -2541,7 +2564,9 @@
                     {
                         "key": "ally_def",
                         "value": 0.14,
-                        "conditions": "position_melee"
+                        "conditions": [
+                            "position_melee"
+                        ]
                     },
                     {
                         "key": "bryota_t_self.def",
@@ -2885,7 +2910,9 @@
                     {
                         "key": "ally_aspd",
                         "value": 24.0,
-                        "conditions": "student"
+                        "conditions": [
+                            "student"
+                        ]
                     }
                 ]
             }
@@ -3050,8 +3077,7 @@
                             "phys",
                             "ranged_attack"
                         ],
-                        "value": 0.3,
-                        "conditions": "ranged_attack"
+                        "value": 0.3
                     }
                 ]
             }
@@ -3279,10 +3305,15 @@
                 "desc_ja": "スキル未発動時、攻撃される度テキーラの攻撃力の23%<@ba.talpu>（+3%）</>の術ダメージで敵に反撃する",
                 "desc_en": "When skill is inactive, deals 23% <@ba.talpu>(+3%)</> of Tequila's ATK as Arts damage to the attacker when Tequila is attacked",
                 "tags": [
-                    "arts",
-                    "reflect_dmg"
+                    "arts"
                 ],
                 "blackboard": [
+                    {
+                        "key": "reflect_dmg",
+                        "dep_stat": "atk",
+                        "value": 0.23,
+                        "damage_type": "arts"
+                    },
                     {
                         "key": "atk_scale",
                         "value": 0.23
@@ -3496,7 +3527,9 @@
                     {
                         "key": "ally_ammo",
                         "value": 1.0,
-                        "conditions": "laterano"
+                        "conditions": [
+                            "laterano"
+                        ]
                     }
                 ]
             }
@@ -3553,9 +3586,6 @@
                         ],
                         "conditions": [
                             "blocked"
-                        ],
-                        "category": [
-                            "others"
                         ]
                     }
                 ]
@@ -3776,9 +3806,6 @@
                         ],
                         "conditions": [
                             "blocked"
-                        ],
-                        "category": [
-                            "others"
                         ]
                     }
                 ]
@@ -4066,20 +4093,22 @@
                 "desc_zh": "首次部署后立即获得35<@ba.talpu>（+5）</>点技力，每次部署时使在场术师干员技力+5<@ba.talpu>（+1）</>，在场时其余友方术师干员初始技力+5<@ba.talpu>（+1）</>",
                 "desc_ja": "初回配置後自身のSP+35<@ba.talpu>（+5）</>、配置する度に配置中の【術師】のSP+5<@ba.talpu>（+1）</>、配置中、自身以外の味方【術師】全員のストックSP+5<@ba.talpu>（+1）</>",
                 "desc_en": "Immediately obtains 35 <@ba.talpu>(+5)</> SP after the first deployment. On each deployment, grants SP +5 <@ba.talpu>(+1)</> to other Caster allies on the field. When deployed, other Caster allies obtain initial SP +5 <@ba.talpu>(+1)</>",
-                "tags": [],
+                "tags": [
+                    "CASTER"
+                ],
                 "blackboard": [
                     {
                         "key": "ally_sp_gain",
                         "value": 5.0,
                         "conditions": [
-                            "caster"
+                            "CASTER"
                         ]
                     },
                     {
                         "key": "ally_sp_stock",
                         "value": 5.0,
                         "conditions": [
-                            "caster"
+                            "CASTER"
                         ]
                     },
                     {
@@ -4266,7 +4295,9 @@
                     {
                         "key": "aspd_down",
                         "value": 25,
-                        "conditions": "blocked"
+                        "conditions": [
+                            "blocked"
+                        ]
                     }
                 ]
             }
@@ -4311,13 +4342,15 @@
                 "desc_ja": "配置中、味方【医療】の攻撃速度+14<@ba.talpu>(+2)</>",
                 "desc_en": "All [Medic] Operators' ASPD +14 <@ba.talpu>(+2)</> when Silence is deployed",
                 "tags": [
-                    "medic"
+                    "MEDIC"
                 ],
                 "blackboard": [
                     {
                         "key": "ally_aspd",
                         "value": 14.0,
-                        "conditions": "MEDIC"
+                        "conditions": [
+                            "MEDIC"
+                        ]
                     }
                 ]
             }
@@ -4482,13 +4515,15 @@
                 "desc_ja": "配置中、自身以外の【医療】が1名以上配置されている時、【医療】の攻撃力+11%<@ba.talpu>（+1%）</>",
                 "desc_en": "When Mulberry and at least one more Medic Operator are on the battlefield, all Medic Operators gain +11% <@ba.talpu>(+1%)</> ATK",
                 "tags": [
-                    "medic"
+                    "MEDIC"
                 ],
                 "blackboard": [
                     {
                         "key": "ally_atk",
                         "value": 0.11,
-                        "conditions": "MEDIC"
+                        "conditions": [
+                            "MEDIC"
+                        ]
                     }
                 ]
             }
@@ -4512,7 +4547,9 @@
                     {
                         "key": "ally_max_hp",
                         "value": 0.12,
-                        "conditions": "position_ranged"
+                        "conditions": [
+                            "position_ranged"
+                        ]
                     }
                 ]
             }
@@ -4585,8 +4622,7 @@
                 "blackboard": [
                     {
                         "key": "ally_heal_scale",
-                        "value": 1.18,
-                        "conditions": "highest_max_hp"
+                        "value": 1.18
                     }
                 ]
             }
@@ -4898,7 +4934,11 @@
                     {
                         "key": "ally_def",
                         "value": 70,
-                        "conditions": "PIONEER|WARRIOR"
+                        "conditions": [
+                            "PIONEER",
+                            "WARRIOR",
+                            "ally_behind"
+                        ]
                     }
                 ]
             }
@@ -4957,7 +4997,9 @@
                     {
                         "key": "sp_gain",
                         "value": 3.0,
-                        "conditions": "arts"
+                        "conditions": [
+                            "when_attacked_arts"
+                        ]
                     }
                 ]
             }
@@ -5042,17 +5084,20 @@
                 "desc_zh": "法术抗性+10，每次受到法术攻击时对目标造成相当于车尔尼攻击力85%<@ba.talpu>（+5%）</>的法术伤害",
                 "desc_ja": "術耐性+10、術攻撃を受ける度ツェルニーの攻撃力の85%<@ba.talpu>（+5%）</>の術ダメージで敵に反撃する",
                 "desc_en": "RES +10. Deals 85% <@ba.talpu>(+5%)</> of Czerny's ATK as Arts damage to the attacker whenever Czerny receives Arts attacks",
-                "tags": [
-                    "reflect_dmg"
-                ],
+                "tags": [],
                 "blackboard": [
+                    {
+                        "key": "reflect_dmg",
+                        "dep_stat": "atk",
+                        "value": 0.85,
+                        "damage_type": "arts",
+                        "conditions": [
+                            "arts"
+                        ]
+                    },
                     {
                         "key": "magic_resistance",
                         "value": 10.0
-                    },
-                    {
-                        "key": "atk_scale",
-                        "value": 0.85
                     }
                 ]
             }
@@ -5351,7 +5396,9 @@
                     {
                         "key": "ally_aspd",
                         "value": 14.0,
-                        "conditions": "abyssal"
+                        "conditions": [
+                            "abyssal"
+                        ]
                     }
                 ]
             }
@@ -5556,7 +5603,9 @@
                     {
                         "key": "silence",
                         "value": 8.0,
-                        "conditions": "infected"
+                        "conditions": [
+                            "infected"
+                        ]
                     }
                 ]
             }
@@ -5742,7 +5791,9 @@
                     {
                         "key": "ally_aspd",
                         "value": 12.0,
-                        "conditions": "kazimierz"
+                        "conditions": [
+                            "kazimierz"
+                        ]
                     }
                 ]
             }
@@ -5849,12 +5900,16 @@
                     {
                         "key": "ally_atk",
                         "value": 0.06,
-                        "conditions": "skill_1"
+                        "conditions": [
+                            "skill_1"
+                        ]
                     },
                     {
                         "key": "ally_def",
                         "value": 0.06,
-                        "conditions": "skill_2"
+                        "conditions": [
+                            "skill_2"
+                        ]
                     }
                 ]
             },
@@ -5894,9 +5949,12 @@
                         "value": 0.4
                     },
                     {
-                        "key": "ally_protect",
+                        "key": "ally_dmg_res",
                         "value": 0.2,
-                        "conditions": "hp_under_40"
+                        "conditions": [
+                            "hp_lt_40"
+                        ],
+                        "category": "protect"
                     }
                 ]
             }
@@ -5920,9 +5978,12 @@
                         "value": 0.4
                     },
                     {
-                        "key": "ally_protect",
+                        "key": "ally_dmg_res",
                         "value": 0.2,
-                        "conditions": "hp_under_40"
+                        "conditions": [
+                            "hp_lt_40"
+                        ],
+                        "category": "protect"
                     }
                 ]
             }
@@ -5946,9 +6007,12 @@
                         "value": 0.7
                     },
                     {
-                        "key": "ally_protect",
+                        "key": "ally_dmg_res",
                         "value": 0.16,
-                        "conditions": "hp_above_70"
+                        "conditions": [
+                            "hp_gt_70"
+                        ],
+                        "category": "protect"
                     }
                 ]
             }
@@ -6093,7 +6157,9 @@
                     {
                         "key": "def_penetrate",
                         "value": 200.0,
-                        "conditions": "weight_gte_3"
+                        "conditions": [
+                            "weight_gte_3"
+                        ]
                     }
                 ]
             }
@@ -6305,12 +6371,17 @@
                 "desc_zh": "在场时所有【狙击】干员的攻击回复技能每2.5秒回复1点技力",
                 "desc_ja": "配置中、2.5秒ごとに味方【狙撃】の攻撃回復系スキルのSPを1回復",
                 "desc_en": "Every 2.5 seconds when deployed, restores 1 Skill Point to all deployed Sniper allies that have an Offensive Recovery skill.",
-                "tags": [],
+                "tags": [
+                    "SNIPER"
+                ],
                 "blackboard": [
                     {
                         "key": "ally_sp_gain",
                         "value": 1.0,
-                        "conditions": "SNIPER"
+                        "conditions": [
+                            "SNIPER",
+                            "INCREASE_WHEN_ATTACK"
+                        ]
                     },
                     {
                         "key": "sp_gain",
@@ -6339,7 +6410,9 @@
                     {
                         "key": "sp_gain",
                         "value": 9.0,
-                        "conditions": "shield_usage"
+                        "conditions": [
+                            "shield_usage"
+                        ]
                     }
                 ]
             }
@@ -6383,7 +6456,9 @@
                     {
                         "key": "sp_gain",
                         "value": 20.0,
-                        "conditions": "first_deploy"
+                        "conditions": [
+                            "first_deploy"
+                        ]
                     }
                 ]
             }
@@ -6433,13 +6508,15 @@
                 "desc_ja": "配置中、自身以外の【狙撃】が1名以上配置されている時、【狙撃】の攻撃力+10%<@ba.talpu>(+2%)</>",
                 "desc_en": "When Schwarz and at least one more [Sniper] Operator are on the battlefield, all [Sniper] Operators' ATK +10%<@ba.talpu> (+2%)</>",
                 "tags": [
-                    "sniper"
+                    "SNIPER"
                 ],
                 "blackboard": [
                     {
                         "key": "ally_atk",
                         "value": 0.1,
-                        "conditions": "SNIPER"
+                        "conditions": [
+                            "SNIPER"
+                        ]
                     }
                 ]
             }
@@ -6583,9 +6660,6 @@
                         ],
                         "conditions": [
                             "stun"
-                        ],
-                        "category": [
-                            "others"
                         ]
                     }
                 ]
@@ -6619,7 +6693,9 @@
                         "key": "atk",
                         "value": 0.5,
                         "type": "vigor",
-                        "conditions": "hp_above_80"
+                        "conditions": [
+                            "hp_gt_80"
+                        ]
                     }
                 ]
             },
@@ -6661,7 +6737,9 @@
                     {
                         "key": "def_penetrate",
                         "value": 0.6,
-                        "conditions": "weight_gte_3"
+                        "conditions": [
+                            "weight_gte_3"
+                        ]
                     }
                 ]
             },
@@ -6681,7 +6759,9 @@
                     {
                         "key": "ally_atk",
                         "value": 0.1,
-                        "conditions": "student"
+                        "conditions": [
+                            "student"
+                        ]
                     }
                 ]
             }
@@ -6730,8 +6810,11 @@
                     },
                     {
                         "key": "sluggish",
+                        "targets": 1,
                         "value": 3.0,
-                        "conditions": "first_hit"
+                        "conditions": [
+                            "first_hit"
+                        ]
                     }
                 ]
             }
@@ -6765,7 +6848,7 @@
                 "desc_ja": "配置中、配置中の【術師】から一体ランダムに選択し、対象と自身の攻撃力+8％",
                 "desc_en": "When deployed, grants +8% ATK to this unit and a random deployed Caster Operator",
                 "tags": [
-                    "caster"
+                    "CASTER"
                 ],
                 "blackboard": [
                     {
@@ -6775,7 +6858,9 @@
                     {
                         "key": "ally_atk",
                         "value": 0.08,
-                        "conditions": "CASTER"
+                        "conditions": [
+                            "CASTER"
+                        ]
                     }
                 ]
             }
@@ -6886,18 +6971,22 @@
                 "desc_ja": "配置中、味方【先鋒】の攻撃力と防御力+10%<@ba.talpu>(+2%)</>",
                 "desc_en": "All Vanguard Operators' ATK and DEF +10% <@ba.talpu>(+2%)</>",
                 "tags": [
-                    "pioneer"
+                    "PIONEER"
                 ],
                 "blackboard": [
                     {
                         "key": "ally_atk",
                         "value": 0.1,
-                        "conditions": "PIONEER"
+                        "conditions": [
+                            "PIONEER"
+                        ]
                     },
                     {
                         "key": "ally_def",
                         "value": 0.1,
-                        "conditions": "PIONEER"
+                        "conditions": [
+                            "PIONEER"
+                        ]
                     }
                 ]
             },
@@ -6914,7 +7003,9 @@
                     {
                         "key": "sp_gain",
                         "value": 1.0,
-                        "conditions": "four_tile_enemy_defeat"
+                        "conditions": [
+                            "four_tile_enemy_defeat"
+                        ]
                     }
                 ]
             }
@@ -6954,14 +7045,16 @@
                 "desc_ja": "編成中、味方【先鋒】のストックSP+8<@ba.talpu>（+2）</>",
                 "desc_en": "When this unit is in the squad, all Vanguards gain +8<@ba.talpu>(+2)</> Initial SP",
                 "tags": [
-                    "pioneer",
+                    "PIONEER",
                     "squad_effect"
                 ],
                 "blackboard": [
                     {
                         "key": "ally_sp_stock",
                         "value": 8.0,
-                        "conditions": "PIONEER"
+                        "conditions": [
+                            "PIONEER"
+                        ]
                     }
                 ]
             }
@@ -7195,7 +7288,9 @@
                     {
                         "key": "ally_cost_down",
                         "value": -2.0,
-                        "conditions": "rhine"
+                        "conditions": [
+                            "rhine"
+                        ]
                     },
                     {
                         "key": "runtime_cost",
@@ -7224,10 +7319,7 @@
                     },
                     {
                         "key": "atk_down",
-                        "value": 100.0,
-                        "category": [
-                            "others"
-                        ]
+                        "value": 100.0
                     },
                     {
                         "key": "steal_atk_max",
@@ -7236,7 +7328,9 @@
                     {
                         "key": "root",
                         "value": 5.0,
-                        "conditions": "first_hit"
+                        "conditions": [
+                            "first_hit"
+                        ]
                     }
                 ]
             },
@@ -7314,7 +7408,9 @@
                 "desc_zh": "在场时所有【术师】干员的技力自然回复速度+0.4/秒（同类效果取最高）",
                 "desc_ja": "配置中、味方【術師】のSPの自然回復速度+0.4sp/秒（同種の効果は高いほうのみ適用）",
                 "desc_en": "When deployed, increases the SP recovery rate of all Casters by +0.4/second (only the highest effect of this type takes place)",
-                "tags": [],
+                "tags": [
+                    "CASTER"
+                ],
                 "blackboard": [
                     {
                         "key": "sp_regen",
@@ -7323,7 +7419,9 @@
                     {
                         "key": "ally_sp_regen",
                         "value": 0.4,
-                        "conditions": "CASTER"
+                        "conditions": [
+                            "CASTER"
+                        ]
                     }
                 ]
             },
@@ -7357,13 +7455,15 @@
                 "desc_ja": "配置中、味方【術師】の攻撃力+16%<@ba.talpu>(+2%)</>",
                 "desc_en": "All [Caster] Operators' ATK +16% <@ba.talpu>(+2%)</> when Eyjafjalla is deployed",
                 "tags": [
-                    "caster"
+                    "CASTER"
                 ],
                 "blackboard": [
                     {
                         "key": "ally_atk",
                         "value": 0.16,
-                        "conditions": "CASTER"
+                        "conditions": [
+                            "CASTER"
+                        ]
                     }
                 ]
             },
@@ -7450,7 +7550,9 @@
                     {
                         "key": "silence",
                         "value": 3.0,
-                        "conditions": "flying"
+                        "conditions": [
+                            "flying"
+                        ]
                     }
                 ]
             },
@@ -7628,7 +7730,9 @@
                             "melee_attack",
                             "ranged_attack"
                         ],
-                        "conditions": "dmg_below_200"
+                        "conditions": [
+                            "dmg_below_200"
+                        ]
                     },
                     {
                         "key": "atk_scale",
@@ -7666,7 +7770,9 @@
                     {
                         "key": "sp_gain",
                         "value": 1.0,
-                        "conditions": "when_attacked"
+                        "conditions": [
+                            "when_attacked"
+                        ]
                     }
                 ]
             }
@@ -7890,7 +7996,9 @@
                 "desc_zh": "在场时所有【辅助】干员的技力自然回复速度+0.4/秒（同类效果取最高）",
                 "desc_ja": "配置中、味方【補助】のSPの自然回復速度+0.4sp/秒（同種の効果は高いほうのみ適用）",
                 "desc_en": "When deployed, increases the SP recovery rate of all Supporters by +0.4/second (only the highest effect of this type takes place)",
-                "tags": [],
+                "tags": [
+                    "SUPPORT"
+                ],
                 "blackboard": [
                     {
                         "key": "sp_regen",
@@ -7899,7 +8007,9 @@
                     {
                         "key": "ally_sp_regen",
                         "value": 0.4,
-                        "conditions": "SUPPORT"
+                        "conditions": [
+                            "SUPPORT"
+                        ]
                     }
                 ]
             },
@@ -8031,13 +8141,17 @@
                 "tags": [],
                 "blackboard": [
                     {
-                        "key": "protect",
-                        "value": 0.1
+                        "key": "dmg_res",
+                        "value": 0.24,
+                        "conditions": [
+                            "hp_lt_30"
+                        ],
+                        "category": "protect"
                     },
                     {
-                        "key": "protect",
-                        "value": 0.24,
-                        "conditions": "hp_under_30"
+                        "key": "dmg_res",
+                        "value": 0.1,
+                        "category": "protect"
                     },
                     {
                         "key": "resistance_scale",
@@ -8212,9 +8326,6 @@
                         "value": 1.22,
                         "types": [
                             "apoptosis"
-                        ],
-                        "category": [
-                            "others"
                         ]
                     }
                 ]
@@ -8359,7 +8470,9 @@
                     {
                         "key": "aspd_down",
                         "value": 30.0,
-                        "conditions": "block"
+                        "conditions": [
+                            "blocked"
+                        ]
                     },
                     {
                         "key": "lmlee_t_1[self].attack_speed",
@@ -8573,7 +8686,10 @@
                     {
                         "key": "dmg_res",
                         "value": 0.25,
-                        "conditions": "abyssal|seamonster"
+                        "conditions": [
+                            "abyssal",
+                            "seamonster"
+                        ]
                     }
                 ]
             },
@@ -8693,7 +8809,9 @@
                     {
                         "key": "ally_max_hp",
                         "value": 0.23,
-                        "conditions": "abyssal"
+                        "conditions": [
+                            "abyssal"
+                        ]
                     }
                 ]
             }
@@ -9051,10 +9169,7 @@
                     {
                         "key": "atk_down",
                         "value": 0.22,
-                        "duration": 6.0,
-                        "category": [
-                            "others"
-                        ]
+                        "duration": 6.0
                     },
                     {
                         "key": "damage_scale",
@@ -9135,13 +9250,15 @@
                 "desc_ja": "配置中、味方【重装】の防御力+8%<@ba.talpu>(+2%)</>",
                 "desc_en": "When deployed, allied Defender Operators gain +8%<@ba.talpu>(+2%)</> DEF",
                 "tags": [
-                    "tank"
+                    "TANK"
                 ],
                 "blackboard": [
                     {
                         "key": "ally_def",
                         "value": 0.08,
-                        "conditions": "TANK"
+                        "conditions": [
+                            "TANK"
+                        ]
                     }
                 ]
             }
@@ -9191,7 +9308,9 @@
                     {
                         "key": "ally_sp_gain",
                         "value": 1.0,
-                        "conditions": "heal"
+                        "conditions": [
+                            "heal"
+                        ]
                     }
                 ]
             }
@@ -9310,14 +9429,16 @@
                 "desc_ja": "編成中、味方【重装】の最大HP+20%<@ba.talpu>（+4%）</>",
                 "desc_en": "When this unit is in the squad, all Defenders gain +20%<@ba.talpu>(+4%)</> Max HP",
                 "tags": [
-                    "tank",
+                    "TANK",
                     "squad_effect"
                 ],
                 "blackboard": [
                     {
                         "key": "ally_max_hp",
                         "value": 0.2,
-                        "conditions": "TANK"
+                        "conditions": [
+                            "TANK"
+                        ]
                     }
                 ]
             },
@@ -9387,7 +9508,9 @@
                     {
                         "key": "dmg_res",
                         "value": 0.3,
-                        "conditions": "sarkaz"
+                        "conditions": [
+                            "sarkaz"
+                        ]
                     }
                 ]
             }
@@ -9435,10 +9558,18 @@
                 "desc_ja": "自身により獲得する<ba.barrier>バリア</>の存続期間中、攻撃される度ペナンスの攻撃力の53％<@ba.talpu>（+3%）</>の術ダメージで攻撃者に反撃",
                 "desc_en": "Each time this unit is attacked while under the effect of her own <ba.barrier>Barrier</>, deals 53% <@ba.talpu>(+3%)</> ATK as Arts damage to the attacker",
                 "tags": [
-                    "reflect_dmg",
                     "arts"
                 ],
                 "blackboard": [
+                    {
+                        "key": "reflect_dmg",
+                        "dep_stat": "atk",
+                        "value": 0.53,
+                        "damage_type": "arts",
+                        "conditions": [
+                            "own_barrier"
+                        ]
+                    },
                     {
                         "key": "atk_scale",
                         "value": 0.53
@@ -9465,14 +9596,19 @@
                         "value": 0.5
                     },
                     {
-                        "key": "protect",
+                        "key": "dmg_res",
                         "value": 0.22,
-                        "conditions": "hp_under_50"
+                        "conditions": [
+                            "hp_lt_50"
+                        ],
+                        "category": "protect"
                     },
                     {
                         "key": "atk_scale",
                         "value": 1.17,
-                        "conditions": "hp_above_50"
+                        "conditions": [
+                            "hp_gt_50"
+                        ]
                     }
                 ]
             },
@@ -9489,7 +9625,9 @@
                     {
                         "key": "sp_regen",
                         "value": 0.2,
-                        "conditions": "block"
+                        "conditions": [
+                            "block"
+                        ]
                     }
                 ]
             }
@@ -9513,7 +9651,9 @@
                     {
                         "key": "ally_atk",
                         "value": 0.23,
-                        "conditions": "TANK"
+                        "conditions": [
+                            "TANK"
+                        ]
                     }
                 ]
             },
@@ -9576,7 +9716,9 @@
                     {
                         "key": "ally_def",
                         "value": 0.18,
-                        "conditions": "ally_behind"
+                        "conditions": [
+                            "ally_behind"
+                        ]
                     }
                 ]
             },
@@ -9593,7 +9735,10 @@
                     {
                         "key": "sp_gain",
                         "value": 1.0,
-                        "conditions": "token_attacked"
+                        "prob": 0.55,
+                        "conditions": [
+                            "token_attacked"
+                        ]
                     },
                     {
                         "key": "prob",
@@ -9629,10 +9774,7 @@
                     {
                         "key": "atk_down",
                         "value": 0.15,
-                        "duration": 3.0,
-                        "category": [
-                            "others"
-                        ]
+                        "duration": 3.0
                     },
                     {
                         "key": "duration",
@@ -9894,9 +10036,17 @@
                 "tags": [],
                 "blackboard": [
                     {
-                        "key": "protect",
+                        "key": "ally_dmg_res",
                         "value": 0.21,
-                        "conditions": "ally_behind"
+                        "conditions": [
+                            "ally_behind"
+                        ],
+                        "category": "protect"
+                    },
+                    {
+                        "key": "dmg_res",
+                        "value": 0.21,
+                        "category": "protect"
                     }
                 ]
             }
@@ -9922,7 +10072,9 @@
                     {
                         "key": "sp_gain",
                         "value": 1.0,
-                        "conditions": "skill_atk_def_recovery"
+                        "conditions": [
+                            "skill_atk_def_recovery"
+                        ]
                     }
                 ]
             },
@@ -9994,7 +10146,9 @@
                     {
                         "key": "attack_speed",
                         "value": 21.0,
-                        "conditions": "seamonster"
+                        "conditions": [
+                            "seamonster"
+                        ]
                     }
                 ]
             }
@@ -10041,7 +10195,9 @@
                     {
                         "key": "def_penetrate",
                         "value": 0.3,
-                        "conditions": "tremble"
+                        "conditions": [
+                            "tremble"
+                        ]
                     }
                 ]
             }
@@ -10236,7 +10392,9 @@
                     {
                         "key": "shield",
                         "value": 1,
-                        "conditions": "melee_attack"
+                        "conditions": [
+                            "melee_attack"
+                        ]
                     }
                 ]
             }
@@ -10458,7 +10616,9 @@
                     {
                         "key": "dmg_res",
                         "value": 0.35,
-                        "conditions": "croc_duel"
+                        "conditions": [
+                            "croc_duel"
+                        ]
                     }
                 ]
             },
@@ -10559,7 +10719,9 @@
                     {
                         "key": "dmg_res",
                         "value": 0.15,
-                        "conditions": "enemy_3_around"
+                        "conditions": [
+                            "enemy_3_around"
+                        ]
                     }
                 ]
             },
@@ -10572,16 +10734,28 @@
                 "desc_ja": "配置中、敵に攻撃されやすくなり、味方【カジミエーシュ】が攻撃を受ける度、ムリナールの攻撃力の18%<@ba.talpu>（+3%）</>の確定ダメージで敵に反撃する",
                 "desc_en": "More likely to be attacked while deployed. When any Kazimierz Operator is attacked, reflect 18%<@ba.talpu>(+3%)</> of Młynar's ATK as True Damage",
                 "tags": [
-                    "taunt",
                     "true",
-                    "ally_reflect_dmg",
-                    "reflect_dmg",
                     "kazimierz"
                 ],
                 "blackboard": [
                     {
-                        "key": "taunt_level",
-                        "value": 1.0
+                        "key": "reflect_dmg",
+                        "dep_stat": "atk",
+                        "value": 0.18,
+                        "damage_type": "true"
+                    },
+                    {
+                        "key": "ally_reflect_dmg",
+                        "dep_stat": "atk",
+                        "value": 0.18,
+                        "damage_type": "true",
+                        "conditions": [
+                            "kazimierz"
+                        ]
+                    },
+                    {
+                        "key": "taunt",
+                        "value": 999.0
                     },
                     {
                         "key": "atk_scale",
@@ -10809,7 +10983,9 @@
                     {
                         "key": "ally_atk",
                         "value": 0.16,
-                        "conditions": "abyssal"
+                        "conditions": [
+                            "abyssal"
+                        ]
                     }
                 ]
             },
@@ -10895,7 +11071,9 @@
                     {
                         "key": "levitate",
                         "value": 2.5,
-                        "conditions": "first_hit"
+                        "conditions": [
+                            "first_hit"
+                        ]
                     },
                     {
                         "key": "self_damage_scale",
@@ -11154,9 +11332,6 @@
                         "value": 165.0,
                         "types": [
                             "arts"
-                        ],
-                        "category": [
-                            "others"
                         ]
                     }
                 ]
@@ -11217,7 +11392,9 @@
                     {
                         "key": "dmg_res",
                         "value": 0.15,
-                        "conditions": "sarkaz"
+                        "conditions": [
+                            "sarkaz"
+                        ]
                     }
                 ]
             }
@@ -11247,12 +11424,16 @@
                     {
                         "key": "ally_atk",
                         "value": 0.14,
-                        "conditions": "skill_active"
+                        "conditions": [
+                            "skill_active"
+                        ]
                     },
                     {
                         "key": "ally_def",
                         "value": 0.14,
-                        "conditions": "skill_active"
+                        "conditions": [
+                            "skill_active"
+                        ]
                     }
                 ]
             }
@@ -11296,27 +11477,25 @@
                 "desc_zh": "攻击使目标在3秒内每秒受到90<@ba.talpu>（+10）</>点法术伤害（对【海怪】敌人伤害加倍）",
                 "desc_ja": "",
                 "desc_en": "",
-                "tags": [],
+                "tags": [
+                    "dot"
+                ],
                 "blackboard": [
                     {
                         "key": "duration",
-                        "value": 3.0,
-                        "valueStr": null
+                        "value": 3.0
                     },
                     {
                         "key": "interval",
-                        "value": 1.0,
-                        "valueStr": null
+                        "value": 1.0
                     },
                     {
                         "key": "damage",
-                        "value": 90.0,
-                        "valueStr": null
+                        "value": 90.0
                     },
                     {
                         "key": "damage_seamonster",
-                        "value": 180.0,
-                        "valueStr": null
+                        "value": 180.0
                     }
                 ]
             }
@@ -11337,8 +11516,19 @@
                 "blackboard": [
                     {
                         "key": "damage_scale",
+                        "targets": 99,
                         "value": 1.18,
-                        "valueStr": null
+                        "types": [
+                            "phys",
+                            "arts",
+                            "true"
+                        ],
+                        "conditions": [
+                            "non_elite_boss"
+                        ],
+                        "category": [
+                            "fragile"
+                        ]
                     }
                 ]
             }
@@ -11355,22 +11545,21 @@
                 "desc_zh": "每次受到伤害时，治疗自身100点生命值；生命值低于50%时，治疗效果提升至160点生命值",
                 "desc_ja": "",
                 "desc_en": "",
-                "tags": [],
+                "tags": [
+                    "heal_on_damage"
+                ],
                 "blackboard": [
                     {
                         "key": "hp_ratio",
-                        "value": 0.5,
-                        "valueStr": null
+                        "value": 0.5
                     },
                     {
                         "key": "value1",
-                        "value": 100.0,
-                        "valueStr": null
+                        "value": 100.0
                     },
                     {
                         "key": "value2",
-                        "value": 160.0,
-                        "valueStr": null
+                        "value": 160.0
                     }
                 ]
             },
@@ -11386,33 +11575,27 @@
                 "blackboard": [
                     {
                         "key": "max_stack_cnt",
-                        "value": 10.0,
-                        "valueStr": null
+                        "value": 10.0
                     },
                     {
                         "key": "max_hp",
-                        "value": 120.0,
-                        "valueStr": null
+                        "value": 120.0
                     },
                     {
                         "key": "atk",
-                        "value": 30.0,
-                        "valueStr": null
+                        "value": 30.0
                     },
                     {
                         "key": "ulpia_t_1[abyssal].max_hp",
-                        "value": 60.0,
-                        "valueStr": null
+                        "value": 60.0
                     },
                     {
                         "key": "ulpia_t_1[abyssal].atk",
-                        "value": 15.0,
-                        "valueStr": null
+                        "value": 15.0
                     },
                     {
                         "key": "ulpia_t_1[abyssal].max_stack_cnt",
-                        "value": 10.0,
-                        "valueStr": null
+                        "value": 10.0
                     }
                 ]
             },
