@@ -145,7 +145,7 @@ croc_duel
 enemy_3_around (mlynar)
 skill_active
 collision_wall (enforcer)
-one_time
+next_hit
 own_barrier (judge)
 no_ally_8tiles
 

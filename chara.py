@@ -155,15 +155,18 @@ for id in filtered_cn_char_table:
     # subprofession stuff
     desc_zh = character_dict['description'].replace("<$ba", "<ba")
     blackboard = []
-    tags = get_sub_profession_tags(character_dict,id)
+    tags = get_sub_profession_tags(character_dict, id)
     if character_dict['subProfessionId'] == "slower":
-        blackboard.append({"key": "sluggish", "value": 0.8})
+        blackboard.append({"key": "sluggish", "targets": 1,
+                          "value": 0.8, "target_air": True})
     if character_dict['subProfessionId'] == "chain":
-        blackboard.append({"key": "sluggish", "value": 0.5})
+        blackboard.append({"key": "sluggish", "targets": 4,
+                          "value": 0.5, "target_air": True})
     if character_dict['subProfessionId'] == "stalker":
         blackboard.append({"key": "evasion", "value": 0.5,
                           "types": ["phys", "arts"]})
     if character_dict["subProfessionId"] == "librator":
+        blackboard.append({"key": "block", "value": 0})
         desc_zh = replace_substrings(
             character_dict['trait']['candidates'][-1]['overrideDescripton'], character_dict['trait']['candidates'][-1]['blackboard'])
 

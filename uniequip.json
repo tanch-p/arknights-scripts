@@ -6095,7 +6095,8 @@
         },
         {
           "key": "def_penetrate",
-          "value": 1
+          "value": 1,
+          "prob":0.28
         },
         {
           "key": "prob",
@@ -18172,8 +18173,12 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["block_4"],
+      "tags": [],
       "blackboard": [
+        {
+          "key": "block",
+          "value": 4.0
+        },
         {
           "key": "magic_resistance",
           "value": 20.0
@@ -18599,8 +18604,12 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["block_4"],
+      "tags": [],
       "blackboard": [
+        {
+          "key": "block",
+          "value": 4.0
+        },
         {
           "key": "block_dmg",
           "types": ["phys", "arts", "melee_attack", "ranged_attack"],
@@ -18889,8 +18898,12 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["block_4"],
+      "tags": [],
       "blackboard": [
+        {
+          "key": "block",
+          "value": 4.0
+        },
         {
           "key": "ally_evasion",
           "value": 0.28,
@@ -19042,8 +19055,12 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["block_4"],
+      "tags": [],
       "blackboard": [
+        {
+          "key": "block",
+          "value": 4.0
+        },
         {
           "key": "block_dmg",
           "types": ["phys", "arts", "true", "melee_attack", "ranged_attack"],
@@ -29919,8 +29936,12 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["block_4", "squad_effect"],
+      "tags": [ "squad_effect"],
       "blackboard": [
+        {
+          "key": "block",
+          "value": 4.0
+        },
         {
           "key": "max_hp",
           "value": 0.04
@@ -45362,6 +45383,7 @@
       "blackboard": [
         {
           "key": "dmg_res",
+          "types": ["phys", "arts"],
           "value": 0.85,
           "conditions": ["token", "blocked"]
         },
@@ -45627,6 +45649,7 @@
       "blackboard": [
         {
           "key": "dmg_res",
+          "types": ["phys", "arts"],
           "value": 0.85,
           "conditions": ["token", "blocked"]
         },
@@ -45848,6 +45871,7 @@
       "blackboard": [
         {
           "key": "dmg_res",
+          "types": ["phys", "arts"],
           "value": 0.85,
           "conditions": ["token", "blocked"]
         },
@@ -46553,6 +46577,7 @@
       "blackboard": [
         {
           "key": "dmg_res",
+          "types": ["phys", "arts"],
           "value": 0.85,
           "conditions": ["blocked"]
         },
@@ -49849,7 +49874,7 @@
           "value": 1.2
         },
         {
-          "key": "damage_scale",
+          "key": "self_damage_scale",
           "value": 0.2
         }
       ]

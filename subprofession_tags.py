@@ -12,8 +12,6 @@ def get_sub_profession_tags(char, id):
         tags.append("priority_highest_weight")
     if char['subProfessionId'] == "bard":
         tags.append("heal_unhealable")
-    if char["subProfessionId"] == "librator":
-        tags.append("block_0")
     if char['subProfessionId'] in ["executor", "merchant", "agent"] and id != "char_376_therex":
         tags.append("fast_redeploy")
     if char['subProfessionId'] in ["pusher", "hookmaster"]:

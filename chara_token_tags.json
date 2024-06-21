@@ -1,13 +1,18 @@
 {
   "token_10020_ling_soul3": {
-    "tags": ["block_4"],
-    "blackboard": []
+    "tags": [],
+    "blackboard": [
+      {
+        "key": "block",
+        "value": 4.0
+      }
+    ]
   },
   "token_10027_ironmn_pile3": {
     "tags": [],
     "blackboard": [
       {
-        "key": "damage_resistance",
+        "key": "dmg_res",
         "value": 0.36
       }
     ]
@@ -17,6 +22,7 @@
     "blackboard": [
       {
         "key": "sluggish",
+        "targets": 1,
         "value": 1.0
       }
     ]
