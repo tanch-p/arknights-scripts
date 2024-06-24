@@ -369,8 +369,10 @@
           "value": 5.0
         },
         {
-          "key": "move_speed_down",
-          "value": 0.08
+          "key": "ms_down",
+          "targets": 99,
+          "value": 0.08,
+          "target_air": true
         }
       ]
     }
@@ -3515,7 +3517,9 @@
         },
         {
           "key": "sluggish",
-          "value": 0.8
+          "targets": 4,
+          "value": 0.8,
+          "target_air": true
         },
         {
           "key": "attack@chain.atk_scale",
@@ -3705,7 +3709,9 @@
         },
         {
           "key": "sluggish",
-          "value": 0.8
+          "targets": 4,
+          "value": 0.8,
+          "target_air": true
         },
         {
           "key": "attack@chain.atk_scale",
@@ -3859,7 +3865,9 @@
         },
         {
           "key": "sluggish",
-          "value": 0.5
+          "targets": 4,
+          "value": 0.5,
+          "target_air": true
         },
         {
           "key": "attack@chain.atk_scale",
@@ -6096,7 +6104,7 @@
         {
           "key": "def_penetrate",
           "value": 1,
-          "prob":0.28
+          "prob": 0.28
         },
         {
           "key": "prob",
@@ -8242,15 +8250,20 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["global_move_speed_down"],
+      "tags": ["global_ms_down"],
       "blackboard": [
         {
-          "key": "move_speed_down",
-          "value": 0.33
+          "key": "ms_down",
+          "targets": 99,
+          "value": 0.33,
+          "target_air": true
         },
         {
-          "key": "global_move_speed_down",
-          "value": 0.18
+          "key": "ms_down",
+          "targets": 99,
+          "value": 0.18,
+          "target_air": true,
+          "conditions": ["outside_atk_range"]
         }
       ]
     }
@@ -9089,7 +9102,9 @@
       "blackboard": [
         {
           "key": "sluggish",
-          "value": 1.0
+          "targets": 99,
+          "value": 1.0,
+          "target_air": true
         }
       ]
     }
@@ -9858,7 +9873,9 @@
       "blackboard": [
         {
           "key": "sluggish",
-          "value": 1.2
+          "targets": 1,
+          "value": 1.2,
+          "target_air": true
         },
         {
           "key": "hp_recovery_per_sec",
@@ -10176,7 +10193,9 @@
       "blackboard": [
         {
           "key": "sluggish",
-          "value": 1.2
+          "targets": 1,
+          "value": 1.2,
+          "target_air": true
         },
         {
           "key": "def",
@@ -10508,7 +10527,9 @@
       "blackboard": [
         {
           "key": "sluggish",
-          "value": 1.53
+          "targets": 1,
+          "value": 1.53,
+          "target_air": true
         }
       ]
     }
@@ -10689,8 +10710,10 @@
           "value": 0.0
         },
         {
-          "key": "move_speed_down",
-          "value": 0.6
+          "key": "ms_down",
+          "targets":99,
+          "value": 0.6,
+          "target_air":false
         },
         {
           "key": "atk_scale",
@@ -16354,8 +16377,10 @@
         },
         {
           "key": "silence",
+          "targets": 99,
           "value": 12.0,
-          "conditions": ["infection"]
+          "conditions": ["infection"],
+          "target_air": true
         }
       ]
     }
@@ -16987,8 +17012,10 @@
           "value": 2.0
         },
         {
-          "key": "move_speed_down",
-          "value": 0.2
+          "key": "ms_down",
+          "targets":99,
+          "value": 0.2,
+          "target_air":true
         }
       ]
     }
@@ -17171,8 +17198,10 @@
           "value": 0.64
         },
         {
-          "key": "move_speed_down",
-          "value": 0.2
+          "key": "ms_down",
+          "targets":99,
+          "value": 0.2,
+          "target_air":true
         }
       ]
     }
@@ -17355,8 +17384,10 @@
           "value": 0.045
         },
         {
-          "key": "move_speed_down",
-          "value": 0.2
+          "key": "ms_down",
+          "targets":99,
+          "value": 0.2,
+          "target_air":true
         }
       ]
     }
@@ -17531,17 +17562,17 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "prob",
-          "value": 0.28
-        },
-        {
           "key": "root",
+          "targets": 99,
           "value": 3.5,
-          "prob": 0.28
+          "prob": 0.28,
+          "target_air": false
         },
         {
-          "key": "move_speed_down",
-          "value": 0.2
+          "key": "ms_down",
+          "targets":99,
+          "value": 0.2,
+          "target_air":true
         }
       ]
     }
@@ -29936,7 +29967,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [ "squad_effect"],
+      "tags": ["squad_effect"],
       "blackboard": [
         {
           "key": "block",
@@ -30426,7 +30457,10 @@
         },
         {
           "key": "cold",
-          "value": 1.0
+          "targets": 2,
+          "value": 1.0,
+          "prob": 0.25,
+          "target_air": true
         }
       ]
     }
@@ -30870,7 +30904,9 @@
         },
         {
           "key": "sluggish",
-          "value": 2.0
+          "targets": 99,
+          "value": 2.0,
+          "target_air": false
         },
         {
           "key": "self_damage_scale",
@@ -31016,8 +31052,10 @@
         },
         {
           "key": "silence",
+          "targets": 1.0,
           "value": 5.0,
-          "condtion": "flying"
+          "conditions": ["flying"],
+          "target_air": true
         }
       ]
     }
@@ -32393,7 +32431,9 @@
         },
         {
           "key": "sluggish",
-          "value": 1.6
+          "targets": 1,
+          "value": 1.6,
+          "target_air": true
         },
         {
           "key": "stun",
@@ -32902,7 +32942,9 @@
         },
         {
           "key": "sleep",
-          "value": 8.0
+          "targets": 99,
+          "value": 8.0,
+          "target_air": false
         },
         {
           "key": "atk_scale",
@@ -41468,7 +41510,9 @@
         },
         {
           "key": "sluggish",
-          "value": 1.2
+          "targets": 1,
+          "value": 1.2,
+          "target_air": true
         },
         {
           "key": "damage_scale",
@@ -46442,7 +46486,7 @@
           "value": 1.25
         },
         {
-          "key": "levitate_duration",
+          "key": "levitate",
           "value": 2.5
         }
       ]
@@ -48150,7 +48194,10 @@
         },
         {
           "key": "cold",
-          "value": 1.5
+          "targets": 1,
+          "value": 1.5,
+          "prob": 0.25,
+          "target_air": true
         },
         {
           "key": "base_attack_time",
@@ -48777,7 +48824,9 @@
         },
         {
           "key": "sluggish",
-          "value": 0.8
+          "targets": 1,
+          "value": 0.6,
+          "target_air": true
         },
         {
           "key": "element_atk_scale",

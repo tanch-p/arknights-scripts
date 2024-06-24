@@ -4230,13 +4230,11 @@
         "value": 1.0
       },
       {
-        "key": "move_speed",
-        "value": -0.35
-      },
-      {
         "key": "ms_down",
+        "targets":99,
         "value": 0.35,
-        "duration": 1
+        "duration": 1.0,
+        "target_air":true
       }
     ]
   },
@@ -15279,7 +15277,9 @@
       },
       {
         "key": "sleep",
-        "value": 6.0
+        "targets":99,
+        "value": 6.0,
+        "target_air":false
       }
     ]
   },
@@ -24445,8 +24445,10 @@
       },
       {
         "key": "ms_down",
+        "targets":99,
         "value": 0.5,
-        "duration": 1.0
+        "duration": 1.0,
+        "target_air":true
       },
       {
         "key": "projectile_range",
@@ -25542,7 +25544,8 @@
         "key": "ms_down",
         "targets": 5.0,
         "value": 0.6,
-        "duration": 10
+        "duration": 10,
+        "target_air":true
       },
       {
         "key": "max_target",
@@ -26773,7 +26776,9 @@
           },
           {
             "key": "sluggish",
-            "value": 0.5
+            "targets": 4,
+            "value": 0.5,
+            "target_air": true
           },
           {
             "key": "ct",
@@ -27582,7 +27587,8 @@
       {
         "key": "sleep",
         "targets": 2,
-        "value": 7.0
+        "value": 7.0,
+        "target_air":true
       }
     ]
   },
@@ -27832,7 +27838,8 @@
         "key": "ms_down",
         "targets": 99,
         "value": 0.6,
-        "duration": 30.0
+        "duration": 30.0,
+        "target_air":true
       }
     ]
   },
@@ -28260,7 +28267,8 @@
         "key": "cold",
         "targets": 1,
         "value": 2.5,
-        "prob": 0.22
+        "prob": 0.22,
+        "target_air":true
       }
     ]
   },
@@ -29610,7 +29618,8 @@
       {
         "key": "cold",
         "targets": 99,
-        "value": 1.0
+        "value": 1.0,
+        "target_air":true
       },
       {
         "key": "atk_scale",
@@ -32421,7 +32430,8 @@
         "key": "ms_down",
         "targets": 2,
         "value": 0.45,
-        "duration": 8.0
+        "duration": 8.0,
+        "target_air":true
       },
       {
         "key": "max_target",
@@ -33059,7 +33069,8 @@
       {
         "key": "sluggish",
         "targets": 99,
-        "value": 25.0
+        "value": 25.0,
+        "target_air": true
       }
     ]
   },
@@ -33264,7 +33275,8 @@
       {
         "key": "sluggish",
         "targets": 99,
-        "value": 6.0
+        "value": 6.0,
+        "target_air": true
       },
       {
         "key": "silence",
@@ -37533,7 +37545,9 @@
       },
       {
         "key": "silence",
-        "value": 4.5
+        "targets": 99,
+        "value": 4.5,
+        "target_air": true
       }
     ]
   },
@@ -38653,7 +38667,8 @@
       {
         "key": "cold",
         "targets": 1,
-        "value": 2.5
+        "value": 2.5,
+        "target_air":false
       },
       {
         "key": "atk_scale",
@@ -39681,7 +39696,8 @@
         "key": "ms_down",
         "targets": 1,
         "value": 0.4,
-        "duration": 6.0
+        "duration": 6.0,
+        "target_air":true
       },
       {
         "key": "duration",
@@ -40320,7 +40336,8 @@
       {
         "key": "sleep",
         "targets": 1.0,
-        "value": 5.0
+        "value": 5.0,
+        "target_air":false
       }
     ]
   },
@@ -40754,7 +40771,8 @@
       {
         "key": "sluggish",
         "targets": 1,
-        "value": 1.0
+        "value": 1.0,
+        "target_air": true
       }
     ]
   },
@@ -41403,7 +41421,9 @@
       },
       {
         "key": "sluggish",
-        "value": 1.6
+        "targets": 1,
+        "value": 1.6,
+        "target_air": true
       }
     ]
   },
@@ -41537,7 +41557,9 @@
       },
       {
         "key": "sluggish",
-        "value": 3.5
+        "targets": 99,
+        "value": 3.5,
+        "target_air": true
       }
     ]
   },
@@ -42913,7 +42935,8 @@
       {
         "key": "sluggish",
         "targets": 1,
-        "value": 1.6
+        "value": 1.6,
+        "target_air": true
       },
       {
         "key": "ct",
@@ -43064,12 +43087,14 @@
       {
         "key": "sluggish",
         "targets": 99,
-        "value": 10.0
+        "value": 10.0,
+        "target_air": true
       },
       {
         "key": "silence",
         "targets": 99,
-        "value": 10.0
+        "value": 10.0,
+        "target_air": true
       },
       {
         "key": "base_attack_time",
@@ -43318,7 +43343,8 @@
       {
         "key": "sleep",
         "targets": 3,
-        "value": 5.0
+        "value": 5.0,
+        "target_air":true
       },
       {
         "key": "attack_speed",
@@ -43722,7 +43748,8 @@
       {
         "key": "sleep",
         "targets": 99,
-        "value": 7.0
+        "value": 7.0,
+        "target_air":true
       }
     ]
   },
@@ -45167,7 +45194,8 @@
         "key": "ms_down",
         "targets": 99,
         "value": 0.6,
-        "duration": 5.0
+        "duration": 5.0,
+        "target_air":false
       }
     ]
   },
@@ -45659,7 +45687,8 @@
         "key": "ms_down",
         "targets": 99,
         "value": 0.3,
-        "duration": 5.0
+        "duration": 5.0,
+        "target_air":false
       },
       {
         "key": "force",
@@ -45811,7 +45840,8 @@
         "key": "ms_down",
         "targets": 99,
         "value": 0.3,
-        "duration": 5.0
+        "duration": 5.0,
+        "target_air":false
       },
       {
         "key": "force",
@@ -51712,7 +51742,9 @@
       {
         "key": "ms_down",
         "targets": 99,
-        "value": 0.35
+        "value": 0.35,
+        "duration":5.0,
+        "target_air":false
       },
       {
         "key": "def_down",
@@ -51892,7 +51924,9 @@
       {
         "key": "ms_down",
         "targets": 99,
-        "value": 0.45
+        "value": 0.45,
+        "duration":5.0,
+        "target_air":false
       },
       {
         "key": "def_down",
@@ -56114,7 +56148,8 @@
         "key": "ms_down",
         "targets": 99,
         "value": 0.99,
-        "duration": 27.0
+        "duration": 27.0,
+        "target_air":true
       }
     ]
   },
@@ -57297,7 +57332,8 @@
       {
         "key": "silence",
         "targets": 1,
-        "value": 5.0
+        "value": 5.0,
+        "target_air": true
       }
     ]
   },
@@ -57854,7 +57890,8 @@
       {
         "key": "sluggish",
         "targets": 4,
-        "value": 1.5
+        "value": 1.5,
+        "target_air": true
       },
       {
         "key": "max_target",
@@ -58471,7 +58508,8 @@
       {
         "key": "sluggish",
         "targets": 99,
-        "value": 0.3
+        "value": 0.3,
+        "target_air":true
       },
       {
         "key": "atk",
@@ -58480,7 +58518,8 @@
       {
         "key": "root",
         "targets": 99,
-        "value": 0.6
+        "value": 0.6,
+        "target_air":true
       }
     ]
   },
@@ -66769,6 +66808,7 @@
         "key": "ms_down",
         "targets": 99,
         "value": 0.5,
+        "duration":8.0,
         "target_air": true
       }
     ]
@@ -68066,7 +68106,9 @@
       },
       {
         "key": "sluggish",
-        "value": 5.0
+        "targets":99,
+        "value": 5.0,
+        "target_air":true
       },
       {
         "key": "interval",
@@ -73243,6 +73285,7 @@
         "key": "ms_down",
         "targets": 99,
         "value": 0.6,
+        "duration":10.0,
         "target_air": false
       },
       {
@@ -84520,6 +84563,7 @@
       },
       {
         "key": "levitate",
+        "targets": 99,
         "value": 0.5,
         "conditions": ["weight_lte_3"]
       }
@@ -85015,12 +85059,14 @@
         "key": "ms_down",
         "targets": 99,
         "value": 0.85,
+        "duration":35.0,
         "target_air": false
       },
       {
         "key": "ms_down",
         "targets": 99,
         "value": 0.6,
+        "duration":35.0,
         "target_air": true
       },
       {
@@ -85814,7 +85860,8 @@
         "key": "ms_down",
         "targets": 99,
         "value": 0.6,
-        "duration": 10.0
+        "duration": 10.0,
+        "target_air":true
       }
     ]
   },
@@ -86573,7 +86620,7 @@
             "value": 0.15
           },
           {
-            "key": "ms_down",
+            "key": "move_speed",
             "value": 0.6
           },
           {
@@ -86604,7 +86651,9 @@
       {
         "key": "ms_down",
         "targets": 1,
-        "value": 0.6
+        "value": 0.6,
+        "duration":20.0,
+        "target_air":true
       },
       {
         "key": "attack@max_stack_cnt",
@@ -87790,6 +87839,7 @@
         "key": "ms_down",
         "targets": 99,
         "value": 0.6,
+        "duration":30.0,
         "conditions": ["non_elite_boss"],
         "target_air": true
       },
@@ -87797,6 +87847,7 @@
         "key": "damage_scale",
         "targets": 99,
         "value": 1.75,
+        "duration":30.0,
         "types": ["phys", "arts", "true"],
         "conditions": ["non_elite_boss"],
         "category": ["fragile"]

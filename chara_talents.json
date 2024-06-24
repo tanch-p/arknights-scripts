@@ -155,8 +155,10 @@
           },
           {
             "key": "sleep",
+            "targets":99,
             "value": 1.0,
-            "prob": 0.3
+            "prob": 0.3,
+            "target_air":false
           },
           {
             "key": "stun",
@@ -751,7 +753,9 @@
         "blackboard": [
           {
             "key": "sluggish",
-            "value": 0.6
+            "targets":99,
+            "value": 0.6,
+            "target_air":true
           }
         ]
       }
@@ -1920,8 +1924,10 @@
         "blackboard": [
           {
             "key": "root",
+            "targets":99,
             "value": 3.0,
-            "prob": 0.25
+            "prob": 0.25,
+            "target_air":false
           }
         ]
       }
@@ -2697,7 +2703,9 @@
         "blackboard": [
           {
             "key": "silence",
-            "value": 6.0
+            "targets":1.0,
+            "value": 6.0,
+            "target_air":true
           }
         ]
       }
@@ -5143,8 +5151,10 @@
           },
           {
             "key": "sluggish",
+            "targets":99,
             "value": 2.0,
-            "prob": 0.4
+            "prob": 0.4,
+            "target_air":true
           }
         ]
       }
@@ -5251,8 +5261,10 @@
           },
           {
             "key": "silence",
+            "targets":2.0,
             "value": 8.0,
-            "conditions": ["infected"]
+            "conditions": ["infected"],
+            "target_air":true
           }
         ]
       }
@@ -6352,7 +6364,8 @@
             "key": "sluggish",
             "targets": 1,
             "value": 3.0,
-            "conditions": ["first_hit"]
+            "conditions": ["first_hit"],
+            "target_air":true
           }
         ]
       }
@@ -6818,8 +6831,10 @@
           },
           {
             "key": "root",
+            "targets":1,
             "value": 5.0,
-            "conditions": ["first_hit"]
+            "conditions": ["first_hit"],
+            "target_air":true
           }
         ]
       },
@@ -6838,8 +6853,10 @@
             "value": 999
           },
           {
-            "key": "move_speed_down",
-            "value": 0.3
+            "key": "ms_down",
+            "targets":99,
+            "value": 0.3,
+            "target_air":true
           }
         ]
       }
@@ -6921,8 +6938,10 @@
         "tags": [],
         "blackboard": [
           {
-            "key": "move_speed_down",
-            "value": 0.18
+            "key": "ms_down",
+            "targets":99,
+            "value": 0.18,
+            "target_air":true
           }
         ]
       }
@@ -7026,8 +7045,10 @@
           },
           {
             "key": "silence",
+            "targets":1,
             "value": 3.0,
-            "conditions": ["flying"]
+            "conditions": ["flying"],
+            "target_air":true
           }
         ]
       },
@@ -7344,7 +7365,9 @@
         "blackboard": [
           {
             "key": "cold",
-            "value": 1.0
+            "targets":1,
+            "value": 1.0,
+            "target_air":true
           },
           {
             "key": "damage_scale",
@@ -7709,9 +7732,9 @@
           },
           {
             "key": "sluggish",
-            "targets":99,
+            "targets": 99,
             "value": 0.2,
-            "target_air":true
+            "target_air": true
           }
         ]
       },
@@ -8024,8 +8047,10 @@
           },
           {
             "key": "sluggish",
+            "targets":1,
             "value": 1.4,
-            "prob": 0.25
+            "prob": 0.25,
+            "target_air":true
           },
           {
             "key": "stun",
@@ -8160,8 +8185,10 @@
         "tags": ["arts"],
         "blackboard": [
           {
-            "key": "move_speed_down",
-            "value": 0.4
+            "key": "ms_down",
+            "targets":99,
+            "value": 0.4,
+            "target_air":false
           },
           {
             "key": "atk_scale",
@@ -9275,8 +9302,10 @@
           },
           {
             "key": "root",
+            "targets":1,
             "value": 1.5,
-            "prob": 0.23
+            "prob": 0.23,
+            "target_air":true
           }
         ]
       }
@@ -10290,6 +10319,7 @@
         "blackboard": [
           {
             "key": "levitate",
+            "targets":99,
             "value": 2.5,
             "conditions": ["first_hit"]
           },
@@ -10491,17 +10521,15 @@
         "tags": [],
         "blackboard": [
           {
-            "key": "prob",
-            "value": 0.4
-          },
-          {
             "key": "atk_scale",
             "value": 0.65
           },
           {
             "key": "sluggish",
+            "targets":1,
             "value": 0.8,
-            "prob": 0.4
+            "prob": 0.4,
+            "target_air":true
           }
         ]
       },
