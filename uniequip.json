@@ -1018,15 +1018,23 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["shield"],
+      "tags": [],
       "blackboard": [
         {
           "key": "atk_scale",
           "value": 1.3
         },
         {
-          "key": "shield",
-          "value": 1
+          "key": "ally_shield",
+          "types": ["phys"],
+          "value": 1,
+          "conditions": ["block_3_more"]
+        },
+        {
+          "key": "ally_shield",
+          "types": ["phys"],
+          "value": 2,
+          "conditions": ["block_3_more", "kazimierz"]
         }
       ]
     }
@@ -4035,7 +4043,8 @@
         },
         {
           "key": "ally_sp_gain",
-          "value": 1.0
+          "value": 1.0,
+          "conditions": ["INCREASE_WHEN_ATTACK", "INCREASE_WHEN_TAKEN_DAMAGE"]
         },
         {
           "key": "interval",
@@ -9246,12 +9255,12 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["sniper", "squad_effect", "fast_redeploy"],
+      "tags": ["SNIPER", "squad_effect", "fast_redeploy"],
       "blackboard": [
         {
           "key": "ally_atk",
           "value": 0.15,
-          "conditions": ["sniper"]
+          "conditions": ["SNIPER"]
         }
       ]
     }
@@ -10379,7 +10388,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["support"],
+      "tags": ["SUPPORT"],
       "blackboard": [
         {
           "key": "sp_recovery_per_sec",
@@ -10388,12 +10397,12 @@
         {
           "key": "ally_atk",
           "value": 0.11,
-          "conditions": ["support"]
+          "conditions": ["SUPPORT"]
         },
         {
           "key": "ally_aspd",
           "value": 5.0,
-          "conditions": ["support"]
+          "conditions": ["SUPPORT"]
         }
       ]
     }
@@ -10711,9 +10720,10 @@
         },
         {
           "key": "ms_down",
-          "targets":99,
+          "targets": 99,
           "value": 0.6,
-          "target_air":false
+          "duration": 20.0,
+          "target_air": false
         },
         {
           "key": "atk_scale",
@@ -10855,7 +10865,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["arts"],
       "blackboard": [
         {
           "key": "duration",
@@ -10866,7 +10876,8 @@
           "value": 0.2
         },
         {
-          "key": "damage_resistance",
+          "key": "dmg_res",
+          "types": ["phys", "arts"],
           "value": 0.48
         },
         {
@@ -11750,8 +11761,9 @@
           "value": -0.8
         },
         {
-          "key": "sp_recovery_per_sec",
-          "value": 0.55
+          "key": "sp_regen",
+          "value": 0.55,
+          "conditions": ["blocked"]
         }
       ]
     }
@@ -12590,7 +12602,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["rhine"],
       "blackboard": [
         {
           "key": "heal_scale",
@@ -12602,7 +12614,13 @@
         },
         {
           "key": "ally_sp_gain",
-          "value": 2.0
+          "value": 2.0,
+          "conditions": ["heal"]
+        },
+        {
+          "key": "ally_sp_gain",
+          "value": 3.0,
+          "conditions": ["heal", "rhine"]
         },
         {
           "key": "demkni_e_sp[rhine].sp",
@@ -12751,7 +12769,8 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "damage_resistance",
+          "key": "dmg_res",
+          "types": ["phys", "arts"],
           "value": 0.15
         },
         {
@@ -13036,7 +13055,8 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "damage_resistance",
+          "key": "dmg_res",
+          "types": ["phys", "arts"],
           "value": 0.15
         },
         {
@@ -16206,7 +16226,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["arts"],
+      "tags": ["arts", "heal_ally", "abyssal"],
       "blackboard": [
         {
           "key": "dist",
@@ -16225,9 +16245,10 @@
           "value": 0.035
         },
         {
-          "key": "damage_resistance",
+          "key": "dmg_res",
+          "types": ["phys", "arts"],
           "value": 0.3,
-          "conditions": ["abyssal|seamonster"]
+          "conditions": ["abyssal"]
         }
       ]
     }
@@ -17013,9 +17034,9 @@
         },
         {
           "key": "ms_down",
-          "targets":99,
+          "targets": 99,
           "value": 0.2,
-          "target_air":true
+          "target_air": true
         }
       ]
     }
@@ -17199,9 +17220,9 @@
         },
         {
           "key": "ms_down",
-          "targets":99,
+          "targets": 99,
           "value": 0.2,
-          "target_air":true
+          "target_air": true
         }
       ]
     }
@@ -17385,9 +17406,9 @@
         },
         {
           "key": "ms_down",
-          "targets":99,
+          "targets": 99,
           "value": 0.2,
-          "target_air":true
+          "target_air": true
         }
       ]
     }
@@ -17570,9 +17591,9 @@
         },
         {
           "key": "ms_down",
-          "targets":99,
+          "targets": 99,
           "value": 0.2,
-          "target_air":true
+          "target_air": true
         }
       ]
     }
@@ -18207,11 +18228,11 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "block",
+          "key": "blockCnt",
           "value": 4.0
         },
         {
-          "key": "magic_resistance",
+          "key": "res",
           "value": 20.0
         }
       ]
@@ -18488,12 +18509,11 @@
         },
         {
           "key": "atk_down",
+          "targets": 3,
           "value": 0.12,
-          "conditions": ["when_attacked"]
-        },
-        {
-          "key": "duration",
-          "value": 5.0
+          "duration": 5.0,
+          "conditions": ["when_attacked"],
+          "target_air": true
         }
       ]
     }
@@ -18638,7 +18658,7 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "block",
+          "key": "blockCnt",
           "value": 4.0
         },
         {
@@ -18932,7 +18952,7 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "block",
+          "key": "blockCnt",
           "value": 4.0
         },
         {
@@ -19089,7 +19109,7 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "block",
+          "key": "blockCnt",
           "value": 4.0
         },
         {
@@ -19589,8 +19609,11 @@
           "value": 0.5
         },
         {
-          "key": "protect",
-          "value": 0.3
+          "key": "dmg_res",
+          "types": ["phys", "arts"],
+          "value": 0.3,
+          "conditions": ["hp_lt_50"],
+          "category": ["protect"]
         },
         {
           "key": "atk_scale",
@@ -20359,7 +20382,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["ally_sp_gain"],
+      "tags": [],
       "blackboard": [
         {
           "key": "heal_scale",
@@ -20371,21 +20394,23 @@
         },
         {
           "key": "sp_gain",
-          "value": 2.0
+          "value": 2.0,
+          "conditions": ["kill_enemy"]
         },
         {
           "key": "ally_sp_gain",
-          "value": 2.0
+          "value": 2.0,
+          "conditions": ["kill_enemy"]
         },
         {
           "key": "sp_gain",
           "value": 4.0,
-          "conditions": ["elite|boss"]
+          "conditions": ["kill_enemy_elite_boss"]
         },
         {
           "key": "ally_sp_gain",
           "value": 4.0,
-          "conditions": ["elite|boss"]
+          "conditions": ["kill_enemy_elite_boss"]
         }
       ]
     }
@@ -20515,7 +20540,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["MEDIC"],
       "blackboard": [
         {
           "key": "heal_scale",
@@ -20524,7 +20549,7 @@
         {
           "key": "ally_aspd",
           "value": 19.0,
-          "conditions": ["healer"]
+          "conditions": ["MEDIC"]
         }
       ]
     }
@@ -20671,7 +20696,7 @@
         {
           "key": "heal_scale",
           "value": 1.28,
-          "conditions": ["cost_below_10"]
+          "conditions": ["cost_under_10"]
         }
       ]
     }
@@ -20801,7 +20826,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["MEDIC"],
       "blackboard": [
         {
           "key": "heal_scale",
@@ -20810,12 +20835,12 @@
         {
           "key": "ally_atk",
           "value": 0.12,
-          "conditions": ["healer"]
+          "conditions": ["MEDIC"]
         },
         {
           "key": "ally_def",
           "value": 120.0,
-          "conditions": ["healer"]
+          "conditions": ["MEDIC"]
         },
         {
           "key": "duration",
@@ -23151,18 +23176,6 @@
         {
           "key": "atk_scale",
           "value": 1.7
-        },
-        {
-          "key": "def_down",
-          "value": -0.25
-        },
-        {
-          "key": "prob",
-          "value": 0.2
-        },
-        {
-          "key": "defdown_duration",
-          "value": 5.0
         }
       ]
     }
@@ -24247,9 +24260,11 @@
           "value": 0.5
         },
         {
-          "key": "protect",
+          "key": "ally_dmg_res",
+          "types": ["phys", "arts"],
           "value": 0.25,
-          "conditions": ["hp_under_50"]
+          "conditions": ["hp_gt_50"],
+          "category": ["protect"]
         },
         {
           "key": "min_hp_ratio",
@@ -24440,9 +24455,11 @@
           "value": 0.5
         },
         {
-          "key": "protect",
+          "key": "ally_dmg_res",
+          "types": ["phys", "arts"],
           "value": 0.25,
-          "conditions": ["hp_under_50"]
+          "conditions": ["hp_gt_50"],
+          "category": ["protect"]
         },
         {
           "key": "def",
@@ -24629,9 +24646,11 @@
           "value": 0.5
         },
         {
-          "key": "protect",
+          "key": "dmg_res",
+          "types": ["phys", "arts"],
           "value": 0.25,
-          "conditions": ["hp_under_50"]
+          "conditions": ["hp_lt_50"],
+          "category": ["protect"]
         },
         {
           "key": "hp_ratio",
@@ -24930,7 +24949,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["SNIPER"],
       "blackboard": [
         {
           "key": "atk_scale",
@@ -24942,7 +24961,8 @@
         },
         {
           "key": "ally_sp_gain",
-          "value": 1.0
+          "value": 1.0,
+          "conditions": ["SNIPER", "INCREASE_WHEN_ATTACK"]
         },
         {
           "key": "interval",
@@ -25246,10 +25266,10 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["res_penetrate", "squad_effect"],
+      "tags": ["squad_effect"],
       "blackboard": [
         {
-          "key": "res_penetrate_fixed",
+          "key": "res_penetrate",
           "value": 10.0
         },
         {
@@ -25388,7 +25408,7 @@
       "tags": ["def_atk_scale"],
       "blackboard": [
         {
-          "key": "res_penetrate_fixed",
+          "key": "res_penetrate",
           "value": 10.0
         },
         {
@@ -25542,7 +25562,7 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "res_penetrate_fixed",
+          "key": "res_penetrate",
           "value": 10.0
         },
         {
@@ -25684,16 +25704,15 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "res_penetrate_fixed",
+          "key": "res_penetrate",
           "value": 10.0
         },
         {
-          "key": "duration",
-          "value": 1.0
-        },
-        {
           "key": "res_down",
-          "value": 0.3
+          "targets": 1,
+          "value": 0.3,
+          "duration": 1.0,
+          "target_air": true
         }
       ]
     }
@@ -26717,7 +26736,8 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "damage_resistance",
+          "key": "dmg_res",
+          "types": ["phys", "arts"],
           "value": 0.15
         },
         {
@@ -28044,9 +28064,11 @@
           "value": 0.5
         },
         {
-          "key": "protect",
+          "key": "dmg_res",
+          "types": ["phys", "arts"],
           "value": 0.25,
-          "conditions": ["hp_under_50"]
+          "conditions": ["hp_lt_50"],
+          "category": ["protect"]
         },
         {
           "key": "atk",
@@ -29671,16 +29693,9 @@
           "value": -0.8
         },
         {
-          "key": "damage_resistance",
+          "key": "dmg_res",
+          "types": ["phys"],
           "value": 0.38
-        },
-        {
-          "key": "interval",
-          "value": 35.0
-        },
-        {
-          "key": "damage_resistance_addtion",
-          "value": 0.19
         }
       ]
     }
@@ -29970,7 +29985,7 @@
       "tags": ["squad_effect"],
       "blackboard": [
         {
-          "key": "block",
+          "key": "blockCnt",
           "value": 4.0
         },
         {
@@ -30287,9 +30302,11 @@
       "blackboard": [
         {
           "key": "atk_down",
+          "targets": 1,
           "value": 0.1,
           "duration": 2.0,
-          "category": ["weaken"]
+          "category": ["weaken"],
+          "target_air": true
         },
         {
           "key": "damage_scale",
@@ -30443,9 +30460,11 @@
       "blackboard": [
         {
           "key": "atk_down",
+          "targets": 2,
           "value": 0.1,
           "duration": 2.0,
-          "category": ["weaken"]
+          "category": ["weaken"],
+          "target_air": true
         },
         {
           "key": "attack@max_target",
@@ -30594,9 +30613,11 @@
       "blackboard": [
         {
           "key": "atk_down",
+          "targets": 1,
           "value": 0.1,
           "duration": 2.0,
-          "category": ["weaken"]
+          "category": ["weaken"],
+          "target_air": true
         },
         {
           "key": "duration",
@@ -31043,7 +31064,7 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "res_penetrate_fixed",
+          "key": "res_penetrate",
           "value": 10.0
         },
         {
@@ -32225,8 +32246,10 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "shield",
-          "value": 2.0
+          "key": "ally_shield",
+          "types": ["phys", "arts", "true"],
+          "value": 2.0,
+          "conditions": ["position_melee"]
         },
         {
           "key": "cnt",
@@ -33413,12 +33436,12 @@
         {
           "key": "ally_cost_down",
           "value": -2.0,
-          "conditions": ["sniper"]
+          "conditions": ["SNIPER"]
         },
         {
           "key": "ally_aspd",
           "value": 28.0,
-          "conditions": ["sniper"]
+          "conditions": ["SNIPER"]
         }
       ]
     }
@@ -33560,7 +33583,9 @@
         },
         {
           "key": "aspd_down",
-          "value": 15.0
+          "targets": 99,
+          "value": 15.0,
+          "target_air": true
         }
       ]
     }
@@ -35135,9 +35160,10 @@
           "value": 0.5
         },
         {
-          "key": "damage_resistance",
+          "key": "dmg_res",
+          "types": ["phys", "arts"],
           "value": 0.2,
-          "conditions": ["hp_above_50"]
+          "conditions": ["hp_gt_50"]
         },
         {
           "key": "hp_ratio",
@@ -36345,9 +36371,11 @@
           "value": 0.6
         },
         {
-          "key": "protect",
+          "key": "ally_dmg_res",
+          "types": ["phys", "arts"],
           "value": 0.26,
-          "conditions": ["hp_under_60"]
+          "conditions": ["hp_lt_60"],
+          "category": ["protect"]
         }
       ]
     }
@@ -36692,16 +36720,18 @@
         {
           "key": "ally_def",
           "value": 0.08,
-          "conditions": ["hp_under_40"]
+          "conditions": ["hp_lt_40"]
         },
         {
           "key": "hp_ratio",
           "value": 0.4
         },
         {
-          "key": "protect",
+          "key": "dmg_res",
+          "types": ["phys", "arts"],
           "value": 0.24,
-          "conditions": ["hp_under_40"]
+          "conditions": ["hp_lt_40"],
+          "category": ["protect"]
         }
       ]
     }
@@ -36854,9 +36884,11 @@
           "value": 0.6
         },
         {
-          "key": "protect",
+          "key": "dmg_res",
+          "types": ["phys", "arts"],
           "value": 0.18,
-          "conditions": ["hp_above_60"]
+          "conditions": ["hp_gt_60"],
+          "category": ["protect"]
         }
       ]
     }
@@ -38398,10 +38430,12 @@
       "blackboard": [
         {
           "key": "atk_down",
+          "targets": 1,
           "value": 0.5,
           "duration": 15.0,
           "conditions": ["apoptosis_burst"],
-          "category": ["weaken"]
+          "category": ["weaken"],
+          "target_air": true
         },
         {
           "key": "ep_damage_ratio",
@@ -38554,7 +38588,8 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "damage_resistance",
+          "key": "dmg_res",
+          "types": ["phys", "arts"],
           "value": 0.15
         },
         {
@@ -38721,24 +38756,9 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "damage_resistance",
+          "key": "dmg_res",
+          "types": ["phys", "arts"],
           "value": 0.15
-        },
-        {
-          "key": "max_hp_ratio",
-          "value": 3.0
-        },
-        {
-          "key": "kill_hp_ratio",
-          "value": 0.12
-        },
-        {
-          "key": "born_hp_ratio",
-          "value": 0.75
-        },
-        {
-          "key": "higher_effect_hp_ratio",
-          "value": 1.0
         }
       ]
     }
@@ -38899,7 +38919,8 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "damage_resistance",
+          "key": "dmg_res",
+          "types": ["phys", "arts"],
           "value": 0.15
         },
         {
@@ -39229,7 +39250,8 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "damage_resistance",
+          "key": "dmg_res",
+          "types": ["phys", "arts"],
           "value": 0.15
         },
         {
@@ -41028,8 +41050,9 @@
           "value": 0.6
         },
         {
-          "key": "heal_scale",
-          "value": 1.26
+          "key": "ally_heal_scale",
+          "value": 1.26,
+          "conditions": ["highest_max_hp"]
         }
       ]
     }
@@ -41504,9 +41527,11 @@
       "blackboard": [
         {
           "key": "atk_down",
+          "targets": 1,
           "value": 0.08,
           "conditions": ["sluggish"],
-          "category": ["weaken"]
+          "category": ["weaken"],
+          "target_air": true
         },
         {
           "key": "sluggish",
@@ -42038,8 +42063,16 @@
           "value": 85.0
         },
         {
-          "key": "protect",
-          "value": 0.17
+          "key": "ally_dmg_res",
+          "types": ["phys", "arts"],
+          "value": 0.17,
+          "category": ["protect"]
+        },
+        {
+          "key": "dmg_res",
+          "types": ["phys", "arts"],
+          "value": 0.17,
+          "category": ["protect"]
         },
         {
           "key": "born_range_id",
@@ -42226,9 +42259,11 @@
           "value": 0.5
         },
         {
-          "key": "protect",
+          "key": "ally_dmg_res",
+          "types": ["phys", "arts"],
           "value": 0.25,
-          "conditions": ["hp_under_50"]
+          "conditions": ["hp_gt_50"],
+          "category": ["protect"]
         },
         {
           "key": "min_hp_ratio",
@@ -42566,7 +42601,8 @@
         },
         {
           "key": "ally_max_hp",
-          "value": 0.14
+          "value": 0.14,
+          "conditions": ["same_direction_8tile"]
         }
       ]
     }
@@ -42724,11 +42760,10 @@
         },
         {
           "key": "atk_down",
-          "value": 0.15
-        },
-        {
-          "key": "duration",
-          "value": 3.0
+          "targets": 1,
+          "value": 0.15,
+          "duration": 3.0,
+          "target_air": false
         }
       ]
     }
@@ -43896,7 +43931,7 @@
         {
           "key": "ally_def",
           "value": 0.18,
-          "conditions": ["behind"]
+          "conditions": ["ally_behind"]
         },
         {
           "key": "duration",
@@ -44120,7 +44155,8 @@
         },
         {
           "key": "ally_sp_gain",
-          "value": 1.0
+          "value": 1.0,
+          "conditions": ["when_attacked"]
         }
       ]
     }
@@ -44667,8 +44703,10 @@
           "value": 0.5
         },
         {
-          "key": "damage_resistance",
-          "value": 0.2
+          "key": "dmg_res",
+          "types": ["phys", "arts"],
+          "value": 0.2,
+          "conditions": ["hp_gt_50"]
         },
         {
           "key": "block_dmg",
@@ -46121,7 +46159,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["change_target_priority"],
       "blackboard": [
         {
           "key": "atk_scale",
@@ -48805,10 +48843,12 @@
       "blackboard": [
         {
           "key": "atk_down",
+          "targets": 1,
           "value": 0.5,
           "duration": 15.0,
           "conditions": ["apoptosis_burst"],
-          "category": ["weaken"]
+          "category": ["weaken"],
+          "target_air": true
         },
         {
           "key": "ep_damage_ratio",
@@ -48999,7 +49039,7 @@
     "name_ja": "",
     "name_en": "",
     "typeIcon": "original",
-    "charId": "char_002_amiya",
+    "charId": "char_1037_amiya3",
     "combatData": null
   },
   "uniequip_002_amiya3": {
@@ -49008,7 +49048,7 @@
     "name_ja": "",
     "name_en": "",
     "typeIcon": "inc-x",
-    "charId": "char_002_amiya",
+    "charId": "char_1037_amiya3",
     "combatData": {
       "phases": [
         {
@@ -49408,7 +49448,7 @@
           "dep_stat": "atk",
           "value": 0.61,
           "damage_type": "arts",
-          "conditions": ["own_barrier"]
+          "conditions": ["own_barrier_active"]
         },
         {
           "key": "atk",
@@ -49738,9 +49778,11 @@
       "blackboard": [
         {
           "key": "atk_down",
+          "targets": 1,
           "value": 0.1,
           "duration": 2.0,
-          "category": ["weaken"]
+          "category": ["weaken"],
+          "target_air": true
         },
         {
           "key": "damage_scale",

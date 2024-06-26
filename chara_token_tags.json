@@ -3,7 +3,7 @@
     "tags": [],
     "blackboard": [
       {
-        "key": "block",
+        "key": "blockCnt",
         "value": 4.0
       }
     ]
@@ -23,7 +23,8 @@
       {
         "key": "sluggish",
         "targets": 1,
-        "value": 1.0
+        "value": 1.0,
+        "target_air":true
       }
     ]
   }

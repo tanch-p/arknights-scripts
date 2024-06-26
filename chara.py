@@ -2,6 +2,9 @@ import json
 import os
 from chara_skills import replace_substrings
 from subprofession_tags import get_sub_profession_tags
+import pprint
+
+pp = pprint.PrettyPrinter(indent=4)
 
 buffs_list = [
     "berserk", "dying", "buffres",
@@ -87,9 +90,12 @@ for id in filtered_cn_char_table:
                        "tags": chara_skills[skill['skillId']]['tags'] if skill['skillId'] in chara_skills else [],
                        "blackboard": blackboard})
     if character_dict['talents']:
+        
         for talent_index, talent in enumerate(character_dict['talents']):
             max_candidate_index = len(talent['candidates'])-1
             maxed_talent = talent['candidates'][max_candidate_index]
+            if maxed_talent['name'] is None:
+                continue
             talent_holder = {
                 "prefabKey": maxed_talent["prefabKey"], "name_zh": maxed_talent["name"], "name_en": "", "name_ja": "",
                 "desc_zh": chara_talents[id]['talents'][talent_index]["desc_zh"] if id in chara_talents else maxed_talent['description'], "desc_en": "", "desc_ja": ""}
