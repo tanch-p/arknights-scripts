@@ -87008,7 +87008,8 @@
         "blackboard": [
             {
                 "key": "force",
-                "value": 0.0
+                "value": 0.0,
+                "conditions":["no_block"]
             },
             {
                 "key": "def",
