@@ -8934,7 +8934,8 @@
         ],
         "tags": [
             "burst",
-            "drone",
+            "flying",
+            "bonus_flying",
             "target_air"
         ],
         "blackboard": [
@@ -19379,8 +19380,8 @@
     },
     "skchr_leto_2": {
         "name_zh": "一呼百应",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "夏将軍の号令",
+        "name_en": "Answer the Call",
         "chara_list": [
             "烈夏"
         ],
@@ -19391,8 +19392,8 @@
             {
                 "rangeId": null,
                 "description_zh": "立刻使技能就绪的【乌萨斯学生自治团】干员同时开启技能，自身攻击力<@ba.vup>+80%</>，额外攻击一个目标，远程攻击不再降低攻击力",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "スキルが発動可能な状態の味方【ウルサス学生自治団】全員のスキルを同時に発動させ、自身の攻撃力<@ba.vup>+80%</>、攻撃対象数+1。さらに遠距離攻撃時の攻撃力低下が無効化される",
+                "description_en": "All [Ursus Student Self-Governing Group] Operators with skills ready activate their skills at the same time. Own ATK <@ba.vup>+80%</>, attack an extra target, and ranged attacks no longer reduce ATK",
                 "spData": {
                     "maxChargeTime": 1,
                     "spCost": 35,
@@ -19414,8 +19415,8 @@
             {
                 "rangeId": null,
                 "description_zh": "立刻使技能就绪的【乌萨斯学生自治团】干员同时开启技能，自身攻击力<@ba.vup>+90%</>，额外攻击一个目标，远程攻击不再降低攻击力",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "スキルが発動可能な状態の味方【ウルサス学生自治団】全員のスキルを同時に発動させ、自身の攻撃力<@ba.vup>+90%</>、攻撃対象数+1。さらに遠距離攻撃時の攻撃力低下が無効化される",
+                "description_en": "All [Ursus Student Self-Governing Group] Operators with skills ready activate their skills at the same time. Own ATK <@ba.vup>+90%</>, attack an extra target, and ranged attacks no longer reduce ATK",
                 "spData": {
                     "maxChargeTime": 1,
                     "spCost": 32,
@@ -19437,8 +19438,8 @@
             {
                 "rangeId": null,
                 "description_zh": "立刻使技能就绪的【乌萨斯学生自治团】干员同时开启技能，自身攻击力<@ba.vup>+100%</>，额外攻击一个目标，远程攻击不再降低攻击力",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "スキルが発動可能な状態の味方【ウルサス学生自治団】全員のスキルを同時に発動させ、自身の攻撃力<@ba.vup>+100%</>、攻撃対象数+1。さらに遠距離攻撃時の攻撃力低下が無効化される",
+                "description_en": "All [Ursus Student Self-Governing Group] Operators with skills ready activate their skills at the same time. Own ATK <@ba.vup>+100%</>, attack an extra target, and ranged attacks no longer reduce ATK",
                 "spData": {
                     "maxChargeTime": 1,
                     "spCost": 30,
@@ -19460,8 +19461,8 @@
             {
                 "rangeId": null,
                 "description_zh": "立刻使技能就绪的【乌萨斯学生自治团】干员同时开启技能，自身攻击力<@ba.vup>+114%</>，额外攻击一个目标，远程攻击不再降低攻击力",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "スキルが発動可能な状態の味方【ウルサス学生自治団】全員のスキルを同時に発動させ、自身の攻撃力<@ba.vup>+115%</>、攻撃対象数+1。さらに遠距離攻撃時の攻撃力低下が無効化される",
+                "description_en": "All [Ursus Student Self-Governing Group] Operators with skills ready activate their skills at the same time. Own ATK <@ba.vup>+115%</>, attack an extra target, and ranged attacks no longer reduce ATK",
                 "spData": {
                     "maxChargeTime": 1,
                     "spCost": 28,
@@ -22969,7 +22970,8 @@
             }
         ],
         "tags": [
-            "multi_target"
+            "multi_target",
+            "charged"
         ],
         "blackboard": [
             {
@@ -23142,7 +23144,9 @@
                 ]
             }
         ],
-        "tags": [],
+        "tags": [
+            "protect"
+        ],
         "blackboard": [
             {
                 "key": "block_no_attack",
@@ -24033,9 +24037,7 @@
                 ]
             }
         ],
-        "tags": [
-            "camouflage"
-        ],
+        "tags": [],
         "blackboard": [
             {
                 "key": "camouflage",
@@ -29255,7 +29257,8 @@
         ],
         "tags": [
             "self_stun",
-            "ailment_but_skill_cont"
+            "ailment_but_skill_cont",
+            "overdrive"
         ],
         "blackboard": [
             {
@@ -29520,7 +29523,8 @@
         ],
         "tags": [
             "apoptosis",
-            "ele_dmg"
+            "ele_dmg",
+            "weaken"
         ],
         "blackboard": [
             {
@@ -29926,7 +29930,8 @@
         ],
         "tags": [
             "ele_dmg",
-            "multi_target"
+            "multi_target",
+            "charged"
         ],
         "blackboard": [
             {
@@ -33156,8 +33161,8 @@
     },
     "skchr_harold_2": {
         "name_zh": "重症优先",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "重体優先",
+        "name_en": "Triage",
         "chara_list": [
             "哈洛德"
         ],
@@ -33168,8 +33173,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击速度<@ba.vup>+80</>，优先治疗<ba.dt.element>元素损伤</>最严重的目标。治疗元素损伤累计超过一半的目标时，<ba.dt.element>元素损伤</>回复量提升至<@ba.vup>200%</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃速度<@ba.vup>+80</>。<ba.dt.element>元素損傷</>の蓄積値が最も高い味方を優先して治療する。元素損傷の蓄積値が最大値の50%を超える対象を治療する場合、<ba.dt.element>元素損傷</>の治療値が<@ba.vup>200%</>まで上昇する",
+                "description_en": "ASPD <@ba.vup>+80</>, prioritize healing the target that has taken the most <ba.dt.element>Elemental Damage</>. When healing targets with more than 50% Elemental Damage, <ba.dt.element>Elemental Damage</> healed is increased to <@ba.vup>200%</>",
                 "spData": {
                     "maxChargeTime": 1,
                     "spCost": 35,
@@ -33191,8 +33196,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击速度<@ba.vup>+90</>，优先治疗<ba.dt.element>元素损伤</>最严重的目标。治疗元素损伤累计超过一半的目标时，<ba.dt.element>元素损伤</>回复量提升至<@ba.vup>220%</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃速度<@ba.vup>+90</>。<ba.dt.element>元素損傷</>の蓄積値が最も高い味方を優先して治療する。元素損傷の蓄積値が最大値の50%を超える対象を治療する場合、<ba.dt.element>元素損傷</>の治療値が<@ba.vup>220%</>まで上昇する",
+                "description_en": "ASPD <@ba.vup>+90</>, prioritize healing the target that has taken the most <ba.dt.element>Elemental Damage</>. When healing targets with more than 50% Elemental Damage, <ba.dt.element>Elemental Damage</> healed is increased to <@ba.vup>220%</>",
                 "spData": {
                     "maxChargeTime": 1,
                     "spCost": 34,
@@ -33214,8 +33219,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击速度<@ba.vup>+90</>，优先治疗<ba.dt.element>元素损伤</>最严重的目标。治疗元素损伤累计超过一半的目标时，<ba.dt.element>元素损伤</>回复量提升至<@ba.vup>230%</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃速度<@ba.vup>+90</>。<ba.dt.element>元素損傷</>の蓄積値が最も高い味方を優先して治療する。元素損傷の蓄積値が最大値の50%を超える対象を治療する場合、<ba.dt.element>元素損傷</>の治療値が<@ba.vup>230%</>まで上昇する",
+                "description_en": "ASPD <@ba.vup>+90</>, prioritize healing the target that has taken the most <ba.dt.element>Elemental Damage</>. When healing targets with more than 50% Elemental Damage, <ba.dt.element>Elemental Damage</> healed is increased to <@ba.vup>230%</>",
                 "spData": {
                     "maxChargeTime": 1,
                     "spCost": 32,
@@ -33237,8 +33242,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击速度<@ba.vup>+100</>，优先治疗<ba.dt.element>元素损伤</>最严重的目标。治疗元素损伤累计超过一半的目标时，<ba.dt.element>元素损伤</>回复量提升至<@ba.vup>250%</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃速度<@ba.vup>+100</>。<ba.dt.element>元素損傷</>の蓄積値が最も高い味方を優先して治療する。元素損傷の蓄積値が最大値の50%を超える対象を治療する場合、<ba.dt.element>元素損傷</>の治療値が<@ba.vup>250%</>まで上昇する",
+                "description_en": "ASPD <@ba.vup>+100</>, prioritize healing the target that has taken the most <ba.dt.element>Elemental Damage</>. When healing targets with more than 50% Elemental Damage, <ba.dt.element>Elemental Damage</> healed is increased to <@ba.vup>250%</>",
                 "spData": {
                     "maxChargeTime": 1,
                     "spCost": 30,
@@ -33407,6 +33412,7 @@
             }
         ],
         "tags": [
+            "magicfragile",
             "aspd_unrelated"
         ],
         "blackboard": [
@@ -38872,7 +38878,7 @@
                 "targets": 3,
                 "value": 7.0,
                 "conditions": [
-                    "blocked"
+                    "self_block"
                 ],
                 "target_air": false
             },
@@ -38990,10 +38996,7 @@
                 ]
             }
         ],
-        "tags": [
-            "ally_camouflage",
-            "camouflage"
-        ],
+        "tags": [],
         "blackboard": [
             {
                 "key": "hp_recovery_per_sec",
@@ -39862,7 +39865,9 @@
                 ]
             }
         ],
-        "tags": [],
+        "tags": [
+            "type_freeze"
+        ],
         "blackboard": [
             {
                 "key": "atk",
@@ -40675,10 +40680,12 @@
                 ]
             }
         ],
-        "tags": [
-            "stealth"
-        ],
+        "tags": [],
         "blackboard": [
+            {
+                "key": "stealth",
+                "value": 50.0
+            },
             {
                 "key": "atk",
                 "value": 0.7
@@ -43508,6 +43515,7 @@
             }
         ],
         "tags": [
+            "fragile",
             "unlimited_duration"
         ],
         "blackboard": [
@@ -44133,7 +44141,9 @@
             }
         ],
         "tags": [
-            "burst"
+            "burst",
+            "drone",
+            "bonus_drone"
         ],
         "blackboard": [
             {
@@ -45764,7 +45774,8 @@
             }
         ],
         "tags": [
-            "heal_ally"
+            "heal_ally",
+            "protect"
         ],
         "blackboard": [
             {
@@ -46012,7 +46023,9 @@
                 ]
             }
         ],
-        "tags": [],
+        "tags": [
+            "protect"
+        ],
         "blackboard": [
             {
                 "key": "attack_speed",
@@ -46389,7 +46402,8 @@
         "tags": [
             "burst",
             "apoptosis",
-            "ele_dmg"
+            "ele_dmg",
+            "weaken"
         ],
         "blackboard": [
             {
@@ -46526,7 +46540,8 @@
         "tags": [
             "multi_target",
             "apoptosis",
-            "ele_dmg"
+            "ele_dmg",
+            "weaken"
         ],
         "blackboard": [
             {
@@ -48939,10 +48954,12 @@
                 ]
             }
         ],
-        "tags": [
-            "stealth"
-        ],
+        "tags": [],
         "blackboard": [
+            {
+                "key": "stealth",
+                "value": 10.0
+            },
             {
                 "key": "cancel_stealth",
                 "value": 10.0
@@ -53382,7 +53399,9 @@
                 ]
             }
         ],
-        "tags": [],
+        "tags": [
+            "charged"
+        ],
         "blackboard": [
             {
                 "key": "atk",
@@ -55271,7 +55290,9 @@
                 ]
             }
         ],
-        "tags": [],
+        "tags": [
+            "fragile"
+        ],
         "blackboard": [
             {
                 "key": "atk_scale",
@@ -56532,7 +56553,8 @@
             }
         ],
         "tags": [
-            "heal_token"
+            "heal_token",
+            "protect"
         ],
         "blackboard": [
             {
@@ -56738,7 +56760,7 @@
                 "value": 15.0,
                 "targets": 3,
                 "conditions": [
-                    "blocked"
+                    "self_block"
                 ],
                 "target_air": false
             },
@@ -57027,10 +57049,13 @@
         ],
         "tags": [
             "aspd_down",
-            "range_up",
-            "stealth"
+            "range_up"
         ],
         "blackboard": [
+            {
+                "key": "stealth",
+                "value": 12.0
+            },
             {
                 "key": "cost",
                 "value": 1.0
@@ -60887,8 +60912,18 @@
                 "value": 2.0
             },
             {
-                "key": "talent_scale",
-                "value": 3.0
+                "key": "block_dmg",
+                "value": 1.0,
+                "types": [
+                    "phys",
+                    "arts",
+                    "true",
+                    "melee_attack",
+                    "ranged_attack"
+                ],
+                "conditions": [
+                    "dmg_below_600"
+                ]
             },
             {
                 "key": "stun",
@@ -61894,7 +61929,8 @@
             }
         ],
         "tags": [
-            "burst"
+            "burst",
+            "charged"
         ],
         "blackboard": [
             {
@@ -62049,7 +62085,7 @@
     },
     "skchr_aglina_1": {
         "name_zh": "秘杖·速充模式",
-        "name_ja": "秘杖・急収束",
+        "name_ja": "秘杖・急収束　",
         "name_en": "Arcane Staff - Quick Charge Mode",
         "chara_list": [
             "安洁莉娜"
@@ -62731,6 +62767,7 @@
             }
         ],
         "tags": [
+            "fragile",
             "range_up"
         ],
         "blackboard": [
@@ -64235,7 +64272,8 @@
             }
         ],
         "tags": [
-            "summon"
+            "summon",
+            "protect"
         ],
         "blackboard": [
             {
@@ -64941,7 +64979,8 @@
         "tags": [
             "burst",
             "apoptosis",
-            "ele_dmg"
+            "ele_dmg",
+            "weaken"
         ],
         "blackboard": [
             {
@@ -65074,7 +65113,8 @@
         "tags": [
             "ally_apoptosis",
             "apoptosis",
-            "ele_dmg"
+            "ele_dmg",
+            "weaken"
         ],
         "blackboard": [
             {
@@ -65255,7 +65295,8 @@
         "tags": [
             "apoptosis",
             "ele_dmg",
-            "range_up"
+            "range_up",
+            "weaken"
         ],
         "blackboard": [
             {
@@ -66674,7 +66715,8 @@
             "burst",
             "aoe",
             "skill_invincible",
-            "aspd_unrelated"
+            "aspd_unrelated",
+            "target_air"
         ],
         "blackboard": [
             {
@@ -68341,16 +68383,16 @@
         ],
         "tags": [],
         "blackboard": [
-          {
-            "key": "max_hp",
-            "value": 0.8,
-            "duration": 30.0
-        },
-        {
-            "key": "def",
-            "value": 0.8,
-            "duration": 30.0
-        },
+            {
+                "key": "max_hp",
+                "value": 0.8,
+                "duration": 30.0
+            },
+            {
+                "key": "def",
+                "value": 0.8,
+                "duration": 30.0
+            },
             {
                 "key": "ally_max_hp",
                 "value": 0.8,
@@ -70921,7 +70963,9 @@
                 ]
             }
         ],
-        "tags": [],
+        "tags": [
+            "fragile"
+        ],
         "blackboard": [
             {
                 "key": "sluggish",
@@ -72291,7 +72335,8 @@
             }
         ],
         "tags": [
-            "remove_status"
+            "remove_status",
+            "charged"
         ],
         "blackboard": [
             {
@@ -73175,7 +73220,8 @@
             }
         ],
         "tags": [
-            "dot"
+            "dot",
+            "magicfragile"
         ],
         "blackboard": [
             {
@@ -75827,7 +75873,8 @@
         ],
         "tags": [
             "arts",
-            "burst"
+            "burst",
+            "charged"
         ],
         "blackboard": [
             {
@@ -75970,6 +76017,7 @@
             }
         ],
         "tags": [
+            "protect",
             "arts",
             "aoe",
             "aspd_unrelated"
@@ -76406,7 +76454,7 @@
                 "targets": 1,
                 "value": 18,
                 "conditions": [
-                    "blocked"
+                    "self_block"
                 ],
                 "target_air": false
             }
@@ -76905,7 +76953,8 @@
             }
         ],
         "tags": [
-            "arts"
+            "arts",
+            "overdrive"
         ],
         "blackboard": [
             {
@@ -77098,7 +77147,9 @@
                 ]
             }
         ],
-        "tags": [],
+        "tags": [
+            "overdrive"
+        ],
         "blackboard": [
             {
                 "key": "atk",
@@ -82056,8 +82107,8 @@
     },
     "skchr_blkkgt_1": {
         "name_zh": "纯粹的武力",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "純粋なる力",
+        "name_en": "Pure Force",
         "chara_list": [
             "锏"
         ],
@@ -82068,8 +82119,8 @@
             {
                 "rangeId": "x-4",
                 "description_zh": "下次攻击对周围最多<@ba.vup>6</>名地面敌人造成两次相当于攻击力<@ba.vup>190%</>的物理伤害",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "次の通常攻撃時、周囲の地上にいる最大<@ba.vup>6</>体の敵に、攻撃力の<@ba.vup>190%</>の物理ダメージを2回与える",
+                "description_en": "The next attack deals <@ba.vup>190%</> of ATK as Physical damage twice to up to <@ba.vup>6</> nearby ground enemies",
                 "spData": {
                     "maxChargeTime": 1,
                     "spCost": 5,
@@ -82091,8 +82142,8 @@
             {
                 "rangeId": "x-4",
                 "description_zh": "下次攻击对周围最多<@ba.vup>6</>名地面敌人造成两次相当于攻击力<@ba.vup>200%</>的物理伤害",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "次の通常攻撃時、周囲の地上にいる最大<@ba.vup>6</>体の敵に、攻撃力の<@ba.vup>200%</>の物理ダメージを2回与える",
+                "description_en": "The next attack deals <@ba.vup>200%</> of ATK as Physical damage twice to up to <@ba.vup>6</> nearby ground enemies",
                 "spData": {
                     "maxChargeTime": 1,
                     "spCost": 4,
@@ -82114,8 +82165,8 @@
             {
                 "rangeId": "x-4",
                 "description_zh": "下次攻击对周围最多<@ba.vup>6</>名地面敌人造成两次相当于攻击力<@ba.vup>210%</>的物理伤害",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "次の通常攻撃時、周囲の地上にいる最大<@ba.vup>6</>体の敵に、攻撃力の<@ba.vup>210%</>の物理ダメージを2回与える",
+                "description_en": "The next attack deals <@ba.vup>210%</> of ATK as Physical damage twice to up to <@ba.vup>6</> nearby ground enemies",
                 "spData": {
                     "maxChargeTime": 1,
                     "spCost": 4,
@@ -82137,8 +82188,8 @@
             {
                 "rangeId": "x-4",
                 "description_zh": "下次攻击对周围最多<@ba.vup>6</>名地面敌人造成两次相当于攻击力<@ba.vup>220%</>的物理伤害",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "次の通常攻撃時、周囲の地上にいる最大<@ba.vup>6</>体の敵に、攻撃力の<@ba.vup>220%</>の物理ダメージを2回与える",
+                "description_en": "The next attack deals <@ba.vup>220%</> of ATK as Physical damage twice to up to <@ba.vup>6</> nearby ground enemies",
                 "spData": {
                     "maxChargeTime": 1,
                     "spCost": 3,
@@ -82174,8 +82225,8 @@
     },
     "skchr_blkkgt_2": {
         "name_zh": "无声的嘲笑",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "声なき嘲笑",
+        "name_en": "Silent Derision",
         "chara_list": [
             "锏"
         ],
@@ -82186,8 +82237,8 @@
             {
                 "rangeId": "1-4",
                 "description_zh": "对前方范围内最多<@ba.vup>5</>名地面敌人发动<@ba.vup>2</>次斩击，攻击被阻挡的敌人时改为<@ba.vup>3</>次斩击，天赋的发动概率提升至<@ba.vup>100%</>，每次斩击造成相当于攻击力<@ba.vup>280%</>的物理伤害\\n<@ba.rem>可充能2次</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "前方一定範囲内の地面にいる最大<@ba.vup>5</>体の敵に対して、<@ba.vup>2</>回の斬撃を行う。ブロックされている敵が対象である場合、斬撃回数が<@ba.vup>3</>回になり、素質の発動率が<@ba.vup>100%</>に上昇する。斬撃は1回ごとに対象に攻撃力の<@ba.vup>280%</>の物理ダメージを与える\n<@ba.rem>2回チャージ可能</>",
+                "description_en": "Slash <@ba.vup>2</> times at up to <@ba.vup>5</> ground enemies ahead, or slash <@ba.vup>3</> times when attacking blocked enemies. Talent trigger rate increased to <@ba.vup>100%</>, and each slash deals <@ba.vup>280%</> of ATK as Physical damage\n<@ba.rem>Can store 2 charges</>",
                 "spData": {
                     "maxChargeTime": 2,
                     "spCost": 12,
@@ -82221,8 +82272,8 @@
             {
                 "rangeId": "1-4",
                 "description_zh": "对前方范围内最多<@ba.vup>6</>名地面敌人发动<@ba.vup>2</>次斩击，攻击被阻挡的敌人时改为<@ba.vup>3</>次斩击，天赋的发动概率提升至<@ba.vup>100%</>，每次斩击造成相当于攻击力<@ba.vup>290%</>的物理伤害\\n<@ba.rem>可充能2次</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "前方一定範囲内の地面にいる最大<@ba.vup>6</>体の敵に対して、<@ba.vup>2</>回の斬撃を行う。ブロックされている敵が対象である場合、斬撃回数が<@ba.vup>3</>回になり、素質の発動率が<@ba.vup>100%</>に上昇する。斬撃は1回ごとに対象に攻撃力の<@ba.vup>290%</>の物理ダメージを与える\n<@ba.rem>2回チャージ可能</>",
+                "description_en": "Slash <@ba.vup>2</> times at up to <@ba.vup>6</> ground enemies ahead, or slash <@ba.vup>3</> times when attacking blocked enemies. Talent trigger rate increased to <@ba.vup>100%</>, and each slash deals <@ba.vup>290%</> of ATK as Physical damage\n<@ba.rem>Can store 2 charges</>",
                 "spData": {
                     "maxChargeTime": 2,
                     "spCost": 12,
@@ -82256,8 +82307,8 @@
             {
                 "rangeId": "1-4",
                 "description_zh": "对前方范围内最多<@ba.vup>6</>名地面敌人发动<@ba.vup>2</>次斩击，攻击被阻挡的敌人时改为<@ba.vup>3</>次斩击，天赋的发动概率提升至<@ba.vup>100%</>，每次斩击造成相当于攻击力<@ba.vup>300%</>的物理伤害\\n<@ba.rem>可充能2次</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "前方一定範囲内の地面にいる最大<@ba.vup>6</>体の敵に対して、<@ba.vup>2</>回の斬撃を行う。ブロックされている敵が対象である場合、斬撃回数が<@ba.vup>3</>回になり、素質の発動率が<@ba.vup>100%</>に上昇する。斬撃は1回ごとに対象に攻撃力の<@ba.vup>300%</>の物理ダメージを与える\n<@ba.rem>2回チャージ可能</>",
+                "description_en": "Slash <@ba.vup>2</> times at up to <@ba.vup>6</> ground enemies ahead, or slash <@ba.vup>3</> times when attacking blocked enemies. Talent trigger rate increased to <@ba.vup>100%</>, and each slash deals <@ba.vup>300%</> of ATK as Physical damage\n<@ba.rem>Can store 2 charges</>",
                 "spData": {
                     "maxChargeTime": 2,
                     "spCost": 12,
@@ -82291,8 +82342,8 @@
             {
                 "rangeId": "1-4",
                 "description_zh": "对前方范围内最多<@ba.vup>6</>名地面敌人发动<@ba.vup>2</>次斩击，攻击被阻挡的敌人时改为<@ba.vup>3</>次斩击，天赋的发动概率提升至<@ba.vup>100%</>，每次斩击造成相当于攻击力<@ba.vup>310%</>的物理伤害\\n<@ba.rem>可充能2次</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "前方一定範囲内の地面にいる最大<@ba.vup>6</>体の敵に対して、<@ba.vup>2</>回の斬撃を行う。ブロックされている敵が対象である場合、斬撃回数が<@ba.vup>3</>回になり、素質の発動率が<@ba.vup>100%</>に上昇する。斬撃は1回ごとに対象に攻撃力の<@ba.vup>310%</>の物理ダメージを与える\n<@ba.rem>2回チャージ可能</>",
+                "description_en": "Slash <@ba.vup>2</> times at up to <@ba.vup>6</> ground enemies ahead, or slash <@ba.vup>3</> times when attacking blocked enemies. Talent trigger rate increased to <@ba.vup>100%</>, and each slash deals <@ba.vup>310%</> of ATK as Physical damage\n<@ba.rem>Can store 2 charges</>",
                 "spData": {
                     "maxChargeTime": 2,
                     "spCost": 12,
@@ -82352,8 +82403,8 @@
     },
     "skchr_blkkgt_3": {
         "name_zh": "归于宁静",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "静寂に帰す",
+        "name_en": "Return To Silence",
         "chara_list": [
             "锏"
         ],
@@ -82364,8 +82415,8 @@
             {
                 "rangeId": "x-1",
                 "description_zh": "持续发动总计<@ba.vup>10</>次斩击，每次斩击对最多<@ba.vup>6</>名敌人造成相当于攻击力<@ba.vup>200%</>的物理伤害，天赋的发动概率提升至<@ba.vup>100%</>，并持续将敌人<@ba.vup>中等力度地</>拖拽至自身中心，之后将造成一次相当于攻击力<@ba.vup>300%</>的物理伤害并将敌人<@ba.vup>较大力地</>拖拽至自身中心",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "範囲内の敵を対象に合計<@ba.vup>10</>回の斬撃を発動、同時に素質の発動率が<@ba.vup>100%</>に上昇。斬撃のたびに最大<@ba.vup>6</>体の敵に攻撃力の<@ba.vup>200%</>の物理ダメージを与えると同時に<@ba.vup>相当の力で</>引き寄せ、最後に攻撃力の<@ba.vup>300%</>の物理ダメージを1回与えると同時に<@ba.vup>かなりの力で</>引き寄せる",
+                "description_en": "Slash <@ba.vup>10</> times, each dealing <@ba.vup>200%</> ATK as Physical damage to up to <@ba.vup>6</> enemies. Talent trigger chance increases to <@ba.vup>100%</>, and continuously drags enemies towards self, with <@ba.vup>moderate</> force. Then deal <@ba.vup>300%</> of ATK as Physical damage once, and drag enemies towards self with <@ba.vup>significant</> force",
                 "spData": {
                     "maxChargeTime": 1,
                     "spCost": 33,
@@ -82411,8 +82462,8 @@
             {
                 "rangeId": "x-1",
                 "description_zh": "持续发动总计<@ba.vup>10</>次斩击，每次斩击对最多<@ba.vup>6</>名敌人造成相当于攻击力<@ba.vup>210%</>的物理伤害，天赋的发动概率提升至<@ba.vup>100%</>，并持续将敌人<@ba.vup>中等力度地</>拖拽至自身中心，之后将造成一次相当于攻击力<@ba.vup>310%</>的物理伤害并将敌人<@ba.vup>较大力地</>拖拽至自身中心",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "範囲内の敵を対象に合計<@ba.vup>10</>回の斬撃を発動、同時に素質の発動率が<@ba.vup>100%</>に上昇。斬撃のたびに最大<@ba.vup>6</>体の敵に攻撃力の<@ba.vup>210%</>の物理ダメージを与えると同時に<@ba.vup>相当の力で</>引き寄せ、最後に攻撃力の<@ba.vup>310%</>の物理ダメージを1回与えると同時に<@ba.vup>かなりの力で</>引き寄せる",
+                "description_en": "Slash <@ba.vup>10</> times, each dealing <@ba.vup>210%</> ATK as Physical damage to up to <@ba.vup>6</> enemies. Talent trigger chance increases to <@ba.vup>100%</>, and continuously drags enemies towards self, with <@ba.vup>moderate</> force. Then deal <@ba.vup>310%</> of ATK as Physical damage once, and drag enemies towards self with <@ba.vup>significant</> force",
                 "spData": {
                     "maxChargeTime": 1,
                     "spCost": 32,
@@ -82458,8 +82509,8 @@
             {
                 "rangeId": "x-1",
                 "description_zh": "持续发动总计<@ba.vup>10</>次斩击，每次斩击对最多<@ba.vup>6</>名敌人造成相当于攻击力<@ba.vup>220%</>的物理伤害，天赋的发动概率提升至<@ba.vup>100%</>，并持续将敌人<@ba.vup>中等力度地</>拖拽至自身中心，之后将造成一次相当于攻击力<@ba.vup>320%</>的物理伤害并将敌人<@ba.vup>较大力地</>拖拽至自身中心",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "範囲内の敵を対象に合計<@ba.vup>10</>回の斬撃を発動、同時に素質の発動率が<@ba.vup>100%</>に上昇。斬撃のたびに最大<@ba.vup>6</>体の敵に攻撃力の<@ba.vup>220%</>の物理ダメージを与えると同時に<@ba.vup>相当の力で</>引き寄せ、最後に攻撃力の<@ba.vup>320%</>の物理ダメージを1回与えると同時に<@ba.vup>かなりの力で</>引き寄せる",
+                "description_en": "Slash <@ba.vup>10</> times, each dealing <@ba.vup>220%</> ATK as Physical damage to up to <@ba.vup>6</> enemies. Talent trigger chance increases to <@ba.vup>100%</>, and continuously drags enemies towards self, with <@ba.vup>moderate</> force. Then deal <@ba.vup>320%</> of ATK as Physical damage once, and drag enemies towards self with <@ba.vup>significant</> force",
                 "spData": {
                     "maxChargeTime": 1,
                     "spCost": 32,
@@ -82505,8 +82556,8 @@
             {
                 "rangeId": "x-1",
                 "description_zh": "持续发动总计<@ba.vup>10</>次斩击，每次斩击对最多<@ba.vup>6</>名敌人造成相当于攻击力<@ba.vup>235%</>的物理伤害，天赋的发动概率提升至<@ba.vup>100%</>，并持续将敌人<@ba.vup>中等力度地</>拖拽至自身中心，之后将造成一次相当于攻击力<@ba.vup>330%</>的物理伤害并将敌人<@ba.vup>较大力地</>拖拽至自身中心",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "範囲内の敵を対象に合計<@ba.vup>10</>回の斬撃を発動、同時に素質の発動率が<@ba.vup>100%</>に上昇。斬撃のたびに最大<@ba.vup>6</>体の敵に攻撃力の<@ba.vup>235%</>の物理ダメージを与えると同時に<@ba.vup>相当の力で</>引き寄せ、最後に攻撃力の<@ba.vup>330%</>の物理ダメージを1回与えると同時に<@ba.vup>かなりの力で</>引き寄せる",
+                "description_en": "Slash <@ba.vup>10</> times, each dealing <@ba.vup>235%</> ATK as Physical damage to up to <@ba.vup>6</> enemies. Talent trigger chance increases to <@ba.vup>100%</>, and continuously drags enemies towards self, with <@ba.vup>moderate</> force. Then deal <@ba.vup>330%</> of ATK as Physical damage once, and drag enemies towards self with <@ba.vup>significant</> force",
                 "spData": {
                     "maxChargeTime": 1,
                     "spCost": 30,
@@ -82566,15 +82617,12 @@
                 "key": "force",
                 "value": 2.0,
                 "conditions": [
-                    "end"
+                    "skill_end"
                 ]
             },
             {
                 "key": "force",
-                "value": 1.0,
-                "conditions": [
-                    "initial"
-                ]
+                "value": 1.0
             }
         ]
     },
@@ -83217,7 +83265,7 @@
                 "key": "force",
                 "value": 1.0,
                 "conditions": [
-                    "no_block"
+                    "no_block_enemy"
                 ]
             }
         ]
@@ -84007,7 +84055,8 @@
             }
         ],
         "tags": [
-            "burst"
+            "burst",
+            "charged"
         ],
         "blackboard": [
             {
@@ -87009,7 +87058,9 @@
             {
                 "key": "force",
                 "value": 0.0,
-                "conditions":["no_block"]
+                "conditions": [
+                    "no_block_enemy"
+                ]
             },
             {
                 "key": "def",
@@ -87409,7 +87460,8 @@
         ],
         "tags": [
             "burst",
-            "flying"
+            "flying",
+            "bonus_flying"
         ],
         "blackboard": [
             {
@@ -88867,7 +88919,9 @@
                 ]
             }
         ],
-        "tags": [],
+        "tags": [
+            "overdrive"
+        ],
         "blackboard": [
             {
                 "key": "base_attack_time",
@@ -90646,7 +90700,9 @@
                 ]
             }
         ],
-        "tags": [],
+        "tags": [
+            "fragile"
+        ],
         "blackboard": [
             {
                 "key": "atk",

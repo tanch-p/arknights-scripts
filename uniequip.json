@@ -180,11 +180,21 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["stealth", "first_token_free"],
+      "tags": ["first_token_free"],
       "blackboard": [
         {
           "key": "token_deploy_free",
           "value": 1.0
+        },
+        {
+          "key": "stealth",
+          "value": 28.0,
+          "conditions": ["token"]
+        },
+        {
+          "key": "stealth",
+          "value": 28.0,
+          "conditions": ["next_to_token"]
         },
         {
           "key": "token_hidden",
@@ -1018,7 +1028,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["bonus_no_block", "no_block_enemy"],
       "blackboard": [
         {
           "key": "atk_scale",
@@ -1164,7 +1174,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["bonus_no_block", "no_block_enemy"],
       "blackboard": [
         {
           "key": "atk_scale",
@@ -1176,7 +1186,8 @@
         },
         {
           "key": "sp_gain",
-          "value": 1.0
+          "value": 1.0,
+          "conditions": ["melee_ally_surrounding"]
         }
       ]
     }
@@ -3241,7 +3252,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["infected"],
+      "tags": ["infection", "bonus_infection"],
       "blackboard": [
         {
           "key": "withdraw_cost_recover_ratio",
@@ -3709,7 +3720,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["no_block"],
+      "tags": ["no_block_enemy", "bonus_no_block"],
       "blackboard": [
         {
           "key": "attack@max_target",
@@ -3735,7 +3746,8 @@
         },
         {
           "key": "sp_gain",
-          "value": 1.0
+          "value": 1.0,
+          "conditions": ["no_block_enemy"]
         }
       ]
     }
@@ -4517,7 +4529,7 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "def_penetrate_fixed",
+          "key": "def_penetrate",
           "value": 70.0
         },
         {
@@ -5652,7 +5664,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["blocked_enemy", "bonus_blocked"],
       "blackboard": [
         {
           "key": "atk_scale",
@@ -6104,7 +6116,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["blocked_enemy", "bonus_blocked"],
       "blackboard": [
         {
           "key": "atk_scale",
@@ -6114,10 +6126,6 @@
           "key": "def_penetrate",
           "value": 1,
           "prob": 0.28
-        },
-        {
-          "key": "prob",
-          "value": 0.28
         }
       ]
     }
@@ -6247,7 +6255,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["blocked_enemy", "bonus_blocked", "fast_redeploy"],
       "blackboard": [
         {
           "key": "atk_scale",
@@ -6700,7 +6708,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["infected"],
+      "tags": ["infection", "bonus_infection"],
       "blackboard": [
         {
           "key": "interval",
@@ -7343,7 +7351,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["stun"],
+      "tags": ["type_stun", "blocked_enemy"],
       "blackboard": [
         {
           "key": "atk_scale",
@@ -7362,7 +7370,8 @@
         },
         {
           "key": "sp_gain",
-          "value": 1.0
+          "value": 1.0,
+          "conditions": ["kill_enemy"]
         }
       ]
     }
@@ -7495,7 +7504,7 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "def_penetrate_fixed",
+          "key": "def_penetrate",
           "value": 100.0
         },
         {
@@ -7637,7 +7646,7 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "def_penetrate_fixed",
+          "key": "def_penetrate",
           "value": 100.0
         },
         {
@@ -7776,7 +7785,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["blocked_enemy", "bonus_blocked"],
       "blackboard": [
         {
           "key": "atk_scale",
@@ -7787,7 +7796,7 @@
           "targets": 99,
           "value": 1.24,
           "types": ["phys"],
-          "conditions": ["blocked"]
+          "conditions": ["blocked_enemy"]
         }
       ]
     }
@@ -7928,7 +7937,7 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "def_penetrate_fixed",
+          "key": "def_penetrate",
           "value": 100.0
         },
         {
@@ -8601,7 +8610,7 @@
           "targets": 99,
           "value": 1.26,
           "types": ["arts"],
-          "conditions": ["blocked"]
+          "conditions": ["blocked_enemy"]
         }
       ]
     }
@@ -10060,7 +10069,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["drone"],
+      "tags": ["drone", "priority_drone", "bonus_drone"],
       "blackboard": [
         {
           "key": "sp_recovery_per_sec",
@@ -12035,10 +12044,10 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["seamonster"],
       "blackboard": [
         {
-          "key": "def_penetrate_fixed",
+          "key": "def_penetrate",
           "value": 70.0
         },
         {
@@ -13492,7 +13501,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["fast_redeploy"],
+      "tags": ["fast_redeploy", "blocked_enemy", "bonus_block"],
       "blackboard": [
         {
           "key": "atk_scale",
@@ -15296,7 +15305,7 @@
         {
           "key": "sp_gain",
           "value": 9.0,
-          "conditions": ["shield_break"]
+          "conditions": ["shield_usage"]
         }
       ]
     }
@@ -15479,9 +15488,8 @@
           "value": -5.0
         },
         {
-          "key": "sp_gain",
-          "value": 20.0,
-          "conditions": ["first_deploy"]
+          "key": "sp_stock",
+          "value": 20.0
         }
       ]
     }
@@ -16378,7 +16386,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["arts"],
+      "tags": ["arts", "infection"],
       "blackboard": [
         {
           "key": "dist",
@@ -19282,7 +19290,7 @@
         {
           "key": "sp_gain",
           "value": 3.0,
-          "conditions": ["shield_break"]
+          "conditions": ["shield_usage"]
         },
         {
           "key": "max_stack_cnt",
@@ -19590,7 +19598,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["protect"],
       "blackboard": [
         {
           "key": "sp_recover_ratio",
@@ -23881,7 +23889,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["sarkaz"],
+      "tags": ["sarkaz", "bonus_sarkaz"],
       "blackboard": [
         {
           "key": "atk_scale",
@@ -24065,7 +24073,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["type_sleep"],
       "blackboard": [
         {
           "key": "atk_scale",
@@ -24077,7 +24085,8 @@
         },
         {
           "key": "def_penetrate",
-          "value": 0.6
+          "value": 0.6,
+          "conditions":["sleep"]
         }
       ]
     }
@@ -24249,7 +24258,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["protect"],
       "blackboard": [
         {
           "key": "value",
@@ -24260,10 +24269,10 @@
           "value": 0.5
         },
         {
-          "key": "ally_dmg_res",
+          "key": "dmg_res",
           "types": ["phys", "arts"],
           "value": 0.25,
-          "conditions": ["hp_gt_50"],
+          "conditions": ["hp_lt_50"],
           "category": ["protect"]
         },
         {
@@ -24444,7 +24453,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["protect"],
       "blackboard": [
         {
           "key": "value",
@@ -24455,10 +24464,10 @@
           "value": 0.5
         },
         {
-          "key": "ally_dmg_res",
+          "key": "dmg_res",
           "types": ["phys", "arts"],
           "value": 0.25,
-          "conditions": ["hp_gt_50"],
+          "conditions": ["hp_lt_50"],
           "category": ["protect"]
         },
         {
@@ -24635,7 +24644,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["protect"],
       "blackboard": [
         {
           "key": "value",
@@ -25842,12 +25851,12 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["flying", "magicfragile"],
       "blackboard": [
         {
           "key": "sp_gain",
           "value": 1.0,
-          "conditions": ["elite|boss"]
+          "conditions": ["atk_enemy_elite_boss"]
         },
         {
           "key": "damage_scale",
@@ -26174,7 +26183,8 @@
       "blackboard": [
         {
           "key": "sp_gain",
-          "value": 1.0
+          "value": 1.0,
+          "conditions": ["atk_enemy_elite_boss"]
         },
         {
           "key": "atk",
@@ -26316,7 +26326,8 @@
       "blackboard": [
         {
           "key": "sp_gain",
-          "value": 1.0
+          "value": 1.0,
+          "conditions": ["atk_enemy_elite_boss"]
         },
         {
           "key": "sp_gain",
@@ -26325,7 +26336,7 @@
         {
           "key": "sp_gain",
           "value": 12.0,
-          "conditions": ["kill"]
+          "conditions": ["kill_enemy"]
         }
       ]
     }
@@ -26458,7 +26469,7 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "def_penetrate_fixed",
+          "key": "def_penetrate",
           "value": 100.0
         },
         {
@@ -26960,7 +26971,8 @@
         },
         {
           "key": "sp_gain",
-          "value": 1.0
+          "value": 1.0,
+          "conditions": ["next_to_token"]
         }
       ]
     }
@@ -27101,7 +27113,7 @@
           "value": 3.0
         },
         {
-          "key": "def_penetrate_fixed",
+          "key": "def_penetrate",
           "value": 300.0
         }
       ]
@@ -28053,7 +28065,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["protect"],
       "blackboard": [
         {
           "key": "value",
@@ -28448,7 +28460,8 @@
         },
         {
           "key": "sp_gain",
-          "value": 3.0
+          "value": 3.0,
+          "conditions": ["four_tile_enemy_defeat"]
         },
         {
           "key": "ally_sp_gain",
@@ -28764,12 +28777,9 @@
           "value": 10.0
         },
         {
-          "key": "prob",
-          "value": 0.8
-        },
-        {
           "key": "sp_gain",
           "value": 2.0,
+          "prob": 0.8,
           "conditions": ["when_attacked"]
         }
       ]
@@ -29370,7 +29380,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["camouflage"],
+      "tags": [],
       "blackboard": [
         {
           "key": "prob",
@@ -29381,8 +29391,9 @@
           "value": 2.0
         },
         {
-          "key": "talent_duration",
-          "value": 6.0
+          "key": "camouflage",
+          "value": 6.0,
+          "conditions": ["when_attacked"]
         }
       ]
     }
@@ -29551,7 +29562,7 @@
           "value": 2.0
         },
         {
-          "key": "def_penetrate_fixed",
+          "key": "def_penetrate",
           "value": 120.0
         },
         {
@@ -30298,7 +30309,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["fragile", "weaken"],
       "blackboard": [
         {
           "key": "atk_down",
@@ -30456,7 +30467,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["weaken"],
       "blackboard": [
         {
           "key": "atk_down",
@@ -30609,7 +30620,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["lower_target_priority"],
+      "tags": ["lower_target_priority", "weaken"],
       "blackboard": [
         {
           "key": "atk_down",
@@ -30766,7 +30777,7 @@
           "value": 3.0
         },
         {
-          "key": "def_penetrate_fixed",
+          "key": "def_penetrate",
           "value": 235.0
         }
       ]
@@ -31366,7 +31377,7 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "def_penetrate_fixed",
+          "key": "def_penetrate",
           "value": 100.0
         },
         {
@@ -32953,7 +32964,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["priority_sleep", "type_sleep"],
       "blackboard": [
         {
           "key": "heal_scale",
@@ -32967,7 +32978,8 @@
           "key": "sleep",
           "targets": 99,
           "value": 8.0,
-          "target_air": false
+          "target_air": false,
+          "conditions": ["deploy"]
         },
         {
           "key": "atk_scale",
@@ -35779,7 +35791,7 @@
           "value": 0.05
         },
         {
-          "key": "def_penetrate_fixed",
+          "key": "def_penetrate",
           "value": 300.0
         }
       ]
@@ -36360,7 +36372,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["protect"],
       "blackboard": [
         {
           "key": "heal_scale",
@@ -36707,7 +36719,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["protect"],
       "blackboard": [
         {
           "key": "heal_scale",
@@ -36873,7 +36885,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["protect"],
       "blackboard": [
         {
           "key": "heal_scale",
@@ -36884,7 +36896,7 @@
           "value": 0.6
         },
         {
-          "key": "dmg_res",
+          "key": "ally_dmg_res",
           "types": ["phys", "arts"],
           "value": 0.18,
           "conditions": ["hp_gt_60"],
@@ -37034,7 +37046,8 @@
         },
         {
           "key": "sp_gain",
-          "value": 14.0
+          "value": 14.0,
+          "conditions": ["first_skill_usage"]
         }
       ]
     }
@@ -37158,7 +37171,7 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "def_penetrate_fixed",
+          "key": "def_penetrate",
           "value": 70.0
         },
         {
@@ -38231,7 +38244,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["vigor"],
+      "tags": ["vigor", "blocked_enemy", "bonus_blocked"],
       "blackboard": [
         {
           "key": "atk_scale",
@@ -38426,7 +38439,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["apoptosis", "ele_dmg"],
+      "tags": ["apoptosis", "ele_dmg", "weaken"],
       "blackboard": [
         {
           "key": "atk_down",
@@ -38590,7 +38603,8 @@
         {
           "key": "dmg_res",
           "types": ["phys", "arts"],
-          "value": 0.15
+          "value": 0.15,
+          "conditions": ["self_block"]
         },
         {
           "key": "interval",
@@ -38611,7 +38625,7 @@
         {
           "key": "sp_gain",
           "value": 2.0,
-          "conditions": ["shield_break"]
+          "conditions": ["shield_usage"]
         }
       ]
     }
@@ -38758,7 +38772,8 @@
         {
           "key": "dmg_res",
           "types": ["phys", "arts"],
-          "value": 0.15
+          "value": 0.15,
+          "conditions": ["self_block"]
         }
       ]
     }
@@ -38921,7 +38936,8 @@
         {
           "key": "dmg_res",
           "types": ["phys", "arts"],
-          "value": 0.15
+          "value": 0.15,
+          "conditions": ["self_block"]
         },
         {
           "key": "hp_recovery_per_sec_by_max_hp_ratio",
@@ -39077,7 +39093,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["blocked_enemy", "bonus_blocked"],
       "blackboard": [
         {
           "key": "atk_scale",
@@ -39667,8 +39683,8 @@
   "uniequip_001_gdglow": {
     "uniEquipId": "uniequip_001_gdglow",
     "name_zh": "澄闪证章",
-    "name_ja": "",
-    "name_en": "",
+    "name_ja": "ゴールデングローの記章",
+    "name_en": "Goldenglow's Badge",
     "typeIcon": "original",
     "charId": "char_377_gdglow",
     "combatData": null
@@ -39676,8 +39692,8 @@
   "uniequip_002_gdglow": {
     "uniEquipId": "uniequip_002_gdglow",
     "name_zh": "“辛劳之翼”",
-    "name_ja": "",
-    "name_en": "",
+    "name_ja": "「努力の翼」",
+    "name_en": "'Industrious Wings'",
     "typeIcon": "fun-x",
     "charId": "char_377_gdglow",
     "combatData": {
@@ -39689,11 +39705,11 @@
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
               "addDesc_zh": null,
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": null,
+              "addDesc_en": null,
               "overrideDesc_zh": "操作<@ba.kw>浮游单元</>造成<@ba.kw>法术伤害</>\\n单元攻击同一敌人伤害提升（单元初始伤害提高，最高造成干员110%攻击力的伤害）",
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": "<@ba.kw>浮遊ユニット</>を操作して敵に<@ba.kw>術ダメージ</>を与える\n浮遊ユニットが連続で同一目標を攻撃時、与ダメージが上昇（浮遊ユニットの初期与ダメージ上昇。最大は攻撃力の110%まで）",
+              "overrideDesc_en": "Attack with <@ba.kw>Drones</> to deal <@ba.kw>Arts damage</>\nDrone deals more damage when it attacks the same enemy again (base damage increased, deals up to 110% of Operator's ATK as damage)"
             }
           ],
           "attributeBlackboard": [
@@ -39715,25 +39731,25 @@
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
               "addDesc_zh": null,
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": null,
+              "addDesc_en": null,
               "overrideDesc_zh": "操作<@ba.kw>浮游单元</>造成<@ba.kw>法术伤害</>\\n单元攻击同一敌人伤害提升（单元初始伤害提高，最高造成干员110%攻击力的伤害）",
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": "<@ba.kw>浮遊ユニット</>を操作して敵に<@ba.kw>術ダメージ</>を与える\n浮遊ユニットが連続で同一目標を攻撃時、与ダメージが上昇（浮遊ユニットの初期与ダメージ上昇。最大は攻撃力の110%まで）",
+              "overrideDesc_en": "Attack with <@ba.kw>Drones</> to deal <@ba.kw>Arts damage</>\nDrone deals more damage when it attacks the same enemy again (base damage increased, deals up to 110% of Operator's ATK as damage)"
             },
             {
               "resKey": null,
               "target": "TALENT_DATA_ONLY",
               "isToken": false,
-              "name_zh": "信标的愤怒",
-              "name_ja": "",
-              "name_en": "",
+              "name_zh": "Beacon's Wrath",
+              "name_ja": "電流暴走",
+              "name_en": "Beacon's Wrath",
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
               "upgradeDesc_zh": "技能开启后浮游单元攻击时有10%概率自爆（回到干员身边）对小范围敌人造成澄闪355%<@ba.talpu>（+15%）</>攻击力的法术伤害",
-              "upgradeDesc_ja": "",
-              "upgradeDesc_en": ""
+              "upgradeDesc_ja": "スキル発動中、浮遊ユニットが攻撃時10%の確率で自爆（ゴールデングローの元に戻る）し、一定範囲内の敵全員にゴールデングローの攻撃力の355%<@ba.talpu>（+15%）</>の術ダメージを与える",
+              "upgradeDesc_en": "When this unit's skill is active, Drones have a 10% chance to self-destruct when attacking (and then return to the Operator), dealing 355% <@ba.talpu>(+15%)</> of Goldenglow's ATK as Arts damage to enemies in a small area"
             }
           ],
           "attributeBlackboard": [
@@ -39755,25 +39771,25 @@
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
               "addDesc_zh": null,
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": null,
+              "addDesc_en": null,
               "overrideDesc_zh": "操作<@ba.kw>浮游单元</>造成<@ba.kw>法术伤害</>\\n单元攻击同一敌人伤害提升（单元初始伤害提高，最高造成干员110%攻击力的伤害）",
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": "<@ba.kw>浮遊ユニット</>を操作して敵に<@ba.kw>術ダメージ</>を与える\n浮遊ユニットが連続で同一目標を攻撃時、与ダメージが上昇（浮遊ユニットの初期与ダメージ上昇。最大は攻撃力の110%まで）",
+              "overrideDesc_en": "Attack with <@ba.kw>Drones</> to deal <@ba.kw>Arts damage</>\nDrone deals more damage when it attacks the same enemy again (base damage increased, deals up to 110% of Operator's ATK as damage)"
             },
             {
               "resKey": null,
               "target": "TALENT_DATA_ONLY",
               "isToken": false,
-              "name_zh": "信标的愤怒",
-              "name_ja": "",
-              "name_en": "",
+              "name_zh": "Beacon's Wrath",
+              "name_ja": "電流暴走",
+              "name_en": "Beacon's Wrath",
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
               "upgradeDesc_zh": "技能开启后浮游单元攻击时有10%概率自爆（回到干员身边）对小范围敌人造成澄闪375%<@ba.talpu>（+15%）</>攻击力的法术伤害",
-              "upgradeDesc_ja": "",
-              "upgradeDesc_en": ""
+              "upgradeDesc_ja": "スキル発動中、浮遊ユニットが攻撃時10%の確率で自爆（ゴールデングローの元に戻る）し、一定範囲内の敵全員にゴールデングローの攻撃力の375%<@ba.talpu>（+15%）</>の術ダメージを与える",
+              "upgradeDesc_en": "When this unit's skill is active, Drones have a 10% chance to self-destruct when attacking (and then return to the Operator), dealing 375% <@ba.talpu>(+15%)</> of Goldenglow's ATK as Arts damage to enemies in a small area"
             }
           ],
           "attributeBlackboard": [
@@ -39825,8 +39841,8 @@
   "uniequip_001_rockr": {
     "uniEquipId": "uniequip_001_rockr",
     "name_zh": "洛洛证章",
-    "name_ja": "",
-    "name_en": "",
+    "name_ja": "ロックロックの記章",
+    "name_en": "Rockrock's Badge",
     "typeIcon": "original",
     "charId": "char_4040_rockr",
     "combatData": null
@@ -39834,8 +39850,8 @@
   "uniequip_002_rockr": {
     "uniEquipId": "uniequip_002_rockr",
     "name_zh": "未命名的无人机",
-    "name_ja": "",
-    "name_en": "",
+    "name_ja": "名付けされていないドローン",
+    "name_en": "Unnamed Drone",
     "typeIcon": "fun-x",
     "charId": "char_4040_rockr",
     "combatData": {
@@ -39847,11 +39863,11 @@
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
               "addDesc_zh": null,
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": null,
+              "addDesc_en": null,
               "overrideDesc_zh": "操作<@ba.kw>浮游单元</>造成<@ba.kw>法术伤害</>\\n单元攻击同一敌人伤害提升（单元初始伤害提高，最高造成干员110%攻击力的伤害）",
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": "<@ba.kw>浮遊ユニット</>を操作して敵に<@ba.kw>術ダメージ</>を与える\n浮遊ユニットが連続で同一目標を攻撃時、与ダメージが上昇（浮遊ユニットの初期与ダメージ上昇。最大は攻撃力の110%まで）",
+              "overrideDesc_en": "Attack with <@ba.kw>Drones</> to deal <@ba.kw>Arts damage</>\nDrone deals more damage when it attacks the same enemy again (base damage increased, deals up to 110% of Operator's ATK as damage)"
             }
           ],
           "attributeBlackboard": [
@@ -39877,25 +39893,25 @@
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
               "addDesc_zh": null,
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": null,
+              "addDesc_en": null,
               "overrideDesc_zh": "操作<@ba.kw>浮游单元</>造成<@ba.kw>法术伤害</>\\n单元攻击同一敌人伤害提升（单元初始伤害提高，最高造成干员110%攻击力的伤害）",
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": "<@ba.kw>浮遊ユニット</>を操作して敵に<@ba.kw>術ダメージ</>を与える\n浮遊ユニットが連続で同一目標を攻撃時、与ダメージが上昇（浮遊ユニットの初期与ダメージ上昇。最大は攻撃力の110%まで）",
+              "overrideDesc_en": "Attack with <@ba.kw>Drones</> to deal <@ba.kw>Arts damage</>\nDrone deals more damage when it attacks the same enemy again (base damage increased, deals up to 110% of Operator's ATK as damage)"
             },
             {
               "resKey": null,
               "target": "TALENT_DATA_ONLY",
               "isToken": false,
-              "name_zh": "立于磐石",
-              "name_ja": "",
-              "name_en": "",
+              "name_zh": "Firm Foundation",
+              "name_ja": "礎石",
+              "name_en": "Firm Foundation",
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
               "upgradeDesc_zh": "每在场上停留10秒，攻击力+5%<@ba.talpu>（+1%）</>，最多可以叠加4次",
-              "upgradeDesc_ja": "",
-              "upgradeDesc_en": ""
+              "upgradeDesc_ja": "配置中、10秒ごとに攻撃力+5%<@ba.talpu>（+1%）</>、最大4回まで",
+              "upgradeDesc_en": "+5% <@ba.talpu>(+1%)</> ATK for every 10 seconds this unit remains on the battlefield, stacking up to 4 times"
             }
           ],
           "attributeBlackboard": [
@@ -39921,33 +39937,33 @@
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
               "addDesc_zh": null,
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": null,
+              "addDesc_en": null,
               "overrideDesc_zh": "操作<@ba.kw>浮游单元</>造成<@ba.kw>法术伤害</>\\n单元攻击同一敌人伤害提升（单元初始伤害提高，最高造成干员110%攻击力的伤害）",
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": "<@ba.kw>浮遊ユニット</>を操作して敵に<@ba.kw>術ダメージ</>を与える\n浮遊ユニットが連続で同一目標を攻撃時、与ダメージが上昇（浮遊ユニットの初期与ダメージ上昇。最大は攻撃力の110%まで）",
+              "overrideDesc_en": "Attack with <@ba.kw>Drones</> to deal <@ba.kw>Arts damage</>\nDrone deals more damage when it attacks the same enemy again (base damage increased, deals up to 110% of Operator's ATK as damage)"
             },
             {
               "resKey": null,
               "target": "TALENT_DATA_ONLY",
               "isToken": false,
-              "name_zh": "立于磐石",
-              "name_ja": "",
-              "name_en": "",
+              "name_zh": "Firm Foundation",
+              "name_ja": "礎石",
+              "name_en": "Firm Foundation",
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
               "upgradeDesc_zh": "每在场上停留10秒，攻击力+5%<@ba.talpu>（+1%）</>，最多可以叠加4次，叠满后攻击速度+5",
-              "upgradeDesc_ja": "",
-              "upgradeDesc_en": ""
+              "upgradeDesc_ja": "配置中、10秒ごとに攻撃力+5%<@ba.talpu>（+1%）</>、最大4回まで。上昇値が最大になると、攻撃速度+5",
+              "upgradeDesc_en": "+5% <@ba.talpu>(+1%)</> ATK for every 10 seconds this unit remains on the battlefield, stacking up to 4 times, +5 ASPD when at max"
             },
             {
               "resKey": "rockr_equip_1_3_p1",
               "target": "TALENT",
               "isToken": false,
               "name_zh": null,
-              "name_ja": "",
-              "name_en": "",
+              "name_ja": null,
+              "name_en": null,
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": -1,
@@ -40017,8 +40033,8 @@
   "uniequip_001_kjera": {
     "uniEquipId": "uniequip_001_kjera",
     "name_zh": "耶拉证章",
-    "name_ja": "",
-    "name_en": "",
+    "name_ja": "イェラの記章",
+    "name_en": "Kjera's Badge",
     "typeIcon": "original",
     "charId": "char_4013_kjera",
     "combatData": null
@@ -40026,8 +40042,8 @@
   "uniequip_002_kjera": {
     "uniEquipId": "uniequip_002_kjera",
     "name_zh": "以雪为线",
-    "name_ja": "",
-    "name_en": "",
+    "name_ja": "雪を紡いで",
+    "name_en": "In the Woolen of Snow",
     "typeIcon": "fun-y",
     "charId": "char_4013_kjera",
     "combatData": {
@@ -40039,11 +40055,11 @@
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
               "addDesc_zh": null,
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": null,
+              "addDesc_en": null,
               "overrideDesc_zh": "操作<@ba.kw>浮游单元</>造成<@ba.kw>法术伤害</>\\n单元攻击同一敌人伤害提升（最高造成干员120%攻击力的伤害）",
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": "<@ba.kw>浮遊ユニット</>を操作して敵に<@ba.kw>術ダメージ</>を与える\n浮遊ユニットが連続で同一目標を攻撃時、与ダメージが上昇（最大は攻撃力の120%まで）",
+              "overrideDesc_en": "Attack with <@ba.kw>Drones</> to deal <@ba.kw>Arts damage</>\nDrone deals more damage when it attacks the same enemy again (deals up to 120% of Operator's ATK as damage)"
             }
           ],
           "attributeBlackboard": [
@@ -40065,25 +40081,25 @@
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
               "addDesc_zh": null,
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": null,
+              "addDesc_en": null,
               "overrideDesc_zh": "操作<@ba.kw>浮游单元</>造成<@ba.kw>法术伤害</>\\n单元攻击同一敌人伤害提升（最高造成干员120%攻击力的伤害）",
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": "<@ba.kw>浮遊ユニット</>を操作して敵に<@ba.kw>術ダメージ</>を与える\n浮遊ユニットが連続で同一目標を攻撃時、与ダメージが上昇（最大は攻撃力の120%まで）",
+              "overrideDesc_en": "Attack with <@ba.kw>Drones</> to deal <@ba.kw>Arts damage</>\nDrone deals more damage when it attacks the same enemy again (deals up to 120% of Operator's ATK as damage)"
             },
             {
               "resKey": null,
               "target": "TALENT_DATA_ONLY",
               "isToken": false,
-              "name_zh": "低眉",
-              "name_ja": "",
-              "name_en": "",
+              "name_zh": "Deference",
+              "name_ja": "俯瞰",
+              "name_en": "Deference",
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
               "upgradeDesc_zh": "攻击力+18%<@ba.talpu>（+3%）</>，攻击范围内存在2格以上的地面地形时，改为攻击力+24%<@ba.talpu>（+3%）</>",
-              "upgradeDesc_ja": "",
-              "upgradeDesc_en": ""
+              "upgradeDesc_ja": "攻撃力+18%<@ba.talpu>（+3%）</>。攻撃範囲内に3箇所以上地面マスがある場合、攻撃力上昇効果が+24%<@ba.talpu>（+3%）</>になる",
+              "upgradeDesc_en": "ATK +18% <@ba.talpu>(+3%)</>, when there are two or more ground tiles within Attack Range, the effect becomes ATK +24% <@ba.talpu>(+3%)</>"
             }
           ],
           "attributeBlackboard": [
@@ -40105,25 +40121,25 @@
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
               "addDesc_zh": null,
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": null,
+              "addDesc_en": null,
               "overrideDesc_zh": "操作<@ba.kw>浮游单元</>造成<@ba.kw>法术伤害</>\\n单元攻击同一敌人伤害提升（最高造成干员120%攻击力的伤害）",
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": "<@ba.kw>浮遊ユニット</>を操作して敵に<@ba.kw>術ダメージ</>を与える\n浮遊ユニットが連続で同一目標を攻撃時、与ダメージが上昇（最大は攻撃力の120%まで）",
+              "overrideDesc_en": "Attack with <@ba.kw>Drones</> to deal <@ba.kw>Arts damage</>\nDrone deals more damage when it attacks the same enemy again (deals up to 120% of Operator's ATK as damage)"
             },
             {
               "resKey": null,
               "target": "TALENT_DATA_ONLY",
               "isToken": false,
-              "name_zh": "低眉",
-              "name_ja": "",
-              "name_en": "",
+              "name_zh": "Deference",
+              "name_ja": "俯瞰",
+              "name_en": "Deference",
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
               "upgradeDesc_zh": "攻击力+21%<@ba.talpu>（+3%）</>，攻击范围内存在2格以上的地面地形时，改为攻击力+27%<@ba.talpu>（+3%）</>",
-              "upgradeDesc_ja": "",
-              "upgradeDesc_en": ""
+              "upgradeDesc_ja": "攻撃力+21%<@ba.talpu>（+3%）</>。攻撃範囲内に3箇所以上地面マスがある場合、攻撃力上昇効果が+27%<@ba.talpu>（+3%）</>になる",
+              "upgradeDesc_en": "ATK +21% <@ba.talpu>(+3%)</>, when there two or more ground tiles within Attack Range, the effect becomes ATK +27% <@ba.talpu>(+3%)</>"
             }
           ],
           "attributeBlackboard": [
@@ -40175,8 +40191,8 @@
   "uniequip_001_malist": {
     "uniEquipId": "uniequip_001_malist",
     "name_zh": "至简证章",
-    "name_ja": "",
-    "name_en": "",
+    "name_ja": "ミニマリストの記章",
+    "name_en": "Minimalist's Badge",
     "typeIcon": "original",
     "charId": "char_4054_malist",
     "combatData": null
@@ -40184,8 +40200,8 @@
   "uniequip_002_malist": {
     "uniEquipId": "uniequip_002_malist",
     "name_zh": "“新家园”",
-    "name_ja": "",
-    "name_en": "",
+    "name_ja": "「新しいふるさと」",
+    "name_en": "'New Home'",
     "typeIcon": "fun-y",
     "charId": "char_4054_malist",
     "combatData": {
@@ -40197,11 +40213,11 @@
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
               "addDesc_zh": null,
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": null,
+              "addDesc_en": null,
               "overrideDesc_zh": "操作<@ba.kw>浮游单元</>造成<@ba.kw>法术伤害</>\\n单元攻击同一敌人伤害提升（最高造成干员120%攻击力的伤害）",
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": "<@ba.kw>浮遊ユニット</>を操作して敵に<@ba.kw>術ダメージ</>を与える\n浮遊ユニットが連続で同一目標を攻撃時、与ダメージが上昇（最大は攻撃力の120%まで）",
+              "overrideDesc_en": "Attack with <@ba.kw>Drones</> to deal <@ba.kw>Arts damage</>\nDrone deals more damage when it attacks the same enemy again (deals up to 120% of Operator's ATK as damage)"
             }
           ],
           "attributeBlackboard": [
@@ -40223,25 +40239,25 @@
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
               "addDesc_zh": null,
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": null,
+              "addDesc_en": null,
               "overrideDesc_zh": "操作<@ba.kw>浮游单元</>造成<@ba.kw>法术伤害</>\\n单元攻击同一敌人伤害提升（最高造成干员120%攻击力的伤害）",
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": "<@ba.kw>浮遊ユニット</>を操作して敵に<@ba.kw>術ダメージ</>を与える\n浮遊ユニットが連続で同一目標を攻撃時、与ダメージが上昇（最大は攻撃力の120%まで）",
+              "overrideDesc_en": "Attack with <@ba.kw>Drones</> to deal <@ba.kw>Arts damage</>\nDrone deals more damage when it attacks the same enemy again (deals up to 120% of Operator's ATK as damage)"
             },
             {
               "resKey": null,
               "target": "TALENT_DATA_ONLY",
               "isToken": false,
-              "name_zh": "忽有所悟",
-              "name_ja": "",
-              "name_en": "",
+              "name_zh": "Flash of Insight",
+              "name_ja": "インスピレーション",
+              "name_en": "Flash of Insight",
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
               "upgradeDesc_zh": "攻击时，35％<@ba.talpu>（+5%）</>几率当次攻击的攻击力提升至155％",
-              "upgradeDesc_ja": "",
-              "upgradeDesc_en": ""
+              "upgradeDesc_ja": "攻撃時、35%<@ba.talpu>（+5%）</>の確率でその攻撃のみ攻撃力が155%に上昇",
+              "upgradeDesc_en": "When attacking, 35% <@ba.talpu>(+5%)</> chance to increase that ATK to 155%"
             }
           ],
           "attributeBlackboard": [
@@ -40263,25 +40279,25 @@
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
               "addDesc_zh": null,
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": null,
+              "addDesc_en": null,
               "overrideDesc_zh": "操作<@ba.kw>浮游单元</>造成<@ba.kw>法术伤害</>\\n单元攻击同一敌人伤害提升（最高造成干员120%攻击力的伤害）",
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": "<@ba.kw>浮遊ユニット</>を操作して敵に<@ba.kw>術ダメージ</>を与える\n浮遊ユニットが連続で同一目標を攻撃時、与ダメージが上昇（最大は攻撃力の120%まで）",
+              "overrideDesc_en": "Attack with <@ba.kw>Drones</> to deal <@ba.kw>Arts damage</>\nDrone deals more damage when it attacks the same enemy again (deals up to 120% of Operator's ATK as damage)"
             },
             {
               "resKey": null,
               "target": "TALENT_DATA_ONLY",
               "isToken": false,
-              "name_zh": "忽有所悟",
-              "name_ja": "",
-              "name_en": "",
+              "name_zh": "Flash of Insight",
+              "name_ja": "インスピレーション",
+              "name_en": "Flash of Insight",
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
               "upgradeDesc_zh": "攻击时，35％<@ba.talpu>（+5%）</>几率当次攻击的攻击力提升至160％",
-              "upgradeDesc_ja": "",
-              "upgradeDesc_en": ""
+              "upgradeDesc_ja": "攻撃時、35%<@ba.talpu>（+5%）</>の確率でその攻撃のみ攻撃力が160%に上昇",
+              "upgradeDesc_en": "When attacking, 35% <@ba.talpu>(+5%)</> chance to increase that ATK to 160%"
             }
           ],
           "attributeBlackboard": [
@@ -40329,8 +40345,8 @@
   "uniequip_001_cammou": {
     "uniEquipId": "uniequip_001_cammou",
     "name_zh": "卡达证章",
-    "name_ja": "",
-    "name_en": "",
+    "name_ja": "カシャの記章",
+    "name_en": "Click's Badge",
     "typeIcon": "original",
     "charId": "char_328_cammou",
     "combatData": null
@@ -40338,8 +40354,8 @@
   "uniequip_002_cammou": {
     "uniEquipId": "uniequip_002_cammou",
     "name_zh": "大菲林脱敏实验",
-    "name_ja": "",
-    "name_en": "",
+    "name_ja": "大型フェリーン克服実験",
+    "name_en": "Big Feline Desensitization Experiment",
     "typeIcon": "fun-y",
     "charId": "char_328_cammou",
     "combatData": {
@@ -40351,11 +40367,11 @@
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
               "addDesc_zh": null,
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": null,
+              "addDesc_en": null,
               "overrideDesc_zh": "操作<@ba.kw>浮游单元</>造成<@ba.kw>法术伤害</>\\n单元攻击同一敌人伤害提升（最高造成干员120%攻击力的伤害）",
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": "<@ba.kw>浮遊ユニット</>を操作して敵に<@ba.kw>術ダメージ</>を与える\n浮遊ユニットが連続で同一目標を攻撃時、与ダメージが上昇（最大は攻撃力の120%まで）",
+              "overrideDesc_en": "Attack with <@ba.kw>Drones</> to deal <@ba.kw>Arts damage</>\nDrone deals more damage when it attacks the same enemy again (deals up to 120% of Operator's ATK as damage)"
             }
           ],
           "attributeBlackboard": [
@@ -40377,25 +40393,25 @@
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
               "addDesc_zh": null,
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": null,
+              "addDesc_en": null,
               "overrideDesc_zh": "操作<@ba.kw>浮游单元</>造成<@ba.kw>法术伤害</>\\n单元攻击同一敌人伤害提升（最高造成干员120%攻击力的伤害）",
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": "<@ba.kw>浮遊ユニット</>を操作して敵に<@ba.kw>術ダメージ</>を与える\n浮遊ユニットが連続で同一目標を攻撃時、与ダメージが上昇（最大は攻撃力の120%まで）",
+              "overrideDesc_en": "Attack with <@ba.kw>Drones</> to deal <@ba.kw>Arts damage</>\nDrone deals more damage when it attacks the same enemy again (deals up to 120% of Operator's ATK as damage)"
             },
             {
               "resKey": null,
               "target": "TALENT_DATA_ONLY",
               "isToken": false,
-              "name_zh": "协调一致",
-              "name_ja": "",
-              "name_en": "",
+              "name_zh": "Coordinated",
+              "name_ja": "シンクロ",
+              "name_en": "Coordinated",
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
               "upgradeDesc_zh": "自身与浮游单元的攻击速度+15",
-              "upgradeDesc_ja": "",
-              "upgradeDesc_en": ""
+              "upgradeDesc_ja": "自身と浮遊ユニットの攻撃速度+15",
+              "upgradeDesc_en": "This unit and Drones gain +15 ASPD"
             }
           ],
           "attributeBlackboard": [
@@ -40417,25 +40433,25 @@
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
               "addDesc_zh": null,
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": null,
+              "addDesc_en": null,
               "overrideDesc_zh": "操作<@ba.kw>浮游单元</>造成<@ba.kw>法术伤害</>\\n单元攻击同一敌人伤害提升（最高造成干员120%攻击力的伤害）",
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": "<@ba.kw>浮遊ユニット</>を操作して敵に<@ba.kw>術ダメージ</>を与える\n浮遊ユニットが連続で同一目標を攻撃時、与ダメージが上昇（最大は攻撃力の120%まで）",
+              "overrideDesc_en": "Attack with <@ba.kw>Drones</> to deal <@ba.kw>Arts damage</>\nDrone deals more damage when it attacks the same enemy again (deals up to 120% of Operator's ATK as damage)"
             },
             {
               "resKey": null,
               "target": "TALENT_DATA_ONLY",
               "isToken": false,
-              "name_zh": "协调一致",
-              "name_ja": "",
-              "name_en": "",
+              "name_zh": "Coordinated",
+              "name_ja": "シンクロ",
+              "name_en": "Coordinated",
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
               "upgradeDesc_zh": "自身与浮游单元的攻击速度+18",
-              "upgradeDesc_ja": "",
-              "upgradeDesc_en": ""
+              "upgradeDesc_ja": "自身と浮遊ユニットの攻撃速度+18",
+              "upgradeDesc_en": "This unit and Drones gain +18 ASPD"
             }
           ],
           "attributeBlackboard": [
@@ -40479,8 +40495,8 @@
   "uniequip_001_blkkgt": {
     "uniEquipId": "uniequip_001_blkkgt",
     "name_zh": "锏证章",
-    "name_ja": "",
-    "name_en": "",
+    "name_ja": "デーゲンブレヒャーの記章",
+    "name_en": "Degenbrecher's Badge",
     "typeIcon": "original",
     "charId": "char_4116_blkkgt",
     "combatData": null
@@ -40488,8 +40504,8 @@
   "uniequip_002_blkkgt": {
     "uniEquipId": "uniequip_002_blkkgt",
     "name_zh": "“过往的注脚”",
-    "name_ja": "",
-    "name_en": "",
+    "name_ja": "「過去の注釈」",
+    "name_en": "'Footnotes of the Past'",
     "typeIcon": "swo-x",
     "charId": "char_4116_blkkgt",
     "combatData": {
@@ -40501,11 +40517,11 @@
               "target": "TRAIT",
               "isToken": false,
               "addDesc_zh": "技能造成的伤害提升<@ba.vup>10%</>",
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": "スキルの与ダメージ<@ba.vup>+10%</>",
+              "addDesc_en": "Deals <@ba.vup>10%</> more damage with skills",
               "overrideDesc_zh": null,
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": null,
+              "overrideDesc_en": null
             }
           ],
           "attributeBlackboard": [
@@ -40531,25 +40547,25 @@
               "target": "TRAIT",
               "isToken": false,
               "addDesc_zh": "技能造成的伤害提升<@ba.vup>10%</>",
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": "スキルの与ダメージ<@ba.vup>+10%</>",
+              "addDesc_en": "Deals <@ba.vup>10%</> more damage with skills",
               "overrideDesc_zh": null,
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": null,
+              "overrideDesc_en": null
             },
             {
               "resKey": null,
               "target": "TALENT_DATA_ONLY",
               "isToken": false,
-              "name_zh": "“天生的武者”",
-              "name_ja": "",
-              "name_en": "",
+              "name_zh": "Born Warrior",
+              "name_ja": "「天性の武者」",
+              "name_en": "Born Warrior",
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
               "upgradeDesc_zh": "造成伤害时有10%的几率攻击力提升至170%<@ba.talpu>（+5%）</>，并使目标<ba.tremble>战栗</>5秒",
-              "upgradeDesc_ja": "",
-              "upgradeDesc_en": ""
+              "upgradeDesc_ja": "ダメージを与えた際、10%の確率で攻撃力が170%<@ba.talpu>（+5%）</>まで上昇し、対象を5秒間<ba.tremble>戦慄</>状態にする",
+              "upgradeDesc_en": "When dealing damage, there is a 10% chance to increase ATK to 170% <@ba.talpu>(+5%)</> and <ba.tremble>Frighten</> the target for 5s"
             }
           ],
           "attributeBlackboard": [
@@ -40575,25 +40591,25 @@
               "target": "TRAIT",
               "isToken": false,
               "addDesc_zh": "技能造成的伤害提升<@ba.vup>10%</>",
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": "スキルの与ダメージ<@ba.vup>+10%</>",
+              "addDesc_en": "Deals <@ba.vup>10%</> more damage with skills",
               "overrideDesc_zh": null,
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": null,
+              "overrideDesc_en": null
             },
             {
               "resKey": null,
               "target": "TALENT_DATA_ONLY",
               "isToken": false,
-              "name_zh": "“天生的武者”",
-              "name_ja": "",
-              "name_en": "",
+              "name_zh": "Born Warrior",
+              "name_ja": "「天性の武者」",
+              "name_en": "Born Warrior",
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
               "upgradeDesc_zh": "造成伤害时有10%的几率攻击力提升至175%<@ba.talpu>（+5%）</>，并使目标<ba.tremble>战栗</>5秒",
-              "upgradeDesc_ja": "",
-              "upgradeDesc_en": ""
+              "upgradeDesc_ja": "ダメージを与えた際、10%の確率で攻撃力が175%<@ba.talpu>（+5%）</>まで上昇し、対象を5秒間<ba.tremble>戦慄</>状態にする",
+              "upgradeDesc_en": "When dealing damage, there is a 10% chance to increase ATK to 175% <@ba.talpu>(+5%)</> and <ba.tremble>Frighten</> the target for 5s"
             }
           ],
           "attributeBlackboard": [
@@ -40641,8 +40657,8 @@
   "uniequip_001_reed2": {
     "uniEquipId": "uniequip_001_reed2",
     "name_zh": "焰影苇草证章",
-    "name_ja": "",
-    "name_en": "",
+    "name_ja": "焔影リードの記章",
+    "name_en": "Reed the Flame Shadow's Badge",
     "typeIcon": "original",
     "charId": "char_1020_reed2",
     "combatData": null
@@ -40650,8 +40666,8 @@
   "uniequip_002_reed2": {
     "uniEquipId": "uniequip_002_reed2",
     "name_zh": "“赠予红龙的花冠”",
-    "name_ja": "",
-    "name_en": "",
+    "name_ja": "「赤き龍に贈る冠」",
+    "name_en": "'A Floral Garland to the Red Dragon'",
     "typeIcon": "inc-x",
     "charId": "char_1020_reed2",
     "combatData": {
@@ -40663,11 +40679,11 @@
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
               "addDesc_zh": null,
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": null,
+              "addDesc_en": null,
               "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，攻击敌人时为攻击范围内一名友方干员治疗相当于<@ba.kw>60%</>伤害的生命值",
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": "<@ba.kw>術ダメージ</>を与え、敵を攻撃する度攻撃範囲内の味方1人のHPを与ダメージの<@ba.kw>60%</>回復",
+              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and heal the HP of an ally within Attack Range for <@ba.kw>60%</> of the damage dealt"
             }
           ],
           "attributeBlackboard": [
@@ -40689,25 +40705,25 @@
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
               "addDesc_zh": null,
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": null,
+              "addDesc_en": null,
               "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，攻击敌人时为攻击范围内一名友方干员治疗相当于<@ba.kw>60%</>伤害的生命值",
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": "<@ba.kw>術ダメージ</>を与え、敵を攻撃する度攻撃範囲内の味方1人のHPを与ダメージの<@ba.kw>60%</>回復",
+              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and heal the HP of an ally within Attack Range for <@ba.kw>60%</> of the damage dealt"
             },
             {
               "resKey": "reed2_equip_1_2_p1",
               "target": "TALENT",
               "isToken": false,
-              "name_zh": "映耀",
-              "name_ja": "",
-              "name_en": "",
+              "name_zh": "Reflected Shine",
+              "name_ja": "耀映",
+              "name_en": "Reflected Shine",
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 1,
               "upgradeDesc_zh": "治疗其他友方单位时治疗效果提升3%，焰影苇草同时享受60%<@ba.talpu>（+5）</>的治疗量",
-              "upgradeDesc_ja": "",
-              "upgradeDesc_en": ""
+              "upgradeDesc_ja": "自身以外の味方ユニットに与える回復量+3%、焔影リードも同時に治療量の60%<@ba.talpu>（+5）</>のHP回復効果を受ける",
+              "upgradeDesc_en": "When healing an ally, healing effect is increased by 3%, and Reed the Flame Shadow heals herself for 60% <@ba.talpu>(+5)</> of the amount healed"
             }
           ],
           "attributeBlackboard": [
@@ -40729,25 +40745,25 @@
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
               "addDesc_zh": null,
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": null,
+              "addDesc_en": null,
               "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，攻击敌人时为攻击范围内一名友方干员治疗相当于<@ba.kw>60%</>伤害的生命值",
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": "<@ba.kw>術ダメージ</>を与え、敵を攻撃する度攻撃範囲内の味方1人のHPを与ダメージの<@ba.kw>60%</>回復",
+              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and heal the HP of an ally within Attack Range for <@ba.kw>60%</> of the damage dealt"
             },
             {
               "resKey": "reed2_equip_1_3_p1",
               "target": "TALENT",
               "isToken": false,
-              "name_zh": "映耀",
-              "name_ja": "",
-              "name_en": "",
+              "name_zh": "Reflected Shine",
+              "name_ja": "耀映",
+              "name_en": "Reflected Shine",
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 1,
               "upgradeDesc_zh": "治疗其他友方单位时治疗效果提升5%，焰影苇草同时享受65%<@ba.talpu>（+5）</>的治疗量",
-              "upgradeDesc_ja": "",
-              "upgradeDesc_en": ""
+              "upgradeDesc_ja": "自身以外の味方ユニットに対する治療量+5%、焔影リードも同時治療量の65%<@ba.talpu>（+5）</>のHP回復効果を受ける",
+              "upgradeDesc_en": "When healing an ally, healing effect is increased by 5%, and Reed the Flame Shadow heals herself for 65% <@ba.talpu>(+5)</> of the amount healed"
             }
           ],
           "attributeBlackboard": [
@@ -40783,8 +40799,8 @@
   "uniequip_001_hbisc2": {
     "uniEquipId": "uniequip_001_hbisc2",
     "name_zh": "濯尘芙蓉证章",
-    "name_ja": "",
-    "name_en": "",
+    "name_ja": "濯塵ハイビスカスの記章",
+    "name_en": "Hibiscus the Purifier's Badge",
     "typeIcon": "original",
     "charId": "char_1024_hbisc2",
     "combatData": null
@@ -40792,8 +40808,8 @@
   "uniequip_002_hbisc2": {
     "uniEquipId": "uniequip_002_hbisc2",
     "name_zh": "结晶胸花",
-    "name_ja": "",
-    "name_en": "",
+    "name_ja": "結晶のブローチ",
+    "name_en": "Crystal Corsage",
     "typeIcon": "inc-x",
     "charId": "char_1024_hbisc2",
     "combatData": {
@@ -40805,11 +40821,11 @@
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
               "addDesc_zh": null,
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": null,
+              "addDesc_en": null,
               "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，攻击敌人时为攻击范围内一名友方干员治疗相当于<@ba.kw>60%</>伤害的生命值",
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": "<@ba.kw>術ダメージ</>を与え、敵を攻撃する度攻撃範囲内の味方1人のHPを与ダメージの<@ba.kw>60%</>回復",
+              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and heal the HP of an ally within Attack Range for <@ba.kw>60%</> of the damage dealt"
             }
           ],
           "attributeBlackboard": [
@@ -40831,25 +40847,25 @@
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
               "addDesc_zh": null,
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": null,
+              "addDesc_en": null,
               "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，攻击敌人时为攻击范围内一名友方干员治疗相当于<@ba.kw>60%</>伤害的生命值",
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": "<@ba.kw>術ダメージ</>を与え、敵を攻撃する度攻撃範囲内の味方1人のHPを与ダメージの<@ba.kw>60%</>回復",
+              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and heal the HP of an ally within Attack Range for <@ba.kw>60%</> of the damage dealt"
             },
             {
               "resKey": null,
               "target": "TALENT_DATA_ONLY",
               "isToken": false,
-              "name_zh": "朝开夕落",
-              "name_ja": "",
-              "name_en": "",
+              "name_zh": "Dusk and Dawn",
+              "name_ja": "朝瞬の花",
+              "name_en": "Dusk and Dawn",
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
               "upgradeDesc_zh": "攻击敌人时对目标施加19%<@ba.talpu>（+2%）</>的<ba.magicfragile>【法术脆弱】</>，持续5秒",
-              "upgradeDesc_ja": "",
-              "upgradeDesc_en": ""
+              "upgradeDesc_ja": "攻撃時、対象に19%<@ba.talpu>（+2%）</>の<ba.magicfragile>対術脆弱</>状態を5秒間付与する",
+              "upgradeDesc_en": "Attacks inflict 19% <@ba.talpu>(+2%)</> <ba.magicfragile>[Arts Fragility]</> to the target for 5 seconds"
             }
           ],
           "attributeBlackboard": [
@@ -40871,25 +40887,25 @@
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
               "addDesc_zh": null,
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": null,
+              "addDesc_en": null,
               "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，攻击敌人时为攻击范围内一名友方干员治疗相当于<@ba.kw>60%</>伤害的生命值",
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": "<@ba.kw>術ダメージ</>を与え、敵を攻撃する度攻撃範囲内の味方1人のHPを与ダメージの<@ba.kw>60%</>回復",
+              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and heal the HP of an ally within Attack Range for <@ba.kw>60%</> of the damage dealt"
             },
             {
               "resKey": null,
               "target": "TALENT_DATA_ONLY",
               "isToken": false,
-              "name_zh": "朝开夕落",
-              "name_ja": "",
-              "name_en": "",
+              "name_zh": "Dusk and Dawn",
+              "name_ja": "朝瞬の花",
+              "name_en": "Dusk and Dawn",
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
               "upgradeDesc_zh": "攻击敌人时对目标施加22%<@ba.talpu>（+2%）</>的<ba.magicfragile>【法术脆弱】</>，持续5秒",
-              "upgradeDesc_ja": "",
-              "upgradeDesc_en": ""
+              "upgradeDesc_ja": "攻撃時、対象に22%<@ba.talpu>（+2%）</>の<ba.magicfragile>対術脆弱</>状態を5秒間付与する",
+              "upgradeDesc_en": "Attacks inflict 22% <@ba.talpu>(+2%)</> <ba.magicfragile>[Arts Fragility]</> to the target for 5 seconds"
             }
           ],
           "attributeBlackboard": [
@@ -40905,7 +40921,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["magicfragile"],
       "blackboard": [
         {
           "key": "damage_scale",
@@ -40921,8 +40937,8 @@
   "uniequip_001_vendla": {
     "uniEquipId": "uniequip_001_vendla",
     "name_zh": "刺玫证章",
-    "name_ja": "",
-    "name_en": "",
+    "name_ja": "ヴァンデラの記章",
+    "name_en": "Vendela's Badge",
     "typeIcon": "original",
     "charId": "char_494_vendla",
     "combatData": null
@@ -40930,8 +40946,8 @@
   "uniequip_002_vendla": {
     "uniEquipId": "uniequip_002_vendla",
     "name_zh": "碎片",
-    "name_ja": "",
-    "name_en": "",
+    "name_ja": "砕かれた薔薇",
+    "name_en": "Broken Rose",
     "typeIcon": "inc-x",
     "charId": "char_494_vendla",
     "combatData": {
@@ -40943,11 +40959,11 @@
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
               "addDesc_zh": null,
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": null,
+              "addDesc_en": null,
               "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，攻击敌人时为攻击范围内一名友方干员治疗相当于<@ba.kw>60%</>伤害的生命值",
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": "<@ba.kw>術ダメージ</>を与え、敵を攻撃する度攻撃範囲内の味方1人のHPを与ダメージの<@ba.kw>60%</>回復",
+              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and heal the HP of an ally within Attack Range for <@ba.kw>60%</> of the damage dealt"
             }
           ],
           "attributeBlackboard": [
@@ -40969,25 +40985,25 @@
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
               "addDesc_zh": null,
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": null,
+              "addDesc_en": null,
               "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，攻击敌人时为攻击范围内一名友方干员治疗相当于<@ba.kw>60%</>伤害的生命值",
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": "<@ba.kw>術ダメージ</>を与え、敵を攻撃する度攻撃範囲内の味方1人のHPを与ダメージの<@ba.kw>60%</>回復",
+              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and heal the HP of an ally within Attack Range for <@ba.kw>60%</> of the damage dealt"
             },
             {
               "resKey": null,
               "target": "TALENT_DATA_ONLY",
               "isToken": false,
-              "name_zh": "土壤基肥改良",
-              "name_ja": "",
-              "name_en": "",
+              "name_zh": "Soil Fertilizer Enhancement",
+              "name_ja": "土壌改良",
+              "name_en": "Soil Fertilizer Enhancement",
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
               "upgradeDesc_zh": "攻击范围内生命上限最高的友方角色受到的治疗效果提升23%<@ba.talpu>（+3%）</>",
-              "upgradeDesc_ja": "",
-              "upgradeDesc_en": ""
+              "upgradeDesc_ja": "攻撃範囲内で最大HPが最も高い味方が受ける治療効果+23%<@ba.talpu>（+3%）</>",
+              "upgradeDesc_en": "The ally with the highest max HP within range receives 23% <@ba.talpu>(+3%)</> more healing"
             }
           ],
           "attributeBlackboard": [
@@ -41009,25 +41025,25 @@
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
               "addDesc_zh": null,
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": null,
+              "addDesc_en": null,
               "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，攻击敌人时为攻击范围内一名友方干员治疗相当于<@ba.kw>60%</>伤害的生命值",
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": "<@ba.kw>術ダメージ</>を与え、敵を攻撃する度攻撃範囲内の味方1人のHPを与ダメージの<@ba.kw>60%</>回復",
+              "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and heal the HP of an ally within Attack Range for <@ba.kw>60%</> of the damage dealt"
             },
             {
               "resKey": null,
               "target": "TALENT_DATA_ONLY",
               "isToken": false,
-              "name_zh": "土壤基肥改良",
-              "name_ja": "",
-              "name_en": "",
+              "name_zh": "Soil Fertilizer Enhancement",
+              "name_ja": "土壌改良",
+              "name_en": "Soil Fertilizer Enhancement",
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
               "upgradeDesc_zh": "攻击范围内生命上限最高的友方角色受到的治疗效果提升26%<@ba.talpu>（+3%）</>",
-              "upgradeDesc_ja": "",
-              "upgradeDesc_en": ""
+              "upgradeDesc_ja": "攻撃範囲内で最大HPが最も高い味方が受ける治療効果+26%<@ba.talpu>（+3%）</>",
+              "upgradeDesc_en": "The ally with the highest max HP within range receives 26% <@ba.talpu>(+3%)</> more healing"
             }
           ],
           "attributeBlackboard": [
@@ -41060,8 +41076,8 @@
   "uniequip_003_billro": {
     "uniEquipId": "uniequip_003_billro",
     "name_zh": "乡音",
-    "name_ja": "",
-    "name_en": "",
+    "name_ja": "故郷の音",
+    "name_en": "Always Have Your Back",
     "typeIcon": "plx-y",
     "charId": "char_426_billro",
     "combatData": {
@@ -41073,19 +41089,19 @@
               "target": "DISPLAY",
               "isToken": false,
               "addDesc_zh": "范围内敌人越多造成的伤害越高（最高提升<@ba.kw>15%</>）",
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": "攻撃範囲内の敵が多いほど与ダメージが上昇（最大<@ba.kw>15%</>まで）",
+              "addDesc_en": "Damage increases with number of enemies in the area (max increase <@ba.kw>15%</>)",
               "overrideDesc_zh": null,
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": null,
+              "overrideDesc_en": null
             },
             {
               "resKey": "billro_equip_2_1_p1",
               "target": "TALENT",
               "isToken": false,
               "name_zh": null,
-              "name_ja": "",
-              "name_en": "",
+              "name_ja": null,
+              "name_en": null,
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": -1,
@@ -41113,19 +41129,19 @@
               "target": "DISPLAY",
               "isToken": false,
               "addDesc_zh": "范围内敌人越多造成的伤害越高（最高提升<@ba.kw>15%</>）",
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": "攻撃範囲内の敵が多いほど与ダメージが上昇（最大<@ba.kw>15%</>まで）",
+              "addDesc_en": "Damage increases with number of enemies in the area (max increase <@ba.kw>15%</>)",
               "overrideDesc_zh": null,
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": null,
+              "overrideDesc_en": null
             },
             {
               "resKey": "billro_equip_2_2_p1",
               "target": "TALENT",
               "isToken": false,
               "name_zh": null,
-              "name_ja": "",
-              "name_en": "",
+              "name_ja": null,
+              "name_en": null,
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": -1,
@@ -41138,8 +41154,8 @@
               "target": "TALENT",
               "isToken": false,
               "name_zh": null,
-              "name_ja": "",
-              "name_en": "",
+              "name_ja": null,
+              "name_en": null,
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": -1,
@@ -41151,15 +41167,15 @@
               "resKey": null,
               "target": "TALENT_DATA_ONLY",
               "isToken": false,
-              "name_zh": "蓄势待发",
-              "name_ja": "",
-              "name_en": "",
+              "name_zh": "Poised for Action",
+              "name_ja": "狂嵐の兆し",
+              "name_en": "Poised for Action",
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 1,
               "upgradeDesc_zh": "技力超过上限时，技力自然回复速度+0.8/秒；蓄力状态开启技能时，更不容易受到敌人攻击",
-              "upgradeDesc_ja": "",
-              "upgradeDesc_en": ""
+              "upgradeDesc_ja": "SPが最大値以上の時、自身のSP自然回復速度＋0.8sp/秒。オーバーチャージ状態のスキル発動中、敵に狙われにくくなる",
+              "upgradeDesc_en": "Improves own SP recovery rate by +0.8/second when SP is above the limit; less likely to be attacked when skill is used while charged"
             }
           ],
           "attributeBlackboard": [
@@ -41181,19 +41197,19 @@
               "target": "DISPLAY",
               "isToken": false,
               "addDesc_zh": "范围内敌人越多造成的伤害越高（最高提升<@ba.kw>15%</>）",
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": "攻撃範囲内の敵が多いほど与ダメージが上昇（最大<@ba.kw>15%</>まで）",
+              "addDesc_en": "Damage increases with number of enemies in the area (max increase <@ba.kw>15%</>)",
               "overrideDesc_zh": null,
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": null,
+              "overrideDesc_en": null
             },
             {
               "resKey": "billro_equip_2_3_p1",
               "target": "TALENT",
               "isToken": false,
               "name_zh": null,
-              "name_ja": "",
-              "name_en": "",
+              "name_ja": null,
+              "name_en": null,
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": -1,
@@ -41206,8 +41222,8 @@
               "target": "TALENT",
               "isToken": false,
               "name_zh": null,
-              "name_ja": "",
-              "name_en": "",
+              "name_ja": null,
+              "name_en": null,
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": -1,
@@ -41219,15 +41235,15 @@
               "resKey": null,
               "target": "TALENT_DATA_ONLY",
               "isToken": false,
-              "name_zh": "蓄势待发",
-              "name_ja": "",
-              "name_en": "",
+              "name_zh": "Poised for Action",
+              "name_ja": "狂嵐の兆し",
+              "name_en": "Poised for Action",
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 1,
               "upgradeDesc_zh": "技力超过上限时，技力自然回复速度+1.0/秒；蓄力状态开启技能时，更不容易受到敌人攻击",
-              "upgradeDesc_ja": "",
-              "upgradeDesc_en": ""
+              "upgradeDesc_ja": "SPが最大値以上の時、自身のSP自然回復速度＋1.0sp/秒。オーバーチャージ状態のスキル発動中、敵に狙われにくくなる",
+              "upgradeDesc_en": "Improves own SP recovery rate by +1.0/second when SP is above the limit; less likely to be attacked when skill is used while charged"
             }
           ],
           "attributeBlackboard": [
@@ -41267,8 +41283,8 @@
   "uniequip_003_weedy": {
     "uniEquipId": "uniequip_003_weedy",
     "name_zh": "新型仿生原型",
-    "name_ja": "",
-    "name_en": "",
+    "name_ja": "新型バイオ装置プロトタイプ",
+    "name_en": "New Bionic Prototype",
     "typeIcon": "pus-y",
     "charId": "char_400_weedy",
     "combatData": {
@@ -41280,11 +41296,11 @@
               "target": "TRAIT",
               "isToken": false,
               "addDesc_zh": null,
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": null,
+              "addDesc_en": null,
               "overrideDesc_zh": "同时攻击阻挡的<@ba.kw>所有敌人</>，阻挡2个及以上敌人时自身推力增加一级\\n可以放置于远程位",
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": "ブロック中の<@ba.kw>敵全員</>を同時に攻撃\nブロック中の敵が2体以上の場合、敵を突き飛ばす際の力加減が1ランク上昇\n遠距離マスにも配置可能",
+              "overrideDesc_en": "Simultaneously attacks <@ba.kw>all blocked enemies</>; When blocking 2 or more enemies, increases shift level by 1\nCan be deployed on ranged tiles"
             }
           ],
           "attributeBlackboard": [
@@ -41306,25 +41322,25 @@
               "target": "TRAIT",
               "isToken": false,
               "addDesc_zh": null,
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": null,
+              "addDesc_en": null,
               "overrideDesc_zh": "同时攻击阻挡的<@ba.kw>所有敌人</>，阻挡2个及以上敌人时自身推力增加一级\\n可以放置于远程位",
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": "ブロック中の<@ba.kw>敵全員</>を同時に攻撃\nブロック中の敵が2体以上の場合、敵を突き飛ばす際の力加減が1ランク上昇\n遠距離マスにも配置可能",
+              "overrideDesc_en": "Simultaneously attacks <@ba.kw>all blocked enemies</>; When blocking 2 or more enemies, increases shift level by 1\nCan be deployed on ranged tiles"
             },
             {
               "resKey": null,
               "target": "TALENT_DATA_ONLY",
               "isToken": false,
-              "name_zh": "工程蓄水炮",
-              "name_ja": "",
-              "name_en": "",
+              "name_zh": "Industrial Water Cannon",
+              "name_ja": "工事用蓄水砲",
+              "name_en": "Industrial Water Cannon",
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
               "upgradeDesc_zh": "可以使用一个持续20秒的蓄水炮，能攻击单个敌人并将其小力度地推开，蓄水炮的再部署时间减少5秒",
-              "upgradeDesc_ja": "",
-              "upgradeDesc_en": ""
+              "upgradeDesc_ja": "「工事用蓄水砲」を配置可能（配置から20秒後強制退場）。蓄水砲は敵1体を攻撃し、攻撃対象を普通の力で突き飛ばす。蓄水砲の再配置時間-5秒",
+              "upgradeDesc_en": "Can deploy a Reserve Water Cannon that lasts for 20s; the Water Cannon can attack 1 target and push it away slightly; Water Cannon redeployment time reduced by 5s"
             }
           ],
           "attributeBlackboard": [
@@ -41353,25 +41369,25 @@
               "target": "TRAIT",
               "isToken": false,
               "addDesc_zh": null,
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": null,
+              "addDesc_en": null,
               "overrideDesc_zh": "同时攻击阻挡的<@ba.kw>所有敌人</>，阻挡2个及以上敌人时自身推力增加一级\\n可以放置于远程位",
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": "ブロック中の<@ba.kw>敵全員</>を同時に攻撃\nブロック中の敵が2体以上の場合、敵を突き飛ばす際の力加減が1ランク上昇\n遠距離マスにも配置可能",
+              "overrideDesc_en": "Simultaneously attacks <@ba.kw>all blocked enemies</>; When blocking 2 or more enemies, increases shift level by 1\nCan be deployed on ranged tiles"
             },
             {
               "resKey": null,
               "target": "TALENT_DATA_ONLY",
               "isToken": false,
-              "name_zh": "工程蓄水炮",
-              "name_ja": "",
-              "name_en": "",
+              "name_zh": "Industrial Water Cannon",
+              "name_ja": "工事用蓄水砲",
+              "name_en": "Industrial Water Cannon",
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
               "upgradeDesc_zh": "可以使用一个持续20秒的蓄水炮，能攻击单个敌人并将其小力度地推开，蓄水炮的再部署时间减少8秒",
-              "upgradeDesc_ja": "",
-              "upgradeDesc_en": ""
+              "upgradeDesc_ja": "「工事用蓄水砲」を配置可能（配置から20秒後強制退場）。蓄水砲は敵1体を攻撃し、攻撃対象を普通の力で突き飛ばす。蓄水砲の再配置時間-8秒",
+              "upgradeDesc_en": "Can deploy a Reserve Water Cannon that lasts for 20s; the Water Cannon can attack 1 target and push it away slightly; Water Cannon redeployment time reduced by 8s"
             }
           ],
           "attributeBlackboard": [
@@ -41410,8 +41426,8 @@
   "uniequip_003_lisa": {
     "uniEquipId": "uniequip_003_lisa",
     "name_zh": "孩子们",
-    "name_ja": "",
-    "name_en": "",
+    "name_ja": "子供たち",
+    "name_en": "Children of Terra",
     "typeIcon": "dec-y",
     "charId": "char_358_lisa",
     "combatData": {
@@ -41423,11 +41439,11 @@
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
               "addDesc_zh": null,
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": null,
+              "addDesc_en": null,
               "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长</>的<ba.sluggish>停顿</>",
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与え\n攻撃時、敵を<@ba.kw>やや長い間</><ba.sluggish>足止め</>",
+              "overrideDesc_en": "Attacks deal <@ba.kw>Arts damage</>, and <ba.sluggish>Slow</> the enemy for a <@ba.kw>moderate</> period of time"
             }
           ],
           "attributeBlackboard": [
@@ -41449,25 +41465,25 @@
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
               "addDesc_zh": null,
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": null,
+              "addDesc_en": null,
               "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长</>的<ba.sluggish>停顿</>",
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与え\n攻撃時、敵を<@ba.kw>やや長い間</><ba.sluggish>足止め</>",
+              "overrideDesc_en": "Attacks deal <@ba.kw>Arts damage</>, and <ba.sluggish>Slow</> the enemy for a <@ba.kw>moderate</> period of time"
             },
             {
               "resKey": null,
               "target": "TALENT_DATA_ONLY",
               "isToken": false,
-              "name_zh": "画地为牢",
-              "name_ja": "",
-              "name_en": "",
+              "name_zh": "Binding Circle",
+              "name_ja": "狐の祟り",
+              "name_en": "Binding Circle",
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 1,
               "upgradeDesc_zh": "攻击范围内被<ba.sluggish>停顿</>的敌人在下一瞬间起还会受到等长时间的24%<@ba.talpu>（+3%）</>的<ba.fragile>脆弱</>效果和5％<ba.weaken>虚弱</>效果",
-              "upgradeDesc_ja": "",
-              "upgradeDesc_en": ""
+              "upgradeDesc_ja": "攻撃範囲内の敵が<ba.sluggish>足止め</>された時、次の瞬間から<ba.sluggish>足止め</>と同じ時間の24%<@ba.talpu>（+3%）</>の<ba.fragile>脆弱</>状態と5%の<ba.weaken>虚弱</>状態も付与される",
+              "upgradeDesc_en": "Enemies in range that are <ba.sluggish>Slowed</> also gain 24% <@ba.talpu>(+3%)</> <ba.fragile>Fragile</> and 5% <ba.weaken>Enfeeble</> for an equal duration"
             }
           ],
           "attributeBlackboard": [
@@ -41489,25 +41505,25 @@
               "target": "TRAIT_DATA_ONLY",
               "isToken": false,
               "addDesc_zh": null,
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": null,
+              "addDesc_en": null,
               "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长</>的<ba.sluggish>停顿</>",
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与え\n攻撃時、敵を<@ba.kw>やや長い間</><ba.sluggish>足止め</>",
+              "overrideDesc_en": "Attacks deal <@ba.kw>Arts damage</>, and <ba.sluggish>Slow</> the enemy for a <@ba.kw>moderate</> period of time"
             },
             {
               "resKey": null,
               "target": "TALENT_DATA_ONLY",
               "isToken": false,
-              "name_zh": "画地为牢",
-              "name_ja": "",
-              "name_en": "",
+              "name_zh": "Binding Circle",
+              "name_ja": "狐の祟り",
+              "name_en": "Binding Circle",
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 1,
               "upgradeDesc_zh": "攻击范围内被<ba.sluggish>停顿</>的敌人在下一瞬间起还会受到等长时间的25%<@ba.talpu>（+3%）</>的<ba.fragile>脆弱</>效果和8％<ba.weaken>虚弱</>效果",
-              "upgradeDesc_ja": "",
-              "upgradeDesc_en": ""
+              "upgradeDesc_ja": "攻撃範囲内の敵が<ba.sluggish>足止め</>された時、次の瞬間から<ba.sluggish>足止め</>と同じ時間の25%<@ba.talpu>（+3%）</>の<ba.fragile>脆弱</>状態と8%の<ba.weaken>虚弱</>状態も付与される",
+              "upgradeDesc_en": "Enemies in range that are <ba.sluggish>Slowed</> also gain 25% <@ba.talpu>(+3%)</> <ba.fragile>Fragile</> and 8% <ba.weaken>Enfeeble</> for an equal duration"
             }
           ],
           "attributeBlackboard": [
@@ -41523,7 +41539,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["fragile", "weaken"],
       "blackboard": [
         {
           "key": "atk_down",
@@ -41557,8 +41573,8 @@
   "uniequip_003_lmlee": {
     "uniEquipId": "uniequip_003_lmlee",
     "name_zh": "“但思善恶”",
-    "name_ja": "",
-    "name_en": "",
+    "name_ja": "「ただ善悪を思う」",
+    "name_en": "'Distinguisher'",
     "typeIcon": "mer-y",
     "charId": "char_322_lmlee",
     "combatData": {
@@ -41570,19 +41586,19 @@
               "target": "DISPLAY",
               "isToken": false,
               "addDesc_zh": "每次特性消耗费用时攻击力+4%，最多可以叠加5次",
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": "特性によるコスト消費時、攻撃力+4%、最大5回まで",
+              "addDesc_en": "ATK +4% whenever Trait cost is paid, stacking up to 5 times",
               "overrideDesc_zh": null,
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": null,
+              "overrideDesc_en": null
             },
             {
               "resKey": "lmlee_equip_2_1_p1",
               "target": "TALENT",
               "isToken": false,
               "name_zh": null,
-              "name_ja": "",
-              "name_en": "",
+              "name_ja": null,
+              "name_en": null,
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": -1,
@@ -41610,19 +41626,19 @@
               "target": "DISPLAY",
               "isToken": false,
               "addDesc_zh": "每次特性消耗费用时攻击力+4%，最多可以叠加5次",
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": "特性によるコスト消費時、攻撃力+4%、最大5回まで",
+              "addDesc_en": "ATK +4% whenever Trait cost is paid, stacking up to 5 times",
               "overrideDesc_zh": null,
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": null,
+              "overrideDesc_en": null
             },
             {
               "resKey": "lmlee_equip_2_2_p1",
               "target": "TALENT",
               "isToken": false,
               "name_zh": null,
-              "name_ja": "",
-              "name_en": "",
+              "name_ja": null,
+              "name_en": null,
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": -1,
@@ -41634,15 +41650,15 @@
               "resKey": null,
               "target": "TALENT_DATA_ONLY",
               "isToken": false,
-              "name_zh": "和气生财",
-              "name_ja": "",
-              "name_en": "",
+              "name_zh": "Kindness Begets Prosperity",
+              "name_ja": "三寸不爛の舌",
+              "name_en": "Kindness Begets Prosperity",
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
               "upgradeDesc_zh": "老鲤阻挡目标时，使其攻击速度-18<@ba.talpu>（+1）</>，且自身攻击速度+18<@ba.talpu>（+1）</>；当周围八格内仅存在一个敌人时效果翻倍",
-              "upgradeDesc_ja": "",
-              "upgradeDesc_en": ""
+              "upgradeDesc_ja": "ブロックしている敵の攻撃速度-18<@ba.talpu>（+1）</>、自身の攻撃速度+18<@ba.talpu>（+1）</>。周囲8マス内にいる敵が1体のみの場合、効果値倍増",
+              "upgradeDesc_en": "When Lee is blocking an enemy, the enemy has ASPD -18 <@ba.talpu>(+1)</> and Lee has ASPD +18 <@ba.talpu>(+1)</>; If there is only one enemy within the surrounding 8 tiles, this effect is doubled"
             }
           ],
           "attributeBlackboard": [
@@ -41664,19 +41680,19 @@
               "target": "DISPLAY",
               "isToken": false,
               "addDesc_zh": "每次特性消耗费用时攻击力+4%，最多可以叠加5次",
-              "addDesc_ja": "",
-              "addDesc_en": "",
+              "addDesc_ja": "特性によるコスト消費時、攻撃力+4%、最大5回まで",
+              "addDesc_en": "ATK +4% whenever Trait cost is paid, stacking up to 5 times",
               "overrideDesc_zh": null,
-              "overrideDesc_ja": "",
-              "overrideDesc_en": ""
+              "overrideDesc_ja": null,
+              "overrideDesc_en": null
             },
             {
               "resKey": "lmlee_equip_2_3_p1",
               "target": "TALENT",
               "isToken": false,
               "name_zh": null,
-              "name_ja": "",
-              "name_en": "",
+              "name_ja": null,
+              "name_en": null,
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": -1,
@@ -41688,15 +41704,15 @@
               "resKey": null,
               "target": "TALENT_DATA_ONLY",
               "isToken": false,
-              "name_zh": "和气生财",
-              "name_ja": "",
-              "name_en": "",
+              "name_zh": "Kindness Begets Prosperity",
+              "name_ja": "三寸不爛の舌",
+              "name_en": "Kindness Begets Prosperity",
               "displayRangeId": false,
               "rangeId": null,
               "talentIndex": 0,
               "upgradeDesc_zh": "老鲤阻挡目标时，使其攻击速度-21<@ba.talpu>（+1）</>，且自身攻击速度+21<@ba.talpu>（+1）</>；当周围八格内仅存在一个敌人时效果翻倍",
-              "upgradeDesc_ja": "",
-              "upgradeDesc_en": ""
+              "upgradeDesc_ja": "ブロックしている敵の攻撃速度-21<@ba.talpu>（+1）</>、自身の攻撃速度+21<@ba.talpu>（+1）</>。周囲8マス内にいる敵が1体のみの場合、効果値倍増",
+              "upgradeDesc_en": "When Lee is blocking an enemy, the enemy has ASPD -21 <@ba.talpu>(+1)</> and Lee has ASPD +21 <@ba.talpu>(+1)</>; If there is only one enemy within the surrounding 8 tiles, this effect is doubled"
             }
           ],
           "attributeBlackboard": [
@@ -41902,11 +41918,12 @@
         {
           "key": "sp_gain",
           "value": 4.0,
-          "conditions": ["kill"]
+          "conditions": ["skill_kill_enemy"]
         },
         {
           "key": "sp_gain",
-          "value": 1.0
+          "value": 1.0,
+          "conditions": ["skill_no_kill_enemy"]
         }
       ]
     }
@@ -42048,7 +42065,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["protect"],
       "blackboard": [
         {
           "key": "heal_scale",
@@ -42248,7 +42265,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["protect"],
       "blackboard": [
         {
           "key": "value",
@@ -42259,10 +42276,10 @@
           "value": 0.5
         },
         {
-          "key": "ally_dmg_res",
+          "key": "dmg_res",
           "types": ["phys", "arts"],
           "value": 0.25,
-          "conditions": ["hp_gt_50"],
+          "conditions": ["hp_lt_50"],
           "category": ["protect"]
         },
         {
@@ -42447,7 +42464,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["wildanimal"],
       "blackboard": [
         {
           "key": "sp_recovery_per_sec",
@@ -43187,7 +43204,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["no_block"],
+      "tags": ["no_block_enemy"],
       "blackboard": [
         {
           "key": "attack_speed",
@@ -44328,7 +44345,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["stun"],
+      "tags": ["type_stun","priority_stun"],
       "blackboard": [
         {
           "key": "cancel_stealth",
@@ -44845,7 +44862,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["fragile"],
       "blackboard": [
         {
           "key": "cancel_stealth",
@@ -45069,7 +45086,7 @@
           "value": 0.18
         },
         {
-          "key": "def_penetrate_fixed",
+          "key": "def_penetrate",
           "value": 200.0
         }
       ]
@@ -45467,7 +45484,7 @@
           "key": "dmg_res",
           "types": ["phys", "arts"],
           "value": 0.85,
-          "conditions": ["token", "blocked"]
+          "conditions": ["token", "self_block"]
         },
         {
           "key": "sp",
@@ -45733,7 +45750,7 @@
           "key": "dmg_res",
           "types": ["phys", "arts"],
           "value": 0.85,
-          "conditions": ["token", "blocked"]
+          "conditions": ["token", "self_block"]
         },
         {
           "key": "evade_duration",
@@ -45955,7 +45972,7 @@
           "key": "dmg_res",
           "types": ["phys", "arts"],
           "value": 0.85,
-          "conditions": ["token", "blocked"]
+          "conditions": ["token", "self_block"]
         },
         {
           "key": "atk",
@@ -46661,7 +46678,7 @@
           "key": "dmg_res",
           "types": ["phys", "arts"],
           "value": 0.85,
-          "conditions": ["blocked"]
+          "conditions": ["self_block"]
         },
         {
           "key": "hp_ratio",
@@ -46826,7 +46843,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["magicfragile"],
       "blackboard": [
         {
           "key": "sp",
@@ -47508,7 +47525,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["fragile"],
       "blackboard": [
         {
           "key": "damage_scale",
@@ -48046,7 +48063,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["priority_drone", "bonus_drone", "drone"],
       "blackboard": [
         {
           "key": "cnt",
@@ -48839,7 +48856,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["apoptosis", "ele_dmg"],
+      "tags": ["apoptosis", "ele_dmg", "weaken"],
       "blackboard": [
         {
           "key": "atk_down",
@@ -49039,7 +49056,7 @@
     "name_ja": "",
     "name_en": "",
     "typeIcon": "original",
-    "charId": "char_1037_amiya3",
+    "charId": "char_002_amiya",
     "combatData": null
   },
   "uniequip_002_amiya3": {
@@ -49048,7 +49065,7 @@
     "name_ja": "",
     "name_en": "",
     "typeIcon": "inc-x",
-    "charId": "char_1037_amiya3",
+    "charId": "char_002_amiya",
     "combatData": {
       "phases": [
         {
@@ -49774,7 +49791,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["fragile", "weaken"],
       "blackboard": [
         {
           "key": "atk_down",

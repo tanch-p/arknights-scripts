@@ -1,6 +1,6 @@
 {
   "token_10020_ling_soul3": {
-    "tags": [],
+    "tags": ["phys", "arts"],
     "blackboard": [
       {
         "key": "blockCnt",
@@ -12,19 +12,19 @@
     "tags": [],
     "blackboard": [
       {
-        "key": "dmg_res",
+        "key": "ally_dmg_res",
         "value": 0.36
       }
     ]
   },
   "token_10035_wisdel_wward": {
-    "tags": [],
+    "tags": ["arts"],
     "blackboard": [
       {
         "key": "sluggish",
         "targets": 1,
         "value": 1.0,
-        "target_air":true
+        "target_air": true
       }
     ]
   }

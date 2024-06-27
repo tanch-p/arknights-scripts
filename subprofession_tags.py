@@ -7,7 +7,7 @@ def get_sub_profession_tags(char, id):
     if char['subProfessionId'] == "fastshot":
         tags.append("priority_flying")
     if char['subProfessionId'] == "longrange":
-        tags.append("priority_low_def")
+        tags.append("priority_def_low")
     if char['subProfessionId'] == "siegesniper":
         tags.append("priority_highest_weight")
     if char['subProfessionId'] == "bard":
