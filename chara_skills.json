@@ -29783,6 +29783,16 @@
         ],
         "blackboard": [
             {
+                "key": "res_down",
+                "targets": 99,
+                "value": 20,
+                "duration": 10.0,
+                "conditions": [
+                    "burning_burst"
+                ],
+                "target_air": true
+            },
+            {
                 "key": "attack_speed",
                 "value": 100.0
             },
@@ -62924,7 +62934,9 @@
                 ]
             }
         ],
-        "tags": [],
+        "tags": [
+            "aoe"
+        ],
         "blackboard": [
             {
                 "key": "interval",
@@ -75347,6 +75359,11 @@
             {
                 "key": "blockCnt",
                 "value": 4.0,
+                "duration": 45.0
+            },
+            {
+                "key": "blockCnt",
+                "value": 5.0,
                 "duration": 45.0,
                 "module": "pro-y"
             },
@@ -81012,7 +81029,7 @@
             },
             {
                 "key": "blockCnt",
-                "value": 4.0
+                "value": 3.0
             },
             {
                 "key": "stun",
@@ -89924,7 +89941,8 @@
             }
         ],
         "tags": [
-            "true"
+            "true",
+            "inspire"
         ],
         "blackboard": [
             {
@@ -90092,7 +90110,8 @@
             }
         ],
         "tags": [
-            "reallocate_hp"
+            "reallocate_hp",
+            "inspire"
         ],
         "blackboard": [
             {

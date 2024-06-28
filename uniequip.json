@@ -24086,7 +24086,7 @@
         {
           "key": "def_penetrate",
           "value": 0.6,
-          "conditions":["sleep"]
+          "conditions": ["sleep"]
         }
       ]
     }
@@ -44345,7 +44345,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["type_stun","priority_stun"],
+      "tags": ["type_stun", "priority_stun"],
       "blackboard": [
         {
           "key": "cancel_stealth",
@@ -50327,8 +50327,18 @@
           "value": 0.08
         },
         {
-          "key": "res",
-          "value": 0.44
+          "key": "res_down",
+          "targets": 99,
+          "value": 20,
+          "duration":10.0,
+          "conditions": ["burning_burst"],
+          "target_air": true
+        },
+        {
+          "key": "res_down",
+          "targets": 99,
+          "value": 0.44,
+          "target_air": true
         },
         {
           "key": "element_atk_scale",

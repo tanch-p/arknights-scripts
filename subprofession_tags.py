@@ -18,7 +18,8 @@ def get_sub_profession_tags(char, id):
         tags.append("position_all")
     if char['subProfessionId'] in ["unyield", "musha"]:
         tags.append("no_healing")
-
+    if char['subProfessionId'] in ["splashcaster", "stalker", "hammer", "reaper", "aoesniper", "reaperrange", "bombarder", "phalanx"]:
+        tags.append("aoe")
     if char['subProfessionId'] in ["tactician", "agent", "lord",
                                    "fastshot", "closerange", "aoesniper", "longrange", "reaperrange", "siegesniper", "loopshooter", "hunter"
                                    "shotprotector", "incantationmedic", "slower", "summoner", "underminer", "blessing", "ritualist", "corecaster",
@@ -30,7 +31,7 @@ def get_sub_profession_tags(char, id):
                                    "protector", "guardian", "shotprotector", "artsprotector", "duelist", "fortress", "unyield"
                                    "craftsman", "executor", "stalker", "pusher", "hookmaster", "merchant", "geek", "dollkeeper", "traper"]:
         tags.append("phys")
-    if char['subProfessionId'] in ["artsfghter", "artsprotector","incantationmedic",
+    if char['subProfessionId'] in ["artsfghter", "artsprotector", "incantationmedic",
                                    "slower", "summoner", "underminer", "blessing", "ritualist",
                                    "corecaster", "splashcaster", "blastcaster", "funnel", "phalanx", "mystic", "chain", "primcaster",]:
         tags.append("arts")
