@@ -1576,7 +1576,9 @@
                 "desc_zh": "自身部署费用-1，所有初始部署费用不超过10的单位防御力提升8%<@ba.talpu>（+2%）</>",
                 "desc_ja": "自身の配置コスト-1。配置中、初期配置コスト10以下の味方防御力+8%<@ba.talpu>(+2%)</>",
                 "desc_en": "DP Cost -1; All units that cost 10 or less DP gain +6% <@ba.talpu>(+2%)</> DEF",
-                "tags": [],
+                "tags": [
+                    "cost_under_10"
+                ],
                 "blackboard": [
                     {
                         "key": "cost",
@@ -1713,7 +1715,8 @@
                 "desc_ja": "編成中、初期配置コスト10以下の味方が受けるHP治療効果+23%<@ba.talpu>(+3%)</>",
                 "desc_en": "Increases healing effects by 23%<@ba.talpu> (+3%)</> on all Operators with DP Cost no more than 10 when Sussurro is in the squad",
                 "tags": [
-                    "squad_effect"
+                    "squad_effect",
+                    "cost_under_10"
                 ],
                 "blackboard": [
                     {
@@ -2816,7 +2819,7 @@
                 "desc_ja": "自身にブロックされてない敵に与えるダメージ+45％<@ba.talpu>（+5%）</>",
                 "desc_en": "Deals 45% <@ba.talpu>(+5%)</> more damage to enemies that are not blocked by this unit",
                 "tags": [
-                    "no_block_enemy",
+                    "self_no_block_enemy",
                     "bonus_no_block"
                 ],
                 "blackboard": [
@@ -6994,7 +6997,8 @@
                 "desc_ja": "配置中、自身の弾薬消費系スキルが22%<@ba.talpu>（+2%）</>の確率で弾薬を消費せず、自身以外の【狙撃】も10％の確率で弾薬を消費しない（同種の効果は高いほうのみ適用）",
                 "desc_en": "When deployed, Ch'en's ammo-based skills have 22% <@ba.talpu>(+2%)</> chance to not consume the corresponding ammo for each shot; Other Sniper Operators' ammo-based skills have 10% chance instead (only the highest effect of this type will be applied)",
                 "tags": [
-                    "spareshot"
+                    "spareshot",
+                    "ally_spareshot"
                 ],
                 "blackboard": [
                     {
@@ -8023,7 +8027,9 @@
                 "desc_ja": "攻撃時、対象に1秒の<ba.cold>寒冷</>状態を付与する。攻撃範囲内の<ba.cold>寒冷</>状態の敵に27%<@ba.talpu>（+2%）</>の<ba.fragile>脆弱</>状態を付与する。<ba.frozen>凍結</>状態の敵に対しては<ba.fragile>脆弱</>の効果値倍増",
                 "desc_en": "Attacks inflict <ba.cold>Cold</> for 1 second; Apply 27% <@ba.talpu>(+2%)</> <ba.fragile>Fragile</> effect to <ba.cold>Cold</> enemies within range. <ba.frozen>Frozen</> enemies within range receive double the <ba.fragile>Fragile</> effect",
                 "tags": [
-                    "fragile"
+                    "fragile",
+                    "freeze",
+                    "cold"
                 ],
                 "blackboard": [
                     {
@@ -8165,7 +8171,8 @@
                 "desc_ja": "攻撃範囲内の敵が<ba.sluggish>足止め</>された時、次の瞬間から<ba.sluggish>足止め</>と同じ時間の23%<@ba.talpu>（+3%）</>の<ba.fragile>脆弱</>状態も付与される",
                 "desc_en": "Enemies in range that are <ba.sluggish>Slowed</> are inflicted with 23% <@ba.talpu>(+3%)</> <ba.fragile>Fragile</> effect for an equivalent duration",
                 "tags": [
-                    "fragile"
+                    "fragile",
+                    "sluggish"
                 ],
                 "blackboard": [
                     {

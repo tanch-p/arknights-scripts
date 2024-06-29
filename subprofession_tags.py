@@ -20,6 +20,8 @@ def get_sub_profession_tags(char, id):
         tags.append("no_healing")
     if char['subProfessionId'] in ["splashcaster", "stalker", "hammer", "reaper", "aoesniper", "reaperrange", "bombarder", "phalanx"]:
         tags.append("aoe")
+    if char['subProfessionId'] in ["instructor"]:
+        tags.extend(["no_block_enemy","bonus_no_block_enemy","self_no_block_enemy"]) 
     if char['subProfessionId'] in ["tactician", "agent", "lord",
                                    "fastshot", "closerange", "aoesniper", "longrange", "reaperrange", "siegesniper", "loopshooter", "hunter"
                                    "shotprotector", "incantationmedic", "slower", "summoner", "underminer", "blessing", "ritualist", "corecaster",

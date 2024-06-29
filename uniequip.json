@@ -896,9 +896,10 @@
           "value": 1.3
         },
         {
-          "key": "ally_peak_performance",
+          "key": "ally_atk",
           "value": 0.3,
-          "conditions": ["minos"]
+          "conditions": ["minos","hp_gt_50"],
+          "category":["vigor"]
         }
       ]
     }
@@ -1028,7 +1029,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["bonus_no_block", "no_block_enemy"],
+      "tags": ["bonus_no_block", "no_block_enemy","self_no_block_enemy"],
       "blackboard": [
         {
           "key": "atk_scale",
@@ -1174,7 +1175,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["bonus_no_block", "no_block_enemy"],
+      "tags": ["bonus_no_block", "no_block_enemy","self_no_block_enemy"],
       "blackboard": [
         {
           "key": "atk_scale",
@@ -43204,7 +43205,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["no_block_enemy"],
+      "tags": ["no_block_enemy","bonus_no_block","self_no_block_enemy"],
       "blackboard": [
         {
           "key": "attack_speed",
