@@ -42290,7 +42290,8 @@
             }
         ],
         "tags": [
-            "ally_ailment"
+            "ally_ailment",
+            "SNIPER"
         ],
         "blackboard": [
             {
@@ -42298,8 +42299,10 @@
                 "value": 0.3
             },
             {
-                "key": "attack_speed",
-                "value": 40.0
+                "key": "ally_aspd",
+                "value": 40.0,
+                "duration":20.0,
+                "conditions":["SNIPER"]
             },
             {
                 "key": "ally_stun",
@@ -68408,12 +68411,14 @@
             {
                 "key": "ally_max_hp",
                 "value": 0.8,
-                "duration": 30.0
+                "duration": 30.0,
+                "conditions":["aak_dmg"]
             },
             {
                 "key": "ally_def",
                 "value": 0.8,
-                "duration": 30.0
+                "duration": 30.0,
+                "conditions":["aak_dmg"]
             },
             {
                 "key": "damage",
@@ -68548,12 +68553,14 @@
             {
                 "key": "ally_atk",
                 "value": 0.5,
-                "duration": 20.0
+                "duration": 20.0,
+                "conditions":["aak_dmg"]
             },
             {
                 "key": "ally_aspd",
                 "value": 50.0,
-                "duration": 20.0
+                "duration": 20.0,
+                "conditions":["aak_dmg"]
             },
             {
                 "key": "ally_damage",

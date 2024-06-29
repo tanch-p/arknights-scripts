@@ -47718,7 +47718,8 @@
         },
         {
           "key": "ally_aspd",
-          "value": 35.0
+          "value": 35.0,
+          "conditions":["student"]
         }
       ]
     }
