@@ -7087,7 +7087,8 @@
         "tags": [
             "burst",
             "arts",
-            "target_air"
+            "target_air",
+            "ally_ailment"
         ],
         "blackboard": [
             {
@@ -15403,7 +15404,7 @@
                 "duration": 15.0
             },
             {
-                "key": "ally_aspd_up",
+                "key": "ally_aspd",
                 "value": 25.0,
                 "duration": 15.0,
                 "conditions": [
@@ -37322,7 +37323,7 @@
                 "value": 1.2
             },
             {
-                "key": "ally_def_up",
+                "key": "ally_def",
                 "value": 0.3
             },
             {
@@ -71283,11 +71284,12 @@
             }
         ],
         "tags": [
-            "ally_barrier"
+            "ally_barrier",
+            "barrier"
         ],
         "blackboard": [
             {
-                "key": "ally_def_up",
+                "key": "ally_def",
                 "value": 0.5,
                 "duration": 3.0
             },
@@ -71408,7 +71410,7 @@
         "tags": [],
         "blackboard": [
             {
-                "key": "ally_def_up",
+                "key": "ally_def",
                 "value": 1.0,
                 "duration": 60.0
             },
@@ -71950,7 +71952,8 @@
             }
         ],
         "tags": [
-            "ally_barrier"
+            "ally_barrier",
+            "barrier"
         ],
         "blackboard": [
             {
@@ -74894,7 +74897,7 @@
                 "value": 0.5
             },
             {
-                "key": "ally_atk_up",
+                "key": "ally_atk",
                 "value": 0.25,
                 "duration": 30.0,
                 "conditions": [
@@ -74902,7 +74905,7 @@
                 ]
             },
             {
-                "key": "ally_aspd_up",
+                "key": "ally_aspd",
                 "value": 25.0,
                 "duration": 30.0,
                 "conditions": [
