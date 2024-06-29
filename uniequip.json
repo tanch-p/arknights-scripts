@@ -27115,7 +27115,8 @@
         },
         {
           "key": "def_penetrate",
-          "value": 300.0
+          "value": 300.0,
+          "conditions":["weight_gte_3"]
         }
       ]
     }
@@ -45484,7 +45485,7 @@
         {
           "key": "dmg_res",
           "types": ["phys", "arts"],
-          "value": 0.85,
+          "value": 0.15,
           "conditions": ["token", "self_block"]
         },
         {
@@ -45750,7 +45751,7 @@
         {
           "key": "dmg_res",
           "types": ["phys", "arts"],
-          "value": 0.85,
+          "value": 0.15,
           "conditions": ["token", "self_block"]
         },
         {
@@ -45767,22 +45768,6 @@
         },
         {
           "key": "block_cnt",
-          "value": 1.0
-        },
-        {
-          "key": "interval",
-          "value": 25.0
-        },
-        {
-          "key": "vigil_wolf_t_1_enhance[trigger].max_stack_cnt",
-          "value": 2.0
-        },
-        {
-          "key": "vigil_wolf_t_1_enhance[trigger].interval",
-          "value": 25.0
-        },
-        {
-          "key": "vigil_wolf_t_1_enhance[trigger].block_cnt",
           "value": 1.0
         }
       ]
@@ -45972,7 +45957,7 @@
         {
           "key": "dmg_res",
           "types": ["phys", "arts"],
-          "value": 0.85,
+          "value": 0.15,
           "conditions": ["token", "self_block"]
         },
         {
@@ -46678,7 +46663,7 @@
         {
           "key": "dmg_res",
           "types": ["phys", "arts"],
-          "value": 0.85,
+          "value": 0.15,
           "conditions": ["self_block"]
         },
         {
