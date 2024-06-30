@@ -18672,12 +18672,12 @@
         },
         {
           "key": "block_dmg",
-          "types": ["phys", "arts", "melee_attack", "ranged_attack"],
+          "types": ["phys", "arts"],
           "value": 0.3
         },
         {
           "key": "ally_block_dmg",
-          "types": ["phys", "arts", "melee_attack", "ranged_attack"],
+          "types": ["phys", "arts"],
           "value": 0.15
         }
       ]
@@ -19123,7 +19123,7 @@
         },
         {
           "key": "block_dmg",
-          "types": ["phys", "arts", "true", "melee_attack", "ranged_attack"],
+          "types": ["phys", "arts", "true"],
           "value": 0.35
         },
         {
@@ -44729,8 +44729,9 @@
         },
         {
           "key": "block_dmg",
-          "types": ["phys", "ranged_attack"],
-          "value": 0.35
+          "types": ["phys"],
+          "value": 0.35,
+          "conditions":["ranged_attack"]
         },
         {
           "key": "def",
@@ -46361,13 +46362,18 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "move_speed",
-          "value": -0.2
+          "key": "ms_down",
+          "targets":99,
+          "value": 0.2,
+          "target_air":true
         },
         {
-          "key": "move_speed",
-          "value": -0.18
-        },
+          "key": "ms_down",
+          "targets":99,
+          "value": 0.54,
+          "duration":30.0,
+          "target_air":false
+      },
         {
           "key": "atk_ratio",
           "value": 0.11

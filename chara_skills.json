@@ -19013,9 +19013,7 @@
             {
                 "key": "block_dmg",
                 "types": [
-                    "phys",
-                    "melee_attack",
-                    "ranged_attack"
+                    "phys"
                 ],
                 "value": 0.4
             }
@@ -22067,9 +22065,7 @@
                 "types": [
                     "phys",
                     "arts",
-                    "true",
-                    "melee_attack",
-                    "ranged_attack"
+                    "true"
                 ],
                 "value": 1.0,
                 "conditions": [
@@ -36714,9 +36710,7 @@
                 "types": [
                     "phys",
                     "arts",
-                    "true",
-                    "melee_attack",
-                    "ranged_attack"
+                    "true"
                 ],
                 "value": 1,
                 "conditions": [
@@ -37739,9 +37733,7 @@
             {
                 "key": "block_dmg",
                 "types": [
-                    "arts",
-                    "melee_attack",
-                    "ranged_attack"
+                    "arts"
                 ],
                 "value": 1,
                 "conditions": [
@@ -42302,8 +42294,10 @@
             {
                 "key": "ally_aspd",
                 "value": 40.0,
-                "duration":20.0,
-                "conditions":["SNIPER"]
+                "duration": 20.0,
+                "conditions": [
+                    "SNIPER"
+                ]
             },
             {
                 "key": "ally_stun",
@@ -46052,10 +46046,10 @@
             {
                 "key": "block_dmg",
                 "types": [
-                    "phys",
-                    "ranged_attack"
+                    "phys"
                 ],
-                "value": 0.7
+                "value": 0.7,
+                "conditions":["ranged_attack"]
             },
             {
                 "key": "ally_dmg_res",
@@ -60788,9 +60782,7 @@
                 "types": [
                     "phys",
                     "arts",
-                    "true",
-                    "melee_attack",
-                    "ranged_attack"
+                    "true"
                 ],
                 "value": 1,
                 "conditions": [
@@ -60897,9 +60889,7 @@
                         "types": [
                             "phys",
                             "arts",
-                            "true",
-                            "melee_attack",
-                            "ranged_attack"
+                            "true"
                         ],
                         "value": 1.0,
                         "conditions": [
@@ -60931,9 +60921,7 @@
                 "types": [
                     "phys",
                     "arts",
-                    "true",
-                    "melee_attack",
-                    "ranged_attack"
+                    "true"
                 ],
                 "conditions": [
                     "dmg_below_600"
@@ -68413,13 +68401,17 @@
                 "key": "ally_max_hp",
                 "value": 0.8,
                 "duration": 30.0,
-                "conditions":["aak_dmg"]
+                "conditions": [
+                    "aak_dmg"
+                ]
             },
             {
                 "key": "ally_def",
                 "value": 0.8,
                 "duration": 30.0,
-                "conditions":["aak_dmg"]
+                "conditions": [
+                    "aak_dmg"
+                ]
             },
             {
                 "key": "damage",
@@ -68555,13 +68547,17 @@
                 "key": "ally_atk",
                 "value": 0.5,
                 "duration": 20.0,
-                "conditions":["aak_dmg"]
+                "conditions": [
+                    "aak_dmg"
+                ]
             },
             {
                 "key": "ally_aspd",
                 "value": 50.0,
                 "duration": 20.0,
-                "conditions":["aak_dmg"]
+                "conditions": [
+                    "aak_dmg"
+                ]
             },
             {
                 "key": "ally_damage",
@@ -71553,9 +71549,7 @@
             {
                 "key": "block_dmg",
                 "types": [
-                    "phys",
-                    "melee_attack",
-                    "ranged_attack"
+                    "phys"
                 ],
                 "value": 0.5
             }
