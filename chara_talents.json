@@ -8474,6 +8474,19 @@
                 ],
                 "blackboard": [
                     {
+                        "key": "atk_down",
+                        "targets": 99,
+                        "value": 0.5,
+                        "duration": 15.0,
+                        "conditions": [
+                            "apoptosis_burst"
+                        ],
+                        "category": [
+                            "weaken"
+                        ],
+                        "target_air": true
+                    },
+                    {
                         "key": "ep_damage_ratio",
                         "value": 0.1
                     },

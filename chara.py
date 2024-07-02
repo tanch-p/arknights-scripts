@@ -182,6 +182,7 @@ for id in filtered_cn_char_table:
         blackboard.append({"key": "max_target", "value": 3})
     if character_dict["subProfessionId"] == "librator":
         blackboard.append({"key": "block", "value": 0})
+    if character_dict["subProfessionId"] in ["librator","healer","musha"]:
         desc_zh = replace_substrings(
             character_dict['trait']['candidates'][-1]['overrideDescripton'], character_dict['trait']['candidates'][-1]['blackboard'])
 
@@ -199,7 +200,7 @@ for id in filtered_cn_char_table:
             "<$ba", "<ba")
         desc_ja = jp_char_table[id]['description'].replace(
             "<$ba", "<ba")
-        if character_dict["subProfessionId"] == "librator" or character_dict['subProfessionId'] == "healer":
+        if character_dict["subProfessionId"] in ["librator","healer","musha"]:
             desc_en = replace_substrings(
                 en_char_table[id]['trait']['candidates'][-1]['overrideDescripton'], en_char_table[id]['trait']['candidates'][-1]['blackboard'])
             desc_ja = replace_substrings(
