@@ -176,6 +176,8 @@ for id in filtered_cn_char_table:
     if character_dict['subProfessionId'] == "stalker":
         blackboard.append({"key": "evasion", "value": 0.5,
                           "types": ["phys", "arts"]})
+    if character_dict["subProfessionId"] == "ringhealer":
+        blackboard.append({"key": "max_target", "value": 3})
     if character_dict["subProfessionId"] == "librator":
         blackboard.append({"key": "block", "value": 0})
         desc_zh = replace_substrings(
