@@ -42000,7 +42000,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["protect"],
+      "tags": ["protect","heal_ally","heal_self"],
       "blackboard": [
         {
           "key": "heal_scale",
