@@ -8469,7 +8469,8 @@
                 "desc_en": "Enemies within attack range take 10% ATK as <ba.dt.apoptosis2>Necrosis damage</> per second, and are <ba.sluggish>Slowed</> for 0.2s",
                 "tags": [
                     "apoptosis",
-                    "ele_dmg"
+                    "ele_dmg",
+                    "aoe"
                 ],
                 "blackboard": [
                     {
@@ -9219,7 +9220,8 @@
                 "desc_ja": "「Mon3tr」が倒された時（撤退時発動ぜず）、周囲8マス内にいる敵全員に1400<@ba.talpu>（+200）</>の確定ダメージを与え、3.5<@ba.talpu>（+0.5）</>秒間<ba.stun>スタン</>させる",
                 "desc_en": "When Mon3tr is defeated (excluding retreat), all enemies in the surrounding 8 tiles are <ba.stun>Stunned</> for 3.5 <@ba.talpu>(+0.5)</> seconds and receive 1400 <@ba.talpu>(+200)</> True damage",
                 "tags": [
-                    "true"
+                    "true",
+                    "aoe"
                 ],
                 "blackboard": [
                     {
@@ -10822,7 +10824,8 @@
                 "rangeId": "x-5",
                 "tags": [
                     "true",
-                    "kazimierz"
+                    "kazimierz",
+                    "aoe"
                 ],
                 "blackboard": [
                     {

@@ -65,8 +65,10 @@ with open('chara_imple_dates.json', encoding='utf-8') as f:
     imple_dates = json.load(f)
 data = []
 
+KEYS_TO_IGNORE = ["char_512_aprot"]
+
 filtered_cn_char_table = {key: cn_char_table[key] for key in cn_char_table.keys(
-) if not "token" in key and not "trap" in key and key != "char_512_aprot"}
+) if not "token" in key and not "trap" in key and not key in KEYS_TO_IGNORE}
 
 subProfessionIds = []
 
