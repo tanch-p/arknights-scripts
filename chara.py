@@ -90,7 +90,7 @@ for id in filtered_cn_char_table:
                        "tags": chara_skills[skill['skillId']]['tags'] if skill['skillId'] in chara_skills else [],
                        "blackboard": blackboard})
     if character_dict['talents']:
-        
+
         for talent_index, talent in enumerate(character_dict['talents']):
             max_candidate_index = len(talent['candidates'])-1
             maxed_talent = talent['candidates'][max_candidate_index]
@@ -162,6 +162,11 @@ for id in filtered_cn_char_table:
     desc_zh = character_dict['description'].replace("<$ba", "<ba")
     blackboard = []
     tags = get_sub_profession_tags(character_dict, id)
+    if character_dict['subProfessionId'] in ["phalanx"]:
+        blackboard.append(
+            {"key": "def", "value": 2, "conditions": ["not_skill_active"]})
+        blackboard.append({"key": "res", "value": 20,
+                          "conditions": ["not_skill_active"]})
     if character_dict['subProfessionId'] == "slower":
         blackboard.append({"key": "sluggish", "targets": 1,
                           "value": 0.8, "target_air": True})

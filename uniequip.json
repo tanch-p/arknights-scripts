@@ -898,8 +898,8 @@
         {
           "key": "ally_atk",
           "value": 0.3,
-          "conditions": ["minos","hp_gt_50"],
-          "category":["vigor"]
+          "conditions": ["minos", "hp_gt_50"],
+          "category": ["vigor"]
         }
       ]
     }
@@ -1029,7 +1029,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["bonus_no_block", "no_block_enemy","self_no_block_enemy"],
+      "tags": ["bonus_no_block", "no_block_enemy", "self_no_block_enemy"],
       "blackboard": [
         {
           "key": "atk_scale",
@@ -1175,7 +1175,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["bonus_no_block", "no_block_enemy","self_no_block_enemy"],
+      "tags": ["bonus_no_block", "no_block_enemy", "self_no_block_enemy"],
       "blackboard": [
         {
           "key": "atk_scale",
@@ -2676,7 +2676,7 @@
       "tags": ["global_heal"],
       "blackboard": [
         {
-          "key": "attack@max_target",
+          "key": "max_target",
           "value": 4.0
         },
         {
@@ -3550,16 +3550,8 @@
           "value": 0.8
         },
         {
-          "key": "skill@chain.atk_scale",
-          "value": 0.9
-        },
-        {
           "key": "value",
           "value": 0.1
-        },
-        {
-          "key": "skill@pasngr_s_1.chain.atk_scale",
-          "value": 0.9
         },
         {
           "key": "sp_recovery_per_sec",
@@ -5293,7 +5285,7 @@
           "value": 1.15
         },
         {
-          "key": "magic_resistance",
+          "key": "res",
           "value": 20.0
         },
         {
@@ -27116,7 +27108,7 @@
         {
           "key": "def_penetrate",
           "value": 300.0,
-          "conditions":["weight_gte_3"]
+          "conditions": ["weight_gte_3"]
         }
       ]
     }
@@ -27424,7 +27416,7 @@
           "value": 1.0
         },
         {
-          "key": "magic_resistance",
+          "key": "res",
           "value": 23.0
         }
       ]
@@ -28600,37 +28592,13 @@
       ],
       "tags": [],
       "blackboard": [
-        {
-          "key": "def",
-          "value": 2.15
-        },
-        {
-          "key": "magic_resistance",
-          "value": 25.0
-        },
-        {
-          "key": "billro_e_002[buff].def",
-          "value": 1.0
-        },
-        {
-          "key": "billro_e_002[buff].magic_resistance",
-          "value": 10.0
-        },
-        {
-          "key": "billro_e_002[max_hp_buff].max_hp",
-          "value": 0.45
-        },
-        {
-          "key": "billro_e_002[max_hp_enhance_buff].max_hp",
-          "value": 0.9
-        },
+        { "key": "def", "value": 2.15, "conditions": ["not_skill_active"] },
+        { "key": "res", "value": 25, "conditions": ["not_skill_active"] },
+        { "key": "def", "value": 1, "conditions": ["skill_active"] },
+        { "key": "res", "value": 10, "conditions": ["skill_active"] },
         {
           "key": "heal_scale",
           "value": 0.5
-        },
-        {
-          "key": "billro_t_1[enhance].heal_scale",
-          "value": 1.0
         }
       ]
     }
@@ -28762,22 +28730,10 @@
       ],
       "tags": [],
       "blackboard": [
-        {
-          "key": "def",
-          "value": 2.15
-        },
-        {
-          "key": "magic_resistance",
-          "value": 25.0
-        },
-        {
-          "key": "lin_e_002[buff].def",
-          "value": 1.0
-        },
-        {
-          "key": "lin_e_002[buff].magic_resistance",
-          "value": 10.0
-        },
+        { "key": "def", "value": 2.15, "conditions": ["not_skill_active"] },
+        { "key": "res", "value": 25, "conditions": ["not_skill_active"] },
+        { "key": "def", "value": 1, "conditions": ["skill_active"] },
+        { "key": "res", "value": 10, "conditions": ["skill_active"] },
         {
           "key": "sp_gain",
           "value": 2.0,
@@ -28924,31 +28880,16 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["lower_target_priority"],
       "blackboard": [
-        {
-          "key": "def",
-          "value": 2.15
-        },
-        {
-          "key": "magic_resistance",
-          "value": 25.0
-        },
-        {
-          "key": "soil_e_002[buff].def",
-          "value": 1.0
-        },
-        {
-          "key": "soil_e_002[buff].magic_resistance",
-          "value": 10.0
-        },
+        { "key": "def", "value": 2.15, "conditions": ["not_skill_active"] },
+        { "key": "res", "value": 25, "conditions": ["not_skill_active"] },
+        { "key": "def", "value": 1, "conditions": ["skill_active"] },
+        { "key": "res", "value": 10, "conditions": ["skill_active"] },
         {
           "key": "ally_def",
-          "value": 0.23
-        },
-        {
-          "key": "atk",
-          "value": 0.0
+          "value": 0.23,
+          "conditions": ["surrounding_4_tile"]
         },
         {
           "key": "taunt_level",
@@ -29082,31 +29023,20 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": [],
+      "tags": ["heal_self"],
       "blackboard": [
-        {
-          "key": "def",
-          "value": 2.15
-        },
-        {
-          "key": "magic_resistance",
-          "value": 25.0
-        },
-        {
-          "key": "soil_e_002[buff].def",
-          "value": 1.0
-        },
-        {
-          "key": "soil_e_002[buff].magic_resistance",
-          "value": 10.0
-        },
+        { "key": "def", "value": 2.15, "conditions": ["not_skill_active"] },
+        { "key": "res", "value": 25, "conditions": ["not_skill_active"] },
+        { "key": "def", "value": 1, "conditions": ["skill_active"] },
+        { "key": "res", "value": 10, "conditions": ["skill_active"] },
         {
           "key": "hp_recovery_per_sec_by_max_hp_ratio",
           "value": 0.04
         },
         {
           "key": "max_hp",
-          "value": 0.15
+          "value": 0.15,
+          "conditions": ["not_skill_active"]
         }
       ]
     }
@@ -30480,7 +30410,7 @@
           "target_air": true
         },
         {
-          "key": "attack@max_target",
+          "key": "max_target",
           "value": 2.0
         },
         {
@@ -38124,7 +38054,7 @@
           "value": 0.04
         },
         {
-          "key": "magic_resistance",
+          "key": "res",
           "value": 8.0
         }
       ]
@@ -39273,16 +39203,18 @@
           "value": 0.15
         },
         {
-          "key": "baslin_t[self].magic_resistance",
+          "key": "res",
+          "value": 19.0,
+          "conditions": ["ally_surrounding"]
+        },
+        {
+          "key": "res",
           "value": 14.0
         },
         {
-          "key": "baslin_t[ally].magic_resistance",
-          "value": 5.0
-        },
-        {
-          "key": "magic_resistance",
-          "value": 5.0
+          "key": "ally_res",
+          "value": 5.0,
+          "conditions": ["ally_surrounding"]
         }
       ]
     }
@@ -41276,8 +41208,9 @@
           "value": -1.0
         },
         {
-          "key": "sp_recovery_per_sec",
-          "value": 1.0
+          "key": "sp_regen",
+          "value": 1.0,
+          "conditions": ["charged"]
         }
       ]
     }
@@ -43206,7 +43139,7 @@
           "tokenAttributeBlackboard": {}
         }
       ],
-      "tags": ["no_block_enemy","bonus_no_block","self_no_block_enemy"],
+      "tags": ["no_block_enemy", "bonus_no_block", "self_no_block_enemy"],
       "blackboard": [
         {
           "key": "attack_speed",
@@ -44731,7 +44664,7 @@
           "key": "block_dmg",
           "types": ["phys"],
           "value": 0.35,
-          "conditions":["ranged_attack"]
+          "conditions": ["ranged_attack"]
         },
         {
           "key": "def",
@@ -46363,17 +46296,17 @@
       "blackboard": [
         {
           "key": "ms_down",
-          "targets":99,
+          "targets": 99,
           "value": 0.2,
-          "target_air":true
+          "target_air": true
         },
         {
           "key": "ms_down",
-          "targets":99,
+          "targets": 99,
           "value": 0.54,
-          "duration":30.0,
-          "target_air":false
-      },
+          "duration": 30.0,
+          "target_air": false
+        },
         {
           "key": "atk_ratio",
           "value": 0.11
@@ -47710,7 +47643,7 @@
         {
           "key": "ally_aspd",
           "value": 35.0,
-          "conditions":["student"]
+          "conditions": ["student"]
         }
       ]
     }
@@ -49049,7 +48982,7 @@
     "name_ja": "",
     "name_en": "",
     "typeIcon": "original",
-    "charId": "char_002_amiya",
+    "charId": "char_1037_amiya3",
     "combatData": null
   },
   "uniequip_002_amiya3": {
@@ -49058,7 +48991,7 @@
     "name_ja": "",
     "name_en": "",
     "typeIcon": "inc-x",
-    "charId": "char_002_amiya",
+    "charId": "char_1037_amiya3",
     "combatData": {
       "phases": [
         {
@@ -50323,7 +50256,7 @@
           "key": "res_down",
           "targets": 99,
           "value": 20,
-          "duration":10.0,
+          "duration": 10.0,
           "conditions": ["burning_burst"],
           "target_air": true
         },

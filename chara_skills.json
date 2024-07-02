@@ -799,7 +799,8 @@
         "blackboard": [
             {
                 "key": "def",
-                "value": 0.5
+                "value": 0.5,
+                "duration": 30.0
             }
         ]
     },
@@ -896,7 +897,8 @@
         "blackboard": [
             {
                 "key": "def",
-                "value": 0.8
+                "value": 0.8,
+                "duration": 35.0
             }
         ]
     },
@@ -994,7 +996,8 @@
         "blackboard": [
             {
                 "key": "def",
-                "value": 1.0
+                "value": 1.0,
+                "duration": 40.0
             }
         ]
     },
@@ -5332,7 +5335,7 @@
                 "value": 2.25
             },
             {
-                "key": "s2n.max_target",
+                "key": "max_target",
                 "value": 3.0
             }
         ]
@@ -5708,7 +5711,7 @@
             {
                 "key": "def",
                 "value": 0.8,
-                "duration": 15
+                "duration": 15.0
             }
         ]
     },
@@ -6451,7 +6454,11 @@
             },
             {
                 "key": "def",
-                "value": 0.7
+                "value": 0.7,
+                "duration": 15.0,
+                "conditions": [
+                    "token"
+                ]
             },
             {
                 "key": "atk",
@@ -7617,8 +7624,7 @@
             }
         ],
         "tags": [
-            "arts",
-            "multi_target"
+            "arts"
         ],
         "blackboard": [
             {
@@ -7875,9 +7881,7 @@
                 ]
             }
         ],
-        "tags": [
-            "multi_target"
-        ],
+        "tags": [],
         "blackboard": [
             {
                 "key": "atk",
@@ -7893,6 +7897,10 @@
                 "conditions": [
                     "enemy_hp_lt_50"
                 ]
+            },
+            {
+                "key": "max_target",
+                "value": 2.0
             }
         ]
     },
@@ -8239,11 +8247,13 @@
         "blackboard": [
             {
                 "key": "atk",
-                "value": 0.75
+                "value": 0.75,
+                "duration": 40.0
             },
             {
                 "key": "def",
-                "value": 0.75
+                "value": 0.75,
+                "duration": 40.0
             }
         ]
     },
@@ -9069,7 +9079,8 @@
             },
             {
                 "key": "def",
-                "value": 2.0
+                "value": 2.0,
+                "duration": 8.0
             },
             {
                 "key": "hp_recovery_per_sec_by_max_hp_ratio",
@@ -9779,11 +9790,11 @@
         "blackboard": [
             {
                 "key": "def",
-                "value": 4.0
-            },
-            {
-                "key": "duration",
-                "value": 12.0
+                "value": 4.0,
+                "duration": 12.0,
+                "conditions": [
+                    "continual_decrease"
+                ]
             }
         ]
     },
@@ -10972,8 +10983,7 @@
         "tags": [
             "pull",
             "force",
-            "burst",
-            "multi_target"
+            "burst"
         ],
         "blackboard": [
             {
@@ -11095,7 +11105,6 @@
             }
         ],
         "tags": [
-            "multi_target",
             "burst"
         ],
         "blackboard": [
@@ -11197,13 +11206,15 @@
                 ]
             }
         ],
-        "tags": [
-            "multi_target"
-        ],
+        "tags": [],
         "blackboard": [
             {
                 "key": "atk",
                 "value": 0.65
+            },
+            {
+                "key": "max_target",
+                "value": 2.0
             }
         ]
     },
@@ -12752,6 +12763,16 @@
                 "value": 12.0
             },
             {
+                "key": "atk",
+                "value": 0.6,
+                "duration": 10.0
+            },
+            {
+                "key": "def",
+                "value": 0.6,
+                "duration": 10.0
+            },
+            {
                 "key": "ally_atk",
                 "value": 0.6,
                 "duration": 10.0,
@@ -12907,7 +12928,8 @@
             },
             {
                 "key": "def",
-                "value": 1.3
+                "value": 1.3,
+                "duration": 30.0
             },
             {
                 "key": "blockCnt",
@@ -12946,7 +12968,8 @@
                 "blackboard": [
                     {
                         "key": "def",
-                        "value": 0.85
+                        "value": 0.85,
+                        "duration": 25.0
                     },
                     {
                         "key": "taunt_level",
@@ -13055,7 +13078,8 @@
             },
             {
                 "key": "def",
-                "value": 1.2
+                "value": 1.2,
+                "duration": 25.0
             },
             {
                 "key": "taunt",
@@ -13305,15 +13329,18 @@
         "blackboard": [
             {
                 "key": "max_hp",
-                "value": 0.5
+                "value": 0.5,
+                "duration": 30.0
             },
             {
                 "key": "def",
-                "value": 0.3
+                "value": 0.3,
+                "duration": 30.0
             },
             {
                 "key": "res",
-                "value": 1.0
+                "value": 1.0,
+                "duration": 30.0
             }
         ]
     },
@@ -13594,7 +13621,8 @@
             },
             {
                 "key": "def",
-                "value": 0.8
+                "value": 0.8,
+                "duration": 30.0
             }
         ]
     },
@@ -14700,7 +14728,8 @@
             },
             {
                 "key": "def",
-                "value": 0.8
+                "value": 0.8,
+                "duration": 30.0
             },
             {
                 "key": "blockCnt",
@@ -17097,11 +17126,18 @@
                 ]
             }
         ],
-        "tags": [],
+        "tags": [
+            "ally_ailment"
+        ],
         "blackboard": [
             {
                 "key": "atk",
                 "value": 0.8
+            },
+            {
+                "key": "def",
+                "value": 0.8,
+                "duration": 30
             },
             {
                 "key": "ally_def",
@@ -19108,13 +19144,16 @@
             }
         ],
         "tags": [
-            "arts",
-            "multi_target"
+            "arts"
         ],
         "blackboard": [
             {
                 "key": "atk",
                 "value": 1.2
+            },
+            {
+                "key": "max_target",
+                "value": 2.0
             }
         ]
     },
@@ -19482,7 +19521,6 @@
             }
         ],
         "tags": [
-            "multi_target",
             "activate_skill",
             "student"
         ],
@@ -21034,7 +21072,8 @@
             },
             {
                 "key": "def",
-                "value": 0.8
+                "value": 0.8,
+                "duration": 30.0
             }
         ]
     },
@@ -21166,7 +21205,8 @@
             },
             {
                 "key": "def",
-                "value": 0.8
+                "value": 0.8,
+                "duration": 15.0
             },
             {
                 "key": "blockCnt",
@@ -21892,7 +21932,8 @@
             },
             {
                 "key": "def",
-                "value": 1.2
+                "value": 1.2,
+                "duration": 20.0
             },
             {
                 "key": "hp_ratio",
@@ -22967,7 +23008,6 @@
             }
         ],
         "tags": [
-            "multi_target",
             "charged"
         ],
         "blackboard": [
@@ -22980,8 +23020,15 @@
                 "value": 30.0
             },
             {
-                "key": "plus_max_target",
-                "value": 3.0
+                "key": "max_target",
+                "value": 2.0
+            },
+            {
+                "key": "max_target",
+                "value": 3.0,
+                "conditions": [
+                    "charged"
+                ]
             },
             {
                 "key": "plus_atk_scale",
@@ -23383,9 +23430,7 @@
                 ]
             }
         ],
-        "tags": [
-            "multi_target"
-        ],
+        "tags": [],
         "blackboard": [
             {
                 "key": "atk",
@@ -23394,6 +23439,10 @@
             {
                 "key": "times",
                 "value": 2.0
+            },
+            {
+                "key": "max_target",
+                "value": 3.0
             }
         ]
     },
@@ -23834,9 +23883,7 @@
                 ]
             }
         ],
-        "tags": [
-            "multi_target"
-        ],
+        "tags": [],
         "blackboard": [
             {
                 "key": "max_target",
@@ -27700,8 +27747,7 @@
             }
         ],
         "tags": [
-            "range_up",
-            "multi_target"
+            "range_up"
         ],
         "blackboard": [
             {
@@ -29656,10 +29702,13 @@
             }
         ],
         "tags": [
-            "ele_dmg",
-            "multi_target"
+            "ele_dmg"
         ],
         "blackboard": [
+            {
+                "key": "max_target",
+                "value": 2.0
+            },
             {
                 "key": "attack_speed",
                 "value": 90.0
@@ -29937,7 +29986,6 @@
         ],
         "tags": [
             "ele_dmg",
-            "multi_target",
             "charged"
         ],
         "blackboard": [
@@ -29956,6 +30004,10 @@
             {
                 "key": "ep_damage_scale",
                 "value": 0.5
+            },
+            {
+                "key": "max_target",
+                "value": 2.0
             }
         ]
     },
@@ -30261,8 +30313,7 @@
             }
         ],
         "tags": [
-            "range_up",
-            "multi_target"
+            "range_up"
         ],
         "blackboard": [
             {
@@ -31049,11 +31100,19 @@
             },
             {
                 "key": "def",
-                "value": 1.3
+                "value": 1.3,
+                "duration": 20.0,
+                "conditions": [
+                    "token"
+                ]
             },
             {
-                "key": "magic_resistance",
-                "value": 20.0
+                "key": "res",
+                "value": 20,
+                "duration": 20.0,
+                "conditions": [
+                    "token"
+                ]
             },
             {
                 "key": "token_stun",
@@ -32343,8 +32402,7 @@
             }
         ],
         "tags": [
-            "ally_resist",
-            "multi_target"
+            "ally_resist"
         ],
         "blackboard": [
             {
@@ -32483,8 +32541,7 @@
         ],
         "tags": [
             "ally_resist",
-            "burst",
-            "multi_target"
+            "burst"
         ],
         "blackboard": [
             {
@@ -33865,7 +33922,11 @@
             },
             {
                 "key": "def",
-                "value": 0.6
+                "value": 0.6,
+                "duration": 30.0,
+                "conditions": [
+                    "token"
+                ]
             },
             {
                 "key": "hp_recovery_per_sec",
@@ -34431,7 +34492,8 @@
             },
             {
                 "key": "def",
-                "value": 0.5
+                "value": 0.5,
+                "duration": 35.0
             }
         ]
     },
@@ -34568,7 +34630,8 @@
             },
             {
                 "key": "def",
-                "value": 0.8
+                "value": 0.8,
+                "duration": 25.0
             },
             {
                 "key": "robrta_s_2[recharge].cnt",
@@ -35541,7 +35604,8 @@
             },
             {
                 "key": "def",
-                "value": 0.8
+                "value": 0.8,
+                "duration": 30.0
             },
             {
                 "key": "base_attack_time",
@@ -36719,11 +36783,8 @@
             },
             {
                 "key": "def",
-                "value": 1.0
-            },
-            {
-                "key": "duration",
-                "value": 8.0
+                "value": 1.0,
+                "duration": 8.0
             }
         ]
     },
@@ -37036,7 +37097,8 @@
         "blackboard": [
             {
                 "key": "def",
-                "value": 0.7
+                "value": 0.7,
+                "duration": 30.0
             },
             {
                 "key": "talent_scale",
@@ -37452,7 +37514,8 @@
         "blackboard": [
             {
                 "key": "def",
-                "value": 1.2
+                "value": 1.2,
+                "duration": 30.0
             },
             {
                 "key": "blockCnt",
@@ -37885,7 +37948,8 @@
             },
             {
                 "key": "def",
-                "value": 0.6
+                "value": 0.6,
+                "duration": 50.0
             },
             {
                 "key": "base_attack_time",
@@ -38379,11 +38443,13 @@
         "blackboard": [
             {
                 "key": "atk",
-                "value": 0.8
+                "value": 0.8,
+                "duration": 35.0
             },
             {
                 "key": "res",
-                "value": 1.0
+                "value": 1.0,
+                "duration": 35.0
             }
         ]
     },
@@ -39149,7 +39215,8 @@
             },
             {
                 "key": "def",
-                "value": 0.55
+                "value": 0.55,
+                "duration": 20.0
             }
         ]
     },
@@ -39715,7 +39782,8 @@
         "blackboard": [
             {
                 "key": "def",
-                "value": 2.1
+                "value": 2.1,
+                "duration": 30.0
             },
             {
                 "key": "blockCnt",
@@ -40135,7 +40203,8 @@
         "blackboard": [
             {
                 "key": "def",
-                "value": 0.21
+                "value": 4.2,
+                "duration": 60.0
             },
             {
                 "key": "cnt",
@@ -42564,7 +42633,6 @@
             }
         ],
         "tags": [
-            "multi_target",
             "pull",
             "force",
             "true",
@@ -43877,9 +43945,7 @@
                 ]
             }
         ],
-        "tags": [
-            "multi_target"
-        ],
+        "tags": [],
         "blackboard": [
             {
                 "key": "atk",
@@ -43995,9 +44061,7 @@
                 ]
             }
         ],
-        "tags": [
-            "multi_target"
-        ],
+        "tags": [],
         "blackboard": [
             {
                 "key": "atk",
@@ -44586,8 +44650,7 @@
             }
         ],
         "tags": [
-            "burst",
-            "multi_target"
+            "burst"
         ],
         "blackboard": [
             {
@@ -44597,6 +44660,10 @@
             {
                 "key": "ct",
                 "value": 3.0
+            },
+            {
+                "key": "max_target",
+                "value": 2.0
             }
         ]
     },
@@ -44720,9 +44787,7 @@
                 ]
             }
         ],
-        "tags": [
-            "multi_target"
-        ],
+        "tags": [],
         "blackboard": [
             {
                 "key": "max_target",
@@ -46049,7 +46114,9 @@
                     "phys"
                 ],
                 "value": 0.7,
-                "conditions":["ranged_attack"]
+                "conditions": [
+                    "ranged_attack"
+                ]
             },
             {
                 "key": "ally_dmg_res",
@@ -46546,12 +46613,15 @@
             }
         ],
         "tags": [
-            "multi_target",
             "apoptosis",
             "ele_dmg",
             "weaken"
         ],
         "blackboard": [
+            {
+                "key": "max_target",
+                "value": 2.0
+            },
             {
                 "key": "atk_down",
                 "targets": 2,
@@ -49485,8 +49555,7 @@
             }
         ],
         "tags": [
-            "burst",
-            "multi_target"
+            "burst"
         ],
         "blackboard": [
             {
@@ -49786,8 +49855,7 @@
             }
         ],
         "tags": [
-            "range_up",
-            "multi_target"
+            "range_up"
         ],
         "blackboard": [
             {
@@ -51568,9 +51636,7 @@
                 ]
             }
         ],
-        "tags": [
-            "multi_target"
-        ],
+        "tags": [],
         "blackboard": [
             {
                 "key": "max_target",
@@ -52108,9 +52174,7 @@
                 ]
             }
         ],
-        "tags": [
-            "multi_target"
-        ],
+        "tags": [],
         "blackboard": [
             {
                 "key": "atk",
@@ -52259,7 +52323,6 @@
             }
         ],
         "tags": [
-            "multi_target",
             "aspd_unrelated"
         ],
         "blackboard": [
@@ -52420,10 +52483,13 @@
             }
         ],
         "tags": [
-            "unlimited_duration",
-            "multi_target"
+            "unlimited_duration"
         ],
         "blackboard": [
+            {
+                "key": "max_target",
+                "value": 2.0
+            },
             {
                 "key": "atk",
                 "value": 0.5
@@ -53106,10 +53172,6 @@
             {
                 "key": "max_target",
                 "value": 2.0
-            },
-            {
-                "key": "def",
-                "value": 1.0
             },
             {
                 "key": "append_atk_scale",
@@ -54937,7 +54999,8 @@
             },
             {
                 "key": "def",
-                "value": 1.2
+                "value": 1.2,
+                "duration": 20.0
             },
             {
                 "key": "base_attack_time",
@@ -56768,7 +56831,7 @@
                 "value": 15.0,
                 "targets": 3,
                 "conditions": [
-                    "self_block"
+                    "token_blocked"
                 ],
                 "target_air": false
             },
@@ -58813,9 +58876,7 @@
                 ]
             }
         ],
-        "tags": [
-            "multi_target"
-        ],
+        "tags": [],
         "blackboard": [
             {
                 "key": "atk",
@@ -60238,7 +60299,8 @@
             },
             {
                 "key": "def",
-                "value": 1.0
+                "value": 1.0,
+                "duration": 20.0
             }
         ]
     },
@@ -62067,9 +62129,7 @@
                 ]
             }
         ],
-        "tags": [
-            "multi_target"
-        ],
+        "tags": [],
         "blackboard": [
             {
                 "key": "atk_scale",
@@ -63616,7 +63676,6 @@
             }
         ],
         "tags": [
-            "phys",
             "dot"
         ],
         "blackboard": [
@@ -63626,7 +63685,16 @@
             },
             {
                 "key": "def",
-                "value": 1.0
+                "value": 1.0,
+                "duration": 30.0
+            },
+            {
+                "key": "def",
+                "value": 1.0,
+                "duration": 30.0,
+                "conditions": [
+                    "token"
+                ]
             },
             {
                 "key": "atk_scale",
@@ -64745,7 +64813,8 @@
             },
             {
                 "key": "def",
-                "value": 0.6
+                "value": 0.6,
+                "duration": 30.0
             },
             {
                 "key": "ally_sp_gain",
@@ -70751,7 +70820,8 @@
             },
             {
                 "key": "def",
-                "value": 3.0
+                "value": 3.0,
+                "duration": 20.0
             },
             {
                 "key": "def_penetrate",
@@ -71406,6 +71476,11 @@
         "tags": [],
         "blackboard": [
             {
+                "key": "def",
+                "value": 1.0,
+                "duration": 60.0
+            },
+            {
                 "key": "ally_def",
                 "value": 1.0,
                 "duration": 60.0
@@ -71540,11 +71615,16 @@
         "blackboard": [
             {
                 "key": "def",
-                "value": 1.5
+                "value": 1.5,
+                "duration": 40.0
             },
             {
                 "key": "def",
-                "value": 1.5
+                "value": 1.5,
+                "duration": 40.0,
+                "conditions": [
+                    "token"
+                ]
             },
             {
                 "key": "block_dmg",
@@ -71801,7 +71881,11 @@
             },
             {
                 "key": "def",
-                "value": 2.0
+                "value": 2.0,
+                "duration": 20.0,
+                "conditions": [
+                    "token"
+                ]
             },
             {
                 "key": "hp_ratio",
@@ -72629,10 +72713,13 @@
             }
         ],
         "tags": [
-            "unlimited_duration",
-            "multi_target"
+            "unlimited_duration"
         ],
         "blackboard": [
+            {
+                "key": "max_target",
+                "value": 2.0
+            },
             {
                 "key": "atk",
                 "value": 0.4
@@ -73366,7 +73453,8 @@
             },
             {
                 "key": "def",
-                "value": 0.8
+                "value": 0.8,
+                "duration": 30.0
             }
         ]
     },
@@ -73606,7 +73694,8 @@
             },
             {
                 "key": "def",
-                "value": 0.9
+                "value": 0.9,
+                "duration": 25.0
             }
         ]
     },
@@ -74416,7 +74505,8 @@
             },
             {
                 "key": "def",
-                "value": 0.6
+                "value": 0.6,
+                "duration": 30.0
             },
             {
                 "key": "blemsh_s_3_extra_dmg[magic].atk_scale",
@@ -75022,7 +75112,8 @@
             },
             {
                 "key": "def",
-                "value": 0.7
+                "value": 0.7,
+                "duration": 30.0
             }
         ]
     },
@@ -75176,7 +75267,8 @@
             },
             {
                 "key": "def",
-                "value": 1.3
+                "value": 1.3,
+                "duration": 35.0
             },
             {
                 "key": "blockCnt",
@@ -75377,13 +75469,14 @@
                 "duration": 45.0
             },
             {
-                "key": "ally_def",
+                "key": "def",
                 "value": 0.8,
                 "duration": 45.0
             },
             {
-                "key": "one_minus_status_resistance",
-                "value": -0.5
+                "key": "ally_def",
+                "value": 0.8,
+                "duration": 45.0
             },
             {
                 "key": "nian_s_3[self].atk",
@@ -75743,7 +75836,8 @@
             },
             {
                 "key": "def",
-                "value": 0.8
+                "value": 0.8,
+                "duration": 20.0
             },
             {
                 "key": "ms_down",
@@ -76643,7 +76737,8 @@
             },
             {
                 "key": "def",
-                "value": 1.6
+                "value": 1.6,
+                "duration": 35.0
             },
             {
                 "key": "blockCnt",
@@ -77311,6 +77406,13 @@
                 "value": 0.7
             },
             {
+                "key": "def",
+                "value": 0.7,
+                "conditions": [
+                    "token"
+                ]
+            },
+            {
                 "key": "atk",
                 "value": 0.7
             },
@@ -77951,7 +78053,8 @@
             },
             {
                 "key": "def",
-                "value": 1.3
+                "value": 1.3,
+                "duration": 50.0
             },
             {
                 "key": "max_hp",
@@ -78390,10 +78493,6 @@
             {
                 "key": "atk",
                 "value": 1.4
-            },
-            {
-                "key": "def",
-                "value": 1.0
             },
             {
                 "key": "value",
@@ -79971,7 +80070,7 @@
         ],
         "blackboard": [
             {
-                "key": "def",
+                "key": "self_def_down",
                 "value": -0.7
             },
             {
@@ -80132,7 +80231,8 @@
             },
             {
                 "key": "def",
-                "value": 1.1
+                "value": 1.1,
+                "duration": 40.0
             },
             {
                 "key": "cooldown",
@@ -80742,10 +80842,13 @@
         ],
         "tags": [
             "range_up",
-            "arts",
-            "multi_target"
+            "arts"
         ],
         "blackboard": [
+            {
+                "key": "max_target",
+                "value": 3.0
+            },
             {
                 "key": "atk",
                 "value": 0.55
@@ -83007,7 +83110,8 @@
             },
             {
                 "key": "def",
-                "value": 0.8
+                "value": 0.8,
+                "duration": 10.0
             },
             {
                 "key": "hp_ratio",
@@ -83281,7 +83385,8 @@
             },
             {
                 "key": "def",
-                "value": 0.5
+                "value": 0.5,
+                "duration": 40.0
             },
             {
                 "key": "force",
@@ -84295,7 +84400,8 @@
             },
             {
                 "key": "def",
-                "value": 1.6
+                "value": 1.6,
+                "duration": 35.0
             },
             {
                 "key": "blockCnt",
@@ -84488,15 +84594,18 @@
             },
             {
                 "key": "atk",
-                "value": 1.1
+                "value": 1.1,
+                "duration": 25.0
             },
             {
                 "key": "def",
-                "value": 0.9
+                "value": 0.9,
+                "duration": 25.0
             },
             {
                 "key": "res",
-                "value": 25.0
+                "value": 25.0,
+                "duration": 25.0
             }
         ]
     },
@@ -85851,6 +85960,11 @@
                 ]
             },
             {
+                "key": "def",
+                "value": 0.35,
+                "duration": 30.0
+            },
+            {
                 "key": "ally_def",
                 "value": 0.35,
                 "duration": 30.0
@@ -86523,7 +86637,8 @@
             },
             {
                 "key": "def",
-                "value": 0.6
+                "value": 0.6,
+                "duration": 30.0
             }
         ]
     },
@@ -87087,7 +87202,8 @@
             },
             {
                 "key": "def",
-                "value": 1.3
+                "value": 1.3,
+                "duration": 30.0
             },
             {
                 "key": "magic_atk_scale",
@@ -87361,7 +87477,8 @@
             },
             {
                 "key": "def",
-                "value": 1.0
+                "value": 1.0,
+                "duration": 18.0
             },
             {
                 "key": "value",
@@ -88364,7 +88481,8 @@
             },
             {
                 "key": "def",
-                "value": 0.4
+                "value": 0.4,
+                "duration": 20.0
             },
             {
                 "key": "blockCnt",
@@ -89494,7 +89612,8 @@
         "blackboard": [
             {
                 "key": "res",
-                "value": 70.0
+                "value": 70.0,
+                "duration": 20.0
             },
             {
                 "key": "attack@cooldown",
@@ -90251,7 +90370,8 @@
             },
             {
                 "key": "def",
-                "value": 0.5
+                "value": 0.5,
+                "duration": 30.0
             }
         ]
     },
@@ -90415,9 +90535,7 @@
                 ]
             }
         ],
-        "tags": [
-            "multi_target"
-        ],
+        "tags": [],
         "blackboard": [
             {
                 "key": "atk",
@@ -90436,6 +90554,10 @@
             {
                 "key": "attack_speed",
                 "value": 50.0
+            },
+            {
+                "key": "max_target",
+                "value": 4.0
             }
         ]
     },
@@ -90552,8 +90674,7 @@
             }
         ],
         "tags": [
-            "burst",
-            "multi_target"
+            "burst"
         ],
         "blackboard": [
             {
@@ -90760,6 +90881,10 @@
                 "category": [
                     "fragile"
                 ]
+            },
+            {
+                "key": "max_target",
+                "value": 2.0
             }
         ]
     },
@@ -90892,7 +91017,8 @@
             }
         ],
         "tags": [
-            "pull"
+            "pull",
+            "burst"
         ],
         "blackboard": [
             {

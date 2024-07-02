@@ -671,13 +671,12 @@
                 "desc_zh": "有18%<@ba.talpu>（+3%）</>的几率额外治疗一名友方单位",
                 "desc_ja": "18%<@ba.talpu>(+3%)</>の確率で一度に味方2人を回復",
                 "desc_en": "18% <@ba.talpu>(+3%)</> chance to heal 1 extra ally",
-                "tags": [
-                    "multi_target"
-                ],
+                "tags": [],
                 "blackboard": [
                     {
-                        "key": "attack@prob",
-                        "value": 0.18
+                        "key": "max_target",
+                        "value": 2.0,
+                        "prob": 0.18
                     }
                 ]
             }
@@ -1820,7 +1819,7 @@
                 "tags": [],
                 "blackboard": [
                     {
-                        "key": "magic_resistance",
+                        "key": "res",
                         "value": 15.0
                     }
                 ]
@@ -2086,7 +2085,7 @@
                 "tags": [],
                 "blackboard": [
                     {
-                        "key": "magic_resistance",
+                        "key": "res",
                         "value": 15.0
                     }
                 ]
@@ -2345,7 +2344,7 @@
                 "tags": [],
                 "blackboard": [
                     {
-                        "key": "magic_resistance",
+                        "key": "res",
                         "value": 20.0
                     }
                 ]
@@ -3116,7 +3115,9 @@
                             "phys"
                         ],
                         "value": 0.3,
-                        "conditions":["ranged_attack"]
+                        "conditions": [
+                            "ranged_attack"
+                        ]
                     }
                 ]
             }
@@ -4023,7 +4024,10 @@
                 "blackboard": [
                     {
                         "key": "ally_def",
-                        "value": 0.12
+                        "value": 0.12,
+                        "conditions": [
+                            "surrounding_4_tile"
+                        ]
                     },
                     {
                         "key": "taunt_level",
@@ -4776,12 +4780,15 @@
                 "tags": [],
                 "blackboard": [
                     {
-                        "key": "magic_resistance",
-                        "value": 16.0
+                        "key": "res",
+                        "value": 16.0,
+                        "conditions": [
+                            "ally_surrounding"
+                        ]
                     },
                     {
-                        "key": "baslin_t[ally].magic_resistance",
-                        "value": 4.0
+                        "key": "res",
+                        "value": 12.0
                     }
                 ]
             }
@@ -4937,7 +4944,7 @@
                 "tags": [],
                 "blackboard": [
                     {
-                        "key": "magic_resistance",
+                        "key": "res",
                         "value": 13.0
                     }
                 ]
@@ -5054,7 +5061,7 @@
                 "tags": [],
                 "blackboard": [
                     {
-                        "key": "magic_resistance",
+                        "key": "res",
                         "value": 10.0
                     },
                     {
@@ -5161,7 +5168,7 @@
                         ]
                     },
                     {
-                        "key": "magic_resistance",
+                        "key": "res",
                         "value": 10.0
                     }
                 ]
@@ -5756,12 +5763,10 @@
                 "desc_zh": "攻击时同时攻击两个目标",
                 "desc_ja": "攻撃対象数+1",
                 "desc_en": "Attacks 2 enemies simultaneously",
-                "tags": [
-                    "multi_target"
-                ],
+                "tags": [],
                 "blackboard": [
                     {
-                        "key": "attack@max_target",
+                        "key": "max_target",
                         "value": 2.0
                     }
                 ]
@@ -7837,7 +7842,10 @@
                 "blackboard": [
                     {
                         "key": "sp_regen",
-                        "value": 0.6
+                        "value": 0.6,
+                        "conditions": [
+                            "charged"
+                        ]
                     }
                 ]
             }
@@ -11359,10 +11367,10 @@
                 "blackboard": [
                     {
                         "key": "ms_down",
-                        "targets":99, 
+                        "targets": 99,
                         "value": 0.54,
-                        "duration":25.0,
-                        "target_air":false
+                        "duration": 25.0,
+                        "target_air": false
                     },
                     {
                         "key": "atk_ratio",

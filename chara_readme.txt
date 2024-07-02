@@ -53,7 +53,7 @@ share_dmg - skadi
 ### blackboard keys - for values that need comparison  ###
 ---stat releated---
 reduce_move_speed -> move_speed_down, reduce_attack_speed -> aspd_down
-ally_res_up,
+,
 self_magic_resistance
 ep_damage_resistance
 ally_cost
