@@ -9,6 +9,7 @@ script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
 # README
 # 1. randomSpawnGroupKey between fragments are separate.
+# 2. hiddenGroups can also have randomSpawnGroupKey
 
 folders = ['ro1', 'ro2', 'ro3', 'ro4']
 
@@ -31,6 +32,8 @@ for file_path in files:
             for frag_index, fragment in enumerate(wave['fragments']):
                 for action in fragment['actions']:
                     valid = True
+                    # if action['hiddenGroup'] is not None and action['randomSpawnGroupKey'] is not None and action['actionType'] != 'ACTIVATE_PREDEFINED' and action['weight'] != 100:
+                    #     valid=False
                     if action['managedByScheduler'] is False:
                         print('managedByScheduler is false', file_path)
                         valid = False

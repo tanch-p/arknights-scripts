@@ -2,7 +2,7 @@ import os
 import json
 import pprint
 import itertools
-from more_itertools import powerset
+from itertools import combinations
 from operator import itemgetter
 import copy
 
@@ -19,6 +19,11 @@ data: {
 combinations: [normal|elite] x [bossrelic,totem1]
 """
 
+def generate_all_permutations(input_list):
+    result = [[]]  # Start with an empty list
+    for r in range(1, len(input_list) + 1):
+        result.extend([list(combo) for combo in combinations(input_list, r)])
+    return result
 
 def flatten(l):
     flat_list = []
@@ -48,6 +53,19 @@ def get_runes_data(runes):
                 normal_group_name = rune['blackboard'][0]['valueStr']
     return {'normal_group_name': normal_group_name, 'elite_group_name': elite_group_name, 'enemies_to_replace': enemies_to_replace}
 
+def get_hidden_groups(waves, normal_group_name, elite_group_name):
+    hidden_groups = []
+    for wave_idx, wave in enumerate(waves):
+        for frag_index, fragment in enumerate(wave['fragments']):
+            for action in fragment['actions']:
+                hidden_group = action['hiddenGroup']
+                actionType = action['actionType']
+                if actionType != 'SPAWN':
+                    continue
+                if hidden_group is not None and not hidden_group in [normal_group_name,elite_group_name] and not hidden_group in hidden_groups:
+                    hidden_groups.append(hidden_group)
+                
+    return hidden_groups
 
 def group_resolver(actions):
     groups = {}
@@ -77,8 +95,8 @@ def group_resolver(actions):
         if not hidden_group in extra_groups:
             extra_groups[hidden_group] = []
         extra_groups[hidden_group].append(action)
-
-    return {"random_groups": groups, "extra_groups": extra_groups}
+    pp.pprint(extra_groups)
+    return groups
 
 
 def add_pack_to_group(action, groups):
@@ -113,7 +131,7 @@ def random_group_resolver(random_groups):
     return group_collector
 
 
-def get_wave_permutations(stage_data, permutation, log=False):
+def get_wave_permutations(stage_data, permutation, hiddenGroups, log=False):
     waves = copy.deepcopy(stage_data['waves'])
     for wave_idx, wave in enumerate(waves):
         if has_bonus_wave and wave_idx == 1:
@@ -170,8 +188,7 @@ def get_group_permutations(stage_data):
                 if group is not None or packKey is not None or hidden_group is not None:
                     groups.append(action)
             # STEP 1.2 - Generate permutations based on groups
-            extra_groups, random_groups = itemgetter(
-                "extra_groups", "random_groups")(group_resolver(groups))
+            random_groups = group_resolver(groups)
 
             groups = random_group_resolver(random_groups)
             if (len(groups) > 0):
@@ -294,10 +311,21 @@ with open(stage_data_path, encoding="utf-8") as f:
     stage_data = json.load(f)
     normal_group_name, elite_group_name, enemies_to_replace = itemgetter(
         'normal_group_name', 'elite_group_name', 'enemies_to_replace')(get_runes_data(stage_data['runes']))
-    
+    hidden_groups = get_hidden_groups(stage_data['waves'], normal_group_name, elite_group_name)
+    normal_hidden_group_permutations = []
+    elite_hidden_group_permutations = []
+    result = generate_all_permutations(hidden_groups)
+    if normal_group_name is not None:
+        for perm in result:
+            perm.append(normal_group_name)
+            normal_hidden_group_permutations.append(perm)
+    if elite_group_name is not None:
+        for perm in result:
+            perm.append(elite_group_name)
+            elite_hidden_group_permutations.append(perm)
     has_bonus_wave = not (
         '_ev-' in stage_id or '_t-' in stage_id or "_b-" in stage_id)
-    permutations = get_group_permutations(stage_data)
+    normal_permutations = get_group_permutations(stage_data,normal_hidden_group_permutations)
     data = {}
     for permutation in permutations:
         wave_data = get_wave_permutations(stage_data, permutation, log=True)
