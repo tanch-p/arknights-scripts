@@ -38,8 +38,34 @@ with open("is_stages_extrainfo.json", encoding="utf-8") as f:
     extrainfo = json.load(f)
 with open("talent_overwrite_list.json", encoding="utf-8") as f:
     talent_overwrite_list = json.load(f)
-stages_list = []
 
+
+def get_timeline_enemy_counts(timeline):
+    enemies_total = {}
+    all_count = []
+    bonus ={}
+    for count in timeline:
+        if count != 'bonus':
+            all_count.append(int(count))
+            for data in timeline[count]:
+                tag = data['tags'].join("|")
+                if not tag in bonus:
+                    bonus[tag] = count+1
+                enemies = {}
+                for wave in data['waves']:
+                    for time in wave['timeline']:
+                        for action in wave['timeline'][time]:
+                            if not action['key'] in enemies:
+                                enemies[action['key']] = 0
+                            enemies[action['key']] += 1
+                for key in enemies:
+                    if not key in enemies_total:
+                        enemies_total[key] = []
+                    if not enemies[key] in enemies_total[key]:
+                        enemies_total[key].append(enemies[key])
+    return {"enemies":enemies_total,"bonus":bonus}
+
+stages_list = []
 roguelike_topics = [
     {"topic": "rogue_1", "folder": "ro1"},
     {"topic": "rogue_2", "folder": "ro2"},
@@ -134,7 +160,7 @@ for topic_dict in roguelike_topics:
                             ]["m_value"]
                         if enemy['overwrittenData']['talentBlackboard'] or enemy['overwrittenData']['skills']:
                             if levelId not in talent_overwrite_list and enemy['id'] != 'enemy_1106_byokai_b':
-                                print(enemy['id'],levelId)
+                                print(enemy['id'], levelId)
                             if enemy['id'] == 'enemy_1106_byokai_b' and folder == 'ro3':
                                 overwrittenData['talentBlackboard'] = talent_overwrite_list['rogue_3'][enemy['id']]
                             elif levelId in talent_overwrite_list and enemy['id'] in talent_overwrite_list[levelId]:
@@ -147,7 +173,7 @@ for topic_dict in roguelike_topics:
                     '''
                     min_count = 0
                     max_count = 0
-                    elite_min_count = None 
+                    elite_min_count = None
                     elite_max_count = None
                     if enemy_list is not None:
                         for enemy_info in enemy_list:

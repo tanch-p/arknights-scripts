@@ -19,11 +19,14 @@ data: {
 combinations: [normal|elite] x [bossrelic,totem1]
 """
 
+bonus_enemies = ['enemy_2001_duckmi', 'enemy_2002_bearmi', 'enemy_2034_sythef']
+
 def generate_all_permutations(input_list):
     result = [[]]  # Start with an empty list
     for r in range(1, len(input_list) + 1):
         result.extend([list(combo) for combo in combinations(input_list, r)])
     return result
+
 
 def flatten(l):
     flat_list = []
@@ -39,19 +42,20 @@ def flatten(l):
 def get_runes_data(runes):
     normal_group_name = None
     elite_group_name = None
-    enemies_to_replace = []
-    if stage_data['runes'] is not None:
+    enemies_to_replace = {}
+    if runes is not None:
         for rune in runes:
             key = rune['key']
             if rune['difficultyMask'] == "FOUR_STAR":
                 if key == 'level_hidden_group_enable':
                     elite_group_name = rune['blackboard'][0]['valueStr']
                 elif key == 'level_enemy_replace':
-                    enemies_to_replace.append(
-                        {rune['blackboard'][0]['valueStr']: rune['blackboard'][1]['valueStr']})
+                    enemies_to_replace[rune['blackboard'][0]
+                                       ['valueStr']] = rune['blackboard'][1]['valueStr']
             elif rune['difficultyMask'] == 'NORMAL' and key == 'level_hidden_group_enable':
                 normal_group_name = rune['blackboard'][0]['valueStr']
     return {'normal_group_name': normal_group_name, 'elite_group_name': elite_group_name, 'enemies_to_replace': enemies_to_replace}
+
 
 def get_hidden_groups(waves, normal_group_name, elite_group_name):
     hidden_groups = []
@@ -62,10 +66,11 @@ def get_hidden_groups(waves, normal_group_name, elite_group_name):
                 actionType = action['actionType']
                 if actionType != 'SPAWN':
                     continue
-                if hidden_group is not None and not hidden_group in [normal_group_name,elite_group_name] and not hidden_group in hidden_groups:
+                if hidden_group is not None and not hidden_group in [normal_group_name, elite_group_name] and not hidden_group in hidden_groups:
                     hidden_groups.append(hidden_group)
-                
+
     return hidden_groups
+
 
 def group_resolver(actions):
     groups = {}
@@ -95,7 +100,8 @@ def group_resolver(actions):
         if not hidden_group in extra_groups:
             extra_groups[hidden_group] = []
         extra_groups[hidden_group].append(action)
-    pp.pprint(extra_groups)
+    if len(extra_groups) > 0:
+        pp.pprint(extra_groups)
     return groups
 
 
@@ -131,12 +137,14 @@ def random_group_resolver(random_groups):
     return group_collector
 
 
-def get_wave_permutations(stage_data, permutation, hiddenGroups, log=False):
+def get_wave_permutations(stage_data, permutation, hidden_groups, has_bonus_wave, bonus_frag_index, log=False):
     waves = copy.deepcopy(stage_data['waves'])
     for wave_idx, wave in enumerate(waves):
         if has_bonus_wave and wave_idx == 1:
             continue
         for frag_index, fragment in enumerate(wave['fragments']):
+            if frag_index == bonus_frag_index:
+                continue
             groups = []
             actions = []
             for action in fragment['actions']:
@@ -147,18 +155,15 @@ def get_wave_permutations(stage_data, permutation, hiddenGroups, log=False):
 
                 if actionType != 'SPAWN':
                     continue
-                if hidden_group is not None and hidden_group != normal_group_name:
+                if hidden_group is not None and hidden_group not in hidden_groups:
                     continue
-                if group is not None or packKey is not None or hidden_group is not None:
+                if group is not None or packKey is not None:
                     groups.append(action)
                 else:
                     actions.append(action)
 
-            extra_groups, random_groups = itemgetter(
-                "extra_groups", "random_groups")(group_resolver(groups))
-
+            random_groups = group_resolver(groups)
             groups = random_group_resolver(random_groups)
-
             for groupKey in groups:
                 choice = permutation[frag_index][groupKey]
                 actions.append(groups[groupKey][choice])
@@ -167,13 +172,38 @@ def get_wave_permutations(stage_data, permutation, hiddenGroups, log=False):
     return waves
 
 
-def get_group_permutations(stage_data):
+def get_bonus(stage_data):
+    waves = copy.deepcopy(stage_data['waves'])
+    max_frag_index = 0
+    bonus_frag_index = -1
+    type = "wave"
+    for wave_idx, wave in enumerate(waves):
+        for frag_index, fragment in enumerate(wave['fragments']):
+            if frag_index > max_frag_index:
+                max_frag_index = frag_index
+            for action in fragment['actions']:
+                if action['key'] == 'enemy_2002_bearmi':
+                    bonus_fragment = fragment
+                    bonus_frag_index = frag_index
+                    if wave_idx == 0:
+                        type = "fragment"
+                    break
+    if type == "wave":
+        return {"type": "wave", "data": waves[1], "frag_index": -1}
+    else:
+        print('max_frag_index', max_frag_index)
+        return {"type": type, "data": bonus_fragment, "frag_index": bonus_frag_index}
+
+
+def get_group_permutations(stage_data, hidden_groups, has_bonus_wave, bonus_frag_index):
     waves = copy.deepcopy(stage_data['waves'])
     permutations = {}
     for wave_idx, wave in enumerate(waves):
         if has_bonus_wave and wave_idx == 1:
             continue
         for frag_index, fragment in enumerate(wave['fragments']):
+            if frag_index == bonus_frag_index:
+                continue
             groups = []
             for action in fragment['actions']:
                 group = action['randomSpawnGroupKey']
@@ -183,13 +213,12 @@ def get_group_permutations(stage_data):
 
                 if actionType != 'SPAWN':
                     continue
-                if hidden_group is not None and hidden_group != normal_group_name:
+                if hidden_group is not None and hidden_group not in hidden_groups:
                     continue
-                if group is not None or packKey is not None or hidden_group is not None:
+                if group is not None or packKey is not None:
                     groups.append(action)
             # STEP 1.2 - Generate permutations based on groups
             random_groups = group_resolver(groups)
-
             groups = random_group_resolver(random_groups)
             if (len(groups) > 0):
                 for group_key in groups:
@@ -203,8 +232,8 @@ def get_group_permutations(stage_data):
 
 """
 {
-    1: {  g1 : [0,1], 
-          g2 : [0,1]}, 
+    1: {  g1 : [0,1],
+          g2 : [0,1]},
     2: {  g1 : [0,1]}
 }
 """
@@ -240,7 +269,7 @@ def permutate(permutations):
     return temp
 
 
-def create_timeline(waves):
+def create_timeline(waves, tag, enemies_to_replace, has_bonus_wave):
     timelines = []
     total_count = 0
     for wave_idx, wave in enumerate(waves):
@@ -248,14 +277,16 @@ def create_timeline(waves):
             continue
         prev_phase_time = 0
         spawns = {}
+        wave_blocking_spawns = {}
         for index, fragment in enumerate(wave['fragments']):
             prev_phase_time += fragment['preDelay']
             for action in fragment['actions']:
-                if action['key'] == "":
-                    continue
-                else:
+                if action['key'] != "" and action['isUnharmfulAndAlwaysCountAsKilled'] is False:
                     total_count += action['count']
+                if tag == 'ELITE' and action['key'] in enemies_to_replace:
+                    action['key'] = enemies_to_replace[action['key']]
                 if action['count'] > 1:
+                    # intervals
                     for count in range(action['count']):
                         spawn_time = prev_phase_time + \
                             action['preDelay'] + count*action['interval']
@@ -271,8 +302,14 @@ def create_timeline(waves):
                              "hiddenGroup": action['hiddenGroup'],
                              "randomSpawnGroupKey": action['randomSpawnGroupKey'],
                              "randomSpawnGroupPackKey": action['randomSpawnGroupPackKey'],
+                             'weight': action['weight']
                              }
                         )
+                        if action['dontBlockWave'] is False:
+                            if not spawn_time in wave_blocking_spawns:
+                                wave_blocking_spawns[spawn_time] = []
+                            wave_blocking_spawns[spawn_time].append({"key": action['key'],
+                                                                     })
                 else:
                     spawn_time = prev_phase_time + action['preDelay']
                     if not spawn_time in spawns:
@@ -285,9 +322,15 @@ def create_timeline(waves):
                          "hiddenGroup": action['hiddenGroup'],
                          "randomSpawnGroupKey": action['randomSpawnGroupKey'],
                          "randomSpawnGroupPackKey": action['randomSpawnGroupPackKey'],
+                         'weight': action['weight']
                          })
+                    if action['dontBlockWave'] is False:
+                        if not spawn_time in wave_blocking_spawns:
+                            wave_blocking_spawns[spawn_time] = []
+                        wave_blocking_spawns[spawn_time].append({"key": action['key'],
+                                                                 })
             prev_phase_time = max(
-                list(spawns.keys())) if len(spawns) > 0 else 0
+                list(wave_blocking_spawns.keys())) if len(wave_blocking_spawns) > 0 else 0
 
         myKeys = list(spawns.keys())
         myKeys.sort()
@@ -302,41 +345,63 @@ def create_timeline(waves):
 
 script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
-stage_id = 'level_rogue3_1-1'
-stage_data_path = os.path.join(
-    script_dir,
-    f"cn_data/zh_CN/gamedata/levels/obt/roguelike/ro3/{stage_id}.json",
-)
-with open(stage_data_path, encoding="utf-8") as f:
-    stage_data = json.load(f)
-    normal_group_name, elite_group_name, enemies_to_replace = itemgetter(
-        'normal_group_name', 'elite_group_name', 'enemies_to_replace')(get_runes_data(stage_data['runes']))
-    hidden_groups = get_hidden_groups(stage_data['waves'], normal_group_name, elite_group_name)
-    normal_hidden_group_permutations = []
-    elite_hidden_group_permutations = []
-    result = generate_all_permutations(hidden_groups)
-    if normal_group_name is not None:
-        for perm in result:
-            perm.append(normal_group_name)
-            normal_hidden_group_permutations.append(perm)
-    if elite_group_name is not None:
-        for perm in result:
-            perm.append(elite_group_name)
-            elite_hidden_group_permutations.append(perm)
-    has_bonus_wave = not (
-        '_ev-' in stage_id or '_t-' in stage_id or "_b-" in stage_id)
-    normal_permutations = get_group_permutations(stage_data,normal_hidden_group_permutations)
-    data = {}
-    for permutation in permutations:
-        wave_data = get_wave_permutations(stage_data, permutation, log=True)
-        count, waves = itemgetter('count', 'timelines')(
-            create_timeline(wave_data))
-        if not count in data:
-            data[count] = []
-        data[count].append({"tags": ["NORMAL"], "waves": waves})
-    myKeys = list(data.keys())
-    myKeys.sort()
-    sorted_dict = {i: data[i] for i in myKeys}
 
-with open('test.json', 'w', encoding='utf-8') as f:
-    json.dump(sorted_dict, f, ensure_ascii=False, indent=4)
+def get_timeline(folder, stage_id, log=False):
+    stage_data_path = os.path.join(
+        script_dir, f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{folder}/{stage_id}")
+    with open(stage_data_path, encoding="utf-8") as f:
+        stage_data = json.load(f)
+        normal_group_name, elite_group_name, enemies_to_replace = itemgetter(
+            'normal_group_name', 'elite_group_name', 'enemies_to_replace')(get_runes_data(stage_data['runes']))
+        log and print('normal:', normal_group_name, 'elite:',
+                      elite_group_name, 'replace:', enemies_to_replace)
+        has_bonus_wave = not (
+            '_ev-' in stage_id or '_t-' in stage_id or "_b-" in stage_id)
+        hidden_groups = get_hidden_groups(
+            stage_data['waves'], normal_group_name, elite_group_name)
+        log and print('hidden groups', hidden_groups)
+        result = generate_all_permutations(hidden_groups)
+        log and print('result',result)
+
+        temp = copy.deepcopy(result)
+        if normal_group_name is not None:
+            for perm in temp:
+                perm.append(normal_group_name)
+        normal_hidden_group_permutations = copy.deepcopy(temp)
+        temp = copy.deepcopy(result)
+        if elite_group_name is not None:
+            for perm in temp:
+                perm.append(elite_group_name)
+        elite_hidden_group_permutations = copy.deepcopy(temp)
+
+        log and print('normal_hidden_group_perms',normal_hidden_group_permutations)
+        log and print('elite_hidden_group_perms',elite_hidden_group_permutations)
+
+        return_data = {}
+        holder = [{"tag": "NORMAL", "list": normal_hidden_group_permutations}]
+        bonus_frag_index = -1
+        if has_bonus_wave:
+            bonus_data = get_bonus(stage_data)
+            bonus_frag_index = bonus_data['frag_index']
+            holder.append(
+                {"tag": "ELITE", "list": elite_hidden_group_permutations})
+        for data in holder:
+            for hidden_group_grouplist in data['list']:
+                permutations = get_group_permutations(
+                    stage_data, hidden_group_grouplist, has_bonus_wave,bonus_frag_index)
+                for permutation in permutations:
+                    wave_data = get_wave_permutations(
+                        stage_data, permutation, hidden_group_grouplist, has_bonus_wave,bonus_frag_index, log=True)
+                    count, waves = itemgetter('count', 'timelines')(
+                        create_timeline(wave_data, data['tag'], enemies_to_replace, has_bonus_wave))
+                    if not count in return_data:
+                        return_data[count] = []
+                    tags = copy.deepcopy(hidden_group_grouplist)
+                    tags.append(data['tag'])
+                    return_data[count].append({"tags": tags, "waves": waves})
+        myKeys = list(return_data.keys())
+        myKeys.sort()
+        sorted_dict = {i: return_data[i] for i in myKeys}
+        if has_bonus_wave:
+            sorted_dict['bonus'] = bonus_data
+        return sorted_dict
