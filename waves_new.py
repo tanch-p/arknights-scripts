@@ -21,6 +21,7 @@ combinations: [normal|elite] x [bossrelic,totem1]
 
 bonus_enemies = ['enemy_2001_duckmi', 'enemy_2002_bearmi', 'enemy_2034_sythef']
 
+
 def generate_all_permutations(input_list):
     result = [[]]  # Start with an empty list
     for r in range(1, len(input_list) + 1):
@@ -361,7 +362,7 @@ def get_timeline(folder, stage_id, log=False):
             stage_data['waves'], normal_group_name, elite_group_name)
         log and print('hidden groups', hidden_groups)
         result = generate_all_permutations(hidden_groups)
-        log and print('result',result)
+        log and print('result', result)
 
         temp = copy.deepcopy(result)
         if normal_group_name is not None:
@@ -374,8 +375,10 @@ def get_timeline(folder, stage_id, log=False):
                 perm.append(elite_group_name)
         elite_hidden_group_permutations = copy.deepcopy(temp)
 
-        log and print('normal_hidden_group_perms',normal_hidden_group_permutations)
-        log and print('elite_hidden_group_perms',elite_hidden_group_permutations)
+        log and print('normal_hidden_group_perms',
+                      normal_hidden_group_permutations)
+        log and print('elite_hidden_group_perms',
+                      elite_hidden_group_permutations)
 
         return_data = {}
         holder = [{"tag": "NORMAL", "list": normal_hidden_group_permutations}]
@@ -388,20 +391,24 @@ def get_timeline(folder, stage_id, log=False):
         for data in holder:
             for hidden_group_grouplist in data['list']:
                 permutations = get_group_permutations(
-                    stage_data, hidden_group_grouplist, has_bonus_wave,bonus_frag_index)
+                    stage_data, hidden_group_grouplist, has_bonus_wave, bonus_frag_index)
                 for permutation in permutations:
                     wave_data = get_wave_permutations(
-                        stage_data, permutation, hidden_group_grouplist, has_bonus_wave,bonus_frag_index, log=True)
+                        stage_data, permutation, hidden_group_grouplist, has_bonus_wave, bonus_frag_index, log)
                     count, waves = itemgetter('count', 'timelines')(
                         create_timeline(wave_data, data['tag'], enemies_to_replace, has_bonus_wave))
-                    if not count in return_data:
-                        return_data[count] = []
+                    
                     tags = copy.deepcopy(hidden_group_grouplist)
+                    if normal_group_name in tags:
+                        tags.remove(normal_group_name)
+                    if elite_group_name in tags:
+                        tags.remove(elite_group_name)
                     tags.append(data['tag'])
-                    return_data[count].append({"tags": tags, "waves": waves})
-        myKeys = list(return_data.keys())
-        myKeys.sort()
-        sorted_dict = {i: return_data[i] for i in myKeys}
+                    tag_str = '|'.join(tags)
+                    if not tag_str in return_data:
+                        return_data[tag_str] = []
+                    return_data[tag_str].append(
+                        {"count": count, "waves": waves})
         if has_bonus_wave:
-            sorted_dict['bonus'] = bonus_data
-        return sorted_dict
+            return_data['bonus'] = bonus_data
+        return return_data
