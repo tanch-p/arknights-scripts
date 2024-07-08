@@ -22,11 +22,11 @@ for folder in folders:
     for stage_id in files:
         if stage_id.split(".")[0] in stages_to_ignore:
             continue
-        # if not 'level_rogue3_1-2.json' in stage_id:
-        #     continue
+        if not 'level_rogue3_1-2.json' in stage_id:
+            continue
         print(stage_id)
         write_path = os.path.join(
             script_dir, 'ro_wave_timelines', folder, stage_id)
-        timeline = get_timeline(folder, stage_id, log=True)
+        timeline = get_timeline(folder, stage_id, log=False)
         with open(write_path, 'w+', encoding='utf-8') as f:
             json.dump(timeline, f, ensure_ascii=False, separators=(',', ':'))

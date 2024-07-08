@@ -5,6 +5,9 @@ import itertools
 from itertools import combinations
 from operator import itemgetter
 import copy
+import random
+from itertools import product
+from collections import Counter
 
 pp = pprint.PrettyPrinter(indent=4)
 
@@ -58,6 +61,14 @@ def get_runes_data(runes):
     return {'normal_group_name': normal_group_name, 'elite_group_name': elite_group_name, 'enemies_to_replace': enemies_to_replace}
 
 
+def get_max_permutations(permutation_dict):
+    total = 1
+    for frag_index, holder in permutation_dict.items():
+        for group, value in holder.items():
+            total *= value
+    return total
+
+
 def get_hidden_groups(waves, normal_group_name, elite_group_name):
     hidden_groups = []
     for wave_idx, wave in enumerate(waves):
@@ -102,7 +113,7 @@ def group_resolver(actions):
             extra_groups[hidden_group] = []
         extra_groups[hidden_group].append(action)
     if len(extra_groups) > 0:
-        pp.pprint(extra_groups)
+        pp.pprint('extra groups', extra_groups)
     return groups
 
 
@@ -196,6 +207,80 @@ def get_bonus(stage_data):
         return {"type": type, "data": bonus_fragment, "frag_index": bonus_frag_index}
 
 
+def get_bonus_counts(stage_data, hidden_groups, has_bonus_wave, bonus_frag_index):
+    if not has_bonus_wave:
+        return None
+    waves = copy.deepcopy(stage_data['waves'])
+    base_count = 0
+    group_counts = []
+    for wave_idx, wave in enumerate(waves):
+        if has_bonus_wave and wave_idx == 1:
+            continue
+        for frag_index, fragment in enumerate(wave['fragments']):
+            if frag_index == bonus_frag_index:
+                continue
+            groups = []
+            for action in fragment['actions']:
+                group = action['randomSpawnGroupKey']
+                packKey = action['randomSpawnGroupPackKey']
+                hidden_group = action['hiddenGroup']
+                actionType = action['actionType']
+
+                if actionType != 'SPAWN':
+                    continue
+                if hidden_group is not None and hidden_group not in hidden_groups:
+                    continue
+                if group is not None or packKey is not None:
+                    groups.append(action)
+                elif not action['isUnharmfulAndAlwaysCountAsKilled']:
+                    base_count += action['count']
+            random_groups = group_resolver(groups)
+            groups = random_group_resolver(random_groups)
+            # calculate bonus count and probability
+            for group in groups:
+                counter = []
+                for choice in groups[group]:
+                    count = 0
+                    if type(choice) is dict:
+                        count += choice['count']
+                    else:
+                        for action in choice:
+                            count += action['count']
+                    counter.append(count)
+                group_counts.append(counter)
+    print(group_counts)
+    print(base_count)
+    # Generate all possible combinations
+    combinations = product(*group_counts)
+    # Calculate the sum for each combination
+    sums = [sum(combo) for combo in combinations]
+    # Count the occurrences of each sum
+    sum_counts = Counter(sums)
+    # Create the result dictionary
+    result = [
+        {
+            "val": base_count+sum_value,
+            "prob_count": count
+        }
+        for sum_value, count in sum_counts.items()
+    ]
+    new_result = []
+    for i in range(len(result) - 1):
+        bonus_count = result[i]['val'] + 1
+        prob_count = result[i]['prob_count']
+        other_prob_count = 0
+        for item in result:
+            if item['val'] == bonus_count:
+                other_prob_count = item['prob_count']
+        new_result.append({
+            "val": bonus_count,
+            "prob": prob_count/(prob_count+other_prob_count),
+            "prob_str": str(prob_count) + "/" + str(prob_count+other_prob_count)
+        })
+    print(new_result)
+    return new_result
+
+
 def get_group_permutations(stage_data, hidden_groups, has_bonus_wave, bonus_frag_index):
     waves = copy.deepcopy(stage_data['waves'])
     permutations = {}
@@ -241,8 +326,12 @@ def get_group_permutations(stage_data, hidden_groups, has_bonus_wave, bonus_frag
 
 
 def permutate(permutations):
+    def generate_sample(groups):
+        return [random.randint(0, count - 1) for count in groups]
+    max_samples = 256
     permutations_list = []
     p_holder = []
+    max_permutations = get_max_permutations(permutations)
     # Step 1 - convert permutations into list
     for frag_index in permutations:
         holder = {"frag_index": frag_index, "groups": []}
@@ -254,7 +343,16 @@ def permutate(permutations):
         permutations_list.append(list(map(list, itertools.product(*groups))))
         p_holder.append(holder)
     # Step 2 - get cartesian product of permutations
-    result = (list(map(list, itertools.product(*permutations_list))))
+    if max_permutations <= max_samples:
+        result = (list(map(list, itertools.product(*permutations_list))))
+    else:
+        # Generate random samples
+        result = []
+        for _ in range(max_samples):
+            sample = [generate_sample(list(perm.values()))
+                      for perm in permutations.values()]
+            if sample not in result:
+                result.append(sample)
     # Step 3 - convert result back to permutations format
     temp = []
     for permutation in result:
@@ -267,7 +365,7 @@ def permutate(permutations):
                 holder[frag_index][group] = choice
         temp.append(holder)
     # pp.pprint(temp)
-    return temp
+    return {"max_permutations": max_permutations, "data": temp}
 
 
 def create_timeline(waves, tag, enemies_to_replace, has_bonus_wave):
@@ -390,14 +488,17 @@ def get_timeline(folder, stage_id, log=False):
                 {"tag": "ELITE", "list": elite_hidden_group_permutations})
         for data in holder:
             for hidden_group_grouplist in data['list']:
-                permutations = get_group_permutations(
-                    stage_data, hidden_group_grouplist, has_bonus_wave, bonus_frag_index)
+                max_permutations, permutations = itemgetter("max_permutations", "data")(get_group_permutations(
+                    stage_data, hidden_group_grouplist, has_bonus_wave, bonus_frag_index))
+                if has_bonus_wave:
+                    bonus_counts = get_bonus_counts(
+                        stage_data, hidden_group_grouplist, has_bonus_wave, bonus_frag_index)
                 for permutation in permutations:
                     wave_data = get_wave_permutations(
                         stage_data, permutation, hidden_group_grouplist, has_bonus_wave, bonus_frag_index, log)
                     count, waves = itemgetter('count', 'timelines')(
                         create_timeline(wave_data, data['tag'], enemies_to_replace, has_bonus_wave))
-                    
+
                     tags = copy.deepcopy(hidden_group_grouplist)
                     if normal_group_name in tags:
                         tags.remove(normal_group_name)
@@ -408,7 +509,9 @@ def get_timeline(folder, stage_id, log=False):
                     if not tag_str in return_data:
                         return_data[tag_str] = []
                     return_data[tag_str].append(
-                        {"count": count, "waves": waves})
+                        {"count": count, "permutation": permutation, "waves": waves})
         if has_bonus_wave:
-            return_data['bonus'] = bonus_data
+            return_data['bonus'] = {"data:": bonus_data, "count": bonus_counts}
+        return_data['permutations'] = {
+            "max_permutations": max_permutations, "hidden_groups": hidden_groups}
         return return_data
