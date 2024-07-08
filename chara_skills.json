@@ -23007,7 +23007,8 @@
             }
         ],
         "tags": [
-            "charged","skill_manual_off"
+            "charged",
+            "skill_manual_off"
         ],
         "blackboard": [
             {
@@ -23188,7 +23189,8 @@
             }
         ],
         "tags": [
-            "protect","skill_manual_off"
+            "protect",
+            "skill_manual_off"
         ],
         "blackboard": [
             {
@@ -25809,7 +25811,9 @@
                 ]
             }
         ],
-        "tags": ["skill_manual_off"],
+        "tags": [
+            "skill_manual_off"
+        ],
         "blackboard": [
             {
                 "key": "atk",
@@ -29300,7 +29304,8 @@
         "tags": [
             "self_stun",
             "ailment_but_skill_cont",
-            "overdrive","skill_manual_off"
+            "overdrive",
+            "skill_manual_off"
         ],
         "blackboard": [
             {
@@ -40198,7 +40203,9 @@
                 ]
             }
         ],
-        "tags": ["skill_manual_off"],
+        "tags": [
+            "skill_manual_off"
+        ],
         "blackboard": [
             {
                 "key": "def",
@@ -41552,6 +41559,9 @@
             {
                 "key": "atk_scale",
                 "value": 2.4
+            },{
+                "key": "trigger_time",
+                "value": 10.0
             }
         ]
     },
@@ -46223,7 +46233,8 @@
         ],
         "tags": [
             "unlimited_duration",
-            "heal_ally","skill_manual_off"
+            "heal_ally",
+            "skill_manual_off"
         ],
         "blackboard": [
             {
@@ -50104,6 +50115,10 @@
                 "value": -0.8
             },
             {
+                "key": "trigger_time",
+                "value": 31.0
+            },
+            {
                 "key": "ash_s_2[atk_scale].atk_scale",
                 "value": 2.5
             },
@@ -52048,7 +52063,8 @@
             }
         ],
         "tags": [
-            "unlimited_duration","skill_manual_off"
+            "unlimited_duration",
+            "skill_manual_off"
         ],
         "blackboard": [
             {
@@ -52681,7 +52697,7 @@
                 "value": 1.75
             },
             {
-                "key": "s3_trigger_time",
+                "key": "trigger_time",
                 "value": 10.0
             },
             {
@@ -60977,7 +60993,8 @@
             }
         ],
         "tags": [
-            "range_up","skill_manual_off"
+            "range_up",
+            "skill_manual_off"
         ],
         "blackboard": [
             {
@@ -61781,7 +61798,9 @@
                 ]
             }
         ],
-        "tags": ["skill_manual_off"],
+        "tags": [
+            "skill_manual_off"
+        ],
         "blackboard": [
             {
                 "key": "attack_speed",
@@ -64530,7 +64549,9 @@
                 ]
             }
         ],
-        "tags": ["skill_manual_off"],
+        "tags": [
+            "skill_manual_off"
+        ],
         "blackboard": [
             {
                 "key": "atk",
@@ -67738,7 +67759,8 @@
             }
         ],
         "tags": [
-            "push","skill_manual_off"
+            "push",
+            "skill_manual_off"
         ],
         "blackboard": [
             {
@@ -77083,7 +77105,8 @@
         ],
         "tags": [
             "arts",
-            "overdrive","skill_manual_off"
+            "overdrive",
+            "skill_manual_off"
         ],
         "blackboard": [
             {
@@ -77277,7 +77300,8 @@
             }
         ],
         "tags": [
-            "overdrive","skill_manual_off"
+            "overdrive",
+            "skill_manual_off"
         ],
         "blackboard": [
             {
@@ -86759,7 +86783,9 @@
                 ]
             }
         ],
-        "tags": ["skill_manual_off"],
+        "tags": [
+            "skill_manual_off"
+        ],
         "blackboard": [
             {
                 "key": "atk_scale",
@@ -89079,7 +89105,8 @@
             }
         ],
         "tags": [
-            "overdrive","skill_manual_off"
+            "overdrive",
+            "skill_manual_off"
         ],
         "blackboard": [
             {
