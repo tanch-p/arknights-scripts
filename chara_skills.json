@@ -29725,8 +29725,8 @@
     },
     "skchr_warmy_1": {
         "name_zh": "炎炎火焰",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "ぱちぱち火花",
+        "name_en": "Burning Flames",
         "chara_list": [
             "温米"
         ],
@@ -29737,8 +29737,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击速度<@ba.vup>+70</>，攻击附带造成法术伤害<@ba.vup>15%</>的<ba.dt.burning2>灼燃损伤</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃速度<@ba.vup>+70</>。攻撃時に術ダメージの<@ba.vup>15%</>の<ba.dt.burning2>灼熱損傷</>を与える",
+                "description_en": "ASPD <@ba.vup>+70</>, attacks inflict <@ba.vup>15%</> of Arts damage as additional <ba.dt.burning2>Burn damage</>",
                 "spData": {
                     "maxChargeTime": 1,
                     "spCost": 23,
@@ -29760,8 +29760,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击速度<@ba.vup>+80</>，攻击附带造成法术伤害<@ba.vup>15%</>的<ba.dt.burning2>灼燃损伤</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃速度<@ba.vup>+80</>。攻撃時に術ダメージの<@ba.vup>15%</>の<ba.dt.burning2>灼熱損傷</>を与える",
+                "description_en": "ASPD <@ba.vup>+80</>, attacks inflict <@ba.vup>15%</> of Arts damage as additional <ba.dt.burning2>Burn damage</>",
                 "spData": {
                     "maxChargeTime": 1,
                     "spCost": 22,
@@ -29783,8 +29783,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击速度<@ba.vup>+90</>，攻击附带造成法术伤害<@ba.vup>15%</>的<ba.dt.burning2>灼燃损伤</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃速度<@ba.vup>+90</>。攻撃時に術ダメージの<@ba.vup>15%</>の<ba.dt.burning2>灼熱損傷</>を与える",
+                "description_en": "ASPD <@ba.vup>+90</>, attacks inflict <@ba.vup>15%</> of Arts damage as additional <ba.dt.burning2>Burn damage</>",
                 "spData": {
                     "maxChargeTime": 1,
                     "spCost": 21,
@@ -29806,8 +29806,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击速度<@ba.vup>+100</>，攻击附带造成法术伤害<@ba.vup>15%</>的<ba.dt.burning2>灼燃损伤</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃速度<@ba.vup>+100</>。攻撃時に術ダメージの<@ba.vup>15%</>の<ba.dt.burning2>灼熱損傷</>を与える",
+                "description_en": "ASPD <@ba.vup>+100</>, attacks inflict <@ba.vup>15%</> of Arts damage as additional <ba.dt.burning2>Burn damage</>",
                 "spData": {
                     "maxChargeTime": 1,
                     "spCost": 20,
@@ -29854,8 +29854,8 @@
     },
     "skchr_warmy_2": {
         "name_zh": "滔滔热流",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "めらめら焔",
+        "name_en": "Scorching Stream",
         "chara_list": [
             "温米"
         ],
@@ -29866,8 +29866,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击间隔<@ba.vdown>增大(+0.9)</>，攻击力<@ba.vup>+170%</>，同时攻击<@ba.vup>2</>名敌人；<ba.charged>蓄力</>：改为同时攻击<@ba.vup>3</>名敌人，持续时间延长至<@ba.vup>30</>秒，攻击对处于<ba.dt.burning2>灼燃损伤</>爆发期间的目标额外造成相当于攻击力<@ba.vup>50%</>的元素伤害",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "通常攻撃の間隔が<@ba.vdown>延長</>し、攻撃力<@ba.vup>+170%</>、敵<@ba.vup>2</>体を同時に攻撃\n<ba.charged>オーバーチャージ</>追加効果：代わりに敵<@ba.vup>3</>体を同時に攻撃する。継続時間が<@ba.vup>30</>秒まで延長する。攻撃時に対象が<ba.dt.burning2>灼熱損傷</>の爆発効果を受けている場合、対象に追加で攻撃力の<@ba.vup>50%</>の元素ダメージを与える",
+                "description_en": "Attack Interval <@ba.vdown>Increases</>, ATK <@ba.vup>+170%</>, attacks hit <@ba.vup>2</> enemies at once; <ba.charged>Charged</>: Attacks hit <@ba.vup>3</> enemies at once, duration increased to <@ba.vup>30</>s. If target is under the effect of <ba.dt.burning2>Burn damage</> burst, additionally deal <@ba.vup>50%</> of ATK as Elemental damage",
                 "spData": {
                     "maxChargeTime": 2,
                     "spCost": 20,
@@ -29897,8 +29897,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击间隔<@ba.vdown>增大(+0.9)</>，攻击力<@ba.vup>+180%</>，同时攻击<@ba.vup>2</>名敌人；<ba.charged>蓄力</>：改为同时攻击<@ba.vup>3</>名敌人，持续时间延长至<@ba.vup>30</>秒，攻击对处于<ba.dt.burning2>灼燃损伤</>爆发期间的目标额外造成相当于攻击力<@ba.vup>50%</>的元素伤害",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "通常攻撃の間隔が<@ba.vdown>延長</>し、攻撃力<@ba.vup>+180%</>、敵<@ba.vup>2</>体を同時に攻撃\n<ba.charged>オーバーチャージ</>追加効果：代わりに敵<@ba.vup>3</>体を同時に攻撃する。継続時間が<@ba.vup>30</>秒まで延長する。攻撃時に対象が<ba.dt.burning2>灼熱損傷</>の爆発効果を受けている場合、対象に追加で攻撃力の<@ba.vup>50%</>の元素ダメージを与える",
+                "description_en": "Attack Interval <@ba.vdown>Increases</>, ATK <@ba.vup>+180%</>, attacks hit <@ba.vup>2</> enemies at once; <ba.charged>Charged</>: Attacks hit <@ba.vup>3</> enemies at once, duration increased to <@ba.vup>30</>s. If target is under the effect of <ba.dt.burning2>Burn damage</> burst, additionally deal <@ba.vup>50%</> of ATK as Elemental damage",
                 "spData": {
                     "maxChargeTime": 2,
                     "spCost": 20,
@@ -29928,8 +29928,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击间隔<@ba.vdown>增大(+0.9)</>，攻击力<@ba.vup>+190%</>，同时攻击<@ba.vup>2</>名敌人；<ba.charged>蓄力</>：改为同时攻击<@ba.vup>3</>名敌人，持续时间延长至<@ba.vup>30</>秒，攻击对处于<ba.dt.burning2>灼燃损伤</>爆发期间的目标额外造成相当于攻击力<@ba.vup>50%</>的元素伤害",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "通常攻撃の間隔が<@ba.vdown>延長</>し、攻撃力<@ba.vup>+190%</>、敵<@ba.vup>2</>体を同時に攻撃\n<ba.charged>オーバーチャージ</>追加効果：代わりに敵<@ba.vup>3</>体を同時に攻撃する。継続時間が<@ba.vup>30</>秒まで延長する。攻撃時に対象が<ba.dt.burning2>灼熱損傷</>の爆発効果を受けている場合、対象に追加で攻撃力の<@ba.vup>50%</>の元素ダメージを与える",
+                "description_en": "Attack Interval <@ba.vdown>Increases</>, ATK <@ba.vup>+190%</>, attacks hit <@ba.vup>2</> enemies at once; <ba.charged>Charged</>: Attacks hit <@ba.vup>3</> enemies at once, duration increased to <@ba.vup>30</>s. If target is under the effect of <ba.dt.burning2>Burn damage</> burst, additionally deal <@ba.vup>50%</> of ATK as Elemental damage",
                 "spData": {
                     "maxChargeTime": 2,
                     "spCost": 20,
@@ -29959,8 +29959,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击间隔<@ba.vdown>增大(+0.9)</>，攻击力<@ba.vup>+200%</>，同时攻击<@ba.vup>2</>名敌人；<ba.charged>蓄力</>：改为同时攻击<@ba.vup>3</>名敌人，持续时间延长至<@ba.vup>30</>秒，攻击对处于<ba.dt.burning2>灼燃损伤</>爆发期间的目标额外造成相当于攻击力<@ba.vup>50%</>的元素伤害",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "通常攻撃の間隔が<@ba.vdown>延長</>し、攻撃力<@ba.vup>+200%</>、敵<@ba.vup>2</>体を同時に攻撃\n<ba.charged>オーバーチャージ</>追加効果：代わりに敵<@ba.vup>3</>体を同時に攻撃する。継続時間が<@ba.vup>30</>秒まで延長する。攻撃時に対象が<ba.dt.burning2>灼熱損傷</>の爆発効果を受けている場合、対象に追加で攻撃力の<@ba.vup>50%</>の元素ダメージを与える",
+                "description_en": "Attack Interval <@ba.vdown>Increases</>, ATK <@ba.vup>+200%</>, attacks hit <@ba.vup>2</> enemies at once; <ba.charged>Charged</>: Attacks hit <@ba.vup>3</> enemies at once, duration increased to <@ba.vup>30</>s. If target is under the effect of <ba.dt.burning2>Burn damage</> burst, additionally deal <@ba.vup>50%</> of ATK as Elemental damage",
                 "spData": {
                     "maxChargeTime": 2,
                     "spCost": 20,
@@ -41559,7 +41559,8 @@
             {
                 "key": "atk_scale",
                 "value": 2.4
-            },{
+            },
+            {
                 "key": "trigger_time",
                 "value": 10.0
             }
@@ -53704,8 +53705,8 @@
     },
     "skchr_ray_1": {
         "name_zh": "脱身矢",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "スラストショット",
+        "name_en": "Parting Shot",
         "chara_list": [
             "莱伊"
         ],
@@ -53716,8 +53717,8 @@
             {
                 "rangeId": null,
                 "description_zh": "立即用额外特殊子弹攻击目标，造成相当于攻击力<@ba.vup>360%</>的物理伤害并将其<@ba.vup>中等力度地</>推开，若将其击倒则使下次装填额外加装<@ba.vup>1</>发子弹\\n<@ba.rem>可充能2次</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "追加の特殊弾で対象を攻撃し、攻撃力の<@ba.vup>360%</>の物理ダメージを与えると同時に<@ba.vup>相当の力</>で突き飛ばす。この攻撃で対象を撃破した場合、次に装填を行う際に<@ba.vup>1</>発の弾を追加装填できる\n<@ba.rem>2回チャージ可能</>",
+                "description_en": "Fire a special bullet, dealing <@ba.vup>360%</> of ATK as Physical damage and pushing the target back <@ba.vup>moderately</>. If target is defeated, the next reload loads <@ba.vup>1</> additional bullet(s)\n<@ba.rem>Can store 2 charges</>",
                 "spData": {
                     "maxChargeTime": 2,
                     "spCost": 12,
@@ -53743,8 +53744,8 @@
             {
                 "rangeId": null,
                 "description_zh": "立即用额外特殊子弹攻击目标，造成相当于攻击力<@ba.vup>390%</>的物理伤害并将其<@ba.vup>中等力度地</>推开，若将其击倒则使下次装填额外加装<@ba.vup>2</>发子弹\\n<@ba.rem>可充能2次</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "追加の特殊弾で対象を攻撃し、攻撃力の<@ba.vup>390%</>の物理ダメージを与えると同時に<@ba.vup>相当の力</>で突き飛ばす。この攻撃で対象を撃破した場合、次に装填を行う際に<@ba.vup>2</>発の弾を追加装填できる\n<@ba.rem>2回チャージ可能</>",
+                "description_en": "Fire a special bullet, dealing <@ba.vup>390%</> of ATK as Physical damage and pushing the target back <@ba.vup>moderately</>. If target is defeated, the next reload loads <@ba.vup>2</> additional bullet(s)\n<@ba.rem>Can store 2 charges</>",
                 "spData": {
                     "maxChargeTime": 2,
                     "spCost": 12,
@@ -53770,8 +53771,8 @@
             {
                 "rangeId": null,
                 "description_zh": "立即用额外特殊子弹攻击目标，造成相当于攻击力<@ba.vup>420%</>的物理伤害并将其<@ba.vup>中等力度地</>推开，若将其击倒则使下次装填额外加装<@ba.vup>2</>发子弹\\n<@ba.rem>可充能2次</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "追加の特殊弾で対象を攻撃し、攻撃力の<@ba.vup>420%</>の物理ダメージを与えると同時に<@ba.vup>相当の力</>で突き飛ばす。この攻撃で対象を撃破した場合、次に装填を行う際に<@ba.vup>2</>発の弾を追加装填できる\n<@ba.rem>2回チャージ可能</>",
+                "description_en": "Fire a special bullet, dealing <@ba.vup>420%</> of ATK as Physical damage and pushing the target back <@ba.vup>moderately</>. If target is defeated, the next reload loads <@ba.vup>2</> additional bullet(s)\n<@ba.rem>Can store 2 charges</>",
                 "spData": {
                     "maxChargeTime": 2,
                     "spCost": 12,
@@ -53797,8 +53798,8 @@
             {
                 "rangeId": null,
                 "description_zh": "立即用额外特殊子弹攻击目标，造成相当于攻击力<@ba.vup>450%</>的物理伤害并将其<@ba.vup>较大力地</>推开，若将其击倒则使下次装填额外加装<@ba.vup>2</>发子弹\\n<@ba.rem>可充能2次</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "追加の特殊弾で対象を攻撃し、攻撃力の<@ba.vup>450%</>の物理ダメージを与えると同時に<@ba.vup>かなりの力</>で突き飛ばす。この攻撃で対象を撃破した場合、次に装填を行う際に<@ba.vup>2</>発の弾を追加装填できる\n<@ba.rem>2回チャージ可能</>",
+                "description_en": "Fire a special bullet, dealing <@ba.vup>450%</> of ATK as Physical damage and pushing the target back <@ba.vup>significantly</>. If target is defeated, the next reload loads <@ba.vup>2</> additional bullet(s)\n<@ba.rem>Can store 2 charges</>",
                 "spData": {
                     "maxChargeTime": 2,
                     "spCost": 10,
@@ -53843,8 +53844,8 @@
     },
     "skchr_ray_2": {
         "name_zh": "广域警觉",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "広域警戒",
+        "name_en": "Area Overwatch",
         "chara_list": [
             "莱伊"
         ],
@@ -53855,8 +53856,8 @@
             {
                 "rangeId": "4-10",
                 "description_zh": "被动效果：沙地兽撤退时回收命中该区域的子弹\\n自动开启：攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+90%</>，沙地兽的再部署时间<@ba.vup>-30%</>\\n<@ba.rem>持续时间无限</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "パッシブ：サンドビースト撤退時、その周囲のマスにいた対象に着弾した弾を回収する\nアクティブ：攻撃範囲<@ba.vup>拡大</>、攻撃力<@ba.vup>+90%</>、サンドビーストの再配置時間<@ba.vup>30%</>\n<@ba.rem>退場まで効果継続</>",
+                "description_en": "Passive: When the sandbeast retreats, recover all bullets that hit in the area\nAutomatic: Attack Range <@ba.vup>increases</>, ATK <@ba.vup>+90%</>, sandbeast redeployment time <@ba.vup>30%</>\n<@ba.rem>Unlimited duration</>",
                 "spData": {
                     "maxChargeTime": 1,
                     "spCost": 16,
@@ -53878,8 +53879,8 @@
             {
                 "rangeId": "4-10",
                 "description_zh": "被动效果：沙地兽撤退时回收命中该区域的子弹\\n自动开启：攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+100%</>，沙地兽的再部署时间<@ba.vup>-30%</>\\n<@ba.rem>持续时间无限</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "パッシブ：サンドビースト撤退時、その周囲のマスにいた対象に着弾した弾を回収する\nアクティブ：攻撃範囲<@ba.vup>拡大</>、攻撃力<@ba.vup>+100%</>、サンドビーストの再配置時間<@ba.vup>30%</>\n<@ba.rem>退場まで効果継続</>",
+                "description_en": "Passive: When the sandbeast retreats, recover all bullets that hit in the area\nAutomatic: Attack Range <@ba.vup>increases</>, ATK <@ba.vup>+100%</>, sandbeast redeployment time <@ba.vup>30%</>\n<@ba.rem>Unlimited duration</>",
                 "spData": {
                     "maxChargeTime": 1,
                     "spCost": 16,
@@ -53901,8 +53902,8 @@
             {
                 "rangeId": "4-10",
                 "description_zh": "被动效果：沙地兽撤退时回收命中该区域的子弹\\n自动开启：攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+110%</>，沙地兽的再部署时间<@ba.vup>-30%</>\\n<@ba.rem>持续时间无限</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "パッシブ：サンドビースト撤退時、その周囲のマスにいた対象に着弾した弾を回収する\nアクティブ：攻撃範囲<@ba.vup>拡大</>、攻撃力<@ba.vup>+110%</>、サンドビーストの再配置時間<@ba.vup>30%</>\n<@ba.rem>退場まで効果継続</>",
+                "description_en": "Passive: When the sandbeast retreats, recover all bullets that hit in the area\nAutomatic: Attack Range <@ba.vup>increases</>, ATK <@ba.vup>+110%</>, sandbeast redeployment time <@ba.vup>30%</>\n<@ba.rem>Unlimited duration</>",
                 "spData": {
                     "maxChargeTime": 1,
                     "spCost": 16,
@@ -53924,8 +53925,8 @@
             {
                 "rangeId": "4-10",
                 "description_zh": "被动效果：沙地兽撤退时回收命中该区域的子弹\\n自动开启：攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+120%</>，沙地兽的再部署时间<@ba.vup>-40%</>\\n<@ba.rem>持续时间无限</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "パッシブ：サンドビースト撤退時、その周囲のマスにいた対象に着弾した弾を回収する\nアクティブ：攻撃範囲<@ba.vup>拡大</>、攻撃力<@ba.vup>+120%</>、サンドビーストの再配置時間<@ba.vup>40%</>\n<@ba.rem>退場まで効果継続</>",
+                "description_en": "Passive: When the sandbeast retreats, recover all bullets that hit in the area\nAutomatic: Attack Range <@ba.vup>increases</>, ATK <@ba.vup>+120%</>, sandbeast redeployment time <@ba.vup>40%</>\n<@ba.rem>Unlimited duration</>",
                 "spData": {
                     "maxChargeTime": 1,
                     "spCost": 16,
@@ -53962,8 +53963,8 @@
     },
     "skchr_ray_3": {
         "name_zh": "“得见光芒”",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "「求めた光」",
+        "name_en": "'See the Light'",
         "chara_list": [
             "莱伊"
         ],
@@ -53974,8 +53975,8 @@
             {
                 "rangeId": "3-8",
                 "description_zh": "立即<@ba.vdown>停止攻击</>直至子弹装满，装填间隔<@ba.vup>大幅缩短(-1.2)</>，攻击范围<@ba.vup>扩大</>，攻击造成相当于攻击力<@ba.vup>270%</>的物理伤害并使目标束缚<@ba.vup>2</>秒\\n<@ba.rem>技能期间若击倒敌人，技能结束时获得10点技力</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "即座に弾の装填を行い、装弾数が最大になるまで<@ba.vdown>攻撃しなくなる</>。装填間隔が<@ba.vup>大幅に短縮</>、攻撃範囲<@ba.vup>拡大</>。通常攻撃が敵に攻撃力の<@ba.vup>270%</>の物理ダメージを与えると同時に対象を<@ba.vup>2</>秒間バインドする\n<@ba.rem>スキル発動中に敵を撃破すると、スキル終了時にSPを10回復する</>",
+                "description_en": "Immediately <@ba.vdown>stop attacking</> until fully loaded, reload interval <@ba.vup>greatly reduces</>, Attack Range <@ba.vup>increases</>, attacks deal <@ba.vup>270%</> of ATK as Physical damage and bind the enemy for <@ba.vup>2</>s\n<@ba.rem>If an enemy is defeated while skill is active, gain 10 SP when skill ends</>",
                 "spData": {
                     "maxChargeTime": 1,
                     "spCost": 33,
@@ -54005,8 +54006,8 @@
             {
                 "rangeId": "3-8",
                 "description_zh": "立即<@ba.vdown>停止攻击</>直至子弹装满，装填间隔<@ba.vup>大幅缩短(-1.2)</>，攻击范围<@ba.vup>扩大</>，攻击造成相当于攻击力<@ba.vup>290%</>的物理伤害并使目标束缚<@ba.vup>2</>秒\\n<@ba.rem>技能期间若击倒敌人，技能结束时获得10点技力</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "即座に弾の装填を行い、装弾数が最大になるまで<@ba.vdown>攻撃しなくなる</>。装填間隔が<@ba.vup>大幅に短縮</>、攻撃範囲<@ba.vup>拡大</>。通常攻撃が敵に攻撃力の<@ba.vup>290%</>の物理ダメージを与えると同時に対象を<@ba.vup>2</>秒間バインドする\n<@ba.rem>スキル発動中に敵を撃破すると、スキル終了時にSPを10回復する</>",
+                "description_en": "Immediately <@ba.vdown>stop attacking</> until fully loaded, reload interval <@ba.vup>greatly reduces</>, Attack Range <@ba.vup>increases</>, attacks deal <@ba.vup>290%</> of ATK as Physical damage and bind the enemy for <@ba.vup>2</>s\n<@ba.rem>If an enemy is defeated while skill is active, gain 10 SP when skill ends</>",
                 "spData": {
                     "maxChargeTime": 1,
                     "spCost": 32,
@@ -54036,8 +54037,8 @@
             {
                 "rangeId": "3-8",
                 "description_zh": "立即<@ba.vdown>停止攻击</>直至子弹装满，装填间隔<@ba.vup>大幅缩短(-1.2)</>，攻击范围<@ba.vup>扩大</>，攻击造成相当于攻击力<@ba.vup>310%</>的物理伤害并使目标束缚<@ba.vup>2</>秒\\n<@ba.rem>技能期间若击倒敌人，技能结束时获得10点技力</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "即座に弾の装填を行い、装弾数が最大になるまで<@ba.vdown>攻撃しなくなる</>。装填間隔が<@ba.vup>大幅に短縮</>、攻撃範囲<@ba.vup>拡大</>。通常攻撃が敵に攻撃力の<@ba.vup>310%</>の物理ダメージを与えると同時に対象を<@ba.vup>2</>秒間バインドする\n<@ba.rem>スキル発動中に敵を撃破すると、スキル終了時にSPを10回復する</>",
+                "description_en": "Immediately <@ba.vdown>stop attacking</> until fully loaded, reload interval <@ba.vup>greatly reduces</>, Attack Range <@ba.vup>increases</>, attacks deal <@ba.vup>310%</> of ATK as Physical damage and bind the enemy for <@ba.vup>2</>s\n<@ba.rem>If an enemy is defeated while skill is active, gain 10 SP when skill ends</>",
                 "spData": {
                     "maxChargeTime": 1,
                     "spCost": 31,
@@ -54067,8 +54068,8 @@
             {
                 "rangeId": "3-8",
                 "description_zh": "立即<@ba.vdown>停止攻击</>直至子弹装满，装填间隔<@ba.vup>大幅缩短(-1.2)</>，攻击范围<@ba.vup>扩大</>，攻击造成相当于攻击力<@ba.vup>330%</>的物理伤害并使目标束缚<@ba.vup>2</>秒\\n<@ba.rem>技能期间若击倒敌人，技能结束时获得10点技力</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "即座に弾の装填を行い、装弾数が最大になるまで<@ba.vdown>攻撃しなくなる</>。装填間隔が<@ba.vup>大幅に短縮</>、攻撃範囲<@ba.vup>拡大</>。通常攻撃が敵に攻撃力の<@ba.vup>330%</>の物理ダメージを与えると同時に対象を<@ba.vup>2</>秒間バインドする\n<@ba.rem>スキル発動中に敵を撃破すると、スキル終了時にSPを10回復する</>",
+                "description_en": "Immediately <@ba.vdown>stop attacking</> until fully loaded, reload interval <@ba.vup>greatly reduces</>, Attack Range <@ba.vup>increases</>, attacks deal <@ba.vup>330%</> of ATK as Physical damage and bind the enemy for <@ba.vup>2</>s\n<@ba.rem>If an enemy is defeated while skill is active, gain 10 SP when skill ends</>",
                 "spData": {
                     "maxChargeTime": 1,
                     "spCost": 30,
@@ -64152,7 +64153,8 @@
             "aoe",
             "aspd_unrelated",
             "ailment_but_skill_cont",
-            "dot"
+            "dot",
+            "target_air"
         ],
         "blackboard": [
             {
@@ -90113,7 +90115,8 @@
         ],
         "tags": [
             "true",
-            "inspire"
+            "inspire",
+            "target_air"
         ],
         "blackboard": [
             {
@@ -91429,6 +91432,919 @@
             {
                 "key": "projectile_range",
                 "value": 1.8
+            }
+        ]
+    },
+    "skchr_mitm_1": {
+        "name_zh": "遥控解体",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "渡桥"
+        ],
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": "x-5",
+                "description_zh": "立即获得<@ba.vup>6</>点部署费用，并使樱桃三号自毁且对周围四格敌人造成相当于渡桥攻击力<@ba.vup>355%</>的物理伤害",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 23,
+                    "initSp": 6,
+                    "increment": 1.0
+                },
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "cost",
+                        "value": 6.0
+                    },
+                    {
+                        "key": "aoe_damage_scale",
+                        "value": 3.55
+                    }
+                ]
+            },
+            {
+                "rangeId": "x-5",
+                "description_zh": "立即获得<@ba.vup>6</>点部署费用，并使樱桃三号自毁且对周围四格敌人造成相当于渡桥攻击力<@ba.vup>370%</>的物理伤害",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 22,
+                    "initSp": 7,
+                    "increment": 1.0
+                },
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "cost",
+                        "value": 6.0
+                    },
+                    {
+                        "key": "aoe_damage_scale",
+                        "value": 3.7
+                    }
+                ]
+            },
+            {
+                "rangeId": "x-5",
+                "description_zh": "立即获得<@ba.vup>6</>点部署费用，并使樱桃三号自毁且对周围四格敌人造成相当于渡桥攻击力<@ba.vup>385%</>的物理伤害",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 21,
+                    "initSp": 8,
+                    "increment": 1.0
+                },
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "cost",
+                        "value": 6.0
+                    },
+                    {
+                        "key": "aoe_damage_scale",
+                        "value": 3.85
+                    }
+                ]
+            },
+            {
+                "rangeId": "x-5",
+                "description_zh": "立即获得<@ba.vup>6</>点部署费用，并使樱桃三号自毁且对周围四格敌人造成相当于渡桥攻击力<@ba.vup>400%</>的物理伤害",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 20,
+                    "initSp": 9,
+                    "increment": 1.0
+                },
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "cost",
+                        "value": 6.0
+                    },
+                    {
+                        "key": "aoe_damage_scale",
+                        "value": 4.0
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "burst"
+        ],
+        "blackboard": [
+            {
+                "key": "cost",
+                "value": 6.0
+            },
+            {
+                "key": "aoe_damage_scale",
+                "value": 4.0
+            }
+        ]
+    },
+    "skchr_mitm_2": {
+        "name_zh": "承压功率",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "渡桥"
+        ],
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": null,
+                "description_zh": "技能持续时间内逐渐获得<@ba.vup>12</>点部署费用，攻击力<@ba.vup>+60%</>；樱桃三号<@ba.vdown>停止攻击</>，阻挡数<@ba.vup>+1</>，防御力<@ba.vup>+110%</>\\n<@ba.rem>技能结束后樱桃三号销毁自身</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 44,
+                    "initSp": 17,
+                    "increment": 1.0
+                },
+                "duration": 15.0,
+                "blackboard": [
+                    {
+                        "key": "attack@max_target",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "atk",
+                        "value": 0.6
+                    },
+                    {
+                        "key": "mode",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "mitm_s_2[to_token].block_cnt",
+                        "value": 2.0
+                    },
+                    {
+                        "key": "mitm_s_2[to_token].def",
+                        "value": 1.1
+                    },
+                    {
+                        "key": "mitm_s_2[to_token].hp",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "mitm_s_2[cost].cost",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "mitm_s_2[cost].interval",
+                        "value": 1.25
+                    },
+                    {
+                        "key": "mitm_s_2[cost].display",
+                        "value": 12.0
+                    },
+                    {
+                        "key": "block_cnt_display",
+                        "value": 1.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "技能持续时间内逐渐获得<@ba.vup>12</>点部署费用，攻击力<@ba.vup>+65%</>；樱桃三号<@ba.vdown>停止攻击</>，阻挡数<@ba.vup>+1</>，防御力<@ba.vup>+120%</>\\n<@ba.rem>技能结束后樱桃三号销毁自身</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 43,
+                    "initSp": 18,
+                    "increment": 1.0
+                },
+                "duration": 15.0,
+                "blackboard": [
+                    {
+                        "key": "attack@max_target",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "atk",
+                        "value": 0.65
+                    },
+                    {
+                        "key": "mode",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "mitm_s_2[to_token].block_cnt",
+                        "value": 2.0
+                    },
+                    {
+                        "key": "mitm_s_2[to_token].def",
+                        "value": 1.2
+                    },
+                    {
+                        "key": "mitm_s_2[to_token].hp",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "mitm_s_2[cost].cost",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "mitm_s_2[cost].interval",
+                        "value": 1.25
+                    },
+                    {
+                        "key": "mitm_s_2[cost].display",
+                        "value": 12.0
+                    },
+                    {
+                        "key": "block_cnt_display",
+                        "value": 1.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "技能持续时间内逐渐获得<@ba.vup>12</>点部署费用，攻击力<@ba.vup>+70%</>；樱桃三号<@ba.vdown>停止攻击</>，阻挡数<@ba.vup>+1</>，防御力<@ba.vup>+130%</>\\n<@ba.rem>技能结束后樱桃三号销毁自身</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 42,
+                    "initSp": 19,
+                    "increment": 1.0
+                },
+                "duration": 15.0,
+                "blackboard": [
+                    {
+                        "key": "attack@max_target",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "atk",
+                        "value": 0.7
+                    },
+                    {
+                        "key": "mode",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "mitm_s_2[to_token].block_cnt",
+                        "value": 2.0
+                    },
+                    {
+                        "key": "mitm_s_2[to_token].def",
+                        "value": 1.3
+                    },
+                    {
+                        "key": "mitm_s_2[to_token].hp",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "mitm_s_2[cost].cost",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "mitm_s_2[cost].interval",
+                        "value": 1.25
+                    },
+                    {
+                        "key": "mitm_s_2[cost].display",
+                        "value": 12.0
+                    },
+                    {
+                        "key": "block_cnt_display",
+                        "value": 1.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "技能持续时间内逐渐获得<@ba.vup>12</>点部署费用，攻击力<@ba.vup>+80%</>；樱桃三号<@ba.vdown>停止攻击</>，阻挡数<@ba.vup>+1</>，防御力<@ba.vup>+140%</>\\n<@ba.rem>技能结束后樱桃三号销毁自身</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 40,
+                    "initSp": 20,
+                    "increment": 1.0
+                },
+                "duration": 15.0,
+                "blackboard": [
+                    {
+                        "key": "attack@max_target",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "atk",
+                        "value": 0.8
+                    },
+                    {
+                        "key": "mode",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "mitm_s_2[to_token].block_cnt",
+                        "value": 2.0
+                    },
+                    {
+                        "key": "mitm_s_2[to_token].def",
+                        "value": 1.4
+                    },
+                    {
+                        "key": "mitm_s_2[to_token].hp",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "mitm_s_2[cost].cost",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "mitm_s_2[cost].interval",
+                        "value": 1.25
+                    },
+                    {
+                        "key": "mitm_s_2[cost].display",
+                        "value": 12.0
+                    },
+                    {
+                        "key": "block_cnt_display",
+                        "value": 1.0
+                    }
+                ]
+            }
+        ],
+        "tags": [],
+        "blackboard": [
+            {
+                "key": "atk",
+                "value": 0.8
+            },
+            {
+                "key": "block_no_attack",
+                "value": 15.0
+            },
+            {
+                "key": "blockCnt",
+                "value": 2.0,
+                "conditions": [
+                    "token"
+                ]
+            }
+        ]
+    },
+    "skchr_nymph_1": {
+        "name_zh": "笞心击",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "妮芙"
+        ],
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": null,
+                "description_zh": "攻击力<@ba.vup>+80%</>，攻击附带造成法术伤害<@ba.vup>10%</>的<ba.dt.apoptosis2>凋亡损伤</>，若目标处于<ba.dt.apoptosis2>凋亡损伤</>爆发期间则对其额外造成相当于攻击力<@ba.vup>40%</>的元素伤害",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 33,
+                    "initSp": 15,
+                    "increment": 1.0
+                },
+                "duration": 20.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.8
+                    },
+                    {
+                        "key": "attack@ep_damage_ratio",
+                        "value": 0.1
+                    },
+                    {
+                        "key": "attack@extra_ep_damage_scale",
+                        "value": 0.4
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "攻击力<@ba.vup>+90%</>，攻击附带造成法术伤害<@ba.vup>15%</>的<ba.dt.apoptosis2>凋亡损伤</>，若目标处于<ba.dt.apoptosis2>凋亡损伤</>爆发期间则对其额外造成相当于攻击力<@ba.vup>40%</>的元素伤害",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 32,
+                    "initSp": 15,
+                    "increment": 1.0
+                },
+                "duration": 20.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.9
+                    },
+                    {
+                        "key": "attack@ep_damage_ratio",
+                        "value": 0.15
+                    },
+                    {
+                        "key": "attack@extra_ep_damage_scale",
+                        "value": 0.4
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "攻击力<@ba.vup>+100%</>，攻击附带造成法术伤害<@ba.vup>15%</>的<ba.dt.apoptosis2>凋亡损伤</>，若目标处于<ba.dt.apoptosis2>凋亡损伤</>爆发期间则对其额外造成相当于攻击力<@ba.vup>40%</>的元素伤害",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 31,
+                    "initSp": 15,
+                    "increment": 1.0
+                },
+                "duration": 20.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "attack@ep_damage_ratio",
+                        "value": 0.15
+                    },
+                    {
+                        "key": "attack@extra_ep_damage_scale",
+                        "value": 0.4
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "攻击力<@ba.vup>+110%</>，攻击附带造成法术伤害<@ba.vup>15%</>的<ba.dt.apoptosis2>凋亡损伤</>，若目标处于<ba.dt.apoptosis2>凋亡损伤</>爆发期间则对其额外造成相当于攻击力<@ba.vup>50%</>的元素伤害",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 30,
+                    "initSp": 20,
+                    "increment": 1.0
+                },
+                "duration": 20.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 1.1
+                    },
+                    {
+                        "key": "attack@ep_damage_ratio",
+                        "value": 0.15
+                    },
+                    {
+                        "key": "attack@extra_ep_damage_scale",
+                        "value": 0.5
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "ele_dmg",
+            "apoptosis"
+        ],
+        "blackboard": [
+            {
+                "key": "atk",
+                "value": 1.1
+            }
+        ]
+    },
+    "skchr_nymph_2": {
+        "name_zh": "怵然震爆",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "妮芙"
+        ],
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": null,
+                "description_zh": "对敌人造成一次相当于攻击力<@ba.vup>300%</>的法术伤害、使其<ba.fear>恐惧</><@ba.vup>5</>秒，并对目标周围造成一次等额法术溅射伤害，均附带造成法术伤害<@ba.vup>22%</>的<ba.dt.apoptosis2>凋亡损伤</>；若攻击到的单位处于凋亡损伤爆发期间，使第一天赋造成的伤害效果提高至攻击力的<@ba.vup>85%</>\\n<@ba.rem>可充能2次</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 2,
+                    "spCost": 14,
+                    "initSp": 6,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 3.0
+                    },
+                    {
+                        "key": "ep_damage_ratio",
+                        "value": 0.22
+                    },
+                    {
+                        "key": "fear",
+                        "value": 5.0
+                    },
+                    {
+                        "key": "element_atk_scale",
+                        "value": 0.85
+                    },
+                    {
+                        "key": "projectile_range",
+                        "value": 1.5
+                    },
+                    {
+                        "key": "ct",
+                        "value": 2.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "对敌人造成一次相当于攻击力<@ba.vup>360%</>的法术伤害、使其<ba.fear>恐惧</><@ba.vup>5</>秒，并对目标周围造成一次等额法术溅射伤害，均附带造成法术伤害<@ba.vup>22%</>的<ba.dt.apoptosis2>凋亡损伤</>；若攻击到的单位处于凋亡损伤爆发期间，使第一天赋造成的伤害效果提高至攻击力的<@ba.vup>90%</>\\n<@ba.rem>可充能2次</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 2,
+                    "spCost": 13,
+                    "initSp": 7,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 3.6
+                    },
+                    {
+                        "key": "ep_damage_ratio",
+                        "value": 0.22
+                    },
+                    {
+                        "key": "fear",
+                        "value": 5.0
+                    },
+                    {
+                        "key": "element_atk_scale",
+                        "value": 0.9
+                    },
+                    {
+                        "key": "projectile_range",
+                        "value": 1.5
+                    },
+                    {
+                        "key": "ct",
+                        "value": 2.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "对敌人造成一次相当于攻击力<@ba.vup>380%</>的法术伤害、使其<ba.fear>恐惧</><@ba.vup>5</>秒，并对目标周围造成一次等额法术溅射伤害，均附带造成法术伤害<@ba.vup>25%</>的<ba.dt.apoptosis2>凋亡损伤</>；若攻击到的单位处于凋亡损伤爆发期间，使第一天赋造成的伤害效果提高至攻击力的<@ba.vup>95%</>\\n<@ba.rem>可充能2次</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 2,
+                    "spCost": 13,
+                    "initSp": 8,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 3.8
+                    },
+                    {
+                        "key": "ep_damage_ratio",
+                        "value": 0.25
+                    },
+                    {
+                        "key": "fear",
+                        "value": 5.0
+                    },
+                    {
+                        "key": "element_atk_scale",
+                        "value": 0.95
+                    },
+                    {
+                        "key": "projectile_range",
+                        "value": 1.5
+                    },
+                    {
+                        "key": "ct",
+                        "value": 2.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "对敌人造成一次相当于攻击力<@ba.vup>400%</>的法术伤害、使其<ba.fear>恐惧</><@ba.vup>5</>秒，并对目标周围造成一次等额法术溅射伤害，均附带造成法术伤害<@ba.vup>25%</>的<ba.dt.apoptosis2>凋亡损伤</>；若攻击到的单位处于凋亡损伤爆发期间，使第一天赋造成的伤害效果提高至攻击力的<@ba.vup>100%</>\\n<@ba.rem>可充能2次</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 2,
+                    "spCost": 12,
+                    "initSp": 9,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 4.0
+                    },
+                    {
+                        "key": "ep_damage_ratio",
+                        "value": 0.25
+                    },
+                    {
+                        "key": "fear",
+                        "value": 5.0
+                    },
+                    {
+                        "key": "element_atk_scale",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "projectile_range",
+                        "value": 1.5
+                    },
+                    {
+                        "key": "ct",
+                        "value": 2.0
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "aoe",
+            "ele_dmg",
+            "apoptosis",
+            "burst"
+        ],
+        "blackboard": [
+            {
+                "key": "atk_scale",
+                "value": 4.0
+            },
+            {
+                "key": "ep_damage_ratio",
+                "value": 0.25
+            },
+            {
+                "key": "fear",
+                "targets": 1,
+                "value": 5.0,
+                "target_air": true
+            },
+            {
+                "key": "element_atk_scale",
+                "value": 1.0
+            },
+            {
+                "key": "projectile_range",
+                "value": 1.5
+            },
+            {
+                "key": "ct",
+                "value": 2.0
+            }
+        ]
+    },
+    "skchr_nymph_3": {
+        "name_zh": "心防溃决",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "妮芙"
+        ],
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": "3-3",
+                "description_zh": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+170%</>，攻击速度<@ba.vup>+45</>，同时攻击<@ba.vup>2</>个目标，若目标处于<ba.dt.apoptosis2>凋亡损伤</>爆发期间，攻击造成元素伤害",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 55,
+                    "initSp": 27,
+                    "increment": 1.0
+                },
+                "duration": 29.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 1.7
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 45.0
+                    },
+                    {
+                        "key": "attack@max_target",
+                        "value": 2.0
+                    },
+                    {
+                        "key": "attack@split_atk_scale",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "attack@magic_atk_scale",
+                        "value": 0.0
+                    }
+                ]
+            },
+            {
+                "rangeId": "3-3",
+                "description_zh": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+190%</>，攻击速度<@ba.vup>+45</>，同时攻击<@ba.vup>2</>个目标，若目标处于<ba.dt.apoptosis2>凋亡损伤</>爆发期间，攻击造成元素伤害",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 55,
+                    "initSp": 30,
+                    "increment": 1.0
+                },
+                "duration": 31.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 1.9
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 45.0
+                    },
+                    {
+                        "key": "attack@max_target",
+                        "value": 2.0
+                    },
+                    {
+                        "key": "attack@split_atk_scale",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "attack@magic_atk_scale",
+                        "value": 0.0
+                    }
+                ]
+            },
+            {
+                "rangeId": "3-3",
+                "description_zh": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+205%</>，攻击速度<@ba.vup>+60</>，同时攻击<@ba.vup>2</>个目标，若目标处于<ba.dt.apoptosis2>凋亡损伤</>爆发期间，攻击造成元素伤害",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 55,
+                    "initSp": 33,
+                    "increment": 1.0
+                },
+                "duration": 33.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 2.05
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 60.0
+                    },
+                    {
+                        "key": "attack@max_target",
+                        "value": 2.0
+                    },
+                    {
+                        "key": "attack@split_atk_scale",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "attack@magic_atk_scale",
+                        "value": 0.0
+                    }
+                ]
+            },
+            {
+                "rangeId": "3-3",
+                "description_zh": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+220%</>，攻击速度<@ba.vup>+60</>，同时攻击<@ba.vup>2</>个目标，若目标处于<ba.dt.apoptosis2>凋亡损伤</>爆发期间，攻击造成元素伤害",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 55,
+                    "initSp": 36,
+                    "increment": 1.0
+                },
+                "duration": 35.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 2.2
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 60.0
+                    },
+                    {
+                        "key": "attack@max_target",
+                        "value": 2.0
+                    },
+                    {
+                        "key": "attack@split_atk_scale",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "attack@magic_atk_scale",
+                        "value": 0.0
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "ele_dmg"
+        ],
+        "blackboard": [
+            {
+                "key": "atk",
+                "value": 2.2
+            },
+            {
+                "key": "attack_speed",
+                "value": 60.0
+            },
+            {
+                "key": "max_target",
+                "value": 2.0
             }
         ]
     }

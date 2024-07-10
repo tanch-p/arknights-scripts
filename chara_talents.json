@@ -4304,11 +4304,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "难免会溢锅",
-                "name_ja": "",
-                "name_en": "",
+                "name_ja": "吹きこぼれ",
+                "name_en": "Overflowing Pot",
                 "desc_zh": "攻击范围内的敌人<ba.dt.burning2>灼燃损伤</>爆发开始时立即受到相当于攻击力320%<@ba.talpu>（+20%）</>的元素伤害",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "攻撃範囲内の敵は<ba.dt.burning2>灼熱損傷</>の爆発効果が始まると攻撃力の320%<@ba.talpu>（+20%）</>の元素ダメージを受ける",
+                "desc_en": "Enemies within Attack Range take 320%<@ba.talpu> (+20%) </>ATK as Elemental damage when they trigger a <ba.dt.burning2>Burn damage</> burst",
                 "tags": [
                     "ele_dmg"
                 ],
@@ -7039,11 +7039,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "巡哨伙伴",
-                "name_ja": "",
-                "name_en": "",
+                "name_ja": "巡回のおとも",
+                "name_en": "Patrol Partner",
                 "desc_zh": "可以在攻击范围内部署沙地兽于25秒内侦察一片区域延伸攻击范围，自身优先攻击该区域内的目标且对其造成的物理伤害提高15%",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "攻撃範囲内に「サンドビースト」を1体配置可能。サンドビーストを配置後、25秒間その周囲8マスを自身の追加攻撃範囲と見なす。自身は該当範囲内の敵を優先して攻撃するようになり、対象への物理の与ダメージ+15%",
+                "desc_en": "Can deploy a sandbeast within Attack Range to scout an area for 25s, extending Attack Range into that area. Prioritizes attacking targets within this area, and deals 15% more Physical damage to them",
                 "tags": [
                     "extend_range",
                     "summon"
@@ -7058,11 +7058,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "入神",
-                "name_ja": "",
-                "name_en": "",
+                "name_ja": "一意専心",
+                "name_en": "Extreme Focus",
                 "desc_zh": "攻击相同目标时每次攻击提高自身攻击力9%<@ba.talpu>（+1%）</>，最多3层",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "同じ敵を攻撃する度攻撃力+9%<@ba.talpu>（+1%）</>、最大3回まで",
+                "desc_en": "When attacking the same target, each attack increases ATK by 9% <@ba.talpu>(+1%)</>, stacking up to 3 times",
                 "tags": [],
                 "blackboard": [
                     {
@@ -11881,6 +11881,73 @@
                     {
                         "key": "atk",
                         "value": 30.0
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4147_mitm": {
+        "appellation": "Mitm",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "废品战车",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "可以在战术点召唤樱桃三号协助作战，其被击败后会在15秒后自动刷新，并在周围四格生成残骸",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "summon"
+                ],
+                "blackboard": [
+                    {
+                        "key": "cnt",
+                        "value": 1.0
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4146_nymph": {
+        "appellation": "Nymph",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "失魂",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "攻击处于<ba.dt.apoptosis2>凋亡损伤</>爆发期间的敌人时使其每秒受到相当于攻击力40%的元素伤害，持续至<ba.dt.apoptosis2>凋亡损伤</>爆发结束",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "ele_dmg",
+                    "dot"
+                ],
+                "blackboard": [
+                    {
+                        "key": "element_atk_scale",
+                        "value": 0.4
+                    }
+                ]
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "窥心钥",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "每当自身攻击范围内敌人<ba.dt.apoptosis2>凋亡损伤</>爆发，攻击力+2%，最多可叠加12<@ba.talpu>（+2）</>层",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.02
+                    },
+                    {
+                        "key": "max_stack_cnt",
+                        "value": 12.0
                     }
                 ]
             }

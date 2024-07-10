@@ -20288,7 +20288,7 @@
       }
     ],
     "special": [],
-    "status_immune": [],
+    "status_immune": ["stun","freeze","silence"],
     "normal_attack": {
       "atk_type": ["melee", "phys"],
       "hits": 1
@@ -27393,7 +27393,7 @@
       }
     ],
     "special": [],
-    "status_immune": [],
+    "status_immune": ["stun","freeze","silence"],
     "normal_attack": {
       "atk_type": ["melee", "phys"],
       "hits": 1

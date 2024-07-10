@@ -71,7 +71,9 @@ for key in cn_enemy_handbook['enemyData']:
         if enemyStats[0]["enemyData"]["attributes"]["levitateImmune"]["m_value"]:
             status_immune.append("levitate")
         if enemyStats[0]["enemyData"]["attributes"]["disarmedCombatImmune"]["m_value"]:
-            status_immune.append("disarmedCombat")
+            status_immune.append("tremble")
+        if enemyStats[0]["enemyData"]["attributes"]["fearedImmune"]["m_value"]:
+            status_immune.append("fear")
 
         data["id"] = enemyIndex
         data["key"] = key
