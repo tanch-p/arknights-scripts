@@ -11,13 +11,13 @@ pp = pprint.PrettyPrinter(indent=4)
 script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
 with open("is_stages_extrainfo.json", encoding="utf-8") as f:
-    extra_stages_list = json.load(f)
+    extra_info_list = json.load(f)
 
 with open("is_stages_list.json", encoding="utf-8") as f:
     stages_list = json.load(f)
 
 data = {}
-for key in extra_stages_list:
+for key in extra_info_list:
     if 'rogue1' in key:
         folder = "ro1"
     elif 'rogue2' in key:
@@ -34,10 +34,10 @@ for key in extra_stages_list:
 
     with open(stage_data_path, encoding="utf-8") as f:
         stage_data = json.load(f)
-        wave_data = get_wave_data(stage_data, key, log=False)
+        wave_data = get_wave_data(stage_data, key, log=key=="level_rogue3_3-4")
         enemy_list, elite_enemy_list, sp_count, elite_sp_count, all_possible_enemy_count,all_possible_elite_enemy_count = itemgetter(
                 "enemy_list", "elite_enemy_list", "sp_count", "elite_sp_count", "all_possible_enemy_count","all_possible_elite_enemy_count")(wave_data)
-        extra_info = extra_stages_list[key]
+        extra_info = extra_info_list[key]
         sp_enemy = extra_info['sp_enemy']
         if sp_enemy is None and sp_count is not None:
             sp_enemy = {
@@ -88,20 +88,22 @@ for key in extra_stages_list:
 
     data[key] = trimmed_stage_info
 
-#? for adding new stages
+# ? for adding new stages
 # for stage in stages_list:
 #     key = stage['levelId']
-#     if not stage['levelId'] in extra_stages_list:
-#         if 'rogue1' in stage['levelId']:
+#     if not stage['levelId'] in extra_info_list:
+#         if 'rogue1' in key:
 #             folder = "ro1"
-#         elif 'rogue2' in stage['levelId']:
+#         elif 'rogue2' in key:
 #             folder = "ro2"
-#         else:
+#         elif 'rogue3' in key:
 #             folder = "ro3"
+#         else:
+#             folder = "ro4"
 
 #         stage_data_path = os.path.join(
 #             script_dir,
-#             f"zh_CN/gamedata/levels/obt/roguelike/{folder}/{key}.json",
+#             f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{folder}/{key}.json",
 #         )
 #         with open(stage_data_path, encoding="utf-8") as f:
 #             stage_data = json.load(f)
@@ -148,7 +150,7 @@ for key in extra_stages_list:
 #                 "elite_enemy_list": elite_enemy_list
 #             }
 #             data[stage['levelId']] = trimmed_stage_info
-
+# data = extra_info_list | data
 
 with open("is_stages_extrainfo.json", "w", encoding="utf-8") as f:
     json.dump(data, f, ensure_ascii=False, indent=4)

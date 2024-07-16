@@ -71,6 +71,7 @@ roguelike_topics = [
     {"topic": "rogue_1", "folder": "ro1"},
     {"topic": "rogue_2", "folder": "ro2"},
     {"topic": "rogue_3", "folder": "ro3"},
+        {"topic": "rogue_4", "folder": "ro4"},
 ]
 
 for topic_dict in roguelike_topics:
@@ -176,19 +177,21 @@ for topic_dict in roguelike_topics:
                     '''
                     min_count = 0
                     max_count = 0
-                    elite_min_count = None
-                    elite_max_count = None
+                    elite_min_count = 0
+                    elite_max_count = 0
                     if enemy_list is not None:
                         for enemy_info in enemy_list:
                             if enemy_info['key'] == enemy['id']:
                                 min_count = enemy_info['min_count']
                                 max_count = enemy_info['max_count']
                     if elite_enemy_list is not None:
-                        for enemy_info in elite_enemy_list:
-                            if enemy_info['key'] == enemy['id']:
-                                elite_min_count = enemy_info['min_count']
-                                elite_max_count = enemy_info['max_count']
-
+                        for elite_enemy_info in elite_enemy_list:
+                            if elite_enemy_info['key'] == enemy['id']:
+                                elite_min_count = elite_enemy_info['min_count']
+                                elite_max_count = elite_enemy_info['max_count']
+                    else:
+                        elite_min_count = min_count
+                        elite_max_count = max_count
                     enemies.append(
                         {
                             "id": enemy_id,

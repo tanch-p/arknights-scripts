@@ -148,8 +148,12 @@ def get_wave_data(stage_data, stage_id, log=False):
 
             if actionType != 'SPAWN':
                 continue
-            if hidden_group == 'allydonq' or hidden_group == "totem1" or hidden_group == "totem2" or hidden_group == "bossrelic":
+            if hidden_group in ['allydonq', "totem1", 'totem2', 'bossrelic', 'calamity', 'cargo', 'hidden_door']:
                 continue
+            if difficulty == 2:
+                for enemy in enemies_to_replace:
+                    if key in enemy:
+                        key = enemy[key]
 
             if difficulty == 2 and hidden_group == elite_group_name:
                 if not group is None:
@@ -212,7 +216,7 @@ def get_wave_data(stage_data, stage_id, log=False):
                         continue
 
                     # get data for normal
-                    if hidden_group == 'allydonq' or hidden_group == "totem1" or hidden_group == "totem2" or hidden_group == "bossrelic":
+                    if hidden_group in ['allydonq', "totem1", 'totem2', 'bossrelic', 'calamity', 'cargo', 'hidden_door']:
                         continue
 
                     if difficulty == 2 and hidden_group is not None and hidden_group != elite_group_name:
@@ -245,6 +249,12 @@ def get_wave_data(stage_data, stage_id, log=False):
                             if packKey in groups[group]:
                                 pack_group = group
                                 break
+                        if pack_group is None:
+                            pack_group = packKey
+                        if not pack_group in groups:
+                            groups[pack_group] = {}
+                        if not packKey in groups[pack_group]:
+                            groups[pack_group][packKey] = []
                         groups[pack_group][packKey].append(
                             {"key": key, "count": action['count'], "weight": action['weight'], "packKey": packKey, "isUnharmfulAndAlwaysCountAsKilled": action['isUnharmfulAndAlwaysCountAsKilled']})
                     else:
@@ -261,7 +271,7 @@ def get_wave_data(stage_data, stage_id, log=False):
                     groups_list.append(groups)
 
         return {"base_enemy_count": base_enemy_count, "enemy_list": json.dumps(enemy_list), "groups_list": json.dumps(groups_list)}
-
+    log and print(stage_id)
     enemies_to_replace = []
     elite_group_name = None
     absolute_sp_counts = None

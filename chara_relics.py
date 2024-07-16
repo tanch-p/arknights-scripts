@@ -21,7 +21,7 @@ with open(jp_roguelike_topic_path, encoding="utf-8") as f:
     jp_roguelike_topic_table = json.load(f)
 
 
-topics = ['rogue_1', 'rogue_2', 'rogue_3']
+topics = ['rogue_1', 'rogue_2', 'rogue_3', 'rogue_4']
 
 
 def get_relic_info(id, topic):
@@ -39,7 +39,7 @@ def get_relic_info(id, topic):
             "desc_en": en_roguelike_topic_table['details'][topic]['items'][id]['usage'] if in_global else ""
         }
         if id in cn_roguelike_topic_table['details'][topic]['relicParams'] and len(cn_roguelike_topic_table['details'][topic]['relicParams'][id]['checkCharBoxParams']) > 0:
-            relic_info['checkCharBoxParams'] = cn_roguelike_topic_table['details'][
+            relic_info['subProfessionId'] = cn_roguelike_topic_table['details'][
                 topic]['relicParams'][id]['checkCharBoxParams'][0]['valueStrs']
         else:
             relic_info['tags'] = None
@@ -80,6 +80,16 @@ relics_list = ["rogue_1_relic_q29",
                "rogue_3_relic_hand_3",
                "rogue_3_relic_hand_4",
                "rogue_3_relic_hand_5",
+               "rogue_4_relic_legacy_147",
+               "rogue_4_relic_legacy_160",
+               "rogue_4_relic_legacy_163",
+               "rogue_4_relic_legacy_165",
+               "rogue_4_relic_hand_1",
+               "rogue_4_relic_hand_2",
+               "rogue_4_relic_hand_3",
+               "rogue_4_relic_hand_4",
+               "rogue_4_relic_hand_5",
+               "rogue_4_relic_hand_6",
                ]
 data = {}
 for topic in topics:

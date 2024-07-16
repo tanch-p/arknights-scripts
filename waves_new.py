@@ -23,6 +23,7 @@ combinations: [normal|elite] x [bossrelic,totem1]
 """
 
 bonus_enemies = ['enemy_2001_duckmi', 'enemy_2002_bearmi', 'enemy_2034_sythef']
+neutral_enemies = ['enemy_3003_alymot']
 
 
 def generate_all_permutations(input_list):
@@ -232,8 +233,11 @@ def get_bonus_counts(stage_data, hidden_groups, has_bonus_wave, bonus_frag_index
                     continue
                 if group is not None or packKey is not None:
                     groups.append(action)
-                elif not action['isUnharmfulAndAlwaysCountAsKilled']:
-                    base_count += action['count']
+                else:
+                    if action['isUnharmfulAndAlwaysCountAsKilled'] and action['key'] not in neutral_enemies:
+                        base_count += action['count']
+                    else:
+                        base_count += action['count']
             random_groups = group_resolver(groups)
             groups = random_group_resolver(random_groups)
             # calculate bonus count and probability
@@ -380,7 +384,7 @@ def create_timeline(waves, tag, enemies_to_replace, has_bonus_wave):
         for index, fragment in enumerate(wave['fragments']):
             prev_phase_time += fragment['preDelay']
             for action in fragment['actions']:
-                if action['key'] != "" and action['isUnharmfulAndAlwaysCountAsKilled'] is False:
+                if action['key'] != "" and (action['isUnharmfulAndAlwaysCountAsKilled'] is False or action['key'] in neutral_enemies):
                     total_count += action['count']
                 if tag == 'ELITE' and action['key'] in enemies_to_replace:
                     action['key'] = enemies_to_replace[action['key']]

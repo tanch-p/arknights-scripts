@@ -36136,5 +36136,733 @@
       "hits": 1
     },
     "type": ["melee", "infection", "ELITE"]
+  },
+  "enemy_2085_skzjxd": {
+    "id": "FAT",
+    "key": "enemy_2085_skzjxd",
+    "sortId": 844,
+    "name_zh": "圆仔",
+    "name_ja": "",
+    "name_en": "",
+    "stats": [
+      {
+        "hp": 50000,
+        "atk": 500,
+        "def": 0,
+        "res": 50.0,
+        "aspd": 1.0,
+        "range": -1.0,
+        "weight": 5,
+        "lifepoint": 0,
+        "ms": 0.35,
+        "epDamageResistance": 0.0,
+        "epResistance": 0.0
+      },
+      {
+        "hp": 60000,
+        "atk": 500,
+        "def": 100,
+        "res": 50.0,
+        "aspd": 1.0,
+        "range": -1.0,
+        "weight": 5,
+        "lifepoint": 0,
+        "ms": 0.35,
+        "epDamageResistance": 0.0,
+        "epResistance": 0.0
+      },
+      {
+        "hp": 80000,
+        "atk": 500,
+        "def": 200,
+        "res": 50.0,
+        "aspd": 1.0,
+        "range": -1.0,
+        "weight": 5,
+        "lifepoint": 0,
+        "ms": 0.35,
+        "epDamageResistance": 0.0,
+        "epResistance": 0.0
+      }
+    ],
+    "special": [],
+    "status_immune": ["silence"],
+    "normal_attack": {
+      "atk_type": ["no_attack", null],
+      "hits": 1
+    },
+    "type": ["no_attack", "NORMAL"]
+  },
+  "enemy_2063_skzlch": {
+    "id": "SFF1",
+    "key": "enemy_2063_skzlch",
+    "sortId": 867,
+    "name_zh": "萨卡兹迷宫劝导者",
+    "name_ja": "",
+    "name_en": "",
+    "stats": [
+      {
+        "hp": 5000,
+        "atk": 260,
+        "def": 100,
+        "res": 50.0,
+        "aspd": 3.2,
+        "range": 1.5,
+        "weight": 1,
+        "lifepoint": 1,
+        "ms": 0.7,
+        "epDamageResistance": 0.0,
+        "epResistance": 0.0
+      }
+    ],
+    "special": [],
+    "status_immune": [],
+    "normal_attack": {
+      "atk_type": ["ranged", "arts"],
+      "hits": 1
+    },
+    "type": ["ranged", "sarkaz", "NORMAL"]
+  },
+  "enemy_2064_skzwdd": {
+    "id": "SFF2",
+    "key": "enemy_2064_skzwdd",
+    "sortId": 868,
+    "name_zh": "萨卡兹迷宫归乡者",
+    "name_ja": "",
+    "name_en": "",
+    "stats": [
+      {
+        "hp": 10000,
+        "atk": 800,
+        "def": 700,
+        "res": 20.0,
+        "aspd": 3.5,
+        "range": 0.0,
+        "weight": 3,
+        "lifepoint": 1,
+        "ms": 0.6,
+        "epDamageResistance": 0.0,
+        "epResistance": 0.0
+      }
+    ],
+    "special": [],
+    "status_immune": [],
+    "normal_attack": {
+      "atk_type": ["melee", "phys"],
+      "hits": 1
+    },
+    "type": ["melee", "sarkaz", "NORMAL"]
+  },
+  "enemy_2065_skzjs": {
+    "id": "SFF3",
+    "key": "enemy_2065_skzjs",
+    "sortId": 869,
+    "name_zh": "恐卡兹",
+    "name_ja": "",
+    "name_en": "",
+    "stats": [
+      {
+        "hp": 15000,
+        "atk": 800,
+        "def": 350,
+        "res": 50.0,
+        "aspd": 2.2,
+        "range": 0.0,
+        "weight": 2,
+        "lifepoint": 1,
+        "ms": 0.8,
+        "epDamageResistance": 0.0,
+        "epResistance": 0.0
+      }
+    ],
+    "special": [],
+    "status_immune": ["silence"],
+    "normal_attack": {
+      "atk_type": ["melee", "phys"],
+      "hits": 1
+    },
+    "type": ["melee", "NORMAL"]
+  },
+  "enemy_2066_skzlcp": {
+    "id": "SFF4",
+    "key": "enemy_2066_skzlcp",
+    "sortId": 870,
+    "name_zh": "萨卡兹迷宫织咒者",
+    "name_ja": "",
+    "name_en": "",
+    "stats": [
+      {
+        "hp": 15000,
+        "atk": 600,
+        "def": 350,
+        "res": 60.0,
+        "aspd": 3.5,
+        "range": 2.0,
+        "weight": 3,
+        "lifepoint": 1,
+        "ms": 0.6,
+        "epDamageResistance": 0.0,
+        "epResistance": 0.0
+      }
+    ],
+    "special": [],
+    "status_immune": [],
+    "normal_attack": {
+      "atk_type": ["ranged", "arts"],
+      "hits": 1
+    },
+    "type": ["ranged", "sarkaz", "ELITE"]
+  },
+  "enemy_2067_skzcy": {
+    "id": "SFF5",
+    "key": "enemy_2067_skzcy",
+    "sortId": 871,
+    "name_zh": "“门”",
+    "name_ja": "",
+    "name_en": "",
+    "stats": [
+      {
+        "hp": 50000,
+        "atk": 1000,
+        "def": 300,
+        "res": 10.0,
+        "aspd": 3.5,
+        "range": 0.0,
+        "weight": 5,
+        "lifepoint": 1,
+        "ms": 0.7,
+        "epDamageResistance": 0.0,
+        "epResistance": 0.0
+      }
+    ],
+    "special": [],
+    "status_immune": ["stun", "silence", "sleep", "freeze", "levitate"],
+    "normal_attack": {
+      "atk_type": ["melee", "arts"],
+      "hits": 1
+    },
+    "type": ["melee", "ELITE"]
+  },
+  "enemy_2068_skzirn": {
+    "id": "SFF6",
+    "key": "enemy_2068_skzirn",
+    "sortId": 872,
+    "name_zh": "圣卫自动机",
+    "name_ja": "",
+    "name_en": "",
+    "stats": [
+      {
+        "hp": 10000,
+        "atk": 800,
+        "def": 500,
+        "res": 0.0,
+        "aspd": 5.0,
+        "range": 0.0,
+        "weight": 2,
+        "lifepoint": 0,
+        "ms": 0.2,
+        "epDamageResistance": 0.0,
+        "epResistance": 0.0
+      }
+    ],
+    "special": [],
+    "status_immune": [],
+    "normal_attack": {
+      "atk_type": ["no_attack", null],
+      "hits": 1
+    },
+    "type": ["no_attack", "NORMAL"]
+  },
+  "enemy_2069_skzbox": {
+    "id": "SFF7",
+    "key": "enemy_2069_skzbox",
+    "sortId": 873,
+    "name_zh": "迷珍巧械",
+    "name_ja": "",
+    "name_en": "",
+    "stats": [
+      {
+        "hp": 8000,
+        "atk": 700,
+        "def": 550,
+        "res": 20.0,
+        "aspd": 2.0,
+        "range": 0.0,
+        "weight": 2,
+        "lifepoint": 0,
+        "ms": 0.7,
+        "epDamageResistance": 0.0,
+        "epResistance": 0.0
+      },
+      {
+        "hp": 15000,
+        "atk": 800,
+        "def": 600,
+        "res": 20.0,
+        "aspd": 2.0,
+        "range": 0.0,
+        "weight": 2,
+        "lifepoint": 0,
+        "ms": 0.7,
+        "epDamageResistance": 0.0,
+        "epResistance": 0.0
+      },
+      {
+        "hp": 25000,
+        "atk": 1200,
+        "def": 550,
+        "res": 20.0,
+        "aspd": 2.0,
+        "range": 0.0,
+        "weight": 2,
+        "lifepoint": 0,
+        "ms": 0.7,
+        "epDamageResistance": 0.0,
+        "epResistance": 0.0
+      }
+    ],
+    "special": [],
+    "status_immune": ["levitate"],
+    "normal_attack": {
+      "atk_type": ["melee", "phys"],
+      "hits": 1
+    },
+    "type": ["melee", "ELITE"]
+  },
+  "enemy_2070_skzfbx": {
+    "id": "SFF8",
+    "key": "enemy_2070_skzfbx",
+    "sortId": 874,
+    "name_zh": "迷珍飞械",
+    "name_ja": "",
+    "name_en": "",
+    "stats": [
+      {
+        "hp": 8000,
+        "atk": 700,
+        "def": 550,
+        "res": 20.0,
+        "aspd": 2.0,
+        "range": 0.0,
+        "weight": 2,
+        "lifepoint": 0,
+        "ms": 0.35,
+        "epDamageResistance": 0.0,
+        "epResistance": 0.0
+      },
+      {
+        "hp": 15000,
+        "atk": 800,
+        "def": 600,
+        "res": 20.0,
+        "aspd": 2.0,
+        "range": 0.0,
+        "weight": 2,
+        "lifepoint": 0,
+        "ms": 0.35,
+        "epDamageResistance": 0.0,
+        "epResistance": 0.0
+      },
+      {
+        "hp": 25000,
+        "atk": 1200,
+        "def": 550,
+        "res": 20.0,
+        "aspd": 2.0,
+        "range": 0.0,
+        "weight": 2,
+        "lifepoint": 0,
+        "ms": 0.35,
+        "epDamageResistance": 0.0,
+        "epResistance": 0.0
+      }
+    ],
+    "special": [],
+    "status_immune": ["levitate"],
+    "normal_attack": {
+      "atk_type": ["melee", "phys"],
+      "hits": 1
+    },
+    "type": ["melee", "ELITE"]
+  },
+  "enemy_2071_skzdny": {
+    "id": "LMR",
+    "key": "enemy_2071_skzdny",
+    "sortId": 1000,
+    "name_zh": "菈玛莲",
+    "name_ja": "",
+    "name_en": "",
+    "stats": [
+      {
+        "hp": 55000,
+        "atk": 900,
+        "def": 500,
+        "res": 70.0,
+        "aspd": 3.9,
+        "range": 3.0,
+        "weight": 5,
+        "lifepoint": 5,
+        "ms": 0.5,
+        "epDamageResistance": 0.0,
+        "epResistance": 0.0
+      }
+    ],
+    "special": [],
+    "status_immune": ["stun", "silence", "sleep", "freeze", "levitate"],
+    "normal_attack": {
+      "atk_type": ["ranged", "arts"],
+      "hits": 1
+    },
+    "type": ["ranged", "sarkaz", "BOSS"]
+  },
+  "enemy_2072_skdny2": {
+    "id": "LMS",
+    "key": "enemy_2072_skdny2",
+    "sortId": 1001,
+    "name_zh": "编织泪水的术师",
+    "name_ja": "",
+    "name_en": "",
+    "stats": [
+      {
+        "hp": 55000,
+        "atk": 350,
+        "def": 500,
+        "res": 70.0,
+        "aspd": 3.9,
+        "range": 5.0,
+        "weight": 5,
+        "lifepoint": 5,
+        "ms": 0.5,
+        "epDamageResistance": 0.0,
+        "epResistance": 0.0
+      }
+    ],
+    "special": [],
+    "status_immune": ["stun", "silence", "sleep", "freeze", "levitate"],
+    "normal_attack": {
+      "atk_type": ["ranged", "arts"],
+      "hits": 1
+    },
+    "type": ["ranged", "sarkaz", "BOSS"]
+  },
+  "enemy_2074_skzgly": {
+    "id": "GLT",
+    "key": "enemy_2074_skzgly",
+    "sortId": 1002,
+    "name_zh": "歌利亚",
+    "name_ja": "",
+    "name_en": "",
+    "stats": [
+      {
+        "hp": 80000,
+        "atk": 2350,
+        "def": 1000,
+        "res": 25.0,
+        "aspd": 6.0,
+        "range": 0.0,
+        "weight": 5,
+        "lifepoint": 5,
+        "ms": 0.5,
+        "epDamageResistance": 0.0,
+        "epResistance": 0.0
+      }
+    ],
+    "special": [],
+    "status_immune": ["silence"],
+    "normal_attack": {
+      "atk_type": ["melee", "phys"],
+      "hits": 1
+    },
+    "type": ["melee", "sarkaz", "BOSS"]
+  },
+  "enemy_2075_skgly2": {
+    "id": "GLS",
+    "key": "enemy_2075_skgly2",
+    "sortId": 1003,
+    "name_zh": "遗忘创伤的战士",
+    "name_ja": "",
+    "name_en": "",
+    "stats": [
+      {
+        "hp": 80000,
+        "atk": 1850,
+        "def": 1000,
+        "res": 20.0,
+        "aspd": 6.0,
+        "range": 0.0,
+        "weight": 5,
+        "lifepoint": 5,
+        "ms": 0.5,
+        "epDamageResistance": 0.0,
+        "epResistance": 0.0
+      }
+    ],
+    "special": [],
+    "status_immune": ["silence"],
+    "normal_attack": {
+      "atk_type": ["melee", "phys"],
+      "hits": 1
+    },
+    "type": ["melee", "sarkaz", "BOSS"]
+  },
+  "enemy_2076_skzklz": {
+    "id": "KST",
+    "key": "enemy_2076_skzklz",
+    "sortId": 1004,
+    "name_zh": "凯尔希",
+    "name_ja": "",
+    "name_en": "",
+    "stats": [
+      {
+        "hp": 50000,
+        "atk": 1000,
+        "def": 500,
+        "res": 50.0,
+        "aspd": 2.0,
+        "range": 0.0,
+        "weight": 10,
+        "lifepoint": 5,
+        "ms": 0.39,
+        "epDamageResistance": 0.0,
+        "epResistance": 0.0
+      }
+    ],
+    "special": [],
+    "status_immune": ["stun", "silence", "sleep", "freeze", "levitate"],
+    "normal_attack": {
+      "atk_type": ["melee", "phys"],
+      "hits": 1
+    },
+    "type": ["melee", "BOSS"]
+  },
+  "enemy_2077_skklz2": {
+    "id": "KSS",
+    "key": "enemy_2077_skklz2",
+    "sortId": 1005,
+    "name_zh": "预见末日的贤人",
+    "name_ja": "",
+    "name_en": "",
+    "stats": [
+      {
+        "hp": 37500,
+        "atk": 1500,
+        "def": 500,
+        "res": 50.0,
+        "aspd": 2.0,
+        "range": 0.0,
+        "weight": 10,
+        "lifepoint": 5,
+        "ms": 0.39,
+        "epDamageResistance": 0.0,
+        "epResistance": 0.0
+      }
+    ],
+    "special": [],
+    "status_immune": ["stun", "silence", "sleep", "freeze", "levitate"],
+    "normal_attack": {
+      "atk_type": ["melee", "phys"],
+      "hits": 1
+    },
+    "type": ["melee", "BOSS"]
+  },
+  "enemy_2078_skzmst": {
+    "id": "M2T",
+    "key": "enemy_2078_skzmst",
+    "sortId": 1006,
+    "name_zh": "Mon2tr",
+    "name_ja": "",
+    "name_en": "",
+    "stats": [
+      {
+        "hp": 50000,
+        "atk": 800,
+        "def": 1000,
+        "res": 0.0,
+        "aspd": 5.0,
+        "range": 0.0,
+        "weight": 5,
+        "lifepoint": 5,
+        "ms": 0.39,
+        "epDamageResistance": 0.0,
+        "epResistance": 0.0
+      }
+    ],
+    "special": [],
+    "status_immune": ["stun", "silence", "sleep", "freeze", "levitate"],
+    "normal_attack": {
+      "atk_type": ["melee", "phys"],
+      "hits": 1
+    },
+    "type": ["melee", "BOSS"]
+  },
+  "enemy_2079_skmst2": {
+    "id": "M2S",
+    "key": "enemy_2079_skmst2",
+    "sortId": 1007,
+    "name_zh": "迭代的怪物",
+    "name_ja": "",
+    "name_en": "",
+    "stats": [
+      {
+        "hp": 35000,
+        "atk": 1200,
+        "def": 1000,
+        "res": 0.0,
+        "aspd": 5.0,
+        "range": 0.0,
+        "weight": 5,
+        "lifepoint": 5,
+        "ms": 0.39,
+        "epDamageResistance": 0.0,
+        "epResistance": 0.0
+      }
+    ],
+    "special": [],
+    "status_immune": ["stun", "silence", "sleep", "freeze", "levitate"],
+    "normal_attack": {
+      "atk_type": ["melee", "phys"],
+      "hits": 1
+    },
+    "type": ["melee", "BOSS"]
+  },
+  "enemy_2080_skzlwy": {
+    "id": "FMT",
+    "key": "enemy_2080_skzlwy",
+    "sortId": 1008,
+    "name_zh": "弗莱蒙特，诸思之解答",
+    "name_ja": "",
+    "name_en": "",
+    "stats": [
+      {
+        "hp": 100000,
+        "atk": 1250,
+        "def": 1500,
+        "res": 80.0,
+        "aspd": 3.5,
+        "range": 2.0,
+        "weight": 7,
+        "lifepoint": 30,
+        "ms": 0.5,
+        "epDamageResistance": 0.0,
+        "epResistance": 0.0
+      }
+    ],
+    "special": [],
+    "status_immune": ["stun", "silence", "sleep", "freeze", "levitate"],
+    "normal_attack": {
+      "atk_type": ["ranged", "arts"],
+      "hits": 1
+    },
+    "type": ["ranged", "BOSS"]
+  },
+  "enemy_2081_skztxs": {
+    "id": "TRS",
+    "key": "enemy_2081_skztxs",
+    "sortId": 1009,
+    "name_zh": "特雷西斯，黑冠尊主",
+    "name_ja": "",
+    "name_en": "",
+    "stats": [
+      {
+        "hp": 120000,
+        "atk": 1800,
+        "def": 2000,
+        "res": 60.0,
+        "aspd": 3.8,
+        "range": -1.0,
+        "weight": 5,
+        "lifepoint": 30,
+        "ms": 0.35,
+        "epDamageResistance": 0.0,
+        "epResistance": 0.0
+      }
+    ],
+    "special": [],
+    "status_immune": ["stun", "silence", "sleep", "freeze", "levitate"],
+    "normal_attack": {
+      "atk_type": ["melee", "phys"],
+      "hits": 1
+    },
+    "type": ["melee", "sarkaz", "BOSS"]
+  },
+  "enemy_2082_skzdd": {
+    "id": "SPT",
+    "key": "enemy_2082_skzdd",
+    "sortId": 1010,
+    "name_zh": "博卓卡斯替，圣卫铳骑",
+    "name_ja": "",
+    "name_en": "",
+    "stats": [
+      {
+        "hp": 150000,
+        "atk": 3000,
+        "def": 5000,
+        "res": 80.0,
+        "aspd": 3.8,
+        "range": 2.0,
+        "weight": 10,
+        "lifepoint": 30,
+        "ms": 0.35,
+        "epDamageResistance": 0.0,
+        "epResistance": 0.0
+      }
+    ],
+    "special": [],
+    "status_immune": [
+      "stun",
+      "silence",
+      "sleep",
+      "freeze",
+      "levitate",
+      "tremble"
+    ],
+    "normal_attack": {
+      "atk_type": ["all", "phys"],
+      "hits": 1
+    },
+    "type": ["all", "sarkaz", "BOSS"]
+  },
+  "enemy_2084_skzcan": {
+    "id": "KNS",
+    "key": "enemy_2084_skzcan",
+    "sortId": 1011,
+    "name_zh": "古德因纳夫先生",
+    "name_ja": "",
+    "name_en": "",
+    "stats": [
+      {
+        "hp": 80000,
+        "atk": 500,
+        "def": 1000,
+        "res": 50.0,
+        "aspd": 1.0,
+        "range": -1.0,
+        "weight": 7,
+        "lifepoint": 5,
+        "ms": 0.2,
+        "epDamageResistance": 0.0,
+        "epResistance": 0.0
+      },
+      {
+        "hp": 120000,
+        "atk": 750,
+        "def": 1000,
+        "res": 50.0,
+        "aspd": 1.0,
+        "range": -1.0,
+        "weight": 7,
+        "lifepoint": 5,
+        "ms": 0.2,
+        "epDamageResistance": 0.0,
+        "epResistance": 0.0
+      }
+    ],
+    "special": [],
+    "status_immune": ["silence"],
+    "normal_attack": {
+      "atk_type": ["no_attack", null],
+      "hits": 1
+    },
+    "type": ["no_attack", "BOSS"]
   }
 }

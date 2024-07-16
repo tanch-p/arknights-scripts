@@ -1521,13 +1521,8 @@
       },
       {
         "key": "enemy_1109_uabone",
-        "min_count": 2,
-        "max_count": 2
-      },
-      {
-        "key": "enemy_1013_airdrp",
-        "min_count": 20,
-        "max_count": 20
+        "min_count": 22,
+        "max_count": 22
       },
       {
         "key": "enemy_2001_duckmi",
@@ -2141,12 +2136,12 @@
         "max_count": 1
       },
       {
-        "key": "enemy_1018_aoemag",
+        "key": "enemy_1036_amraoe",
         "min_count": 0,
         "max_count": 4
       },
       {
-        "key": "enemy_1038_lunmag",
+        "key": "enemy_1038_lunmag_2",
         "min_count": 0,
         "max_count": 4
       },
@@ -2456,7 +2451,7 @@
       },
       {
         "key": "enemy_1111_ucommd_2",
-        "min_count": 5,
+        "min_count": 6,
         "max_count": 6
       },
       {
@@ -2468,16 +2463,6 @@
         "key": "enemy_1107_uoffcr_2",
         "min_count": 3,
         "max_count": 3
-      },
-      {
-        "key": "enemy_1109_uabone",
-        "min_count": 0,
-        "max_count": 1
-      },
-      {
-        "key": "enemy_1111_ucommd",
-        "min_count": 0,
-        "max_count": 1
       },
       {
         "key": "enemy_2001_duckmi",
@@ -2693,7 +2678,7 @@
       },
       {
         "key": "enemy_1021_bslime_2",
-        "min_count": 6,
+        "min_count": 10,
         "max_count": 10
       },
       {
@@ -2715,11 +2700,6 @@
         "key": "enemy_1040_bombd_2",
         "min_count": 0,
         "max_count": 2
-      },
-      {
-        "key": "enemy_1021_bslime",
-        "min_count": 0,
-        "max_count": 4
       },
       {
         "key": "enemy_2001_duckmi",
@@ -3137,13 +3117,8 @@
         "max_count": 3
       },
       {
-        "key": "enemy_1118_lidbox",
-        "min_count": 0,
-        "max_count": 5
-      },
-      {
-        "key": "enemy_1119_vofsd",
-        "min_count": 0,
+        "key": "enemy_1118_lidbox_2",
+        "min_count": 5,
         "max_count": 5
       },
       {
@@ -3629,13 +3604,8 @@
       },
       {
         "key": "enemy_1143_merrpg_2",
-        "min_count": 5,
+        "min_count": 10,
         "max_count": 10
-      },
-      {
-        "key": "enemy_1143_merrpg",
-        "min_count": 0,
-        "max_count": 5
       },
       {
         "key": "enemy_2001_duckmi",
@@ -4049,7 +4019,7 @@
     "elite_enemy_list": [
       {
         "key": "enemy_1056_ganwar_2",
-        "min_count": 11,
+        "min_count": 21,
         "max_count": 21
       },
       {
@@ -4071,11 +4041,6 @@
         "key": "enemy_1017_defdrn",
         "min_count": 3,
         "max_count": 3
-      },
-      {
-        "key": "enemy_1056_ganwar",
-        "min_count": 0,
-        "max_count": 10
       },
       {
         "key": "enemy_2001_duckmi",
@@ -5137,7 +5102,7 @@
     "elite_enemy_list": [
       {
         "key": "enemy_1112_emppnt_2",
-        "min_count": 2,
+        "min_count": 5,
         "max_count": 5
       },
       {
@@ -5169,11 +5134,6 @@
         "key": "enemy_1076_bsthmr_2",
         "min_count": 4,
         "max_count": 4
-      },
-      {
-        "key": "enemy_1112_emppnt",
-        "min_count": 0,
-        "max_count": 3
       },
       {
         "key": "enemy_2001_duckmi",
@@ -8883,13 +8843,8 @@
       },
       {
         "key": "enemy_1221_dzomg_2",
-        "min_count": 2,
-        "max_count": 2
-      },
-      {
-        "key": "enemy_1221_dzomg",
-        "min_count": 2,
-        "max_count": 2
+        "min_count": 4,
+        "max_count": 4
       },
       {
         "key": "enemy_2034_sythef",
@@ -13913,17 +13868,12 @@
       {
         "key": "enemy_1118_lidbox",
         "min_count": 3,
-        "max_count": 3
+        "max_count": 8
       },
       {
         "key": "enemy_1116_liprr",
         "min_count": 7,
         "max_count": 12
-      },
-      {
-        "key": "enemy_1116_liprr_2",
-        "min_count": 0,
-        "max_count": 5
       },
       {
         "key": "enemy_2034_sythef",
@@ -14177,18 +14127,13 @@
       },
       {
         "key": "enemy_1034_laxe_2",
-        "min_count": 2,
-        "max_count": 2
+        "min_count": 3,
+        "max_count": 3
       },
       {
         "key": "enemy_1278_sgbow",
         "min_count": 2,
         "max_count": 2
-      },
-      {
-        "key": "enemy_1034_laxe",
-        "min_count": 1,
-        "max_count": 1
       },
       {
         "key": "enemy_1277_sgman_2",
@@ -14444,13 +14389,8 @@
       },
       {
         "key": "enemy_1169_duphlx_2",
-        "min_count": 3,
+        "min_count": 7,
         "max_count": 7
-      },
-      {
-        "key": "enemy_1169_duphlx",
-        "min_count": 0,
-        "max_count": 4
       },
       {
         "key": "enemy_1036_amraoe",
@@ -15282,7 +15222,7 @@
       {
         "key": "enemy_1095_ccripr_2",
         "min_count": 2,
-        "max_count": 2
+        "max_count": 3
       },
       {
         "key": "enemy_2044_smwiz",
@@ -15291,23 +15231,13 @@
       },
       {
         "key": "enemy_1096_ccwitch_2",
-        "min_count": 1,
-        "max_count": 1
-      },
-      {
-        "key": "enemy_1096_ccwitch",
-        "min_count": 1,
-        "max_count": 1
+        "min_count": 2,
+        "max_count": 2
       },
       {
         "key": "enemy_1093_ccsbr_2",
         "min_count": 0,
         "max_count": 4
-      },
-      {
-        "key": "enemy_1095_ccripr",
-        "min_count": 0,
-        "max_count": 1
       },
       {
         "key": "enemy_2034_sythef",
@@ -15784,7 +15714,7 @@
         "max_count": 1
       },
       {
-        "key": "enemy_1071_dftman_2",
+        "key": "enemy_1075_dmgswd",
         "min_count": 0,
         "max_count": 3
       },
@@ -16827,14 +16757,9 @@
         "max_count": 2
       },
       {
-        "key": "enemy_1112_emppnt",
-        "min_count": 1,
-        "max_count": 1
-      },
-      {
         "key": "enemy_1112_emppnt_2",
-        "min_count": 2,
-        "max_count": 2
+        "min_count": 3,
+        "max_count": 3
       },
       {
         "key": "enemy_2044_smwiz",
@@ -18169,6 +18094,5781 @@
       },
       {
         "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": null
+  },
+  "level_rogue4_b-1": {
+    "levelId": "level_rogue4_b-1",
+    "code": "ISW-NO",
+    "name_zh": "守望的河水",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": null,
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": null,
+    "all_possible_enemy_count": [39],
+    "sp_count": null,
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": null,
+    "sp_terrain": null,
+    "enemy_list": [
+      {
+        "key": "enemy_1243_ltswar",
+        "min_count": 4,
+        "max_count": 4
+      },
+      {
+        "key": "enemy_1238_ltmob",
+        "min_count": 27,
+        "max_count": 27
+      },
+      {
+        "key": "enemy_2063_skzlch",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_2071_skzdny",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2066_skzlcp",
+        "min_count": 2,
+        "max_count": 2
+      }
+    ],
+    "elite_enemy_list": null
+  },
+  "level_rogue4_b-1-b": {
+    "levelId": "level_rogue4_b-1-b",
+    "code": "ISW-NO",
+    "name_zh": "或然面纱",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": null,
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": null,
+    "all_possible_enemy_count": [38],
+    "sp_count": null,
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": null,
+    "sp_terrain": null,
+    "enemy_list": [
+      {
+        "key": "enemy_1238_ltmob",
+        "min_count": 29,
+        "max_count": 29
+      },
+      {
+        "key": "enemy_2063_skzlch",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_2072_skdny2",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2066_skzlcp",
+        "min_count": 3,
+        "max_count": 3
+      }
+    ],
+    "elite_enemy_list": null
+  },
+  "level_rogue4_b-1-c": {
+    "levelId": "level_rogue4_b-1-c",
+    "code": "ISW-NO",
+    "name_zh": "离歌的庭院",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": null,
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": null,
+    "all_possible_enemy_count": [32],
+    "sp_count": null,
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": null,
+    "sp_terrain": null,
+    "enemy_list": [
+      {
+        "key": "enemy_2072_skdny2",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1229_darmy",
+        "min_count": 31,
+        "max_count": 31
+      }
+    ],
+    "elite_enemy_list": null
+  },
+  "level_rogue4_b-2": {
+    "levelId": "level_rogue4_b-2",
+    "code": "ISW-NO",
+    "name_zh": "卫士不语功",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": null,
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [],
+    "all_possible_enemy_count": [38],
+    "sp_count": null,
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": null,
+    "sp_terrain": null,
+    "enemy_list": [
+      {
+        "key": "enemy_1071_dftman",
+        "min_count": 24,
+        "max_count": 24
+      },
+      {
+        "key": "enemy_1012_dcross_2",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_2064_skzwdd",
+        "min_count": 8,
+        "max_count": 8
+      },
+      {
+        "key": "enemy_2074_skzgly",
+        "min_count": 1,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": null
+  },
+  "level_rogue4_b-2-b": {
+    "levelId": "level_rogue4_b-2-b",
+    "code": "ISW-NO",
+    "name_zh": "奉献",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": null,
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [],
+    "all_possible_enemy_count": [39],
+    "sp_count": null,
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": null,
+    "sp_terrain": null,
+    "enemy_list": [
+      {
+        "key": "enemy_1071_dftman",
+        "min_count": 20,
+        "max_count": 20
+      },
+      {
+        "key": "enemy_1317_wdexg",
+        "min_count": 10,
+        "max_count": 10
+      },
+      {
+        "key": "enemy_2064_skzwdd",
+        "min_count": 8,
+        "max_count": 8
+      },
+      {
+        "key": "enemy_2075_skgly2",
+        "min_count": 1,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": null
+  },
+  "level_rogue4_b-2-c": {
+    "levelId": "level_rogue4_b-2-c",
+    "code": "ISW-NO",
+    "name_zh": "赴敌者",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": null,
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": null,
+    "all_possible_enemy_count": [39],
+    "sp_count": null,
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": null,
+    "sp_terrain": [
+      {
+        "tileKey": "tile_hole",
+        "alias": null,
+        "blackboard": null
+      },
+      {
+        "tileKey": "tile_infection",
+        "alias": null,
+        "blackboard": {
+          "damage": 100.0,
+          "atk": 0.5,
+          "attack_speed": 50.0,
+          "duration": 300.0
+        }
+      }
+    ],
+    "enemy_list": [
+      {
+        "key": "enemy_1267_nhpbr",
+        "min_count": 26,
+        "max_count": 26
+      },
+      {
+        "key": "enemy_1275_dwlock",
+        "min_count": 4,
+        "max_count": 4
+      },
+      {
+        "key": "enemy_2064_skzwdd",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1418_mmkonm_2",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_2075_skgly2",
+        "min_count": 1,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": null
+  },
+  "level_rogue4_b-3": {
+    "levelId": "level_rogue4_b-3",
+    "code": "ISW-NO",
+    "name_zh": "存亡之战",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": null,
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": null,
+    "all_possible_enemy_count": [25],
+    "sp_count": null,
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": null,
+    "sp_terrain": null,
+    "enemy_list": [
+      {
+        "key": "enemy_2076_skzklz",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2078_skzmst",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1027_mob",
+        "min_count": 13,
+        "max_count": 13
+      },
+      {
+        "key": "enemy_1141_merbow",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_1080_sotidp",
+        "min_count": 5,
+        "max_count": 5
+      }
+    ],
+    "elite_enemy_list": null
+  },
+  "level_rogue4_b-3-b": {
+    "levelId": "level_rogue4_b-3-b",
+    "code": "ISW-NO",
+    "name_zh": "斩首",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": null,
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": null,
+    "all_possible_enemy_count": [25],
+    "sp_count": null,
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": null,
+    "sp_terrain": null,
+    "enemy_list": [
+      {
+        "key": "enemy_2079_skmst2",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2077_skklz2",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1027_mob",
+        "min_count": 13,
+        "max_count": 13
+      },
+      {
+        "key": "enemy_1141_merbow",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_1080_sotidp",
+        "min_count": 5,
+        "max_count": 5
+      }
+    ],
+    "elite_enemy_list": null
+  },
+  "level_rogue4_b-3-c": {
+    "levelId": "level_rogue4_b-3-c",
+    "code": "ISW-NO",
+    "name_zh": "王冠之下",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": null,
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": null,
+    "all_possible_enemy_count": [40],
+    "sp_count": null,
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": null,
+    "sp_terrain": null,
+    "enemy_list": [
+      {
+        "key": "enemy_1081_sotisd",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1108_uterer",
+        "min_count": 7,
+        "max_count": 7
+      },
+      {
+        "key": "enemy_1107_uoffcr",
+        "min_count": 16,
+        "max_count": 16
+      },
+      {
+        "key": "enemy_1110_uamord",
+        "min_count": 7,
+        "max_count": 7
+      },
+      {
+        "key": "enemy_2077_skklz2",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2079_skmst2",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1113_empace_2",
+        "min_count": 5,
+        "max_count": 5
+      }
+    ],
+    "elite_enemy_list": null
+  },
+  "level_rogue4_b-4": {
+    "levelId": "level_rogue4_b-4",
+    "code": "ISW-DF",
+    "name_zh": "紧急授课",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": null,
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [],
+    "all_possible_enemy_count": [70],
+    "sp_count": null,
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": null,
+    "sp_terrain": [
+      {
+        "tileKey": "tile_hole",
+        "alias": null,
+        "blackboard": null
+      }
+    ],
+    "enemy_list": [
+      {
+        "key": "enemy_2080_skzlwy",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1242_ltsmag",
+        "min_count": 7,
+        "max_count": 7
+      },
+      {
+        "key": "enemy_1377_ltnclo",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_1372_ltntpt",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1373_ltnhor",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1243_ltswar",
+        "min_count": 7,
+        "max_count": 7
+      },
+      {
+        "key": "enemy_1376_ltndru_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1371_ltnflu",
+        "min_count": 20,
+        "max_count": 20
+      },
+      {
+        "key": "enemy_2064_skzwdd",
+        "min_count": 12,
+        "max_count": 12
+      },
+      {
+        "key": "enemy_2064_skzwdd_a",
+        "min_count": 6,
+        "max_count": 6
+      },
+      {
+        "key": "enemy_2066_skzlcp",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1092_mdgint",
+        "min_count": 2,
+        "max_count": 2
+      }
+    ],
+    "elite_enemy_list": null
+  },
+  "level_rogue4_b-5": {
+    "levelId": "level_rogue4_b-5",
+    "code": "ISW-DF",
+    "name_zh": "朝谒",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": null,
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": null,
+    "all_possible_enemy_count": [65],
+    "sp_count": null,
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": null,
+    "sp_terrain": null,
+    "enemy_list": [
+      {
+        "key": "enemy_2081_skztxs",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1220_dzoms_2_a",
+        "min_count": 8,
+        "max_count": 8
+      },
+      {
+        "key": "enemy_1220_dzoms_2",
+        "min_count": 54,
+        "max_count": 54
+      },
+      {
+        "key": "enemy_1224_dsuply",
+        "min_count": 2,
+        "max_count": 2
+      }
+    ],
+    "elite_enemy_list": null
+  },
+  "level_rogue4_b-6": {
+    "levelId": "level_rogue4_b-6",
+    "code": "ISW-DF",
+    "name_zh": "圣城",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": null,
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": null,
+    "all_possible_enemy_count": [91],
+    "sp_count": null,
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": null,
+    "sp_terrain": [
+      {
+        "tileKey": "tile_hole",
+        "alias": null,
+        "blackboard": null
+      }
+    ],
+    "enemy_list": [
+      {
+        "key": "enemy_1010_demon_a",
+        "min_count": 18,
+        "max_count": 18
+      },
+      {
+        "key": "enemy_1220_dzoms_2",
+        "min_count": 12,
+        "max_count": 12
+      },
+      {
+        "key": "enemy_1012_dcross_a",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_1171_durokt_2",
+        "min_count": 15,
+        "max_count": 15
+      },
+      {
+        "key": "enemy_2068_skzirn",
+        "min_count": 14,
+        "max_count": 14
+      },
+      {
+        "key": "enemy_2082_skzdd",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1216_cansld_2",
+        "min_count": 24,
+        "max_count": 24
+      },
+      {
+        "key": "enemy_2067_skzcy",
+        "min_count": 2,
+        "max_count": 2
+      }
+    ],
+    "elite_enemy_list": null
+  },
+  "level_rogue4_t-1": {
+    "levelId": "level_rogue4_t-1",
+    "code": "ISW-SP",
+    "name_zh": "失败的试胆",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": null,
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": null,
+    "all_possible_enemy_count": [20],
+    "sp_count": null,
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": null,
+    "sp_terrain": [
+      {
+        "tileKey": "tile_hole",
+        "alias": null,
+        "blackboard": null
+      }
+    ],
+    "enemy_list": [
+      {
+        "key": "enemy_1281_sgcar",
+        "min_count": 4,
+        "max_count": 4
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1277_sgman",
+        "min_count": 12,
+        "max_count": 12
+      },
+      {
+        "key": "enemy_3004_speople",
+        "min_count": 3,
+        "max_count": 3
+      }
+    ],
+    "elite_enemy_list": null
+  },
+  "level_rogue4_t-2": {
+    "levelId": "level_rogue4_t-2",
+    "code": "ISW-SP",
+    "name_zh": "信号灯",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": null,
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.4,
+          "def": 1.4,
+          "hp": 1.4
+        }
+      },
+      {
+        "targets": ["enemy_2001_duckmi"],
+        "mods": {
+          "def": 1.4,
+          "hp": 1.3
+        }
+      }
+    ],
+    "all_possible_enemy_count": [14],
+    "sp_count": null,
+    "all_possible_elite_enemy_count": [36],
+    "elite_sp_count": null,
+    "sp_enemy": null,
+    "sp_terrain": [
+      {
+        "tileKey": "tile_hole",
+        "alias": null,
+        "blackboard": null
+      }
+    ],
+    "enemy_list": [
+      {
+        "key": "enemy_3005_lpeopl",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1302_ymtro",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1281_sgcar",
+        "min_count": 4,
+        "max_count": 4
+      },
+      {
+        "key": "enemy_1278_sgbow",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1277_sgman",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1279_sgbdg",
+        "min_count": 1,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": [
+      {
+        "key": "enemy_1279_sgbdg_2",
+        "min_count": 7,
+        "max_count": 7
+      },
+      {
+        "key": "enemy_3005_lpeopl",
+        "min_count": 10,
+        "max_count": 10
+      },
+      {
+        "key": "enemy_1302_ymtro_2",
+        "min_count": 4,
+        "max_count": 4
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1281_sgcar_2",
+        "min_count": 7,
+        "max_count": 7
+      },
+      {
+        "key": "enemy_1278_sgbow_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1280_sgmag_2",
+        "min_count": 3,
+        "max_count": 3
+      }
+    ]
+  },
+  "level_rogue4_t-3": {
+    "levelId": "level_rogue4_t-3",
+    "code": "ISW-SP",
+    "name_zh": "劫虚济实",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": null,
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.3,
+          "def": 1.3,
+          "hp": 1.3
+        }
+      }
+    ],
+    "all_possible_enemy_count": [6],
+    "sp_count": null,
+    "all_possible_elite_enemy_count": [7],
+    "elite_sp_count": null,
+    "sp_enemy": null,
+    "sp_terrain": null,
+    "enemy_list": [
+      {
+        "key": "enemy_1104_lfkght",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1134_diamd",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1133_harchn",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 1,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": [
+      {
+        "key": "enemy_1104_lfkght",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1134_diamd",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1133_harchn",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 1,
+        "max_count": 1
+      }
+    ]
+  },
+  "level_rogue4_t-4": {
+    "levelId": "level_rogue4_t-4",
+    "code": "ISW-SP",
+    "name_zh": "鸭速公路",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": null,
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.2,
+          "def": 1.2,
+          "hp": 1.3
+        }
+      }
+    ],
+    "all_possible_enemy_count": [72, 73, 74],
+    "sp_count": null,
+    "all_possible_elite_enemy_count": [91],
+    "elite_sp_count": null,
+    "sp_enemy": null,
+    "sp_terrain": [
+      {
+        "tileKey": "tile_hole",
+        "alias": null,
+        "blackboard": null
+      }
+    ],
+    "enemy_list": [
+      {
+        "key": "enemy_1263_durbus",
+        "min_count": 39,
+        "max_count": 39
+      },
+      {
+        "key": "enemy_2070_skzfbx",
+        "min_count": 6,
+        "max_count": 6
+      },
+      {
+        "key": "enemy_2046_smwar",
+        "min_count": 11,
+        "max_count": 11
+      },
+      {
+        "key": "enemy_1283_sgkill_2",
+        "min_count": 8,
+        "max_count": 8
+      },
+      {
+        "key": "enemy_1311_mhkryk_2",
+        "min_count": 7,
+        "max_count": 7
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1092_mdgint",
+        "min_count": 6,
+        "max_count": 6
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 1,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": [
+      {
+        "key": "enemy_1263_durbus",
+        "min_count": 39,
+        "max_count": 39
+      },
+      {
+        "key": "enemy_2046_smwar",
+        "min_count": 13,
+        "max_count": 13
+      },
+      {
+        "key": "enemy_1092_mdgint",
+        "min_count": 7,
+        "max_count": 7
+      },
+      {
+        "key": "enemy_1283_sgkill_2",
+        "min_count": 11,
+        "max_count": 11
+      },
+      {
+        "key": "enemy_1311_mhkryk_2",
+        "min_count": 11,
+        "max_count": 11
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2070_skzfbx",
+        "min_count": 6,
+        "max_count": 6
+      }
+    ]
+  },
+  "level_rogue4_t-5": {
+    "levelId": "level_rogue4_t-5",
+    "code": "ISW-SP",
+    "name_zh": "战场侧面",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": null,
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.2,
+          "def": 1.2,
+          "hp": 1.2
+        }
+      }
+    ],
+    "all_possible_enemy_count": [18],
+    "sp_count": null,
+    "all_possible_elite_enemy_count": [18],
+    "elite_sp_count": null,
+    "sp_enemy": null,
+    "sp_terrain": null,
+    "enemy_list": [
+      {
+        "key": "enemy_1342_frtuna",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1218_bomscr_2",
+        "min_count": 15,
+        "max_count": 15
+      },
+      {
+        "key": "enemy_1217_rescar_2",
+        "min_count": 2,
+        "max_count": 2
+      }
+    ],
+    "elite_enemy_list": [
+      {
+        "key": "enemy_1342_frtuna",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1218_bomscr_2b",
+        "min_count": 15,
+        "max_count": 15
+      },
+      {
+        "key": "enemy_1217_rescar_2",
+        "min_count": 2,
+        "max_count": 2
+      }
+    ]
+  },
+  "level_rogue4_t-6": {
+    "levelId": "level_rogue4_t-6",
+    "code": "ISW-SP",
+    "name_zh": "继承",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": null,
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.2,
+          "def": 1.2,
+          "hp": 1.2
+        }
+      }
+    ],
+    "all_possible_enemy_count": [11, 12, 13, 14],
+    "sp_count": null,
+    "all_possible_elite_enemy_count": [12, 13, 14, 15],
+    "elite_sp_count": null,
+    "sp_enemy": null,
+    "sp_terrain": null,
+    "enemy_list": [
+      {
+        "key": "enemy_2067_skzcy",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1008_ghost",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_1021_bslime",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_1269_nhfly",
+        "min_count": 6,
+        "max_count": 6
+      },
+      {
+        "key": "enemy_1271_nhkodo",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_2066_skzlcp",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1022_dmage",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1047_sagent_2",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_1317_wdexg",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_2064_skzwdd",
+        "min_count": 3,
+        "max_count": 3
+      }
+    ],
+    "elite_enemy_list": [
+      {
+        "key": "enemy_2067_skzcy",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1008_ghost",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_1021_bslime",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_1269_nhfly",
+        "min_count": 6,
+        "max_count": 6
+      },
+      {
+        "key": "enemy_1271_nhkodo",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_2066_skzlcp",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1022_dmage",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1047_sagent_2",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_1317_wdexg",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_2064_skzwdd",
+        "min_count": 3,
+        "max_count": 3
+      }
+    ]
+  },
+  "level_rogue4_t-7": {
+    "levelId": "level_rogue4_t-7",
+    "code": "ISW-DF",
+    "name_zh": "时光凯旋",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": null,
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": null,
+    "all_possible_enemy_count": [51],
+    "sp_count": null,
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": null,
+    "sp_terrain": [
+      {
+        "tileKey": "tile_hole",
+        "alias": null,
+        "blackboard": null
+      }
+    ],
+    "enemy_list": [
+      {
+        "key": "enemy_1064_snsbr",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_1068_snmage_2",
+        "min_count": 6,
+        "max_count": 6
+      },
+      {
+        "key": "enemy_2064_skzwdd",
+        "min_count": 17,
+        "max_count": 17
+      },
+      {
+        "key": "enemy_1085_sotiwz",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_1510_frstar2",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1069_icebrk_2",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_1506_patrt",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1067_snslime",
+        "min_count": 11,
+        "max_count": 11
+      }
+    ],
+    "elite_enemy_list": null
+  },
+  "level_rogue4_t-8": {
+    "levelId": "level_rogue4_t-8",
+    "code": "ISW-SP",
+    "name_zh": "玩具的报复",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": null,
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "hp": 1.8
+        }
+      }
+    ],
+    "all_possible_enemy_count": [75, 76, 77, 78, 79, 80, 81],
+    "sp_count": null,
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": null,
+    "sp_terrain": [
+      {
+        "tileKey": "tile_hole",
+        "alias": null,
+        "blackboard": null
+      }
+    ],
+    "enemy_list": [
+      {
+        "key": "enemy_2070_skzfbx",
+        "min_count": 4,
+        "max_count": 10
+      },
+      {
+        "key": "enemy_1005_yokai",
+        "min_count": 63,
+        "max_count": 63
+      },
+      {
+        "key": "enemy_1017_defdrn",
+        "min_count": 7,
+        "max_count": 7
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 1,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": null
+  },
+  "level_rogue4_ev-1": {
+    "levelId": "level_rogue4_ev-1",
+    "code": "ISW-SP",
+    "name_zh": "物权纠纷",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": null,
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": null,
+    "all_possible_enemy_count": [40],
+    "sp_count": null,
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": null,
+    "sp_terrain": null,
+    "enemy_list": [
+      {
+        "key": "enemy_1042_frostd",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1355_mrfly_2",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1017_defdrn",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1106_byokai",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_2070_skzfbx",
+        "min_count": 6,
+        "max_count": 6
+      },
+      {
+        "key": "enemy_2084_skzcan",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1056_ganwar_2",
+        "min_count": 15,
+        "max_count": 15
+      },
+      {
+        "key": "enemy_1171_durokt_2",
+        "min_count": 8,
+        "max_count": 8
+      },
+      {
+        "key": "enemy_1136_redace_2",
+        "min_count": 5,
+        "max_count": 5
+      }
+    ],
+    "elite_enemy_list": null
+  },
+  "level_rogue4_ev-2": {
+    "levelId": "level_rogue4_ev-2",
+    "code": "ISW-SP",
+    "name_zh": "叙事要约",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": null,
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": null,
+    "all_possible_enemy_count": [61, 63],
+    "sp_count": null,
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": null,
+    "sp_terrain": null,
+    "enemy_list": [
+      {
+        "key": "enemy_2070_skzfbx",
+        "min_count": 10,
+        "max_count": 10
+      },
+      {
+        "key": "enemy_1285_sgwlf",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_2084_skzcan",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2068_skzirn_b",
+        "min_count": 26,
+        "max_count": 26
+      },
+      {
+        "key": "enemy_1056_ganwar",
+        "min_count": 12,
+        "max_count": 12
+      },
+      {
+        "key": "enemy_1281_sgcar_2",
+        "min_count": 10,
+        "max_count": 10
+      },
+      {
+        "key": "enemy_2064_skzwdd",
+        "min_count": 8,
+        "max_count": 8
+      }
+    ],
+    "elite_enemy_list": null
+  },
+  "level_rogue4_d-1": {
+    "levelId": "level_rogue4_d-1",
+    "code": "ISW-NO",
+    "name_zh": "以血还血",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": null,
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": null,
+    "all_possible_enemy_count": [9],
+    "sp_count": null,
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": null,
+    "sp_terrain": null,
+    "enemy_list": [
+      {
+        "key": "enemy_1053_norgst_2",
+        "min_count": 0,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1010_demon",
+        "min_count": 0,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1134_diamd",
+        "min_count": 0,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1118_lidbox",
+        "min_count": 0,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1095_ccripr",
+        "min_count": 0,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1259_durwar",
+        "min_count": 0,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1501_demonk",
+        "min_count": 0,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1103_wdkght_3",
+        "min_count": 0,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1264_durgrd",
+        "min_count": 0,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_2078_skzmst",
+        "min_count": 0,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1219_mtrbty_2",
+        "min_count": 0,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1184_cadkgt_3",
+        "min_count": 0,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_2046_smwar",
+        "min_count": 0,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1025_reveng_2",
+        "min_count": 0,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1328_cbjedi",
+        "min_count": 0,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_2070_skzfbx",
+        "min_count": 0,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1329_cbshld_2",
+        "min_count": 0,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1255_lybgpa_2",
+        "min_count": 0,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1516_jakill",
+        "min_count": 0,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1098_cchmpn_2",
+        "min_count": 0,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1104_lfkght_3",
+        "min_count": 0,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1293_duswrd_3",
+        "min_count": 0,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1539_reid",
+        "min_count": 0,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1062_rager_2",
+        "min_count": 0,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1342_frtuna",
+        "min_count": 0,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1022_dmage_2",
+        "min_count": 0,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1172_dugago_2",
+        "min_count": 0,
+        "max_count": 3
+      }
+    ],
+    "elite_enemy_list": null
+  },
+  "level_rogue4_d-2": {
+    "levelId": "level_rogue4_d-2",
+    "code": "ISW-NO",
+    "name_zh": "善恶同道",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": null,
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": null,
+    "all_possible_enemy_count": [18],
+    "sp_count": null,
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": null,
+    "sp_terrain": [
+      {
+        "tileKey": "tile_hole",
+        "alias": null,
+        "blackboard": null
+      }
+    ],
+    "enemy_list": [
+      {
+        "key": "enemy_1259_durwar",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1008_ghost",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1010_demon",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1024_mortar",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1160_hvyslr",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1080_sotidp",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1095_ccripr",
+        "min_count": 6,
+        "max_count": 6
+      },
+      {
+        "key": "enemy_1009_lurker",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1012_dcross",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1006_shield_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1161_tidmag",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1084_sotidm",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1047_sagent_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1049_eagent_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_3001_upeopl",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1161_tidmag_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1271_nhkodo",
+        "min_count": 6,
+        "max_count": 6
+      },
+      {
+        "key": "enemy_1069_icebrk",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_2069_skzbox",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1058_traink",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1113_empace_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1160_hvyslr_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1025_reveng_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1098_cchmpn",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_2070_skzfbx",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1163_hvymot_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1050_lslime",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1182_flasrt_3",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1255_lybgpa",
+        "min_count": 6,
+        "max_count": 6
+      },
+      {
+        "key": "enemy_2014_csicer",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 6,
+        "max_count": 6
+      },
+      {
+        "key": "enemy_2028_syevil",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_2076_skzklz",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1500_skulsr",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1516_jakill",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1162_magmot_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1505_frstar",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1183_mlasrt_3",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1256_lyacpa",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_2015_csicem",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_2029_symon",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_2078_skzmst",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1502_crowns",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_2003_rockman",
+        "min_count": 3,
+        "max_count": 3
+      }
+    ],
+    "elite_enemy_list": null
+  },
+  "level_rogue4_d-3": {
+    "levelId": "level_rogue4_d-3",
+    "code": "ISW-NO",
+    "name_zh": "石心双子",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": null,
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": null,
+    "all_possible_enemy_count": [18],
+    "sp_count": null,
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": null,
+    "sp_terrain": [
+      {
+        "tileKey": "tile_infection",
+        "alias": null,
+        "blackboard": {
+          "damage": 200.0,
+          "atk": 0.5,
+          "attack_speed": 50.0,
+          "duration": 300.0
+        }
+      }
+    ],
+    "enemy_list": [
+      {
+        "key": "enemy_1118_lidbox_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1010_demon_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1024_mortar_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1047_sagent_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1238_ltmob_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1300_ymmir_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1080_sotidp_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_2069_skzbox",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1259_durwar_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1012_dcross_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1006_shield_3",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1053_norgst_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1258_durman_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1299_ymkilr_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1084_sotidm_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_2070_skzfbx",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1182_flasrt_3",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1263_durbus_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1062_rager_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1025_reveng_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_2028_syevil",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_3001_upeopl",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1311_mhkryk_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1175_dushdo_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1309_mhboar_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1183_mlasrt_3",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1281_sgcar_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1063_rageth_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1502_crowns",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_2029_symon",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1113_empace_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1306_mhtrtl_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1174_duholy_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1072_dlancer_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1513_dekght",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1104_lfkght_3",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1256_lyacpa_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1516_jakill",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_2014_csicer",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1510_frstar2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1509_mousek",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1001_bigbo",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1240_ltgint_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_2026_syudg",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1513_dekght_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1103_wdkght_3",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1255_lybgpa_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1254_lypa_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_2015_csicem",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1069_icebrk_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1060_emouse_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1001_bigbo_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1172_dugago_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_2027_syudg2",
+        "min_count": 3,
+        "max_count": 3
+      }
+    ],
+    "elite_enemy_list": null
+  },
+  "level_rogue4_1-1": {
+    "levelId": "level_rogue4_1-1",
+    "code": "ISW-NO",
+    "name_zh": "坏邻居",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": [1, 2],
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.1,
+          "def": 1.1,
+          "hp": 1.5
+        }
+      }
+    ],
+    "all_possible_enemy_count": [21],
+    "sp_count": [22],
+    "all_possible_elite_enemy_count": [20],
+    "elite_sp_count": [21],
+    "sp_enemy": {
+      "normal": "22",
+      "elite": "21",
+      "fixed": true
+    },
+    "sp_terrain": [
+      {
+        "tileKey": "tile_hole",
+        "alias": null,
+        "blackboard": null
+      }
+    ],
+    "enemy_list": [
+      {
+        "key": "enemy_1243_ltswar",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1071_dftman",
+        "min_count": 10,
+        "max_count": 10
+      },
+      {
+        "key": "enemy_1012_dcross",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1000_gopro",
+        "min_count": 8,
+        "max_count": 8
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": [
+      {
+        "key": "enemy_1243_ltswar",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1071_dftman",
+        "min_count": 10,
+        "max_count": 10
+      },
+      {
+        "key": "enemy_1000_gopro",
+        "min_count": 8,
+        "max_count": 8
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ]
+  },
+  "level_rogue4_1-2": {
+    "levelId": "level_rogue4_1-2",
+    "code": "ISW-NO",
+    "name_zh": "公害",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": [1, 2],
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.2,
+          "hp": 1.5
+        }
+      }
+    ],
+    "all_possible_enemy_count": [37],
+    "sp_count": [38],
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": {
+      "normal": "38",
+      "elite": null,
+      "fixed": true
+    },
+    "sp_terrain": [
+      {
+        "tileKey": "tile_hole",
+        "alias": null,
+        "blackboard": null
+      }
+    ],
+    "enemy_list": [
+      {
+        "key": "enemy_1352_eslime",
+        "min_count": 9,
+        "max_count": 17
+      },
+      {
+        "key": "enemy_1016_diaman",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1007_slime_3",
+        "min_count": 13,
+        "max_count": 13
+      },
+      {
+        "key": "enemy_1287_ducrb",
+        "min_count": 5,
+        "max_count": 13
+      },
+      {
+        "key": "enemy_1287_ducrb_2",
+        "min_count": 0,
+        "max_count": 8
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": null
+  },
+  "level_rogue4_1-3": {
+    "levelId": "level_rogue4_1-3",
+    "code": "ISW-NO",
+    "name_zh": "安全检查",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": [1, 2],
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.2,
+          "def": 1.2,
+          "hp": 1.3
+        }
+      },
+      {
+        "targets": ["enemy_2064_skzwdd"],
+        "mods": {
+          "hp": 1.3
+        }
+      }
+    ],
+    "all_possible_enemy_count": [18],
+    "sp_count": [19],
+    "all_possible_elite_enemy_count": [19],
+    "elite_sp_count": [20],
+    "sp_enemy": {
+      "normal": "19",
+      "elite": "20",
+      "fixed": true
+    },
+    "sp_terrain": [
+      {
+        "tileKey": "tile_infection",
+        "alias": null,
+        "blackboard": {
+          "damage": 80.0,
+          "atk": 0.5,
+          "attack_speed": 30.0,
+          "duration": 300.0
+        }
+      }
+    ],
+    "enemy_list": [
+      {
+        "key": "enemy_2064_skzwdd",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1071_dftman",
+        "min_count": 13,
+        "max_count": 13
+      },
+      {
+        "key": "enemy_1141_merbow",
+        "min_count": 4,
+        "max_count": 4
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": [
+      {
+        "key": "enemy_2064_skzwdd",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1071_dftman",
+        "min_count": 13,
+        "max_count": 13
+      },
+      {
+        "key": "enemy_1141_merbow",
+        "min_count": 4,
+        "max_count": 4
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ]
+  },
+  "level_rogue4_1-4": {
+    "levelId": "level_rogue4_1-4",
+    "code": "ISW-NO",
+    "name_zh": "夺路而跳",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": [1, 2],
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.2,
+          "def": 1.0,
+          "hp": 1.5
+        }
+      }
+    ],
+    "all_possible_enemy_count": [18],
+    "sp_count": [19],
+    "all_possible_elite_enemy_count": [21],
+    "elite_sp_count": [22],
+    "sp_enemy": {
+      "normal": "19",
+      "elite": "22",
+      "fixed": true
+    },
+    "sp_terrain": [
+      {
+        "tileKey": "tile_hole",
+        "alias": null,
+        "blackboard": null
+      }
+    ],
+    "enemy_list": [
+      {
+        "key": "enemy_1000_gopro_2",
+        "min_count": 6,
+        "max_count": 6
+      },
+      {
+        "key": "enemy_1071_dftman",
+        "min_count": 9,
+        "max_count": 9
+      },
+      {
+        "key": "enemy_1010_demon",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1502_crowns",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1012_dcross",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": [
+      {
+        "key": "enemy_1000_gopro_2",
+        "min_count": 6,
+        "max_count": 6
+      },
+      {
+        "key": "enemy_1010_demon",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1071_dftman",
+        "min_count": 11,
+        "max_count": 11
+      },
+      {
+        "key": "enemy_1502_crowns",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1012_dcross",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ]
+  },
+  "level_rogue4_2-1": {
+    "levelId": "level_rogue4_2-1",
+    "code": "ISW-NO",
+    "name_zh": "见闻峰会",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": [2],
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.2,
+          "def": 1.2,
+          "hp": 1.2
+        }
+      }
+    ],
+    "all_possible_enemy_count": [20],
+    "sp_count": [21],
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": {
+      "normal": "21",
+      "elite": null,
+      "fixed": true
+    },
+    "sp_terrain": [
+      {
+        "tileKey": "tile_hole",
+        "alias": null,
+        "blackboard": null
+      }
+    ],
+    "enemy_list": [
+      {
+        "key": "enemy_1071_dftman",
+        "min_count": 11,
+        "max_count": 11
+      },
+      {
+        "key": "enemy_2063_skzlch",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_1267_nhpbr",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1272_nhtank",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": null
+  },
+  "level_rogue4_2-2": {
+    "levelId": "level_rogue4_2-2",
+    "code": "ISW-NO",
+    "name_zh": "拆东补西",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": [2],
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.2,
+          "def": 1.2,
+          "hp": 1.2
+        }
+      }
+    ],
+    "all_possible_enemy_count": [27],
+    "sp_count": [28],
+    "all_possible_elite_enemy_count": [27],
+    "elite_sp_count": [28],
+    "sp_enemy": {
+      "normal": "28",
+      "elite": null,
+      "fixed": true
+    },
+    "sp_terrain": [
+      {
+        "tileKey": "tile_hole",
+        "alias": null,
+        "blackboard": null
+      }
+    ],
+    "enemy_list": [
+      {
+        "key": "enemy_1022_dmage",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1071_dftman",
+        "min_count": 14,
+        "max_count": 14
+      },
+      {
+        "key": "enemy_1000_gopro_2",
+        "min_count": 6,
+        "max_count": 6
+      },
+      {
+        "key": "enemy_2063_skzlch",
+        "min_count": 4,
+        "max_count": 4
+      },
+      {
+        "key": "enemy_2064_skzwdd",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": [
+      {
+        "key": "enemy_1022_dmage",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1071_dftman",
+        "min_count": 14,
+        "max_count": 14
+      },
+      {
+        "key": "enemy_1000_gopro_2",
+        "min_count": 6,
+        "max_count": 6
+      },
+      {
+        "key": "enemy_2063_skzlch",
+        "min_count": 4,
+        "max_count": 4
+      },
+      {
+        "key": "enemy_2064_skzwdd",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ]
+  },
+  "level_rogue4_2-3": {
+    "levelId": "level_rogue4_2-3",
+    "code": "ISW-NO",
+    "name_zh": "排风口",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": [2],
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.2,
+          "def": 1.2,
+          "hp": 1.5
+        }
+      }
+    ],
+    "all_possible_enemy_count": [25],
+    "sp_count": [26],
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": {
+      "normal": "26",
+      "elite": null,
+      "fixed": true
+    },
+    "sp_terrain": [
+      {
+        "tileKey": "tile_hole",
+        "alias": null,
+        "blackboard": null
+      }
+    ],
+    "enemy_list": [
+      {
+        "key": "enemy_1072_dlancer",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1039_breakr",
+        "min_count": 13,
+        "max_count": 13
+      },
+      {
+        "key": "enemy_1327_cbrokt",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_1039_breakr_2",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": null
+  },
+  "level_rogue4_2-4": {
+    "levelId": "level_rogue4_2-4",
+    "code": "ISW-NO",
+    "name_zh": "炉工志愿队",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": [2],
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.0,
+          "def": 1.2,
+          "hp": 1.7
+        }
+      }
+    ],
+    "all_possible_enemy_count": [75],
+    "sp_count": [76],
+    "all_possible_elite_enemy_count": [75],
+    "elite_sp_count": [76],
+    "sp_enemy": {
+      "normal": "76",
+      "elite": null,
+      "fixed": true
+    },
+    "sp_terrain": [
+      {
+        "tileKey": "tile_hole",
+        "alias": null,
+        "blackboard": null
+      }
+    ],
+    "enemy_list": [
+      {
+        "key": "enemy_1080_sotidp",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1071_dftman",
+        "min_count": 68,
+        "max_count": 68
+      },
+      {
+        "key": "enemy_1010_demon",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1084_sotidm",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": [
+      {
+        "key": "enemy_1080_sotidp",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1071_dftman",
+        "min_count": 68,
+        "max_count": 68
+      },
+      {
+        "key": "enemy_1010_demon",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1084_sotidm_2",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ]
+  },
+  "level_rogue4_2-5": {
+    "levelId": "level_rogue4_2-5",
+    "code": "ISW-NO",
+    "name_zh": "有序清场",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": [2],
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.2,
+          "def": 1.2,
+          "hp": 1.4
+        }
+      }
+    ],
+    "all_possible_enemy_count": [22, 23],
+    "sp_count": [24],
+    "all_possible_elite_enemy_count": [24, 25],
+    "elite_sp_count": [26],
+    "sp_enemy": {
+      "normal": "24",
+      "elite": "26",
+      "fixed": false
+    },
+    "sp_terrain": null,
+    "enemy_list": [
+      {
+        "key": "enemy_1075_dmgswd",
+        "min_count": 4,
+        "max_count": 4
+      },
+      {
+        "key": "enemy_1073_dscout",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1020_obsv",
+        "min_count": 1,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1071_dftman",
+        "min_count": 8,
+        "max_count": 8
+      },
+      {
+        "key": "enemy_1012_dcross",
+        "min_count": 8,
+        "max_count": 8
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": [
+      {
+        "key": "enemy_1075_dmgswd",
+        "min_count": 4,
+        "max_count": 4
+      },
+      {
+        "key": "enemy_1073_dscout",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1020_obsv",
+        "min_count": 3,
+        "max_count": 4
+      },
+      {
+        "key": "enemy_1071_dftman",
+        "min_count": 8,
+        "max_count": 8
+      },
+      {
+        "key": "enemy_1012_dcross",
+        "min_count": 8,
+        "max_count": 8
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ]
+  },
+  "level_rogue4_3-1": {
+    "levelId": "level_rogue4_3-1",
+    "code": "ISW-NO",
+    "name_zh": "大棋一盘",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": [3],
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.2,
+          "def": 1.3
+        }
+      }
+    ],
+    "all_possible_enemy_count": [29],
+    "sp_count": [30],
+    "all_possible_elite_enemy_count": [29],
+    "elite_sp_count": [30],
+    "sp_enemy": {
+      "normal": "30",
+      "elite": null,
+      "fixed": true
+    },
+    "sp_terrain": [
+      {
+        "tileKey": "tile_defbreak",
+        "alias": null,
+        "blackboard": {
+          "def": 0.5
+        }
+      }
+    ],
+    "enemy_list": [
+      {
+        "key": "enemy_1007_slime_3",
+        "min_count": 6,
+        "max_count": 6
+      },
+      {
+        "key": "enemy_1223_dmech",
+        "min_count": 4,
+        "max_count": 4
+      },
+      {
+        "key": "enemy_1220_dzoms",
+        "min_count": 10,
+        "max_count": 10
+      },
+      {
+        "key": "enemy_1082_soticn",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1224_dsuply",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1228_dslime",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1222_dpvt",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1276_telex",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": [
+      {
+        "key": "enemy_1007_slime_3",
+        "min_count": 6,
+        "max_count": 6
+      },
+      {
+        "key": "enemy_1223_dmech",
+        "min_count": 4,
+        "max_count": 4
+      },
+      {
+        "key": "enemy_1220_dzoms",
+        "min_count": 10,
+        "max_count": 10
+      },
+      {
+        "key": "enemy_1082_soticn",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1224_dsuply",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1228_dslime",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1222_dpvt",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1276_telex",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ]
+  },
+  "level_rogue4_3-2": {
+    "levelId": "level_rogue4_3-2",
+    "code": "ISW-NO",
+    "name_zh": "血脉之辩",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": [3],
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "hp": 1.5,
+          "atk": 1.2
+        }
+      }
+    ],
+    "all_possible_enemy_count": [23],
+    "sp_count": [24],
+    "all_possible_elite_enemy_count": [27],
+    "elite_sp_count": [28],
+    "sp_enemy": {
+      "normal": "24",
+      "elite": "28",
+      "fixed": true
+    },
+    "sp_terrain": null,
+    "enemy_list": [
+      {
+        "key": "enemy_1271_nhkodo",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_1021_bslime",
+        "min_count": 6,
+        "max_count": 6
+      },
+      {
+        "key": "enemy_1267_nhpbr",
+        "min_count": 10,
+        "max_count": 10
+      },
+      {
+        "key": "enemy_2063_skzlch",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": [
+      {
+        "key": "enemy_1271_nhkodo",
+        "min_count": 6,
+        "max_count": 6
+      },
+      {
+        "key": "enemy_1021_bslime",
+        "min_count": 10,
+        "max_count": 10
+      },
+      {
+        "key": "enemy_1267_nhpbr",
+        "min_count": 9,
+        "max_count": 9
+      },
+      {
+        "key": "enemy_2063_skzlch",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ]
+  },
+  "level_rogue4_3-3": {
+    "levelId": "level_rogue4_3-3",
+    "code": "ISW-NO",
+    "name_zh": "遮天蔽日",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": [3],
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "def": 1.7,
+          "hp": 1.2
+        }
+      },
+      {
+        "targets": ["enemy_1269_nhfly"],
+        "mods": {
+          "atk": 1.5
+        }
+      }
+    ],
+    "all_possible_enemy_count": [77, 105],
+    "sp_count": [78, 106],
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": {
+      "normal": "78 / 106",
+      "elite": null,
+      "fixed": true
+    },
+    "sp_terrain": null,
+    "enemy_list": [
+      {
+        "key": "enemy_1415_mmkabi",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1269_nhfly",
+        "min_count": 84,
+        "max_count": 84
+      },
+      {
+        "key": "enemy_1267_nhpbr",
+        "min_count": 13,
+        "max_count": 13
+      },
+      {
+        "key": "enemy_1047_sagent",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_2070_skzfbx",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": null
+  },
+  "level_rogue4_3-4": {
+    "levelId": "level_rogue4_3-4",
+    "code": "ISW-NO",
+    "name_zh": "劳作的清晨",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": [4],
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.3,
+          "hp": 1.5,
+          "ms": 1.5
+        }
+      }
+    ],
+    "all_possible_enemy_count": [24],
+    "sp_count": [25],
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": {
+      "normal": "25",
+      "elite": null,
+      "fixed": true
+    },
+    "sp_terrain": null,
+    "enemy_list": [
+      {
+        "key": "enemy_1071_dftman",
+        "min_count": 7,
+        "max_count": 7
+      },
+      {
+        "key": "enemy_1072_dlancer",
+        "min_count": 9,
+        "max_count": 9
+      },
+      {
+        "key": "enemy_1009_lurker",
+        "min_count": 6,
+        "max_count": 7
+      },
+      {
+        "key": "enemy_1010_demon",
+        "min_count": 1,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": null
+  },
+  "level_rogue4_3-5": {
+    "levelId": "level_rogue4_3-5",
+    "code": "ISW-NO",
+    "name_zh": "溃乱魔典",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": [3],
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.4,
+          "def": 1.2,
+          "hp": 1.5
+        }
+      }
+    ],
+    "all_possible_enemy_count": [50],
+    "sp_count": [51],
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": {
+      "normal": "51",
+      "elite": null,
+      "fixed": true
+    },
+    "sp_terrain": null,
+    "enemy_list": [
+      {
+        "key": "enemy_1220_dzoms",
+        "min_count": 34,
+        "max_count": 34
+      },
+      {
+        "key": "enemy_1221_dzomg",
+        "min_count": 6,
+        "max_count": 6
+      },
+      {
+        "key": "enemy_1085_sotiwz",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_1221_dzomg_a",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": null
+  },
+  "level_rogue4_3-6": {
+    "levelId": "level_rogue4_3-6",
+    "code": "ISW-NO",
+    "name_zh": "盲盒商场",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": [3],
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.3,
+          "def": 1.3,
+          "hp": 1.3
+        }
+      },
+      {
+        "targets": ["enemy_1322_wdgyht"],
+        "mods": {
+          "fixed_aspd": 50.0
+        }
+      }
+    ],
+    "all_possible_enemy_count": [23],
+    "sp_count": [24],
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": {
+      "normal": "24",
+      "elite": null,
+      "fixed": true
+    },
+    "sp_terrain": [
+      {
+        "tileKey": "tile_hole",
+        "alias": null,
+        "blackboard": null
+      }
+    ],
+    "enemy_list": [
+      {
+        "key": "enemy_1322_wdgyht",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1189_krgaxe",
+        "min_count": 16,
+        "max_count": 16
+      },
+      {
+        "key": "enemy_1388_wingnt",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1384_winfrz",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1191_krgrg",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1192_krgscr_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": null
+  },
+  "level_rogue4_4-1": {
+    "levelId": "level_rogue4_4-1",
+    "code": "ISW-NO",
+    "name_zh": "年代断层",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": [4],
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.5,
+          "def": 1.5,
+          "hp": 1.5
+        }
+      }
+    ],
+    "all_possible_enemy_count": [35],
+    "sp_count": [36],
+    "all_possible_elite_enemy_count": [37],
+    "elite_sp_count": [38],
+    "sp_enemy": {
+      "normal": "36",
+      "elite": "38",
+      "fixed": true
+    },
+    "sp_terrain": null,
+    "enemy_list": [
+      {
+        "key": "enemy_1313_wdfmr",
+        "min_count": 12,
+        "max_count": 12
+      },
+      {
+        "key": "enemy_1071_dftman",
+        "min_count": 4,
+        "max_count": 4
+      },
+      {
+        "key": "enemy_1317_wdexg_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1316_wdpjd",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_2064_skzwdd",
+        "min_count": 12,
+        "max_count": 12
+      },
+      {
+        "key": "enemy_1320_wdrrl_2",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": [
+      {
+        "key": "enemy_1313_wdfmr",
+        "min_count": 12,
+        "max_count": 12
+      },
+      {
+        "key": "enemy_1071_dftman",
+        "min_count": 4,
+        "max_count": 4
+      },
+      {
+        "key": "enemy_1317_wdexg_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1316_wdpjd",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_2064_skzwdd",
+        "min_count": 12,
+        "max_count": 12
+      },
+      {
+        "key": "enemy_1320_wdrrl_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ]
+  },
+  "level_rogue4_4-2": {
+    "levelId": "level_rogue4_4-2",
+    "code": "ISW-NO",
+    "name_zh": "朽败考察",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": [4],
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.5,
+          "def": 1.2,
+          "hp": 2.0
+        }
+      }
+    ],
+    "all_possible_enemy_count": [32],
+    "sp_count": [33],
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": {
+      "normal": "33",
+      "elite": null,
+      "fixed": true
+    },
+    "sp_terrain": [
+      {
+        "tileKey": "tile_hole",
+        "alias": null,
+        "blackboard": null
+      }
+    ],
+    "enemy_list": [
+      {
+        "key": "enemy_2066_skzlcp",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_2063_skzlch",
+        "min_count": 13,
+        "max_count": 13
+      },
+      {
+        "key": "enemy_1229_darmy",
+        "min_count": 15,
+        "max_count": 15
+      },
+      {
+        "key": "enemy_1045_hammer",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_2064_skzwdd",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": null
+  },
+  "level_rogue4_4-3": {
+    "levelId": "level_rogue4_4-3",
+    "code": "ISW-NO",
+    "name_zh": "飞越大水坑",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": [4],
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.5,
+          "hp": 1.5
+        }
+      }
+    ],
+    "all_possible_enemy_count": [37],
+    "sp_count": [38],
+    "all_possible_elite_enemy_count": [39],
+    "elite_sp_count": [40],
+    "sp_enemy": {
+      "normal": "38",
+      "elite": "40",
+      "fixed": true
+    },
+    "sp_terrain": [
+      {
+        "tileKey": "tile_hole",
+        "alias": null,
+        "blackboard": null
+      }
+    ],
+    "enemy_list": [
+      {
+        "key": "enemy_1412_mmjump",
+        "min_count": 34,
+        "max_count": 34
+      },
+      {
+        "key": "enemy_2064_skzwdd",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_2070_skzfbx",
+        "min_count": 6,
+        "max_count": 6
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": [
+      {
+        "key": "enemy_2064_skzwdd",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_1412_mmjump",
+        "min_count": 34,
+        "max_count": 34
+      },
+      {
+        "key": "enemy_2070_skzfbx",
+        "min_count": 6,
+        "max_count": 6
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ]
+  },
+  "level_rogue4_4-4": {
+    "levelId": "level_rogue4_4-4",
+    "code": "ISW-NO",
+    "name_zh": "猩红甬道",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": [4],
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.2,
+          "hp": 1.5
+        }
+      }
+    ],
+    "all_possible_enemy_count": [98],
+    "sp_count": [99],
+    "all_possible_elite_enemy_count": [100],
+    "elite_sp_count": [101],
+    "sp_enemy": {
+      "normal": "99",
+      "elite": "101",
+      "fixed": true
+    },
+    "sp_terrain": [
+      {
+        "tileKey": "tile_volcano",
+        "alias": null,
+        "blackboard": {
+          "damage": 500.0,
+          "cd_min": 12.0,
+          "cd_max": 15.0
+        }
+      }
+    ],
+    "enemy_list": [
+      {
+        "key": "enemy_1220_dzoms",
+        "min_count": 87,
+        "max_count": 87
+      },
+      {
+        "key": "enemy_1221_dzomg",
+        "min_count": 6,
+        "max_count": 6
+      },
+      {
+        "key": "enemy_1226_dklord",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1224_dsuply_b",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": [
+      {
+        "key": "enemy_1224_dsuply",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1220_dzoms",
+        "min_count": 87,
+        "max_count": 87
+      },
+      {
+        "key": "enemy_1221_dzomg",
+        "min_count": 6,
+        "max_count": 6
+      },
+      {
+        "key": "enemy_1226_dklord",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1224_dsuply_b",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ]
+  },
+  "level_rogue4_4-5": {
+    "levelId": "level_rogue4_4-5",
+    "code": "ISW-NO",
+    "name_zh": "现代战争法则",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": [4],
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.2,
+          "hp": 1.5
+        }
+      }
+    ],
+    "all_possible_enemy_count": [29],
+    "sp_count": [30],
+    "all_possible_elite_enemy_count": [34],
+    "elite_sp_count": [35],
+    "sp_enemy": {
+      "normal": "30",
+      "elite": "35",
+      "fixed": true
+    },
+    "sp_terrain": null,
+    "enemy_list": [
+      {
+        "key": "enemy_1249_lysdb",
+        "min_count": 9,
+        "max_count": 9
+      },
+      {
+        "key": "enemy_1250_lyengs",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1251_lysyta",
+        "min_count": 13,
+        "max_count": 13
+      },
+      {
+        "key": "enemy_1255_lybgpa_2",
+        "min_count": 4,
+        "max_count": 4
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": [
+      {
+        "key": "enemy_1088_ltsmer",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1249_lysdb",
+        "min_count": 9,
+        "max_count": 9
+      },
+      {
+        "key": "enemy_1250_lyengs",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1251_lysyta",
+        "min_count": 13,
+        "max_count": 13
+      },
+      {
+        "key": "enemy_1255_lybgpa_2",
+        "min_count": 4,
+        "max_count": 4
+      },
+      {
+        "key": "enemy_1256_lyacpa",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ]
+  },
+  "level_rogue4_4-6": {
+    "levelId": "level_rogue4_4-6",
+    "code": "ISW-NO",
+    "name_zh": "假想对冲",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": [4],
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.25,
+          "def": 1.25,
+          "hp": 1.25
+        }
+      }
+    ],
+    "all_possible_enemy_count": [31],
+    "sp_count": [32],
+    "all_possible_elite_enemy_count": [31],
+    "elite_sp_count": [32],
+    "sp_enemy": {
+      "normal": "32",
+      "elite": null,
+      "fixed": true
+    },
+    "sp_terrain": [
+      {
+        "tileKey": "tile_hole",
+        "alias": null,
+        "blackboard": null
+      }
+    ],
+    "enemy_list": [
+      {
+        "key": "enemy_1074_dbskar_2c",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1074_dbskar_2b",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1074_dbskar_2",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2063_skzlch",
+        "min_count": 11,
+        "max_count": 11
+      },
+      {
+        "key": "enemy_2064_skzwdd",
+        "min_count": 10,
+        "max_count": 10
+      },
+      {
+        "key": "enemy_2068_skzirn",
+        "min_count": 6,
+        "max_count": 6
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": [
+      {
+        "key": "enemy_1074_dbskar_2c",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1074_dbskar_2b",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1074_dbskar_2",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2063_skzlch",
+        "min_count": 11,
+        "max_count": 11
+      },
+      {
+        "key": "enemy_2064_skzwdd",
+        "min_count": 10,
+        "max_count": 10
+      },
+      {
+        "key": "enemy_2068_skzirn_b",
+        "min_count": 6,
+        "max_count": 6
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ]
+  },
+  "level_rogue4_4-7": {
+    "levelId": "level_rogue4_4-7",
+    "code": "ISW-NO",
+    "name_zh": "幽灵城",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": [4],
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.3,
+          "hp": 1.5
+        }
+      }
+    ],
+    "all_possible_enemy_count": [40],
+    "sp_count": [41],
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": {
+      "normal": "41",
+      "elite": null,
+      "fixed": true
+    },
+    "sp_terrain": [
+      {
+        "tileKey": "tile_hole",
+        "alias": null,
+        "blackboard": null
+      }
+    ],
+    "enemy_list": [
+      {
+        "key": "enemy_1336_bldbat",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_1221_dzomg",
+        "min_count": 7,
+        "max_count": 27
+      },
+      {
+        "key": "enemy_1220_dzoms",
+        "min_count": 8,
+        "max_count": 28
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": null
+  },
+  "level_rogue4_5-1": {
+    "levelId": "level_rogue4_5-1",
+    "code": "ISW-NO",
+    "name_zh": "寄人城池下",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": [5],
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.4,
+          "def": 1.5,
+          "hp": 1.2
+        }
+      }
+    ],
+    "all_possible_enemy_count": [70],
+    "sp_count": [71],
+    "all_possible_elite_enemy_count": [87],
+    "elite_sp_count": [88],
+    "sp_enemy": {
+      "normal": "71",
+      "elite": "88",
+      "fixed": true
+    },
+    "sp_terrain": [
+      {
+        "tileKey": "tile_hole",
+        "alias": null,
+        "blackboard": null
+      }
+    ],
+    "enemy_list": [
+      {
+        "key": "enemy_1511_mdrock",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_3001_upeopl_a",
+        "min_count": 6,
+        "max_count": 6
+      },
+      {
+        "key": "enemy_1220_dzoms",
+        "min_count": 18,
+        "max_count": 18
+      },
+      {
+        "key": "enemy_1222_dpvt",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_1229_darmy",
+        "min_count": 11,
+        "max_count": 11
+      },
+      {
+        "key": "enemy_1275_dwlock",
+        "min_count": 6,
+        "max_count": 6
+      },
+      {
+        "key": "enemy_1224_dsuply",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1223_dmech",
+        "min_count": 18,
+        "max_count": 18
+      },
+      {
+        "key": "enemy_1226_dklord",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": [
+      {
+        "key": "enemy_1511_mdrock",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_3001_upeopl_a",
+        "min_count": 18,
+        "max_count": 18
+      },
+      {
+        "key": "enemy_1220_dzoms",
+        "min_count": 18,
+        "max_count": 18
+      },
+      {
+        "key": "enemy_1222_dpvt",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_1229_darmy",
+        "min_count": 11,
+        "max_count": 11
+      },
+      {
+        "key": "enemy_1223_dmech",
+        "min_count": 21,
+        "max_count": 21
+      },
+      {
+        "key": "enemy_1275_dwlock",
+        "min_count": 8,
+        "max_count": 8
+      },
+      {
+        "key": "enemy_1224_dsuply",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1226_dklord",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ]
+  },
+  "level_rogue4_5-2": {
+    "levelId": "level_rogue4_5-2",
+    "code": "ISW-NO",
+    "name_zh": "计划耕种",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": [5],
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [],
+    "all_possible_enemy_count": [50],
+    "sp_count": [51],
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": {
+      "normal": "51",
+      "elite": null,
+      "fixed": true
+    },
+    "sp_terrain": null,
+    "enemy_list": [
+      {
+        "key": "enemy_1273_stmgun",
+        "min_count": 8,
+        "max_count": 8
+      },
+      {
+        "key": "enemy_1071_dftman",
+        "min_count": 15,
+        "max_count": 15
+      },
+      {
+        "key": "enemy_1274_stmram",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1267_nhpbr_2",
+        "min_count": 18,
+        "max_count": 18
+      },
+      {
+        "key": "enemy_1272_nhtank",
+        "min_count": 6,
+        "max_count": 6
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": null
+  },
+  "level_rogue4_5-3": {
+    "levelId": "level_rogue4_5-3",
+    "code": "ISW-NO",
+    "name_zh": "巫咒同盟",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": [5],
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.3,
+          "def": 1.2,
+          "hp": 1.3
+        }
+      }
+    ],
+    "all_possible_enemy_count": [40],
+    "sp_count": [41],
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": {
+      "normal": "41",
+      "elite": null,
+      "fixed": true
+    },
+    "sp_terrain": null,
+    "enemy_list": [
+      {
+        "key": "enemy_1271_nhkodo_2",
+        "min_count": 10,
+        "max_count": 10
+      },
+      {
+        "key": "enemy_1377_ltnclo",
+        "min_count": 17,
+        "max_count": 17
+      },
+      {
+        "key": "enemy_1371_ltnflu",
+        "min_count": 8,
+        "max_count": 8
+      },
+      {
+        "key": "enemy_1375_ltnclr",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": null
+  },
+  "level_rogue4_5-4": {
+    "levelId": "level_rogue4_5-4",
+    "code": "ISW-NO",
+    "name_zh": "通道封锁",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": [5],
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.2,
+          "def": 1.2,
+          "hp": 1.5
+        }
+      }
+    ],
+    "all_possible_enemy_count": [38],
+    "sp_count": [39],
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": {
+      "normal": "39",
+      "elite": null,
+      "fixed": true
+    },
+    "sp_terrain": null,
+    "enemy_list": [
+      {
+        "key": "enemy_2063_skzlch",
+        "min_count": 7,
+        "max_count": 7
+      },
+      {
+        "key": "enemy_1229_darmy",
+        "min_count": 11,
+        "max_count": 11
+      },
+      {
+        "key": "enemy_2064_skzwdd",
+        "min_count": 16,
+        "max_count": 16
+      },
+      {
+        "key": "enemy_1513_dekght",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1513_dekght_2",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2066_skzlcp",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": null
+  },
+  "level_rogue4_5-5": {
+    "levelId": "level_rogue4_5-5",
+    "code": "ISW-NO",
+    "name_zh": "无罪净土",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": [5],
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.2,
+          "def": 1.2,
+          "hp": 1.2
+        }
+      }
+    ],
+    "all_possible_enemy_count": [41],
+    "sp_count": [42],
+    "all_possible_elite_enemy_count": [41],
+    "elite_sp_count": [42],
+    "sp_enemy": {
+      "normal": "42",
+      "elite": null,
+      "fixed": true
+    },
+    "sp_terrain": null,
+    "enemy_list": [
+      {
+        "key": "enemy_1425_lrcmra_2",
+        "min_count": 4,
+        "max_count": 4
+      },
+      {
+        "key": "enemy_1427_lrnazg_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1424_lrboom",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1425_lrcmra",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_1071_dftman_2",
+        "min_count": 21,
+        "max_count": 21
+      },
+      {
+        "key": "enemy_1010_demon_2",
+        "min_count": 6,
+        "max_count": 6
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": [
+      {
+        "key": "enemy_1074_dbskar_2",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1425_lrcmra_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1427_lrnazg_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1424_lrboom",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1425_lrcmra",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_1071_dftman_2",
+        "min_count": 21,
+        "max_count": 21
+      },
+      {
+        "key": "enemy_1010_demon_2",
+        "min_count": 6,
+        "max_count": 6
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ]
+  },
+  "level_rogue4_5-6": {
+    "levelId": "level_rogue4_5-6",
+    "code": "ISW-NO",
+    "name_zh": "浮空城接舷战",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": [5],
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.2,
+          "def": 1.2,
+          "hp": 1.2
+        }
+      }
+    ],
+    "all_possible_enemy_count": [112],
+    "sp_count": [113],
+    "all_possible_elite_enemy_count": [113],
+    "elite_sp_count": [114],
+    "sp_enemy": {
+      "normal": "113",
+      "elite": "114",
+      "fixed": true
+    },
+    "sp_terrain": null,
+    "enemy_list": [
+      {
+        "key": "enemy_1321_wdarft",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1320_wdrrl_2",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_1401_pogpro",
+        "min_count": 22,
+        "max_count": 22
+      },
+      {
+        "key": "enemy_1269_nhfly",
+        "min_count": 38,
+        "max_count": 38
+      },
+      {
+        "key": "enemy_1005_yokai",
+        "min_count": 35,
+        "max_count": 35
+      },
+      {
+        "key": "enemy_1403_gunsho_2",
+        "min_count": 6,
+        "max_count": 6
+      },
+      {
+        "key": "enemy_1005_yokai_3",
+        "min_count": 4,
+        "max_count": 4
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": [
+      {
+        "key": "enemy_1321_wdarft",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1320_wdrrl_2",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_1401_pogpro",
+        "min_count": 22,
+        "max_count": 22
+      },
+      {
+        "key": "enemy_1269_nhfly",
+        "min_count": 38,
+        "max_count": 38
+      },
+      {
+        "key": "enemy_1005_yokai",
+        "min_count": 35,
+        "max_count": 35
+      },
+      {
+        "key": "enemy_1403_gunsho_2",
+        "min_count": 6,
+        "max_count": 6
+      },
+      {
+        "key": "enemy_1005_yokai_3",
+        "min_count": 4,
+        "max_count": 4
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ]
+  },
+  "level_rogue4_5-7": {
+    "levelId": "level_rogue4_5-7",
+    "code": "ISW-NO",
+    "name_zh": "残损学院",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": [5],
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.3,
+          "def": 1.3,
+          "hp": 1.3
+        }
+      }
+    ],
+    "all_possible_enemy_count": [46],
+    "sp_count": [47],
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": {
+      "normal": "47",
+      "elite": null,
+      "fixed": true
+    },
+    "sp_terrain": [
+      {
+        "tileKey": "tile_hole",
+        "alias": null,
+        "blackboard": null
+      }
+    ],
+    "enemy_list": [
+      {
+        "key": "enemy_1428_lrsoul",
+        "min_count": 12,
+        "max_count": 12
+      },
+      {
+        "key": "enemy_1429_lrwzrd",
+        "min_count": 4,
+        "max_count": 4
+      },
+      {
+        "key": "enemy_2063_skzlch",
+        "min_count": 15,
+        "max_count": 15
+      },
+      {
+        "key": "enemy_2064_skzwdd",
+        "min_count": 11,
+        "max_count": 11
+      },
+      {
+        "key": "enemy_2066_skzlcp",
+        "min_count": 4,
+        "max_count": 4
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": null
+  },
+  "level_rogue4_6-1": {
+    "levelId": "level_rogue4_6-1",
+    "code": "ISW-NO",
+    "name_zh": "谋求共识",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": [6],
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.2,
+          "def": 1.2,
+          "hp": 1.2
+        }
+      },
+      {
+        "targets": ["enemy_1428_lrsoul"],
+        "mods": {
+          "fixed_def": 400.0,
+          "ms": 0.3
+        }
+      }
+    ],
+    "all_possible_enemy_count": [93],
+    "sp_count": [94],
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": {
+      "normal": "94",
+      "elite": null,
+      "fixed": true
+    },
+    "sp_terrain": null,
+    "enemy_list": [
+      {
+        "key": "enemy_1430_lrrook_2",
+        "min_count": 7,
+        "max_count": 7
+      },
+      {
+        "key": "enemy_1428_lrsoul",
+        "min_count": 59,
+        "max_count": 59
+      },
+      {
+        "key": "enemy_1431_lrmzrd_2",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_1429_lrwzrd_2",
+        "min_count": 6,
+        "max_count": 6
+      },
+      {
+        "key": "enemy_1423_lrfkkt_2",
+        "min_count": 11,
+        "max_count": 11
+      },
+      {
+        "key": "enemy_2068_skzirn",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": null
+  },
+  "level_rogue4_6-2": {
+    "levelId": "level_rogue4_6-2",
+    "code": "ISW-NO",
+    "name_zh": "神圣的渴求",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": [6],
+    "addInfo_zh": null,
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.3,
+          "def": 1.3,
+          "hp": 1.4
+        }
+      }
+    ],
+    "all_possible_enemy_count": [45],
+    "sp_count": [46],
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": {
+      "normal": "46",
+      "elite": null,
+      "fixed": true
+    },
+    "sp_terrain": null,
+    "enemy_list": [
+      {
+        "key": "enemy_1212_mtrfol_2",
+        "min_count": 18,
+        "max_count": 18
+      },
+      {
+        "key": "enemy_1213_mtrsnp_2",
+        "min_count": 17,
+        "max_count": 17
+      },
+      {
+        "key": "enemy_1219_mtrbty",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1216_cansld",
+        "min_count": 0,
+        "max_count": 4
+      },
+      {
+        "key": "enemy_1216_cansld_2",
+        "min_count": 3,
+        "max_count": 7
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
         "min_count": 0,
         "max_count": 1
       }
