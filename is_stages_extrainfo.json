@@ -2350,10 +2350,10 @@
         }
       }
     ],
-    "all_possible_enemy_count": [64, 65, 66],
-    "sp_count": [67],
-    "all_possible_elite_enemy_count": [64, 65, 66],
-    "elite_sp_count": [67],
+    "all_possible_enemy_count": [63, 64, 65],
+    "sp_count": [66],
+    "all_possible_elite_enemy_count": [63, 64, 65],
+    "elite_sp_count": [66],
     "sp_enemy": {
       "normal": 67,
       "elite": null,
@@ -14081,7 +14081,9 @@
     "floors": [1, 2],
     "addInfo_zh": ["【路网】效果: 额外出现2个家族弩手"],
     "addInfo_ja": ["「導きの網織」: 追加で<マフィアの狙撃手>2体が出現する"],
-    "addInfo_en": ["Routeweave Net: Additional 2 <Famiglia Crossbowman> appear"],
+    "addInfo_en": [
+      "Routeweave Net: Additional 2 <Famiglia Crossbowman> appear"
+    ],
     "eliteDesc_zh": [
       "所有敌方单位的攻击力+10%，防御力+20%，生命值+15%",
       "屠夫被替换为屠宰老手"
@@ -14377,7 +14379,7 @@
     "elite_sp_count": [13],
     "sp_enemy": {
       "normal": 13,
-      "elite": 13,
+      "elite": null,
       "fixed": true
     },
     "sp_terrain": [
@@ -15359,8 +15361,8 @@
         }
       }
     ],
-    "all_possible_enemy_count": [38, 39],
-    "sp_count": [40],
+    "all_possible_enemy_count": [33, 34],
+    "sp_count": [35],
     "all_possible_elite_enemy_count": null,
     "elite_sp_count": null,
     "sp_enemy": {
@@ -15388,13 +15390,13 @@
       },
       {
         "key": "enemy_1075_dmgswd",
-        "min_count": 7,
-        "max_count": 8
+        "min_count": 4,
+        "max_count": 5
       },
       {
         "key": "enemy_1084_sotidm",
-        "min_count": 3,
-        "max_count": 4
+        "min_count": 1,
+        "max_count": 2
       },
       {
         "key": "enemy_2002_bearmi",
@@ -15494,7 +15496,9 @@
     "floors": [3],
     "addInfo_zh": ["【路网】效果: 额外出现2个大奖赛运输艇"],
     "addInfo_ja": ["「導きの網織」: 追加で<大会輸送艇>2体が出現する"],
-    "addInfo_en": ["Routeweave Net: Additional 2 <Competition Transport Vessel> appear"],
+    "addInfo_en": [
+      "Routeweave Net: Additional 2 <Competition Transport Vessel> appear"
+    ],
     "eliteDesc_zh": [
       "所有敌方单位的攻击力+30%，防御力+80%，生命值+30%，移动速度+80%"
     ],
@@ -15515,8 +15519,8 @@
         }
       }
     ],
-    "all_possible_enemy_count": [48, 49],
-    "sp_count": [50],
+    "all_possible_enemy_count": [47, 48],
+    "sp_count": [49],
     "all_possible_elite_enemy_count": null,
     "elite_sp_count": null,
     "sp_enemy": {
@@ -15848,9 +15852,15 @@
         "mods": {
           "special": {
             "bug_explode_eslime": {
-              "atk": { "multiplier": 4 },
+              "atk": {
+                "multiplier": 4
+              },
               "dmg_element": "arts",
-              "suffix": { "en": "💥", "ja": "💥", "zh": "💥" },
+              "suffix": {
+                "en": "💥",
+                "ja": "💥",
+                "zh": "💥"
+              },
               "hits": 1,
               "tooltip": {
                 "en": [
@@ -17488,7 +17498,9 @@
     "floors": [5],
     "addInfo_zh": ["【路网】效果: 额外出现1个深池弩炮队长"],
     "addInfo_ja": ["「導きの網織」: 追加で<ダブリン爆撃隊隊長>1体が出現する"],
-    "addInfo_en": ["Routeweave Net: Additional 1 <Dublinn Cannoneer Captain> appears"],
+    "addInfo_en": [
+      "Routeweave Net: Additional 1 <Dublinn Cannoneer Captain> appears"
+    ],
     "eliteDesc_zh": [
       "所有敌方单位的攻击力+30%，防御力+20%，生命值+30%",
       "愤怒的守墓石像被替换为泥岩巨像"
@@ -17622,7 +17634,9 @@
     "floors": [5],
     "addInfo_zh": ["【路网】效果: 额外出现1个山海众秘使"],
     "addInfo_ja": ["「導きの網織」: 追加で<山海衆密使>1体が出現する"],
-    "addInfo_en": ["Routeweave Net: Additional 1 <Shanhaizhong Secret-Keeper> appears"],
+    "addInfo_en": [
+      "Routeweave Net: Additional 1 <Shanhaizhong Secret-Keeper> appears"
+    ],
     "eliteDesc_zh": [
       "所有敌方单位的攻击力+10%，防御力+20%，生命值+50%",
       "山海众秘使破隐攻击力翻倍",

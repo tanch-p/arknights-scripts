@@ -20,10 +20,10 @@ for folder in folders:
             dirpath, dirnames, filenames) in os.walk(path) for f in filenames])
         break
     for stage_id in files:
-        if stage_id.split(".")[0] in stages_to_ignore:
-            continue
-        if not 'level_rogue3_1-2.json' in stage_id:
-            continue
+        # if stage_id.split(".")[0] in stages_to_ignore:
+        #     continue
+        # if not 'level_rogue3_1-2.json' in stage_id:
+        #     continue
         print(stage_id)
         write_path = os.path.join(
             script_dir, 'ro_wave_timelines', folder, stage_id)

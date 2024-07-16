@@ -43,7 +43,7 @@ with open("talent_overwrite_list.json", encoding="utf-8") as f:
 def get_timeline_enemy_counts(timeline):
     enemies_total = {}
     all_count = []
-    bonus ={}
+    bonus = {}
     for count in timeline:
         if count != 'bonus':
             all_count.append(int(count))
@@ -63,7 +63,8 @@ def get_timeline_enemy_counts(timeline):
                         enemies_total[key] = []
                     if not enemies[key] in enemies_total[key]:
                         enemies_total[key].append(enemies[key])
-    return {"enemies":enemies_total,"bonus":bonus}
+    return {"enemies": enemies_total, "bonus": bonus}
+
 
 stages_list = []
 roguelike_topics = [
@@ -127,6 +128,8 @@ for topic_dict in roguelike_topics:
                 "floors": extrainfo[levelId]['floors'] if levelId in extrainfo else None,
                 "sp_terrain": extrainfo[levelId]['sp_terrain'] if levelId in extrainfo else None,
                 "sp_enemy": extrainfo[levelId]['sp_enemy'] if levelId in extrainfo else None,
+                "n_count": extrainfo[levelId]['all_possible_enemy_count'] if levelId in extrainfo else None,
+                "e_count": extrainfo[levelId]['all_possible_elite_enemy_count'] if levelId in extrainfo else None,
             }
             enemy_list = extrainfo[levelId]['enemy_list'] if levelId in extrainfo else None
             elite_enemy_list = extrainfo[levelId]['elite_enemy_list'] if levelId in extrainfo else None

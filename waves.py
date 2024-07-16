@@ -8,7 +8,7 @@ pp = pprint.PrettyPrinter(indent=4)
 KEYS_TO_EXCLUDE = ['trap_079_allydonq']
 
 
-def get_wave_data(stage_data, log=False):
+def get_wave_data(stage_data, stage_id, log=False):
     def is_trap_group(group):
         for action in group:
             key = action['key']
@@ -91,6 +91,8 @@ def get_wave_data(stage_data, log=False):
                     if pack == 'none':
                         for action in fragment_group[group][pack]:
                             count = action['count']
+                            if action['isUnharmfulAndAlwaysCountAsKilled']:
+                                count = 0
                             if action['key'] == '':
                                 count = 0
                             if not count in permutations:
@@ -131,7 +133,7 @@ def get_wave_data(stage_data, log=False):
                         return True
         return False
 
-    def get_fragment_grouplist(fragment, difficulty):
+    def get_fragment_grouplist(fragment, difficulty, frag_index, stage_id):
         groups = {}
         for action in fragment['actions']:
             key = action['key']
@@ -139,6 +141,10 @@ def get_wave_data(stage_data, log=False):
             packKey = action['randomSpawnGroupPackKey']
             hidden_group = action['hiddenGroup']
             actionType = action['actionType']
+
+            if stage_id == 'level_rogue3_3-2' and frag_index == 7:
+                if key == 'enemy_1075_dmgswd' or key == 'enemy_1084_sotidm':
+                    continue
 
             if actionType != 'SPAWN':
                 continue
@@ -153,7 +159,7 @@ def get_wave_data(stage_data, log=False):
                     if not pack in groups[group]:
                         groups[group][pack] = []
                     groups[group][pack].append(
-                        {"key": key, "count": action['count'], "weight": action['weight'], "packKey": packKey})
+                        {"key": key, "count": action['count'], "weight": action['weight'], "packKey": packKey, "isUnharmfulAndAlwaysCountAsKilled": action['isUnharmfulAndAlwaysCountAsKilled']})
             elif difficulty == 1 and hidden_group != elite_group_name:
                 if not group is None:
                     if not group in groups:
@@ -162,7 +168,7 @@ def get_wave_data(stage_data, log=False):
                     if not pack in groups[group]:
                         groups[group][pack] = []
                     groups[group][pack].append(
-                        {"key": key, "count": action['count'], "weight": action['weight'], "packKey": packKey})
+                        {"key": key, "count": action['count'], "weight": action['weight'], "packKey": packKey, "isUnharmfulAndAlwaysCountAsKilled": action['isUnharmfulAndAlwaysCountAsKilled']})
             elif hidden_group is None:
                 if not group is None:
                     if not group in groups:
@@ -171,7 +177,7 @@ def get_wave_data(stage_data, log=False):
                     if not pack in groups[group]:
                         groups[group][pack] = []
                     groups[group][pack].append(
-                        {"key": key, "count": action['count'], "weight": action['weight'], "packKey": packKey})
+                        {"key": key, "count": action['count'], "weight": action['weight'], "packKey": packKey, "isUnharmfulAndAlwaysCountAsKilled": action['isUnharmfulAndAlwaysCountAsKilled']})
         return groups
 
     def distill_wave_data(stage_data, difficulty=1):
@@ -180,10 +186,10 @@ def get_wave_data(stage_data, log=False):
         enemy_list = {}
         groups_list = []
 
-        for wave in waves:
-            for fragment in wave['fragments']:
-
-                groups = get_fragment_grouplist(fragment, difficulty)
+        for wave_idx, wave in enumerate(waves):
+            for frag_index, fragment in enumerate(wave['fragments']):
+                groups = get_fragment_grouplist(
+                    fragment, difficulty, frag_index, stage_id)
                 for action in fragment['actions']:
                     key = action['key']
                     group = action['randomSpawnGroupKey']
@@ -193,6 +199,9 @@ def get_wave_data(stage_data, log=False):
 
                     if actionType != 'SPAWN':
                         continue
+                    if stage_id == 'level_rogue3_3-2' and frag_index == 7:
+                        if key == 'enemy_1075_dmgswd' or key == 'enemy_1084_sotidm':
+                            continue
 
                     if difficulty == 2:
                         for enemy in enemies_to_replace:
@@ -218,7 +227,7 @@ def get_wave_data(stage_data, log=False):
                                         pack_group = group
                                         break
                                 groups[pack_group][packKey].append(
-                                    {"key": key, "count": action['count'], "weight": action['weight'], "packKey": packKey})
+                                    {"key": key, "count": action['count'], "weight": action['weight'], "packKey": packKey, "isUnharmfulAndAlwaysCountAsKilled": action['isUnharmfulAndAlwaysCountAsKilled']})
                             else:
                                 base_enemy_count += action['count']
                                 if not key in enemy_list:
@@ -237,7 +246,7 @@ def get_wave_data(stage_data, log=False):
                                 pack_group = group
                                 break
                         groups[pack_group][packKey].append(
-                            {"key": key, "count": action['count'], "weight": action['weight'], "packKey": packKey})
+                            {"key": key, "count": action['count'], "weight": action['weight'], "packKey": packKey, "isUnharmfulAndAlwaysCountAsKilled": action['isUnharmfulAndAlwaysCountAsKilled']})
                     else:
                         base_enemy_count += action['count']
 
@@ -359,12 +368,12 @@ def get_wave_data(stage_data, log=False):
                 all_possible_elite_enemy_count)
 
     enemy_list = [{"key": key, "min_count": enemy_list[key]["min_count"],
-                   "max_count":enemy_list[key]["max_count"]} for key in enemy_list]
+                   "max_count": enemy_list[key]["max_count"]} for key in enemy_list]
     if elite_enemy_list is not None:
         elite_enemy_list = [{"key": key, "min_count": elite_enemy_list[key]["min_count"],
-                            "max_count":elite_enemy_list[key]["max_count"]} for key in elite_enemy_list]
+                            "max_count": elite_enemy_list[key]["max_count"]} for key in elite_enemy_list]
 
-    return {"enemy_list": enemy_list, "elite_enemy_list": elite_enemy_list, "all_possible_enemy_count": all_possible_enemy_count, "all_possible_elite_enemy_count":all_possible_elite_enemy_count, "sp_count": absolute_sp_counts, "elite_sp_count": absolute_elite_sp_counts}
+    return {"enemy_list": enemy_list, "elite_enemy_list": elite_enemy_list, "all_possible_enemy_count": all_possible_enemy_count, "all_possible_elite_enemy_count": all_possible_elite_enemy_count, "sp_count": absolute_sp_counts, "elite_sp_count": absolute_elite_sp_counts}
 
 
 script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in

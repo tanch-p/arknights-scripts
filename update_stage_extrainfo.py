@@ -22,8 +22,10 @@ for key in extra_stages_list:
         folder = "ro1"
     elif 'rogue2' in key:
         folder = "ro2"
-    else:
+    elif 'rogue3' in key:
         folder = "ro3"
+    else:
+        folder = "ro4"
 
     stage_data_path = os.path.join(
         script_dir,
@@ -32,7 +34,7 @@ for key in extra_stages_list:
 
     with open(stage_data_path, encoding="utf-8") as f:
         stage_data = json.load(f)
-        wave_data = get_wave_data(stage_data, log=False)
+        wave_data = get_wave_data(stage_data, key, log=False)
         enemy_list, elite_enemy_list, sp_count, elite_sp_count, all_possible_enemy_count,all_possible_elite_enemy_count = itemgetter(
                 "enemy_list", "elite_enemy_list", "sp_count", "elite_sp_count", "all_possible_enemy_count","all_possible_elite_enemy_count")(wave_data)
         extra_info = extra_stages_list[key]
@@ -86,7 +88,7 @@ for key in extra_stages_list:
 
     data[key] = trimmed_stage_info
 
-# for adding new stages
+#? for adding new stages
 # for stage in stages_list:
 #     key = stage['levelId']
 #     if not stage['levelId'] in extra_stages_list:
@@ -103,7 +105,7 @@ for key in extra_stages_list:
 #         )
 #         with open(stage_data_path, encoding="utf-8") as f:
 #             stage_data = json.load(f)
-#             wave_data = get_wave_data(stage_data, log=True)
+#             wave_data = get_wave_data(stage_data, key, log=True)
 #             print(wave_data)
 #             enemy_list, elite_enemy_list, sp_count, elite_sp_count, all_possible_enemy_count = itemgetter(
 #                 "enemy_list", "elite_enemy_list", "sp_count", "elite_sp_count", "all_possible_enemy_count")(wave_data)
