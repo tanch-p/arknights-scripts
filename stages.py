@@ -136,12 +136,12 @@ for topic_dict in roguelike_topics:
             elite_enemy_list = extrainfo[levelId]['elite_enemy_list'] if levelId in extrainfo else None
             enemies = []
             for enemy in stage_data["enemyDbRefs"]:
-                if enemy['id'] == 'enemy_2062_smcar':
+                enemy_id = enemy['id']
+                if enemy_id == 'enemy_2062_smcar':
                     continue
-                if enemy['id'] in my_enemy_db or enemy['id'] == 'enemy_1106_byokai_b':
-                    enemy_id = enemy['id']
-                    if enemy['id'] not in my_enemy_db:
-                        enemy_id = enemy["overwrittenData"]['prefabKey']['m_value']
+                if enemy['useDb'] is False:
+                     enemy_id = enemy["overwrittenData"]['prefabKey']['m_value']
+                if enemy_id in my_enemy_db:
                     overwrittenData = {}
                     if enemy["overwrittenData"]:
                         for key in enemy["overwrittenData"]["attributes"]:
@@ -203,6 +203,8 @@ for topic_dict in roguelike_topics:
                             "overwrittenData": overwrittenData,
                         }
                     )
+            if levelId == 'level_rogue4_b-6':
+                print(enemies)
             trimmed_stage_info["enemies"] = enemies
             stages_list.append(trimmed_stage_info)
 

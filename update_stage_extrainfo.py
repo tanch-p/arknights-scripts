@@ -34,7 +34,7 @@ for key in extra_info_list:
 
     with open(stage_data_path, encoding="utf-8") as f:
         stage_data = json.load(f)
-        wave_data = get_wave_data(stage_data, key, log=key=="level_rogue3_3-4")
+        wave_data = get_wave_data(stage_data, key, log=key=="level_rogue4_b-6")
         enemy_list, elite_enemy_list, sp_count, elite_sp_count, all_possible_enemy_count,all_possible_elite_enemy_count = itemgetter(
                 "enemy_list", "elite_enemy_list", "sp_count", "elite_sp_count", "all_possible_enemy_count","all_possible_elite_enemy_count")(wave_data)
         extra_info = extra_info_list[key]

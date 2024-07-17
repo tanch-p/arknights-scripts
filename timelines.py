@@ -8,7 +8,8 @@ script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
 folders = ['ro2', 'ro3', 'ro4']
 stages_to_ignore = ['level_rogue1_1-4','level_rogue1_3-8', 'level_rogue2_2-5',
-                    'level_rogue3_3-3', 'level_rogue3_ev-9']
+                    'level_rogue3_3-3', 'level_rogue3_ev-9',
+                    'level_rogue4_d-1','level_rogue4_d-2','level_rogue4_d-3']
 for folder in folders:
     files = []
     path = os.path.join(
