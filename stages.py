@@ -71,7 +71,7 @@ roguelike_topics = [
     {"topic": "rogue_1", "folder": "ro1"},
     {"topic": "rogue_2", "folder": "ro2"},
     {"topic": "rogue_3", "folder": "ro3"},
-        {"topic": "rogue_4", "folder": "ro4"},
+    {"topic": "rogue_4", "folder": "ro4"},
 ]
 
 for topic_dict in roguelike_topics:
@@ -140,7 +140,7 @@ for topic_dict in roguelike_topics:
                 if enemy_id == 'enemy_2062_smcar':
                     continue
                 if enemy['useDb'] is False:
-                     enemy_id = enemy["overwrittenData"]['prefabKey']['m_value']
+                    enemy_id = enemy["overwrittenData"]['prefabKey']['m_value']
                 if enemy_id in my_enemy_db:
                     overwrittenData = {}
                     if enemy["overwrittenData"]:
@@ -164,11 +164,19 @@ for topic_dict in roguelike_topics:
                             ]["m_value"]
                         if enemy['overwrittenData']['talentBlackboard'] or enemy['overwrittenData']['skills']:
                             if levelId not in talent_overwrite_list and enemy['id'] != 'enemy_1106_byokai_b':
-                                print(enemy['id'], levelId)
+                                print('talent overwrite', enemy['id'], levelId)
                             if enemy['id'] == 'enemy_1106_byokai_b' and folder == 'ro3':
                                 overwrittenData['talentBlackboard'] = talent_overwrite_list['rogue_3'][enemy['id']]
                             elif levelId in talent_overwrite_list and enemy['id'] in talent_overwrite_list[levelId]:
                                 overwrittenData['talentBlackboard'] = talent_overwrite_list[levelId][enemy['id']]
+                        if enemy['overwrittenData']['talentBlackboard']:
+                            for item in enemy['overwrittenData']['talentBlackboard']:
+                                if item['key'] == 'parasitic' and item['valueStr'] == "true":
+                                    if not 'talentBlackboard' in overwrittenData:
+                                        overwrittenData['talentBlackboard'] = [
+                                        ]
+                                    overwrittenData['talentBlackboard'].append(
+                                        {"key": "parasitic"})
                     if len(overwrittenData) == 0:
                         overwrittenData = None
                     '''
@@ -194,7 +202,8 @@ for topic_dict in roguelike_topics:
                         elite_max_count = max_count
                     enemies.append(
                         {
-                            "id": enemy_id,
+                            "id": enemy['id'],
+                            'prefabKey': enemy_id,
                             "level": enemy["level"],
                             "min_count": min_count,
                             "max_count": max_count,
@@ -203,8 +212,6 @@ for topic_dict in roguelike_topics:
                             "overwrittenData": overwrittenData,
                         }
                     )
-            if levelId == 'level_rogue4_b-6':
-                print(enemies)
             trimmed_stage_info["enemies"] = enemies
             stages_list.append(trimmed_stage_info)
 

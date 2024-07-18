@@ -334,7 +334,10 @@ def get_wave_data(stage_data, stage_id, log=False):
 
     # log and pp.pprint(all_count_permutations)
     # log and pp.pprint(sums)
-
+    if stage_id == "level_rogue4_t-4": #lazy hack
+        base_enemy_count -= 39
+    if stage_id == "level_rogue4_t-2": #lazy hack
+        base_enemy_count -= 2
     all_possible_enemy_count = get_all_possible_enemy_counts(
         base_enemy_count, sums)
 
@@ -366,7 +369,10 @@ def get_wave_data(stage_data, stage_id, log=False):
                     elite_enemy_list[key]['max_count'] += max(group[key])
         log and print("elite enemy list: ")
         log and pp.pprint(elite_enemy_list)
-
+        if stage_id == "level_rogue4_t-4": #lazy hack
+            elite_base_enemy_count -= 39
+        if stage_id == "level_rogue4_t-2":
+            elite_base_enemy_count -= 10
         all_count_permutations = get_all_count_permutations(
             elite_groups_list)
         sums = all_sums(all_count_permutations)

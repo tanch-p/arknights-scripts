@@ -31,7 +31,7 @@
       }
     ]
   },
-  "level_rogue1_3-2":{
+  "level_rogue1_3-2": {
     "enemy_1504_cqbw": [
       {
         "key": "W_C4",
@@ -108,5 +108,85 @@
   },
   "level_rogue3_ev-5": {
     "enemy_3004_speople": [{ "key": "speople_1", "dead": 200 }]
+  },
+  "level_rogue4_t-2": {
+    "enemy_3004_speople": [
+      {
+        "key": "lpeople_1",
+        "tooltip": {
+          "en": [],
+          "ja": [],
+          "zh": ["$会撤回保护目标点$"]
+        }
+      }
+    ]
+  },
+  "level_rogue4_t-4": {
+    "enemy_3004_speople": [
+      {
+        "key": "mhkryk_mode_1",
+        "tooltip": {
+          "en": [],
+          "ja": [],
+          "zh": ["$出现时持有甲壳$"]
+        }
+      }
+    ]
+  },
+  "level_rogue4_2-5": {
+    "enemy_1075_dmgswd": [
+      {
+        "key": "standby",
+        "value": 200
+      }
+    ]
+  },
+  "level_rogue4_3-1": {
+    "enemy_1276_telex": [
+      {
+        "key": "extra",
+        "tooltip": {
+          "en": ["$Does not attack or use skills$"],
+          "ja": ["$攻撃しない$"],
+          "zh": ["$不会进行攻击$"]
+        }
+      }
+    ]
+  },
+  "level_rogue4_4-3": {
+    "enemy_1276_telex": [
+      {
+        "key": "mmjump_1",
+        "duration": 3.7
+      }
+    ]
+  },
+  "level_rogue4_4-6": {
+    "enemy_1074_dbskar_2": [
+      {
+        "key": "standby",
+        "value": 100
+      }
+    ],
+    "enemy_1074_dbskar_2b": [
+      {
+        "key": "standby",
+        "value": 150
+      }
+    ],
+    "enemy_1074_dbskar_2c": [
+      {
+        "key": "standby",
+        "value": 240
+      }
+    ]
+  },
+  "level_rogue4_5-5": {
+    "enemy_1074_dbskar_2": [
+      {
+        "key": "standby",
+        "value": 200
+      }
+    ]
   }
 }
