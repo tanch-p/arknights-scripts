@@ -23291,12 +23291,12 @@
     "category": null,
     "routes": null,
     "floors": [5],
-	"addInfo_zh": ["始终是沉郁变奏，能用调谐节点改换变奏"],
+	"addInfo_zh": ["始终是<@purple>沉郁变奏</>，能用调谐节点改换变奏"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
       "所有敌方单位的攻击力+30%，防御力+20%，生命值+30%",
-      "调谐节点的位置变化"
+      "调谐节点激活所需技力翻倍"
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
@@ -23482,7 +23482,7 @@
     "addInfo_en": null,
     "eliteDesc_zh": [
       "所有敌方单位的攻击力，防御力，生命值+20%",
-      "初始的1个渎罪奇美拉被替换为萨卡兹恶咒者"
+      "初始最右边的1个渎罪奇美拉被替换为萨卡兹恶咒者"
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
@@ -23985,7 +23985,7 @@
     "addInfo_en": null,
     "eliteDesc_zh": [
       "所有敌方单位的攻击力，防御力+30%，生命值+40%",
-      "寻路者阵地破坏者，寻路者阵地撕裂者的技能倍率翻倍"
+      "寻路者阵地破坏者与寻路者阵地撕裂者对“冰淇淋机”的伤害翻倍"
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
@@ -23999,13 +23999,11 @@
         }
       },
       {
-        "targets": ["enemy_1216_cansld"],
+        "targets": ["enemy_1216_cansld","enemy_1216_cansld_2"],
         "mods": {
           "special": {
             "pathfinder_ballistarius": {
-              "atk": {
-                "multiplier": 2
-              }
+              "value":6000
             }
           }
         }
