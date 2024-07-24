@@ -91954,6 +91954,19 @@
         ],
         "blackboard": [
             {
+                "key": "atk_down",
+                "targets": 1,
+                "value": 0.5,
+                "duration": 15.0,
+                "conditions": [
+                    "apoptosis_burst"
+                ],
+                "category": [
+                    "weaken"
+                ],
+                "target_air": true
+            },
+            {
                 "key": "atk",
                 "value": 1.1
             }
@@ -92142,6 +92155,19 @@
             "burst"
         ],
         "blackboard": [
+            {
+                "key": "atk_down",
+                "targets": 99,
+                "value": 0.5,
+                "duration": 15.0,
+                "conditions": [
+                    "apoptosis_burst"
+                ],
+                "category": [
+                    "weaken"
+                ],
+                "target_air": true
+            },
             {
                 "key": "atk_scale",
                 "value": 4.0

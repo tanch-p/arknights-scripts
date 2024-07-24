@@ -24007,18 +24007,6 @@
             }
           }
         }
-      },
-      {
-        "targets": ["enemy_1216_cansld_2"],
-        "mods": {
-          "special": {
-            "pathfinder_ballistarius": {
-              "atk": {
-                "multiplier": 2.5
-              }
-            }
-          }
-        }
       }
     ],
     "all_possible_enemy_count": [45],
