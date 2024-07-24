@@ -99,7 +99,8 @@ SP_TILES = ["tile_hole",
             "tile_gazebo",
             "tile_healing",
             "tile_pollution_road",
-            "tile_creep"]
+            "tile_creep",
+            "tile_bigforce"]
 
 
 def get_special_tiles(tiles):

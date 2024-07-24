@@ -47,6 +47,14 @@
       }
     ]
   },
+  "level_rogue1_5-3": {
+    "enemy_1074_dbskar": [
+      {
+        "key": "standby",
+        "value": 130
+      }
+    ]
+  },
   "level_rogue2_3-1": {
     "enemy_1083_sotiab_2": [
       { "key": "guerilla_siegebreaker_leader_buff", "value": 100 }
@@ -84,6 +92,9 @@
       { "key": "sarks_performance", "cooldown": 10, "initCooldown": 10.0 }
     ]
   },
+  "level_rogue3_1-4":{
+    "enemy_1303_mhshep_b":[{"key":"standby","value":0}]
+  },
   "level_rogue3_2-6": {
     "enemy_1267_nhpbr": [{ "key": "nhpbr_pollution", "low": 100, "high": 50 }],
     "enemy_1273_stmgun": [
@@ -110,9 +121,9 @@
     "enemy_3004_speople": [{ "key": "speople_1", "dead": 200 }]
   },
   "level_rogue4_t-2": {
-    "enemy_3004_speople": [
+    "enemy_3005_lpeopl": [
       {
-        "key": "lpeople_1",
+        "key": "lpeopl_1",
         "tooltip": {
           "en": [],
           "ja": [],
@@ -122,7 +133,7 @@
     ]
   },
   "level_rogue4_t-4": {
-    "enemy_3004_speople": [
+    "enemy_1311_mhkryk_2": [
       {
         "key": "mhkryk_mode_1",
         "tooltip": {
@@ -154,7 +165,7 @@
     ]
   },
   "level_rogue4_4-3": {
-    "enemy_1276_telex": [
+    "enemy_1412_mmjump": [
       {
         "key": "mmjump_1",
         "duration": 3.7

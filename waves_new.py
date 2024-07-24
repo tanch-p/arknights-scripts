@@ -22,7 +22,7 @@ data: {
 combinations: [normal|elite] x [bossrelic,totem1]
 """
 
-bonus_enemies = ['enemy_2001_duckmi', 'enemy_2002_bearmi', 'enemy_2034_sythef']
+bonus_enemies = ['enemy_2001_duckmi', 'enemy_2002_bearmi', 'enemy_2034_sythef','enemy_2085_skzjxd']
 neutral_enemies = ['enemy_3003_alymot']
 
 

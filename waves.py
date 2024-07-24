@@ -20,7 +20,7 @@ def get_wave_data(stage_data, stage_id, log=False):
         has_sp_flag = False
         has_empty_flag = False
         sp_enemy_list = ["enemy_2034_sythef",
-                         "enemy_2001_duckmi", "enemy_2002_bearmi"]
+                         "enemy_2001_duckmi", "enemy_2002_bearmi","'enemy_2085_skzjxd'"]
         for group_name in groups[-1]:
             for packKey in groups[-1][group_name]:
                 for action in groups[-1][group_name][packKey]:
@@ -76,6 +76,21 @@ def get_wave_data(stage_data, stage_id, log=False):
                             else:
                                 if not count in pack_groups[key]:
                                     pack_groups[key].append(count)
+                #additional step for enemies that don't appear in other packs
+                for pack_enemy_key in pack_groups:
+                    for pack in fragment_group[group]:
+                        if pack != 'none':
+                            pack_enemies = {}
+                            for action in fragment_group[group][pack]:
+                                key = action['key']
+                                count = action['count']
+                                if not key in pack_enemies:
+                                    pack_enemies[key] = count
+                                else:
+                                    pack_enemies[key] += count
+                            if not pack_enemy_key in pack_enemies and not 0 in pack_groups[pack_enemy_key]:
+                                pack_groups[pack_enemy_key].append(0)
+
                 if len(pack_groups) > 0:
                     log and print("pack_groups: ", pack_groups)
                     for key in pack_groups:

@@ -12901,12 +12901,12 @@
       },
       {
         "key": "enemy_1355_mrfly_2",
-        "min_count": 3,
+        "min_count": 2,
         "max_count": 3
       },
       {
         "key": "enemy_1017_defdrn",
-        "min_count": 3,
+        "min_count": 2,
         "max_count": 3
       }
     ],
@@ -14554,12 +14554,12 @@
       },
       {
         "key": "enemy_1327_cbrokt",
-        "min_count": 6,
+        "min_count": 4,
         "max_count": 6
       },
       {
         "key": "enemy_1329_cbshld",
-        "min_count": 3,
+        "min_count": 1,
         "max_count": 3
       },
       {
@@ -14586,12 +14586,12 @@
       },
       {
         "key": "enemy_1327_cbrokt",
-        "min_count": 6,
+        "min_count": 4,
         "max_count": 6
       },
       {
         "key": "enemy_1329_cbshld",
-        "min_count": 3,
+        "min_count": 1,
         "max_count": 3
       },
       {
@@ -15497,7 +15497,7 @@
       },
       {
         "key": "enemy_3003_alymot",
-        "min_count": 13,
+        "min_count": 2,
         "max_count": 18
       },
       {
@@ -16227,7 +16227,7 @@
     "enemy_list": [
       {
         "key": "enemy_1306_mhtrtl",
-        "min_count": 7,
+        "min_count": 4,
         "max_count": 7
       },
       {
@@ -16257,12 +16257,12 @@
       },
       {
         "key": "enemy_1307_mhrhcr",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1307_mhrhcr_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
@@ -16284,7 +16284,7 @@
     "elite_enemy_list": [
       {
         "key": "enemy_1306_mhtrtl",
-        "min_count": 7,
+        "min_count": 4,
         "max_count": 7
       },
       {
@@ -16319,12 +16319,12 @@
       },
       {
         "key": "enemy_1307_mhrhcr",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1307_mhrhcr_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
@@ -16888,11 +16888,16 @@
     "category": null,
     "routes": null,
     "floors": [5],
-    "addInfo_zh": ["【路网】效果: 额外出现1个历战高塔术师和1个改进型量产巨像"],
+    "addInfo_zh": [
+      "【环境】废能干扰 - 所有干员的技力恢复倍率-70%，且处于<重整束流>的我方干员技力恢复倍率+70%",
+      "【路网】效果: 额外出现1个历战高塔术师和1个改进型量产巨像"
+    ],
     "addInfo_ja": [
+      "【環境】異音の調べ - 味方全員のSP回復速度-70%、<指揮光線>を受けている味方のSP回復速度+70%",
       "「導きの網織」: 追加で<ベテラン高塔の術師>1体と<量産型巨像・改>1体が出現する"
     ],
     "addInfo_en": [
+      "Waste Energy Interference - Friendly units have SP Regen -70%, Friendly units linked with Realigned Fluxes have SP Regen +70%",
       "Routeweave Net: Additional 1 <Battleworn Spire Caster> and 1 <Enhanced Mass-Produced Colossus> appear"
     ],
     "eliteDesc_zh": [
@@ -16961,7 +16966,7 @@
     "elite_enemy_list": [
       {
         "key": "enemy_1242_ltsmag_2",
-        "min_count": 4,
+        "min_count": 3,
         "max_count": 4
       },
       {
@@ -17612,7 +17617,7 @@
                   "その後$30$秒間、自身の攻撃速度+$225$"
                 ],
                 "zh": [
-                  "技能（初始冷却10s，后35s）",
+                  "技能（初次冷却10s，后35s）",
                   "蓄力约5s后，对目标造成攻击力200%的法术伤害，之后攻击速度+$225$，持续$30$s"
                 ]
               }
@@ -18645,7 +18650,15 @@
     "all_possible_elite_enemy_count": null,
     "elite_sp_count": null,
     "sp_enemy": null,
-    "sp_terrain": null,
+    "sp_terrain": [
+      {
+        "tileKey": "tile_bigforce",
+        "alias": null,
+        "blackboard": {
+          "base_force_level": 1.0
+        }
+      }
+    ],
     "enemy_list": [
       {
         "key": "enemy_2081_skztxs",
@@ -18831,9 +18844,9 @@
         }
       }
     ],
-    "all_possible_enemy_count": [14],
+    "all_possible_enemy_count": [12],
     "sp_count": null,
-    "all_possible_elite_enemy_count": [36],
+    "all_possible_elite_enemy_count": [26],
     "elite_sp_count": null,
     "sp_enemy": null,
     "sp_terrain": [
@@ -19015,13 +19028,13 @@
     "name_en": null,
     "category": null,
     "routes": null,
-    "floors": [5,6],
+    "floors": [5, 6],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
       "所有敌方单位的攻击力，防御力+20%，生命值+30%",
-      "敌人路线有变化???"
+      "4路全部出现敌人"
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
@@ -19065,12 +19078,12 @@
       },
       {
         "key": "enemy_1283_sgkill_2",
-        "min_count": 8,
+        "min_count": 0,
         "max_count": 8
       },
       {
         "key": "enemy_1311_mhkryk_2",
-        "min_count": 7,
+        "min_count": 0,
         "max_count": 7
       },
       {
@@ -19080,22 +19093,22 @@
       },
       {
         "key": "enemy_2085_skzjxd",
-        "min_count": 1,
+        "min_count": 0,
         "max_count": 1
       },
       {
         "key": "enemy_2034_sythef",
-        "min_count": 1,
+        "min_count": 0,
         "max_count": 1
       },
       {
         "key": "enemy_1092_mdgint",
-        "min_count": 6,
+        "min_count": 0,
         "max_count": 6
       },
       {
         "key": "enemy_2002_bearmi",
-        "min_count": 1,
+        "min_count": 0,
         "max_count": 1
       }
     ],
@@ -19263,47 +19276,47 @@
       },
       {
         "key": "enemy_1008_ghost",
-        "min_count": 5,
+        "min_count": 0,
         "max_count": 5
       },
       {
         "key": "enemy_1021_bslime",
-        "min_count": 5,
+        "min_count": 0,
         "max_count": 5
       },
       {
         "key": "enemy_1269_nhfly",
-        "min_count": 6,
+        "min_count": 0,
         "max_count": 6
       },
       {
         "key": "enemy_1271_nhkodo",
-        "min_count": 2,
+        "min_count": 0,
         "max_count": 2
       },
       {
         "key": "enemy_2066_skzlcp",
-        "min_count": 2,
+        "min_count": 0,
         "max_count": 2
       },
       {
         "key": "enemy_1022_dmage",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1047_sagent_2",
-        "min_count": 5,
+        "min_count": 0,
         "max_count": 5
       },
       {
         "key": "enemy_1317_wdexg",
-        "min_count": 5,
+        "min_count": 0,
         "max_count": 5
       },
       {
         "key": "enemy_2064_skzwdd",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       }
     ],
@@ -19315,47 +19328,47 @@
       },
       {
         "key": "enemy_1008_ghost",
-        "min_count": 5,
+        "min_count": 0,
         "max_count": 5
       },
       {
         "key": "enemy_1021_bslime",
-        "min_count": 5,
+        "min_count": 0,
         "max_count": 5
       },
       {
         "key": "enemy_1269_nhfly",
-        "min_count": 6,
+        "min_count": 0,
         "max_count": 6
       },
       {
         "key": "enemy_1271_nhkodo",
-        "min_count": 2,
+        "min_count": 0,
         "max_count": 2
       },
       {
         "key": "enemy_2066_skzlcp",
-        "min_count": 2,
+        "min_count": 0,
         "max_count": 2
       },
       {
         "key": "enemy_1022_dmage",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1047_sagent_2",
-        "min_count": 5,
+        "min_count": 0,
         "max_count": 5
       },
       {
         "key": "enemy_1317_wdexg",
-        "min_count": 5,
+        "min_count": 0,
         "max_count": 5
       },
       {
         "key": "enemy_2064_skzwdd",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       }
     ]
@@ -19440,7 +19453,7 @@
     "name_en": null,
     "category": null,
     "routes": null,
-    "floors": [5,6],
+    "floors": [5, 6],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -19612,12 +19625,12 @@
       },
       {
         "key": "enemy_1281_sgcar_2",
-        "min_count": 10,
+        "min_count": 4,
         "max_count": 10
       },
       {
         "key": "enemy_2064_skzwdd",
-        "min_count": 8,
+        "min_count": 0,
         "max_count": 8
       }
     ],
@@ -19835,232 +19848,232 @@
     "enemy_list": [
       {
         "key": "enemy_1259_durwar",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1008_ghost",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1010_demon",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1024_mortar",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1160_hvyslr",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1080_sotidp",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1095_ccripr",
-        "min_count": 6,
+        "min_count": 0,
         "max_count": 6
       },
       {
         "key": "enemy_1009_lurker",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1012_dcross",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1006_shield_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1161_tidmag",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1084_sotidm",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1047_sagent_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1049_eagent_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_3001_upeopl",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1161_tidmag_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1271_nhkodo",
-        "min_count": 6,
+        "min_count": 0,
         "max_count": 6
       },
       {
         "key": "enemy_1069_icebrk",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_2069_skzbox",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1058_traink",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1113_empace_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1160_hvyslr_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1025_reveng_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1098_cchmpn",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_2070_skzfbx",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1163_hvymot_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1050_lslime",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1182_flasrt_3",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1255_lybgpa",
-        "min_count": 6,
+        "min_count": 0,
         "max_count": 6
       },
       {
         "key": "enemy_2014_csicer",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_2002_bearmi",
-        "min_count": 6,
+        "min_count": 0,
         "max_count": 6
       },
       {
         "key": "enemy_2028_syevil",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_2076_skzklz",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1500_skulsr",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_2001_duckmi",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1516_jakill",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1162_magmot_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1505_frstar",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1183_mlasrt_3",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1256_lyacpa",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_2015_csicem",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_2085_skzjxd",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_2029_symon",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_2078_skzmst",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1502_crowns",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_2003_rockman",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       }
     ],
@@ -20102,282 +20115,282 @@
     "enemy_list": [
       {
         "key": "enemy_1118_lidbox_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1010_demon_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1024_mortar_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1047_sagent_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1238_ltmob_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1300_ymmir_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1080_sotidp_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_2069_skzbox",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1259_durwar_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1012_dcross_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1006_shield_3",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1053_norgst_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1258_durman_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1299_ymkilr_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1084_sotidm_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_2070_skzfbx",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1182_flasrt_3",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1263_durbus_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1062_rager_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1025_reveng_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_2028_syevil",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_3001_upeopl",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1311_mhkryk_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1175_dushdo_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1309_mhboar_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1183_mlasrt_3",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1281_sgcar_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1063_rageth_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1502_crowns",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_2029_symon",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1113_empace_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1306_mhtrtl_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1174_duholy_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1072_dlancer_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1513_dekght",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1104_lfkght_3",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1256_lyacpa_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1516_jakill",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_2014_csicer",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1510_frstar2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1509_mousek",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1001_bigbo",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1240_ltgint_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_2001_duckmi",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_2026_syudg",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1513_dekght_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1103_wdkght_3",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1255_lybgpa_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1254_lypa_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_2015_csicem",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1069_icebrk_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1060_emouse_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1001_bigbo_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1172_dugago_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_2002_bearmi",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_2027_syudg2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       }
     ],
@@ -21493,12 +21506,14 @@
     "category": null,
     "routes": null,
     "floors": [3],
-    "addInfo_zh": null,
+    "addInfo_zh": [],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
       "所有敌方单位的攻击力+20%，防御力+30%",
-      "出现伦蒂尼姆城防副炮"
+      "出现伦蒂尼姆城防副炮",
+      "伦蒂尼姆城防副炮 - 初始60SP/消耗120/自动回复",
+      "锁定阻挡数最高的我方单位，对范围内的全部单位造成3000点真实伤害（无视隐匿/迷彩）"
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
@@ -21828,7 +21843,7 @@
       },
       {
         "key": "enemy_1269_nhfly",
-        "min_count": 84,
+        "min_count": 57,
         "max_count": 84
       },
       {
@@ -21843,7 +21858,7 @@
       },
       {
         "key": "enemy_2070_skzfbx",
-        "min_count": 2,
+        "min_count": 0,
         "max_count": 2
       },
       {
@@ -22106,12 +22121,12 @@
       },
       {
         "key": "enemy_1191_krgrg",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
         "key": "enemy_1192_krgscr_2",
-        "min_count": 3,
+        "min_count": 0,
         "max_count": 3
       },
       {
@@ -22339,12 +22354,12 @@
       },
       {
         "key": "enemy_1045_hammer",
-        "min_count": 2,
+        "min_count": 0,
         "max_count": 2
       },
       {
         "key": "enemy_2064_skzwdd",
-        "min_count": 2,
+        "min_count": 0,
         "max_count": 2
       },
       {
@@ -22416,7 +22431,7 @@
     "enemy_list": [
       {
         "key": "enemy_1412_mmjump",
-        "min_count": 34,
+        "min_count": 28,
         "max_count": 34
       },
       {
@@ -22426,7 +22441,7 @@
       },
       {
         "key": "enemy_2070_skzfbx",
-        "min_count": 6,
+        "min_count": 0,
         "max_count": 6
       },
       {
@@ -22458,12 +22473,12 @@
       },
       {
         "key": "enemy_1412_mmjump",
-        "min_count": 34,
+        "min_count": 28,
         "max_count": 34
       },
       {
         "key": "enemy_2070_skzfbx",
-        "min_count": 6,
+        "min_count": 0,
         "max_count": 6
       },
       {
@@ -22997,7 +23012,10 @@
     "category": null,
     "routes": null,
     "floors": [5],
-    "addInfo_zh": null,
+    "addInfo_zh": [
+      "伦蒂尼姆城防副炮 - 初始60SP/消耗120/自动回复",
+      "锁定阻挡数最高的我方单位，对范围内的全部单位造成3000点真实伤害（无视隐匿/迷彩）"
+    ],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
@@ -23985,7 +24003,9 @@
         "mods": {
           "special": {
             "pathfinder_ballistarius": {
-              "atk": { "multiplier": 2 }
+              "atk": {
+                "multiplier": 2
+              }
             }
           }
         }
@@ -23995,7 +24015,9 @@
         "mods": {
           "special": {
             "pathfinder_ballistarius": {
-              "atk": { "multiplier": 2.5 }
+              "atk": {
+                "multiplier": 2.5
+              }
             }
           }
         }

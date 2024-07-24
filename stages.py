@@ -1,5 +1,6 @@
 import json
 import os
+from operator import itemgetter
 
 STAT_KEY_CONVERSION_TABLE = {
     "maxHp": "hp",
@@ -139,7 +140,7 @@ for topic_dict in roguelike_topics:
                 enemy_id = enemy['id']
                 if enemy_id == 'enemy_2062_smcar':
                     continue
-                if enemy['useDb'] is False:
+                if enemy['useDb'] is False and not levelId in ['level_rogue2_b-7','level_rogue2_ev-3']:
                     enemy_id = enemy["overwrittenData"]['prefabKey']['m_value']
                 if enemy_id in my_enemy_db:
                     overwrittenData = {}
@@ -212,6 +213,9 @@ for topic_dict in roguelike_topics:
                             "overwrittenData": overwrittenData,
                         }
                     )
+                    if not '_d-' in levelId:
+                        enemies.sort(key = itemgetter('id'))
+
             trimmed_stage_info["enemies"] = enemies
             stages_list.append(trimmed_stage_info)
 
