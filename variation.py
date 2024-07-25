@@ -87,5 +87,30 @@ for key in cn_roguelike_topic_table['modules']['rogue_4']['disaster']['disasterD
     }
     data.append(info)
 
+
 with open("disasters.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=4)
+
+data = []
+for key in cn_roguelike_topic_table['details']['rogue_4']['items']:
+    if not 'fragment' in key:
+        continue
+    fragment = cn_roguelike_topic_table['details']['rogue_4']['items'][key]
+    in_global = 'rogue_4' in jp_roguelike_topic_table['details']
+    info = {
+        "id": fragment["id"],
+        "name_zh": cn_roguelike_topic_table['details']['rogue_4']['items'][key]['name'],
+        "name_ja": jp_roguelike_topic_table['details']['rogue_4']['items'][key]['name'] if in_global else None,
+        "name_en": en_roguelike_topic_table['details']['rogue_4']['items'][key]['name'] if in_global else None,
+        "iconId": fragment['iconId'],
+		"fragments": None,
+        "tooltip_zh": cn_roguelike_topic_table['details']['rogue_4']['items'][key]['usage'],
+        "tooltip_ja": jp_roguelike_topic_table['details']['rogue_4']['items'][key]['usage'] if in_global else None,
+        "tooltip_en": en_roguelike_topic_table['details']['rogue_4']['items'][key]['usage'] if in_global else None
+
+    }
+    data.append(info)
+
+
+with open("skz_fragments.json", "w", encoding="utf-8") as f:
     json.dump(data, f, ensure_ascii=False, indent=4)

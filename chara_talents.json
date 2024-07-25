@@ -11952,5 +11952,48 @@
                 ]
             }
         ]
+    },
+    "char_4151_tinman": {
+        "appellation": "Tin Man",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "“在路上”",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "在【萨卡兹的无终奇语】中，被招募时希望消耗-2，且作为负荷干员时使负荷临界点额外+10<@ba.talpu>（+1）</>",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": []
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "凋敝魂灵",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "使自身炼金单元影响范围内地面敌人受到的持续伤害提高22%<@ba.talpu>（+2%）</>",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "damage_scale",
+                        "targets": 99,
+                        "value": 1.22,
+                        "types": [
+                            "phys",
+                            "arts",
+                            "true",
+                            "ele_dmg"
+                        ],
+                        "conditions": [
+                            "enemy_melee",
+                            "dot"
+                        ]
+                    }
+                ]
+            }
+        ]
     }
 }

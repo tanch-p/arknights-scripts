@@ -21830,7 +21830,7 @@
     "all_possible_elite_enemy_count": null,
     "elite_sp_count": null,
     "sp_enemy": {
-      "normal": "78 / 106",
+      "normal": "77 / 106",
       "elite": null,
       "fixed": true
     },
@@ -23291,7 +23291,7 @@
     "category": null,
     "routes": null,
     "floors": [5],
-	"addInfo_zh": ["始终是<@purple>沉郁变奏</>，能用调谐节点改换变奏"],
+    "addInfo_zh": ["始终是<@purple>沉郁变奏</>，能用调谐节点改换变奏"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
@@ -23373,7 +23373,7 @@
     "category": null,
     "routes": null,
     "floors": [5],
-	"addInfo_zh": ["腐败骑士出现在左上，凋零骑士出现在右上"],
+    "addInfo_zh": ["腐败骑士出现在左上，凋零骑士出现在右上"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
@@ -23999,11 +23999,11 @@
         }
       },
       {
-        "targets": ["enemy_1216_cansld","enemy_1216_cansld_2"],
+        "targets": ["enemy_1216_cansld", "enemy_1216_cansld_2"],
         "mods": {
           "special": {
             "pathfinder_ballistarius": {
-              "value":6000
+              "value": 6000
             }
           }
         }
