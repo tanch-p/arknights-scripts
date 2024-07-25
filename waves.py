@@ -115,7 +115,8 @@ def get_wave_data(stage_data, stage_id, log=False):
                     else:
                         count = 0
                         for action in fragment_group[group][pack]:
-                            count += action['count']
+                            if action['key'] != '':
+                                count += action['count']
                         if not count in permutations:
                             permutations.append(count)
                 all_count_permutations.append(permutations)
