@@ -23197,23 +23197,16 @@
     "category": null,
     "routes": null,
     "floors": [5],
-    "addInfo_zh": null,
+    "addInfo_zh": ["紧急作战没有属性加成（7/27最终确认）"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
-      "所有敌方单位的攻击力，生命值+50%",
+      "<@strike>所有敌方单位的攻击力，生命值+50%</>",
       "伦蒂尼姆城防自行炮的技能CD减半"
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "elite_mods": [
-      {
-        "targets": ["ALL"],
-        "mods": {
-          "atk": 1.5,
-          "hp": 1.5
-        }
-      },
       {
         "targets": ["enemy_1273_stmgun"],
         "mods": {
