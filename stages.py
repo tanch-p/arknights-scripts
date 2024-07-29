@@ -67,6 +67,11 @@ def get_timeline_enemy_counts(timeline):
     return {"enemies": enemies_total, "bonus": bonus}
 
 
+def skip_enemy(levelId, key):
+    levels = {"level_rogue4_4-4": ["enemy_1221_dzomg_b", "enemy_1220_dzoms_b"]}
+    return levelId in levels and key in levels[levelId]
+
+
 stages_list = []
 roguelike_topics = [
     {"topic": "rogue_1", "folder": "ro1"},
@@ -140,7 +145,9 @@ for topic_dict in roguelike_topics:
                 enemy_id = enemy['id']
                 if enemy_id == 'enemy_2062_smcar':
                     continue
-                if enemy['useDb'] is False and not levelId in ['level_rogue2_b-7','level_rogue2_ev-3']:
+                if skip_enemy(levelId, enemy_id):
+                    continue
+                if enemy['useDb'] is False and not levelId in ['level_rogue2_b-7', 'level_rogue2_ev-3']:
                     enemy_id = enemy["overwrittenData"]['prefabKey']['m_value']
                 if enemy_id in my_enemy_db:
                     overwrittenData = {}
@@ -214,7 +221,7 @@ for topic_dict in roguelike_topics:
                         }
                     )
                     if not '_d-' in levelId:
-                        enemies.sort(key = itemgetter('id'))
+                        enemies.sort(key=itemgetter('id'))
 
             trimmed_stage_info["enemies"] = enemies
             stages_list.append(trimmed_stage_info)
