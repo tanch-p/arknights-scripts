@@ -21,12 +21,12 @@ for key in cn_gameconst['termDescriptionDict']:
     global_has_key = key in en_gameconst['termDescriptionDict']
     data[key] = {
         "termId": cn_gameconst['termDescriptionDict'][key]['termId'],
-        "termName_zh": cn_gameconst['termDescriptionDict'][key]["termName"],
-        "termName_en": en_gameconst['termDescriptionDict'][key]["termName"] if global_has_key else None,
-        "termName_ja": jp_gameconst['termDescriptionDict'][key]["termName"] if global_has_key else None,
-        "description_zh": cn_gameconst['termDescriptionDict'][key]["description"],
-        "description_en": en_gameconst['termDescriptionDict'][key]["description"] if global_has_key else None,
-        "description_ja": jp_gameconst['termDescriptionDict'][key]["description"] if global_has_key else None,
+        "name_zh": cn_gameconst['termDescriptionDict'][key]["termName"],
+        "name_en": en_gameconst['termDescriptionDict'][key]["termName"] if global_has_key else None,
+        "name_ja": jp_gameconst['termDescriptionDict'][key]["termName"] if global_has_key else None,
+        "desc_zh": cn_gameconst['termDescriptionDict'][key]["description"],
+        "desc_en": en_gameconst['termDescriptionDict'][key]["description"] if global_has_key else None,
+        "desc_ja": jp_gameconst['termDescriptionDict'][key]["description"] if global_has_key else None,
     }
 
 with open('gameconst.json', 'w', encoding='utf-8') as f:
