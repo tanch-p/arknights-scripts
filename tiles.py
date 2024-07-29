@@ -6,6 +6,7 @@ import json
 pp = pprint.PrettyPrinter(indent=4)
 script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
+
 def get_all_tiles():
     f = []
     for (dirpath, dirnames, filenames) in walk(os.path.join(script_dir, "cn_data/zh_CN/gamedata/levels/obt")):
@@ -100,7 +101,8 @@ SP_TILES = ["tile_hole",
             "tile_healing",
             "tile_pollution_road",
             "tile_creep",
-            "tile_bigforce"]
+            "tile_bigforce",
+            "tile_smog"]
 
 
 def get_special_tiles(tiles):

@@ -21405,7 +21405,13 @@
       "elite": "26",
       "fixed": false
     },
-    "sp_terrain": null,
+    "sp_terrain": [
+      {
+        "tileKey": "tile_smog",
+        "alias": null,
+        "blackboard": null
+      }
+    ],
     "enemy_list": [
       {
         "key": "enemy_1075_dmgswd",
@@ -22165,7 +22171,7 @@
     "category": null,
     "routes": null,
     "floors": [4],
-    "addInfo_zh": ["初始部署费用上限降低至30","年代之刺：普通4/天灾+1"],
+    "addInfo_zh": ["初始部署费用上限降低至30", "年代之刺：普通4/天灾+1"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
@@ -23199,7 +23205,10 @@
     "category": null,
     "routes": null,
     "floors": [5],
-    "addInfo_zh": ["紧急作战没有属性加成（7/27最终确认）","年代之刺：普通0/天灾+1"],
+    "addInfo_zh": [
+      "紧急作战没有属性加成（7/27最终确认）",
+      "年代之刺：普通0/天灾+1"
+    ],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
@@ -23289,7 +23298,10 @@
     "category": null,
     "routes": null,
     "floors": [5],
-    "addInfo_zh": ["始终是<@purple>沉郁变奏</>，能用调谐节点改换变奏","年代之刺：普通0/天灾+1"],
+    "addInfo_zh": [
+      "始终是<@purple>沉郁变奏</>，能用调谐节点改换变奏",
+      "年代之刺：普通0/天灾+1"
+    ],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
@@ -23371,7 +23383,10 @@
     "category": null,
     "routes": null,
     "floors": [5],
-    "addInfo_zh": ["年代之刺：普通1/天灾+1","腐败骑士出现在左上，凋零骑士出现在右上"],
+    "addInfo_zh": [
+      "年代之刺：普通1/天灾+1",
+      "腐败骑士出现在左上，凋零骑士出现在右上"
+    ],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
@@ -23817,6 +23832,11 @@
     "sp_terrain": [
       {
         "tileKey": "tile_hole",
+        "alias": null,
+        "blackboard": null
+      },
+      {
+        "tileKey": "tile_smog",
         "alias": null,
         "blackboard": null
       }
