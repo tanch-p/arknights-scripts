@@ -26,8 +26,8 @@ for stage_id in files:
     temp = {}
     for item in stage_data['predefines']['tokenInsts']:
         key = item['alias']
-        # if key is None or not "trap_760_skztzs" in key:
-        #     continue
+        if key is None or not "trap_760_skztzs" in key:
+            continue
         hiddenGroup = None
         randomSpawnGroupKey = None
         randomSpawnGroupPackKey = None
