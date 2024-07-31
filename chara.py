@@ -172,9 +172,25 @@ for id in filtered_cn_char_table:
     if character_dict['subProfessionId'] == "slower":
         blackboard.append({"key": "sluggish", "targets": 1,
                           "value": 0.8, "target_air": True})
+        blackboard.append({
+            "key": "ms_down",
+            "targets": 1,
+            "value": 0.8,
+            "duration": 0.8,
+            "category": ["sluggish"],
+            "target_air": True
+        },)
     if character_dict['subProfessionId'] == "chain":
         blackboard.append({"key": "sluggish", "targets": 4,
                           "value": 0.5, "target_air": True})
+        blackboard.append({
+            "key": "ms_down",
+            "targets": 4,
+            "value": 0.8,
+            "duration": 0.5,
+            "category": ["sluggish"],
+            "target_air": True
+        },)
     if character_dict['subProfessionId'] == "stalker":
         blackboard.append({"key": "evasion", "value": 0.5,
                           "types": ["phys", "arts"]})
@@ -182,7 +198,7 @@ for id in filtered_cn_char_table:
         blackboard.append({"key": "max_target", "value": 3})
     if character_dict["subProfessionId"] == "librator":
         blackboard.append({"key": "block", "value": 0})
-    if character_dict["subProfessionId"] in ["librator","healer","musha"]:
+    if character_dict["subProfessionId"] in ["librator", "healer", "musha"]:
         desc_zh = replace_substrings(
             character_dict['trait']['candidates'][-1]['overrideDescripton'], character_dict['trait']['candidates'][-1]['blackboard'])
 
@@ -200,7 +216,7 @@ for id in filtered_cn_char_table:
             "<$ba", "<ba")
         desc_ja = jp_char_table[id]['description'].replace(
             "<$ba", "<ba")
-        if character_dict["subProfessionId"] in ["librator","healer","musha"]:
+        if character_dict["subProfessionId"] in ["librator", "healer", "musha"]:
             desc_en = replace_substrings(
                 en_char_table[id]['trait']['candidates'][-1]['overrideDescripton'], en_char_table[id]['trait']['candidates'][-1]['blackboard'])
             desc_ja = replace_substrings(

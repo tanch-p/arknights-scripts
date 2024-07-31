@@ -49,6 +49,23 @@
       }
     ]
   },
+  "token_10030_mlyss_wtrman": {
+    "tags": [],
+    "blackboard": [
+      {
+        "key": "atk_down",
+        "targets": 1,
+        "value": 250.0,
+        "target_air": false
+      },
+      {
+        "key": "def_down",
+        "targets": 1,
+        "value": 250.0,
+        "target_air": false
+      }
+    ]
+  },
   "token_10037_mitm_trshrb": {
     "tags": [],
     "blackboard": [

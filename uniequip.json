@@ -547,12 +547,11 @@
           "value": 1.0
         },
         {
-          "key": "cnt",
-          "value": 5.0
-        },
-        {
-          "key": "reduce_attack_speed",
-          "value": 30.0
+          "key": "aspd_down",
+          "targets": 1,
+          "value": 30,
+          "conditions": ["token_blocked"],
+          "target_air": false
         },
         {
           "key": "max_deploy_count",
@@ -3542,6 +3541,14 @@
           "target_air": true
         },
         {
+          "key": "ms_down",
+          "targets": 4,
+          "value": 0.8,
+          "duration": 0.8,
+          "category": ["sluggish"],
+          "target_air": true
+        },
+        {
           "key": "attack@chain.atk_scale",
           "value": 0.9
         },
@@ -3723,6 +3730,14 @@
           "key": "sluggish",
           "targets": 4,
           "value": 0.8,
+          "target_air": true
+        },
+        {
+          "key": "ms_down",
+          "targets": 4,
+          "value": 0.8,
+          "duration": 0.8,
+          "category": ["sluggish"],
           "target_air": true
         },
         {
@@ -9116,6 +9131,14 @@
           "targets": 99,
           "value": 1.0,
           "target_air": true
+        },
+        {
+          "key": "ms_down",
+          "targets": 99,
+          "value": 0.8,
+          "duration": 1,
+          "category": ["sluggish"],
+          "target_air": true
         }
       ]
     }
@@ -9889,6 +9912,14 @@
           "target_air": true
         },
         {
+          "key": "ms_down",
+          "targets": 1,
+          "value": 0.8,
+          "duration": 1.2,
+          "category": ["sluggish"],
+          "target_air": true
+      },
+        {
           "key": "hp_recovery_per_sec",
           "value": 40.0
         }
@@ -10208,6 +10239,14 @@
           "value": 1.2,
           "target_air": true
         },
+        {
+          "key": "ms_down",
+          "targets": 1,
+          "value": 0.8,
+          "duration": 1.2,
+          "category": ["sluggish"],
+          "target_air": true
+      },
         {
           "key": "def",
           "value": -0.35
@@ -10541,7 +10580,15 @@
           "targets": 1,
           "value": 1.53,
           "target_air": true
-        }
+        },
+        {
+          "key": "ms_down",
+          "targets": 4,
+          "value": 0.8,
+          "duration": 1.53,
+          "category": ["sluggish"],
+          "target_air": true
+      }
       ]
     }
   },
@@ -30487,6 +30534,22 @@
           "value": 1.0,
           "prob": 0.25,
           "target_air": true
+        },
+        {
+          "key": "aspd_down",
+          "targets": 2,
+          "value": 30.0,
+          "duration": 1,
+          "target_air": true,
+          "category": ["cold"]
+        },
+        {
+          "key": "res_down",
+          "targets": 2,
+          "value": 15,
+          "duration": 1.0,
+          "target_air": true,
+          "category": ["freeze"]
         }
       ]
     }
@@ -30936,6 +30999,14 @@
           "value": 2.0,
           "target_air": false
         },
+        {
+          "key": "ms_down",
+          "targets": 99,
+          "value": 0.8,
+          "duration": 2.0,
+          "category": ["sluggish"],
+          "target_air": false
+      },
         {
           "key": "self_damage_scale",
           "value": 1.15
@@ -32465,6 +32536,14 @@
           "value": 1.6,
           "target_air": true
         },
+        {
+          "key": "ms_down",
+          "targets": 1,
+          "value": 0.8,
+          "duration": 1.6,
+          "category": ["sluggish"],
+          "target_air": true
+      },
         {
           "key": "stun",
           "targets": 1,
@@ -41555,6 +41634,14 @@
           "target_air": true
         },
         {
+          "key": "ms_down",
+          "targets": 1,
+          "value": 0.8,
+          "duration": 1.2,
+          "category": ["sluggish"],
+          "target_air": true
+      },
+        {
           "key": "damage_scale",
           "targets": 99,
           "value": 1.25,
@@ -41730,24 +41817,11 @@
       "tags": [],
       "blackboard": [
         {
-          "key": "interval",
-          "value": 3.0
-        },
-        {
-          "key": "atk",
-          "value": 0.04
-        },
-        {
-          "key": "max_stack_cnt",
-          "value": 5.0
-        },
-        {
-          "key": "lmlee_t_1[enemy].attack_speed",
-          "value": -21.0
-        },
-        {
-          "key": "lmlee_t_1[self].attack_speed",
-          "value": 21.0
+          "key": "aspd_down",
+          "targets": 1,
+          "value": 21.0,
+          "conditions": ["self_block"],
+          "target_air": false
         },
         {
           "key": "cnt",
@@ -48245,6 +48319,22 @@
           "target_air": true
         },
         {
+          "key": "aspd_down",
+          "targets": 1,
+          "value": 30.0,
+          "duration": 1.5,
+          "target_air": true,
+          "category": ["cold"]
+        },
+        {
+          "key": "res_down",
+          "targets": 1,
+          "value": 15,
+          "duration": 1.5,
+          "target_air": true,
+          "category": ["freeze"]
+        },
+        {
           "key": "base_attack_time",
           "value": 0.15
         }
@@ -48875,6 +48965,14 @@
           "value": 0.6,
           "target_air": true
         },
+        {
+          "key": "ms_down",
+          "targets": 1,
+          "value": 0.8,
+          "duration": 0.6,
+          "category": ["sluggish"],
+          "target_air": true
+      },
         {
           "key": "element_atk_scale",
           "value": 0.6
@@ -50321,7 +50419,7 @@
           "targets": 99,
           "value": 20,
           "duration": 10.0,
-          "conditions": ["burning_burst"],
+          "category": ["burning_burst"],
           "target_air": true
         },
         {

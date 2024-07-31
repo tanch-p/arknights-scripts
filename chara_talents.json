@@ -805,6 +805,16 @@
                         "targets": 99,
                         "value": 0.6,
                         "target_air": true
+                    },
+                    {
+                        "key": "ms_down",
+                        "targets": 99,
+                        "value": 0.8,
+                        "duration": 0.6,
+                        "category": [
+                            "sluggish"
+                        ],
+                        "target_air": true
                     }
                 ]
             }
@@ -4345,7 +4355,7 @@
                         "targets": 1,
                         "value": 25,
                         "conditions": [
-                            "self_block"
+                            "token_blocked"
                         ],
                         "target_air": false
                     }
@@ -5575,6 +5585,17 @@
                         "value": 2.0,
                         "prob": 0.4,
                         "target_air": true
+                    },
+                    {
+                        "key": "ms_down",
+                        "targets": 99,
+                        "value": 0.8,
+                        "prob": 0.4,
+                        "duration": 2.0,
+                        "category": [
+                            "sluggish"
+                        ],
+                        "target_air": false
                     }
                 ]
             }
@@ -6934,6 +6955,16 @@
                             "first_hit"
                         ],
                         "target_air": true
+                    },
+                    {
+                        "key": "ms_down",
+                        "targets": 1,
+                        "value": 0.8,
+                        "duration": 3.0,
+                        "category": [
+                            "sluggish"
+                        ],
+                        "target_air": true
                     }
                 ]
             }
@@ -8038,6 +8069,26 @@
                         "target_air": true
                     },
                     {
+                        "key": "aspd_down",
+                        "targets": 1,
+                        "value": 30.0,
+                        "duration": 1.0,
+                        "target_air": true,
+                        "category": [
+                            "cold"
+                        ]
+                    },
+                    {
+                        "key": "res_down",
+                        "targets": 1,
+                        "value": 15,
+                        "duration": 1.0,
+                        "target_air": true,
+                        "category": [
+                            "freeze"
+                        ]
+                    },
+                    {
                         "key": "damage_scale",
                         "targets": 99,
                         "value": 1.54,
@@ -8495,6 +8546,16 @@
                         "targets": 99,
                         "value": 0.2,
                         "target_air": true
+                    },
+                    {
+                        "key": "ms_down",
+                        "targets": 99,
+                        "value": 0.8,
+                        "duration": 0.2,
+                        "category": [
+                            "sluggish"
+                        ],
+                        "target_air": true
                     }
                 ]
             },
@@ -8664,7 +8725,7 @@
                     {
                         "key": "aspd_down",
                         "targets": 1,
-                        "value": 30.0,
+                        "value": 15.0,
                         "conditions": [
                             "self_block"
                         ],
@@ -8834,6 +8895,16 @@
                         "targets": 1,
                         "value": 1.4,
                         "prob": 0.25,
+                        "target_air": true
+                    },
+                    {
+                        "key": "ms_down",
+                        "targets": 1,
+                        "value": 0.8,
+                        "duration": 1.4,
+                        "category": [
+                            "sluggish"
+                        ],
                         "target_air": true
                     },
                     {
@@ -11589,6 +11660,16 @@
                         "targets": 1,
                         "value": 0.8,
                         "prob": 0.4,
+                        "target_air": true
+                    },
+                    {
+                        "key": "ms_down",
+                        "targets": 1,
+                        "value": 0.8,
+                        "duration": 0.8,
+                        "category": [
+                            "sluggish"
+                        ],
                         "target_air": true
                     }
                 ]
