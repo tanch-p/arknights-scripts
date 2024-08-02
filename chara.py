@@ -204,7 +204,7 @@ for id in filtered_cn_char_table:
 
     return_dict = {"id": id, "appellation": character_dict['appellation'], "name_zh": character_dict['name'], "name_ja": "", "name_en": "",
                    "desc_zh": desc_zh, "desc_ja": "", "desc_en": "",
-                   "release_time": imple_dates[id],
+                   "release_time": imple_dates[id] if id in imple_dates else 0,
                    "tags": tags, "blackboard": blackboard,
                    "nationId": character_dict['nationId'], "groupId": character_dict['groupId'], "teamId": character_dict['teamId'], "position": character_dict['position'],
                    "isSpChar": character_dict['isSpChar'], "rarity": character_dict['rarity'],
