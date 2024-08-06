@@ -34054,7 +34054,7 @@
                 },
                 {
                     "key": "ally_cost_down",
-                    "value": -2.0,
+                    "value": 2.0,
                     "conditions": [
                         "SNIPER"
                     ]
@@ -49539,20 +49539,11 @@
             "tags": [],
             "blackboard": [
                 {
-                    "key": "cost",
-                    "value": 2.0
-                },
-                {
-                    "key": "withdraw_cost_recover_ratio",
-                    "value": 1.0
-                },
-                {
-                    "key": "runtime_cost",
-                    "value": -4.0
-                },
-                {
-                    "key": "value",
-                    "value": -2.0
+                    "key": "ally_cost_down",
+                    "value": 2.0,
+                    "conditions": [
+                        "next_operator"
+                    ]
                 }
             ]
         }

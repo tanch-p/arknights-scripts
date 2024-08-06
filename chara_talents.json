@@ -7312,7 +7312,7 @@
                 "blackboard": [
                     {
                         "key": "ally_cost_down",
-                        "value": -2.0,
+                        "value": 2.0,
                         "conditions": [
                             "next_operator"
                         ]
@@ -7446,7 +7446,7 @@
                 "blackboard": [
                     {
                         "key": "ally_cost_down",
-                        "value": -2.0,
+                        "value": 2.0,
                         "conditions": [
                             "rhine"
                         ]
@@ -11568,8 +11568,11 @@
                         "value": -3.0
                     },
                     {
-                        "key": "cost",
-                        "value": 1.0
+                        "key": "ally_cost_down",
+                        "value": 1.0,
+                        "conditions": [
+                            "next_operator"
+                        ]
                     }
                 ]
             }
