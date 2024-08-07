@@ -55386,7 +55386,8 @@
         ],
         "tags": [
             "stop_attack",
-            "heal_ally"
+            "heal_ally",
+            "heal_unhealable"
         ],
         "blackboard": [
             {
@@ -63122,7 +63123,9 @@
         ],
         "tags": [
             "fragile",
-            "range_up"
+            "range_up",
+            "heal_unhealable",
+            "heal_ally"
         ],
         "blackboard": [
             {

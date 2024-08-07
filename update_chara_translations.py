@@ -154,7 +154,7 @@ with open('chara_skills.json', 'w', encoding='utf-8') as f:
 return_dict = {}
 for equip_id in curr_uniequip:
     equip = cn_uniequip_table['equipDict'][equip_id]
-    char_id = equip['charId']
+    char_id = curr_uniequip[equip_id]['charId']
     battle_equip = en_battle_equip_table[equip_id] if equip_id in en_battle_equip_table else None
     in_global = equip_id in en_battle_equip_table
     combat_data = curr_uniequip[equip_id]['combatData']

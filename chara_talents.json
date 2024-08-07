@@ -1755,7 +1755,8 @@
                 "desc_ja": "配置中1秒ごとに味方全員のHPをパフューマーの攻撃力の5.5%<@ba.talpu>(+0.5%)</>回復",
                 "desc_en": "Restores the HP of all allies by 5.5% <@ba.talpu>(+0.5%)</> of Perfumer's ATK per second",
                 "tags": [
-                    "global_heal"
+                    "global_heal",
+                    "heal_unhealable"
                 ],
                 "blackboard": [
                     {
@@ -8173,7 +8174,8 @@
                 "desc_en": "Restores the HP of all allies by 25 <@ba.talpu>(+5)</> per second when the skill is not activated",
                 "tags": [
                     "global_heal",
-                    "heal_ally"
+                    "heal_ally",
+                    "heal_unhealable"
                 ],
                 "blackboard": [
                     {
@@ -8399,7 +8401,8 @@
                 "desc_en": "Allies with less than 50% HP within this unit's Attack Range heal HP equal to 6% <@ba.talpu>(+1%)</> of this unit's ATK every second; effect doubles for [Rhine Lab] Operators",
                 "tags": [
                     "heal_ally",
-                    "rhine"
+                    "rhine",
+                    "heal_unhealable"
                 ],
                 "blackboard": [
                     {
@@ -9654,7 +9657,8 @@
                 "tags": [
                     "protect",
                     "heal_ally",
-                    "heal_self"
+                    "heal_self",
+                    "heal_unhealable"
                 ],
                 "blackboard": [
                     {
@@ -11827,7 +11831,8 @@
                 "desc_en": "",
                 "desc_ja": "",
                 "tags": [
-                    "global_heal"
+                    "global_heal",
+                    "heal_unhealable"
                 ],
                 "blackboard": [
                     {
