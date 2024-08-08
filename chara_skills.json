@@ -92865,7 +92865,7 @@
                 "targets": 99,
                 "value": 0.3,
                 "duration": 10.0,
-                "category": "weaken",
+                "category": ["weaken"],
                 "target_air": true
             }
         ]
