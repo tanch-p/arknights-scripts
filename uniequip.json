@@ -53893,5 +53893,1302 @@
                 }
             ]
         }
+    },
+    "uniequip_001_marcil": {
+        "uniEquipId": "uniequip_001_marcil",
+        "name_zh": "玛露西尔证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_4141_marcil",
+        "combatData": null
+    },
+    "uniequip_002_marcil": {
+        "uniEquipId": "uniequip_002_marcil",
+        "name_zh": "才女的藏书",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "spc-y",
+        "charId": "char_4141_marcil",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "DISPLAY",
+                            "isToken": false,
+                            "addDesc_zh": "部署费用<@ba.kw>减少</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "攻击造成<@ba.kw>群体法术伤害</>",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "cost",
+                            "value": -8.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 51.0
+                        },
+                        {
+                            "key": "attack_speed",
+                            "value": 5.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "DISPLAY",
+                            "isToken": false,
+                            "addDesc_zh": "部署费用<@ba.kw>减少</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "攻击造成<@ba.kw>群体法术伤害</>",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "可靠的同伴",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 1,
+                            "upgradeDesc_zh": "初始<ba.magicpoint>魔力</>+35，编队中有4名<ba.laiosteam>【莱欧斯小队】</>干员时，所有<ba.laiosteam>【莱欧斯小队】</>干员攻击速度+25，防御力+35%",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "cost",
+                            "value": -8.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 68.0
+                        },
+                        {
+                            "key": "attack_speed",
+                            "value": 6.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "DISPLAY",
+                            "isToken": false,
+                            "addDesc_zh": "部署费用<@ba.kw>减少</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "攻击造成<@ba.kw>群体法术伤害</>",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "可靠的同伴",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 1,
+                            "upgradeDesc_zh": "初始<ba.magicpoint>魔力</>+40，编队中有4名<ba.laiosteam>【莱欧斯小队】</>干员时，所有<ba.laiosteam>【莱欧斯小队】</>干员攻击速度+25，防御力+35%",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "cost",
+                            "value": -8.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 82.0
+                        },
+                        {
+                            "key": "attack_speed",
+                            "value": 7.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+            ]
+        }
+    },
+    "uniequip_001_laios": {
+        "uniEquipId": "uniequip_001_laios",
+        "name_zh": "莱欧斯证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_4142_laios",
+        "combatData": null
+    },
+    "uniequip_002_laios": {
+        "uniEquipId": "uniequip_002_laios",
+        "name_zh": "想要带回迷宫的包裹",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "dre-y",
+        "charId": "char_4142_laios",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": "laios_equip_1_2_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "被击倒时不撤退且回复所有生命但生命上限<@ba.vdown>-60%</>，攻击速度<@ba.vup>+30</>（单次部署只触发1次）",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 150.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 25.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 20.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "laios_equip_1_2_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "被击倒时不撤退且回复所有生命但生命上限<@ba.vdown>-60%</>，攻击速度<@ba.vup>+30</>（单次部署只触发1次）",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "迷宫魔物专家",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "周围四格有敌人倒下后，莱欧斯攻击所有同名敌人时无视其45%防御力",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 190.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 40.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 30.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "laios_equip_1_3_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "被击倒时不撤退且回复所有生命但生命上限<@ba.vdown>-60%</>，攻击速度<@ba.vup>+30</>（单次部署只触发1次）",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "迷宫魔物专家",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "周围四格有敌人倒下后，莱欧斯攻击所有同名敌人时无视其50%防御力",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 220.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 55.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 40.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": ["revive"],
+            "blackboard": [
+                {
+                    "key": "def_penetrate",
+                    "value": 0.5,
+                    "conditions":["four_tile_enemy_defeat"]
+                }
+            ]
+        }
+    },
+    "uniequip_001_chilc": {
+        "uniEquipId": "uniequip_001_chilc",
+        "name_zh": "齐尔查克证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_4144_chilc",
+        "combatData": null
+    },
+    "uniequip_002_chilc": {
+        "uniEquipId": "uniequip_002_chilc",
+        "name_zh": "原版开锁工具",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "age-x",
+        "charId": "char_4144_chilc",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": "chilc_equip_1_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "不容易受到敌方攻击",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 150.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 20.0
+                        },
+                        {
+                            "key": "attack_speed",
+                            "value": 5.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "chilc_equip_1_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "不容易受到敌方攻击",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "敏锐的五感",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": "2-2",
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "部署后，使自身及攻击范围内的友方单位不会受到来自自然环境的伤害和<ba.dt.element>元素损伤</>，持续58<@ba.talpu>（+5）</>秒",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 200.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 23.0
+                        },
+                        {
+                            "key": "attack_speed",
+                            "value": 6.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "chilc_equip_1_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "不容易受到敌方攻击",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "敏锐的五感",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": "2-2",
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "部署后，使自身及攻击范围内的友方单位不会受到来自自然环境的伤害和<ba.dt.element>元素损伤</>，持续65<@ba.talpu>（+5）</>秒",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 300.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 25.0
+                        },
+                        {
+                            "key": "attack_speed",
+                            "value": 7.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": ["lower_target_priority"],
+            "blackboard": [
+                {
+                    "key": "immune_duration",
+                    "value": 65.0
+                }
+            ]
+        }
+    },
+    "uniequip_001_sensi": {
+        "uniEquipId": "uniequip_001_sensi",
+        "name_zh": "森西证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_4143_sensi",
+        "combatData": null
+    },
+    "uniequip_002_sensi": {
+        "uniEquipId": "uniequip_002_sensi",
+        "name_zh": "非魔法厨艺",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "gua-y",
+        "charId": "char_4143_sensi",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": "sensi_equip_1_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "受到的伤害减少<@ba.kw>15%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 130.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 40.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "sensi_equip_1_2_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "受到的伤害减少<@ba.kw>15%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "十年魔物餐经验",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "防御力+13%，自身治疗量提升13%",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 230.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 50.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "sensi_equip_1_3_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "受到的伤害减少<@ba.kw>15%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "十年魔物餐经验",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "防御力+15%，自身治疗量提升15%",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 300.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 60.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+                {
+                    "key": "dmg_res",
+                    "value": 0.15,
+                    "types": [
+                        "phys",
+                        "arts"
+                    ]
+                },
+                {
+                    "key": "def",
+                    "value": 0.15
+                },
+                {
+                    "key": "self_heal_scale",
+                    "value": 1.15
+                }
+            ]
+        }
+    },
+    "uniequip_001_hodrer": {
+        "uniEquipId": "uniequip_001_hodrer",
+        "name_zh": "赫德雷证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_4088_hodrer",
+        "combatData": null
+    },
+    "uniequip_002_hodrer": {
+        "uniEquipId": "uniequip_002_hodrer",
+        "name_zh": "新的生活",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "cru-x",
+        "charId": "char_4088_hodrer",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": "hodrer_equip_1_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "受到的治疗效果提升<@ba.kw>20%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 290.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 92.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "hodrer_equip_1_2_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "受到的治疗效果提升<@ba.kw>20%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": "hodrer_equip_1_2_p2",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": "余火之氅",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": "b-1",
+                            "talentIndex": 1,
+                            "upgradeDesc_zh": "使自身与身后一格的友军获得27%<@ba.talpu>（+3%）</>的<ba.protect>庇护</>，且造成的物理伤害提升6%",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 380.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 112.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "hodrer_equip_1_3_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "受到的治疗效果提升<@ba.kw>20%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": "hodrer_equip_1_3_p2",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": "余火之氅",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": "b-1",
+                            "talentIndex": 1,
+                            "upgradeDesc_zh": "使自身与身后一格的友军获得31%<@ba.talpu>（+3%）</>的<ba.protect>庇护</>，且造成的物理伤害提升10%",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 450.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 130.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+                {
+                    "key": "self_heal_scale",
+                    "value": 1.2
+                },
+                {
+                    "key": "ally_dmg_res",
+                    "value": 0.31,
+                    "types": [
+                        "phys",
+                        "arts"
+                    ],
+                    "conditions":["ally_behind"],
+                    "category": [
+                            "protect"
+                        ]
+                },
+                {
+                    "key": "dmg_res",
+                    "value": 0.31,
+                    "types": [
+                        "phys",
+                        "arts"
+                    ],
+                    "category": [
+                            "protect"
+                        ]
+                },
+                {
+                    "key": "ally_damage_scale",
+                    "value": 1.1,
+                    "conditions":["ally_behind"]
+                },
+                {
+                    "key": "damage_scale",
+                    "value": 1.1
+                }
+            ]
+        }
+    },
+    "uniequip_001_ulpia": {
+        "uniEquipId": "uniequip_001_ulpia",
+        "name_zh": "乌尔比安证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_4145_ulpia",
+        "combatData": null
+    },
+    "uniequip_002_ulpia": {
+        "uniEquipId": "uniequip_002_ulpia",
+        "name_zh": "乌尔比安的衣橱",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "cru-x",
+        "charId": "char_4145_ulpia",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": "ulpia_equip_1_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "受到的治疗效果提升<@ba.kw>20%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 330.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 84.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "ulpia_equip_1_2_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "受到的治疗效果提升<@ba.kw>20%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "本性的坚守",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "每次受到伤害时，治疗自身120点生命值；生命值低于50%时，治疗效果提升至170点生命值",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 430.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 107.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "ulpia_equip_1_3_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "受到的治疗效果提升<@ba.kw>20%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "本性的坚守",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "每次受到伤害时，治疗自身130点生命值；生命值低于60%时，治疗效果提升至175点生命值",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 510.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 120.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+                {
+                    "key": "self_heal_scale",
+                    "value": 1.2
+                }
+            ]
+        }
+    },
+    "uniequip_001_chimes": {
+        "uniEquipId": "uniequip_001_chimes",
+        "name_zh": "铎铃证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_4083_chimes",
+        "combatData": null
+    },
+    "uniequip_002_chimes": {
+        "uniEquipId": "uniequip_002_chimes",
+        "name_zh": "致继任者",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "cru-x",
+        "charId": "char_4083_chimes",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": "chimes_equip_1_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "受到的治疗效果提升<@ba.kw>20%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 230.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 85.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "chimes_equip_1_2_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "受到的治疗效果提升<@ba.kw>20%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "走山路",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "生命上限+7%，生命值高于50%时获得+30%<@ba.talpu>（+2%）</>攻击力的<ba.strong>精力充沛</>",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 305.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 89.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "chimes_equip_1_3_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "受到的治疗效果提升<@ba.kw>20%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "走山路",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "生命上限+8%，生命值高于50%时获得+35%<@ba.talpu>（+2%）</>攻击力的<ba.strong>精力充沛</>",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 350.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 100.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+                {
+                    "key": "self_heal_scale",
+                    "value": 1.2
+                },
+                {
+                    "key": "max_hp",
+                    "value": 0.08
+                },
+                {
+                    "key": "atk",
+                    "value": 0.35,
+                    "category":["vigor"]
+                }
+            ]
+        }
+    },
+    "uniequip_001_quartz": {
+        "uniEquipId": "uniequip_001_quartz",
+        "name_zh": "石英证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_4063_quartz",
+        "combatData": null
+    },
+    "uniequip_002_quartz": {
+        "uniEquipId": "uniequip_002_quartz",
+        "name_zh": "钟表修理套组",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "cru-x",
+        "charId": "char_4063_quartz",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": "quartz_equip_1_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "受到的治疗效果提升<@ba.kw>20%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 210.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 68.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "quartz_equip_1_2_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "受到的治疗效果提升<@ba.kw>20%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "行于荒野",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "生命值+13%<@ba.talpu>（+1%）</>，攻击力+13%<@ba.talpu>（+1%）</>",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 260.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 80.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "quartz_equip_1_3_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "受到的治疗效果提升<@ba.kw>20%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "行于荒野",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "生命值+15%<@ba.talpu>（+1%）</>，攻击力+15%<@ba.talpu>（+1%）</>",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 300.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 90.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+                {
+                    "key": "self_heal_scale",
+                    "value": 1.2
+                },
+                {
+                    "key": "max_hp",
+                    "value": 0.15
+                },
+                {
+                    "key": "atk",
+                    "value": 0.15
+                }
+            ]
+        }
+    },
+    "uniequip_003_irene": {
+        "uniEquipId": "uniequip_003_irene",
+        "name_zh": "审判官口粮",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "swo-x",
+        "charId": "char_4009_irene",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": "irene_equip_2_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "技能造成的伤害提升<@ba.vup>10%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 50.0
+                        },
+                        {
+                            "key": "attack_speed",
+                            "value": 5.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "irene_equip_2_2_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "技能造成的伤害提升<@ba.vup>10%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": "irene_equip_2_2_p2",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": "审判之火",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "对敌人造成物理伤害时有50%概率无视其50%防御力，对空中单位概率提升至100%，技能期间若击倒空中单位，技能结束时获得4点技力",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 65.0
+                        },
+                        {
+                            "key": "attack_speed",
+                            "value": 6.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "irene_equip_2_3_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "技能造成的伤害提升<@ba.vup>10%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": "irene_equip_2_3_p2",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": "审判之火",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "对敌人造成物理伤害时有50%概率无视其55%防御力，对空中单位概率提升至100%，技能期间若击倒空中单位，技能结束时获得6点技力",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 80.0
+                        },
+                        {
+                            "key": "attack_speed",
+                            "value": 7.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+                {
+                    "key": "def_penetrate",
+                    "value": 0.55,
+                    "prob":0.5
+                },
+                {
+                    "key": "sp",
+                    "value": 6.0,
+                    "conditions":["defeat_aerial_enemy"]
+                }
+            ]
+        }
     }
 }

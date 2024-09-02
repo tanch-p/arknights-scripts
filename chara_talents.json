@@ -12234,5 +12234,122 @@
                 ]
             }
         ]
+    },
+    "char_4144_chilc": {
+        "appellation": "Chilchuck",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "敏锐的五感",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "部署后，使自身及攻击范围内的友方单位不会受到来自自然环境的伤害和<ba.dt.element>元素损伤</>，持续50<@ba.talpu>（+5）</>秒",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "env_dmg_reduce"
+                ],
+                "blackboard": [
+                    {
+                        "key": "immune_duration",
+                        "value": 50.0
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4142_laios": {
+        "appellation": "Laios",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "迷宫魔物专家",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "击倒敌人后，莱欧斯攻击所有同名敌人时无视其40%防御力",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "def_penetrate",
+                        "value": 0.4,
+                        "conditions": [
+                            "same_enemy_defeat"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4143_sensi": {
+        "appellation": "Senshi",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "十年魔物餐经验",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "防御力+10%，自身治疗量提升10%",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "def",
+                        "value": 0.1
+                    },
+                    {
+                        "key": "self_heal_scale",
+                        "value": 1.1
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4141_marcil": {
+        "appellation": "Marcille",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "建校以来第一才女",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "技能消耗<ba.magicpoint>魔力</>且可随时开启，<ba.magicpoint>魔力</>不自然回复，不在场时每秒回复1点；有<ba.magicpoint>魔力</>时，攻击力+25%<@ba.talpu>（+5%）</>，攻击溅射范围扩大",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": []
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "可靠的同伴",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "初始<ba.magicpoint>魔力</>+25，编队中有4名<ba.laiosteam>【莱欧斯小队】</>干员时，所有<ba.laiosteam>【莱欧斯小队】</>干员攻击速度+25，防御力+35%",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "squad_effect",
+                    "laiosteam"
+                ],
+                "blackboard": [
+                    {
+                        "key": "ally_attack_speed",
+                        "value": 25.0,
+                        "conditions": [
+                            "laiosteam"
+                        ]
+                    },
+                    {
+                        "key": "ally_def",
+                        "value": 0.35,
+                        "conditions": [
+                            "laiosteam"
+                        ]
+                    }
+                ]
+            }
+        ]
     }
 }
