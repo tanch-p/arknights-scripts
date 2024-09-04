@@ -18819,7 +18819,7 @@
     "name_en": null,
     "category": null,
     "routes": null,
-    "floors": [3,4,5],
+    "floors": [3, 4, 5],
     "addInfo_zh": ["年代之刺：普通0/天灾+1"],
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -18829,8 +18829,18 @@
       "道路障碍物的生命值翻12倍",
       "出现的敌人产生巨大变化（有熊）"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+40%、防御力+40%、最大HP+40%",
+      "「ダック卿」がさらに防御力+40%、最大HP+30%",
+      "「道路障害物」の最大HP+1100%",
+      "敵編成が大きく変わる (ゴプニクも出る)"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +40% ATK, +40% DEF, and +40% Max HP",
+      "<Duck Lord> additionally gains +40% DEF and +30% Max HP",
+      "<Static Roadblock>'s Max HP increased by 11x",
+      "Enemy makeup changes greatly, <Gopnik> appears"
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -18956,8 +18966,14 @@
       "所有敌方单位的攻击力，防御力，生命值+30%",
       "额外出现1个年代之刺，1个鸭爵"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+30%、防御力+30%、最大HP+30%",
+      "追加で「年代之刺」1個と「ダック卿」1体が出現する"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +30% ATK, +30% DEF, and +30% Max HP",
+      "Additional 1 <年代之刺> and 1 <Duck Lord> appears"
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -19040,8 +19056,14 @@
       "所有敌方单位的攻击力，防御力+20%，生命值+30%",
       "4路全部出现敌人"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+20%、防御力+20%、最大HP+30%",
+      "全4ルートに敵が出現する"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +20% ATK, +20% DEF, and +30% Max HP",
+      "Enemies spawn at all 4 routes"
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -19185,8 +19207,14 @@
       "所有敌方单位的攻击力，防御力，生命值+20%",
       "精致糖果车被击败后都会出现恐卡兹"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+20%、防御力+20%、最大HP+20%",
+      "「人気キャンディカート」が倒されると「恐卡兹」を召喚する"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +20% ATK, +20% DEF, and +20% Max HP",
+      "All <Luscious Snack Cart> will spawn <恐卡兹> upon defeat"
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -19254,8 +19282,14 @@
       "所有敌方单位的攻击力，防御力，生命值+20%",
       "额外出现1个“门”"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+20%、防御力+20%、最大HP+20%",
+      "追加で「門」1体が出現する"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +20% ATK, +20% DEF, and +20% Max HP",
+      "Additional 1 <'Door'> appears "
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -20416,9 +20450,13 @@
       "所有敌方单位的攻击力，防御力+10%，生命值+50%",
       "萨卡兹狙击手被替换为残党萨克斯手"
     ],
-    "eliteDesc_ja": ["敵全員の攻撃力、防御力+10%、最大HP+50%"],
+    "eliteDesc_ja": [
+      "敵全員の攻撃力、防御力+10%、最大HP+50%",
+      "<サルカズ狙撃兵>が<残党のサックス奏者>に替わる"
+    ],
     "eliteDesc_en": [
-      "All enemy units have +10% ATK, +10% DEF, and +50% Max HP"
+      "All enemy units have +10% ATK, +10% DEF, and +50% Max HP",
+      "All <Sarkaz Crossbowman> are replaced by <Remnant Saxophonist>"
     ],
     "elite_mods": [
       {
@@ -20542,8 +20580,14 @@
       "所有敌方单位的攻击力+20%，生命值+50%",
       "只出现1个废热喷口"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+20%、最大HP+50%",
+      "下の「廃熱噴出口」のみが現れる"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +20% ATK, +50% Max HP",
+      "Only bottom <Waste Heat Vent> appears"
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -20635,8 +20679,14 @@
       "萨卡兹迷宫归乡者的生命值额外+30%",
       "额外出现1个萨卡兹迷宫归乡者"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+20%、防御力+20%、最大HP+30%",
+      "追加で「萨卡兹迷宫归乡者」1体が出現し、かつ最大HPがさらに30%上昇"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +20% ATK, +20% DEF and +30% Max HP",
+      "Additional 1 <萨卡兹迷宫归乡者> appears and all <萨卡兹迷宫归乡者> have additional +30% Max HP"
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -20765,8 +20815,14 @@
       "所有敌方单位的攻击力+20%，生命值+50%",
       "额外出现1个萨卡兹大剑手和2个萨卡兹刀兵"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+20%、最大HP+50%",
+      "追加で「サルカズ大剣士」1体と「サルカズ刀術師」2体が出現する"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +20% ATK, and +50% Max HP",
+      "Additional 1 <Sarkaz Greatswordsman> and 2 <Sarkaz Swordsman> appears"
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -20904,8 +20960,14 @@
       "所有敌方单位的攻击力，防御力，生命值+20%",
       "所有污染秽蚀造成的伤害翻倍"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+20%、防御力+20%、最大HP+20%",
+      "蝕む穢れのダメージが倍になる"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +20% ATK, +20% DEF and +20% Max HP",
+      "Pollution damage doubled"
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -21014,8 +21076,14 @@
       "所有敌方单位的攻击力，防御力，生命值+20%",
       "额外出现1个年代之刺"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+20%、防御力+20%、最大HP+20%",
+      "追加で「年代之刺」1個が出現する"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +20% ATK, +20% DEF and +20% Max HP",
+      "Additional 1 <年代之刺> appears"
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -21153,8 +21221,14 @@
       "所有敌方单位的攻击力，防御力+20%，生命值+50%",
       "破阵者组长获得隐匿"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+20%、防御力+20%、最大HP+50%",
+      "「切り込み隊長」がステルスを獲得"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +20% ATK, +20% DEF and +50% Max HP",
+      "<Breaker Leader> gains stealth"
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -21255,8 +21329,14 @@
       "所有敌方单位的防御力+20%，生命值+70%",
       "游击队萨卡兹战士被替换为游击队萨卡兹战士组长"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の防御力+20%、最大HP+70%",
+      "「遊撃隊サルカズ戦士」が「遊撃隊サルカズ戦士隊長」に替わる"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +20% DEF and +70% Max HP",
+      "All <Sarkaz Guerrilla Fighter> are replaced with <Sarkaz Guerrilla Fighter Leader>"
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -21384,8 +21464,14 @@
       "所有敌方单位的攻击力，防御力+20%，生命值+40%",
       "额外出现2个技术侦察兵"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+20%、防御力+20%、最大HP+40%",
+      "追加で「技術偵察兵」2体が出現する"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +20% ATK, +20% DEF and +40% Max HP",
+      "Additional 2 <Technical Scout> appears"
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -21525,8 +21611,18 @@
       "伦蒂尼姆城防副炮 - 初始60SP/消耗120/自动回复",
       "锁定阻挡数最高的我方单位，对范围内的全部单位造成3000点真实伤害（无视隐匿/迷彩）"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+20%、防御力+30%",
+      "「ロンディニウム都市防衛副砲」が起動される",
+      "「ロンディニウム都市防衛副砲」 - 初期SP60/必要SP120/自動回復",
+      "ブロック数の最も大きい味方ユニットを対象に砲撃を行う、砲撃は対象を中心とした範囲に存在する敵味方双方の全ユニットに3000の確定ダメージを与える（ステルス・迷彩無視）"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +20% ATK and +30% DEF",
+      "<Londinium Secondary Defense Artillery> is activated",
+      "<Londinium Secondary Defense Artillery> - Initial SP 60, SP Cost 120, Auto Recovery",
+      "Once fully charged, deals 3000 splash True damage to both allies and enemies, centered on the friendly unit with the highest Block (ignores stealth and camouflage)"
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -21696,8 +21792,16 @@
       "1个萨卡兹枯朽战士被替换为1个萨卡兹枯朽吞噬者和4个高能源石虫",
       "年代之刺换位置"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+20%、最大HP+50%",
+      "「枯朽サルカズ戦士」1体が「枯朽サルカズ吸収者」1体と「バクダンムシ」4体に替わる",
+      "「年代之刺」の位置が変わる"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +20% ATK and +50% Max HP",
+      "1 <Sarkaz Witherer> is replaced by 1 <Sarkaz Wither Devourer> and 4 <Infused Originium Slug>",
+      "Changes to positions of <年代之刺>"
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -21818,8 +21922,14 @@
       "所有敌方单位的防御力+70%，生命值+20%",
       "枯朽之种的攻击力+50%"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の防御力+70%、最大HP+20%",
+      "「枯朽の種」の攻撃力+50%"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +70% DEF and +20% Max HP",
+      "All <Seed of Withering> have +50% ATK"
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -21910,8 +22020,14 @@
       "所有敌方单位的攻击力+30%，生命值，移动速度+50%",
       "碎石的生命值-50%"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+30%、最大HP+50%、移動速度+50%",
+      "「礫岩」の最大HP-50%"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +40% ATK, +20% DEF and +50% Max HP",
+      "All <Rubble> have -50% Max HP"
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -21992,8 +22108,14 @@
       "所有敌方单位的攻击力+40%，防御力+20%，生命值+50%",
       "额外出现2个源石祭坛"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+40%、防御力+20%、最大HP+50%",
+      "追加で「源石祭壇」2台が出現する"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +40% ATK, +20% DEF and +50% Max HP",
+      "Additional 2 <Originium Altar> appears"
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -22074,8 +22196,14 @@
       "所有敌方单位的攻击力，防御力，生命值+30%",
       "“灰礼帽”的攻击速度+50"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+30%、防御力+30%、最大HP+30%",
+      "「グレーシルクハット」の攻撃速度+50"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +30% ATK, +30% DEF and +30% Max HP",
+      "<'Trilby Asher'> has +50 ASPD"
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -22178,8 +22306,14 @@
       "所有敌方单位的攻击力，防御力，生命值+50%",
       "额外出现2个萨卡兹悖谬暴虐兵长"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+50%、防御力+50%、最大HP+50%",
+      "追加で「サルカズ悖理暴虐兵士長」2体が出現する"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +50% ATK, +50% DEF and +50% Max HP",
+      "Additional 2 <Sarkaz Absurdist Tyrant Captain> appears"
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -22318,8 +22452,10 @@
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": ["所有敌方单位的攻击力+50%，防御力+20%，生命值+100%"],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": ["敵全員の攻撃力+50%、防御力+20%、最大HP+100%"],
+    "eliteDesc_en": [
+      "All enemy units have +50% ATK, +20% DEF and +100% Max HP"
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -22411,8 +22547,14 @@
       "所有敌方单位的攻击力+50%，生命值+50%",
       "额外出现2个萨卡兹迷宫归乡者"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+50%、最大HP+50%",
+      "追加で「萨卡兹迷宫归乡者」2体が出現する"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +50% ATK, and +50% Max HP",
+      "Additional 2 <萨卡兹迷宫归乡者> appear"
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -22527,10 +22669,16 @@
     "addInfo_en": null,
     "eliteDesc_zh": [
       "所有敌方单位的攻击力+20%，生命值+50%",
-      "额外出现2个萨卡兹子裔补给车"
+      "作战开始时额外出现2个萨卡兹子裔补给车"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+20%、最大HP+50%",
+      "作戦開始時追加で「サルカズ眷属補給車」2体が出現する"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +20% ATK, and +50% Max HP",
+      "Additional 2 <Sarkaz Heirbearer ASV> appear at the start"
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -22666,8 +22814,14 @@
       "所有敌方单位的攻击力+20%，生命值+50%",
       "额外出现3个莱塔尼亚轻语者，2个R-11突击动力装甲"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+20%、最大HP+50%",
+      "追加で「リターニア術師」3体、「R-11突撃型パワードスーツ」2体が出現する"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +20% ATK, and +50% Max HP",
+      "Additional 3 <Leithanian Whisperer> and 2 <R-11 Assault Power Armor> appears"
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -22798,8 +22952,14 @@
       "所有敌方单位的攻击力，防御力，生命值+25%",
       "圣卫自动机被击败后都会生成恐卡兹"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+25%、防御力+25%、最大HP+25%",
+      "「圣卫自动机」が倒されると「恐卡兹」を召喚する"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +25% ATK, +25% DEF and +25% Max HP",
+      "All <圣卫自动机> will spawn <恐卡兹> upon defeat"
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -22947,8 +23107,14 @@
       "所有敌方单位的攻击力+30%，生命值+50%",
       "“汲营枯枝”的生命值+100%"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+30%、最大HP+50%",
+      "「渇欲の枯枝」の最大HP+100%"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +30% ATK and +50% Max HP",
+      "<'Twigs That Crave'> have +100% Max HP"
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -23033,8 +23199,14 @@
       "所有敌方单位的攻击力+40%，防御力+50%，生命值+20%",
       "额外出现12个乌萨斯平民，3个萨卡兹子裔工匠，2个萨卡兹王庭军术师"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+40%、防御力+50%、最大HP+20%",
+      "追加で「ウルサス民間人」12体、「サルカズ眷属工匠」3体と「サルカズ王庭軍術師」2体が出現する"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +40% ATK, +50% DEF and +20% Max HP",
+      "Additional 12 <Ursus Civilian>, 3 <Sarkaz Heirbearer Artificer> and 2 <Sarkaz Royal Court Caster> appear"
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -23205,17 +23377,21 @@
     "category": null,
     "routes": null,
     "floors": [5],
-    "addInfo_zh": [
-      "年代之刺：普通0/天灾+1"
-    ],
+    "addInfo_zh": ["年代之刺：普通0/天灾+1"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
       "所有敌方单位的攻击力，生命值+50%",
       "伦蒂尼姆城防自行炮的技能CD减半"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+50%、最大HP+50%",
+      "「都市防衛自走砲」のスキルクールタイムが半減"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +50% ATK and +50% Max HP",
+      "<Londinium Mobile Defense Artillery>'s skill CD halved"
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -23314,8 +23490,14 @@
       "所有敌方单位的攻击力+30%，防御力+20%，生命值+30%",
       "调谐节点激活所需技力翻倍"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+30%、防御力+20%、最大HP+30%",
+      "「調律器」のスキルSPコストが倍になる"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +30% ATK, +20% DEF, and +30% Max HP",
+      "Tuning Node's skill activation SP cost doubled"
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -23399,8 +23581,14 @@
       "所有敌方单位的攻击力，防御力+20%，生命值+50%",
       "腐败骑士，凋零骑士狂暴后攻击力加成提升至130%"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+20%、防御力+20%、最大HP+50%",
+      "「腐敗騎士」と「凋零騎士」が凶暴化した時の攻撃力上昇が130%になる"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +20% ATK, +20% DEF, and +50% Max HP",
+      "<Corrupted Knight> and <Withered Knight>'s ATK gain when enraged increased to 130%"
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -23503,8 +23691,14 @@
       "所有敌方单位的攻击力，防御力，生命值+20%",
       "初始最右边的1个渎罪奇美拉被替换为萨卡兹恶咒者"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+20%、防御力+20%、最大HP+20%",
+      "右端にいる「渎罪奇美拉」1体が「サルカズ呪術隊長」に替わる"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +20% ATK, +20% DEF, and +20% Max HP",
+      "The rightmost <渎罪奇美拉> is replaced with <Sarkaz Worldcurser>"
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -23651,8 +23845,14 @@
       "所有敌方单位的攻击力，防御力，生命值+20%",
       "额外出现1个枯朽萃聚使徒"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+20%、防御力+20%、最大HP+20%",
+      "追加で「枯朽凝集使徒」1体が出現する"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +20% ATK, +20% DEF, and +20% Max HP",
+      "Additional 1 <Withering Collector Disciple> appears"
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -23804,8 +24004,14 @@
       "所有敌方单位的攻击力，防御力，生命值+30%",
       "萨卡兹迷宫织咒者技能CD减半"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+30%、防御力+30%、最大HP+30%",
+      "「萨卡兹迷宫织咒者」のスキルクールタイムが半減"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +20% ATK, +20% DEF, and +20% Max HP",
+      "<萨卡兹迷宫织咒者>'s skill CD halved"
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -23912,8 +24118,14 @@
       "所有敌方单位的攻击力，防御力，生命值+20%",
       "魂灵涡流的防御力+400，移动速度+0.3"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+20%、防御力+20%、最大HP+20%",
+      "「魂灵涡流」の防御力+400、移動速度+0.3"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +20% ATK, +20% DEF, and +20% Max HP",
+      "<魂灵涡流> have additional +400 DEF, +0.3 Movespeed"
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -24011,8 +24223,14 @@
       "所有敌方单位的攻击力，防御力+30%，生命值+40%",
       "寻路者阵地破坏者与寻路者阵地撕裂者对“冰淇淋机”的伤害翻倍"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+30%、防御力+30%、最大HP+40%",
+      "「求道ブレイカー」と「精鋭求道ブレイカー」が「ジェラート供給所」に与えるダメージが2倍になる"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +30% ATK, +30% DEF, and +40% Max HP",
+      "<Pathfinder Ballistarius> and <Pathfinder Ballistarius Prefect> deals twice the damage to Gelato Stops"
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
