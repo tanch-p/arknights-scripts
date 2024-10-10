@@ -2632,11 +2632,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "军医",
-                "name_ja": "",
-                "name_en": "",
+                "name_ja": "軍医",
+                "name_en": "Field Medic",
                 "desc_zh": "自身生命上限+12%，攻击无视目标140<@ba.talpu>(+20)</>的防御力",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "自身の最大HP+12%。攻撃時、対象の防御力を140<@ba.talpu>（+20）</>無視",
+                "desc_en": "Max HP +12%, attacks ignore 140 <@ba.talpu>(+20)</> DEF",
                 "tags": [],
                 "blackboard": [
                     {
@@ -2652,11 +2652,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "交感神经激活",
-                "name_ja": "",
-                "name_en": "",
+                "name_ja": "交感神経活性化",
+                "name_en": "Sympathicus Simulation",
                 "desc_zh": "治疗友方单位生命时，超过目标生命上限的治疗量可转化为不断衰减的<ba.barrier>屏障</>",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "味方ユニットを治療する際、対象の最大HPを超えた分の治療量は等量の<ba.barrier>バリア</>に変換されるが、そのバリアの効果値は徐々に減少する",
+                "desc_en": "When healing an allied unit, any healing in excess of that unit's Max HP will be converted into a decaying <ba.barrier>Barrier</>",
                 "tags": [
                     "ally_barrier"
                 ],
@@ -3113,11 +3113,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "防弹护盾",
-                "name_ja": "",
-                "name_en": "",
+                "name_ja": "バリスティックシールド",
+                "name_en": "Ballistic Shield",
                 "desc_zh": "获得30%<@ba.talpu>(+3%)</>的远程物理抵挡",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "30%<@ba.talpu>（+3%）</>の確率で遠距離物理被ダメージを無効化",
+                "desc_en": "Gains 30% <@ba.talpu>(+3%)</> ranged Physical resist",
                 "tags": [],
                 "blackboard": [
                     {
@@ -6408,11 +6408,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "双子分身复制器",
-                "name_ja": "",
-                "name_en": "",
+                "name_ja": "ジェミニ・レプリケーター",
+                "name_en": "Gemini Replicator",
                 "desc_zh": "部署时原地释放全息幻影，该幻影不会攻击，受到攻击时使攻击幻影的敌人在8秒内受到22%<@ba.talpu>(+2%)</>的脆弱且隐匿效果失效，并立即切换为<替身>作战",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "配置時、本体の代わりに配置マスにホログラムを出現させる。ホログラムは攻撃できず、攻撃を受けると攻撃者に8秒間、ステルス状態を無効化させ、22%<@ba.talpu>（+2%）</>の脆弱状態を付与し、自身が<身替り>と入れ替わる",
+                "desc_en": "When deployed, creates a Holographic Mirage at that location; the Mirage will not attack, but when attacked, inflicts 22% <@ba.talpu>(+2%)</> Fragile to the attacker and removes the attacker's Invisibility for 8s, and immediately switches to a <Substitute>",
                 "tags": [
                     "fragile"
                 ],
@@ -9152,11 +9152,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "雷鸣地雷",
-                "name_ja": "",
-                "name_en": "",
+                "name_ja": "GRZMOTマイン",
+                "name_en": "GRZMOT Mine",
                 "desc_zh": "可以使用4<@ba.talpu>(+1)</>个雷鸣地雷(最多拥有4个)，经过周围的第一个敌人会触发其效果，撤退时以自身为中心触发一次雷鸣地雷效果",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "GRZMOTマインを4<@ba.talpu>（+1）</>個配置可能（所持上限4個）、周囲の起爆範囲に敵が入ると爆発する。Elaが撤退すると自身を中心にGRZMOTマインの爆発効果を1回発動させる",
+                "desc_en": "Can deploy up to 4 <@ba.talpu>(+1)</> GRZMOT Mines (Can store up to 4); the first enemy that passes the mine will trigger its effect. When retreats, immediately triggers the effect of a GRZMOT Mine from the tile this Operator was deployed on",
                 "tags": [
                     "summon"
                 ],
@@ -9170,11 +9170,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "“正中靶心”",
-                "name_ja": "",
-                "name_en": "",
+                "name_ja": "「ブルズアイ」",
+                "name_en": "'Bullseye'",
                 "desc_zh": "攻击有30%几率造成相当于攻击力160%<@ba.talpu>(+10%)</>的物理伤害，对受到雷鸣地雷效果影响的目标必定触发",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "攻撃時、30%の確率で対象に攻撃力の160%<@ba.talpu>（+10%）</>の物理ダメージを与える。対象がGRZMOTマインの効果を受けている場合、発動確率は100%になる",
+                "desc_en": "Attacks have a 30% chance to deal 160% <@ba.talpu>(+10%)</> of ATK as Physical damage; The chance is increased to 100% when attacking a target that's affected by a GRZMOT Mine",
                 "tags": [],
                 "blackboard": [
                     {
@@ -12346,6 +12346,102 @@
                         "value": 0.35,
                         "conditions": [
                             "laiosteam"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4162_cathy": {
+        "appellation": "Catherine",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "定向支援信号",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "携带3个支援装置（最多部署2个），使一名干员获得相当于凯瑟琳生命上限22%<@ba.talpu>（+2%）</>的<ba.barrier>屏障</>（若目标最近5秒内未受攻击，则每秒补充相当于凯瑟琳生命上限6%的<ba.barrier>屏障</>，不超过初始上限），装置效果不叠加",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "barrier",
+                    "summon"
+                ],
+                "blackboard": [
+                    {
+                        "key": "cnt",
+                        "value": 3.0
+                    }
+                ]
+            }
+        ]
+    },
+    "char_487_bobb": {
+        "appellation": "Bobbing",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "焦点诱导",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "对每个敌人首次攻击时，使其在接下来的5秒内每秒受到相当于攻击力18%<@ba.talpu>（+2%）</>的<ba.dt.burning2>灼燃损伤</>",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "burning",
+                    "ele_dmg"
+                ],
+                "blackboard": []
+            }
+        ]
+    },
+    "char_1019_siege2": {
+        "appellation": "Vina Victoria",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "诸王的叹息",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "自身与周围8格友方单位受到的物理伤害减少22%<@ba.talpu>（+2%）</>，且此范围内每个友方单位使维娜攻击力+6%<@ba.talpu>（+1%）</>",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "dmg_res",
+                        "value": 0.22,
+                        "types": [
+                            "phys"
+                        ]
+                    },
+                    {
+                        "key": "ally_dmg_res",
+                        "value": 0.22,
+                        "types": [
+                            "phys"
+                        ],
+                        "conditions": [
+                            "surrounding_8_tile"
+                        ]
+                    }
+                ]
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "无拘的锋芒",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "对每个敌人首次造成伤害时，使其<ba.tremble>战栗</>5<@ba.talpu>（+1）</>秒",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "tremble",
+                        "value": 5.0,
+                        "conditions": [
+                            "first_hit"
                         ]
                     }
                 ]

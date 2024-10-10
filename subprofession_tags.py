@@ -18,6 +18,10 @@ def get_sub_profession_tags(char, id):
         tags.append("position_all")
     if char['subProfessionId'] in ["unyield", "musha"]:
         tags.append("no_healing")
+    if char['subProfessionId'] in ["reaper", "guardian","bard"]:
+        tags.append("heal_self")
+    if char['subProfessionId'] in ["guardian","bard"]:
+        tags.append("heal_ally")
     if char['subProfessionId'] in ["splashcaster",'blastcaster', "stalker", "hammer", "reaper", "aoesniper", "reaperrange", "bombarder", "phalanx"]:
         tags.append("aoe")
     if char['subProfessionId'] in ["instructor"]:
