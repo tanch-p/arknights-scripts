@@ -111,8 +111,8 @@ for key in extra_info_list:
 #             stage_data = json.load(f)
 #             wave_data = get_wave_data(stage_data, key, log=True)
 #             print(wave_data)
-#             enemy_list, elite_enemy_list, sp_count, elite_sp_count, all_possible_enemy_count = itemgetter(
-#                 "enemy_list", "elite_enemy_list", "sp_count", "elite_sp_count", "all_possible_enemy_count")(wave_data)
+#             enemy_list, elite_enemy_list, sp_count, elite_sp_count, all_possible_enemy_count,all_possible_elite_enemy_count = itemgetter(
+#                 "enemy_list", "elite_enemy_list", "sp_count", "elite_sp_count", "all_possible_enemy_count","all_possible_elite_enemy_count")(wave_data)
 #             sp_enemy = {
 #                 "normal": ' / '.join([str(i) for i in sp_count]),
 #                 "elite": ' / '.join([str(i) for i in elite_sp_count]) if elite_sp_count is not None else None,
@@ -126,7 +126,9 @@ for key in extra_info_list:
 #                 stage_data['runes']) if stage_data['runes'] else None
 #             runes = runes_data['runes'] if runes_data else None
 #             sp_tiles = get_special_tiles(stage_data['mapData']['tiles'])
-
+#             sp_terrain = sp_tiles if 'rogue3' in key or 'rogue4' in key else None
+#             if sp_terrain is not None and len(sp_terrain) == 0:
+#                 sp_terrain = None
 #             trimmed_stage_info = {
 #                 "levelId": stage['levelId'],
 #                 "code": stage['code'],
@@ -144,13 +146,13 @@ for key in extra_info_list:
 #                 "eliteDesc_en": stage['eliteDesc_en'],
 #                 "elite_mods": runes,
 #                  "all_possible_enemy_count": all_possible_enemy_count,
-    # "sp_count": sp_count,
-    # "all_possible_elite_enemy_count":all_possible_elite_enemy_count,
-    # "elite_sp_count": elite_sp_count,
-    # "sp_enemy": sp_enemy,
-    # "sp_terrain": sp_terrain,
-    # "enemy_list": enemy_list,
-    # "elite_enemy_list": elite_enemy_list
+#     "sp_count": sp_count,
+#     "all_possible_elite_enemy_count":all_possible_elite_enemy_count,
+#     "elite_sp_count": elite_sp_count,
+#     "sp_enemy": sp_enemy,
+#     "sp_terrain": sp_terrain,
+#     "enemy_list": enemy_list,
+#     "elite_enemy_list": elite_enemy_list
 #             }
 #             data[stage['levelId']] = trimmed_stage_info
 # data = extra_info_list | data
