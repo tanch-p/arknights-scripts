@@ -6,7 +6,7 @@ from operator import itemgetter
 pp = pprint.PrettyPrinter(indent=4)
 
 KEYS_TO_EXCLUDE = ['trap_079_allydonq']
-
+HIDDEN_GROUPS = ['allydonq', "totem1", 'totem2', 'bossrelic', 'calamity', 'cargo', 'hidden_door','hidden_window','box_1','box_3']
 
 def get_wave_data(stage_data, stage_id, log=False):
     def is_trap_group(group):
@@ -164,7 +164,7 @@ def get_wave_data(stage_data, stage_id, log=False):
 
             if actionType != 'SPAWN':
                 continue
-            if hidden_group in ['allydonq', "totem1", 'totem2', 'bossrelic', 'calamity', 'cargo', 'hidden_door']:
+            if hidden_group in HIDDEN_GROUPS:
                 continue
             if difficulty == 2:
                 for enemy in enemies_to_replace:
@@ -232,7 +232,7 @@ def get_wave_data(stage_data, stage_id, log=False):
                         continue
 
                     # get data for normal
-                    if hidden_group in ['allydonq', "totem1", 'totem2', 'bossrelic', 'calamity', 'cargo', 'hidden_door']:
+                    if hidden_group in HIDDEN_GROUPS:
                         continue
 
                     if difficulty == 2 and hidden_group is not None and hidden_group != elite_group_name:

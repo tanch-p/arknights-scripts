@@ -16,6 +16,8 @@ with open("is_stages_extrainfo.json", encoding="utf-8") as f:
 with open("is_stages_list.json", encoding="utf-8") as f:
     stages_list = json.load(f)
 
+STAGES_TO_IGNORE = ['level_rogue4_b-4','level_rogue4_b-4-b','level_rogue4_b-5','level_rogue4_b-5-b']
+
 data = {}
 for key in extra_info_list:
     if 'rogue1' in key:
@@ -35,7 +37,7 @@ for key in extra_info_list:
     with open(stage_data_path, encoding="utf-8") as f:
         stage_data = json.load(f)
         wave_data = get_wave_data(
-            stage_data, key, log=key == "level_rogue4_3-3")
+            stage_data, key, log=key == "level_rogue4_2-6")
         enemy_list, elite_enemy_list, sp_count, elite_sp_count, all_possible_enemy_count, all_possible_elite_enemy_count = itemgetter(
             "enemy_list", "elite_enemy_list", "sp_count", "elite_sp_count", "all_possible_enemy_count", "all_possible_elite_enemy_count")(wave_data)
         extra_info = extra_info_list[key]
@@ -78,14 +80,14 @@ for key in extra_info_list:
         "eliteDesc_ja": extra_info['eliteDesc_ja'],
         "eliteDesc_en": extra_info['eliteDesc_en'],
         "elite_mods": extra_info['elite_mods'],
-        "all_possible_enemy_count": all_possible_enemy_count,
+        "all_possible_enemy_count": all_possible_enemy_count if not extra_info['levelId'] in STAGES_TO_IGNORE else extra_info['all_possible_enemy_count'],
         "sp_count": sp_count,
-        "all_possible_elite_enemy_count": all_possible_elite_enemy_count,
+        "all_possible_elite_enemy_count": all_possible_elite_enemy_count if not extra_info['levelId'] in STAGES_TO_IGNORE else extra_info['all_possible_elite_enemy_count'],
         "elite_sp_count": elite_sp_count,
         "sp_enemy": extra_info['sp_enemy'],
         "sp_terrain": sp_terrain,
-        "enemy_list": enemy_list,
-        "elite_enemy_list": elite_enemy_list
+        "enemy_list": enemy_list if not extra_info['levelId'] in STAGES_TO_IGNORE else extra_info['enemy_list'],
+        "elite_enemy_list": elite_enemy_list if not extra_info['levelId'] in STAGES_TO_IGNORE else extra_info['elite_enemy_list']
     }
 
     data[key] = trimmed_stage_info

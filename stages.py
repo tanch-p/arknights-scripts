@@ -80,8 +80,17 @@ roguelike_topics = [
     {"topic": "rogue_4", "folder": "ro4"},
 ]
 
+STAGES_TO_SKIP = ['ro4_b_4_c','ro4_b_4_d','ro4_b_5_c','ro4_b_5_d']
+
 for topic_dict in roguelike_topics:
     for stage_key in cn_roguelike_topic_table["details"][topic_dict["topic"]]["stages"]:
+        to_skip = False
+        for item in STAGES_TO_SKIP:
+            if stage_key == item:
+                to_skip = True
+                break
+        if to_skip:
+            continue
         stage_info_cn = cn_roguelike_topic_table["details"][topic_dict["topic"]][
             "stages"
         ][stage_key]
