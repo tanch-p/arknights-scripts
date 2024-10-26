@@ -81,6 +81,61 @@ roguelike_topics = [
 ]
 
 STAGES_TO_SKIP = ['ro4_b_4_c','ro4_b_4_d','ro4_b_5_c','ro4_b_5_d']
+STAGES_WITH_ENEMY_REF_TO_REPLACE = {'level_rogue4_b-4':'level_rogue4_b-4-c',
+                     'level_rogue4_b-4-b':'level_rogue4_b-4-d',
+                     'level_rogue4_b-5':'level_rogue4_b-5-c',
+                     'level_rogue4_b-5-b':'level_rogue4_b-5-d',
+                     'level_rogue4_1-1':'levelreplacers/level_rogue4_1-1_r1',
+                     'level_rogue4_1-2':'levelreplacers/level_rogue4_1-2_r1',
+                     'level_rogue4_1-3':'levelreplacers/level_rogue4_1-3_r1',
+                     'level_rogue4_1-4':'levelreplacers/level_rogue4_1-4_r1',
+                     'level_rogue4_2-1':'levelreplacers/level_rogue4_2-1_r1',
+                     'level_rogue4_2-2':'levelreplacers/level_rogue4_2-2_r1',
+                     'level_rogue4_2-3':'levelreplacers/level_rogue4_2-3_r1',
+                     'level_rogue4_2-4':'levelreplacers/level_rogue4_2-4_r1',
+                     'level_rogue4_2-5':'levelreplacers/level_rogue4_2-5_r1',
+                     'level_rogue4_3-1':'levelreplacers/level_rogue4_3-1_r1',
+                     'level_rogue4_3-2':'levelreplacers/level_rogue4_3-2_r1',
+                     'level_rogue4_3-3':'levelreplacers/level_rogue4_3-3_r1',
+                     'level_rogue4_3-4':'levelreplacers/level_rogue4_3-4_r1',
+                     'level_rogue4_3-5':'levelreplacers/level_rogue4_3-5_r1',
+                     'level_rogue4_3-6':'levelreplacers/level_rogue4_3-6_r1',
+                     'level_rogue4_4-1':'levelreplacers/level_rogue4_4-1_r1',
+                     'level_rogue4_4-2':'levelreplacers/level_rogue4_4-2_r1',
+                     'level_rogue4_4-3':'levelreplacers/level_rogue4_4-3_r1',
+                     'level_rogue4_4-4':'levelreplacers/level_rogue4_4-4_r1',
+                     'level_rogue4_4-5':'levelreplacers/level_rogue4_4-5_r1',
+                     'level_rogue4_4-6':'levelreplacers/level_rogue4_4-6_r1',
+                     'level_rogue4_4-7':'levelreplacers/level_rogue4_4-7_r1',
+                     'level_rogue4_5-1':'levelreplacers/level_rogue4_5-1_r1',
+                     'level_rogue4_5-2':'levelreplacers/level_rogue4_5-2_r1',
+                     'level_rogue4_5-3':'levelreplacers/level_rogue4_5-3_r1',
+                     'level_rogue4_5-4':'levelreplacers/level_rogue4_5-4_r1',
+                     'level_rogue4_5-5':'levelreplacers/level_rogue4_5-5_r1',
+                     'level_rogue4_5-6':'levelreplacers/level_rogue4_5-6_r1',
+                     'level_rogue4_5-7':'levelreplacers/level_rogue4_5-7_r1',
+                     'level_rogue4_6-1':'levelreplacers/level_rogue4_6-1_r1',
+                     'level_rogue4_6-2':'levelreplacers/level_rogue4_6-2_r1',
+                     'level_rogue4_b-1':'levelreplacers/level_rogue4_b-1_r1',
+                     'level_rogue4_b-1-b':'levelreplacers/level_rogue4_b-1-b_r1',
+                     'level_rogue4_b-1-c':'levelreplacers/level_rogue4_b-1-c_r1',
+                     'level_rogue4_b-2':'levelreplacers/level_rogue4_b-2_r1',
+                     'level_rogue4_b-2-b':'levelreplacers/level_rogue4_b-2-b_r1',
+                     'level_rogue4_b-2-c':'levelreplacers/level_rogue4_b-2-c_r1',
+                     'level_rogue4_b-3':'levelreplacers/level_rogue4_b-3_r1',
+                     'level_rogue4_b-3-b':'levelreplacers/level_rogue4_b-3-b_r1',
+                     'level_rogue4_b-3-c':'levelreplacers/level_rogue4_b-3-c_r1',
+                     'level_rogue4_b-6':'levelreplacers/level_rogue4_b-6_r1',
+                     'level_rogue4_ev-1':'levelreplacers/level_rogue4_ev-1_r1',
+                     'level_rogue4_ev-2':'levelreplacers/level_rogue4_ev-2_r1',
+                     'level_rogue4_t-1':'levelreplacers/level_rogue4_t-1_r1',
+                     'level_rogue4_t-2':'levelreplacers/level_rogue4_t-2_r1',
+                     'level_rogue4_t-3':'levelreplacers/level_rogue4_t-3_r1',
+                     'level_rogue4_t-4':'levelreplacers/level_rogue4_t-4_r1',
+                     'level_rogue4_t-5':'levelreplacers/level_rogue4_t-5_r1',
+                     'level_rogue4_t-6':'levelreplacers/level_rogue4_t-6_r1',
+                     'level_rogue4_t-7':'levelreplacers/level_rogue4_t-7_r1',
+                     'level_rogue4_t-8':'levelreplacers/level_rogue4_t-8_r1',} 
 
 for topic_dict in roguelike_topics:
     for stage_key in cn_roguelike_topic_table["details"][topic_dict["topic"]]["stages"]:
@@ -150,7 +205,17 @@ for topic_dict in roguelike_topics:
             enemy_list = extrainfo[levelId]['enemy_list'] if levelId in extrainfo else None
             elite_enemy_list = extrainfo[levelId]['elite_enemy_list'] if levelId in extrainfo else None
             enemies = []
-            for enemy in stage_data["enemyDbRefs"]:
+            print(levelId)
+            enemy_refs = stage_data["enemyDbRefs"]
+            if levelId in STAGES_WITH_ENEMY_REF_TO_REPLACE:
+                stage_data_path = os.path.join(
+                script_dir,
+                f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{folder}/{STAGES_WITH_ENEMY_REF_TO_REPLACE[levelId]}.json",
+            )
+                with open(stage_data_path, encoding="utf-8") as f:
+                    alt_data = json.load(f)
+                enemy_refs = alt_data["enemyDbRefs"]
+            for enemy in enemy_refs:
                 enemy_id = enemy['id']
                 if enemy_id == 'enemy_2062_smcar':
                     continue
