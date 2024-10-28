@@ -297,8 +297,6 @@ for topic_dict in roguelike_topics:
                             "overwrittenData": overwrittenData,
                         }
                     )
-                    if not '_d-' in levelId:
-                        enemies.sort(key=itemgetter('id'))
 
             trimmed_stage_info["enemies"] = enemies
             stages_list.append(trimmed_stage_info)
