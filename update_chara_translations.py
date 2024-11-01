@@ -105,11 +105,11 @@ for id in cn_patch_table['patchChars']:
             if not talent_holder['name_en']:
                 max_candidate_index = len(talent['candidates'])-1
                 maxed_talent = talent['candidates'][max_candidate_index]
-                talent_holder["name_ja"] = jp_char_table[id]['talents'][talent_index]['candidates'][max_candidate_index]["name"]
+                talent_holder["name_ja"] = jp_patch_table['patchChars'][id]['talents'][talent_index]['candidates'][max_candidate_index]["name"]
                 talent_holder["desc_ja"] = replace_substrings(
-                    jp_char_table[id]['talents'][talent_index]['candidates'][max_candidate_index]["description"], maxed_talent['blackboard'])
-                talent_holder["name_en"] = en_char_table[id]['talents'][talent_index]['candidates'][max_candidate_index]["name"]
-                talent_holder["desc_en"] = replace_substrings(en_char_table[id]['talents'][
+                    jp_patch_table['patchChars'][id]['talents'][talent_index]['candidates'][max_candidate_index]["description"], maxed_talent['blackboard'])
+                talent_holder["name_en"] = en_patch_table['patchChars'][id]['talents'][talent_index]['candidates'][max_candidate_index]["name"]
+                talent_holder["desc_en"] = replace_substrings(en_patch_table['patchChars'][id]['talents'][
                     talent_index]['candidates'][max_candidate_index]["description"], maxed_talent['blackboard'])
             talents.append(talent_holder)
     return_dict[id] = levels_data

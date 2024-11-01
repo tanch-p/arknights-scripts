@@ -10321,7 +10321,17 @@
                 "epResistance": 0.0
             }
         ],
-        "special": [],
+        "special": [
+            {
+                "key": "yinyang_same_block"
+            },
+            {
+                "key": "deyi_explode_kill"
+            },
+            {
+                "key": "deyi_explode"
+            }
+        ],
         "status_immune": [
             "silence"
         ],
@@ -10481,7 +10491,11 @@
                 "epResistance": 0.0
             }
         ],
-        "special": [],
+        "special": [
+            {
+                "key": "envy_beam"
+            }
+        ],
         "status_immune": [
             "silence"
         ],
@@ -10557,7 +10571,11 @@
                 "epResistance": 0.0
             }
         ],
-        "special": [],
+        "special": [
+            {
+                "key": "fury_buff"
+            }
+        ],
         "status_immune": [
             "silence"
         ],
@@ -15892,7 +15910,11 @@
                 "epResistance": 0.0
             }
         ],
-        "special": [],
+        "special": [
+            {
+                "key": "spawn_redwoodseal"
+            }
+        ],
         "status_immune": [],
         "normal_attack": {
             "atk_type": [
@@ -15971,7 +15993,14 @@
                 "epResistance": 0.0
             }
         ],
-        "special": [],
+        "special": [
+            {
+                "key": "no_block"
+            },
+            {
+                "key": "damage_1"
+            }
+        ],
         "status_immune": [],
         "normal_attack": {
             "atk_type": [
@@ -16151,7 +16180,14 @@
                 "epResistance": 0.0
             }
         ],
-        "special": [],
+        "special": [
+            {
+                "key": "taunt"
+            },
+            {
+                "key": "spawn_bronzemirror"
+            }
+        ],
         "status_immune": [],
         "normal_attack": {
             "atk_type": [
@@ -16187,7 +16223,14 @@
                 "epResistance": 0.0
             }
         ],
-        "special": [],
+        "special": [
+            {
+                "key": "taunt"
+            },
+            {
+                "key": "spawn_brassmirror"
+            }
+        ],
         "status_immune": [],
         "normal_attack": {
             "atk_type": [
@@ -16223,7 +16266,14 @@
                 "epResistance": 0.0
             }
         ],
-        "special": [],
+        "special": [
+            {
+                "key": "no_block"
+            },
+            {
+                "key": "damage_1"
+            }
+        ],
         "status_immune": [],
         "normal_attack": {
             "atk_type": [
@@ -16259,7 +16309,14 @@
                 "epResistance": 0.0
             }
         ],
-        "special": [],
+        "special": [
+            {
+                "key": "no_block"
+            },
+            {
+                "key": "damage_1"
+            }
+        ],
         "status_immune": [],
         "normal_attack": {
             "atk_type": [
@@ -16295,7 +16352,11 @@
                 "epResistance": 0.0
             }
         ],
-        "special": [],
+        "special": [
+            {
+                "key": "spawn_woodenpaperweight"
+            }
+        ],
         "status_immune": [],
         "normal_attack": {
             "atk_type": [
@@ -16331,7 +16392,11 @@
                 "epResistance": 0.0
             }
         ],
-        "special": [],
+        "special": [
+            {
+                "key": "spawn_rosewoodpaperweight"
+            }
+        ],
         "status_immune": [],
         "normal_attack": {
             "atk_type": [
@@ -16367,7 +16432,14 @@
                 "epResistance": 0.0
             }
         ],
-        "special": [],
+        "special": [
+            {
+                "key": "no_block"
+            },
+            {
+                "key": "damage_1"
+            }
+        ],
         "status_immune": [],
         "normal_attack": {
             "atk_type": [
@@ -16403,7 +16475,14 @@
                 "epResistance": 0.0
             }
         ],
-        "special": [],
+        "special": [
+            {
+                "key": "no_block"
+            },
+            {
+                "key": "damage_1"
+            }
+        ],
         "status_immune": [],
         "normal_attack": {
             "atk_type": [
@@ -16511,7 +16590,14 @@
                 "epResistance": 0.0
             }
         ],
-        "special": [],
+        "special": [
+            {
+                "key": "no_block"
+            },
+            {
+                "key": "damage_1"
+            }
+        ],
         "status_immune": [],
         "normal_attack": {
             "atk_type": [
@@ -16547,7 +16633,14 @@
                 "epResistance": 0.0
             }
         ],
-        "special": [],
+        "special": [
+            {
+                "key": "no_block"
+            },
+            {
+                "key": "damage_1"
+            }
+        ],
         "status_immune": [],
         "normal_attack": {
             "atk_type": [
@@ -16820,7 +16913,14 @@
                 "epResistance": 0.0
             }
         ],
-        "special": [],
+        "special": [
+            {
+                "key": "no_block"
+            },
+            {
+                "key": "damage_1"
+            }
+        ],
         "status_immune": [],
         "normal_attack": {
             "atk_type": [
@@ -16901,7 +17001,7 @@
         ],
         "special": [
             {
-                "key": "spawn_bronzemirror"
+                "key": "spawn_bronzelampstand"
             },
             {
                 "key": "glorious_shine"
@@ -16942,7 +17042,14 @@
                 "epResistance": 0.0
             }
         ],
-        "special": [],
+        "special": [
+            {
+                "key": "spawn_ironlampstand"
+            },
+            {
+                "key": "glorious_shine"
+            }
+        ],
         "status_immune": [],
         "normal_attack": {
             "atk_type": [
@@ -17021,7 +17128,14 @@
                 "epResistance": 0.0
             }
         ],
-        "special": [],
+        "special": [
+            {
+                "key": "no_block"
+            },
+            {
+                "key": "damage_1"
+            }
+        ],
         "status_immune": [],
         "normal_attack": {
             "atk_type": [
@@ -17057,7 +17171,14 @@
                 "epResistance": 0.0
             }
         ],
-        "special": [],
+        "special": [
+            {
+                "key": "no_block"
+            },
+            {
+                "key": "damage_1"
+            }
+        ],
         "status_immune": [],
         "normal_attack": {
             "atk_type": [
@@ -18505,7 +18626,12 @@
                 "epResistance": 0.0
             }
         ],
-        "special": [],
+        "special": [
+            {
+                "key": "dt_apoptosis",
+                "value": 0.37
+            }
+        ],
         "status_immune": [],
         "normal_attack": {
             "atk_type": [
@@ -21945,6 +22071,10 @@
         ],
         "special": [
             {
+                "key": "dt_apoptosis",
+                "value": 0.25
+            },
+            {
                 "key": "dwlock_skill"
             }
         ],
@@ -21984,6 +22114,10 @@
             }
         ],
         "special": [
+            {
+                "key": "dt_apoptosis",
+                "value": 0.25
+            },
             {
                 "key": "dwlock_skill"
             }
@@ -22933,6 +23067,48 @@
                 "epResistance": 0.0
             }
         ],
+        "forms": [
+            {
+                "title": "fighter_state",
+                "mods": {},
+                "special": [
+                    {
+                        "key": "duskls_1"
+                    }
+                ],
+                "normal_attack": {
+                    "atk_type": [
+                        "melee",
+                        "arts"
+                    ],
+                    "hits": 1
+                }
+            },
+            {
+                "title": "du_fire",
+                "mods": {
+                    "set_hp": 5
+                },
+                "special": [
+                    {
+                        "key": "stealth"
+                    },
+                    {
+                        "key": "damage_1"
+                    },
+                    {
+                        "key": "du_fire"
+                    }
+                ],
+                "normal_attack": {
+                    "atk_type": [
+                        "no_attack",
+                        null
+                    ],
+                    "hits": 1
+                }
+            }
+        ],
         "special": [
             {
                 "key": "duskls_1"
@@ -22941,13 +23117,6 @@
         "status_immune": [
             "silence"
         ],
-        "normal_attack": {
-            "atk_type": [
-                "melee",
-                "arts"
-            ],
-            "hits": 1
-        },
         "type": [
             "melee",
             "NORMAL"
@@ -22974,6 +23143,48 @@
                 "epResistance": 0.0
             }
         ],
+        "forms": [
+            {
+                "title": "fighter_state",
+                "mods": {},
+                "special": [
+                    {
+                        "key": "duskls_1"
+                    }
+                ],
+                "normal_attack": {
+                    "atk_type": [
+                        "melee",
+                        "arts"
+                    ],
+                    "hits": 1
+                }
+            },
+            {
+                "title": "du_fire",
+                "mods": {
+                    "set_hp": 5
+                },
+                "special": [
+                    {
+                        "key": "stealth"
+                    },
+                    {
+                        "key": "damage_1"
+                    },
+                    {
+                        "key": "du_fire"
+                    }
+                ],
+                "normal_attack": {
+                    "atk_type": [
+                        "no_attack",
+                        null
+                    ],
+                    "hits": 1
+                }
+            }
+        ],
         "special": [
             {
                 "key": "duskls_1"
@@ -22982,13 +23193,6 @@
         "status_immune": [
             "silence"
         ],
-        "normal_attack": {
-            "atk_type": [
-                "melee",
-                "arts"
-            ],
-            "hits": 1
-        },
         "type": [
             "melee",
             "NORMAL"
@@ -23243,6 +23447,48 @@
                 "epResistance": 0.0
             }
         ],
+        "forms": [
+            {
+                "title": "fighter_state",
+                "mods": {},
+                "special": [
+                    {
+                        "key": "duskld_1"
+                    }
+                ],
+                "normal_attack": {
+                    "atk_type": [
+                        "melee",
+                        "arts"
+                    ],
+                    "hits": 1
+                }
+            },
+            {
+                "title": "du_fire",
+                "mods": {
+                    "set_hp": 10
+                },
+                "special": [
+                    {
+                        "key": "stealth"
+                    },
+                    {
+                        "key": "damage_1"
+                    },
+                    {
+                        "key": "du_fire"
+                    }
+                ],
+                "normal_attack": {
+                    "atk_type": [
+                        "no_attack",
+                        null
+                    ],
+                    "hits": 1
+                }
+            }
+        ],
         "special": [
             {
                 "key": "duskld_1"
@@ -23251,13 +23497,6 @@
         "status_immune": [
             "silence"
         ],
-        "normal_attack": {
-            "atk_type": [
-                "melee",
-                "arts"
-            ],
-            "hits": 1
-        },
         "type": [
             "melee",
             "ELITE"
@@ -23284,6 +23523,48 @@
                 "epResistance": 0.0
             }
         ],
+        "forms": [
+            {
+                "title": "fighter_state",
+                "mods": {},
+                "special": [
+                    {
+                        "key": "duskld_1"
+                    }
+                ],
+                "normal_attack": {
+                    "atk_type": [
+                        "melee",
+                        "arts"
+                    ],
+                    "hits": 1
+                }
+            },
+            {
+                "title": "du_fire",
+                "mods": {
+                    "set_hp": 10
+                },
+                "special": [
+                    {
+                        "key": "stealth"
+                    },
+                    {
+                        "key": "damage_1"
+                    },
+                    {
+                        "key": "du_fire"
+                    }
+                ],
+                "normal_attack": {
+                    "atk_type": [
+                        "no_attack",
+                        null
+                    ],
+                    "hits": 1
+                }
+            }
+        ],
         "special": [
             {
                 "key": "duskld_1"
@@ -23292,13 +23573,6 @@
         "status_immune": [
             "silence"
         ],
-        "normal_attack": {
-            "atk_type": [
-                "melee",
-                "arts"
-            ],
-            "hits": 1
-        },
         "type": [
             "melee",
             "ELITE"
@@ -31386,7 +31660,11 @@
                 "epResistance": 0.0
             }
         ],
-        "special": [],
+        "special": [
+            {
+                "key": "wdsmgc"
+            }
+        ],
         "status_immune": [],
         "normal_attack": {
             "atk_type": [
@@ -31422,7 +31700,11 @@
                 "epResistance": 0.0
             }
         ],
-        "special": [],
+        "special": [
+            {
+                "key": "wdsmgc"
+            }
+        ],
         "status_immune": [],
         "normal_attack": {
             "atk_type": [
@@ -41057,8 +41339,8 @@
         "key": "enemy_1422_lrsldr",
         "sortId": 806,
         "name_zh": "萨卡兹枯朽前锋",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "枯朽サルカズ先鋒",
+        "name_en": "Sarkaz Wither Vanguard",
         "stats": [
             {
                 "hp": 4700,
@@ -41094,8 +41376,8 @@
         "key": "enemy_1422_lrsldr_2",
         "sortId": 807,
         "name_zh": "萨卡兹枯朽辟路前锋",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "枯朽サルカズ切込み先鋒",
+        "name_en": "Elite Sarkaz Wither Vanguard",
         "stats": [
             {
                 "hp": 5500,
@@ -41111,12 +41393,16 @@
                 "epResistance": 0.0
             }
         ],
-        "special": [],
+        "special": [
+            {
+                "key": "lrsldr"
+            }
+        ],
         "status_immune": [],
         "normal_attack": {
             "atk_type": [
                 "melee",
-                "arts"
+                "phys"
             ],
             "hits": 1
         },
@@ -41131,8 +41417,8 @@
         "key": "enemy_1423_lrfkkt",
         "sortId": 808,
         "name_zh": "萨卡兹枯朽宿卫",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "枯朽サルカズ宿衛",
+        "name_en": "Sarkaz Wither Bulwark",
         "stats": [
             {
                 "hp": 6500,
@@ -41168,8 +41454,8 @@
         "key": "enemy_1423_lrfkkt_2",
         "sortId": 809,
         "name_zh": "萨卡兹枯朽不屈宿卫",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "枯朽サルカズ不屈宿衛",
+        "name_en": "Sarkaz Wither Aegis",
         "stats": [
             {
                 "hp": 8000,
@@ -41205,8 +41491,8 @@
         "key": "enemy_1424_lrboom",
         "sortId": 810,
         "name_zh": "恶尘源石虫",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "悪塵オリジムシ",
+        "name_en": "Caustic Originium Slug",
         "stats": [
             {
                 "hp": 6000,
@@ -41249,8 +41535,8 @@
         "key": "enemy_1424_lrboom_2",
         "sortId": 811,
         "name_zh": "恶尘源石虫·α",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "悪塵オリジムシα",
+        "name_en": "Caustic Originium Slug α",
         "stats": [
             {
                 "hp": 6500,
@@ -41286,8 +41572,8 @@
         "key": "enemy_1425_lrcmra",
         "sortId": 812,
         "name_zh": "孽罪奇美拉",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "大罪のキメラ",
+        "name_en": "Profane Chimera",
         "stats": [
             {
                 "hp": 20000,
@@ -41327,8 +41613,8 @@
         "key": "enemy_1425_lrcmra_2",
         "sortId": 813,
         "name_zh": "渎罪奇美拉",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "冒涜のキメラ",
+        "name_en": "Sacrilegious Chimera",
         "stats": [
             {
                 "hp": 25000,
@@ -41368,8 +41654,8 @@
         "key": "enemy_1426_lrthef",
         "sortId": 814,
         "name_zh": "萨卡兹祭坛看护者",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "サルカズ祭壇守護者",
+        "name_en": "Sarkaz Altar Keeper",
         "stats": [
             {
                 "hp": 12000,
@@ -41405,8 +41691,8 @@
         "key": "enemy_1426_lrthef_2",
         "sortId": 815,
         "name_zh": "萨卡兹祭坛奉养者",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "サルカズ祭壇奉仕者",
+        "name_en": "Sarkaz Altar Nourisher",
         "stats": [
             {
                 "hp": 15000,
@@ -41442,8 +41728,8 @@
         "key": "enemy_1427_lrnazg",
         "sortId": 816,
         "name_zh": "“灵幛”",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "「霊骸布」",
+        "name_en": "Sudaram",
         "stats": [
             {
                 "hp": 15000,
@@ -41486,8 +41772,8 @@
         "key": "enemy_1427_lrnazg_2",
         "sortId": 817,
         "name_zh": "“慰朽灵幛”",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "「慰撫の霊骸布」",
+        "name_en": "Putrefied Sudaram",
         "stats": [
             {
                 "hp": 18000,
@@ -41530,8 +41816,8 @@
         "key": "enemy_1428_lrsoul",
         "sortId": 818,
         "name_zh": "魂灵涡流",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "ソウルボルテックス",
+        "name_en": "Soul Maelstrom",
         "stats": [
             {
                 "hp": 3500,
@@ -41567,8 +41853,8 @@
         "key": "enemy_1429_lrwzrd",
         "sortId": 819,
         "name_zh": "聚焦魂灵残迹",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "集束せし魂の残滓",
+        "name_en": "Focused Soul Remnant",
         "stats": [
             {
                 "hp": 8000,
@@ -41611,8 +41897,8 @@
         "key": "enemy_1429_lrwzrd_2",
         "sortId": 820,
         "name_zh": "棱镜魂灵残迹",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "反照せし魂の残滓",
+        "name_en": "Prism Soul Remnant",
         "stats": [
             {
                 "hp": 10000,
@@ -41655,8 +41941,8 @@
         "key": "enemy_1430_lrrook",
         "sortId": 821,
         "name_zh": "愧悔魂灵圣杯",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "慚愧せし魂の聖杯",
+        "name_en": "Chalice of Regret",
         "stats": [
             {
                 "hp": 100000,
@@ -41704,8 +41990,8 @@
         "key": "enemy_1430_lrrook_2",
         "sortId": 822,
         "name_zh": "殉亡魂灵圣杯",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "殉死せし魂の聖杯",
+        "name_en": "Chalice of Mortality",
         "stats": [
             {
                 "hp": 125000,
@@ -41753,8 +42039,8 @@
         "key": "enemy_1431_lrmzrd",
         "sortId": 823,
         "name_zh": "注能魂灵法骸",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "混成せし魂の法骸",
+        "name_en": "Infused Soul Husk",
         "stats": [
             {
                 "hp": 15000,
@@ -41790,8 +42076,8 @@
         "key": "enemy_1431_lrmzrd_2",
         "sortId": 824,
         "name_zh": "粹影魂灵法骸",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "集粋せし魂の法骸",
+        "name_en": "Penumbral Soul Husk",
         "stats": [
             {
                 "hp": 18000,
@@ -43825,8 +44111,8 @@
         "key": "enemy_1553_lrdead",
         "sortId": 960,
         "name_zh": "引火的死魂灵",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "熾し火のレヴァナント",
+        "name_en": "Kindling Revenant",
         "stats": [
             {
                 "hp": 500000,
@@ -43883,8 +44169,8 @@
         "key": "enemy_1554_lrtsia",
         "sortId": 961,
         "name_zh": "特蕾西娅",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "Theresa",
+        "name_en": "Theresa",
         "stats": [
             {
                 "hp": 50000,
@@ -48110,7 +48396,14 @@
                 "epResistance": 0.0
             }
         ],
-        "special": [],
+        "special": [
+            {
+                "key": "skzjbc_1"
+            },
+            {
+                "key": "skzjbc_2"
+            }
+        ],
         "status_immune": [
             "stun",
             "silence",
@@ -48129,6 +48422,7 @@
         },
         "type": [
             "no_attack",
+            "flying",
             "ELITE"
         ]
     },
@@ -48154,7 +48448,11 @@
                 "epResistance": 0.0
             }
         ],
-        "special": [],
+        "special": [
+            {
+                "key": "skzgds"
+            }
+        ],
         "status_immune": [
             "stun",
             "silence",
@@ -48344,7 +48642,7 @@
                 "def": 2000,
                 "res": 75.0,
                 "aspd": 5.0,
-                "range": -1.0,
+                "range": 0,
                 "weight": 9,
                 "lifepoint": 30,
                 "ms": 0.5,
@@ -48352,7 +48650,86 @@
                 "epResistance": 0.0
             }
         ],
-        "special": [],
+        "forms": [
+            {
+                "title": "skzjkl_1",
+                "mods": {},
+                "special": [
+                    {
+                        "key": "skzjkl_1_0"
+                    },
+                    {
+                        "key": "skzjkl_fire"
+                    },
+                    {
+                        "key": "skzjkl_1_1"
+                    },
+                    {
+                        "key": "skzjkl_1_2"
+                    }
+                ],
+                "normal_attack": {
+                    "atk_type": [
+                        "melee",
+                        "phys"
+                    ],
+                    "hits": 1
+                }
+            },
+            {
+                "title": "skzjkl_2",
+                "mods": {},
+                "special": [
+                    {
+                        "key": "skzjkl_five"
+                    },
+                    {
+                        "key": "skzjkl_2_1"
+                    },
+                    {
+                        "key": "skzjkl_2_2"
+                    },
+                    {
+                        "key": "skzjkl_2_3"
+                    },
+                    {
+                        "key": "skzjkl_2_4"
+                    },
+                    {
+                        "key": "skzjkl_2_5"
+                    }
+                ],
+                "normal_attack": {
+                    "atk_type": [
+                        "melee",
+                        "phys"
+                    ],
+                    "hits": 1
+                }
+            },
+            {
+                "title": "skzjkl_3",
+                "mods": {},
+                "special": [
+                    {
+                        "key": "skzjkl_five"
+                    },
+                    {
+                        "key": "skzjkl_3_1"
+                    },
+                    {
+                        "key": "skzjkl_3_2"
+                    }
+                ],
+                "normal_attack": {
+                    "atk_type": [
+                        "melee",
+                        "phys"
+                    ],
+                    "hits": 2
+                }
+            }
+        ],
         "status_immune": [
             "stun",
             "silence",
@@ -48361,13 +48738,6 @@
             "levitate",
             "tremble"
         ],
-        "normal_attack": {
-            "atk_type": [
-                "melee",
-                "phys"
-            ],
-            "hits": 1
-        },
         "type": [
             "melee",
             "sarkaz",

@@ -20,6 +20,8 @@ def get_sub_profession_tags(char, id):
         tags.append("no_healing")
     if char['subProfessionId'] in ["reaper", "guardian","bard"]:
         tags.append("heal_self")
+    if char['subProfessionId'] in ["skywalker"]:
+        tags.append("block_flying")
     if char['subProfessionId'] in ["guardian","bard"]:
         tags.append("heal_ally")
     if char['subProfessionId'] in ["splashcaster",'blastcaster', "stalker", "hammer", "reaper", "aoesniper", "reaperrange", "bombarder", "phalanx"]:
@@ -29,13 +31,13 @@ def get_sub_profession_tags(char, id):
     if char['subProfessionId'] in ["tactician", "agent", "lord",
                                    "fastshot", "closerange", "aoesniper", "longrange", "reaperrange", "siegesniper", "loopshooter", "hunter"
                                    "shotprotector", "incantationmedic", "slower", "summoner", "underminer", "blessing", "ritualist", "corecaster",
-                                   "splashcaster", "blastcaster", "funnel", "phalanx", "mystic", "chain", "primcaster", "hookmaster", "geek", "traper","alchemist"]:
+                                   "splashcaster", "blastcaster", "funnel", "phalanx", "mystic", "chain", "primcaster", "hookmaster", "geek", "traper","alchemist","skywalker"]:
         tags.append("target_air")
     if char['subProfessionId'] in ["charger", "pioneer", "bearer", "tactician", "agent",
                                    "sword", "fearless", "lord", "centurion", "reaper", "instructor", "fighter", "musha", "librator", "crusher", "hammer"
                                    "fastshot", "closerange", "aoesniper", "longrange", "reaperrange", "siegesniper", "bombarder", "loopshooter", "hunter"
                                    "protector", "guardian", "shotprotector", "artsprotector", "duelist", "fortress", "unyield"
-                                   "craftsman", "executor", "stalker", "pusher", "hookmaster", "merchant", "geek", "dollkeeper", "traper","alchemist"]:
+                                   "craftsman", "executor", "stalker", "pusher", "hookmaster", "merchant", "geek", "dollkeeper", "traper","alchemist","skywalker","primprotector"]:
         tags.append("phys")
     if char['subProfessionId'] in ["artsfghter", "artsprotector", "incantationmedic",
                                    "slower", "summoner", "underminer", "blessing", "ritualist",

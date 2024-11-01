@@ -6180,10 +6180,6 @@
                 "tags": [],
                 "blackboard": [
                     {
-                        "key": "atk",
-                        "value": 0.07
-                    },
-                    {
                         "key": "attack_speed",
                         "value": 7.0
                     }
@@ -7741,6 +7737,13 @@
                     "weightless"
                 ],
                 "blackboard": [
+                    {
+                        "key": "mass_level",
+                        "value": -1.0,
+                        "category": [
+                            "weightless"
+                        ]
+                    },
                     {
                         "key": "hp_ratio",
                         "value": 0.8
@@ -9425,7 +9428,7 @@
                         "value": 0.08
                     },
                     {
-                        "key": "ele_dmg_res",
+                        "key": "ally_ele_dmg_res",
                         "value": 0.12
                     }
                 ]
@@ -11372,11 +11375,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "死里求生",
-                "name_ja": "",
-                "name_en": "",
+                "name_ja": "死中に活",
+                "name_en": "From Death's Clutches",
                 "desc_zh": "自身阻挡的敌方单位被击杀时，回复自身18%<@ba.talpu>(+2%)</>的生命",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "自身がブロックしている敵が撃破されるたびに、自身のHPを18%<@ba.talpu>（+2%）</>回復",
+                "desc_en": "Recovers 18% <@ba.talpu>(+2%)</> HP when an enemy being blocked by this unit is killed.",
                 "tags": [
                     "heal_self"
                 ],
@@ -11395,11 +11398,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "落锤",
-                "name_ja": "",
-                "name_en": "",
+                "name_ja": "槌落とし",
+                "name_en": "Hammerfall",
                 "desc_zh": "累计造成30次物理伤害后，攻击力+18%<@ba.talpu>(+3%)</>",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "物理ダメージを累計30回与えると、攻撃力+18%<@ba.talpu>（+3%）</>",
+                "desc_en": "ATK +18%<@ba.talpu> (+3%)</> after this unit deals Physical damage 30 times.",
                 "tags": [],
                 "blackboard": [
                     {
@@ -11420,11 +11423,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "起泡性能测试",
-                "name_ja": "",
-                "name_en": "",
+                "name_ja": "起泡性テスト",
+                "name_en": "Let's Get Saponaceous!",
                 "desc_zh": "对每个敌人首次进行攻击时攻击力提升至115%<@ba.talpu>(+5%)</>，并使目标浮空2.5秒",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "敵にダメージを与えた際、対象ごとに一回限り攻撃力が115%<@ba.talpu>（+5%）</>まで上昇し、対象を2.5秒間浮遊させる",
+                "desc_en": "The first attack against each enemy has ATK increased to 115% <@ba.talpu>(+5%)</> and Levitates the target for 2.5s.",
                 "tags": [],
                 "blackboard": [
                     {
@@ -11449,11 +11452,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "死亡拘审",
-                "name_ja": "",
-                "name_en": "",
+                "name_ja": "死絶の問拷",
+                "name_en": "Mortal Interrogation",
                 "desc_zh": "攻击对敌人施加效果：移动速度降低18％，每秒受到10％阿斯卡纶当前攻击力的法术伤害，持续25秒，效果最多叠加三层",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "通常攻撃が敵に以下の効果を付与：25秒間、移動速度-18%、1秒ごとにアスカロンの現在の攻撃力の10%に相当する術ダメージを受ける（最大3回まで重複可能）",
+                "desc_en": "Attacks inflict the following effect on enemies: Movement Speed reduced by 18% and take 10% of Ascalon's current ATK as Arts damage per second for 25s, stacking up to 3 times.",
                 "tags": [
                     "dot"
                 ],
@@ -11474,11 +11477,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "噬光残影",
-                "name_ja": "",
-                "name_en": "",
+                "name_ja": "喰光の残影",
+                "name_en": "Penumbral Image",
                 "desc_zh": "攻击速度+10<@ba.talpu>(+2)</>，自身周围四格有高台时，攻击速度额外+6",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "攻撃速度+10<@ba.talpu>（+2）</>、自身の隣接4マスに高台がある場合、さらに+6",
+                "desc_en": "ASPD +10 <@ba.talpu>(+2)</>; gain an additional ASPD +6 if there is high ground in the 4 adjacent tiles.",
                 "tags": [],
                 "blackboard": [
                     {
@@ -11503,11 +11506,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "悠远河谷的齐唱·VI",
-                "name_ja": "",
-                "name_en": "",
+                "name_ja": "河谷より響く斉唱VI",
+                "name_en": "Chorus of a Distant Valley VI",
                 "desc_zh": "部署后40秒内攻击附带60点凋亡损伤，并使攻击范围内的所有敌人受到10%的<ba.magicfragile>【法术脆弱】</>和<ba.elementfragile>【元素脆弱】</>",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "配置後40秒間、通常攻撃は対象に追加で60の壊死損傷を与え、攻撃範囲内の敵全員に10%の<ba.magicfragile>【対術脆弱】</>と<ba.elementfragile>【対元素脆弱】</>を付与",
+                "desc_en": "For 40s after deployment, attacks also deal 60 Necrosis Damage, and inflicts 10% <ba.magicfragile>[Arts Fragility]</> and <ba.elementfragile>[Elemental Fragility]</> on all enemies in attack range.",
                 "tags": [
                     "apoptosis",
                     "ele_dmg",
@@ -11542,11 +11545,20 @@
                         "targets": 99,
                         "value": 1.1,
                         "types": [
-                            "arts",
+                            "arts"
+                        ],
+                        "category": [
+                            "magicfragile"
+                        ]
+                    },
+                    {
+                        "key": "damage_scale",
+                        "targets": 99,
+                        "value": 1.1,
+                        "types": [
                             "ele_dmg"
                         ],
                         "category": [
-                            "magicfragile",
                             "elementfragile"
                         ]
                     }
@@ -11560,11 +11572,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "轻装上阵",
-                "name_ja": "",
-                "name_en": "",
+                "name_ja": "軽装出撃",
+                "name_en": "Lightweight Gambit",
                 "desc_zh": "自身初次部署费用-3；撤退后使下一名干员部署费用-1",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "自身の初回配置コスト‐3。撤退後、次のオペレーターの配置コスト‐1",
+                "desc_en": "Initial DP Cost -3; after retreating, the next Operator has DP Cost -1.",
                 "tags": [],
                 "blackboard": [
                     {
@@ -11588,11 +11600,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "好礼",
-                "name_ja": "",
-                "name_en": "",
+                "name_ja": "ビッグサプライズ！",
+                "name_en": "Souvenir",
                 "desc_zh": "攻击时对主目标的攻击力提升至115%并为其附着残影，残影受到维什戴尔的余震影响时有15%概率爆炸，对周围所有敌人造成160%<@ba.talpu>(+10%)</>攻击力的物理伤害并使其<ba.stun>晕眩</>1秒",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "攻撃主対象への攻撃力が115%まで上昇し、さらに残影を付与する。残影はウィシャデルの余震を受けると15%の確率で爆発し、周囲一定範囲内の敵全員に攻撃力の160%<@ba.talpu>（+10%）</>の物理ダメージを与え、1秒間<ba.stun>スタン</>させる",
+                "desc_en": "Attacks have 115% ATK against the main target and attach an afterimage to it. Afterimages have a 15% chance to explode when affected by Wiš'adel's aftershock, dealing 160% <@ba.talpu>(+10%)</> ATK as Physical damage to all nearby enemies and <ba.stun>Stunning</> them for 1s.",
                 "tags": [
                     "crit"
                 ],
@@ -11625,11 +11637,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "死魂灵的余息",
-                "name_ja": "",
-                "name_en": "",
+                "name_ja": "くたばり損ない",
+                "name_en": "Revenant's Echo",
                 "desc_zh": "部署后立刻在攻击范围内召唤一个魂灵之影，在魂灵之影周围时获得<ba.camou>迷彩</>",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "配置後、攻撃範囲内に「レヴァナントの影」を1体召喚する。自身の周囲に「レヴァナントの影」がいると<ba.camou>迷彩</>状態になる",
+                "desc_en": "After deployment, immediately summons a Revenant's Shadow in attack range, and gains <ba.camou>Camouflage</> when near a Revenant's Shadow.",
                 "tags": [
                     "summon"
                 ],
@@ -11651,11 +11663,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "语汇演化",
-                "name_ja": "",
-                "name_en": "",
+                "name_ja": "変遷する言葉",
+                "name_en": "Lexical Evolution",
                 "desc_zh": "对一个目标发起攻击时，有40%几率额外对攻击范围内一个随机目标造成相当于攻击力65%<@ba.talpu>(+5%)</>的法术伤害并使其<ba.sluggish>停顿</>0.8秒",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "攻撃時、40%の確率で攻撃範囲内にいるランダムな敵1体に追加で攻撃力の65%<@ba.talpu>（+5%）</>の術ダメージを与え、0.8秒間<ba.sluggish>足止め</>する",
+                "desc_en": "When attacking a target, there is a 40% chance to deal 65% <@ba.talpu>(+5%)</> ATK as Arts damage to a random target in attack range and <ba.sluggish>Slow</> it for 0.8s.",
                 "tags": [],
                 "blackboard": [
                     {
@@ -11684,11 +11696,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "剜魂具辞",
-                "name_ja": "",
-                "name_en": "",
+                "name_ja": "魂抉る声遣",
+                "name_en": "Requiem Aeternam",
                 "desc_zh": "攻击使目标在5秒内法术抗性-10且受到的法术伤害提高165<@ba.talpu>(+15)</>点",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "攻撃した敵に5秒間術耐性が‐10、術の被ダメージ+165<@ba.talpu>（+15）</>の効果を付与する",
+                "desc_en": "Attacks inflict RES -10 and Arts damage taken +165 <@ba.talpu>(+15)</> on targets for 5s.",
                 "tags": [],
                 "blackboard": [
                     {
@@ -11720,11 +11732,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "过往尘埃",
-                "name_ja": "",
-                "name_en": "",
+                "name_ja": "過去の塵埃",
+                "name_en": "Dust of the Past",
                 "desc_zh": "魔王周围持续围绕3枚“微尘”，“微尘”碰撞友方干员时，消失并使该干员受到魔王特性效果提升至1.5倍，持续6秒，消失的“微尘”在6秒后重生",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "配置時、自身を中心に旋回し続ける「微塵」を3個生成する。「微塵」が味方ユニットに当たると消滅し、対象が受けるシヴィライト・エテルナの特性の効果が6秒間1.5倍になる。消滅した「微塵」は6秒後に再生する",
+                "desc_en": "3 Particles orbit Civilight Eterna at all times. When a Particle collides with an allied Operator, it disappears and increases Civilight Eterna's Trait effect on that Operator to 1.5x for 6s. The disappeared Particle respawns after 6s.",
                 "tags": [],
                 "blackboard": [
                     {
@@ -11756,11 +11768,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "魔王残响",
-                "name_ja": "",
-                "name_en": "",
+                "name_ja": "魔王の残響",
+                "name_en": "The Echo of Kings",
                 "desc_zh": "上阵时，所有友方单位受到【萨卡兹】敌人的伤害降低15%<@ba.talpu>(+5%)</>",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "配置中、味方全員が敵【サルカズ】からの被ダメージ-15%<@ba.talpu>（+5%）</>",
+                "desc_en": "When deployed, all allied units take 15%<@ba.talpu> (+5%)</> less damage from [Sarkaz] enemies.",
                 "tags": [
                     "sarkaz"
                 ],
@@ -11825,11 +11837,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "诚挚期许",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Prayer of Sincerity",
+                "name_ja": "切実なる嘱望",
                 "desc_zh": "在场时所有友方单位最大生命+8%，技能期间所有友方单位每秒恢复2.5%最大生命",
-                "desc_en": "",
-                "desc_ja": "",
+                "desc_en": "When deployed, all allied units have max HP +8%, and while skill is active, all allied units recover 2.5% of max HP per second.",
+                "desc_ja": "配置中、味方全員の最大HP+8%。スキル発動中、1秒ごとに味方全員のHPを最大値の2.5%回復する",
                 "tags": [
                     "global_heal",
                     "heal_unhealable"
@@ -12183,7 +12195,8 @@
                         "types": [
                             "phys",
                             "arts"
-                        ]
+                        ],
+                        "target_air": true
                     }
                 ]
             }
@@ -12443,6 +12456,198 @@
                         "conditions": [
                             "first_hit"
                         ]
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4165_ctrail": {
+        "appellation": "Contrail",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "低空乱流",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "在地面时防御力+12%<@ba.talpu>（+2%）</>，<ba.liftoff>起飞</>后攻击敌人时攻击力提升至112%<@ba.talpu>（+2%）</>",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "def",
+                        "value": 0.12
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4155_talr": {
+        "appellation": "Figurino",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "谨慎择客",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "攻击未被自身阻挡的敌人时，自身造成的伤害+25%<@ba.talpu>（+5%）</>",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "no_block_enemy",
+                    "self_no_block_enemy",
+                    "bonus_no_block"
+                ],
+                "blackboard": [
+                    {
+                        "key": "damage_scale_no_block",
+                        "value": 1.25
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4148_philae": {
+        "appellation": "Philae",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "神河谕使",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "受到的元素损伤-12%<@ba.talpu>（+2%）</>，受到凋亡损伤时回复2点技力",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "ele_dmg_res",
+                        "value": 0.12
+                    },
+                    {
+                        "key": "sp_gain",
+                        "value": 2.0,
+                        "conditions": [
+                            "apoptosis"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4026_vulpis": {
+        "appellation": "Vulpisfoglia",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "追凶",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "对每个敌人造成首次伤害后，10秒内忍冬对该敌人造成伤害时额外造成攻击力30%的法术伤害",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "arts"
+                ],
+                "blackboard": []
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "蓄势",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "在场时，部署费用的自然回复速度+10%，若4秒内自身未受到伤害，则每秒恢复5%<@ba.talpu>（+1%）</>的最大生命值",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "heal_self"
+                ],
+                "blackboard": []
+            }
+        ]
+    },
+    "char_1038_whitw2": {
+        "appellation": "Lappland the Decadenza",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "头狼",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "每在场上停留16<@ba.talpu>（-4）</>秒，浮游单元依次获得以下一个效果：伤害上限提高10%、造成伤害时使目标特殊能力失效2秒、数量+1",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "silence",
+                        "targets": 1.0,
+                        "value": 2.0,
+                        "target_air": true
+                    }
+                ]
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "叙拉古的荣幸",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "编入队伍时所有【叙拉古】干员的初始技力+6<@ba.talpu>（+1）</>",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "siracusa",
+                    "squad_effect"
+                ],
+                "blackboard": [
+                    {
+                        "key": "ally_sp_stock",
+                        "value": 6.0,
+                        "conditions": [
+                            "siracusa"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "char_1502_crosly": {
+        "appellation": "Crownslayer",
+        "talents": [
+            {
+                "prefabKey": "t1",
+                "name_zh": "吞咽苦厄",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "技能持续期间在自身周围产生烟雾，使其中的地面敌人物理与法术命中率-20%",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "hitrate_down",
+                        "value": 0.2,
+                        "types": [
+                            "phys",
+                            "arts"
+                        ],
+                        "target_air": false
+                    }
+                ]
+            },
+            {
+                "prefabKey": "t2",
+                "name_zh": "弑君者威名",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "对未伤害过自身的地面敌人造成的物理伤害提升22%<@ba.talpu>（+2）</>",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "self_damage_scale",
+                        "value": 1.22
                     }
                 ]
             }
