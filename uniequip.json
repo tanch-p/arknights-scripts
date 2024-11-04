@@ -35491,7 +35491,7 @@
                     "tokenAttributeBlackboard": {}
                 }
             ],
-            "tags": [],
+            "tags": ["abyssal"],
             "blackboard": [
                 {
                     "key": "atk_scale",
@@ -57984,8 +57984,8 @@
                 },
                 {
                     "key": "levitate",
-                    "targets": 1,
-                    "value": 3.0
+                    "targets": 5,
+                    "value": 25.0
                 }
             ]
         }
@@ -58206,7 +58206,7 @@
                 {
                     "key": "def_down",
                     "targets": 99,
-                    "value": 160,
+                    "value": 400,
                     "duration": 25.0,
                     "target_air": true,
                     "conditions": [
