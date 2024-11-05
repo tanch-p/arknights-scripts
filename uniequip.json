@@ -58208,7 +58208,7 @@
                     "targets": 99,
                     "value": 400,
                     "duration": 25.0,
-                    "target_air": true,
+                    "target_air": false,
                     "conditions": [
                         "surrounding_8_tile"
                     ]
@@ -58218,7 +58218,7 @@
                     "targets": 99,
                     "value": 20,
                     "duration": 25.0,
-                    "target_air": true,
+                    "target_air": false,
                     "conditions": [
                         "surrounding_8_tile"
                     ]
