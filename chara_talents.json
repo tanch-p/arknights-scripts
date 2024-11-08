@@ -11533,32 +11533,16 @@
                         "target_air": true
                     },
                     {
-                        "key": "duration",
-                        "value": 40.0
-                    },
-                    {
-                        "key": "attack@dark_damage_value",
-                        "value": 60.0
-                    },
-                    {
                         "key": "damage_scale",
                         "targets": 99,
+                        "duration": 40.0,
                         "value": 1.1,
                         "types": [
-                            "arts"
-                        ],
-                        "category": [
-                            "magicfragile"
-                        ]
-                    },
-                    {
-                        "key": "damage_scale",
-                        "targets": 99,
-                        "value": 1.1,
-                        "types": [
+                            "arts",
                             "ele_dmg"
                         ],
                         "category": [
+                            "magicfragile",
                             "elementfragile"
                         ]
                     }
