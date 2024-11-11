@@ -57217,12 +57217,8 @@
             "tags": [],
             "blackboard": [
                 {
-                    "key": "ally_aspd",
-                    "value": 10.0,
-                    "conditions": [
-                        "siracusa",
-                        "first_skill_usage"
-                    ]
+                    "key": "attack_speed",
+                    "value": 10.0
                 }
             ]
         }
