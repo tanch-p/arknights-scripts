@@ -12636,5 +12636,516 @@
                 ]
             }
         ]
+    },
+    "char_604_ccast": {
+        "appellation": "Reserve Operator - Caster",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "施法速度提升",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "攻击速度+9",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 9.0
+                    }
+                ]
+            }
+        ]
+    },
+    "char_603_csnipe": {
+        "appellation": "Reserve Operator - Sniper",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "攻击提升",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "攻击力+8%",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.08
+                    }
+                ]
+            }
+        ]
+    },
+    "char_600_cpione": {
+        "appellation": "Reserve Operator - Vanguard",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "攻击提升",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "攻击力+8%",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.08
+                    }
+                ]
+            }
+        ]
+    },
+    "char_601_cguard": {
+        "appellation": "Reserve Operator - Guard",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "攻击提升",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "攻击力+8%",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.08
+                    }
+                ]
+            }
+        ]
+    },
+    "char_607_cspec": {
+        "appellation": "Reserve Operator - Specialist",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "攻击提升",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "攻击力+8%",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.08
+                    }
+                ]
+            }
+        ]
+    },
+    "char_605_cmedic": {
+        "appellation": "Reserve Operator - Medic",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "攻击提升",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "攻击力+8%",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.08
+                    }
+                ]
+            }
+        ]
+    },
+    "char_602_cdfend": {
+        "appellation": "Reserve Operator - Defender",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "防御提升",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "防御力+10%",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "def",
+                        "value": 0.1
+                    }
+                ]
+            }
+        ]
+    },
+    "char_606_csuppo": {
+        "appellation": "Reserve Operator - Supporter",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "施法速度提升",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "攻击速度+9",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 9.0
+                    }
+                ]
+            }
+        ]
+    },
+    "char_611_acnipe": {
+        "appellation": "Stormeye",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "风坠",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "攻击时有25%的概率攻击力提升至180%",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 1.8
+                    },
+                    {
+                        "key": "prob",
+                        "value": 0.25
+                    }
+                ]
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "风雨欲来",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "自身未进行攻击时，技力回复速度+0.2/秒",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "delay",
+                        "value": 2.0
+                    },
+                    {
+                        "key": "sp_recovery_per_sec",
+                        "value": 0.2
+                    }
+                ]
+            }
+        ]
+    },
+    "char_608_acpion": {
+        "appellation": "Tulip",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "无垠之心",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "部署后第2次开启技能之前，技力自然回复速度+0.6/秒",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "sp_recovery_per_sec",
+                        "value": 0.6
+                    },
+                    {
+                        "key": "cnt",
+                        "value": 2.0
+                    }
+                ]
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "浪潮之心",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "攻击力+10%，击杀敌人时额外获得1点部署费用",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "cost",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "atk",
+                        "value": 0.1
+                    }
+                ]
+            }
+        ]
+    },
+    "char_612_accast": {
+        "appellation": "Pith",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "“见我所见”",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "攻击无视目标12法术抗性",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "magic_resist_penetrate_fixed",
+                        "value": 12.0
+                    }
+                ]
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "“授我所授”",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "自身及相邻四格的【术师】干员攻击力+10%",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.1
+                    }
+                ]
+            }
+        ]
+    },
+    "char_614_acsupo": {
+        "appellation": "Raidian",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "同调",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "攻击速度+15，相邻的干员攻击速度+10",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 15.0
+                    },
+                    {
+                        "key": "acsupo_t_1[ally].attack_speed",
+                        "value": 10.0
+                    }
+                ]
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "诱引",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "攻击范围内敌人的物理和法术命中率降低10%",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "damage_hitrate_physical",
+                        "value": -0.1
+                    },
+                    {
+                        "key": "damage_hitrate_magical",
+                        "value": -0.1
+                    }
+                ]
+            }
+        ]
+    },
+    "char_615_acspec": {
+        "appellation": "Misery",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "二象命末",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "攻击时有10%概率造成二连击",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "attack@prob",
+                        "value": 0.1
+                    },
+                    {
+                        "key": "attack@normal_prob",
+                        "value": 0.9
+                    }
+                ]
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "四维分离",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "周围四格内仅存在一名敌人时，攻击力+10%",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.1
+                    },
+                    {
+                        "key": "cnt",
+                        "value": 1.0
+                    }
+                ]
+            }
+        ]
+    },
+    "char_613_acmedc": {
+        "appellation": "Touch",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "攫升",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "治疗目标时使其获得3点技力",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "sp",
+                        "value": 3.0
+                    }
+                ]
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "超脱",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "攻击范围内的友方干员被击倒时获得5点技力",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "sp",
+                        "value": 5.0
+                    }
+                ]
+            }
+        ]
+    },
+    "char_610_acfend": {
+        "appellation": "Mechanist",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "精研材料",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "防御力+10%，生命值低于50%时防御力额外+10%",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "acfend_t_1[extra].def",
+                        "value": 0.1
+                    },
+                    {
+                        "key": "def",
+                        "value": 0.1
+                    },
+                    {
+                        "key": "hp_ratio",
+                        "value": 0.5
+                    }
+                ]
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "反馈装甲",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "自身阻挡的敌人攻击速度-7",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": -7.0
+                    }
+                ]
+            }
+        ]
+    },
+    "char_609_acguad": {
+        "appellation": "Sharp",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "隐匿刀刃",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "攻击力+15%，获得30%的物理闪避",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.15
+                    },
+                    {
+                        "key": "prob",
+                        "value": 0.3
+                    }
+                ]
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "寸步不退",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "在战场停留30秒后，自身攻击速度+10",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "interval",
+                        "value": 30.0
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 10.0
+                    }
+                ]
+            }        ]
     }
 }

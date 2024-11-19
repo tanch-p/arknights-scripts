@@ -35491,7 +35491,9 @@
                     "tokenAttributeBlackboard": {}
                 }
             ],
-            "tags": ["abyssal"],
+            "tags": [
+                "abyssal"
+            ],
             "blackboard": [
                 {
                     "key": "atk_scale",
@@ -58224,6 +58226,1242 @@
                     "targets": 99,
                     "value": 5.0,
                     "target_air": false
+                }
+            ]
+        }
+    },
+    "uniequip_001_acnipe": {
+        "uniEquipId": "uniequip_001_acnipe",
+        "name_zh": "Stormeye证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_611_acnipe",
+        "combatData": null
+    },
+    "uniequip_002_acnipe": {
+        "uniEquipId": "uniequip_002_acnipe",
+        "name_zh": "Stormeye证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "mar-x",
+        "charId": "char_611_acnipe",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": "acnipe_equip_2_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "攻击空中单位时攻击力提升至<@ba.kw>110%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 104.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 38.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "acnipe_equip_2_2_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "攻击空中单位时攻击力提升至<@ba.kw>110%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "风坠",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "攻击时有25%的概率攻击力提升至186%",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 136.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 45.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "acnipe_equip_2_3_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "攻击空中单位时攻击力提升至<@ba.kw>110%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "风坠",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "攻击时有25%的概率攻击力提升至190%",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 160.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 50.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+                {
+                    "key": "atk_scale",
+                    "value": 1.1
+                },
+                {
+                    "key": "atk_scale",
+                    "value": 1.9
+                },
+                {
+                    "key": "prob",
+                    "value": 0.25
+                }
+            ]
+        }
+    },
+    "uniequip_001_acspec": {
+        "uniEquipId": "uniequip_001_acspec",
+        "name_zh": "Misery证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_615_acspec",
+        "combatData": null
+    },
+    "uniequip_002_acspec": {
+        "uniEquipId": "uniequip_002_acspec",
+        "name_zh": "Misery证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "exe-x",
+        "charId": "char_615_acspec",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": "acspec_equip_1_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "周围四格没有友方干员时攻击力<@ba.kw>+10%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 78.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 30.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 19.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "acspec_equip_1_2_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "周围四格没有友方干员时攻击力<@ba.kw>+10%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": "acspec_equip_1_2_p2",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": "二象命末",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "攻击力+3%，攻击时有13%概率造成二连击",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 98.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 35.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 23.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "acspec_equip_1_3_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "周围四格没有友方干员时攻击力<@ba.kw>+10%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": "acspec_equip_1_3_p2",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": "二象命末",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "攻击力+5%，攻击时有15%概率造成二连击",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 114.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 40.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 26.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+                {
+                    "key": "atk",
+                    "value": 0.1
+                },
+                {
+                    "key": "atk",
+                    "value": 0.05
+                },
+                {
+                    "key": "attack@prob",
+                    "value": 0.15
+                },
+                {
+                    "key": "attack@normal_prob",
+                    "value": 0.85
+                }
+            ]
+        }
+    },
+    "uniequip_001_acguad": {
+        "uniEquipId": "uniequip_001_acguad",
+        "name_zh": "Sharp证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_609_acguad",
+        "combatData": null
+    },
+    "uniequip_002_acguad": {
+        "uniEquipId": "uniequip_002_acguad",
+        "name_zh": "Sharp证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "dre-x",
+        "charId": "char_609_acguad",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": "acguad_equip_1_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "攻击被阻挡的敌人时攻击力提升至<@ba.vup>115%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 220.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 72.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "acguad_equip_1_2_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "攻击被阻挡的敌人时攻击力提升至<@ba.vup>115%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "隐匿刀刃",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "攻击力+18%，获得33%的物理闪避",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 289.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 85.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "acguad_equip_1_3_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "攻击被阻挡的敌人时攻击力提升至<@ba.vup>115%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "隐匿刀刃",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "攻击力+20%，获得35%的物理闪避",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 340.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 95.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+                {
+                    "key": "atk_scale",
+                    "value": 1.15
+                },
+                {
+                    "key": "atk",
+                    "value": 0.2
+                },
+                {
+                    "key": "prob",
+                    "value": 0.35
+                }
+            ]
+        }
+    },
+    "uniequip_001_acfend": {
+        "uniEquipId": "uniequip_001_acfend",
+        "name_zh": "Mechanist证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_610_acfend",
+        "combatData": null
+    },
+    "uniequip_002_acfend": {
+        "uniEquipId": "uniequip_002_acfend",
+        "name_zh": "Mechanist证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "pro-x",
+        "charId": "char_610_acfend",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": "acfend_equip_1_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "阻挡敌人时防御力<@ba.kw>+20%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 160.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 60.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "acfend_equip_1_2_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "阻挡敌人时防御力<@ba.kw>+20%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "精研材料",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "防御力+10%，生命值低于50%时防御力额外+15%",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 200.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 75.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "acfend_equip_1_3_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "阻挡敌人时防御力<@ba.kw>+20%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "精研材料",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "防御力+10%，生命值低于50%时防御力额外+20%",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 220.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 85.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+                {
+                    "key": "def",
+                    "value": 0.2
+                },
+                {
+                    "key": "acfend_t_1[extra].def",
+                    "value": 0.2
+                },
+                {
+                    "key": "def",
+                    "value": 0.1
+                },
+                {
+                    "key": "hp_ratio",
+                    "value": 0.5
+                }
+            ]
+        }
+    },
+    "uniequip_001_acsupo": {
+        "uniEquipId": "uniequip_001_acsupo",
+        "name_zh": "Raidian证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_614_acsupo",
+        "combatData": null
+    },
+    "uniequip_002_acsupo": {
+        "uniEquipId": "uniequip_002_acsupo",
+        "name_zh": "Raidian证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "dec-x",
+        "charId": "char_614_acsupo",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "DISPLAY",
+                            "isToken": false,
+                            "addDesc_zh": "攻击范围内存在敌人时技力自然恢复速度+0.2/秒",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": "acsupo_equip_1_1_p1",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": null,
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": -1,
+                            "upgradeDesc_zh": "",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 78.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 34.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "DISPLAY",
+                            "isToken": false,
+                            "addDesc_zh": "攻击范围内存在敌人时技力自然恢复速度+0.2/秒",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": "acsupo_equip_1_2_p1",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": null,
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": -1,
+                            "upgradeDesc_zh": "",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "同调",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "攻击速度+18，相邻的干员攻击速度+11",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 89.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 43.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "DISPLAY",
+                            "isToken": false,
+                            "addDesc_zh": "攻击范围内存在敌人时技力自然恢复速度+0.2/秒",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": "acsupo_equip_1_3_p1",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": null,
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": -1,
+                            "upgradeDesc_zh": "",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "同调",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "攻击速度+20，相邻的干员攻击速度+12",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 98.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 52.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+                {
+                    "key": "sp_recovery_per_sec",
+                    "value": 0.2
+                },
+                {
+                    "key": "attack_speed",
+                    "value": 20.0
+                },
+                {
+                    "key": "acsupo_t_1[ally].attack_speed",
+                    "value": 12.0
+                }
+            ]
+        }
+    },
+    "uniequip_001_accast": {
+        "uniEquipId": "uniequip_001_accast",
+        "name_zh": "Pith证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_612_accast",
+        "combatData": null
+    },
+    "uniequip_002_accast": {
+        "uniEquipId": "uniequip_002_accast",
+        "name_zh": "Pith证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "spc-x",
+        "charId": "char_612_accast",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "DISPLAY",
+                            "isToken": false,
+                            "addDesc_zh": "攻击范围<@ba.kw>扩大</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "攻击造成<@ba.kw>群体法术伤害</>",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": "accast_equip_1_1_p1",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": null,
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": true,
+                            "rangeId": "3-1",
+                            "talentIndex": -1,
+                            "upgradeDesc_zh": "",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 120.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 55.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "DISPLAY",
+                            "isToken": false,
+                            "addDesc_zh": "攻击范围<@ba.kw>扩大</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "攻击造成<@ba.kw>群体法术伤害</>",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "“授我所授”",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 1,
+                            "upgradeDesc_zh": "自身及相邻四格的【术师】干员攻击力+15%",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        },
+                        {
+                            "resKey": "accast_equip_1_2_p1",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": null,
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": true,
+                            "rangeId": "3-1",
+                            "talentIndex": -1,
+                            "upgradeDesc_zh": "",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 165.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 66.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "DISPLAY",
+                            "isToken": false,
+                            "addDesc_zh": "攻击范围<@ba.kw>扩大</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "攻击造成<@ba.kw>群体法术伤害</>",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "“授我所授”",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 1,
+                            "upgradeDesc_zh": "自身及相邻四格的【术师】干员攻击力+20%",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        },
+                        {
+                            "resKey": "accast_equip_1_3_p1",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": null,
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": true,
+                            "rangeId": "3-1",
+                            "talentIndex": -1,
+                            "upgradeDesc_zh": "",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 190.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 75.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+                {
+                    "key": "atk",
+                    "value": 0.2
+                }
+            ]
+        }
+    },
+    "uniequip_001_acpion": {
+        "uniEquipId": "uniequip_001_acpion",
+        "name_zh": "郁金香证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_608_acpion",
+        "combatData": null
+    },
+    "uniequip_002_acpion": {
+        "uniEquipId": "uniequip_002_acpion",
+        "name_zh": "郁金香证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "sol-x",
+        "charId": "char_608_acpion",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": "acpion_equip_2_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "能够阻挡两个敌人，阻挡敌人时攻击力和防御力各+8％",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 44.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 30.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "acpion_equip_2_2_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "能够阻挡两个敌人，阻挡敌人时攻击力和防御力各+8％",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "无垠之心",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "部署后第2次开启技能之前，技力自然回复速度+0.8/秒",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 55.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 40.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "acpion_equip_2_3_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "能够阻挡两个敌人，阻挡敌人时攻击力和防御力各+8％",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "无垠之心",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "部署后第2次开启技能之前，技力自然回复速度+1/秒",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 65.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 48.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+                {
+                    "key": "atk",
+                    "value": 0.08
+                },
+                {
+                    "key": "def",
+                    "value": 0.08
+                },
+                {
+                    "key": "sp_recovery_per_sec",
+                    "value": 1.0
+                },
+                {
+                    "key": "cnt",
+                    "value": 2.0
+                }
+            ]
+        }
+    },
+    "uniequip_001_acmedc": {
+        "uniEquipId": "uniequip_001_acmedc",
+        "name_zh": "Touch证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_613_acmedc",
+        "combatData": null
+    },
+    "uniequip_002_acmedc": {
+        "uniEquipId": "uniequip_002_acmedc",
+        "name_zh": "Touch证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "phy-x",
+        "charId": "char_613_acmedc",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": "acmedc_equip_1_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "治疗生命值低于50%的友方单位时治疗量提升<@ba.kw>15%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 100.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 40.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "acmedc_equip_1_2_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "治疗生命值低于50%的友方单位时治疗量提升<@ba.kw>15%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "超脱",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 1,
+                            "upgradeDesc_zh": "攻击范围内的友方干员被击倒时获得7点技力",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 130.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 45.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "acmedc_equip_1_3_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "治疗生命值低于50%的友方单位时治疗量提升<@ba.kw>15%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "超脱",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 1,
+                            "upgradeDesc_zh": "攻击范围内的友方干员被击倒时获得8点技力",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 150.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 50.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+                {
+                    "key": "heal_scale",
+                    "value": 1.15
+                },
+                {
+                    "key": "hp_ratio",
+                    "value": 0.5
+                },
+                {
+                    "key": "sp",
+                    "value": 8.0
                 }
             ]
         }

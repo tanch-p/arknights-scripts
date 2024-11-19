@@ -65,7 +65,12 @@ with open('chara_imple_dates.json', encoding='utf-8') as f:
     imple_dates = json.load(f)
 data = []
 
-KEYS_TO_IGNORE = ["char_512_aprot"]
+KEYS_TO_IGNORE = ["char_512_aprot", "char_600_cpione", "char_601_cguard",
+                  "char_602_cdfend", "char_603_csnipe", "char_604_ccast",
+                  "char_605_cmedic", "char_606_csuppo", "char_607_cspec",
+                  "char_608_acpion", "char_609_acguad", "char_610_acfend",
+                  "char_611_acnipe", "char_612_accast", "char_613_acmedc",
+                  "char_614_acsupo", "char_615_acspec"]
 
 filtered_cn_char_table = {key: cn_char_table[key] for key in cn_char_table.keys(
 ) if not "token" in key and not "trap" in key and not key in KEYS_TO_IGNORE}
@@ -141,8 +146,7 @@ for id in filtered_cn_char_table:
             'desc_en': en_char_table[id]['potentialRanks'][idx]['description'] if id in en_char_table and idx < len(jp_char_table[id]['potentialRanks']) else ""
         }
 
-        attribute = {attribute_translate_table[pot['buff']['attributes']['attributeModifiers'][0]['attributeType']]
-            : pot['buff']['attributes']['attributeModifiers'][0]['value']}if pot['buff'] else None
+        attribute = {attribute_translate_table[pot['buff']['attributes']['attributeModifiers'][0]['attributeType']]: pot['buff']['attributes']['attributeModifiers'][0]['value']}if pot['buff'] else None
         pot_dict['attribute'] = attribute
         potential.append(pot_dict)
 
@@ -297,8 +301,7 @@ for id in cn_patch_table['patchChars']:
             'desc_en': en_patch_table['patchChars'][id]['potentialRanks'][idx]['description'] if in_global else ""
         }
 
-        attribute = {attribute_translate_table[pot['buff']['attributes']['attributeModifiers'][0]['attributeType']]
-            : pot['buff']['attributes']['attributeModifiers'][0]['value']}if pot['buff'] else None
+        attribute = {attribute_translate_table[pot['buff']['attributes']['attributeModifiers'][0]['attributeType']]: pot['buff']['attributes']['attributeModifiers'][0]['value']}if pot['buff'] else None
         pot_dict['attribute'] = attribute
         potential.append(pot_dict)
 
