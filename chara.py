@@ -3,6 +3,7 @@ import os
 from chara_skills import replace_substrings
 from subprofession_tags import get_sub_profession_tags
 import pprint
+import re
 
 pp = pprint.PrettyPrinter(indent=4)
 
@@ -12,11 +13,8 @@ buffs_list = [
     "camou", "protect", "weightless",
     "charged", "barrier", "overdrive",
     "inspire"]
-debuffs_list = ["stun", "sluggish", "sleep",
-                "silence", "levitate", "cold",
-                "magicfragile", "root", "tremble",
-                "fragile", "dt.apoptosis2", "dt.burning2",
-                "steal", "weightless"]
+subprofessions = ['physician', 'fearless', 'executor', 'fastshot', 'bombarder', 'bard', 'protector', 'ritualist', 'pioneer', 'corecaster', 'splashcaster', 'charger', 'centurion', 'guardian', 'slower', 'funnel', 'mystic', 'chain', 'aoesniper', 'reaperrange', 'longrange', 'closerange', 'siegesniper', 'loopshooter', 'bearer', 'tactician', 'instructor', 'lord', 'artsfghter', 'sword', 'musha', 'crusher', 'reaper',
+                  'merchant', 'hookmaster', 'ringhealer', 'healer', 'wandermedic', 'unyield', 'artsprotector', 'summoner', 'craftsman', 'stalker', 'pusher', 'dollkeeper', 'skywalker', 'agent', 'fighter', 'librator', 'hammer', 'phalanx', 'blastcaster', 'primcaster', 'incantationmedic', 'chainhealer', 'shotprotector', 'fortress', 'duelist', 'primprotector', 'hunter', 'geek', 'underminer', 'blessing', 'traper', 'alchemist']
 
 stat_convert = {'maxHp': "hp", "magicResistance": "res", "attackSpeed": "aspd",
                 "moveSpeed": "ms", "respawnTime": "respawnTime", "atk": 'atk', "def": "def", "cost": "cost"}
@@ -225,6 +223,7 @@ for id in filtered_cn_char_table:
                 en_char_table[id]['trait']['candidates'][-1]['overrideDescripton'], en_char_table[id]['trait']['candidates'][-1]['blackboard'])
             desc_ja = replace_substrings(
                 jp_char_table[id]['trait']['candidates'][-1]['overrideDescripton'], jp_char_table[id]['trait']['candidates'][-1]['blackboard'])
+        desc_en = re.sub(r'<([A-Z][^>]*)>', r'&lt;\1&gt;', desc_en)
 
         return_dict['name_ja'] = jp_char_table[id]['name']
         return_dict['name_en'] = en_char_table[id]['name']
@@ -400,4 +399,6 @@ with open('characters.json', 'w', encoding='utf-8') as f:
 with open('chara_talents.json', 'w', encoding='utf-8') as f:
     json.dump(return_dict, f, ensure_ascii=False, indent=4)
 
-print(subProfessionIds)
+for id in subProfessionIds:
+    if not id in subprofessions:
+        print(id,' (new!)')

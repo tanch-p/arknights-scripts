@@ -49,7 +49,8 @@ def replace_substrings(text, blackboard):
     # Replace the substrings using the regular expression and the replace_match function
     text = replace_key(text)
     result = re.sub(pattern, replace_match, text)
-
+    result = re.sub(r'<([A-Z][^>]*)>', r'&lt;\1&gt;', text)
+    
     return result.replace("<$ba", "<ba")
 
 

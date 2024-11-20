@@ -211,8 +211,8 @@ for topic_dict in roguelike_topics:
             if stage_data['predefines']:
                 for item in stage_data['predefines']['tokenInsts']:
                     key = item['inst']['characterKey']
-                    if key == "trap_760_skztzs":
-                    # if not key in TRAPS_TO_EXCLUDE:
+                    # if key == "trap_760_skztzs":
+                    if not key in TRAPS_TO_EXCLUDE:
                         traps.append({
                             "key": key,
                             "level": item['inst']['level'],

@@ -2113,7 +2113,7 @@
                 "name_en": "Vegetative Regeneration",
                 "desc_zh": "<替身>每秒回复4%<@ba.talpu>(+0.5%)</>生命值",
                 "desc_ja": "<身替り>のHPが1秒ごとに最大値の4%<@ba.talpu>(+0.5%)</>回復",
-                "desc_en": "<Substitute> restores 4% <@ba.talpu>(+0.5%)</> HP per second",
+                "desc_en": "&lt;Substitute&gt; restores 4% <@ba.talpu>(+0.5%)</> HP per second",
                 "tags": [],
                 "blackboard": [
                     {
@@ -6354,7 +6354,7 @@
                 "name_en": "Bena's Protractor",
                 "desc_zh": "<替身>攻击造成法术伤害且受到的物理与法术伤害减少43%<@ba.talpu>(+3)</>",
                 "desc_ja": "<身替り>の物理と術の被ダメージ-43%<@ba.talpu>(+3)</>、攻撃が術ダメージを与える",
-                "desc_en": "<Substitute> deals Arts damage and reduces Physical and Arts damage taken by 43%<@ba.talpu> (+3%)</>",
+                "desc_en": "&lt;Substitute&gt; deals Arts damage and reduces Physical and Arts damage taken by 43%<@ba.talpu> (+3%)</>",
                 "tags": [
                     "arts"
                 ],
@@ -6385,7 +6385,7 @@
                 "name_en": "From Paper Comes Life",
                 "desc_zh": "<替身>出现时对其周围8格内所有敌方单位造成相当于其攻击力275%<@ba.talpu>(+5)</>的法术伤害",
                 "desc_ja": "<身替り>が出現時、周囲8マスにいる敵全員に攻撃力の275%<@ba.talpu>(+5%)</>の術ダメージを与える",
-                "desc_en": "When <Substitute> is summoned, it will deal 275% <@ba.talpu>(+5%)</> of its ATK as Arts Damage to enemies in the surrounding 8 tiles",
+                "desc_en": "When &lt;Substitute&gt; is summoned, it will deal 275% <@ba.talpu>(+5%)</> of its ATK as Arts Damage to enemies in the surrounding 8 tiles",
                 "tags": [
                     "arts"
                 ],
@@ -6408,7 +6408,7 @@
                 "name_en": "Gemini Replicator",
                 "desc_zh": "部署时原地释放全息幻影，该幻影不会攻击，受到攻击时使攻击幻影的敌人在8秒内受到22%<@ba.talpu>(+2%)</>的脆弱且隐匿效果失效，并立即切换为<替身>作战",
                 "desc_ja": "配置時、本体の代わりに配置マスにホログラムを出現させる。ホログラムは攻撃できず、攻撃を受けると攻撃者に8秒間、ステルス状態を無効化させ、22%<@ba.talpu>（+2%）</>の脆弱状態を付与し、自身が<身替り>と入れ替わる",
-                "desc_en": "When deployed, creates a Holographic Mirage at that location; the Mirage will not attack, but when attacked, inflicts 22% <@ba.talpu>(+2%)</> Fragile to the attacker and removes the attacker's Invisibility for 8s, and immediately switches to a <Substitute>",
+                "desc_en": "When deployed, creates a Holographic Mirage at that location; the Mirage will not attack, but when attacked, inflicts 22% <@ba.talpu>(+2%)</> Fragile to the attacker and removes the attacker's Invisibility for 8s, and immediately switches to a &lt;Substitute&gt;",
                 "tags": [
                     "fragile"
                 ],
@@ -8480,7 +8480,7 @@
                 "name_en": "Battlefield Engineer",
                 "desc_zh": "可以携带3个<支援装置>(最多可部署2个)，效果根据技能改变而改变",
                 "desc_ja": "「支援装置」を3体配置可能(最大2体まで同時配置可能)、スキルによって性能変化",
-                "desc_en": "Can carry 3 <Support Devices> (deploy up to 2), with different effects depending on Skill",
+                "desc_en": "Can carry 3 &lt;Support Devices&gt; (deploy up to 2), with different effects depending on Skill",
                 "tags": [
                     "summon"
                 ],
@@ -9056,7 +9056,7 @@
                 "name_en": "Embraced Self",
                 "desc_zh": "<替身>使周围敌人移动速度-40%且每秒造成相当于40%攻击力的法术伤害",
                 "desc_ja": "<身替り>状態時、周囲の敵の移動速度-40%、1秒ごとに攻撃力の40%の術ダメージを与える",
-                "desc_en": "<Substitute> reduces Movement Speed of nearby enemies by 40%, and deals 40% ATK as Arts damage to them per second",
+                "desc_en": "&lt;Substitute&gt; reduces Movement Speed of nearby enemies by 40%, and deals 40% ATK as Arts damage to them per second",
                 "tags": [
                     "arts"
                 ],
@@ -13146,6 +13146,7 @@
                         "value": 10.0
                     }
                 ]
-            }        ]
+            }
+        ]
     }
 }

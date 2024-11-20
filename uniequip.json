@@ -10785,7 +10785,7 @@
                             "addDesc_en": null,
                             "overrideDesc_zh": "受到致命伤时不撤退，切换成<替身>作战(替身阻挡数为0但攻击力<@ba.kw>提升</>)，持续20秒后自身再次替换<替身>",
                             "overrideDesc_ja": "致命的なダメージを受けても撤退せず、<身替り>と入れ替わり戦闘を続行する(身替りのブロック数は0、攻撃力が<@ba.kw>上昇</>)。20秒後<身替り>から再び自身に入れ替わる",
-                            "overrideDesc_en": "Instead of retreating when defeated, switch to a <Substitute> (Substitute has 0 Block, but ATK is <@ba.kw>increased</>) for 20 seconds before switching back to the original"
+                            "overrideDesc_en": "Instead of retreating when defeated, switch to a &lt;Substitute&gt; (Substitute has 0 Block, but ATK is <@ba.kw>increased</>) for 20 seconds before switching back to the original"
                         }
                     ],
                     "attributeBlackboard": [
@@ -10811,7 +10811,7 @@
                             "addDesc_en": null,
                             "overrideDesc_zh": "受到致命伤时不撤退，切换成<替身>作战(替身阻挡数为0但攻击力<@ba.kw>提升</>)，持续20秒后自身再次替换<替身>",
                             "overrideDesc_ja": "致命的なダメージを受けても撤退せず、<身替り>と入れ替わり戦闘を続行する(身替りのブロック数は0、攻撃力が<@ba.kw>上昇</>)。20秒後<身替り>から再び自身に入れ替わる",
-                            "overrideDesc_en": "Instead of retreating when defeated, switch to a <Substitute> (Substitute has 0 Block, but ATK is <@ba.kw>increased</>) for 20 seconds before switching back to the original"
+                            "overrideDesc_en": "Instead of retreating when defeated, switch to a &lt;Substitute&gt; (Substitute has 0 Block, but ATK is <@ba.kw>increased</>) for 20 seconds before switching back to the original"
                         },
                         {
                             "resKey": null,
@@ -10825,7 +10825,7 @@
                             "talentIndex": 0,
                             "upgradeDesc_zh": "<替身>使周围敌人移动速度-50%且每秒造成相当于60%攻击力的法术伤害，替换时自身额外获得8点技力",
                             "upgradeDesc_ja": "<身替り>状態時、周囲の敵の移動速度-50%、1秒ごとに攻撃力の60%の術ダメージを与え、入れ替わる際自身のSP+8",
-                            "upgradeDesc_en": "<Substitute> reduces Movement Speed of nearby enemies by 50%, and deals 60% ATK as Arts damage to them per second. When swapping back, gain 8 SP"
+                            "upgradeDesc_en": "&lt;Substitute&gt; reduces Movement Speed of nearby enemies by 50%, and deals 60% ATK as Arts damage to them per second. When swapping back, gain 8 SP"
                         },
                         {
                             "resKey": "ghost2_equip_1_2_p1",
@@ -10839,7 +10839,7 @@
                             "talentIndex": 0,
                             "upgradeDesc_zh": "<替身>使周围敌人移动速度-50%且每秒造成相当于60%攻击力的法术伤害，替换时自身额外获得8点技力",
                             "upgradeDesc_ja": "<身替り>状態時、周囲の敵の移動速度-50%、1秒ごとに攻撃力の60%の術ダメージを与え、入れ替わる際自身のSP+8",
-                            "upgradeDesc_en": "<Substitute> reduces Movement Speed of nearby enemies by 50%, and deals 60% ATK as Arts damage to them per second. When swapping back, gain 8 SP"
+                            "upgradeDesc_en": "&lt;Substitute&gt; reduces Movement Speed of nearby enemies by 50%, and deals 60% ATK as Arts damage to them per second. When swapping back, gain 8 SP"
                         }
                     ],
                     "attributeBlackboard": [
@@ -10869,7 +10869,7 @@
                             "addDesc_en": null,
                             "overrideDesc_zh": "受到致命伤时不撤退，切换成<替身>作战(替身阻挡数为0但攻击力<@ba.kw>提升</>)，持续20秒后自身再次替换<替身>",
                             "overrideDesc_ja": "致命的なダメージを受けても撤退せず、<身替り>と入れ替わり戦闘を続行する(身替りのブロック数は0、攻撃力が<@ba.kw>上昇</>)。20秒後<身替り>から再び自身に入れ替わる",
-                            "overrideDesc_en": "Instead of retreating when defeated, switch to a <Substitute> (Substitute has 0 Block, but ATK is <@ba.kw>increased</>) for 20 seconds before switching back to the original"
+                            "overrideDesc_en": "Instead of retreating when defeated, switch to a &lt;Substitute&gt; (Substitute has 0 Block, but ATK is <@ba.kw>increased</>) for 20 seconds before switching back to the original"
                         },
                         {
                             "resKey": null,
@@ -10883,7 +10883,7 @@
                             "talentIndex": 0,
                             "upgradeDesc_zh": "<替身>使周围敌人移动速度-60%且每秒造成相当于80%攻击力的法术伤害，替换时自身额外获得15点技力",
                             "upgradeDesc_ja": "<身替り>状態時、周囲の敵の移動速度-60%、1秒ごとに攻撃力の80%の術ダメージを与え、入れ替わる際自身のSP+15",
-                            "upgradeDesc_en": "<Substitute> reduces Movement Speed of nearby enemies by 60%, and deals 80% ATK as Arts damage to them per second. When swapping back, gain 15 SP"
+                            "upgradeDesc_en": "&lt;Substitute&gt; reduces Movement Speed of nearby enemies by 60%, and deals 80% ATK as Arts damage to them per second. When swapping back, gain 15 SP"
                         },
                         {
                             "resKey": "ghost2_equip_1_3_p1",
@@ -10897,7 +10897,7 @@
                             "talentIndex": 0,
                             "upgradeDesc_zh": "<替身>使周围敌人移动速度-60%且每秒造成相当于80%攻击力的法术伤害，替换时自身额外获得15点技力",
                             "upgradeDesc_ja": "<身替り>状態時、周囲の敵の移動速度-60%、1秒ごとに攻撃力の80%の術ダメージを与え、入れ替わる際自身のSP+15",
-                            "upgradeDesc_en": "<Substitute> reduces Movement Speed of nearby enemies by 60%, and deals 80% ATK as Arts damage to them per second. When swapping back, gain 15 SP"
+                            "upgradeDesc_en": "&lt;Substitute&gt; reduces Movement Speed of nearby enemies by 60%, and deals 80% ATK as Arts damage to them per second. When swapping back, gain 15 SP"
                         }
                     ],
                     "attributeBlackboard": [
@@ -10982,7 +10982,7 @@
                             "addDesc_en": null,
                             "overrideDesc_zh": "受到致命伤时不撤退，切换成<替身>作战(替身阻挡数为0但生命值<@ba.kw>提升</>)，持续20秒后自身再次替换<替身>",
                             "overrideDesc_ja": "致命的なダメージを受けても撤退せず、<身替り>と入れ替わり戦闘を続行する(身替りのブロック数は0、HPが<@ba.kw>上昇</>)。20秒後<身替り>から再び自身に入れ替わる",
-                            "overrideDesc_en": "Instead of retreating when defeated, switch to a <Substitute> (Substitute has 0 Block, but HP is <@ba.kw>increased</>) for 20 seconds before switching back to the original"
+                            "overrideDesc_en": "Instead of retreating when defeated, switch to a &lt;Substitute&gt; (Substitute has 0 Block, but HP is <@ba.kw>increased</>) for 20 seconds before switching back to the original"
                         }
                     ],
                     "attributeBlackboard": [
@@ -11008,7 +11008,7 @@
                             "addDesc_en": null,
                             "overrideDesc_zh": "受到致命伤时不撤退，切换成<替身>作战(替身阻挡数为0但生命值<@ba.kw>提升</>)，持续20秒后自身再次替换<替身>",
                             "overrideDesc_ja": "致命的なダメージを受けても撤退せず、<身替り>と入れ替わり戦闘を続行する(身替りのブロック数は0、HPが<@ba.kw>上昇</>)。20秒後<身替り>から再び自身に入れ替わる",
-                            "overrideDesc_en": "Instead of retreating when defeated, switch to a <Substitute> (Substitute has 0 Block, but HP is <@ba.kw>increased</>) for 20 seconds before switching back to the original"
+                            "overrideDesc_en": "Instead of retreating when defeated, switch to a &lt;Substitute&gt; (Substitute has 0 Block, but HP is <@ba.kw>increased</>) for 20 seconds before switching back to the original"
                         },
                         {
                             "resKey": null,
@@ -11022,7 +11022,7 @@
                             "talentIndex": 0,
                             "upgradeDesc_zh": "<替身>攻击造成法术伤害且受到的物理与法术伤害减少46%<@ba.talpu>(+3)</>",
                             "upgradeDesc_ja": "<身替り>の物理と術の被ダメージ-46%<@ba.talpu>(+3)</>、攻撃が術ダメージを与える",
-                            "upgradeDesc_en": "<Substitute> deals Arts damage and reduces Physical and Arts damage taken by 46% <@ba.talpu>(+3%)</>"
+                            "upgradeDesc_en": "&lt;Substitute&gt; deals Arts damage and reduces Physical and Arts damage taken by 46% <@ba.talpu>(+3%)</>"
                         }
                     ],
                     "attributeBlackboard": [
@@ -11048,7 +11048,7 @@
                             "addDesc_en": null,
                             "overrideDesc_zh": "受到致命伤时不撤退，切换成<替身>作战(替身阻挡数为0但生命值<@ba.kw>提升</>)，持续20秒后自身再次替换<替身>",
                             "overrideDesc_ja": "致命的なダメージを受けても撤退せず、<身替り>と入れ替わり戦闘を続行する(身替りのブロック数は0、HPが<@ba.kw>上昇</>)。20秒後<身替り>から再び自身に入れ替わる",
-                            "overrideDesc_en": "Instead of retreating when defeated, switch to a <Substitute> (Substitute has 0 Block, but HP is <@ba.kw>increased</>) for 20 seconds before switching back to the original"
+                            "overrideDesc_en": "Instead of retreating when defeated, switch to a &lt;Substitute&gt; (Substitute has 0 Block, but HP is <@ba.kw>increased</>) for 20 seconds before switching back to the original"
                         },
                         {
                             "resKey": null,
@@ -11062,7 +11062,7 @@
                             "talentIndex": 0,
                             "upgradeDesc_zh": "<替身>攻击造成法术伤害且受到的物理与法术伤害减少48%<@ba.talpu>(+3)</>",
                             "upgradeDesc_ja": "<身替り>の物理と術の被ダメージ-48%<@ba.talpu>(+3)</>、攻撃が術ダメージを与える",
-                            "upgradeDesc_en": "<Substitute> deals Arts damage and reduces Physical and Arts damage taken by 48% <@ba.talpu>(+3%)</>"
+                            "upgradeDesc_en": "&lt;Substitute&gt; deals Arts damage and reduces Physical and Arts damage taken by 48% <@ba.talpu>(+3%)</>"
                         }
                     ],
                     "attributeBlackboard": [
@@ -11134,7 +11134,7 @@
                             "addDesc_en": null,
                             "overrideDesc_zh": "受到致命伤时不撤退，切换成<替身>作战(替身阻挡数为0但攻击力<@ba.kw>提升</>)，持续20秒后自身再次替换<替身>",
                             "overrideDesc_ja": "致命的なダメージを受けても撤退せず、<身替り>と入れ替わり戦闘を続行する(身替りのブロック数は0、攻撃力が<@ba.kw>上昇</>)。20秒後<身替り>から再び自身に入れ替わる",
-                            "overrideDesc_en": "Instead of retreating when defeated, switch to a <Substitute> (Substitute has 0 Block, but ATK is <@ba.kw>increased</>) for 20 seconds before switching back to the original"
+                            "overrideDesc_en": "Instead of retreating when defeated, switch to a &lt;Substitute&gt; (Substitute has 0 Block, but ATK is <@ba.kw>increased</>) for 20 seconds before switching back to the original"
                         }
                     ],
                     "attributeBlackboard": [
@@ -11160,7 +11160,7 @@
                             "addDesc_en": null,
                             "overrideDesc_zh": "受到致命伤时不撤退，切换成<替身>作战(替身阻挡数为0但攻击力<@ba.kw>提升</>)，持续20秒后自身再次替换<替身>",
                             "overrideDesc_ja": "致命的なダメージを受けても撤退せず、<身替り>と入れ替わり戦闘を続行する(身替りのブロック数は0、攻撃力が<@ba.kw>上昇</>)。20秒後<身替り>から再び自身に入れ替わる",
-                            "overrideDesc_en": "Instead of retreating when defeated, switch to a <Substitute> (Substitute has 0 Block, but ATK is <@ba.kw>increased</>) for 20 seconds before switching back to the original"
+                            "overrideDesc_en": "Instead of retreating when defeated, switch to a &lt;Substitute&gt; (Substitute has 0 Block, but ATK is <@ba.kw>increased</>) for 20 seconds before switching back to the original"
                         },
                         {
                             "resKey": null,
@@ -11174,7 +11174,7 @@
                             "talentIndex": 0,
                             "upgradeDesc_zh": "<替身>出现时对其周围8格内所有敌方单位造成相当于其攻击力285%<@ba.talpu>(+5)</>的法术伤害",
                             "upgradeDesc_ja": "<身替り>が出現時、周囲8マスにいる敵全員に<身替り>の攻撃力の285%<@ba.talpu>(+5)</>の術ダメージを与える",
-                            "upgradeDesc_en": "When <Substitute> is summoned, it will deal 285% <@ba.talpu>(+5%)</> of its ATK as Arts Damage to enemies in the surrounding 8 tiles"
+                            "upgradeDesc_en": "When &lt;Substitute&gt; is summoned, it will deal 285% <@ba.talpu>(+5%)</> of its ATK as Arts Damage to enemies in the surrounding 8 tiles"
                         }
                     ],
                     "attributeBlackboard": [
@@ -11200,7 +11200,7 @@
                             "addDesc_en": null,
                             "overrideDesc_zh": "受到致命伤时不撤退，切换成<替身>作战(替身阻挡数为0但攻击力<@ba.kw>提升</>)，持续20秒后自身再次替换<替身>",
                             "overrideDesc_ja": "致命的なダメージを受けても撤退せず、<身替り>と入れ替わり戦闘を続行する(身替りのブロック数は0、攻撃力が<@ba.kw>上昇</>)。20秒後<身替り>から再び自身に入れ替わる",
-                            "overrideDesc_en": "Instead of retreating when defeated, switch to a <Substitute> (Substitute has 0 Block, but ATK is <@ba.kw>increased</>) for 20 seconds before switching back to the original"
+                            "overrideDesc_en": "Instead of retreating when defeated, switch to a &lt;Substitute&gt; (Substitute has 0 Block, but ATK is <@ba.kw>increased</>) for 20 seconds before switching back to the original"
                         },
                         {
                             "resKey": null,
@@ -11214,7 +11214,7 @@
                             "talentIndex": 0,
                             "upgradeDesc_zh": "<替身>出现时对其周围8格内所有敌方单位造成相当于其攻击力290%<@ba.talpu>(+5)</>的法术伤害",
                             "upgradeDesc_ja": "<身替り>が出現時、周囲8マスにいる敵全員に<身替り>の攻撃力の290%<@ba.talpu>(+5)</>の術ダメージを与える",
-                            "upgradeDesc_en": "When <Substitute> is summoned, it will deal 290% <@ba.talpu>(+5%)</> of its ATK as Arts Damage to enemies in the surrounding 8 tiles"
+                            "upgradeDesc_en": "When &lt;Substitute&gt; is summoned, it will deal 290% <@ba.talpu>(+5%)</> of its ATK as Arts Damage to enemies in the surrounding 8 tiles"
                         }
                     ],
                     "attributeBlackboard": [
@@ -17898,7 +17898,7 @@
                             "addDesc_en": null,
                             "overrideDesc_zh": "受到致命伤时不撤退，切换成<替身>作战(替身阻挡数为0但生命值<@ba.kw>提升</>)，持续20秒后自身再次替换<替身>",
                             "overrideDesc_ja": "致命的なダメージを受けても撤退せず、<身替り>と入れ替わり戦闘を続行する(身替りのブロック数は0、HPが<@ba.kw>上昇</>)。20秒後<身替り>から再び自身に入れ替わる",
-                            "overrideDesc_en": "Instead of retreating when defeated, switch to a <Substitute> (Substitute has 0 Block, but HP is <@ba.kw>increased</>) for 20 seconds before switching back to the original"
+                            "overrideDesc_en": "Instead of retreating when defeated, switch to a &lt;Substitute&gt; (Substitute has 0 Block, but HP is <@ba.kw>increased</>) for 20 seconds before switching back to the original"
                         }
                     ],
                     "attributeBlackboard": [
@@ -17928,7 +17928,7 @@
                             "addDesc_en": null,
                             "overrideDesc_zh": "受到致命伤时不撤退，切换成<替身>作战(替身阻挡数为0但生命值<@ba.kw>提升</>)，持续20秒后自身再次替换<替身>",
                             "overrideDesc_ja": "致命的なダメージを受けても撤退せず、<身替り>と入れ替わり戦闘を続行する(身替りのブロック数は0、HPが<@ba.kw>上昇</>)。20秒後<身替り>から再び自身に入れ替わる",
-                            "overrideDesc_en": "Instead of retreating when defeated, switch to a <Substitute> (Substitute has 0 Block, but HP is <@ba.kw>increased</>) for 20 seconds before switching back to the original"
+                            "overrideDesc_en": "Instead of retreating when defeated, switch to a &lt;Substitute&gt; (Substitute has 0 Block, but HP is <@ba.kw>increased</>) for 20 seconds before switching back to the original"
                         },
                         {
                             "resKey": "ghost2_equip_2_2_p1",
@@ -17972,7 +17972,7 @@
                             "addDesc_en": null,
                             "overrideDesc_zh": "受到致命伤时不撤退，切换成<替身>作战(替身阻挡数为0但生命值<@ba.kw>提升</>)，持续20秒后自身再次替换<替身>",
                             "overrideDesc_ja": "致命的なダメージを受けても撤退せず、<身替り>と入れ替わり戦闘を続行する(身替りのブロック数は0、HPが<@ba.kw>上昇</>)。20秒後<身替り>から再び自身に入れ替わる",
-                            "overrideDesc_en": "Instead of retreating when defeated, switch to a <Substitute> (Substitute has 0 Block, but HP is <@ba.kw>increased</>) for 20 seconds before switching back to the original"
+                            "overrideDesc_en": "Instead of retreating when defeated, switch to a &lt;Substitute&gt; (Substitute has 0 Block, but HP is <@ba.kw>increased</>) for 20 seconds before switching back to the original"
                         },
                         {
                             "resKey": "ghost2_equip_2_3_p1",
@@ -38666,7 +38666,7 @@
                             "addDesc_en": null,
                             "overrideDesc_zh": "受到致命伤时不撤退，切换成<替身>作战(替身阻挡数为0但生命值<@ba.kw>提升</>)，持续20秒后自身再次替换<替身>",
                             "overrideDesc_ja": "致命的なダメージを受けても撤退せず、<身替り>と入れ替わり戦闘を続行する(身替りのブロック数は0、HPが<@ba.kw>上昇</>)。20秒後<身替り>から再び自身に入れ替わる",
-                            "overrideDesc_en": "Instead of retreating when defeated, switch to a <Substitute> (Substitute has 0 Block, but HP is <@ba.kw>increased</>) for 20 seconds before switching back to the original"
+                            "overrideDesc_en": "Instead of retreating when defeated, switch to a &lt;Substitute&gt; (Substitute has 0 Block, but HP is <@ba.kw>increased</>) for 20 seconds before switching back to the original"
                         }
                     ],
                     "attributeBlackboard": [
@@ -38692,7 +38692,7 @@
                             "addDesc_en": null,
                             "overrideDesc_zh": "受到致命伤时不撤退，切换成<替身>作战(替身阻挡数为0但生命值<@ba.kw>提升</>)，持续20秒后自身再次替换<替身>",
                             "overrideDesc_ja": "致命的なダメージを受けても撤退せず、<身替り>と入れ替わり戦闘を続行する(身替りのブロック数は0、HPが<@ba.kw>上昇</>)。20秒後<身替り>から再び自身に入れ替わる",
-                            "overrideDesc_en": "Instead of retreating when defeated, switch to a <Substitute> (Substitute has 0 Block, but HP is <@ba.kw>increased</>) for 20 seconds before switching back to the original"
+                            "overrideDesc_en": "Instead of retreating when defeated, switch to a &lt;Substitute&gt; (Substitute has 0 Block, but HP is <@ba.kw>increased</>) for 20 seconds before switching back to the original"
                         },
                         {
                             "resKey": null,
@@ -38706,7 +38706,7 @@
                             "talentIndex": 0,
                             "upgradeDesc_zh": "<替身>每秒回复4%<@ba.talpu>(+0.5%)</>生命值，法术抗性+5",
                             "upgradeDesc_ja": "<身替り>のHPが1秒ごとに最大値の4%<@ba.talpu>(+0.5%)</>回復、術耐性+5",
-                            "upgradeDesc_en": "<Substitute> restores 4% <@ba.talpu>(+0.5%)</> HP per second and gains +5 RES"
+                            "upgradeDesc_en": "&lt;Substitute&gt; restores 4% <@ba.talpu>(+0.5%)</> HP per second and gains +5 RES"
                         }
                     ],
                     "attributeBlackboard": [
@@ -38732,7 +38732,7 @@
                             "addDesc_en": null,
                             "overrideDesc_zh": "受到致命伤时不撤退，切换成<替身>作战(替身阻挡数为0但生命值<@ba.kw>提升</>)，持续20秒后自身再次替换<替身>",
                             "overrideDesc_ja": "致命的なダメージを受けても撤退せず、<身替り>と入れ替わり戦闘を続行する(身替りのブロック数は0、HPが<@ba.kw>上昇</>)。20秒後<身替り>から再び自身に入れ替わる",
-                            "overrideDesc_en": "Instead of retreating when defeated, switch to a <Substitute> (Substitute has 0 Block, but HP is <@ba.kw>increased</>) for 20 seconds before switching back to the original"
+                            "overrideDesc_en": "Instead of retreating when defeated, switch to a &lt;Substitute&gt; (Substitute has 0 Block, but HP is <@ba.kw>increased</>) for 20 seconds before switching back to the original"
                         },
                         {
                             "resKey": null,
@@ -38746,7 +38746,7 @@
                             "talentIndex": 0,
                             "upgradeDesc_zh": "<替身>每秒回复4%<@ba.talpu>(+0.5%)</>生命值，法术抗性+8",
                             "upgradeDesc_ja": "<身替り>のHPが1秒ごとに最大値の4%<@ba.talpu>(+0.5%)</>回復、術耐性+8",
-                            "upgradeDesc_en": "<Substitute> restores 4% <@ba.talpu>(+0.5%)</> HP per second and gains +8 RES"
+                            "upgradeDesc_en": "&lt;Substitute&gt; restores 4% <@ba.talpu>(+0.5%)</> HP per second and gains +8 RES"
                         }
                     ],
                     "attributeBlackboard": [
@@ -45567,7 +45567,7 @@
                             "addDesc_en": null,
                             "overrideDesc_zh": "受到致命伤时不撤退，切换成<替身>作战(替身阻挡数为0但攻击力<@ba.kw>提升</>)，持续20秒后自身再次替换<替身>",
                             "overrideDesc_ja": "致命的なダメージを受けても撤退せず、<身替り>と入れ替わり戦闘を続行する（身替りのブロック数は0、攻撃力が<@ba.kw>上昇</>）。20秒後<身替り>から再び自身に入れ替わる",
-                            "overrideDesc_en": "Instead of retreating when defeated, switch to a <Substitute> (Substitute has 0 Block, but ATK is <@ba.kw>increased</>) for 20 seconds before switching back to the original"
+                            "overrideDesc_en": "Instead of retreating when defeated, switch to a &lt;Substitute&gt; (Substitute has 0 Block, but ATK is <@ba.kw>increased</>) for 20 seconds before switching back to the original"
                         }
                     ],
                     "attributeBlackboard": [
@@ -45593,7 +45593,7 @@
                             "addDesc_en": null,
                             "overrideDesc_zh": "受到致命伤时不撤退，切换成<替身>作战(替身阻挡数为0但攻击力<@ba.kw>提升</>)，持续20秒后自身再次替换<替身>",
                             "overrideDesc_ja": "致命的なダメージを受けても撤退せず、<身替り>と入れ替わり戦闘を続行する（身替りのブロック数は0、攻撃力が<@ba.kw>上昇</>）。20秒後<身替り>から再び自身に入れ替わる",
-                            "overrideDesc_en": "Instead of retreating when defeated, switch to a <Substitute> (Substitute has 0 Block, but ATK is <@ba.kw>increased</>) for 20 seconds before switching back to the original"
+                            "overrideDesc_en": "Instead of retreating when defeated, switch to a &lt;Substitute&gt; (Substitute has 0 Block, but ATK is <@ba.kw>increased</>) for 20 seconds before switching back to the original"
                         },
                         {
                             "resKey": null,
@@ -45607,7 +45607,7 @@
                             "talentIndex": 0,
                             "upgradeDesc_zh": "部署时原地释放全息幻影，该幻影不会攻击，受到攻击时使攻击幻影的敌人在10秒内受到27%<@ba.talpu>(+2%)</>的脆弱且隐匿效果失效，并立即切换为<替身>作战",
                             "upgradeDesc_ja": "配置時、本体の代わりに配置マスにホログラムを出現させる。ホログラムは攻撃できず、攻撃を受けると攻撃者に10秒間、ステルス状態を無効化させ、27%<@ba.talpu>（+2%）</>の脆弱状態を付与し、自身が<身替り>と入れ替わる",
-                            "upgradeDesc_en": "When deployed, creates a Holographic Mirage at that location; the Mirage will not attack, but when attacked, inflicts 27%<@ba.talpu>（+2%）</> Fragile to the attacker and nullifies the attacker's Invisibility for 10s, and immediately switches to a <Substitute>"
+                            "upgradeDesc_en": "When deployed, creates a Holographic Mirage at that location; the Mirage will not attack, but when attacked, inflicts 27%<@ba.talpu>（+2%）</> Fragile to the attacker and nullifies the attacker's Invisibility for 10s, and immediately switches to a &lt;Substitute&gt;"
                         }
                     ],
                     "attributeBlackboard": [
@@ -45633,7 +45633,7 @@
                             "addDesc_en": null,
                             "overrideDesc_zh": "受到致命伤时不撤退，切换成<替身>作战(替身阻挡数为0但攻击力<@ba.kw>提升</>)，持续20秒后自身再次替换<替身>",
                             "overrideDesc_ja": "致命的なダメージを受けても撤退せず、<身替り>と入れ替わり戦闘を続行する（身替りのブロック数は0、攻撃力が<@ba.kw>上昇</>）。20秒後<身替り>から再び自身に入れ替わる",
-                            "overrideDesc_en": "Instead of retreating when defeated, switch to a <Substitute> (Substitute has 0 Block, but ATK is <@ba.kw>increased</>) for 20 seconds before switching back to the original"
+                            "overrideDesc_en": "Instead of retreating when defeated, switch to a &lt;Substitute&gt; (Substitute has 0 Block, but ATK is <@ba.kw>increased</>) for 20 seconds before switching back to the original"
                         },
                         {
                             "resKey": null,
@@ -45647,7 +45647,7 @@
                             "talentIndex": 0,
                             "upgradeDesc_zh": "部署时原地释放全息幻影，该幻影不会攻击，受到攻击时使攻击幻影的敌人在10秒内受到30%<@ba.talpu>(+2%)</>的脆弱且隐匿效果失效，并立即切换为<替身>作战",
                             "upgradeDesc_ja": "配置時、本体の代わりに配置マスにホログラムを出現させる。ホログラムは攻撃できず、攻撃を受けると攻撃者に10秒間、ステルス状態を無効化させ、30%<@ba.talpu>（+2%）</>の脆弱状態を付与し、自身が<身替り>と入れ替わる",
-                            "upgradeDesc_en": "When deployed, creates a Holographic Mirage at that location; the Mirage will not attack, but when attacked, inflicts 30%<@ba.talpu>（+2%）</> Fragile to the attacker and nullifies the attacker's Invisibility for 10s, and immediately switches to a <Substitute>"
+                            "upgradeDesc_en": "When deployed, creates a Holographic Mirage at that location; the Mirage will not attack, but when attacked, inflicts 30%<@ba.talpu>（+2%）</> Fragile to the attacker and nullifies the attacker's Invisibility for 10s, and immediately switches to a &lt;Substitute&gt;"
                         }
                     ],
                     "attributeBlackboard": [
@@ -57292,7 +57292,7 @@
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
-                            "upgradeDesc_zh": "对每个敌人造成首次伤害后，10秒内忍冬对该敌人造成的伤害时额外造成攻击力 35%的法术伤害",
+                            "upgradeDesc_zh": "对每个敌人造成首次伤害后，10秒内忍冬对该敌人造成伤害时额外造成攻击力 35%的法术伤害",
                             "upgradeDesc_ja": "",
                             "upgradeDesc_en": ""
                         }
@@ -57332,7 +57332,7 @@
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
-                            "upgradeDesc_zh": "对每个敌人造成首次伤害后，10秒内忍冬对该敌人造成的伤害时额外造成攻击力40%的法术伤害",
+                            "upgradeDesc_zh": "对每个敌人造成首次伤害后，10秒内忍冬对该敌人造成伤害时额外造成攻击力40%的法术伤害",
                             "upgradeDesc_ja": "",
                             "upgradeDesc_en": ""
                         }
