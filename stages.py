@@ -208,17 +208,33 @@ for topic_dict in roguelike_topics:
             }
 
             traps = []
+
+            def find_item_by_key(lst, search_value): return next(
+                (item for item in lst if item['key'] == search_value), None)
             if stage_data['predefines']:
                 for item in stage_data['predefines']['tokenInsts']:
                     key = item['inst']['characterKey']
                     # if key == "trap_760_skztzs":
                     if not key in TRAPS_TO_EXCLUDE:
-                        traps.append({
-                            "key": key,
-                            "level": item['inst']['level'],
-                            "mainSkillLvl": item['mainSkillLvl']
-                        })
+                        trap = find_item_by_key(traps, key)
+                        if trap:
+                            if trap['mainSkillLvl'] != item['mainSkillLvl'] and item['hidden'] != trap['hidden']:
+                                if not 'eliteSkillLvl' in trap:
+                                    if trap['hidden']:
+                                        trap['eliteSkillLvl'] = trap['mainSkillLvl']
+                                        trap['mainSkillLvl'] = item['mainSkillLvl']
+                                    else:
+                                        trap['eliteSkillLvl'] = item['mainSkillLvl']
+                        else:
+                            traps.append({
+                                "key": key,
+                                "level": item['inst']['level'],
+                                "mainSkillLvl": item['mainSkillLvl'],
+                                "hidden": item["hidden"],
+                            })
             traps = [dict(t) for t in {tuple(d.items()) for d in traps}]
+            for trap in traps:
+                trap.pop('hidden',None)
             trimmed_stage_info['traps'] = traps
 
             enemy_list = extrainfo[levelId]['enemy_list'] if levelId in extrainfo else None
@@ -268,7 +284,8 @@ for topic_dict in roguelike_topics:
                             overwrittenData['talentBlackboard'] = talent_overwrite_list[levelId][enemy['id']]
                         if enemy['overwrittenData']['talentBlackboard'] or enemy['overwrittenData']['skills']:
                             if levelId not in talent_overwrite_list and enemy['id'] != 'enemy_1106_byokai_b':
-                                print('talent overwrite', enemy['id'], levelId)
+                                print(
+                                    'talent overwrite', enemy['id'], my_enemy_db[enemy_id]['name_zh'], levelId)
                             if enemy['id'] == 'enemy_1106_byokai_b' and folder == 'ro3':
                                 overwrittenData['talentBlackboard'] = talent_overwrite_list['rogue_3'][enemy['id']]
                             elif levelId in talent_overwrite_list and enemy['id'] in talent_overwrite_list[levelId]:

@@ -23917,12 +23917,26 @@
       "All enemy units have +30% ATK and +50% Max HP",
       "<'Twigs That Crave'> have +100% Max HP"
     ],
+    "normal_mods": [
+      {
+        "targets": ["trap_086_larva"],
+        "mods": {
+          "hp": 0.6
+        }
+      }
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
         "mods": {
           "atk": 1.3,
           "hp": 1.5
+        }
+      },
+      {
+        "targets": ["trap_086_larva"],
+        "mods": {
+          "hp": 1.2
         }
       }
     ],

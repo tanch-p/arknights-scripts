@@ -25,6 +25,14 @@ def parse_runes(runes):
                 if item['key'] != "enemy":
                     mods[translateKey(item['key'], item['value'])
                          ] = item['value']
+        if key == 'char_attribute_mul':
+            for item in rune['blackboard']:
+                if item['key'] == "char":
+                    targets = item['valueStr'].split("|")
+            for item in rune['blackboard']:
+                if item['key'] != "char":
+                    mods[translateKey(item['key'], item['value'])
+                         ] = item['value']
         # elif key == 'enemy_skill_blackb_add':
         #     print(key)
         # elif key == 'enemy_dynamic_ability_new':
