@@ -6214,12 +6214,14 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
-    "normal_mods": [{
-      "targets": ["trap_027_stone"],
-      "mods": {
-        "hp": 2.0
+    "normal_mods": [
+      {
+        "targets": ["trap_027_stone"],
+        "mods": {
+          "hp": 2.0
+        }
       }
-    }],
+    ],
     "elite_mods": null,
     "all_possible_enemy_count": [5],
     "sp_count": null,
@@ -12717,12 +12719,12 @@
       "效果：每隔10秒为所有单位赋予5秒的寒冷，对已经持有寒冷的单位改为施加冻结"
     ],
     "addInfo_ja": [
-      "暴风雪 - 产生时间线：第1波次 - 15s(持40s)，63s（持45s），第2波次 - 2s（持600s）",
-      "效果：每隔10秒为所有单位赋予5秒的寒冷，对已经持有寒冷的单位改为施加冻结"
+      "吹雪 - 発生時間：第１ウェーブ - 15s（継40s)，63s（継45s），第2ウェーブ - 2s（継600s）",
+      "効果：10秒毎に敵味方全体に5秒間の寒冷を与える"
     ],
     "addInfo_en": [
-      "暴风雪 - 产生时间线：第1波次 - 15s(持40s)，63s（持45s），第2波次 - 2s（持600s）",
-      "效果：每隔10秒为所有单位赋予5秒的寒冷，对已经持有寒冷的单位改为施加冻结"
+      "Snowfall occurs during Wave 1 - at 15s for 40s，at 63s for 45s; Wave 2 - at 2s for 600s ",
+      "Effect - Applies 5s Cold to all units every 10s"
     ],
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
