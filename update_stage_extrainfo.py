@@ -16,7 +16,8 @@ with open("is_stages_extrainfo.json", encoding="utf-8") as f:
 with open("is_stages_list.json", encoding="utf-8") as f:
     stages_list = json.load(f)
 
-STAGES_TO_IGNORE = ['level_rogue4_b-4','level_rogue4_b-4-b','level_rogue4_b-5','level_rogue4_b-5-b']
+STAGES_TO_IGNORE = ['level_rogue4_b-4', 'level_rogue4_b-4-b',
+                    'level_rogue4_b-5', 'level_rogue4_b-5-b']
 
 data = {}
 for key in extra_info_list:
@@ -37,7 +38,7 @@ for key in extra_info_list:
     with open(stage_data_path, encoding="utf-8") as f:
         stage_data = json.load(f)
         wave_data = get_wave_data(
-            stage_data, key, log=key == "level_rogue4_2-6")
+            stage_data, key, log=False)
         enemy_list, elite_enemy_list, sp_count, elite_sp_count, all_possible_enemy_count, all_possible_elite_enemy_count = itemgetter(
             "enemy_list", "elite_enemy_list", "sp_count", "elite_sp_count", "all_possible_enemy_count", "all_possible_elite_enemy_count")(wave_data)
         extra_info = extra_info_list[key]
@@ -52,10 +53,14 @@ for key in extra_info_list:
             if sp_enemy['normal'] == sp_enemy['elite']:
                 sp_enemy['elite'] = None
         # print(sp_enemy)
-        runes = extra_info['elite_mods'],
-        if runes[0] is None:
+        # normal_runes = parse_runes(
+        #     stage_data['runes'], 'normal') if stage_data['runes'] else None
+        # normal_runes = normal_runes['runes'] if normal_runes and 'runes' in normal_runes else None
+        normal_mods = extra_info['normal_mods']
+        elite_runes = extra_info['elite_mods'],
+        if elite_runes[0] is None:
             runes_data = parse_runes(
-                stage_data['runes']) if stage_data['runes'] else None
+                stage_data['runes'], 'elite') if stage_data['runes'] else None
             if runes_data:
                 # pp.pprint(runes_data['other_runes'])
                 pass
@@ -79,6 +84,7 @@ for key in extra_info_list:
         "eliteDesc_zh": extra_info['eliteDesc_zh'],
         "eliteDesc_ja": extra_info['eliteDesc_ja'],
         "eliteDesc_en": extra_info['eliteDesc_en'],
+        "normal_mods": normal_mods,
         "elite_mods": extra_info['elite_mods'],
         "all_possible_enemy_count": all_possible_enemy_count if not extra_info['levelId'] in STAGES_TO_IGNORE else extra_info['all_possible_enemy_count'],
         "sp_count": sp_count,
@@ -123,7 +129,9 @@ for key in extra_info_list:
 #             if sp_enemy is not None:
 #                 if sp_enemy['normal'] == sp_enemy['elite']:
 #                     sp_enemy['elite'] = None
-
+              # normal_runes = parse_runes(
+                        #     stage_data['runes'], 'normal') if stage_data['runes'] else None
+              # normal_runes = normal_runes['runes'] if normal_runes and 'runes' in normal_runes else None
 #             runes_data = parse_runes(
 #                 stage_data['runes']) if stage_data['runes'] else None
 #             runes = runes_data['runes'] if runes_data else None
@@ -146,6 +154,7 @@ for key in extra_info_list:
 #                 "eliteDesc_zh": stage['eliteDesc_zh'],
 #                 "eliteDesc_ja": stage['eliteDesc_ja'],
 #                 "eliteDesc_en": stage['eliteDesc_en'],
+            #     "normal_mods": normal_runes,
 #                 "elite_mods": runes,
 #                  "all_possible_enemy_count": all_possible_enemy_count,
 #     "sp_count": sp_count,

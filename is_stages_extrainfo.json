@@ -27,6 +27,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [29, 30],
     "sp_count": null,
@@ -85,6 +86,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [43],
     "sp_count": null,
@@ -157,6 +159,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [16],
     "sp_count": null,
@@ -216,6 +219,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [41],
     "sp_count": null,
@@ -283,6 +287,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [26],
     "sp_count": null,
@@ -341,6 +346,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [80],
     "sp_count": null,
@@ -409,6 +415,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [1],
     "sp_count": null,
@@ -453,6 +460,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [55],
     "sp_count": null,
@@ -522,6 +530,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [63],
     "sp_count": null,
@@ -591,6 +600,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [7],
     "sp_count": null,
@@ -655,6 +665,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [77],
     "sp_count": null,
@@ -709,6 +720,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [27],
     "sp_count": null,
@@ -773,6 +785,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [58],
     "sp_count": null,
@@ -827,6 +840,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [4],
     "sp_count": null,
@@ -886,6 +900,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [8],
     "sp_count": null,
@@ -929,6 +944,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [14],
     "sp_count": null,
@@ -982,6 +998,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [43],
     "sp_count": null,
@@ -1077,6 +1094,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [58],
     "sp_count": null,
@@ -1138,6 +1156,7 @@
     "eliteDesc_en": [
       "All enemy units have +50% ATK, +50% DEF, and +90% Max HP"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -1216,6 +1235,7 @@
     "eliteDesc_en": [
       "All enemy units have +40% ATK, +30% DEF, and +70% Max HP"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -1318,6 +1338,7 @@
       "All enemy units have +45% ATK and +60% Max HP",
       "All <Mortar Gunner> are replaced by <Mortar Gunner Leader>"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -1445,6 +1466,7 @@
       "All enemy units have +60% ATK, +20% DEF, and +40% Max HP",
       "All <Airborne Soldier> are replaced by <Ursus Assault Crossbowman>"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -1573,6 +1595,7 @@
       "All enemy units have +20% ATK, +20% DEF, and +60% Max HP",
       "At the beginning 1 <Brawler> is replaced by <Tiacauh Fanatic>"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -1737,6 +1760,7 @@
       "All enemy units have +30% ATK, +30% DEF, and +60% Max HP",
       "All <Wraith> and <Wraith Leader> additionally gain +100% HP"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -1843,6 +1867,7 @@
       "All enemy units have +30% ATK, +30% DEF, and +60% Max HP",
       "All <Avenger> and <Tiacauh Brave> additionally gain +40% ATK"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -1945,6 +1970,7 @@
       "All enemy units have +30% ATK, +20% DEF, and +30% Max HP",
       "Bloodboil Knightclub Members gains stealth"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -2056,6 +2082,7 @@
       "All <Senior Caster> are replaced by <Shielded Senior Caster>",
       "All <Spec Ops Caster> are replaced by <Spec Ops Caster Leader>"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -2206,6 +2233,7 @@
       "All enemy units have +30% ATK, +20% DEF, and +30% Max HP",
       "Additional 1 <Ursus Raider Leader> appears"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -2336,6 +2364,7 @@
       "All <Ursus Assault Crossbowman> are replaced by <Elite Ursus Assault Crossbowman>",
       "All <Ursus Raider> are replaced by <Ursus Raider Leader>"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -2500,6 +2529,7 @@
     "eliteDesc_en": [
       "All enemy units have +50% ATK, +10% DEF, and +50% Max HP"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -2604,6 +2634,7 @@
       "All enemy units have +15% ATK, and +40% Max HP",
       "All <Infused Originium Slug> are replaced by <Infused Originium Slug α>"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -2741,6 +2772,7 @@
     "eliteDesc_zh": ["所有敌方单位的生命值+70%"],
     "eliteDesc_ja": ["敵全員の最大HP+70%"],
     "eliteDesc_en": ["All enemy units have +70% Max HP"],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -2815,12 +2847,12 @@
       }
     ],
     "floors": [3],
-    "addInfo_zh": ["所有我方单位部署后流失50%最大生命值"],
+    "addInfo_zh": ["所有友方单位部署后流失50%最大生命值"],
     "addInfo_ja": ["味方ユニットが配置された直後、50%のHPを失う"],
     "addInfo_en": ["Allied units lose 50% HP upon deployment"],
     "eliteDesc_zh": [
       "所有敌方单位的攻击力+5%，生命值+30%",
-      "所有我方单位部署后流失70%最大生命值"
+      "所有友方单位部署后流失70%最大生命值"
     ],
     "eliteDesc_ja": [
       "敵全員の攻撃力+5%、最大HP+30%",
@@ -2830,6 +2862,7 @@
       "All enemy units have +5% ATK, and +30% Max HP",
       "HP loss upon deployment increased to 70%"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -2932,6 +2965,7 @@
       "All enemy units have +15% ATK, and +15% Max HP",
       "All <Scarlet Singer> have +50% DEF"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -3033,6 +3067,7 @@
       "All enemy units have +10% ATK, +10% DEF, and +40% Max HP",
       "All <Strongman Prisoner> and <Pugilist Prisoner> are replaced by <Elite Pugilist Prisoner>"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -3191,6 +3226,7 @@
       "All <Dublinn Phalanx Infantry> are replaced by <Dublinn Phalanx Commander>",
       "Additional 4 <Dublinn Phalanx Commander> appears at the start"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -3306,6 +3342,7 @@
     "eliteDesc_en": [
       "All enemy units have +20% ATK, +10% DEF, and +30% Max HP"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -3400,7 +3437,7 @@
       }
     ],
     "floors": [4],
-    "addInfo_zh": ["毒性雾霾 - 我方单位每0.5秒持续受到15{true}伤害"],
+    "addInfo_zh": ["毒性雾霾 - 友方单位每0.5秒持续受到15{true}伤害"],
     "addInfo_ja": ["毒性ガス - 味方ユニットに0.5秒ごとに15{true}ダメージ"],
     "addInfo_en": [
       "Poison Haze - Allied units receive 15 {true} damage every 0.5s"
@@ -3410,6 +3447,7 @@
     "eliteDesc_en": [
       "All enemy units have +25% ATK, +20% DEF, and +50% Max HP"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -3522,6 +3560,7 @@
       "All enemy units have +30% ATK and +30% Max HP",
       "All <Anti-Armor Infantry> are replaced by <Anti-Armor Infantry Leader>"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -3643,6 +3682,7 @@
     "eliteDesc_zh": ["所有敌方单位的攻击力+20%，移动速度+30%"],
     "eliteDesc_ja": ["敵全員の攻撃力+20%、移動速度+30%"],
     "eliteDesc_en": ["All enemy units have +20% ATK and +30% Movement Speed"],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -3723,6 +3763,7 @@
       "All enemy units have +25% ATK, +25% DEF, and +25% Max HP",
       "All <Dublinn Evocator> are replaced by <Dublinn Evocator Leader>"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -3862,6 +3903,7 @@
       "All enemy units have +20% ATK, and +20% Max HP",
       "All <Scarlet Singer> have +100% DEF"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -3956,6 +3998,7 @@
       "All <Brawler> are replaced by <Elite Brawler>",
       "Additional 4 <Bombtail-G> appears"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -4099,6 +4142,7 @@
       "All enemy units have +10% ATK and +10% Max HP",
       "All <FrostNova's Originium Ice Crystal> are replaced by <Originium Ice Crystal>"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -4185,6 +4229,7 @@
     "eliteDesc_zh": ["所有敌方单位的攻击力，防御力+10%，生命值+35%"],
     "eliteDesc_ja": ["敵全員の攻撃力、防御力+10%、最大HP+35%"],
     "eliteDesc_en": ["All enemy units have +10% ATK, +10% DEF and +35% Max HP"],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -4281,7 +4326,7 @@
       }
     ],
     "floors": [5],
-    "addInfo_zh": ["毒性雾霾 - 我方单位每0.5秒持续受到25{true}伤害"],
+    "addInfo_zh": ["毒性雾霾 - 友方单位每0.5秒持续受到25{true}伤害"],
     "addInfo_ja": ["毒性ガス - 味方ユニットに0.5秒ごとに25{true}ダメージ"],
     "addInfo_en": [
       "Poison Haze - Allied units receive 25 {true} damage every 0.5s"
@@ -4289,6 +4334,7 @@
     "eliteDesc_zh": ["所有敌方单位的攻击力+25%，防御力+10%，生命值+40%"],
     "eliteDesc_ja": ["敵全員の攻撃力+25%、防御力+10%、最大HP+40%"],
     "eliteDesc_en": ["All enemy units have +25% ATK, +10% DEF and +40% Max HP"],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -4376,6 +4422,7 @@
     "eliteDesc_zh": ["所有敌方单位的攻击力+20%，生命值+40%"],
     "eliteDesc_ja": ["敵全員の攻撃力+20%、最大HP+40%"],
     "eliteDesc_en": ["All enemy units have +20% ATK and +40% Max HP"],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -4456,6 +4503,7 @@
     "eliteDesc_zh": ["所有敌方单位的攻击力+15%，防御力+10%，生命值+25%"],
     "eliteDesc_ja": ["敵全員の攻撃力+15%、防御力+10%、最大HP+25%"],
     "eliteDesc_en": ["All enemy units have +15% ATK, +10% DEF and +25% Max HP"],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -4542,6 +4590,7 @@
     "eliteDesc_zh": ["所有敌方单位的攻击力，防御力+20%，生命值+50%"],
     "eliteDesc_ja": ["敵全員の攻撃力、防御力+20%、最大HP+50%"],
     "eliteDesc_en": ["All enemy units have +20% ATK, +20% DEF and +50% Max HP"],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -4618,6 +4667,7 @@
     "eliteDesc_zh": ["所有敌方单位的攻击力+60%，生命值+30%"],
     "eliteDesc_ja": ["敵全員の攻撃力+60%、最大HP+30%"],
     "eliteDesc_en": ["All enemy units have +60% ATK and +30% Max HP"],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -4703,6 +4753,7 @@
       "All enemy units have +20% ATK and +20% Max HP",
       "<Sarkaz Lancer Leader> gains Stealth"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -4813,6 +4864,7 @@
     ],
     "eliteDesc_ja": ["敵全員の攻撃力+30%、防御力+10%、最大HP+40%"],
     "eliteDesc_en": ["All enemy units have +30% ATK, +10% DEF and +40% Max HP"],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -4919,6 +4971,7 @@
       "All enemy units have +20% ATK, and +40% Max HP",
       "All <'Small Surprise'> have +200% Movement speed"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -5031,6 +5084,7 @@
       "Additional 2 <Imperial Artillery Core Targeteer> appear",
       "All <Imperial Artillery Targeteer> are replaced by <Imperial Artillery Core Targeteer>"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -5178,6 +5232,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [27],
     "sp_count": null,
@@ -5252,6 +5307,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [27],
     "sp_count": null,
@@ -5326,6 +5382,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [21, 22, 23],
     "sp_count": null,
@@ -5389,6 +5446,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [21, 22, 23],
     "sp_count": null,
@@ -5458,6 +5516,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [32],
     "sp_count": null,
@@ -5523,6 +5582,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [32],
     "sp_count": null,
@@ -5577,6 +5637,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [88],
     "sp_count": null,
@@ -5641,6 +5702,14 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": [
+      {
+        "targets": ["trap_027_stone"],
+        "mods": {
+          "hp": 1.5
+        }
+      }
+    ],
     "elite_mods": null,
     "all_possible_enemy_count": [65],
     "sp_count": null,
@@ -5709,6 +5778,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [46],
     "sp_count": null,
@@ -5773,6 +5843,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [41],
     "sp_count": null,
@@ -5862,6 +5933,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [111],
     "sp_count": null,
@@ -5930,6 +6002,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [45],
     "sp_count": null,
@@ -6005,6 +6078,15 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 0.5,
+          "def": 0.5
+        }
+      }
+    ],
     "elite_mods": null,
     "all_possible_enemy_count": [53],
     "sp_count": null,
@@ -6083,6 +6165,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [31],
     "sp_count": null,
@@ -6131,6 +6214,12 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": [{
+      "targets": ["trap_027_stone"],
+      "mods": {
+        "hp": 2.0
+      }
+    }],
     "elite_mods": null,
     "all_possible_enemy_count": [5],
     "sp_count": null,
@@ -6180,6 +6269,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [10],
     "sp_count": null,
@@ -6249,6 +6339,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [35],
     "sp_count": null,
@@ -6297,6 +6388,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [35],
     "sp_count": null,
@@ -6365,6 +6457,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [15],
     "sp_count": null,
@@ -6418,6 +6511,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [6],
     "sp_count": null,
@@ -6466,6 +6560,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [12],
     "sp_count": null,
@@ -6555,6 +6650,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [42],
     "sp_count": null,
@@ -6623,6 +6719,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [41],
     "sp_count": null,
@@ -6716,6 +6813,7 @@
     "eliteDesc_en": [
       "All enemy units have +50% ATK, +50% DEF, and +90% Max HP"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -6850,6 +6948,7 @@
       "All enemy units have +50% ATK, +20% DEF, and +120% Max HP",
       "First <Training Pincerbeast> is replaced by <Metal Crab>"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -7034,6 +7133,7 @@
       "All <Originium Slug> gain Stealth",
       "All <Sniper>'s stun duration increased to 10s"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -7168,6 +7268,7 @@
     "eliteDesc_en": [
       "All enemy units have +30% ATK, +20% DEF, and +60% Max HP"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -7281,12 +7382,30 @@
       "All enemy units have +30% ATK and +60% Max HP",
       "<Shieldguard> has -50% ATK and -50% DEF"
     ],
+    "normal_mods": [
+      {
+        "targets": ["trap_024_npcsld"],
+        "mods": {
+          "atk": 0.6,
+          "def": 0.6,
+          "hp": 0.5
+        }
+      }
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
         "mods": {
           "atk": 1.3,
           "hp": 1.6
+        }
+      },
+      {
+        "targets": ["trap_024_npcsld"],
+        "mods": {
+          "atk": 0.3,
+          "def": 0.3,
+          "hp": 0.5
         }
       }
     ],
@@ -7415,6 +7534,7 @@
       "All enemy units have +20% ATK, +20% DEF, and +40% Max HP",
       "Additional 1 <Guerrilla Herald> appears later, either at bottom left or right"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -7580,6 +7700,7 @@
       "All enemy units have +20% ATK, +20% DEF, and +40% Max HP",
       "Both Originium Ice Crystals are activated"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -7756,6 +7877,7 @@
       "All enemy units have +20% ATK, +20% DEF, and +20% Max HP",
       "4 tiles forbid deployment"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -7880,6 +8002,7 @@
       "All enemy units have +10% ATK and +20% Max HP",
       "<Retching Broodmother> appears on both sides at the start"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -8036,6 +8159,7 @@
     "eliteDesc_en": [
       "All enemy units have +30% ATK, +30% DEF, +50% Max HP and +50% Movement speed"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -8133,6 +8257,7 @@
       "All enemy units have +20% ATK, +20% DEF, and +40% Max HP",
       "Additional 1 <Sarkaz Wither Devourer> appears"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -8293,6 +8418,7 @@
       "All enemy units have +20% ATK, and +20% Max HP",
       "All <Airborne Soldier Leader> are replaced by <Guerrilla Siegebreaker>"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -8503,6 +8629,7 @@
       "All enemy units have +20% ATK, and +20% Max HP",
       "Starting <Tiacauh Brave> is replaced by <Mudrock Colossus>"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -8656,6 +8783,7 @@
       "All enemy units have +20% ATK, and +50% Max HP",
       "DP regen decreased by 50%"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -8783,6 +8911,7 @@
       "All enemy units have +20% ATK, and +20% Max HP",
       "All <Gift of the Sanguinarch> are replaced by <Gift of Magnanimity>"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -8926,6 +9055,7 @@
       "All enemy units have +50% Max HP",
       "All <Enraged Possessed Soldier> are replaced by <Enraged Possessed Thrower>"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -9098,6 +9228,7 @@
       "All enemy units have +20% ATK, +20% DEF, and +50% Max HP",
       "All <Ocean Stonecutter> additionally gain +30% ATK, +30 ASPD "
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -9216,6 +9347,7 @@
     "eliteDesc_en": [
       "All enemy units have +20% ATK, +20% DEF, +50% Max HP and +50% Movement speed"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -9323,6 +9455,7 @@
       "All enemy units have +10% ATK, +20% DEF, and +30% Max HP",
       "3 <Ballista> appears on the battlefield"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -9450,6 +9583,7 @@
       "All enemy units have +10% ATK, and +30% Max HP",
       "<掠海漂移体> additionally gains HP +20%"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -9574,6 +9708,7 @@
       "All enemy units have +20% ATK, and +20% Max HP",
       "<Heated Path>'s damage increased to 1200"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -9712,6 +9847,7 @@
       "All enemy units have +20% ATK, +10% DEF, and +50% Max HP",
       "<Pompeii> has +100% Attack range, +75% Movement speed"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -9856,6 +9992,7 @@
       "All enemy units have +20% ATK, and +20% Max HP",
       "All <Bully> and <Bulldozer> have +50% DEF"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -10017,6 +10154,7 @@
       "All enemy units have +20% Max HP",
       "<Nourished Reaper>'s HP loss amount halved"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -10041,7 +10179,7 @@
                 ],
                 "zh": [
                   "处于待命状态时，无法攻击/触发技能，低于99.99%时苏醒",
-                  "临战状态下，移动速度提升500%，每秒流失最大生命值*$2%$的生命值，每秒对半径2.5范围内所有我方单位造成攻击力20%的神经损伤（该效果无视迷彩）"
+                  "临战状态下，移动速度提升500%，每秒流失最大生命值*$2%$的生命值，每秒对半径2.5范围内所有友方单位造成攻击力20%的神经损伤（该效果无视迷彩）"
                 ]
               }
             }
@@ -10173,6 +10311,7 @@
       "All enemy units have +20% ATK, +20% DEF, and +50% Max HP",
       "6 tiles forbid deployment"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -10302,6 +10441,7 @@
       "All enemy units have +20% ATK, +20% DEF, and +50% Max HP",
       "Command Terminal's position changed"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -10459,6 +10599,7 @@
       "Additional 1 <“与我无关”> appears",
       "<'Gelato Stop'> begins under enemy control"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -10619,6 +10760,7 @@
       "All enemy units have +25% ATK, and +25% Max HP",
       "A portion of Imperial Artillery Targeteer is replaced by Imperial Artillery Core Targeteer"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -10846,6 +10988,7 @@
       "All enemy units have +20% ATK, +20% DEF, and +40% Max HP",
       "All <Tactical Defender Leader> are replaced by <Legendary War Phantom>"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -11012,6 +11155,7 @@
     "eliteDesc_en": [
       "All enemy units have +20% ATK, +20% DEF, +50% Max HP, +50% Movement speed, and +30% ASPD"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -11120,6 +11264,7 @@
       "All enemy units have +20% ATK, +20% DEF, and +40% Max HP",
       "All <Bloodboil Knightclub Trainee> are replaced by <Bloodboil Knightclub Elite>"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -11286,12 +11431,26 @@
       "All enemy units have +20% Max HP, and +20% Movement speed",
       "Additional 1 Originiutant α appears on top right of battlefield"
     ],
+    "normal_mods": [
+      {
+        "targets": ["trap_027_stone"],
+        "mods": {
+          "hp": 0.01
+        }
+      }
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
         "mods": {
           "hp": 1.2,
           "ms": 1.2
+        }
+      },
+      {
+        "targets": ["trap_027_stone"],
+        "mods": {
+          "hp": 0.01
         }
       }
     ],
@@ -11454,6 +11613,7 @@
       "All enemy units have +30% ATK, +30% DEF, and +30% Max HP",
       "Additional 4 <Skimming Sea Drifter> appear"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -11615,6 +11775,7 @@
       "All enemy units have +30% ATK, +20% DEF, and +30% Max HP",
       "Additional 1 <Nourished Brandguider> appears, and all <Nourished Brandguider> additionally gain +50% Max HP"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -11782,6 +11943,7 @@
       "All enemy units have +20% ATK, +50% DEF, and +20% Max HP",
       "Additional 4 <Dublinn Elite Companion Guard> appear"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -11937,6 +12099,7 @@
       "All enemy units have +10% ATK, +20% DEF, and +30% Max HP",
       "All <Pompeii> have +70% Attack range"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -12061,6 +12224,7 @@
     "eliteDesc_en": [
       "All enemy units have +50% ATK, +20% DEF, and +50% Max HP"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -12135,6 +12299,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [28],
     "sp_count": null,
@@ -12186,6 +12351,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [30],
     "sp_count": null,
@@ -12232,6 +12398,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [19],
     "sp_count": null,
@@ -12283,6 +12450,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [54],
     "sp_count": null,
@@ -12334,6 +12502,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [37],
     "sp_count": null,
@@ -12423,6 +12592,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [16],
     "sp_count": null,
@@ -12480,6 +12650,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [54],
     "sp_count": null,
@@ -12556,6 +12727,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [107],
     "sp_count": null,
@@ -12618,6 +12790,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [75],
     "sp_count": null,
@@ -12679,6 +12852,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [75],
     "sp_count": null,
@@ -12752,6 +12926,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [106],
     "sp_count": null,
@@ -12856,6 +13031,21 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": [
+      {
+        "targets": ["trap_107_smpow"],
+        "mods": {
+          "special": {
+            "duration1": 2.5,
+            "enhance_duration": 5.0,
+            "spData": {
+              "spCost": 20,
+              "initSp": 0
+            }
+          }
+        }
+      }
+    ],
     "elite_mods": null,
     "all_possible_enemy_count": [118],
     "sp_count": null,
@@ -12931,6 +13121,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [52],
     "sp_count": null,
@@ -12987,6 +13178,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [67],
     "sp_count": null,
@@ -13068,6 +13260,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [14],
     "sp_count": null,
@@ -13119,6 +13312,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [23],
     "sp_count": null,
@@ -13170,6 +13364,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [15],
     "sp_count": null,
@@ -13211,6 +13406,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [32],
     "sp_count": null,
@@ -13272,6 +13468,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [17],
     "sp_count": null,
@@ -13313,6 +13510,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [32],
     "sp_count": null,
@@ -13380,6 +13578,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [4],
     "sp_count": null,
@@ -13411,6 +13610,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [6],
     "sp_count": null,
@@ -13473,6 +13673,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [41],
     "sp_count": null,
@@ -13544,6 +13745,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [45],
     "sp_count": null,
@@ -13620,6 +13822,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [27],
     "sp_count": null,
@@ -13682,13 +13885,21 @@
     "floors": [3, 4, 5, 6],
     "addInfo_zh": [
       "沙尘暴 - 方向是随机的（4选1）",
-      "效果：暴露在沙尘暴中的我方单位每2秒受到100真实伤害，我方单位攻击力-50%，再部署时间提升至150%，敌方单位的移动速度-40%"
+      "效果：暴露在沙尘暴中的友方单位每2秒受到100真实伤害，友方单位攻击力-50%，再部署时间提升至150%，敌方单位的移动速度-40%"
     ],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": [
+      {
+        "targets": ["trap_032_mound"],
+        "mods": {
+          "hp": 0.3
+        }
+      }
+    ],
     "elite_mods": null,
     "all_possible_enemy_count": [22],
     "sp_count": null,
@@ -13730,6 +13941,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [
       21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37
@@ -13812,6 +14024,7 @@
       "All enemy units have +20% ATK, +20% DEF, and +70% Max HP",
       "All <Seasoned Prisoner> are replaced by <Pugilist Prisoner>"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -13926,6 +14139,7 @@
       "All enemy units have +20% ATK, +20% DEF, and +60% Max HP",
       "1 <Sarkaz Bladeweaver> is replaced by <Sarkaz Grudgebearer>"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -14052,6 +14266,7 @@
       "All enemy units have +10% ATK, +20% DEF, and +15% Max HP",
       "All <Butcher> are replaced by <Veteran Butcher>"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -14187,6 +14402,7 @@
       "All enemy units have +50% ATK, +20% DEF, and +40% Max HP",
       "Additional 4 <Hornbeast> appears"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -14314,6 +14530,7 @@
       "All enemy units have +40% ATK, +40% DEF, and +20% Max HP",
       "All <Dublinn Phalanx Infantry> are replaced by <Dublinn Phalanx Commander>"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -14437,6 +14654,7 @@
     "eliteDesc_en": [
       "All enemy units have +20% DEF, +40% Max HP and +40% Movespeed"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -14525,6 +14743,7 @@
       "All enemy units have +20% ATK and +20% Max HP",
       "All <Arc Commando> are replaced by <Arc Commando Captain>"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -14642,6 +14861,7 @@
       "All <Holographic Mirage> have additional +100% Max HP",
       "Additional 1 <'Redmark' Infiltrator> appears"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -14775,6 +14995,7 @@
       "Additional 1 <叛乱煽动者> appears at the start",
       "Last Wave's 6 <Tainted Carcass> are replaced by 4 <Pathfinder Spy>"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -14906,6 +15127,7 @@
       "All enemy units have +15% ATK, +15% DEF and +15% Max HP",
       "4 <Tainted Carcass> are replaced by 4 <Wraith Leader> "
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -15030,21 +15252,27 @@
     "addInfo_en": ["Routeweave Net: Additional 2 <Rotchaser> appear"],
     "eliteDesc_zh": [
       "所有敌方单位的攻击力+20%，生命值+40%",
-      "所有我方干员的技能技力消耗增加30%",
-      "指挥终端的生命值，防御力+50%",
+      "所有友方干员的技能技力消耗增加30%",
       "指挥终端开启费用提升至60"
     ],
     "eliteDesc_ja": [
       "敵全員の攻撃力+20%、最大HP+40%",
       "味方のスキル発動に必要なSPが30%増加",
-      "コマンドシステムの最大HP，防御力+50%",
       "コマンドシステムが必要COSTが60になる"
     ],
     "eliteDesc_en": [
       "All enemy units have +20% ATK and +40% Max HP",
       "All allies’ skill SP cost +30%",
-      "All <Command Terminal> have +50% Max HP and +50% DEF",
       "Command Terminal's activation COST becomes 60"
+    ],
+    "normal_mods": [
+      {
+        "targets": ["trap_008_farm"],
+        "mods": {
+          "hp": 1.5,
+          "def": 1.5
+        }
+      }
     ],
     "elite_mods": [
       {
@@ -15052,6 +15280,20 @@
         "mods": {
           "atk": 1.2,
           "hp": 1.4
+        }
+      },
+      {
+        "targets": ["trap_008_farm"],
+        "mods": {
+          "hp": 1.5,
+          "def": 1.5,
+          "special": {
+            "cost": 60,
+            "spData": {
+              "spCost": 156,
+              "initSp": 0
+            }
+          }
         }
       }
     ],
@@ -15142,6 +15384,7 @@
       "All <Tiacauh Fanatic> are replaced by <Tiacauh Ripper>",
       "All <Tiacauh Ritualist> are replaced by <Tiacauh Shaman>"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -15288,6 +15531,7 @@
       "All enemy units have +20% Max HP and +40% Movespeed",
       "Additional 1 <Originium Altar> appears at the right side"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -15367,6 +15611,7 @@
     "eliteDesc_zh": ["所有敌方单位的攻击力+50%，防御力+10%，生命值+80%"],
     "eliteDesc_ja": ["敵全員の攻撃力+50%、防御力+10%、最大HP+80%"],
     "eliteDesc_en": ["All enemy units have +50% ATK, +10% DEF and +80% Max HP"],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -15444,6 +15689,7 @@
     "eliteDesc_en": [
       "All enemy units have +30% ATK, +80% DEF, +30% Max HP and +80% Movespeed"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -15544,6 +15790,7 @@
     "eliteDesc_en": [
       "All enemy units have +10% ATK, +10% DEF, and +100% Max HP"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -15636,6 +15883,7 @@
       "All <Demolitionist> are replaced by <Demolitionist Leader>",
       "All <Sarkaz Blademaster> are replaced by <Sarkaz Bladeweaver>"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -15774,6 +16022,7 @@
       "All enemy units have +20% ATK, +10% DEF, and +50% Max HP",
       "<辐能源石虫>'s energy charge upon explosion additional +3"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -15872,6 +16121,7 @@
       "All enemy units have +40% ATK, +20% DEF, and +50% Max HP",
       "All <Ursus Raider> are replaced by <Bulldozer>"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -16004,6 +16254,7 @@
       "Additional 1 <R-31 Heavy Power Armor> appears",
       "3 <Dor-1 Failure> are replaced by 2 <Dor-3 Bionic>"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -16117,6 +16368,7 @@
     "eliteDesc_en": [
       "All enemy units have +50% Max HP, +50% Attack range, and +50 Attackspeed"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -16208,6 +16460,7 @@
       "All enemy units have +20% ATK, +20% DEF, and +20% Max HP",
       "Additional 1 <Rainer Haribeast> appears"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -16374,6 +16627,7 @@
       "All enemy units have +10% ATK, +20% DEF, and +40% Max HP",
       "Additional 1 <Steam Tank> and 2 <Sarkaz Wither Tank> appears"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -16510,6 +16764,7 @@
       "All enemy units have +10% ATK, and +30% Max HP",
       "All <Sarkaz Centurion Host> are replaced by <Sarkaz Centurion Nidus Guard>"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -16653,6 +16908,7 @@
       "All <Imperial Artillery Targeteer> are replaced by <Imperial Artillery Core Targeteer>",
       "Additional 2 <Shattered Champion> appears"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -16805,6 +17061,7 @@
       "All enemy units have +20% ATK, +20% DEF, and +40% Max HP",
       "<Nova Knightclub Elite> gains stealth"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -16893,7 +17150,7 @@
     "routes": null,
     "floors": [5],
     "addInfo_zh": [
-      "【环境】废能干扰 - 所有干员的技力恢复倍率-70%，且处于<重整束流>的我方干员技力恢复倍率+70%",
+      "【环境】废能干扰 - 所有干员的技力恢复倍率-70%，且处于<重整束流>的友方干员技力恢复倍率+70%",
       "【路网】效果: 额外出现1个历战高塔术师和1个改进型量产巨像"
     ],
     "addInfo_ja": [
@@ -16916,6 +17173,7 @@
       "All enemy units have +50% ATK, and +80% Max HP",
       "Initial position of <Remnant Principal Violinist> and <Battleworn Spire Caster> swapped"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -17029,12 +17287,19 @@
       "All <'Twigs That Crave'> have +20% Max HP",
       "Corruption does 2x damage"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
         "mods": {
           "atk": 1.2,
           "def": 1.2,
+          "hp": 1.2
+        }
+      },
+      {
+        "targets": ["trap_086_larva"],
+        "mods": {
           "hp": 1.2
         }
       }
@@ -17180,6 +17445,7 @@
       "3 <Enraged Possessed Thrower> are replaced by <Enraged Possessed Bonethrower> ",
       "Additional 1 <Shattered Champion> appears"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -17340,6 +17606,7 @@
       "All enemy units have +50% Max HP and +20% Movespeed",
       "6 tiles forbid deployment"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -17439,6 +17706,7 @@
       "All enemy units have +30% ATK, +20% DEF, and +30% Max HP",
       "All <Enraged Tombkeeper Grotesque> are replaced by <Mudrock Colossus>"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -17578,6 +17846,7 @@
       "All <Shanhaizhong Secret-Keeper> have quadrupled ATK when attacking from stealth",
       "All <Shanhaizhong Oracle> skill's duration +50%, Attackspeed increase +50%"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -17709,6 +17978,7 @@
       "All enemy units have +20% ATK, +70% DEF, and +20% Max HP",
       "1 tile forbid deployment"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -17805,6 +18075,7 @@
     "eliteDesc_en": [
       "All enemy units have +20% ATK, +70% DEF, +40% Max HP and +30 RES"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -17905,6 +18176,7 @@
       "All enemy units have +20% ATK, +30% DEF, +50% Max HP and +30% Movespeed",
       "1 tile forbid deployment"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -18001,6 +18273,7 @@
       "All enemy units have +20% ATK, +40% Max HP and +30 RES",
       "<Yeti Caster> and <Yeti Caster Leader> have +100% Attack range"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -18101,6 +18374,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [39],
     "sp_count": null,
@@ -18152,6 +18426,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [38],
     "sp_count": null,
@@ -18198,6 +18473,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [32],
     "sp_count": null,
@@ -18234,6 +18510,20 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": [
+      {
+        "targets": ["trap_008_farm"],
+        "mods": {
+          "hp": 2.0,
+          "special": {
+            "spData": {
+              "spCost": 100,
+              "initSp": 0
+            }
+          }
+        }
+      }
+    ],
     "elite_mods": null,
     "all_possible_enemy_count": [38],
     "sp_count": null,
@@ -18280,6 +18570,20 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": [
+      {
+        "targets": ["trap_008_farm"],
+        "mods": {
+          "hp": 2.0,
+          "special": {
+            "spData": {
+              "spCost": 100,
+              "initSp": 0
+            }
+          }
+        }
+      }
+    ],
     "elite_mods": null,
     "all_possible_enemy_count": [39],
     "sp_count": null,
@@ -18326,6 +18630,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [39],
     "sp_count": null,
@@ -18393,6 +18698,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [25],
     "sp_count": null,
@@ -18444,6 +18750,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [25],
     "sp_count": null,
@@ -18495,6 +18802,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [40],
     "sp_count": null,
@@ -18558,6 +18866,7 @@
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -18728,6 +19037,7 @@
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -18846,6 +19156,7 @@
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -18938,6 +19249,7 @@
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -19029,6 +19341,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": [],
     "all_possible_enemy_count": [67],
     "sp_count": null,
@@ -19088,6 +19401,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -19104,7 +19418,38 @@
     "elite_sp_count": null,
     "sp_enemy": null,
     "sp_terrain": null,
-    "enemy_list": [],
+    "enemy_list": [
+      {
+        "key": "enemy_2081_skztxs",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1229_darmy",
+        "min_count": 20,
+        "max_count": 20
+      },
+      {
+        "key": "enemy_1275_dwlock",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_2090_skzjbc",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1428_lrsoul_a",
+        "min_count": 48,
+        "max_count": 48
+      },
+      {
+        "key": "enemy_1428_lrsoul",
+        "min_count": 24,
+        "max_count": 24
+      }
+    ],
     "elite_enemy_list": null
   },
   "level_rogue4_b-6": {
@@ -19122,6 +19467,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [91],
     "sp_count": null,
@@ -19193,17 +19539,17 @@
       "敌方单位的攻击力、防御力和生命值都提升至120%",
       "思维混乱时：奎隆，摩诃萨埵权化不再召唤无羁的“盛怒”，而是改为召唤新硎",
       "环境<雷暴> - 战斗开始后600秒内每40秒随机选定3个格子（范围可重叠，包含屏幕外的区域），延迟5秒后对十字范围内所有单位造成1500{true}伤害",
-      "\n尼卢火 - 属于我方单位，可被我方单位治疗；嘲讽等级-1，不死，无法选中；",
+      "\n尼卢火 - 属于友方单位，可被友方单位治疗；嘲讽等级-1，不死，无法选中；",
       "自身在场时：奎隆受到的物理/法术伤害降低至80%（多个在场时乘算叠加）",
       "出场时流失100%生命值；出场后存在5s保护期，期间无法响应奎隆的【清火执】效果",
-      "出场50s后/生命值回满时退场；因持续时间结束退场时，令场上未受此效果影响的攻击力最高的干员攻击力-50%（不叠加，持续50s），并对十字范围内的我方单位造成3500点法术伤害(均无视一切不可选中效果)"
+      "出场50s后/生命值回满时退场；因持续时间结束退场时，令场上未受此效果影响的攻击力最高的干员攻击力-50%（不叠加，持续50s），并对十字范围内的友方单位造成3500点法术伤害(均无视一切不可选中效果)"
     ],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
-    "elite_mods": [
+    "normal_mods": [
       {
         "targets": ["ALL"],
         "mods": {
@@ -19213,6 +19559,7 @@
         }
       }
     ],
+    "elite_mods": null,
     "all_possible_enemy_count": [31],
     "sp_count": null,
     "all_possible_elite_enemy_count": null,
@@ -19264,6 +19611,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [20],
     "sp_count": null,
@@ -19331,6 +19679,7 @@
       "<Static Roadblock>'s Max HP increased by 11x",
       "Enemy makeup changes greatly, <Gopnik> appears"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -19345,6 +19694,12 @@
         "mods": {
           "def": 1.4,
           "hp": 1.3
+        }
+      },
+      {
+        "targets": ["trap_480_roadblockxb"],
+        "mods": {
+          "hp": 12.0
         }
       }
     ],
@@ -19464,6 +19819,7 @@
       "All enemy units have +30% ATK, +30% DEF, and +30% Max HP",
       "Additional 1 <年代之刺> and 1 <Duck Lord> appears"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -19554,6 +19910,7 @@
       "All enemy units have +20% ATK, +20% DEF, and +30% Max HP",
       "Enemies spawn at all 4 routes"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -19705,6 +20062,7 @@
       "All enemy units have +20% ATK, +20% DEF, and +20% Max HP",
       "All <Luscious Snack Cart> will spawn <恐卡兹> upon defeat"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -19780,6 +20138,7 @@
       "All enemy units have +20% ATK, +20% DEF, and +20% Max HP",
       "Additional 1 <'Door'> appears "
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -19916,6 +20275,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [51],
     "sp_count": null,
@@ -19988,6 +20348,7 @@
     "eliteDesc_zh": ["所有敌方单位的生命值+80%"],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -20047,6 +20408,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [40],
     "sp_count": null,
@@ -20118,6 +20480,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [61, 63],
     "sp_count": null,
@@ -20179,6 +20542,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [9],
     "sp_count": null,
@@ -20360,6 +20724,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [18],
     "sp_count": null,
@@ -20622,6 +20987,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [18],
     "sp_count": null,
@@ -20939,6 +21305,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": null,
     "all_possible_enemy_count": [18],
     "sp_count": null,
@@ -21024,6 +21391,7 @@
       "All enemy units have +10% ATK, +10% DEF, and +50% Max HP",
       "All <Sarkaz Crossbowman> are replaced by <Remnant Saxophonist>"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -21154,6 +21522,7 @@
       "All enemy units have +20% ATK, +50% Max HP",
       "Only bottom <Waste Heat Vent> appears"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -21252,6 +21621,15 @@
     "eliteDesc_en": [
       "All enemy units have +20% ATK, +20% DEF and +30% Max HP",
       "Additional 1 <萨卡兹迷宫归乡者> appears and all <萨卡兹迷宫归乡者> have additional +30% Max HP"
+    ],
+    "normal_mods": [
+      {
+        "targets": ["trap_024_npcsld"],
+        "mods": {
+          "hp": 1.5,
+          "atk": 0.8
+        }
+      }
     ],
     "elite_mods": [
       {
@@ -21389,6 +21767,7 @@
       "All enemy units have +20% ATK, and +50% Max HP",
       "Additional 1 <Sarkaz Greatswordsman> and 2 <Sarkaz Swordsman> appears"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -21534,6 +21913,7 @@
       "All enemy units have +20% ATK, +20% DEF and +20% Max HP",
       "Pollution damage doubled"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -21650,6 +22030,7 @@
       "All enemy units have +20% ATK, +20% DEF and +20% Max HP",
       "Additional 1 <年代之刺> appears"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -21795,6 +22176,7 @@
       "All enemy units have +20% ATK, +20% DEF and +50% Max HP",
       "<Breaker Leader> gains stealth"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -21903,6 +22285,7 @@
       "All enemy units have +20% DEF and +70% Max HP",
       "All <Sarkaz Guerrilla Fighter> are replaced with <Sarkaz Guerrilla Fighter Leader>"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -22038,6 +22421,7 @@
       "All enemy units have +20% ATK, +20% DEF and +40% Max HP",
       "Additional 2 <Technical Scout> appears"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -22177,6 +22561,7 @@
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -22323,7 +22708,7 @@
       "所有敌方单位的攻击力+20%，防御力+30%",
       "出现伦蒂尼姆城防副炮",
       "伦蒂尼姆城防副炮 - 初始60SP/消耗120/自动回复",
-      "锁定阻挡数最高的我方单位，对范围内的全部单位造成3000点真实伤害{ignore_stealth}"
+      "锁定阻挡数最高的友方单位，对范围内的全部单位造成3000点真实伤害{ignore_stealth}"
     ],
     "eliteDesc_ja": [
       "敵全員の攻撃力+20%、防御力+30%",
@@ -22337,6 +22722,7 @@
       "<Londinium Secondary Defense Artillery> - Initial SP 60, SP Cost 120, Auto Recovery",
       "Once fully charged, deals 3000 splash True damage to both allies and enemies, centered on the friendly unit with the highest Block{ignore_stealth}"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -22516,6 +22902,7 @@
       "1 <Sarkaz Witherer> is replaced by 1 <Sarkaz Wither Devourer> and 4 <Infused Originium Slug>",
       "Changes to positions of <年代之刺>"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -22644,6 +23031,7 @@
       "All enemy units have +70% DEF and +20% Max HP",
       "All <Seed of Withering> have +50% ATK"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -22742,6 +23130,14 @@
       "All enemy units have +40% ATK, +20% DEF and +50% Max HP",
       "All <Rubble> have -50% Max HP"
     ],
+    "normal_mods": [
+      {
+        "targets": ["trap_027_stone"],
+        "mods": {
+          "hp": 1.5
+        }
+      }
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -22749,6 +23145,12 @@
           "atk": 1.3,
           "hp": 1.5,
           "ms": 1.5
+        }
+      },
+      {
+        "targets": ["trap_027_stone"],
+        "mods": {
+          "hp": 0.75
         }
       }
     ],
@@ -22830,6 +23232,7 @@
       "All enemy units have +40% ATK, +20% DEF and +50% Max HP",
       "Additional 2 <Originium Altar> appears"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -22918,6 +23321,7 @@
       "All enemy units have +30% ATK, +30% DEF and +30% Max HP",
       "<'Trilby Asher'> has +50 ASPD"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -23021,6 +23425,7 @@
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -23116,6 +23521,7 @@
       "All enemy units have +50% ATK, +50% DEF and +50% Max HP",
       "Additional 2 <Sarkaz Absurdist Tyrant Captain> appears"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -23258,6 +23664,7 @@
     "eliteDesc_en": [
       "All enemy units have +50% ATK, +20% DEF and +100% Max HP"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -23357,6 +23764,7 @@
       "All enemy units have +50% ATK, and +50% Max HP",
       "Additional 2 <萨卡兹迷宫归乡者> appear"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -23481,12 +23889,26 @@
       "All enemy units have +20% ATK, and +50% Max HP",
       "Additional 2 <Sarkaz Heirbearer ASV> appear at the start"
     ],
+    "normal_mods": [
+      {
+        "targets": ["trap_097_hstone"],
+        "mods": {
+          "hp": 3.8
+        }
+      }
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
         "mods": {
           "atk": 1.2,
           "hp": 1.5
+        }
+      },
+      {
+        "targets": ["trap_097_hstone"],
+        "mods": {
+          "hp": 3.8
         }
       }
     ],
@@ -23624,6 +24046,7 @@
       "All enemy units have +20% ATK, and +50% Max HP",
       "Additional 3 <Leithanian Whisperer> and 2 <R-11 Assault Power Armor> appears"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -23762,6 +24185,7 @@
       "All enemy units have +25% ATK, +25% DEF and +25% Max HP",
       "All <圣卫自动机> will spawn <恐卡兹> upon defeat"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -24013,6 +24437,7 @@
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -24112,7 +24537,7 @@
     "floors": [4],
     "addInfo_zh": [
       "年代之刺：普通0/天灾+1",
-      "毒性雾霾 - 我方单位每0.5秒持续受到50{true}伤害"
+      "毒性雾霾 - 友方单位每0.5秒持续受到50{true}伤害"
     ],
     "addInfo_ja": ["毒性ガス - 味方ユニットに0.5秒ごとに50{true}ダメージ"],
     "addInfo_en": [
@@ -24125,6 +24550,7 @@
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -24236,7 +24662,7 @@
     "addInfo_zh": [
       "年代之刺：普通0/天灾+2",
       "伦蒂尼姆城防副炮 - 初始60SP/消耗120/自动回复",
-      "锁定阻挡数最高的我方单位，对范围内的全部单位造成3000点真实伤害（无视隐匿/迷彩）"
+      "锁定阻挡数最高的友方单位，对范围内的全部单位造成3000点真实伤害（无视隐匿/迷彩）"
     ],
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -24252,6 +24678,7 @@
       "All enemy units have +40% ATK, +50% DEF and +20% Max HP",
       "Additional 12 <Ursus Civilian>, 3 <Sarkaz Heirbearer Artificer> and 2 <Sarkaz Royal Court Caster> appear"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -24437,6 +24864,7 @@
       "All enemy units have +50% ATK and +50% Max HP",
       "<Londinium Mobile Defense Artillery>'s skill CD halved"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -24543,6 +24971,7 @@
       "All enemy units have +30% ATK, +20% DEF, and +30% Max HP",
       "Tuning Node's skill activation SP cost doubled"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -24550,6 +24979,17 @@
           "atk": 1.3,
           "def": 1.2,
           "hp": 1.3
+        }
+      },
+      {
+        "targets": ["trap_134_condtr"],
+        "mods": {
+          "special": {
+            "spData": {
+              "spCost": 20,
+              "initSp": 0
+            }
+          }
         }
       }
     ],
@@ -24634,6 +25074,7 @@
       "All enemy units have +20% ATK, +20% DEF, and +50% Max HP",
       "<Corrupted Knight> and <Withered Knight>'s ATK gain when enraged increased to 130%"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -24744,6 +25185,7 @@
       "All enemy units have +20% ATK, +20% DEF, and +20% Max HP",
       "The rightmost <渎罪奇美拉> is replaced with <Sarkaz Worldcurser>"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -24898,6 +25340,7 @@
       "All enemy units have +20% ATK, +20% DEF, and +20% Max HP",
       "Additional 1 <Withering Collector Disciple> appears"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -25057,6 +25500,7 @@
       "All enemy units have +20% ATK, +20% DEF, and +20% Max HP",
       "<萨卡兹迷宫织咒者>'s skill CD halved"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -25168,6 +25612,7 @@
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -25353,6 +25798,7 @@
       "All enemy units have +20% ATK, +20% DEF, and +20% Max HP",
       "<魂灵涡流> have additional +400 DEF, +0.3 Movespeed"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -25458,6 +25904,7 @@
       "All enemy units have +30% ATK, +30% DEF, and +40% Max HP",
       "<Pathfinder Ballistarius> and <Pathfinder Ballistarius Prefect> deals twice the damage to Gelato Stops"
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -25555,6 +26002,7 @@
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -25701,6 +26149,7 @@
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],

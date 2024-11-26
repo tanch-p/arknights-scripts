@@ -10,8 +10,8 @@ STAT_KEY_CONVERSION_TABLE = {
     "moveSpeed": "ms"
 }
 
-TRAPS_TO_EXCLUDE = ["trap_051_vultres", "trap_042_tidectrl", "trap_079_allydonq", "trap_061_creep", "trap_038_dsbell", "trap_037_airsup", "trap_062_magicstart",
-                    "trap_063_magicturn", "trap_106_smtree", "trap_050_blizzard", "trap_092_vgctrl", "trap_036_storm", "trap_764_skzshp", "trap_162_lrctrl", "trap_766_duelwal", "trap_767_duelcdt"]
+TRAPS_TO_EXCLUDE = ["trap_051_vultres", "trap_042_tidectrl", "trap_061_creep", "trap_038_dsbell", "trap_037_airsup", "trap_062_magicstart",
+                    "trap_063_magicturn", "trap_106_smtree", "trap_050_blizzard", "trap_092_vgctrl", "trap_036_storm", "trap_162_lrctrl", "trap_766_duelwal", "trap_767_duelcdt"]
 
 script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
@@ -197,6 +197,7 @@ for topic_dict in roguelike_topics:
                 "eliteDesc_zh":  extrainfo[levelId]['eliteDesc_zh'] if levelId in extrainfo else None,
                 "eliteDesc_ja": extrainfo[levelId]['eliteDesc_ja'] if levelId in extrainfo else None,
                 "eliteDesc_en": extrainfo[levelId]['eliteDesc_en'] if levelId in extrainfo else None,
+                "n_mods": extrainfo[levelId]['normal_mods'] if levelId in extrainfo else None,
                 "elite_mods": extrainfo[levelId]['elite_mods'] if levelId in extrainfo else None,
                 "routes": extrainfo[levelId]['routes'] if levelId in extrainfo else None,
                 "floors": extrainfo[levelId]['floors'] if levelId in extrainfo else None,
@@ -234,7 +235,7 @@ for topic_dict in roguelike_topics:
                             })
             traps = [dict(t) for t in {tuple(d.items()) for d in traps}]
             for trap in traps:
-                trap.pop('hidden',None)
+                trap.pop('hidden', None)
             trimmed_stage_info['traps'] = traps
 
             enemy_list = extrainfo[levelId]['enemy_list'] if levelId in extrainfo else None
