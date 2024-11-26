@@ -2,6 +2,15 @@ import json
 import os
 from operator import itemgetter
 
+
+def replace_chevrons(text_list):
+    if text_list and type(text_list) is list:
+        replaced_texts = [text.replace("<", "&lt;").replace(
+            ">", "&gt;") for text in text_list]
+        return replaced_texts
+    return text_list
+
+
 STAT_KEY_CONVERSION_TABLE = {
     "maxHp": "hp",
     "baseAttackTime": "aspd",
@@ -191,12 +200,12 @@ for topic_dict in roguelike_topics:
                 "description_en": stage_info_en["description"].replace("\\n", "\n")
                 if TOPIC_IN_GLOBAL
                 else None,
-                "addInfo_zh": extrainfo[levelId]['addInfo_zh'] if levelId in extrainfo else None,
-                "addInfo_ja": extrainfo[levelId]['addInfo_ja'] if levelId in extrainfo else None,
-                "addInfo_en": extrainfo[levelId]['addInfo_en'] if levelId in extrainfo else None,
-                "eliteDesc_zh":  extrainfo[levelId]['eliteDesc_zh'] if levelId in extrainfo else None,
-                "eliteDesc_ja": extrainfo[levelId]['eliteDesc_ja'] if levelId in extrainfo else None,
-                "eliteDesc_en": extrainfo[levelId]['eliteDesc_en'] if levelId in extrainfo else None,
+                "addInfo_zh": replace_chevrons(extrainfo[levelId]['addInfo_zh']) if levelId in extrainfo else None,
+                "addInfo_ja": replace_chevrons(extrainfo[levelId]['addInfo_ja']) if levelId in extrainfo else None,
+                "addInfo_en": replace_chevrons(extrainfo[levelId]['addInfo_en']) if levelId in extrainfo else None,
+                "eliteDesc_zh":  replace_chevrons(extrainfo[levelId]['eliteDesc_zh']) if levelId in extrainfo else None,
+                "eliteDesc_ja": replace_chevrons(extrainfo[levelId]['eliteDesc_ja']) if levelId in extrainfo else None,
+                "eliteDesc_en": replace_chevrons(extrainfo[levelId]['eliteDesc_en']) if levelId in extrainfo else None,
                 "n_mods": extrainfo[levelId]['normal_mods'] if levelId in extrainfo else None,
                 "elite_mods": extrainfo[levelId]['elite_mods'] if levelId in extrainfo else None,
                 "routes": extrainfo[levelId]['routes'] if levelId in extrainfo else None,
