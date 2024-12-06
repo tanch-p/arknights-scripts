@@ -21,12 +21,32 @@ with open("enemy_database.json", encoding="utf-8") as f:
 
 for enemy in enemy_database["enemies"]:
     key = enemy["Key"]
+    talentBlackboard = []
+    talentLength = 0
+    skills = []
+    skillsLength = 0
     for value in enemy['Value']:
-        if value['enemyData']['attributes']['disarmedCombatImmune']['m_value'] is True:
-            print(key, " tremble immune")
-        if value['enemyData']['attributes']['fearedImmune']['m_value'] is True:
-            print(key, " fear immune")
+        # if value['enemyData']['attributes']['disarmedCombatImmune']['m_value'] is True:
+        #     print(key, " tremble immune")
+        # if value['enemyData']['attributes']['fearedImmune']['m_value'] is True:
+        #     print(key, " fear immune")
         if value['enemyData']['attributes']['epDamageResistance']['m_value'] != 0:
             print(key, " epDamageResistance not 0")
         if value['enemyData']['attributes']['epResistance']['m_value'] != 0:
             print(key, " epResistance not 0")
+        if value['enemyData']['talentBlackboard'] is not None:
+            for talent in value['enemyData']['talentBlackboard']:
+                if not talent in talentBlackboard:
+                    talentBlackboard.append(talent)
+            if talentLength == 0 and len(talentBlackboard) > talentLength:
+                talentLength = len(talentBlackboard)
+        if value['enemyData']['skills'] is not None:
+            for skill in value['enemyData']['skills']:
+                if not skill in skills:
+                    skills.append(skill)
+            if skillsLength == 0 and len(skills) > skillsLength:
+                skillsLength = len(skills)
+    if talentLength != len(talentBlackboard):
+        print(key, " talentBlackboard diff across levels")
+    if skillsLength != len(skills):
+        print(key, " skills diff across levels")

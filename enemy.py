@@ -16,6 +16,7 @@ enemy_database_path = os.path.join(
     script_dir, "cn_data/zh_CN/gamedata/levels/enemydata/enemy_database.json"
 )
 
+
 def get_status_immune_list(stat):
     list = []
     if stat["enemyData"]["attributes"]["stunImmune"]["m_value"]:
@@ -77,7 +78,6 @@ for key in cn_enemy_handbook['enemyData']:
             enemyTags.append("flying")
         enemyTags.append(enemyStats[0]['enemyData']['levelType']['m_value']
                          if enemyStats[0]['enemyData']['levelType']['m_defined'] else 'NORMAL')
-
         data["id"] = enemyIndex
         data["key"] = key
         data['sortId'] = cn_enemy_info['sortId']
@@ -88,6 +88,7 @@ for key in cn_enemy_handbook['enemyData']:
         data["name_en"] = (
             en_enemy_handbook[key]["name"] if key in en_enemy_handbook else ""
         )
+        status_immune_list = get_status_immune_list(enemyStats[0])
         data["stats"] = [
             {
                 "hp": stat["enemyData"]["attributes"]["maxHp"]["m_value"]
@@ -139,12 +140,15 @@ for key in cn_enemy_handbook['enemyData']:
                 else enemyStats[0]["enemyData"]["attributes"]["epResistance"][
                     "m_value"
                 ],
-                "special":[],
-                "status_immune":get_status_immune_list(stat)
+                "special": [],
+                "status_immune": get_status_immune_list(stat) if len(get_status_immune_list(stat)) > len(status_immune_list) else status_immune_list
             }
             for stat in enemyStats
         ]
-        data["normal_attack"] = normal_attack
+        data['forms'] = {
+            "title":None,
+            "normal_attack": normal_attack
+        }
         data["type"] = enemyTags
         data["type"].insert(0, attackType)
         new_data[key] = data
