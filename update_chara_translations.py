@@ -80,6 +80,8 @@ for id in chara_talents:
     if en_char_table[id]['talents']:
         talents = []
         for talent_index, talent in enumerate(en_char_table[id]['talents']):
+            if talent_index >= len(chara_talents[id]['talents']):
+                continue
             talent_holder = chara_talents[id]['talents'][talent_index]
             if not talent_holder['name_en']:
                 max_candidate_index = len(talent['candidates'])-1

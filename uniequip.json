@@ -36580,7 +36580,7 @@
     "uniequip_001_highmo": {
         "uniEquipId": "uniequip_001_highmo",
         "name_zh": "海沫证章",
-        "name_ja": "ハイモア",
+        "name_ja": "ハイモアの記章",
         "name_en": "Highmore's Badge",
         "typeIcon": "original",
         "charId": "char_4066_highmo",
@@ -49931,8 +49931,8 @@
     "uniequip_001_amiya3": {
         "uniEquipId": "uniequip_001_amiya3",
         "name_zh": "阿米娅证章（医疗）",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "アーミヤの記章（医療）",
+        "name_en": "Amiya's Badge (Medic)",
         "typeIcon": "original",
         "charId": "char_1037_amiya3",
         "combatData": null
@@ -49940,8 +49940,8 @@
     "uniequip_002_amiya3": {
         "uniEquipId": "uniequip_002_amiya3",
         "name_zh": "带有灼痕的裙子",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "焦げ跡のついたワンピース",
+        "name_en": "The Dress Handpicked by Theresa",
         "typeIcon": "inc-x",
         "charId": "char_1037_amiya3",
         "combatData": {
@@ -49953,11 +49953,11 @@
                             "target": "TRAIT_DATA_ONLY",
                             "isToken": false,
                             "addDesc_zh": null,
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": null,
+                            "addDesc_en": null,
                             "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，攻击敌人时为攻击范围内一名友方干员治疗相当于<@ba.kw>60%</>伤害的生命值",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "<@ba.kw>術ダメージ</>を与え、敵を攻撃する度攻撃範囲内の味方1人のHPを与ダメージの<@ba.kw>60%</>回復",
+                            "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and heal the HP of an ally within Attack Range for <@ba.kw>60%</> of the damage dealt"
                         }
                     ],
                     "attributeBlackboard": [
@@ -49979,25 +49979,25 @@
                             "target": "TRAIT_DATA_ONLY",
                             "isToken": false,
                             "addDesc_zh": null,
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": null,
+                            "addDesc_en": null,
                             "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，攻击敌人时为攻击范围内一名友方干员治疗相当于<@ba.kw>60%</>伤害的生命值",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "<@ba.kw>術ダメージ</>を与え、敵を攻撃する度攻撃範囲内の味方1人のHPを与ダメージの<@ba.kw>60%</>回復",
+                            "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and heal the HP of an ally within Attack Range for <@ba.kw>60%</> of the damage dealt"
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "诚挚期许",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Prayer of Sincerity",
+                            "name_ja": "切実なる嘱望",
+                            "name_en": "Prayer of Sincerity",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "在场时所有友方单位最大生命+9%，技能期间所有友方单位每秒恢复3%最大生命",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "配置中、味方全員の最大HP+9%。スキル発動中、1秒ごとに味方全員のHPを最大値の3%回復する",
+                            "upgradeDesc_en": "When deployed, all allied units have max HP +9%, and while skill is active, all allied units recover 3% of max HP per second"
                         }
                     ],
                     "attributeBlackboard": [
@@ -50019,25 +50019,25 @@
                             "target": "TRAIT_DATA_ONLY",
                             "isToken": false,
                             "addDesc_zh": null,
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": null,
+                            "addDesc_en": null,
                             "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，攻击敌人时为攻击范围内一名友方干员治疗相当于<@ba.kw>60%</>伤害的生命值",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "<@ba.kw>術ダメージ</>を与え、敵を攻撃する度攻撃範囲内の味方1人のHPを与ダメージの<@ba.kw>60%</>回復",
+                            "overrideDesc_en": "Attacks deal <@ba.kw>Arts</> damage and heal the HP of an ally within Attack Range for <@ba.kw>60%</> of the damage dealt"
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "诚挚期许",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Prayer of Sincerity",
+                            "name_ja": "切実なる嘱望",
+                            "name_en": "Prayer of Sincerity",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "在场时所有友方单位最大生命+10%，技能期间所有友方单位每秒恢复3.5%最大生命",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "配置中、味方全員の最大HP+10%。スキル発動中、1秒ごとに味方全員のHPを最大値の3.5%回復する",
+                            "upgradeDesc_en": "When deployed, all allied units have max HP +10%, and while skill is active, all allied units recover 3.5% of max HP per second"
                         }
                     ],
                     "attributeBlackboard": [
@@ -50076,8 +50076,8 @@
     "uniequip_001_coldst": {
         "uniEquipId": "uniequip_001_coldst",
         "name_zh": "冰酿证章",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "コールドショットの記章",
+        "name_en": "Coldshot's Badge",
         "typeIcon": "original",
         "charId": "char_4104_coldst",
         "combatData": null
@@ -50085,8 +50085,8 @@
     "uniequip_002_coldst": {
         "uniEquipId": "uniequip_002_coldst",
         "name_zh": "“桀骜”",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "「じゃじゃ馬」",
+        "name_en": "'Unbridled'",
         "typeIcon": "hun-x",
         "charId": "char_4104_coldst",
         "combatData": {
@@ -50098,11 +50098,11 @@
                             "target": "TRAIT_DATA_ONLY",
                             "isToken": false,
                             "addDesc_zh": "子弹数量为空时下次装填额外加装1发子弹",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "弾を撃ち切った後、次弾装填時の装弾数+1",
+                            "addDesc_en": "When Ammo count is empty, the next reload +1 Ammo additionally",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         }
                     ],
                     "attributeBlackboard": [
@@ -50124,25 +50124,25 @@
                             "target": "TRAIT_DATA_ONLY",
                             "isToken": false,
                             "addDesc_zh": "子弹数量为空时下次装填额外加装1发子弹",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "弾を撃ち切った後、次弾装填時の装弾数+1",
+                            "addDesc_en": "When Ammo count is empty, the next reload +1 Ammo additionally",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "不甘示弱",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Not to be Outdone",
+                            "name_ja": "負けん気",
+                            "name_en": "Not to be Outdone",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "如果2秒内没有主动攻击过，下次攻击造成相当于攻击力138%<@ba.talpu>(+3%)</>的物理伤害",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "2秒間通常攻撃せずにいると、次の通常攻撃時、対象に攻撃力の138%<@ba.talpu>（+3%）</>の物理ダメージを与える",
+                            "upgradeDesc_en": "If no attack is made for 2 seconds, the next attack deals 138% <@ba.talpu>(+3%)</> ATK as Physical damage"
                         }
                     ],
                     "attributeBlackboard": [
@@ -50164,25 +50164,25 @@
                             "target": "TRAIT_DATA_ONLY",
                             "isToken": false,
                             "addDesc_zh": "子弹数量为空时下次装填额外加装1发子弹",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "弾を撃ち切った後、次弾装填時の装弾数+1",
+                            "addDesc_en": "When Ammo count is empty, the next reload +1 Ammo additionally",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "不甘示弱",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Not to be Outdone",
+                            "name_ja": "負けん気",
+                            "name_en": "Not to be Outdone",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "如果2秒内没有主动攻击过，下次攻击造成相当于攻击力141%<@ba.talpu>(+3%)</>的物理伤害",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "2秒間通常攻撃せずにいると、次の通常攻撃時、対象に攻撃力の141%<@ba.talpu>（+3%）</>の物理ダメージを与える",
+                            "upgradeDesc_en": "If no attack is made for 2 seconds, the next attack deals 141% <@ba.talpu>(+3%)</> ATK as Physical damage"
                         }
                     ],
                     "attributeBlackboard": [
@@ -50226,8 +50226,8 @@
     "uniequip_003_judge": {
         "uniEquipId": "uniequip_003_judge",
         "name_zh": "“无罪”",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "「無罪」",
+        "name_en": "'Innocent'",
         "typeIcon": "uny-y",
         "charId": "char_4065_judge",
         "combatData": {
@@ -50239,11 +50239,11 @@
                             "target": "TRAIT",
                             "isToken": false,
                             "addDesc_zh": "周围8格没有友方干员时攻击力和防御力<@ba.kw>+8%</>",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "周囲8マスに味方がいない時、攻撃力と防御力<@ba.kw>+8%</>",
+                            "addDesc_en": "When there are no allies in the surrounding 8 tiles, ATK and DEF <@ba.kw>+8%</>",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         }
                     ],
                     "attributeBlackboard": [
@@ -50265,25 +50265,25 @@
                             "target": "TRAIT",
                             "isToken": false,
                             "addDesc_zh": "周围8格没有友方干员时攻击力和防御力<@ba.kw>+8%</>",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "周囲8マスに味方がいない時、攻撃力と防御力<@ba.kw>+8%</>",
+                            "addDesc_en": "When there are no allies in the surrounding 8 tiles, ATK and DEF <@ba.kw>+8%</>",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "荆棘环身",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Wreathed in Thorns",
+                            "name_ja": "茨纏う身",
+                            "name_en": "Wreathed in Thorns",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 1,
                             "upgradeDesc_zh": "拥有来源于自身的<ba.barrier>屏障</>时，每次受到攻击对目标造成相当于斥罪攻击力58%<@ba.talpu>(+3%)</>的法术伤害",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "自身の能力で獲得した<ba.barrier>バリア</>の存続期間中、攻撃される度ペナンスの攻撃力の58%<@ba.talpu>（+3%）</>の術ダメージで攻撃者に反撃",
+                            "upgradeDesc_en": "Each time this unit is attacked while under the effect of her own <ba.barrier>Barrier</>, deals 58% <@ba.talpu>(+3%)</> ATK as Arts damage to the attacker"
                         }
                     ],
                     "attributeBlackboard": [
@@ -50305,25 +50305,25 @@
                             "target": "TRAIT",
                             "isToken": false,
                             "addDesc_zh": "周围8格没有友方干员时攻击力和防御力<@ba.kw>+8%</>",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "周囲8マスに味方がいない時、攻撃力と防御力<@ba.kw>+8%</>",
+                            "addDesc_en": "When there are no allies in the surrounding 8 tiles, ATK and DEF <@ba.kw>+8%</>",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "荆棘环身",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Wreathed in Thorns",
+                            "name_ja": "茨纏う身",
+                            "name_en": "Wreathed in Thorns",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 1,
                             "upgradeDesc_zh": "拥有来源于自身的<ba.barrier>屏障</>时，每次受到攻击对目标造成相当于斥罪攻击力61%<@ba.talpu>(+3%)</>的法术伤害",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "自身の能力で獲得した<ba.barrier>バリア</>の存続期間中、攻撃される度ペナンスの攻撃力の61%<@ba.talpu>（+3%）</>の術ダメージで攻撃者に反撃",
+                            "upgradeDesc_en": "Each time this unit is attacked while under the effect of her own <ba.barrier>Barrier</>, deals 61% <@ba.talpu>(+3%)</> ATK as Arts damage to the attacker"
                         }
                     ],
                     "attributeBlackboard": [
@@ -50367,8 +50367,8 @@
     "uniequip_003_glady": {
         "uniEquipId": "uniequip_003_glady",
         "name_zh": "淡金坠饰",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "淡い金色のペンダント",
+        "name_en": "Pale Gold Hair Pendant",
         "typeIcon": "hok-y",
         "charId": "char_474_glady",
         "combatData": {
@@ -50380,19 +50380,19 @@
                             "target": "DISPLAY",
                             "isToken": false,
                             "addDesc_zh": null,
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": null,
+                            "addDesc_en": null,
                             "overrideDesc_zh": "技能可以使敌人产生<@ba.kw>位移</>，向自身拖拽较远的敌人时力度提升一个等级\\n可以放置于远程位",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "<@ba.kw>強制移動</>スキルを所持、遠い敵を引き寄せる時の力加減が1ランク上昇\n遠距離マスにも配置可能",
+                            "overrideDesc_en": "Can <@ba.kw>Shift</> enemies by using skills; increases the strength of the shift by 1 degree when dragging enemies far away towards herself\nCan be deployed on Ranged tiles"
                         },
                         {
                             "resKey": "glady_equip_2_1_p1",
                             "target": "TALENT",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": -1,
@@ -50420,19 +50420,19 @@
                             "target": "DISPLAY",
                             "isToken": false,
                             "addDesc_zh": null,
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": null,
+                            "addDesc_en": null,
                             "overrideDesc_zh": "技能可以使敌人产生<@ba.kw>位移</>，向自身拖拽较远的敌人时力度提升一个等级\\n可以放置于远程位",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "<@ba.kw>強制移動</>スキルを所持、遠い敵を引き寄せる時の力加減が1ランク上昇\n遠距離マスにも配置可能",
+                            "overrideDesc_en": "Can <@ba.kw>Shift</> enemies by using skills; increases the strength of the shift by 1 degree when dragging enemies far away towards herself\nCan be deployed on Ranged tiles"
                         },
                         {
                             "resKey": "glady_equip_2_2_p1",
                             "target": "TALENT",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": -1,
@@ -50444,15 +50444,15 @@
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "弱肉强食",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Survival of the Fittest",
+                            "name_ja": "弱肉強食",
+                            "name_en": "Survival of the Fittest",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 1,
                             "upgradeDesc_zh": "攻击重量小于等于3的敌人时攻击力提升至146%<@ba.talpu>(+6%)</>",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "重量ランクが3以下の敵を攻撃時、攻撃力が146%<@ba.talpu>（+6%）</>まで上昇",
+                            "upgradeDesc_en": "When attacking enemies with 3 or less weight, increase ATK to 146% <@ba.talpu>(+6%)</>"
                         }
                     ],
                     "attributeBlackboard": [
@@ -50474,19 +50474,19 @@
                             "target": "DISPLAY",
                             "isToken": false,
                             "addDesc_zh": null,
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": null,
+                            "addDesc_en": null,
                             "overrideDesc_zh": "技能可以使敌人产生<@ba.kw>位移</>，向自身拖拽较远的敌人时力度提升一个等级\\n可以放置于远程位",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "<@ba.kw>強制移動</>スキルを所持、遠い敵を引き寄せる時の力加減が1ランク上昇\n遠距離マスにも配置可能",
+                            "overrideDesc_en": "Can <@ba.kw>Shift</> enemies by using skills; increases the strength of the shift by 1 degree when dragging enemies far away towards herself\nCan be deployed on Ranged tiles"
                         },
                         {
                             "resKey": "glady_equip_2_3_p1",
                             "target": "TALENT",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": -1,
@@ -50498,15 +50498,15 @@
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "弱肉强食",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Survival of the Fittest",
+                            "name_ja": "弱肉強食",
+                            "name_en": "Survival of the Fittest",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 1,
                             "upgradeDesc_zh": "攻击重量小于等于3的敌人时攻击力提升至151%<@ba.talpu>(+6%)</>",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "重量ランクが3以下の敵を攻撃時、攻撃力が151%<@ba.talpu>（+6%）</>まで上昇",
+                            "upgradeDesc_en": "When attacking enemies with 3 or less weight, increase ATK to 151% <@ba.talpu>(+6%)</>"
                         }
                     ],
                     "attributeBlackboard": [
@@ -50554,8 +50554,8 @@
     "uniequip_001_haini": {
         "uniEquipId": "uniequip_001_haini",
         "name_zh": "海霓证章",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "ルシーラの記章",
+        "name_en": "Lucilla's Badge",
         "typeIcon": "original",
         "charId": "char_4079_haini",
         "combatData": null
@@ -50563,8 +50563,8 @@
     "uniequip_002_haini": {
         "uniEquipId": "uniequip_002_haini",
         "name_zh": "多功能测绘仪-改良版",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "多機能型測量機・改良版",
+        "name_en": "Multifunctional Mapping Instruments (Early Access)",
         "typeIcon": "umd-x",
         "charId": "char_4079_haini",
         "combatData": {
@@ -50576,11 +50576,11 @@
                             "target": "TRAIT",
                             "isToken": false,
                             "addDesc_zh": "并对目标造成10％<ba.weaken>虚弱</>效果，持续2秒",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "対象に10%の<ba.weaken>虚弱</>効果を2秒間付与する",
+                            "addDesc_en": "Applies 10% <ba.weaken>Enfeeble</> to targets for 2 seconds",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         }
                     ],
                     "attributeBlackboard": [
@@ -50602,25 +50602,25 @@
                             "target": "TRAIT",
                             "isToken": false,
                             "addDesc_zh": "并对目标造成10％<ba.weaken>虚弱</>效果，持续2秒",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "対象に10%の<ba.weaken>虚弱</>効果を2秒間付与する",
+                            "addDesc_en": "Applies 10% <ba.weaken>Enfeeble</> to targets for 2 seconds",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "测绘器材的奇用",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Ingenius Usage of Survey Equipment",
+                            "name_ja": "測量機器の応用",
+                            "name_en": "Ingenius Usage of Survey Equipment",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "攻击范围内的非精英和领袖敌人获得22%<@ba.talpu>(+2%)</>的<ba.fragile>脆弱</>效果",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "攻撃範囲内の【エリート】と【ボス】を除く敵に22%<@ba.talpu>（+2%）</>の<ba.fragile>脆弱</>状態を付与する",
+                            "upgradeDesc_en": "Applies 22% <@ba.talpu>(+2%)</> <ba.fragile>Fragile</> effect to enemies that are not Elites or Leaders within range"
                         }
                     ],
                     "attributeBlackboard": [
@@ -50642,25 +50642,25 @@
                             "target": "TRAIT",
                             "isToken": false,
                             "addDesc_zh": "并对目标造成10％<ba.weaken>虚弱</>效果，持续2秒",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "対象に10%の<ba.weaken>虚弱</>効果を2秒間付与する",
+                            "addDesc_en": "Applies 10% <ba.weaken>Enfeeble</> to targets for 2 seconds",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "测绘器材的奇用",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Ingenius Usage of Survey Equipment",
+                            "name_ja": "測量機器の応用",
+                            "name_en": "Ingenius Usage of Survey Equipment",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "攻击范围内的非精英和领袖敌人获得25%<@ba.talpu>(+2%)</>的<ba.fragile>脆弱</>效果",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "攻撃範囲内の【エリート】と【ボス】を除く敵に25%<@ba.talpu>（+2%）</>の<ba.fragile>脆弱</>状態を付与する",
+                            "upgradeDesc_en": "Applies 25% <@ba.talpu>(+2%)</> <ba.fragile>Fragile</> effect to enemies that are not Elites or Leaders within range"
                         }
                     ],
                     "attributeBlackboard": [
@@ -50717,8 +50717,8 @@
     "uniequip_001_ray": {
         "uniEquipId": "uniequip_001_ray",
         "name_zh": "莱伊证章",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "レイの記章",
+        "name_en": "Ray's Badge",
         "typeIcon": "original",
         "charId": "char_4117_ray",
         "combatData": null
@@ -50726,8 +50726,8 @@
     "uniequip_002_ray": {
         "uniEquipId": "uniequip_002_ray",
         "name_zh": "《跳舞的月光》",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "「月光と踊る」",
+        "name_en": "Dancing Moonlight",
         "typeIcon": "hun-x",
         "charId": "char_4117_ray",
         "combatData": {
@@ -50739,11 +50739,11 @@
                             "target": "TRAIT_DATA_ONLY",
                             "isToken": false,
                             "addDesc_zh": "子弹数量为空时下次装填额外加装1发子弹",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "弾を撃ち切った後、次弾装填時の装弾数+1",
+                            "addDesc_en": "When Ammo count is empty, the next reload +1 Ammo additionally",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         }
                     ],
                     "attributeBlackboard": [
@@ -50769,25 +50769,25 @@
                             "target": "TRAIT_DATA_ONLY",
                             "isToken": false,
                             "addDesc_zh": "子弹数量为空时下次装填额外加装1发子弹",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "弾を撃ち切った後、次弾装填時の装弾数+1",
+                            "addDesc_en": "When Ammo count is empty, the next reload +1 Ammo additionally",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "巡哨伙伴",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Patrol Partner",
+                            "name_ja": "巡回のおとも",
+                            "name_en": "Patrol Partner",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "可以在攻击范围内部署沙地兽于25秒内侦察一片区域延伸攻击范围，自身优先攻击该区域内的目标且对其造成的物理伤害提高18%，沙地兽的再部署时间-5秒",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "攻撃範囲内に「サンドビースト」を1体配置可能。サンドビーストを配置後、25秒間その周囲8マスを自身の追加攻撃範囲と見なす。自身は該当範囲内の敵を優先して攻撃するようになり、対象への物理の与ダメージ+18%、サンドビーストの再配置時間-5秒",
+                            "upgradeDesc_en": "Can deploy a sandbeast within Attack Range to scout an area for 25s, extending Attack Range into that area. Prioritizes attacking targets within this area, and deals 18% more Physical damage to them; Sandbeast has -5 seconds Redeployment Time"
                         }
                     ],
                     "attributeBlackboard": [
@@ -50820,25 +50820,25 @@
                             "target": "TRAIT_DATA_ONLY",
                             "isToken": false,
                             "addDesc_zh": "子弹数量为空时下次装填额外加装1发子弹",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "弾を撃ち切った後、次弾装填時の装弾数+1",
+                            "addDesc_en": "When Ammo count is empty, the next reload +1 Ammo additionally",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "巡哨伙伴",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Patrol Partner",
+                            "name_ja": "巡回のおとも",
+                            "name_en": "Patrol Partner",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "可以在攻击范围内部署沙地兽于25秒内侦察一片区域延伸攻击范围，自身优先攻击该区域内的目标且对其造成的物理伤害提高20%，沙地兽的再部署时间-10秒",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "攻撃範囲内に「サンドビースト」を1体配置可能。サンドビーストを配置後、25秒間その周囲8マスを自身の追加攻撃範囲と見なす。自身は該当範囲内の敵を優先して攻撃するようになり、対象への物理の与ダメージ+20%、サンドビーストの再配置時間-10秒",
+                            "upgradeDesc_en": "Can deploy a sandbeast within Attack Range to scout an area for 25s, extending Attack Range into that area. Prioritizes attacking targets within this area, and deals 20% more Physical damage to them; Sandbeast has -10 seconds Redeployment Time"
                         }
                     ],
                     "attributeBlackboard": [
@@ -50889,8 +50889,8 @@
     "uniequip_001_udflow": {
         "uniEquipId": "uniequip_001_udflow",
         "name_zh": "深巡证章",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "アンダーフローの記章",
+        "name_en": "Underflow's Badge",
         "typeIcon": "original",
         "charId": "char_4137_udflow",
         "combatData": null
@@ -50898,8 +50898,8 @@
     "uniequip_002_udflow": {
         "uniEquipId": "uniequip_002_udflow",
         "name_zh": "基于咖啡的神经活性剂",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "コーヒーベースの神経活性剤",
+        "name_en": "A Neural Stimulant Based on 'Coffee'",
         "typeIcon": "spt-x",
         "charId": "char_4137_udflow",
         "combatData": {
@@ -50911,19 +50911,19 @@
                             "target": "DISPLAY",
                             "isToken": false,
                             "addDesc_zh": "攻击范围内敌人的<ba.invisible>隐匿</>效果失效",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "攻撃範囲内の敵の<ba.invisible>ステルス</>状態を無効にする",
+                            "addDesc_en": "Reveals <ba.invisible>Invisible</> enemies within range",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": "udflow_equip_1_1_p1",
                             "target": "TALENT",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": -1,
@@ -50951,19 +50951,19 @@
                             "target": "DISPLAY",
                             "isToken": false,
                             "addDesc_zh": "攻击范围内敌人的<ba.invisible>隐匿</>效果失效",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "攻撃範囲内の敵の<ba.invisible>ステルス</>状態を無効にする",
+                            "addDesc_en": "Reveals <ba.invisible>Invisible</> enemies within range",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": "udflow_equip_1_2_p1",
                             "target": "TALENT",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": -1,
@@ -50975,15 +50975,15 @@
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "细胞活性抑制剂",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Cell Activity Suppressant",
+                            "name_ja": "細胞活性化抑制剤",
+                            "name_en": "Cell Activity Suppressant",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "攻击使目标在3秒内每秒受到100<@ba.talpu>(+10)</>点法术伤害(对【海怪】敌人伤害加倍)",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "攻撃時、攻撃対象に追加で3秒間毎秒100<@ba.talpu>（+10）</>の術ダメージを与える（敵【海の怪物】に対して効果倍増）",
+                            "upgradeDesc_en": "Deals 100 <@ba.talpu>(+10)</> Arts damage per second to targets on attacking, lasting 3 seconds (Damage is doubled against [Sea Monster] enemies)"
                         }
                     ],
                     "attributeBlackboard": [
@@ -51005,19 +51005,19 @@
                             "target": "DISPLAY",
                             "isToken": false,
                             "addDesc_zh": "攻击范围内敌人的<ba.invisible>隐匿</>效果失效",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "攻撃範囲内の敵の<ba.invisible>ステルス</>状態を無効にする",
+                            "addDesc_en": "Reveals <ba.invisible>Invisible</> enemies within range",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": "udflow_equip_1_3_p1",
                             "target": "TALENT",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": -1,
@@ -51029,15 +51029,15 @@
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "细胞活性抑制剂",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Cell Activity Suppressant",
+                            "name_ja": "細胞活性化抑制剤",
+                            "name_en": "Cell Activity Suppressant",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "攻击使目标在3秒内每秒受到110<@ba.talpu>(+10)</>点法术伤害(对【海怪】敌人伤害加倍)",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "攻撃時、攻撃対象に追加で3秒間毎秒110<@ba.talpu>（+10）</>の術ダメージを与える（敵【海の怪物】に対して効果倍増）",
+                            "upgradeDesc_en": "Deals 110 <@ba.talpu>(+10)</> Arts damage per second to targets on attacking, lasting 3 seconds (Damage is doubled against [Sea Monster] enemies)"
                         }
                     ],
                     "attributeBlackboard": [
@@ -51081,8 +51081,8 @@
     "uniequip_003_ifrit": {
         "uniEquipId": "uniequip_003_ifrit",
         "name_zh": "“热成形记忆”",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "「熱成形された記憶」",
+        "name_en": "'Thermoformed Memory'",
         "typeIcon": "bla-d",
         "charId": "char_134_ifrit",
         "combatData": {
@@ -51094,11 +51094,11 @@
                             "target": "TRAIT",
                             "isToken": false,
                             "addDesc_zh": "造成法术伤害时附带相当于<@ba.vup>8%</>伤害的<ba.dt.burning2>灼燃损伤</>",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "術ダメージを与えたとき、追加で与ダメージの<@ba.vup>8%</>の<ba.dt.burning2>灼熱損傷</>を与える",
+                            "addDesc_en": "When dealing Arts damage, deals an additional <@ba.vup>8%</> as <ba.dt.burning2>Burn damage</>",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         }
                     ],
                     "attributeBlackboard": [
@@ -51120,33 +51120,33 @@
                             "target": "TRAIT",
                             "isToken": false,
                             "addDesc_zh": "造成法术伤害时附带相当于<@ba.vup>8%</>伤害的<ba.dt.burning2>灼燃损伤</>",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "術ダメージを与えたとき、追加で与ダメージの<@ba.vup>8%</>の<ba.dt.burning2>灼熱損傷</>を与える",
+                            "addDesc_en": "When dealing Arts damage, deals an additional <@ba.vup>8%</> as <ba.dt.burning2>Burn damage</>",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "精神融解",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Spiritual Dissolution",
+                            "name_ja": "精神融解",
+                            "name_en": "Spiritual Dissolution",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "攻击范围内的敌军法术抗性-44%<@ba.talpu>(+4%)</>，若攻击目标处于<ba.dt.burning2>灼燃损伤</>爆发期间，攻击对其额外造成相当于攻击力40%的元素伤害",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "攻撃範囲内の敵の術耐性-44%<@ba.talpu>（+4%）</>、<ba.dt.burning2>灼熱損傷</>の爆発効果中の敵を攻撃する時、追加で攻撃力の40%の元素ダメージを与える",
+                            "upgradeDesc_en": "RES of enemies within range -44% <@ba.talpu>(+4%)</>; if target is under the burst effect of <ba.dt.burning2>Burn damage</>, attacks will deal an additional 40% ATK as Elemental damage"
                         },
                         {
                             "resKey": "ifrit_equip_2_2_p2",
                             "target": "TALENT",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": -1,
@@ -51174,33 +51174,33 @@
                             "target": "TRAIT",
                             "isToken": false,
                             "addDesc_zh": "造成法术伤害时附带相当于<@ba.vup>8%</>伤害的<ba.dt.burning2>灼燃损伤</>",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "術ダメージを与えたとき、追加で与ダメージの<@ba.vup>8%</>の<ba.dt.burning2>灼熱損傷</>を与える",
+                            "addDesc_en": "When dealing Arts damage, deals an additional <@ba.vup>8%</> as <ba.dt.burning2>Burn damage</>",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "精神融解",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Spiritual Dissolution",
+                            "name_ja": "精神融解",
+                            "name_en": "Spiritual Dissolution",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "攻击范围内的敌军法术抗性-44%<@ba.talpu>(+4%)</>，若攻击目标处于<ba.dt.burning2>灼燃损伤</>爆发期间，攻击对其额外造成相当于攻击力50%的元素伤害",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "攻撃範囲内の敵の術耐性-44%<@ba.talpu>（+4%）</>、<ba.dt.burning2>灼熱損傷</>の爆発効果中の敵を攻撃する時、追加で攻撃力の50%の元素ダメージを与える",
+                            "upgradeDesc_en": "RES of enemies within range -44% <@ba.talpu>(+4%)</>; if target is under the burst effect of <ba.dt.burning2>Burn damage</>, attacks will deal an additional 50% ATK as Elemental damage"
                         },
                         {
                             "resKey": "ifrit_equip_2_3_p2",
                             "target": "TALENT",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": -1,
@@ -51228,10 +51228,6 @@
             ],
             "blackboard": [
                 {
-                    "key": "ep_damage_ratio",
-                    "value": 0.08
-                },
-                {
                     "key": "res_down",
                     "targets": 99,
                     "value": 20,
@@ -51246,10 +51242,6 @@
                     "targets": 99,
                     "value": 0.44,
                     "target_air": true
-                },
-                {
-                    "key": "element_atk_scale",
-                    "value": 0.5
                 }
             ]
         }
@@ -59462,6 +59454,1349 @@
                 {
                     "key": "sp",
                     "value": 8.0
+                }
+            ]
+        }
+    },
+    "uniequip_001_surtr": {
+        "uniEquipId": "uniequip_001_surtr",
+        "name_zh": "史尔特尔证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_350_surtr",
+        "combatData": null
+    },
+    "uniequip_002_surtr": {
+        "uniEquipId": "uniequip_002_surtr",
+        "name_zh": "萨米的不灭心脏碎片",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "aft-x",
+        "charId": "char_350_surtr",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": "surtr_equip_1_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "未阻挡敌人时攻击速度<@ba.kw>+8</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 30.0
+                        },
+                        {
+                            "key": "magic_resistance",
+                            "value": 5.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "surtr_equip_1_2_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "未阻挡敌人时攻击速度<@ba.kw>+8</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "熔火",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "无视攻击目标26<@ba.talpu>（+2）</>法术抗性",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 48.0
+                        },
+                        {
+                            "key": "magic_resistance",
+                            "value": 5.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "surtr_equip_1_3_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "未阻挡敌人时攻击速度<@ba.kw>+8</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "熔火",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "无视攻击目标28<@ba.talpu>（+2）</>法术抗性",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 60.0
+                        },
+                        {
+                            "key": "magic_resistance",
+                            "value": 5.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+                {
+                    "key": "attack_speed",
+                    "value": 8.0,
+                    "conditions": [
+                        "self_no_block"
+                    ]
+                },
+                {
+                    "key": "res_penetrate",
+                    "value": 28.0
+                }
+            ]
+        }
+    },
+    "uniequip_001_vvana": {
+        "uniEquipId": "uniequip_001_vvana",
+        "name_zh": "薇薇安娜证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_4098_vvana",
+        "combatData": null
+    },
+    "uniequip_002_vvana": {
+        "uniEquipId": "uniequip_002_vvana",
+        "name_zh": "目不能及之处",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "aft-d",
+        "charId": "char_4098_vvana",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": "vvana_equip_1_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "攻击<ba.dt.burning2>灼燃损伤</>爆发期间的目标时额外造成攻击力<@ba.kw>15%</>的元素伤害",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 240.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 30.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "vvana_equip_1_2_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "攻击<ba.dt.burning2>灼燃损伤</>爆发期间的目标时额外造成攻击力<@ba.kw>15%</>的元素伤害",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "燃烛施明",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "造成的法术伤害+9%<@ba.talpu>（+1%）</>，受到的物理和法术伤害-9%<@ba.talpu>（-1%）</>，攻击附带相当于5%伤害的<ba.dt.burning2>灼燃损伤</>。攻击范围内存在精英或领袖敌人时，该效果提升至2倍",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 340.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 48.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "vvana_equip_1_3_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "攻击<ba.dt.burning2>灼燃损伤</>爆发期间的目标时额外造成攻击力<@ba.kw>15%</>的元素伤害",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "燃烛施明",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "造成的法术伤害+9%<@ba.talpu>（+1%）</>，受到的物理和法术伤害-9%<@ba.talpu>（-1%）</>，攻击附带相当于9%伤害的<ba.dt.burning2>灼燃损伤</>。攻击范围内存在精英或领袖敌人时，该效果提升至2倍",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 420.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 60.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [
+                "burning",
+                "ele_dmg"
+            ],
+            "blackboard": [
+                {
+                    "key": "res_down",
+                    "targets": 1,
+                    "value": 20,
+                    "duration": 10.0,
+                    "category": [
+                        "burning_burst"
+                    ],
+                    "target_air": true
+                }
+            ]
+        }
+    },
+    "uniequip_001_siege2": {
+        "uniEquipId": "uniequip_001_siege2",
+        "name_zh": "维娜·维多利亚证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_1019_siege2",
+        "combatData": null
+    },
+    "uniequip_002_siege2": {
+        "uniEquipId": "uniequip_002_siege2",
+        "name_zh": "城主的冒险",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "aft-x",
+        "charId": "char_1019_siege2",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": "siege2_equip_1_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "未阻挡敌人时攻击速度<@ba.kw>+8</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 260.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 28.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "siege2_equip_1_2_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "未阻挡敌人时攻击速度<@ba.kw>+8</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "诸王的叹息",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": "x-4",
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "自身与周围8格友方单位受到的物理伤害减少26%<@ba.talpu>（+2%）</>，且此范围内每个友方单位使维娜攻击力+7%<@ba.talpu>（+1%）</>",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 360.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 45.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "siege2_equip_1_3_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "未阻挡敌人时攻击速度<@ba.kw>+8</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "诸王的叹息",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": "x-4",
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "自身与周围8格友方单位受到的物理伤害减少28%<@ba.talpu>（+2%）</>，且此范围内每个友方单位使维娜攻击力+8%<@ba.talpu>（+1%）</>",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 440.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 56.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+                {
+                    "key": "attack_speed",
+                    "value": 8.0,
+                    "conditions": [
+                        "self_no_block"
+                    ]
+                },
+                {
+                    "key": "dmg_res",
+                    "value": 0.28,
+                    "types": [
+                        "phys"
+                    ]
+                },
+                {
+                    "key": "ally_dmg_res",
+                    "value": 0.28,
+                    "types": [
+                        "phys"
+                    ],
+                    "conditions": [
+                        "surrounding_8_tile"
+                    ]
+                }
+            ]
+        }
+    },
+    "uniequip_001_amiya2": {
+        "uniEquipId": "uniequip_001_amiya2",
+        "name_zh": "阿米娅证章（近卫）",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_1001_amiya2",
+        "combatData": null
+    },
+    "uniequip_002_amiya2": {
+        "uniEquipId": "uniequip_002_amiya2",
+        "name_zh": "待调弦的怒火",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "aft-x",
+        "charId": "char_1001_amiya2",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": "amiya2_equip_1_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "未阻挡敌人时攻击速度<@ba.kw>+8</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 26.0
+                        },
+                        {
+                            "key": "magic_resistance",
+                            "value": 3.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "amiya2_equip_1_2_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "未阻挡敌人时攻击速度<@ba.kw>+8</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "青色怒火",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "在场时所有友方单位的攻击力和防御力+8%，技能开启期间效果加倍",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 38.0
+                        },
+                        {
+                            "key": "magic_resistance",
+                            "value": 4.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "amiya2_equip_1_3_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "未阻挡敌人时攻击速度<@ba.kw>+8</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "青色怒火",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "在场时所有友方单位的攻击力和防御力+9%，技能开启期间效果加倍",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 45.0
+                        },
+                        {
+                            "key": "magic_resistance",
+                            "value": 4.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+                {
+                    "key": "attack_speed",
+                    "value": 8.0,
+                    "conditions": [
+                        "self_no_block"
+                    ]
+                },
+                {
+                    "key": "ally_atk",
+                    "value": 0.09
+                },
+                {
+                    "key": "ally_def",
+                    "value": 0.09
+                },
+                {
+                    "key": "ally_atk",
+                    "value": 0.18,
+                    "conditions": [
+                        "skill_active"
+                    ]
+                },
+                {
+                    "key": "ally_def",
+                    "value": 0.18,
+                    "conditions": [
+                        "skill_active"
+                    ]
+                }
+            ]
+        }
+    },
+    "uniequip_001_sidero": {
+        "uniEquipId": "uniequip_001_sidero",
+        "name_zh": "铸铁证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_333_sidero",
+        "combatData": null
+    },
+    "uniequip_002_sidero": {
+        "uniEquipId": "uniequip_002_sidero",
+        "name_zh": "漫游者的压舱石",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "aft-y",
+        "charId": "char_333_sidero",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": "sidero_equip_1_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "自身阻挡的敌人受到<@ba.kw>10%</>的<ba.magicfragile>法术脆弱</>效果",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 200.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 25.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "sidero_equip_1_2_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "自身阻挡的敌人受到<@ba.kw>10%</>的<ba.magicfragile>法术脆弱</>效果",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "佣兵之韧",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "击杀4<@ba.talpu>（-2）</>个敌人后获得攻击速度+20和<ba.buffres>抵抗</>",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 270.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 30.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "sidero_equip_1_3_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "自身阻挡的敌人受到<@ba.kw>10%</>的<ba.magicfragile>法术脆弱</>效果",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "佣兵之韧",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "击杀3<@ba.talpu>（-2）</>个敌人后获得攻击速度+23和<ba.buffres>抵抗</>",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 320.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 40.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [
+                "magicfragile"
+            ],
+            "blackboard": [
+                {
+                    "key": "damage_scale",
+                    "targets": 1,
+                    "value": 1.1,
+                    "duration": 999,
+                    "types": [
+                        "arts"
+                    ],
+                    "category": [
+                        "magicfragile"
+                    ],
+                    "conditions": [
+                        "self_block"
+                    ]
+                },
+                {
+                    "key": "attack_speed",
+                    "value": 23.0
+                }
+            ]
+        }
+    },
+    "uniequip_001_astesi": {
+        "uniEquipId": "uniequip_001_astesi",
+        "name_zh": "星极证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_274_astesi",
+        "combatData": null
+    },
+    "uniequip_002_astesi": {
+        "uniEquipId": "uniequip_002_astesi",
+        "name_zh": "未卜星图",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "aft-y",
+        "charId": "char_274_astesi",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": "astesi_equip_1_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "自身阻挡的敌人受到<@ba.kw>10%</>的<ba.magicfragile>法术脆弱</>效果",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 25.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 25.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "astesi_equip_1_2_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "自身阻挡的敌人受到<@ba.kw>10%</>的<ba.magicfragile>法术脆弱</>效果",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "天体仪",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "每在场上停留20秒，攻击速度+6，防御力+3%，最多可以叠加5次",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 36.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 36.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "astesi_equip_1_3_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "自身阻挡的敌人受到<@ba.kw>10%</>的<ba.magicfragile>法术脆弱</>效果",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "天体仪",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "每在场上停留20秒，攻击速度+7，防御力+4%，最多可以叠加5次",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 42.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 42.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+                {
+                    "key": "damage_scale",
+                    "targets": 1,
+                    "value": 1.1,
+                    "duration": 999,
+                    "types": [
+                        "arts"
+                    ],
+                    "category": [
+                        "magicfragile"
+                    ],
+                    "conditions": [
+                        "self_block"
+                    ]
+                },
+                {
+                    "key": "attack_speed",
+                    "value": 35.0
+                },
+                {
+                    "key": "def",
+                    "value": 0.2
+                }
+            ]
+        }
+    },
+    "uniequip_001_frncat": {
+        "uniEquipId": "uniequip_001_frncat",
+        "name_zh": "慕斯证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_185_frncat",
+        "combatData": null
+    },
+    "uniequip_002_frncat": {
+        "uniEquipId": "uniequip_002_frncat",
+        "name_zh": "美爪套装二象性",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "aft-x",
+        "charId": "char_185_frncat",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": "frncat_equip_1_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "未阻挡敌人时攻击速度<@ba.kw>+8</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 160.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 20.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "frncat_equip_1_2_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "未阻挡敌人时攻击速度<@ba.kw>+8</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "连击",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "攻击时有26%<@ba.talpu>（+3%）</>的几率连续攻击两次",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 190.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 30.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "frncat_equip_1_3_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "未阻挡敌人时攻击速度<@ba.kw>+8</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "连击",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "攻击时有28%<@ba.talpu>（+3%）</>的几率连续攻击两次",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 220.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 35.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+                {
+                    "key": "attack_speed",
+                    "value": 8.0,
+                    "conditions": [
+                        "self_no_block"
+                    ]
+                }
+            ]
+        }
+    },
+    "uniequip_001_rosesa": {
+        "uniEquipId": "uniequip_001_rosesa",
+        "name_zh": "瑰盐证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_4163_rosesa",
+        "combatData": null
+    },
+    "uniequip_002_rosesa": {
+        "uniEquipId": "uniequip_002_rosesa",
+        "name_zh": "多彩盐漠生活",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "rin-x",
+        "charId": "char_4163_rosesa",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": "rosesa_equip_2_1_p1",
+                            "target": "DISPLAY",
+                            "isToken": false,
+                            "addDesc_zh": "攻击范围<@ba.kw>扩大</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": "rosesa_equip_2_1_p1",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": null,
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": true,
+                            "rangeId": "y-3",
+                            "talentIndex": -1,
+                            "upgradeDesc_zh": "",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 70.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 25.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "rosesa_equip_2_2_p1",
+                            "target": "DISPLAY",
+                            "isToken": false,
+                            "addDesc_zh": "攻击范围<@ba.kw>扩大</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": "rosesa_equip_2_2_p1",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": null,
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": true,
+                            "rangeId": "y-3",
+                            "talentIndex": -1,
+                            "upgradeDesc_zh": "",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "最好的草药医生",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "自身攻击力-5%，但攻击范围内的友方干员受到的治疗效果提升20%<@ba.talpu>（+2%）</>",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 88.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 38.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "rosesa_equip_2_3_p1",
+                            "target": "DISPLAY",
+                            "isToken": false,
+                            "addDesc_zh": "攻击范围<@ba.kw>扩大</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": "rosesa_equip_2_3_p1",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": null,
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": true,
+                            "rangeId": "y-3",
+                            "talentIndex": -1,
+                            "upgradeDesc_zh": "",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "最好的草药医生",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "自身攻击力-5%，但攻击范围内的友方干员受到的治疗效果提升22%<@ba.talpu>（+2%）</>",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 100.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 47.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+                {
+                    "key": "ally_heal_scale",
+                    "value": 1.22
+                }
+            ]
+        }
+    },
+    "uniequip_003_angel": {
+        "uniEquipId": "uniequip_003_angel",
+        "name_zh": "欢迎光临，企鹅物流",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "mar-y",
+        "charId": "char_103_angel",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": "angel_equip_2_2_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "范围内存在地面敌人时攻击速度<@ba.kw>+8</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 26.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 26.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "angel_equip_2_2_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "范围内存在地面敌人时攻击速度<@ba.kw>+8</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": "angel_equip_2_2_p2",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": "快速弹匣",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "攻击速度+15<@ba.talpu>（+3）</>；连续造成伤害时逐渐无视敌人防御力，最高无视150点防御力（每次造成伤害提升6点），5秒内未攻击则失去加成",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 37.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 37.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "angel_equip_2_2_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "范围内存在地面敌人时攻击速度<@ba.kw>+8</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": "angel_equip_2_3_p2",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": "快速弹匣",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "攻击速度+15<@ba.talpu>（+3）</>；连续造成伤害时逐渐无视敌人防御力，最高无视250点防御力（每次造成伤害提升10点），5秒内未攻击则失去加成",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 43.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 43.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+                {
+                    "key": "attack_speed",
+                    "value": 15.0
+                },
+                {
+                    "key": "def_penetrate",
+                    "value": 250
                 }
             ]
         }

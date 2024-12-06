@@ -11849,11 +11849,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "细胞活性抑制剂",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Cell Activity Suppressant",
+                "name_ja": "細胞活性化抑制剤",
                 "desc_zh": "攻击使目标在3秒内每秒受到90<@ba.talpu>(+10)</>点法术伤害(对【海怪】敌人伤害加倍)",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "攻撃時、攻撃対象に追加で3秒間毎秒90<@ba.talpu>（+10）</>の術ダメージを与える（敵【海の怪物】に対して効果倍増）",
+                "desc_en": "Deals 90 <@ba.talpu>(+10)</> Arts damage per second to targets on attacking, lasting 3 seconds (Damage is doubled against [Sea Monster] enemies)",
                 "tags": [
                     "dot",
                     "seamonster"
@@ -11885,11 +11885,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "测绘器材的奇用",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Ingenius Usage of Survey Equipment",
+                "name_ja": "測量機器の応用",
                 "desc_zh": "攻击范围内的非精英和领袖敌人获得18%<@ba.talpu>(+2%)</>的<ba.fragile>脆弱</>效果",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "攻撃範囲内の【エリート】と【ボス】を除く敵に18%<@ba.talpu>（+2%）</>の<ba.fragile>脆弱</>状態を付与する",
+                "desc_en": "Applies 18% <@ba.talpu>(+2%)</> <ba.fragile>Fragile</> effect to enemies that are not Elites or Leaders within range",
                 "tags": [
                     "fragile"
                 ],
@@ -11920,11 +11920,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "本性的坚守",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Natural Holdfast",
+                "name_ja": "本性の維持",
                 "desc_zh": "每次受到伤害时，治疗自身100点生命值；生命值低于50%时，治疗效果提升至160点生命值",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "ダメージを受ける度、自身のHPを100回復する。HPが50%以下の場合、治療効果は160まで上昇する",
+                "desc_en": "Restores 100 HP whenever taking damage; if HP is below 50%, restores 160 HP instead",
                 "tags": [
                     "heal_on_damage"
                 ],
@@ -11946,11 +11946,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "血脉的哺养",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Nourish the Blood",
+                "name_ja": "育まれし血脈",
                 "desc_zh": "每次击倒一名敌人时，自身的生命上限提高120，攻击力提高30，最多叠加10<@ba.talpu>(+1)</>次，其他【深海猎人】干员获得50%的提高效果",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "敵を倒すたび、自身の最大HPが120、攻撃力が30上昇する（最大10<@ba.talpu>（+1）</>回まで効果重複）。自身以外の味方【アビサルハンター】は50%の上昇効果を獲得する",
+                "desc_en": "Increases Max HP by 120 and ATK by 30 after defeating an enemy, stacking up to 10 <@ba.talpu>(+1)</> times; other [Abyssal Hunter] Operators gain 50% of this boost effect",
                 "tags": [
                     "abyssal"
                 ],
@@ -12388,7 +12388,18 @@
                     "burning",
                     "ele_dmg"
                 ],
-                "blackboard": []
+                "blackboard": [
+                    {
+                        "key": "res_down",
+                        "targets": 1,
+                        "value": 20,
+                        "duration": 10.0,
+                        "category": [
+                            "burning_burst"
+                        ],
+                        "target_air": true
+                    }
+                ]
             }
         ]
     },
@@ -13144,6 +13155,86 @@
                     {
                         "key": "attack_speed",
                         "value": 10.0
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4163_rosesa": {
+        "appellation": "Rose Salt",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "最好的草药医生",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "自身攻击力-5%，但攻击范围内的友方干员受到的治疗效果提升17%<@ba.talpu>（+2%）</>",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "ally_heal_scale",
+                        "value": 1.17
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4164_tecno": {
+        "appellation": "Tecno",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "即兴制偶",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "攻击范围内的地面敌人被击倒时原地生成一个木偶舞者（最多存在5个），木偶舞者攻击造成法术伤害",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "summon"
+                ],
+                "blackboard": [
+                    {
+                        "key": "max_token_cnt",
+                        "value": 5.0
+                    }
+                ]
+            }
+        ]
+    },
+    "char_1039_thorn2": {
+        "appellation": "Thorns the Lodestar",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "心相",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "攻击力+14%<@ba.talpu>（+4%）</>，攻击范围内存在其他干员时，自身投掷的炼金单元持续时间延长4<@ba.talpu>（+1）</>秒",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": []
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "视界",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "在场时，所有友方单位攻击速度+5，敌方单位攻击速度-5；位于连续6格或以上直线道路的友方和敌方单位受到的效果翻倍",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "ally_aspd",
+                        "value": 5.0
+                    },
+                    {
+                        "key": "aspd_down",
+                        "value": 5.0
                     }
                 ]
             }

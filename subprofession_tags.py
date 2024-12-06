@@ -41,6 +41,6 @@ def get_sub_profession_tags(char, id):
         tags.append("phys")
     if char['subProfessionId'] in ["artsfghter", "artsprotector", "incantationmedic",
                                    "slower", "summoner", "underminer", "blessing", "ritualist",
-                                   "corecaster", "splashcaster", "blastcaster", "funnel", "phalanx", "mystic", "chain", "primcaster",]:
+                                   "corecaster", "splashcaster", "blastcaster", "funnel", "phalanx", "mystic", "chain", "primcaster","soulcaster"]:
         tags.append("arts")
     return tags
