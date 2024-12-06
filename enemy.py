@@ -16,6 +16,25 @@ enemy_database_path = os.path.join(
     script_dir, "cn_data/zh_CN/gamedata/levels/enemydata/enemy_database.json"
 )
 
+def get_status_immune_list(stat):
+    list = []
+    if stat["enemyData"]["attributes"]["stunImmune"]["m_value"]:
+        list.append("stun")
+    if stat["enemyData"]["attributes"]["silenceImmune"]["m_value"]:
+        list.append("silence")
+    if stat["enemyData"]["attributes"]["sleepImmune"]["m_value"]:
+        list.append("sleep")
+    if stat["enemyData"]["attributes"]["frozenImmune"]["m_value"]:
+        list.append("freeze")
+    if stat["enemyData"]["attributes"]["levitateImmune"]["m_value"]:
+        list.append("levitate")
+    if stat["enemyData"]["attributes"]["disarmedCombatImmune"]["m_value"]:
+        list.append("tremble")
+    if stat["enemyData"]["attributes"]["fearedImmune"]["m_value"]:
+        list.append("fear")
+    return list
+
+
 with open(cn_enemy_handbook_path, encoding="utf-8") as f:
     cn_enemy_handbook = json.load(f)
 with open(en_enemy_handbook_path, encoding="utf-8") as f:
@@ -58,22 +77,6 @@ for key in cn_enemy_handbook['enemyData']:
             enemyTags.append("flying")
         enemyTags.append(enemyStats[0]['enemyData']['levelType']['m_value']
                          if enemyStats[0]['enemyData']['levelType']['m_defined'] else 'NORMAL')
-
-        status_immune = []
-        if enemyStats[0]["enemyData"]["attributes"]["stunImmune"]["m_value"]:
-            status_immune.append("stun")
-        if enemyStats[0]["enemyData"]["attributes"]["silenceImmune"]["m_value"]:
-            status_immune.append("silence")
-        if enemyStats[0]["enemyData"]["attributes"]["sleepImmune"]["m_value"]:
-            status_immune.append("sleep")
-        if enemyStats[0]["enemyData"]["attributes"]["frozenImmune"]["m_value"]:
-            status_immune.append("freeze")
-        if enemyStats[0]["enemyData"]["attributes"]["levitateImmune"]["m_value"]:
-            status_immune.append("levitate")
-        if enemyStats[0]["enemyData"]["attributes"]["disarmedCombatImmune"]["m_value"]:
-            status_immune.append("tremble")
-        if enemyStats[0]["enemyData"]["attributes"]["fearedImmune"]["m_value"]:
-            status_immune.append("fear")
 
         data["id"] = enemyIndex
         data["key"] = key
@@ -136,11 +139,11 @@ for key in cn_enemy_handbook['enemyData']:
                 else enemyStats[0]["enemyData"]["attributes"]["epResistance"][
                     "m_value"
                 ],
+                "special":[],
+                "status_immune":get_status_immune_list(stat)
             }
             for stat in enemyStats
         ]
-        data["special"] = []
-        data["status_immune"] = status_immune
         data["normal_attack"] = normal_attack
         data["type"] = enemyTags
         data["type"].insert(0, attackType)
