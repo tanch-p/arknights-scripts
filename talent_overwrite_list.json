@@ -106,10 +106,10 @@
     "enemy_1266_nhapos": [{ "key": "nhapos_pollution", "low": 100, "high": 50 }]
   },
   "level_rogue3_6-2": {
-    "enemy_2007_flwitch": [[{ "key": "invincible", "value": 40 }]]
+    "enemy_2007_flwitch": [{ "key": "invincible", "value": 40, "formIndex":0 }]
   },
   "level_rogue3_b-4-b": {
-    "enemy_2054_smdeer": [{ "key": "smdeer_3", "value": 70 }],
+    "enemy_2054_smdeer_b": [{ "key": "smdeer_3", "value": 70 }],
     "enemy_1243_ltswar_2": [
       { "key": "sarks_performance", "cooldown": 15.0, "initCooldown": 11.0 }
     ]

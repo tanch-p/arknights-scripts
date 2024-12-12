@@ -7155,12 +7155,8 @@
         "targets": ["enemy_1047_sagent"],
         "mods": {
           "special": {
-            "sniper_stun": {
-              "tooltip": {
-                "en": ["Every 3rd attack stuns target for $10s$"],
-                "ja": ["攻撃2回の度に次の攻撃に相手を$10秒$スタンする"],
-                "zh": ["攻击2次后，下一次攻击会晕眩目标$10秒$"]
-              }
+            "atk_recv_stun": {
+              "duration":10
             }
           }
         }
@@ -14978,8 +14974,8 @@
     ],
     "eliteDesc_zh": [
       "所有敌方单位的攻击力+10%，防御力+20%，生命值+20%",
-      "前期破次额外出现1个叛乱煽动者",
-      "最终破次的6个染污躯壳被替换为4个寻路密探"
+      "前期波次额外出现1个叛乱煽动者",
+      "最终波次的6个染污躯壳被替换为4个寻路密探"
     ],
     "eliteDesc_ja": [
       "敵全員の攻撃力+10%、防御力+20%、最大HP+20%",
@@ -16035,17 +16031,7 @@
         "mods": {
           "special": {
             "bug_explode_eslime": {
-              "tooltip": {
-                "en": [
-                  "Explodes on death, giving all enemies $+4$ energy and deals 400% ATK dmg to nearby units (Can be silenced)"
-                ],
-                "ja": [
-                  "死亡時には爆発する、マップ上の敵のエネルギーを$4$点補充して、周囲に攻撃力400%の術ダメージを与える（無効化可能）"
-                ],
-                "zh": [
-                  "死亡后使场上所有敌人获得$4$点能量，并对周围我造成攻击力400%的法术溅射伤害（可被沉默）"
-                ]
-              }
+             "value":4
             }
           }
         }
@@ -17858,14 +17844,9 @@
         "targets": ["enemy_1299_ymkilr_2"],
         "mods": {
           "special": {
-            "ymkilr_2": {
+            "stealth_atk": {
               "atk": {
                 "multiplier": 4
-              },
-              "tooltip": {
-                "en": ["Attacks from Stealth state does $400$% damage"],
-                "ja": ["ステルス状態からの攻撃の倍率が$400$%に増加"],
-                "zh": ["隐匿效果失效后的下一次攻击造成更高伤害"]
               }
             }
           }
@@ -24905,8 +24886,8 @@
         "mods": {
           "special": {
             "stmgun_bombard": {
-              "cd1": 5,
-              "cd2": 12.5
+              "initCooldown": 5,
+              "cooldown": 12.5
             }
           }
         }
@@ -25117,6 +25098,9 @@
         "targets": ["enemy_1513_dekght_2", "enemy_1513_dekght"],
         "mods": {
           "special": {
+            "corrupted_knight_rage":{
+              "value":130
+            }, 
             "mods_1": {
               "atk": 2.3,
               "aspd": 2,
@@ -25544,7 +25528,7 @@
         "mods": {
           "special": {
             "skzlcp_1": {
-              "cd2": 30
+              "cooldown": 30
             }
           }
         }

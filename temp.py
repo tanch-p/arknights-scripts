@@ -69,7 +69,7 @@ new_data = {}
 for key in enemy_db:
     enemy = enemy_db[key]
     forms = [{"title": None, "normal_attack": enemy['normal_attack']
-              if 'normal_attack' in enemy else None}]
+              if 'normal_attack' in enemy else None, "status_immune": enemy['status_immune']}]
     stats = [{
         "hp": stat['hp'],
         "atk": stat['atk'],
@@ -82,8 +82,8 @@ for key in enemy_db:
         "ms": stat['ms'],
         "epDamageResistance": stat['epDamageResistance'],
         "epResistance": stat['epResistance'],
-        "special": [],
-        "status_immune": enemy['status_immune']
+        "traits":[],
+        "special": []
     } for stat in enemy['stats']]
 
     if 'forms' in enemy:
@@ -92,15 +92,15 @@ for key in enemy_db:
         form_mods = []
         for form in enemy['forms']:
             special.append([form['special']])
-            form_mods.append( form['mods'])
+            form_mods.append(form['mods'])
             forms.append(
-                {"title": form['title'], 'normal_attack': form['normal_attack']})
+                {"title": form['title'], 'normal_attack': form['normal_attack'],"status_immune": enemy['status_immune']})
         for stat in stats:
             stat['special'] = special
             stat['form_mods'] = form_mods
     else:
         for stat in stats:
-            stat['special'] = enemy['special']
+            stat['traits'] = enemy['special']
     holder = {
         "id": enemy['id'],
         "key": enemy["key"],

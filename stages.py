@@ -80,7 +80,7 @@ def get_timeline_enemy_counts(timeline):
 
 
 def skip_enemy(levelId, key):
-    levels = {"level_rogue4_4-4": ["enemy_1221_dzomg_b", "enemy_1220_dzoms_b"]}
+    levels = {"level_rogue4_4-4": ["enemy_1221_dzomg_b", "enemy_1220_dzoms_b"], "level_rogue3_b-4-b":["enemy_2054_smdeer"]}
     return levelId in levels and key in levels[levelId]
 
 
