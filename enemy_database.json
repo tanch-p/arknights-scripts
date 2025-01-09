@@ -6972,7 +6972,11 @@
         "ms": 0.8,
         "epDamageResistance": 0.0,
         "epResistance": 0.0,
-        "traits": [],
+        "traits": [
+          {
+            "key": "multi_target"
+          }
+        ],
         "special": []
       }
     ],
@@ -10185,7 +10189,8 @@
             "key": "yinyang_same_block"
           },
           {
-            "key": "deyi_explode_kill"
+            "key": "deyi_explode_kill",
+            "atk": { "multiplier": 5 }
           },
           {
             "key": "deyi_explode"
@@ -12638,7 +12643,7 @@
         "epResistance": 0.0,
         "traits": [
           {
-            "key": "splash",
+            "key": "splash_no_splash",
             "tiles": 4
           },
           {
@@ -12682,7 +12687,7 @@
         "epResistance": 0.0,
         "traits": [
           {
-            "key": "splash",
+            "key": "splash_no_splash",
             "tiles": 4
           },
           {
@@ -12726,7 +12731,7 @@
         "epResistance": 0.0,
         "traits": [
           {
-            "key": "splash",
+            "key": "splash_no_splash",
             "tiles": 4
           },
           {
@@ -12773,7 +12778,7 @@
         "epResistance": 0.0,
         "traits": [
           {
-            "key": "splash",
+            "key": "splash_no_splash",
             "tiles": 4
           },
           {
@@ -25467,6 +25472,9 @@
               "value": 20
             },
             {
+              "key": "fnf_form_2"
+            },
+            {
               "key": "fnf_nova",
               "radius": 3.3
             },
@@ -25508,13 +25516,17 @@
               "key": "fzm_freeze_redeploy"
             },
             {
-              "key": "fnf_seal_tile"
+              "key": "fnf_seal_tile",
+              "value": 3
             }
           ],
           [
             {
               "key": "invincible",
-              "value": 20
+              "value": 25
+            },
+            {
+              "key": "fnf_form_2"
             },
             {
               "key": "fnf_nova",
@@ -25522,7 +25534,7 @@
             },
             {
               "key": "fnf_seal_tile",
-              "value": 3
+              "value": 4
             }
           ]
         ],
@@ -26175,11 +26187,17 @@
           [
             {
               "key": "JAK_strong_wine_attack"
+            },
+            {
+              "key": "jak_form_1"
             }
           ],
           [
             {
               "key": "JAK_strong_sword_attack"
+            },
+            {
+              "key": "jak_form_2"
             }
           ]
         ],
@@ -26190,7 +26208,7 @@
           {
             "fixed_atk": 700,
             "fixed_def": 1000,
-            "fixed_aspd": -1.5,
+            "atk_interval": -1.5,
             "fixed_ms": 0.3,
             "fixed_range": -2
           }
@@ -26213,11 +26231,18 @@
           [
             {
               "key": "JAK_strong_wine_attack"
+            },
+            {
+              "key": "jak_form_1"
             }
           ],
           [
             {
               "key": "JAK_strong_sword_attack"
+            },
+            {
+              "key": "jak_form_2",
+              "value": 800
             }
           ]
         ],
@@ -26228,7 +26253,7 @@
           {
             "fixed_atk": 800,
             "fixed_def": 1000,
-            "fixed_aspd": -1.5,
+            "atk_interval": -1.5,
             "fixed_ms": 0.3,
             "fixed_range": -2
           }
