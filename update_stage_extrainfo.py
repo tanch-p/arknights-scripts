@@ -128,11 +128,11 @@ for key in extra_info_list:
 #             if sp_enemy is not None:
 #                 if sp_enemy['normal'] == sp_enemy['elite']:
 #                     sp_enemy['elite'] = None
-              # normal_runes = parse_runes(
-                        #     stage_data['runes'], 'normal') if stage_data['runes'] else None
-              # normal_runes = normal_runes['runes'] if normal_runes and 'runes' in normal_runes else None
+#             # normal_runes = parse_runes(
+#             #             stage_data['runes'], 'normal') if stage_data['runes'] else None
+#             # normal_runes = normal_runes['runes'] if normal_runes and 'runes' in normal_runes else None
 #             runes_data = parse_runes(
-#                 stage_data['runes']) if stage_data['runes'] else None
+#                 stage_data['runes'],'elite') if stage_data['runes'] else None
 #             runes = runes_data['runes'] if runes_data else None
 #             sp_tiles = get_special_tiles(stage_data['mapData']['tiles'])
 #             sp_terrain = sp_tiles if 'rogue3' in key or 'rogue4' in key else None
@@ -153,7 +153,7 @@ for key in extra_info_list:
 #                 "eliteDesc_zh": stage['eliteDesc_zh'],
 #                 "eliteDesc_ja": stage['eliteDesc_ja'],
 #                 "eliteDesc_en": stage['eliteDesc_en'],
-            #     "normal_mods": None,
+#                 "normal_mods": None,
 #                 "elite_mods": runes,
 #                  "all_possible_enemy_count": all_possible_enemy_count,
 #     "sp_count": sp_count,

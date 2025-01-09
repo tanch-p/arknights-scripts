@@ -17,9 +17,21 @@ action_index = 13
 route_index = 12
 route_info = map_data['routes'][route_index]
 
+# 0 path, 1 wall
 
+layout = [] 
+for row in map_data['mapData']['map']:
+    row_layout = []
+    for colIndex in row:
+        tile = map_data['mapData']['tiles'][colIndex]
+        if tile['passableMask'] == "FLY_ONLY":
+            row_layout.append(1)
+        else:
+            row_layout.append(0)
+    layout.append(row_layout)
 
 data = {
+    "layout":layout,
     "mapData":map_data['mapData'],
     "route": route_info}
 

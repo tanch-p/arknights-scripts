@@ -7156,7 +7156,7 @@
         "mods": {
           "special": {
             "atk_recv_stun": {
-              "duration":10
+              "duration": 10
             }
           }
         }
@@ -16031,7 +16031,7 @@
         "mods": {
           "special": {
             "bug_explode_eslime": {
-             "value":4
+              "value": 4
             }
           }
         }
@@ -19595,6 +19595,166 @@
     ],
     "elite_enemy_list": null
   },
+  "level_rogue4_b-8": {
+    "levelId": "level_rogue4_b-8",
+    "code": "ISW-DF",
+    "name_zh": "不容拒绝",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": [6, 7],
+    "addInfo_zh": [
+      "敌方单位的攻击力、防御力和生命值都提升至120% (未确认）",
+      "系统 - env_020_ro4dlc2_boss5",
+      "rogue_4_lock_all_entities_when_born"
+    ],
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "normal_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.2,
+          "def": 1.2,
+          "hp": 1.2
+        }
+      }
+    ],
+    "elite_mods": null,
+    "all_possible_enemy_count": [85],
+    "sp_count": null,
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": null,
+    "sp_terrain": null,
+    "enemy_list": [
+      {
+        "key": "enemy_2092_skzamy",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2094_skzamb",
+        "min_count": 15,
+        "max_count": 15
+      },
+      {
+        "key": "enemy_2096_skzamj_03",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2096_skzamj_04",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2095_skzamf_04",
+        "min_count": 10,
+        "max_count": 14
+      },
+      {
+        "key": "enemy_2095_skzamf_16",
+        "min_count": 19,
+        "max_count": 19
+      },
+      {
+        "key": "enemy_2095_skzamf_18",
+        "min_count": 7,
+        "max_count": 7
+      },
+      {
+        "key": "enemy_2095_skzamf_19",
+        "min_count": 6,
+        "max_count": 10
+      },
+      {
+        "key": "enemy_2095_skzamf_20",
+        "min_count": 4,
+        "max_count": 4
+      },
+      {
+        "key": "enemy_2096_skzamj_01",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2095_skzamf_13",
+        "min_count": 2,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_2095_skzamf_17",
+        "min_count": 2,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_2096_skzamj_02",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2096_skzamj_05",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2096_skzamj_07",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2096_skzamj_06",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2094_skzamb_2",
+        "min_count": 5,
+        "max_count": 5
+      }
+    ],
+    "elite_enemy_list": null
+  },
+  "level_rogue4_b-9": {
+    "levelId": "level_rogue4_b-9",
+    "code": " ",
+    "name_zh": " ",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": [6, 7],
+    "addInfo_zh": [
+      "系统 - env_020_ro4dlc2_boss5",
+      "rogue_4_lock_all_entities_when_born"
+    ],
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": null,
+    "eliteDesc_ja": null,
+    "eliteDesc_en": null,
+    "normal_mods": null,
+    "elite_mods": null,
+    "all_possible_enemy_count": [1],
+    "sp_count": null,
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": null,
+    "sp_terrain": null,
+    "enemy_list": [
+      {
+        "key": "enemy_2092_skzamy",
+        "min_count": 1,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": null
+  },
   "level_rogue4_t-1": {
     "levelId": "level_rogue4_t-1",
     "code": "ISW-SP",
@@ -21888,6 +22048,136 @@
       }
     ]
   },
+  "level_rogue4_1-5": {
+    "levelId": "level_rogue4_1-5",
+    "code": "ISW-NO",
+    "name_zh": "冰川期",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": [1],
+    "addInfo_zh": ["年代之刺：普通0/天灾+1"],
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力+20%，生命值+30%",
+      "额外出现2个源石冰晶"
+    ],
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+20%、最大HP+30%",
+      "追加で「源石氷晶」2台が出現する"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +20% ATK and +30% Max HP",
+      "Additional 2 <Originium Ice Crystal> appears"
+    ],
+    "normal_mods": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.2,
+          "def": 1.0,
+          "hp": 1.3
+        }
+      }
+    ],
+    "all_possible_enemy_count": [31],
+    "sp_count": [32],
+    "all_possible_elite_enemy_count": [31],
+    "elite_sp_count": [32],
+    "sp_enemy": {
+      "normal": "32",
+      "elite": null,
+      "fixed": true
+    },
+    "sp_terrain": null,
+    "enemy_list": [
+      {
+        "key": "enemy_1067_snslime",
+        "min_count": 10,
+        "max_count": 10
+      },
+      {
+        "key": "enemy_1071_dftman",
+        "min_count": 11,
+        "max_count": 11
+      },
+      {
+        "key": "enemy_1007_slime_3",
+        "min_count": 8,
+        "max_count": 8
+      },
+      {
+        "key": "enemy_1191_krgrg",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": [
+      {
+        "key": "enemy_1067_snslime",
+        "min_count": 10,
+        "max_count": 10
+      },
+      {
+        "key": "enemy_1071_dftman",
+        "min_count": 11,
+        "max_count": 11
+      },
+      {
+        "key": "enemy_1007_slime_3",
+        "min_count": 8,
+        "max_count": 8
+      },
+      {
+        "key": "enemy_1191_krgrg",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ]
+  },
   "level_rogue4_2-1": {
     "levelId": "level_rogue4_2-1",
     "code": "ISW-NO",
@@ -22691,6 +22981,116 @@
       }
     ]
   },
+  "level_rogue4_2-7": {
+    "levelId": "level_rogue4_2-7",
+    "code": "ISW-NO",
+    "name_zh": "丛林密布",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": [2],
+    "addInfo_zh": ["年代之刺：普通2/天灾+1"],
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力+20%，生命值+20%",
+      "<暴走食虫花>被替换为<暴走食人花>"
+    ],
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+20%、最大HP+20%",
+      "<暴走食虫花>が<暴走食人花>に替わる"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +20% ATK and +20% Max HP",
+      "All <暴走食虫花> are replaced with <暴走食人花>"
+    ],
+    "normal_mods": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.2,
+          "def": 1.0,
+          "hp": 1.2
+        }
+      }
+    ],
+    "all_possible_enemy_count": [15, 18],
+    "sp_count": [16, 19],
+    "all_possible_elite_enemy_count": [15, 18],
+    "elite_sp_count": [16, 19],
+    "sp_enemy": {
+      "normal": "16 / 19",
+      "elite": null,
+      "fixed": true
+    },
+    "sp_terrain": null,
+    "enemy_list": [
+      {
+        "key": "enemy_1071_dftman",
+        "min_count": 8,
+        "max_count": 8
+      },
+      {
+        "key": "enemy_10003_trwlpl",
+        "min_count": 7,
+        "max_count": 10
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": [
+      {
+        "key": "enemy_1071_dftman",
+        "min_count": 8,
+        "max_count": 8
+      },
+      {
+        "key": "enemy_10003_trwlpl_2",
+        "min_count": 7,
+        "max_count": 10
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ]
+  },
   "level_rogue4_3-1": {
     "levelId": "level_rogue4_3-1",
     "code": "ISW-NO",
@@ -23489,6 +23889,160 @@
       }
     ],
     "elite_enemy_list": null
+  },
+  "level_rogue4_3-8": {
+    "levelId": "level_rogue4_3-8",
+    "code": "ISW-NO",
+    "name_zh": "机动队",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": [3],
+    "addInfo_zh": ["年代之刺：普通1/天灾+1"],
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力+20%，防御力+30%，生命值+30%",
+      "额外出现2个深池飞行兵",
+      "3个萨卡兹迷宫归乡者被替换为4个被寄生的萨卡兹迷宫归乡者"
+    ],
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+20%、防御力+30%、最大HP+30%",
+      "追加で1体の<ダブリン飛行兵>が出現する",
+      "<萨卡兹迷宫归乡者>3体が寄生された<萨卡兹迷宫归乡者>4体に替わる"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +20% ATK, +30% DEF and +30% Max HP",
+      "Additional 2 <Dublinn Flying Soldier> appear",
+      "3 <萨卡兹迷宫归乡者> are replaced with 4 parasitic <萨卡兹迷宫归乡者>"
+    ],
+    "normal_mods": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.2,
+          "def": 1.3,
+          "hp": 1.3
+        }
+      }
+    ],
+    "all_possible_enemy_count": [20],
+    "sp_count": [21],
+    "all_possible_elite_enemy_count": [23],
+    "elite_sp_count": [24],
+    "sp_enemy": {
+      "normal": "21",
+      "elite": "24",
+      "fixed": true
+    },
+    "sp_terrain": [
+      {
+        "tileKey": "tile_hole",
+        "alias": null,
+        "blackboard": null
+      }
+    ],
+    "enemy_list": [
+      {
+        "key": "enemy_1171_durokt",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1082_soticn",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_2064_skzwdd",
+        "min_count": 12,
+        "max_count": 12
+      },
+      {
+        "key": "enemy_1082_soticn_2",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1418_mmkonm",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": [
+      {
+        "key": "enemy_1171_durokt",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_1082_soticn",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_2064_skzwdd",
+        "min_count": 9,
+        "max_count": 9
+      },
+      {
+        "key": "enemy_2064_skzwdd_b",
+        "min_count": 4,
+        "max_count": 4
+      },
+      {
+        "key": "enemy_1082_soticn_2",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1418_mmkonm",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ]
   },
   "level_rogue4_4-1": {
     "levelId": "level_rogue4_4-1",
@@ -24643,6 +25197,117 @@
     ],
     "elite_enemy_list": null
   },
+  "level_rogue4_4-10": {
+    "levelId": "level_rogue4_4-10",
+    "code": "ISW-NO",
+    "name_zh": "争议频发",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": null,
+    "addInfo_zh": ["年代之刺：普通1 (5%是饮泣之刺) /天灾+1"],
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力+30%，防御力+30%，生命值+30%",
+      "<爆破攻坚手组长>获得额外攻击力+50%"
+    ],
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+30%、防御力+30%、最大HP+30%",
+      "<凶悪ボンバークラッシャー>の攻撃力がさらに50%上昇"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +30% ATK, +30% DEF and +30% Max HP",
+      "All <Demolitionist Leader> additionally gain +50% ATK"
+    ],
+    "normal_mods": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.3,
+          "def": 1.3,
+          "hp": 1.3
+        }
+      },
+      {
+        "targets": ["enemy_1076_bsthmr_2"],
+        "mods": {
+          "atk": 1.5
+        }
+      }
+    ],
+    "all_possible_enemy_count": [44],
+    "sp_count": [45],
+    "all_possible_elite_enemy_count": null,
+    "elite_sp_count": null,
+    "sp_enemy": {
+      "normal": "45",
+      "elite": null,
+      "fixed": true
+    },
+    "sp_terrain": [
+      {
+        "tileKey": "tile_hole",
+        "alias": null,
+        "blackboard": null
+      }
+    ],
+    "enemy_list": [
+      {
+        "key": "enemy_1076_bsthmr_2",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_1171_durokt_2",
+        "min_count": 16,
+        "max_count": 16
+      },
+      {
+        "key": "enemy_2064_skzwdd",
+        "min_count": 10,
+        "max_count": 10
+      },
+      {
+        "key": "enemy_1174_duholy_2",
+        "min_count": 6,
+        "max_count": 6
+      },
+      {
+        "key": "enemy_1175_dushdo_2",
+        "min_count": 6,
+        "max_count": 6
+      },
+      {
+        "key": "enemy_2073_skzrck",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": null
+  },
   "level_rogue4_5-1": {
     "levelId": "level_rogue4_5-1",
     "code": "ISW-NO",
@@ -25083,9 +25748,9 @@
         "targets": ["enemy_1513_dekght_2", "enemy_1513_dekght"],
         "mods": {
           "special": {
-            "corrupted_knight_rage":{
-              "value":130
-            }, 
+            "corrupted_knight_rage": {
+              "value": 130
+            },
             "mods_1": {
               "atk": 2.3,
               "aspd": 2,
@@ -25767,6 +26432,162 @@
       },
       {
         "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ]
+  },
+  "level_rogue4_5-9": {
+    "levelId": "level_rogue4_5-9",
+    "code": "ISW-NO",
+    "name_zh": "莱茵卫士",
+    "name_ja": null,
+    "name_en": null,
+    "category": null,
+    "routes": null,
+    "floors": [5],
+    "addInfo_zh": ["年代之刺：普通0/天灾+1"],
+    "addInfo_ja": null,
+    "addInfo_en": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力+30%，防御力+30%，生命值+30%",
+      "额外出现6个“十字路口”试做型"
+    ],
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+30%、防御力+30%、最大HP+30%",
+      "追加で「「クロスロード」試作型」6体が出現する"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +30% ATK, +30% DEF and +30% Max HP",
+      "Additional 6 <'Crossroads' Prototype> appears "
+    ],
+    "normal_mods": null,
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.3,
+          "def": 1.3,
+          "hp": 1.3
+        }
+      }
+    ],
+    "all_possible_enemy_count": [43],
+    "sp_count": [44],
+    "all_possible_elite_enemy_count": [49],
+    "elite_sp_count": [50],
+    "sp_enemy": {
+      "normal": "44",
+      "elite": "50",
+      "fixed": true
+    },
+    "sp_terrain": [
+      {
+        "tileKey": "tile_hole",
+        "alias": null,
+        "blackboard": null
+      }
+    ],
+    "enemy_list": [
+      {
+        "key": "enemy_1331_cbsisy_2",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1325_cbgpro_2",
+        "min_count": 17,
+        "max_count": 17
+      },
+      {
+        "key": "enemy_1327_cbrokt_2",
+        "min_count": 16,
+        "max_count": 16
+      },
+      {
+        "key": "enemy_1330_cbrush_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1332_cbterm_2",
+        "min_count": 0,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_1332_cbterm_2_2",
+        "min_count": 0,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ],
+    "elite_enemy_list": [
+      {
+        "key": "enemy_1331_cbsisy_2",
+        "min_count": 8,
+        "max_count": 8
+      },
+      {
+        "key": "enemy_1325_cbgpro_2",
+        "min_count": 17,
+        "max_count": 17
+      },
+      {
+        "key": "enemy_1327_cbrokt_2",
+        "min_count": 16,
+        "max_count": 16
+      },
+      {
+        "key": "enemy_1330_cbrush_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1332_cbterm_2",
+        "min_count": 0,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_1332_cbterm_2_2",
+        "min_count": 0,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
         "min_count": 0,
         "max_count": 1
       }

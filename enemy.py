@@ -140,14 +140,16 @@ for key in cn_enemy_handbook['enemyData']:
                 else enemyStats[0]["enemyData"]["attributes"]["epResistance"][
                     "m_value"
                 ],
+                "traits":[],
                 "special": [],
-                "status_immune": get_status_immune_list(stat) if len(get_status_immune_list(stat)) > len(status_immune_list) else status_immune_list
             }
             for stat in enemyStats
         ]
         data['forms'] = {
-            "title":None,
-            "normal_attack": normal_attack
+            "title": None,
+            "normal_attack": normal_attack,
+            "status_immune": get_status_immune_list(enemyStats[0]) if len(get_status_immune_list(enemyStats[0])) > len(status_immune_list) else status_immune_list
+
         }
         data["type"] = enemyTags
         data["type"].insert(0, attackType)

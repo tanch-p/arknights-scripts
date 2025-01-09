@@ -6,7 +6,7 @@ from operator import itemgetter
 pp = pprint.PrettyPrinter(indent=4)
 
 KEYS_TO_EXCLUDE = ['trap_079_allydonq']
-HIDDEN_GROUPS = ['allydonq', "totem1", 'totem2', 'bossrelic', 'calamity', 'cargo', 'hidden_door','hidden_window','box_1','box_3']
+HIDDEN_GROUPS = ['allydonq', "totem1", 'totem2', 'bossrelic', 'calamity', 'cargo', 'hidden_door','hidden_window','box_1','box_3','shadow']
 
 def get_wave_data(stage_data, stage_id, log=False):
     def is_trap_group(group):
@@ -20,7 +20,7 @@ def get_wave_data(stage_data, stage_id, log=False):
         has_sp_flag = False
         has_empty_flag = False
         sp_enemy_list = ["enemy_2034_sythef",
-                         "enemy_2001_duckmi", "enemy_2002_bearmi","'enemy_2085_skzjxd'"]
+                         "enemy_2001_duckmi", "enemy_2002_bearmi","enemy_2085_skzjxd"]
         for group_name in groups[-1]:
             for packKey in groups[-1][group_name]:
                 for action in groups[-1][group_name][packKey]:

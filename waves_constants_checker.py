@@ -11,7 +11,7 @@ script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 # 1. randomSpawnGroupKey between fragments are separate.
 # 2. hiddenGroups can also have randomSpawnGroupKey
 # 3. bonus wave may not be wave #2 but in fragment... as in level_rogue2_5-8
-# 4. 
+# 4.
 
 folders = ['ro1', 'ro2', 'ro3', 'ro4']
 
@@ -48,14 +48,8 @@ for file_path in files:
                     if action['refreshType'] != 'ALWAYS':
                         print('refreshType is not ALWAYS', file_path)
                         valid = False
-                    if action['isValid'] is True:
-                        print('isValid is True', file_path, action)
-                        valid = False
-                    if action['actionId'] is not None:
-                        print('actionId is not None', file_path)
-                        valid = False
-                    if action['extraMeta'] is not None:
-                        print('extraMeta is not None', file_path)
+                    if action['forceBlockWaveInBranch'] is True:
+                        print('forceBlockWaveInBranch is True', file_path)
                         valid = False
                     if not valid:
                         pp.pprint(action)
