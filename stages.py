@@ -193,9 +193,9 @@ for topic_dict in roguelike_topics:
                 "initialCost": stage_data["options"]["initialCost"],
                 "costIncreaseTime": stage_data["options"]["costIncreaseTime"],
                 "code": stage_info_cn["code"],
-                "name_zh": stage_info_cn["name"],
-                "name_ja": stage_info_jp["name"].replace(" ", "_") if TOPIC_IN_GLOBAL else None,
-                "name_en": stage_info_en["name"].replace(" ", "_") if TOPIC_IN_GLOBAL else None,
+                "name_zh":  stage_info_cn["name"] if levelId != 'level_rogue4_b-9' else '「」',
+                "name_ja": (stage_info_jp["name"] if levelId != 'level_rogue4_b-9' else '「」').replace(" ", "_") if TOPIC_IN_GLOBAL else None,
+                "name_en": (stage_info_en["name"] if levelId != 'level_rogue4_b-9' else '「」').replace(" ", "_") if TOPIC_IN_GLOBAL else None,
                 "description_zh": stage_info_cn["description"].replace("\\n", "\n"),
                 "description_ja": stage_info_jp["description"].replace("\\n", "\n")
                 if TOPIC_IN_GLOBAL
