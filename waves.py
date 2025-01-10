@@ -6,7 +6,10 @@ from operator import itemgetter
 pp = pprint.PrettyPrinter(indent=4)
 
 KEYS_TO_EXCLUDE = ['trap_079_allydonq']
-HIDDEN_GROUPS = ['allydonq', "totem1", 'totem2', 'bossrelic', 'calamity', 'cargo', 'hidden_door','hidden_window','box_1','box_3','shadow']
+HIDDEN_GROUPS = ['allydonq', "totem1", 'totem2', 'bossrelic', 'calamity',
+                 'cargo', 'hidden_door', 'hidden_window', 'box_1', 'box_3', 'shadow','normal_amiya']
+ALWAYS_KILLED_KEYS = ['enemy_2073_skzrck','enemy_2094_skzamb','enemy_2094_skzamb_2']
+
 
 def get_wave_data(stage_data, stage_id, log=False):
     def is_trap_group(group):
@@ -16,11 +19,16 @@ def get_wave_data(stage_data, stage_id, log=False):
                 return True
         return False
 
+    def include_in_count(key):
+        if key in ALWAYS_KILLED_KEYS:
+            return False
+        return True
+
     def has_bonus_wave(groups):
         has_sp_flag = False
         has_empty_flag = False
         sp_enemy_list = ["enemy_2034_sythef",
-                         "enemy_2001_duckmi", "enemy_2002_bearmi","enemy_2085_skzjxd"]
+                         "enemy_2001_duckmi", "enemy_2002_bearmi", "enemy_2085_skzjxd"]
         for group_name in groups[-1]:
             for packKey in groups[-1][group_name]:
                 for action in groups[-1][group_name][packKey]:
@@ -76,7 +84,7 @@ def get_wave_data(stage_data, stage_id, log=False):
                             else:
                                 if not count in pack_groups[key]:
                                     pack_groups[key].append(count)
-                #additional step for enemies that don't appear in other packs
+                # additional step for enemies that don't appear in other packs
                 for pack_enemy_key in pack_groups:
                     for pack in fragment_group[group]:
                         if pack != 'none':
@@ -105,8 +113,10 @@ def get_wave_data(stage_data, stage_id, log=False):
                 for pack in fragment_group[group]:
                     if pack == 'none':
                         for action in fragment_group[group][pack]:
+                            if 'trap' in action['key']:
+                                continue
                             count = action['count']
-                            if action['isUnharmfulAndAlwaysCountAsKilled']:
+                            if not include_in_count(action['key']):
                                 count = 0
                             if action['key'] == '':
                                 count = 0
@@ -115,7 +125,9 @@ def get_wave_data(stage_data, stage_id, log=False):
                     else:
                         count = 0
                         for action in fragment_group[group][pack]:
-                            if action['key'] != '':
+                            if 'trap' in action['key']:
+                                continue
+                            if action['key'] != '' and include_in_count(action['key']):
                                 count += action['count']
                         if not count in permutations:
                             permutations.append(count)
@@ -162,7 +174,7 @@ def get_wave_data(stage_data, stage_id, log=False):
                 if key == 'enemy_1075_dmgswd' or key == 'enemy_1084_sotidm':
                     continue
 
-            if actionType != 'SPAWN':
+            if actionType != 'SPAWN' and key != 'trap_760_skztzs#0':
                 continue
             if hidden_group in HIDDEN_GROUPS:
                 continue
@@ -303,6 +315,8 @@ def get_wave_data(stage_data, stage_id, log=False):
                 elif rune['key'] == 'level_enemy_replace':
                     enemies_to_replace.append(
                         {rune['blackboard'][0]['valueStr']: rune['blackboard'][1]['valueStr']})
+    if stage_id == 'level_rogue4_b-8':
+        elite_group_name="hard_amiya"
     # has_pack_key = check_pack_key(stage_data)
     # if has_pack_key:
     #     print(stage_data['randomSeed'])
@@ -350,9 +364,9 @@ def get_wave_data(stage_data, stage_id, log=False):
 
     # log and pp.pprint(all_count_permutations)
     # log and pp.pprint(sums)
-    if stage_id == "level_rogue4_t-4": #lazy hack
+    if stage_id == "level_rogue4_t-4":  # lazy hack
         base_enemy_count -= 39
-    if stage_id == "level_rogue4_t-2": #lazy hack
+    if stage_id == "level_rogue4_t-2":  # lazy hack
         base_enemy_count -= 2
     all_possible_enemy_count = get_all_possible_enemy_counts(
         base_enemy_count, sums)
@@ -385,7 +399,7 @@ def get_wave_data(stage_data, stage_id, log=False):
                     elite_enemy_list[key]['max_count'] += max(group[key])
         log and print("elite enemy list: ")
         log and pp.pprint(elite_enemy_list)
-        if stage_id == "level_rogue4_t-4": #lazy hack
+        if stage_id == "level_rogue4_t-4":  # lazy hack
             elite_base_enemy_count -= 39
         if stage_id == "level_rogue4_t-2":
             elite_base_enemy_count -= 10
@@ -400,10 +414,10 @@ def get_wave_data(stage_data, stage_id, log=False):
                 all_possible_elite_enemy_count)
 
     enemy_list = [{"key": key, "min_count": enemy_list[key]["min_count"],
-                   "max_count": enemy_list[key]["max_count"]} for key in enemy_list]
+                   "max_count": enemy_list[key]["max_count"]} for key in enemy_list if not 'trap' in key]
     if elite_enemy_list is not None:
         elite_enemy_list = [{"key": key, "min_count": elite_enemy_list[key]["min_count"],
-                            "max_count": elite_enemy_list[key]["max_count"]} for key in elite_enemy_list]
+                            "max_count": elite_enemy_list[key]["max_count"]} for key in elite_enemy_list if not 'trap' in key]
 
     return {"enemy_list": enemy_list, "elite_enemy_list": elite_enemy_list, "all_possible_enemy_count": all_possible_enemy_count, "all_possible_elite_enemy_count": all_possible_elite_enemy_count, "sp_count": absolute_sp_counts, "elite_sp_count": absolute_elite_sp_counts}
 

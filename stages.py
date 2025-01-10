@@ -292,6 +292,10 @@ for topic_dict in roguelike_topics:
                             overwrittenData["range"] = enemy["overwrittenData"][
                                 "rangeRadius"
                             ]["m_value"]
+                        if enemy["overwrittenData"]["levelType"]["m_defined"]:
+                            overwrittenData["levelType"] = enemy["overwrittenData"][
+                                "levelType"
+                            ]["m_value"]
                         # hotfix for skills that change with level...
                         if levelId == 'level_rogue4_5-1' and enemy['id'] == 'enemy_1511_mdrock':
                             overwrittenData['talentBlackboard'] = talent_overwrite_list[levelId][enemy['id']]

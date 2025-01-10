@@ -2374,10 +2374,10 @@
         }
       }
     ],
-    "all_possible_enemy_count": [63, 64, 65],
-    "sp_count": [66],
-    "all_possible_elite_enemy_count": [63, 64, 65],
-    "elite_sp_count": [66],
+    "all_possible_enemy_count": [64, 65, 66],
+    "sp_count": [67],
+    "all_possible_elite_enemy_count": [64, 65, 66],
+    "elite_sp_count": [67],
     "sp_enemy": {
       "normal": 67,
       "elite": null,
@@ -15695,8 +15695,8 @@
         }
       }
     ],
-    "all_possible_enemy_count": [47, 48],
-    "sp_count": [49],
+    "all_possible_enemy_count": [48, 49],
+    "sp_count": [50],
     "all_possible_elite_enemy_count": null,
     "elite_sp_count": null,
     "sp_enemy": {
@@ -19605,13 +19605,15 @@
     "routes": null,
     "floors": [6, 7],
     "addInfo_zh": [
-      "敌方单位的攻击力、防御力和生命值都提升至120% (未确认）",
-      "系统 - env_020_ro4dlc2_boss5",
-      "rogue_4_lock_all_entities_when_born"
+      "敌方单位的攻击力、防御力和生命值都提升至120%",
+      "“阿米娅”，炉芯终曲在场时我方单位在部署（不包括移动）时被封印：晕眩+不可选中+阻挡数-99，持续时间无限（可以因仅剩的创意的效果解除）"
     ],
     "addInfo_ja": null,
     "addInfo_en": null,
-    "eliteDesc_zh": ["持有「终结的实相」时，出现伦蒂尼姆城防副炮和其他敌人"],
+    "eliteDesc_zh": [
+      "持有「终结的实相」时，出现其他敌人",
+      "第二阶段出现伦蒂尼姆城防副炮"
+    ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "normal_mods": [
@@ -19624,14 +19626,85 @@
         }
       }
     ],
-    "elite_mods": null,
-    "all_possible_enemy_count": [85],
+    "elite_mods": [
+      {
+        "targets": ["ALL"],
+        "mods": {
+          "atk": 1.2,
+          "def": 1.2,
+          "hp": 1.2
+        }
+      }
+    ],
+    "all_possible_enemy_count": [55],
     "sp_count": null,
-    "all_possible_elite_enemy_count": null,
+    "all_possible_elite_enemy_count": [60],
     "elite_sp_count": null,
     "sp_enemy": null,
     "sp_terrain": null,
     "enemy_list": [
+      {
+        "key": "enemy_2092_skzamy",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2094_skzamb",
+        "min_count": 15,
+        "max_count": 15
+      },
+      {
+        "key": "enemy_2096_skzamj_03",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2095_skzamf_04",
+        "min_count": 7,
+        "max_count": 11
+      },
+      {
+        "key": "enemy_2095_skzamf_16",
+        "min_count": 12,
+        "max_count": 12
+      },
+      {
+        "key": "enemy_2095_skzamf_18",
+        "min_count": 7,
+        "max_count": 7
+      },
+      {
+        "key": "enemy_2095_skzamf_19",
+        "min_count": 4,
+        "max_count": 8
+      },
+      {
+        "key": "enemy_2096_skzamj_01",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2096_skzamj_05",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2096_skzamj_07",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2096_skzamj_06",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2094_skzamb_2",
+        "min_count": 5,
+        "max_count": 5
+      }
+    ],
+    "elite_enemy_list": [
       {
         "key": "enemy_2092_skzamy",
         "min_count": 1,
@@ -19654,13 +19727,13 @@
       },
       {
         "key": "enemy_2095_skzamf_04",
-        "min_count": 10,
-        "max_count": 14
+        "min_count": 7,
+        "max_count": 11
       },
       {
         "key": "enemy_2095_skzamf_16",
-        "min_count": 19,
-        "max_count": 19
+        "min_count": 12,
+        "max_count": 12
       },
       {
         "key": "enemy_2095_skzamf_18",
@@ -19717,8 +19790,7 @@
         "min_count": 5,
         "max_count": 5
       }
-    ],
-    "elite_enemy_list": null
+    ]
   },
   "level_rogue4_b-9": {
     "levelId": "level_rogue4_b-9",
@@ -19728,11 +19800,8 @@
     "name_en": null,
     "category": null,
     "routes": null,
-    "floors": [6, 7],
-    "addInfo_zh": [
-      "系统 - env_020_ro4dlc2_boss5",
-      "rogue_4_lock_all_entities_when_born"
-    ],
+    "floors": [5],
+    "addInfo_zh": ["如果先拿拱门作战失败后就会触发拱门，先拿钥匙就会来到这里"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": null,
@@ -25206,7 +25275,10 @@
     "category": null,
     "routes": null,
     "floors": [4],
-    "addInfo_zh": ["年代之刺：普通1 (5%是饮泣之刺) /天灾+1"],
+    "addInfo_zh": [
+      "年代之刺：普通1 (5%是饮泣之刺) /天灾+1",
+      "如果出现饮泣之刺，左侧1个爆破攻坚手组长会出现在碎石右侧蓝门前且往左走"
+    ],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
@@ -25238,12 +25310,12 @@
         }
       }
     ],
-    "all_possible_enemy_count": [44],
-    "sp_count": [45],
+    "all_possible_enemy_count": [42],
+    "sp_count": [43],
     "all_possible_elite_enemy_count": null,
     "elite_sp_count": null,
     "sp_enemy": {
-      "normal": "45",
+      "normal": "43",
       "elite": null,
       "fixed": true
     },
@@ -25257,8 +25329,8 @@
     "enemy_list": [
       {
         "key": "enemy_1076_bsthmr_2",
-        "min_count": 5,
-        "max_count": 5
+        "min_count": 4,
+        "max_count": 4
       },
       {
         "key": "enemy_1171_durokt_2",
@@ -25282,7 +25354,7 @@
       },
       {
         "key": "enemy_2073_skzrck",
-        "min_count": 1,
+        "min_count": 0,
         "max_count": 1
       },
       {
