@@ -78,13 +78,6 @@ def get_timeline_enemy_counts(timeline):
                         enemies_total[key].append(enemies[key])
     return {"enemies": enemies_total, "bonus": bonus}
 
-
-def skip_enemy(levelId, key):
-    levels = {"level_rogue4_4-4": ["enemy_1221_dzomg_b",
-                                   "enemy_1220_dzoms_b"], "level_rogue3_b-4-b": ["enemy_2054_smdeer"]}
-    return levelId in levels and key in levels[levelId]
-
-
 stages_list = []
 roguelike_topics = [
     {"topic": "rogue_1", "folder": "ro1"},
@@ -93,6 +86,8 @@ roguelike_topics = [
     {"topic": "rogue_4", "folder": "ro4"},
 ]
 
+STAGES_WITH_ENEMY_REF_TO_IGNORE = {"level_rogue4_b-8": ["enemy_3001_upeopl", 'enemy_2093_skzams'], "level_rogue4_4-4": ["enemy_1221_dzomg_b",
+                                   "enemy_1220_dzoms_b"], "level_rogue3_b-4-b": ["enemy_2054_smdeer"]}
 STAGES_TO_SKIP = ['ro4_b_4_c', 'ro4_b_4_d', 'ro4_b_5_c', 'ro4_b_5_d']
 STAGES_WITH_ENEMY_REF_TO_REPLACE = {'level_rogue4_b-4': 'level_rogue4_b-4-c',
                                     'level_rogue4_b-4-b': 'level_rogue4_b-4-d',
@@ -263,11 +258,14 @@ for topic_dict in roguelike_topics:
                 with open(stage_data_path, encoding="utf-8") as f:
                     alt_data = json.load(f)
                 enemy_refs = alt_data["enemyDbRefs"]
+            refs_to_ignore = []
+            if levelId in STAGES_WITH_ENEMY_REF_TO_IGNORE:
+                refs_to_ignore = STAGES_WITH_ENEMY_REF_TO_IGNORE[levelId]
             for enemy in enemy_refs:
                 enemy_id = enemy['id']
-                if enemy_id == 'enemy_2062_smcar':
+                if enemy_id in refs_to_ignore:
                     continue
-                if skip_enemy(levelId, enemy_id):
+                if enemy_id == 'enemy_2062_smcar':
                     continue
                 if enemy['useDb'] is False and not levelId in ['level_rogue2_b-7', 'level_rogue2_ev-3']:
                     enemy_id = enemy["overwrittenData"]['prefabKey']['m_value']
