@@ -7,8 +7,8 @@ pp = pprint.PrettyPrinter(indent=4)
 
 KEYS_TO_EXCLUDE = ['trap_079_allydonq']
 HIDDEN_GROUPS = ['allydonq', "totem1", 'totem2', 'bossrelic', 'calamity',
-                 'cargo', 'hidden_door', 'hidden_window', 'box_1', 'box_3', 'shadow','normal_amiya']
-ALWAYS_KILLED_KEYS = ['enemy_2073_skzrck','enemy_2094_skzamb','enemy_2094_skzamb_2']
+                 'cargo', 'hidden_door', 'hidden_window', 'box_1', 'box_3', 'shadow']
+ALWAYS_KILLED_KEYS = ['enemy_2073_skzrck','enemy_2094_skzamb','enemy_2094_skzamb_2','enemy_2096_skzamj']
 
 
 def get_wave_data(stage_data, stage_id, log=False):
