@@ -310,8 +310,8 @@ for topic_dict in roguelike_topics:
                                         ]
                                     overwrittenData['talentBlackboard'].append(
                                         {"key": "parasitic"})
-                    if levelId == 'level_rogue4_2-7' and (enemy['id'] == 'enemy_10003_trwlpl' or enemy['id'] == 'enemy_10003_trwlpl_2'):
-                        overwrittenData['talentBlackboard'] = talent_overwrite_list[levelId][enemy['id']]
+                    # if levelId == 'level_rogue4_2-7' and (enemy['id'] == 'enemy_10003_trwlpl' or enemy['id'] == 'enemy_10003_trwlpl_2'):
+                    #     overwrittenData['talentBlackboard'] = talent_overwrite_list[levelId][enemy['id']]
                     if len(overwrittenData) == 0:
                         overwrittenData = None
                     '''
