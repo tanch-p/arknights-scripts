@@ -219,6 +219,18 @@
 			}
 		]
 	},
+	"level_rogue4_5-9": {
+		"enemy_1332_cbterm_2_2": [
+			{
+				"key": "cbterm2",
+				"tooltip": {
+					"en": ["When defeated, spawns a $<R-11a Assault Power Armor>$"],
+					"ja": ["倒されると、自身の位置に$「R-11a突撃型パワードスーツ」$を1体召喚する"],
+					"zh": ["被击倒后在自身所在地块中心以自身路径召唤1个$R-11a突击动力装甲$"]
+				}
+			}
+		]
+	},
 	"level_rogue4_b-9": {
 		"enemy_2092_skzamy": [
 			{
