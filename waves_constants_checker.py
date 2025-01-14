@@ -30,6 +30,9 @@ for folder in folders:
 for file_path in files:
     with open(file_path, encoding="utf-8") as f:
         stage_data = json.load(f)
+        for tile in stage_data['mapData']['tiles']:
+            if tile['passableMask'] != "FLY_ONLY" and tile['passableMask'] != "ALL":
+                print(tile)
         for wave in stage_data['waves']:
             for frag_index, fragment in enumerate(wave['fragments']):
                 for action in fragment['actions']:
@@ -52,4 +55,5 @@ for file_path in files:
                         print('forceBlockWaveInBranch is True', file_path)
                         valid = False
                     if not valid:
-                        pp.pprint(action)
+                        # pp.pprint(action)
+                        pass

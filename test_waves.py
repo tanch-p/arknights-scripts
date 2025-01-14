@@ -80,39 +80,11 @@ for case in test_cases:
         script_dir,
         f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{case['path']}",
     )
-    waves_new_data_path = os.path.join(
-        script_dir,
-        f"ro_wave_timelines/{case['path']}",
-    )
-    print(case['path'])
     with open(stage_data_path, encoding="utf-8") as f:
         stage_data = json.load(f)
         wave_data = get_wave_data(stage_data, case['id'], log=True)
         enemy_list, elite_enemy_list, sp_count, elite_sp_count, all_possible_enemy_count = itemgetter(
             "enemy_list", "elite_enemy_list", "sp_count", "elite_sp_count", "all_possible_enemy_count")(wave_data)
-    # with open(waves_new_data_path, encoding="utf-8") as f:
-    #     timeline = json.load(f)
-    #     waves_new_all_count = []
-    #     enemies_total = {}
-    #     for count in timeline:
-    #         if count != 'bonus':
-    #             waves_new_all_count.append(int(count))
-    #             for data in timeline[count]:
-    #                 enemies = {}
-    #                 for wave in data['waves']:
-    #                     for time in wave['timeline']:
-    #                         for action in wave['timeline'][time]:
-    #                             if not action['key'] in enemies:
-    #                                 enemies[action['key']] = 0
-    #                             enemies[action['key']] += 1
-    #                 for key in enemies:
-    #                     if not key in enemies_total:
-    #                         enemies_total[key] = []
-    #                     if not enemies[key] in enemies_total[key]:
-    #                         enemies_total[key].append(enemies[key])
-    #     pp.pprint(enemies_total)
-
-        # print(waves_new_all_count, all_possible_enemy_count)
         assert (sp_count) == case['sp_count']
         assert (elite_sp_count) == case['elite_sp_count']
         assert (all_possible_enemy_count) == case['all_possible_enemy_count']

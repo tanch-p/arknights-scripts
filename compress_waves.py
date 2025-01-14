@@ -17,6 +17,16 @@ stage_data_path = os.path.join(
 def compress_waves(stage_data):
     routes = []
     waves = stage_data['waves']
+    tiles = []
+    for tile in stage_data['mapData']['tiles']:
+        mask = 0
+        height = 0
+        if tile['passableMask'] == 'FLY_ONLY':
+            mask = 1
+        if tile['heightType'] == 'HIGHLAND':
+            height = 1
+        tiles.append([tile['tileKey'], height, mask])
+    map_data = {"map": stage_data['mapData']['map'], "tiles": tiles}
     for i, route in enumerate(stage_data['routes']):
         route_idx = -1
         for route_data in routes:
@@ -34,4 +44,6 @@ def compress_waves(stage_data):
                             action['routeIndex'] = route_idx
     routes = [route_data[1] for route_data in routes]
 
-    return {routes, waves}
+    # pp.pprint(waves)
+
+    return {"routes":routes, "waves":waves, "map_data":map_data}

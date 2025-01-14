@@ -8,6 +8,67 @@ import copy
 import random
 from itertools import product
 from collections import Counter
+from compress_waves import compress_waves
+from waves import ALWAYS_KILLED_KEYS
+
+
+STAGES_WITH_ENEMY_REF_TO_REPLACE = {'level_rogue4_b-4': 'level_rogue4_b-4-c',
+                                    'level_rogue4_b-4-b': 'level_rogue4_b-4-d',
+                                    'level_rogue4_b-5': 'level_rogue4_b-5-c',
+                                    'level_rogue4_b-5-b': 'level_rogue4_b-5-d',
+                                    'level_rogue4_1-1': 'levelreplacers/level_rogue4_1-1_r2',
+                                    'level_rogue4_1-2': 'levelreplacers/level_rogue4_1-2_r2',
+                                    'level_rogue4_1-3': 'levelreplacers/level_rogue4_1-3_r2',
+                                    'level_rogue4_1-4': 'levelreplacers/level_rogue4_1-4_r2',
+                                    'level_rogue4_2-1': 'levelreplacers/level_rogue4_2-1_r2',
+                                    'level_rogue4_2-2': 'levelreplacers/level_rogue4_2-2_r2',
+                                    'level_rogue4_2-3': 'levelreplacers/level_rogue4_2-3_r2',
+                                    'level_rogue4_2-4': 'levelreplacers/level_rogue4_2-4_r2',
+                                    'level_rogue4_2-5': 'levelreplacers/level_rogue4_2-5_r2',
+                                    'level_rogue4_3-1': 'levelreplacers/level_rogue4_3-1_r2',
+                                    'level_rogue4_3-2': 'levelreplacers/level_rogue4_3-2_r2',
+                                    'level_rogue4_3-3': 'levelreplacers/level_rogue4_3-3_r2',
+                                    'level_rogue4_3-4': 'levelreplacers/level_rogue4_3-4_r2',
+                                    'level_rogue4_3-5': 'levelreplacers/level_rogue4_3-5_r2',
+                                    'level_rogue4_3-6': 'levelreplacers/level_rogue4_3-6_r2',
+                                    'level_rogue4_4-1': 'levelreplacers/level_rogue4_4-1_r2',
+                                    'level_rogue4_4-2': 'levelreplacers/level_rogue4_4-2_r2',
+                                    'level_rogue4_4-3': 'levelreplacers/level_rogue4_4-3_r2',
+                                    'level_rogue4_4-4': 'levelreplacers/level_rogue4_4-4_r2',
+                                    'level_rogue4_4-5': 'levelreplacers/level_rogue4_4-5_r2',
+                                    'level_rogue4_4-6': 'levelreplacers/level_rogue4_4-6_r2',
+                                    'level_rogue4_4-7': 'levelreplacers/level_rogue4_4-7_r2',
+                                    'level_rogue4_5-1': 'levelreplacers/level_rogue4_5-1_r2',
+                                    'level_rogue4_5-2': 'levelreplacers/level_rogue4_5-2_r2',
+                                    'level_rogue4_5-3': 'levelreplacers/level_rogue4_5-3_r2',
+                                    'level_rogue4_5-4': 'levelreplacers/level_rogue4_5-4_r2',
+                                    'level_rogue4_5-5': 'levelreplacers/level_rogue4_5-5_r2',
+                                    'level_rogue4_5-6': 'levelreplacers/level_rogue4_5-6_r2',
+                                    'level_rogue4_5-7': 'levelreplacers/level_rogue4_5-7_r2',
+                                    'level_rogue4_6-1': 'levelreplacers/level_rogue4_6-1_r2',
+                                    'level_rogue4_6-2': 'levelreplacers/level_rogue4_6-2_r2',
+                                    'level_rogue4_7-1': 'levelreplacers/level_rogue4_7-1_r1',
+                                    'level_rogue4_7-2': 'levelreplacers/level_rogue4_7-2_r1',
+                                    'level_rogue4_b-1': 'levelreplacers/level_rogue4_b-1_r1',
+                                    'level_rogue4_b-1-b': 'levelreplacers/level_rogue4_b-1-b_r1',
+                                    'level_rogue4_b-1-c': 'levelreplacers/level_rogue4_b-1-c_r1',
+                                    'level_rogue4_b-2': 'levelreplacers/level_rogue4_b-2_r1',
+                                    'level_rogue4_b-2-b': 'levelreplacers/level_rogue4_b-2-b_r1',
+                                    'level_rogue4_b-2-c': 'levelreplacers/level_rogue4_b-2-c_r1',
+                                    'level_rogue4_b-3': 'levelreplacers/level_rogue4_b-3_r1',
+                                    'level_rogue4_b-3-b': 'levelreplacers/level_rogue4_b-3-b_r1',
+                                    'level_rogue4_b-3-c': 'levelreplacers/level_rogue4_b-3-c_r1',
+                                    'level_rogue4_b-6': 'levelreplacers/level_rogue4_b-6_r1',
+                                    'level_rogue4_ev-1': 'levelreplacers/level_rogue4_ev-1_r1',
+                                    'level_rogue4_ev-2': 'levelreplacers/level_rogue4_ev-2_r1',
+                                    'level_rogue4_t-1': 'levelreplacers/level_rogue4_t-1_r1',
+                                    'level_rogue4_t-2': 'levelreplacers/level_rogue4_t-2_r1',
+                                    'level_rogue4_t-3': 'levelreplacers/level_rogue4_t-3_r1',
+                                    'level_rogue4_t-4': 'levelreplacers/level_rogue4_t-4_r1',
+                                    'level_rogue4_t-5': 'levelreplacers/level_rogue4_t-5_r1',
+                                    'level_rogue4_t-6': 'levelreplacers/level_rogue4_t-6_r1',
+                                    'level_rogue4_t-7': 'levelreplacers/level_rogue4_t-7_r1',
+                                    'level_rogue4_t-8': 'levelreplacers/level_rogue4_t-8_r1', }
 
 pp = pprint.PrettyPrinter(indent=4)
 
@@ -22,8 +83,20 @@ data: {
 combinations: [normal|elite] x [bossrelic,totem1]
 """
 
-bonus_enemies = ['enemy_2001_duckmi', 'enemy_2002_bearmi', 'enemy_2034_sythef','enemy_2085_skzjxd']
+bonus_enemies = ['enemy_2001_duckmi', 'enemy_2002_bearmi',
+                 'enemy_2034_sythef', 'enemy_2085_skzjxd']
 neutral_enemies = ['enemy_3003_alymot']
+
+
+def get_topic(stage_id):
+    if 'rogue4' in stage_id:
+        return 'rogue_skz'
+    if 'rogue3' in stage_id:
+        return 'rogue_sami'
+    if 'rogue2' in stage_id:
+        return 'rogue_mzk'
+    if 'rogue1' in stage_id:
+        return 'rogue_phantom'
 
 
 def generate_all_permutations(input_list):
@@ -114,7 +187,8 @@ def group_resolver(actions):
             extra_groups[hidden_group] = []
         extra_groups[hidden_group].append(action)
     if len(extra_groups) > 0:
-        pp.pprint('extra groups', extra_groups)
+        # pp.pprint('extra groups', extra_groups)
+        pass
     return groups
 
 
@@ -150,10 +224,10 @@ def random_group_resolver(random_groups):
     return group_collector
 
 
-def get_wave_permutations(stage_data, permutation, hidden_groups, has_bonus_wave, bonus_frag_index, log=False):
-    waves = copy.deepcopy(stage_data['waves'])
+def get_wave_permutations(waves_data, permutation, group_name, has_bonus_wave, bonus_frag_index,bonus_wave_index, stage_id, log=False):
+    waves = copy.deepcopy(waves_data)
     for wave_idx, wave in enumerate(waves):
-        if has_bonus_wave and wave_idx == 1:
+        if has_bonus_wave and wave_idx == bonus_wave_index:
             continue
         for frag_index, fragment in enumerate(wave['fragments']):
             if frag_index == bonus_frag_index:
@@ -167,8 +241,11 @@ def get_wave_permutations(stage_data, permutation, hidden_groups, has_bonus_wave
                 actionType = action['actionType']
 
                 if actionType != 'SPAWN':
-                    continue
-                if hidden_group is not None and hidden_group not in hidden_groups:
+                    if stage_id == 'level_rogue4_4-10.json' and action['key'] == 'trap_760_skztzs#0':
+                        pass
+                    else:
+                        continue
+                if hidden_group is not None and (hidden_group != group_name or group_name is None):
                     continue
                 if group is not None or packKey is not None:
                     groups.append(action)
@@ -177,8 +254,9 @@ def get_wave_permutations(stage_data, permutation, hidden_groups, has_bonus_wave
 
             random_groups = group_resolver(groups)
             groups = random_group_resolver(random_groups)
+            key = f"w{wave_idx}f{frag_index}"
             for groupKey in groups:
-                choice = permutation[frag_index][groupKey]
+                choice = permutation[key][groupKey]
                 actions.append(groups[groupKey][choice])
 
             fragment['actions'] = flatten(actions)
@@ -189,6 +267,7 @@ def get_bonus(stage_data):
     waves = copy.deepcopy(stage_data['waves'])
     max_frag_index = 0
     bonus_frag_index = -1
+    bonus_wave_index = -1
     type = "wave"
     for wave_idx, wave in enumerate(waves):
         for frag_index, fragment in enumerate(wave['fragments']):
@@ -198,17 +277,18 @@ def get_bonus(stage_data):
                 if action['key'] == 'enemy_2002_bearmi':
                     bonus_fragment = fragment
                     bonus_frag_index = frag_index
-                    if wave_idx == 0:
+                    bonus_wave_index = wave_idx
+                    if wave_idx != len(waves)-1:
                         type = "fragment"
                     break
     if type == "wave":
-        return {"type": "wave", "data": waves[1], "frag_index": -1}
+        return {"type": "wave", "data": waves[bonus_wave_index],"wave_index": bonus_wave_index,  "frag_index": -1}
     else:
-        print('max_frag_index', max_frag_index)
-        return {"type": type, "data": bonus_fragment, "frag_index": bonus_frag_index}
+        # print('max_frag_index', max_frag_index)
+        return {"type": type, "data": bonus_fragment, "wave_index": bonus_wave_index, "frag_index": bonus_frag_index}
 
 
-def get_bonus_counts(stage_data, hidden_groups, has_bonus_wave, bonus_frag_index):
+def get_bonus_counts(stage_data, hidden_groups, has_bonus_wave, bonus_frag_index, log=False):
     if not has_bonus_wave:
         return None
     waves = copy.deepcopy(stage_data['waves'])
@@ -252,8 +332,8 @@ def get_bonus_counts(stage_data, hidden_groups, has_bonus_wave, bonus_frag_index
                             count += action['count']
                     counter.append(count)
                 group_counts.append(counter)
-    print(group_counts)
-    print(base_count)
+    log and print(group_counts)
+    log and print(base_count)
     # Generate all possible combinations
     combinations = product(*group_counts)
     # Calculate the sum for each combination
@@ -281,15 +361,15 @@ def get_bonus_counts(stage_data, hidden_groups, has_bonus_wave, bonus_frag_index
             "prob": prob_count/(prob_count+other_prob_count),
             "prob_str": str(prob_count) + "/" + str(prob_count+other_prob_count)
         })
-    print(new_result)
+    log and print(new_result)
     return new_result
 
 
-def get_group_permutations(stage_data, hidden_groups, has_bonus_wave, bonus_frag_index):
+def get_group_permutations(stage_data, group_name, has_bonus_wave, bonus_frag_index, bonus_wave_index, stage_id, log=False):
     waves = copy.deepcopy(stage_data['waves'])
     permutations = {}
     for wave_idx, wave in enumerate(waves):
-        if has_bonus_wave and wave_idx == 1:
+        if has_bonus_wave and wave_idx == bonus_wave_index:
             continue
         for frag_index, fragment in enumerate(wave['fragments']):
             if frag_index == bonus_frag_index:
@@ -300,23 +380,29 @@ def get_group_permutations(stage_data, hidden_groups, has_bonus_wave, bonus_frag
                 packKey = action['randomSpawnGroupPackKey']
                 hidden_group = action['hiddenGroup']
                 actionType = action['actionType']
-
                 if actionType != 'SPAWN':
-                    continue
-                if hidden_group is not None and hidden_group not in hidden_groups:
+                    if stage_id == 'level_rogue4_4-10.json' and action['key'] == 'trap_760_skztzs#0':
+                        pass
+                    else:
+                        continue
+                if hidden_group is not None and (hidden_group != group_name or group_name is None):
                     continue
                 if group is not None or packKey is not None:
                     groups.append(action)
             # STEP 1.2 - Generate permutations based on groups
+
             random_groups = group_resolver(groups)
+            
             groups = random_group_resolver(random_groups)
+            log and print(groups)
             if (len(groups) > 0):
+                key = f"w{wave_idx}f{frag_index}"
                 for group_key in groups:
-                    if not frag_index in permutations:
-                        permutations[frag_index] = {}
-                    permutations[frag_index][group_key] = len(
+                    if not key in permutations:
+                        permutations[key] = {}
+                    permutations[key][group_key] = len(
                         groups[group_key])
-    pp.pprint(permutations)
+    log and pp.pprint(permutations)
     return permutate(permutations)
 
 
@@ -372,11 +458,11 @@ def permutate(permutations):
     return {"max_permutations": max_permutations, "data": temp}
 
 
-def create_timeline(waves, tag, enemies_to_replace, has_bonus_wave):
+def create_timeline(waves, has_bonus_wave,bonus_wave_idx):
     timelines = []
     total_count = 0
     for wave_idx, wave in enumerate(waves):
-        if has_bonus_wave and wave_idx == 1:
+        if has_bonus_wave and wave_idx == bonus_wave_idx:
             continue
         prev_phase_time = 0
         spawns = {}
@@ -384,10 +470,10 @@ def create_timeline(waves, tag, enemies_to_replace, has_bonus_wave):
         for index, fragment in enumerate(wave['fragments']):
             prev_phase_time += fragment['preDelay']
             for action in fragment['actions']:
-                if action['key'] != "" and (action['isUnharmfulAndAlwaysCountAsKilled'] is False or action['key'] in neutral_enemies):
+                if action['key'] in ALWAYS_KILLED_KEYS:
+                    continue
+                if action['key'] != "" and not 'trap' in action['key'] and (action['isUnharmfulAndAlwaysCountAsKilled'] is False or action['key'] in neutral_enemies):
                     total_count += action['count']
-                if tag == 'ELITE' and action['key'] in enemies_to_replace:
-                    action['key'] = enemies_to_replace[action['key']]
                 if action['count'] > 1:
                     # intervals
                     for count in range(action['count']):
@@ -450,72 +536,52 @@ script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
 
 def get_timeline(folder, stage_id, log=False):
+    if "r1" in stage_id or "r2" in stage_id:
+        return
+    id_no_json = stage_id.replace(".json", "")
+    if id_no_json in STAGES_WITH_ENEMY_REF_TO_REPLACE:
+        stage_id = f"{STAGES_WITH_ENEMY_REF_TO_REPLACE[id_no_json]}.json"
     stage_data_path = os.path.join(
         script_dir, f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{folder}/{stage_id}")
     with open(stage_data_path, encoding="utf-8") as f:
         stage_data = json.load(f)
+        routes, waves_data, map_data = itemgetter(
+            'routes', 'waves', 'map_data')(compress_waves(stage_data))
         normal_group_name, elite_group_name, enemies_to_replace = itemgetter(
             'normal_group_name', 'elite_group_name', 'enemies_to_replace')(get_runes_data(stage_data['runes']))
+        if id_no_json == 'level_rogue4_b-8.json':
+            normal_group_name = "normal_amiya"
+            elite_group_name = "hard_amiya"
         log and print('normal:', normal_group_name, 'elite:',
                       elite_group_name, 'replace:', enemies_to_replace)
         has_bonus_wave = not (
-            '_ev-' in stage_id or '_t-' in stage_id or "_b-" in stage_id)
-        hidden_groups = get_hidden_groups(
-            stage_data['waves'], normal_group_name, elite_group_name)
-        log and print('hidden groups', hidden_groups)
-        result = generate_all_permutations(hidden_groups)
-        log and print('result', result)
+            '_ev-' in stage_id or '_t-' in stage_id or "_b-" in stage_id or "_d-" in stage_id)
 
-        temp = copy.deepcopy(result)
-        if normal_group_name is not None:
-            for perm in temp:
-                perm.append(normal_group_name)
-        normal_hidden_group_permutations = copy.deepcopy(temp)
-        temp = copy.deepcopy(result)
-        if elite_group_name is not None:
-            for perm in temp:
-                perm.append(elite_group_name)
-        elite_hidden_group_permutations = copy.deepcopy(temp)
-
-        log and print('normal_hidden_group_perms',
-                      normal_hidden_group_permutations)
-        log and print('elite_hidden_group_perms',
-                      elite_hidden_group_permutations)
-
-        return_data = {}
-        holder = [{"tag": "NORMAL", "list": normal_hidden_group_permutations}]
+        return_data = {"routes": routes, "mapData": map_data}
+        holder = ['NORMAL', 'ELITE']
         bonus_frag_index = -1
+        bonus_wave_index = -1
         if has_bonus_wave:
             bonus_data = get_bonus(stage_data)
             bonus_frag_index = bonus_data['frag_index']
-            holder.append(
-                {"tag": "ELITE", "list": elite_hidden_group_permutations})
-        for data in holder:
-            for hidden_group_grouplist in data['list']:
-                max_permutations, permutations = itemgetter("max_permutations", "data")(get_group_permutations(
-                    stage_data, hidden_group_grouplist, has_bonus_wave, bonus_frag_index))
-                if has_bonus_wave:
-                    bonus_counts = get_bonus_counts(
-                        stage_data, hidden_group_grouplist, has_bonus_wave, bonus_frag_index)
-                for permutation in permutations:
-                    wave_data = get_wave_permutations(
-                        stage_data, permutation, hidden_group_grouplist, has_bonus_wave, bonus_frag_index, log)
-                    count, waves = itemgetter('count', 'timelines')(
-                        create_timeline(wave_data, data['tag'], enemies_to_replace, has_bonus_wave))
+            bonus_wave_index = bonus_data['wave_index']
+        return_data['NORMAL'] = {"groupKey": normal_group_name}
+        return_data['ELITE'] = {"groupKey": elite_group_name}
+        for diff_group in holder:
+            group_name = normal_group_name if diff_group == "NORMAL" else elite_group_name
 
-                    tags = copy.deepcopy(hidden_group_grouplist)
-                    if normal_group_name in tags:
-                        tags.remove(normal_group_name)
-                    if elite_group_name in tags:
-                        tags.remove(elite_group_name)
-                    tags.append(data['tag'])
-                    tag_str = '|'.join(tags)
-                    if not tag_str in return_data:
-                        return_data[tag_str] = []
-                    return_data[tag_str].append(
-                        {"count": count, "permutation": permutation, "waves": waves})
-        if has_bonus_wave:
-            return_data['bonus'] = {"data:": bonus_data, "count": bonus_counts}
-        return_data['permutations'] = {
-            "max_permutations": max_permutations, "hidden_groups": hidden_groups}
+            max_permutations, permutations = itemgetter("max_permutations", "data")(get_group_permutations(
+                stage_data, group_name, has_bonus_wave, bonus_frag_index,bonus_wave_index, stage_id, log))
+            return_data[diff_group]["max_permutations"] = max_permutations
+            return_data[diff_group]['permutations'] = []
+            for permutation in permutations:
+                wave_data = get_wave_permutations(
+                    waves_data, permutation, group_name, has_bonus_wave, bonus_frag_index,bonus_wave_index, stage_id, log)
+                count, waves = itemgetter('count', 'timelines')(
+                    create_timeline(wave_data, has_bonus_wave,bonus_wave_index))
+                return_data[diff_group]['permutations'].append(
+                    {"count": count, "permutation": permutation})
+        return_data['bonus'] = bonus_data if has_bonus_wave else None
+        # if has_bonus_wave:
+        #     return_data['bonus'] = {"data:": bonus_data, "count": bonus_counts}
         return return_data
