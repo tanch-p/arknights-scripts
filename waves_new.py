@@ -224,7 +224,7 @@ def random_group_resolver(random_groups):
     return group_collector
 
 
-def get_wave_permutations(waves_data, permutation, group_name, has_bonus_wave, bonus_frag_index,bonus_wave_index, stage_id, log=False):
+def get_wave_permutations(waves_data, permutation, group_name, has_bonus_wave, bonus_frag_index, bonus_wave_index, stage_id, log=False):
     waves = copy.deepcopy(waves_data)
     for wave_idx, wave in enumerate(waves):
         if has_bonus_wave and wave_idx == bonus_wave_index:
@@ -282,7 +282,7 @@ def get_bonus(stage_data):
                         type = "fragment"
                     break
     if type == "wave":
-        return {"type": "wave", "data": waves[bonus_wave_index],"wave_index": bonus_wave_index,  "frag_index": -1}
+        return {"type": "wave", "data": waves[bonus_wave_index], "wave_index": bonus_wave_index,  "frag_index": -1}
     else:
         # print('max_frag_index', max_frag_index)
         return {"type": type, "data": bonus_fragment, "wave_index": bonus_wave_index, "frag_index": bonus_frag_index}
@@ -392,7 +392,7 @@ def get_group_permutations(stage_data, group_name, has_bonus_wave, bonus_frag_in
             # STEP 1.2 - Generate permutations based on groups
 
             random_groups = group_resolver(groups)
-            
+
             groups = random_group_resolver(random_groups)
             log and print(groups)
             if (len(groups) > 0):
@@ -458,7 +458,7 @@ def permutate(permutations):
     return {"max_permutations": max_permutations, "data": temp}
 
 
-def create_timeline(waves, has_bonus_wave,bonus_wave_idx):
+def create_timeline(waves, has_bonus_wave, bonus_wave_idx):
     timelines = []
     total_count = 0
     for wave_idx, wave in enumerate(waves):
@@ -523,12 +523,12 @@ def create_timeline(waves, has_bonus_wave,bonus_wave_idx):
 
         myKeys = list(spawns.keys())
         myKeys.sort()
-        sorted_dict = {i: spawns[i] for i in myKeys}
+        spawn_list = [{"t": i, "actions": spawns[i]} for i in myKeys]
         timelines.append({
             "preDelay": wave['preDelay'],
             "postDelay": wave['postDelay'],
             "maxTimeWaitingForNextWave": wave['maxTimeWaitingForNextWave'],
-            "timeline": sorted_dict})
+            "timeline": spawn_list})
     return {"timelines": timelines, "count": total_count}
 
 
@@ -546,7 +546,7 @@ def get_timeline(folder, stage_id, log=False):
     with open(stage_data_path, encoding="utf-8") as f:
         stage_data = json.load(f)
         routes, waves_data, map_data = itemgetter(
-            'routes', 'waves', 'map_data')(compress_waves(stage_data))
+            'routes', 'waves', 'map_data')(compress_waves(stage_data,id_no_json))
         normal_group_name, elite_group_name, enemies_to_replace = itemgetter(
             'normal_group_name', 'elite_group_name', 'enemies_to_replace')(get_runes_data(stage_data['runes']))
         if id_no_json == 'level_rogue4_b-8.json':
@@ -571,16 +571,18 @@ def get_timeline(folder, stage_id, log=False):
             group_name = normal_group_name if diff_group == "NORMAL" else elite_group_name
 
             max_permutations, permutations = itemgetter("max_permutations", "data")(get_group_permutations(
-                stage_data, group_name, has_bonus_wave, bonus_frag_index,bonus_wave_index, stage_id, log))
+                stage_data, group_name, has_bonus_wave, bonus_frag_index, bonus_wave_index, stage_id, log))
             return_data[diff_group]["max_permutations"] = max_permutations
             return_data[diff_group]['permutations'] = []
             for permutation in permutations:
                 wave_data = get_wave_permutations(
-                    waves_data, permutation, group_name, has_bonus_wave, bonus_frag_index,bonus_wave_index, stage_id, log)
-                count, waves = itemgetter('count', 'timelines')(
-                    create_timeline(wave_data, has_bonus_wave,bonus_wave_index))
+                    waves_data, permutation, group_name, has_bonus_wave, bonus_frag_index, bonus_wave_index, stage_id, log)
+                count, timelines = itemgetter('count', 'timelines')(
+                    create_timeline(wave_data, has_bonus_wave, bonus_wave_index))
                 return_data[diff_group]['permutations'].append(
                     {"count": count, "permutation": permutation})
+        return_data['waves'] = waves_data
+        return_data['timelines'] = timelines
         return_data['bonus'] = bonus_data if has_bonus_wave else None
         # if has_bonus_wave:
         #     return_data['bonus'] = {"data:": bonus_data, "count": bonus_counts}
