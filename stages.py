@@ -1,6 +1,7 @@
 import json
 import os
 from operator import itemgetter
+from waves_new import get_waves_data
 
 
 def replace_chevrons(text_list):
@@ -53,6 +54,17 @@ with open("talent_overwrite_list.json", encoding="utf-8") as f:
     talent_overwrite_list = json.load(f)
 
 
+def get_rogue_topic(folder):
+    if folder == "ro1":
+        return 'rogue_phantom'
+    if folder == "ro2":
+        return 'rogue_mizuki'
+    if folder == "ro3":
+        return 'rogue_sami'
+    if folder == "ro4":
+        return 'rogue_skz'
+
+
 def get_timeline_enemy_counts(timeline):
     enemies_total = {}
     all_count = []
@@ -78,6 +90,9 @@ def get_timeline_enemy_counts(timeline):
                         enemies_total[key].append(enemies[key])
     return {"enemies": enemies_total, "bonus": bonus}
 
+
+data = {}
+stage_name_lookup = {}
 stages_list = []
 roguelike_topics = [
     {"topic": "rogue_1", "folder": "ro1"},
@@ -215,6 +230,27 @@ for topic_dict in roguelike_topics:
                 "traps": []
             }
 
+            # for reverse lookup in website
+            rogue_topic = get_rogue_topic(folder)
+            if levelId == 'level_rogue4_b-9':
+                url_key = 'ro4_b_9'
+                stage_name_lookup[url_key] = {
+                    "lang": "ALL", "key": levelId, "topic": rogue_topic}
+            else:
+                zh_url_key = stage_info_cn["code"] + \
+                    '_' + stage_info_cn["name"]
+                stage_name_lookup[zh_url_key] = {
+                    "lang": "zh", "key": levelId, "topic": rogue_topic}
+                if TOPIC_IN_GLOBAL:
+                    en_url_key = stage_info_en["code"] + \
+                        '_' + stage_info_en["name"].replace(" ", "_")
+                    ja_url_key = stage_info_jp["code"] + \
+                        '_' + stage_info_jp["name"].replace(" ", "_")
+                    stage_name_lookup[en_url_key] = {
+                        "lang": "en", "key": levelId, "topic": rogue_topic}
+                    stage_name_lookup[ja_url_key] = {
+                        "lang": "ja", "key": levelId, "topic": rogue_topic}
+
             traps = []
 
             def find_item_by_key(lst, search_value): return next(
@@ -250,6 +286,7 @@ for topic_dict in roguelike_topics:
             enemies = []
             print(levelId)
             enemy_refs = stage_data["enemyDbRefs"]
+            alt_data = None
             if levelId in STAGES_WITH_ENEMY_REF_TO_REPLACE:
                 stage_data_path = os.path.join(
                     script_dir,
@@ -349,11 +386,43 @@ for topic_dict in roguelike_topics:
                     )
 
             trimmed_stage_info["enemies"] = enemies
+            map_waves_data = get_waves_data(
+                alt_data or stage_data, levelId, log=False)
+            trimmed_stage_info.update(map_waves_data)
+            data[levelId] = trimmed_stage_info
             stages_list.append(trimmed_stage_info)
 
-with open("is_stages_list_read.json", "w", encoding="utf-8") as f:
-    json.dump(stages_list, f, ensure_ascii=False, indent=4)
+# for stage navigation...
+for topic_dict in roguelike_topics:
+    stage_nav = {}
+    write_path = os.path.join(
+        script_dir, topic_dict['folder']+".json")
+    rogue_topic = get_rogue_topic(topic_dict['folder'])
+    for stage in stages_list:
+        if rogue_topic in stage['tags']:
+            stage_nav[stage['name_zh']] = {
+                "levelId": stage['levelId'],
+                "code": stage['code'],
+                "name_zh": stage['name_zh'],
+                "name_ja": stage['name_ja'],
+                "name_en": stage['name_en'],
+            }
+    with open(write_path, 'w+', encoding='utf-8') as f:
+        json.dump(stage_nav, f, ensure_ascii=False, indent=4)
 
 
-with open("is_stages_list.json", "w", encoding="utf-8") as f:
-    json.dump(stages_list, f, ensure_ascii=False, separators=(',', ':'))
+for levelId in data:
+    write_path = os.path.join(
+        script_dir, 'ro_stage_data', levelId+".json")
+    with open(write_path, 'w+', encoding='utf-8') as f:
+        json.dump(data[levelId], f, ensure_ascii=False, indent=4)
+
+# with open("is_stages_list_read.json", "w", encoding="utf-8") as f:
+#     json.dump(data, f, ensure_ascii=False, indent=4)
+
+
+# with open("is_stages_list.json", "w", encoding="utf-8") as f:
+#     json.dump(stages_list, f, ensure_ascii=False, separators=(',', ':'))
+
+with open("stage_name_lookup_table.json", "w", encoding="utf-8") as f:
+    json.dump(stage_name_lookup, f, ensure_ascii=False, indent=4)

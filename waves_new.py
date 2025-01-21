@@ -535,55 +535,46 @@ def create_timeline(waves, has_bonus_wave, bonus_wave_idx):
 script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
 
-def get_timeline(folder, stage_id, log=False):
-    if "r1" in stage_id or "r2" in stage_id:
-        return
-    id_no_json = stage_id.replace(".json", "")
-    if id_no_json in STAGES_WITH_ENEMY_REF_TO_REPLACE:
-        stage_id = f"{STAGES_WITH_ENEMY_REF_TO_REPLACE[id_no_json]}.json"
-    stage_data_path = os.path.join(
-        script_dir, f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{folder}/{stage_id}")
-    with open(stage_data_path, encoding="utf-8") as f:
-        stage_data = json.load(f)
-        routes, waves_data, map_data = itemgetter(
-            'routes', 'waves', 'map_data')(compress_waves(stage_data,id_no_json))
-        normal_group_name, elite_group_name, enemies_to_replace = itemgetter(
-            'normal_group_name', 'elite_group_name', 'enemies_to_replace')(get_runes_data(stage_data['runes']))
-        if id_no_json == 'level_rogue4_b-8.json':
-            normal_group_name = "normal_amiya"
-            elite_group_name = "hard_amiya"
-        log and print('normal:', normal_group_name, 'elite:',
-                      elite_group_name, 'replace:', enemies_to_replace)
-        has_bonus_wave = not (
-            '_ev-' in stage_id or '_t-' in stage_id or "_b-" in stage_id or "_d-" in stage_id)
+def get_waves_data(stage_data, levelId, log=False):
+    routes, waves_data, map_data = itemgetter(
+        'routes', 'waves', 'map_data')(compress_waves(stage_data,levelId))
+    normal_group_name, elite_group_name, enemies_to_replace = itemgetter(
+        'normal_group_name', 'elite_group_name', 'enemies_to_replace')(get_runes_data(stage_data['runes']))
+    if levelId == 'level_rogue4_b-8.json':
+        normal_group_name = "normal_amiya"
+        elite_group_name = "hard_amiya"
+    log and print('normal:', normal_group_name, 'elite:',
+                    elite_group_name, 'replace:', enemies_to_replace)
+    has_bonus_wave = not (
+        '_ev-' in levelId or '_t-' in levelId or "_b-" in levelId or "_d-" in levelId)
 
-        return_data = {"routes": routes, "mapData": map_data}
-        holder = ['NORMAL', 'ELITE']
-        bonus_frag_index = -1
-        bonus_wave_index = -1
-        if has_bonus_wave:
-            bonus_data = get_bonus(stage_data)
-            bonus_frag_index = bonus_data['frag_index']
-            bonus_wave_index = bonus_data['wave_index']
-        return_data['NORMAL'] = {"groupKey": normal_group_name}
-        return_data['ELITE'] = {"groupKey": elite_group_name}
-        for diff_group in holder:
-            group_name = normal_group_name if diff_group == "NORMAL" else elite_group_name
+    return_data = {"routes": routes, "mapData": map_data}
+    holder = ['NORMAL', 'ELITE']
+    bonus_frag_index = -1
+    bonus_wave_index = -1
+    if has_bonus_wave:
+        bonus_data = get_bonus(stage_data)
+        bonus_frag_index = bonus_data['frag_index']
+        bonus_wave_index = bonus_data['wave_index']
+    return_data['NORMAL'] = {"groupKey": normal_group_name}
+    return_data['ELITE'] = {"groupKey": elite_group_name}
+    for diff_group in holder:
+        group_name = normal_group_name if diff_group == "NORMAL" else elite_group_name
 
-            max_permutations, permutations = itemgetter("max_permutations", "data")(get_group_permutations(
-                stage_data, group_name, has_bonus_wave, bonus_frag_index, bonus_wave_index, stage_id, log))
-            return_data[diff_group]["max_permutations"] = max_permutations
-            return_data[diff_group]['permutations'] = []
-            for permutation in permutations:
-                wave_data = get_wave_permutations(
-                    waves_data, permutation, group_name, has_bonus_wave, bonus_frag_index, bonus_wave_index, stage_id, log)
-                count, timelines = itemgetter('count', 'timelines')(
-                    create_timeline(wave_data, has_bonus_wave, bonus_wave_index))
-                return_data[diff_group]['permutations'].append(
-                    {"count": count, "permutation": permutation})
-        return_data['waves'] = waves_data
-        return_data['timelines'] = timelines
-        return_data['bonus'] = bonus_data if has_bonus_wave else None
-        # if has_bonus_wave:
-        #     return_data['bonus'] = {"data:": bonus_data, "count": bonus_counts}
-        return return_data
+        max_permutations, permutations = itemgetter("max_permutations", "data")(get_group_permutations(
+            stage_data, group_name, has_bonus_wave, bonus_frag_index, bonus_wave_index, levelId, log))
+        return_data[diff_group]["max_permutations"] = max_permutations
+        return_data[diff_group]['permutations'] = []
+        for permutation in permutations:
+            wave_data = get_wave_permutations(
+                waves_data, permutation, group_name, has_bonus_wave, bonus_frag_index, bonus_wave_index, levelId, log)
+            count, timelines = itemgetter('count', 'timelines')(
+                create_timeline(wave_data, has_bonus_wave, bonus_wave_index))
+            return_data[diff_group]['permutations'].append(
+                {"count": count, "permutation": permutation})
+    return_data['waves'] = waves_data
+    # return_data['timelines'] = timelines
+    return_data['bonus'] = bonus_data if has_bonus_wave else None
+    # if has_bonus_wave:
+    #     return_data['bonus'] = {"data:": bonus_data, "count": bonus_counts}
+    return return_data

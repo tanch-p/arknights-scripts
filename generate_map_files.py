@@ -1,7 +1,7 @@
 import os
 from os import walk
 import json
-from waves_new import get_timeline
+from waves_new import get_waves_data
 
 script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
@@ -30,7 +30,8 @@ for folder in folders:
         print(stage_id)
         write_path = os.path.join(
             script_dir, 'ro_wave_timelines', folder, stage_id)
-        timeline = get_timeline(folder, stage_id, log=False)
+        # to use, please update with new params
+        timeline = get_waves_data(folder, stage_id, log=False)
         if timeline:
             with open(write_path, 'w+', encoding='utf-8') as f:
                 json.dump(timeline, f, ensure_ascii=False, indent=4)

@@ -17,7 +17,6 @@ with open("tel_extrainfo.json", encoding="utf-8") as f:
 
 
 def compress_waves(stage_data, stage_id):
-    print(stage_id)
     routes = []
     waves = copy.deepcopy(stage_data['waves'])
     tiles = []
