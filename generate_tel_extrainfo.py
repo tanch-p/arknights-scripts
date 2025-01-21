@@ -60,6 +60,6 @@ for folder in folders:
         data[stage_id.replace(".json","")] = get_tel_data(stage_data)
 
 write_path = os.path.join(
-    script_dir, 'tel_extrainfo.json')
+    script_dir, 'tel_extrainfo_new.json')
 with open(write_path, 'w+', encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False, indent=4)
