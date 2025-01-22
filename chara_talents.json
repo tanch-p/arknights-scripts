@@ -10146,16 +10146,8 @@
                 "tags": [],
                 "blackboard": [
                     {
-                        "key": "prob",
-                        "value": 0.25
-                    },
-                    {
                         "key": "self_damage_scale",
                         "value": 1.7
-                    },
-                    {
-                        "key": "up_duration",
-                        "value": 2.5
                     }
                 ]
             },
@@ -12087,11 +12079,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "工匠遗训",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Teachings of the Dead Craftsman",
+                "name_ja": "職人の遺訓",
                 "desc_zh": "可以使用5个发条羽兽召唤物。发条羽兽和衡沙对机械敌人伤害提升20%",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "召喚物「カラクリ羽獣」を使用可能（配置時に5体獲得）。カラクリ羽獣とサンドレコナーは敵【ロボット】への与ダメージが20%上昇",
+                "desc_en": "Can summon 5 Clockwork Fowlbeasts. Clockwork Fowlbeasts and Sand Reckoner deal 20% more damage to Machine enemies",
                 "tags": [
                     "summon",
                     "machine",
@@ -12107,11 +12099,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "博览古卷",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Erudite of Ancient Scrolls",
+                "name_ja": "古書博覧",
                 "desc_zh": "治疗会为目标干员附加相当于自身22%<@ba.talpu>(+2%)</>攻击力的<ba.barrier>屏障</>，持续8秒",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "治療時、対象に自身の攻撃力の22%<@ba.talpu>（+2%）</>の<ba.barrier>バリア</>を付与する（8秒間持続可能）",
+                "desc_en": "Healing grants the target Operator a <@ba.talpu>Barrier</> equal to 22% <ba.barrier>(+2%)</> of Papyrus's ATK, lasting 8 seconds",
                 "tags": [
                     "barrier"
                 ],
@@ -12134,11 +12126,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "“我见，我得”",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "'I See, I Take'",
+                "name_ja": "砂賊の流儀",
                 "desc_zh": "在场时，每次攻击到敌人<ba.steal>偷取</>其27<@ba.talpu>(+2)</>点攻击力(最高270<@ba.talpu>(+20)</>点)与21<@ba.talpu>(+1)</>点防御力(最高210<@ba.talpu>(+10)</>点)",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "配置中、自身の攻撃が敵に命中する度に対象から攻撃力を27<@ba.talpu>（+2）</>（最大270<@ba.talpu>（+20）</>まで）と防御力を21<@ba.talpu>（+1）</>（最大210<@ba.talpu>（+10）</>まで）<ba.steal>奪取</>",
+                "desc_en": "When deployed, each attack <ba.steal>Steals</> 27 <@ba.talpu>(+2)</> ATK (Caps at 270 <@ba.talpu>(+20)</>) and 21 <@ba.talpu>(+1)</> DEF (Caps at 210 <@ba.talpu>(+10)</>) from the target",
                 "tags": [],
                 "blackboard": [
                     {
@@ -12158,11 +12150,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "婀娜虚影",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Graceful Shadow",
+                "name_ja": "婀娜やかな虚影",
                 "desc_zh": "获得38%<@ba.talpu>(+3%)</>的物理与法术闪避，周围8格内敌人的物理与法术命中率-20%",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "38%<@ba.talpu>（+3%）</>の物理・術回避を獲得し、周囲8マス内にいる敵全員の物理・術攻撃の命中率-20%",
+                "desc_en": "Gains 38% <@ba.talpu>(+3%)</> Physical and Arts Dodge and reduces the hit rate of Physical and Arts attacks from enemies in the surrounding 8 tiles by 20%",
                 "tags": [],
                 "blackboard": [
                     {
@@ -12192,11 +12184,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "往昔传承",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Legacy of the Past",
+                "name_ja": "語り継かれるもの",
                 "desc_zh": "技能期间每击倒1名敌人，技能结束时获得1点技力，至多回复17<@ba.talpu>(+3)</>点",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "スキル発動中に倒した敵1体につき、スキル終了時SPを1回復する（最大17<@ba.talpu>（+3）</>まで回復可能）",
+                "desc_en": "Every enemy defeated while her skill is active grants Pepe 1 SP when the skill ends; restores up to 17 <@ba.talpu>(+3)</> SP",
                 "tags": [],
                 "blackboard": [
                     {
@@ -12212,11 +12204,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "弥漫莲香",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Perfuse With Lotus",
+                "name_ja": "芳しき睡蓮",
                 "desc_zh": "在场时，所有【近卫】干员的攻击力+20%<@ba.talpu>(+4%)</>",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "配置中、【前衛】全員の攻撃力+20%<@ba.talpu>（+4%）</>",
+                "desc_en": "When deployed, all [Guard] Operators gain +20% <@ba.talpu>(+4%)</> ATK",
                 "tags": [
                     "WARRIOR"
                 ],
@@ -13237,6 +13229,156 @@
                         "value": 5.0
                     }
                 ]
+            }
+        ]
+    },
+    "char_4052_surfer": {
+        "appellation": "Surfer",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "独自远走",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "部署时，若周围4格没有其他干员，获得3<@ba.talpu>（+1）</>点部署费用",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "cost",
+                        "value": 3.0
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4172_xingzh": {
+        "appellation": "Xingzhu",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "同路之谊",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "使攻击范围内除自己外2名友军获得12%<@ba.talpu>（+2%）</>的<ba.protect>庇护</>",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "ally_dmg_res",
+                        "types": [
+                            "phys",
+                            "arts"
+                        ],
+                        "value": 0.12,
+                        "category": [
+                            "protect"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "char_1040_blaze2": {
+        "appellation": "Blaze the Igniting Spark",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "熔点引爆",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "全场有敌人<ba.dt.burning2>灼燃损伤</>爆发开始时，立即对其造成相当于攻击力380%<@ba.talpu>（+30%）</>的元素伤害并回复15%<@ba.talpu>（+3%）</>最大生命",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "heal_self",
+                    "ele_dmg"
+                ],
+                "blackboard": []
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "绝处重燃",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "被击倒时倒地并获得6000点屏障，倒地期间不能攻击，无法被治疗，每秒回复3.5%<@ba.talpu>（+0.5%）</>生命，生命回满后复活并使附近的敌人晕眩5秒",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "barrier",
+                    "heal_self"
+                ],
+                "blackboard": [
+                    {
+                        "key": "stun",
+                        "targets": 99,
+                        "value": 5.0,
+                        "target_air": true,
+                        "conditions": [
+                            "defeat"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "char_2026_yu": {
+        "appellation": "Yu",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "礼尚往来",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "阻挡敌人时自身获得30%<@ba.talpu>（+5%）</>的<ba.protect>庇护</>，并使阻挡的目标每秒受到相当于攻击力40%的法术伤害和相当于攻击力12%的<ba.dt.burning2>灼燃损伤</>",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "arts",
+                    "burning",
+                    "ele_dmg"
+                ],
+                "blackboard": [
+                    {
+                        "key": "dmg_res",
+                        "types": [
+                            "phys",
+                            "arts"
+                        ],
+                        "value": 0.3,
+                        "category": [
+                            "protect"
+                        ],
+                        "conditions": [
+                            "self_block"
+                        ]
+                    },
+                    {
+                        "key": "res_down",
+                        "targets": 1,
+                        "value": 20,
+                        "duration": 10.0,
+                        "category": [
+                            "burning_burst"
+                        ],
+                        "target_air": true
+                    }
+                ]
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "闲云隐市",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "场上干员数量不低于4时，自身每秒回复相当于生命上限2%<@ba.talpu>（+0.5%）</>的生命与<ba.dt.element>元素损伤</>",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "heal_self"
+                ],
+                "blackboard": []
             }
         ]
     }
