@@ -52956,18 +52956,6 @@
             ],
             "blackboard": [
                 {
-                    "key": "cnt",
-                    "value": 1.0
-                },
-                {
-                    "key": "cnt",
-                    "value": 5.0
-                },
-                {
-                    "key": "damage_scale",
-                    "value": 1.2
-                },
-                {
                     "key": "attack_speed",
                     "value": 8.0
                 }
@@ -54635,10 +54623,6 @@
                     "conditions": [
                         "ally_behind"
                     ]
-                },
-                {
-                    "key": "damage_scale",
-                    "value": 1.1
                 }
             ]
         }
