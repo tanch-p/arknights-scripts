@@ -219,7 +219,7 @@ def get_bonus(stage_data):
                     bonus_fragment = fragment
                     bonus_frag_index = frag_index
                     bonus_wave_index = wave_idx
-                    if wave_idx != len(waves)-1:
+                    if frag_index != 0:
                         type = "fragment"
                     break
     if type == "wave":
@@ -478,7 +478,7 @@ script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
 def get_waves_data(stage_data, levelId, log=False):
     routes, waves_data, map_data = itemgetter(
-        'routes', 'waves', 'map_data')(compress_waves(stage_data,levelId))        
+        'routes', 'waves', 'map_data')(compress_waves(stage_data,levelId))     
     normal_group_name, elite_group_name, enemies_to_replace = itemgetter(
         'normal_group_name', 'elite_group_name', 'enemies_to_replace')(get_runes_data(stage_data['runes']))
     if levelId == 'level_rogue4_b-8.json':
