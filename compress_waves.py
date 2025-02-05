@@ -23,6 +23,7 @@ def compress_waves(stage_data, stage_id):
     for tile_index, tile in enumerate(stage_data['mapData']['tiles']):
         mask = 0
         height = 0
+        buildableType = 1
         bb = {}
         if tile['blackboard'] is not None:
             for item in tile['blackboard']:
@@ -32,13 +33,15 @@ def compress_waves(stage_data, stage_id):
             mask = 1
         if tile['heightType'] == 'HIGHLAND':
             height = 1
+        if tile['buildableType'] == 'NONE':
+            buildableType = 0
         if stage_id in tel_data and str(tile_index) in tel_data[stage_id]:
             bb = tel_data[stage_id][str(tile_index)]
             bb.pop('tileKey', None)
             bb.pop('position', None)            
 
         tiles.append([tile['tileKey'], height, mask,
-                     bb if len(bb) > 0 else None])
+                     bb if len(bb) > 0 else None,buildableType])
     map_data = {"map": stage_data['mapData']['map'], "tiles": tiles}
     for i, route in enumerate(stage_data['routes']):
         route_idx = -1
