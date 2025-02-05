@@ -439,7 +439,7 @@
     "36": {
       "tileKey": "tile_telout",
       "colorIndex": -1,
-      "direction": "right",
+      "direction": "left",
       "type": "arrow",
       "position": {
         "row": 4,
@@ -459,7 +459,7 @@
     "46": {
       "tileKey": "tile_telout",
       "colorIndex": 1,
-      "direction": "right",
+      "direction": "left",
       "type": "arrow",
       "position": {
         "row": 3,
@@ -543,7 +543,7 @@
     "64": {
       "tileKey": "tile_telout",
       "colorIndex": 1,
-      "direction": "down",
+      "direction": "up",
       "type": "arrow",
       "position": {
         "row": 1,
@@ -585,7 +585,7 @@
     "105": {
       "tileKey": "tile_telout",
       "colorIndex": 0,
-      "direction": "down",
+      "direction": "up",
       "type": "arrow",
       "position": {
         "row": 0,
@@ -933,7 +933,7 @@
     "54": {
       "tileKey": "tile_telin",
       "colorIndex": 0,
-      "direction": "left",
+      "direction": "right",
       "type": "arrow",
       "position": {
         "row": 3,
@@ -1007,9 +1007,9 @@
   },
   "level_rogue3_b-1": {
     "16": {
-      "tileKey": "tile_telin",
+      "tileKey": "tile_telout",
       "colorIndex": 0,
-      "direction": "down",
+      "direction": "right",
       "type": "arrow",
       "position": {
         "row": 6,
@@ -1017,9 +1017,9 @@
       }
     },
     "19": {
-      "tileKey": "tile_telout",
+      "tileKey": "tile_telin",
       "colorIndex": 0,
-      "direction": "right",
+      "direction": "down",
       "type": "arrow",
       "position": {
         "row": 6,
@@ -1311,7 +1311,7 @@
     "18": {
       "tileKey": "tile_telout",
       "colorIndex": 0,
-      "direction": "right",
+      "direction": "left",
       "type": "arrow",
       "position": {
         "row": 6,
