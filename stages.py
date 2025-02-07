@@ -257,13 +257,25 @@ for topic_dict in roguelike_topics:
                         "lang": "ja", "key": levelId, "topic": rogue_topic}
 
             traps = []
+            trap_pos = []
+            if stage_data['predefines']:
+                for item in stage_data['predefines']['tokenInsts']:
+                    if (item['inst']['characterKey'] == 'trap_061_creep'):
+                        continue
+                    alias = item['alias']
+                    trap_pos.append({
+                        "key": item['inst']['characterKey'],
+                        "alias": alias,
+                        "pos": item['position'],
+                        "direction": item['direction'],
+                        "hidden": item["hidden"],
+                    })
 
             def find_item_by_key(lst, search_value): return next(
                 (item for item in lst if item['key'] == search_value), None)
             if stage_data['predefines']:
                 for item in stage_data['predefines']['tokenInsts']:
                     key = item['inst']['characterKey']
-                    # if key == "trap_760_skztzs":
                     if not key in TRAPS_TO_EXCLUDE:
                         trap = find_item_by_key(traps, key)
                         if trap:
@@ -285,6 +297,7 @@ for topic_dict in roguelike_topics:
             for trap in traps:
                 trap.pop('hidden', None)
             trimmed_stage_info['traps'] = traps
+            trimmed_stage_info['trap_pos'] = trap_pos
 
             enemy_list = extrainfo[levelId]['enemy_list'] if levelId in extrainfo else None
             elite_enemy_list = extrainfo[levelId]['elite_enemy_list'] if levelId in extrainfo else None
@@ -309,7 +322,7 @@ for topic_dict in roguelike_topics:
                     continue
                 if enemy_id == 'enemy_2062_smcar':
                     continue
-                if enemy['useDb'] is False and not levelId in ['level_rogue2_b-7', 'level_rogue2_ev-3']:
+                if enemy['useDb'] is False:
                     enemy_id = enemy["overwrittenData"]['prefabKey']['m_value']
                 if enemy_id in my_enemy_db:
                     overwrittenData = {}
@@ -345,11 +358,16 @@ for topic_dict in roguelike_topics:
                             elif levelId in talent_overwrite_list and enemy['id'] in talent_overwrite_list[levelId]:
                                 overwrittenData['talentBlackboard'] = talent_overwrite_list[levelId][enemy['id']]
                         if enemy['overwrittenData']['talentBlackboard']:
+                            if not 'talentBlackboard' in overwrittenData:
+                                overwrittenData['talentBlackboard'] = []
                             for item in enemy['overwrittenData']['talentBlackboard']:
-                                if item['key'] == 'parasitic' and item['valueStr'] == "true":
-                                    if not 'talentBlackboard' in overwrittenData:
-                                        overwrittenData['talentBlackboard'] = [
-                                        ]
+                                if levelId == 'level_rogue2_b-7' and item['key'] == 'Combat.enemy_key':
+                                    overwrittenData['talentBlackboard'].append(
+                                        {'key': "transform", "value": item['valueStr']})
+                                elif levelId == 'level_rogue4_b-8' and item['key'] == 'summon.enemy_key':
+                                    overwrittenData['talentBlackboard'].append(
+                                        {'key': "transform", "value": item['valueStr']})
+                                elif item['key'] == 'parasitic' and item['valueStr'] == "true":
                                     overwrittenData['talentBlackboard'].append(
                                         {"key": "parasitic"})
                     # if levelId == 'level_rogue4_2-7' and (enemy['id'] == 'enemy_10003_trwlpl' or enemy['id'] == 'enemy_10003_trwlpl_2'):
