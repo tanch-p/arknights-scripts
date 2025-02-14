@@ -91,7 +91,7 @@ def get_hidden_groups(waves, normal_group_name, elite_group_name):
             for action in fragment['actions']:
                 hidden_group = action['hiddenGroup']
                 actionType = action['actionType']
-                if actionType != 'SPAWN':
+                if not actionType in ['SPAWN','ACTIVATE_PREDEFINED']:
                     continue
                 if hidden_group is not None and not hidden_group in [normal_group_name, elite_group_name] and not hidden_group in hidden_groups:
                     hidden_groups.append(hidden_group)
@@ -181,11 +181,8 @@ def get_wave_permutations(waves_data, permutation, group_name, has_bonus_wave, b
                 hidden_group = action['hiddenGroup']
                 actionType = action['actionType']
 
-                if actionType != 'SPAWN':
-                    if stage_id == 'level_rogue4_4-10.json' and action['key'] == 'trap_760_skztzs#0':
-                        pass
-                    else:
-                        continue
+                if not actionType in ['SPAWN','ACTIVATE_PREDEFINED']:
+                    continue
                 if hidden_group is not None and (hidden_group != group_name or group_name is None):
                     continue
                 if group is not None or packKey is not None:
@@ -248,7 +245,7 @@ def get_bonus_counts(stage_data, hidden_groups, has_bonus_wave, bonus_frag_index
                 hidden_group = action['hiddenGroup']
                 actionType = action['actionType']
 
-                if actionType != 'SPAWN':
+                if not actionType in ['SPAWN', 'ACTIVATE_PREDEFINED']:
                     continue
                 if hidden_group is not None and hidden_group not in hidden_groups:
                     continue
@@ -321,11 +318,8 @@ def get_group_permutations(stage_data, group_name, has_bonus_wave, bonus_frag_in
                 packKey = action['randomSpawnGroupPackKey']
                 hidden_group = action['hiddenGroup']
                 actionType = action['actionType']
-                if actionType != 'SPAWN':
-                    if stage_id == 'level_rogue4_4-10.json' and action['key'] == 'trap_760_skztzs#0':
-                        pass
-                    else:
-                        continue
+                if not actionType in ['SPAWN', 'ACTIVATE_PREDEFINED']:
+                    continue
                 if hidden_group is not None and (hidden_group != group_name or group_name is None):
                     continue
                 if group is not None or packKey is not None:
@@ -358,6 +352,7 @@ def get_group_permutations(stage_data, group_name, has_bonus_wave, bonus_frag_in
 
 def permutate(permutations):
     pp.pprint(permutations)
+
     def generate_sample(groups):
         return [random.randint(0, count - 1) for count in groups]
     max_samples = 256
@@ -476,16 +471,17 @@ def create_timeline(waves, has_bonus_wave, bonus_wave_idx):
 
 script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
+
 def get_waves_data(stage_data, levelId, log=False):
     routes, waves_data, map_data = itemgetter(
-        'routes', 'waves', 'map_data')(compress_waves(stage_data,levelId))     
+        'routes', 'waves', 'map_data')(compress_waves(stage_data, levelId))
     normal_group_name, elite_group_name, enemies_to_replace = itemgetter(
         'normal_group_name', 'elite_group_name', 'enemies_to_replace')(get_runes_data(stage_data['runes']))
     if levelId == 'level_rogue4_b-8.json':
         normal_group_name = "normal_amiya"
         elite_group_name = "hard_amiya"
     log and print('normal:', normal_group_name, 'elite:',
-                    elite_group_name, 'replace:', enemies_to_replace)
+                  elite_group_name, 'replace:', enemies_to_replace)
     has_bonus_wave = not (
         '_ev-' in levelId or '_t-' in levelId or "_b-" in levelId or "_d-" in levelId)
 

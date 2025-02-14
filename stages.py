@@ -20,7 +20,7 @@ STAT_KEY_CONVERSION_TABLE = {
     "moveSpeed": "ms"
 }
 
-TRAPS_TO_EXCLUDE = ["trap_051_vultres", "trap_042_tidectrl", "trap_061_creep", "trap_038_dsbell", "trap_037_airsup", "trap_062_magicstart",
+TRAPS_TO_EXCLUDE = ["trap_051_vultres", "trap_042_tidectrl", "trap_061_creep", "trap_062_magicstart",
                     "trap_063_magicturn", "trap_106_smtree", "trap_050_blizzard", "trap_092_vgctrl", "trap_036_storm", "trap_162_lrctrl", "trap_766_duelwal", "trap_767_duelcdt"]
 
 script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
@@ -257,19 +257,7 @@ for topic_dict in roguelike_topics:
                         "lang": "ja", "key": levelId, "topic": rogue_topic}
 
             traps = []
-            trap_pos = []
-            if stage_data['predefines']:
-                for item in stage_data['predefines']['tokenInsts']:
-                    if (item['inst']['characterKey'] == 'trap_061_creep'):
-                        continue
-                    alias = item['alias']
-                    trap_pos.append({
-                        "key": item['inst']['characterKey'],
-                        "alias": alias,
-                        "pos": item['position'],
-                        "direction": item['direction'],
-                        "hidden": item["hidden"],
-                    })
+            token_cards = []
 
             def find_item_by_key(lst, search_value): return next(
                 (item for item in lst if item['key'] == search_value), None)
@@ -277,27 +265,24 @@ for topic_dict in roguelike_topics:
                 for item in stage_data['predefines']['tokenInsts']:
                     key = item['inst']['characterKey']
                     if not key in TRAPS_TO_EXCLUDE:
-                        trap = find_item_by_key(traps, key)
-                        if trap:
-                            if trap['mainSkillLvl'] != item['mainSkillLvl'] and item['hidden'] != trap['hidden']:
-                                if not 'eliteSkillLvl' in trap:
-                                    if trap['hidden']:
-                                        trap['eliteSkillLvl'] = trap['mainSkillLvl']
-                                        trap['mainSkillLvl'] = item['mainSkillLvl']
-                                    else:
-                                        trap['eliteSkillLvl'] = item['mainSkillLvl']
-                        else:
-                            traps.append({
-                                "key": key,
-                                "level": item['inst']['level'],
-                                "mainSkillLvl": item['mainSkillLvl'],
-                                "hidden": item["hidden"],
-                            })
-            traps = [dict(t) for t in {tuple(d.items()) for d in traps}]
-            for trap in traps:
-                trap.pop('hidden', None)
+                        traps.append({
+                            "key": key,
+                            "alias": item['alias'],
+                            "pos": item['position'],
+                            "direction": item['direction'],
+                            "level": item['inst']['level'],
+                            "mainSkillLvl": item['mainSkillLvl'],
+                            "hidden": item["hidden"],
+                        })
+                for item in stage_data['predefines']['tokenCards']:
+                    if item['hidden']:
+                        continue
+                    token_cards.append({
+                        "key":  item['inst']['characterKey'],
+                        "count": item['initialCnt']
+                    })
             trimmed_stage_info['traps'] = traps
-            trimmed_stage_info['trap_pos'] = trap_pos
+            trimmed_stage_info['token_cards']= token_cards
 
             enemy_list = extrainfo[levelId]['enemy_list'] if levelId in extrainfo else None
             elite_enemy_list = extrainfo[levelId]['elite_enemy_list'] if levelId in extrainfo else None
@@ -407,8 +392,14 @@ for topic_dict in roguelike_topics:
                             "overwrittenData": overwrittenData,
                         }
                     )
-
             trimmed_stage_info["enemies"] = enemies
+            # prefabKeyLookup = {}
+            # for enemy in stage_data['enemyDbRefs']:
+            #     key = enemy['id']
+            #     prefabKey = enemy['overwrittenData']['prefabKey']['m_value'] if enemy['overwrittenData'] else None
+            #     if prefabKey:
+            #         prefabKeyLookup[key] = prefabKey
+            # trimmed_stage_info['prefabKeys'] = prefabKeyLookup
             map_waves_data = get_waves_data(
                 alt_data or stage_data, levelId, log=False)
             trimmed_stage_info.update(map_waves_data)
