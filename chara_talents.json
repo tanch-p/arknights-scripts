@@ -3385,7 +3385,8 @@
                 "desc_ja": "攻撃時、攻撃対象に毒で3秒間毎秒85<@ba.talpu>(+10)</>の術ダメージを与える",
                 "desc_en": "Poisons the targets when attacking, dealing 85 <@ba.talpu>(+10)</> Arts damage to them per second, lasting 3 seconds",
                 "tags": [
-                    "dot"
+                    "dot",
+                    "no_source"
                 ],
                 "blackboard": [
                     {
@@ -11969,11 +11970,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "废品战车",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Scrapheap Buggies",
+                "name_ja": "ガラクタの戦車",
                 "desc_zh": "可以在战术点召唤樱桃三号协助作战，其被击败后会在15秒后自动刷新，并在周围四格生成残骸",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "戦術召集点にチェリー3号を援軍として召喚可能\n援軍が倒された時、その隣接4マスに残骸を生成し、15秒後に再召喚される",
+                "desc_en": "Can summon Cherry-3 to assist in combat from a Tactical Point; after being defeated, Cherry-3 will spawn Wreckage in the four adjacent tiles, then automatically respawn 15s later",
                 "tags": [
                     "summon"
                 ],
@@ -11992,11 +11993,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "失魂",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Soul Stolen",
+                "name_ja": "抜け落つ魂",
                 "desc_zh": "攻击处于<ba.dt.apoptosis2>凋亡损伤</>爆发期间的敌人时使其每秒受到相当于攻击力40%的元素伤害，持续至<ba.dt.apoptosis2>凋亡损伤</>爆发结束",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "<ba.dt.apoptosis2>壊死損傷</>の爆発効果中の敵を攻撃した場合、毎秒攻撃力の40%の元素ダメージを与え続ける（<ba.dt.apoptosis2>壊死損傷</>の爆発効果が終了するまで継続）",
+                "desc_en": "When attacking enemies under the burst effect of <ba.dt.apoptosis2>Necrosis damage</>, deals an additional 40% ATK as Elemental damage per second, lasting until the end of the <ba.dt.apoptosis2>Necrosis damage</> burst",
                 "tags": [
                     "ele_dmg",
                     "dot"
@@ -12011,11 +12012,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "窥心钥",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Key to the Heart",
+                "name_ja": "心を覗く鍵",
                 "desc_zh": "每当自身攻击范围内敌人<ba.dt.apoptosis2>凋亡损伤</>爆发，攻击力+2%，最多可叠加12<@ba.talpu>(+2)</>层",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "攻撃範囲内の敵の<ba.dt.apoptosis2>壊死損傷</>が爆発するたび、自身の攻撃力+2%（最大12<@ba.talpu>（+2）</>回まで効果重複）",
+                "desc_en": "Whenever a <ba.dt.apoptosis2>Necrosis damage</> burst effect is triggered within Nymph's attack range, ATK +2%, stacking up to 12 <@ba.talpu>(+2)</> times",
                 "tags": [],
                 "blackboard": [
                     {
@@ -12036,22 +12037,22 @@
             {
                 "prefabKey": "1",
                 "name_zh": "“在路上”",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "'On My Way'",
+                "name_ja": "「オン・ザ・ウェイ」",
                 "desc_zh": "在【萨卡兹的无终奇语】中，被招募时希望消耗-2，且作为负荷干员时使负荷临界点额外+10<@ba.talpu>(+1)</>",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "【サルカズの炉辺奇談】で召集される際の希望消費-2、負荷オペレーターに配置されると負荷臨界点+10<@ba.talpu>（+1）</>",
+                "desc_en": "In [Sarkaz's Furnaceside Fables], costs -2 Hope to recruit and grants +10 <@ba.talpu>(+1)</> Toil Limit when acting as a Loadbearing Operator",
                 "tags": [],
                 "blackboard": []
             },
             {
                 "prefabKey": "2",
                 "name_zh": "凋敝魂灵",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Shriveled Soul",
+                "name_ja": "朽ちゆく魂",
                 "desc_zh": "使自身炼金单元影响范围内地面敌人受到的持续伤害提高22%<@ba.talpu>(+2%)</>",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "錬金ユニットの効果範囲内の地上にいる敵が受ける継続ダメージが22%<@ba.talpu>（+2%）</>上昇",
+                "desc_en": "Increases the continuous damage dealt to ground enemies in range of Tin Man's Alchemical Units by 22% <@ba.talpu>(+2%)</>",
                 "tags": [],
                 "blackboard": [
                     {
@@ -13379,6 +13380,64 @@
                     "heal_self"
                 ],
                 "blackboard": []
+            }
+        ]
+    },
+    "char_4173_nowell": {
+        "appellation": "Nowell",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "精准配镜",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "治疗处于异常状态中的友方干员时治疗量提升至123%<@ba.talpu>（+3%）</>",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": []
+            }
+        ]
+    },
+    "char_4010_etlchi": {
+        "appellation": "Entelechia",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "萃血",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "每次攻击敌人时<ba.steal>偷取</>目标75点生命上限（最高1350）并使目标每秒受到250<@ba.talpu>（+50）</>点法术伤害持续5秒",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "dot",
+                    "arts",
+                    "min_damage"
+                ],
+                "blackboard": []
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "重盈",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "生命值低于25%时，仅一次立刻回复55%<@ba.talpu>（+5%）</>最大生命值，且自身之后受到的物理伤害降低15%<@ba.talpu>（+5%）</>",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "dmg_res",
+                        "types": [
+                            "phys"
+                        ],
+                        "value": 15.0,
+                        "conditions": [
+                            "hp_lt_25"
+                        ]
+                    }
+                ]
             }
         ]
     }

@@ -34687,7 +34687,9 @@
                     "tokenAttributeBlackboard": {}
                 }
             ],
-            "tags": ["revive"],
+            "tags": [
+                "revive"
+            ],
             "blackboard": [
                 {
                     "key": "value",
@@ -51249,8 +51251,8 @@
     "uniequip_001_chen2": {
         "uniEquipId": "uniequip_001_chen2",
         "name_zh": "假日威龙陈证章",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "遊龍チェンの記章",
+        "name_en": "Ch'en the Holungday's Badge",
         "typeIcon": "original",
         "charId": "char_1013_chen2",
         "combatData": null
@@ -51258,8 +51260,8 @@
     "uniequip_002_chen2": {
         "uniEquipId": "uniequip_002_chen2",
         "name_zh": "沙滩战斗套装",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "ビーチ用コンバットセット",
+        "name_en": "Beach Combat Suit",
         "typeIcon": "rpr-x",
         "charId": "char_1013_chen2",
         "combatData": {
@@ -51271,11 +51273,11 @@
                             "target": "TRAIT_DATA_ONLY",
                             "isToken": false,
                             "addDesc_zh": null,
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": null,
+                            "addDesc_en": null,
                             "overrideDesc_zh": "攻击范围内的<@ba.kw>所有敌人</>，对自己前方一横排的敌人攻击力提升至<@ba.kw>160%</>",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "攻撃範囲内の<@ba.kw>敵全員</>を同時に攻撃し、自身の正面横3マスにいる敵を攻撃時攻撃力が<@ba.kw>160%</>まで上昇",
+                            "overrideDesc_en": "Attacks <@ba.kw>all enemies</> within range, and deals <@ba.kw>160%</> damage to enemies in the row directly in front of this unit."
                         }
                     ],
                     "attributeBlackboard": [
@@ -51297,25 +51299,25 @@
                             "target": "TRAIT_DATA_ONLY",
                             "isToken": false,
                             "addDesc_zh": null,
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": null,
+                            "addDesc_en": null,
                             "overrideDesc_zh": "攻击范围内的<@ba.kw>所有敌人</>，对自己前方一横排的敌人攻击力提升至<@ba.kw>160%</>",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "攻撃範囲内の<@ba.kw>敵全員</>を同時に攻撃し、自身の正面横3マスにいる敵を攻撃時攻撃力が<@ba.kw>160%</>まで上昇",
+                            "overrideDesc_en": "Attacks <@ba.kw>all enemies</> within range, and deals <@ba.kw>160%</> damage to enemies in the row directly in front of this unit."
                         },
                         {
                             "resKey": "chen2_equip_1_2_p1",
                             "target": "TALENT",
                             "isToken": false,
-                            "name_zh": "节约风气",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Frugality",
+                            "name_ja": "勤倹節約",
+                            "name_en": "Frugality",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "在场时自身弹药类技能攻击时25%<@ba.talpu>(+2%)</>概率不消耗对应弹药，其他【狙击】干员的弹药类技能改为20%概率不消耗，其他远程干员的弹药类技能改为8%概率不消耗(同类效果取最高)",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "配置中、自身の弾薬消費系スキルが25%<@ba.talpu>（+2%）</>の確率で弾薬を消費せず、自身以外の【狙撃】が20%の確率で弾薬を消費しなくなり、その他遠距離オペレーターが8%の確率で弾薬を消費しなくなる（同種の効果は高いほうのみ適用）",
+                            "upgradeDesc_en": "When deployed, Ch'en's ammo-based skills have 25% <@ba.talpu>(+2%)</> chance to not consume the corresponding ammo; other Sniper Operators' ammo-based skills have 20% chance instead, while other Ranged Operators have 8% chance (only the highest effect of this type will be applied)"
                         }
                     ],
                     "attributeBlackboard": [
@@ -51337,25 +51339,25 @@
                             "target": "TRAIT_DATA_ONLY",
                             "isToken": false,
                             "addDesc_zh": null,
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": null,
+                            "addDesc_en": null,
                             "overrideDesc_zh": "攻击范围内的<@ba.kw>所有敌人</>，对自己前方一横排的敌人攻击力提升至<@ba.kw>160%</>",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "攻撃範囲内の<@ba.kw>敵全員</>を同時に攻撃し、自身の正面横3マスにいる敵を攻撃時攻撃力が<@ba.kw>160%</>まで上昇",
+                            "overrideDesc_en": "Attacks <@ba.kw>all enemies</> within range, and deals <@ba.kw>160%</> damage to enemies in the row directly in front of this unit."
                         },
                         {
                             "resKey": "chen2_equip_1_3_p1",
                             "target": "TALENT",
                             "isToken": false,
-                            "name_zh": "节约风气",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Frugality",
+                            "name_ja": "勤倹節約",
+                            "name_en": "Frugality",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "在场时自身弹药类技能攻击时27%<@ba.talpu>(+2%)</>概率不消耗对应弹药，其他【狙击】干员的弹药类技能改为20%概率不消耗，其他远程干员的弹药类技能改为12%概率不消耗(同类效果取最高)",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "配置中、自身の弾薬消費系スキルが27%<@ba.talpu>（+2%）</>の確率で弾薬を消費せず、自身以外の【狙撃】が20%の確率で弾薬を消費しなくなり、その他遠距離オペレーターが12%の確率で弾薬を消費しなくなる（同種の効果は高いほうのみ適用）",
+                            "upgradeDesc_en": "When deployed, Ch'en's ammo-based skills have 27% <@ba.talpu>(+2%)</> chance to not consume the corresponding ammo; other Sniper Operators' ammo-based skills have 20% chance instead, while other Ranged Operators have 12% chance (only the highest effect of this type will be applied)"
                         }
                     ],
                     "attributeBlackboard": [
@@ -51390,8 +51392,8 @@
     "uniequip_001_aosta": {
         "uniEquipId": "uniequip_001_aosta",
         "name_zh": "奥斯塔证章",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "アオスタの記章",
+        "name_en": "Aosta's Badge",
         "typeIcon": "original",
         "charId": "char_346_aosta",
         "combatData": null
@@ -51399,8 +51401,8 @@
     "uniequip_002_aosta": {
         "uniEquipId": "uniequip_002_aosta",
         "name_zh": "逃亡路上的应急小包",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "逃亡用の緊急キット",
+        "name_en": "Emergency Kit",
         "typeIcon": "rpr-x",
         "charId": "char_346_aosta",
         "combatData": {
@@ -51412,11 +51414,11 @@
                             "target": "TRAIT_DATA_ONLY",
                             "isToken": false,
                             "addDesc_zh": null,
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": null,
+                            "addDesc_en": null,
                             "overrideDesc_zh": "攻击范围内的<@ba.kw>所有敌人</>，对自己前方一横排的敌人攻击力提升至<@ba.kw>160%</>",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "攻撃範囲内の<@ba.kw>敵全員</>を同時に攻撃し、自身の正面横3マスにいる敵を攻撃時攻撃力が<@ba.kw>160%</>まで上昇",
+                            "overrideDesc_en": "Attacks <@ba.kw>all enemies</> within range, and deals <@ba.kw>160%</> damage to enemies in the row directly in front of this unit."
                         }
                     ],
                     "attributeBlackboard": [
@@ -51438,25 +51440,25 @@
                             "target": "TRAIT_DATA_ONLY",
                             "isToken": false,
                             "addDesc_zh": null,
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": null,
+                            "addDesc_en": null,
                             "overrideDesc_zh": "攻击范围内的<@ba.kw>所有敌人</>，对自己前方一横排的敌人攻击力提升至<@ba.kw>160%</>",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "攻撃範囲内の<@ba.kw>敵全員</>を同時に攻撃し、自身の正面横3マスにいる敵を攻撃時攻撃力が<@ba.kw>160%</>まで上昇",
+                            "overrideDesc_en": "Attacks <@ba.kw>all enemies</> within range, and deals <@ba.kw>160%</> damage to enemies in the row directly in front of this unit."
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "尖钉",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Sharp Nails",
+                            "name_ja": "釘刺創",
+                            "name_en": "Sharp Nails",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "攻击使未被阻挡的敌人流血，每秒受到相当于奥斯塔攻击力25%<@ba.talpu>(+2%)</>的法术伤害(不受特性影响)，持续4秒",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "ブロックされてない敵を攻撃時、攻撃対象を4秒間、1秒ごとにアオスタの攻撃力の25%<@ba.talpu>（+2%）</>の術ダメージ（特性に影響されない）を受ける流血状態にする",
+                            "upgradeDesc_en": "Attacks inflict Bleed to unblocked enemies, dealing 25% <@ba.talpu>(+2%)</> ATK as Arts damage (unaffected by trait) every second for 4 seconds"
                         }
                     ],
                     "attributeBlackboard": [
@@ -51478,25 +51480,25 @@
                             "target": "TRAIT_DATA_ONLY",
                             "isToken": false,
                             "addDesc_zh": null,
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": null,
+                            "addDesc_en": null,
                             "overrideDesc_zh": "攻击范围内的<@ba.kw>所有敌人</>，对自己前方一横排的敌人攻击力提升至<@ba.kw>160%</>",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "攻撃範囲内の<@ba.kw>敵全員</>を同時に攻撃し、自身の正面横3マスにいる敵を攻撃時攻撃力が<@ba.kw>160%</>まで上昇",
+                            "overrideDesc_en": "Attacks <@ba.kw>all enemies</> within range, and deals <@ba.kw>160%</> damage to enemies in the row directly in front of this unit."
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "尖钉",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Sharp Nails",
+                            "name_ja": "釘刺創",
+                            "name_en": "Sharp Nails",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "攻击使未被阻挡的敌人流血，每秒受到相当于奥斯塔攻击力27%<@ba.talpu>(+2%)</>的法术伤害(不受特性影响)，持续5秒",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "ブロックされてない敵を攻撃時、攻撃対象を5秒間、1秒ごとにアオスタの攻撃力の27%<@ba.talpu>（+2%）</>の術ダメージ（特性に影響されない）を受ける流血状態にする",
+                            "upgradeDesc_en": "Attacks inflict Bleed to unblocked enemies, dealing 27% <@ba.talpu>(+2%)</> ATK as Arts damage (unaffected by trait) every second for 5 seconds"
                         }
                     ],
                     "attributeBlackboard": [
@@ -51535,8 +51537,8 @@
     "uniequip_001_excu": {
         "uniEquipId": "uniequip_001_excu",
         "name_zh": "送葬人证章",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "イグゼキュターの記章",
+        "name_en": "Executor's Badge",
         "typeIcon": "original",
         "charId": "char_279_excu",
         "combatData": null
@@ -51544,8 +51546,8 @@
     "uniequip_002_excu": {
         "uniEquipId": "uniequip_002_excu",
         "name_zh": "执行者随身包",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "執行人のバッグ",
+        "name_en": "Executor's Satchel",
         "typeIcon": "rpr-x",
         "charId": "char_279_excu",
         "combatData": {
@@ -51557,11 +51559,11 @@
                             "target": "TRAIT_DATA_ONLY",
                             "isToken": false,
                             "addDesc_zh": null,
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": null,
+                            "addDesc_en": null,
                             "overrideDesc_zh": "攻击范围内的<@ba.kw>所有敌人</>，对自己前方一横排的敌人攻击力提升至<@ba.kw>160%</>",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "攻撃範囲内の<@ba.kw>敵全員</>を同時に攻撃し、自身の正面横3マスにいる敵を攻撃時攻撃力が<@ba.kw>160%</>まで上昇",
+                            "overrideDesc_en": "Attacks <@ba.kw>all enemies</> within range, and deals <@ba.kw>160%</> damage to enemies in the row directly in front of this unit."
                         }
                     ],
                     "attributeBlackboard": [
@@ -51583,25 +51585,25 @@
                             "target": "TRAIT_DATA_ONLY",
                             "isToken": false,
                             "addDesc_zh": null,
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": null,
+                            "addDesc_en": null,
                             "overrideDesc_zh": "攻击范围内的<@ba.kw>所有敌人</>，对自己前方一横排的敌人攻击力提升至<@ba.kw>160%</>",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "攻撃範囲内の<@ba.kw>敵全員</>を同時に攻撃し、自身の正面横3マスにいる敵を攻撃時攻撃力が<@ba.kw>160%</>まで上昇",
+                            "overrideDesc_en": "Attacks <@ba.kw>all enemies</> within range, and deals <@ba.kw>160%</> damage to enemies in the row directly in front of this unit."
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "终结改装",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Final Modification",
+                            "name_ja": "アサルトカスタム",
+                            "name_en": "Final Modification",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "攻击时无视目标205<@ba.talpu>(+15)</>的防御力",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "攻撃時、対象の防御力を205<@ba.talpu>（+15）</>無視",
+                            "upgradeDesc_en": "Attacks ignore 205 <@ba.talpu>(+15)</> DEF"
                         }
                     ],
                     "attributeBlackboard": [
@@ -51623,25 +51625,25 @@
                             "target": "TRAIT_DATA_ONLY",
                             "isToken": false,
                             "addDesc_zh": null,
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": null,
+                            "addDesc_en": null,
                             "overrideDesc_zh": "攻击范围内的<@ba.kw>所有敌人</>，对自己前方一横排的敌人攻击力提升至<@ba.kw>160%</>",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "攻撃範囲内の<@ba.kw>敵全員</>を同時に攻撃し、自身の正面横3マスにいる敵を攻撃時攻撃力が<@ba.kw>160%</>まで上昇",
+                            "overrideDesc_en": "Attacks <@ba.kw>all enemies</> within range, and deals <@ba.kw>160%</> damage to enemies in the row directly in front of this unit."
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "终结改装",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Final Modification",
+                            "name_ja": "アサルトカスタム",
+                            "name_en": "Final Modification",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "攻击时无视目标225<@ba.talpu>(+15)</>的防御力",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "攻撃時、対象の防御力を225<@ba.talpu>（+15）</>無視",
+                            "upgradeDesc_en": "Attacks ignore 225 <@ba.talpu>(+15)</> DEF"
                         }
                     ],
                     "attributeBlackboard": [
@@ -51673,8 +51675,8 @@
     "uniequip_001_pinecn": {
         "uniEquipId": "uniequip_001_pinecn",
         "name_zh": "松果证章",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "パインコーンの記章",
+        "name_en": "Pinecone's Badge",
         "typeIcon": "original",
         "charId": "char_440_pinecn",
         "combatData": null
@@ -51682,8 +51684,8 @@
     "uniequip_002_pinecn": {
         "uniEquipId": "uniequip_002_pinecn",
         "name_zh": "移动电箱",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "ポータブル電源",
+        "name_en": "Mobile Powerbank",
         "typeIcon": "rpr-x",
         "charId": "char_440_pinecn",
         "combatData": {
@@ -51695,11 +51697,11 @@
                             "target": "TRAIT_DATA_ONLY",
                             "isToken": false,
                             "addDesc_zh": null,
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": null,
+                            "addDesc_en": null,
                             "overrideDesc_zh": "攻击范围内的<@ba.kw>所有敌人</>，对自己前方一横排的敌人攻击力提升至<@ba.kw>160%</>",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "攻撃範囲内の<@ba.kw>敵全員</>を同時に攻撃し、自身の正面横3マスにいる敵を攻撃時攻撃力が<@ba.kw>160%</>まで上昇",
+                            "overrideDesc_en": "Attacks <@ba.kw>all enemies</> within range, and deals <@ba.kw>160%</> damage to enemies in the row directly in front of this unit."
                         }
                     ],
                     "attributeBlackboard": [
@@ -51721,25 +51723,25 @@
                             "target": "TRAIT_DATA_ONLY",
                             "isToken": false,
                             "addDesc_zh": null,
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": null,
+                            "addDesc_en": null,
                             "overrideDesc_zh": "攻击范围内的<@ba.kw>所有敌人</>，对自己前方一横排的敌人攻击力提升至<@ba.kw>160%</>",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "攻撃範囲内の<@ba.kw>敵全員</>を同時に攻撃し、自身の正面横3マスにいる敵を攻撃時攻撃力が<@ba.kw>160%</>まで上昇",
+                            "overrideDesc_en": "Attacks <@ba.kw>all enemies</> within range, and deals <@ba.kw>160%</> damage to enemies in the row directly in front of this unit."
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "便携电源",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Portable Energy Source",
+                            "name_ja": "ポータブル電源",
+                            "name_en": "Portable Energy Source",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "部署后70秒内技力自然回复速度+0.55<@ba.talpu>(+0.05)</>/秒",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "配置後、70秒間SP自然回復速度+0.55<@ba.talpu>（+0.05）</>sp/秒",
+                            "upgradeDesc_en": "Improves own SP recovery rate by +0.55 <@ba.talpu>(+0.05)</>/second for 70 seconds after deployment"
                         }
                     ],
                     "attributeBlackboard": [
@@ -51761,25 +51763,25 @@
                             "target": "TRAIT_DATA_ONLY",
                             "isToken": false,
                             "addDesc_zh": null,
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": null,
+                            "addDesc_en": null,
                             "overrideDesc_zh": "攻击范围内的<@ba.kw>所有敌人</>，对自己前方一横排的敌人攻击力提升至<@ba.kw>160%</>",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "攻撃範囲内の<@ba.kw>敵全員</>を同時に攻撃し、自身の正面横3マスにいる敵を攻撃時攻撃力が<@ba.kw>160%</>まで上昇",
+                            "overrideDesc_en": "Attacks <@ba.kw>all enemies</> within range, and deals <@ba.kw>160%</> damage to enemies in the row directly in front of this unit."
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "便携电源",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Portable Energy Source",
+                            "name_ja": "ポータブル電源",
+                            "name_en": "Portable Energy Source",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "部署后75秒内技力自然回复速度+0.6<@ba.talpu>(+0.05)</>/秒",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "配置後、75秒間SP自然回復速度+0.6<@ba.talpu>（+0.05）</>sp/秒",
+                            "upgradeDesc_en": "Improves own SP recovery rate by +0.6 <@ba.talpu>(+0.05)</>/second for 75 seconds after deployment"
                         }
                     ],
                     "attributeBlackboard": [
@@ -51815,8 +51817,8 @@
     "uniequip_001_mitm": {
         "uniEquipId": "uniequip_001_mitm",
         "name_zh": "渡桥证章",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "ミトムの記章",
+        "name_en": "Mitm's Badge",
         "typeIcon": "original",
         "charId": "char_4147_mitm",
         "combatData": null
@@ -51824,8 +51826,8 @@
     "uniequip_002_mitm": {
         "uniEquipId": "uniequip_002_mitm",
         "name_zh": "内敛锋芒",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "秘められた鋭さ",
+        "name_en": "Beware of the Edges",
         "typeIcon": "tac-y",
         "charId": "char_4147_mitm",
         "combatData": {
@@ -51837,19 +51839,19 @@
                             "target": "TRAIT_DATA_ONLY",
                             "isToken": false,
                             "addDesc_zh": null,
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": null,
+                            "addDesc_en": null,
                             "overrideDesc_zh": "可以在攻击范围内选择一次<@ba.kw>战术点</>来召唤援军，援军阻挡的敌人更容易受到我方的攻击，自身攻击援军阻挡的敌人时攻击力提升至165%",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "攻撃範囲内で<@ba.kw>戦術召集点</>を指定し援軍を召喚できる\n自身が援軍によってブロックされている敵を攻撃する場合、攻撃力が165%まで上昇\n援軍がブロックしている敵は味方ユニットから狙われやすくなる",
+                            "overrideDesc_en": "This unit can designate one <@ba.kw>Tactical Point</> within attack range to call Reinforcements; Enemies blocked by reinforcements are more likely to be attacked, and this unit's ATK is increased to 165% when attacking enemies blocked by Reinforcements"
                         },
                         {
                             "resKey": "mitm_equip_1_1_p1",
                             "target": "TALENT",
                             "isToken": true,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": -1,
@@ -51877,47 +51879,47 @@
                             "target": "TRAIT_DATA_ONLY",
                             "isToken": false,
                             "addDesc_zh": null,
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": null,
+                            "addDesc_en": null,
                             "overrideDesc_zh": "可以在攻击范围内选择一次<@ba.kw>战术点</>来召唤援军，援军阻挡的敌人更容易受到我方的攻击，自身攻击援军阻挡的敌人时攻击力提升至165%",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "攻撃範囲内で<@ba.kw>戦術召集点</>を指定し援軍を召喚できる\n自身が援軍によってブロックされている敵を攻撃する場合、攻撃力が165%まで上昇\n援軍がブロックしている敵は味方ユニットから狙われやすくなる",
+                            "overrideDesc_en": "This unit can designate one <@ba.kw>Tactical Point</> within attack range to call Reinforcements; Enemies blocked by reinforcements are more likely to be attacked, and this unit's ATK is increased to 165% when attacking enemies blocked by Reinforcements"
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": true,
-                            "name_zh": "废品战车",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Scrapheap Buggies",
+                            "name_ja": "ガラクタの戦車",
+                            "name_en": "Scrapheap Buggies",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "作为小车形态存在时被击败后会在15秒后自动刷新，并在周围四格生成生命值更高的残骸；作为残骸形态存在时可以阻挡1个敌人",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "戦車状態で撃破された時、隣接4マスに最大HPがより高い残骸を生成し、15秒後に再召喚される。残骸状態の時、敵を1体ブロックできる",
+                            "upgradeDesc_en": "When in Buggy form, will spawn Wreckage with higher HP in the four adjacent tiles after being defeated, then automatically respawn 15s later; when in Wreckage form, can block 1 enemy"
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "废品战车",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Scrapheap Buggies",
+                            "name_ja": "ガラクタの戦車",
+                            "name_en": "Scrapheap Buggies",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "可以在战术点召唤樱桃三号协助作战，其被击败后会在15秒后自动刷新，并在周围四格生成生命值更高的残骸",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "戦術召集点にチェリー3号を援軍として召喚可能\n援軍が倒された時、その隣接4マスに最大HPがより高い残骸を生成し、15秒後に再召喚される",
+                            "upgradeDesc_en": "Can summon Cherry-3 to assist in combat from a Tactical Point; after being defeated, Cherry-3 will spawn Wreckage with higher HP in the four adjacent tiles, then automatically respawn 15s later"
                         },
                         {
                             "resKey": "mitm_equip_1_2_p1",
                             "target": "TALENT",
                             "isToken": true,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": -1,
@@ -51945,47 +51947,47 @@
                             "target": "TRAIT_DATA_ONLY",
                             "isToken": false,
                             "addDesc_zh": null,
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": null,
+                            "addDesc_en": null,
                             "overrideDesc_zh": "可以在攻击范围内选择一次<@ba.kw>战术点</>来召唤援军，援军阻挡的敌人更容易受到我方的攻击，自身攻击援军阻挡的敌人时攻击力提升至165%",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "攻撃範囲内で<@ba.kw>戦術召集点</>を指定し援軍を召喚できる\n自身が援軍によってブロックされている敵を攻撃する場合、攻撃力が165%まで上昇\n援軍がブロックしている敵は味方ユニットから狙われやすくなる",
+                            "overrideDesc_en": "This unit can designate one <@ba.kw>Tactical Point</> within attack range to call Reinforcements; Enemies blocked by reinforcements are more likely to be attacked, and this unit's ATK is increased to 165% when attacking enemies blocked by Reinforcements"
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": true,
-                            "name_zh": "废品战车",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Scrapheap Buggies",
+                            "name_ja": "ガラクタの戦車",
+                            "name_en": "Scrapheap Buggies",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "作为小车形态存在时被击败后会在15秒后自动刷新，并在周围四格生成生命值进一步提高的残骸；作为残骸形态存在时可以阻挡1个敌人",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "戦車状態で撃破された時、隣接4マスに最大HPがさらに高い残骸を生成し、15秒後に再召喚される。残骸状態の時、敵を1体ブロックできる",
+                            "upgradeDesc_en": "When in Buggy form, will spawn Wreckage with even higher HP in the four adjacent tiles after being defeated, then automatically respawn 15s later; when in Wreckage form, can block 1 enemy"
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "废品战车",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Scrapheap Buggies",
+                            "name_ja": "ガラクタの戦車",
+                            "name_en": "Scrapheap Buggies",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "可以在战术点召唤樱桃三号协助作战，其被击败后会在15秒后自动刷新，并在周围四格生成生命值进一步提高的残骸",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "戦術召集点にチェリー3号を援軍として召喚可能\n援軍が倒された時、その隣接4マスに最大HPがさらに高い残骸を生成し、15秒後に再召喚される",
+                            "upgradeDesc_en": "Can summon Cherry-3 to assist in combat from a Tactical Point; after being defeated, Cherry-3 will spawn Wreckage with even higher HP in the four adjacent tiles, then automatically respawn 15s later"
                         },
                         {
                             "resKey": "mitm_equip_1_3_p1",
                             "target": "TALENT",
                             "isToken": true,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": -1,
@@ -51998,8 +52000,8 @@
                             "target": "TALENT",
                             "isToken": true,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": -1,
@@ -52035,8 +52037,8 @@
     "uniequip_003_mostma": {
         "uniEquipId": "uniequip_003_mostma",
         "name_zh": "资深万国信使定制斗篷",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "レガトゥス専用クローク",
+        "name_en": "Veteran Legatus' Customized Cloak",
         "typeIcon": "spc-x",
         "charId": "char_213_mostma",
         "combatData": {
@@ -52048,19 +52050,19 @@
                             "target": "DISPLAY",
                             "isToken": false,
                             "addDesc_zh": "攻击范围<@ba.kw>扩大</>",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "攻撃範囲<@ba.kw>拡大</>",
+                            "addDesc_en": "Attack Range <@ba.kw>expands</>",
                             "overrideDesc_zh": "攻击造成<@ba.kw>群体法术伤害</>",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "敵に<@ba.kw>範囲術ダメージ</>を与える",
+                            "overrideDesc_en": "Deals <@ba.kw>AOE Arts damage</>"
                         },
                         {
                             "resKey": "mostma_equip_2_1_p1",
                             "target": "TALENT",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": true,
                             "rangeId": "3-1",
                             "talentIndex": -1,
@@ -52088,33 +52090,33 @@
                             "target": "DISPLAY",
                             "isToken": false,
                             "addDesc_zh": "攻击范围<@ba.kw>扩大</>",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "攻撃範囲<@ba.kw>拡大</>",
+                            "addDesc_en": "Attack Range <@ba.kw>expands</>",
                             "overrideDesc_zh": "攻击造成<@ba.kw>群体法术伤害</>",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "敵に<@ba.kw>範囲術ダメージ</>を与える",
+                            "overrideDesc_en": "Deals <@ba.kw>AOE Arts damage</>"
                         },
                         {
                             "resKey": "mostma_equip_2_2_p2",
                             "target": "TALENT",
                             "isToken": false,
-                            "name_zh": "技力光环·术师",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Skill Aura - Caster",
+                            "name_ja": "スキルブースト・術師",
+                            "name_en": "Skill Aura - Caster",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "在场时所有【术师】干员的技力自然回复速度+0.5/秒，自身提高至+0.7/秒(同类效果取最高)",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "配置中、味方【術師】のSPの自然回復速度+0.5sp/秒、自身は自然回復速度+0.7sp/秒（同種の効果は高いほうのみ適用）",
+                            "upgradeDesc_en": "When deployed, increases the SP recovery rate of all Casters by +0.5/second, while own SP recovery rate increases by +0.7/second (only the highest effect of this type will be applied)"
                         },
                         {
                             "resKey": "mostma_equip_2_2_p1",
                             "target": "TALENT",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": true,
                             "rangeId": "3-1",
                             "talentIndex": -1,
@@ -52142,33 +52144,33 @@
                             "target": "DISPLAY",
                             "isToken": false,
                             "addDesc_zh": "攻击范围<@ba.kw>扩大</>",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "攻撃範囲<@ba.kw>拡大</>",
+                            "addDesc_en": "Attack Range <@ba.kw>expands</>",
                             "overrideDesc_zh": "攻击造成<@ba.kw>群体法术伤害</>",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "敵に<@ba.kw>範囲術ダメージ</>を与える",
+                            "overrideDesc_en": "Deals <@ba.kw>AOE Arts damage</>"
                         },
                         {
                             "resKey": "mostma_equip_2_3_p2",
                             "target": "TALENT",
                             "isToken": false,
-                            "name_zh": "技力光环·术师",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Skill Aura - Caster",
+                            "name_ja": "スキルブースト・術師",
+                            "name_en": "Skill Aura - Caster",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "在场时所有【术师】干员的技力自然回复速度+0.6/秒，自身提高至+0.9/秒(同类效果取最高)",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "配置中、味方【術師】のSPの自然回復速度+0.6sp/秒、自身は自然回復速度+0.9sp/秒（同種の効果は高いほうのみ適用）",
+                            "upgradeDesc_en": "When deployed, increases the SP recovery rate of all Casters by +0.6/second, while own SP recovery rate increases by +0.9/second (only the highest effect of this type will be applied)"
                         },
                         {
                             "resKey": "mostma_equip_2_3_p1",
                             "target": "TALENT",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": true,
                             "rangeId": "3-1",
                             "talentIndex": -1,
@@ -52209,8 +52211,8 @@
     "uniequip_003_swire2": {
         "uniEquipId": "uniequip_003_swire2",
         "name_zh": "诗怀雅的龙门美食指南",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "スワイヤーの龍門グルメガイド",
+        "name_en": "Director Swire's Lungmen Food Guide",
         "typeIcon": "mer-y",
         "charId": "char_1033_swire2",
         "combatData": {
@@ -52222,19 +52224,19 @@
                             "target": "DISPLAY",
                             "isToken": false,
                             "addDesc_zh": "每次特性消耗费用时攻击力+4%，最多可以叠加5次",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "特性によるコスト消費時、攻撃力+4%、最大5回まで",
+                            "addDesc_en": "ATK +4% whenever Trait cost is paid, stacking up to 5 times",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": "swire2_equip_2_1_p1",
                             "target": "TALENT",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": -1,
@@ -52262,33 +52264,33 @@
                             "target": "DISPLAY",
                             "isToken": false,
                             "addDesc_zh": "每次特性消耗费用时攻击力+4%，最多可以叠加5次",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "特性によるコスト消費時、攻撃力+4%、最大5回まで",
+                            "addDesc_en": "ATK +4% whenever Trait cost is paid, stacking up to 5 times",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": "swire2_equip_2_2_p2",
                             "target": "TALENT",
                             "isToken": false,
-                            "name_zh": "破财消灾",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Cash Claps Calamity",
+                            "name_ja": "財あれば憂いなし",
+                            "name_en": "Cash Claps Calamity",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 1,
                             "upgradeDesc_zh": "受到致命伤害时，若费用足够则消耗5点部署费用使生命恢复到80%<@ba.talpu>(+10%)</>，每次触发该天赋时消耗的费用增加5点",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "致命的なダメージを受けた時、所持コストが5以上の場合、代わりにコストを5消費して、HPを最大値の80%<@ba.talpu>（+10%）</>まで回復する（発動のたびに消費コスト+5）",
+                            "upgradeDesc_en": "Upon receiving lethal damage, as long as enough DP is available, consumes 5 DP to restore this unit's HP to 80% <@ba.talpu>(+10%)</>; the cost of this Talent increases by 5 every time it is activated"
                         },
                         {
                             "resKey": "swire2_equip_2_2_p1",
                             "target": "TALENT",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": -1,
@@ -52316,33 +52318,33 @@
                             "target": "DISPLAY",
                             "isToken": false,
                             "addDesc_zh": "每次特性消耗费用时攻击力+4%，最多可以叠加5次",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "特性によるコスト消費時、攻撃力+4%、最大5回まで",
+                            "addDesc_en": "ATK +4% whenever Trait cost is paid, stacking up to 5 times",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": "swire2_equip_2_3_p2",
                             "target": "TALENT",
                             "isToken": false,
-                            "name_zh": "破财消灾",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Cash Claps Calamity",
+                            "name_ja": "財あれば憂いなし",
+                            "name_en": "Cash Claps Calamity",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 1,
                             "upgradeDesc_zh": "受到致命伤害时，若费用足够则消耗3点部署费用使生命恢复到80%<@ba.talpu>(+10%)</>，每次触发该天赋时消耗的费用增加3点",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "致命的なダメージを受けた時、所持コストが3以上の場合、代わりにコストを3消費して、HPを最大値の80%<@ba.talpu>（+10%）</>まで回復する（発動のたびに消費コスト+3）",
+                            "upgradeDesc_en": "Upon receiving lethal damage, as long as enough DP is available, consumes 3 DP to restore this unit's HP to 80% <@ba.talpu>(+10%)</>; the cost of this Talent increases by 3 every time it is activated"
                         },
                         {
                             "resKey": "swire2_equip_2_3_p1",
                             "target": "TALENT",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": -1,
@@ -61513,7 +61515,9 @@
                     "tokenAttributeBlackboard": {}
                 }
             ],
-            "tags": ["revive"],
+            "tags": [
+                "revive"
+            ],
             "blackboard": []
         }
     },
@@ -62088,6 +62092,288 @@
                     ],
                     "category": [
                         "physicfragile"
+                    ]
+                }
+            ]
+        }
+    },
+    "uniequip_001_nowell": {
+        "uniEquipId": "uniequip_001_nowell",
+        "name_zh": "诺威尔证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_4173_nowell",
+        "combatData": null
+    },
+    "uniequip_002_nowell": {
+        "uniEquipId": "uniequip_002_nowell",
+        "name_zh": "致祖父",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "wah-y",
+        "charId": "char_4173_nowell",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "TRAIT_DATA_ONLY",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "拥有较大治疗范围，治疗较远目标时治疗量<@ba.kw>不再降低</>",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 100.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "atk",
+                            "value": 25.0,
+                            "valueStr": null
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "TRAIT_DATA_ONLY",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "拥有较大治疗范围，治疗较远目标时治疗量<@ba.kw>不再降低</>",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "精准配镜",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "治疗处于异常状态中的友方干员时治疗量提升至133%<@ba.talpu>（+3%）</>",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 125.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "atk",
+                            "value": 33.0,
+                            "valueStr": null
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "TRAIT_DATA_ONLY",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "拥有较大治疗范围，治疗较远目标时治疗量<@ba.kw>不再降低</>",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "精准配镜",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "治疗处于异常状态中的友方干员时治疗量提升至138%<@ba.talpu>（+3%）</>",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 145.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "atk",
+                            "value": 38.0,
+                            "valueStr": null
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+            ]
+        }
+    },
+    "uniequip_001_etlchi": {
+        "uniEquipId": "uniequip_001_etlchi",
+        "name_zh": "隐德来希证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_4010_etlchi",
+        "combatData": null
+    },
+    "uniequip_002_etlchi": {
+        "uniEquipId": "uniequip_002_etlchi",
+        "name_zh": "易枯萎的航船",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "rea-x",
+        "charId": "char_4010_etlchi",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "TRAIT_DATA_ONLY",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "无法被友方角色治疗，攻击造成<@ba.kw>群体伤害</>，每攻击到一个敌人回复自身<@ba.kw>60</>生命，最大生效数等于阻挡数",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 50.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "def",
+                            "value": 20.0,
+                            "valueStr": null
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "TRAIT_DATA_ONLY",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "无法被友方角色治疗，攻击造成<@ba.kw>群体伤害</>，每攻击到一个敌人回复自身<@ba.kw>60</>生命，最大生效数等于阻挡数",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "重盈",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 1,
+                            "upgradeDesc_zh": "生命值低于25%时，仅一次立刻回复75%<@ba.talpu>（+5%）最大生命值，且自身之后受到的物理伤害降低20%<@ba.talpu>（+5%）</>",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 60.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "def",
+                            "value": 38.0,
+                            "valueStr": null
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "TRAIT_DATA_ONLY",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "无法被友方角色治疗，攻击造成<@ba.kw>群体伤害</>，每攻击到一个敌人回复自身<@ba.kw>60</>生命，最大生效数等于阻挡数",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "重盈",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 1,
+                            "upgradeDesc_zh": "生命值低于25%时，仅一次立刻回复90%<@ba.talpu>（+5%）最大生命值，且自身之后受到的物理伤害降低25%<@ba.talpu>（+5%）</>",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 70.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "def",
+                            "value": 50.0,
+                            "valueStr": null
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+                {
+                    "key": "dmg_res",
+                    "types": [
+                        "phys"
+                    ],
+                    "value": 25.0,
+                    "conditions": [
+                        "hp_lt_25"
                     ]
                 }
             ]
