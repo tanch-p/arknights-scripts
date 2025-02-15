@@ -1,5 +1,6 @@
 import json
 import os
+from json_gz import json_to_gz
 
 # split characters.json into diff languages
 languages = ['zh', 'ja', 'en']
@@ -137,3 +138,8 @@ for lang in languages:
         data.append(return_dict)
     with open(f'characters_{lang}.json', 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, separators=(',', ':'))
+
+
+json_to_gz(f'characters_zh.json', f'characters_zh.gz')
+json_to_gz(f'characters_ja.json', f'characters_ja.gz')
+json_to_gz(f'characters_en.json', f'characters_en.gz')
