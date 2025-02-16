@@ -20045,11 +20045,11 @@
     ],
     "eliteDesc_ja": [
       "敵全員の攻撃力+30%、防御力+30%、最大HP+30%",
-      "追加で「年代之刺」1個と「ダック卿」1体が出現する"
+      "追加で「時代の棘」1個と「ダック卿」1体が出現する"
     ],
     "eliteDesc_en": [
       "All enemy units have +30% ATK, +30% DEF, and +30% Max HP",
-      "Additional 1 <年代之刺> and 1 <Duck Lord> appears"
+      "Additional 1 <Spines of Epoch> and 1 <Duck Lord> appears"
     ],
     "normal_mods": null,
     "elite_mods": [
@@ -25688,11 +25688,11 @@
     "routes": null,
     "floors": [5],
     "addInfo_zh": [
-      "始终是<@purple>沉郁变奏</>，能用调谐节点改换变奏",
+      "始终是沉郁变奏，能用调谐节点改换变奏",
       "年代之刺：普通0/天灾+1"
     ],
-    "addInfo_ja": ["<@purple>トーンダウン</>から始まる","時代の棘：通常0/天災+1"],
-    "addInfo_en": ["Starts in <@purple>Melancholic</> tune","Spines of Epoch: Normal - 0, Catastrophes +1"],
+    "addInfo_ja": ["トーンダウンから始まる","時代の棘：通常0/天災+1"],
+    "addInfo_en": ["Starts in Melancholic tune","Spines of Epoch: Normal - 0, Catastrophes +1"],
     "eliteDesc_zh": [
       "所有敌方单位的攻击力+30%，防御力+20%，生命值+30%",
       "调谐节点激活所需技力翻倍"
