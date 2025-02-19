@@ -20,8 +20,8 @@ STAT_KEY_CONVERSION_TABLE = {
     "moveSpeed": "ms"
 }
 
-TRAPS_TO_EXCLUDE = ["trap_051_vultres", "trap_042_tidectrl", "trap_061_creep", "trap_062_magicstart",
-                    "trap_063_magicturn", "trap_106_smtree", "trap_050_blizzard", "trap_092_vgctrl", "trap_036_storm", "trap_162_lrctrl", "trap_766_duelwal", "trap_767_duelcdt"]
+TRAPS_TO_EXCLUDE = ["trap_042_tidectrl", "trap_061_creep", "trap_062_magicstart",
+                    "trap_063_magicturn", "trap_050_blizzard", "trap_092_vgctrl", "trap_036_storm", "trap_162_lrctrl", "trap_766_duelwal", "trap_767_duelcdt"]
 
 script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
