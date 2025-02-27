@@ -1,7 +1,7 @@
 import json
 import os
 from operator import itemgetter
-from waves_new import get_waves_data
+from waves_new import get_waves_data, get_runes_data
 
 
 def replace_chevrons(text_list):
@@ -224,6 +224,8 @@ for topic_dict in roguelike_topics:
                 "eliteDesc_zh":  replace_chevrons(extrainfo[levelId]['eliteDesc_zh']) if levelId in extrainfo else None,
                 "eliteDesc_ja": replace_chevrons(extrainfo[levelId]['eliteDesc_ja']) if levelId in extrainfo else None,
                 "eliteDesc_en": replace_chevrons(extrainfo[levelId]['eliteDesc_en']) if levelId in extrainfo else None,
+                "n_runes": None,
+                "elite_runes": None,
                 "n_mods": extrainfo[levelId]['normal_mods'] if levelId in extrainfo else None,
                 "elite_mods": extrainfo[levelId]['elite_mods'] if levelId in extrainfo else None,
                 "routes": extrainfo[levelId]['routes'] if levelId in extrainfo else None,
@@ -256,6 +258,18 @@ for topic_dict in roguelike_topics:
                     stage_name_lookup[ja_url_key] = {
                         "lang": "ja", "key": levelId, "topic": rogue_topic}
 
+            # runes
+            holder = {}
+            normal_group_name, elite_group_name, enemies_to_replace, predefine_changes, forbid_locations = itemgetter(
+                'normal_group_name', 'elite_group_name', 'enemies_to_replace', 'predefine_changes', 'forbid_locations')(get_runes_data(stage_data['runes'], levelId, stage_data['mapData']))
+            if len(enemies_to_replace) > 0:
+                holder['enemy_replace'] = enemies_to_replace
+            if len(predefine_changes) > 0:
+                holder['predefine_changes'] = predefine_changes
+            if len(forbid_locations) > 0:
+                holder['forbid_locations'] = forbid_locations
+            if len(holder) > 0:
+                trimmed_stage_info['elite_runes'] = holder
             traps = []
             token_cards = []
 
@@ -282,7 +296,7 @@ for topic_dict in roguelike_topics:
                         "count": item['initialCnt']
                     })
             trimmed_stage_info['traps'] = traps
-            trimmed_stage_info['token_cards']= token_cards
+            trimmed_stage_info['token_cards'] = token_cards
 
             enemy_list = extrainfo[levelId]['enemy_list'] if levelId in extrainfo else None
             elite_enemy_list = extrainfo[levelId]['elite_enemy_list'] if levelId in extrainfo else None
@@ -429,7 +443,7 @@ for levelId in data:
     write_path = os.path.join(
         script_dir, 'ro_stage_data', levelId+".json")
     with open(write_path, 'w+', encoding='utf-8') as f:
-        json.dump(data[levelId], f, ensure_ascii=False, indent=4)
+        json.dump(data[levelId], f, ensure_ascii=False, separators=(',', ':'))
 
 # with open("is_stages_list_read.json", "w", encoding="utf-8") as f:
 #     json.dump(data, f, ensure_ascii=False, indent=4)
