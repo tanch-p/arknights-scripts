@@ -64,6 +64,7 @@ def get_runes_data(runes, levelId, mapData):
     enemies_to_replace = {}
     predefine_changes = []
     forbid_locations = []
+    max_cost = 99
     if runes is not None:
         for rune in runes:
             key = rune['key']
@@ -91,7 +92,9 @@ def get_runes_data(runes, levelId, mapData):
                             f"{v[1]},{len(mapData['map']) - 1 - int(v[0])}")
             elif rune['difficultyMask'] == 'NORMAL' and key == 'level_hidden_group_enable':
                 normal_group_name = rune['blackboard'][0]['valueStr']
-    return {'normal_group_name': normal_group_name, 'elite_group_name': elite_group_name, 'enemies_to_replace': enemies_to_replace, 'predefine_changes': predefine_changes, 'forbid_locations': forbid_locations}
+            elif rune['difficultyMask'] == 'ALL' and key == 'cbuff_max_cost':
+                max_cost = rune['blackboard'][0]['value']
+    return {'normal_group_name': normal_group_name, 'elite_group_name': elite_group_name, 'enemies_to_replace': enemies_to_replace, 'predefine_changes': predefine_changes, 'forbid_locations': forbid_locations,'max_cost':max_cost}
 
 
 def get_max_permutations(permutation_dict):
