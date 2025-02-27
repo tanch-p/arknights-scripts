@@ -58,10 +58,12 @@ def flatten(l):
     return flat_list
 
 
-def get_runes_data(runes):
+def get_runes_data(runes, levelId, mapData):
     normal_group_name = None
     elite_group_name = None
     enemies_to_replace = {}
+    predefine_changes = []
+    forbid_locations = []
     if runes is not None:
         for rune in runes:
             key = rune['key']
@@ -69,11 +71,27 @@ def get_runes_data(runes):
                 if key == 'level_hidden_group_enable':
                     elite_group_name = rune['blackboard'][0]['valueStr']
                 elif key == 'level_enemy_replace':
-                    enemies_to_replace[rune['blackboard'][0]
-                                       ['valueStr']] = rune['blackboard'][1]['valueStr']
+                    if levelId in ["level_rogue2_5-2"]:
+                        enemies_to_replace[rune['blackboard'][1]
+                                           ['valueStr']] = rune['blackboard'][0]['valueStr']
+                    else:
+                        enemies_to_replace[rune['blackboard'][0]
+                                           ['valueStr']] = rune['blackboard'][1]['valueStr']
+                elif key == 'level_predefines_enable':
+                    for item in rune['blackboard']:
+                        predefine_changes.append([item['key'], item['value']])
+                elif key == 'global_forbid_location':
+                    value = rune['blackboard'][0]['valueStr']
+                    locations = value.replace(
+                        "(", "").replace(")", "").split("|")
+                    holder = []
+                    for location in locations:
+                        v = location.split(",")
+                        forbid_locations.append(
+                            f"{v[1]},{len(mapData['map']) - 1 - int(v[0])}")
             elif rune['difficultyMask'] == 'NORMAL' and key == 'level_hidden_group_enable':
                 normal_group_name = rune['blackboard'][0]['valueStr']
-    return {'normal_group_name': normal_group_name, 'elite_group_name': elite_group_name, 'enemies_to_replace': enemies_to_replace}
+    return {'normal_group_name': normal_group_name, 'elite_group_name': elite_group_name, 'enemies_to_replace': enemies_to_replace, 'predefine_changes': predefine_changes, 'forbid_locations': forbid_locations}
 
 
 def get_max_permutations(permutation_dict):
@@ -84,14 +102,14 @@ def get_max_permutations(permutation_dict):
     return total
 
 
-def get_hidden_groups(waves, normal_group_name, elite_group_name):
+def get_hidden_groups(waves, normal_group_name, elite_group_name, levelId):
     hidden_groups = []
     for wave_idx, wave in enumerate(waves):
         for frag_index, fragment in enumerate(wave['fragments']):
             for action in fragment['actions']:
                 hidden_group = action['hiddenGroup']
                 actionType = action['actionType']
-                if not actionType in ['SPAWN','ACTIVATE_PREDEFINED']:
+                if not actionType in ['SPAWN']:
                     continue
                 if hidden_group is not None and not hidden_group in [normal_group_name, elite_group_name] and not hidden_group in hidden_groups:
                     hidden_groups.append(hidden_group)
@@ -181,8 +199,10 @@ def get_wave_permutations(waves_data, permutation, group_name, has_bonus_wave, b
                 hidden_group = action['hiddenGroup']
                 actionType = action['actionType']
 
-                if not actionType in ['SPAWN','ACTIVATE_PREDEFINED']:
-                    continue
+                if not actionType in ['SPAWN']:
+                    if not (stage_id == 'level_rogue4_4-10' and action['key'] == "trap_760_skztzs#0"):
+                        continue
+
                 if hidden_group is not None and (hidden_group != group_name or group_name is None):
                     continue
                 if group is not None or packKey is not None:
@@ -252,7 +272,7 @@ def get_bonus_counts(stage_data, hidden_groups, has_bonus_wave, bonus_frag_index
                 if group is not None or packKey is not None:
                     groups.append(action)
                 else:
-                    if action['isUnharmfulAndAlwaysCountAsKilled'] and action['key'] not in neutral_enemies:
+                    if action['key'] not in neutral_enemies:
                         base_count += action['count']
                     else:
                         base_count += action['count']
@@ -303,24 +323,24 @@ def get_bonus_counts(stage_data, hidden_groups, has_bonus_wave, bonus_frag_index
     return new_result
 
 
-def get_group_permutations(stage_data, group_name, has_bonus_wave, bonus_frag_index, bonus_wave_index, stage_id, log=False):
+def get_group_permutations(stage_data, group_name, bonus_data, bonus_frag_index, bonus_wave_index, stage_id, log=False):
     waves = copy.deepcopy(stage_data['waves'])
     permutations = {}
     for wave_idx, wave in enumerate(waves):
-        if has_bonus_wave and wave_idx == bonus_wave_index:
+        if bonus_data and bonus_data['type'] == 'wave' and wave_idx == bonus_wave_index:
             continue
         for frag_index, fragment in enumerate(wave['fragments']):
-            if frag_index == bonus_frag_index:
-                continue
             groups = []
+            if bonus_data and bonus_data['type'] == 'fragment' and wave_idx == bonus_wave_index and frag_index == bonus_frag_index:
+                continue
             for action in fragment['actions']:
                 group = action['randomSpawnGroupKey']
                 packKey = action['randomSpawnGroupPackKey']
-                hidden_group = action['hiddenGroup']
                 actionType = action['actionType']
-                if not actionType in ['SPAWN', 'ACTIVATE_PREDEFINED']:
-                    continue
-                if hidden_group is not None and (hidden_group != group_name or group_name is None):
+                if not actionType in ['SPAWN']:
+                    if not (stage_id == 'level_rogue4_4-10' and action['key'] == "trap_760_skztzs#0"):
+                        continue
+                if action['hiddenGroup'] and not action['hiddenGroup'] in [group_name]:
                     continue
                 if group is not None or packKey is not None:
                     groups.append(action)
@@ -329,7 +349,7 @@ def get_group_permutations(stage_data, group_name, has_bonus_wave, bonus_frag_in
             random_groups = group_resolver(groups)
 
             groups = random_group_resolver(random_groups)
-            log and print(groups)
+            log and print('groups', groups)
             if (len(groups) > 0):
                 key = f"w{wave_idx}f{frag_index}"
                 for group_key in groups:
@@ -350,12 +370,9 @@ def get_group_permutations(stage_data, group_name, has_bonus_wave, bonus_frag_in
 """
 
 
-def permutate(permutations):
-    pp.pprint(permutations)
-
-    def generate_sample(groups):
-        return [random.randint(0, count - 1) for count in groups]
-    max_samples = 256
+def permutate(permutations, log=False):
+    log and pp.pprint('permutations', permutations)
+    max_samples = 32
     permutations_list = []
     p_holder = []
     max_permutations = get_max_permutations(permutations)
@@ -373,13 +390,7 @@ def permutate(permutations):
     if max_permutations <= max_samples:
         result = (list(map(list, itertools.product(*permutations_list))))
     else:
-        # Generate random samples
         result = []
-        for _ in range(max_samples):
-            sample = [generate_sample(list(perm.values()))
-                      for perm in permutations.values()]
-            if sample not in result:
-                result.append(sample)
     # Step 3 - convert result back to permutations format
     temp = []
     for permutation in result:
@@ -473,11 +484,11 @@ script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
 
 def get_waves_data(stage_data, levelId, log=False):
-    routes, waves_data,extra_routes,branches, map_data = itemgetter(
+    routes, waves_data, extra_routes, branches, map_data = itemgetter(
         'routes', 'waves', 'extra_routes', 'branches', 'map_data')(compress_waves(stage_data, levelId))
     normal_group_name, elite_group_name, enemies_to_replace = itemgetter(
-        'normal_group_name', 'elite_group_name', 'enemies_to_replace')(get_runes_data(stage_data['runes']))
-    if levelId == 'level_rogue4_b-8.json':
+        'normal_group_name', 'elite_group_name', 'enemies_to_replace')(get_runes_data(stage_data['runes'], levelId, stage_data['mapData']))
+    if levelId == 'level_rogue4_b-8':
         normal_group_name = "normal_amiya"
         elite_group_name = "hard_amiya"
     log and print('normal:', normal_group_name, 'elite:',
@@ -485,30 +496,28 @@ def get_waves_data(stage_data, levelId, log=False):
     has_bonus_wave = not (
         '_ev-' in levelId or '_t-' in levelId or "_b-" in levelId or "_d-" in levelId)
 
-    return_data = {"routes": routes, "mapData": map_data, "extra_routes":extra_routes,"branches":branches}
+    return_data = {"routes": routes, "mapData": map_data,
+                   "extra_routes": extra_routes, "branches": branches}
     holder = ['NORMAL', 'ELITE']
     bonus_frag_index = -1
     bonus_wave_index = -1
+    bonus_data = None
     if has_bonus_wave:
         bonus_data = get_bonus(stage_data)
         bonus_frag_index = bonus_data['frag_index']
         bonus_wave_index = bonus_data['wave_index']
+        log and pp.pprint(bonus_data)
     return_data['NORMAL'] = {"groupKey": normal_group_name}
     return_data['ELITE'] = {"groupKey": elite_group_name}
     for diff_group in holder:
         group_name = normal_group_name if diff_group == "NORMAL" else elite_group_name
-
         max_permutations, permutations = itemgetter("max_permutations", "data")(get_group_permutations(
-            stage_data, group_name, has_bonus_wave, bonus_frag_index, bonus_wave_index, levelId, log))
+            stage_data, group_name, bonus_data, bonus_frag_index, bonus_wave_index, levelId, log))
         return_data[diff_group]["max_permutations"] = max_permutations
         return_data[diff_group]['permutations'] = []
         for permutation in permutations:
-            wave_data = get_wave_permutations(
-                waves_data, permutation, group_name, has_bonus_wave, bonus_frag_index, bonus_wave_index, levelId, log)
-            count, timelines = itemgetter('count', 'timelines')(
-                create_timeline(wave_data, has_bonus_wave, bonus_wave_index))
             return_data[diff_group]['permutations'].append(
-                {"count": count, "permutation": permutation})
+                permutation)
     return_data['waves'] = waves_data
     # return_data['timelines'] = timelines
     return_data['bonus'] = bonus_data if has_bonus_wave else None

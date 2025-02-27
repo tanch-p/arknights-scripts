@@ -37,6 +37,18 @@
         "key": "W_C4",
         "atk": { "multiplier": 2 }
       }
+    ],
+    "enemy_1075_dmgswd":[
+      {
+        "key": "sarkaz_standby",
+        "standby": 0
+      }
+    ],
+    "enemy_1075_dmgswd_2":[
+      {
+        "key": "sarkaz_standby",
+        "standby": 190
+      }
     ]
   },
   "level_rogue1_4-8": {
@@ -51,7 +63,7 @@
     "enemy_1074_dbskar": [
       {
         "key": "sarkaz_standby",
-        "value": 130
+        "standby": 130
       }
     ]
   },
@@ -100,49 +112,49 @@
     "enemy_1074_dbskar": [
       {
         "key": "sarkaz_standby",
-        "value": 200
+        "standby": 200
       }
     ],
     "enemy_1074_dbskar_2": [
       {
         "key": "sarkaz_standby",
-        "value": 200
+        "standby": 200
       }
     ],
     "enemy_1074_dbskar_0": [
       {
         "key": "sarkaz_standby",
-        "value": 70
+        "standby": 70
       }
     ],
     "enemy_1074_dbskar_1": [
       {
         "key": "sarkaz_standby",
-        "value": 110
+        "standby": 110
       }
     ],
     "enemy_1074_dbskar_15": [
       {
         "key": "sarkaz_standby",
-        "value": 160
+        "standby": 160
       }
     ],
     "enemy_1074_dbskar_2_0": [
       {
         "key": "sarkaz_standby",
-        "value": 70
+        "standby": 70
       }
     ],
     "enemy_1074_dbskar_2_1": [
       {
         "key": "sarkaz_standby",
-        "value": 110
+        "standby": 110
       }
     ],
     "enemy_1074_dbskar_2_2": [
       {
         "key": "sarkaz_standby",
-        "value": 160
+        "standby": 160
       }
     ]
   },
@@ -155,7 +167,7 @@
     ]
   },
   "level_rogue3_1-4": {
-    "enemy_1303_mhshep_b": [{ "key": "standby", "value": 0 }]
+    "enemy_1303_mhshep_b": [{ "key": "standby", "standby": 0 }]
   },
   "level_rogue3_2-6": {
     "enemy_1267_nhpbr": [{ "key": "nhpbr_pollution", "low": 100, "high": 50 }],
@@ -210,7 +222,7 @@
     "enemy_1075_dmgswd": [
       {
         "key": "sarkaz_standby",
-        "value": 200
+        "standby": 200
       }
     ]
   },
@@ -238,19 +250,19 @@
     "enemy_1074_dbskar_2": [
       {
         "key": "sarkaz_standby",
-        "value": 100
+        "standby": 100
       }
     ],
     "enemy_1074_dbskar_2b": [
       {
         "key": "sarkaz_standby",
-        "value": 150
+        "standby": 150
       }
     ],
     "enemy_1074_dbskar_2c": [
       {
         "key": "sarkaz_standby",
-        "value": 240
+        "standby": 240
       }
     ]
   },
@@ -277,7 +289,7 @@
     "enemy_1074_dbskar_2": [
       {
         "key": "sarkaz_standby",
-        "value": 200
+        "standby": 200
       }
     ]
   },

@@ -15,6 +15,11 @@ stage_data_path = os.path.join(
 with open("tel_extrainfo.json", encoding="utf-8") as f:
     tel_data = json.load(f)
 
+
+def remove_by_indexes(lst, indexes):
+    return [item for i, item in enumerate(lst) if i not in indexes]
+
+
 def compress_waves(stage_data, stage_id):
     routes = []
     waves = copy.deepcopy(stage_data['waves'])
@@ -39,13 +44,16 @@ def compress_waves(stage_data, stage_id):
         if stage_id in tel_data and str(tile_index) in tel_data[stage_id]:
             bb = tel_data[stage_id][str(tile_index)]
             bb.pop('tileKey', None)
-            bb.pop('position', None)            
+            bb.pop('position', None)
 
         tiles.append([tile['tileKey'], height, mask,
-                     bb if len(bb) > 0 else None,buildableType])
+                     bb if len(bb) > 0 else None, buildableType])
     map_data = {"map": stage_data['mapData']['map'], "tiles": tiles}
     for i, route in enumerate(stage_data['routes']):
         route_idx = -1
+        if (route['checkpoints']):
+            for checkpoint in route['checkpoints']:
+                checkpoint.pop("randomizeReachOffset", None)
         for idx, route_data in enumerate(routes):
             if route == route_data[1]:
                 route_idx = idx
@@ -56,6 +64,13 @@ def compress_waves(stage_data, stage_id):
         for wave in waves:
             for fragment in wave['fragments']:
                 for action in fragment['actions']:
+                    action.pop('managedByScheduler', None)
+                    action.pop('blockFragment', None)
+                    action.pop('autoDisplayEnemyInfo', None)
+                    action.pop('isUnharmfulAndAlwaysCountAsKilled', None)
+                    action.pop('randomType', None)
+                    action.pop('refreshType', None)
+                    action.pop('forceBlockWaveInBranch', None)
                     if action['routeIndex'] == i:
                         if route_idx == -1:  # newly added route
                             action['routeIndex'] = len(routes)-1
@@ -66,6 +81,9 @@ def compress_waves(stage_data, stage_id):
     # extra routes
     for i, route in enumerate(stage_data['extraRoutes']):
         route_idx = -1
+        if (route['checkpoints']):
+            for checkpoint in route['checkpoints']:
+                checkpoint.pop("randomizeReachOffset", None)
         for idx, route_data in enumerate(extra_routes):
             if route == route_data[1]:
                 route_idx = idx
@@ -84,23 +102,34 @@ def compress_waves(stage_data, stage_id):
     # prune branches
     if branches is not None:
         for branch_name in branches:
-                for phase in branches[branch_name]['phases']:
-                    for action in phase['actions']:
-                        action.pop('managedByScheduler', None)
-                        action.pop('blockFragment', None)
-                        action.pop('autoDisplayEnemyInfo', None)
-                        action.pop('isUnharmfulAndAlwaysCountAsKilled', None)
-                        action.pop('hiddenGroup', None)
-                        action.pop('randomSpawnGroupKey', None)
-                        action.pop('randomSpawnGroupPackKey', None)
-                        action.pop('randomType', None)
-                        action.pop('refreshType', None)
-                        action.pop('weight', None)
-                        action.pop('dontBlockWave', None)
-                        action.pop('forceBlockWaveInBranch', None)
-                    
+            for phase in branches[branch_name]['phases']:
+                for action in phase['actions']:
+                    action.pop('managedByScheduler', None)
+                    action.pop('blockFragment', None)
+                    action.pop('autoDisplayEnemyInfo', None)
+                    action.pop('isUnharmfulAndAlwaysCountAsKilled', None)
+                    action.pop('hiddenGroup', None)
+                    action.pop('randomSpawnGroupKey', None)
+                    action.pop('randomSpawnGroupPackKey', None)
+                    action.pop('randomType', None)
+                    action.pop('refreshType', None)
+                    action.pop('weight', None)
+                    action.pop('dontBlockWave', None)
+                    action.pop('forceBlockWaveInBranch', None)
+
     extra_routes = [route_data[1] for route_data in extra_routes]
 
     # pp.pprint(waves)
+    if stage_id == 'level_rogue3_3-2':
+        for wave in waves:
+            for frag_index, fragment in enumerate(wave['fragments']):
+                if frag_index == 7:
+                    indexes = []
+                    for idx, action in enumerate(fragment['actions']):
+                        key = action['key']
+                        if key == 'enemy_1075_dmgswd' or key == 'enemy_1084_sotidm':
+                            indexes.append(idx)
+                    fragment['actions'] = remove_by_indexes(
+                        fragment['actions'], indexes)
 
-    return {"routes": routes, "waves": waves, "extra_routes":extra_routes, "branches":branches, "map_data": map_data}
+    return {"routes": routes, "waves": waves, "extra_routes": extra_routes, "branches": branches, "map_data": map_data}
