@@ -206,6 +206,7 @@ for topic_dict in roguelike_topics:
                 "category": extrainfo[levelId]['category'] if levelId in extrainfo else None,
                 "characterLimit": stage_data["options"]["characterLimit"],
                 "initialCost": stage_data["options"]["initialCost"],
+                "maxCost": 99,
                 "costIncreaseTime": stage_data["options"]["costIncreaseTime"],
                 "code": stage_info_cn["code"],
                 "name_zh":  stage_info_cn["name"] if levelId != 'level_rogue4_b-9' else '「」',
@@ -260,8 +261,8 @@ for topic_dict in roguelike_topics:
 
             # runes
             holder = {}
-            normal_group_name, elite_group_name, enemies_to_replace, predefine_changes, forbid_locations = itemgetter(
-                'normal_group_name', 'elite_group_name', 'enemies_to_replace', 'predefine_changes', 'forbid_locations')(get_runes_data(stage_data['runes'], levelId, stage_data['mapData']))
+            normal_group_name, elite_group_name, enemies_to_replace, predefine_changes, forbid_locations,max_cost = itemgetter(
+                'normal_group_name', 'elite_group_name', 'enemies_to_replace', 'predefine_changes', 'forbid_locations','max_cost')(get_runes_data(stage_data['runes'], levelId, stage_data['mapData']))
             if len(enemies_to_replace) > 0:
                 holder['enemy_replace'] = enemies_to_replace
             if len(predefine_changes) > 0:
@@ -270,6 +271,7 @@ for topic_dict in roguelike_topics:
                 holder['forbid_locations'] = forbid_locations
             if len(holder) > 0:
                 trimmed_stage_info['elite_runes'] = holder
+            trimmed_stage_info['maxCost'] = max_cost
             traps = []
             token_cards = []
 
