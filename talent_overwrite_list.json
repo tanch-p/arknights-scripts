@@ -27,7 +27,7 @@
     "enemy_1025_reveng": [
       {
         "key": "avenger",
-        "atk": { "multiplier": 2.5 }
+        "atk": { "multiplier": 1.5, "type":"initial" }
       }
     ]
   },
