@@ -7197,6 +7197,10 @@
                 ],
                 "blackboard": [
                     {
+                        "key": "sp_stock",
+                        "value": 8.0
+                    },
+                    {
                         "key": "ally_sp_stock",
                         "value": 8.0,
                         "conditions": [
@@ -12588,6 +12592,10 @@
                     "squad_effect"
                 ],
                 "blackboard": [
+                    {
+                        "key": "sp_stock",
+                        "value": 6.0
+                    },
                     {
                         "key": "ally_sp_stock",
                         "value": 6.0,
