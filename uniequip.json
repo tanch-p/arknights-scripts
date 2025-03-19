@@ -51062,26 +51062,13 @@
                 }
             ],
             "tags": [
-                "cancel_stealth",
                 "dot",
                 "seamonster"
             ],
             "blackboard": [
                 {
-                    "key": "duration",
-                    "value": 3.0
-                },
-                {
-                    "key": "interval",
-                    "value": 1.0
-                },
-                {
-                    "key": "damage",
-                    "value": 110.0
-                },
-                {
-                    "key": "damage_seamonster",
-                    "value": 220.0
+                    "key": "cancel_stealth",
+                    "value": 999
                 }
             ]
         }
