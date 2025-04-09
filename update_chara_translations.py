@@ -193,7 +193,8 @@ for equip_id in curr_uniequip:
                         'phases'][phase_idx]['parts'][index]['addOrOverrideTalentDataBundle']['candidates'][-1] if in_global else None
                     if max_candidate['description'] is not None:
                         print('TALENT description not NONE', equip_id)
-
+                    if index >= len(combat_data['phases'][phase_idx]['parts']):
+                        continue
                     concise_parts.append({"resKey": part['resKey'], "target": part['target'], "isToken": part['isToken'], "name_zh": max_candidate['name'], "name_ja": max_candidate_jp['name'] if in_global else "", "name_en": max_candidate_en['name'] if in_global else "",
                                           "displayRangeId": max_candidate['displayRangeId'], "rangeId": max_candidate['rangeId'], "talentIndex": max_candidate['talentIndex'],
                                           "upgradeDesc_zh": combat_data['phases'][phase_idx]['parts'][index]['upgradeDesc_zh'], "upgradeDesc_ja": replace_substrings(max_candidate_jp['upgradeDescription'], max_candidate['blackboard']) if in_global else "", "upgradeDesc_en": replace_substrings(max_candidate_en['upgradeDescription'], max_candidate['blackboard']) if in_global else "",

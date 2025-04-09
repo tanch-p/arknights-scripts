@@ -7475,18 +7475,10 @@
                 "tags": [],
                 "blackboard": [
                     {
-                        "key": "steal_atk",
-                        "value": 100.0
-                    },
-                    {
                         "key": "atk_down",
                         "targets": 1,
                         "value": 100.0,
                         "target_air": true
-                    },
-                    {
-                        "key": "steal_atk_max",
-                        "value": 20000.0
                     },
                     {
                         "key": "root",
@@ -12235,11 +12227,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "敏锐的五感",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Keen Senses",
+                "name_ja": "鋭い五感",
                 "desc_zh": "部署后，使自身及攻击范围内的友方单位不会受到来自自然环境的伤害和<ba.dt.element>元素损伤</>，持续50<@ba.talpu>（+5）</>秒",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "配置後50<@ba.talpu>（+5）</>秒間、自身と攻撃範囲内の味方は自然環境からのダメージと<ba.dt.element>元素損傷</>を受けなくなる",
+                "desc_en": "For 50 <@ba.talpu>(+5)</> seconds after deployment, Chilchuck and allied units within his range will not take damage from environmental effects or <ba.dt.element>Elemental damage</>",
                 "tags": [
                     "env_dmg_reduce"
                 ],
@@ -12258,11 +12250,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "迷宫魔物专家",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Dungeon Monster Expert",
+                "name_ja": "迷宮の魔物専門家",
                 "desc_zh": "击倒敌人后，莱欧斯攻击所有同名敌人时无视其40%防御力",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "敵を倒した後、ライオスがそれと同名の敵を攻撃する際は対象の防御力を40%無視する",
+                "desc_en": "After defeating an enemy, Laios ignores 40% DEF with every attack against enemies with the same name",
                 "tags": [],
                 "blackboard": [
                     {
@@ -12282,11 +12274,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "十年魔物餐经验",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Ten Years of Monster Cooking Experience",
+                "name_ja": "魔物食歴10年",
                 "desc_zh": "防御力+10%，自身治疗量提升10%",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "防御力+10%、自身によるHP治療効果+10%",
+                "desc_en": "DEF +10%, +10% Healing effectiveness",
                 "tags": [],
                 "blackboard": [
                     {
@@ -12307,22 +12299,22 @@
             {
                 "prefabKey": "1",
                 "name_zh": "建校以来第一才女",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Top Student In The Magic School's History",
+                "name_ja": "学校はじまって以来の才女",
                 "desc_zh": "技能消耗<ba.magicpoint>魔力</>且可随时开启，<ba.magicpoint>魔力</>不自然回复，不在场时每秒回复1点；有<ba.magicpoint>魔力</>时，攻击力+25%<@ba.talpu>（+5%）</>，攻击溅射范围扩大",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "<ba.magicpoint>魔力</>を消費する代わりに、スキルはいつでも発動可能。この<ba.magicpoint>魔力</>は自然回復せず、配置待機中に毎秒1回復する。<ba.magicpoint>魔力</>切れになっていない時は攻撃力+25%<@ba.talpu>（+5%）</>、ダメージ発生範囲が拡大する",
+                "desc_en": "Skills use <ba.magicpoint>Mana</> and can be activated at any time. <ba.magicpoint>Mana</> does not recover naturally (recovers 1 point per second when not on the field). When having <ba.magicpoint>Mana</>, ATK +25% <@ba.talpu>(+5%)</>, attacks have increased splash area",
                 "tags": [],
                 "blackboard": []
             },
             {
                 "prefabKey": "2",
                 "name_zh": "可靠的同伴",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Reliable Companion",
+                "name_ja": "頼れる仲間",
                 "desc_zh": "初始<ba.magicpoint>魔力</>+25，编队中有4名<ba.laiosteam>【莱欧斯小队】</>干员时，所有<ba.laiosteam>【莱欧斯小队】</>干员攻击速度+25，防御力+35%",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "自身の初期<ba.magicpoint>魔力</>+25。また、<ba.laiosteam>【ライオスパーティー】</>が4人編成されている場合、<ba.laiosteam>【ライオスパーティー】</>全員の攻撃速度+25、防御力+35%",
+                "desc_en": "Initial <ba.magicpoint>Mana</> +25; when there are 4 <ba.laiosteam>[Laios's Party]</> Operators in the squad, all <ba.laiosteam>[Laios's Party]</> Operators gain +25 ASPD and +35% DEF",
                 "tags": [
                     "squad_effect",
                     "laiosteam"
@@ -12352,11 +12344,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "定向支援信号",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Directional Support Signal",
+                "name_ja": "指向性支援信号",
                 "desc_zh": "携带3个支援装置（最多部署2个），使一名干员获得相当于凯瑟琳生命上限22%<@ba.talpu>（+2%）</>的<ba.barrier>屏障</>（若目标最近5秒内未受攻击，则每秒补充相当于凯瑟琳生命上限6%的<ba.barrier>屏障</>，不超过初始上限），装置效果不叠加",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "支援装置を使用可能（配置時に3個獲得、最大2個まで同時配置可能）、支援装置前方のオペレーター1名にキャサリンの最大HPの22%<@ba.talpu>（+2%）</>の<ba.barrier>バリア</>を付与（対象が直前の5秒間攻撃を受けずにいると、1秒ごとにキャサリンの最大HPの6%の<ba.barrier>バリア</>を補充しする。バリアの値は初期上限を超えない）。装置の効果は重複不可",
+                "desc_en": "Carries 3 Support Devices (max 2 deployed at once) that grant an Operator a <ba.barrier>Barrier</> equal to 22% <@ba.talpu>(+2%)</> of Catherine's Max HP (if target has not received an attack within 5s, <ba.barrier>Barrier</> replenishes by 6% of Catherine's Max HP every second, cannot go over the starting limit); effects from Devices do not stack",
                 "tags": [
                     "barrier",
                     "summon"
@@ -12376,11 +12368,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "焦点诱导",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Focused Guidance",
+                "name_ja": "熱焦点誘導",
                 "desc_zh": "对每个敌人首次攻击时，使其在接下来的5秒内每秒受到相当于攻击力18%<@ba.talpu>（+2%）</>的<ba.dt.burning2>灼燃损伤</>",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "敵にダメージを与えた際、敵ごとに一度だけ、5秒間毎秒攻撃力の18%<@ba.talpu>（+2%）</>の<ba.dt.burning2>灼熱損傷</>を与える効果を付与する",
+                "desc_en": "The first attack against an enemy deals 18% <@ba.talpu>(+2%)</> ATK as <ba.dt.burning2>Burn damage</> every second for 5s",
                 "tags": [
                     "burning",
                     "ele_dmg"
@@ -12406,11 +12398,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "诸王的叹息",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "The Kings' Sighs",
+                "name_ja": "諸王の息",
                 "desc_zh": "自身与周围8格友方单位受到的物理伤害减少22%<@ba.talpu>（+2%）</>，且此范围内每个友方单位使维娜攻击力+6%<@ba.talpu>（+1%）</>",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "自身と周囲8マスの味方が受ける物理ダメージ-22%<@ba.talpu>（+2%）</>、範囲内にいる味方1名につきヴィーナの攻撃力+6%<@ba.talpu>（+1%）</>",
+                "desc_en": "This unit and friendly units within the surrounding 8 tiles take 22% <@ba.talpu>(+2%)</> less Physical damage, and Vina gains +6% <@ba.talpu>(+1%)</> ATK for each friendly unit within this range",
                 "tags": [],
                 "blackboard": [
                     {
@@ -12435,11 +12427,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "无拘的锋芒",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Unsheathed Sword",
+                "name_ja": "縛られざる鋒芒",
                 "desc_zh": "对每个敌人首次造成伤害时，使其<ba.tremble>战栗</>5<@ba.talpu>（+1）</>秒",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "敵にダメージを与えた際、敵ごとに一度だけ、対象を5<@ba.talpu>（+1）</>秒間<ba.tremble>戦慄</>状態にする",
+                "desc_en": "When damaging an enemy for the first time, inflicts <ba.tremble>Frighten</> for 5s <@ba.talpu>(+1)</>",
                 "tags": [],
                 "blackboard": [
                     {
@@ -13520,6 +13512,86 @@
                 "desc_en": "",
                 "tags": [],
                 "blackboard": []
+            }
+        ]
+    },
+    "char_445_wscoot": {
+        "appellation": "Windscoot",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "藏锋伺敌",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "特性攻击力提升至最高时，每次攻击额外追加一次43%<@ba.talpu>（+3%）</>攻击力的攻击",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": []
+            }
+        ]
+    },
+    "char_4178_alanna": {
+        "appellation": "Alanna",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "临时改装",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "携带3个支援装置（最多部署2个），使一名干员攻击敌人时无视其90<@ba.talpu>（+10）</>点防御力（持续30秒），装置效果不叠加",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "summon"
+                ],
+                "blackboard": [
+                    {
+                        "key": "ally_def_penetrate",
+                        "value": 90.0
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4179_monstr": {
+        "appellation": "Mon3tr",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "自我修复",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "可以在攻击范围内的地面使用一个仅可被自身治疗的重构体，重构体周围友方单位的攻击力+20%<@ba.talpu>（+5）</>，重构体受到自身和Mon3tr治疗时，可额外进行一次不会衰减的治疗跳跃",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "ally_atk",
+                        "value": 0.2
+                    }
+                ]
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "战术协同",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "自身或重构体造成治疗时，使目标及自身的攻击速度+22<@ba.talpu>（+2）</>，持续10秒（无法叠加）",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "ally_aspd",
+                        "value": 22.0
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 22.0
+                    }
+                ]
             }
         ]
     }
