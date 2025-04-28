@@ -119,6 +119,10 @@ def compress_waves(stage_data, stage_id):
 
     extra_routes = [route_data[1] for route_data in extra_routes]
 
+    if stage_id == 'level_rogue4_b-8':
+        # apparently the first 3 checkpoints are missing from actual game movement
+        extra_routes[1]['checkpoints'] = extra_routes[1]['checkpoints'][3:]
+
     # pp.pprint(waves)
     if stage_id == 'level_rogue3_3-2':
         for wave in waves:
