@@ -12233,7 +12233,8 @@
                 "desc_ja": "配置後50<@ba.talpu>（+5）</>秒間、自身と攻撃範囲内の味方は自然環境からのダメージと<ba.dt.element>元素損傷</>を受けなくなる",
                 "desc_en": "For 50 <@ba.talpu>(+5)</> seconds after deployment, Chilchuck and allied units within his range will not take damage from environmental effects or <ba.dt.element>Elemental damage</>",
                 "tags": [
-                    "env_dmg_reduce"
+                    "env_dmg_reduce",
+                    "ally_env_dmg_reduce"
                 ],
                 "blackboard": [
                     {

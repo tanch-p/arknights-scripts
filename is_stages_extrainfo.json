@@ -9567,11 +9567,11 @@
     ],
     "eliteDesc_ja": [
       "敵全員の攻撃力+10%、最大HP+30%",
-      "<掠海漂移体>のHPがさらに20%上昇"
+      "<掠海のフローター>のHPがさらに20%上昇"
     ],
     "eliteDesc_en": [
       "All enemy units have +10% ATK, and +30% Max HP",
-      "<掠海漂移体> additionally gains HP +20%"
+      "<Skimming Sea Drifter> additionally gains HP +20%"
     ],
     "normal_mods": null,
     "elite_mods": [
@@ -10581,12 +10581,12 @@
     ],
     "eliteDesc_ja": [
       "敵全員の攻撃力、最大HP+20%",
-      "追加で<“与我无关”>1体が出現する",
+      "追加で<「関係ない」男>1体が出現する",
       "<ジェラート供給所>は敵制御状態で開始"
     ],
     "eliteDesc_en": [
       "All enemy units have +20% ATK, and +20% Max HP",
-      "Additional 1 <“与我无关”> appears",
+      "Additional 1 <'None of My Business'> appears",
       "<'Gelato Stop'> begins under enemy control"
     ],
     "normal_mods": null,
@@ -14932,12 +14932,12 @@
     ],
     "eliteDesc_ja": [
       "敵全員の攻撃力+10%、防御力+20%、最大HP+20%",
-      "最初のウェーブに<「叛乱煽动者」1体が出現する",
+      "最初のウェーブに<「反乱の扇動者」1体が出現する",
       "最終ウェーブの<穢された亡骸>6体が<偵察密偵>4体に替わる"
     ],
     "eliteDesc_en": [
       "All enemy units have +10% ATK, +20% DEF and +20% Max HP",
-      "Additional 1 <叛乱煽动者> appears at the start",
+      "Additional 1 <Rebellion Instigator> appears at the start",
       "Last Wave's 6 <Tainted Carcass> are replaced by 4 <Pathfinder Spy>"
     ],
     "normal_mods": null,
@@ -15951,11 +15951,11 @@
     ],
     "addInfo_ja": [
       "【路网】效果: 追加で<匪帮射手>2体が出現する",
-      "原因不明だが<辐能源石虫>のステは難易度補正を受けない (2024/01/09)"
+      "原因不明だが<ホウシャムシ>のステは難易度補正を受けない (2024/01/09)"
     ],
     "addInfo_en": [
       "Routeweave Net: Additional 2 <匪帮射手> appear",
-      "Unknown reason but <辐能源石虫> stats does not increase with difficulty (2024/01/09)"
+      "Unknown reason but <Radioactive Originium Slug> stats does not increase with difficulty (2024/01/09)"
     ],
     "eliteDesc_zh": [
       "所有敌方单位的攻击力+20%，防御力+10%，生命值+50%",
@@ -15963,11 +15963,11 @@
     ],
     "eliteDesc_ja": [
       "敵全員の攻撃力+20%、防御力+10%、最大HP+50%",
-      "<辐能源石虫>自爆時補充するエネルギーさらに+3"
+      "<ホウシャムシ>自爆時補充するエネルギーさらに+3"
     ],
     "eliteDesc_en": [
       "All enemy units have +20% ATK, +10% DEF, and +50% Max HP",
-      "<辐能源石虫>'s energy charge upon explosion additional +3"
+      "<Radioactive Originium Slug>'s energy charge upon explosion additional +3"
     ],
     "normal_mods": null,
     "elite_mods": [
@@ -18800,8 +18800,11 @@
     "eliteDesc_zh": [
       "拥有阿纳萨羯磨时，移除再部署减半效果，且敌方单位的生命值、攻击力和防御力提升至130%"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "「アナサのカルマ」所持している時、再配置時間バフが通用しなくなる、敵全員の攻撃力+30%、防御力+30%、最大HP+30%","「托生莲座」が出現する"
+    ],
+    "eliteDesc_en": ["When having the relic <Anasa's Karma>, Redeployment Time buff is removed, all enemy units have +30% ATK, +30% DEF, +30% Max HP, and <Padmasana of Rebirth> appears"],
+
     "normal_mods": null,
     "elite_mods": [
       {
@@ -18971,8 +18974,10 @@
       "拥有阿纳萨羯磨时，移除再部署减半效果，且敌方单位的生命值、攻击力和防御力提升至130%",
       "额外出现托生莲座x5"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+   "eliteDesc_ja": [
+      "「アナサのカルマ」所持している時、再配置時間バフが通用しなくなる、敵全員の攻撃力+30%、防御力+30%、最大HP+30%","「托生莲座」が出現する"
+    ],
+    "eliteDesc_en": ["When having the relic <Anasa's Karma>, Redeployment Time buff is removed, all enemy units have +30% ATK, +30% DEF, +30% Max HP, and <Padmasana of Rebirth> appears"],
     "normal_mods": null,
     "elite_mods": [
       {
@@ -19083,14 +19088,22 @@
       "年代之刺：普通0/天灾+2",
       "思维混乱时，击败特雷西斯，黑冠尊主后额外召唤精英敌人（7个裹骸死士）"
     ],
-    "addInfo_ja": ["時代の棘：通常0/天災+2","思考が混乱状態である場合、<「黒き王冠の主」テレシス>が撃破されると、捨身の死士を7体召喚する"],
-    "addInfo_en": ["Spines of Epoch: Normal - 0, Catastrophes +2","When your mind is Fractured, defeating Theresis, Black Crowned Lord summons 7 &lt;Deathveil Assassin&gt;s"],
+    "addInfo_ja": [
+      "時代の棘：通常0/天災+2",
+      "思考が混乱状態である場合、<「黒き王冠の主」テレシス>が撃破されると、捨身の死士を7体召喚する"
+    ],
+    "addInfo_en": [
+      "Spines of Epoch: Normal - 0, Catastrophes +2",
+      "When your mind is Fractured, defeating Theresis, Black Crowned Lord summons 7 &lt;Deathveil Assassin&gt;s"
+    ],
     "eliteDesc_zh": [
       "拥有阿纳萨羯磨时，敌方单位的生命值、攻击力和防御力提升至125%",
       "额外出现托生莲座"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "「アナサのカルマ」所持している時、敵全員の攻撃力+25%、防御力+25%、最大HP+25%","「托生莲座」が出現する"
+    ],
+    "eliteDesc_en": ["When having the relic <Anasa's Karma>, all enemy units have +25% ATK, +25% DEF, +25% Max HP, and <Padmasana of Rebirth> appears"],
     "normal_mods": null,
     "elite_mods": [
       {
@@ -19182,8 +19195,10 @@
       "拥有阿纳萨羯磨时，敌方单位的生命值、攻击力和防御力提升至125%",
       "额外出现托生莲座×2，且后续出现被召唤的敌方单位时额外出现托生莲座"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+   "eliteDesc_ja": [
+      "「アナサのカルマ」所持している時、敵全員の攻撃力+25%、防御力+25%、最大HP+25%","「托生莲座」が出現する"
+    ],
+    "eliteDesc_en": ["When having the relic <Anasa's Karma>, all enemy units have +25% ATK, +25% DEF, +25% Max HP, and <Padmasana of Rebirth> appears"],
     "normal_mods": [
       {
         "targets": ["trap_762_skztxy"],
@@ -19494,10 +19509,20 @@
       "年代之刺：普通0/天灾+2",
       "敌方单位的攻击力、防御力和生命值都提升至120%",
       "思维混乱时：奎隆，摩诃萨埵权化不再召唤<无羁的“盛怒”>，而是改为召唤<新硎>",
-      "环境<雷暴> - 战斗开始后600秒内每40秒随机选定3个格子（范围可重叠，包含屏幕外的区域），延迟5秒后对十字范围内所有单位造成1500{true}伤害"
+      "环境<雷暴> - 战斗开始后600秒内每40秒随机选定3个格子（范围可重叠，包含屏幕外的区域），延迟5秒后对十字范围内所有单位造成1500{true}伤害{ignore_stealth}{ignore_camou}"
     ],
-    "addInfo_ja": ["時代の棘：通常0/天災+2","敵全員の攻撃力+20%、防御力+20%、最大HP+20%","思考が混乱状態である場合"],
-    "addInfo_en": ["Spines of Epoch: Normal - 0, Catastrophes +2","All enemy units have +20% ATK, +20% DEF and +20% Max HP","When your mind is Fractured"],
+    "addInfo_ja": [
+      "時代の棘：通常0/天災+2",
+      "敵全員の攻撃力+20%、防御力+20%、最大HP+20%",
+      "思考が混乱状態である場合、奔放な「シンイ」の代わりに「新砥」が召喚される",
+      "環境「雷雨」ー30秒ごとにランダムで3つのマスを選定（範囲は重複する可能性があり）。5秒後、選定されたマスを中心とした十字範囲内の全ユニットに1500の{true}ダメージを与える{ignore_stealth}{ignore_camou}"
+    ],
+    "addInfo_en": [
+      "Spines of Epoch: Normal - 0, Catastrophes +2",
+      "All enemy units have +20% ATK, +20% DEF and +20% Max HP",
+      "When your mind is Fractured, <Sharpedge> is summoned in place of <Unbridled 'Fury'>",
+      "Every 30 seconds, lightning will strike 3 random tiles, dealing 1500 {true} damage to all units in the target tiles and the two adjacent tiles {ignore_stealth}{ignore_camou}"
+    ],
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
@@ -19561,15 +19586,29 @@
       "敌方单位的攻击力、防御力和生命值都提升至120%",
       "“阿米娅”，炉芯终曲在场时我方干员在部署（不包括移动）时被封印：获得晕眩，不可选中，阻挡数-99，持续时间无限；封印受仅剩的创意影响时解除"
     ],
-    "addInfo_ja": null,
-    "addInfo_en": null,
+    "addInfo_ja": [
+      "敵全員の攻撃力+20%、防御力+20%、最大HP+20%",
+      "「“阿米娅”，炉芯终曲」が戦場いる時、オペレーターは配置時に封印され、スタン、標的/攻撃されない、ブロック−99、継続時間無限；「仅剩的创意」で解除可能"
+    ],
+    "addInfo_en": [
+      "All enemy units have +20% ATK, +20% DEF and +20% Max HP",
+      "When <“阿米娅”，炉芯终曲> is on field, all operators are sealed upon deployment - stunned, unable to be targeted/attacked, block -99 for unlimited duration; can be unsealed by <仅剩的创意>"
+    ],
     "eliteDesc_zh": [
-      "持有「终结的实相」时，从昔日道标出现其他敌人",
-      "作战第一阶段额外出现1个昔日道标（奎隆）",
+      "持有「终结的实相」时，从昔日道标出现其他敌人，且阿米娅的技能消耗SP减少",
+      "作战第一阶段额外出现1个昔日道标（奎隆）和托生蓮座",
       "作战第二阶段出现伦蒂尼姆城防副炮，底下第二排额外出现4个昔日道标（3普通，1曼弗雷德）"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "「終結的实相」所持している時、追加の敵が現れ、アーミヤのスキルの必要SPが減る",
+      "作戦第一段階で「クイロン」と「托生蓮座」",
+      "作戦第二段階で「Manfred」と「ウルサス民間人」、さらに「ロンディニウム都市防衛副砲」が起動される"
+    ],
+    "eliteDesc_en": [
+      "When having the relic <終結的实相>, additional enemies appear and Amiya's skill's required SP decreases",
+      "Stage 1 - <Qui'lon> and <Padmasana of Rebirth> appear",
+      "Stage 2 - <Manfred>, <Ursus Civilian> appear and <Londinium Secondary Defense Artillery> is activated"
+    ],
     "normal_mods": [
       {
         "targets": ["ALL"],
@@ -19759,8 +19798,17 @@
       "如果先拿拱门作战失败后就会触发拱门，先拿终结的实相就会来到这里",
       "“阿米娅”，炉芯终曲在场时我方干员在部署（不包括移动）时被封印：获得晕眩，不可选中，阻挡数-99，持续时间无限；$接受命运吧$"
     ],
-    "addInfo_ja": null,
-    "addInfo_en": null,
+    "addInfo_ja": [
+      "隠し敗北エンドです",
+      "秘宝「终结的实相」を手に入れた後敗北するとここへ連れ去る",
+      "「門」と「救難」を先に手に入れたら、「門」と「救難」が普通に作動する。でも先に「<终结的实相」手に入れたら、こっちに来る",
+      "「“阿米娅”，炉芯终曲」が戦場いる時、オペレーターは配置時に封印され、スタン、標的/攻撃されない、ブロック−99、継続時間無限。$詰みです$"
+    ],
+    "addInfo_en": [
+      "Special Ending if you get defeated after getting the relic <终结的实相>",
+      "If you get 'Arch Glyph' relic first, it will activate as per normal. But if you get 'Arch Glyph' after <终结的实相>, defeat leads here.",
+      "When <“阿米娅”，炉芯终曲> is on field, all operators are sealed upon deployment - stunned, unable to be targeted/attacked, block -99 for unlimited duration. $Accept your fate$"
+    ],
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
@@ -19991,7 +20039,9 @@
     "floors": [3, 4],
     "addInfo_zh": ["年代之刺：普通2/紧急3/天灾+1"],
     "addInfo_ja": ["時代の棘：通常2/緊急3/天災+1"],
-    "addInfo_en": ["Spines of Epoch: Normal - 2, Emergency - 3, Catastrophes +1"],
+    "addInfo_en": [
+      "Spines of Epoch: Normal - 2, Emergency - 3, Catastrophes +1"
+    ],
     "eliteDesc_zh": [
       "所有敌方单位的攻击力，防御力，生命值+30%",
       "额外出现1个年代之刺，1个鸭爵"
@@ -20531,8 +20581,8 @@
     "addInfo_ja": ["時代の棘：通常0/天災+1"],
     "addInfo_en": ["Spines of Epoch: Normal - 0, Catastrophes +1"],
     "eliteDesc_zh": ["所有敌方单位的生命值+80%"],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": ["敵全員の最大HP+80%"],
+    "eliteDesc_en": ["All enemy units have +80% Max HP"],
     "normal_mods": null,
     "elite_mods": [
       {
@@ -20904,7 +20954,7 @@
     "routes": null,
     "floors": [3, 4],
     "addInfo_zh": ["2 vs 2"],
-    "addInfo_ja": ["2 vs 2"],
+    "addInfo_ja": ["二対二"],
     "addInfo_en": ["2 vs 2"],
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
@@ -21167,7 +21217,7 @@
     "routes": null,
     "floors": [5],
     "addInfo_zh": ["2 vs 2"],
-    "addInfo_ja": ["2 vs 2"],
+    "addInfo_ja": ["二対二"],
     "addInfo_en": ["2 vs 2"],
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
@@ -21485,8 +21535,11 @@
     "routes": null,
     "floors": [3, 4, 5],
     "addInfo_zh": ["2 vs 2", "最高难度组合固定为托生莲座×2"],
-    "addInfo_ja": ["2 vs 2"],
-    "addInfo_en": ["2 vs 2"],
+    "addInfo_ja": ["二対二", "最大難易度の組み合わせは托生蓮座2対固定"],
+    "addInfo_en": [
+      "2 vs 2",
+      "Highest Difficulty group is always <Padmasana of Rebirth> x 2"
+    ],
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
@@ -22339,11 +22392,11 @@
     ],
     "eliteDesc_ja": [
       "敵全員の攻撃力+20%、防御力+20%、最大HP+20%",
-      "追加で「年代之刺」1個が出現する"
+      "追加で「時代の棘」1個が出現する"
     ],
     "eliteDesc_en": [
       "All enemy units have +20% ATK, +20% DEF and +20% Max HP",
-      "Additional 1 <年代之刺> appears"
+      "Additional 1 <Spines of Epoch> appears"
     ],
     "normal_mods": null,
     "elite_mods": [
@@ -22874,8 +22927,14 @@
       "所有敌方单位的攻击力+30%，防御力+20%",
       "战斗开始后在上侧侵入点下方1格处额外出现1只变异巨岩蛛"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+30%、防御力+20%",
+      "最初に追加で1体の<変異オオイワグモ>が出現する"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +30% ATK, +20% DEF",
+      "Additional 1 <Mutant Giant Rock Spider> appears at the start"
+    ],
     "normal_mods": null,
     "elite_mods": [
       {
@@ -23029,7 +23088,7 @@
     ],
     "eliteDesc_en": [
       "All enemy units have +20% ATK and +20% Max HP",
-      "All <暴走食虫花> are replaced with <暴走食人花>"
+      "All <Raging Slug Eater> are replaced with <Raging Man Eater>"
     ],
     "normal_mods": null,
     "elite_mods": [
@@ -23842,8 +23901,12 @@
     "eliteDesc_zh": [
       "所有敌方单位的攻击力+20%，防御力+30%，生命值+30%，移动速度+25%"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+20%、防御力+30%、最大HP+30%、移動速度+25%"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +20% ATK, +30% DEF, +30% Max HP and +25% Movespeed"
+    ],
     "normal_mods": null,
     "elite_mods": [
       {
@@ -24080,8 +24143,11 @@
     "routes": null,
     "floors": [4],
     "addInfo_zh": ["初始部署费用上限降低至30", "年代之刺：普通5/天灾+1"],
-    "addInfo_ja": ["初期コスト上限が30になる","時代の棘：通常5/天災+1"],
-    "addInfo_en": ["Initial Max Cost is decreased to 30","Spines of Epoch: Normal - 5, Catastrophes +1"],
+    "addInfo_ja": ["初期コスト上限が30になる", "時代の棘：通常5/天災+1"],
+    "addInfo_en": [
+      "Initial Max Cost is decreased to 30",
+      "Spines of Epoch: Normal - 5, Catastrophes +1"
+    ],
     "eliteDesc_zh": [
       "所有敌方单位的攻击力，防御力，生命值+50%",
       "额外出现2个萨卡兹悖谬暴虐兵长"
@@ -24752,11 +24818,11 @@
     ],
     "eliteDesc_ja": [
       "敵全員の攻撃力+25%、防御力+25%、最大HP+25%",
-      "「圣卫自动机」が倒されると「ドレッドカズ」を召喚する"
+      "「聖衛のオートマトン」が倒されると「ドレッドカズ」を召喚する"
     ],
     "eliteDesc_en": [
       "All enemy units have +25% ATK, +25% DEF and +25% Max HP",
-      "All <圣卫自动机> will spawn <Dreadkaz> upon defeat"
+      "All <Holy Automaton> will spawn <Dreadkaz> upon defeat"
     ],
     "normal_mods": null,
     "elite_mods": [
@@ -25008,8 +25074,14 @@
       "所有敌方单位的攻击力+30%，防御力+50%，生命值+50%",
       "W获得隐匿"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+30%、防御力+50%、最大HP+50%",
+      "<W>がステルス状態になる"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +30% ATK, +50% DEF, and +50% Max HP",
+      "<W> gains stealth"
+    ],
     "normal_mods": null,
     "elite_mods": [
       {
@@ -25112,17 +25184,29 @@
       "年代之刺：普通0/天灾+1",
       "毒性雾霾 - 友方单位每0.5秒持续受到50{true}伤害"
     ],
-    "addInfo_ja": ["時代の棘：通常0/天災+1","毒性ガス - 味方ユニットに0.5秒ごとに50{true}ダメージ"],
+    "addInfo_ja": [
+      "時代の棘：通常0/天災+1",
+      "毒性ガス - 味方ユニットに0.5秒ごとに50{true}ダメージ"
+    ],
     "addInfo_en": [
-      "Spines of Epoch: Normal - 0, Catastrophes +1","Poison Haze - Allied units receive 50 {true} damage every 0.5s"
+      "Spines of Epoch: Normal - 0, Catastrophes +1",
+      "Poison Haze - Allied units receive 50 {true} damage every 0.5s"
     ],
     "eliteDesc_zh": [
       "所有敌方单位的攻击力+30%，防御力+20%，生命值+30%",
       "萨卡兹狙击手获得隐匿",
       "毒雾每0.5秒造成$60$真实伤害"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+30%、防御力+20%、最大HP+30%",
+      "<サルカズ狙撃兵>がステルス状態になる",
+      "毒性ガスのダメージが60に増える"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +30% ATK, +20% DEF, and +30% Max HP",
+      "<Sarkaz Crossbowman> gains stealth",
+      "Poison Haze's damage increased to 60"
+    ],
     "normal_mods": null,
     "elite_mods": [
       {
@@ -25237,7 +25321,9 @@
       "如果出现饮泣之刺，左侧1个爆破攻坚手组长会出现在碎石右侧蓝门前且往左走"
     ],
     "addInfo_ja": ["時代の棘：通常1（5%の確率で涙飲みの棘に変わる）/天災+1"],
-    "addInfo_en": ["Spines of Epoch: Normal - 1 (5% chance to be Spines of Weeping), Catastrophes +1"],
+    "addInfo_en": [
+      "Spines of Epoch: Normal - 1 (5% chance to be Spines of Weeping), Catastrophes +1"
+    ],
     "eliteDesc_zh": [
       "所有敌方单位的攻击力+30%，防御力+30%，生命值+30%",
       "<爆破攻坚手组长>获得额外攻击力+50%"
@@ -25644,8 +25730,11 @@
       "始终是沉郁变奏，能用调谐节点改换变奏",
       "年代之刺：普通0/天灾+1"
     ],
-    "addInfo_ja": ["トーンダウンから始まる","時代の棘：通常0/天災+1"],
-    "addInfo_en": ["Starts in Melancholic tune","Spines of Epoch: Normal - 0, Catastrophes +1"],
+    "addInfo_ja": ["トーンダウンから始まる", "時代の棘：通常0/天災+1"],
+    "addInfo_en": [
+      "Starts in Melancholic tune",
+      "Spines of Epoch: Normal - 0, Catastrophes +1"
+    ],
     "eliteDesc_zh": [
       "所有敌方单位的攻击力+30%，防御力+20%，生命值+30%",
       "调谐节点激活所需技力翻倍"
@@ -26296,14 +26385,26 @@
       "年代之刺：普通0/天灾+1",
       "战场上初始存在一个覆盖中央区域可通行地面，且持续时间无限的年代印痕"
     ],
-    "addInfo_ja": ["時代の棘：通常0/天災+1","永続の<時代の爪痕>が戦場の中央エリアが現れる"],
-    "addInfo_en": ["Spines of Epoch: Normal - 0, Catastrophes +1","A <Mark of Ages> that lasts indefinitely appears at the middle of the map"],
+    "addInfo_ja": [
+      "時代の棘：通常0/天災+1",
+      "永続の<時代の爪痕>が戦場の中央エリアが現れる"
+    ],
+    "addInfo_en": [
+      "Spines of Epoch: Normal - 0, Catastrophes +1",
+      "A <Mark of Ages> that lasts indefinitely appears at the middle of the map"
+    ],
     "eliteDesc_zh": [
       "敌方单位的攻击力和防御力提升至130%，生命值提升至150%",
       "场上初始存在的年代印痕的范围扩大"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+30%、防御力+30%、最大HP+50%",
+      "中央にいる<時代の爪痕>の範囲が拡大する"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +30% ATK, +30% DEF and +50% Max HP",
+      "<Mark of Ages> at the center has increased range"
+    ],
     "normal_mods": null,
     "elite_mods": [
       {
@@ -26640,11 +26741,11 @@
     ],
     "eliteDesc_ja": [
       "敵全員の攻撃力+20%、防御力+20%、最大HP+20%",
-      "「魂灵涡流」の防御力+400、移動速度+0.3"
+      "「ソウルボルテックス」の防御力+400、移動速度+0.3"
     ],
     "eliteDesc_en": [
       "All enemy units have +20% ATK, +20% DEF, and +20% Max HP",
-      "<魂灵涡流> have additional +400 DEF, +0.3 Movespeed"
+      "<Soul Maelstrom> have additional +400 DEF, +0.3 Movespeed"
     ],
     "normal_mods": null,
     "elite_mods": [
@@ -26848,8 +26949,8 @@
       "敌方单位(也包括器伥本体)的攻击力提升至120%，生命值提升至200%",
       "战斗开始后在最右侧心涛所在格的右上角1格额外出现1只心涛，左侧3格处额外出现1只言省，后续战斗中额外出现：堂皇×3，心涛×1，新硎×2"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": ["敵全員の攻撃力+20%、最大HP+100%"],
+    "eliteDesc_en": ["All enemy units have +20% ATK and +100% Max HP"],
     "normal_mods": null,
     "elite_mods": [
       {
@@ -26995,8 +27096,14 @@
       "敌方单位的攻击力提升至140%，防御力提升至180%",
       "竞赛级沙滩车的生命值与防御力额外提升至150%"
     ],
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_ja": [
+      "敵全員の攻撃力+40%、防御力+80%",
+      "<レーシングサンドバギー>の最大HPと防御力がさらに50%上昇"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +40% ATK and +80% DEF",
+      "<Competitive-Grade Beach Buggy> have additional +50% DEF, +50% Max HP"
+    ],
     "normal_mods": null,
     "elite_mods": [
       {
