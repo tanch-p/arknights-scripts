@@ -130,7 +130,7 @@ for lang in languages:
                        "desc": chara_dict[f'desc_{lang}'] if chara_dict[f'desc_{lang}'] else chara_dict['desc_zh'],
                        "release_time": chara_dict['release_time'],
                        "tags": tags, "blackboard": chara_dict['blackboard'],
-                       "nationId": chara_dict['nationId'], "groupId": chara_dict['groupId'], "teamId": chara_dict['teamId'], "position": chara_dict['position'],
+                       "powers": chara_dict['powers'], "position": chara_dict['position'],
                        "isSpChar": chara_dict['isSpChar'], "rarity": chara_dict['rarity'],
                        "profession": chara_dict['profession'], "subProfessionId": chara_dict['subProfessionId'], "stats": stats,
                        'potential': potential, "favorData": favor_data, "tokens": tokens,

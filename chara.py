@@ -204,12 +204,22 @@ for id in filtered_cn_char_table:
     if character_dict["subProfessionId"] in ["librator", "healer", "musha"]:
         desc_zh = replace_substrings(
             character_dict['trait']['candidates'][-1]['overrideDescripton'], character_dict['trait']['candidates'][-1]['blackboard'])
+    powers = []
+    powers_list = character_dict['subPower'] or []
+    powers_list.append(character_dict['mainPower'])
+    for power in powers_list:
+        if power['nationId'] is not None: 
+            powers.append(power['nationId'])
+        if power['groupId'] is not None: 
+            powers.append(power['groupId'])
+        if power['teamId'] is not None: 
+            powers.append(power['teamId'])
 
     return_dict = {"id": id, "appellation": character_dict['appellation'], "name_zh": character_dict['name'], "name_ja": "", "name_en": "",
                    "desc_zh": desc_zh, "desc_ja": "", "desc_en": "",
                    "release_time": imple_dates[id] if id in imple_dates else 0,
                    "tags": tags, "blackboard": blackboard,
-                   "nationId": character_dict['nationId'], "groupId": character_dict['groupId'], "teamId": character_dict['teamId'], "position": character_dict['position'],
+                   "powers":powers, "position": character_dict['position'],
                    "isSpChar": character_dict['isSpChar'], "rarity": character_dict['rarity'],
                    "profession": character_dict['profession'], "subProfessionId": character_dict['subProfessionId'], "stats": stats,
                    'potential': potential, "favorData": favor_data, "tokens": tokens,
@@ -322,11 +332,22 @@ for id in cn_patch_table['patchChars']:
     blackboard = []
     tags = get_sub_profession_tags(character_dict, id)
 
+    powers = []
+    powers_list = character_dict['subPower'] or []
+    powers_list.append(character_dict['mainPower'])
+    for power in powers_list:
+        if power['nationId'] is not None: 
+            powers.append(power['nationId'])
+        if power['groupId'] is not None: 
+            powers.append(power['groupId'])
+        if power['teamId'] is not None: 
+            powers.append(power['teamId'])
+
     return_dict = {"id": id, "appellation": character_dict['appellation'], "name_zh": character_dict['name'], "name_ja": "", "name_en": "",
                    "desc_zh": character_dict['description'].replace("<$ba", "<ba"), "desc_ja": "", "desc_en": "",
                    "release_time": imple_dates[id],
                    "tags": tags, "blackboard": blackboard,
-                   "nationId": character_dict['nationId'], "groupId": character_dict['groupId'], "teamId": character_dict['teamId'], "position": character_dict['position'],
+                  "powers":powers, "position": character_dict['position'],
                    "isSpChar": character_dict['isSpChar'], "rarity": character_dict['rarity'],
                    "profession": character_dict['profession'], "subProfessionId": character_dict['subProfessionId'], "stats": stats,
                    'potential': potential,  "favorData": favor_data, "tokens": tokens,
