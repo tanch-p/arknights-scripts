@@ -158,26 +158,6 @@
                 "tags": [],
                 "blackboard": [
                     {
-                        "key": "attack@prob1",
-                        "value": 0.2
-                    },
-                    {
-                        "key": "attack@prob2",
-                        "value": 0.3
-                    },
-                    {
-                        "key": "attack@prob3",
-                        "value": 0.3
-                    },
-                    {
-                        "key": "attack@prob4",
-                        "value": 0.2
-                    },
-                    {
-                        "key": "attack@bomb_scale",
-                        "value": 4.5
-                    },
-                    {
                         "key": "sleep",
                         "targets": 99,
                         "value": 1.0,
@@ -3364,10 +3344,6 @@
                         "dep_stat": "atk",
                         "value": 0.23,
                         "damage_type": "arts"
-                    },
-                    {
-                        "key": "atk_scale",
-                        "value": 0.23
                     }
                 ]
             }
@@ -11052,18 +11028,6 @@
                 "tags": [],
                 "blackboard": [
                     {
-                        "key": "atk_scale_base",
-                        "value": 1.13
-                    },
-                    {
-                        "key": "cnt",
-                        "value": 3.0
-                    },
-                    {
-                        "key": "atk_scale_up",
-                        "value": 1.18
-                    },
-                    {
                         "key": "dmg_res",
                         "types": [
                             "phys",
@@ -13591,6 +13555,164 @@
                     {
                         "key": "attack_speed",
                         "value": 22.0
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4188_confes": {
+        "appellation": "CONFESS-47",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "先付费，再告解·VI",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "首次阻挡敌人时立即获得4点部署费用，并使该敌人<ba.sleep>沉睡</>8秒",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "sleep",
+                        "targets": 1,
+                        "value": 8.0,
+                        "target_air": false
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4187_graceb": {
+        "appellation": "Gracebearer",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "趁势怜悯",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "攻击力+13%<@ba.talpu>（+3%）</>，击倒过处于<ba.dt.neural2>神经损伤</>爆发期间的敌人后改为攻击力+18%<@ba.talpu>（+3%）</>",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": []
+            }
+        ]
+    },
+    "char_4193_lemuen": {
+        "appellation": "Lemuen",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "跨境追缉许可",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "精英或领袖敌人在拉特兰干员的攻击范围内停留超过6<@ba.talpu>（-2）</>秒后被通缉，受到拉特兰干员的攻击时伤害提升18%<@ba.talpu>（+3%）</>，蕾缪安可以攻击到所有被通缉的目标",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "laterano"
+                ],
+                "blackboard": []
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "逃犯引渡手续",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "在场20秒后，攻击力+10%，自身弹药类技能弹药上限+1",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": []
+            }
+        ]
+    },
+    "char_1041_angel2": {
+        "appellation": "Exusiai the New Covenant",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "火力电台",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "在场时，每当有友方干员的弹药被消耗就会回复自身6%生命值，并有25%概率立即对该干员攻击范围的敌人召唤一次轰炸，造成相当于自身攻击力165%<@ba.talpu>（+15%）</>的物理溅射伤害",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "heal_self"
+                ],
+                "blackboard": []
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "铳弹协约",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "在场时，携带弹药类技能的干员攻击力+13%<@ba.talpu>（+4%）</>，对【拉特兰】干员的效果翻倍",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "laterano"
+                ],
+                "blackboard": [
+                    {
+                        "key": "ally_atk",
+                        "value": 0.13,
+                        "conditions": [
+                            "ammo"
+                        ]
+                    },
+                    {
+                        "key": "ally_atk",
+                        "value": 0.26,
+                        "conditions": [
+                            "ammo",
+                            "laterano"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4194_rmixer": {
+        "appellation": "Sankta Miksaparato",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "扫射迎宾仪礼",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "每次造成伤害使自身10秒内防御力+30，攻击速度+3，最多可叠加3层",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "def",
+                        "value": 90.0
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 9.0
+                    }
+                ]
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "架盾送客仪礼",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "若8秒内未主动攻击，获得相当于生命上限18%<@ba.talpu>（+3%）</>的<ba.barrier>屏障</>，失去屏障后重新计时",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "barrier"
+                ],
+                "blackboard": [
+                    {
+                        "key": "interval",
+                        "value": 8.0
                     }
                 ]
             }
