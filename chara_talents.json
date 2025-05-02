@@ -13624,7 +13624,12 @@
                 "desc_ja": "",
                 "desc_en": "",
                 "tags": [],
-                "blackboard": []
+                "blackboard": [
+                    {
+                        "key": "max_ammo",
+                        "value": 1.0
+                    }
+                ]
             }
         ]
     },
