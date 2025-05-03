@@ -32616,35 +32616,12 @@
             "tags": [],
             "blackboard": [
                 {
-                    "key": "cnt",
-                    "value": 1.0
-                },
-                {
-                    "key": "cnt",
-                    "value": 3.0
-                },
-                {
                     "key": "ally_atk",
                     "value": 0.22,
                     "conditions": [
-                        "support|caster"
+                        "SUPPORT",
+                            "CASTER"
                     ]
-                },
-                {
-                    "key": "duration",
-                    "value": 30.0
-                },
-                {
-                    "key": "cnt",
-                    "value": 3.0
-                },
-                {
-                    "key": "atk",
-                    "value": 0.22
-                },
-                {
-                    "key": "duration",
-                    "value": 30.0
                 }
             ]
         }

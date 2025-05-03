@@ -5932,16 +5932,12 @@
                 ],
                 "blackboard": [
                     {
-                        "key": "cnt",
-                        "value": 3.0
-                    },
-                    {
-                        "key": "atk",
-                        "value": 0.17
-                    },
-                    {
-                        "key": "duration",
-                        "value": 30.0
+                        "key": "ally_atk",
+                        "value": 0.17,
+                        "conditions": [
+                            "SUPPORT",
+                            "CASTER"
+                        ]
                     }
                 ]
             }
@@ -13665,14 +13661,14 @@
                         "key": "ally_atk",
                         "value": 0.13,
                         "conditions": [
-                            "ammo"
+                            "trigger_time"
                         ]
                     },
                     {
                         "key": "ally_atk",
                         "value": 0.26,
                         "conditions": [
-                            "ammo",
+                            "trigger_time",
                             "laterano"
                         ]
                     }
