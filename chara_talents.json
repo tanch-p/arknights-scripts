@@ -12412,11 +12412,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "低空乱流",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Low-Altitude Turbulence",
+                "name_ja": "低空乱流",
                 "desc_zh": "在地面时防御力+12%<@ba.talpu>（+2%）</>，<ba.liftoff>起飞</>后攻击敌人时攻击力提升至112%<@ba.talpu>（+2%）</>",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "地上にいる時防御力+12%<@ba.talpu>（+2%）</>、<ba.liftoff>離陸</>中、攻撃時に攻撃力が112%<@ba.talpu>（+2%）</>まで上昇",
+                "desc_en": "Gains +12% <@ba.talpu>(+2%)</> DEF while on the ground; while attacking enemies after <ba.liftoff>Taking Off</>, increases ATK to 112% <@ba.talpu>(+2%)</>",
                 "tags": [],
                 "blackboard": [
                     {
@@ -12433,11 +12433,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "谨慎择客",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Select Your Customers!",
+                "name_ja": "慎重な客選び",
                 "desc_zh": "攻击未被自身阻挡的敌人时，自身造成的伤害+25%<@ba.talpu>（+5%）</>",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "自身にブロックされていない敵への与ダメージ+25%<@ba.talpu>（+5%）</>",
+                "desc_en": "Deals +25% <@ba.talpu>(+5%)</> damage when attacking enemies that are not blocked by this unit",
                 "tags": [
                     "no_block_enemy",
                     "self_no_block_enemy",
@@ -12458,11 +12458,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "神河谕使",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Herald of the Divine River",
+                "name_ja": "神河の使い",
                 "desc_zh": "受到的元素损伤-12%<@ba.talpu>（+2%）</>，受到凋亡损伤时回复2点技力",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "受ける元素損傷-12%<@ba.talpu>（+2%）</>、壊死損傷を受けた際にSPが2回復",
+                "desc_en": "Receives -12% <@ba.talpu>(+2%)</> Elemental Injury, and recovers 2 SP when receiving Necrosis damage",
                 "tags": [],
                 "blackboard": [
                     {
@@ -12486,11 +12486,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "追凶",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Fox Hunt",
+                "name_ja": "追跡者",
                 "desc_zh": "对每个敌人造成首次伤害后，10秒内忍冬对该敌人造成伤害时额外造成攻击力30%的法术伤害",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "敵にダメージを与えた際、敵ごとに一度だけ、10秒間自身が対象にダメージを与えた際に追加で攻撃力の30%の術ダメージを与える効果を付与する",
+                "desc_en": "After dealing damage to an enemy for the first time, Vulpisfoglia deals an additional 30% ATK as Arts damage whenever she deals damage to this enemy during the next 10s",
                 "tags": [
                     "arts"
                 ],
@@ -12499,11 +12499,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "蓄势",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Accelerando",
+                "name_ja": "気力温存",
                 "desc_zh": "在场时，部署费用的自然回复速度+10%，若4秒内自身未受到伤害，则每秒恢复5%<@ba.talpu>（+1%）</>的最大生命值",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "配置中、コストの自然回復速度+10%、4秒間ダメージを受けていない場合、1秒ごとにHPが最大値の5%<@ba.talpu>（+1%）</>回復",
+                "desc_en": "Natural DP regeneration rate +10% while on the field; if Vulpisfoglia does not take damage for 4s, recovers 5% <@ba.talpu>(+1%)</> of Max HP every second",
                 "tags": [
                     "heal_self"
                 ],
@@ -12517,11 +12517,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "头狼",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Alpha Wolf",
+                "name_ja": "群狼の統率者",
                 "desc_zh": "每在场上停留16<@ba.talpu>（-4）</>秒，浮游单元依次获得以下一个效果：伤害上限提高10%、造成伤害时使目标特殊能力失效2秒、数量+1",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "配置中、16<@ba.talpu>（-4）</>秒ごとに浮遊ユニットが以下の効果を順番に獲得：与ダメージ上限+10%/ダメージを与えた対象の特殊能力を2秒間無効化/浮遊ユニットの数+1",
+                "desc_en": "Every 16s <@ba.talpu>(-4)</> on the field, Drones gain one of the following effects in order: max Drone damage +10%; disables enemies' special abilities for 2s when dealing damage to them; +1 Drone",
                 "tags": [],
                 "blackboard": [
                     {
@@ -12535,11 +12535,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "叙拉古的荣幸",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Honor of Siracusa",
+                "name_ja": "シラクーザの幸運",
                 "desc_zh": "编入队伍时所有【叙拉古】干员的初始技力+6<@ba.talpu>（+1）</>",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "編成中、味方【シラクーザ】のストックSP+6<@ba.talpu>（+1）</>",
+                "desc_en": "When this unit is in the squad, all [Siracusa] Operators gain +6 <@ba.talpu>(+1)</> Initial SP",
                 "tags": [
                     "siracusa",
                     "squad_effect"
@@ -12566,11 +12566,11 @@
             {
                 "prefabKey": "t1",
                 "name_zh": "吞咽苦厄",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Swallow Your Suffering",
+                "name_ja": "殉難者の苦しみ",
                 "desc_zh": "技能持续期间在自身周围产生烟雾，使其中的地面敌人物理与法术命中率-20%",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "スキル発動中、自身の周囲に煙幕を発生させ、範囲内の地面上にいる敵の物理・術攻撃の命中率-20%",
+                "desc_en": "Creates a smoke cloud around herself while skill is active; ground enemies within the cloud have -20% Physical and Arts hit rate",
                 "tags": [],
                 "blackboard": [
                     {
@@ -12587,11 +12587,11 @@
             {
                 "prefabKey": "t2",
                 "name_zh": "弑君者威名",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Crownslayer's Glory",
+                "name_ja": "王冠を狩る者",
                 "desc_zh": "对未伤害过自身的地面敌人造成的物理伤害提升22%<@ba.talpu>（+2）</>",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "自身にダメージを与えていない地面上にいる敵への物理の与ダメージ+22%<@ba.talpu>（+2）</>",
+                "desc_en": "Deals 22% <@ba.talpu>(+2)</> more Physical damage to ground enemies that has not yet dealt damage to her",
                 "tags": [],
                 "blackboard": [
                     {
