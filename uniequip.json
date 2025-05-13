@@ -33370,19 +33370,11 @@
             ],
             "blackboard": [
                 {
-                    "key": "atk_scale",
-                    "value": 1.1
-                },
-                {
-                    "key": "self_ammo",
+                    "key": "max_ammo",
                     "value": 5.0
                 },
                 {
-                    "key": "duration",
-                    "value": 20.0
-                },
-                {
-                    "key": "ally_ammo",
+                    "key": "ally_max_ammo",
                     "value": 1.0,
                     "conditions": [
                         "laterano"

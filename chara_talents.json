@@ -3545,15 +3545,11 @@
                 ],
                 "blackboard": [
                     {
-                        "key": "self_ammo",
+                        "key": "max_ammo",
                         "value": 3.0
                     },
                     {
-                        "key": "duration",
-                        "value": 20.0
-                    },
-                    {
-                        "key": "ally_ammo",
+                        "key": "ally_max_ammo",
                         "value": 1.0,
                         "conditions": [
                             "laterano"
