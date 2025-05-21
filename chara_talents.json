@@ -3293,11 +3293,10 @@
                 "desc_ja": "敵を1体攻撃する度自身に蓄積された<ba.dt.element>元素損傷</>を35<@ba.talpu>(+5)</>回復(攻撃毎の最大回復回数はブロック数と同じ)",
                 "desc_en": "Recover 35 <@ba.talpu>(+5)</> <ba.dt.element>Elemental Damage</> for each enemy hit during attacks, up to Block count",
                 "tags": [
-                    "ele_heal"
                 ],
                 "blackboard": [
                     {
-                        "key": "value",
+                        "key": "ele_heal",
                         "value": 35.0
                     }
                 ]
@@ -13336,7 +13335,12 @@
                 "tags": [
                     "heal_self"
                 ],
-                "blackboard": []
+                "blackboard": [
+                    {
+                        "key": "ele_heal",
+                        "value": 0.02
+                    }
+                ]
             }
         ]
     },
