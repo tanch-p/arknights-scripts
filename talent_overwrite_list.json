@@ -27,7 +27,7 @@
     "enemy_1025_reveng": [
       {
         "key": "avenger",
-        "atk": { "multiplier": 1.5, "type":"initial" }
+        "atk": { "multiplier": 1.5, "order":"initial" }
       }
     ]
   },
@@ -69,7 +69,7 @@
   },
   "level_rogue2_3-1": {
     "enemy_1083_sotiab_2": [
-      { "key": "guerilla_siegebreaker_leader_buff", "value": 100 }
+      { "key": "guerilla_siegebreaker_buff", "atk": { "multiplier": 1, "order": "initial" }}
     ]
   },
   "level_rogue2_3-5": {
@@ -304,6 +304,23 @@
           ],
           "zh": [
             "被击倒后在自身所在地块中心以自身路径召唤1个$R-11a突击动力装甲$"
+          ]
+        }
+      }
+    ]
+  },
+    "level_rogue4_b-7": {
+    "enemy_1128_spmage_2": [
+      {
+        "key": "envy_beam",
+        "remove":true,
+        "tooltip": {
+          "en": ["$Will not use charge attack$"],
+          "ja": [
+            "$チャージ攻撃しない$"
+          ],
+          "zh": [
+            "$不会使用蓄力攻击$"
           ]
         }
       }

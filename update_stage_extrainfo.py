@@ -34,7 +34,6 @@ for key in extra_info_list:
         script_dir,
         f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{folder}/{key}.json",
     )
-
     with open(stage_data_path, encoding="utf-8") as f:
         stage_data = json.load(f)
         wave_data = get_wave_data(
@@ -68,6 +67,30 @@ for key in extra_info_list:
             'sp_terrain']
         if sp_terrain is not None and len(sp_terrain) == 0:
             sp_terrain = None
+
+        # elite_mods = extra_info['elite_mods']
+        # new_mods = []
+        # if elite_mods:
+        #     for effect in elite_mods:
+        #         new_effect = {}
+        #         new_effect['targets'] = effect['targets']
+        #         mods = []
+        #         for statKey in effect['mods']:
+        #             if statKey == "special":
+        #                 new_effect['special'] = effect['mods'][statKey]
+        #             elif 'fixed' in statKey:
+        #                 mods.append(
+        #                     {"key": statKey, "value": effect['mods'][statKey], "mode": "add"})
+        #             elif "_" in statKey:
+        #                 print(statKey)
+        #             else:
+        #                 mods.append(
+        #                     {"key": statKey, "value": effect['mods'][statKey], "mode": "mul"})
+        #         if len(mods) > 0:
+        #             new_effect['mods'] = mods
+        #         new_mods.append(new_effect)
+        # if len(new_mods) == 0:
+        #     new_mods = None
     trimmed_stage_info = {
         "levelId": extra_info['levelId'],
         "code": extra_info['code'],
@@ -83,7 +106,7 @@ for key in extra_info_list:
         "eliteDesc_ja": extra_info['eliteDesc_ja'],
         "eliteDesc_en": extra_info['eliteDesc_en'],
         "normal_mods": extra_info['normal_mods'],
-        "elite_mods": extra_info['elite_mods'],
+        "elite_mods": new_mods,
         "all_possible_enemy_count": all_possible_enemy_count if not extra_info['levelId'] in STAGES_TO_IGNORE else extra_info['all_possible_enemy_count'],
         "sp_count": sp_count,
         "all_possible_elite_enemy_count": all_possible_elite_enemy_count if not extra_info['levelId'] in STAGES_TO_IGNORE else extra_info['all_possible_elite_enemy_count'],

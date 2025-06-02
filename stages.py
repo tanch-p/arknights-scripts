@@ -225,11 +225,8 @@ for topic_dict in roguelike_topics:
                 "eliteDesc_zh":  replace_chevrons(extrainfo[levelId]['eliteDesc_zh']) if levelId in extrainfo else None,
                 "eliteDesc_ja": replace_chevrons(extrainfo[levelId]['eliteDesc_ja']) if levelId in extrainfo else None,
                 "eliteDesc_en": replace_chevrons(extrainfo[levelId]['eliteDesc_en']) if levelId in extrainfo else None,
-                "n_runes": None,
-                "elite_runes": None,
                 "n_mods": extrainfo[levelId]['normal_mods'] if levelId in extrainfo else None,
                 "elite_mods": extrainfo[levelId]['elite_mods'] if levelId in extrainfo else None,
-                "routes": extrainfo[levelId]['routes'] if levelId in extrainfo else None,
                 "floors": extrainfo[levelId]['floors'] if levelId in extrainfo else None,
                 "sp_terrain": extrainfo[levelId]['sp_terrain'] if levelId in extrainfo else None,
                 "sp_enemy": extrainfo[levelId]['sp_enemy'] if levelId in extrainfo else None,
@@ -261,8 +258,8 @@ for topic_dict in roguelike_topics:
 
             # runes
             holder = {}
-            normal_group_name, elite_group_name, enemies_to_replace, predefine_changes, forbid_locations,max_cost = itemgetter(
-                'normal_group_name', 'elite_group_name', 'enemies_to_replace', 'predefine_changes', 'forbid_locations','max_cost')(get_runes_data(stage_data['runes'], levelId, stage_data['mapData']))
+            normal_group_name, elite_group_name, enemies_to_replace, predefine_changes, forbid_locations, max_cost = itemgetter(
+                'normal_group_name', 'elite_group_name', 'enemies_to_replace', 'predefine_changes', 'forbid_locations', 'max_cost')(get_runes_data(stage_data['runes'], levelId, stage_data['mapData']))
             if len(enemies_to_replace) > 0:
                 holder['enemy_replace'] = enemies_to_replace
             if len(predefine_changes) > 0:
@@ -350,14 +347,15 @@ for topic_dict in roguelike_topics:
                             overwrittenData["levelType"] = enemy["overwrittenData"][
                                 "levelType"
                             ]["m_value"]
-                        if enemy['overwrittenData']['talentBlackboard'] or enemy['overwrittenData']['skills']:
+                        if levelId in talent_overwrite_list and enemy['id'] in talent_overwrite_list[levelId]:
+                            overwrittenData['talentBlackboard'] = talent_overwrite_list[levelId][enemy['id']]
+                        elif enemy['overwrittenData']['talentBlackboard'] or enemy['overwrittenData']['skills']:
                             if levelId not in talent_overwrite_list and enemy['id'] != 'enemy_1106_byokai_b':
                                 print(
                                     'talent overwrite', enemy['id'], my_enemy_db[enemy_id]['name_zh'], levelId)
                             if enemy['id'] == 'enemy_1106_byokai_b' and folder == 'ro3':
                                 overwrittenData['talentBlackboard'] = talent_overwrite_list['rogue_3'][enemy['id']]
-                            elif levelId in talent_overwrite_list and enemy['id'] in talent_overwrite_list[levelId]:
-                                overwrittenData['talentBlackboard'] = talent_overwrite_list[levelId][enemy['id']]
+
                         if enemy['overwrittenData']['talentBlackboard']:
                             if not 'talentBlackboard' in overwrittenData:
                                 overwrittenData['talentBlackboard'] = []
