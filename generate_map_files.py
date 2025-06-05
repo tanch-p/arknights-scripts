@@ -1,7 +1,7 @@
 import os
 from os import walk
 import json
-from waves_new import get_waves_data
+from waves_new import get_bonus_counts
 
 script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
@@ -71,9 +71,7 @@ STAGES_WITH_ENEMY_REF_TO_REPLACE = {'level_rogue4_b-4': 'level_rogue4_b-4-c',
 
 # for consumption in enemy routes
 folders = ['ro1','ro2', 'ro3', 'ro4']
-stages_to_ignore = ['level_rogue1_1-4', 'level_rogue1_3-8', 'level_rogue2_2-5',
-                    'level_rogue3_3-3', 'level_rogue3_ev-9',
-                    'level_rogue4_d-1', 'level_rogue4_d-2', 'level_rogue4_d-3', 'level_rogue4_b-7', 'level_rogue4_b-8']
+stages_to_ignore = []
 for folder in folders:
     files = []
     path = os.path.join(
@@ -87,7 +85,7 @@ for folder in folders:
     for stage_id in files:
         if stage_id.split(".")[0] in stages_to_ignore:
             continue
-        if not 'level_rogue1_1-1.json' in stage_id:
+        if not 'level_rogue3_1-3.json' in stage_id:
             continue
         if "r1" in stage_id or "r2" in stage_id:
             continue
@@ -100,8 +98,11 @@ for folder in folders:
         )
         with open(file_path, encoding="utf-8") as f:
             stage_data = json.load(f)
-        timeline = get_waves_data(
-            stage_data, stage_id.replace(".json", ""), log=True)
+        # Example usage:
+        analysis = get_bonus_counts(stage_data,stage_id)
+
+        # timeline = get_waves_data(
+        #     stage_data, stage_id.replace(".json", ""), log=True)
         # write_path = os.path.join(
         #     script_dir, 'ro_wave_timelines', folder, stage_id)
         # if timeline:

@@ -75,25 +75,21 @@
       }
     ]
   },
-  "token_10036_lasher_mcbird":{
-    "tags": ["bonus_machine","machine"],
-    "blackboard": [
-    ]
+  "token_10036_lasher_mcbird": {
+    "tags": ["bonus_machine", "machine"],
+    "blackboard": []
   },
-  "token_10041_cathy_catsld":{
+  "token_10041_cathy_catsld": {
     "tags": ["barrier"],
-    "blackboard": [
-    ]
+    "blackboard": []
   },
-  "token_10040_siege2_vlion":{
+  "token_10040_siege2_vlion": {
     "tags": ["true"],
-    "blackboard": [
-    ]
+    "blackboard": []
   },
-  "token_10042_tecno_puppet":{
-"tags": ["arts"],
-    "blackboard": [
-    ]
+  "token_10042_tecno_puppet": {
+    "tags": ["arts"],
+    "blackboard": []
   },
   "token_10043_necras_skeltn": {
     "tags": ["arts"],
@@ -105,6 +101,14 @@
       {
         "key": "blockCnt",
         "value": 4.0
+      }
+    ]
+  },
+  "token_10055_phatm2_mndclv": {
+    "blackboard": [
+      {
+        "key": "blockCnt",
+        "value": 99.0
       }
     ]
   }
