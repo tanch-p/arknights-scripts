@@ -960,7 +960,7 @@
     "name_en": "A_Date_With_Slugs",
     "category": "combat_ops",
     "floors": [1, 2],
-    "addInfo_zh": null,
+    "addInfo_zh": ["怒想症额外敌人 - 游击队传令兵组长 x 1"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": ["所有敌方单位的攻击力，防御力+50%，生命值+90%"],
@@ -1031,6 +1031,11 @@
         "key": "enemy_2002_bearmi",
         "min_count": 0,
         "max_count": 1
+      },
+      {
+        "key": "enemy_1080_sotidp_2",
+        "min_count": 0,
+        "max_count": 1
       }
     ],
     "elite_enemy_list": null
@@ -1043,7 +1048,7 @@
     "name_en": "Beast_Taming",
     "category": "combat_ops",
     "floors": [1, 2],
-    "addInfo_zh": null,
+    "addInfo_zh": ["怒想症额外敌人 - 游击队传令兵组长 x 1"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": ["所有敌方单位的攻击力+40%，防御力+30%，生命值+70%"],
@@ -1119,6 +1124,11 @@
         "key": "enemy_2002_bearmi",
         "min_count": 0,
         "max_count": 1
+      },
+      {
+        "key": "enemy_1080_sotidp_2",
+        "min_count": 0,
+        "max_count": 1
       }
     ],
     "elite_enemy_list": null
@@ -1131,7 +1141,7 @@
     "name_en": "Gun_Salute",
     "category": "combat_ops",
     "floors": [1, 2],
-    "addInfo_zh": null,
+    "addInfo_zh": ["怒想症额外敌人 - 游击队传令兵组长 x 1"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
@@ -1204,6 +1214,11 @@
         "key": "enemy_2002_bearmi",
         "min_count": 0,
         "max_count": 1
+      },
+      {
+        "key": "enemy_1080_sotidp_2",
+        "min_count": 0,
+        "max_count": 1
       }
     ],
     "elite_enemy_list": [
@@ -1236,6 +1251,11 @@
         "key": "enemy_2002_bearmi",
         "min_count": 0,
         "max_count": 1
+      },
+      {
+        "key": "enemy_1080_sotidp_2",
+        "min_count": 0,
+        "max_count": 1
       }
     ]
   },
@@ -1247,7 +1267,7 @@
     "name_en": "Accident",
     "category": "combat_ops",
     "floors": [1, 2],
-    "addInfo_zh": null,
+    "addInfo_zh": ["怒想症额外敌人 - 游击队传令兵组长 x 1"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
@@ -1331,6 +1351,11 @@
         "key": "enemy_2002_bearmi",
         "min_count": 0,
         "max_count": 1
+      },
+      {
+        "key": "enemy_1080_sotidp_2",
+        "min_count": 0,
+        "max_count": 1
       }
     ],
     "elite_enemy_list": [
@@ -1363,6 +1388,11 @@
         "key": "enemy_2002_bearmi",
         "min_count": 0,
         "max_count": 1
+      },
+      {
+        "key": "enemy_1080_sotidp_2",
+        "min_count": 0,
+        "max_count": 1
       }
     ]
   },
@@ -1374,7 +1404,7 @@
     "name_en": "Fight_to_the_Death",
     "category": "combat_ops",
     "floors": [1, 2],
-    "addInfo_zh": null,
+    "addInfo_zh": ["怒想症额外敌人 - 游击队传令兵组长 x 1"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
@@ -1484,6 +1514,11 @@
         "key": "enemy_2002_bearmi",
         "min_count": 0,
         "max_count": 1
+      },
+      {
+        "key": "enemy_1080_sotidp_2",
+        "min_count": 0,
+        "max_count": 1
       }
     ],
     "elite_enemy_list": [
@@ -1526,6 +1561,11 @@
         "key": "enemy_2002_bearmi",
         "min_count": 0,
         "max_count": 1
+      },
+      {
+        "key": "enemy_1080_sotidp_2",
+        "min_count": 0,
+        "max_count": 1
       }
     ]
   },
@@ -1537,7 +1577,7 @@
     "name_en": "The_Grand_Finale",
     "category": "combat_ops",
     "floors": [2],
-    "addInfo_zh": null,
+    "addInfo_zh": ["怒想症额外敌人 - 萨卡兹魔剑士组长 x 1"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
@@ -1575,7 +1615,7 @@
         ]
       },
       {
-        "targets": ["16", "13"],
+        "targets": ["enemy_1008_ghost", "enemy_1026_aghost"],
         "mods": [
           {
             "key": "hp",
@@ -1640,6 +1680,11 @@
         "key": "enemy_2002_bearmi",
         "min_count": 0,
         "max_count": 1
+      },
+      {
+        "key": "enemy_1075_dmgswd_2",
+        "min_count": 0,
+        "max_count": 1
       }
     ],
     "elite_enemy_list": null
@@ -1652,7 +1697,7 @@
     "name_en": "Patrol_Squad",
     "category": "combat_ops",
     "floors": [2],
-    "addInfo_zh": null,
+    "addInfo_zh": ["怒想症额外敌人 - 萨卡兹魔剑士组长 x 1"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
@@ -1757,7 +1802,7 @@
     "name_en": "Destitute_Knights",
     "category": "combat_ops",
     "floors": [2],
-    "addInfo_zh": null,
+    "addInfo_zh": ["怒想症额外敌人 - 萨卡兹魔剑士组长 x 1"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
@@ -1869,7 +1914,7 @@
     "name_en": "Unequal_Split",
     "category": "combat_ops",
     "floors": [2],
-    "addInfo_zh": null,
+    "addInfo_zh": ["怒想症额外敌人 - 萨卡兹魔剑士组长 x 1"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
@@ -2008,7 +2053,7 @@
     "name_en": "First_Come,_Last_Served",
     "category": "combat_ops",
     "floors": [2],
-    "addInfo_zh": null,
+    "addInfo_zh": ["怒想症额外敌人 - 萨卡兹魔剑士组长 x 1"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
@@ -2134,7 +2179,7 @@
     "name_en": "Justice",
     "category": "combat_ops",
     "floors": [3],
-    "addInfo_zh": ["每3秒回复1点部署费用"],
+    "addInfo_zh": ["每3秒回复1点部署费用", "怒想症额外敌人 - 欺凌者 x 1"],
     "addInfo_ja": ["コスト回復速度が3分の1になる"],
     "addInfo_en": ["DP regen rate decreased to 1/3"],
     "eliteDesc_zh": [
@@ -2309,7 +2354,7 @@
     "name_en": "A_Familiar_Face",
     "category": "combat_ops",
     "floors": [3],
-    "addInfo_zh": null,
+    "addInfo_zh": ["怒想症额外敌人 - 欺凌者 x 1"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": ["所有敌方单位的防御力+10%，攻击力，生命值+50%"],
@@ -2405,7 +2450,7 @@
     "name_en": "Vintage_Transport",
     "category": "combat_ops",
     "floors": [3],
-    "addInfo_zh": null,
+    "addInfo_zh": ["怒想症额外敌人 - 欺凌者 x 1"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
@@ -2546,7 +2591,7 @@
     "name_en": "With_The_Crowd",
     "category": "combat_ops",
     "floors": [3],
-    "addInfo_zh": null,
+    "addInfo_zh": ["怒想症额外敌人 - 欺凌者 x 1"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": ["所有敌方单位的生命值+70%"],
@@ -2617,7 +2662,7 @@
     "name_en": "Beast_Fighting",
     "category": "combat_ops",
     "floors": [3],
-    "addInfo_zh": ["所有友方单位部署后流失50%最大生命值"],
+    "addInfo_zh": ["所有友方单位部署后流失50%最大生命值","怒想症额外敌人 - 欺凌者 x 1"],
     "addInfo_ja": ["味方ユニットが配置された直後、50%のHPを失う"],
     "addInfo_en": ["Allied units lose 50% HP upon deployment"],
     "eliteDesc_zh": [
@@ -2717,7 +2762,7 @@
     "name_en": "Premiere",
     "category": "combat_ops",
     "floors": [3],
-    "addInfo_zh": null,
+    "addInfo_zh": ["怒想症额外敌人 - 欺凌者 x 1"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
@@ -2814,7 +2859,7 @@
     "name_en": "Reform",
     "category": "combat_ops",
     "floors": [3],
-    "addInfo_zh": null,
+    "addInfo_zh": ["怒想症额外敌人 - 欺凌者 x 1"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
@@ -2950,7 +2995,7 @@
     "name_en": "Sculptor_and_Statue",
     "category": "combat_ops",
     "floors": [3],
-    "addInfo_zh": null,
+    "addInfo_zh": ["怒想症额外敌人 - 欺凌者 x 1"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
@@ -3074,7 +3119,7 @@
     "name_en": "Pressing_Ahead",
     "category": "combat_ops",
     "floors": [4],
-    "addInfo_zh": ["每3秒回复1点部署费用"],
+    "addInfo_zh": ["每3秒回复1点部署费用","怒想症额外敌人 - 爆破攻坚手组长 x 1"],
     "addInfo_ja": ["コスト回復速度が3分の1になる"],
     "addInfo_en": ["DP regen rate decreased to 1/3"],
     "eliteDesc_zh": ["所有敌方单位的攻击力+20%，防御力+10%，生命值+30%"],
@@ -3175,7 +3220,7 @@
     "name_en": "Shrouded_in_Clouds",
     "category": "combat_ops",
     "floors": [4],
-    "addInfo_zh": ["毒性雾霾 - 友方单位每0.5秒持续受到15{true}伤害"],
+    "addInfo_zh": ["毒性雾霾 - 友方单位每0.5秒持续受到15{true}伤害","怒想症额外敌人 - 爆破攻坚手组长 x 1"],
     "addInfo_ja": ["毒性ガス - 味方ユニットに0.5秒ごとに15{true}ダメージ"],
     "addInfo_en": [
       "Poison Haze - Allied units receive 15 {true} damage every 0.5s"
@@ -3281,7 +3326,7 @@
     "name_en": "Fireworks_Show",
     "category": "combat_ops",
     "floors": [4],
-    "addInfo_zh": null,
+    "addInfo_zh": ["怒想症额外敌人 - 爆破攻坚手组长 x 1"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
@@ -3412,7 +3457,7 @@
     "name_en": "Unending",
     "category": "combat_ops",
     "floors": [4],
-    "addInfo_zh": null,
+    "addInfo_zh": ["怒想症额外敌人 - 爆破攻坚手组长 x 1"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": ["所有敌方单位的攻击力+20%，移动速度+30%"],
@@ -3478,7 +3523,7 @@
     "name_en": "Traveler_From_Afar",
     "category": "combat_ops",
     "floors": [4],
-    "addInfo_zh": null,
+    "addInfo_zh": ["怒想症额外敌人 - 爆破攻坚手组长 x 1"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
@@ -3625,7 +3670,7 @@
     "name_en": "A_Dance_Together",
     "category": "combat_ops",
     "floors": [4],
-    "addInfo_zh": null,
+    "addInfo_zh": ["怒想症额外敌人 - 爆破攻坚手组长 x 1"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
@@ -3712,7 +3757,7 @@
     "name_en": "Bob's_Beers",
     "category": "combat_ops",
     "floors": [4],
-    "addInfo_zh": null,
+    "addInfo_zh": ["怒想症额外敌人 - 爆破攻坚手组长 x 1"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
@@ -3851,7 +3896,7 @@
     "name_en": "Alpine_Visitor",
     "category": "combat_ops",
     "floors": [4],
-    "addInfo_zh": null,
+    "addInfo_zh": ["怒想症额外敌人 - 爆破攻坚手组长 x 1"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
@@ -3941,7 +3986,7 @@
     "name_en": "Drone_Landing_Zone",
     "category": "combat_ops",
     "floors": [5],
-    "addInfo_zh": null,
+    "addInfo_zh": ["怒想症额外敌人 - 帝国炮火中枢先兆者 x 1"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": ["所有敌方单位的攻击力，防御力+10%，生命值+35%"],
@@ -4048,7 +4093,7 @@
     "name_en": "The_Red_Mist",
     "category": "combat_ops",
     "floors": [5],
-    "addInfo_zh": ["毒性雾霾 - 友方单位每0.5秒持续受到25{true}伤害"],
+    "addInfo_zh": ["毒性雾霾 - 友方单位每0.5秒持续受到25{true}伤害","怒想症额外敌人 - 帝国炮火中枢先兆者 x 1"],
     "addInfo_ja": ["毒性ガス - 味方ユニットに0.5秒ごとに25{true}ダメージ"],
     "addInfo_en": [
       "Poison Haze - Allied units receive 25 {true} damage every 0.5s"
@@ -4142,7 +4187,7 @@
     "name_en": "The_Night_of_Ritual",
     "category": "combat_ops",
     "floors": [5],
-    "addInfo_zh": null,
+    "addInfo_zh": ["怒想症额外敌人 - 帝国炮火中枢先兆者 x 1"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": ["所有敌方单位的攻击力+20%，生命值+40%"],
@@ -4223,7 +4268,7 @@
     "name_en": "The_Biting_Cold",
     "category": "combat_ops",
     "floors": [5],
-    "addInfo_zh": null,
+    "addInfo_zh": ["怒想症额外敌人 - 帝国炮火中枢先兆者 x 1"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": ["所有敌方单位的攻击力+15%，防御力+10%，生命值+25%"],
@@ -4314,7 +4359,7 @@
     "name_en": "Dangers_Abound",
     "category": "combat_ops",
     "floors": [5],
-    "addInfo_zh": null,
+    "addInfo_zh": ["怒想症额外敌人 - 帝国炮火中枢先兆者 x 1"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": ["所有敌方单位的攻击力，防御力+20%，生命值+50%"],
@@ -4395,7 +4440,7 @@
     "name_en": "Surprise_Factory",
     "category": "combat_ops",
     "floors": [5],
-    "addInfo_zh": null,
+    "addInfo_zh": ["怒想症额外敌人 - 帝国炮火中枢先兆者 x 1"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": ["所有敌方单位的攻击力+60%，生命值+30%"],
@@ -4466,7 +4511,7 @@
     "name_en": "Absurd_Trickeries",
     "category": "combat_ops",
     "floors": [5],
-    "addInfo_zh": null,
+    "addInfo_zh": ["怒想症额外敌人 - 帝国炮火中枢先兆者 x 1"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
@@ -4569,7 +4614,7 @@
     "name_en": "From_Afar",
     "category": "combat_ops",
     "floors": [5],
-    "addInfo_zh": null,
+    "addInfo_zh": ["怒想症额外敌人 - 帝国炮火中枢先兆者 x 1"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
@@ -4674,7 +4719,7 @@
     "name_en": "Sarkaz_Desire",
     "category": "combat_ops",
     "floors": [6],
-    "addInfo_zh": null,
+    "addInfo_zh": ["怒想症额外敌人 - 不祥幻影 x 18"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
@@ -4790,7 +4835,7 @@
     "name_en": "Ursus_Desire",
     "category": "combat_ops",
     "floors": [6],
-    "addInfo_zh": null,
+    "addInfo_zh": ["怒想症额外敌人 - 不祥幻影 x 16"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
