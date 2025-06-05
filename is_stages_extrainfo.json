@@ -274,9 +274,9 @@
     "name_en": "The_Point_of_No_Return",
     "category": "boss",
     "floors": [5],
-    "addInfo_zh": null,
-    "addInfo_ja": null,
-    "addInfo_en": null,
+    "addInfo_zh": ["N12 - 额外出现1个迷路的巨像"],
+    "addInfo_ja": ["難易度12 - 追加で<迷子の巨像>1体が出現する"],
+    "addInfo_en": ["D12 - additional 1 <Lost Colossus> appears"],
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
@@ -323,6 +323,11 @@
         "key": "enemy_2016_csphtm",
         "min_count": 1,
         "max_count": 1
+      },
+            {
+        "key": "enemy_2003_rockman",
+        "min_count":0,
+        "max_count": 1
       }
     ],
     "elite_enemy_list": null
@@ -335,9 +340,10 @@
     "name_en": "All_I_Ask_of_You",
     "category": "boss",
     "floors": [5],
-    "addInfo_zh": null,
-    "addInfo_ja": null,
-    "addInfo_en": null,
+
+        "addInfo_zh": ["N12 - 额外出现1个喷气人"],
+    "addInfo_ja": ["難易度12 - 追加で<ジェットマン>1体が出現する"],
+    "addInfo_en": ["D12 - additional 1 <Jetman> appears"],
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
@@ -360,6 +366,11 @@
         "key": "enemy_2018_csdoll",
         "min_count": 1,
         "max_count": 1
+      },
+      {
+        "key": "enemy_2004_balloon",
+        "min_count": 0,
+        "max_count": 1
       }
     ],
     "elite_enemy_list": null
@@ -372,9 +383,9 @@
     "name_en": "Twisted_Every_Way",
     "category": "boss",
     "floors": [6],
-    "addInfo_zh": null,
-    "addInfo_ja": null,
-    "addInfo_en": null,
+    "addInfo_zh": ["N12 - 额外出现1个漂泊颂偶"],
+    "addInfo_ja": ["難易度12 - 追加で<流浪のオートマトン>1体が出現する"],
+    "addInfo_en": ["D12 - additional 1 <Wandering Puppet> appears"],
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
@@ -416,6 +427,11 @@
         "key": "enemy_2011_csppt",
         "min_count": 2,
         "max_count": 2
+      },
+            {
+        "key": "enemy_2013_csbot",
+        "min_count": 0,
+        "max_count": 1
       }
     ],
     "elite_enemy_list": null
@@ -428,9 +444,9 @@
     "name_en": "New_Chapter",
     "category": "boss",
     "floors": [6],
-    "addInfo_zh": null,
-    "addInfo_ja": null,
-    "addInfo_en": null,
+    "addInfo_zh": ["N12 - 额外出现“雪牝”和“霜牡”"],
+    "addInfo_ja": ["難易度12 - 追加で「雪の牝鹿」と「霜の牡鹿」が出現する"],
+    "addInfo_en": ["D12 - additional 1 <'Snow Doe'> and 1 <'Frost Buck'> appears"],
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
@@ -472,6 +488,16 @@
         "key": "enemy_1089_ltlntc_2",
         "min_count": 6,
         "max_count": 6
+      },
+            {
+        "key": "enemy_2014_csicer",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2015_csicem",
+        "min_count": 0,
+        "max_count": 1
       }
     ],
     "elite_enemy_list": null
@@ -961,8 +987,8 @@
     "category": "combat_ops",
     "floors": [1, 2],
     "addInfo_zh": ["怒想症额外敌人 - 游击队传令兵组长 x 1"],
-    "addInfo_ja": null,
-    "addInfo_en": null,
+    "addInfo_ja": ["「怒想症」追加敵 - 遊撃隊伝令隊長 x 1"],
+    "addInfo_en": ["「怒想症」 - additional <Guerrilla Herald Leader> x 1"],
     "eliteDesc_zh": ["所有敌方单位的攻击力，防御力+50%，生命值+90%"],
     "eliteDesc_ja": ["敵全員の攻撃力、防御力+50%、最大HP+90%"],
     "eliteDesc_en": [
@@ -1049,8 +1075,8 @@
     "category": "combat_ops",
     "floors": [1, 2],
     "addInfo_zh": ["怒想症额外敌人 - 游击队传令兵组长 x 1"],
-    "addInfo_ja": null,
-    "addInfo_en": null,
+    "addInfo_ja": ["「怒想症」追加敵 - 遊撃隊伝令隊長 x 1"],
+    "addInfo_en": ["「怒想症」 - additional <Guerrilla Herald Leader> x 1"],
     "eliteDesc_zh": ["所有敌方单位的攻击力+40%，防御力+30%，生命值+70%"],
     "eliteDesc_ja": ["敵全員の攻撃力+40%、防御力+30%、最大HP+70%"],
     "eliteDesc_en": [
@@ -1142,8 +1168,8 @@
     "category": "combat_ops",
     "floors": [1, 2],
     "addInfo_zh": ["怒想症额外敌人 - 游击队传令兵组长 x 1"],
-    "addInfo_ja": null,
-    "addInfo_en": null,
+    "addInfo_ja": ["「怒想症」追加敵 - 遊撃隊伝令隊長 x 1"],
+    "addInfo_en": ["「怒想症」 - additional <Guerrilla Herald Leader> x 1"],
     "eliteDesc_zh": [
       "所有敌方单位的攻击力+45%，生命值+60%",
       "炮手被替换为炮击组长"
@@ -1790,6 +1816,11 @@
         "key": "enemy_2002_bearmi",
         "min_count": 0,
         "max_count": 1
+      },
+      {
+        "key": "enemy_1075_dmgswd_2",
+        "min_count": 0,
+        "max_count": 1
       }
     ],
     "elite_enemy_list": null
@@ -1902,6 +1933,11 @@
         "key": "enemy_2002_bearmi",
         "min_count": 0,
         "max_count": 1
+      },
+      {
+        "key": "enemy_1075_dmgswd_2",
+        "min_count": 0,
+        "max_count": 1
       }
     ],
     "elite_enemy_list": null
@@ -2005,6 +2041,11 @@
         "key": "enemy_2002_bearmi",
         "min_count": 0,
         "max_count": 1
+      },
+      {
+        "key": "enemy_1075_dmgswd_2",
+        "min_count": 0,
+        "max_count": 1
       }
     ],
     "elite_enemy_list": [
@@ -2040,6 +2081,11 @@
       },
       {
         "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1075_dmgswd_2",
         "min_count": 0,
         "max_count": 1
       }
@@ -2131,6 +2177,11 @@
         "key": "enemy_2002_bearmi",
         "min_count": 0,
         "max_count": 1
+      },
+      {
+        "key": "enemy_1075_dmgswd_2",
+        "min_count": 0,
+        "max_count": 1
       }
     ],
     "elite_enemy_list": [
@@ -2166,6 +2217,11 @@
       },
       {
         "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1075_dmgswd_2",
         "min_count": 0,
         "max_count": 1
       }
@@ -2291,6 +2347,11 @@
         "key": "enemy_2002_bearmi",
         "min_count": 0,
         "max_count": 1
+      },
+      {
+        "key": "enemy_1058_traink",
+        "min_count": 0,
+        "max_count": 1
       }
     ],
     "elite_enemy_list": [
@@ -2341,6 +2402,11 @@
       },
       {
         "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1058_traink",
         "min_count": 0,
         "max_count": 1
       }
@@ -2436,6 +2502,11 @@
       },
       {
         "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1058_traink",
         "min_count": 0,
         "max_count": 1
       }
@@ -2538,6 +2609,11 @@
         "key": "enemy_2002_bearmi",
         "min_count": 0,
         "max_count": 1
+      },
+      {
+        "key": "enemy_1058_traink",
+        "min_count": 0,
+        "max_count": 1
       }
     ],
     "elite_enemy_list": [
@@ -2578,6 +2654,11 @@
       },
       {
         "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1058_traink",
         "min_count": 0,
         "max_count": 1
       }
@@ -2648,6 +2729,11 @@
       },
       {
         "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1058_traink",
         "min_count": 0,
         "max_count": 1
       }
@@ -2750,6 +2836,11 @@
         "key": "enemy_2002_bearmi",
         "min_count": 0,
         "max_count": 1
+      },
+      {
+        "key": "enemy_1058_traink",
+        "min_count": 0,
+        "max_count": 1
       }
     ],
     "elite_enemy_list": null
@@ -2845,6 +2936,11 @@
       },
       {
         "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1058_traink",
         "min_count": 0,
         "max_count": 1
       }
@@ -2947,6 +3043,11 @@
         "key": "enemy_2002_bearmi",
         "min_count": 0,
         "max_count": 1
+      },
+      {
+        "key": "enemy_1058_traink",
+        "min_count": 0,
+        "max_count": 1
       }
     ],
     "elite_enemy_list": [
@@ -2982,6 +3083,11 @@
       },
       {
         "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1058_traink",
         "min_count": 0,
         "max_count": 1
       }
@@ -3076,6 +3182,11 @@
         "key": "enemy_2002_bearmi",
         "min_count": 0,
         "max_count": 1
+      },
+      {
+        "key": "enemy_1058_traink",
+        "min_count": 0,
+        "max_count": 1
       }
     ],
     "elite_enemy_list": [
@@ -3106,6 +3217,11 @@
       },
       {
         "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1058_traink",
         "min_count": 0,
         "max_count": 1
       }
@@ -3208,7 +3324,13 @@
         "key": "enemy_2002_bearmi",
         "min_count": 0,
         "max_count": 1
+      },
+       {
+        "key": "enemy_1076_bsthmr_2",
+        "min_count": 0,
+        "max_count": 1
       }
+      
     ],
     "elite_enemy_list": null
   },
@@ -3314,6 +3436,10 @@
         "key": "enemy_2002_bearmi",
         "min_count": 0,
         "max_count": 1
+      }   , {
+        "key": "enemy_1076_bsthmr_2",
+        "min_count": 0,
+        "max_count": 1
       }
     ],
     "elite_enemy_list": null
@@ -3409,6 +3535,10 @@
         "key": "enemy_2002_bearmi",
         "min_count": 0,
         "max_count": 1
+      }, {
+        "key": "enemy_1076_bsthmr_2",
+        "min_count": 0,
+        "max_count": 1
       }
     ],
     "elite_enemy_list": [
@@ -3444,6 +3574,10 @@
       },
       {
         "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      }, {
+        "key": "enemy_1076_bsthmr_2",
         "min_count": 0,
         "max_count": 1
       }
@@ -3509,6 +3643,10 @@
       },
       {
         "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      }, {
+        "key": "enemy_1076_bsthmr_2",
         "min_count": 0,
         "max_count": 1
       }
@@ -3617,6 +3755,10 @@
         "key": "enemy_2002_bearmi",
         "min_count": 0,
         "max_count": 1
+      }, {
+        "key": "enemy_1076_bsthmr_2",
+        "min_count": 0,
+        "max_count": 1
       }
     ],
     "elite_enemy_list": [
@@ -3657,6 +3799,10 @@
       },
       {
         "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      }, {
+        "key": "enemy_1076_bsthmr_2",
         "min_count": 0,
         "max_count": 1
       }
@@ -3743,6 +3889,10 @@
       },
       {
         "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      }, {
+        "key": "enemy_1076_bsthmr_2",
         "min_count": 0,
         "max_count": 1
       }
@@ -3848,6 +3998,10 @@
         "key": "enemy_2002_bearmi",
         "min_count": 0,
         "max_count": 1
+      }, {
+        "key": "enemy_1076_bsthmr_2",
+        "min_count": 0,
+        "max_count": 1
       }
     ],
     "elite_enemy_list": [
@@ -3883,6 +4037,10 @@
       },
       {
         "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      }, {
+        "key": "enemy_1076_bsthmr_2",
         "min_count": 0,
         "max_count": 1
       }
@@ -3972,6 +4130,10 @@
       },
       {
         "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      }, {
+        "key": "enemy_1076_bsthmr_2",
         "min_count": 0,
         "max_count": 1
       }
@@ -4081,7 +4243,13 @@
         "key": "enemy_2002_bearmi",
         "min_count": 0,
         "max_count": 1
+      },
+        {
+        "key": "enemy_1112_emppnt_2",
+        "min_count": 0,
+        "max_count": 1
       }
+      
     ],
     "elite_enemy_list": null
   },
@@ -4175,6 +4343,11 @@
         "key": "enemy_2002_bearmi",
         "min_count": 0,
         "max_count": 1
+      },
+        {
+        "key": "enemy_1112_emppnt_2",
+        "min_count": 0,
+        "max_count": 1
       }
     ],
     "elite_enemy_list": null
@@ -4254,6 +4427,11 @@
       },
       {
         "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+        {
+        "key": "enemy_1112_emppnt_2",
         "min_count": 0,
         "max_count": 1
       }
@@ -4347,6 +4525,11 @@
         "key": "enemy_2002_bearmi",
         "min_count": 0,
         "max_count": 1
+      },
+        {
+        "key": "enemy_1112_emppnt_2",
+        "min_count": 0,
+        "max_count": 1
       }
     ],
     "elite_enemy_list": null
@@ -4428,6 +4611,11 @@
         "key": "enemy_2002_bearmi",
         "min_count": 0,
         "max_count": 1
+      },
+        {
+        "key": "enemy_1112_emppnt_2",
+        "min_count": 0,
+        "max_count": 1
       }
     ],
     "elite_enemy_list": null
@@ -4497,6 +4685,11 @@
       },
       {
         "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+        {
+        "key": "enemy_1112_emppnt_2",
         "min_count": 0,
         "max_count": 1
       }
@@ -4602,6 +4795,11 @@
         "key": "enemy_2002_bearmi",
         "min_count": 0,
         "max_count": 1
+      },
+        {
+        "key": "enemy_1112_emppnt_2",
+        "min_count": 0,
+        "max_count": 1
       }
     ],
     "elite_enemy_list": null
@@ -4705,6 +4903,11 @@
       },
       {
         "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+        {
+        "key": "enemy_1112_emppnt_2",
         "min_count": 0,
         "max_count": 1
       }
@@ -4823,7 +5026,13 @@
         "key": "enemy_2002_bearmi",
         "min_count": 0,
         "max_count": 1
+      },
+            {
+        "key": "enemy_2017_csphts",
+        "min_count": 0,
+        "max_count": 18
       }
+      
     ],
     "elite_enemy_list": null
   },
@@ -4934,6 +5143,11 @@
         "key": "enemy_2002_bearmi",
         "min_count": 0,
         "max_count": 1
+      },
+        {
+        "key": "enemy_2017_csphts",
+        "min_count": 0,
+        "max_count": 16
       }
     ],
     "elite_enemy_list": [
@@ -4981,6 +5195,11 @@
         "key": "enemy_2002_bearmi",
         "min_count": 0,
         "max_count": 1
+      },
+        {
+        "key": "enemy_2017_csphts",
+        "min_count": 0,
+        "max_count": 16
       }
     ]
   },
