@@ -13102,11 +13102,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "最好的草药医生",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Herbalist Número Uno",
+                "name_ja": "サイコーの薬草師",
                 "desc_zh": "自身攻击力-5%，但攻击范围内的友方干员受到的治疗效果提升17%<@ba.talpu>（+2%）</>",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "攻撃力-5%、攻撃範囲内のオペレーターが受ける治療効果+17%<@ba.talpu>（+2%）</>",
+                "desc_en": "ATK -5%, but allied Operators within range receive 17% <@ba.talpu>(+2%)</> more healing",
                 "tags": [],
                 "blackboard": [
                     {
@@ -13123,11 +13123,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "即兴制偶",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Freestyle Puppetry",
+                "name_ja": "即席パペット",
                 "desc_zh": "攻击范围内的地面敌人被击倒时原地生成一个木偶舞者（最多存在5个），木偶舞者攻击造成法术伤害",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "攻撃範囲内の地面マスにいる敵が倒されたとき、術攻撃を行う「パペットダンサー」を1体召喚（戦場内に最大5体まで）",
+                "desc_en": "After defeating any ground enemy within range, a Puppet Dancer spawns where they fall (up to 5 at a time); Puppet Dancers deal Arts damage",
                 "tags": [
                     "summon"
                 ],
@@ -13146,22 +13146,22 @@
             {
                 "prefabKey": "1",
                 "name_zh": "心相",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "La Forma del Corazón",
+                "name_ja": "心相",
                 "desc_zh": "攻击力+14%<@ba.talpu>（+4%）</>，攻击范围内存在其他干员时，自身投掷的炼金单元持续时间延长4<@ba.talpu>（+1）</>秒",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "攻撃力+14%<@ba.talpu>（+4%）</>、攻撃範囲内に他のオペレーターがいる場合、自身が投げた錬金ユニットの持続時間+4<@ba.talpu>（+1）</>秒",
+                "desc_en": "ATK +14% <@ba.talpu>(+4%)</>; when there are other Operators within range, Alchemical Units thrown by this unit last 4s <@ba.talpu>(+1s)</> longer",
                 "tags": [],
                 "blackboard": []
             },
             {
                 "prefabKey": "2",
                 "name_zh": "视界",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "El Alcance de la Visión",
+                "name_ja": "視界",
                 "desc_zh": "在场时，所有友方单位攻击速度+5，敌方单位攻击速度-5；位于连续6格或以上直线道路的友方和敌方单位受到的效果翻倍",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "配置中、味方全員の攻撃速度+5、敵全員の攻撃速度-5。連続する6マス以上の直線経路内にいる味方・敵に対する効果は2倍になる",
+                "desc_en": "When deployed, all allies have ASPD +5 and all enemies have ASPD -5; effect is doubled for allies and enemies on a straight line of 6 or more consecutive tiles",
                 "tags": [],
                 "blackboard": [
                     {
