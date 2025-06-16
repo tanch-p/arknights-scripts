@@ -129,7 +129,7 @@ def analyze_enemy_spawns(waves_data, levelId, bonus_data, group_name):
         base_count = sum(guaranteed_spawns.values())
         scenarios = []
 
-        analyze_enemy_spawns(fragment_groups)
+        analyze_spawns(fragment_groups)
 
         return scenarios
 
@@ -140,7 +140,7 @@ def analyze_enemy_spawns(waves_data, levelId, bonus_data, group_name):
 
     return results
 
-def analyze_enemy_spawns(spawn_data):
+def analyze_spawns(spawn_data):
     """
     Analyze enemy spawn data to calculate counts and probabilities.
     
@@ -351,6 +351,14 @@ def get_pack_summary(analysis):
         }
     
     return pack_summary
+
+def pack_has_group_in_fragment(actions, pack_key):
+    if not pack_key:
+        return False
+    for action in actions:
+        if action.get('randomSpawnGroupPackKey') == pack_key and action.get('randomSpawnGroupKey'):
+            return True
+    return False
 
 def get_topic(stage_id):
     if 'rogue4' in stage_id:
@@ -604,8 +612,8 @@ def get_bonus_counts(stage_data, levelId, log=False):
         bonus_data = get_bonus(stage_data)
     for diff_group in holder:
         group_name = normal_group_name if diff_group == "NORMAL" else elite_group_name
-        analysis = (analyze_enemy_spawns(
-            waves_data, levelId, bonus_data, group_name))
+        analysis = analyze_enemy_spawns(
+            waves_data, levelId, bonus_data, group_name)
 
     return
 
