@@ -122,8 +122,14 @@ def compress_waves(stage_data, stage_id):
     if stage_id == 'level_rogue4_b-8':
         # apparently the first 3 checkpoints are missing from actual game movement
         extra_routes[1]['checkpoints'] = extra_routes[1]['checkpoints'][3:]
-
+    if stage_id == 'level_rogue4_b-7':
+        extra_routes[1]['startPosition'] = {
+            "row": 5,
+            "col": 20
+        }
     # pp.pprint(waves)
+    if stage_id == 'level_rogue1_b-9':
+        branches = None
     if stage_id == 'level_rogue3_3-2':
         for wave in waves:
             for frag_index, fragment in enumerate(wave['fragments']):
@@ -135,5 +141,30 @@ def compress_waves(stage_data, stage_id):
                             indexes.append(idx)
                     fragment['actions'] = remove_by_indexes(
                         fragment['actions'], indexes)
+
+    if stage_id == 'level_rogue4_d-1':
+        branches['Walk']['phases'][0]['actions'][0]['key'] = "enemy_1516_jakill"
+    if stage_id == 'level_rogue4_d-2':
+        branches['Walk_1']['phases'][0]['actions'][0]['key'] = "enemy_2001_duckmi"
+        branches['Walk_2']['phases'][0]['actions'][0]['key'] = "enemy_2002_bearmi"
+    if stage_id == 'level_rogue4_d-3':
+        branches['Walk_1']['phases'][0]['actions'][0]['key'] = "enemy_2001_duckmi"
+        branches['Walk_2']['phases'][0]['actions'][0]['key'] = "enemy_2002_bearmi"
+    if stage_id == 'level_rogue4_d-b':
+        branches['Walk_1']['phases'][0]['actions'][0]['key'] = "enemy_2090_skzjbc"
+        branches['Walk_2']['phases'][0]['actions'][0]['key'] = "enemy_2090_skzjbc"
+
+    if stage_id in ['level_rogue4_d-2', 'level_rogue4_d-3', 'level_rogue4_d-b']:
+        # fix to pack enemies together
+        waves = waves[:1]
+        for wave in waves:
+            wave['fragments'] = wave['fragments'][1:]
+            for frag_idx, fragment in enumerate(wave['fragments']):
+                if frag_idx % 2 == 1:
+                    for action in fragment['actions']:
+                        action['randomSpawnGroupKey'] = None
+                        wave['fragments'][frag_idx-1]['actions'].append(action)
+        for wave in waves:
+            wave['fragments'] = wave['fragments'][0::2]
 
     return {"routes": routes, "waves": waves, "extra_routes": extra_routes, "branches": branches, "map_data": map_data}
