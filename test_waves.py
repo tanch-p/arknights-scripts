@@ -10,6 +10,107 @@ script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
 test_cases = [
     {
+        "path": "ro1/level_rogue1_3-1.json",
+        'id': "level_rogue1_3-1",
+        "enemy_counts": [64, 65, 66],
+        "elite_enemy_counts": [64, 65, 66],
+        "sp_count": [67],
+        "elite_sp_count": [67],
+        "enemy_list": [
+            {
+                "key": "enemy_1109_uabone",
+                "min_count": 5,
+                "max_count": 6
+            },
+            {
+                "key": "enemy_3001_upeopl",
+                "min_count": 7,
+                "max_count": 7
+            },
+            {
+                "key": "enemy_1107_uoffcr",
+                "min_count": 17,
+                "max_count": 18
+            },
+            {
+                "key": "enemy_1007_slime_3",
+                "min_count": 22,
+                "max_count": 22
+            },
+            {
+                "key": "enemy_1016_diaman",
+                "min_count": 2,
+                "max_count": 2
+            },
+            {
+                "key": "enemy_1111_ucommd",
+                "min_count": 5,
+                "max_count": 6
+            },
+            {
+                "key": "enemy_1110_uamord",
+                "min_count": 2,
+                "max_count": 2
+            },
+            {
+                "key": "enemy_1107_uoffcr_2",
+                "min_count": 3,
+                "max_count": 3
+            },
+            {
+                "key": "enemy_1109_uabone_2",
+                "min_count": 0,
+                "max_count": 1
+            },
+            {
+                "key": "enemy_1111_ucommd_2",
+                "min_count": 0,
+                "max_count": 1
+            }
+        ],
+        "elite_enemy_list": [
+            {
+                "key": "enemy_1109_uabone_2",
+                "min_count": 5,
+                "max_count": 6
+            },
+            {
+                "key": "enemy_3001_upeopl",
+                "min_count": 7,
+                "max_count": 7
+            },
+            {
+                "key": "enemy_1107_uoffcr",
+                "min_count": 17,
+                "max_count": 18
+            },
+            {
+                "key": "enemy_1007_slime_3",
+                "min_count": 22,
+                "max_count": 22
+            },
+            {
+                "key": "enemy_1016_diaman",
+                "min_count": 2,
+                "max_count": 2
+            },
+            {
+                "key": "enemy_1111_ucommd_2",
+                "min_count": 6,
+                "max_count": 6
+            },
+            {
+                "key": "enemy_1110_uamord",
+                "min_count": 2,
+                "max_count": 2
+            },
+            {
+                "key": "enemy_1107_uoffcr_2",
+                "min_count": 3,
+                "max_count": 3
+            },]
+    },
+    {
         "path": "ro1/level_rogue1_4-6.json",
         'id': "level_rogue1_4-6",
         "enemy_counts": [19, 20, 21, 22, 23],
@@ -215,12 +316,12 @@ test_cases = [
             },
             {
                 "key": "enemy_1075_dmgswd",
-                "min_count": 4,
+                "min_count": 2,
                 "max_count": 5
             },
             {
                 "key": "enemy_1084_sotidm",
-                "min_count": 1,
+                "min_count": 0,
                 "max_count": 2
             },
         ],
@@ -547,34 +648,33 @@ def convert_enemy_list(enemy_list):
         } for item in enemy_list
     }
 
+def test_waves():
+    for case in test_cases:
+        stage_data_path = os.path.join(
+            script_dir,
+            f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{case['path']}",
+        )
+        with open(stage_data_path, encoding="utf-8") as f:
+            stage_data = json.load(f)
+            print(case['id'])
+            wave_data = get_wave_spawns_data(stage_data, case['id'], log=True)
+            enemy_list, elite_enemy_list, sp_count, elite_sp_count, enemy_counts, elite_enemy_counts = itemgetter(
+                "enemy_list", "elite_enemy_list", "sp_count", "elite_sp_count", "enemy_counts", "elite_enemy_counts")(wave_data)
+            try:
+                assert (sp_count) == case['sp_count']
+                assert (elite_sp_count) == case['elite_sp_count']
+                assert (enemy_counts) == case['enemy_counts']
+                assert (elite_enemy_counts) == case['elite_enemy_counts']
+                new_list = convert_enemy_list(case['enemy_list'])
+                for enemy_key in new_list:
+                    assert enemy_list[enemy_key]['min'] == new_list[enemy_key]['min']
+                    assert enemy_list[enemy_key]['max'] == new_list[enemy_key]['max']
+                if elite_enemy_list:
+                    new_elite_list = convert_enemy_list(case['elite_enemy_list'])
+                    for enemy_key in new_elite_list:
+                        assert elite_enemy_list[enemy_key]['min'] == new_elite_list[enemy_key]['min']
+                        assert elite_enemy_list[enemy_key]['max'] == new_elite_list[enemy_key]['max']
 
-for case in test_cases:
-    stage_data_path = os.path.join(
-        script_dir,
-        f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{case['path']}",
-    )
-    with open(stage_data_path, encoding="utf-8") as f:
-        stage_data = json.load(f)
-        print(case['id'])
-        wave_data = get_wave_spawns_data(stage_data, case['id'], log=True)
-        enemy_list, elite_enemy_list, sp_count, elite_sp_count, enemy_counts, elite_enemy_counts = itemgetter(
-            "enemy_list", "elite_enemy_list", "sp_count", "elite_sp_count", "enemy_counts", "elite_enemy_counts")(wave_data)
-        try:
-            assert (sp_count) == case['sp_count']
-            assert (elite_sp_count) == case['elite_sp_count']
-            assert (enemy_counts) == case['enemy_counts']
-            assert (elite_enemy_counts) == case['elite_enemy_counts']
-            new_list = convert_enemy_list(case['enemy_list'])
-            for enemy_key in new_list:
-                assert enemy_list[enemy_key]['min'] == new_list[enemy_key]['min']
-                assert enemy_list[enemy_key]['max'] == new_list[enemy_key]['max']
-            if elite_enemy_list:
-                new_elite_list = convert_enemy_list(case['elite_enemy_list'])
-                for enemy_key in new_elite_list:
-                    assert elite_enemy_list[enemy_key]['min'] == new_elite_list[enemy_key]['min']
-                    assert elite_enemy_list[enemy_key]['max'] == new_elite_list[enemy_key]['max']
-
-        except AssertionError as e:
-            traceback.print_exc()
-            pp.pprint(enemy_list)
-        # print(new_list)
+            except AssertionError as e:
+                traceback.print_exc()
+                pp.pprint(enemy_list)
