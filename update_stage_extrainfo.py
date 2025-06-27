@@ -68,7 +68,7 @@ for key in extra_info_list:
         if sp_terrain is not None and len(sp_terrain) == 0:
             sp_terrain = None
 
-        # elite_mods = extra_info['elite_mods']
+        elite_mods = extra_info['elite_mods']
         # new_mods = []
         # if elite_mods:
         #     for effect in elite_mods:
@@ -91,6 +91,8 @@ for key in extra_info_list:
         #         new_mods.append(new_effect)
         # if len(new_mods) == 0:
         #     new_mods = None
+
+        # ' / '.join(str(item) for item in absolute_bonus_counts)
     trimmed_stage_info = {
         "levelId": extra_info['levelId'],
         "code": extra_info['code'],
@@ -106,7 +108,7 @@ for key in extra_info_list:
         "eliteDesc_ja": extra_info['eliteDesc_ja'],
         "eliteDesc_en": extra_info['eliteDesc_en'],
         "normal_mods": extra_info['normal_mods'],
-        "elite_mods": new_mods,
+        "elite_mods": elite_mods,
         "all_possible_enemy_count": all_possible_enemy_count if not extra_info['levelId'] in STAGES_TO_IGNORE else extra_info['all_possible_enemy_count'],
         "sp_count": sp_count,
         "all_possible_elite_enemy_count": all_possible_elite_enemy_count if not extra_info['levelId'] in STAGES_TO_IGNORE else extra_info['all_possible_elite_enemy_count'],

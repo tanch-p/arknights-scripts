@@ -10,7 +10,6 @@ HIDDEN_GROUPS = ['allydonq', "totem1", 'totem2', 'bossrelic', 'calamity',
                  'cargo', 'hidden_door', 'hidden_window', 'box_1', 'box_3', 'shadow']
 ALWAYS_KILLED_KEYS = ['enemy_2073_skzrck',
     'enemy_2094_skzamb',
-    'enemy_2094_skzamb_2',
     'enemy_1106_byokai_b',
     'enemy_3005_lpeopl']
 

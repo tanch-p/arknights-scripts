@@ -21,5 +21,10 @@ for folder in folders:
         with open(file_path, encoding="utf-8") as f:
             stage_data = json.load(f)
         levelId = file_path.split("/")[-1]
-        # print(stage_data['runes'])
+        if(stage_data['runes']):
+            for rune in stage_data['runes']:
+                key = rune['key']
+                if('add' in key): 
+                    print(levelId)
+                    print(key)
 

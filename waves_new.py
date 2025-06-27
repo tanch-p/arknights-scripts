@@ -2,12 +2,11 @@ import os
 import json
 import pprint
 import itertools
-from itertools import combinations
+from itertools import combinations, product
 from operator import itemgetter
 import copy
 import random
-from itertools import product
-from collections import Counter
+from collections import Counter, defaultdict
 from compress_waves import compress_waves
 from waves import ALWAYS_KILLED_KEYS
 
@@ -17,43 +16,42 @@ bonus_enemies = ['enemy_2001_duckmi', 'enemy_2002_bearmi',
                  'enemy_2034_sythef', 'enemy_2085_skzjxd']
 
 
-def analyze_enemy_spawns(waves_data, levelId, bonus_data, group_name):
+def analyze_enemy_spawns(waves_data, levelId, bonus_data, group_name, enemies_to_replace):
     """
-    Analyzes enemy spawn data to calculate absolute counts for all possible spawn combinations.
-
-    Args:
-        wave_data: Dictionary containing waves data with the structure from your JSON
-
     Returns:
         Dictionary with analysis results including guaranteed spawns and all possible combinations
     """
     results = {
-        'guaranteed_enemies': {},
-        'random_group_combinations': {},
-        'all_scenarios': []
+        'enemy_list': {},
+        'enemy_counts': [],
+        'absolute_bonus_count': "",
     }
     # Track guaranteed spawns (non-grouped)
     guaranteed_spawns = {}
 
     # Track random groups per fragment
     fragment_groups = []
-    print('group name:', group_name)
+
     # Process each wave
     for wave_index, wave in enumerate(waves_data):
-        if bonus_data['type'] == 'wave' and wave_index == bonus_data['wave_index']:
+        if bonus_data and bonus_data['type'] == 'wave' and wave_index == bonus_data['wave_index']:
             continue
         for fragment_index, fragment in enumerate(wave['fragments']):
-            if bonus_data['type'] == 'fragment' and wave_index == bonus_data['wave_index'] and fragment_index == bonus_data['frag_index']:
+            if bonus_data and bonus_data['type'] == 'fragment' and wave_index == bonus_data['wave_index'] and fragment_index == bonus_data['frag_index']:
                 continue
-            # Get all SPAWN actions only
+            # Get all SPAWN or ACTIVATE_PREDEFINED actions only
             spawn_actions = [action for action in fragment['actions']
-                             if action['actionType'] == 'SPAWN']
+                             if action['actionType'] == 'SPAWN'
+                             or action['actionType'] == 'ACTIVATE_PREDEFINED'
+                             ]
 
             # Track groups within this fragment
             fragment_random_groups = {}
 
             # get groups within the fragment to facilitate pack processing later
             for action in spawn_actions:
+                if action['key'] in enemies_to_replace:
+                    action['key'] = enemies_to_replace[action['key']]
                 if action['hiddenGroup'] is not None and (action['hiddenGroup'] != group_name or group_name is None):
                     continue
                 if action['randomSpawnGroupKey']:
@@ -77,15 +75,16 @@ def analyze_enemy_spawns(waves_data, levelId, bonus_data, group_name):
                 if action['hiddenGroup'] is not None and (action['hiddenGroup'] != group_name or group_name is None):
                     continue
                 enemy_key = action['key']
-                if action['randomSpawnGroupPackKey']:
+                if action['key'] in enemies_to_replace:
+                    enemy_key = enemies_to_replace[action['key']]
+                if action['randomSpawnGroupKey']:
+                    continue
+                elif action['randomSpawnGroupPackKey']:
                     pack_key = action['randomSpawnGroupPackKey']
                     for group_key in fragment_random_groups:
                         for option in fragment_random_groups[group_key]['options']:
                             if option['packKey'] == pack_key:
                                 option['actions'].append(action)
-
-                elif action['randomSpawnGroupKey']:
-                    continue
                 else:
                     # Guaranteed spawn
                     if enemy_key not in guaranteed_spawns:
@@ -98,259 +97,145 @@ def analyze_enemy_spawns(waves_data, levelId, bonus_data, group_name):
                     'location': f"Wave {wave_index + 1}, Fragment {fragment_index + 1}",
                     'groups': fragment_random_groups
                 })
-    pp.pprint(guaranteed_spawns)
-    pp.pprint(fragment_groups)
-    # Calculate probabilities for random groups within each fragment
-    all_groups = {}
-    for fragment_data in fragment_groups:
-        for group_key, group_data in fragment_data['groups'].items():
-            for option in group_data['options']:
-                option['probability'] = option['weight'] / \
-                    group_data['total_weight'] if group_data['total_weight'] > 0 else 0
-
-            # Create unique key for this group instance
-            unique_key = f"{group_key}_{fragment_data['location']}"
-            all_groups[unique_key] = group_data
-
-    results['guaranteed_enemies'] = guaranteed_spawns
-    results['random_group_combinations'] = all_groups
-    results['fragment_groups'] = fragment_groups
+    # pp.pprint(guaranteed_spawns)
+    # pp.pprint(fragment_groups)
 
     # Generate all possible scenarios
     def generate_scenarios():
+        base_count = 0
+        for key in guaranteed_spawns:
+            if is_countable_action(key, levelId):
+                base_count += guaranteed_spawns[key]
         if not fragment_groups:
             # No random groups, only guaranteed spawns
             return [{
-                'enemies': guaranteed_spawns.copy(),
-                'total_enemies': sum(guaranteed_spawns.values()),
+                'count': base_count,
                 'probability': 1.0,
-                'selections': {}
             }]
-        base_count = sum(guaranteed_spawns.values())
-        scenarios = []
 
-        analyze_spawns(fragment_groups)
-
-        return scenarios
+        data = get_enemy_spawn_counts(fragment_groups, levelId)
+        final_list = data['list']
+        base_count += data['extra_count']
+        combinations = get_value_probability_combinations(final_list)
+        return [{'count': item['count'] + base_count, 'probability': round(item['probability'], 2)} for item in combinations]
 
     all_scenarios = generate_scenarios()
-    # Sort by probability (highest first)
-    all_scenarios.sort(key=lambda x: x['probability'], reverse=True)
-    results['all_scenarios'] = all_scenarios
+    base_counts = [item['count'] for item in all_scenarios]
+    bonus_counts = [item['count'] + 1 for item in all_scenarios]
+    absolute_bonus_counts = [
+        item for item in bonus_counts if item not in base_counts] if bonus_data else None
 
+    min_max_counts = get_min_max_counts(fragment_groups, guaranteed_spawns)
+    results['absolute_bonus_count'] = absolute_bonus_counts
+    results['enemy_counts'] = base_counts
+    results['enemy_list'] = min_max_counts
     return results
 
-def analyze_spawns(spawn_data):
+
+def get_min_max_counts(fragment_groups, guaranteed_spawns):
     """
-    Analyze enemy spawn data to calculate counts and probabilities.
-    
+    Takes in fragment groups and consolidates min and max count of each enemy and adds count from guaranteed spawns
+
     Args:
-        spawn_data (list): List of spawn fragments with groups and options
-        
+        fragment_groups, guaranteed_spawns
+
     Returns:
-        dict: Analysis results organized by group, pack, enemy type, and summary
+        Dictionary with min/max count of each enemy
     """
-    analysis = {
-        'by_group': {},
-        'by_pack': {},
-        'by_enemy': {},
-        'summary': {
-            'total_fragments': len(spawn_data),
-            'total_groups': 0,
-            'total_packs': 0,
-            'total_enemy_types': 0
-        }
-    }
-    
-    for fragment in spawn_data:
-        location = fragment['location']
-        
+
+    holder = {}
+    for fragment in fragment_groups:
         for group_key, group_data in fragment['groups'].items():
-            # Initialize group if not exists
-            if group_key not in analysis['by_group']:
-                analysis['by_group'][group_key] = {
-                    'total_weight': 0,
-                    'options': [],
-                    'locations': [],
-                    'total_enemy_count': 0
-                }
-            
-            analysis['by_group'][group_key]['locations'].append(location)
-            analysis['by_group'][group_key]['total_weight'] += group_data['total_weight']
-            
+            local_group_spawns = []
             for option in group_data['options']:
-                probability = option['weight'] / group_data['total_weight']
-                
-                # Analyze each action in the option
+                option_spawns = {}
                 for action in option['actions']:
-                    if action['actionType'] == 'SPAWN' and action['key']:
-                        enemy_key = action['key']
-                        count = action.get('count', 1)
-                        pack_key = action.get('randomSpawnGroupPackKey')
-                        
-                        # Group analysis
-                        analysis['by_group'][group_key]['options'].append({
-                            'location': location,
-                            'pack_key': pack_key,
-                            'enemy_key': enemy_key,
-                            'count': count,
-                            'weight': option['weight'],
-                            'probability': probability,
-                            'route_index': action.get('routeIndex')
-                        })
-                        analysis['by_group'][group_key]['total_enemy_count'] += count
-                        
-                        # Pack analysis
-                        if pack_key:
-                            full_pack_key = f"{group_key}_{pack_key}"
-                            if full_pack_key not in analysis['by_pack']:
-                                analysis['by_pack'][full_pack_key] = {
-                                    'group': group_key,
-                                    'pack_key': pack_key,
-                                    'enemies': {},
-                                    'total_count': 0,
-                                    'locations': [],
-                                    'probability': 0
-                                }
-                            
-                            if enemy_key not in analysis['by_pack'][full_pack_key]['enemies']:
-                                analysis['by_pack'][full_pack_key]['enemies'][enemy_key] = 0
-                            
-                            analysis['by_pack'][full_pack_key]['enemies'][enemy_key] += count
-                            analysis['by_pack'][full_pack_key]['total_count'] += count
-                            analysis['by_pack'][full_pack_key]['probability'] = probability
-                            
-                            if location not in analysis['by_pack'][full_pack_key]['locations']:
-                                analysis['by_pack'][full_pack_key]['locations'].append(location)
-                        
-                        # Enemy type analysis
-                        if enemy_key not in analysis['by_enemy']:
-                            analysis['by_enemy'][enemy_key] = {
-                                'total_count': 0,
-                                'groups': {},
-                                'packs': {},
-                                'locations': []
-                            }
-                        
-                        analysis['by_enemy'][enemy_key]['total_count'] += count
-                        
-                        if group_key not in analysis['by_enemy'][enemy_key]['groups']:
-                            analysis['by_enemy'][enemy_key]['groups'][group_key] = 0
-                        analysis['by_enemy'][enemy_key]['groups'][group_key] += count
-                        
-                        if pack_key:
-                            full_pack_key = f"{group_key}_{pack_key}"
-                            if full_pack_key not in analysis['by_enemy'][enemy_key]['packs']:
-                                analysis['by_enemy'][enemy_key]['packs'][full_pack_key] = 0
-                            analysis['by_enemy'][enemy_key]['packs'][full_pack_key] += count
-                        
-                        if location not in analysis['by_enemy'][enemy_key]['locations']:
-                            analysis['by_enemy'][enemy_key]['locations'].append(location)
-    
-    # Calculate summary statistics
-    analysis['summary']['total_groups'] = len(analysis['by_group'])
-    analysis['summary']['total_packs'] = len(analysis['by_pack'])
-    analysis['summary']['total_enemy_types'] = len(analysis['by_enemy'])
-    
-    return analysis
+                    actionKey = action['key']
+                    if not actionKey in option_spawns:
+                        option_spawns[actionKey] = 0
+                    option_spawns[actionKey] += action['count']
+                local_group_spawns.append(option_spawns)
+            group_spawns = {}
+            has_none_option = any("" in key for key in local_group_spawns)
+            first_keys = set(local_group_spawns[0].keys())
+            all_same_key = all(
+                set(d.keys()) == first_keys for d in local_group_spawns)
+
+            # pp.pprint(local_group_spawns)
+
+            for pack in local_group_spawns:
+                for key, count in pack.items():
+                    if key == '':
+                        continue
+                    if not key in group_spawns:
+                        group_spawns[key] = {"min": 999, "max": 0}
+                    if has_none_option or not all_same_key:
+                        group_spawns[key]['min'] = 0
+                    if count < group_spawns[key]['min']:
+                        group_spawns[key]['min'] = count
+                    if count > group_spawns[key]['max']:
+                        group_spawns[key]['max'] = count
+            for key, count in group_spawns.items():
+                if not key in holder:
+                    holder[key] = {"min": 0, "max": 0}
+                holder[key]["min"] += count['min']
+                holder[key]["max"] += count['max']
+    for key, count in guaranteed_spawns.items():
+        if not key in holder:
+            holder[key] = {"min": count, "max": count}
+        else:
+            holder[key]["min"] += count
+            holder[key]["max"] += count
+    return holder
 
 
-def display_analysis(analysis):
-    """Display analysis results in a readable format."""
-    print("=== ENEMY SPAWN ANALYSIS ===\n")
-    
-    print("SUMMARY:")
-    print(f"- Total Fragments: {analysis['summary']['total_fragments']}")
-    print(f"- Total Groups: {analysis['summary']['total_groups']}")
-    print(f"- Total Packs: {analysis['summary']['total_packs']}")
-    print(f"- Total Enemy Types: {analysis['summary']['total_enemy_types']}\n")
-    
-    print("BY GROUP:")
-    for group_key, group_data in analysis['by_group'].items():
-        print(f"\n{group_key.upper()}:")
-        print(f"  Total Weight: {group_data['total_weight']}")
-        print(f"  Total Enemy Count: {group_data['total_enemy_count']}")
-        print(f"  Locations: {', '.join(group_data['locations'])}")
-        print(f"  Options:")
-        
-        for i, option in enumerate(group_data['options'], 1):
-            print(f"    {i}. {option['enemy_key']} (Count: {option['count']}, "
-                  f"Weight: {option['weight']}, Probability: {option['probability']*100:.1f}%)")
-    
-    print("\nBY PACK:")
-    for pack_key, pack_data in analysis['by_pack'].items():
-        print(f"\n{pack_key.upper()}:")
-        print(f"  Group: {pack_data['group']}")
-        print(f"  Total Count: {pack_data['total_count']}")
-        print(f"  Probability: {pack_data['probability']*100:.1f}%")
-        print(f"  Locations: {', '.join(pack_data['locations'])}")
-        print(f"  Enemies:")
-        
-        for enemy_key, count in pack_data['enemies'].items():
-            print(f"    - {enemy_key}: {count}")
-    
-    print("\nBY ENEMY TYPE:")
-    for enemy_key, enemy_data in analysis['by_enemy'].items():
-        print(f"\n{enemy_key.upper()}:")
-        print(f"  Total Count: {enemy_data['total_count']}")
-        
-        groups_str = ', '.join([f"{g}({c})" for g, c in enemy_data['groups'].items()])
-        print(f"  Groups: {groups_str}")
-        
-        if enemy_data['packs']:
-            packs_str = ', '.join([f"{p}({c})" for p, c in enemy_data['packs'].items()])
-            print(f"  Packs: {packs_str}")
-        
-        print(f"  Locations: {', '.join(enemy_data['locations'])}")
+def get_value_probability_combinations(lst):
+    merged_results = defaultdict(float)
+
+    for combination in product(*lst):
+        total_value = sum(item['count'] for item in combination)
+        total_probability = 1
+        for item in combination:
+            total_probability *= item['probability']
+
+        merged_results[total_value] += total_probability
+
+    # Convert to list of dicts
+    return [{'count': value, 'probability': prob} for value, prob in sorted(merged_results.items())]
 
 
-def get_enemy_probabilities(analysis, group_key=None):
-    """
-    Get probability distribution for enemies in a specific group or overall.
-    
-    Args:
-        analysis (dict): Analysis results from analyze_enemy_spawns()
-        group_key (str, optional): Specific group to analyze. If None, analyzes all.
-        
-    Returns:
-        dict: Enemy probabilities
-    """
-    if group_key and group_key in analysis['by_group']:
-        group_data = analysis['by_group'][group_key]
-        enemy_probs = {}
-        
-        for option in group_data['options']:
-            enemy_key = option['enemy_key']
-            if enemy_key not in enemy_probs:
-                enemy_probs[enemy_key] = 0
-            enemy_probs[enemy_key] += option['probability']
-        
-        return enemy_probs
-    else:
-        # Overall probabilities across all groups
-        total_spawns = sum(data['total_enemy_count'] for data in analysis['by_group'].values())
-        enemy_probs = {}
-        
-        for enemy_key, enemy_data in analysis['by_enemy'].items():
-            enemy_probs[enemy_key] = enemy_data['total_count'] / total_spawns if total_spawns > 0 else 0
-        
-        return enemy_probs
+def get_enemy_spawn_counts(spawn_data, levelId):
+    # pp.pprint(spawn_data)
+    final_list = []
+    extra_base_count = 0
+    for fragment in spawn_data:
+
+        for group_key, group_data in fragment['groups'].items():
+            options = []
+            count_list = []
+            for option in group_data['options']:
+                count = get_option_count(option, levelId)
+                count_list.append(count)
+                options.append(
+                    {"count": count, "probability": option['probability'], 'packKey': option['packKey']})
+            count_set = set(count_list)
+
+            if len(count_set) > 1:
+                final_list.append(options)
+            else:
+                for count in count_set:
+                    extra_base_count += count
+    return {"list": final_list, "extra_count": extra_base_count}
 
 
-def get_pack_summary(analysis):
-    """Get a summary of all packs and their contents."""
-    pack_summary = {}
-    
-    for pack_key, pack_data in analysis['by_pack'].items():
-        pack_summary[pack_key] = {
-            'group': pack_data['group'],
-            'total_enemies': pack_data['total_count'],
-            'probability': pack_data['probability'],
-            'enemy_types': len(pack_data['enemies']),
-            'enemies': dict(pack_data['enemies'])
-        }
-    
-    return pack_summary
+def get_option_count(option, levelId):
+    count = 0
+    for action in option['actions']:
+        key = action["key"]
+        if is_countable_action(key, levelId):
+            count += action['count']
+    return count
+
 
 def pack_has_group_in_fragment(actions, pack_key):
     if not pack_key:
@@ -359,6 +244,7 @@ def pack_has_group_in_fragment(actions, pack_key):
         if action.get('randomSpawnGroupPackKey') == pack_key and action.get('randomSpawnGroupKey'):
             return True
     return False
+
 
 def get_topic(stage_id):
     if 'rogue4' in stage_id:
@@ -592,7 +478,7 @@ def get_bonus(stage_data):
         return {"type": type, "wave_index": bonus_wave_index, "frag_index": bonus_frag_index}
 
 
-def get_bonus_counts(stage_data, levelId, log=False):
+def get_wave_spawns_data(stage_data, levelId, log=False):
     waves_data = itemgetter(
         'waves')(compress_waves(stage_data, levelId))
     normal_group_name, elite_group_name, enemies_to_replace = itemgetter(
@@ -604,18 +490,30 @@ def get_bonus_counts(stage_data, levelId, log=False):
                   elite_group_name, 'replace:', enemies_to_replace)
     has_bonus_wave = not (
         '_ev-' in levelId or '_t-' in levelId or "_b-" in levelId or "_d-" in levelId)
-    if not has_bonus_wave:
-        return None
-    holder = ['NORMAL', 'ELITE']
+    holder = ['NORMAL']
+    if elite_group_name is not None or len(enemies_to_replace) > 0:
+        holder.append("ELITE")
     bonus_data = None
+    results = {"enemy_list": {}, "elite_enemy_list": None, "sp_count": None,
+               "elite_sp_count": None, "enemy_counts": [], "elite_enemy_counts": None}
     if has_bonus_wave:
         bonus_data = get_bonus(stage_data)
     for diff_group in holder:
         group_name = normal_group_name if diff_group == "NORMAL" else elite_group_name
         analysis = analyze_enemy_spawns(
-            waves_data, levelId, bonus_data, group_name)
-
-    return
+            waves_data, levelId, bonus_data, group_name,enemies_to_replace)
+        list, counts, absolute_bonus_count = itemgetter(
+            'enemy_list', 'enemy_counts', 'absolute_bonus_count')(analysis)
+        if diff_group == "NORMAL":
+            results['enemy_list'] = list
+            results['sp_count'] = absolute_bonus_count
+            results['enemy_counts'] = counts
+        else:
+            results['elite_enemy_list'] = list
+            results['elite_sp_count'] = absolute_bonus_count
+            results['elite_enemy_counts'] = counts
+    # print(results)
+    return results
 
 
 def get_group_permutations(stage_data, group_name, bonus_data, bonus_frag_index, bonus_wave_index, stage_id, log=False):
