@@ -122,9 +122,8 @@ for key in cn_enemy_handbook['enemyData']:
                 else enemyStats[0]["enemyData"]["attributes"]["massLevel"][
                     "m_value"
                 ],
-                "lifepoint": enemyStats[0]["enemyData"]["lifePointReduce"][
-                    "m_value"
-                ],
+                "lifepoint": enemyStats[0]["enemyData"]["lifePointReduce"]["m_value"]
+                if enemyStats[0]["enemyData"]["lifePointReduce"]["m_defined"] else 1,
                 "ms": stat["enemyData"]["attributes"]["moveSpeed"]["m_value"]
                 if stat["enemyData"]["attributes"]["moveSpeed"]["m_defined"]
                 else enemyStats[0]["enemyData"]["attributes"]["moveSpeed"][
