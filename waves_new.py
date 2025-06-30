@@ -573,7 +573,7 @@ def permutate(permutations, log=False):
                 group = p_holder[frag_idx]['groups'][group_idx]
                 holder[frag_index][group] = choice
         temp.append(holder)
-    pp.pprint(temp)
+    log and pp.pprint(temp)
     return {"max_permutations": max_permutations, "data": temp}
 
 
