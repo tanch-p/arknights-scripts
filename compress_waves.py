@@ -153,7 +153,8 @@ def compress_waves(stage_data, stage_id):
     if stage_id == 'level_rogue4_d-b':
         branches['Walk_1']['phases'][0]['actions'][0]['key'] = "enemy_2090_skzjbc"
         branches['Walk_2']['phases'][0]['actions'][0]['key'] = "enemy_2090_skzjbc"
-
+    if stage_id in ['level_rogue4_d-1']:
+        waves = waves[:1]
     if stage_id in ['level_rogue4_d-2', 'level_rogue4_d-3', 'level_rogue4_d-b']:
         # fix to pack enemies together
         waves = waves[:1]
