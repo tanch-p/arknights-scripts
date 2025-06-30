@@ -230,8 +230,8 @@ for topic_dict in roguelike_topics:
                 "floors": extrainfo[levelId]['floors'] if levelId in extrainfo else None,
                 "sp_terrain": extrainfo[levelId]['sp_terrain'] if levelId in extrainfo else None,
                 "sp_enemy": extrainfo[levelId]['sp_enemy'] if levelId in extrainfo else None,
-                "n_count": extrainfo[levelId]['all_possible_enemy_count'] if levelId in extrainfo else None,
-                "e_count": extrainfo[levelId]['all_possible_elite_enemy_count'] if levelId in extrainfo else None,
+                "n_count": extrainfo[levelId]['enemy_counts'] if levelId in extrainfo else None,
+                "e_count": extrainfo[levelId]['elite_enemy_counts'] if levelId in extrainfo else None,
                 "traps": []
             }
 
@@ -449,8 +449,8 @@ for levelId in data:
 #     json.dump(data, f, ensure_ascii=False, indent=4)
 
 
-# with open("is_stages_list.json", "w", encoding="utf-8") as f:
-#     json.dump(stages_list, f, ensure_ascii=False, separators=(',', ':'))
+with open("is_stages_list.json", "w", encoding="utf-8") as f:
+    json.dump(stages_list, f, ensure_ascii=False, separators=(',', ':'))
 
 with open("stage_name_lookup_table.json", "w", encoding="utf-8") as f:
     json.dump(stage_name_lookup, f, ensure_ascii=False, indent=4)

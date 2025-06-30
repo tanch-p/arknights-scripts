@@ -33,6 +33,10 @@ def get_status_immune_list(stat):
         list.append("tremble")
     if stat["enemyData"]["attributes"]["fearedImmune"]["m_value"]:
         list.append("fear")
+    if stat["enemyData"]["attributes"]["palsyImmune"]["m_value"]:
+        list.append("palsy")
+    if stat["enemyData"]["attributes"]["attractImmune"]["m_value"]:
+        list.append("attract")
     return list
 
 

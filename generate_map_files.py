@@ -1,7 +1,7 @@
 import os
 from os import walk
 import json
-from waves_new import get_bonus_counts
+from waves_new import get_wave_spawns_data
 
 script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
@@ -85,7 +85,7 @@ for folder in folders:
     for stage_id in files:
         if stage_id.split(".")[0] in stages_to_ignore:
             continue
-        if not 'level_rogue3_1-3.json' in stage_id:
+        if not 'level_rogue1_3-1.json' in stage_id:
             continue
         if "r1" in stage_id or "r2" in stage_id:
             continue
@@ -99,7 +99,7 @@ for folder in folders:
         with open(file_path, encoding="utf-8") as f:
             stage_data = json.load(f)
         # Example usage:
-        analysis = get_bonus_counts(stage_data,stage_id)
+        analysis = get_wave_spawns_data(stage_data,stage_id.replace(".json",""))
 
         # timeline = get_waves_data(
         #     stage_data, stage_id.replace(".json", ""), log=True)

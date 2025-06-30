@@ -8,7 +8,10 @@ pp = pprint.PrettyPrinter(indent=4)
 KEYS_TO_EXCLUDE = ['trap_079_allydonq']
 HIDDEN_GROUPS = ['allydonq', "totem1", 'totem2', 'bossrelic', 'calamity',
                  'cargo', 'hidden_door', 'hidden_window', 'box_1', 'box_3', 'shadow']
-ALWAYS_KILLED_KEYS = ['enemy_2073_skzrck','enemy_2094_skzamb','enemy_2094_skzamb_2','enemy_2096_skzamj']
+ALWAYS_KILLED_KEYS = ['enemy_2073_skzrck',
+    'enemy_2094_skzamb',
+    'enemy_1106_byokai_b',
+    'enemy_3005_lpeopl']
 
 
 def get_wave_data(stage_data, stage_id, log=False):
@@ -105,7 +108,7 @@ def get_wave_data(stage_data, stage_id, log=False):
                         all_group_enemy_counts.append({key: pack_groups[key]})
         return all_group_enemy_counts
 
-    def get_all_count_permutations(groups_list):
+    def get_all_count_permutations(groups_list,log=False):
         all_count_permutations = []
         for fragment_group in groups_list[:-1] if has_bonus_wave else groups_list:
             for group in fragment_group:
@@ -132,10 +135,12 @@ def get_wave_data(stage_data, stage_id, log=False):
                         if not count in permutations:
                             permutations.append(count)
                 all_count_permutations.append(permutations)
+        log and print('all count permutations', all_count_permutations)
         return all_count_permutations
 
     def get_all_possible_enemy_counts(base_enemy_count, sums):
         sums_added_up = []
+        log and print('sums',sums)
         for sum_array in sums:
             sums_added_up.append(base_enemy_count + (sum(sum_array)))
         all_possible_enemy_count = list(set(sums_added_up))
@@ -359,11 +364,9 @@ def get_wave_data(stage_data, stage_id, log=False):
     log and print("enemy list: ")
     log and pp.pprint(enemy_list)
 
-    all_count_permutations = get_all_count_permutations(groups_list)
+    all_count_permutations = get_all_count_permutations(groups_list,log)
     sums = all_sums(all_count_permutations)
 
-    # log and pp.pprint(all_count_permutations)
-    # log and pp.pprint(sums)
     if stage_id == "level_rogue4_t-4":  # lazy hack
         base_enemy_count -= 39
     if stage_id == "level_rogue4_t-2":  # lazy hack
