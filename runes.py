@@ -38,12 +38,13 @@ def get_runes(runes):
     all_mods = []
     for rune in runes:
         effect = parse_rune(rune)
-        if rune['difficultyMask'] in ['ALL', 'NONE']:
-            all_mods.append(effect)
-        elif rune['difficultyMask'] == 'NORMAL':
-            normal_mods.append(effect)
-        elif rune['difficultyMask'] == 'FOUR_STAR':
-            elite_mods.append(effect)
+        if effect:
+            if rune['difficultyMask'] in ['ALL', 'NONE']:
+                all_mods.append(effect)
+            elif rune['difficultyMask'] == 'NORMAL':
+                normal_mods.append(effect)
+            elif rune['difficultyMask'] == 'FOUR_STAR':
+                elite_mods.append(effect)
 
     return {"all_mods": all_mods if len(all_mods) > 0 else None,
             "normal_mods": normal_mods if len(normal_mods) > 0 else None,
@@ -96,14 +97,15 @@ def parse_rune(rune):
                     {"key": translateKey(item['key']),
                         "value": item['value'],
                         "mode": "add"})
-    elif key in ['enemy_skill_blackb_add', 'enemy_skill_blackb_mul']:
+    elif key in ['enemy_skill_blackb_add', 'enemy_skill_blackb_mul','enemy_talent_blackb_mul','enemy_talent_blackb_add']:
         special = {}
         mods = {"key": key}
+        skill_name = "skill"
         for item in rune['blackboard']:
             if item['key'] == "enemy":
                 targets = item['valueStr'].split("|")
-            if item['key'] == "skill":
-                skill_name = item['valueStr']
+            elif item['key'] == "skill" or not any(stat_key in item['key'] for stat_key in ['atk','def','res','move_speed',"duration","attack_speed"]):
+                skill_name = item['valueStr'] if item['valueStr'] else item['key']
         for item in rune['blackboard']:
             if item['key'] not in ["enemy", "skill"]:
                 mods[item['key']] = item['value']
@@ -136,4 +138,6 @@ def parse_rune(rune):
         return {"targets": targets, "special": special}
     if other:
         return other
-    return {"targets": targets, "mods": mods}
+    if len(mods) > 0:
+        return {"targets": targets, "mods": mods}
+    return None
