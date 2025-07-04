@@ -22,8 +22,11 @@ for folder in folders:
         with open(file_path, encoding="utf-8") as f:
             stage_data = json.load(f)
         levelId = file_path.split("/")[-1]
-        if(stage_data['runes']):
-            for rune in stage_data['runes']:
+        for enemy in stage_data['enemyDbRefs']:
+            if enemy['useDb'] is False:
+                print(levelId,enemy['id'])
+        # if(stage_data['runes']):
+        #     for rune in stage_data['runes']:
                 # if rune['difficultyMask'] not in ['FOUR_STAR','NORMAL',"ALL"]:
                 #     print(rune['difficultyMask'])
                 #     print(levelId)

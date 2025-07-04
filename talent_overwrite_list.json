@@ -181,7 +181,18 @@
     "enemy_2007_flwitch": [{ "key": "invincible", "value": 40, "formIndex": 0 }]
   },
   "level_rogue3_b-4-b": {
-    "enemy_2054_smdeer_b": [{ "key": "smdeer_3", "value": 70 }],
+    "enemy_2054_smdeer_b": [
+      { "key": "smdeer_3", "value": 70 },
+      {
+        "key": "smdeer_2",
+        "remove": true,
+        "tooltip": {
+          "en": ["$Will not use Surge of Nature$"],
+          "ja": ["$自然の奔流使わない$"],
+          "zh": ["$不会使用自然涌动$"]
+        }
+      }
+    ],
     "enemy_1243_ltswar_2": [
       { "key": "sarks_performance", "cooldown": 15.0, "initCooldown": 11.0 }
     ]
