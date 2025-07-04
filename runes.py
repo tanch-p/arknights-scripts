@@ -1,6 +1,9 @@
 KEYS_TO_TRANSLATE = {'max_hp': "hp", 'magic_resistance': "res",
                      'mass_level': "weight", 'move_speed': "ms", 'attack_speed': "aspd"}
 
+STATS = ['hp', 'atk', 'aspd', 'range', 'def',
+         'res', 'weight', 'ms', 'lifepoint']
+
 
 def translateKey(key):
     if key in KEYS_TO_TRANSLATE:
@@ -52,12 +55,30 @@ def get_runes(runes):
 
 
 def parse_rune(rune):
-    targets = ['ALL']
+    targets = []
     mods = []
     special = None
     other = None
     key = rune['key']
-    if key == 'enemy_attribute_mul' or key == 'ebuff_attribute':
+    if key == "global_buff_normal":  # in roguelike_topic_table relics
+        for item in rune['blackboard']:
+            if item['key'] == 'key':
+                continue
+            elif item['key'] == "selector.enemy_level_type":
+                targets.append(item['valueStr'])
+            else:
+                translated_key = translateKey(item['key'])
+                if translated_key in STATS:
+                    mods.append(
+                        {"key": translateKey(item['key']),
+                            "value": item['value'] if item['value'] > 0 else 1 + item['value'],
+                            "mode": "mul"})
+                else:
+                    mods.append(
+                        {"key": translateKey(item['key']),
+                            "value": item['value'] if item['value'] > 0 else 1 + item['value'],
+                            "valueStr": item['valueStr']})
+    elif key == 'enemy_attribute_mul' or key == 'ebuff_attribute':
         for item in rune['blackboard']:
             if item['key'] == "enemy":
                 targets = item['valueStr'].split("|")
@@ -97,14 +118,14 @@ def parse_rune(rune):
                     {"key": translateKey(item['key']),
                         "value": item['value'],
                         "mode": "add"})
-    elif key in ['enemy_skill_blackb_add', 'enemy_skill_blackb_mul','enemy_talent_blackb_mul','enemy_talent_blackb_add']:
+    elif key in ['enemy_skill_blackb_add', 'enemy_skill_blackb_mul', 'enemy_talent_blackb_mul', 'enemy_talent_blackb_add']:
         special = {}
         mods = {"key": key}
         skill_name = "skill"
         for item in rune['blackboard']:
             if item['key'] == "enemy":
                 targets = item['valueStr'].split("|")
-            elif item['key'] == "skill" or not any(stat_key in item['key'] for stat_key in ['atk','def','res','move_speed',"duration","attack_speed"]):
+            elif item['key'] == "skill" or not any(stat_key in item['key'] for stat_key in ['atk', 'def', 'res', 'move_speed', "duration", "attack_speed"]):
                 skill_name = item['valueStr'] if item['valueStr'] else item['key']
         for item in rune['blackboard']:
             if item['key'] not in ["enemy", "skill"]:
@@ -134,6 +155,8 @@ def parse_rune(rune):
                             "value": item['value']
                         }
                     }
+    if len(targets) == 0:
+        targets = ['ALL']
     if special:
         return {"targets": targets, "special": special}
     if other:
