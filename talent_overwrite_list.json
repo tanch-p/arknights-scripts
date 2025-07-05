@@ -15,7 +15,7 @@
     "enemy_1103_wdkght_3": [
       {
         "key": "bloodboil_knight",
-        "atk": { "multiplier": 2.2 },
+        "atk": { "multiplier": 1.2, "order":"initial" },
         "aspd": { "fixed": 120 },
         "stack": 3,
         "atk_gain": 40,
