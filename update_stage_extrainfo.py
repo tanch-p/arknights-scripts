@@ -52,7 +52,7 @@ def update_current_stages():
                 if sp_enemy['normal'] == sp_enemy['elite']:
                     sp_enemy['elite'] = None
             sp_tiles = get_special_tiles(stage_data['mapData']['tiles'])
-            sp_terrain = sp_tiles if 'rogue3' in key or 'rogue4' in key else extra_info[
+            sp_terrain = sp_tiles if not key in ['level_rogue2_b-10'] else extra_info[
                 'sp_terrain']
             if sp_terrain is not None and len(sp_terrain) == 0:
                 sp_terrain = None
@@ -82,9 +82,9 @@ def update_current_stages():
                 "all_mods": extra_info['all_mods'] or all_mods, #all mods is just for reference
                 "normal_mods": extra_info['normal_mods'] or normal_mods,
                 "elite_mods": extra_info['elite_mods'],
-                "enemy_counts": enemy_counts if not extra_info['levelId'] in STAGES_TO_IGNORE else extra_info['all_possible_enemy_count'],
+                "enemy_counts": enemy_counts if not extra_info['levelId'] in STAGES_TO_IGNORE else extra_info['enemy_counts'],
                 "sp_count": sp_count,
-                "elite_enemy_counts": elite_enemy_counts if not extra_info['levelId'] in STAGES_TO_IGNORE else extra_info['all_possible_elite_enemy_count'],
+                "elite_enemy_counts": elite_enemy_counts if not extra_info['levelId'] in STAGES_TO_IGNORE else extra_info['elite_enemy_counts'],
                 "elite_sp_count": elite_sp_count,
                 "sp_enemy": extra_info['sp_enemy'],
                 "sp_terrain": sp_terrain,

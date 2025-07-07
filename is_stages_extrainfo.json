@@ -77,8 +77,9 @@
       {
         "tileKey": "tile_gazebo",
         "alias": null,
+        "heightType": "HIGHLAND",
         "blackboard": {
-          "attack_speed": 20,
+          "attack_speed": -20.0,
           "atk_scale": 1.7
         }
       }
@@ -190,6 +191,7 @@
       {
         "tileKey": "tile_healing",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": {
           "HP_RECOVERY_PER_SEC_BY_MAX_HP_RATIO": 0.03
         }
@@ -359,6 +361,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -513,11 +516,12 @@
       {
         "tileKey": "tile_infection",
         "alias": null,
+        "heightType": "HIGHLAND",
         "blackboard": {
-          "duration": 300,
           "damage": 90.0,
+          "duration": 300.0,
           "atk": 0.2,
-          "attack_speed": 50
+          "attack_speed": 50.0
         }
       }
     ],
@@ -571,11 +575,12 @@
       {
         "tileKey": "tile_infection",
         "alias": null,
+        "heightType": "HIGHLAND",
         "blackboard": {
-          "duration": 300,
           "damage": 90.0,
+          "duration": 300.0,
           "atk": 0.2,
-          "attack_speed": 50
+          "attack_speed": 50.0
         }
       }
     ],
@@ -619,11 +624,12 @@
       {
         "tileKey": "tile_infection",
         "alias": null,
+        "heightType": "HIGHLAND",
         "blackboard": {
-          "duration": 300,
           "damage": 90.0,
+          "duration": 300.0,
           "atk": 0.2,
-          "attack_speed": 50
+          "attack_speed": 50.0
         }
       }
     ],
@@ -677,11 +683,12 @@
       {
         "tileKey": "tile_infection",
         "alias": null,
+        "heightType": "HIGHLAND",
         "blackboard": {
-          "duration": 300,
           "damage": 90.0,
+          "duration": 300.0,
           "atk": 0.2,
-          "attack_speed": 50
+          "attack_speed": 50.0
         }
       }
     ],
@@ -725,6 +732,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -862,6 +870,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -1282,6 +1291,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -1390,15 +1400,17 @@
       {
         "tileKey": "tile_volcano",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": {
           "damage": 550.0,
           "cd_min": 6.5,
-          "cd_max": 8
+          "cd_max": 8.0
         }
       },
       {
         "tileKey": "tile_healing",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": {
           "HP_RECOVERY_PER_SEC_BY_MAX_HP_RATIO": 0.03
         }
@@ -1841,6 +1853,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -2064,6 +2077,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -2215,6 +2229,7 @@
       {
         "tileKey": "tile_healing",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": {
           "HP_RECOVERY_PER_SEC_BY_MAX_HP_RATIO": 0.03
         }
@@ -2891,16 +2906,18 @@
     },
     "sp_terrain": [
       {
-        "tileKey": "tile_hole",
-        "alias": null,
-        "blackboard": null
-      },
-      {
         "tileKey": "tile_healing",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": {
           "HP_RECOVERY_PER_SEC_BY_MAX_HP_RATIO": 0.03
         }
+      },
+      {
+        "tileKey": "tile_hole",
+        "alias": null,
+        "heightType": "LOWLAND",
+        "blackboard": null
       }
     ],
     "enemy_list": [
@@ -2990,6 +3007,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -3261,6 +3279,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -3659,6 +3678,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -3762,6 +3782,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -4149,12 +4170,16 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       },
       {
         "tileKey": "tile_defbreak",
         "alias": null,
-        "blackboard": null
+        "heightType": "LOWLAND",
+        "blackboard": {
+          "def": 0.5
+        }
       }
     ],
     "enemy_list": [
@@ -4230,16 +4255,18 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       },
       {
         "tileKey": "tile_infection",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": {
-          "duration": 300,
           "damage": 90.0,
+          "duration": 300.0,
           "atk": 0.2,
-          "attack_speed": 50
+          "attack_speed": 50.0
         }
       }
     ],
@@ -4337,11 +4364,12 @@
       {
         "tileKey": "tile_infection",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": {
-          "duration": 300,
           "damage": 180.0,
+          "duration": 300.0,
           "atk": 0.5,
-          "attack_speed": 50
+          "attack_speed": 50.0
         }
       }
     ],
@@ -4543,6 +4571,13 @@
       {
         "tileKey": "tile_grass",
         "alias": null,
+        "heightType": "HIGHLAND",
+        "blackboard": null
+      },
+      {
+        "tileKey": "tile_grass",
+        "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -4606,6 +4641,13 @@
       {
         "tileKey": "tile_grass",
         "alias": null,
+        "heightType": "HIGHLAND",
+        "blackboard": null
+      },
+      {
+        "tileKey": "tile_grass",
+        "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -4784,6 +4826,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -4843,6 +4886,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -4891,6 +4935,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -5022,6 +5067,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -5080,6 +5126,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -5310,15 +5357,17 @@
       {
         "tileKey": "tile_defup",
         "alias": "terrain_ground",
+        "heightType": "LOWLAND",
         "blackboard": {
-          "def": 100
+          "def": 100.0
         }
       },
       {
         "tileKey": "tile_defup",
         "alias": "terrain_ranged",
+        "heightType": "HIGHLAND",
         "blackboard": {
-          "def": 200
+          "def": 200.0
         }
       }
     ],
@@ -5446,6 +5495,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -5487,19 +5537,21 @@
     "sp_enemy": null,
     "sp_terrain": [
       {
-        "tileKey": "tile_infection",
-        "alias": null,
-        "blackboard": {
-          "duration": 500,
-          "damage": 120.0,
-          "atk": 0.5,
-          "attack_speed": 50
-        }
-      },
-      {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
+      },
+      {
+        "tileKey": "tile_infection",
+        "alias": null,
+        "heightType": "LOWLAND",
+        "blackboard": {
+          "damage": 120.0,
+          "duration": 500.0,
+          "atk": 0.5,
+          "attack_speed": 50.0
+        }
       }
     ],
     "enemy_list": [
@@ -5745,6 +5797,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -5974,6 +6027,7 @@
       {
         "tileKey": "tile_deepsea",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -6065,6 +6119,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -6280,6 +6335,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -6424,6 +6480,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -6516,11 +6573,13 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       },
       {
         "tileKey": "tile_grass",
         "alias": null,
+        "heightType": "HIGHLAND",
         "blackboard": null
       }
     ],
@@ -6629,6 +6688,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -7004,6 +7064,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -7107,6 +7168,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -7255,11 +7317,12 @@
       {
         "tileKey": "tile_infection",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": {
-          "duration": 600,
-          "damage": 100.0,
           "atk": 0.5,
-          "attack_speed": 50
+          "damage": 100.0,
+          "duration": 600.0,
+          "attack_speed": 50.0
         }
       }
     ],
@@ -7824,11 +7887,12 @@
       {
         "tileKey": "tile_infection",
         "alias": null,
+        "heightType": "HIGHLAND",
         "blackboard": {
-          "duration": 600,
           "damage": 50.0,
           "atk": 0.5,
-          "attack_speed": 50
+          "attack_speed": 50.0,
+          "duration": 600.0
         }
       }
     ],
@@ -7931,6 +7995,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -8008,10 +8073,11 @@
       {
         "tileKey": "tile_volcano",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": {
           "damage": 800.0,
-          "cd_min": 12,
-          "cd_max": 15
+          "cd_min": 12.0,
+          "cd_max": 15.0
         }
       }
     ],
@@ -8119,10 +8185,11 @@
       {
         "tileKey": "tile_volcano",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": {
           "damage": 800.0,
-          "cd_min": 13,
-          "cd_max": 19
+          "cd_min": 13.0,
+          "cd_max": 19.0
         }
       }
     ],
@@ -8230,6 +8297,7 @@
       {
         "tileKey": "tile_defbreak",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": {
           "def": 0.5
         }
@@ -8359,19 +8427,23 @@
     },
     "sp_terrain": [
       {
-        "tileKey": "tile_infection",
+        "tileKey": "tile_creep",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": {
-          "duration": 300,
-          "damage": 90.0,
-          "atk": 0.1,
-          "attack_speed": 60
+          "mode": 1.0
         }
       },
       {
-        "tileKey": "tile_creep",
+        "tileKey": "tile_infection",
         "alias": null,
-        "blackboard": null
+        "heightType": "LOWLAND",
+        "blackboard": {
+          "duration": 300.0,
+          "damage": 90.0,
+          "atk": 0.1,
+          "attack_speed": 60.0
+        }
       }
     ],
     "enemy_list": [
@@ -8544,6 +8616,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -8757,6 +8830,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -9148,6 +9222,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -9410,6 +9485,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -9528,7 +9604,21 @@
       {
         "tileKey": "tile_creep",
         "alias": null,
-        "blackboard": null
+        "heightType": "LOWLAND",
+        "blackboard": {
+          "mode": 0.0
+        }
+      },
+      {
+        "tileKey": "tile_creep",
+        "alias": null,
+        "heightType": "LOWLAND",
+        "blackboard": {
+          "damage": 100.0,
+          "duration": 300.0,
+          "atk": 0.5,
+          "attack_speed": 50.0
+        }
       }
     ],
     "enemy_list": [
@@ -9636,6 +9726,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -9754,6 +9845,7 @@
       {
         "tileKey": "tile_defbreak",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": {
           "def": 0.5
         }
@@ -10096,6 +10188,7 @@
       {
         "tileKey": "tile_volcano",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": {
           "damage": 700.0,
           "cd_min": 8.0,
@@ -10105,6 +10198,7 @@
       {
         "tileKey": "tile_volcano",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": {
           "damage": 700.0,
           "cd_min": 7.0,
@@ -10114,6 +10208,7 @@
       {
         "tileKey": "tile_volcano",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": {
           "damage": 700.0,
           "cd_min": 6.0,
@@ -10186,11 +10281,13 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       },
       {
         "tileKey": "tile_infection",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": {
           "duration": 300.0,
           "damage": 150.0,
@@ -10244,6 +10341,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -10321,6 +10419,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -10500,6 +10599,7 @@
       {
         "tileKey": "tile_pollution_road",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": {
           "attack_speed": -50.0,
           "damage": 50.0
@@ -10592,6 +10692,7 @@
       {
         "tileKey": "tile_pollution_road",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": {
           "attack_speed": -50.0,
           "damage": 50.0
@@ -10859,6 +10960,7 @@
       {
         "tileKey": "tile_volcano",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": {
           "damage": 2000.0,
           "cd_min": 1.0,
@@ -11057,11 +11159,13 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       },
       {
         "tileKey": "tile_infection",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": {
           "damage": 100.0,
           "atk": 0.5,
@@ -11170,6 +11274,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -11637,6 +11742,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -11843,6 +11949,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -11961,6 +12068,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -12071,6 +12179,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -12258,6 +12367,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -12369,6 +12479,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -12764,6 +12875,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -12854,6 +12966,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -12979,6 +13092,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -13137,6 +13251,7 @@
       {
         "tileKey": "tile_defbreak",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": {
           "def": 0.5
         }
@@ -13234,6 +13349,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -13737,6 +13853,7 @@
       {
         "tileKey": "tile_defbreak",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": {
           "def": 0.5
         }
@@ -14216,6 +14333,13 @@
       {
         "tileKey": "tile_grass",
         "alias": null,
+        "heightType": "LOWLAND",
+        "blackboard": null
+      },
+      {
+        "tileKey": "tile_grass",
+        "alias": null,
+        "heightType": "HIGHLAND",
         "blackboard": null
       }
     ],
@@ -14560,6 +14684,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -15096,6 +15221,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -15183,11 +15309,13 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       },
       {
         "tileKey": "tile_infection",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": {
           "duration": 300.0,
           "damage": 150.0,
@@ -15282,6 +15410,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -15844,11 +15973,13 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       },
       {
         "tileKey": "tile_infection",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": {
           "damage": 100.0,
           "atk": 0.5,
@@ -16106,6 +16237,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -16435,6 +16567,7 @@
       {
         "tileKey": "tile_bigforce",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": {
           "base_force_level": 1.0
         }
@@ -16666,6 +16799,7 @@
       {
         "tileKey": "tile_bigforce",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": {
           "base_force_level": 1.0
         }
@@ -16825,6 +16959,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -16955,6 +17090,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -17309,6 +17445,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -17423,6 +17560,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -17667,6 +17805,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -18047,6 +18186,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -18131,6 +18271,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -18309,7 +18450,7 @@
     "all_mods": null,
     "normal_mods": null,
     "elite_mods": null,
-    "enemy_counts": [1],
+    "enemy_counts": [3],
     "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
@@ -18319,157 +18460,157 @@
       {
         "key": "enemy_1053_norgst_2",
         "min_count": 0,
-        "max_count": 3
+        "max_count": 1
       },
       {
         "key": "enemy_1010_demon",
         "min_count": 0,
-        "max_count": 3
+        "max_count": 1
       },
       {
         "key": "enemy_1134_diamd",
         "min_count": 0,
-        "max_count": 3
+        "max_count": 1
       },
       {
         "key": "enemy_1118_lidbox",
         "min_count": 0,
-        "max_count": 3
+        "max_count": 1
       },
       {
         "key": "enemy_1095_ccripr",
         "min_count": 0,
-        "max_count": 3
+        "max_count": 1
       },
       {
         "key": "enemy_1259_durwar",
         "min_count": 0,
-        "max_count": 3
+        "max_count": 1
       },
       {
         "key": "enemy_1501_demonk",
         "min_count": 0,
-        "max_count": 3
+        "max_count": 1
       },
       {
         "key": "enemy_1103_wdkght_3",
         "min_count": 0,
-        "max_count": 3
+        "max_count": 1
       },
       {
         "key": "enemy_1264_durgrd",
         "min_count": 0,
-        "max_count": 3
+        "max_count": 1
       },
       {
         "key": "enemy_2078_skzmst",
         "min_count": 0,
-        "max_count": 3
+        "max_count": 1
       },
       {
         "key": "enemy_1219_mtrbty_2",
         "min_count": 0,
-        "max_count": 3
+        "max_count": 1
       },
       {
         "key": "enemy_1184_cadkgt_3",
         "min_count": 0,
-        "max_count": 3
+        "max_count": 1
       },
       {
         "key": "enemy_2046_smwar",
         "min_count": 0,
-        "max_count": 3
+        "max_count": 1
       },
       {
         "key": "enemy_1025_reveng_2",
         "min_count": 0,
-        "max_count": 3
+        "max_count": 1
       },
       {
         "key": "enemy_1328_cbjedi",
         "min_count": 0,
-        "max_count": 3
+        "max_count": 1
       },
       {
         "key": "enemy_2070_skzfbx",
         "min_count": 0,
-        "max_count": 3
+        "max_count": 1
       },
       {
         "key": "enemy_2034_sythef",
         "min_count": 0,
-        "max_count": 3
+        "max_count": 1
       },
       {
         "key": "enemy_1329_cbshld_2",
         "min_count": 0,
-        "max_count": 3
+        "max_count": 1
       },
       {
         "key": "enemy_1255_lybgpa_2",
         "min_count": 0,
-        "max_count": 3
+        "max_count": 1
       },
       {
         "key": "enemy_1516_jakill",
         "min_count": 0,
-        "max_count": 3
+        "max_count": 1
       },
       {
         "key": "enemy_1098_cchmpn_2",
         "min_count": 0,
-        "max_count": 3
+        "max_count": 1
       },
       {
         "key": "enemy_1104_lfkght_3",
         "min_count": 0,
-        "max_count": 3
+        "max_count": 1
       },
       {
         "key": "enemy_1293_duswrd_3",
         "min_count": 0,
-        "max_count": 3
+        "max_count": 1
       },
       {
         "key": "enemy_1539_reid",
         "min_count": 0,
-        "max_count": 3
+        "max_count": 1
       },
       {
         "key": "enemy_1062_rager_2",
         "min_count": 0,
-        "max_count": 3
+        "max_count": 1
       },
       {
         "key": "enemy_1342_frtuna",
         "min_count": 0,
-        "max_count": 3
+        "max_count": 1
       },
       {
         "key": "enemy_1022_dmage_2",
         "min_count": 0,
-        "max_count": 3
+        "max_count": 1
       },
       {
         "key": "enemy_2002_bearmi",
         "min_count": 0,
-        "max_count": 3
+        "max_count": 1
       },
       {
         "key": "enemy_2085_skzjxd",
         "min_count": 0,
-        "max_count": 3
+        "max_count": 1
       },
       {
         "key": "enemy_2001_duckmi",
         "min_count": 0,
-        "max_count": 3
+        "max_count": 1
       },
       {
         "key": "enemy_1172_dugago_2",
         "min_count": 0,
-        "max_count": 3
+        "max_count": 1
       }
     ],
     "elite_enemy_list": null
@@ -18491,7 +18632,7 @@
     "all_mods": null,
     "normal_mods": null,
     "elite_mods": null,
-    "enemy_counts": [2],
+    "enemy_counts": [6],
     "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
@@ -18500,6 +18641,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -18754,7 +18896,7 @@
     "all_mods": null,
     "normal_mods": null,
     "elite_mods": null,
-    "enemy_counts": [2],
+    "enemy_counts": [6],
     "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
@@ -18763,6 +18905,7 @@
       {
         "tileKey": "tile_infection",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": {
           "damage": 200.0,
           "atk": 0.5,
@@ -19075,7 +19218,7 @@
     "all_mods": null,
     "normal_mods": null,
     "elite_mods": null,
-    "enemy_counts": [2],
+    "enemy_counts": [6],
     "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
@@ -19195,6 +19338,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -19293,6 +19437,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -19448,6 +19593,7 @@
       {
         "tileKey": "tile_infection",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": {
           "damage": 80.0,
           "atk": 0.5,
@@ -19551,6 +19697,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -19789,6 +19936,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -19876,6 +20024,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -20006,6 +20155,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -20088,6 +20238,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -20196,6 +20347,7 @@
       {
         "tileKey": "tile_smog",
         "alias": null,
+        "heightType": "HIGHLAND",
         "blackboard": null
       }
     ],
@@ -20309,6 +20461,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -20514,6 +20667,7 @@
       {
         "tileKey": "tile_defbreak",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": {
           "def": 0.5
         }
@@ -21049,6 +21203,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -21148,6 +21303,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -21238,6 +21394,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -21479,6 +21636,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -21566,6 +21724,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -21691,6 +21850,7 @@
       {
         "tileKey": "tile_volcano",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": {
           "damage": 500.0,
           "cd_min": 12.0,
@@ -21915,6 +22075,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -22059,6 +22220,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -22268,6 +22430,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -22385,6 +22548,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -22486,6 +22650,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -23221,11 +23386,19 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       },
       {
         "tileKey": "tile_smog",
         "alias": null,
+        "heightType": "LOWLAND",
+        "blackboard": null
+      },
+      {
+        "tileKey": "tile_smog",
+        "alias": null,
+        "heightType": "HIGHLAND",
         "blackboard": null
       }
     ],
@@ -23327,6 +23500,7 @@
       {
         "tileKey": "tile_smog",
         "alias": null,
+        "heightType": "HIGHLAND",
         "blackboard": null
       }
     ],
@@ -23485,6 +23659,7 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       }
     ],
@@ -23807,11 +23982,13 @@
       {
         "tileKey": "tile_hole",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": null
       },
       {
         "tileKey": "tile_defbreak",
         "alias": null,
+        "heightType": "LOWLAND",
         "blackboard": {
           "def": 0.5
         }

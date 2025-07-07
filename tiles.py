@@ -116,6 +116,7 @@ def get_special_tiles(tiles):
             tiles_list.append({
                 "tileKey": tile['tileKey'],
                 "alias": None,
+                "heightType": tile['heightType'],
                 "blackboard": bb if len(bb) > 0 else None
             })
     unique_list = []
