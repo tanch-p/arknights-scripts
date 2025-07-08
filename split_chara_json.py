@@ -1,6 +1,7 @@
 import json
 import os
 from json_gz import json_to_gz
+from sec_filter import gen_sec_filter_options
 
 # split characters.json into diff languages
 languages = ['zh', 'ja', 'en']
@@ -143,3 +144,4 @@ for lang in languages:
 json_to_gz(f'characters_zh.json', f'characters_zh.gz')
 json_to_gz(f'characters_ja.json', f'characters_ja.gz')
 json_to_gz(f'characters_en.json', f'characters_en.gz')
+gen_sec_filter_options()
