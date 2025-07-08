@@ -70,7 +70,8 @@ SEARCH_IN_BLACKBOARD = [
 	'ally_def_penetrate',
 	'add_bullet',
 	'max_ammo',
-	'ally_max_ammo'
+	'ally_max_ammo',
+    "receive_heal_scale"
 ]
 
 TARGET_AIR_KEYS = [

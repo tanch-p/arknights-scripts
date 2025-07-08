@@ -1123,10 +1123,6 @@
                 ],
                 "blackboard": [
                     {
-                        "key": "cnt",
-                        "value": 2.0
-                    },
-                    {
                         "key": "def",
                         "value": 0.19,
                         "conditions": [
@@ -1232,12 +1228,7 @@
                 "tags": [
                     "summon"
                 ],
-                "blackboard": [
-                    {
-                        "key": "cnt",
-                        "value": 1.0
-                    }
-                ]
+                "blackboard": []
             }
         ]
     },
@@ -1931,12 +1922,7 @@
                 "tags": [
                     "summon"
                 ],
-                "blackboard": [
-                    {
-                        "key": "cnt",
-                        "value": 4.0
-                    }
-                ]
+                "blackboard": []
             }
         ]
     },
@@ -2002,10 +1988,6 @@
                     "summon"
                 ],
                 "blackboard": [
-                    {
-                        "key": "cnt",
-                        "value": 3.0
-                    },
                     {
                         "key": "ally_def",
                         "value": 0.33,
@@ -2261,10 +2243,6 @@
                     {
                         "key": "sp_regen",
                         "value": 1.0
-                    },
-                    {
-                        "key": "cnt",
-                        "value": 2.0
                     }
                 ]
             }
@@ -10365,6 +10343,14 @@
                             "INCREASE_WHEN_ATTACK",
                             "INCREASE_WHEN_TAKEN_DAMAGE"
                         ]
+                    },
+                    {
+                        "key": "sp_gain",
+                        "value": 1.0,
+                        "conditions": [
+                            "INCREASE_WHEN_ATTACK",
+                            "INCREASE_WHEN_TAKEN_DAMAGE"
+                        ]
                     }
                 ]
             },
@@ -10579,14 +10565,6 @@
                     {
                         "key": "def",
                         "value": 0.12
-                    },
-                    {
-                        "key": "atk_add",
-                        "value": 0.05
-                    },
-                    {
-                        "key": "def_add",
-                        "value": 0.05
                     }
                 ]
             },
@@ -10601,16 +10579,15 @@
                 "tags": [],
                 "blackboard": [
                     {
-                        "key": "heal_scale_1",
-                        "value": 1.25
+                        "key": "receive_heal_scale",
+                        "value": 25
                     },
                     {
-                        "key": "heal_scale",
-                        "value": 1.45
-                    },
-                    {
-                        "key": "hp_ratio",
-                        "value": 0.5
+                        "key": "receive_heal_scale",
+                        "value": 45,
+                        "conditions": [
+                            "hp_lt_50"
+                        ]
                     }
                 ]
             }
@@ -11077,10 +11054,6 @@
                 "desc_en": "ATK and DEF +10% when there are more than two ranged tiles in the four surrounding tiles",
                 "tags": [],
                 "blackboard": [
-                    {
-                        "key": "cnt",
-                        "value": 2.0
-                    },
                     {
                         "key": "atk",
                         "value": 0.1
@@ -12943,16 +12916,7 @@
                 "desc_ja": "攻撃時、10%の確率で2連撃を行う",
                 "desc_en": "Each attack has a 10% chance of striking twice",
                 "tags": [],
-                "blackboard": [
-                    {
-                        "key": "attack@prob",
-                        "value": 0.1
-                    },
-                    {
-                        "key": "attack@normal_prob",
-                        "value": 0.9
-                    }
-                ]
+                "blackboard": []
             },
             {
                 "prefabKey": "2",
@@ -12988,12 +12952,7 @@
                 "desc_ja": "治療時、対象のSPを3回復",
                 "desc_en": "Targets healed by this unit gain 3 SP",
                 "tags": [],
-                "blackboard": [
-                    {
-                        "key": "sp",
-                        "value": 3.0
-                    }
-                ]
+                "blackboard": []
             },
             {
                 "prefabKey": "2",
@@ -13004,12 +12963,7 @@
                 "desc_ja": "攻撃範囲内のオペレーターが倒された時、自身のSPが5回復",
                 "desc_en": "When allies within range are defeated, gain 5 SP",
                 "tags": [],
-                "blackboard": [
-                    {
-                        "key": "sp",
-                        "value": 5.0
-                    }
-                ]
+                "blackboard": []
             }
         ]
     },
@@ -13804,6 +13758,81 @@
                             "neural_burst"
                         ],
                         "target_air": true
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4196_reckpr": {
+        "appellation": "Record Keeper",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "学成于聚",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "攻击范围内的干员开启技能时自身回复1点技力，且攻击速度+16，持续10<@ba.talpu>（+2）</>秒",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 16.0
+                    },
+                    {
+                        "key": "sp_gain",
+                        "value": 1.0,
+                        "conditions": [
+                            "ally_in_range_use_skill"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "char_1043_leizi2": {
+        "appellation": "Leizi the Thunderbringer",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "明断",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "攻击范围内每个地块每秒有10%的概率落雷对所有敌人造成相当于攻击力100%的法术伤害。未开启技能时<ba.liftoff>起飞</>；技能期间攻击时攻击力提升至111%<@ba.talpu>（+4%）</>",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "arts",
+                    "aoe",
+                    "aspd_unrelated"
+                ],
+                "blackboard": [
+                    {
+                        "key": "liftoff",
+                        "value": 999
+                    }
+                ]
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "追责",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "开启技能时，使攻击范围内所有地面地块落雷，对所有敌人造成相当于攻击力100%的法术伤害和3<@ba.talpu>（+1）</>秒<ba.tremble>战栗</>",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "arts",
+                    "burst"
+                ],
+                "blackboard": [
+                    {
+                        "key": "tremble",
+                        "value": 3.0,
+                        "conditions": [
+                            "skill_usage"
+                        ]
                     }
                 ]
             }

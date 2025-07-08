@@ -12851,10 +12851,6 @@
                     "value": 1.15
                 },
                 {
-                    "key": "hp_ratio",
-                    "value": 0.5
-                },
-                {
                     "key": "ally_sp_gain",
                     "value": 2.0,
                     "conditions": [
@@ -13169,10 +13165,6 @@
                     "value": 1.15
                 },
                 {
-                    "key": "hp_ratio",
-                    "value": 0.5
-                },
-                {
                     "key": "ally_heal_scale",
                     "value": 1.17
                 }
@@ -13455,18 +13447,6 @@
                 {
                     "key": "heal_scale",
                     "value": 1.15
-                },
-                {
-                    "key": "hp_ratio",
-                    "value": 0.5
-                },
-                {
-                    "key": "prob",
-                    "value": 0.26
-                },
-                {
-                    "key": "atk_scale",
-                    "value": 2.0
                 },
                 {
                     "key": "stun",
@@ -20141,10 +20121,6 @@
                     "value": 1.15
                 },
                 {
-                    "key": "hp_ratio",
-                    "value": 0.5
-                },
-                {
                     "key": "stun",
                     "targets": 99,
                     "value": 4.0,
@@ -20153,10 +20129,6 @@
                         "defeat"
                     ],
                     "target_air": true
-                },
-                {
-                    "key": "value",
-                    "value": 1700.0
                 }
             ]
         }
@@ -20433,14 +20405,6 @@
                 {
                     "key": "heal_scale",
                     "value": 1.15
-                },
-                {
-                    "key": "hp_ratio",
-                    "value": 0.5
-                },
-                {
-                    "key": "delay",
-                    "value": 4.0
                 },
                 {
                     "key": "heal_scale",
@@ -26135,7 +26099,7 @@
                 },
                 {
                     "key": "res_down",
-                    "order":"final_mul",
+                    "order": "final_mul",
                     "targets": 1,
                     "value": 0.3,
                     "duration": 1.0,
@@ -30511,24 +30475,8 @@
                     "value": 4.0
                 },
                 {
-                    "key": "max_hp",
-                    "value": 0.04
-                },
-                {
-                    "key": "heal_scale",
-                    "value": 1.0
-                },
-                {
-                    "key": "max_stack_cnt",
-                    "value": 3.0
-                },
-                {
-                    "key": "heal_scale_addition",
-                    "value": 0.04
-                },
-                {
-                    "key": "heal_scale_max_value",
-                    "value": 1.12
+                    "key": "receive_heal_scale",
+                    "value": 12
                 },
                 {
                     "key": "ally_max_hp",
@@ -31045,7 +30993,7 @@
                 },
                 {
                     "key": "res_down",
-                    "order":"initial_add",
+                    "order": "initial_add",
                     "targets": 2,
                     "value": 15,
                     "duration": 1.0,
@@ -35760,23 +35708,14 @@
             "tags": [],
             "blackboard": [
                 {
-                    "key": "hp_ratio",
-                    "value": 0.5
-                },
-                {
                     "key": "dmg_res",
                     "types": [
-                        "phys",
-                        "arts"
+                        "phys"
                     ],
                     "value": 0.2,
                     "conditions": [
                         "hp_gt_50"
                     ]
-                },
-                {
-                    "key": "hp_ratio",
-                    "value": 0.18
                 }
             ]
         }
@@ -45489,8 +45428,7 @@
                 {
                     "key": "dmg_res",
                     "types": [
-                        "phys",
-                        "arts"
+                        "phys"
                     ],
                     "value": 0.2,
                     "conditions": [
@@ -49091,7 +49029,7 @@
                 },
                 {
                     "key": "res_down",
-                    "order":"initial_add",
+                    "order": "initial_add",
                     "targets": 1,
                     "value": 15,
                     "duration": 1.5,
@@ -51195,7 +51133,7 @@
             "blackboard": [
                 {
                     "key": "res_down",
-                    "order":"initial_add",
+                    "order": "initial_add",
                     "targets": 99,
                     "value": 20,
                     "duration": 10.0,
@@ -51206,7 +51144,7 @@
                 },
                 {
                     "key": "res_down",
-                    "order":"initial_add",
+                    "order": "initial_add",
                     "targets": 99,
                     "value": 0.44,
                     "target_air": true
@@ -54557,8 +54495,8 @@
             "tags": [],
             "blackboard": [
                 {
-                    "key": "self_heal_scale",
-                    "value": 1.2
+                    "key": "receive_heal_scale",
+                    "value": 20
                 },
                 {
                     "key": "ally_dmg_res",
@@ -54723,8 +54661,8 @@
             "tags": [],
             "blackboard": [
                 {
-                    "key": "self_heal_scale",
-                    "value": 1.2
+                    "key": "receive_heal_scale",
+                    "value": 20
                 }
             ]
         }
@@ -54857,8 +54795,8 @@
             "tags": [],
             "blackboard": [
                 {
-                    "key": "self_heal_scale",
-                    "value": 1.2
+                    "key": "receive_heal_scale",
+                    "value": 20
                 },
                 {
                     "key": "max_hp",
@@ -55002,8 +54940,8 @@
             "tags": [],
             "blackboard": [
                 {
-                    "key": "self_heal_scale",
-                    "value": 1.2
+                    "key": "receive_heal_scale",
+                    "value": 20
                 },
                 {
                     "key": "max_hp",
@@ -58108,7 +58046,7 @@
             "blackboard": [
                 {
                     "key": "def_down",
-                    "order":"initial_add",
+                    "order": "initial_add",
                     "targets": 99,
                     "value": 400,
                     "duration": 25.0,
@@ -58119,7 +58057,7 @@
                 },
                 {
                     "key": "res_down",
-                    "order":"initial_add",
+                    "order": "initial_add",
                     "targets": 99,
                     "value": 20,
                     "duration": 25.0,
@@ -58172,13 +58110,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 104.0,
-                            "valueStr": null
+                            "value": 104.0
                         },
                         {
                             "key": "atk",
-                            "value": 38.0,
-                            "valueStr": null
+                            "value": 38.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -58214,13 +58150,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 136.0,
-                            "valueStr": null
+                            "value": 136.0
                         },
                         {
                             "key": "atk",
-                            "value": 45.0,
-                            "valueStr": null
+                            "value": 45.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -58256,13 +58190,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 160.0,
-                            "valueStr": null
+                            "value": 160.0
                         },
                         {
                             "key": "atk",
-                            "value": 50.0,
-                            "valueStr": null
+                            "value": 50.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -58320,18 +58252,15 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 78.0,
-                            "valueStr": null
+                            "value": 78.0
                         },
                         {
                             "key": "atk",
-                            "value": 30.0,
-                            "valueStr": null
+                            "value": 30.0
                         },
                         {
                             "key": "def",
-                            "value": 19.0,
-                            "valueStr": null
+                            "value": 19.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -58367,18 +58296,15 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 98.0,
-                            "valueStr": null
+                            "value": 98.0
                         },
                         {
                             "key": "atk",
-                            "value": 35.0,
-                            "valueStr": null
+                            "value": 35.0
                         },
                         {
                             "key": "def",
-                            "value": 23.0,
-                            "valueStr": null
+                            "value": 23.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -58414,18 +58340,15 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 114.0,
-                            "valueStr": null
+                            "value": 114.0
                         },
                         {
                             "key": "atk",
-                            "value": 40.0,
-                            "valueStr": null
+                            "value": 40.0
                         },
                         {
                             "key": "def",
-                            "value": 26.0,
-                            "valueStr": null
+                            "value": 26.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -58487,13 +58410,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 220.0,
-                            "valueStr": null
+                            "value": 220.0
                         },
                         {
                             "key": "atk",
-                            "value": 72.0,
-                            "valueStr": null
+                            "value": 72.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -58529,13 +58450,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 289.0,
-                            "valueStr": null
+                            "value": 289.0
                         },
                         {
                             "key": "atk",
-                            "value": 85.0,
-                            "valueStr": null
+                            "value": 85.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -58571,13 +58490,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 340.0,
-                            "valueStr": null
+                            "value": 340.0
                         },
                         {
                             "key": "atk",
-                            "value": 95.0,
-                            "valueStr": null
+                            "value": 95.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -58635,13 +58552,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 160.0,
-                            "valueStr": null
+                            "value": 160.0
                         },
                         {
                             "key": "def",
-                            "value": 60.0,
-                            "valueStr": null
+                            "value": 60.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -58677,13 +58592,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 200.0,
-                            "valueStr": null
+                            "value": 200.0
                         },
                         {
                             "key": "def",
-                            "value": 75.0,
-                            "valueStr": null
+                            "value": 75.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -58719,13 +58632,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 220.0,
-                            "valueStr": null
+                            "value": 220.0
                         },
                         {
                             "key": "def",
-                            "value": 85.0,
-                            "valueStr": null
+                            "value": 85.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -58801,13 +58712,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 78.0,
-                            "valueStr": null
+                            "value": 78.0
                         },
                         {
                             "key": "atk",
-                            "value": 34.0,
-                            "valueStr": null
+                            "value": 34.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -58857,13 +58766,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 89.0,
-                            "valueStr": null
+                            "value": 89.0
                         },
                         {
                             "key": "atk",
-                            "value": 43.0,
-                            "valueStr": null
+                            "value": 43.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -58913,13 +58820,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 98.0,
-                            "valueStr": null
+                            "value": 98.0
                         },
                         {
                             "key": "atk",
-                            "value": 52.0,
-                            "valueStr": null
+                            "value": 52.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -58991,13 +58896,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 120.0,
-                            "valueStr": null
+                            "value": 120.0
                         },
                         {
                             "key": "atk",
-                            "value": 55.0,
-                            "valueStr": null
+                            "value": 55.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -59047,13 +58950,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 165.0,
-                            "valueStr": null
+                            "value": 165.0
                         },
                         {
                             "key": "atk",
-                            "value": 66.0,
-                            "valueStr": null
+                            "value": 66.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -59103,13 +59004,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 190.0,
-                            "valueStr": null
+                            "value": 190.0
                         },
                         {
                             "key": "atk",
-                            "value": 75.0,
-                            "valueStr": null
+                            "value": 75.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -59159,13 +59058,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 44.0,
-                            "valueStr": null
+                            "value": 44.0
                         },
                         {
                             "key": "def",
-                            "value": 30.0,
-                            "valueStr": null
+                            "value": 30.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -59201,13 +59098,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 55.0,
-                            "valueStr": null
+                            "value": 55.0
                         },
                         {
                             "key": "def",
-                            "value": 40.0,
-                            "valueStr": null
+                            "value": 40.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -59243,13 +59138,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 65.0,
-                            "valueStr": null
+                            "value": 65.0
                         },
                         {
                             "key": "def",
-                            "value": 48.0,
-                            "valueStr": null
+                            "value": 48.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -59311,13 +59204,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 100.0,
-                            "valueStr": null
+                            "value": 100.0
                         },
                         {
                             "key": "atk",
-                            "value": 40.0,
-                            "valueStr": null
+                            "value": 40.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -59353,13 +59244,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 130.0,
-                            "valueStr": null
+                            "value": 130.0
                         },
                         {
                             "key": "atk",
-                            "value": 45.0,
-                            "valueStr": null
+                            "value": 45.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -59395,13 +59284,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 150.0,
-                            "valueStr": null
+                            "value": 150.0
                         },
                         {
                             "key": "atk",
-                            "value": 50.0,
-                            "valueStr": null
+                            "value": 50.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -59459,13 +59346,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 30.0,
-                            "valueStr": null
+                            "value": 30.0
                         },
                         {
                             "key": "magic_resistance",
-                            "value": 5.0,
-                            "valueStr": null
+                            "value": 5.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -59501,13 +59386,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 48.0,
-                            "valueStr": null
+                            "value": 48.0
                         },
                         {
                             "key": "magic_resistance",
-                            "value": 5.0,
-                            "valueStr": null
+                            "value": 5.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -59543,13 +59426,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 60.0,
-                            "valueStr": null
+                            "value": 60.0
                         },
                         {
                             "key": "magic_resistance",
-                            "value": 5.0,
-                            "valueStr": null
+                            "value": 5.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -59606,13 +59487,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 240.0,
-                            "valueStr": null
+                            "value": 240.0
                         },
                         {
                             "key": "atk",
-                            "value": 30.0,
-                            "valueStr": null
+                            "value": 30.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -59648,13 +59527,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 340.0,
-                            "valueStr": null
+                            "value": 340.0
                         },
                         {
                             "key": "atk",
-                            "value": 48.0,
-                            "valueStr": null
+                            "value": 48.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -59690,13 +59567,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 420.0,
-                            "valueStr": null
+                            "value": 420.0
                         },
                         {
                             "key": "atk",
-                            "value": 60.0,
-                            "valueStr": null
+                            "value": 60.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -59709,7 +59584,7 @@
             "blackboard": [
                 {
                     "key": "res_down",
-                    "order":"initial_add",
+                    "order": "initial_add",
                     "targets": 1,
                     "value": 20,
                     "duration": 10.0,
@@ -59756,13 +59631,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 260.0,
-                            "valueStr": null
+                            "value": 260.0
                         },
                         {
                             "key": "atk",
-                            "value": 28.0,
-                            "valueStr": null
+                            "value": 28.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -59798,13 +59671,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 360.0,
-                            "valueStr": null
+                            "value": 360.0
                         },
                         {
                             "key": "atk",
-                            "value": 45.0,
-                            "valueStr": null
+                            "value": 45.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -59840,13 +59711,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 440.0,
-                            "valueStr": null
+                            "value": 440.0
                         },
                         {
                             "key": "atk",
-                            "value": 56.0,
-                            "valueStr": null
+                            "value": 56.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -59916,13 +59785,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 26.0,
-                            "valueStr": null
+                            "value": 26.0
                         },
                         {
                             "key": "magic_resistance",
-                            "value": 3.0,
-                            "valueStr": null
+                            "value": 3.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -59958,13 +59825,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 38.0,
-                            "valueStr": null
+                            "value": 38.0
                         },
                         {
                             "key": "magic_resistance",
-                            "value": 4.0,
-                            "valueStr": null
+                            "value": 4.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -60000,13 +59865,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 45.0,
-                            "valueStr": null
+                            "value": 45.0
                         },
                         {
                             "key": "magic_resistance",
-                            "value": 4.0,
-                            "valueStr": null
+                            "value": 4.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -60081,13 +59944,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 200.0,
-                            "valueStr": null
+                            "value": 200.0
                         },
                         {
                             "key": "atk",
-                            "value": 25.0,
-                            "valueStr": null
+                            "value": 25.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -60123,13 +59984,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 270.0,
-                            "valueStr": null
+                            "value": 270.0
                         },
                         {
                             "key": "atk",
-                            "value": 30.0,
-                            "valueStr": null
+                            "value": 30.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -60165,13 +60024,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 320.0,
-                            "valueStr": null
+                            "value": 320.0
                         },
                         {
                             "key": "atk",
-                            "value": 40.0,
-                            "valueStr": null
+                            "value": 40.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -60238,13 +60095,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 25.0,
-                            "valueStr": null
+                            "value": 25.0
                         },
                         {
                             "key": "def",
-                            "value": 25.0,
-                            "valueStr": null
+                            "value": 25.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -60280,13 +60135,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 36.0,
-                            "valueStr": null
+                            "value": 36.0
                         },
                         {
                             "key": "def",
-                            "value": 36.0,
-                            "valueStr": null
+                            "value": 36.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -60322,13 +60175,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 42.0,
-                            "valueStr": null
+                            "value": 42.0
                         },
                         {
                             "key": "def",
-                            "value": 42.0,
-                            "valueStr": null
+                            "value": 42.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -60397,13 +60248,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 160.0,
-                            "valueStr": null
+                            "value": 160.0
                         },
                         {
                             "key": "atk",
-                            "value": 20.0,
-                            "valueStr": null
+                            "value": 20.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -60439,13 +60288,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 190.0,
-                            "valueStr": null
+                            "value": 190.0
                         },
                         {
                             "key": "atk",
-                            "value": 30.0,
-                            "valueStr": null
+                            "value": 30.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -60481,13 +60328,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 220.0,
-                            "valueStr": null
+                            "value": 220.0
                         },
                         {
                             "key": "atk",
-                            "value": 35.0,
-                            "valueStr": null
+                            "value": 35.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -60554,13 +60399,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 70.0,
-                            "valueStr": null
+                            "value": 70.0
                         },
                         {
                             "key": "atk",
-                            "value": 25.0,
-                            "valueStr": null
+                            "value": 25.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -60610,13 +60453,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 88.0,
-                            "valueStr": null
+                            "value": 88.0
                         },
                         {
                             "key": "atk",
-                            "value": 38.0,
-                            "valueStr": null
+                            "value": 38.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -60666,13 +60507,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 100.0,
-                            "valueStr": null
+                            "value": 100.0
                         },
                         {
                             "key": "atk",
-                            "value": 47.0,
-                            "valueStr": null
+                            "value": 47.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -60713,13 +60552,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 26.0,
-                            "valueStr": null
+                            "value": 26.0
                         },
                         {
                             "key": "def",
-                            "value": 26.0,
-                            "valueStr": null
+                            "value": 26.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -60755,13 +60592,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 37.0,
-                            "valueStr": null
+                            "value": 37.0
                         },
                         {
                             "key": "def",
-                            "value": 37.0,
-                            "valueStr": null
+                            "value": 37.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -60797,13 +60632,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 43.0,
-                            "valueStr": null
+                            "value": 43.0
                         },
                         {
                             "key": "def",
-                            "value": 43.0,
-                            "valueStr": null
+                            "value": 43.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -61582,13 +61415,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 52.0,
-                            "valueStr": null
+                            "value": 52.0
                         },
                         {
                             "key": "def",
-                            "value": 25.0,
-                            "valueStr": null
+                            "value": 25.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -61624,13 +61455,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 65.0,
-                            "valueStr": null
+                            "value": 65.0
                         },
                         {
                             "key": "def",
-                            "value": 30.0,
-                            "valueStr": null
+                            "value": 30.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -61666,13 +61495,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 75.0,
-                            "valueStr": null
+                            "value": 75.0
                         },
                         {
                             "key": "def",
-                            "value": 35.0,
-                            "valueStr": null
+                            "value": 35.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -63359,7 +63186,7 @@
                 },
                 {
                     "key": "def_down",
-                    "order":"final_add",
+                    "order": "final_add",
                     "targets": 1,
                     "value": 100,
                     "duration": 999,
@@ -63698,7 +63525,7 @@
             "blackboard": [
                 {
                     "key": "def_down",
-                    "order":"final_mul",
+                    "order": "final_mul",
                     "targets": 1,
                     "value": 0.35,
                     "duration": 5.0,
@@ -68046,6 +67873,770 @@
             ],
             "tags": [],
             "blackboard": []
+        }
+    },
+    "uniequip_001_reckpr": {
+        "uniEquipId": "uniequip_001_reckpr",
+        "name_zh": "录武官证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_4196_reckpr",
+        "combatData": null
+    },
+    "uniequip_002_reckpr": {
+        "uniEquipId": "uniequip_002_reckpr",
+        "name_zh": "未完成的录武簿",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "phy-x",
+        "charId": "char_4196_reckpr",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": "reckpr_equip_1_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "治疗生命值低于50%的友方单位时治疗量提升<@ba.kw>15%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 70.0
+                        },
+                        {
+                            "key": "attack_speed",
+                            "value": 4.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "reckpr_equip_1_2_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "治疗生命值低于50%的友方单位时治疗量提升<@ba.kw>15%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "学成于聚",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "攻击范围内的干员开启技能时自身回复1点技力，且攻击速度+20，持续10<@ba.talpu>（+2）</>秒",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 100.0
+                        },
+                        {
+                            "key": "attack_speed",
+                            "value": 5.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "reckpr_equip_1_3_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "治疗生命值低于50%的友方单位时治疗量提升<@ba.kw>15%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "学成于聚",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "攻击范围内的干员开启技能时自身回复1点技力，且攻击速度+23，持续10<@ba.talpu>（+2）</>秒",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 120.0
+                        },
+                        {
+                            "key": "attack_speed",
+                            "value": 6.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+                {
+                    "key": "heal_scale",
+                    "value": 1.15
+                },
+                {
+                    "key": "attack_speed",
+                    "value": 23.0
+                }
+            ]
+        }
+    },
+    "uniequip_001_leizi2": {
+        "uniEquipId": "uniequip_001_leizi2",
+        "name_zh": "司霆惊蛰证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_1043_leizi2",
+        "combatData": null
+    },
+    "uniequip_002_leizi2": {
+        "uniEquipId": "uniequip_002_leizi2",
+        "name_zh": "“一念”",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "lib-x",
+        "charId": "char_1043_leizi2",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "DISPLAY",
+                            "isToken": false,
+                            "addDesc_zh": "部署后获得<@ba.kw>+100%</>加成",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "通常不攻击且阻挡数为0，技能未开启时<@ba.kw>40</>秒内攻击力逐渐提升至最高<@ba.kw>+200%</>且技能结束时重置攻击力",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": "leizi2_equip_1_1_p1",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": null,
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": -1,
+                            "upgradeDesc_zh": "",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 225.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 26.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 27.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "DISPLAY",
+                            "isToken": false,
+                            "addDesc_zh": "部署后获得<@ba.kw>+100%</>加成",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "通常不攻击且阻挡数为0，技能未开启时<@ba.kw>40</>秒内攻击力逐渐提升至最高<@ba.kw>+200%</>且技能结束时重置攻击力",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "明断",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "攻击范围内每个地块每秒有10%的概率落雷对所有敌人造成相当于攻击力100%的法术伤害。未开启技能时<ba.liftoff>起飞</>；技能期间攻击时攻击力提升至115%<@ba.talpu>（+4%）</>",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        },
+                        {
+                            "resKey": "leizi2_equip_1_2_p1",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": null,
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": -1,
+                            "upgradeDesc_zh": "",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 270.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 35.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 31.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "DISPLAY",
+                            "isToken": false,
+                            "addDesc_zh": "部署后获得<@ba.kw>+100%</>加成",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "通常不攻击且阻挡数为0，技能未开启时<@ba.kw>40</>秒内攻击力逐渐提升至最高<@ba.kw>+200%</>且技能结束时重置攻击力",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "明断",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "攻击范围内每个地块每秒有10%的概率落雷对所有敌人造成相当于攻击力100%的法术伤害。未开启技能时<ba.liftoff>起飞</>；技能期间攻击时攻击力提升至117%<@ba.talpu>（+4%）</>",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        },
+                        {
+                            "resKey": "leizi2_equip_1_3_p1",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": null,
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": -1,
+                            "upgradeDesc_zh": "",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 360.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 42.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 36.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+            ]
+        }
+    },
+    "uniequip_003_typhon": {
+        "uniEquipId": "uniequip_003_typhon",
+        "name_zh": "冰原的影子",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "sie-y",
+        "charId": "char_2012_typhon",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": "typhon_equip_2_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "攻击越远的敌人造成的伤害越高（最高提升<@ba.kw>12%</>）",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 70.0
+                        },
+                        {
+                            "key": "attack_speed",
+                            "value": 5.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "typhon_equip_2_2_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "攻击越远的敌人造成的伤害越高（最高提升<@ba.kw>12%</>）",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": "typhon_equip_2_2_p2",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": "重如沼泥",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 1,
+                            "upgradeDesc_zh": "技能期间对每个敌人前两次造成伤害时，攻击力提升至210%<@ba.talpu>（+10%）</>并使目标<ba.sluggish>停顿</>3秒",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 84.0
+                        },
+                        {
+                            "key": "attack_speed",
+                            "value": 6.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "typhon_equip_2_3_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "攻击越远的敌人造成的伤害越高（最高提升<@ba.kw>12%</>）",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": "typhon_equip_2_3_p2",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": "重如沼泥",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 1,
+                            "upgradeDesc_zh": "技能期间对每个敌人前两次造成伤害时，攻击力提升至230%<@ba.talpu>（+10%）</>并使目标<ba.sluggish>停顿</>3秒",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 94.0
+                        },
+                        {
+                            "key": "attack_speed",
+                            "value": 7.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+            ]
+        }
+    },
+    "uniequip_003_gdglow": {
+        "uniEquipId": "uniequip_003_gdglow",
+        "name_zh": "梦想终将实现",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "fun-y",
+        "charId": "char_377_gdglow",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "TRAIT_DATA_ONLY",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "操作<@ba.kw>浮游单元</>造成<@ba.kw>法术伤害</>\\n单元攻击同一敌人伤害提升（最高造成干员120%攻击力的伤害）",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 30.0
+                        },
+                        {
+                            "key": "attack_speed",
+                            "value": 5.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "TRAIT_DATA_ONLY",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "操作<@ba.kw>浮游单元</>造成<@ba.kw>法术伤害</>\\n单元攻击同一敌人伤害提升（最高造成干员120%攻击力的伤害）",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "精准导流",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 1,
+                            "upgradeDesc_zh": "自身与浮游单元无视敌人21<@ba.talpu>（+3）</>点法术抗性",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 40.0
+                        },
+                        {
+                            "key": "attack_speed",
+                            "value": 6.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "TRAIT_DATA_ONLY",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "操作<@ba.kw>浮游单元</>造成<@ba.kw>法术伤害</>\\n单元攻击同一敌人伤害提升（最高造成干员120%攻击力的伤害）",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "精准导流",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 1,
+                            "upgradeDesc_zh": "自身与浮游单元无视敌人23<@ba.talpu>（+3）</>点法术抗性",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 45.0
+                        },
+                        {
+                            "key": "attack_speed",
+                            "value": 7.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+                {
+                    "key": "res_penetrate",
+                    "value": 23.0
+                }
+            ]
+        }
+    },
+    "uniequip_003_gvial2": {
+        "uniEquipId": "uniequip_003_gvial2",
+        "name_zh": "好锯多磨",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "cen-y",
+        "charId": "char_1026_gvial2",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": "gvial2_equip_2_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "生命值高于50%时受到的物理伤害降低<@ba.kw>20%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 155.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 21.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 50.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "gvial2_equip_2_2_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "生命值高于50%时受到的物理伤害降低<@ba.kw>20%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "医学背景",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 1,
+                            "upgradeDesc_zh": "被自身阻挡的敌人受到5%的<ba.physicfragile>【物理脆弱】</>，自身受到的治疗效果提升30%<@ba.talpu>（+5%）</>，生命值低于一半时提升至55%<@ba.talpu>（+5%）</>",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        },
+                        {
+                            "resKey": "gvial2_equip_2_2_p2",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": null,
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 1,
+                            "upgradeDesc_zh": "",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 180.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 26.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 63.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "gvial2_equip_2_3_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "生命值高于50%时受到的物理伤害降低<@ba.kw>20%</>",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "医学背景",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 1,
+                            "upgradeDesc_zh": "被自身阻挡的敌人受到10%的<ba.physicfragile>【物理脆弱】</>，自身受到的治疗效果提升35%<@ba.talpu>（+5%）</>，生命值低于一半时提升至65%<@ba.talpu>（+5%）</>",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        },
+                        {
+                            "resKey": "gvial2_equip_2_3_p2",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": null,
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 1,
+                            "upgradeDesc_zh": "",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 200.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 29.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 71.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": ["physicfragile"],
+            "blackboard": [
+                {
+                    "key": "receive_heal_scale",
+                    "value": 35
+                },
+                {
+                    "key": "receive_heal_scale",
+                    "value": 65,
+                    "conditions": [
+                        "hp_lt_50"
+                    ]
+                },
+                {
+                    "key": "dmg_res",
+                    "types": [
+                        "phys"
+                    ],
+                    "value": 0.2,
+                    "conditions": [
+                        "hp_gt_50"
+                    ]
+                },
+                {
+                    "key": "damage_scale",
+                    "targets": 3,
+                    "value": 1.1,
+                    "types": [
+                        "phys"
+                    ],
+                    "conditions": [
+                        "blocked"
+                    ],
+                    "category": [
+                        "physicfragile"
+                    ]
+                }
+            ]
         }
     }
 }
