@@ -54,12 +54,14 @@
     "blackboard": [
       {
         "key": "atk_down",
+        "order":"final_add",
         "targets": 1,
         "value": 250.0,
         "target_air": false
       },
       {
         "key": "def_down",
+        "order":"final_add",
         "targets": 1,
         "value": 250.0,
         "target_air": false
@@ -105,6 +107,7 @@
     ]
   },
   "token_10055_phatm2_mndclv": {
+    "tags":["block_flying"],
     "blackboard": [
       {
         "key": "blockCnt",

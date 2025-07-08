@@ -729,6 +729,7 @@
                 "blackboard": [
                     {
                         "key": "res_down",
+                        "order": "final_mul",
                         "targets": 1,
                         "value": 0.23,
                         "duration": 1.0,
@@ -1052,16 +1053,7 @@
                 "tags": [
                     "min_damage"
                 ],
-                "blackboard": [
-                    {
-                        "key": "atk_scale",
-                        "value": 0.25
-                    },
-                    {
-                        "key": "atk_scale_2",
-                        "value": 0.4
-                    }
-                ]
+                "blackboard": []
             }
         ]
     },
@@ -1852,6 +1844,7 @@
                         "targets": 3,
                         "value": 0.08,
                         "duration": 5.0,
+                        "order": "final_mul",
                         "conditions": [
                             "when_attacked"
                         ],
@@ -5113,6 +5106,7 @@
                 "blackboard": [
                     {
                         "key": "res_down",
+                        "order": "final_mul",
                         "targets": 1,
                         "value": 0.25,
                         "prob": 0.25,
@@ -6580,6 +6574,7 @@
                     },
                     {
                         "key": "def_down",
+                        "order": "final_mul",
                         "targets": 1,
                         "value": 0.2,
                         "prob": 0.2,
@@ -6652,6 +6647,7 @@
                 "blackboard": [
                     {
                         "key": "def_down",
+                        "order": "final_mul",
                         "targets": 1,
                         "value": 0.25,
                         "duration": 5.0,
@@ -7438,6 +7434,7 @@
                 "blackboard": [
                     {
                         "key": "atk_down",
+                        "order": "final_add",
                         "targets": 1,
                         "value": 100.0,
                         "target_air": true
@@ -7492,6 +7489,7 @@
                 "blackboard": [
                     {
                         "key": "res_down",
+                        "order": "final_mul",
                         "targets": 99,
                         "value": 0.44,
                         "target_air": true
@@ -8043,6 +8041,7 @@
                     },
                     {
                         "key": "res_down",
+                        "order": "initial_add",
                         "targets": 1,
                         "value": 15,
                         "duration": 1.0,
@@ -8491,6 +8490,7 @@
                 "blackboard": [
                     {
                         "key": "atk_down",
+                        "order": "final_mul",
                         "targets": 99,
                         "value": 0.5,
                         "duration": 15.0,
@@ -9411,6 +9411,7 @@
                     },
                     {
                         "key": "atk_down",
+                        "order": "initial_mul",
                         "targets": 1,
                         "value": 0.22,
                         "duration": 6.0,
@@ -10051,6 +10052,7 @@
                     },
                     {
                         "key": "atk_down",
+                        "order": "final_mul",
                         "targets": 1,
                         "value": 0.15,
                         "duration": 3.0,
@@ -11452,6 +11454,7 @@
                 "blackboard": [
                     {
                         "key": "atk_down",
+                        "order": "final_mul",
                         "targets": 1,
                         "value": 0.5,
                         "duration": 15.0,
@@ -11624,6 +11627,7 @@
                     },
                     {
                         "key": "res_down",
+                        "order": "initial_add",
                         "targets": 1,
                         "value": 10.0,
                         "duration": 5.0,
@@ -12074,12 +12078,14 @@
                 "blackboard": [
                     {
                         "key": "atk_down",
+                        "order": "final_add",
                         "targets": 1,
                         "value": 270.0,
                         "target_air": true
                     },
                     {
                         "key": "def_down",
+                        "order": "final_add",
                         "targets": 1,
                         "value": 210.0,
                         "target_air": true
@@ -12323,6 +12329,7 @@
                 "blackboard": [
                     {
                         "key": "res_down",
+                        "order": "initial_add",
                         "targets": 1,
                         "value": 20,
                         "duration": 10.0,
@@ -13301,6 +13308,7 @@
                     },
                     {
                         "key": "res_down",
+                        "order": "initial_add",
                         "targets": 1,
                         "value": 20,
                         "duration": 10.0,
