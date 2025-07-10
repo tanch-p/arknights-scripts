@@ -50,6 +50,9 @@ def compress_waves(stage_data, stage_id):
                      bb if len(bb) > 0 else None, buildableType])
     map_data = {"map": stage_data['mapData']['map'], "tiles": tiles}
     for i, route in enumerate(stage_data['routes']):
+        if not route:
+            # null routes found in act24side_tr01
+            continue
         route_idx = -1
         if (route['checkpoints']):
             for checkpoint in route['checkpoints']:
@@ -79,26 +82,30 @@ def compress_waves(stage_data, stage_id):
     routes = [route_data[1] for route_data in routes]
 
     # extra routes
-    for i, route in enumerate(stage_data['extraRoutes']):
-        route_idx = -1
-        if (route['checkpoints']):
-            for checkpoint in route['checkpoints']:
-                checkpoint.pop("randomizeReachOffset", None)
-        for idx, route_data in enumerate(extra_routes):
-            if route == route_data[1]:
-                route_idx = idx
-                break
-        if route_idx == -1:
-            extra_routes.append([i, route])
-        # replace original routeIndex
-        for branch_name in branches:
-            for phase in branches[branch_name]['phases']:
-                for action in phase['actions']:
-                    if action['routeIndex'] == i:
-                        if route_idx == -1:  # newly added route
-                            action['routeIndex'] = len(extra_routes)-1
-                        else:
-                            action['routeIndex'] = route_idx
+    if 'extraRoutes' in stage_data:
+        for i, route in enumerate(stage_data['extraRoutes']):
+            if not route:
+                # null routes found in act2bossrush_01
+                continue
+            route_idx = -1
+            if (route['checkpoints']):
+                for checkpoint in route['checkpoints']:
+                    checkpoint.pop("randomizeReachOffset", None)
+            for idx, route_data in enumerate(extra_routes):
+                if route == route_data[1]:
+                    route_idx = idx
+                    break
+            if route_idx == -1:
+                extra_routes.append([i, route])
+            # replace original routeIndex
+            for branch_name in branches:
+                for phase in branches[branch_name]['phases']:
+                    for action in phase['actions']:
+                        if action['routeIndex'] == i:
+                            if route_idx == -1:  # newly added route
+                                action['routeIndex'] = len(extra_routes)-1
+                            else:
+                                action['routeIndex'] = route_idx
     # prune branches
     if branches is not None:
         for branch_name in branches:

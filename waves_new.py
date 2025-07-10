@@ -53,8 +53,9 @@ def analyze_enemy_spawns(waves_data, levelId, bonus_data, difficulty, group_name
                 if action['hiddenGroup'] is not None and (action['hiddenGroup'] != group_name or group_name is None):
                     continue
                 enemy_key = action['key']
-
-                if action['randomSpawnGroupKey'] or action['randomSpawnGroupPackKey']:
+                group = action['randomSpawnGroupKey'] if 'randomSpawnGroupKey' in action else None
+                packKey = action['randomSpawnGroupPackKey'] if 'randomSpawnGroupPackKey' in action else None
+                if group or packKey:
                     group_actions.append(action)
                     continue
                 # Guaranteed spawn
@@ -342,7 +343,7 @@ def group_resolver(actions):
     not_random_groups = []
 
     for action in actions:
-        group = action['randomSpawnGroupKey']
+        group = action['randomSpawnGroupKey'] if 'randomSpawnGroupKey' in action else None
         if group is not None:
             if not group in groups:
                 groups[group] = []
@@ -351,7 +352,7 @@ def group_resolver(actions):
             leftovers.append(action)
 
     for action in leftovers:
-        packKey = action['randomSpawnGroupPackKey']
+        packKey = action['randomSpawnGroupPackKey'] if 'randomSpawnGroupPackKey' in action else None
         if packKey is not None:
             add_pack_to_group(action, groups)
         else:
@@ -373,7 +374,7 @@ def random_group_resolver(random_groups):
     for group_key in random_groups:
         pack_dict = {}
         for action in random_groups[group_key]:
-            pack_key = action['randomSpawnGroupPackKey']
+            pack_key = action['randomSpawnGroupPackKey'] if 'randomSpawnGroupPackKey' in action else None
             if not pack_key in pack_dict:
                 pack_dict[pack_key] = []
             pack_dict[pack_key].append(action)
@@ -402,8 +403,8 @@ def get_wave_permutations(waves_data, permutation, group_name, has_bonus_wave, b
             groups = []
             actions = []
             for action in fragment['actions']:
-                group = action['randomSpawnGroupKey']
-                packKey = action['randomSpawnGroupPackKey']
+                group = action['randomSpawnGroupKey'] if 'randomSpawnGroupKey' in action else None
+                packKey = action['randomSpawnGroupPackKey'] if 'randomSpawnGroupPackKey' in action else None
                 hidden_group = action['hiddenGroup']
                 actionType = action['actionType']
 
@@ -504,8 +505,8 @@ def get_group_permutations(stage_data, group_name, bonus_data, bonus_frag_index,
             if bonus_data and bonus_data['type'] == 'fragment' and wave_idx == bonus_wave_index and frag_index == bonus_frag_index:
                 continue
             for action in fragment['actions']:
-                group = action['randomSpawnGroupKey']
-                packKey = action['randomSpawnGroupPackKey']
+                group = action['randomSpawnGroupKey'] if 'randomSpawnGroupKey' in action else None
+                packKey = action['randomSpawnGroupPackKey'] if 'randomSpawnGroupPackKey' in action else None
                 actionType = action['actionType']
                 if not actionType in ['SPAWN']:
                     if not (stage_id == 'level_rogue4_4-10' and action['key'] == "trap_760_skztzs#0"):
@@ -608,8 +609,8 @@ def create_timeline(waves, has_bonus_wave, bonus_wave_idx):
                              "route": (action['routeIndex']),
                              "routeIndex": action['routeIndex'],
                              "hiddenGroup": action['hiddenGroup'],
-                             "randomSpawnGroupKey": action['randomSpawnGroupKey'],
-                             "randomSpawnGroupPackKey": action['randomSpawnGroupPackKey'],
+                             "randomSpawnGroupKey": action['randomSpawnGroupKey'] if 'randomSpawnGroupKey' in action else None,
+                             "randomSpawnGroupPackKey": action['randomSpawnGroupPackKey'] if 'randomSpawnGroupPackKey' in action else None,
                              'weight': action['weight']
                              }
                         )
@@ -628,8 +629,8 @@ def create_timeline(waves, has_bonus_wave, bonus_wave_idx):
                          "route": (action['routeIndex']),
                          "routeIndex": action['routeIndex'],
                          "hiddenGroup": action['hiddenGroup'],
-                         "randomSpawnGroupKey": action['randomSpawnGroupKey'],
-                         "randomSpawnGroupPackKey": action['randomSpawnGroupPackKey'],
+                         "randomSpawnGroupKey": action['randomSpawnGroupKey'] if 'randomSpawnGroupKey' in action else None,
+                         "randomSpawnGroupPackKey": action['randomSpawnGroupPackKey'] if 'randomSpawnGroupPackKey' in action else None,
                          'weight': action['weight']
                          })
                     if action['dontBlockWave'] is False:
