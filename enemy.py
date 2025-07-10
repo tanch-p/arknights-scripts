@@ -15,6 +15,12 @@ jp_enemy_handbook_path = os.path.join(
 enemy_database_path = os.path.join(
     script_dir, "cn_data/zh_CN/gamedata/levels/enemydata/enemy_database.json"
 )
+en_enemy_database_path = os.path.join(
+    script_dir, "global_data/en_US/gamedata/levels/enemydata/enemy_database.json"
+)
+jp_enemy_database_path = os.path.join(
+    script_dir, "global_data/ja_JP/gamedata/levels/enemydata/enemy_database.json"
+)
 
 
 def get_status_immune_list(stat):
@@ -48,27 +54,31 @@ with open(jp_enemy_handbook_path, encoding="utf-8") as f:
     jp_enemy_handbook = json.load(f)
 with open(enemy_database_path, encoding="utf-8") as f:
     enemy_database = json.load(f)
+with open(en_enemy_database_path, encoding="utf-8") as f:
+    en_enemy_database = json.load(f)
+with open(jp_enemy_database_path, encoding="utf-8") as f:
+    jp_enemy_database = json.load(f)
 
 with open("enemy_database.json", encoding="utf-8") as f:
     existing_data = json.load(f)
 
 new_data = {}
-for key in cn_enemy_handbook['enemyData']:
+for entry in enemy_database["enemies"]:
     data = {}
-    cn_enemy_info = cn_enemy_handbook['enemyData'][key]
-    enemyId = cn_enemy_info["enemyId"]
-    enemyIndex = cn_enemy_info["enemyIndex"]
-    if not enemyId in existing_data:
-        enemyDatabase = enemy_database["enemies"]
-        enemyStats = next(
-            enemyData["Value"]
-            for enemyData in enemyDatabase
-            if enemyData["Key"] == key
-        )
+    key = entry['Key']
+    if not key in existing_data:
+        IN_HANDBOOK = key in cn_enemy_handbook['enemyData']
+        cn_enemy_info = cn_enemy_handbook['enemyData'][key] if IN_HANDBOOK else None
+        enemyIndex = cn_enemy_info["enemyIndex"] if IN_HANDBOOK else "-"
+        enemyStats = entry['Value']
+        jp_entry = next((enemy for enemy in jp_enemy_database["enemies"]
+                        if enemy['Key'] == key), None)
+        en_entry = next((enemy for enemy in en_enemy_database["enemies"]
+                        if enemy['Key'] == key), None)
         # attackType = MELEE | RANGED | ALL | NONE
         attackType = enemyStats[0]['enemyData']['applyWay']['m_value'].lower()
         attackAttribute = "phys"
-        damageType = cn_enemy_info['damageType']
+        damageType = cn_enemy_info['damageType'] if IN_HANDBOOK else ''
         if "MAGIC" in damageType:
             attackAttribute = "arts"
         elif "NO_DAMAGE" in damageType:
@@ -84,14 +94,11 @@ for key in cn_enemy_handbook['enemyData']:
                          if enemyStats[0]['enemyData']['levelType']['m_defined'] else 'NORMAL')
         data["id"] = enemyIndex
         data["key"] = key
-        data['sortId'] = cn_enemy_info['sortId']
-        data["name_zh"] = cn_enemy_info["name"]
-        data["name_ja"] = (
-            jp_enemy_handbook[key]["name"] if key in jp_enemy_handbook else ""
-        )
-        data["name_en"] = (
-            en_enemy_handbook[key]["name"] if key in en_enemy_handbook else ""
-        )
+        data['sortId'] = cn_enemy_info['sortId'] if IN_HANDBOOK else None
+        data["name_zh"] = enemyStats[0]['enemyData']['name']['m_value']
+        data["name_ja"] = jp_entry['Value'][0]['enemyData']['name']['m_value'] if jp_entry else ""
+        data["name_en"] = en_entry['Value'][0]['enemyData']['name']['m_value'] if en_entry else ""
+
         status_immune_list = get_status_immune_list(enemyStats[0])
         data["stats"] = [
             {
@@ -143,17 +150,17 @@ for key in cn_enemy_handbook['enemyData']:
                 else enemyStats[0]["enemyData"]["attributes"]["epResistance"][
                     "m_value"
                 ],
-                "traits":[],
+                "traits": [],
                 "special": [],
             }
             for stat in enemyStats
         ]
-        data['forms'] = {
+        data['forms'] = [{
             "title": None,
             "normal_attack": normal_attack,
             "status_immune": get_status_immune_list(enemyStats[0]) if len(get_status_immune_list(enemyStats[0])) > len(status_immune_list) else status_immune_list
 
-        }
+        }]
         data["type"] = enemyTags
         data["type"].insert(0, attackType)
         new_data[key] = data
