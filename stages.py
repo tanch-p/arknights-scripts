@@ -473,8 +473,8 @@ def generate_normal_stages():
     extrainfo = {}
 
     data = {}
-    stage_name_lookup = {}
-    stages_list = []
+    activities = []
+    stages = {}
 
     for stageId in cn_stage_table['stages']:
         TOPIC_IN_GLOBAL = stageId in en_stage_table['stages']
@@ -488,8 +488,31 @@ def generate_normal_stages():
             continue
         if 'multi' in stageId or 'easy' in stageId:
             continue
-        folder = activity_table['zoneToActivity']
-        zoneId = stage_info['zoneId']
+        activity_id = stage_info['zoneId']
+        if stage_info['stageType'] == 'ACTIVITY':
+            activity_id = activity_table['zoneToActivity'][activity_id] if activity_id in activity_table['zoneToActivity'] else None
+        item = next((item for item in activities if item['id'] == activity_id), None)
+        if not item:
+            activities.append(
+            {
+                "id":activity_id,
+                "type": stage_info['stageType'],
+                "name": {
+                    "zh": "",
+                    "ja": "",
+                    "en": ""
+                },
+                "zones":[
+                    {
+				"label": None,
+				"zoneId": None,
+				"name": None,
+				"stages": [
+					
+				]
+			}
+                ]
+            })
         file_path = stage_info['levelId'].lower()
         stage_data_path = os.path.join(
             script_dir,
@@ -521,18 +544,23 @@ def generate_normal_stages():
         trimmed_stage_info = get_trimmed_stage_data(
             stage_data, meta_info, extrainfo)
         data[stageId] = trimmed_stage_info
-        stages_list.append(stage_info['code'])
+        zoneId = stage_info['zoneId']
+        if not zoneId in stages:
+            stages[zoneId] = []
+        stages[zoneId].append({
+            "stageId":stageId,
+            "code": stage_info['code']
+        })
 
-    # stages_list =(list(set(stages_list)))
-    # stages_list.sort()
     for stageId in data:
         write_path = os.path.join(
             script_dir, 'all_stage_data', stageId+".json")
         with open(write_path, 'w+', encoding='utf-8') as f:
             json.dump(data[stageId], f, ensure_ascii=False, indent=1)
     with open("all_stages_list.json", "w", encoding="utf-8") as f:
-        json.dump(stages_list, f, ensure_ascii=False, indent=4)
-
+        json.dump(stages, f, ensure_ascii=False, indent=4)
+    # with open("activities_list.json", "w", encoding="utf-8") as f:
+    #     json.dump(activities, f, ensure_ascii=False, indent=4)
 
 def main():
     # generate_roguelike_stages()
