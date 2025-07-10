@@ -479,13 +479,14 @@ def generate_normal_stages():
     for stageId in cn_stage_table['stages']:
         TOPIC_IN_GLOBAL = stageId in en_stage_table['stages']
         stage_info = cn_stage_table['stages'][stageId]
-        if stage_info['isStoryOnly']:
+        if stage_info['isStoryOnly'] or stage_info['stageType'] in ['CLIMB_TOWER','CAMPAIGN','GUIDE']:
+            # Ignore Climb tower for now
             continue
         if stage_info['difficulty'] != "NORMAL":
             continue
         if stage_info['appearanceStyle'] == "TRAINING":
             continue
-        if 'multi' in stageId:
+        if 'multi' in stageId or 'easy' in stageId:
             continue
         folder = activity_table['zoneToActivity']
         zoneId = stage_info['zoneId']
@@ -522,8 +523,8 @@ def generate_normal_stages():
         data[stageId] = trimmed_stage_info
         stages_list.append(stage_info['code'])
 
-    stages_list =(list(set(stages_list)))
-    stages_list.sort()
+    # stages_list =(list(set(stages_list)))
+    # stages_list.sort()
     for stageId in data:
         write_path = os.path.join(
             script_dir, 'all_stage_data', stageId+".json")
