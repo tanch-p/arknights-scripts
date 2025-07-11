@@ -259,8 +259,7 @@ def add_new_event_stages():
 
 def main():
     # update_current_stages()
-    # add_new_ro_stages()
-    add_new_event_stages()
+    # add_new_event_stages()
 
 if __name__ == "__main__":
     main()
