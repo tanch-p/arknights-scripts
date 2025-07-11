@@ -24,7 +24,8 @@ TRAPS_TO_EXCLUDE = ["trap_042_tidectrl", "trap_061_creep", "trap_062_magicstart"
                     "trap_063_magicturn", "trap_050_blizzard", "trap_092_vgctrl",
                     "trap_036_storm", "trap_162_lrctrl", "trap_766_duelwal",
                     "trap_767_duelcdt", "trap_106_smtree"]
-ENEMIES_TO_IGNORE=['enemy_2086_skzdwx','enemy_2087_skzdwy','enemy_2088_skzdwz','enemy_2062_smcar']
+ENEMIES_TO_IGNORE = ['enemy_2086_skzdwx', 'enemy_2087_skzdwy',
+                     'enemy_2088_skzdwz', 'enemy_2062_smcar']
 STAGES_WITH_ENEMY_REF_TO_IGNORE = {"level_rogue1_4-2": ["enemy_1025_reveng_2"],
                                    "level_rogue4_b-8": ["enemy_3001_upeopl", 'enemy_2093_skzams'],
                                    "level_rogue4_4-4": ["enemy_1221_dzomg_b", "enemy_1220_dzoms_b"],
@@ -209,7 +210,7 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
     if levelId in STAGES_WITH_ENEMY_REF_TO_IGNORE:
         refs_to_ignore = STAGES_WITH_ENEMY_REF_TO_IGNORE[levelId]
     for enemy in enemy_refs:
-        enemy_id = enemy['id']            
+        enemy_id = enemy['id']
         if enemy_id in ENEMIES_TO_IGNORE or enemy_id in refs_to_ignore:
             continue
         if enemy['useDb'] is False:
@@ -455,6 +456,24 @@ def generate_normal_stages():
     jp_stage_table_path = os.path.join(
         script_dir, "global_data/ja_JP/gamedata/excel/stage_table.json"
     )
+    cn_zone_table_path = os.path.join(
+        script_dir, "cn_data/zh_CN/gamedata/excel/zone_table.json"
+    )
+    en_zone_table_path = os.path.join(
+        script_dir, "global_data/en_US/gamedata/excel/zone_table.json"
+    )
+    jp_zone_table_path = os.path.join(
+        script_dir, "global_data/ja_JP/gamedata/excel/zone_table.json"
+    )
+    cn_story_review_table_path = os.path.join(
+        script_dir, "cn_data/zh_CN/gamedata/excel/story_review_table.json"
+    )
+    en_story_review_table_path = os.path.join(
+        script_dir, "global_data/en_US/gamedata/excel/story_review_table.json"
+    )
+    jp_story_review_table_path = os.path.join(
+        script_dir, "global_data/ja_JP/gamedata/excel/story_review_table.json"
+    )
     activity_table_path = os.path.join(
         script_dir, "cn_data/zh_CN/gamedata/excel/activity_table.json"
     )
@@ -465,6 +484,18 @@ def generate_normal_stages():
         en_stage_table = json.load(f)
     with open(jp_stage_table_path, encoding="utf-8") as f:
         jp_stage_table = json.load(f)
+    with open(cn_zone_table_path, encoding="utf-8") as f:
+        cn_zone_table = json.load(f)
+    with open(en_zone_table_path, encoding="utf-8") as f:
+        en_zone_table = json.load(f)
+    with open(jp_zone_table_path, encoding="utf-8") as f:
+        jp_zone_table = json.load(f)
+    with open(cn_story_review_table_path, encoding="utf-8") as f:
+        cn_story_review_table = json.load(f)
+    with open(en_story_review_table_path, encoding="utf-8") as f:
+        en_story_review_table = json.load(f)
+    with open(jp_story_review_table_path, encoding="utf-8") as f:
+        jp_story_review_table = json.load(f)
     with open(activity_table_path, encoding="utf-8") as f:
         activity_table = json.load(f)
 
@@ -479,7 +510,7 @@ def generate_normal_stages():
     for stageId in cn_stage_table['stages']:
         TOPIC_IN_GLOBAL = stageId in en_stage_table['stages']
         stage_info = cn_stage_table['stages'][stageId]
-        if stage_info['isStoryOnly'] or stage_info['stageType'] in ['CLIMB_TOWER','CAMPAIGN','GUIDE']:
+        if stage_info['isStoryOnly'] or stage_info['stageType'] in ['CLIMB_TOWER', 'CAMPAIGN', 'GUIDE']:
             # Ignore Climb tower for now
             continue
         if stage_info['difficulty'] != "NORMAL":
@@ -491,28 +522,22 @@ def generate_normal_stages():
         activity_id = stage_info['zoneId']
         if stage_info['stageType'] == 'ACTIVITY':
             activity_id = activity_table['zoneToActivity'][activity_id] if activity_id in activity_table['zoneToActivity'] else None
-        item = next((item for item in activities if item['id'] == activity_id), None)
+        item = next(
+            (item for item in activities if item['id'] == activity_id), None)
         if not item:
             activities.append(
-            {
-                "id":activity_id,
-                "type": stage_info['stageType'],
-                "name": {
-                    "zh": "",
-                    "ja": "",
-                    "en": ""
-                },
-                "zones":[
-                    {
-				"label": None,
-				"zoneId": None,
-				"name": None,
-				"stages": [
-					
-				]
-			}
-                ]
-            })
+                {
+                    "id": activity_id,
+                    "type": stage_info['stageType'],
+                    "name": {
+                        "zh": cn_story_review_table[activity_id]['name'] if activity_id in cn_story_review_table else None,
+                        "ja": jp_story_review_table[activity_id]['name'] if activity_id in jp_story_review_table else None,
+                        "en": en_story_review_table[activity_id]['name'] if activity_id in en_story_review_table else None,
+                    },
+                    "zones": [
+
+                    ]
+                })
         file_path = stage_info['levelId'].lower()
         stage_data_path = os.path.join(
             script_dir,
@@ -546,12 +571,55 @@ def generate_normal_stages():
         data[stageId] = trimmed_stage_info
         zoneId = stage_info['zoneId']
         if not zoneId in stages:
-            stages[zoneId] = []
-        stages[zoneId].append({
-            "stageId":stageId,
-            "code": stage_info['code']
+            zone_in_global = zoneId in jp_zone_table['zones']
+            zoneNameFirst = {
+                "zh": cn_zone_table['zones'][zoneId]['zoneNameFirst'],
+                "ja": jp_zone_table['zones'][zoneId]['zoneNameFirst'] if zone_in_global else None,
+                "en": en_zone_table['zones'][zoneId]['zoneNameFirst'] if zone_in_global else None,
+            }
+            if zoneNameFirst['zh'] is None:
+                zoneNameFirst = None
+            zoneNameSecond = {
+                "zh": cn_zone_table['zones'][zoneId]['zoneNameSecond'],
+                "ja": jp_zone_table['zones'][zoneId]['zoneNameSecond'] if zone_in_global else None,
+                "en": en_zone_table['zones'][zoneId]['zoneNameSecond'] if zone_in_global else None,
+            }
+            stages[zoneId] = {
+                'zoneNameFirst': zoneNameFirst,
+                'zoneNameSecond': zoneNameSecond,
+                "stages": []
+            }
+        stages[zoneId]['stages'].append({
+            "stageId": stageId,
+            "code": stage_info['code'],
+            "name": {
+                "zh": stage_info['name'],
+                "ja":  jp_stage_table['stages'][stageId]['name'] if TOPIC_IN_GLOBAL else None,
+                "en":  en_stage_table['stages'][stageId]['name'] if TOPIC_IN_GLOBAL else None,
+            }
         })
-
+    for zoneId in stages:
+        activity_id = activity_table['zoneToActivity'][zoneId] if zoneId in activity_table['zoneToActivity'] else None
+        if activity_id:
+            item = next(
+                (item for item in activities if item['id'] == activity_id), None)
+            if item:
+                label = None
+                if len(item['zones']) == 0:
+                    label = 'n'
+                elif len(item['zones']) == 1:
+                    label = 'ex'
+                elif len(item['zones']) == 2:
+                    label = 's'
+                elif len(item['zones']) == 3:
+                    label = ''
+                item['zones'].append({
+                    "label": label,
+                    "zoneId": zoneId,
+                    'zoneNameFirst': stages[zoneId]['zoneNameFirst'],
+                    'zoneNameSecond': stages[zoneId]['zoneNameSecond'],
+                    "stages": stages[zoneId]['stages']
+                })
     for stageId in data:
         write_path = os.path.join(
             script_dir, 'all_stage_data', stageId+".json")
@@ -561,6 +629,7 @@ def generate_normal_stages():
         json.dump(stages, f, ensure_ascii=False, indent=4)
     # with open("activities_list.json", "w", encoding="utf-8") as f:
     #     json.dump(activities, f, ensure_ascii=False, indent=4)
+
 
 def main():
     # generate_roguelike_stages()

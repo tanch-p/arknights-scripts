@@ -37,7 +37,7 @@ with open(jp_skill_table_path, encoding='utf-8') as f:
     jp_skill_table = json.load(f)
 
 holder = {}
-key = 'trap_038_dsbell'
+key = 'trap_247_crfilm'
 
 character_dict = cn_char_table[key]
 # data checker
@@ -82,7 +82,10 @@ holder["desc_ja"] = (
 holder["desc_en"] = (
     en_char_table[key]["description"] if in_global else ""
 )
+holder["tauntLevel"] = 0
+holder["group"] = "ally"
 holder['modelType'] = None
+holder["hideTile"] = False,
 holder["stats"] = [
     {
         "hp": level1['maxHp'],
@@ -113,5 +116,9 @@ holder['talents'] = []
 holder['special'] = []
 holder["status_immune"] = status_immune
 
+data = {
+    key: holder
+}
+
 with open('temp.json', 'w', encoding='utf-8') as f:
-    json.dump(holder, f, ensure_ascii=False, indent=4)
+    json.dump(data, f, ensure_ascii=False, indent=4)
