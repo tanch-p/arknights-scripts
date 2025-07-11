@@ -80,7 +80,7 @@ def update_current_stages():
                 "eliteDesc_ja": extra_info['eliteDesc_ja'],
                 "eliteDesc_en": extra_info['eliteDesc_en'],
                 "all_mods": extra_info['all_mods'] or all_mods, #all mods is just for reference
-                "normal_mods": extra_info['normal_mods'] or normal_mods,
+                "normal_mods": extra_info['normal_mods'],
                 "elite_mods": extra_info['elite_mods'],
                 "enemy_counts": enemy_counts if not extra_info['levelId'] in STAGES_TO_IGNORE else extra_info['enemy_counts'],
                 "sp_count": sp_count,

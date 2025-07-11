@@ -5330,23 +5330,7 @@
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "all_mods": null,
-    "normal_mods": [
-      {
-        "targets": ["ALL"],
-        "mods": [
-          {
-            "key": "atk",
-            "value": 0.5,
-            "mode": "mul"
-          },
-          {
-            "key": "def",
-            "value": 0.5,
-            "mode": "mul"
-          }
-        ]
-      }
-    ],
+    "normal_mods": null,
     "elite_mods": null,
     "enemy_counts": [53],
     "sp_count": null,

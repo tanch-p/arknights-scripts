@@ -60,6 +60,7 @@ def parse_rune(rune):
     special = None
     other = None
     key = rune['key']
+
     if key == "global_buff_normal":  # in roguelike_topic_table relics
         for item in rune['blackboard']:
             if item['key'] == 'key':
@@ -99,9 +100,13 @@ def parse_rune(rune):
                         "value": item['value'],
                         "mode": "add"})
     elif key == 'char_attribute_mul':
+        has_target = False
         for item in rune['blackboard']:
             if item['key'] == "char":
+                has_target = True
                 targets = item['valueStr'].split("|")
+        if not has_target:
+            targets = ["CHAR"]
         for item in rune['blackboard']:
             if item['key'] != "char":
                 mods.append(
