@@ -6245,7 +6245,8 @@
                 "desc_ja": "罠「クリップ」を10<@ba.talpu>(+2)</>個配置可能(所持上限10個)、最初に罠に触れた敵が罠発動効果を受ける",
                 "desc_en": "Can deploy up to 10 <@ba.talpu>(+2)</> 'Clip' traps (Can store up to 10); The first enemy that steps on a trap will trigger its effect",
                 "tags": [
-                    "summon"
+                    "summon",
+                    "aspd_unrelated"
                 ],
                 "blackboard": [
                     {
@@ -6268,7 +6269,8 @@
                 "desc_ja": "罠「ウェルカムマット」を10<@ba.talpu>(+2)</>個配置可能(所持上限10個)、最初に罠に触れた敵は罠発動効果を受ける",
                 "desc_en": "Can deploy up to 10 <@ba.talpu>(+2)</> Welcome Mats (Can store up to 10); The first enemy that steps on a Welcome Mat will trigger its effect",
                 "tags": [
-                    "summon"
+                    "summon",
+                    "aspd_unrelated"
                 ],
                 "blackboard": [
                     {
@@ -8463,7 +8465,8 @@
                 "tags": [
                     "apoptosis",
                     "ele_dmg",
-                    "aoe"
+                    "aoe",
+                    "aspd_unrelated"
                 ],
                 "blackboard": [
                     {
@@ -9047,7 +9050,8 @@
                 "desc_ja": "罠「共振装置」を10<@ba.talpu>(+2)</>個配置可能(所持上限10個)、最初に罠に触れた敵が罠発動効果を受ける。ドロシーの配置後即座に攻撃範囲内に共振装置を2個配置する",
                 "desc_en": "Can deploy up to 10 <@ba.talpu>(+2)</> Resonators (Can store up to 10); The first enemy that steps on a Resonator will trigger its effect. On deployment, immediately deploys 2 Resonators within Attack Range",
                 "tags": [
-                    "summon"
+                    "summon",
+                    "aspd_unrelated"
                 ],
                 "blackboard": [
                     {
@@ -13243,7 +13247,8 @@
                 "tags": [
                     "arts",
                     "burning",
-                    "ele_dmg"
+                    "ele_dmg",
+                    "aspd_unrelated"
                 ],
                 "blackboard": [
                     {
@@ -13390,7 +13395,8 @@
                 "desc_ja": "",
                 "desc_en": "",
                 "tags": [
-                    "summon"
+                    "summon",
+                    "aspd_unrelated"
                 ],
                 "blackboard": []
             }
