@@ -96,6 +96,16 @@ STAGES_WITH_REF_TO_REPLACE = {'level_rogue4_b-4': 'level_rogue4_b-4-c',
                               'level_rogue4_t-8': 'levelreplacers/level_rogue4_t-8_r1', }
 
 
+def is_unhandled_alert(levelId, key, rogue_topic):
+    levels_to_ignore = ['level_rogue1_1-5', 'level_rogue2_b-7','level_rogue3_3-4','level_rogue3_4-3' 'level_rogue4_5-1',
+                        'level_rogue4_t-5', 'level_rogue4_6-1', 'level_rogue4_7-1','level_rogue4_b-2-c']
+    if levelId in levels_to_ignore:
+        return False
+    if rogue_topic == "ro3" and key == "enemy_1106_byokai":
+        return False
+    return True
+
+
 script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
 enemy_database_path = os.path.join(
@@ -107,6 +117,8 @@ with open(enemy_database_path, encoding="utf-8") as f:
     enemy_database = json.load(f)
 with open("enemy_database.json", encoding="utf-8") as f:
     my_enemy_db = json.load(f)
+
+alerts = []
 
 
 def get_rogue_topic(folder):
@@ -216,7 +228,8 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
         if enemy['useDb'] is False:
             enemy_id = enemy["overwrittenData"]['prefabKey']['m_value']
             if not (levelId in talent_overwrite_list and enemy['id'] in talent_overwrite_list[levelId]):
-                print(f"{enemy_id} useDb is False")
+                if is_unhandled_alert(levelId, enemy_id, rogue_topic):
+                    alerts.append(f"{enemy['id']} useDb is False in {levelId}")
         if enemy_id in my_enemy_db:
             overwrittenData = {}
             if enemy["overwrittenData"]:
@@ -246,8 +259,10 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
                     overwrittenData['talentBlackboard'] = talent_overwrite_list[levelId][enemy['id']]
                 elif enemy['overwrittenData']['talentBlackboard'] or enemy['overwrittenData']['skills']:
                     if levelId not in talent_overwrite_list and enemy['id'] != 'enemy_1106_byokai_b':
-                        print(
-                            'talent overwrite', enemy['id'], my_enemy_db[enemy_id]['name_zh'], levelId)
+                        if is_unhandled_alert(levelId, enemy_id, rogue_topic):
+                            alerts.append(
+                                f"talent overwrite, {enemy['id']}, {my_enemy_db[enemy_id]['name_zh']}, {levelId})")
+
                     if enemy['id'] == 'enemy_1106_byokai_b' and rogue_topic == 'ro3':
                         overwrittenData['talentBlackboard'] = talent_overwrite_list['rogue_3'][enemy['id']]
 
@@ -255,7 +270,10 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
                     if not 'talentBlackboard' in overwrittenData:
                         overwrittenData['talentBlackboard'] = []
                     for item in enemy['overwrittenData']['talentBlackboard']:
-                        if levelId == 'level_rogue2_b-7' and item['key'] == 'Combat.enemy_key':
+                        if item['key'] == 'yinyang.dynamic' and item['value'] == 0:
+                            overwrittenData['talentBlackboard'].append(
+                                talent_overwrite_list['yinyang'])
+                        elif levelId == 'level_rogue2_b-7' and item['key'] == 'Combat.enemy_key':
                             overwrittenData['talentBlackboard'].append(
                                 {'key': "transform", "value": item['valueStr']})
                         elif levelId == 'level_rogue4_b-8' and item['key'] == 'summon.enemy_key':
@@ -264,8 +282,6 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
                         elif item['key'] == 'parasitic' and item['valueStr'] == "true":
                             overwrittenData['talentBlackboard'].append(
                                 {"key": "parasitic"})
-            # if levelId == 'level_rogue4_2-7' and (enemy['id'] == 'enemy_10003_trwlpl' or enemy['id'] == 'enemy_10003_trwlpl_2'):
-            #     overwrittenData['talentBlackboard'] = talent_overwrite_list[levelId][enemy['id']]
             if len(overwrittenData) == 0:
                 overwrittenData = None
             '''
@@ -632,8 +648,10 @@ def generate_normal_stages():
 
 
 def main():
-    # generate_roguelike_stages()
-    generate_normal_stages()
+    generate_roguelike_stages()
+    # generate_normal_stages()
+    with open('temp.json', 'w', encoding='utf-8') as f:
+        json.dump(alerts, f, ensure_ascii=False, indent=4)
 
 
 if __name__ == "__main__":
