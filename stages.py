@@ -23,7 +23,7 @@ STAT_KEY_CONVERSION_TABLE = {
 TRAPS_TO_EXCLUDE = ["trap_042_tidectrl", "trap_061_creep", "trap_062_magicstart",
                     "trap_063_magicturn", "trap_050_blizzard", "trap_092_vgctrl",
                     "trap_036_storm", "trap_162_lrctrl", "trap_766_duelwal",
-                    "trap_767_duelcdt", "trap_106_smtree",'trap_239_dyffgd','trap_240_dyffdd']
+                    "trap_767_duelcdt", "trap_106_smtree",'trap_251_buftrp','trap_239_dyffgd','trap_240_dyffdd']
 ENEMIES_TO_IGNORE = ['enemy_2086_skzdwx', 'enemy_2087_skzdwy',
                      'enemy_2088_skzdwz', 'enemy_2062_smcar']
 STAGES_WITH_ENEMY_REF_TO_IGNORE = {"level_rogue1_4-2": ["enemy_1025_reveng_2"],
@@ -94,7 +94,9 @@ STAGES_WITH_REF_TO_REPLACE = {'level_rogue4_b-4': 'level_rogue4_b-4-c',
                               'level_rogue4_t-6': 'levelreplacers/level_rogue4_t-6_r1',
                               'level_rogue4_t-7': 'levelreplacers/level_rogue4_t-7_r1',
                               'level_rogue4_t-8': 'levelreplacers/level_rogue4_t-8_r1', }
+STAGES_WITH_NAME_TO_REPLACE={
 
+}
 
 def is_unhandled_alert(levelId, key, rogue_topic):
     levels_to_ignore = ['level_rogue1_1-5', 'level_rogue2_b-7','level_rogue3_3-4','level_rogue3_4-3' 'level_rogue4_5-1',
@@ -439,10 +441,14 @@ def generate_roguelike_stages():
         rogue_topic = get_rogue_topic(topic_dict['folder'])
         for stage in stages_list:
             if rogue_topic in stage['tags']:
-                stage_nav[stage['name_zh']] = {
-                    "levelId": stage['levelId'],
+                stage_name = stage['name_zh']
+                levelId = stage['levelId']
+                if ('-b' in levelId and 'sv' in levelId) or ('_fs-' in levelId and 'b' in levelId):
+                    stage_name+='(b)'
+                stage_nav[stage_name] = {
+                    "levelId": levelId,
                     "code": stage['code'],
-                    "name_zh": stage['name_zh'],
+                    "name_zh": stage_name,
                     "name_ja": stage['name_ja'],
                     "name_en": stage['name_en'],
                 }

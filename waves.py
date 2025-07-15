@@ -11,7 +11,7 @@ HIDDEN_GROUPS = ['allydonq', "totem1", 'totem2', 'bossrelic', 'calamity',
 ALWAYS_KILLED_KEYS = ['enemy_2073_skzrck',
     'enemy_2094_skzamb',
     'enemy_1106_byokai_b',
-    'enemy_3005_lpeopl']
+    'enemy_3005_lpeopl','enemy_2101_dyspll']
 
 
 def get_wave_data(stage_data, stage_id, log=False):

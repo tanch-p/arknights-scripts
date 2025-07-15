@@ -1,461 +1,555 @@
 {
-  "rogue_3": {
-    "enemy_1106_byokai_b": [
-      {
-        "key": "byokai_buff",
-        "duration": 60.0
-      }
-    ]
-  },
-  "yinyang": {
-    "value": 0,
-    "tooltip": {
-      "en": ["Initially has Hui attribute"],
-      "ja": ["反登場時、【晦】属性になる"],
-      "zh": ["初始获得【晦】属性"]
-    }
-  },
-  "level_rogue1_b-5": {
-    "enemy_1067_snslime": [{ "key": "bug_explode_frost", "duration": 5 }]
-  },
-  "level_rogue1_ev-1": {
-    "enemy_1101_plkght_3": [{ "key": "roarknight_barrier", "duration": 100 }],
-    "enemy_1103_wdkght_3": [
-      {
-        "key": "bloodboil_knight",
-        "atk": { "multiplier": 1.2, "order": "initial" },
-        "aspd": { "fixed": 120 },
-        "stack": 3,
-        "atk_gain": 40,
-        "aspd_gain": 40
-      }
-    ]
-  },
-  "level_rogue1_2-2": {
-    "enemy_1025_reveng": [
-      {
-        "key": "avenger",
-        "atk": { "multiplier": 1.5, "order": "initial" }
-      }
-    ]
-  },
-  "level_rogue1_3-2": {
-    "enemy_1504_cqbw": [
-      {
-        "key": "W_C4",
-        "atk": { "multiplier": 2 }
-      }
-    ],
-    "enemy_1075_dmgswd": [
-      {
-        "key": "sarkaz_standby",
-        "standby": 0
-      }
-    ],
-    "enemy_1075_dmgswd_2": [
-      {
-        "key": "sarkaz_standby",
-        "standby": 190
-      }
-    ]
-  },
-  "level_rogue1_4-8": {
-    "enemy_1191_krgrg": [
-      {
-        "key": "icefield_arts_fighter_explode",
-        "duration": 10
-      }
-    ]
-  },
-  "level_rogue1_5-3": {
-    "enemy_1074_dbskar": [
-      {
-        "key": "sarkaz_standby",
-        "standby": 130
-      }
-    ]
-  },
-  "level_rogue2_3-1": {
-    "enemy_1083_sotiab_2": [
-      {
-        "key": "guerilla_siegebreaker_buff",
-        "atk": { "multiplier": 1, "order": "initial" }
-      }
-    ]
-  },
-  "level_rogue2_3-5": {
-    "enemy_1062_rager": [
-      {
-        "key": "bleed_true",
-        "value": 350
-      }
-    ],
-    "enemy_1063_rageth": [
-      {
-        "key": "bleed_true",
-        "value": 350
-      }
-    ]
-  },
-  "level_rogue2_4-5": {
-    "enemy_1151_dslntc_2": [{ "key": "sea_reaper_awaken", "standby": 0 }]
-  },
-  "level_rogue2_5-5": {
-    "enemy_1151_dslntc_2": [{ "key": "sea_reaper_awaken", "standby": 180 }]
-  },
-  "level_rogue2_b-7": {},
-  "level_rogue2_ev-1": {
-    "enemy_1104_lfkght_2": [
-      {
-        "key": "left_hand_debuff",
-        "initCooldown": 5,
-        "cooldown": 40,
-        "duration": 40
-      }
-    ]
-  },
-  "level_rogue2_ev-3": {
-    "enemy_1074_dbskar": [
-      {
-        "key": "sarkaz_standby",
-        "standby": 200
-      }
-    ],
-    "enemy_1074_dbskar_2": [
-      {
-        "key": "sarkaz_standby",
-        "standby": 200
-      }
-    ],
-    "enemy_1074_dbskar_0": [
-      {
-        "key": "sarkaz_standby",
-        "standby": 70
-      }
-    ],
-    "enemy_1074_dbskar_1": [
-      {
-        "key": "sarkaz_standby",
-        "standby": 110
-      }
-    ],
-    "enemy_1074_dbskar_15": [
-      {
-        "key": "sarkaz_standby",
-        "standby": 160
-      }
-    ],
-    "enemy_1074_dbskar_2_0": [
-      {
-        "key": "sarkaz_standby",
-        "standby": 70
-      }
-    ],
-    "enemy_1074_dbskar_2_1": [
-      {
-        "key": "sarkaz_standby",
-        "standby": 110
-      }
-    ],
-    "enemy_1074_dbskar_2_2": [
-      {
-        "key": "sarkaz_standby",
-        "standby": 160
-      }
-    ]
-  },
-  "level_rogue2_5-4": {
-    "enemy_1243_ltswar": [
-      { "key": "sarks_performance", "cooldown": 10, "initCooldown": 10.0 }
-    ],
-    "enemy_1243_ltswar_2": [
-      { "key": "sarks_performance", "cooldown": 10, "initCooldown": 10.0 }
-    ]
-  },
-  "level_rogue2_b-9": {
-    "enemy_1068_snmage_2": [{ "key": "caster_frost_attack", "spCost": 1 }]
-  },
-  "level_rogue3_1-2": {
-    "enemy_1075_dmgswd": [
-      {
-        "key": "sarkaz_standby",
-        "standby": 85
-      }
-    ],
-    "enemy_1074_dbskar": [
-      {
-        "key": "sarkaz_standby",
-        "standby": 85
-      }
-    ]
-  },
-  "level_rogue3_1-4": {
-    "enemy_1303_mhshep_b": [{ "key": "standby", "standby": 0 }]
-  },
-  "level_rogue3_2-6": {
-    "enemy_1267_nhpbr": [{ "key": "nhpbr_pollution", "low": 100, "high": 50 }],
-    "enemy_1273_stmgun": [
-      { "key": "stmgun_bombard", "atk": { "multiplier": 0.8 } }
-    ],
-    "enemy_1272_nhtank": [{ "key": "nhtank_pollution", "low": 100, "high": 50 }]
-  },
-  "level_rogue3_3-6": {
-    "enemy_1075_dmgswd": [
-      {
-        "key": "sarkaz_standby",
-        "standby": 0
-      }
-    ]
-  },
-  "level_rogue3_5-2": {
-    "enemy_1266_nhapos": [{ "key": "nhapos_pollution", "low": 100, "high": 50 }]
-  },
-  "level_rogue3_6-2": {
-    "enemy_2007_flwitch": [{ "key": "invincible", "value": 40, "formIndex": 0 }]
-  },
-  "level_rogue3_b-4-b": {
-    "enemy_2054_smdeer_b": [
-      { "key": "smdeer_3", "value": 70 },
-      {
-        "key": "smdeer_2",
-        "remove": true,
-        "tooltip": {
-          "en": ["$Will not use Surge of Nature$"],
-          "ja": ["$自然の奔流使わない$"],
-          "zh": ["$不会使用自然涌动$"]
-        }
-      }
-    ],
-    "enemy_1243_ltswar_2": [
-      { "key": "sarks_performance", "cooldown": 15.0, "initCooldown": 11.0 }
-    ]
-  },
-  "level_rogue3_b-5-b": {
-    "enemy_1074_dbskar_2": [
-      {
-        "key": "sarkaz_standby",
-        "standby": 0
-      }
-    ]
-  },
-  "level_rogue3_b-6-b": {
-    "enemy_1017_defdrn": [{ "key": "mcv4_def_buff", "value": 600 }]
-  },
-  "level_rogue3_ev-5": {
-    "enemy_3004_speople": [{ "key": "speople_1", "dead": 200 }]
-  },
-  "level_rogue4_t-2": {
-    "enemy_3005_lpeopl": [
-      {
-        "key": "lpeopl_1",
-        "tooltip": {
-          "en": ["$Will retreat to Protection Objective$"],
-          "ja": ["$防衛ラインに退却する$"],
-          "zh": ["$会撤回保护目标点$"]
-        }
-      }
-    ]
-  },
-  "level_rogue4_t-4": {
-    "enemy_1311_mhkryk_2": [
-      {
-        "key": "mhkryk_1",
-        "spineState": 1,
-        "tooltip": {
-          "en": ["$Already holds shell on spawn$"],
-          "ja": ["$出現時すでに甲羅所持状態$"],
-          "zh": ["$出现时持有甲壳$"]
-        }
-      }
-    ]
-  },
-  "level_rogue4_2-5": {
-    "enemy_1075_dmgswd": [
-      {
-        "key": "sarkaz_standby",
-        "standby": 200
-      }
-    ]
-  },
-  "level_rogue4_3-1": {
-    "enemy_1276_telex": [
-      {
-        "key": "extra",
-        "tooltip": {
-          "en": ["$Does not attack or use skills$"],
-          "ja": ["$攻撃しない$"],
-          "zh": ["$不会进行攻击$"]
-        }
-      }
-    ]
-  },
-  "level_rogue4_4-3": {
-    "enemy_1412_mmjump": [
-      {
-        "key": "mmjump_1",
-        "duration": 3.7
-      }
-    ]
-  },
-  "level_rogue4_4-6": {
-    "enemy_1074_dbskar_2": [
-      {
-        "key": "sarkaz_standby",
-        "standby": 100
-      }
-    ],
-    "enemy_1074_dbskar_2b": [
-      {
-        "key": "sarkaz_standby",
-        "standby": 150
-      }
-    ],
-    "enemy_1074_dbskar_2c": [
-      {
-        "key": "sarkaz_standby",
-        "standby": 240
-      }
-    ]
-  },
-  "level_rogue4_4-8": {
-    "enemy_1504_cqbw": [
-      {
-        "key": "W_C4",
-        "cooldown": 5.0,
-        "initCooldown": 5.0
-      }
-    ]
-  },
-  "level_rogue4_5-1": {
-    "enemy_1511_mdrock": [
-      {
-        "key": "mudrock_shield",
-        "value": 20001,
-        "cooldown": 15.0,
-        "initCooldown": 15.0
-      }
-    ]
-  },
-  "level_rogue4_5-5": {
-    "enemy_1074_dbskar_2": [
-      {
-        "key": "sarkaz_standby",
-        "standby": 200
-      }
-    ]
-  },
-  "level_rogue4_5-9": {
-    "enemy_1332_cbterm_2_2": [
-      {
-        "key": "def_res_shield",
-        "tooltip": {
-          "en": ["$Does not lose defense/res when receiving damage$"],
-          "ja": ["ダメージを受けるとき、防御力・術耐性が$減少しない$"],
-          "zh": ["受到伤害时，防御，法术抗性$不会降低$"]
-        }
-      },
-      {
-        "key": "cbterm_explode",
-        "atk": { "multiplier": 1 }
-      },
-      {
-        "key": "cbterm2",
-        "tooltip": {
-          "en": ["When defeated, spawns a $<R-11a Assault Power Armor>$"],
-          "ja": [
-            "倒されると、自身の位置に$「R-11a突撃型パワードスーツ」$を1体召喚する"
-          ],
-          "zh": [
-            "被击倒后在自身所在地块中心以自身路径召唤1个$R-11a突击动力装甲$"
-          ]
-        }
-      }
-    ]
-  },
-  "level_rogue4_b-7": {
-    "enemy_1128_spmage_2": [
-      {
-        "key": "envy_beam",
-        "remove": true,
-        "tooltip": {
-          "en": ["$Will not use charge attack$"],
-          "ja": ["$チャージ攻撃しない$"],
-          "zh": ["$场上没有【明】或【晦】属性的友方单位，不会使用蓄力攻击$"]
-        }
-      }
-    ]
-  },
-  "level_rogue4_b-9": {
-    "enemy_2092_skzamy": [
-      {
-        "key": "skzamy_1_2",
-        "spCost": 2,
-        "skillType": "INCREASE_WITH_TIME",
-        "suffix": {
-          "en": "Premonition of Continuation",
-          "ja": "存続の前兆",
-          "zh": "存续先兆"
-        },
-        "tooltip": {
-          "en": [
-            "Stops attacking and casts skill, every 3.5s seals tiles starting from the leftmost"
-          ],
-          "ja": [
-            "詠唱状態に入り、3.5秒毎にマップ左側から縦1列ずつ配置不可マスにしていく、マス上にいるすべてのユニットを消滅させていく"
-          ],
-          "zh": ["停止攻击，逐渐消灭所有场地及其上的单位。"]
-        }
-      },
-      { "key": "skzamy_mech_1", "tooltip": null },
-      { "key": "skzamy_mech_2", "tooltip": null },
-      { "key": "dmg_res", "value": 20, "formIndex": 0 },
-      { "key": "skzamy_0_1", "type": "others", "tooltip": null },
-      {
-        "key": "skzamy_1_0",
-        "tooltip": {
-          "en": [
-            "[Those Who Should Not Be] - Amiya becomes Invulnerable when HP drops below 50% for the first time"
-          ],
-          "ja": [
-            "【存在すべきでない人】：初めてHPが50%未満になったとき、無敵状態になる"
-          ],
-          "zh": [
-            "【不应存在之人】：持有不死，生命值首次低于50%时，获得无敌至作战第三阶段"
-          ]
-        },
-        "formIndex": 0
-      },
-      { "key": "skzamy_1_1", "tooltip": null, "formIndex": 0 },
-      { "key": "skzamy_1_3", "tooltip": null, "formIndex": 0 },
-      { "key": "skzamy_2_1", "tooltip": null, "formIndex": 1 },
-      { "key": "skzamy_2_2", "tooltip": null, "formIndex": 1 },
-      { "key": "skzamy_2_3", "tooltip": null, "formIndex": 1 }
-    ]
-  },
-  "level_rogue5_4-2":{
-    "enemy_10036_cnvpvd":[{"key":"cnv_dmg_res","value":30}]
-  },
-  "level_rogue5_5-2": {
-    "enemy_1074_dbskar_2": [
-      {
-        "key": "sarkaz_standby",
-        "standby": 200
-      }
-    ]
-  },
-  "level_rogue5_t-2": {
-    "enemy_2034_sythef_b": [{ "key": "attack_stun", "value": 8 }]
-  },
-  "level_rogue5_t-4": {
-    "enemy_2110_dyyrzf": [{ "key": "dyyrzf_battle", "initCooldown": 20 }],
-    "enemy_2112_dyhlgy": [{ "key": "dyhlgy_battle", "initCooldown": 40 }],
-    "enemy_2114_dylbgg": [{ "key": "dylbgg_battle", "initCooldown": 60 }],
-    "enemy_2116_dyyysg": [{ "key": "dyyysg_fish", "cooldown": 10 }]
-  },
-  "level_rogue5_t-6": {
-    "enemy_2107_dycant": []
-  },
-  "level_rogue5_t-7": {
-    "enemy_1151_dslntc": [{ "key": "sea_reaper_awaken", "standby": 200 }]
-  }
+	"rogue_3": {
+		"enemy_1106_byokai_b": [
+			{
+				"key": "byokai_buff",
+				"duration": 60.0
+			}
+		]
+	},
+	"yinyang": {
+    "key":"yinyang",
+		"value": 0,
+		"tooltip": {
+			"en": ["Initially has Hui attribute"],
+			"ja": ["反登場時、【晦】属性になる"],
+			"zh": ["初始获得【晦】属性"]
+		}
+	},
+	"level_rogue1_b-5": {
+		"enemy_1067_snslime": [{ "key": "bug_explode_frost", "duration": 5 }]
+	},
+	"level_rogue1_ev-1": {
+		"enemy_1101_plkght_3": [{ "key": "roarknight_barrier", "duration": 100 }],
+		"enemy_1103_wdkght_3": [
+			{
+				"key": "bloodboil_knight",
+				"atk": { "multiplier": 1.2, "order": "initial" },
+				"aspd": { "fixed": 120 },
+				"stack": 3,
+				"atk_gain": 40,
+				"aspd_gain": 40
+			}
+		]
+	},
+	"level_rogue1_2-2": {
+		"enemy_1025_reveng": [
+			{
+				"key": "avenger",
+				"atk": { "multiplier": 1.5, "order": "initial" }
+			}
+		]
+	},
+	"level_rogue1_3-2": {
+		"enemy_1504_cqbw": [
+			{
+				"key": "W_C4",
+				"atk": { "multiplier": 2 }
+			}
+		],
+		"enemy_1075_dmgswd": [
+			{
+				"key": "sarkaz_standby",
+				"standby": 0
+			}
+		],
+		"enemy_1075_dmgswd_2": [
+			{
+				"key": "sarkaz_standby",
+				"standby": 190
+			}
+		]
+	},
+	"level_rogue1_4-8": {
+		"enemy_1191_krgrg": [
+			{
+				"key": "icefield_arts_fighter_explode",
+				"duration": 10
+			}
+		]
+	},
+	"level_rogue1_5-3": {
+		"enemy_1074_dbskar": [
+			{
+				"key": "sarkaz_standby",
+				"standby": 130
+			}
+		]
+	},
+	"level_rogue2_3-1": {
+		"enemy_1083_sotiab_2": [
+			{
+				"key": "guerilla_siegebreaker_buff",
+				"atk": { "multiplier": 1, "order": "initial" }
+			}
+		]
+	},
+	"level_rogue2_3-5": {
+		"enemy_1062_rager": [
+			{
+				"key": "bleed_true",
+				"value": 350
+			}
+		],
+		"enemy_1063_rageth": [
+			{
+				"key": "bleed_true",
+				"value": 350
+			}
+		]
+	},
+	"level_rogue2_4-5": {
+		"enemy_1151_dslntc_2": [{ "key": "sea_reaper_awaken", "standby": 0 }]
+	},
+	"level_rogue2_5-5": {
+		"enemy_1151_dslntc_2": [{ "key": "sea_reaper_awaken", "standby": 180 }]
+	},
+	"level_rogue2_b-7": {},
+	"level_rogue2_ev-1": {
+		"enemy_1104_lfkght_2": [
+			{
+				"key": "left_hand_debuff",
+				"initCooldown": 5,
+				"cooldown": 40,
+				"duration": 40
+			}
+		]
+	},
+	"level_rogue2_ev-3": {
+		"enemy_1074_dbskar": [
+			{
+				"key": "sarkaz_standby",
+				"standby": 200
+			}
+		],
+		"enemy_1074_dbskar_2": [
+			{
+				"key": "sarkaz_standby",
+				"standby": 200
+			}
+		],
+		"enemy_1074_dbskar_0": [
+			{
+				"key": "sarkaz_standby",
+				"standby": 70
+			}
+		],
+		"enemy_1074_dbskar_1": [
+			{
+				"key": "sarkaz_standby",
+				"standby": 110
+			}
+		],
+		"enemy_1074_dbskar_15": [
+			{
+				"key": "sarkaz_standby",
+				"standby": 160
+			}
+		],
+		"enemy_1074_dbskar_2_0": [
+			{
+				"key": "sarkaz_standby",
+				"standby": 70
+			}
+		],
+		"enemy_1074_dbskar_2_1": [
+			{
+				"key": "sarkaz_standby",
+				"standby": 110
+			}
+		],
+		"enemy_1074_dbskar_2_2": [
+			{
+				"key": "sarkaz_standby",
+				"standby": 160
+			}
+		]
+	},
+	"level_rogue2_5-4": {
+		"enemy_1243_ltswar": [
+			{ "key": "sarks_performance", "cooldown": 10, "initCooldown": 10.0 }
+		],
+		"enemy_1243_ltswar_2": [
+			{ "key": "sarks_performance", "cooldown": 10, "initCooldown": 10.0 }
+		]
+	},
+	"level_rogue2_b-9": {
+		"enemy_1068_snmage_2": [{ "key": "caster_frost_attack", "spCost": 1 }]
+	},
+	"level_rogue3_1-2": {
+		"enemy_1075_dmgswd": [
+			{
+				"key": "sarkaz_standby",
+				"standby": 85
+			}
+		],
+		"enemy_1074_dbskar": [
+			{
+				"key": "sarkaz_standby",
+				"standby": 85
+			}
+		]
+	},
+	"level_rogue3_1-4": {
+		"enemy_1303_mhshep_b": [{ "key": "standby", "standby": 0 }]
+	},
+	"level_rogue3_2-6": {
+		"enemy_1267_nhpbr": [{ "key": "nhpbr_pollution", "low": 100, "high": 50 }],
+		"enemy_1273_stmgun": [
+			{ "key": "stmgun_bombard", "atk": { "multiplier": 0.8 } }
+		],
+		"enemy_1272_nhtank": [{ "key": "nhtank_pollution", "low": 100, "high": 50 }]
+	},
+	"level_rogue3_3-6": {
+		"enemy_1075_dmgswd": [
+			{
+				"key": "sarkaz_standby",
+				"standby": 0
+			}
+		]
+	},
+	"level_rogue3_5-2": {
+		"enemy_1266_nhapos": [{ "key": "nhapos_pollution", "low": 100, "high": 50 }]
+	},
+	"level_rogue3_6-2": {
+		"enemy_2007_flwitch": [{ "key": "invincible", "value": 40, "formIndex": 0 }]
+	},
+	"level_rogue3_b-4-b": {
+		"enemy_2054_smdeer_b": [
+			{ "key": "smdeer_3", "value": 70 },
+			{
+				"key": "smdeer_2",
+				"remove": true,
+				"tooltip": {
+					"en": ["$Will not use Surge of Nature$"],
+					"ja": ["$自然の奔流使わない$"],
+					"zh": ["$不会使用自然涌动$"]
+				}
+			}
+		],
+		"enemy_1243_ltswar_2": [
+			{ "key": "sarks_performance", "cooldown": 15.0, "initCooldown": 11.0 }
+		]
+	},
+	"level_rogue3_b-5-b": {
+		"enemy_1074_dbskar_2": [
+			{
+				"key": "sarkaz_standby",
+				"standby": 0
+			}
+		]
+	},
+	"level_rogue3_b-6-b": {
+		"enemy_1017_defdrn": [{ "key": "mcv4_def_buff", "value": 600 }]
+	},
+	"level_rogue3_ev-5": {
+		"enemy_3004_speople": [{ "key": "speople_1", "dead": 200 }]
+	},
+	"level_rogue4_t-2": {
+		"enemy_3005_lpeopl": [
+			{
+				"key": "lpeopl_1",
+				"tooltip": {
+					"en": ["$Will retreat to Protection Objective$"],
+					"ja": ["$防衛ラインに退却する$"],
+					"zh": ["$会撤回保护目标点$"]
+				}
+			}
+		]
+	},
+	"level_rogue4_t-4": {
+		"enemy_1311_mhkryk_2": [
+			{
+				"key": "mhkryk_1",
+				"spineState": 1,
+				"tooltip": {
+					"en": ["$Already holds shell on spawn$"],
+					"ja": ["$出現時すでに甲羅所持状態$"],
+					"zh": ["$出现时持有甲壳$"]
+				}
+			}
+		]
+	},
+	"level_rogue4_2-5": {
+		"enemy_1075_dmgswd": [
+			{
+				"key": "sarkaz_standby",
+				"standby": 200
+			}
+		]
+	},
+	"level_rogue4_3-1": {
+		"enemy_1276_telex": [
+			{
+				"key": "extra",
+				"tooltip": {
+					"en": ["$Does not attack or use skills$"],
+					"ja": ["$攻撃しない$"],
+					"zh": ["$不会进行攻击$"]
+				}
+			}
+		]
+	},
+	"level_rogue4_4-3": {
+		"enemy_1412_mmjump": [
+			{
+				"key": "mmjump_1",
+				"duration": 3.7
+			}
+		]
+	},
+	"level_rogue4_4-6": {
+		"enemy_1074_dbskar_2": [
+			{
+				"key": "sarkaz_standby",
+				"standby": 100
+			}
+		],
+		"enemy_1074_dbskar_2b": [
+			{
+				"key": "sarkaz_standby",
+				"standby": 150
+			}
+		],
+		"enemy_1074_dbskar_2c": [
+			{
+				"key": "sarkaz_standby",
+				"standby": 240
+			}
+		]
+	},
+	"level_rogue4_4-8": {
+		"enemy_1504_cqbw": [
+			{
+				"key": "W_C4",
+				"cooldown": 5.0,
+				"initCooldown": 5.0
+			}
+		]
+	},
+	"level_rogue4_5-1": {
+		"enemy_1511_mdrock": [
+			{
+				"key": "mudrock_shield",
+				"value": 20001,
+				"cooldown": 15.0,
+				"initCooldown": 15.0
+			}
+		]
+	},
+	"level_rogue4_5-5": {
+		"enemy_1074_dbskar_2": [
+			{
+				"key": "sarkaz_standby",
+				"standby": 200
+			}
+		]
+	},
+	"level_rogue4_5-9": {
+		"enemy_1332_cbterm_2_2": [
+			{
+				"key": "def_res_shield",
+				"tooltip": {
+					"en": ["$Does not lose defense/res when receiving damage$"],
+					"ja": ["ダメージを受けるとき、防御力・術耐性が$減少しない$"],
+					"zh": ["受到伤害时，防御，法术抗性$不会降低$"]
+				}
+			},
+			{
+				"key": "cbterm_explode",
+				"atk": { "multiplier": 1 }
+			},
+			{
+				"key": "cbterm2",
+				"tooltip": {
+					"en": ["When defeated, spawns a $<R-11a Assault Power Armor>$"],
+					"ja": [
+						"倒されると、自身の位置に$「R-11a突撃型パワードスーツ」$を1体召喚する"
+					],
+					"zh": [
+						"被击倒后在自身所在地块中心以自身路径召唤1个$R-11a突击动力装甲$"
+					]
+				}
+			}
+		]
+	},
+	"level_rogue4_b-7": {
+		"enemy_1128_spmage_2": [
+			{
+				"key": "envy_beam",
+				"remove": true,
+				"tooltip": {
+					"en": ["$Will not use charge attack$"],
+					"ja": ["$チャージ攻撃しない$"],
+					"zh": ["$场上没有【明】或【晦】属性的友方单位，不会使用蓄力攻击$"]
+				}
+			}
+		]
+	},
+	"level_rogue4_b-9": {
+		"enemy_2092_skzamy": [
+			{
+				"key": "skzamy_1_2",
+				"spCost": 2,
+				"skillType": "INCREASE_WITH_TIME",
+				"suffix": {
+					"en": "Premonition of Continuation",
+					"ja": "存続の前兆",
+					"zh": "存续先兆"
+				},
+				"tooltip": {
+					"en": [
+						"Stops attacking and casts skill, every 3.5s seals tiles starting from the leftmost"
+					],
+					"ja": [
+						"詠唱状態に入り、3.5秒毎にマップ左側から縦1列ずつ配置不可マスにしていく、マス上にいるすべてのユニットを消滅させていく"
+					],
+					"zh": ["停止攻击，逐渐消灭所有场地及其上的单位。"]
+				}
+			},
+			{ "key": "skzamy_mech_1", "tooltip": null },
+			{ "key": "skzamy_mech_2", "tooltip": null },
+			{ "key": "dmg_res", "value": 20, "formIndex": 0 },
+			{ "key": "skzamy_0_1", "type": "others", "tooltip": null },
+			{
+				"key": "skzamy_1_0",
+				"tooltip": {
+					"en": [
+						"[Those Who Should Not Be] - Amiya becomes Invulnerable when HP drops below 50% for the first time"
+					],
+					"ja": [
+						"【存在すべきでない人】：初めてHPが50%未満になったとき、無敵状態になる"
+					],
+					"zh": [
+						"【不应存在之人】：持有不死，生命值首次低于50%时，获得无敌至作战第三阶段"
+					]
+				},
+				"formIndex": 0
+			},
+			{ "key": "skzamy_1_1", "tooltip": null, "formIndex": 0 },
+			{ "key": "skzamy_1_3", "tooltip": null, "formIndex": 0 },
+			{ "key": "skzamy_2_1", "tooltip": null, "formIndex": 1 },
+			{ "key": "skzamy_2_2", "tooltip": null, "formIndex": 1 },
+			{ "key": "skzamy_2_3", "tooltip": null, "formIndex": 1 }
+		]
+	},
+	"level_rogue5_b-2": {
+		"enemy_2110_dyyrzf": [{ "key": "yan_statue_standby", "standby": 75 }],
+		"enemy_2112_dyhlgy": [{ "key": "yan_statue_standby", "standby": 105 }],
+		"enemy_2114_dylbgg": [
+			{ "key": "yan_statue_standby", "standby": 135 },
+			{ "key": "dylbgg_heal", "atk": { "multiplier": 1.2 } }
+		]
+	},
+	"level_rogue5_b-2-b": {
+		"enemy_2111_dyyrz2": [{ "key": "yan_statue_standby", "standby": 100 }],
+		"enemy_2113_dyhlg2": [{ "key": "yan_statue_standby", "standby": 50 }],
+		"enemy_2115_dylbg2": [
+			{ "key": "yan_statue_standby", "standby": 20 },
+			{ "key": "dylbg2_heal", "atk": { "multiplier": 1.2 } }
+		]
+	},
+	"level_rogue5_b-3": {
+		"enemy_2117_dyyys2": [
+			{ "key": "end_duration", "value": 300 },
+			{ "key": "dyyysg_fish", "cooldown": 15.0, "initCooldown": 10.0 },
+			{ "key": "dyyysg_summon", "cooldown": 30.0, "initCooldown": 3.0 }
+		]
+	},
+	"level_rogue5_b-3-b": {
+		"enemy_2117_dyyys2": [
+			{ "key": "end_duration", "value": 300 },
+			{ "key": "dyyysg_fish", "cooldown": 25.0, "initCooldown": 10.0 },
+			{ "key": "dyyysg_summon", "cooldown": 20.0, "initCooldown": 3.0 }
+		]
+	},
+	"level_rogue5_dv-5": {
+		"enemy_2110_dyyrzf": [
+			{ "key": "yan_statue_standby", "initCooldown": 0, "cooldown": 0 }
+		],
+		"enemy_2112_dyhlgy": [
+			{ "key": "yan_statue_standby", "initCooldown": 0, "cooldown": 0 }
+		]
+	},
+	"level_rogue5_sv-1": {
+		"enemy_2034_sythef_b": [{ "key": "attack_stun", "value": 12 }]
+	},
+	"level_rogue5_sv-1-b": {
+		"enemy_2034_sythef_b": [{ "key": "attack_stun", "value": 12 }]
+	},
+	"level_rogue5_sv-4": {
+		"enemy_10066_ftxjl_2": [
+			{
+				"key": "ftxjl_grow",
+				"atk": { "multiplier": 1.6, "order": "initial" },
+				"suffix": { "en": "MAX", "ja": "MAX", "zh": "满层" },
+				"hpup": 800,
+				"atkup": 160,
+				"duration": 60
+			}
+		]
+	},
+	"level_rogue5_sv-6": {
+		"enemy_1105_tyokai_2": [
+			{
+				"key": "defeat_trap_loot",
+				"tooltip": {
+					"en": [],
+					"ja": [],
+					"zh": ["死亡时给予我方干扰装置"]
+				}
+			}
+		]
+	},
+	"level_rogue5_sv-7": {
+		"enemy_1146_defspd_2": [{ "key": "anvil_healing_aura", "regen": 300 }]
+	},
+	"level_rogue5_sv-7-b": {
+		"enemy_2113_dyhlg2": [{ "key": "yan_statue_standby", "standby": 60 }],
+		"enemy_2115_dylbg2": [
+			{ "key": "dylbg2_heal", "atk": { "multiplier": 1.2 } }
+		]
+	},
+	"level_rogue5_sv-8-b": {
+		"enemy_1101_plkght_2": [{ "key": "roarknight_barrier", "duration": 60 }]
+	},
+	"level_rogue5_sv-10": {
+		"enemy_2110_dyyrzf": [{ "key": "yan_statue_standby", "standby": 105 }],
+		"enemy_2112_dyhlgy": [{ "key": "yan_statue_standby", "standby": 75 }],
+		"enemy_2114_dylbgg": [{ "key": "yan_statue_standby", "standby": 140 }]
+	},
+	"level_rogue5_2-2": {
+		"enemy_1303_mhshep_a": [{ "key": "standby", "standby": 115 }],
+		"enemy_1303_mhshep_b": [{ "key": "standby", "standby": 0 }],
+		"enemy_1303_mhshep_c": [{ "key": "standby", "standby": 60 }]
+	},
+	"level_rogue5_3-2": {
+		"enemy_1303_mhshep": [{ "key": "standby", "standby": 0 }]
+	},
+	"level_rogue5_4-2": {
+		"enemy_10036_cnvpvd": [{ "key": "dmg_res", "value": 30 }]
+	},
+	"level_rogue5_5-2": {
+		"enemy_1074_dbskar_2": [
+			{
+				"key": "sarkaz_standby",
+				"standby": 200
+			}
+		]
+	},
+	"level_rogue5_t-2": {
+		"enemy_2034_sythef_b": [{ "key": "attack_stun", "value": 8 }]
+	},
+	"level_rogue5_t-4": {
+		"enemy_2110_dyyrzf": [{ "key": "yan_statue_standby", "standby": 20 }],
+		"enemy_2112_dyhlgy": [{ "key": "yan_statue_standby", "standby": 40 }],
+		"enemy_2114_dylbgg": [{ "key": "yan_statue_standby", "standby": 60 }],
+		"enemy_2116_dyyysg": [{ "key": "dyyysg_fish", "cooldown": 10 }]
+	},
+	"level_rogue5_t-6": {
+		"enemy_2107_dycant": []
+	},
+	"level_rogue5_t-7": {
+		"enemy_1151_dslntc": [{ "key": "sea_reaper_awaken", "standby": 200 }]
+	}
 }
