@@ -29,8 +29,10 @@ def update_current_stages():
             folder = "ro2"
         elif 'rogue3' in key:
             folder = "ro3"
-        else:
+        elif 'rogue4' in key:
             folder = "ro4"
+        else:
+            folder = "ro5"
 
         stage_data_path = os.path.join(
             script_dir,
@@ -259,6 +261,7 @@ def add_new_event_stages():
 
 def main():
     # update_current_stages()
+    add_new_ro_stages()
     # add_new_event_stages()
     pass
 

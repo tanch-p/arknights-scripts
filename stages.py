@@ -130,6 +130,8 @@ def get_rogue_topic(folder):
         return 'rogue_sami'
     if folder == "ro4":
         return 'rogue_skz'
+    if folder == "ro5":
+        return 'rogue_sui'
 
 
 def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
@@ -353,6 +355,7 @@ def generate_roguelike_stages():
         {"topic": "rogue_2", "folder": "ro2"},
         {"topic": "rogue_3", "folder": "ro3"},
         {"topic": "rogue_4", "folder": "ro4"},
+        {"topic": "rogue_5", "folder": "ro5"},
     ]
 
     for topic_dict in roguelike_topics:
