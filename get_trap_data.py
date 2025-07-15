@@ -36,7 +36,7 @@ with open(jp_char_table_path, encoding='utf-8') as f:
 with open(jp_skill_table_path, encoding='utf-8') as f:
     jp_skill_table = json.load(f)
 
-keys = ['trap_223_dynbox','trap_224_dyrbox','trap_225_dysbox','trap_238_dydfst']
+keys = ['token_10053_radian_tower3']
 data={}
 for key in keys:
     holder = {}

@@ -131,7 +131,7 @@ def get_rogue_topic(folder):
     if folder == "ro4":
         return 'rogue_skz'
     if folder == "ro5":
-        return 'rogue_sui'
+        return 'rogue_yan'
 
 
 def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
