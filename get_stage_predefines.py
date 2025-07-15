@@ -33,7 +33,7 @@ with open(jp_skill_table_path, encoding='utf-8') as f:
 KEYS_TO_EXCLUDE = ["trap_051_vultres", "trap_042_tidectrl", "trap_079_allydonq", "trap_061_creep", "trap_038_dsbell", "trap_037_airsup", "trap_062_magicstart",
                    "trap_063_magicturn", "trap_106_smtree", "trap_050_blizzard", "trap_092_vgctrl", "trap_036_storm", "trap_764_skzshp", "trap_162_lrctrl", "trap_766_duelwal", "trap_767_duelcdt"]
 
-folders = ["ro1", "ro2", "ro3", "ro4"]
+folders = ["ro1", "ro2", "ro3", "ro4", 'ro5']
 token_list = []
 # 1 get all token keys
 for folder in folders:

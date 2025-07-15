@@ -70,7 +70,7 @@ STAGES_WITH_ENEMY_REF_TO_REPLACE = {'level_rogue4_b-4': 'level_rogue4_b-4-c',
 
 
 # for consumption in enemy routes
-folders = ['ro1','ro2', 'ro3', 'ro4']
+folders = ['ro1','ro2', 'ro3', 'ro4','ro5']
 stages_to_ignore = []
 for folder in folders:
     files = []

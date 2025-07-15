@@ -13,7 +13,7 @@ script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 # 3. bonus wave may not be wave #2 but in fragment... as in level_rogue2_5-8
 # 4.
 
-folders = ['ro1', 'ro2', 'ro3', 'ro4']
+folders = ['ro1', 'ro2', 'ro3', 'ro4', 'ro5']
 
 files = []
 
