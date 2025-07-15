@@ -36,8 +36,7 @@ with open(jp_char_table_path, encoding='utf-8') as f:
 with open(jp_skill_table_path, encoding='utf-8') as f:
     jp_skill_table = json.load(f)
 
-keys = ['trap_137_winfire', 'trap_139_dhtl', 'trap_141_sheltr',
-        'trap_147_spblls', 'trap_155_aegiret', 'trap_184_vtarsn','trap_219_fttreant', 'trap_232_mpgroub']
+keys = ['trap_211_cjgtow','trap_212_cjbtow']
 data={}
 for key in keys:
     holder = {}

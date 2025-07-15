@@ -229,7 +229,7 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
             enemy_id = enemy["overwrittenData"]['prefabKey']['m_value']
             if not (levelId in talent_overwrite_list and enemy['id'] in talent_overwrite_list[levelId]):
                 if is_unhandled_alert(levelId, enemy_id, rogue_topic):
-                    alerts.append(f"{enemy['id']} useDb is False in {levelId}")
+                    alerts.append(f"useDb is False {enemy['id']} in {levelId}")
         if enemy_id in my_enemy_db:
             overwrittenData = {}
             if enemy["overwrittenData"]:

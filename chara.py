@@ -371,6 +371,7 @@ with open('characters.json', 'w', encoding='utf-8') as f:
 # append new charas to char talent tags json
     new_chara_list = [id for id in dict.keys(
         filtered_cn_char_table) if id not in set(dict.keys(chara_talents))]
+    print(f"new charas: {new_chara_list}")
     return_dict = {}
     for id in new_chara_list:
         talents = []

@@ -260,6 +260,7 @@ def add_new_event_stages():
 def main():
     # update_current_stages()
     # add_new_event_stages()
+    pass
 
 if __name__ == "__main__":
     main()

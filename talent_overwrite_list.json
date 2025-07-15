@@ -8,12 +8,13 @@
     ]
   },
   "yinyang": {
-		"tooltip": {
-			"en": ["Initially has Hui attribute"],
-			"ja": ["反登場時、【晦】属性になる"],
-			"zh": ["初始获得【晦】属性"]
-		}
-	},
+    "value": 0,
+    "tooltip": {
+      "en": ["Initially has Hui attribute"],
+      "ja": ["反登場時、【晦】属性になる"],
+      "zh": ["初始获得【晦】属性"]
+    }
+  },
   "level_rogue1_b-5": {
     "enemy_1067_snslime": [{ "key": "bug_explode_frost", "duration": 5 }]
   },
@@ -171,10 +172,8 @@
       { "key": "sarks_performance", "cooldown": 10, "initCooldown": 10.0 }
     ]
   },
-  "level_rogue2_b-9":{
-    "enemy_1068_snmage_2":[
-      {"key":"caster_frost_attack","spCost":1}
-    ]
+  "level_rogue2_b-9": {
+    "enemy_1068_snmage_2": [{ "key": "caster_frost_attack", "spCost": 1 }]
   },
   "level_rogue3_1-2": {
     "enemy_1075_dmgswd": [
@@ -200,7 +199,7 @@
     ],
     "enemy_1272_nhtank": [{ "key": "nhtank_pollution", "low": 100, "high": 50 }]
   },
-   "level_rogue3_3-6": {
+  "level_rogue3_3-6": {
     "enemy_1075_dmgswd": [
       {
         "key": "sarkaz_standby",
@@ -231,8 +230,8 @@
       { "key": "sarks_performance", "cooldown": 15.0, "initCooldown": 11.0 }
     ]
   },
-  "level_rogue3_b-5-b":{
-     "enemy_1074_dbskar_2": [
+  "level_rogue3_b-5-b": {
+    "enemy_1074_dbskar_2": [
       {
         "key": "sarkaz_standby",
         "standby": 0
@@ -260,7 +259,8 @@
   "level_rogue4_t-4": {
     "enemy_1311_mhkryk_2": [
       {
-        "key": "mhkryk_mode_1",
+        "key": "mhkryk_1",
+        "spineState": 1,
         "tooltip": {
           "en": ["$Already holds shell on spawn$"],
           "ja": ["$出現時すでに甲羅所持状態$"],
