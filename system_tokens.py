@@ -29,7 +29,7 @@ with open(jp_char_table_path, encoding='utf-8') as f:
 with open(jp_skill_table_path, encoding='utf-8') as f:
     jp_skill_table = json.load(f)
 
-keys_to_parse = ['sktok_winfire','sktok_dhtl_1','sktok_dhtl_2','sktok_dhsb','sktok_dhdcr','sktok_spblls','sktok_aegiret_1','sktok_fttreant_1','sktok_cjgtow_1','sktok_cjbtow_1']
+keys_to_parse = ['sktok_rgdysm_1','sktok_dydfst_1','sktok_dydfst_2','sktok_dydfst_3','sktok_dydfst_4','sktok_dydfst_5','sktok_dynbox','sktok_dyrbox','sktok_dysbox']
 
 data = {}
 for key in keys_to_parse:

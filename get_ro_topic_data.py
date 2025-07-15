@@ -95,7 +95,7 @@ def get_chara_relics(rogue_topic):
 def main(topic_number=5):
     rogue_topic = f'rogue_{topic_number}'
     
-    get_difficulties(rogue_topic)
+    # get_difficulties(rogue_topic)
     # get_other_data(rogue_topic, 'buff')
     # get_chara_relics(rogue_topic)
     # get_enemy_relics(rogue_topic)
