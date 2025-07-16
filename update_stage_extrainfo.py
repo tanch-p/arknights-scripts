@@ -260,8 +260,8 @@ def add_new_event_stages():
         json.dump(data, f, ensure_ascii=False, indent=4)
 
 def main():
-    # update_current_stages()
-    add_new_ro_stages()
+    update_current_stages()
+    # add_new_ro_stages()
     # add_new_event_stages()
     pass
 

@@ -68,6 +68,8 @@ for entry in enemy_database["enemies"]:
     key = entry['Key']
     if not key in existing_data:
         IN_HANDBOOK = key in cn_enemy_handbook['enemyData']
+        if not IN_HANDBOOK:
+            continue
         cn_enemy_info = cn_enemy_handbook['enemyData'][key] if IN_HANDBOOK else None
         enemyIndex = cn_enemy_info["enemyIndex"] if IN_HANDBOOK else "-"
         enemyStats = entry['Value']
