@@ -56,6 +56,10 @@ def compress_waves(stage_data, stage_id):
         route_idx = -1
         if (route['checkpoints']):
             for checkpoint in route['checkpoints']:
+                if checkpoint['type'] == 'WAIT_FOR_SECONDS' and checkpoint['time'] > 998:
+                    checkpoint['time'] = 600
+                    if 'rogue5' in stage_id and not stage_id in ['level_rogue5_b-5']:
+                        checkpoint['time'] = 45
                 checkpoint.pop("randomizeReachOffset", None)
         for idx, route_data in enumerate(routes):
             if route == route_data[1]:

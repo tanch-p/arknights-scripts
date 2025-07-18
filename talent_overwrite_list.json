@@ -471,10 +471,10 @@
   },
   "level_rogue5_dv-5": {
     "enemy_2110_dyyrzf": [
-      { "key": "yan_statue_standby", "initCooldown": 0, "cooldown": 0 }
+      { "key": "yan_statue_standby", "standby":0 }
     ],
     "enemy_2112_dyhlgy": [
-      { "key": "yan_statue_standby", "initCooldown": 0, "cooldown": 0 }
+      { "key": "yan_statue_standby", "standby":0 }
     ]
   },
   "level_rogue5_sv-1": {
@@ -487,6 +487,7 @@
     "enemy_10066_ftxjl_2": [
       {
         "key": "ftxjl_grow",
+        "hp": { "multiplier": 8, "order": "initial" },
         "atk": { "multiplier": 1.6, "order": "initial" },
         "suffix": { "en": "MAX", "ja": "MAX", "zh": "满层" },
         "hpup": 800,

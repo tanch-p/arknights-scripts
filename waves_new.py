@@ -15,6 +15,15 @@ pp = pprint.PrettyPrinter(indent=4)
 bonus_enemies = ['enemy_2001_duckmi', 'enemy_2002_bearmi',
                  'enemy_2034_sythef', 'enemy_2085_skzjxd']
 
+script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
+
+enemy_database_path = os.path.join(
+    script_dir, "cn_data/zh_CN/gamedata/levels/enemydata/enemy_database.json"
+)
+with open(enemy_database_path, encoding="utf-8") as f:
+    enemy_database = json.load(f)
+
+
 
 def analyze_enemy_spawns(waves_data, levelId, bonus_data, difficulty, group_name, enemies_to_replace):
     """
@@ -466,7 +475,8 @@ def get_wave_spawns_data(stage_data, levelId, log=False):
     log and print('normal:', normal_group_name, 'elite:',
                   elite_group_name, 'replace:', enemies_to_replace)
     has_bonus_wave = not (
-        '_ev-' in levelId or '_t-' in levelId or "_b-" in levelId or "_d-" in levelId)
+        '_ev-' in levelId or '_t-' in levelId or "_b-" in levelId or "_d-" in levelId 
+        or "_sv-" in levelId or "_fs-" in levelId or "_dv-" in levelId)
     holder = ['NORMAL']
     if elite_group_name is not None or len(enemies_to_replace) > 0:
         holder.append("ELITE")

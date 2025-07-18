@@ -89,7 +89,7 @@ def update_current_stages():
                 "elite_enemy_counts": elite_enemy_counts if not extra_info['levelId'] in STAGES_TO_IGNORE else extra_info['elite_enemy_counts'],
                 "elite_sp_count": elite_sp_count,
                 "sp_enemy": extra_info['sp_enemy'],
-                "sp_terrain": sp_terrain,
+                "sp_terrain": extra_info['sp_terrain'],
                 "enemy_list": enemy_list if not extra_info['levelId'] in STAGES_TO_IGNORE else extra_info['enemy_list'],
                 "elite_enemy_list": elite_enemy_list if not extra_info['levelId'] in STAGES_TO_IGNORE else extra_info['elite_enemy_list']
             }

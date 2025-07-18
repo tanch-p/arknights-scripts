@@ -251,6 +251,8 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
                     overwrittenData["lifepoint"] = enemy[
                         "overwrittenData"
                     ]["lifePointReduce"]["m_value"]
+                if enemy["overwrittenData"]["notCountInTotal"]["m_defined"] and enemy["overwrittenData"]["notCountInTotal"]["m_value"]:
+                    alerts.append(f"notCountInTotal, {enemy['id']}, {my_enemy_db[enemy_id]['name_zh']}, {levelId})")
                 if enemy["overwrittenData"]["rangeRadius"]["m_defined"]:
                     overwrittenData["range"] = enemy["overwrittenData"][
                         "rangeRadius"
@@ -274,7 +276,7 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
                     if not 'talentBlackboard' in overwrittenData:
                         overwrittenData['talentBlackboard'] = []
                     for item in enemy['overwrittenData']['talentBlackboard']:
-                        if item['key'] == 'yinyang.dynamic' and item['value'] == 0:
+                        if item['key'].casefold() == 'yinyang.dynamic' and item['value'] == 0:
                             overwrittenData['talentBlackboard'].append(
                                 talent_overwrite_list['yinyang'])
                         elif levelId == 'level_rogue2_b-7' and item['key'] == 'Combat.enemy_key':

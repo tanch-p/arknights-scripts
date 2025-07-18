@@ -601,7 +601,7 @@
   "level_rogue1_t-3": {
     "levelId": "level_rogue1_t-3",
     "code": "ISW-DU",
-    "name_zh": "高普尼克之拳",
+    "name_zh": "<高普尼克>之拳",
     "name_ja": "ゴプニクの挨拶",
     "name_en": "Gopnik's_Fist",
     "category": "encounter",
@@ -9591,17 +9591,6 @@
         "heightType": "LOWLAND",
         "blackboard": {
           "mode": 0.0
-        }
-      },
-      {
-        "tileKey": "tile_creep",
-        "alias": null,
-        "heightType": "LOWLAND",
-        "blackboard": {
-          "damage": 100.0,
-          "duration": 300.0,
-          "atk": 0.5,
-          "attack_speed": 50.0
         }
       }
     ],
@@ -24856,7 +24845,7 @@
     "eliteDesc_en": null,
     "all_mods": null,
     "normal_mods": null,
-    "elite_mods": null,
+    "elite_mods": [],
     "enemy_counts": [27],
     "sp_count": null,
     "elite_enemy_counts": [27],
@@ -25150,7 +25139,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [3, 4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -25204,7 +25193,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [3, 4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -25246,7 +25235,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -25315,7 +25304,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -25514,7 +25503,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [3, 4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -25546,7 +25535,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -25641,7 +25630,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -25724,7 +25713,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -25789,7 +25778,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [1, 2, 3],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -25856,7 +25845,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [4, 5, 6],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -25918,7 +25907,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [2, 3],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -26115,7 +26104,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [2, 3],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -26312,7 +26301,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -26551,7 +26540,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -26790,7 +26779,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -27029,7 +27018,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [2, 3, 4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -27040,13 +27029,10 @@
     "normal_mods": null,
     "elite_mods": null,
     "enemy_counts": [1, 2],
-    "sp_count": [3],
+    "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
-    "sp_enemy": {
-      "normal": "4",
-      "elite": null
-    },
+    "sp_enemy": null,
     "sp_terrain": null,
     "enemy_list": [
       {
@@ -27089,7 +27075,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [2, 3, 4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -27100,13 +27086,10 @@
     "normal_mods": null,
     "elite_mods": null,
     "enemy_counts": [2],
-    "sp_count": [3],
+    "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
-    "sp_enemy": {
-      "normal": "4",
-      "elite": null
-    },
+    "sp_enemy": null,
     "sp_terrain": null,
     "enemy_list": [
       {
@@ -27139,7 +27122,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [2, 3, 4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -27149,16 +27132,39 @@
     "all_mods": null,
     "normal_mods": null,
     "elite_mods": null,
-    "enemy_counts": [0],
-    "sp_count": [1],
+    "enemy_counts": [1],
+    "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
-    "sp_enemy": {
-      "normal": "1",
-      "elite": null
-    },
+    "sp_enemy": null,
     "sp_terrain": null,
-    "enemy_list": [],
+    "enemy_list": [
+      {
+        "key": "enemy_1092_mdgint",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_10078_mprein_2",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_10026_vtzepl_2",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2101_dyspll",
+        "min_count": 1,
+        "max_count": 1
+      }
+    ],
     "elite_enemy_list": null
   },
   "level_rogue5_fs-2b": {
@@ -27168,7 +27174,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [2, 3, 4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -27178,16 +27184,44 @@
     "all_mods": null,
     "normal_mods": null,
     "elite_mods": null,
-    "enemy_counts": [0],
-    "sp_count": [1],
+    "enemy_counts": [1],
+    "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
-    "sp_enemy": {
-      "normal": "1",
-      "elite": null
-    },
+    "sp_enemy": null,
     "sp_terrain": null,
-    "enemy_list": [],
+    "enemy_list": [
+      {
+        "key": "enemy_1062_rager",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1415_mmkabi_2",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1092_mdgint",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1321_wdarft",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2101_dyspll",
+        "min_count": 1,
+        "max_count": 1
+      }
+    ],
     "elite_enemy_list": null
   },
   "level_rogue5_fs-3": {
@@ -27197,7 +27231,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [2, 3, 4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -27208,13 +27242,10 @@
     "normal_mods": null,
     "elite_mods": null,
     "enemy_counts": [1, 3, 6],
-    "sp_count": [2, 4, 7],
+    "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
-    "sp_enemy": {
-      "normal": "3 / 5 / 8",
-      "elite": null
-    },
+    "sp_enemy": null,
     "sp_terrain": null,
     "enemy_list": [
       {
@@ -27252,7 +27283,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [2, 3, 4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -27263,13 +27294,10 @@
     "normal_mods": null,
     "elite_mods": null,
     "enemy_counts": [2, 4],
-    "sp_count": [3, 5],
+    "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
-    "sp_enemy": {
-      "normal": "4 / 6",
-      "elite": null
-    },
+    "sp_enemy": null,
     "sp_terrain": null,
     "enemy_list": [
       {
@@ -27307,7 +27335,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [2, 3, 4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -27318,13 +27346,10 @@
     "normal_mods": null,
     "elite_mods": null,
     "enemy_counts": [2, 4, 6],
-    "sp_count": [3, 5, 7],
+    "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
-    "sp_enemy": {
-      "normal": "4 / 6 / 8",
-      "elite": null
-    },
+    "sp_enemy": null,
     "sp_terrain": null,
     "enemy_list": [
       {
@@ -27357,7 +27382,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [2, 3, 4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -27368,13 +27393,10 @@
     "normal_mods": null,
     "elite_mods": null,
     "enemy_counts": [0, 2, 6],
-    "sp_count": [1, 3, 7],
+    "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
-    "sp_enemy": {
-      "normal": "4 / 8 / 10",
-      "elite": null
-    },
+    "sp_enemy": null,
     "sp_terrain": null,
     "enemy_list": [
       {
@@ -27407,7 +27429,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [2, 3, 4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -27418,13 +27440,10 @@
     "normal_mods": null,
     "elite_mods": null,
     "enemy_counts": [6, 8, 13, 18],
-    "sp_count": [7, 9, 14, 19],
+    "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
-    "sp_enemy": {
-      "normal": "8 / 15 / 20 / 36",
-      "elite": null
-    },
+    "sp_enemy": null,
     "sp_terrain": null,
     "enemy_list": [
       {
@@ -27492,7 +27511,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [2, 3, 4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -27503,13 +27522,10 @@
     "normal_mods": null,
     "elite_mods": null,
     "enemy_counts": [5, 14],
-    "sp_count": [6, 15],
+    "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
-    "sp_enemy": {
-      "normal": "17 / 26",
-      "elite": null
-    },
+    "sp_enemy": null,
     "sp_terrain": null,
     "enemy_list": [
       {
@@ -27562,7 +27578,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [3, 4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -27573,13 +27589,10 @@
     "normal_mods": null,
     "elite_mods": null,
     "enemy_counts": [30],
-    "sp_count": [31],
+    "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
-    "sp_enemy": {
-      "normal": "31",
-      "elite": null
-    },
+    "sp_enemy": null,
     "sp_terrain": null,
     "enemy_list": [
       {
@@ -27612,7 +27625,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [3, 4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -27622,16 +27635,54 @@
     "all_mods": null,
     "normal_mods": null,
     "elite_mods": null,
-    "enemy_counts": [0],
-    "sp_count": [1],
+    "enemy_counts": [5],
+    "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
-    "sp_enemy": {
-      "normal": "1",
-      "elite": null
-    },
+    "sp_enemy": null,
     "sp_terrain": null,
-    "enemy_list": [],
+    "enemy_list": [
+      {
+        "key": "enemy_10078_mprein_2",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_10079_mpmage_2",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_10048_prtsld_2",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_10038_cnvpiz",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 1,
+        "max_count": 1
+      }
+    ],
     "elite_enemy_list": null
   },
   "level_rogue5_sv-1-b": {
@@ -27641,7 +27692,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [3, 4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -27651,16 +27702,39 @@
     "all_mods": null,
     "normal_mods": null,
     "elite_mods": null,
-    "enemy_counts": [0],
-    "sp_count": [1],
+    "enemy_counts": [2],
+    "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
-    "sp_enemy": {
-      "normal": "1",
-      "elite": null
-    },
+    "sp_enemy": null,
     "sp_terrain": null,
-    "enemy_list": [],
+    "enemy_list": [
+      {
+        "key": "enemy_10078_mprein_2",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      }
+    ],
     "elite_enemy_list": null
   },
   "level_rogue5_sv-2": {
@@ -27670,7 +27744,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [3, 4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -27681,13 +27755,10 @@
     "normal_mods": null,
     "elite_mods": null,
     "enemy_counts": [15],
-    "sp_count": [16],
+    "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
-    "sp_enemy": {
-      "normal": "16",
-      "elite": null
-    },
+    "sp_enemy": null,
     "sp_terrain": [
       {
         "tileKey": "tile_smog",
@@ -27737,7 +27808,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [3, 4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -27748,13 +27819,10 @@
     "normal_mods": null,
     "elite_mods": null,
     "enemy_counts": [14],
-    "sp_count": [15],
+    "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
-    "sp_enemy": {
-      "normal": "15",
-      "elite": null
-    },
+    "sp_enemy": null,
     "sp_terrain": [
       {
         "tileKey": "tile_smog",
@@ -27799,7 +27867,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [3, 4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -27820,14 +27888,11 @@
     ],
     "normal_mods": null,
     "elite_mods": null,
-    "enemy_counts": [0],
-    "sp_count": [1],
+    "enemy_counts": [9],
+    "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
-    "sp_enemy": {
-      "normal": "1",
-      "elite": null
-    },
+    "sp_enemy": null,
     "sp_terrain": [
       {
         "tileKey": "tile_smog",
@@ -27836,7 +27901,33 @@
         "blackboard": null
       }
     ],
-    "enemy_list": [],
+    "enemy_list": [
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1341_bthtms_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_1317_wdexg_2",
+        "min_count": 3,
+        "max_count": 3
+      },
+      {
+        "key": "enemy_10089_hlsprt_2",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1338_bhrjst_2",
+        "min_count": 1,
+        "max_count": 1
+      }
+    ],
     "elite_enemy_list": null
   },
   "level_rogue5_sv-3": {
@@ -27846,7 +27937,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [3, 4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -27857,13 +27948,10 @@
     "normal_mods": null,
     "elite_mods": null,
     "enemy_counts": [17],
-    "sp_count": [18],
+    "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
-    "sp_enemy": {
-      "normal": "18",
-      "elite": null
-    },
+    "sp_enemy": null,
     "sp_terrain": [
       {
         "tileKey": "tile_hole",
@@ -27903,7 +27991,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [3, 4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -27914,13 +28002,10 @@
     "normal_mods": null,
     "elite_mods": null,
     "enemy_counts": [25, 27],
-    "sp_count": [26, 28],
+    "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
-    "sp_enemy": {
-      "normal": "26 / 28",
-      "elite": null
-    },
+    "sp_enemy": null,
     "sp_terrain": [
       {
         "tileKey": "tile_hole",
@@ -27975,7 +28060,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [3, 4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -27986,13 +28071,10 @@
     "normal_mods": null,
     "elite_mods": null,
     "enemy_counts": [10],
-    "sp_count": [11],
+    "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
-    "sp_enemy": {
-      "normal": "19",
-      "elite": null
-    },
+    "sp_enemy": null,
     "sp_terrain": null,
     "enemy_list": [
       {
@@ -28030,7 +28112,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [3, 4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -28041,13 +28123,10 @@
     "normal_mods": null,
     "elite_mods": null,
     "enemy_counts": [5],
-    "sp_count": [6],
+    "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
-    "sp_enemy": {
-      "normal": "6",
-      "elite": null
-    },
+    "sp_enemy": null,
     "sp_terrain": null,
     "enemy_list": [
       {
@@ -28080,7 +28159,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [3, 4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -28091,13 +28170,10 @@
     "normal_mods": null,
     "elite_mods": null,
     "enemy_counts": [11],
-    "sp_count": [12],
+    "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
-    "sp_enemy": {
-      "normal": "12",
-      "elite": null
-    },
+    "sp_enemy": null,
     "sp_terrain": null,
     "enemy_list": [
       {
@@ -28130,7 +28206,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [3, 4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -28140,14 +28216,11 @@
     "all_mods": null,
     "normal_mods": null,
     "elite_mods": null,
-    "enemy_counts": [9],
-    "sp_count": [10],
+    "enemy_counts": [10],
+    "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
-    "sp_enemy": {
-      "normal": "10",
-      "elite": null
-    },
+    "sp_enemy": null,
     "sp_terrain": null,
     "enemy_list": [
       {
@@ -28174,6 +28247,11 @@
         "key": "enemy_1042_frostd",
         "min_count": 2,
         "max_count": 2
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 1,
+        "max_count": 1
       }
     ],
     "elite_enemy_list": null
@@ -28185,7 +28263,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [3, 4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -28196,13 +28274,10 @@
     "normal_mods": null,
     "elite_mods": null,
     "enemy_counts": [36],
-    "sp_count": [37],
+    "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
-    "sp_enemy": {
-      "normal": "37",
-      "elite": null
-    },
+    "sp_enemy": null,
     "sp_terrain": null,
     "enemy_list": [
       {
@@ -28235,7 +28310,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [3, 4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -28246,13 +28321,10 @@
     "normal_mods": null,
     "elite_mods": null,
     "enemy_counts": [6],
-    "sp_count": [7],
+    "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
-    "sp_enemy": {
-      "normal": "7",
-      "elite": null
-    },
+    "sp_enemy": null,
     "sp_terrain": null,
     "enemy_list": [
       {
@@ -28290,7 +28362,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [3, 4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -28300,16 +28372,39 @@
     "all_mods": null,
     "normal_mods": null,
     "elite_mods": null,
-    "enemy_counts": [0],
-    "sp_count": [1],
+    "enemy_counts": [5],
+    "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
-    "sp_enemy": {
-      "normal": "1",
-      "elite": null
-    },
+    "sp_enemy": null,
     "sp_terrain": null,
-    "enemy_list": [],
+    "enemy_list": [
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2113_dyhlg2",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2115_dylbg2",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2111_dyyrz2",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1042_frostd",
+        "min_count": 1,
+        "max_count": 1
+      }
+    ],
     "elite_enemy_list": null
   },
   "level_rogue5_sv-8": {
@@ -28319,7 +28414,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [3, 4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -28330,13 +28425,10 @@
     "normal_mods": null,
     "elite_mods": null,
     "enemy_counts": [11],
-    "sp_count": [12],
+    "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
-    "sp_enemy": {
-      "normal": "12",
-      "elite": null
-    },
+    "sp_enemy": null,
     "sp_terrain": null,
     "enemy_list": [
       {
@@ -28374,7 +28466,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [3, 4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -28385,13 +28477,10 @@
     "normal_mods": null,
     "elite_mods": null,
     "enemy_counts": [5],
-    "sp_count": [6],
+    "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
-    "sp_enemy": {
-      "normal": "6",
-      "elite": null
-    },
+    "sp_enemy": null,
     "sp_terrain": null,
     "enemy_list": [
       {
@@ -28429,7 +28518,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [3, 4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -28439,16 +28528,39 @@
     "all_mods": null,
     "normal_mods": null,
     "elite_mods": null,
-    "enemy_counts": [0],
-    "sp_count": [1],
+    "enemy_counts": [6],
+    "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
-    "sp_enemy": {
-      "normal": "1",
-      "elite": null
-    },
+    "sp_enemy": null,
     "sp_terrain": null,
-    "enemy_list": [],
+    "enemy_list": [
+      {
+        "key": "enemy_2005_axetro",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1118_lidbox_2",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1119_vofsd_2",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1121_lifbos_2",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 1,
+        "max_count": 1
+      }
+    ],
     "elite_enemy_list": null
   },
   "level_rogue5_sv-9-b": {
@@ -28458,7 +28570,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [3, 4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -28469,13 +28581,10 @@
     "normal_mods": null,
     "elite_mods": null,
     "enemy_counts": [15],
-    "sp_count": [16],
+    "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
-    "sp_enemy": {
-      "normal": "16",
-      "elite": null
-    },
+    "sp_enemy": null,
     "sp_terrain": null,
     "enemy_list": [
       {
@@ -28508,7 +28617,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [3, 4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -28518,16 +28627,39 @@
     "all_mods": null,
     "normal_mods": null,
     "elite_mods": null,
-    "enemy_counts": [0],
-    "sp_count": [1],
+    "enemy_counts": [6],
+    "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
-    "sp_enemy": {
-      "normal": "1",
-      "elite": null
-    },
+    "sp_enemy": null,
     "sp_terrain": null,
-    "enemy_list": [],
+    "enemy_list": [
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1404_msnip_2",
+        "min_count": 2,
+        "max_count": 2
+      },
+      {
+        "key": "enemy_1045_hammer",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1076_bsthmr",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1406_chghmr_2",
+        "min_count": 1,
+        "max_count": 1
+      }
+    ],
     "elite_enemy_list": null
   },
   "level_rogue5_sv-10": {
@@ -28537,7 +28669,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [3, 4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -28547,14 +28679,11 @@
     "all_mods": null,
     "normal_mods": null,
     "elite_mods": null,
-    "enemy_counts": [0],
-    "sp_count": [1],
+    "enemy_counts": [6],
+    "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
-    "sp_enemy": {
-      "normal": "1",
-      "elite": null
-    },
+    "sp_enemy": null,
     "sp_terrain": [
       {
         "tileKey": "tile_hole",
@@ -28563,7 +28692,48 @@
         "blackboard": null
       }
     ],
-    "enemy_list": [],
+    "enemy_list": [
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2105_dyrnge",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2112_dyhlgy",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2114_dylbgg",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2110_dyyrzf",
+        "min_count": 1,
+        "max_count": 1
+      }
+    ],
     "elite_enemy_list": null
   },
   "level_rogue5_sv-10-b": {
@@ -28573,7 +28743,7 @@
     "name_ja": null,
     "name_en": null,
     "category": null,
-    "floors": [1, 2, 3, 4, 5],
+    "floors": [3, 4, 5],
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
@@ -28583,14 +28753,11 @@
     "all_mods": null,
     "normal_mods": null,
     "elite_mods": null,
-    "enemy_counts": [0],
-    "sp_count": [1],
+    "enemy_counts": [10],
+    "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
-    "sp_enemy": {
-      "normal": "1",
-      "elite": null
-    },
+    "sp_enemy": null,
     "sp_terrain": [
       {
         "tileKey": "tile_hole",
@@ -28599,7 +28766,48 @@
         "blackboard": null
       }
     ],
-    "enemy_list": [],
+    "enemy_list": [
+      {
+        "key": "enemy_2085_skzjxd",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2001_duckmi",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2034_sythef",
+        "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2002_bearmi",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1431_lrmzrd",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_2075_skgly2",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_1429_lrwzrd",
+        "min_count": 5,
+        "max_count": 5
+      },
+      {
+        "key": "enemy_1430_lrrook",
+        "min_count": 1,
+        "max_count": 1
+      }
+    ],
     "elite_enemy_list": null
   },
   "level_rogue5_1-1": {
@@ -28610,10 +28818,13 @@
     "name_en": null,
     "category": null,
     "floors": [1],
-    "addInfo_zh": null,
+    "addInfo_zh": ["【鸭爵金币】固定出现<鸭爵>，且提早出现"],
     "addInfo_ja": null,
     "addInfo_en": null,
-    "eliteDesc_zh": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力+10%，生命值+20%",
+      "额外出现2个田鼷力士"
+    ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "all_mods": null,
@@ -28684,10 +28895,13 @@
     "name_en": null,
     "category": null,
     "floors": [1],
-    "addInfo_zh": null,
+    "addInfo_zh": ["【鸭爵金币】固定出现<流泪小子>，且提早出现"],
     "addInfo_ja": null,
     "addInfo_en": null,
-    "eliteDesc_zh": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力+10%，防御力+20%，生命值+50%",
+      "2个速射轻弩手被替换为重弩突袭者"
+    ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "all_mods": null,
@@ -28771,10 +28985,13 @@
     "name_en": null,
     "category": null,
     "floors": [1],
-    "addInfo_zh": null,
+    "addInfo_zh": ["【鸭爵金币】固定出现<高普尼克>，且提早出现"],
     "addInfo_ja": null,
     "addInfo_en": null,
-    "eliteDesc_zh": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力+10%，生命值+50%",
+      "大鲍勃的生命值额外提升至120%，路线待机时间减半"
+    ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "all_mods": null,
@@ -28865,10 +29082,14 @@
     "name_en": null,
     "category": null,
     "floors": [1],
-    "addInfo_zh": null,
+    "addInfo_zh": ["【鸭爵金币】固定出现<圆仔>，且提早出现"],
     "addInfo_ja": null,
     "addInfo_en": null,
-    "eliteDesc_zh": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力+10%，生命值+20%",
+      "战斗开始时额外出现1个雕伥",
+      "战斗开始时2个“阿咬”被替换为皮书生"
+    ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "all_mods": null,
@@ -28895,7 +29116,7 @@
     "elite_enemy_counts": [13],
     "elite_sp_count": [14],
     "sp_enemy": {
-      "normal": "19",
+      "normal": "14",
       "elite": null
     },
     "sp_terrain": null,
@@ -28952,10 +29173,14 @@
     "name_en": null,
     "category": null,
     "floors": [2],
-    "addInfo_zh": null,
+    "addInfo_zh": ["【鸭爵金币】固定出现<鸭爵>，且提早出现"],
     "addInfo_ja": null,
     "addInfo_en": null,
-    "eliteDesc_zh": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力，防御力+20%，生命值+50%",
+      "战斗开始时额外出现1个雕伥",
+      "战斗开始时左下额外出现一个靳天师"
+    ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "all_mods": null,
@@ -29041,10 +29266,13 @@
     "name_en": null,
     "category": null,
     "floors": [2],
-    "addInfo_zh": null,
+    "addInfo_zh": ["【鸭爵金币】固定出现<圆仔>，且提早出现"],
     "addInfo_ja": null,
     "addInfo_en": null,
-    "eliteDesc_zh": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力，防御力，生命值+20%",
+      "战斗开始时额外出现1个雕伥"
+    ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "all_mods": null,
@@ -29133,10 +29361,13 @@
     "name_en": null,
     "category": null,
     "floors": [2],
-    "addInfo_zh": null,
+    "addInfo_zh": ["【鸭爵金币】固定出现<高普尼克>，且提早出现"],
     "addInfo_ja": null,
     "addInfo_en": null,
-    "eliteDesc_zh": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力，生命值+20%",
+      "一个平剑客被替换为泥岩巨像"
+    ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "all_mods": null,
@@ -29225,10 +29456,14 @@
     "name_en": null,
     "category": null,
     "floors": [2],
-    "addInfo_zh": null,
+    "addInfo_zh": ["【鸭爵金币】固定出现<流泪小子>，且提早出现"],
     "addInfo_ja": null,
     "addInfo_en": null,
-    "eliteDesc_zh": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力，防御力，生命值+20%",
+      "血腥厨子路线发生变化",
+      "战斗开始时额外出现1个雕伥"
+    ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "all_mods": null,
@@ -29302,10 +29537,13 @@
     "name_en": null,
     "category": null,
     "floors": [3],
-    "addInfo_zh": null,
+    "addInfo_zh": ["【鸭爵金币】固定出现<高普尼克>，且提早出现"],
     "addInfo_ja": null,
     "addInfo_en": null,
-    "eliteDesc_zh": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力+20%，防御力+20%，生命值+20%，移动速度+50%",
+      "战斗开始时额外出现1个雕伥"
+    ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "all_mods": null,
@@ -29389,10 +29627,13 @@
     "name_en": null,
     "category": null,
     "floors": [3],
-    "addInfo_zh": null,
+    "addInfo_zh": ["【鸭爵金币】固定出现<圆仔>，且提早出现"],
     "addInfo_ja": null,
     "addInfo_en": null,
-    "eliteDesc_zh": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力+20%，生命值+50%",
+      "凶豕兽被替换为狂暴凶豕兽"
+    ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "all_mods": null,
@@ -29419,7 +29660,7 @@
     "elite_enemy_counts": [22],
     "elite_sp_count": [23],
     "sp_enemy": {
-      "normal": "38",
+      "normal": "23",
       "elite": null
     },
     "sp_terrain": null,
@@ -29486,10 +29727,14 @@
     "name_en": null,
     "category": null,
     "floors": [3],
-    "addInfo_zh": null,
+    "addInfo_zh": ["【鸭爵金币】固定出现<鸭爵>，且提早出现"],
     "addInfo_ja": null,
     "addInfo_en": null,
-    "eliteDesc_zh": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力，防御力+30%，生命值+60%",
+      "额外出现1个墨浪、1个心涛",
+      "战斗开始时额外出现1个雕伥"
+    ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "all_mods": null,
@@ -29521,8 +29766,8 @@
     "elite_enemy_counts": [22, 23, 24],
     "elite_sp_count": [25],
     "sp_enemy": {
-      "normal": "33",
-      "elite": "35"
+      "normal": "23",
+      "elite": "25"
     },
     "sp_terrain": [
       {
@@ -29605,10 +29850,14 @@
     "name_en": null,
     "category": null,
     "floors": [3],
-    "addInfo_zh": null,
+    "addInfo_zh": ["【鸭爵金币】固定出现<流泪小子>，且提早出现"],
     "addInfo_ja": null,
     "addInfo_en": null,
-    "eliteDesc_zh": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力+40%，防御力+20%，生命值+40%",
+      "净浊之焰的攻击力额外提升至150%",
+      "战斗开始时额外出现1个雕伥"
+    ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "all_mods": null,
@@ -29638,38 +29887,8 @@
         "targets": ["enemy_1177_dufrbl"],
         "mods": [
           {
-            "key": "hp",
-            "value": 1.0,
-            "mode": "mul"
-          },
-          {
             "key": "atk",
             "value": 1.5,
-            "mode": "mul"
-          },
-          {
-            "key": "def",
-            "value": 1.0,
-            "mode": "mul"
-          },
-          {
-            "key": "res",
-            "value": 1.0,
-            "mode": "mul"
-          },
-          {
-            "key": "ms",
-            "value": 1.0,
-            "mode": "mul"
-          },
-          {
-            "key": "aspd",
-            "value": 1.0,
-            "mode": "mul"
-          },
-          {
-            "key": "weight",
-            "value": 1.0,
             "mode": "mul"
           }
         ]
@@ -29744,10 +29963,14 @@
     "name_en": null,
     "category": null,
     "floors": [3],
-    "addInfo_zh": null,
+    "addInfo_zh": ["【鸭爵金币】固定出现<圆仔>，且提早出现"],
     "addInfo_ja": null,
     "addInfo_en": null,
-    "eliteDesc_zh": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力，防御力，生命值+20%",
+      "战斗开始时额外出现2个<盾与墙>",
+      "战斗开始时额外出现1个雕伥"
+    ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "all_mods": null,
@@ -29836,10 +30059,14 @@
     "name_en": null,
     "category": null,
     "floors": [4],
-    "addInfo_zh": null,
+    "addInfo_zh": ["【鸭爵金币】固定出现<高普尼克>，且提早出现"],
     "addInfo_ja": null,
     "addInfo_en": null,
-    "eliteDesc_zh": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力，防御力，生命值+20%",
+      "提亚卡乌勇士和提亚卡乌冠军的攻击力额外提升至150%",
+      "战斗开始时额外出现1个雕伥"
+    ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "all_mods": null,
@@ -29968,10 +30195,14 @@
     "name_en": null,
     "category": null,
     "floors": [4],
-    "addInfo_zh": null,
+    "addInfo_zh": ["【鸭爵金币】固定出现<圆仔>，且提早出现"],
     "addInfo_ja": null,
     "addInfo_en": null,
-    "eliteDesc_zh": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力，防御力，生命值+40%",
+      "糖果车和节日零食车的攻击力和生命值额外提升至150%",
+      "战斗开始时额外出现1个雕伥"
+    ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "all_mods": null,
@@ -29998,7 +30229,7 @@
         ]
       },
       {
-        "targets": ["enemy_10037_cnvpcar"],
+        "targets": ["enemy_10037_cnvpcar", "enemy_1218_bomscr"],
         "mods": [
           {
             "key": "hp",
@@ -30008,31 +30239,6 @@
           {
             "key": "atk",
             "value": 1.5,
-            "mode": "mul"
-          },
-          {
-            "key": "def",
-            "value": 1.0,
-            "mode": "mul"
-          }
-        ]
-      },
-      {
-        "targets": ["enemy_1218_bomscr"],
-        "mods": [
-          {
-            "key": "hp",
-            "value": 1.5,
-            "mode": "mul"
-          },
-          {
-            "key": "atk",
-            "value": 1.5,
-            "mode": "mul"
-          },
-          {
-            "key": "def",
-            "value": 1.0,
             "mode": "mul"
           }
         ]
@@ -30130,10 +30336,14 @@
     "name_en": null,
     "category": null,
     "floors": [4],
-    "addInfo_zh": null,
+    "addInfo_zh": ["【鸭爵金币】固定出现<流泪小子>，且提早出现"],
     "addInfo_ja": null,
     "addInfo_en": null,
-    "eliteDesc_zh": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力，防御力，生命值+20%",
+      "微核沉积者的生命值额外提升至150%，雕伥的生命值额外提升至200%",
+      "复核洋流使者被替换为异光体洋流使者"
+    ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "all_mods": null,
@@ -30269,10 +30479,14 @@
     "name_en": null,
     "category": null,
     "floors": [4],
-    "addInfo_zh": null,
+    "addInfo_zh": ["【鸭爵金币】固定出现<鸭爵>，且提早出现"],
     "addInfo_ja": null,
     "addInfo_en": null,
-    "eliteDesc_zh": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力，防御力，生命值+30%",
+      "战斗开始时额外在地图左下出现一个爆炸追寻者",
+      "战斗开始时额外出现2个雕伥"
+    ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "all_mods": null,
@@ -30381,10 +30595,13 @@
     "name_en": null,
     "category": null,
     "floors": [4],
-    "addInfo_zh": null,
+    "addInfo_zh": ["【鸭爵金币】固定出现<高普尼克>，且提早出现"],
     "addInfo_ja": null,
     "addInfo_en": null,
-    "eliteDesc_zh": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力+20%，防御力+20%，生命值+30%",
+      "清明和堂皇的生命值生命值额外提升至200%"
+    ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "all_mods": [
@@ -30399,8 +30616,29 @@
         ]
       }
     ],
-    "normal_mods": null,
+    "normal_mods": [
+      {
+        "targets": ["trap_097_hstone"],
+        "mods": [
+          {
+            "key": "hp",
+            "value": 4.0,
+            "mode": "mul"
+          }
+        ]
+      }
+    ],
     "elite_mods": [
+      {
+        "targets": ["trap_097_hstone"],
+        "mods": [
+          {
+            "key": "hp",
+            "value": 4.0,
+            "mode": "mul"
+          }
+        ]
+      },
       {
         "targets": ["ALL"],
         "mods": [
@@ -30541,10 +30779,14 @@
     "name_en": null,
     "category": null,
     "floors": [4],
-    "addInfo_zh": null,
+    "addInfo_zh": ["【鸭爵金币】固定出现<圆仔>，且提早出现"],
     "addInfo_ja": null,
     "addInfo_en": null,
-    "eliteDesc_zh": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力+10%，防御力+20%，生命值+20%，移动速度+20%",
+      "战斗开始时额外出现2个灰烬造物",
+      "战斗开始时额外出现1个雕伥"
+    ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "all_mods": null,
@@ -30638,10 +30880,14 @@
     "name_en": null,
     "category": null,
     "floors": [5],
-    "addInfo_zh": null,
+    "addInfo_zh": ["【鸭爵金币】固定出现<鸭爵>，且提早出现"],
     "addInfo_ja": null,
     "addInfo_en": null,
-    "eliteDesc_zh": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力+50%，防御力+20%，生命值+50%",
+      "“偷闲”和“得意”的生命值额外提升至200%",
+      "战斗开始时额外出现1个雕伥"
+    ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "all_mods": null,
@@ -30774,10 +31020,17 @@
     "name_en": null,
     "category": null,
     "floors": [5],
-    "addInfo_zh": null,
-    "addInfo_ja": null,
-    "addInfo_en": null,
-    "eliteDesc_zh": null,
+    "addInfo_zh": [
+      "初始部署费用上限降低至50",
+      "【鸭爵金币】固定出现<流泪小子>，且提早出现"
+    ],
+    "addInfo_ja": ["初期コスト上限が50になる"],
+    "addInfo_en": ["Starting Max Cost is 50"],
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力，防御力，生命值+20%",
+      "部分寻路密探长有50%概率被替换为武装密探长",
+      "战斗开始时额外出现1个雕伥"
+    ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "all_mods": null,
@@ -30906,10 +31159,13 @@
     "name_en": null,
     "category": null,
     "floors": [5],
-    "addInfo_zh": null,
+    "addInfo_zh": ["【鸭爵金币】固定出现<圆仔>，且提早出现"],
     "addInfo_ja": null,
     "addInfo_en": null,
-    "eliteDesc_zh": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力，防御力，生命值+20%",
+      "战斗开始时额外出现2个暴走食虫花"
+    ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "all_mods": null,
@@ -30998,10 +31254,14 @@
     "name_en": null,
     "category": null,
     "floors": [5],
-    "addInfo_zh": null,
+    "addInfo_zh": ["【鸭爵金币】固定出现<高普尼克>，且提早出现"],
     "addInfo_ja": null,
     "addInfo_en": null,
-    "eliteDesc_zh": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力，防御力+20%，生命值+50%，重量+1",
+      "战斗开始时额外出现10个自由佣兵“主音吉他”",
+      "战斗开始时于化境地块随机出现2个雕伥"
+    ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "all_mods": null,
@@ -31024,6 +31284,11 @@
             "key": "hp",
             "value": 1.5,
             "mode": "mul"
+          },
+          {
+            "key": "weight",
+            "value": 1,
+            "mode": "add"
           }
         ]
       }
@@ -31117,10 +31382,14 @@
     "name_en": null,
     "category": null,
     "floors": [5],
-    "addInfo_zh": null,
+    "addInfo_zh": ["【鸭爵金币】固定出现<流泪小子>，且提早出现"],
     "addInfo_ja": null,
     "addInfo_en": null,
-    "eliteDesc_zh": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力+30%，生命值+50%",
+      "雕伥的生命值额外提升至200%",
+      "额外出现3个狂暴宿主掷骨手"
+    ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "all_mods": null,
@@ -31229,10 +31498,15 @@
     "name_en": null,
     "category": null,
     "floors": [5],
-    "addInfo_zh": null,
+    "addInfo_zh": ["【鸭爵金币】固定出现<圆仔>，且提早出现"],
     "addInfo_ja": null,
     "addInfo_en": null,
-    "eliteDesc_zh": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力+20%，防御力+30%，生命值+30%",
+      "所有“废食”获得隐匿",
+      "战斗初期额外出现10个无谓",
+      "额外出现两个雕伥，随机分布于地面的化境地块"
+    ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "all_mods": null,
@@ -31271,13 +31545,13 @@
         }
       }
     ],
-    "enemy_counts": [37, 47, 57],
-    "sp_count": [38, 48, 58],
-    "elite_enemy_counts": [47, 57, 67],
-    "elite_sp_count": [48, 58, 68],
+    "enemy_counts": [37],
+    "sp_count": [38],
+    "elite_enemy_counts": [47],
+    "elite_sp_count": [48],
     "sp_enemy": {
-      "normal": "38 / 48 / 58",
-      "elite": "48 / 58 / 68"
+      "normal": "38",
+      "elite": null
     },
     "sp_terrain": [
       {
@@ -31370,10 +31644,14 @@
     "name_en": null,
     "category": null,
     "floors": [6],
-    "addInfo_zh": null,
+    "addInfo_zh": ["【鸭爵金币】固定出现<高普尼克>，且提早出现"],
     "addInfo_ja": null,
     "addInfo_en": null,
-    "eliteDesc_zh": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力+50%，防御力+30%，生命值+20%",
+      "飘香的生命值额外提升至200%",
+      "额外出现1个雕伥和3个飘香"
+    ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "all_mods": null,
@@ -31405,36 +31683,6 @@
           {
             "key": "hp",
             "value": 2.0,
-            "mode": "mul"
-          },
-          {
-            "key": "atk",
-            "value": 1.0,
-            "mode": "mul"
-          },
-          {
-            "key": "def",
-            "value": 1.0,
-            "mode": "mul"
-          },
-          {
-            "key": "res",
-            "value": 1.0,
-            "mode": "mul"
-          },
-          {
-            "key": "ms",
-            "value": 1.0,
-            "mode": "mul"
-          },
-          {
-            "key": "aspd",
-            "value": 1.0,
-            "mode": "mul"
-          },
-          {
-            "key": "weight",
-            "value": 1.0,
             "mode": "mul"
           }
         ]
@@ -31549,10 +31797,14 @@
     "name_en": null,
     "category": null,
     "floors": [6],
-    "addInfo_zh": null,
+    "addInfo_zh": ["【鸭爵金币】固定出现<流泪小子>，且提早出现"],
     "addInfo_ja": null,
     "addInfo_en": null,
-    "eliteDesc_zh": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力+20%，防御力+20%，生命值+20%",
+      "重弩猎杀者被替换为战线突破者",
+      "战斗开始时地图左右侧都出现3个马特奥的近卫"
+    ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "all_mods": null,
