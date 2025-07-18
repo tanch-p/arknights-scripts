@@ -10659,7 +10659,8 @@
         "epResistance": 0.0,
         "traits": [
           {
-            "key": "fury_buff"
+            "key": "yinyang_effect",
+            "atk": { "multiplier": 2.52 }
           }
         ],
         "special": []
@@ -10698,7 +10699,8 @@
         "epResistance": 0.0,
         "traits": [
           {
-            "key": "fury_buff"
+            "key": "yinyang_effect",
+            "atk": { "multiplier": 2.52 }
           }
         ],
         "special": []
@@ -24035,7 +24037,7 @@
         "ms": 0.8,
         "epDamageResistance": 0.0,
         "epResistance": 0.0,
-        "traits": [],
+        "traits": [{ "key": "atk_priority_higher_ground" }],
         "special": []
       }
     ],
@@ -24070,7 +24072,7 @@
         "ms": 0.8,
         "epDamageResistance": 0.0,
         "epResistance": 0.0,
-        "traits": [],
+        "traits": [{ "key": "atk_priority_higher_ground" }],
         "special": []
       }
     ],
@@ -26953,8 +26955,28 @@
         "ms": 0.5,
         "epDamageResistance": 0.0,
         "epResistance": 0.0,
-        "traits": [],
-        "special": []
+        "traits": [
+          { "key": "yinyang" },
+          { "key": "yinyang_effect" },
+          { "key": "xi_marking" },
+          { "key": "xi_weft" }
+        ],
+        "special": [
+          [{ "key": "xi_revive" }, { "key": "xi_barrier" }],
+          [
+            { "key": "multi_target_condense" },
+            {
+              "key": "xi_barrier",
+              "initCooldown": 40,
+              "value": 9000,
+              "atk": { "multiplier": 8 }
+            }
+          ]
+        ],
+        "form_mods": [
+          [],
+          [{ "key": "atk", "value": 0.05, "mode": "mul", "order": "initial" }]
+        ]
       },
       {
         "hp": 40000,
@@ -26968,13 +26990,47 @@
         "ms": 0.5,
         "epDamageResistance": 0.0,
         "epResistance": 0.0,
-        "traits": [],
-        "special": []
+        "traits": [
+          { "key": "yinyang" },
+          { "key": "yinyang_effect" },
+          { "key": "xi_marking" },
+          { "key": "xi_weft" }
+        ],
+        "special": [
+          [
+            { "key": "xi_revive" },
+            {
+              "key": "xi_barrier",
+              "initCooldown": 50,
+              "value": 10500,
+              "duration": 10
+            }
+          ],
+          [
+            { "key": "multi_target_condense" },
+            {
+              "key": "xi_barrier",
+              "initCooldown": 60,
+              "value": 12000,
+              "atk": { "multiplier": 8 },
+              "duration": 10
+            }
+          ]
+        ],
+        "form_mods": [[], [{ "key": "atk", "value": 0.05, "order": "initial" }]]
       }
     ],
     "forms": [
       {
-        "title": null,
+        "title": "form",
+        "normal_attack": {
+          "atk_type": ["ranged", "arts"],
+          "hits": 1
+        },
+        "status_immune": ["stun", "silence", "sleep", "freeze", "levitate"]
+      },
+      {
+        "title": "form",
         "normal_attack": {
           "atk_type": ["ranged", "arts"],
           "hits": 1
@@ -28401,7 +28457,8 @@
             {
               "key": "invincible",
               "value": 30
-            }
+            },
+            { "key": "fzm_form2" }
           ]
         ],
         "form_mods": [
@@ -33164,7 +33221,8 @@
             "key": "block"
           },
           {
-            "key": "cbrush_2"
+            "key": "cbrush_1",
+            "value": 1000
           }
         ],
         "special": []
@@ -41775,7 +41833,11 @@
         "ms": 1.3,
         "epDamageResistance": 0.0,
         "epResistance": 0.0,
-        "traits": [],
+        "traits": [
+          { "key": "no_block" },
+          { "key": "lrthef_ms" },
+          { "key": "lrthef_beacon" }
+        ],
         "special": []
       }
     ],
@@ -46457,7 +46519,7 @@
           },
           {
             "key": "steal_gold",
-            "value": "?"
+            "value": 99
           }
         ],
         "special": []
@@ -47834,7 +47896,7 @@
         "ms": 0.5,
         "epDamageResistance": 0.0,
         "epResistance": 0.0,
-        "traits": [],
+        "traits": [{ "key": "sgcat_skill" }],
         "special": []
       },
       {
@@ -47849,7 +47911,7 @@
         "ms": 0.5,
         "epDamageResistance": 0.0,
         "epResistance": 0.0,
-        "traits": [],
+        "traits": [{ "key": "sgcat_skill" }],
         "special": []
       }
     ],
@@ -48199,7 +48261,10 @@
         "ms": 0.2,
         "epDamageResistance": 0.0,
         "epResistance": 0.0,
-        "traits": [],
+        "traits": [
+          { "key": "multi_hit", "value": 3 },
+          { "key": "vtzepl_explode" }
+        ],
         "special": []
       }
     ],
@@ -48234,7 +48299,10 @@
         "ms": 0.2,
         "epDamageResistance": 0.0,
         "epResistance": 0.0,
-        "traits": [],
+        "traits": [
+          { "key": "multi_hit", "value": 3 },
+          { "key": "vtzepl_explode" }
+        ],
         "special": []
       }
     ],
@@ -48290,13 +48358,13 @@
       {
         "title": null,
         "normal_attack": {
-          "atk_type": ["phys", "phys"],
+          "atk_type": ["melee", "phys"],
           "hits": 1
         },
         "status_immune": []
       }
     ],
-    "type": ["phys", "ranged", "machine", "ELITE"]
+    "type": ["melee", "ranged", "machine", "ELITE"]
   },
   "enemy_10028_vtswd": {
     "id": "LUD26",
@@ -49822,7 +49890,8 @@
         "epResistance": 0.0,
         "traits": [
           { "key": "block", "value": 3 },
-          { "key": "dmg_res", "value": 90 }
+          { "key": "dmg_res", "value": 90 },
+          { "key": "cnvpvd_summon" }
         ],
         "special": []
       }
@@ -49861,7 +49930,8 @@
         "epResistance": 0.0,
         "traits": [
           { "key": "block", "value": 3 },
-          { "key": "dmg_res", "value": 90 }
+          { "key": "dmg_res", "value": 90 },
+          { "key": "cnvpvd_summon" }
         ],
         "special": []
       }
@@ -49898,7 +49968,7 @@
         "ms": 1.6,
         "epDamageResistance": 0.0,
         "epResistance": 0.0,
-        "traits": [],
+        "traits": [{ "key": "cnvpcar_explode" }],
         "special": []
       }
     ],
@@ -49934,7 +50004,7 @@
         "ms": 1.6,
         "epDamageResistance": 0.0,
         "epResistance": 0.0,
-        "traits": [],
+        "traits": [{ "key": "cnvpcar_explode" }],
         "special": []
       }
     ],
@@ -49972,7 +50042,8 @@
         "epResistance": 0.0,
         "traits": [
           { "key": "block", "value": 3 },
-          { "key": "dmg_res", "value": 90 }
+          { "key": "dmg_res", "value": 90 },
+          { "key": "run_through_atk" }
         ],
         "special": []
       }
@@ -50011,7 +50082,8 @@
         "epResistance": 0.0,
         "traits": [
           { "key": "block", "value": 3 },
-          { "key": "dmg_res", "value": 90 }
+          { "key": "dmg_res", "value": 90 },
+          { "key": "run_through_atk" }
         ],
         "special": []
       }
@@ -50048,7 +50120,11 @@
         "ms": 1.2,
         "epDamageResistance": 0.0,
         "epResistance": 0.0,
-        "traits": [],
+        "traits": [
+          { "key": "block", "value": 3 },
+          { "key": "dmg_res", "value": 90 },
+          { "key": "cnvber_beer" }
+        ],
         "special": []
       }
     ],
@@ -50084,7 +50160,11 @@
         "ms": 1.2,
         "epDamageResistance": 0.0,
         "epResistance": 0.0,
-        "traits": [],
+        "traits": [
+          { "key": "block", "value": 3 },
+          { "key": "dmg_res", "value": 90 },
+          { "key": "cnvber_beer" }
+        ],
         "special": []
       }
     ],
@@ -50092,13 +50172,13 @@
       {
         "title": null,
         "normal_attack": {
-          "atk_type": ["ranged", "phys"],
+          "atk_type": ["melee", "phys"],
           "hits": 1
         },
         "status_immune": []
       }
     ],
-    "type": ["ranged", "ELITE"]
+    "type": ["melee", "ranged", "ELITE"]
   },
   "enemy_10040_cnvbln": {
     "id": "CNV19",
@@ -58267,13 +58347,13 @@
         "def": 750,
         "res": 50.0,
         "aspd": 4.0,
-        "range": 2.5,
+        "range": -1,
         "weight": 7,
         "lifepoint": 0,
         "ms": 0.5,
         "epDamageResistance": 0.0,
         "epResistance": 0.0,
-        "traits": [],
+        "traits": [{ "key": "dusk_1" }],
         "special": []
       }
     ],
@@ -58309,7 +58389,12 @@
         "ms": 1.0,
         "epDamageResistance": 0.0,
         "epResistance": 0.0,
-        "traits": [{ "key": "damage_1" }],
+        "traits": [
+          { "key": "not_count_in_total" },
+          { "key": "damage_1" },
+          { "key": "dyspll_apply" },
+          { "key": "dyspll_possess" }
+        ],
         "special": []
       }
     ],
@@ -58323,7 +58408,7 @@
         "status_immune": ["silence"]
       }
     ],
-    "type": ["ranged", "animated", "NORMAL"]
+    "type": ["ranged", "flying", "animated", "NORMAL"]
   },
   "enemy_2102_dytmbr": {
     "id": "JY2",
@@ -58345,7 +58430,7 @@
         "ms": 0.9,
         "epDamageResistance": 0.0,
         "epResistance": 0.0,
-        "traits": [],
+        "traits": [{ "key": "dytmbr_eat" }],
         "special": []
       }
     ],
@@ -58381,7 +58466,7 @@
         "ms": 1.0,
         "epDamageResistance": 0.0,
         "epResistance": 0.0,
-        "traits": [],
+        "traits": [{ "key": "ammo", "value": 3 }, { "key": "dykens_summon" }],
         "special": []
       }
     ],
@@ -58417,7 +58502,7 @@
         "ms": 0.4,
         "epDamageResistance": 0.0,
         "epResistance": 0.0,
-        "traits": [],
+        "traits": [{ "key": "dycast_summon" }],
         "special": []
       }
     ],
@@ -58453,7 +58538,7 @@
         "ms": 0.6,
         "epDamageResistance": 0.0,
         "epResistance": 0.0,
-        "traits": [],
+        "traits": [{ "key": "dyrnge_eat" }],
         "special": []
       }
     ],
@@ -58489,7 +58574,10 @@
         "ms": 0.9,
         "epDamageResistance": 0.0,
         "epResistance": 0.0,
-        "traits": [],
+        "traits": [
+          { "key": "dyremy_buff" },
+          { "key": "steal_gold", "value": 5 }
+        ],
         "special": []
       },
       {
@@ -58504,7 +58592,10 @@
         "ms": 0.9,
         "epDamageResistance": 0.0,
         "epResistance": 0.0,
-        "traits": [],
+        "traits": [
+          { "key": "dyremy_buff" },
+          { "key": "steal_gold", "value": 5 }
+        ],
         "special": []
       },
       {
@@ -58519,7 +58610,10 @@
         "ms": 0.9,
         "epDamageResistance": 0.0,
         "epResistance": 0.0,
-        "traits": [],
+        "traits": [
+          { "key": "dyremy_buff" },
+          { "key": "steal_gold", "value": 5 }
+        ],
         "special": []
       }
     ],
@@ -58555,7 +58649,14 @@
         "ms": 0.2,
         "epDamageResistance": 0.0,
         "epResistance": 0.0,
-        "traits": [],
+        "traits": [
+          { "key": "cannot" },
+          { "key": "dycant_transform" },
+          { "key": "dycant_spray_potion" },
+          { "key": "dycant_potion_effect_1" },
+          { "key": "dycant_potion_effect_2" },
+          { "key": "dycant_potion_effect_3" }
+        ],
         "special": []
       }
     ],
@@ -58591,7 +58692,13 @@
         "ms": 0.7,
         "epDamageResistance": 0.0,
         "epResistance": 0.0,
-        "traits": [],
+        "traits": [
+          { "key": "multi_target" },
+          { "key": "hover" },
+          { "key": "dypryg_hover_evasion" },
+          { "key": "dypryg_hover_recover" },
+          { "key": "dypryg_summon" }
+        ],
         "special": []
       }
     ],
@@ -58627,7 +58734,13 @@
         "ms": 0.7,
         "epDamageResistance": 0.0,
         "epResistance": 0.0,
-        "traits": [],
+        "traits": [
+          { "key": "multi_target" },
+          { "key": "hover" },
+          { "key": "dypry2_hover_range" },
+          { "key": "dypry2_hover_recover" },
+          { "key": "dypryg_summon", "value": 3 }
+        ],
         "special": []
       }
     ],
@@ -58901,7 +59014,11 @@
         "ms": 1.0,
         "epDamageResistance": 0.0,
         "epResistance": 0.0,
-        "traits": [],
+        "traits": [
+          { "key": "dyyysg_fish" },
+          { "key": "dyyysg_summon" },
+          { "key": "dyyysg_end" }
+        ],
         "special": []
       }
     ],
@@ -58937,7 +59054,13 @@
         "ms": 1.0,
         "epDamageResistance": 0.0,
         "epResistance": 0.0,
-        "traits": [],
+        "traits": [
+          { "key": "multi_target" },
+          { "key": "dyyys2_fish" },
+          { "key": "dyyys2_fish_buff" },
+          { "key": "dyyysg_summon" },
+          { "key": "dyyysg_end" }
+        ],
         "special": []
       }
     ],
@@ -58973,13 +59096,32 @@
         "ms": 0.5,
         "epDamageResistance": 0.0,
         "epResistance": 0.0,
-        "traits": [],
-        "special": []
+        "traits": [
+          { "key": "dylbhm_invert" },
+          { "key": "dylbhm_summon" },
+          { "key": "yinyang" },
+          { "key": "multi_target" },
+          { "key": "yinyang_target_opposite" },
+          { "key": "dylbhm_yinyang_bonus" }
+        ],
+        "special": [
+          [{ "key": "dylbhm_revive" }],
+          [{ "key": "dylbhm_invert_element_all" }]
+        ],
+        "form_mods": [[], []]
       }
     ],
     "forms": [
       {
-        "title": null,
+        "title": "form",
+        "normal_attack": {
+          "atk_type": ["ranged", "arts"],
+          "hits": 1
+        },
+        "status_immune": ["stun", "silence", "sleep", "freeze", "levitate"]
+      },
+      {
+        "title": "form",
         "normal_attack": {
           "atk_type": ["ranged", "arts"],
           "hits": 1
@@ -59009,7 +59151,12 @@
         "ms": 1.0,
         "epDamageResistance": 0.0,
         "epResistance": 0.0,
-        "traits": [],
+        "traits": [
+          { "key": "dyshhj_appear" },
+          { "key": "dyshhj_default" },
+          { "key": "dyshhj_end" },
+          { "key": "dyshhj_force" }
+        ],
         "special": []
       }
     ],
@@ -59054,7 +59201,13 @@
         "ms": 1.0,
         "epDamageResistance": 0.0,
         "epResistance": 0.0,
-        "traits": [],
+        "traits": [
+          { "key": "not_count_in_total" },
+          { "key": "dyshh2_appear" },
+          { "key": "dyshhj_default" },
+          { "key": "hp_carry_over" },
+          { "key": "dyshh2_hp50" }
+        ],
         "special": []
       }
     ],
@@ -59099,13 +59252,37 @@
         "ms": 0.6,
         "epDamageResistance": 0.0,
         "epResistance": 0.0,
-        "traits": [],
-        "special": []
+        "traits": [
+          { "key": "dywqgs_surround" },
+          { "key": "dywqgs_plant_seed" }
+        ],
+        "special": [
+          [
+            { "key": "dywqgs_standby" },
+            { "key": "dywqgs_activate" },
+            { "key": "dywqgs_resist" },
+            { "key": "dywqgs_revive" }
+          ],
+          [
+            { "key": "dywqgs_2_summon" },
+            { "key": "dywqgs_2_surround" },
+            { "key": "dywqgs_2_lose" }
+          ]
+        ],
+        "form_mods": [[], []]
       }
     ],
     "forms": [
       {
-        "title": null,
+        "title": "form",
+        "normal_attack": {
+          "atk_type": ["ranged", "arts"],
+          "hits": 1
+        },
+        "status_immune": ["silence", "levitate", "fear"]
+      },
+      {
+        "title": "form",
         "normal_attack": {
           "atk_type": ["ranged", "arts"],
           "hits": 1
@@ -59181,7 +59358,24 @@
         "ms": 1.2,
         "epDamageResistance": 0.0,
         "epResistance": 0.0,
-        "traits": [],
+        "traits": [
+          {
+            "key": "yinyang"
+          },
+          {
+            "key": "damage_1"
+          },
+          {
+            "key": "dybgzd_explode_kill"
+          },
+          {
+            "key": "dybgzd_explode"
+          },
+          {
+            "key": "dybgzd_explode_same"
+          },
+          { "key": "dybgzd_explode_oppo" }
+        ],
         "special": []
       }
     ],
@@ -59195,6 +59389,6 @@
         "status_immune": ["silence"]
       }
     ],
-    "type": ["animated", "NORMAL"]
+    "type": ["animated", "flying", "NORMAL"]
   }
 }
