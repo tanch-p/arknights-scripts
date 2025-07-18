@@ -62,7 +62,7 @@ with open("enemy_database.json", encoding="utf-8") as f:
 #             print(key)
 
 for [key,enemy] in my_enemy_db.items():
-    db_enemy = next(item for item in enemy_database['enemies'] if item['Key'] == key)
+    db_enemy = next(item for item in enemy_database['enemies'] if item['Key'] == key, None)
     (db_enemy['Value'][0]['enemyData']['notCountInTotal'])
     enemy['notCountInTotal'] = db_enemy['Value'][0]['enemyData']['notCountInTotal']['m_value'] if db_enemy['Value'][0]['enemyData']['notCountInTotal']['m_defined'] else False
 

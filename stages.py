@@ -253,16 +253,17 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
                         "overwrittenData"
                     ]["lifePointReduce"]["m_value"]
                 if enemy["overwrittenData"]["notCountInTotal"]["m_defined"] and enemy["overwrittenData"]["notCountInTotal"]["m_value"]:
-                    alerts.append(
-                        f"notCountInTotal, {enemy['id']}, {my_enemy_db[enemy_id]['name_zh']}, {levelId})")
-                    if not 'talentBlackboard' in overwrittenData:
-                        overwrittenData['talentBlackboard'] = []
-                    overwrittenData['talentBlackboard'].append(
-                        {"key": "not_count_in_total", "tooltip": {
-                            "en": ["$【Non-Key Target】$Will not prevent ending of battle even when still on field"],
-                            "ja": ["$【非重要目標】$戦場にいても作戦終了に影響しない"],
-                            "zh": ["$【非首要目标】$该目标在场不会阻止战斗结束"]
-                        }})
+                    if my_enemy_db[enemy_id]['notCountInTotal'] is False:
+                        alerts.append(
+                            f"notCountInTotal, {enemy['id']}, {my_enemy_db[enemy_id]['name_zh']}, {levelId})")
+                        if not 'talentBlackboard' in overwrittenData:
+                            overwrittenData['talentBlackboard'] = []
+                        overwrittenData['talentBlackboard'].append(
+                            {"key": "not_count_in_total", "tooltip": {
+                                "en": ["$【Non-Key Target】$Will not prevent ending of battle even when still on field"],
+                                "ja": ["$【非重要目標】$戦場にいても作戦終了に影響しない"],
+                                "zh": ["$【非首要目标】$该目标在场不会阻止战斗结束"]
+                            }})
                 if enemy["overwrittenData"]["rangeRadius"]["m_defined"]:
                     overwrittenData["range"] = enemy["overwrittenData"][
                         "rangeRadius"
