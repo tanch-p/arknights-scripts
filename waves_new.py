@@ -9,23 +9,40 @@ import random
 from collections import Counter, defaultdict
 from compress_waves import compress_waves
 from waves import ALWAYS_KILLED_KEYS
+import re
 
 pp = pprint.PrettyPrinter(indent=4)
+
+pattern = re.compile(r"^level_rogue\d+_\d+-\d+$")
 
 bonus_enemies = ['enemy_2001_duckmi', 'enemy_2002_bearmi',
                  'enemy_2034_sythef', 'enemy_2085_skzjxd']
 
 script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
-enemy_database_path = os.path.join(
-    script_dir, "cn_data/zh_CN/gamedata/levels/enemydata/enemy_database.json"
-)
-with open(enemy_database_path, encoding="utf-8") as f:
-    enemy_database = json.load(f)
+with open("enemy_database.json", encoding="utf-8") as f:
+    my_enemy_db = json.load(f)
 
 
+def is_countable_enemy(key, stage_data):
+    enemy_refs = stage_data["enemyDbRefs"]
+    enemy = next((item for item in enemy_refs if item['id'] == key), None)
+    if enemy is None:
+        print(f"{key} not found")
+        return True
+    enemy_id = key
+    if enemy['overwrittenData'] is not None:
+        if enemy["overwrittenData"]['prefabKey']['m_defined'] or enemy['useDb'] is False:
+            enemy_id = enemy["overwrittenData"]['prefabKey']['m_value']
+        not_countable = my_enemy_db[enemy_id]['notCountInTotal']
+        if enemy["overwrittenData"]["notCountInTotal"]["m_defined"]:
+            not_countable = enemy["overwrittenData"]["notCountInTotal"]["m_value"]
+        return not (not_countable)
+    else:
+        return not (my_enemy_db[key]['notCountInTotal'])
 
-def analyze_enemy_spawns(waves_data, levelId, bonus_data, difficulty, group_name, enemies_to_replace):
+
+def analyze_enemy_spawns(waves_data, levelId, bonus_data, difficulty, group_name, enemies_to_replace, stage_data):
     """
     Returns:
         Dictionary with analysis results including guaranteed spawns and all possible combinations
@@ -108,13 +125,13 @@ def analyze_enemy_spawns(waves_data, levelId, bonus_data, difficulty, group_name
     def generate_scenarios():
         base_count = 0
         for key in guaranteed_spawns:
-            if is_countable_action(key, levelId):
+            if is_countable_action(key, stage_data):
                 base_count += guaranteed_spawns[key]
         if not fragment_groups:
             # No random groups, only guaranteed spawns
             return [base_count]
 
-        data = get_enemy_spawn_counts(fragment_groups, levelId)
+        data = get_enemy_spawn_counts(fragment_groups, stage_data)
         final_list = data['list']
         base_count += data['extra_count']
         combinations = get_count_combinations(final_list)
@@ -201,7 +218,7 @@ def get_count_combinations(lst):
     return [value for value, prob in sorted(merged_results.items())]
 
 
-def get_enemy_spawn_counts(spawn_data, levelId):
+def get_enemy_spawn_counts(spawn_data, stage_data):
     # pp.pprint(spawn_data)
     final_list = []
     extra_base_count = 0
@@ -211,7 +228,7 @@ def get_enemy_spawn_counts(spawn_data, levelId):
             options = []
             count_list = []
             for option in group_data['options']:
-                count = get_option_count(option, levelId)
+                count = get_option_count(option, stage_data)
                 count_list.append(count)
                 options.append(
                     {"count": count, 'packKey': option['packKey']})
@@ -225,11 +242,11 @@ def get_enemy_spawn_counts(spawn_data, levelId):
     return {"list": final_list, "extra_count": extra_base_count}
 
 
-def get_option_count(option, levelId):
+def get_option_count(option, stage_data):
     count = 0
     for action in option['actions']:
         key = action["key"]
-        if is_countable_action(key, levelId):
+        if is_countable_action(key, stage_data):
             count += action['count']
     return count
 
@@ -254,16 +271,15 @@ def get_topic(stage_id):
         return 'rogue_phantom'
 
 
-def is_countable_action(key, level_id):
+def is_countable_action(key, stage_data):
     if 'trap' in key:
         return False
     if key == '':
         return False
     if key in ALWAYS_KILLED_KEYS:
         return False
-    if level_id == 'level_rogue4_t-4':
-        return key != 'enemy_1263_durbus'
-    return True
+
+    return is_countable_enemy(key, stage_data)
 
 
 def generate_all_permutations(input_list):
@@ -450,6 +466,8 @@ def get_bonus(stage_data):
             if frag_index > max_frag_index:
                 max_frag_index = frag_index
             for action in fragment['actions']:
+                if action['hiddenGroup'] == "copper_r":
+                    continue
                 if action['key'] == 'enemy_2002_bearmi':
                     bonus_fragment = fragment
                     bonus_frag_index = frag_index
@@ -472,11 +490,9 @@ def get_wave_spawns_data(stage_data, levelId, log=False):
     if levelId == 'level_rogue4_b-8':
         normal_group_name = "normal_amiya"
         elite_group_name = "hard_amiya"
-    log and print('normal:', normal_group_name, 'elite:',
+    log and print('levelId:', levelId, 'normal:', normal_group_name, 'elite:',
                   elite_group_name, 'replace:', enemies_to_replace)
-    has_bonus_wave = not (
-        '_ev-' in levelId or '_t-' in levelId or "_b-" in levelId or "_d-" in levelId 
-        or "_sv-" in levelId or "_fs-" in levelId or "_dv-" in levelId)
+    has_bonus_wave = pattern.match(levelId)
     holder = ['NORMAL']
     if elite_group_name is not None or len(enemies_to_replace) > 0:
         holder.append("ELITE")
@@ -489,7 +505,7 @@ def get_wave_spawns_data(stage_data, levelId, log=False):
         group_name = normal_group_name if diff_group == "NORMAL" else elite_group_name
         difficulty = 0 if diff_group == "NORMAL" else 4
         analysis = analyze_enemy_spawns(
-            waves_data, levelId, bonus_data, difficulty, group_name, enemies_to_replace)
+            waves_data, levelId, bonus_data, difficulty, group_name, enemies_to_replace, stage_data)
         list, counts, absolute_bonus_count = itemgetter(
             'enemy_list', 'enemy_counts', 'absolute_bonus_count')(analysis)
         if diff_group == "NORMAL":
@@ -675,9 +691,7 @@ def get_waves_data(stage_data, levelId, log=False, test=False):
         elite_group_name = "hard_amiya"
     log and print('normal:', normal_group_name, 'elite:',
                   elite_group_name, 'replace:', enemies_to_replace)
-    has_bonus_wave = not (
-        '_ev-' in levelId or '_t-' in levelId or "_b-" in levelId or "_d-" in levelId)
-
+    has_bonus_wave = pattern.match(levelId)
     return_data = {"routes": routes, "mapData": map_data,
                    "extra_routes": extra_routes, "branches": branches}
     holder = ['NORMAL', 'ELITE']

@@ -23,7 +23,7 @@ STAT_KEY_CONVERSION_TABLE = {
 TRAPS_TO_EXCLUDE = ["trap_042_tidectrl", "trap_061_creep", "trap_062_magicstart",
                     "trap_063_magicturn", "trap_050_blizzard", "trap_092_vgctrl",
                     "trap_036_storm", "trap_162_lrctrl", "trap_766_duelwal",
-                    "trap_767_duelcdt", "trap_106_smtree",'trap_251_buftrp','trap_239_dyffgd','trap_240_dyffdd']
+                    "trap_767_duelcdt", "trap_106_smtree", 'trap_251_buftrp', 'trap_239_dyffgd', 'trap_240_dyffdd']
 ENEMIES_TO_IGNORE = ['enemy_2086_skzdwx', 'enemy_2087_skzdwy',
                      'enemy_2088_skzdwz', 'enemy_2062_smcar']
 STAGES_WITH_ENEMY_REF_TO_IGNORE = {"level_rogue1_4-2": ["enemy_1025_reveng_2"],
@@ -94,13 +94,14 @@ STAGES_WITH_REF_TO_REPLACE = {'level_rogue4_b-4': 'level_rogue4_b-4-c',
                               'level_rogue4_t-6': 'levelreplacers/level_rogue4_t-6_r1',
                               'level_rogue4_t-7': 'levelreplacers/level_rogue4_t-7_r1',
                               'level_rogue4_t-8': 'levelreplacers/level_rogue4_t-8_r1', }
-STAGES_WITH_NAME_TO_REPLACE={
+STAGES_WITH_NAME_TO_REPLACE = {
 
 }
 
+
 def is_unhandled_alert(levelId, key, rogue_topic):
-    levels_to_ignore = ['level_rogue1_1-5', 'level_rogue2_b-7','level_rogue3_3-4','level_rogue3_4-3' 'level_rogue4_5-1',
-                        'level_rogue4_t-5', 'level_rogue4_6-1', 'level_rogue4_7-1','level_rogue4_b-2-c']
+    levels_to_ignore = ['level_rogue1_1-5', 'level_rogue2_b-7', 'level_rogue3_3-4', 'level_rogue3_4-3' 'level_rogue4_5-1',
+                        'level_rogue4_t-5', 'level_rogue4_6-1', 'level_rogue4_7-1', 'level_rogue4_b-2-c']
     if levelId in levels_to_ignore:
         return False
     if rogue_topic == "ro3" and key == "enemy_1106_byokai":
@@ -252,7 +253,16 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
                         "overwrittenData"
                     ]["lifePointReduce"]["m_value"]
                 if enemy["overwrittenData"]["notCountInTotal"]["m_defined"] and enemy["overwrittenData"]["notCountInTotal"]["m_value"]:
-                    alerts.append(f"notCountInTotal, {enemy['id']}, {my_enemy_db[enemy_id]['name_zh']}, {levelId})")
+                    alerts.append(
+                        f"notCountInTotal, {enemy['id']}, {my_enemy_db[enemy_id]['name_zh']}, {levelId})")
+                    if not 'talentBlackboard' in overwrittenData:
+                        overwrittenData['talentBlackboard'] = []
+                    overwrittenData['talentBlackboard'].append(
+                        {"key": "not_count_in_total", "tooltip": {
+                            "en": ["$【Non-Key Target】$Will not prevent ending of battle even when still on field"],
+                            "ja": ["$【非重要目標】$戦場にいても作戦終了に影響しない"],
+                            "zh": ["$【非首要目标】$该目标在场不会阻止战斗结束"]
+                        }})
                 if enemy["overwrittenData"]["rangeRadius"]["m_defined"]:
                     overwrittenData["range"] = enemy["overwrittenData"][
                         "rangeRadius"
@@ -262,7 +272,9 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
                         "levelType"
                     ]["m_value"]
                 if levelId in talent_overwrite_list and enemy['id'] in talent_overwrite_list[levelId]:
-                    overwrittenData['talentBlackboard'] = talent_overwrite_list[levelId][enemy['id']]
+                    if not 'talentBlackboard' in overwrittenData:
+                        overwrittenData['talentBlackboard'] = []
+                    overwrittenData['talentBlackboard'] += talent_overwrite_list[levelId][enemy['id']]
                 elif enemy['overwrittenData']['talentBlackboard'] or enemy['overwrittenData']['skills']:
                     if levelId not in talent_overwrite_list and enemy['id'] != 'enemy_1106_byokai_b':
                         if is_unhandled_alert(levelId, enemy_id, rogue_topic):
@@ -446,7 +458,7 @@ def generate_roguelike_stages():
                 stage_name = stage['name_zh']
                 levelId = stage['levelId']
                 if ('-b' in levelId and 'sv' in levelId) or ('_fs-' in levelId and 'b' in levelId):
-                    stage_name+='(b)'
+                    stage_name += '(b)'
                 stage_nav[stage_name] = {
                     "levelId": levelId,
                     "code": stage['code'],
