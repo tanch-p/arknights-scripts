@@ -70,7 +70,7 @@ STAGES_WITH_ENEMY_REF_TO_REPLACE = {'level_rogue4_b-4': 'level_rogue4_b-4-c',
 
 
 # for consumption in enemy routes
-folders = ['ro1','ro2', 'ro3', 'ro4']
+folders = ['ro1','ro2', 'ro3', 'ro4','ro5']
 stages_to_ignore = []
 for folder in folders:
     files = []
@@ -85,7 +85,7 @@ for folder in folders:
     for stage_id in files:
         if stage_id.split(".")[0] in stages_to_ignore:
             continue
-        if not 'level_rogue1_3-1.json' in stage_id:
+        if not 'level_rogue5_3-4.json' in stage_id:
             continue
         if "r1" in stage_id or "r2" in stage_id:
             continue
@@ -99,7 +99,7 @@ for folder in folders:
         with open(file_path, encoding="utf-8") as f:
             stage_data = json.load(f)
         # Example usage:
-        analysis = get_wave_spawns_data(stage_data,stage_id.replace(".json",""))
+        analysis = get_wave_spawns_data(stage_data,stage_id.replace(".json",""),log=True)
 
         # timeline = get_waves_data(
         #     stage_data, stage_id.replace(".json", ""), log=True)

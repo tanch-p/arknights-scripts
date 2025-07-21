@@ -13,7 +13,7 @@ def get_all_files(folder_path):
     return file_paths
 
 
-folders = ['ro1', 'ro2', 'ro3', 'ro4']
+folders = ['ro5']
 
 
 def get_row_col(tile_index, map_data):

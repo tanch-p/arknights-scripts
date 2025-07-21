@@ -68,6 +68,8 @@ for entry in enemy_database["enemies"]:
     key = entry['Key']
     if not key in existing_data:
         IN_HANDBOOK = key in cn_enemy_handbook['enemyData']
+        if not IN_HANDBOOK:
+            continue
         cn_enemy_info = cn_enemy_handbook['enemyData'][key] if IN_HANDBOOK else None
         enemyIndex = cn_enemy_info["enemyIndex"] if IN_HANDBOOK else "-"
         enemyStats = entry['Value']
@@ -86,9 +88,12 @@ for entry in enemy_database["enemies"]:
             attackType = "no_attack"
         normal_attack = {"atk_type": [
             attackType, attackAttribute], "hits": 1}
-
+        is_flying = False
         enemyTags = enemyStats[0]['enemyData']['enemyTags']['m_value'] or []
-        if "drone" in enemyTags:
+        if key in cn_enemy_handbook:
+            is_flying = any('飞行单位' in item['text'] for item in cn_enemy_handbook[key]
+                            ['abilityList']) or '飞行单位' in cn_enemy_handbook[key]['description']
+        if "drone" in enemyTags or is_flying:
             enemyTags.append("flying")
         enemyTags.append(enemyStats[0]['enemyData']['levelType']['m_value']
                          if enemyStats[0]['enemyData']['levelType']['m_defined'] else 'NORMAL')

@@ -29,7 +29,7 @@ with open(jp_char_table_path, encoding='utf-8') as f:
 with open(jp_skill_table_path, encoding='utf-8') as f:
     jp_skill_table = json.load(f)
 
-keys_to_parse = ['sktok_dsbell']
+keys_to_parse = ['sktok_fttreant_1']
 
 data = {}
 for key in keys_to_parse:
@@ -49,7 +49,7 @@ for key in keys_to_parse:
         "name_zh": skill['levels'][0]['name'],
         "name_ja": jp_skill_table[key]['levels'][0]['name'] if in_global else "",
         "name_en": en_skill_table[key]['levels'][0]['name'] if in_global else "",
-        "desc_zh": skill['levels'][0]['description'],
+        "desc_zh": skill['levels'][0]['description'] if skill['levels'][0]['description'] else "",
         "desc_ja": jp_skill_table[key]['levels'][0]['description'] if in_global else "",
         "desc_en": en_skill_table[key]['levels'][0]['description'] if in_global else "",
         "skillType": skill['levels'][0]['skillType'],

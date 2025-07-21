@@ -26,18 +26,6 @@ script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 # with open('temp.json','w', encoding='utf-8') as f:
 #     json.dump(return_dict, f, ensure_ascii=False, indent=4)
 
-# enemy_database_path = os.path.join(
-#     script_dir, "cn_data/zh_CN/gamedata/levels/enemydata/enemy_database.json"
-# )
-# with open(enemy_database_path, encoding="utf-8") as f:
-#     enemy_database = json.load(f)
-
-# for enemy in enemy_database['enemies']:
-#     key = enemy['Key']
-#     for stats in enemy['Value']:
-#         if stats['enemyData']['attributes']['epDamageResistance']['m_value'] != 0 or stats['enemyData']['attributes']['epResistance']['m_value'] != 0:
-#             print(key)
-
 # with open('chara_talents.json', encoding='utf-8') as f:
 #     chara_talents = json.load(f)
 
@@ -56,62 +44,28 @@ script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 #     json.dump(return_dict, f, ensure_ascii=False, indent=4)
 
 # handpicked 50 characters for testing
-testing_chars = ['char_4116_blkkgt', 'char_003_kalts', 'char_4048_doroth', '']
+# testing_chars = ['char_4116_blkkgt', 'char_003_kalts', 'char_4048_doroth', '']
 
-
-#! for rewriting enemy database
-
+enemy_database_path = os.path.join(
+    script_dir, "cn_data/zh_CN/gamedata/levels/enemydata/enemy_database.json"
+)
+with open(enemy_database_path, encoding="utf-8") as f:
+    enemy_database = json.load(f)
 with open("enemy_database.json", encoding="utf-8") as f:
-    enemy_db = json.load(f)
+    my_enemy_db = json.load(f)
 
-new_data = {}
 
-for key in enemy_db:
-    enemy = enemy_db[key]
-    forms = [{"title": None, "normal_attack": enemy['normal_attack']
-              if 'normal_attack' in enemy else None, "status_immune": enemy['status_immune']}]
-    stats = [{
-        "hp": stat['hp'],
-        "atk": stat['atk'],
-        "def": stat['def'],
-        "res": stat['res'],
-        "aspd": stat['aspd'],
-        "range": stat['range'],
-        "weight": stat['weight'],
-        "lifepoint": stat['lifepoint'],
-        "ms": stat['ms'],
-        "epDamageResistance": stat['epDamageResistance'],
-        "epResistance": stat['epResistance'],
-        "traits":[],
-        "special": []
-    } for stat in enemy['stats']]
+# for enemy in enemy_database['enemies']:
+#     key = enemy['Key']
+#     for stats in enemy['Value']:
+#         if stats['enemyData']['attributes']['epDamageResistance']['m_value'] != 0 or stats['enemyData']['attributes']['epResistance']['m_value'] != 0:
+#             print(key)
 
-    if 'forms' in enemy:
-        forms = []
-        special = []
-        form_mods = []
-        for form in enemy['forms']:
-            special.append([form['special']])
-            form_mods.append(form['mods'])
-            forms.append(
-                {"title": form['title'], 'normal_attack': form['normal_attack'],"status_immune": enemy['status_immune']})
-        for stat in stats:
-            stat['special'] = special
-            stat['form_mods'] = form_mods
-    else:
-        for stat in stats:
-            stat['traits'] = enemy['special']
-    holder = {
-        "id": enemy['id'],
-        "key": enemy["key"],
-        "name_zh": enemy['name_zh'],
-        "name_ja": enemy["name_ja"],
-        "name_en": enemy['name_en'],
-        "stats": stats,
-        "forms": forms,
-        "type": enemy['type']
-    }
-    new_data[key] = holder
+for [key,enemy] in my_enemy_db.items():
+    db_enemy = next(item for item in enemy_database['enemies'] if item['Key'] == key, None)
+    (db_enemy['Value'][0]['enemyData']['notCountInTotal'])
+    enemy['notCountInTotal'] = db_enemy['Value'][0]['enemyData']['notCountInTotal']['m_value'] if db_enemy['Value'][0]['enemyData']['notCountInTotal']['m_defined'] else False
 
 with open("enemy_database.json", "w", encoding="utf-8") as f:
-    json.dump(new_data, f, ensure_ascii=False, indent=4)
+    data_to_write = my_enemy_db
+    json.dump(data_to_write, f, ensure_ascii=False, indent=4)

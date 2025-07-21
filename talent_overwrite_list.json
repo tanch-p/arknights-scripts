@@ -7,6 +7,15 @@
       }
     ]
   },
+  "yinyang": {
+    "key": "yinyang",
+    "value": 0,
+    "tooltip": {
+      "en": ["Initially has Hui attribute"],
+      "ja": ["反登場時、【晦】属性になる"],
+      "zh": ["初始获得【晦】属性"]
+    }
+  },
   "level_rogue1_b-5": {
     "enemy_1067_snslime": [{ "key": "bug_explode_frost", "duration": 5 }]
   },
@@ -164,6 +173,9 @@
       { "key": "sarks_performance", "cooldown": 10, "initCooldown": 10.0 }
     ]
   },
+  "level_rogue2_b-9": {
+    "enemy_1068_snmage_2": [{ "key": "caster_frost_attack", "spCost": 1 }]
+  },
   "level_rogue3_1-2": {
     "enemy_1075_dmgswd": [
       {
@@ -188,6 +200,14 @@
     ],
     "enemy_1272_nhtank": [{ "key": "nhtank_pollution", "low": 100, "high": 50 }]
   },
+  "level_rogue3_3-6": {
+    "enemy_1075_dmgswd": [
+      {
+        "key": "sarkaz_standby",
+        "standby": 0
+      }
+    ]
+  },
   "level_rogue3_5-2": {
     "enemy_1266_nhapos": [{ "key": "nhapos_pollution", "low": 100, "high": 50 }]
   },
@@ -211,6 +231,14 @@
       { "key": "sarks_performance", "cooldown": 15.0, "initCooldown": 11.0 }
     ]
   },
+  "level_rogue3_b-5-b": {
+    "enemy_1074_dbskar_2": [
+      {
+        "key": "sarkaz_standby",
+        "standby": 0
+      }
+    ]
+  },
   "level_rogue3_b-6-b": {
     "enemy_1017_defdrn": [{ "key": "mcv4_def_buff", "value": 600 }]
   },
@@ -232,7 +260,8 @@
   "level_rogue4_t-4": {
     "enemy_1311_mhkryk_2": [
       {
-        "key": "mhkryk_mode_1",
+        "key": "mhkryk_1",
+        "spineState": 1,
         "tooltip": {
           "en": ["$Already holds shell on spawn$"],
           "ja": ["$出現時すでに甲羅所持状態$"],
@@ -403,5 +432,131 @@
       { "key": "skzamy_2_2", "tooltip": null, "formIndex": 1 },
       { "key": "skzamy_2_3", "tooltip": null, "formIndex": 1 }
     ]
+  },
+  "level_rogue5_b-2": {
+    "enemy_2110_dyyrzf": [{ "key": "yan_statue_standby", "standby": 75 }],
+    "enemy_2112_dyhlgy": [{ "key": "yan_statue_standby", "standby": 105 }],
+    "enemy_2114_dylbgg": [
+      { "key": "yan_statue_standby", "standby": 135 },
+      { "key": "dylbgg_heal", "atk": { "multiplier": 1.2 } }
+    ]
+  },
+  "level_rogue5_b-2-b": {
+    "enemy_2111_dyyrz2": [{ "key": "yan_statue_standby", "standby": 100 }],
+    "enemy_2113_dyhlg2": [{ "key": "yan_statue_standby", "standby": 50 }],
+    "enemy_2115_dylbg2": [
+      { "key": "yan_statue_standby", "standby": 20 },
+      { "key": "dylbg2_heal", "atk": { "multiplier": 1.2 } }
+    ]
+  },
+  "level_rogue5_b-3": {
+    "enemy_2116_dyyysg": [
+      { "key": "dyyysg_end", "standby": 300 },
+      { "key": "dyyys2_fish", "cooldown": 15.0, "initCooldown": 10.0 },
+      { "key": "dyyysg_summon", "cooldown": 30.0, "initCooldown": 3.0 }
+    ]
+  },
+  "level_rogue5_b-3-b": {
+    "enemy_2117_dyyys2": [
+      { "key": "dyyysg_end", "standby": 300 },
+      { "key": "dyyys2_fish", "cooldown": 25.0, "initCooldown": 10.0 },
+      { "key": "dyyysg_summon", "cooldown": 20.0, "initCooldown": 3.0 }
+    ]
+  },
+  "level_rogue5_ev-1": {
+    "enemy_2107_dycant": [{ "key": "dycant_transform", "value": 158 }]
+  },
+  "level_rogue5_ev-2": {
+    "enemy_2107_dycant": [{ "key": "dycant_transform", "value": 110 }]
+  },
+  "level_rogue5_dv-5": {
+    "enemy_2110_dyyrzf": [
+      { "key": "yan_statue_standby", "standby":0 }
+    ],
+    "enemy_2112_dyhlgy": [
+      { "key": "yan_statue_standby", "standby":0 }
+    ]
+  },
+  "level_rogue5_sv-1": {
+    "enemy_2034_sythef": [{ "key": "attack_stun", "value": 12 }]
+  },
+  "level_rogue5_sv-1-b": {
+    "enemy_2034_sythef": [{ "key": "attack_stun", "value": 12 }]
+  },
+  "level_rogue5_sv-4": {
+    "enemy_10066_ftxjl_2": [
+      {
+        "key": "ftxjl_grow",
+        "hp": { "multiplier": 8, "order": "initial" },
+        "atk": { "multiplier": 1.6, "order": "initial" },
+        "suffix": { "en": "MAX", "ja": "MAX", "zh": "满层" },
+        "hpup": 800,
+        "atkup": 160,
+        "duration": 60
+      }
+    ]
+  },
+  "level_rogue5_sv-6": {
+    "enemy_1105_tyokai_2": [
+      {
+        "key": "defeat_trap_loot",
+        "tooltip": {
+          "en": [],
+          "ja": [],
+          "zh": ["死亡时给予我方干扰装置"]
+        }
+      }
+    ]
+  },
+  "level_rogue5_sv-7": {
+    "enemy_1146_defspd_2": [{ "key": "anvil_healing_aura", "regen": 300 }]
+  },
+  "level_rogue5_sv-7-b": {
+    "enemy_2113_dyhlg2": [{ "key": "yan_statue_standby", "standby": 60 }],
+    "enemy_2115_dylbg2": [
+      { "key": "dylbg2_heal", "atk": { "multiplier": 1.2 } }
+    ]
+  },
+  "level_rogue5_sv-8-b": {
+    "enemy_1101_plkght_2": [{ "key": "roarknight_barrier", "duration": 60 }]
+  },
+  "level_rogue5_sv-10": {
+    "enemy_2110_dyyrzf": [{ "key": "yan_statue_standby", "standby": 105 }],
+    "enemy_2112_dyhlgy": [{ "key": "yan_statue_standby", "standby": 75 }],
+    "enemy_2114_dylbgg": [{ "key": "yan_statue_standby", "standby": 140 }]
+  },
+  "level_rogue5_2-2": {
+    "enemy_1303_mhshep_a": [{ "key": "standby", "standby": 115 }],
+    "enemy_1303_mhshep_b": [{ "key": "standby", "standby": 0 }],
+    "enemy_1303_mhshep_c": [{ "key": "standby", "standby": 60 }]
+  },
+  "level_rogue5_3-2": {
+    "enemy_1303_mhshep": [{ "key": "standby", "standby": 0 }]
+  },
+  "level_rogue5_4-2": {
+    "enemy_10036_cnvpvd": [{ "key": "dmg_res", "value": 30 }]
+  },
+  "level_rogue5_5-2": {
+    "enemy_1074_dbskar_2": [
+      {
+        "key": "sarkaz_standby",
+        "standby": 200
+      }
+    ]
+  },
+  "level_rogue5_t-2": {
+    "enemy_2034_sythef_b": [{ "key": "attack_stun", "value": 8 }]
+  },
+  "level_rogue5_t-4": {
+    "enemy_2110_dyyrzf": [{ "key": "yan_statue_standby", "standby": 20 }],
+    "enemy_2112_dyhlgy": [{ "key": "yan_statue_standby", "standby": 40 }],
+    "enemy_2114_dylbgg": [{ "key": "yan_statue_standby", "standby": 60 }],
+    "enemy_2116_dyyysg": [{ "key": "dyyysg_fish", "cooldown": 10 }]
+  },
+  "level_rogue5_t-6": {
+    "enemy_2107_dycant": [{ "key": "dycant_transform", "value": 90 }]
+  },
+  "level_rogue5_t-7": {
+    "enemy_1151_dslntc": [{ "key": "sea_reaper_awaken", "standby": 200 }]
   }
 }
