@@ -60658,8 +60658,8 @@
     "uniequip_001_pepe": {
         "uniEquipId": "uniequip_001_pepe",
         "name_zh": "佩佩证章",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "ペペの記章",
+        "name_en": "Pepe's Badge",
         "typeIcon": "original",
         "charId": "char_4058_pepe",
         "combatData": null
@@ -60667,8 +60667,8 @@
     "uniequip_002_pepe": {
         "uniEquipId": "uniequip_002_pepe",
         "name_zh": "晴雨",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "晴れか雨か",
+        "name_en": "Rain or Shine",
         "typeIcon": "ham-x",
         "charId": "char_4058_pepe",
         "combatData": {
@@ -60680,21 +60680,23 @@
                             "target": "TRAIT",
                             "isToken": false,
                             "addDesc_zh": "溅射范围内有大于或等于3个敌人时，使当次攻击力提升至<@ba.kw>115%</>",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "ダメージ発生範囲内に3体以上の敵がいる場合、その攻撃のみ攻撃力が<@ba.kw>115%</>まで上昇",
+                            "addDesc_en": "When there are 3 or more enemies within the splash area, ATK of the current instance of attack increases to <@ba.kw>115%</>",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         }
                     ],
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 200.0
+                            "value": 200.0,
+                            "valueStr": null
                         },
                         {
                             "key": "atk",
-                            "value": 87.0
+                            "value": 87.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -60706,35 +60708,37 @@
                             "target": "TRAIT",
                             "isToken": false,
                             "addDesc_zh": "溅射范围内有大于或等于3个敌人时，使当次攻击力提升至<@ba.kw>115%</>",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "ダメージ発生範囲内に3体以上の敵がいる場合、その攻撃のみ攻撃力が<@ba.kw>115%</>まで上昇",
+                            "addDesc_en": "When there are 3 or more enemies within the splash area, ATK of the current instance of attack increases to <@ba.kw>115%</>",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "往昔传承",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Legacy of the Past",
+                            "name_ja": "語り継かれるもの",
+                            "name_en": "Legacy of the Past",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "技能期间每击倒1名敌人，技能结束时获得2点技力，至多回复17<@ba.talpu>（+3）</>点",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "スキル発動中に倒した敵1体につき、スキル終了時SPを2回復（最大17<@ba.talpu>（+3）</>まで回復可能）",
+                            "upgradeDesc_en": "Every enemy defeated while her skill is active grants Pepe 2 SP when the skill ends; restores up to 17 <@ba.talpu>(+3)</> SP"
                         }
                     ],
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 250.0
+                            "value": 250.0,
+                            "valueStr": null
                         },
                         {
                             "key": "atk",
-                            "value": 102.0
+                            "value": 102.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -60746,35 +60750,37 @@
                             "target": "TRAIT",
                             "isToken": false,
                             "addDesc_zh": "溅射范围内有大于或等于3个敌人时，使当次攻击力提升至<@ba.kw>115%</>",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "ダメージ発生範囲内に3体以上の敵がいる場合、その攻撃のみ攻撃力が<@ba.kw>115%</>まで上昇",
+                            "addDesc_en": "When there are 3 or more enemies within the splash area, ATK of the current instance of attack increases to <@ba.kw>115%</>",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "往昔传承",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Legacy of the Past",
+                            "name_ja": "語り継かれるもの",
+                            "name_en": "Legacy of the Past",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "技能期间每击倒1名敌人，技能结束时获得2点技力，至多回复20<@ba.talpu>（+3）</>点",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "スキル発動中に倒した敵1体につき、スキル終了時SPを2回復（最大20<@ba.talpu>（+3）</>まで回復可能）",
+                            "upgradeDesc_en": "Every enemy defeated while her skill is active grants Pepe 2 SP when the skill ends; restores up to 20 <@ba.talpu>(+3)</> SP"
                         }
                     ],
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 300.0
+                            "value": 300.0,
+                            "valueStr": null
                         },
                         {
                             "key": "atk",
-                            "value": 113.0
+                            "value": 113.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -60796,8 +60802,8 @@
     "uniequip_001_odda": {
         "uniEquipId": "uniequip_001_odda",
         "name_zh": "奥达证章",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "オッダの記章",
+        "name_en": "Odda's Badge",
         "typeIcon": "original",
         "charId": "char_4131_odda",
         "combatData": null
@@ -60805,8 +60811,8 @@
     "uniequip_002_odda": {
         "uniEquipId": "uniequip_002_odda",
         "name_zh": "旧背包",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "古いバッグ",
+        "name_en": "Old Backpack",
         "typeIcon": "ham-x",
         "charId": "char_4131_odda",
         "combatData": {
@@ -60818,21 +60824,23 @@
                             "target": "TRAIT",
                             "isToken": false,
                             "addDesc_zh": "溅射范围内有大于或等于3个敌人时，使当次攻击力提升至<@ba.kw>115%</>",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "ダメージ発生範囲内に3体以上の敵がいる場合、その攻撃のみ攻撃力が<@ba.kw>115%</>まで上昇",
+                            "addDesc_en": "When there are 3 or more enemies within the splash area, ATK of the current instance of attack increases to <@ba.kw>115%</>",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         }
                     ],
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 210.0
+                            "value": 210.0,
+                            "valueStr": null
                         },
                         {
                             "key": "atk",
-                            "value": 60.0
+                            "value": 60.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -60844,35 +60852,37 @@
                             "target": "TRAIT",
                             "isToken": false,
                             "addDesc_zh": "溅射范围内有大于或等于3个敌人时，使当次攻击力提升至<@ba.kw>115%</>",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "ダメージ発生範囲内に3体以上の敵がいる場合、その攻撃のみ攻撃力が<@ba.kw>115%</>まで上昇",
+                            "addDesc_en": "When there are 3 or more enemies within the splash area, ATK of the current instance of attack increases to <@ba.kw>115%</>",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "落锤",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Hammerfall",
+                            "name_ja": "槌落とし",
+                            "name_en": "Hammerfall",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "累计造成30次物理伤害后，攻击力+23%<@ba.talpu>（+3%）</>",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "物理ダメージを累計30回与えると、攻撃力+23%<@ba.talpu>（+3%）</>",
+                            "upgradeDesc_en": "ATK +23% <@ba.talpu>(+3%)</> after this unit deals Physical damage 30 times"
                         }
                     ],
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 230.0
+                            "value": 230.0,
+                            "valueStr": null
                         },
                         {
                             "key": "atk",
-                            "value": 75.0
+                            "value": 75.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -60884,35 +60894,37 @@
                             "target": "TRAIT",
                             "isToken": false,
                             "addDesc_zh": "溅射范围内有大于或等于3个敌人时，使当次攻击力提升至<@ba.kw>115%</>",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "ダメージ発生範囲内に3体以上の敵がいる場合、その攻撃のみ攻撃力が<@ba.kw>115%</>まで上昇",
+                            "addDesc_en": "When there are 3 or more enemies within the splash area, ATK of the current instance of attack increases to <@ba.kw>115%</>",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "落锤",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Hammerfall",
+                            "name_ja": "槌落とし",
+                            "name_en": "Hammerfall",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "累计造成20次物理伤害后，攻击力+23%<@ba.talpu>（+3%）</>",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "物理ダメージを累計20回与えると、攻撃力+23%<@ba.talpu>（+3%）</>",
+                            "upgradeDesc_en": "ATK +23% <@ba.talpu>(+3%)</> after this unit deals Physical damage 20 times"
                         }
                     ],
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 250.0
+                            "value": 250.0,
+                            "valueStr": null
                         },
                         {
                             "key": "atk",
-                            "value": 85.0
+                            "value": 85.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -60925,8 +60937,8 @@
     "uniequip_001_xingzh": {
         "uniEquipId": "uniequip_001_xingzh",
         "name_zh": "行箸证章",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "シィンズゥの記章",
+        "name_en": "Xingzhu's Badge",
         "typeIcon": "original",
         "charId": "char_4172_xingzh",
         "combatData": null
@@ -60934,8 +60946,8 @@
     "uniequip_002_xingzh": {
         "uniEquipId": "uniequip_002_xingzh",
         "name_zh": "别昔年",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "昔年に別れを",
+        "name_en": "Farewell to the Old Days",
         "typeIcon": "bls-x",
         "charId": "char_4172_xingzh",
         "combatData": {
@@ -60947,21 +60959,23 @@
                             "target": "TRAIT_DATA_ONLY",
                             "isToken": false,
                             "addDesc_zh": null,
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": null,
+                            "addDesc_en": null,
                             "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，技能开启后改为治疗友方单位（治疗量相当于<@ba.kw>100%</>攻击力）",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与える\nスキル発動中、通常攻撃が味方に対する治療行動になる（HP回復量は攻撃力の<@ba.kw>100%</>）",
+                            "overrideDesc_en": "Deals <@ba.kw>Arts damage</>; When skill is active, attacks instead restore the HP of allies (heal amount is equal to <@ba.kw>100%</> of ATK)"
                         }
                     ],
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 125.0
+                            "value": 125.0,
+                            "valueStr": null
                         },
                         {
                             "key": "atk",
-                            "value": 20.0
+                            "value": 20.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -60973,35 +60987,37 @@
                             "target": "TRAIT_DATA_ONLY",
                             "isToken": false,
                             "addDesc_zh": null,
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": null,
+                            "addDesc_en": null,
                             "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，技能开启后改为治疗友方单位（治疗量相当于<@ba.kw>100%</>攻击力）",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与える\nスキル発動中、通常攻撃が味方に対する治療行動になる（HP回復量は攻撃力の<@ba.kw>100%</>）",
+                            "overrideDesc_en": "Deals <@ba.kw>Arts damage</>; When skill is active, attacks instead restore the HP of allies (heal amount is equal to <@ba.kw>100%</> of ATK)"
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "同路之谊",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Friendship Fair, Together Tied",
+                            "name_ja": "同道の誼",
+                            "name_en": "Friendship Fair, Together Tied",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "使攻击范围内除自己外2名友军获得14%<@ba.talpu>（+2%）</>的<ba.protect>庇护</>",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "攻撃範囲内にいる自身以外の味方2名に14%<@ba.talpu>（+2%）</>の<ba.protect>加護</>状態を付与",
+                            "upgradeDesc_en": "Grants 14% <@ba.talpu>(+2%)</> <ba.protect>Sanctuary</> to 2 other allies within range"
                         }
                     ],
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 150.0
+                            "value": 150.0,
+                            "valueStr": null
                         },
                         {
                             "key": "atk",
-                            "value": 30.0
+                            "value": 30.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -61013,35 +61029,37 @@
                             "target": "TRAIT_DATA_ONLY",
                             "isToken": false,
                             "addDesc_zh": null,
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": null,
+                            "addDesc_en": null,
                             "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，技能开启后改为治疗友方单位（治疗量相当于<@ba.kw>100%</>攻击力）",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "敵に<@ba.kw>術ダメージ</>を与える\nスキル発動中、通常攻撃が味方に対する治療行動になる（HP回復量は攻撃力の<@ba.kw>100%</>）",
+                            "overrideDesc_en": "Deals <@ba.kw>Arts damage</>; When skill is active, attacks instead restore the HP of allies (heal amount is equal to <@ba.kw>100%</> of ATK)"
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "同路之谊",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Friendship Fair, Together Tied",
+                            "name_ja": "同道の誼",
+                            "name_en": "Friendship Fair, Together Tied",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "使攻击范围内除自己外2名友军获得17%<@ba.talpu>（+2%）</>的<ba.protect>庇护</>",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "攻撃範囲内にいる自身以外の味方2名に17%<@ba.talpu>（+2%）</>の<ba.protect>加護</>状態を付与",
+                            "upgradeDesc_en": "Grants 17% <@ba.talpu>(+2%)</> <ba.protect>Sanctuary</> to 2 other allies within range"
                         }
                     ],
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 175.0
+                            "value": 175.0,
+                            "valueStr": null
                         },
                         {
                             "key": "atk",
-                            "value": 40.0
+                            "value": 40.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -61066,8 +61084,8 @@
     "uniequip_003_lin": {
         "uniEquipId": "uniequip_003_lin",
         "name_zh": "“情与义”",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "「情と義」",
+        "name_en": "The Compassionate and the Just",
         "typeIcon": "plx-y",
         "charId": "char_4080_lin",
         "combatData": {
@@ -61079,19 +61097,19 @@
                             "target": "DISPLAY",
                             "isToken": false,
                             "addDesc_zh": "范围内敌人越多造成的伤害越高（最高提升<@ba.kw>15%</>）",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "攻撃範囲内の敵が多いほど与ダメージが上昇（最大<@ba.kw>15%</>まで）",
+                            "addDesc_en": "Damage increases with number of enemies in the area (max increase <@ba.kw>15%</>)",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": "lin_equip_2_1_p1",
                             "target": "TALENT",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": -1,
@@ -61103,11 +61121,13 @@
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 50.0
+                            "value": 50.0,
+                            "valueStr": null
                         },
                         {
                             "key": "def",
-                            "value": 20.0
+                            "value": 20.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -61119,19 +61139,19 @@
                             "target": "DISPLAY",
                             "isToken": false,
                             "addDesc_zh": "范围内敌人越多造成的伤害越高（最高提升<@ba.kw>15%</>）",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "攻撃範囲内の敵が多いほど与ダメージが上昇（最大<@ba.kw>15%</>まで）",
+                            "addDesc_en": "Damage increases with number of enemies in the area (max increase <@ba.kw>15%</>)",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": "lin_equip_2_2_p1",
                             "target": "TALENT",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": -1,
@@ -61143,25 +61163,27 @@
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "计出万全",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Foolproof Plan",
+                            "name_ja": "万策の構え",
+                            "name_en": "Foolproof Plan",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "拥有可以抵挡所有伤害的琉璃璧；琉璃璧在受到单次超过200点伤害时破碎，对周围所有敌人造成相当于林攻击力115%<@ba.talpu>（+10%）</>的法术伤害、使其<ba.stun>晕眩</>1秒，并在7秒后再次生成",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "1度の被ダメージが200以下であればそれを無効化できる浄瑠壁を持つ。200を超えた場合は浄瑠壁が破壊され、周囲一定範囲内の敵全員にリンの攻撃力の115%<@ba.talpu>（+10%）</>の術ダメージを与え、さらに1秒間<ba.stun>スタン</>させる。浄瑠壁は7秒後に再生成される",
+                            "upgradeDesc_en": "A Crystal Barrier blocks all damage, shattering when 200 or more damage is taken from a single source, dealing 115% <@ba.talpu>(+10%)</> of Lin's ATK as Arts damage to all nearby enemies and <ba.stun>stunning</> them for 1s; reforms after 7s"
                         }
                     ],
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 62.0
+                            "value": 62.0,
+                            "valueStr": null
                         },
                         {
                             "key": "def",
-                            "value": 30.0
+                            "value": 30.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -61173,19 +61195,19 @@
                             "target": "DISPLAY",
                             "isToken": false,
                             "addDesc_zh": "范围内敌人越多造成的伤害越高（最高提升<@ba.kw>15%</>）",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "攻撃範囲内の敵が多いほど与ダメージが上昇（最大<@ba.kw>15%</>まで）",
+                            "addDesc_en": "Damage increases with number of enemies in the area (max increase <@ba.kw>15%</>)",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": "lin_equip_2_3_p1",
                             "target": "TALENT",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": -1,
@@ -61197,25 +61219,27 @@
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "计出万全",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Foolproof Plan",
+                            "name_ja": "万策の構え",
+                            "name_en": "Foolproof Plan",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "拥有可以抵挡所有伤害的琉璃璧；琉璃璧在受到单次超过200点伤害时破碎，对周围所有敌人造成相当于林攻击力120%<@ba.talpu>（+10%）</>的法术伤害、使其<ba.stun>晕眩</>1秒，并在6秒后再次生成",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "1度の被ダメージが200以下であればそれを無効化できる浄瑠壁を持つ。200を超えた場合は浄瑠壁が破壊され、周囲一定範囲内の敵全員にリンの攻撃力の120%<@ba.talpu>（+10%）</>の術ダメージを与え、さらに1秒間<ba.stun>スタン</>させる。浄瑠壁は6秒後に再生成される",
+                            "upgradeDesc_en": "A Crystal Barrier blocks all damage, shattering when 200 or more damage is taken from a single source, dealing 120% <@ba.talpu>(+10%)</> of Lin's ATK as Arts damage to all nearby enemies and <ba.stun>stunning</> them for 1s; reforms after 6s"
                         }
                     ],
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 73.0
+                            "value": 73.0,
+                            "valueStr": null
                         },
                         {
                             "key": "def",
-                            "value": 40.0
+                            "value": 40.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -61228,8 +61252,8 @@
     "uniequip_003_zuole": {
         "uniEquipId": "uniequip_003_zuole",
         "name_zh": "秉烛人的记录",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "持燭人の記録",
+        "name_en": "'Who is he?'",
         "typeIcon": "sbl-y",
         "charId": "char_4121_zuole",
         "combatData": {
@@ -61241,19 +61265,19 @@
                             "target": "DISPLAY",
                             "isToken": false,
                             "addDesc_zh": "被击倒时不撤退且回复<@ba.kw>30%</>生命（单次部署只触发1次）",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "致命的なダメージを受けても撤退せず、HPが<@ba.kw>30%</>回復する（1回の配置につき、1回のみ発動可能）",
+                            "addDesc_en": "When defeated, does not retreat and instead recovers <@ba.kw>30%</> HP (can only activate once every deployment)",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": "zuole_equip_2_1_p1",
                             "target": "TALENT",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": -1,
@@ -61265,11 +61289,13 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 300.0
+                            "value": 300.0,
+                            "valueStr": null
                         },
                         {
                             "key": "atk",
-                            "value": 60.0
+                            "value": 60.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -61281,19 +61307,19 @@
                             "target": "DISPLAY",
                             "isToken": false,
                             "addDesc_zh": "被击倒时不撤退且回复<@ba.kw>30%</>生命（单次部署只触发1次）",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "致命的なダメージを受けても撤退せず、HPが<@ba.kw>30%</>回復する（1回の配置につき、1回のみ発動可能）",
+                            "addDesc_en": "When defeated, does not retreat and instead recovers <@ba.kw>30%</> HP (can only activate once every deployment)",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": "zuole_equip_2_2_p1",
                             "target": "TALENT",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": -1,
@@ -61305,25 +61331,27 @@
                             "resKey": "zuole_equip_2_2_p3",
                             "target": "TALENT",
                             "isToken": false,
-                            "name_zh": "守正自明",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Self-Evident Virtue",
+                            "name_ja": "守正自明",
+                            "name_en": "Self-Evident Virtue",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 1,
                             "upgradeDesc_zh": "攻击时有23%<@ba.talpu>（+3%）</>的概率获得1点技力且当次攻击的攻击力提升至110%，生命低于50%时概率变为80%<@ba.talpu>（+5%）</>",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "攻撃時、23%<@ba.talpu>（+3%）</>の確率でSPを1回復し、その攻撃のみ攻撃力が110%まで上昇。HPが最大値の50%を下回った場合、その確率は80%<@ba.talpu>（+5%）</>になる",
+                            "upgradeDesc_en": "Attacks have a 23% <@ba.talpu>(+3%)</> chance to restore 1 SP and increase ATK to 110% for that attack; increased to a 80% <@ba.talpu>(+5%)</> chance if below 50% HP"
                         }
                     ],
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 340.0
+                            "value": 340.0,
+                            "valueStr": null
                         },
                         {
                             "key": "atk",
-                            "value": 73.0
+                            "value": 73.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -61335,19 +61363,19 @@
                             "target": "DISPLAY",
                             "isToken": false,
                             "addDesc_zh": "被击倒时不撤退且回复<@ba.kw>30%</>生命（单次部署只触发1次）",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "致命的なダメージを受けても撤退せず、HPが<@ba.kw>30%</>回復する（1回の配置につき、1回のみ発動可能）",
+                            "addDesc_en": "When defeated, does not retreat and instead recovers <@ba.kw>30%</> HP (can only activate once every deployment)",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": "zuole_equip_2_3_p1",
                             "target": "TALENT",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": -1,
@@ -61359,25 +61387,27 @@
                             "resKey": "zuole_equip_2_3_p3",
                             "target": "TALENT",
                             "isToken": false,
-                            "name_zh": "守正自明",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Self-Evident Virtue",
+                            "name_ja": "守正自明",
+                            "name_en": "Self-Evident Virtue",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 1,
                             "upgradeDesc_zh": "攻击时有23%<@ba.talpu>（+3%）</>的概率获得1点技力且当次攻击的攻击力提升至120%，生命低于50%时概率变为85%<@ba.talpu>（+5%）</>",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "攻撃時、23%<@ba.talpu>（+3%）</>の確率でSPを1回復し、その攻撃のみ攻撃力が120%まで上昇。HPが最大値の50%を下回った場合、その確率は85%<@ba.talpu>（+5%）</>になる",
+                            "upgradeDesc_en": "Attacks have a 23% <@ba.talpu>(+3%)</> chance to restore 1 SP and increase ATK to 120% for that attack; increased to a 85% <@ba.talpu>(+5%)</> chance if below 50% HP"
                         }
                     ],
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 380.0
+                            "value": 380.0,
+                            "valueStr": null
                         },
                         {
                             "key": "atk",
-                            "value": 84.0
+                            "value": 84.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -61521,8 +61551,8 @@
     "uniequip_004_dusk": {
         "uniEquipId": "uniequip_004_dusk",
         "name_zh": "夕特限证章",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "シーの特別限定記章",
+        "name_en": "Dusk's Specialized Badge",
         "typeIcon": "isw-a",
         "charId": "char_2015_dusk",
         "combatData": {
@@ -61534,19 +61564,19 @@
                             "target": "DISPLAY",
                             "isToken": false,
                             "addDesc_zh": "在<@ba.kw>集成战略</>中，额外攻击一个目标",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "<@ba.kw>統合戦略</>において、攻撃対象数+1",
+                            "addDesc_en": "In <@ba.kw>Integrated Strategies</>, attacks one additional target",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": "dusk_equip_4_1_p1",
                             "target": "TALENT",
                             "isToken": false,
-                            "name_zh": "点睛",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Finishing Touch",
+                            "name_ja": "点睛",
+                            "name_en": "Finishing Touch",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 1,
@@ -61558,11 +61588,13 @@
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 48.0
+                            "value": 48.0,
+                            "valueStr": null
                         },
                         {
                             "key": "attack_speed",
-                            "value": 5.0
+                            "value": 5.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -61574,19 +61606,19 @@
                             "target": "DISPLAY",
                             "isToken": false,
                             "addDesc_zh": "在<@ba.kw>集成战略</>中，额外攻击一个目标",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "<@ba.kw>統合戦略</>において、攻撃対象数+1",
+                            "addDesc_en": "In <@ba.kw>Integrated Strategies</>, attacks one additional target",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": "dusk_equip_4_2_p1",
                             "target": "TALENT",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 1,
@@ -61598,23 +61630,23 @@
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "点睛",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Finishing Touch",
+                            "name_ja": "点睛",
+                            "name_en": "Finishing Touch",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 1,
                             "upgradeDesc_zh": "部署后首次攻击敌人时，在目标位置（可部署地面）召唤“小自在”（持续25秒）；在<@ba.kw>集成战略</>中，“小自在”生成时获得1层护盾，攻击时附带夕100%攻击力的法术伤害",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "配置後、最初に敵を攻撃する時、攻撃対象のいるマス（配置可能な地面マス）に「小自在」を召喚（召喚から25秒後強制退場）。<@ba.kw>統合戦略</>において、「小自在」は召喚された際にシールドを1枚獲得し、攻撃時に追加でシーの攻撃力の100%の術ダメージを与える",
+                            "upgradeDesc_en": "The first attack after deployment will summon 'Freeling(s)' (lasts for 25 seconds) at the target's location (only on deployable ground tiles); in <@ba.kw>Integrated Strategies</>, 'Freelings' gain 1 Shield when they spawn, and deal an additional 100% of Dusk's ATK as Arts damage when they attack"
                         },
                         {
                             "resKey": "dusk_equip_4_2_p2",
                             "target": "TALENT",
                             "isToken": true,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": -1,
@@ -61627,8 +61659,8 @@
                             "target": "TALENT",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": -1,
@@ -61640,11 +61672,13 @@
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 62.0
+                            "value": 62.0,
+                            "valueStr": null
                         },
                         {
                             "key": "attack_speed",
-                            "value": 8.0
+                            "value": 8.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -61656,19 +61690,19 @@
                             "target": "DISPLAY",
                             "isToken": false,
                             "addDesc_zh": "在<@ba.kw>集成战略</>中，额外攻击一个目标",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "<@ba.kw>統合戦略</>において、攻撃対象数+1",
+                            "addDesc_en": "In <@ba.kw>Integrated Strategies</>, attacks one additional target",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": "dusk_equip_4_3_p1",
                             "target": "TALENT",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 1,
@@ -61680,23 +61714,23 @@
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "点睛",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Finishing Touch",
+                            "name_ja": "点睛",
+                            "name_en": "Finishing Touch",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 1,
                             "upgradeDesc_zh": "部署后首次攻击敌人时，在目标位置（可部署地面）召唤“小自在”（持续25秒）；在<@ba.kw>集成战略</>中，“小自在”生成时获得1层护盾，攻击时附带夕100%攻击力的法术伤害；携带夕时，所有干员首次攻击时在目标所在位置召唤一个“小自在”",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "配置後、最初に敵を攻撃する時、攻撃対象のいるマス（配置可能な地面マス）に「小自在」を召喚する（召喚から25秒後強制退場）。<@ba.kw>統合戦略</>において、「小自在」は召喚された際にシールドを1枚獲得し、攻撃時に追加でシーの攻撃力の100%の術ダメージを与える。シーを編成時、各オペレーターが最初に敵を攻撃した際に攻撃対象の位置に「小自在」を1体召喚",
+                            "upgradeDesc_en": "The first attack after deployment will summon 'Freeling(s)' (lasts for 25 seconds) at the target's location (only on deployable ground tiles); in <@ba.kw>Integrated Strategies</>, 'Freelings' gain 1 Shield when they spawn, and deal an additional 100% of Dusk's ATK as Arts damage when they attack; when Dusk is in the squad, all Operators spawn a 'Freeling' at their target's location on their first attack"
                         },
                         {
                             "resKey": "dusk_equip_4_3_p2",
                             "target": "TALENT",
                             "isToken": true,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": -1,
@@ -61709,8 +61743,8 @@
                             "target": "TALENT",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": -1,
@@ -61723,8 +61757,8 @@
                             "target": "TALENT",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": -1,
@@ -61736,11 +61770,13 @@
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 74.0
+                            "value": 74.0,
+                            "valueStr": null
                         },
                         {
                             "key": "attack_speed",
-                            "value": 10.0
+                            "value": 10.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -61760,8 +61796,8 @@
     "uniequip_004_zumama": {
         "uniEquipId": "uniequip_004_zumama",
         "name_zh": "森蚺特限证章",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "ユーネクテスの特別限定記章",
+        "name_en": "Eunectes's Specialized Badge",
         "typeIcon": "ra-a",
         "charId": "char_416_zumama",
         "combatData": {
@@ -61773,19 +61809,19 @@
                             "target": "TRAIT",
                             "isToken": false,
                             "addDesc_zh": "在<@ba.kw>生息演算</>中，拥有食物效果时可以回复技力，且开启技能时会吸引大范围(5.0)的敌人走向自身所在位置",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "<@ba.kw>生息演算</>において、自身に食料効果が発動しているとSPを回復でき、スキル発動時に広範囲内の敵を自身がいる位置まで移動させる",
+                            "addDesc_en": "In <@ba.kw>Reclamation Algorithm</>, able to recover SP while under the effect of food; attracts enemies over a wide area to this unit's position when skill is activated",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": "zumama_equip_4_1_p2",
                             "target": "TALENT",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": -1,
@@ -61797,11 +61833,13 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 280.0
+                            "value": 280.0,
+                            "valueStr": null
                         },
                         {
                             "key": "atk",
-                            "value": 80.0
+                            "value": 80.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -61813,19 +61851,19 @@
                             "target": "TRAIT",
                             "isToken": false,
                             "addDesc_zh": "在<@ba.kw>生息演算</>中，拥有食物效果时可以回复技力，且开启技能时会吸引大范围(5.0)的敌人走向自身所在位置",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "<@ba.kw>生息演算</>において、自身に食料効果が発動しているとSPを回復でき、スキル発動時に広範囲内の敵を自身がいる位置まで移動させる",
+                            "addDesc_en": "In <@ba.kw>Reclamation Algorithm</>, able to recover SP while under the effect of food; attracts enemies over a wide area to this unit's position when skill is activated",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": "zumama_equip_4_2_p2",
                             "target": "TALENT",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": -1,
@@ -61838,8 +61876,8 @@
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 1,
@@ -61851,25 +61889,27 @@
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "愈战愈勇",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Resilience",
+                            "name_ja": "闘争本能",
+                            "name_en": "Resilience",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 1,
                             "upgradeDesc_zh": "阻挡敌人时技力回复速度+0.2/秒；在<@ba.kw>生息演算</>中，阻挡敌人时技力回复速度+0.4/秒，技能期间阻挡数+1且可同时攻击阻挡的所有敌人，被阻挡的敌人受到20%的<ba.physicfragile>【物理脆弱】</>",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "敵をブロック中、自身のSP自然回復速度+0.2sp/s。<@ba.kw>生息演算</>において、敵をブロック中、自身のSP自然回復速度+0.4sp/s、スキル発動中はブロック数+1、ブロック中の敵全員を同時に攻撃でき、ブロックされている敵に20%の<ba.physicfragile>対物理脆弱</>状態を付与",
+                            "upgradeDesc_en": "Increases this unit's SP recovery rate by 0.2/sec when blocking enemies; in <@ba.kw>Reclamation Algorithm</>, increases this unit's SP recovery rate by 0.4/sec when blocking enemies, Block +1, and attacks all blocked enemies when skill is active; enemies blocked by this unit receive 20% <ba.physicfragile>[Physical Fragility]</>"
                         }
                     ],
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 340.0
+                            "value": 340.0,
+                            "valueStr": null
                         },
                         {
                             "key": "atk",
-                            "value": 110.0
+                            "value": 110.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -61881,19 +61921,19 @@
                             "target": "TRAIT",
                             "isToken": false,
                             "addDesc_zh": "在<@ba.kw>生息演算</>中，拥有食物效果时可以回复技力，且开启技能时会吸引大范围(5.0)的敌人走向自身所在位置",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "<@ba.kw>生息演算</>において、自身に食料効果が発動しているとSPを回復でき、スキル発動時に広範囲内の敵を自身がいる位置まで移動させる",
+                            "addDesc_en": "In <@ba.kw>Reclamation Algorithm</>, able to recover SP while under the effect of food; attracts enemies over a wide area to this unit's position when skill is activated",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": "zumama_equip_4_3_p2",
                             "target": "TALENT",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": -1,
@@ -61906,8 +61946,8 @@
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 1,
@@ -61919,25 +61959,27 @@
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "愈战愈勇",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Resilience",
+                            "name_ja": "闘争本能",
+                            "name_en": "Resilience",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 1,
                             "upgradeDesc_zh": "阻挡敌人时技力回复速度+0.2/秒；在<@ba.kw>生息演算</>中，阻挡敌人时技力回复速度+0.4/秒，技能期间阻挡数+2且可同时攻击阻挡的所有敌人，被阻挡的敌人受到40%的<ba.physicfragile>【物理脆弱】</>",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "敵をブロック中、自身のSP自然回復速度+0.2sp/s。<@ba.kw>生息演算</>において、敵をブロック中、自身のSP自然回復速度+0.4sp/s、スキル発動中はブロック数+2、ブロック中の敵全員を同時に攻撃でき、ブロックされている敵に40%の<ba.physicfragile>対物理脆弱</>状態を付与",
+                            "upgradeDesc_en": "Increases this unit's SP recovery rate by 0.2/sec when blocking enemies; in <@ba.kw>Reclamation Algorithm</>, increases this unit's SP recovery rate by 0.4/sec when blocking enemies, Block +2, and attacks all blocked enemies when skill is active; enemies blocked by this unit receive 40% <ba.physicfragile>[Physical Fragility]</>"
                         }
                     ],
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 380.0
+                            "value": 380.0,
+                            "valueStr": null
                         },
                         {
                             "key": "atk",
-                            "value": 130.0
+                            "value": 130.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -68193,8 +68235,7 @@
                 }
             ],
             "tags": [],
-            "blackboard": [
-            ]
+            "blackboard": []
         }
     },
     "uniequip_003_typhon": {
@@ -68314,8 +68355,7 @@
                 }
             ],
             "tags": [],
-            "blackboard": [
-            ]
+            "blackboard": []
         }
     },
     "uniequip_003_gdglow": {
@@ -68599,7 +68639,9 @@
                     "tokenAttributeBlackboard": {}
                 }
             ],
-            "tags": ["physicfragile"],
+            "tags": [
+                "physicfragile"
+            ],
             "blackboard": [
                 {
                     "key": "receive_heal_scale",
@@ -68635,6 +68677,182 @@
                     "category": [
                         "physicfragile"
                     ]
+                }
+            ]
+        }
+    },
+    "uniequip_001_radian": {
+        "uniEquipId": "uniequip_001_radian",
+        "name_zh": "电弧证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_4195_radian",
+        "combatData": null
+    },
+    "uniequip_002_radian": {
+        "uniEquipId": "uniequip_002_radian",
+        "name_zh": "电弧特勤证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "so-a",
+        "charId": "char_4195_radian",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "DISPLAY",
+                            "isToken": false,
+                            "addDesc_zh": "在【岁的界园志异】中，召唤物持有上限<@ba.kw>+5</>，且召唤物被击倒或撤退时，有<@ba.kw>25％</>概率被回收",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": "radian_equip_1_1_p1",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": null,
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": -1,
+                            "upgradeDesc_zh": "",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 125.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 27.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "DISPLAY",
+                            "isToken": false,
+                            "addDesc_zh": "在【岁的界园志异】中，召唤物持有上限<@ba.kw>+5</>，且召唤物被击倒或撤退时，有<@ba.kw>25％</>概率被回收",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "卡带里的灵感",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "可以使用5个召唤物（最多同时部署3个），功能随技能选择而改变。在【岁的界园志异】中，召唤物再部署时间降低25％，且被击倒或撤退时电弧自身回复1点技力",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        },
+                        {
+                            "resKey": "radian_equip_1_2_p1",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": null,
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": -1,
+                            "upgradeDesc_zh": "",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 145.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 36.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "DISPLAY",
+                            "isToken": false,
+                            "addDesc_zh": "在【岁的界园志异】中，召唤物持有上限<@ba.kw>+5</>，且召唤物被击倒或撤退时，有<@ba.kw>25％</>概率被回收",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "卡带里的灵感",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "可以使用5个召唤物（最多同时部署3个），功能随技能选择而改变。在【岁的界园志异】中，召唤物再部署时间降低50％，且被击倒或撤退时电弧自身回复2点技力",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        },
+                        {
+                            "resKey": "radian_equip_1_3_p1",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": null,
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": -1,
+                            "upgradeDesc_zh": "",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 165.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 43.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+                {
+                    "key": "sp_gain",
+                    "value": 2.0
                 }
             ]
         }

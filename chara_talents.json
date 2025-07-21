@@ -13147,11 +13147,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "独自远走",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Solo Traveler",
+                "name_ja": "ソロキャンプ",
                 "desc_zh": "部署时，若周围4格没有其他干员，获得3<@ba.talpu>（+1）</>点部署费用",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "配置時、隣接4マスに他のオペレーターがいない場合、所持コスト+3<@ba.talpu>（+1）</>",
+                "desc_en": "If there are no other Operators in the surrounding 4 tiles when deployed, gain 3 <@ba.talpu>(+1)</> DP",
                 "tags": [],
                 "blackboard": [
                     {
@@ -13168,11 +13168,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "同路之谊",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Friendship Fair, Together Tied",
+                "name_ja": "同道の誼",
                 "desc_zh": "使攻击范围内除自己外2名友军获得12%<@ba.talpu>（+2%）</>的<ba.protect>庇护</>",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "攻撃範囲内にいる自身以外のオペレーター2名に12%<@ba.talpu>（+2%）</>の<ba.protect>加護</>状態を付与",
+                "desc_en": "Grants 12% <@ba.talpu>(+2%)</> <ba.protect>Sanctuary</> to 2 other allies within range",
                 "tags": [],
                 "blackboard": [
                     {
@@ -13196,11 +13196,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "熔点引爆",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Meltdown",
+                "name_ja": "融点起爆",
                 "desc_zh": "全场有敌人<ba.dt.burning2>灼燃损伤</>爆发开始时，立即对其造成相当于攻击力380%<@ba.talpu>（+30%）</>的元素伤害并回复15%<@ba.talpu>（+3%）</>最大生命",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "敵の<ba.dt.burning2>灼熱損傷</>が爆発するたびに、その敵に攻撃力の380%<@ba.talpu>（+30%）</>の元素ダメージを与え、自身のHPを最大値の15%<@ba.talpu>（+3%）</>回復",
+                "desc_en": "Whenever an enemy triggers a <ba.dt.burning2>Burn damage</> burst, immediately deals 380% <@ba.talpu>(+30%)</> ATK as Elemental Damage to that enemy and recovers 15% <@ba.talpu>(+3%)</> Max HP",
                 "tags": [
                     "heal_self",
                     "ele_dmg"
@@ -13210,11 +13210,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "绝处重燃",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "From the Ashes",
+                "name_ja": "窮地再燃",
                 "desc_zh": "被击倒时倒地并获得6000点屏障，倒地期间不能攻击，无法被治疗，每秒回复3.5%<@ba.talpu>（+0.5%）</>生命，生命回满后复活并使附近的敌人晕眩5秒",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "HPが0になっても退場せず、代わりにダウン状態（攻撃不可、味方の治療対象にならない）になり、6000までの被ダメージを吸収可能な<ba.barrier>バリア</>を獲得し、HPが毎秒最大値の3.5%<@ba.talpu>（+0.5%）</>回復する。HPが最大値まで回復するとダウン状態が解除され、周囲にいる敵全員を5秒間<ba.stun>スタン</>させる",
+                "desc_en": "When defeated, becomes downed instead and gains 6000 <ba.barrier>Barrier</>; cannot attack or be healed while downed, but recovers 3.5% <@ba.talpu>(+0.5%)</> HP per second; once HP is full, revives and <ba.stun>stuns</> nearby enemies for 5s",
                 "tags": [
                     "barrier",
                     "heal_self"
@@ -13239,11 +13239,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "礼尚往来",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "You Feed Me, I Feed You",
+                "name_ja": "礼には礼を",
                 "desc_zh": "阻挡敌人时自身获得30%<@ba.talpu>（+5%）</>的<ba.protect>庇护</>，并使阻挡的目标每秒受到相当于攻击力40%的法术伤害和相当于攻击力12%的<ba.dt.burning2>灼燃损伤</>",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "敵をブロック中、30%<@ba.talpu>（+5%）</>の<ba.protect>加護</>状態を獲得し、ブロックしている対象に毎秒ユーの攻撃力の40%の術ダメージと攻撃力の12%の<ba.dt.burning2>灼熱損傷</>を与え続ける",
+                "desc_en": "When blocking enemies, gains 30% <@ba.talpu>(+5%)</> <ba.protect>Sanctuary</>; blocked enemies receive 40% ATK as Arts damage and 12% ATK as <ba.dt.burning2>Burn damage</> per second",
                 "tags": [
                     "arts",
                     "burning",
@@ -13281,11 +13281,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "闲云隐市",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Midst Markets, Dragons Dwell",
+                "name_ja": "閑雲市に隠れ",
                 "desc_zh": "场上干员数量不低于4时，自身每秒回复相当于生命上限2%<@ba.talpu>（+0.5%）</>的生命与<ba.dt.element>元素损伤</>",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "配置されているオペレーターの数が4人以上のとき、自身HPと<ba.dt.element>元素損傷</>が毎秒最大HPの2%<@ba.talpu>（+0.5%）</>回復",
+                "desc_en": "When there are at least 4 Operators on the field, recovers 2% <@ba.talpu>(+0.5%)</> Max HP as both HP and <ba.dt.element>Elemental Injury</> per second",
                 "tags": [
                     "heal_self"
                 ],
@@ -13844,6 +13844,35 @@
                         ]
                     }
                 ]
+            }
+        ]
+    },
+    "char_4195_radian": {
+        "appellation": "Raidian",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "卡带里的灵感",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "可以使用5个召唤物（最多同时部署3个），功能随技能选择而改变",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "summon"
+                ],
+                "blackboard": []
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "加油~",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "电弧的召唤物获得相当于其自身15％<@ba.talpu>(+3％)</>攻击力、防御力、生命值的<ba.inspire>鼓舞</>效果",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": []
             }
         ]
     }

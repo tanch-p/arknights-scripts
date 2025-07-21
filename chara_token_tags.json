@@ -114,5 +114,27 @@
         "value": 99.0
       }
     ]
+  },
+  "token_10051_radian_tower1":{
+    "tags": ["phys"],
+    "blackboard": [
+      {
+        "key": "blockCnt",
+        "value": 3.0
+      }
+    ]
+  },
+  "token_10052_radian_tower2":{
+    "tags": ["phys"],
+    "blackboard": [
+      {
+        "key": "blockCnt",
+        "value": 2.0
+      },
+      {
+        "key": "block_no_attack",
+        "value": 999
+      }
+    ]
   }
 }
