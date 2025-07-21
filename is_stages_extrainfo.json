@@ -22876,8 +22876,8 @@
         }
       }
     ],
-    "enemy_counts": [34],
-    "sp_count": [35],
+    "enemy_counts": [40],
+    "sp_count": [41],
     "elite_enemy_counts": null,
     "elite_sp_count": null,
     "sp_enemy": {
@@ -22889,8 +22889,8 @@
     "enemy_list": [
       {
         "key": "enemy_1271_nhkodo_2",
-        "min_count": 4,
-        "max_count": 4
+        "min_count": 10,
+        "max_count": 10
       },
       {
         "key": "enemy_1377_ltnclo",
@@ -27701,7 +27701,7 @@
     "all_mods": null,
     "normal_mods": null,
     "elite_mods": null,
-    "enemy_counts": [1],
+    "enemy_counts": [4],
     "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
@@ -27731,6 +27731,21 @@
       {
         "key": "enemy_2034_sythef",
         "min_count": 0,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_10079_mpmage_2",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_10048_prtsld_2",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "key": "enemy_10038_cnvpiz",
+        "min_count": 1,
         "max_count": 1
       }
     ],
@@ -29893,12 +29908,12 @@
         ]
       }
     ],
-    "enemy_counts": [36],
-    "sp_count": [37],
-    "elite_enemy_counts": [36],
-    "elite_sp_count": [37],
+    "enemy_counts": [38],
+    "sp_count": [39],
+    "elite_enemy_counts": [38],
+    "elite_sp_count": [39],
     "sp_enemy": {
-      "normal": "37",
+      "normal": "39",
       "elite": null
     },
     "sp_terrain": [
@@ -29912,8 +29927,8 @@
     "enemy_list": [
       {
         "key": "enemy_1173_duspfr",
-        "min_count": 19,
-        "max_count": 19
+        "min_count": 21,
+        "max_count": 21
       },
       {
         "key": "enemy_1165_duhond",
@@ -29934,8 +29949,8 @@
     "elite_enemy_list": [
       {
         "key": "enemy_1173_duspfr",
-        "min_count": 19,
-        "max_count": 19
+        "min_count": 21,
+        "max_count": 21
       },
       {
         "key": "enemy_1165_duhond",

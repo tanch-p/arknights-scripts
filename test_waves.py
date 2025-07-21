@@ -636,6 +636,58 @@ test_cases = [
                 "max_count": 5
             }
         ]
+    },
+    {
+        "path": "ro5/level_rogue5_3-4.json",
+        'id': "level_rogue5_3-4",
+        "enemy_counts": [38],
+        "elite_enemy_counts": [38],
+        "sp_count": [39],
+        "elite_sp_count": [39],
+        "enemy_list": [
+            {
+                "key": "enemy_1173_duspfr",
+                "min_count": 21,
+                "max_count": 21
+            },
+            {
+                "key": "enemy_1165_duhond",
+                "min_count": 3,
+                "max_count": 3
+            },
+            {
+                "key": "enemy_1176_dusocr",
+                "min_count": 2,
+                "max_count": 2
+            },
+            {
+                "key": "enemy_1166_dusbr",
+                "min_count": 12,
+                "max_count": 12
+            }
+        ],
+        "elite_enemy_list": [
+            {
+                "key": "enemy_1173_duspfr",
+                "min_count": 21,
+                "max_count": 21
+            },
+            {
+                "key": "enemy_1165_duhond",
+                "min_count": 3,
+                "max_count": 3
+            },
+            {
+                "key": "enemy_1176_dusocr",
+                "min_count": 2,
+                "max_count": 2
+            },
+            {
+                "key": "enemy_1166_dusbr",
+                "min_count": 12,
+                "max_count": 12
+            }
+        ]
     }
 ]
 

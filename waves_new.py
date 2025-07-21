@@ -65,12 +65,13 @@ def analyze_enemy_spawns(waves_data, levelId, bonus_data, difficulty, group_name
         for fragment_index, fragment in enumerate(wave['fragments']):
             if bonus_data and bonus_data['type'] == 'fragment' and wave_index == bonus_data['wave_index'] and fragment_index == bonus_data['frag_index']:
                 continue
+            packed_groups = get_random_groups(fragment, [group_name])
+
             # Get all SPAWN or ACTIVATE_PREDEFINED actions only
             spawn_actions = [action for action in fragment['actions']
                              if action['actionType'] == 'SPAWN'
                              or action['actionType'] == 'ACTIVATE_PREDEFINED'
                              ]
-            group_actions = []
             # Separate packed and non-packed actions within this fragment
             for action in spawn_actions:
                 if difficulty != 0 and action['key'] in enemies_to_replace:
@@ -79,28 +80,26 @@ def analyze_enemy_spawns(waves_data, levelId, bonus_data, difficulty, group_name
                 if action['hiddenGroup'] is not None and (action['hiddenGroup'] != group_name or group_name is None):
                     continue
                 enemy_key = action['key']
-                group = action['randomSpawnGroupKey'] if 'randomSpawnGroupKey' in action else None
-                packKey = action['randomSpawnGroupPackKey'] if 'randomSpawnGroupPackKey' in action else None
-                if group or packKey:
-                    group_actions.append(action)
+                group_key = action['randomSpawnGroupKey'] if 'randomSpawnGroupKey' in action else None
+                pack_key = action['randomSpawnGroupPackKey'] if 'randomSpawnGroupPackKey' in action else None
+                if group_key:
+                    continue
+                if pack_has_group_in_fragment(fragment['actions'], pack_key):
                     continue
                 # Guaranteed spawn
                 if enemy_key not in guaranteed_spawns:
                     guaranteed_spawns[enemy_key] = 0
                 guaranteed_spawns[enemy_key] += action['count']
-
-            random_groups = group_resolver(group_actions)
-            groups = random_group_resolver(random_groups)
             # pp.pprint(groups)
 
             fragment_random_groups = {}
-            for group_key in groups:
+            for group_key in packed_groups:
                 fragment_random_groups[group_key] = {
                     'options': [],
                     'total_weight': 0,
                     'location': f"Wave {wave_index + 1}, Fragment {fragment_index + 1}"
                 }
-                for pack_action in groups[group_key]:
+                for pack_action in packed_groups[group_key]:
                     if type(pack_action) is dict:
                         fragment_random_groups[group_key]['options'].append({
                             'actions': [pack_action],
@@ -216,6 +215,32 @@ def get_count_combinations(lst):
 
     # Convert to list of dicts
     return [value for value, prob in sorted(merged_results.items())]
+
+
+def get_random_groups(fragment, hidden_groups):
+    groups = []
+    for action in fragment['actions']:
+        action_type = action.get('actionType')
+        group_key = action.get('randomSpawnGroupKey')
+        pack_key = action.get('randomSpawnGroupPackKey')
+        hidden_group = action.get('hiddenGroup')
+
+        if action_type not in ['SPAWN', 'ACTIVATE_PREDEFINED']:
+            continue
+
+        if hidden_group and hidden_group not in hidden_groups:
+            continue
+
+        if group_key:
+            groups.append(action)
+            continue
+
+        if pack_has_group_in_fragment(fragment['actions'], pack_key):
+            groups.append(action)
+
+    random_groups = group_resolver(groups)
+    packed_groups = random_group_resolver(random_groups)
+    return packed_groups
 
 
 def get_enemy_spawn_counts(spawn_data, stage_data):

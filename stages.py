@@ -254,6 +254,7 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
                     ]["lifePointReduce"]["m_value"]
                 if enemy["overwrittenData"]["notCountInTotal"]["m_defined"] and enemy["overwrittenData"]["notCountInTotal"]["m_value"]:
                     if my_enemy_db[enemy_id]['notCountInTotal'] is False:
+                        overwrittenData['notCountInTotal'] = True
                         alerts.append(
                             f"notCountInTotal, {enemy['id']}, {my_enemy_db[enemy_id]['name_zh']}, {levelId})")
                         if not 'talentBlackboard' in overwrittenData:
