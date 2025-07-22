@@ -17,6 +17,8 @@ pattern = re.compile(r"^level_rogue\d+_\d+-\d+$")
 
 bonus_enemies = ['enemy_2001_duckmi', 'enemy_2002_bearmi',
                  'enemy_2034_sythef', 'enemy_2085_skzjxd']
+sp_stages_with_bonus = [
+        "level_rogue5_t-9-a", "level_rogue5_t-9-b", "level_rogue5_t-9-c"]
 
 script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
@@ -517,7 +519,7 @@ def get_wave_spawns_data(stage_data, levelId, log=False):
         elite_group_name = "hard_amiya"
     log and print('levelId:', levelId, 'normal:', normal_group_name, 'elite:',
                   elite_group_name, 'replace:', enemies_to_replace)
-    has_bonus_wave = pattern.match(levelId)
+    has_bonus_wave = pattern.match(levelId) or levelId in sp_stages_with_bonus
     holder = ['NORMAL']
     if elite_group_name is not None or len(enemies_to_replace) > 0:
         holder.append("ELITE")
@@ -716,7 +718,7 @@ def get_waves_data(stage_data, levelId, log=False, test=False):
         elite_group_name = "hard_amiya"
     log and print('normal:', normal_group_name, 'elite:',
                   elite_group_name, 'replace:', enemies_to_replace)
-    has_bonus_wave = pattern.match(levelId)
+    has_bonus_wave = pattern.match(levelId) or levelId in sp_stages_with_bonus
     return_data = {"routes": routes, "mapData": map_data,
                    "extra_routes": extra_routes, "branches": branches}
     holder = ['NORMAL', 'ELITE']

@@ -24760,14 +24760,30 @@
     "name_en": null,
     "category": null,
     "floors": [1, 2],
-    "addInfo_zh": null,
+    "addInfo_zh": ["普通作战 - “留声机”所需技力增加至150"],
     "addInfo_ja": null,
     "addInfo_en": null,
-    "eliteDesc_zh": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力，生命值+20%",
+      "高普尼克的额外攻击力提升至120%，生命值提升至200%",
+      "“留声机”所需技力增加至200"
+    ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "all_mods": null,
-    "normal_mods": null,
+    "normal_mods": [
+      {
+        "targets": ["trap_014_tower"],
+        "special": {
+          "sktok_tower": {
+            "spData": {
+              "spCost": 150,
+              "initSp": 50
+            }
+          }
+        }
+      }
+    ],
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -24798,6 +24814,17 @@
             "mode": "mul"
           }
         ]
+      },
+      {
+        "targets": ["trap_014_tower"],
+        "special": {
+          "sktok_tower": {
+            "spData": {
+              "spCost": 200,
+              "initSp": 50
+            }
+          }
+        }
       }
     ],
     "enemy_counts": [30],
@@ -24852,7 +24879,7 @@
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
-    "eliteDesc_zh": null,
+    "eliteDesc_zh": ["流泪小子生命值提升至150%，攻击能使我方单位晕眩8s"],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "all_mods": null,
@@ -24917,7 +24944,10 @@
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
-    "eliteDesc_zh": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力+20%，生命值+50%",
+      "额外出现1个高普尼克"
+    ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "all_mods": null,
@@ -25016,7 +25046,11 @@
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
-    "eliteDesc_zh": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力，生命值+10%",
+      "出现更多敌人",
+      "所有角色型单位基础再部署时间提升至150%"
+    ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "all_mods": null,
@@ -25155,7 +25189,10 @@
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
-    "eliteDesc_zh": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力+20%，生命值+50%",
+      "所有“废食”的初始位置以废弃火灶为中心各向内移动1格 "
+    ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "all_mods": null,
@@ -25251,7 +25288,10 @@
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
-    "eliteDesc_zh": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力+20%，防御力+20%，生命值+50%",
+      "战斗开始时额外出现6个暴走食虫花"
+    ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "all_mods": null,
@@ -25320,7 +25360,10 @@
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
-    "eliteDesc_zh": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力，防御力，生命值+10%",
+      "战斗开始时额外部署8个桑特拉"
+    ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "all_mods": null,
@@ -25526,10 +25569,13 @@
     "normal_mods": null,
     "elite_mods": null,
     "enemy_counts": [1],
-    "sp_count": null,
+    "sp_count": [2],
     "elite_enemy_counts": null,
     "elite_sp_count": null,
-    "sp_enemy": null,
+    "sp_enemy": {
+      "normal": "2",
+      "elite": null
+    },
     "sp_terrain": null,
     "enemy_list": [
       {
@@ -25551,9 +25597,13 @@
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
-    "eliteDesc_zh": null,
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力+20%，防御力+70%，生命值+20%，法术耐性+30"
+    ],
+    "eliteDesc_ja": ["敵全員の攻撃力+20%、防御力+70%、最大HP+20%、術耐性+30"],
+    "eliteDesc_en": [
+      "All enemy units have +20% ATK, +70% DEF, +20% Max HP and +30 RES"
+    ],
     "all_mods": null,
     "normal_mods": null,
     "elite_mods": [
@@ -25574,12 +25624,7 @@
             "key": "hp",
             "value": 1.2,
             "mode": "mul"
-          }
-        ]
-      },
-      {
-        "targets": ["ALL"],
-        "mods": [
+          },
           {
             "key": "res",
             "value": 30.0,
@@ -25589,10 +25634,10 @@
       }
     ],
     "enemy_counts": [25, 26, 27],
-    "sp_count": null,
+    "sp_count": [28],
     "elite_enemy_counts": null,
     "elite_sp_count": null,
-    "sp_enemy": null,
+    "sp_enemy": { "normal": "28", "elite": null },
     "sp_terrain": [
       {
         "tileKey": "tile_hole",
@@ -25646,9 +25691,15 @@
     "addInfo_zh": null,
     "addInfo_ja": null,
     "addInfo_en": null,
-    "eliteDesc_zh": null,
-    "eliteDesc_ja": null,
-    "eliteDesc_en": null,
+    "eliteDesc_zh": [
+      "所有敌方单位的攻击力，防御力+20%，生命值，移动速度+50%,攻击速度+30%"
+    ],
+    "eliteDesc_ja": [
+      "敵全員の攻撃力、防御力+20%、最大HP、移動速度+50%、攻撃速度+30%"
+    ],
+    "eliteDesc_en": [
+      "All enemy units have +20% ATK, +20% DEF, +50% Max HP, +50% Movement speed, and +30% ASPD"
+    ],
     "all_mods": null,
     "normal_mods": null,
     "elite_mods": [
@@ -25678,16 +25729,17 @@
           {
             "key": "aspd",
             "value": 1.3,
-            "mode": "mul"
+            "mode": "mul",
+            "order": "initial"
           }
         ]
       }
     ],
     "enemy_counts": [52],
-    "sp_count": null,
+    "sp_count": [53],
     "elite_enemy_counts": null,
     "elite_sp_count": null,
-    "sp_enemy": null,
+    "sp_enemy": { "normal": "53", "elite": null },
     "sp_terrain": null,
     "enemy_list": [
       {
@@ -25726,10 +25778,12 @@
     "name_en": null,
     "category": null,
     "floors": [4, 5],
-    "addInfo_zh": null,
-    "addInfo_ja": null,
-    "addInfo_en": null,
-    "eliteDesc_zh": null,
+    "addInfo_zh": ["每个掉进坑的敌人获得3源石锭"],
+    "addInfo_ja": ["穴に落ちた敵1体につき源石錐3個を獲得"],
+    "addInfo_en": [
+      "Receive 3 Originium Ingots for every enemy fallen into Hole"
+    ],
+    "eliteDesc_zh": ["所有敌方单位的攻击力+50%，生命值+100%"],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
     "all_mods": null,
@@ -27913,7 +27967,18 @@
         ]
       }
     ],
-    "normal_mods": null,
+    "normal_mods": [
+      {
+        "targets": ["trap_097_hstone"],
+        "mods": [
+          {
+            "key": "hp",
+            "value": 10.0,
+            "mode": "mul"
+          }
+        ]
+      }
+    ],
     "elite_mods": null,
     "enemy_counts": [8],
     "sp_count": null,
@@ -28927,7 +28992,8 @@
     "addInfo_en": null,
     "eliteDesc_zh": [
       "所有敌方单位的攻击力+10%，防御力+20%，生命值+50%",
-      "2个速射轻弩手被替换为重弩突袭者"
+      "2个速射轻弩手被替换为重弩突袭者",
+      "战斗开始时额外出现1个雕伥"
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,

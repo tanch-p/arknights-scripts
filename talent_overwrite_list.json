@@ -470,18 +470,26 @@
     "enemy_2107_dycant": [{ "key": "dycant_transform", "value": 110 }]
   },
   "level_rogue5_dv-5": {
-    "enemy_2110_dyyrzf": [
-      { "key": "yan_statue_standby", "standby":0 }
-    ],
-    "enemy_2112_dyhlgy": [
-      { "key": "yan_statue_standby", "standby":0 }
-    ]
+    "enemy_2110_dyyrzf": [{ "key": "yan_statue_standby", "standby": 0 }],
+    "enemy_2112_dyhlgy": [{ "key": "yan_statue_standby", "standby": 0 }]
   },
   "level_rogue5_sv-1": {
     "enemy_2034_sythef": [{ "key": "attack_stun", "value": 12 }]
   },
   "level_rogue5_sv-1-b": {
     "enemy_2034_sythef": [{ "key": "attack_stun", "value": 12 }]
+  },
+  "level_rogue5_sv-2-c": {
+    "enemy_1317_wdexg_2": [
+      {
+        "key": "ammo",
+        "tooltip": {
+          "en": ["Has $0$ Initial Ammo, <v.value> Max Ammo"],
+          "ja": ["初期弾数$0$、弾薬上限数<v.value>"],
+          "zh": ["初始技力为$0$、技力上限为<v.value>"]
+        }
+      }
+    ]
   },
   "level_rogue5_sv-4": {
     "enemy_10066_ftxjl_2": [
@@ -493,6 +501,14 @@
         "hpup": 800,
         "atkup": 160,
         "duration": 60
+      }
+    ]
+  },
+  "level_rogue5_sv-5": {
+    "enemy_1216_cansld_2": [
+      {
+        "key": "ammo",
+        "value": 4
       }
     ]
   },

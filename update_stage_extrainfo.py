@@ -20,6 +20,29 @@ STAGES_TO_IGNORE = ['level_rogue4_b-4', 'level_rogue4_b-4-b',
                     'level_rogue4_b-5', 'level_rogue4_b-5-b']
 
 
+def get_rgdysm_summon(stage_data):
+    data = []
+    if stage_data['predefines']:
+        if stage_data['predefines']['tokenInsts']:
+            for token in stage_data['predefines']['tokenInsts']:
+                if token['inst']['characterKey'] == 'trap_222_rgdysm' and token['overrideSkillBlackboard']:
+                    for item in token['overrideSkillBlackboard']:
+                        if item['key'] == "enemy_key" or item['key'] == 'attack@enemy_key':
+                            enemy_key = item['valueStr']
+                        elif item['key'] == 'talent@interval':
+                            interval = item['value']
+            if enemy_key or interval:
+                targets = [token['alias']]
+                special = {
+                    "rgdysm_summon": {
+                        "interval": interval,
+                        "enemy_key": enemy_key
+                    }
+                }
+                data.append({"targets": targets, "special": special})
+    return data
+
+
 def update_current_stages():
     data = {}
     for key in extra_info_list:
@@ -67,6 +90,12 @@ def update_current_stages():
             if runes_data:
                 all_mods, elite_mods, normal_mods = itemgetter(
                     'all_mods', 'elite_mods', 'normal_mods')((runes_data))
+            if folder == 'ro5':
+                rgdysm_mods = get_rgdysm_summon(stage_data)
+                if len(rgdysm_mods) > 0:
+                    if all_mods is None:
+                        all_mods = []
+                    all_mods += rgdysm_mods
             trimmed_stage_info = {
                 "levelId": extra_info['levelId'],
                 "code": extra_info['code'],
@@ -81,7 +110,8 @@ def update_current_stages():
                 "eliteDesc_zh": extra_info['eliteDesc_zh'],
                 "eliteDesc_ja": extra_info['eliteDesc_ja'],
                 "eliteDesc_en": extra_info['eliteDesc_en'],
-                "all_mods": extra_info['all_mods'] or all_mods, #all mods is just for reference
+                # all mods is just for reference
+                "all_mods": all_mods,
                 "normal_mods": extra_info['normal_mods'],
                 "elite_mods": extra_info['elite_mods'],
                 "enemy_counts": enemy_counts if not extra_info['levelId'] in STAGES_TO_IGNORE else extra_info['enemy_counts'],
@@ -163,7 +193,7 @@ def add_new_ro_stages():
                     "all_mods": all_mods,
                     "normal_mods": normal_mods,
                     "elite_mods": elite_mods,
-                    "enemy_counts": enemy_counts ,
+                    "enemy_counts": enemy_counts,
                     "sp_count": sp_count,
                     "elite_enemy_counts": elite_enemy_counts,
                     "elite_sp_count": elite_sp_count,
@@ -178,9 +208,10 @@ def add_new_ro_stages():
     with open("is_stages_extrainfo.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
 
+
 def add_new_event_stages():
-    stages_list=[{
-        
+    stages_list = [{
+
     }]
     data = {}
     for stage in stages_list:
@@ -244,7 +275,7 @@ def add_new_event_stages():
                     "all_mods": all_mods,
                     "normal_mods": normal_mods,
                     "elite_mods": elite_mods,
-                    "enemy_counts": enemy_counts ,
+                    "enemy_counts": enemy_counts,
                     "sp_count": sp_count,
                     "elite_enemy_counts": elite_enemy_counts,
                     "elite_sp_count": elite_sp_count,
@@ -259,11 +290,13 @@ def add_new_event_stages():
     with open("is_stages_extrainfo.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
 
+
 def main():
     update_current_stages()
     # add_new_ro_stages()
     # add_new_event_stages()
     pass
+
 
 if __name__ == "__main__":
     main()
