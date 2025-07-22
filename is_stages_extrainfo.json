@@ -4982,8 +4982,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
-    "all_mods": null,
-    "normal_mods": [
+    "all_mods": [
       {
         "targets": ["trap_027_stone"],
         "mods": [
@@ -4995,6 +4994,7 @@
         ]
       }
     ],
+    "normal_mods": null,
     "elite_mods": null,
     "enemy_counts": [65],
     "sp_count": null,
@@ -5457,18 +5457,7 @@
         ]
       }
     ],
-    "normal_mods": [
-      {
-        "targets": ["trap_027_stone"],
-        "mods": [
-          {
-            "key": "hp",
-            "value": 2.0,
-            "mode": "mul"
-          }
-        ]
-      }
-    ],
+    "normal_mods": null,
     "elite_mods": null,
     "enemy_counts": [5],
     "sp_count": null,
@@ -6392,28 +6381,7 @@
         ]
       }
     ],
-    "normal_mods": [
-      {
-        "targets": ["trap_024_npcsld"],
-        "mods": [
-          {
-            "key": "hp",
-            "value": 0.5,
-            "mode": "mul"
-          },
-          {
-            "key": "atk",
-            "value": 0.6,
-            "mode": "mul"
-          },
-          {
-            "key": "def",
-            "value": 0.6,
-            "mode": "mul"
-          }
-        ]
-      }
-    ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -6435,16 +6403,11 @@
         "mods": [
           {
             "key": "atk",
-            "value": 0.3,
+            "value": 0.5,
             "mode": "mul"
           },
           {
             "key": "def",
-            "value": 0.3,
-            "mode": "mul"
-          },
-          {
-            "key": "hp",
             "value": 0.5,
             "mode": "mul"
           }
@@ -9295,18 +9258,7 @@
         ]
       }
     ],
-    "normal_mods": [
-      {
-        "targets": ["trap_027_stone"],
-        "mods": [
-          {
-            "key": "hp",
-            "value": 0.01,
-            "mode": "mul"
-          }
-        ]
-      }
-    ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -9319,16 +9271,6 @@
           {
             "key": "ms",
             "value": 1.2,
-            "mode": "mul"
-          }
-        ]
-      },
-      {
-        "targets": ["trap_027_stone"],
-        "mods": [
-          {
-            "key": "hp",
-            "value": 0.01,
             "mode": "mul"
           }
         ]
@@ -10639,8 +10581,7 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
-    "all_mods": null,
-    "normal_mods": [
+    "all_mods": [
       {
         "targets": ["trap_107_smpow"],
         "special": {
@@ -10655,6 +10596,7 @@
         }
       }
     ],
+    "normal_mods": null,
     "elite_mods": null,
     "enemy_counts": [118],
     "sp_count": null,
@@ -11530,18 +11472,7 @@
         ]
       }
     ],
-    "normal_mods": [
-      {
-        "targets": ["trap_032_mound"],
-        "mods": [
-          {
-            "key": "hp",
-            "value": 0.3,
-            "mode": "mul"
-          }
-        ]
-      }
-    ],
+    "normal_mods": null,
     "elite_mods": null,
     "enemy_counts": [22],
     "sp_count": null,
@@ -12777,23 +12708,7 @@
         ]
       }
     ],
-    "normal_mods": [
-      {
-        "targets": ["trap_008_farm"],
-        "mods": [
-          {
-            "key": "hp",
-            "value": 1.5,
-            "mode": "mul"
-          },
-          {
-            "key": "def",
-            "value": 1.5,
-            "mode": "mul"
-          }
-        ]
-      }
-    ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -12820,19 +12735,7 @@
               "initSp": 0
             }
           }
-        },
-        "mods": [
-          {
-            "key": "hp",
-            "value": 1.5,
-            "mode": "mul"
-          },
-          {
-            "key": "def",
-            "value": 1.5,
-            "mode": "mul"
-          }
-        ]
+        }
       }
     ],
     "enemy_counts": [18],
@@ -15789,18 +15692,6 @@
             "value": 2.0,
             "mode": "mul"
           }
-        ]
-      }
-    ],
-    "normal_mods": [
-      {
-        "targets": ["trap_008_farm"],
-        "mods": [
-          {
-            "key": "hp",
-            "value": 2.0,
-            "mode": "mul"
-          }
         ],
         "special": {
           "sktok_farm": {
@@ -15812,6 +15703,7 @@
         }
       }
     ],
+    "normal_mods": null,
     "elite_mods": null,
     "enemy_counts": [38],
     "sp_count": null,
@@ -15866,18 +15758,6 @@
             "value": 2.0,
             "mode": "mul"
           }
-        ]
-      }
-    ],
-    "normal_mods": [
-      {
-        "targets": ["trap_008_farm"],
-        "mods": [
-          {
-            "key": "hp",
-            "value": 2.0,
-            "mode": "mul"
-          }
         ],
         "special": {
           "sktok_farm": {
@@ -15889,6 +15769,7 @@
         }
       }
     ],
+    "normal_mods": null,
     "elite_mods": null,
     "enemy_counts": [39],
     "sp_count": null,
@@ -16618,8 +16499,7 @@
     "eliteDesc_en": [
       "When having the relic <Anasa's Karma>, all enemy units have +25% ATK, +25% DEF, +25% Max HP, and <Padmasana of Rebirth> appears"
     ],
-    "all_mods": null,
-    "normal_mods": [
+    "all_mods": [
       {
         "targets": ["trap_762_skztxy"],
         "special": {
@@ -16629,6 +16509,7 @@
         }
       }
     ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -16649,14 +16530,6 @@
             "mode": "mul"
           }
         ]
-      },
-      {
-        "targets": ["trap_762_skztxy"],
-        "special": {
-          "skztxy_2_2": {
-            "value": 11
-          }
-        }
       }
     ],
     "enemy_counts": [98],
@@ -17031,28 +16904,7 @@
         ]
       }
     ],
-    "normal_mods": [
-      {
-        "targets": ["ALL"],
-        "mods": [
-          {
-            "key": "hp",
-            "value": 1.2,
-            "mode": "mul"
-          },
-          {
-            "key": "def",
-            "value": 1.2,
-            "mode": "mul"
-          },
-          {
-            "key": "atk",
-            "value": 1.2,
-            "mode": "mul"
-          }
-        ]
-      }
-    ],
+    "normal_mods": null,
     "elite_mods": null,
     "enemy_counts": [31],
     "sp_count": null,
@@ -17148,50 +17000,8 @@
         ]
       }
     ],
-    "normal_mods": [
-      {
-        "targets": ["ALL"],
-        "mods": [
-          {
-            "key": "hp",
-            "value": 1.2,
-            "mode": "mul"
-          },
-          {
-            "key": "def",
-            "value": 1.2,
-            "mode": "mul"
-          },
-          {
-            "key": "atk",
-            "value": 1.2,
-            "mode": "mul"
-          }
-        ]
-      }
-    ],
-    "elite_mods": [
-      {
-        "targets": ["ALL"],
-        "mods": [
-          {
-            "key": "atk",
-            "value": 1.2,
-            "mode": "mul"
-          },
-          {
-            "key": "def",
-            "value": 1.2,
-            "mode": "mul"
-          },
-          {
-            "key": "hp",
-            "value": 1.2,
-            "mode": "mul"
-          }
-        ]
-      }
-    ],
+    "normal_mods": null,
+    "elite_mods": null,
     "enemy_counts": [55],
     "sp_count": null,
     "elite_enemy_counts": [60],
@@ -19480,32 +19290,11 @@
             "key": "atk",
             "value": 0.8,
             "mode": "mul"
-          },
-          {
-            "key": "def",
-            "value": 1.0,
-            "mode": "mul"
           }
         ]
       }
     ],
-    "normal_mods": [
-      {
-        "targets": ["trap_024_npcsld"],
-        "mods": [
-          {
-            "key": "hp",
-            "value": 1.5,
-            "mode": "mul"
-          },
-          {
-            "key": "atk",
-            "value": 0.8,
-            "mode": "mul"
-          }
-        ]
-      }
-    ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -19533,21 +19322,6 @@
           {
             "key": "hp",
             "value": 1.3,
-            "mode": "mul"
-          }
-        ]
-      },
-      {
-        "targets": ["trap_024_npcsld"],
-        "mods": [
-          {
-            "key": "hp",
-            "value": 1.5,
-            "mode": "mul"
-          },
-          {
-            "key": "atk",
-            "value": 0.8,
             "mode": "mul"
           }
         ]
@@ -21771,18 +21545,7 @@
         ]
       }
     ],
-    "normal_mods": [
-      {
-        "targets": ["trap_097_hstone"],
-        "mods": [
-          {
-            "key": "hp",
-            "value": 3.8,
-            "mode": "mul"
-          }
-        ]
-      }
-    ],
+    "normal_mods": null,
     "elite_mods": [
       {
         "targets": ["ALL"],
@@ -21795,16 +21558,6 @@
           {
             "key": "hp",
             "value": 1.5,
-            "mode": "mul"
-          }
-        ]
-      },
-      {
-        "targets": ["trap_097_hstone"],
-        "mods": [
-          {
-            "key": "hp",
-            "value": 3.8,
             "mode": "mul"
           }
         ]
@@ -25249,7 +25002,62 @@
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
-    "all_mods": null,
+    "all_mods": [
+      {
+        "targets": ["trap_222_rgdysm#1"],
+        "special": {
+          "rgdysm_summon": {
+            "interval": -1.0,
+            "enemy_key": "enemy_2101_dyspll"
+          }
+        }
+      },
+      {
+        "targets": ["trap_222_rgdysm#2"],
+        "special": {
+          "rgdysm_summon": {
+            "interval": -1.0,
+            "enemy_key": "enemy_2101_dyspll"
+          }
+        }
+      },
+      {
+        "targets": ["trap_222_rgdysm#3"],
+        "special": {
+          "rgdysm_summon": {
+            "interval": -1.0,
+            "enemy_key": "enemy_2101_dyspll"
+          }
+        }
+      },
+      {
+        "targets": ["trap_222_rgdysm#4"],
+        "special": {
+          "rgdysm_summon": {
+            "interval": -1.0,
+            "enemy_key": "enemy_2101_dyspll"
+          }
+        }
+      },
+      {
+        "targets": ["trap_222_rgdysm#5"],
+        "special": {
+          "rgdysm_summon": {
+            "interval": -1.0,
+            "enemy_key": "enemy_2101_dyspll"
+          }
+        }
+      },
+      {
+        "targets": ["trap_222_rgdysm#6"],
+        "special": {
+          "rgdysm_summon": {
+            "interval": -1.0,
+            "enemy_key": "enemy_2101_dyspll"
+          }
+        }
+      }
+    ],
     "normal_mods": null,
     "elite_mods": null,
     "enemy_counts": [37],
@@ -25637,7 +25445,10 @@
     "sp_count": [28],
     "elite_enemy_counts": null,
     "elite_sp_count": null,
-    "sp_enemy": { "normal": "28", "elite": null },
+    "sp_enemy": {
+      "normal": "28",
+      "elite": null
+    },
     "sp_terrain": [
       {
         "tileKey": "tile_hole",
@@ -25739,7 +25550,10 @@
     "sp_count": [53],
     "elite_enemy_counts": null,
     "elite_sp_count": null,
-    "sp_enemy": { "normal": "53", "elite": null },
+    "sp_enemy": {
+      "normal": "53",
+      "elite": null
+    },
     "sp_terrain": null,
     "enemy_list": [
       {
@@ -27826,13 +27640,23 @@
     "name_en": null,
     "category": null,
     "floors": [3, 4, 5],
-    "addInfo_zh": null,
+    "addInfo_zh": ["雕伥每25s召唤一个便符"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
-    "all_mods": null,
+    "all_mods": [
+      {
+        "targets": ["trap_222_rgdysm#1"],
+        "special": {
+          "rgdysm_summon": {
+            "interval": 25.0,
+            "enemy_key": "enemy_2101_dyspll"
+          }
+        }
+      }
+    ],
     "normal_mods": null,
     "elite_mods": null,
     "enemy_counts": [14],
@@ -27967,18 +27791,7 @@
         ]
       }
     ],
-    "normal_mods": [
-      {
-        "targets": ["trap_097_hstone"],
-        "mods": [
-          {
-            "key": "hp",
-            "value": 10.0,
-            "mode": "mul"
-          }
-        ]
-      }
-    ],
+    "normal_mods": null,
     "elite_mods": null,
     "enemy_counts": [8],
     "sp_count": null,
@@ -28030,13 +27843,32 @@
     "name_en": null,
     "category": null,
     "floors": [3, 4, 5],
-    "addInfo_zh": null,
+    "addInfo_zh": ["雕伥每8s召唤一个恍惚的“得意”"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
-    "all_mods": null,
+    "all_mods": [
+      {
+        "targets": ["trap_222_rgdysm#1a", "trap_222_rgdysm#2a"],
+        "special": {
+          "rgdysm_summon": {
+            "interval": 8.0,
+            "enemy_key": "enemy_1126_spslme_2"
+          }
+        }
+      },
+      {
+        "targets": ["trap_222_rgdysm#1b", "trap_222_rgdysm#2b"],
+        "special": {
+          "rgdysm_summon": {
+            "interval": 8.0,
+            "enemy_key": "enemy_1126_spslme_2b"
+          }
+        }
+      }
+    ],
     "normal_mods": null,
     "elite_mods": null,
     "enemy_counts": [16],
@@ -28084,13 +27916,23 @@
     "name_en": null,
     "category": null,
     "floors": [3, 4, 5],
-    "addInfo_zh": null,
+    "addInfo_zh": ["雕伥每25s召唤一个魂灵涡流"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
-    "all_mods": null,
+    "all_mods": [
+      {
+        "targets": ["trap_222_rgdysm"],
+        "special": {
+          "rgdysm_summon": {
+            "interval": 25.0,
+            "enemy_key": "enemy_1428_lrsoul"
+          }
+        }
+      }
+    ],
     "normal_mods": null,
     "elite_mods": null,
     "enemy_counts": [24, 26],
@@ -28762,13 +28604,23 @@
     "name_en": null,
     "category": null,
     "floors": [3, 4, 5],
-    "addInfo_zh": null,
+    "addInfo_zh": ["雕伥每20s召唤一个无谓"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
-    "all_mods": null,
+    "all_mods": [
+      {
+        "targets": ["trap_222_rgdysm"],
+        "special": {
+          "rgdysm_summon": {
+            "interval": 20.0,
+            "enemy_key": "enemy_10060_cjbfod"
+          }
+        }
+      }
+    ],
     "normal_mods": null,
     "elite_mods": null,
     "enemy_counts": [4],
@@ -28836,13 +28688,23 @@
     "name_en": null,
     "category": null,
     "floors": [3, 4, 5],
-    "addInfo_zh": null,
+    "addInfo_zh": ["雕伥每20s召唤一个魂灵涡流"],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": null,
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
-    "all_mods": null,
+    "all_mods": [
+      {
+        "targets": ["trap_222_rgdysm"],
+        "special": {
+          "rgdysm_summon": {
+            "interval": 20.0,
+            "enemy_key": "enemy_1428_lrsoul"
+          }
+        }
+      }
+    ],
     "normal_mods": null,
     "elite_mods": null,
     "enemy_counts": [8],
@@ -28910,7 +28772,10 @@
     "name_en": null,
     "category": null,
     "floors": [1],
-    "addInfo_zh": ["【鸭爵金币】固定出现<鸭爵>，且提早出现"],
+    "addInfo_zh": [
+      "【鸭爵金币】固定出现<鸭爵>，且提早出现",
+      "雕伥每10s召唤一个便符"
+    ],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
@@ -28919,7 +28784,17 @@
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
-    "all_mods": null,
+    "all_mods": [
+      {
+        "targets": ["trap_222_rgdysm#1"],
+        "special": {
+          "rgdysm_summon": {
+            "interval": 10.0,
+            "enemy_key": "enemy_2101_dyspll"
+          }
+        }
+      }
+    ],
     "normal_mods": null,
     "elite_mods": [
       {
@@ -28993,11 +28868,21 @@
     "eliteDesc_zh": [
       "所有敌方单位的攻击力+10%，防御力+20%，生命值+50%",
       "2个速射轻弩手被替换为重弩突袭者",
-      "战斗开始时额外出现1个雕伥"
+      "战斗开始时额外出现1个雕伥，每30s召唤一个速射轻弩手"
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
-    "all_mods": null,
+    "all_mods": [
+      {
+        "targets": ["trap_222_rgdysm#1"],
+        "special": {
+          "rgdysm_summon": {
+            "interval": 30.0,
+            "enemy_key": "enemy_1403_gunsho"
+          }
+        }
+      }
+    ],
     "normal_mods": null,
     "elite_mods": [
       {
@@ -29078,7 +28963,10 @@
     "name_en": null,
     "category": null,
     "floors": [1],
-    "addInfo_zh": ["【鸭爵金币】固定出现<高普尼克>，且提早出现"],
+    "addInfo_zh": [
+      "【鸭爵金币】固定出现<高普尼克>，且提早出现",
+      "雕伥每25s召唤一个源石虫·β"
+    ],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
@@ -29087,7 +28975,17 @@
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
-    "all_mods": null,
+    "all_mods": [
+      {
+        "targets": ["trap_222_rgdysm#1"],
+        "special": {
+          "rgdysm_summon": {
+            "interval": 25.0,
+            "enemy_key": "enemy_1007_slime_3"
+          }
+        }
+      }
+    ],
     "normal_mods": null,
     "elite_mods": [
       {
@@ -29180,12 +29078,22 @@
     "addInfo_en": null,
     "eliteDesc_zh": [
       "所有敌方单位的攻击力+10%，生命值+20%",
-      "战斗开始时额外出现1个雕伥",
+      "战斗开始时额外出现1个雕伥，每25s召唤一个“阿咬”",
       "战斗开始时2个“阿咬”被替换为皮书生"
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
-    "all_mods": null,
+    "all_mods": [
+      {
+        "targets": ["trap_222_rgdysm#1"],
+        "special": {
+          "rgdysm_summon": {
+            "interval": 25.0,
+            "enemy_key": "enemy_1123_spsbr"
+          }
+        }
+      }
+    ],
     "normal_mods": null,
     "elite_mods": [
       {
@@ -29271,7 +29179,7 @@
     "addInfo_en": null,
     "eliteDesc_zh": [
       "所有敌方单位的攻击力，防御力+20%，生命值+50%",
-      "战斗开始时额外出现1个雕伥",
+      "战斗开始时额外出现1个雕伥，每15s召唤一个便符",
       "战斗开始时左下额外出现一个靳天师"
     ],
     "eliteDesc_ja": null,
@@ -29359,16 +29267,38 @@
     "name_en": null,
     "category": null,
     "floors": [2],
-    "addInfo_zh": ["【鸭爵金币】固定出现<圆仔>，且提早出现"],
+    "addInfo_zh": [
+      "【鸭爵金币】固定出现<圆仔>，且提早出现",
+      "雕伥每15s召唤一个鬣犄兽"
+    ],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
       "所有敌方单位的攻击力，防御力，生命值+20%",
-      "战斗开始时额外出现1个雕伥"
+      "战斗开始时额外出现1个雕伥，每30s召唤一个鬣犄兽"
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
-    "all_mods": null,
+    "all_mods": [
+      {
+        "targets": ["trap_222_rgdysm#2"],
+        "special": {
+          "rgdysm_summon": {
+            "interval": 30.0,
+            "enemy_key": "enemy_1304_mhwolf"
+          }
+        }
+      },
+      {
+        "targets": ["trap_222_rgdysm#1"],
+        "special": {
+          "rgdysm_summon": {
+            "interval": 15.0,
+            "enemy_key": "enemy_1304_mhwolf"
+          }
+        }
+      }
+    ],
     "normal_mods": null,
     "elite_mods": [
       {
@@ -29555,11 +29485,21 @@
     "eliteDesc_zh": [
       "所有敌方单位的攻击力，防御力，生命值+20%",
       "血腥厨子路线发生变化",
-      "战斗开始时额外出现1个雕伥"
+      "战斗开始时额外出现1个雕伥，每15s召唤一个寻险水手"
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
-    "all_mods": null,
+    "all_mods": [
+      {
+        "targets": ["trap_222_rgdysm#1"],
+        "special": {
+          "rgdysm_summon": {
+            "interval": 15.0,
+            "enemy_key": "enemy_10043_sailor"
+          }
+        }
+      }
+    ],
     "normal_mods": null,
     "elite_mods": [
       {
@@ -29635,11 +29575,21 @@
     "addInfo_en": null,
     "eliteDesc_zh": [
       "所有敌方单位的攻击力+20%，防御力+20%，生命值+20%，移动速度+50%",
-      "战斗开始时额外出现1个雕伥"
+      "战斗开始时额外出现1个雕伥，每50s召唤一个$似兽$"
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
-    "all_mods": null,
+    "all_mods": [
+      {
+        "targets": ["trap_222_rgdysm#1"],
+        "special": {
+          "rgdysm_summon": {
+            "interval": 50.0,
+            "enemy_key": "enemy_2105_dyrnge"
+          }
+        }
+      }
+    ],
     "normal_mods": null,
     "elite_mods": [
       {
@@ -29720,7 +29670,10 @@
     "name_en": null,
     "category": null,
     "floors": [3],
-    "addInfo_zh": ["【鸭爵金币】固定出现<圆仔>，且提早出现"],
+    "addInfo_zh": [
+      "【鸭爵金币】固定出现<圆仔>，且提早出现",
+      "雕伥每30s召唤一个角兽"
+    ],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
@@ -29729,7 +29682,17 @@
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
-    "all_mods": null,
+    "all_mods": [
+      {
+        "targets": ["trap_222_rgdysm#1"],
+        "special": {
+          "rgdysm_summon": {
+            "interval": 30.0,
+            "enemy_key": "enemy_1303_mhshep"
+          }
+        }
+      }
+    ],
     "normal_mods": null,
     "elite_mods": [
       {
@@ -29826,7 +29789,7 @@
     "eliteDesc_zh": [
       "所有敌方单位的攻击力，防御力+30%，生命值+60%",
       "额外出现1个墨浪、1个心涛",
-      "战斗开始时额外出现1个雕伥"
+      "战斗开始时额外出现1个雕伥，每15s召唤一个便符"
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
@@ -29949,7 +29912,7 @@
     "eliteDesc_zh": [
       "所有敌方单位的攻击力+40%，防御力+20%，生命值+40%",
       "净浊之焰的攻击力额外提升至150%",
-      "战斗开始时额外出现1个雕伥"
+      "战斗开始时额外出现1个雕伥，每15s召唤一个便符"
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
@@ -30062,11 +30025,21 @@
     "eliteDesc_zh": [
       "所有敌方单位的攻击力，防御力，生命值+20%",
       "战斗开始时额外出现2个<盾与墙>",
-      "战斗开始时额外出现1个雕伥"
+      "战斗开始时额外出现1个雕伥，每20s召唤一个卷心籽"
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
-    "all_mods": null,
+    "all_mods": [
+      {
+        "targets": ["trap_222_rgdysm#1"],
+        "special": {
+          "rgdysm_summon": {
+            "interval": 20.0,
+            "enemy_key": "enemy_10065_ftzlc"
+          }
+        }
+      }
+    ],
     "normal_mods": null,
     "elite_mods": [
       {
@@ -30158,11 +30131,21 @@
     "eliteDesc_zh": [
       "所有敌方单位的攻击力，防御力，生命值+20%",
       "提亚卡乌勇士和提亚卡乌冠军的攻击力额外提升至150%",
-      "战斗开始时额外出现1个雕伥"
+      "战斗开始时额外出现1个雕伥，每30s召唤一个提亚卡乌好战者"
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
-    "all_mods": null,
+    "all_mods": [
+      {
+        "targets": ["trap_222_rgdysm#1"],
+        "special": {
+          "rgdysm_summon": {
+            "interval": 30.0,
+            "enemy_key": "enemy_1095_ccripr"
+          }
+        }
+      }
+    ],
     "normal_mods": null,
     "elite_mods": [
       {
@@ -30294,11 +30277,21 @@
     "eliteDesc_zh": [
       "所有敌方单位的攻击力，防御力，生命值+40%",
       "糖果车和节日零食车的攻击力和生命值额外提升至150%",
-      "战斗开始时额外出现1个雕伥"
+      "战斗开始时额外出现1个雕伥，每15s召唤一个节日零食车"
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
-    "all_mods": null,
+    "all_mods": [
+      {
+        "targets": ["trap_222_rgdysm#1"],
+        "special": {
+          "rgdysm_summon": {
+            "interval": 15.0,
+            "enemy_key": "enemy_10037_cnvpcar"
+          }
+        }
+      }
+    ],
     "normal_mods": null,
     "elite_mods": [
       {
@@ -30429,7 +30422,10 @@
     "name_en": null,
     "category": null,
     "floors": [4],
-    "addInfo_zh": ["【鸭爵金币】固定出现<流泪小子>，且提早出现"],
+    "addInfo_zh": [
+      "【鸭爵金币】固定出现<流泪小子>，且提早出现",
+      "雕伥每20s召唤一个微核沉积者"
+    ],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
@@ -30439,7 +30435,17 @@
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
-    "all_mods": null,
+    "all_mods": [
+      {
+        "targets": ["trap_222_rgdysm#1"],
+        "special": {
+          "rgdysm_summon": {
+            "interval": 20.0,
+            "enemy_key": "enemy_1434_dsshel"
+          }
+        }
+      }
+    ],
     "normal_mods": null,
     "elite_mods": [
       {
@@ -30578,11 +30584,21 @@
     "eliteDesc_zh": [
       "所有敌方单位的攻击力，防御力，生命值+30%",
       "战斗开始时额外在地图左下出现一个爆炸追寻者",
-      "战斗开始时额外出现2个雕伥"
+      "战斗开始时额外出现2个雕伥，每20s召唤一个便符"
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
-    "all_mods": null,
+    "all_mods": [
+      {
+        "targets": ["trap_222_rgdysm"],
+        "special": {
+          "rgdysm_summon": {
+            "interval": 20.0,
+            "enemy_key": "enemy_2101_dyspll"
+          }
+        }
+      }
+    ],
     "normal_mods": null,
     "elite_mods": [
       {
@@ -30693,7 +30709,8 @@
     "addInfo_en": null,
     "eliteDesc_zh": [
       "所有敌方单位的攻击力+20%，防御力+20%，生命值+30%",
-      "清明和堂皇的生命值生命值额外提升至200%"
+      "清明和堂皇的生命值生命值额外提升至200%",
+      "战斗开始时额外出现2个雕伥，每15s召唤一个便符"
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
@@ -30709,29 +30726,8 @@
         ]
       }
     ],
-    "normal_mods": [
-      {
-        "targets": ["trap_097_hstone"],
-        "mods": [
-          {
-            "key": "hp",
-            "value": 4.0,
-            "mode": "mul"
-          }
-        ]
-      }
-    ],
+    "normal_mods": null,
     "elite_mods": [
-      {
-        "targets": ["trap_097_hstone"],
-        "mods": [
-          {
-            "key": "hp",
-            "value": 4.0,
-            "mode": "mul"
-          }
-        ]
-      },
       {
         "targets": ["ALL"],
         "mods": [
@@ -30878,11 +30874,21 @@
     "eliteDesc_zh": [
       "所有敌方单位的攻击力+10%，防御力+20%，生命值+20%，移动速度+20%",
       "战斗开始时额外出现2个灰烬造物",
-      "战斗开始时额外出现1个雕伥"
+      "战斗开始时额外出现1个雕伥，每20s召唤一个便符"
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
-    "all_mods": null,
+    "all_mods": [
+      {
+        "targets": ["trap_222_rgdysm#1"],
+        "special": {
+          "rgdysm_summon": {
+            "interval": 20.0,
+            "enemy_key": "enemy_2101_dyspll"
+          }
+        }
+      }
+    ],
     "normal_mods": null,
     "elite_mods": [
       {
@@ -30979,7 +30985,7 @@
     "eliteDesc_zh": [
       "所有敌方单位的攻击力+50%，防御力+20%，生命值+50%",
       "“偷闲”和“得意”的生命值额外提升至200%",
-      "战斗开始时额外出现1个雕伥"
+      "战斗开始时额外出现1个雕伥，每15s召唤一个便符"
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
@@ -31122,11 +31128,21 @@
     "eliteDesc_zh": [
       "所有敌方单位的攻击力，防御力，生命值+20%",
       "部分寻路密探长有50%概率被替换为武装密探长",
-      "战斗开始时额外出现1个雕伥"
+      "战斗开始时额外出现1个雕伥，每30s召唤一个萨卡兹悖谬谍报长"
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
-    "all_mods": null,
+    "all_mods": [
+      {
+        "targets": ["trap_222_rgdysm#1"],
+        "special": {
+          "rgdysm_summon": {
+            "interval": 30.0,
+            "enemy_key": "enemy_1317_wdexg_2"
+          }
+        }
+      }
+    ],
     "normal_mods": null,
     "elite_mods": [
       {
@@ -31252,7 +31268,10 @@
     "name_en": null,
     "category": null,
     "floors": [5],
-    "addInfo_zh": ["【鸭爵金币】固定出现<圆仔>，且提早出现"],
+    "addInfo_zh": [
+      "【鸭爵金币】固定出现<圆仔>，且提早出现",
+      "雕伥每20s召唤一个便符"
+    ],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
@@ -31261,7 +31280,16 @@
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
-    "all_mods": null,
+    "all_mods": [
+      {
+        "targets": ["trap_222_rgdysm"],
+        "special": {
+          "rgdysm_summon": {
+            "interval": 20.0
+          }
+        }
+      }
+    ],
     "normal_mods": null,
     "elite_mods": [
       {
@@ -31353,7 +31381,7 @@
     "eliteDesc_zh": [
       "所有敌方单位的攻击力，防御力+20%，生命值+50%，重量+1",
       "战斗开始时额外出现10个自由佣兵“主音吉他”",
-      "战斗开始时于化境地块随机出现2个雕伥"
+      "战斗开始时于化境地块随机出现2个雕伥，每15s召唤一个便符"
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
@@ -31475,7 +31503,10 @@
     "name_en": null,
     "category": null,
     "floors": [5],
-    "addInfo_zh": ["【鸭爵金币】固定出现<流泪小子>，且提早出现"],
+    "addInfo_zh": [
+      "【鸭爵金币】固定出现<流泪小子>，且提早出现",
+      "雕伥每20s召唤一个便符"
+    ],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
@@ -31485,7 +31516,16 @@
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
-    "all_mods": null,
+    "all_mods": [
+      {
+        "targets": ["trap_222_rgdysm"],
+        "special": {
+          "rgdysm_summon": {
+            "interval": 20.0
+          }
+        }
+      }
+    ],
     "normal_mods": null,
     "elite_mods": [
       {
@@ -31598,7 +31638,7 @@
       "所有敌方单位的攻击力+20%，防御力+30%，生命值+30%",
       "所有“废食”获得隐匿",
       "战斗初期额外出现10个无谓",
-      "额外出现两个雕伥，随机分布于地面的化境地块"
+      "额外出现两个雕伥，随机分布于地面的化境地块，每15s召唤一个便符"
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
@@ -31743,11 +31783,21 @@
     "eliteDesc_zh": [
       "所有敌方单位的攻击力+50%，防御力+30%，生命值+20%",
       "飘香的生命值额外提升至200%",
-      "额外出现1个雕伥和3个飘香"
+      "额外出现3个飘香和1个雕伥，每15s召唤一个无谓"
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
-    "all_mods": null,
+    "all_mods": [
+      {
+        "targets": ["trap_222_rgdysm#1"],
+        "special": {
+          "rgdysm_summon": {
+            "interval": 15.0,
+            "enemy_key": "enemy_10060_cjbfod"
+          }
+        }
+      }
+    ],
     "normal_mods": null,
     "elite_mods": [
       {
@@ -31890,7 +31940,10 @@
     "name_en": null,
     "category": null,
     "floors": [6],
-    "addInfo_zh": ["【鸭爵金币】固定出现<流泪小子>，且提早出现"],
+    "addInfo_zh": [
+      "【鸭爵金币】固定出现<流泪小子>，且提早出现",
+      "雕伥每60s召唤一个竞赛级沙滩车"
+    ],
     "addInfo_ja": null,
     "addInfo_en": null,
     "eliteDesc_zh": [
@@ -31900,7 +31953,17 @@
     ],
     "eliteDesc_ja": null,
     "eliteDesc_en": null,
-    "all_mods": null,
+    "all_mods": [
+      {
+        "targets": ["trap_222_rgdysm#1"],
+        "special": {
+          "rgdysm_summon": {
+            "interval": 60.0,
+            "enemy_key": "enemy_1263_durbus_2"
+          }
+        }
+      }
+    ],
     "normal_mods": null,
     "elite_mods": [
       {

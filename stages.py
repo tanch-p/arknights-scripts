@@ -161,6 +161,7 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
         "eliteDesc_zh":  replace_chevrons(extrainfo[levelId]['eliteDesc_zh']) if levelId in extrainfo else None,
         "eliteDesc_ja": replace_chevrons(extrainfo[levelId]['eliteDesc_ja']) if levelId in extrainfo else None,
         "eliteDesc_en": replace_chevrons(extrainfo[levelId]['eliteDesc_en']) if levelId in extrainfo else None,
+        "all_mods": extrainfo[levelId]['all_mods'] if levelId in extrainfo else None,
         "n_mods": extrainfo[levelId]['normal_mods'] if levelId in extrainfo else None,
         "elite_mods": extrainfo[levelId]['elite_mods'] if levelId in extrainfo else None,
         "floors": extrainfo[levelId]['floors'] if levelId in extrainfo else None,

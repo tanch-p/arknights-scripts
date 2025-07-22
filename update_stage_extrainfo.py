@@ -31,15 +31,15 @@ def get_rgdysm_summon(stage_data):
                             enemy_key = item['valueStr']
                         elif item['key'] == 'talent@interval':
                             interval = item['value']
-            if enemy_key or interval:
-                targets = [token['alias']]
-                special = {
-                    "rgdysm_summon": {
-                        "interval": interval,
-                        "enemy_key": enemy_key
-                    }
-                }
-                data.append({"targets": targets, "special": special})
+                    if (enemy_key is not None and enemy_key !='enemy_2101_dyspll') or (interval is not None and interval != 15):
+                        targets = [token['alias']]
+                        special = {
+                            "rgdysm_summon": {
+                                "interval": interval,
+                                "enemy_key": enemy_key
+                            }
+                        }
+                        data.append({"targets": targets, "special": special})
     return data
 
 
@@ -111,7 +111,7 @@ def update_current_stages():
                 "eliteDesc_ja": extra_info['eliteDesc_ja'],
                 "eliteDesc_en": extra_info['eliteDesc_en'],
                 # all mods is just for reference
-                "all_mods": all_mods,
+                "all_mods": extra_info['all_mods'],
                 "normal_mods": extra_info['normal_mods'],
                 "elite_mods": extra_info['elite_mods'],
                 "enemy_counts": enemy_counts if not extra_info['levelId'] in STAGES_TO_IGNORE else extra_info['enemy_counts'],
