@@ -61,6 +61,69 @@ test_cases = [
                                    'key': 'enemy_skill_blackb_mul'}},
              }],
         'normal_mods': None
+    },
+    {
+        "path": "ro4/level_rogue4_b-8.json",
+        'id': "level_rogue4_b-8",
+        'all_mods': [
+            {
+                "targets": ["ALL"],
+                "mods": [
+                    {
+                        "key": "atk",
+                        "value": 1.2,
+                        "mode": "mul"
+                    },
+                    {
+                        "key": "def",
+                        "value": 1.2,
+                        "mode": "mul"
+                    },
+                    {
+                        "key": "hp",
+                        "value": 1.2,
+                        "mode": "mul"
+                    }
+                ]
+            }
+        ],
+        'elite_mods': None,
+        'normal_mods': None
+    },
+    {
+        "path": "ro5/level_rogue5_5-4.json",
+        'id': "level_rogue5_5-4",
+        'all_mods': None,
+        'elite_mods': [{
+            "targets": ["ALL"],
+            "mods": [
+                {
+                    "key": "atk",
+                    "value": 1.2,
+                    "mode": "mul"
+                },
+                {
+                    "key": "def",
+                    "value": 1.2,
+                    "mode": "mul"
+                },
+                {
+                    "key": "hp",
+                    "value": 1.5,
+                    "mode": "mul"
+                },
+            ]
+        }, {
+            "targets": ["ALL"],
+            "mods": [
+                {
+                    "key": "weight",
+                    "value": 1,
+                    "mode": "add"
+                }
+            ]
+        }],
+        'normal_mods': None
     }
 ]
 

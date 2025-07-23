@@ -99,6 +99,16 @@ def parse_rune(rune):
                     {"key": translateKey(item['key']),
                         "value": item['value'],
                         "mode": "add"})
+    elif key == 'enemy_weight_add':
+        for item in rune['blackboard']:
+            if item['key'] == "enemy":
+                targets = item['valueStr'].split("|")
+        for item in rune['blackboard']:
+            if item['key'] == "value":
+                mods.append(
+                    {"key": "weight",
+                        "value": item['value'],
+                        "mode": "add"})
     elif key == 'char_attribute_mul':
         has_target = False
         for item in rune['blackboard']:

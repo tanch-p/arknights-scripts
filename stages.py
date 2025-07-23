@@ -200,6 +200,7 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
                     "level": item['inst']['level'],
                     "mainSkillLvl": item['mainSkillLvl'],
                     "hidden": item["hidden"],
+                    "overrideSkillBlackboard":item["overrideSkillBlackboard"]
                 })
         for item in stage_data['predefines']['tokenCards']:
             if item['hidden']:
@@ -300,7 +301,7 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
                         elif levelId == 'level_rogue4_b-8' and item['key'] == 'summon.enemy_key':
                             overwrittenData['talentBlackboard'].append(
                                 {'key': "transform", "value": item['valueStr']})
-                        elif item['key'] == 'parasitic' and item['valueStr'] == "true":
+                        elif item['key'] == 'parasitic':
                             overwrittenData['talentBlackboard'].append(
                                 {"key": "parasitic"})
             if len(overwrittenData) == 0:
