@@ -26,14 +26,16 @@ for enemy in enemy_database["enemies"]:
     skills = []
     skillsLength = 0
     for value in enemy['Value']:
-        if value['enemyData']['attributes']['palsyImmune']['m_value'] is True:
-            print(key, " palsy immune")
-        if value['enemyData']['attributes']['attractImmune']['m_value'] is True:
-            print(key, " attract immune")
-        if value['enemyData']['attributes']['epDamageResistance']['m_value'] != 0:
-            print(key, " epDamageResistance not 0")
-        if value['enemyData']['attributes']['epResistance']['m_value'] != 0:
-            print(key, " epResistance not 0")
+        # if value['enemyData']['attributes']['palsyImmune']['m_value'] is True:
+        #     print(key, " palsy immune")
+        # if value['enemyData']['attributes']['attractImmune']['m_value'] is True:
+        #     print(key, " attract immune")
+        # if value['enemyData']['attributes']['epDamageResistance']['m_value'] != 0:
+        #     print(key, " epDamageResistance not 0")
+        # if value['enemyData']['attributes']['epResistance']['m_value'] != 0:
+        #     print(key, " epResistance not 0")
+        if value['enemyData']['attributes']['tauntLevel']['m_value'] != 0:
+            print(key, f" tauntLevel {value['enemyData']['attributes']['tauntLevel']['m_value']}")
     #     if value['enemyData']['talentBlackboard'] is not None:
     #         for talent in value['enemyData']['talentBlackboard']:
     #             if not talent in talentBlackboard:

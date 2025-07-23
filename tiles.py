@@ -7,6 +7,19 @@ pp = pprint.PrettyPrinter(indent=4)
 script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
 
+def get_list_of_tiles(stage_data, key):
+    # returns all positions of given tileKey
+    num_to_pos = {}
+    for row_idx, row in enumerate(stage_data['mapData']['map']):
+        for col_idx, val in enumerate(row):
+            num_to_pos[val] = {"row": len(stage_data['mapData']['map']) - 1 - row_idx, "col": col_idx}
+    tile_list = [{"i":index,"blackboard":tile['blackboard']} for index, tile in enumerate(
+        stage_data['mapData']['tiles']) if tile['tileKey'] == key]
+    for tile in tile_list:
+        tile['position'] =num_to_pos[tile["i"]]
+    return tile_list
+
+
 def get_all_tiles():
     f = []
     for (dirpath, dirnames, filenames) in walk(os.path.join(script_dir, "cn_data/zh_CN/gamedata/levels/obt")):

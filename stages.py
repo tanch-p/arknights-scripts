@@ -2,6 +2,7 @@ import json
 import os
 from operator import itemgetter
 from waves_new import get_waves_data, get_runes_data
+from tiles import get_list_of_tiles
 
 
 def replace_chevrons(text_list):
@@ -187,6 +188,32 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
     trimmed_stage_info['maxCost'] = max_cost
     traps = []
     token_cards = []
+    systems = {}
+
+    # handle level_predefine_tokens_random_spawn_on_tile in ro5
+    # currently all level_predefine_tokens_random_spawn_on_tile have difficultyMask ALL
+    if rogue_topic == 'ro5' and stage_data['runes']:
+        for rune in stage_data['runes']:
+            if rune['key'] == 'level_predefine_tokens_random_spawn_on_tile':
+                targets = next(
+                    (item['valueStr'] for item in rune['blackboard'] if item['key'] == 'token_key'), None)
+                if targets is not None:
+                    targets = targets.split("|")
+                tiles_keys = next(
+                    (item['valueStr'] for item in rune['blackboard'] if item['key'] == 'tile'), None)
+                if tiles_keys is not None:
+                    tiles_keys = tiles_keys.split("|")
+                    for tile_key in tiles_keys:
+                        tile_list = get_list_of_tiles(stage_data, tile_key)
+                        if len(tile_list) > 0:
+                            if not rune['key'] in systems:
+                                systems[rune['key']] = {'tiles': {}}
+                            if not tile_key in systems[rune['key']]['tiles']:
+                                systems[rune['key']]['tiles'][tile_key] = [
+                                    {"pos": tile['position'],
+                                     "blackboard": tile['blackboard']} for tile in tile_list]
+                            for target in targets:
+                                systems[rune['key']][target] = tiles_keys
 
     if stage_data['predefines']:
         for item in stage_data['predefines']['tokenInsts']:
@@ -200,7 +227,7 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
                     "level": item['inst']['level'],
                     "mainSkillLvl": item['mainSkillLvl'],
                     "hidden": item["hidden"],
-                    "overrideSkillBlackboard":item["overrideSkillBlackboard"]
+                    "overrideSkillBlackboard": item["overrideSkillBlackboard"]
                 })
         for item in stage_data['predefines']['tokenCards']:
             if item['hidden']:
@@ -211,6 +238,7 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
             })
     trimmed_stage_info['traps'] = traps
     trimmed_stage_info['token_cards'] = token_cards
+    trimmed_stage_info['systems'] = systems
 
     enemy_list = extrainfo[levelId]['enemy_list'] if levelId in extrainfo else None
     elite_enemy_list = extrainfo[levelId]['elite_enemy_list'] if levelId in extrainfo else None

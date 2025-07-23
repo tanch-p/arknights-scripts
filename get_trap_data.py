@@ -83,7 +83,7 @@ for key in keys:
     holder["desc_en"] = (
         en_char_table[key]["description"] if in_global else ""
     )
-    holder["tauntLevel"] = 0
+    holder["tauntLevel"] = level1['tauntLevel'],
     holder["group"] = "ally"
     holder['modelType'] = None
     holder["hideTile"] = False
