@@ -638,6 +638,48 @@ test_cases = [
         ]
     },
     {
+        "path": "ro5/level_rogue5_2-4.json",
+        'id': "level_rogue5_2-4",
+        "enemy_counts": [12],
+        "elite_enemy_counts": [12],
+        "sp_count": [13],
+        "elite_sp_count": [13],
+        "enemy_list": [
+            {
+                "key": "enemy_10048_prtsld",
+                "min_count": 2,
+                "max_count": 2
+            },
+            {
+                "key": "enemy_2103_dykens",
+                "min_count": 3,
+                "max_count": 3
+            },
+            {
+                "key": "enemy_10043_sailor",
+                "min_count": 7,
+                "max_count": 7
+            }
+        ],
+        "elite_enemy_list": [
+            {
+                "key": "enemy_10048_prtsld",
+                "min_count": 2,
+                "max_count": 2
+            },
+            {
+                "key": "enemy_2103_dykens",
+                "min_count": 3,
+                "max_count": 3
+            },
+            {
+                "key": "enemy_10043_sailor",
+                "min_count": 7,
+                "max_count": 7
+            }
+        ]
+    },
+    {
         "path": "ro5/level_rogue5_3-4.json",
         'id': "level_rogue5_3-4",
         "enemy_counts": [38],

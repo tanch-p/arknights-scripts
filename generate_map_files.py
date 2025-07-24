@@ -85,7 +85,7 @@ for folder in folders:
     for stage_id in files:
         if stage_id.split(".")[0] in stages_to_ignore:
             continue
-        if not 'level_rogue5_3-4.json' in stage_id:
+        if not 'level_rogue3_1-2.json' in stage_id:
             continue
         if "r1" in stage_id or "r2" in stage_id:
             continue

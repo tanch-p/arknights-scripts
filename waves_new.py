@@ -18,7 +18,7 @@ pattern = re.compile(r"^level_rogue\d+_\d+-\d+$")
 bonus_enemies = ['enemy_2001_duckmi', 'enemy_2002_bearmi',
                  'enemy_2034_sythef', 'enemy_2085_skzjxd']
 sp_stages_with_bonus = [
-        "level_rogue5_t-9-a", "level_rogue5_t-9-b", "level_rogue5_t-9-c"]
+    "level_rogue5_t-9-a", "level_rogue5_t-9-b", "level_rogue5_t-9-c"]
 
 script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
@@ -92,7 +92,6 @@ def analyze_enemy_spawns(waves_data, levelId, bonus_data, difficulty, group_name
                 if enemy_key not in guaranteed_spawns:
                     guaranteed_spawns[enemy_key] = 0
                 guaranteed_spawns[enemy_key] += action['count']
-            # pp.pprint(groups)
 
             fragment_random_groups = {}
             for group_key in packed_groups:
@@ -230,8 +229,8 @@ def get_random_groups(fragment, hidden_groups):
         if action_type not in ['SPAWN', 'ACTIVATE_PREDEFINED']:
             continue
 
-        if hidden_group and hidden_group not in hidden_groups:
-            continue
+        # if hidden_group and hidden_group not in hidden_groups:
+        #     continue
 
         if group_key:
             groups.append(action)
@@ -242,6 +241,32 @@ def get_random_groups(fragment, hidden_groups):
 
     random_groups = group_resolver(groups)
     packed_groups = random_group_resolver(random_groups)
+    for group_key in packed_groups:
+        is_pack = False
+        for i, grouping in enumerate(packed_groups[group_key]):
+            if type(grouping) is list:
+                is_pack = True
+                packed_groups[group_key][i] = [action for action in grouping if (
+                    action['hiddenGroup'] is None or action['hiddenGroup'] in hidden_groups)]
+        if not is_pack:
+            pass
+            packed_groups[group_key] = [action for action in packed_groups[group_key] if (
+                action['hiddenGroup'] is None or action['hiddenGroup'] in hidden_groups)]
+
+    keys_to_delete = []
+    for group_key in packed_groups:
+        if len(packed_groups[group_key]) == 0:
+            keys_to_delete.append(group_key)
+        elif type(packed_groups[group_key][0]) is list:
+            is_empty = True
+            for grouping in packed_groups[group_key]:
+                if len(grouping) > 0:
+                    is_empty = False
+            if is_empty:
+                keys_to_delete.append(group_key)
+            
+    for key in keys_to_delete:
+        del packed_groups[key]
     return packed_groups
 
 

@@ -29525,11 +29525,11 @@
     ],
     "enemy_counts": [12],
     "sp_count": [13],
-    "elite_enemy_counts": [10],
-    "elite_sp_count": [11],
+    "elite_enemy_counts": [12],
+    "elite_sp_count": [13],
     "sp_enemy": {
       "normal": "13",
-      "elite": "11"
+      "elite": "13"
     },
     "sp_terrain": null,
     "enemy_list": [
@@ -29550,6 +29550,11 @@
       }
     ],
     "elite_enemy_list": [
+      {
+        "key": "enemy_10048_prtsld",
+        "min_count": 2,
+        "max_count": 2
+      },
       {
         "key": "enemy_2103_dykens",
         "min_count": 3,
