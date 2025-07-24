@@ -25546,7 +25546,7 @@
         ]
       }
     ],
-    "enemy_counts": [52],
+    "enemy_counts": [51, 52],
     "sp_count": [53],
     "elite_enemy_counts": null,
     "elite_sp_count": null,
@@ -25558,7 +25558,7 @@
     "enemy_list": [
       {
         "key": "enemy_1062_rager_2",
-        "min_count": 7,
+        "min_count": 6,
         "max_count": 7
       },
       {
@@ -25668,7 +25668,7 @@
     "all_mods": null,
     "normal_mods": null,
     "elite_mods": null,
-    "enemy_counts": [32],
+    "enemy_counts": [31, 32],
     "sp_count": null,
     "elite_enemy_counts": null,
     "elite_sp_count": null,
@@ -29529,7 +29529,7 @@
     "elite_sp_count": [13],
     "sp_enemy": {
       "normal": "13",
-      "elite": "13"
+      "elite": null
     },
     "sp_terrain": null,
     "enemy_list": [
@@ -30764,9 +30764,9 @@
         ]
       }
     ],
-    "enemy_counts": [27, 28, 29],
+    "enemy_counts": [25, 26, 27, 28, 29],
     "sp_count": [30],
-    "elite_enemy_counts": [27, 28, 29],
+    "elite_enemy_counts": [25, 26, 27, 28, 29],
     "elite_sp_count": [30],
     "sp_enemy": {
       "normal": "30",
@@ -30808,7 +30808,7 @@
       },
       {
         "key": "enemy_1207_sfji_2",
-        "min_count": 7,
+        "min_count": 6,
         "max_count": 14
       },
       {
@@ -30850,7 +30850,7 @@
       },
       {
         "key": "enemy_1207_sfji_2",
-        "min_count": 7,
+        "min_count": 6,
         "max_count": 14
       },
       {
