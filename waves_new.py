@@ -18,9 +18,13 @@ pattern = re.compile(r"^level_rogue\d+_\d+-\d+$")
 bonus_enemies = ['enemy_2001_duckmi', 'enemy_2002_bearmi',
                  'enemy_2034_sythef', 'enemy_2085_skzjxd']
 sp_stages_with_bonus = [
+    "level_rogue5_ev-1",
     "level_rogue5_t-9-a", "level_rogue5_t-9-b", "level_rogue5_t-9-c"]
 
 script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
+
+ACTION_TYPES_TO_PARSE = ['SPAWN', 'ACTIVATE_PREDEFINED', 'EMPTY']
+
 
 with open("enemy_database.json", encoding="utf-8") as f:
     my_enemy_db = json.load(f)
@@ -71,8 +75,7 @@ def analyze_enemy_spawns(waves_data, levelId, bonus_data, difficulty, group_name
 
             # Get all SPAWN or ACTIVATE_PREDEFINED actions only
             spawn_actions = [action for action in fragment['actions']
-                             if action['actionType'] == 'SPAWN'
-                             or action['actionType'] == 'ACTIVATE_PREDEFINED'
+                             if action['actionType'] in ACTION_TYPES_TO_PARSE
                              ]
             # Separate packed and non-packed actions within this fragment
             for action in spawn_actions:
@@ -224,14 +227,9 @@ def get_random_groups(fragment, hidden_groups):
         action_type = action.get('actionType')
         group_key = action.get('randomSpawnGroupKey')
         pack_key = action.get('randomSpawnGroupPackKey')
-        hidden_group = action.get('hiddenGroup')
 
-        if action_type not in ['SPAWN', 'ACTIVATE_PREDEFINED']:
+        if action_type not in ACTION_TYPES_TO_PARSE:
             continue
-
-        # if hidden_group and hidden_group not in hidden_groups:
-        #     continue
-
         if group_key:
             groups.append(action)
             continue
@@ -264,7 +262,7 @@ def get_random_groups(fragment, hidden_groups):
                     is_empty = False
             if is_empty:
                 keys_to_delete.append(group_key)
-            
+
     for key in keys_to_delete:
         del packed_groups[key]
     return packed_groups
@@ -398,22 +396,6 @@ def get_max_permutations(permutation_dict):
             total *= value
     return total
 
-
-def get_hidden_groups(waves, normal_group_name, elite_group_name, levelId):
-    hidden_groups = []
-    for wave_idx, wave in enumerate(waves):
-        for frag_index, fragment in enumerate(wave['fragments']):
-            for action in fragment['actions']:
-                hidden_group = action['hiddenGroup']
-                actionType = action['actionType']
-                if not actionType in ['SPAWN']:
-                    continue
-                if hidden_group is not None and not hidden_group in [normal_group_name, elite_group_name] and not hidden_group in hidden_groups:
-                    hidden_groups.append(hidden_group)
-
-    return hidden_groups
-
-
 def group_resolver(actions):
     groups = {}
     leftovers = []
@@ -427,17 +409,19 @@ def group_resolver(actions):
             groups[group].append(action)
         else:
             leftovers.append(action)
-
     for action in leftovers:
         packKey = action['randomSpawnGroupPackKey'] if 'randomSpawnGroupPackKey' in action else None
         if packKey is not None:
             add_pack_to_group(action, groups)
         else:
             not_random_groups.append(action)
+    if len(not_random_groups) > 0:
+        raise Exception("not random groups is not 0 in group resolver")
     return groups
 
 
 def add_pack_to_group(action, groups):
+    # print(action)
     for group_key in groups:
         for item in groups[group_key]:
             if action['randomSpawnGroupPackKey'] == item['randomSpawnGroupPackKey']:
@@ -467,44 +451,6 @@ def random_group_resolver(random_groups):
             group_collector[group_key] = (pack_groups)
 
     return group_collector
-
-
-def get_wave_permutations(waves_data, permutation, group_name, has_bonus_wave, bonus_frag_index, bonus_wave_index, stage_id, log=False):
-    waves = copy.deepcopy(waves_data)
-    for wave_idx, wave in enumerate(waves):
-        if has_bonus_wave and wave_idx == bonus_wave_index:
-            continue
-        for frag_index, fragment in enumerate(wave['fragments']):
-            if frag_index == bonus_frag_index:
-                continue
-            groups = []
-            actions = []
-            for action in fragment['actions']:
-                group = action['randomSpawnGroupKey'] if 'randomSpawnGroupKey' in action else None
-                packKey = action['randomSpawnGroupPackKey'] if 'randomSpawnGroupPackKey' in action else None
-                hidden_group = action['hiddenGroup']
-                actionType = action['actionType']
-
-                if not actionType in ['SPAWN']:
-                    if not (stage_id == 'level_rogue4_4-10' and action['key'] == "trap_760_skztzs#0"):
-                        continue
-
-                if hidden_group is not None and (hidden_group != group_name or group_name is None):
-                    continue
-                if group is not None or packKey is not None:
-                    groups.append(action)
-                else:
-                    actions.append(action)
-
-            random_groups = group_resolver(groups)
-            groups = random_group_resolver(random_groups)
-            key = f"w{wave_idx}f{frag_index}"
-            for groupKey in groups:
-                choice = permutation[key][groupKey]
-                actions.append(groups[groupKey][choice])
-
-            fragment['actions'] = flatten(actions)
-    return waves
 
 
 def get_bonus(stage_data):
@@ -586,7 +532,7 @@ def get_group_permutations(stage_data, group_name, bonus_data, bonus_frag_index,
                 group = action['randomSpawnGroupKey'] if 'randomSpawnGroupKey' in action else None
                 packKey = action['randomSpawnGroupPackKey'] if 'randomSpawnGroupPackKey' in action else None
                 actionType = action['actionType']
-                if not actionType in ['SPAWN']:
+                if not actionType in ['SPAWN', "EMPTY"]:
                     if not (stage_id == 'level_rogue4_4-10' and action['key'] == "trap_760_skztzs#0"):
                         continue
                 if action['hiddenGroup'] and not action['hiddenGroup'] in [group_name]:

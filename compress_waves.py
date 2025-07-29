@@ -15,6 +15,22 @@ stage_data_path = os.path.join(
 with open("tel_extrainfo.json", encoding="utf-8") as f:
     tel_data = json.load(f)
 
+empty_action = {
+              "actionType": "EMPTY",
+              "key": "",
+              "count": 1,
+              "preDelay": 0.0,
+              "interval": 1.0,
+              "routeIndex": 0,
+              "hiddenGroup": None,
+              "randomSpawnGroupKey": None,
+              "randomSpawnGroupPackKey": None,
+              "randomType": "ALWAYS",
+              "refreshType": "ALWAYS",
+              "weight": 10,
+              "dontBlockWave": False,
+              "forceBlockWaveInBranch": False
+            }
 
 def remove_by_indexes(lst, indexes):
     return [item for i, item in enumerate(lst) if i not in indexes]
@@ -130,6 +146,8 @@ def compress_waves(stage_data, stage_id):
 
     extra_routes = [route_data[1] for route_data in extra_routes]
 
+    # handling of special cases
+
     if stage_id == 'level_rogue4_b-8':
         # apparently the first 3 checkpoints are missing from actual game movement
         extra_routes[1]['checkpoints'] = extra_routes[1]['checkpoints'][3:]
@@ -138,7 +156,6 @@ def compress_waves(stage_data, stage_id):
             "row": 5,
             "col": 20
         }
-    # pp.pprint(waves)
     if stage_id == 'level_rogue1_b-9':
         branches = None
     if stage_id == 'level_rogue3_3-2':
@@ -152,6 +169,41 @@ def compress_waves(stage_data, stage_id):
                             indexes.append(idx)
                     fragment['actions'] = remove_by_indexes(
                         fragment['actions'], indexes)
+    if stage_id == 'level_rogue5_5-6':
+        for wave in waves:
+            for frag_index, fragment in enumerate(wave['fragments']):
+                if frag_index == 0:
+                    indexes = []
+                    for idx, action in enumerate(fragment['actions']):
+                        key = action['key']
+                        if key == 'enemy_10060_cjbfod' and action['randomSpawnGroupKey'] == "t1":
+                            indexes.append(idx)
+                    fragment['actions'] = remove_by_indexes(
+                        fragment['actions'], indexes)
+    if stage_id == 'level_rogue5_b-4':
+        # 39 - dycast x 2
+        # 40 - dyrnge x 3
+        # 49 - 10 mob + dycast
+        # 50 - 10 mob + dyrnge
+        # 53
+        for wave_index, wave in enumerate(waves):
+            if wave_index == 1:
+                for frag_index, fragment in enumerate(wave['fragments']):
+                    for idx, action in enumerate(fragment['actions']):
+                        if idx in [0, 1]:
+                            action['randomSpawnGroupPackKey'] = 'sp1'
+                        elif idx in [2,3]:
+                            action['randomSpawnGroupPackKey'] = 'sp2'
+                        elif idx in [4,5]:
+                            action['randomSpawnGroupPackKey'] = 'sp3'
+                    empty_t2 = copy.deepcopy(empty_action)
+                    empty_t2['randomSpawnGroupKey'] = 't2'
+                    empty_t2['weight'] = 10
+                    empty_t3 = copy.deepcopy(empty_action)
+                    empty_t3['randomSpawnGroupKey'] = 't3'
+                    empty_t3['weight'] = 40
+                    fragment['actions'].insert(0,empty_t2)
+                    fragment['actions'].insert(1,empty_t3)
 
     if stage_id == 'level_rogue4_d-1':
         branches['Walk']['phases'][0]['actions'][0]['key'] = "enemy_1516_jakill"

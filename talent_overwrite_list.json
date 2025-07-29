@@ -510,6 +510,16 @@
         "key": "ammo",
         "value": 4
       }
+    ],
+    "enemy_1317_wdexg_2": [
+      {
+        "key": "ammo",
+        "tooltip": {
+          "en": ["Has $2$ Initial Ammo, <v.value> Max Ammo"],
+          "ja": ["初期弾数$2$、弾薬上限数<v.value>"],
+          "zh": ["初始技力为$2$、技力上限为<v.value>"]
+        }
+      }
     ]
   },
   "level_rogue5_sv-6": {

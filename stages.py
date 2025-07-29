@@ -31,7 +31,8 @@ STAGES_WITH_ENEMY_REF_TO_IGNORE = {"level_rogue1_4-2": ["enemy_1025_reveng_2"],
                                    "level_rogue4_b-8": ["enemy_3001_upeopl", 'enemy_2093_skzams'],
                                    "level_rogue4_4-4": ["enemy_1221_dzomg_b", "enemy_1220_dzoms_b"],
                                    "level_rogue3_b-4-b": ["enemy_2054_smdeer"],
-                                   "level_rogue4_3-2": ["enemy_1271_nhkodo_a"]}
+                                   "level_rogue4_3-2": ["enemy_1271_nhkodo_a"],
+                                   "level_rogue5_b-4":["enemy_1128_spmage_2"]}
 STAGES_TO_SKIP = ['ro4_b_4_c', 'ro4_b_4_d', 'ro4_b_5_c', 'ro4_b_5_d']
 STAGES_WITH_REF_TO_REPLACE = {'level_rogue4_b-4': 'level_rogue4_b-4-c',
                               'level_rogue4_b-4-b': 'level_rogue4_b-4-d',
@@ -225,9 +226,10 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
                     "pos": item['position'],
                     "direction": item['direction'],
                     "level": item['inst']['level'],
+                    'skillIndex': item['skillIndex'],
                     "mainSkillLvl": item['mainSkillLvl'],
                     "hidden": item["hidden"],
-                    "overrideSkillBlackboard": item["overrideSkillBlackboard"]
+                    "overrideSkillBlackboard": item["overrideSkillBlackboard"] if 'overrideSkillBlackboard' in item else None
                 })
         for item in stage_data['predefines']['tokenCards']:
             if item['hidden']:
@@ -282,7 +284,7 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
                     overwrittenData["lifepoint"] = enemy[
                         "overwrittenData"
                     ]["lifePointReduce"]["m_value"]
-                if enemy["overwrittenData"]["notCountInTotal"]["m_defined"] and enemy["overwrittenData"]["notCountInTotal"]["m_value"]:
+                if 'notCountInTotal' in enemy["overwrittenData"] and enemy["overwrittenData"]["notCountInTotal"]["m_defined"] and enemy["overwrittenData"]["notCountInTotal"]["m_value"]:
                     if my_enemy_db[enemy_id]['notCountInTotal'] is False:
                         overwrittenData['notCountInTotal'] = True
                         alerts.append(
