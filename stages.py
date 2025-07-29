@@ -32,7 +32,7 @@ STAGES_WITH_ENEMY_REF_TO_IGNORE = {"level_rogue1_4-2": ["enemy_1025_reveng_2"],
                                    "level_rogue4_4-4": ["enemy_1221_dzomg_b", "enemy_1220_dzoms_b"],
                                    "level_rogue3_b-4-b": ["enemy_2054_smdeer"],
                                    "level_rogue4_3-2": ["enemy_1271_nhkodo_a"],
-                                   "level_rogue5_b-4":["enemy_1128_spmage_2"]}
+                                   "level_rogue5_b-4": ["enemy_1128_spmage_2"]}
 STAGES_TO_SKIP = ['ro4_b_4_c', 'ro4_b_4_d', 'ro4_b_5_c', 'ro4_b_5_d']
 STAGES_WITH_REF_TO_REPLACE = {'level_rogue4_b-4': 'level_rogue4_b-4-c',
                               'level_rogue4_b-4-b': 'level_rogue4_b-4-d',
@@ -122,6 +122,8 @@ with open(enemy_database_path, encoding="utf-8") as f:
     enemy_database = json.load(f)
 with open("enemy_database.json", encoding="utf-8") as f:
     my_enemy_db = json.load(f)
+with open("stage_name_overwrite_table.json", encoding="utf-8") as f:
+    stage_name_overwrite_table = json.load(f)
 
 alerts = []
 
@@ -448,15 +450,20 @@ def generate_roguelike_stages():
                     stage_name_lookup[url_key] = {
                         "lang": "ALL", "key": levelId, "topic": rogue_topic}
                 else:
+                    name_zh = stage_info_cn["name"]
+                    name_ja = stage_info_jp["name"].replace(" ", "_")
+                    name_en = stage_info_en["name"].replace(" ", "_")
+                    if levelId in stage_name_overwrite_table:
+                        name_zh = stage_name_overwrite_table[levelId]['name_zh']
                     zh_url_key = stage_info_cn["code"] + \
-                        '_' + stage_info_cn["name"]
+                        '_' + name_zh
                     stage_name_lookup[zh_url_key] = {
                         "lang": "zh", "key": levelId, "topic": rogue_topic}
                     if TOPIC_IN_GLOBAL:
                         en_url_key = stage_info_en["code"] + \
-                            '_' + stage_info_en["name"].replace(" ", "_")
+                            '_' + name_en
                         ja_url_key = stage_info_jp["code"] + \
-                            '_' + stage_info_jp["name"].replace(" ", "_")
+                            '_' + name_ja
                         stage_name_lookup[en_url_key] = {
                             "lang": "en", "key": levelId, "topic": rogue_topic}
                         stage_name_lookup[ja_url_key] = {
@@ -481,7 +488,7 @@ def generate_roguelike_stages():
                 data[levelId] = trimmed_stage_info
                 stages_list.append(trimmed_stage_info)
 
-    # for stage navigation...
+    # for stage navigation ro1 ro2 ro3...
     for topic_dict in roguelike_topics:
         stage_nav = {}
         write_path = os.path.join(
@@ -491,15 +498,21 @@ def generate_roguelike_stages():
             if rogue_topic in stage['tags']:
                 stage_name = stage['name_zh']
                 levelId = stage['levelId']
-                if ('-b' in levelId and 'sv' in levelId) or ('_fs-' in levelId and 'b' in levelId):
-                    stage_name += '(b)'
-                stage_nav[stage_name] = {
-                    "levelId": levelId,
-                    "code": stage['code'],
-                    "name_zh": stage_name,
-                    "name_ja": stage['name_ja'],
-                    "name_en": stage['name_en'],
-                }
+                if levelId in stage_name_overwrite_table:
+                    info = stage_name_overwrite_table[levelId]
+                    stage_nav[levelId] = {
+                        "code": stage['code'],
+                        "name_zh": info['name_zh'],
+                        "name_ja": info['name_ja'],
+                        "name_en": info['name_en'],
+                    }
+                else:
+                    stage_nav[levelId] = {
+                        "code": stage['code'],
+                        "name_zh": stage_name,
+                        "name_ja": stage['name_ja'],
+                        "name_en": stage['name_en'],
+                    }
         with open(write_path, 'w+', encoding='utf-8') as f:
             json.dump(stage_nav, f, ensure_ascii=False, indent=4)
 
