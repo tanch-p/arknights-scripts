@@ -221,7 +221,7 @@ def add_new_event_stages():
     for file_path in file_paths:
         with open(file_path, encoding="utf-8") as f:
             stage_data = json.load(f)
-        levelId = file_path.split("/")[-1]
+        levelId = file_path.split("/")[-1].replace(".json","")
         wave_data = get_wave_spawns_data(stage_data, levelId, log=True)
         enemy_list, elite_enemy_list, sp_count, elite_sp_count, enemy_counts, elite_enemy_counts = itemgetter(
             "enemy_list", "elite_enemy_list", "sp_count", "elite_sp_count", "enemy_counts", "elite_enemy_counts")(wave_data)
