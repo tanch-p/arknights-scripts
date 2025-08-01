@@ -28,12 +28,30 @@ def test_blackboard_corresponding_keys(id, blackboard):
             'expected_value': 0.8,
             'expected_category': ['sluggish']
         },
+        'cold': {
+            'corresponding_key': 'res_down',
+            'expected_value': 15,
+            'expected_category': ['freeze'],
+            'expected_order': 'initial_add'
+        },
+        'apoptosis': {
+            'corresponding_key': 'atk_down',
+            'expected_value': 0.5,
+            'expected_duration': 15,
+            "expected_conditions": [
+                "apoptosis_burst"
+            ],
+            "expected_category": [
+                "weaken"
+            ],
+            'expected_order': 'final_mul'
+        },
         'burning': {
             'corresponding_key': 'res_down',
             'expected_value': 20,
             'expected_category': ['burning_burst'],
             'expected_order': 'initial_add'
-        }
+        },
     }
 
     # Create lookup dict for faster searches
