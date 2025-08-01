@@ -365,7 +365,7 @@ for id in cn_patch_table['patchChars']:
 #     json.dump(data, f, ensure_ascii=False, indent=4)
 
 with open('characters.json', 'w', encoding='utf-8') as f:
-    json.dump(data, f, ensure_ascii=False, separators=(',', ':'))
+    json.dump(data, f, ensure_ascii=False, separators=(',', ':'),indent=4)
 
 
 # append new charas to char talent tags json
