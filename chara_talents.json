@@ -5524,7 +5524,7 @@
                         "targets": 99,
                         "value": 2.0,
                         "prob": 0.4,
-                        "target_air": true
+                        "target_air": false
                     },
                     {
                         "key": "ms_down",
@@ -13873,6 +13873,129 @@
                 "desc_en": "",
                 "tags": [],
                 "blackboard": []
+            }
+        ]
+    },
+    "char_4199_makiri": {
+        "appellation": "Matsukiri",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "慢手有筹",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "在战场停留30秒后，仅一次使场上与待部署区的所有重装和辅助干员攻击力+12%<@ba.talpu>（+2%）</>",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "TANK",
+                    "SUPPORT"
+                ],
+                "blackboard": [
+                    {
+                        "key": "ally_atk",
+                        "value": 0.12,
+                        "conditions": [
+                            "TANK",
+                            "SUPPORT"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4203_kichi": {
+        "appellation": "Kichisei",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "好运连击！",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "上场后每击倒过一种敌人，自身造成的伤害+7%<@ba.talpu>（+1%）</>，最多叠加3次",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": []
+            }
+        ]
+    },
+    "char_4202_haruka": {
+        "appellation": "Haruka",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "浮光泡影",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "每过一个攻击间隔，使范围内一名友方单位获得30%<ba.protect>庇护</>的浮泡，浮泡在受到敌方伤害的短暂延迟后破碎",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "protect"
+                ],
+                "blackboard": [
+                    {
+                        "key": "ally_dmg_res",
+                        "types": [
+                            "phys",
+                            "arts"
+                        ],
+                        "value": 0.3,
+                        "category": [
+                            "protect"
+                        ]
+                    }
+                ]
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "扶摇花火",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "浮泡破碎时，为所在的单位治疗相当于遥攻击力28%<@ba.talpu>（+3%）</>的生命值",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "heal_ally"
+                ],
+                "blackboard": []
+            }
+        ]
+    },
+    "char_1044_hsgma2": {
+        "appellation": "Hoshiguma the Breacher",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "业火",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "生命降至0时进入“我执”：期间不成为其他角色的治疗目标，受到的伤害会继续积累，积累至生命上限的200%时被击倒，4<@ba.talpu>（-1）</>秒内未受到伤害时，每秒回复5%生命，生命大于0时退出“我执”",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "heal_self"
+                ],
+                "blackboard": []
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "鬼之架势",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "在场时，自身获得最高+50法术抗性和35%攻击力的<ba.berserk>坚忍</>（损失70%生命值时达到最大加成）",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "berserk"
+                ],
+                "blackboard": [
+                    {
+                        "key": "res",
+                        "value": 50.0
+                    }
+                ]
             }
         ]
     }
