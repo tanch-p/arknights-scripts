@@ -36,7 +36,7 @@ with open(jp_char_table_path, encoding='utf-8') as f:
 with open(jp_skill_table_path, encoding='utf-8') as f:
     jp_skill_table = json.load(f)
 
-keys = ['trap_183_sheltk']
+keys = ['trap_234_mpmageb']
 data={}
 for key in keys:
     holder = {}
@@ -83,7 +83,7 @@ for key in keys:
     holder["desc_en"] = (
         en_char_table[key]["description"] if in_global else ""
     )
-    holder["tauntLevel"] = level1['tauntLevel'],
+    holder["tauntLevel"] = level1['tauntLevel']
     holder["group"] = "ally"
     holder['modelType'] = None
     holder["hideTile"] = False

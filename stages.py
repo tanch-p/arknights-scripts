@@ -196,27 +196,28 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
     # handle level_predefine_tokens_random_spawn_on_tile in ro5
     # currently all level_predefine_tokens_random_spawn_on_tile have difficultyMask ALL
     if rogue_topic == 'ro5' and stage_data['runes']:
-        for rune in stage_data['runes']:
-            if rune['key'] == 'level_predefine_tokens_random_spawn_on_tile':
-                targets = next(
-                    (item['valueStr'] for item in rune['blackboard'] if item['key'] == 'token_key'), None)
-                if targets is not None:
-                    targets = targets.split("|")
-                tiles_keys = next(
-                    (item['valueStr'] for item in rune['blackboard'] if item['key'] == 'tile'), None)
-                if tiles_keys is not None:
-                    tiles_keys = tiles_keys.split("|")
-                    for tile_key in tiles_keys:
-                        tile_list = get_list_of_tiles(stage_data, tile_key)
-                        if len(tile_list) > 0:
-                            if not rune['key'] in systems:
-                                systems[rune['key']] = {'tiles': {}}
-                            if not tile_key in systems[rune['key']]['tiles']:
-                                systems[rune['key']]['tiles'][tile_key] = [
-                                    {"pos": tile['position'],
-                                     "blackboard": tile['blackboard']} for tile in tile_list]
-                            for target in targets:
-                                systems[rune['key']][target] = tiles_keys
+        if levelId not in ['level_rogue5_t-6']:
+            for rune in stage_data['runes']:
+                if rune['key'] == 'level_predefine_tokens_random_spawn_on_tile':
+                    targets = next(
+                        (item['valueStr'] for item in rune['blackboard'] if item['key'] == 'token_key'), None)
+                    if targets is not None:
+                        targets = targets.split("|")
+                    tiles_keys = next(
+                        (item['valueStr'] for item in rune['blackboard'] if item['key'] == 'tile'), None)
+                    if tiles_keys is not None:
+                        tiles_keys = tiles_keys.split("|")
+                        for tile_key in tiles_keys:
+                            tile_list = get_list_of_tiles(stage_data, tile_key)
+                            if len(tile_list) > 0:
+                                if not rune['key'] in systems:
+                                    systems[rune['key']] = {'tiles': {}}
+                                if not tile_key in systems[rune['key']]['tiles']:
+                                    systems[rune['key']]['tiles'][tile_key] = [
+                                        {"pos": tile['position'],
+                                         "blackboard": tile['blackboard']} for tile in tile_list]
+                                for target in targets:
+                                    systems[rune['key']][target] = tiles_keys
 
     if stage_data['predefines']:
         for item in stage_data['predefines']['tokenInsts']:
@@ -532,7 +533,7 @@ def generate_roguelike_stages():
         json.dump(stage_name_lookup, f, ensure_ascii=False, indent=4)
 
 
-def generate_normal_stages():
+def generate_normal_stages(topic):
     cn_stage_table_path = os.path.join(
         script_dir, "cn_data/zh_CN/gamedata/excel/stage_table.json"
     )
@@ -718,8 +719,9 @@ def generate_normal_stages():
 
 
 def main():
-    generate_roguelike_stages()
-    # generate_normal_stages()
+    # generate_roguelike_stages()
+
+    generate_normal_stages()
     with open('temp.json', 'w', encoding='utf-8') as f:
         json.dump(alerts, f, ensure_ascii=False, indent=4)
 

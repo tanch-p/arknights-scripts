@@ -13304,11 +13304,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "精准配镜",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Precise Prescription",
+                "name_ja": "眼鏡士の腕",
                 "desc_zh": "治疗处于异常状态中的友方干员时治疗量提升至123%<@ba.talpu>（+3%）</>",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "状態異常中のオペレーターを治療時、治療効果が123%まで上昇<@ba.talpu>（+3%）</>",
+                "desc_en": "Healing increases to 123% <@ba.talpu>(+3%)</> when healing an Operator affected by negative status",
                 "tags": [],
                 "blackboard": []
             }
@@ -13320,11 +13320,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "萃血",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Blood Bank",
+                "name_ja": "血の集積",
                 "desc_zh": "每次攻击敌人时<ba.steal>偷取</>目标75点生命上限（最高1350）并使目标每秒受到250<@ba.talpu>（+50）</>点法术伤害持续5秒",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "攻撃時、敵の最大HPを75<ba.steal>奪取</>（最大1350まで奪取可能）、さらに5秒間対象に毎秒250<@ba.talpu>（+50）</>の術ダメージを与え続ける",
+                "desc_en": "Attacks <ba.steal>Steal</> 75 Max HP from the target (Caps at 1350) and deal 250 <@ba.talpu>(+50)</> Arts damage per second to the target for 5s",
                 "tags": [
                     "dot",
                     "arts",
@@ -13335,11 +13335,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "重盈",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Second Serving",
+                "name_ja": "返り咲き",
                 "desc_zh": "生命值低于25%时，仅一次立刻回复55%<@ba.talpu>（+5%）</>最大生命值，且自身之后受到的物理伤害降低15%<@ba.talpu>（+5%）</>",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "HPが25%を下回った際、1度だけHPを最大値の55%<@ba.talpu>（+5%）</>回復し、以降物理の被ダメージ-15%<@ba.talpu>（-5%）</>",
+                "desc_en": "When HP drops below 25% for the first time, immediately recovers 55% <@ba.talpu>(+5%)</> of Max HP and reduces Physical damage taken by 15% <@ba.talpu>(+5%)</> from that point onwards",
                 "tags": [],
                 "blackboard": [
                     {

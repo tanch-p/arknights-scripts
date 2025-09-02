@@ -1,6 +1,6 @@
 from walk import get_all_file_paths
 from operator import itemgetter
-from runes import get_runes
+from runes import get_runes, generate_desc
 from tiles import get_special_tiles
 from waves_new import get_wave_spawns_data
 import json
@@ -18,7 +18,8 @@ with open("is_stages_list.json", encoding="utf-8") as f:
     stages_list = json.load(f)
 
 STAGES_TO_IGNORE = ['level_rogue4_b-4', 'level_rogue4_b-4-b',
-                    'level_rogue4_b-5', 'level_rogue4_b-5-b']
+                    'level_rogue4_b-5', 'level_rogue4_b-5-b',
+                    'level_main_06-15','level_main_08-15', 'level_main_11-17','level_main_14-20']
 
 
 def get_rgdysm_summon(stage_data):
@@ -177,6 +178,8 @@ def add_new_ro_stages():
                     all_mods, elite_mods, normal_mods = itemgetter(
                         'all_mods', 'elite_mods', 'normal_mods')((runes_data))
 
+                desc = generate_desc(elite_mods)
+
                 trimmed_stage_info = {
                     "levelId": stage['levelId'],
                     "code": stage['code'],
@@ -188,9 +191,9 @@ def add_new_ro_stages():
                     "addInfo_zh": stage['addInfo_zh'],
                     "addInfo_ja": stage['addInfo_ja'],
                     "addInfo_en": stage['addInfo_en'],
-                    "eliteDesc_zh": stage['eliteDesc_zh'],
-                    "eliteDesc_ja": stage['eliteDesc_ja'],
-                    "eliteDesc_en": stage['eliteDesc_en'],
+                    "eliteDesc_zh": desc.get('zh', None),
+                    "eliteDesc_ja": desc.get('ja', None),
+                    "eliteDesc_en": desc.get('en', None),
                     "all_mods": all_mods,
                     "normal_mods": normal_mods,
                     "elite_mods": elite_mods,
@@ -212,16 +215,30 @@ def add_new_ro_stages():
 
 def add_new_event_stages():
     data = {}
+    stage_type = 'main'
+    level = '15'
     activity = 'act43side'
-    path = os.path.join(
-        script_dir,
-        f"cn_data/zh_CN/gamedata/levels/activities/{activity}",
-    )
+    if stage_type == 'main':
+        path = os.path.join(
+            script_dir,
+            f"cn_data/zh_CN/gamedata/levels/obt/main",
+        )
+    else:
+        path = os.path.join(
+            script_dir,
+            f"cn_data/zh_CN/gamedata/levels/activities/{activity}",
+        )
     file_paths = get_all_file_paths(path)
+    file_paths.sort()
+    if stage_type == 'main':
+        file_paths = [item for item in file_paths if f"_{level}-" in item]
     for file_path in file_paths:
         with open(file_path, encoding="utf-8") as f:
             stage_data = json.load(f)
-        levelId = file_path.split("/")[-1].replace(".json","")
+        levelId = file_path.split("/")[-1].replace(".json", "")
+        if levelId in STAGES_TO_IGNORE:
+            continue
+        print(levelId)
         wave_data = get_wave_spawns_data(stage_data, levelId, log=True)
         enemy_list, elite_enemy_list, sp_count, elite_sp_count, enemy_counts, elite_enemy_counts = itemgetter(
             "enemy_list", "elite_enemy_list", "sp_count", "elite_sp_count", "enemy_counts", "elite_enemy_counts")(wave_data)
@@ -239,16 +256,18 @@ def add_new_event_stages():
             all_mods, elite_mods, normal_mods = itemgetter(
                 'all_mods', 'elite_mods', 'normal_mods')((runes_data))
 
+        desc = generate_desc(elite_mods)
+
         trimmed_stage_info = {
-            "activity":activity,
+            "activity": activity,
             "levelId": levelId,
             "name_zh": "",
             "addInfo_zh": None,
             "addInfo_ja": None,
             "addInfo_en": None,
-            "eliteDesc_zh": None,
-            "eliteDesc_ja": None,
-            "eliteDesc_en": None,
+            "eliteDesc_zh": desc.get('zh', None),
+            "eliteDesc_ja": desc.get('ja', None),
+            "eliteDesc_en": desc.get('en', None),
             "all_mods": all_mods,
             "normal_mods": normal_mods,
             "elite_mods": elite_mods,

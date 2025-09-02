@@ -61968,8 +61968,8 @@
     "uniequip_001_nowell": {
         "uniEquipId": "uniequip_001_nowell",
         "name_zh": "诺威尔证章",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "ノウエルの記章",
+        "name_en": "Nowell's Badge",
         "typeIcon": "original",
         "charId": "char_4173_nowell",
         "combatData": null
@@ -61977,8 +61977,8 @@
     "uniequip_002_nowell": {
         "uniEquipId": "uniequip_002_nowell",
         "name_zh": "致祖父",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "祖父へ",
+        "name_en": "To Grandpa",
         "typeIcon": "wah-y",
         "charId": "char_4173_nowell",
         "combatData": {
@@ -61990,21 +61990,23 @@
                             "target": "TRAIT_DATA_ONLY",
                             "isToken": false,
                             "addDesc_zh": null,
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": null,
+                            "addDesc_en": null,
                             "overrideDesc_zh": "拥有较大治疗范围，治疗较远目标时治疗量<@ba.kw>不再降低</>",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "治療範囲が広く、遠く離れた味方を治療時もHP治療効果が<@ba.kw>減少しない</>",
+                            "overrideDesc_en": "Has a large healing range and healing is <@ba.kw>no longer reduced</> for distant targets"
                         }
                     ],
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 100.0
+                            "value": 100.0,
+                            "valueStr": null
                         },
                         {
                             "key": "atk",
-                            "value": 25.0
+                            "value": 25.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -62016,35 +62018,37 @@
                             "target": "TRAIT_DATA_ONLY",
                             "isToken": false,
                             "addDesc_zh": null,
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": null,
+                            "addDesc_en": null,
                             "overrideDesc_zh": "拥有较大治疗范围，治疗较远目标时治疗量<@ba.kw>不再降低</>",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "治療範囲が広く、遠く離れた味方を治療時もHP治療効果が<@ba.kw>減少しない</>",
+                            "overrideDesc_en": "Has a large healing range and healing is <@ba.kw>no longer reduced</> for distant targets"
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "精准配镜",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Precise Prescription",
+                            "name_ja": "眼鏡士の腕",
+                            "name_en": "Precise Prescription",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "治疗处于异常状态中的友方干员时治疗量提升至133%<@ba.talpu>（+3%）</>",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "状態異常中のオペレーターを治療時、治療効果が133%まで上昇<@ba.talpu>（+3%）</>",
+                            "upgradeDesc_en": "Healing increases to 133% <@ba.talpu>(+3%)</> when healing an Operator affected by negative status"
                         }
                     ],
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 125.0
+                            "value": 125.0,
+                            "valueStr": null
                         },
                         {
                             "key": "atk",
-                            "value": 33.0
+                            "value": 33.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -62056,35 +62060,37 @@
                             "target": "TRAIT_DATA_ONLY",
                             "isToken": false,
                             "addDesc_zh": null,
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": null,
+                            "addDesc_en": null,
                             "overrideDesc_zh": "拥有较大治疗范围，治疗较远目标时治疗量<@ba.kw>不再降低</>",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "治療範囲が広く、遠く離れた味方を治療時もHP治療効果が<@ba.kw>減少しない</>",
+                            "overrideDesc_en": "Has a large healing range and healing is <@ba.kw>no longer reduced</> for distant targets"
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "精准配镜",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Precise Prescription",
+                            "name_ja": "眼鏡士の腕",
+                            "name_en": "Precise Prescription",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "治疗处于异常状态中的友方干员时治疗量提升至138%<@ba.talpu>（+3%）</>",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "状態異常中のオペレーターを治療時、治療効果が138%<@ba.talpu>（+3%）</>まで上昇",
+                            "upgradeDesc_en": "Healing increases to 138% <@ba.talpu>(+3%)</> when healing an Operator affected by negative status"
                         }
                     ],
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 145.0
+                            "value": 145.0,
+                            "valueStr": null
                         },
                         {
                             "key": "atk",
-                            "value": 38.0
+                            "value": 38.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -62097,8 +62103,8 @@
     "uniequip_001_etlchi": {
         "uniEquipId": "uniequip_001_etlchi",
         "name_zh": "隐德来希证章",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "エンテレケイアの記章",
+        "name_en": "Entelechia's Badge",
         "typeIcon": "original",
         "charId": "char_4010_etlchi",
         "combatData": null
@@ -62106,8 +62112,8 @@
     "uniequip_002_etlchi": {
         "uniEquipId": "uniequip_002_etlchi",
         "name_zh": "易枯萎的航船",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "ひとときで朽ちる船",
+        "name_en": "A Ferry that Withers",
         "typeIcon": "rea-x",
         "charId": "char_4010_etlchi",
         "combatData": {
@@ -62119,21 +62125,23 @@
                             "target": "TRAIT_DATA_ONLY",
                             "isToken": false,
                             "addDesc_zh": null,
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": null,
+                            "addDesc_en": null,
                             "overrideDesc_zh": "无法被友方角色治疗，攻击造成<@ba.kw>群体伤害</>，每攻击到一个敌人回复自身<@ba.kw>60</>生命，最大生效数等于阻挡数",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "味方の治療対象にならない\n攻撃は<@ba.kw>範囲物理ダメージ</>を与え、敵を1体攻撃する度自身のHPを<@ba.kw>60</>回復（攻撃毎の最大回復回数はブロック数と同じ）",
+                            "overrideDesc_en": "Cannot be healed by allies; Attacks deal <@ba.kw>AoE damage</>; Recovers <@ba.kw>60</> HP for every enemy hit during attacks, up to Block count"
                         }
                     ],
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 50.0
+                            "value": 50.0,
+                            "valueStr": null
                         },
                         {
                             "key": "def",
-                            "value": 20.0
+                            "value": 20.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -62145,35 +62153,37 @@
                             "target": "TRAIT_DATA_ONLY",
                             "isToken": false,
                             "addDesc_zh": null,
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": null,
+                            "addDesc_en": null,
                             "overrideDesc_zh": "无法被友方角色治疗，攻击造成<@ba.kw>群体伤害</>，每攻击到一个敌人回复自身<@ba.kw>60</>生命，最大生效数等于阻挡数",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "味方の治療対象にならない\n攻撃は<@ba.kw>範囲物理ダメージ</>を与え、敵を1体攻撃する度自身のHPを<@ba.kw>60</>回復（攻撃毎の最大回復回数はブロック数と同じ）",
+                            "overrideDesc_en": "Cannot be healed by allies; Attacks deal <@ba.kw>AoE damage</>; Recovers <@ba.kw>60</> HP for every enemy hit during attacks, up to Block count"
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "重盈",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Second Serving",
+                            "name_ja": "返り咲き",
+                            "name_en": "Second Serving",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 1,
                             "upgradeDesc_zh": "生命值低于25%时，仅一次立刻回复75%<@ba.talpu>（+5%）最大生命值，且自身之后受到的物理伤害降低20%<@ba.talpu>（+5%）</>",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "HPが25%を下回った際、1度だけHPを最大値の75%<@ba.talpu>（+5%）回復し、以降物理の被ダメージ-20%<@ba.talpu>（-5%）</>",
+                            "upgradeDesc_en": "When HP drops below 25% for the first time, immediately recovers 75% <@ba.talpu>(+5%)</> of Max HP and reduces Physical damage taken by 20% <@ba.talpu>(+5%)</> from that point onwards"
                         }
                     ],
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 60.0
+                            "value": 60.0,
+                            "valueStr": null
                         },
                         {
                             "key": "def",
-                            "value": 38.0
+                            "value": 38.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -62185,35 +62195,37 @@
                             "target": "TRAIT_DATA_ONLY",
                             "isToken": false,
                             "addDesc_zh": null,
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": null,
+                            "addDesc_en": null,
                             "overrideDesc_zh": "无法被友方角色治疗，攻击造成<@ba.kw>群体伤害</>，每攻击到一个敌人回复自身<@ba.kw>60</>生命，最大生效数等于阻挡数",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "味方の治療対象にならない\n攻撃は<@ba.kw>範囲物理ダメージ</>を与え、敵を1体攻撃する度自身のHPを<@ba.kw>60</>回復（攻撃毎の最大回復回数はブロック数と同じ）",
+                            "overrideDesc_en": "Cannot be healed by allies; Attacks deal <@ba.kw>AoE damage</>; Recovers <@ba.kw>60</> HP for every enemy hit during attacks, up to Block count"
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "重盈",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Second Serving",
+                            "name_ja": "返り咲き",
+                            "name_en": "Second Serving",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 1,
                             "upgradeDesc_zh": "生命值低于25%时，仅一次立刻回复90%<@ba.talpu>（+5%）最大生命值，且自身之后受到的物理伤害降低25%<@ba.talpu>（+5%）</>",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "HPが25%を下回った際、1度だけHPを最大値の90%<@ba.talpu>（+5%）回復し、以降物理の被ダメージ-25%<@ba.talpu>（-5%）</>",
+                            "upgradeDesc_en": "When HP drops below 25% for the first time, immediately recovers 90% <@ba.talpu>(+5%)</> of Max HP and reduces Physical damage taken by 25% <@ba.talpu>(+5%)</> from that point onwards"
                         }
                     ],
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 70.0
+                            "value": 70.0,
+                            "valueStr": null
                         },
                         {
                             "key": "def",
-                            "value": 50.0
+                            "value": 50.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -68941,9 +68953,7 @@
                 }
             ],
             "tags": [],
-            "blackboard": [
-                
-            ]
+            "blackboard": []
         }
     },
     "uniequip_001_nymph": {
@@ -69233,9 +69243,10 @@
                     "tokenAttributeBlackboard": {}
                 }
             ],
-            "tags": ["heal_self"],
-            "blackboard": [
-            ]
+            "tags": [
+                "heal_self"
+            ],
+            "blackboard": []
         }
     },
     "uniequip_001_christ": {
@@ -69392,9 +69403,7 @@
                 }
             ],
             "tags": [],
-            "blackboard": [
-                
-            ]
+            "blackboard": []
         }
     },
     "uniequip_001_kaitou": {
@@ -69523,9 +69532,7 @@
                 }
             ],
             "tags": [],
-            "blackboard": [
-                
-            ]
+            "blackboard": []
         }
     },
     "uniequip_001_warmy": {
@@ -69654,9 +69661,7 @@
                 }
             ],
             "tags": [],
-            "blackboard": [
-                
-            ]
+            "blackboard": []
         }
     },
     "uniequip_003_chen2": {
@@ -70029,10 +70034,10 @@
                     "tokenAttributeBlackboard": {}
                 }
             ],
-            "tags": ["ally_respawn_time"],
-            "blackboard": [
-               
-            ]
+            "tags": [
+                "ally_respawn_time"
+            ],
+            "blackboard": []
         }
     },
     "uniequip_003_pepe": {
@@ -70253,9 +70258,7 @@
                 }
             ],
             "tags": [],
-            "blackboard": [
-               
-            ]
+            "blackboard": []
         }
     },
     "uniequip_001_haruka": {
@@ -70388,7 +70391,7 @@
                 {
                     "key": "ally_sp_gain",
                     "value": 1.0,
-                    "prob":0.2
+                    "prob": 0.2
                 }
             ]
         }
