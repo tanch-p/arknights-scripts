@@ -59,6 +59,7 @@ SEARCH_IN_BLACKBOARD = [
 	'sp_regen',
 	'ally_heal_scale',
 	'heal_scale',
+	'receive_heal_scale',
 	'cost_return',
 	'block',
 	'hitrate_down',
@@ -68,10 +69,11 @@ SEARCH_IN_BLACKBOARD = [
 	'ct',
 	'heal_scale_down',
 	'ally_def_penetrate',
+	'ally_res_penetrate',
 	'add_bullet',
 	'max_ammo',
 	'ally_max_ammo',
-    "receive_heal_scale"
+	'liftoff'
 ]
 
 TARGET_AIR_KEYS = [

@@ -10508,18 +10508,6 @@
                 "tags": [],
                 "blackboard": [
                     {
-                        "key": "hp_ratio",
-                        "value": 0.25
-                    },
-                    {
-                        "key": "huang_t_1[heal].hp_ratio",
-                        "value": 0.5
-                    },
-                    {
-                        "key": "huang_t_1[lock].min_hp_ratio",
-                        "value": 0.5
-                    },
-                    {
                         "key": "undying",
                         "value": 7.0
                     }
@@ -10536,16 +10524,7 @@
                 "tags": [
                     "resist"
                 ],
-                "blackboard": [
-                    {
-                        "key": "one_minus_status_resistance",
-                        "value": -0.5
-                    },
-                    {
-                        "key": "interval",
-                        "value": 12.0
-                    }
-                ]
+                "blackboard": []
             }
         ]
     },
@@ -13994,6 +13973,274 @@
                     {
                         "key": "res",
                         "value": 50.0
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4185_amoris": {
+        "appellation": "Yūtenji Nyamu",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "双利手",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "祐天寺若麦可以进行<ba.permanentatk>持续攻击</>；攻击时10%概率使敌人获得8%<ba.fragile>脆弱</>，持续2秒",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "permanentatk",
+                    "fragile"
+                ],
+                "blackboard": [
+                    {
+                        "key": "damage_scale",
+                        "targets": 99,
+                        "value": 1.08,
+                        "prob": 0.08,
+                        "duration": 2.0,
+                        "types": [
+                            "phys",
+                            "arts",
+                            "true"
+                        ],
+                        "category": [
+                            "fragile"
+                        ]
+                    }
+                ]
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "毋畏爱意",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "在场时每秒使<ba.fever>Fever</>+3；<ba.mujica>Ave Mujica</>成员的攻击力+9%<@ba.talpu>（+1%）</>",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "mujica"
+                ],
+                "blackboard": [
+                    {
+                        "key": "ally_atk",
+                        "value": 0.2,
+                        "duration": 20.0,
+                        "conditions": [
+                            "mujica"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4184_dolris": {
+        "appellation": "Misumi Uika",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "谎言的假面",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "技能未开启时每4秒治疗攻击范围内生命最低的友方单位相当于攻击力35%<@ba.talpu>(+5%)</>的生命；技能期间优先选择丰川祥子作为治疗目标",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "heal_ally"
+                ],
+                "blackboard": []
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "毋畏悲伤",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "治疗<ba.mujica>Ave Mujica</>成员时使<ba.fever>Fever</>+5；攻击范围内<ba.mujica>Ave Mujica</>成员攻击时，附带三角初华攻击力30%的法术伤害",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "ally_arts"
+                ],
+                "blackboard": []
+            }
+        ]
+    },
+    "char_4186_tmoris": {
+        "appellation": "Yahata Umiri",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "应召而至",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "被八幡海铃伤害的敌人有21%概率被<ba.sluggish>停顿</>3秒；技能期间，八幡海铃的攻击范围扩大",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "sluggish"
+                ],
+                "blackboard": [
+                    {
+                        "key": "sluggish",
+                        "targets": 99,
+                        "prob": 0.21,
+                        "value": 3,
+                        "target_air": false
+                    }
+                ]
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "毋畏恐惧",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "造成<ba.sluggish>停顿</>、<ba.fear>恐惧</>时使<ba.fever>Fever</>+2；\\n在场时，<ba.mujica>Ave Mujica</>成员对处于<ba.sluggish>停顿</>、<ba.fear>恐惧</>的敌人造成的伤害增加15%<@ba.talpu>（+5%）</>",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "damage_scale",
+                        "targets": 99,
+                        "value": 1.15,
+                        "duration": 999,
+                        "types": [
+                            "phys",
+                            "arts"
+                        ],
+                        "conditions": [
+                            "mujica",
+                            "sluggish",
+                            "fear"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4183_mortis": {
+        "appellation": "Wakaba Mutsumi",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "另一个“她”",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "若叶睦和<替身>受到物理和法术伤害的30%转化为一半的<ba.dt.apoptosis>凋亡损伤</>；<替身>不攻击，防御力+24%<@ba.talpu>（+4%）</>，<ba.mujica>Ave Mujica</>成员攻击时有20%的概率使替身持续时间缩短1秒",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "apoptosis",
+                    "ele_dmg"
+                ],
+                "blackboard": [
+                    {
+                        "key": "block_no_attack",
+                        "value": 20
+                    }
+                ]
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "毋畏死亡",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "自身受到一次伤害或损伤时使<ba.fever>Fever</>+3，在场时<ba.mujica>Ave Mujica</>成员生命上限+10%",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "ally_max_hp",
+                        "value": 0.1,
+                        "conditions": [
+                            "mujica"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4182_oblvns": {
+        "appellation": "Togawa Sakiko",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "颂乐音符",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "丰川祥子可以<ba.permanentatk>持续攻击</>且攻击会演奏追踪敌人的音符，音符飘出攻击范围一段时间后消失。每存在一个音符，<ba.mujica>Ave Mujica</>成员无视敌人3%的防御力和2%法术抗性（最多叠加至10层）",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "permanentatk"
+                ],
+                "blackboard": [
+                    {
+                        "key": "def_penetrate",
+                        "value": 0.03
+                    },
+                    {
+                        "key": "def_penetrate",
+                        "value": 0.3
+                    },
+                    {
+                        "key": "ally_def_penetrate",
+                        "value": 0.03,
+                        "conditions": [
+                            "mujica"
+                        ]
+                    },
+                    {
+                        "key": "ally_def_penetrate",
+                        "value": 0.3,
+                        "conditions": [
+                            "mujica"
+                        ]
+                    },
+                    {
+                        "key": "res_penetrate",
+                        "value": 0.02
+                    },
+                    {
+                        "key": "res_penetrate",
+                        "value": 0.2
+                    },
+                    {
+                        "key": "ally_res_penetrate",
+                        "value": 0.02,
+                        "conditions": [
+                            "mujica"
+                        ]
+                    },
+                    {
+                        "key": "ally_res_penetrate",
+                        "value": 0.2,
+                        "conditions": [
+                            "mujica"
+                        ]
+                    }
+                ]
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "毋畏遗忘",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "对敌人造成伤害时使<ba.fever>Fever</>+3；其他<ba.mujica>Ave Mujica</>成员的攻击范围若与自身原本攻击范围重合，则将其视作攻击范围的延伸；攻击范围内干员攻击速度+16<@ba.talpu>（+4）</>",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "mujica"
+                ],
+                "blackboard": [
+                    {
+                        "key": "ally_aspd",
+                        "value": 16.0,
+                        "conditions": [
+                            "within_attack_range"
+                        ]
                     }
                 ]
             }

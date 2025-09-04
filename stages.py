@@ -147,7 +147,7 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
         "id": meta_info["id"],
         "levelId": levelId,
         "tags": stage_data["mapData"]["tags"],
-        "category": extrainfo[levelId]['category'] if levelId in extrainfo else None,
+        "category": extrainfo[levelId].get('category', None) if levelId in extrainfo else None,
         "characterLimit": stage_data["options"]["characterLimit"],
         "initialCost": stage_data["options"]["initialCost"],
         "maxCost": 99,
@@ -159,20 +159,20 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
         "description_zh": meta_info["description_zh"],
         "description_ja": meta_info["description_ja"],
         "description_en": meta_info["description_en"],
-        "addInfo_zh": replace_chevrons(extrainfo[levelId]['addInfo_zh']) if levelId in extrainfo else None,
-        "addInfo_ja": replace_chevrons(extrainfo[levelId]['addInfo_ja']) if levelId in extrainfo else None,
-        "addInfo_en": replace_chevrons(extrainfo[levelId]['addInfo_en']) if levelId in extrainfo else None,
-        "eliteDesc_zh":  replace_chevrons(extrainfo[levelId]['eliteDesc_zh']) if levelId in extrainfo else None,
-        "eliteDesc_ja": replace_chevrons(extrainfo[levelId]['eliteDesc_ja']) if levelId in extrainfo else None,
-        "eliteDesc_en": replace_chevrons(extrainfo[levelId]['eliteDesc_en']) if levelId in extrainfo else None,
-        "all_mods": extrainfo[levelId]['all_mods'] if levelId in extrainfo else None,
-        "n_mods": extrainfo[levelId]['normal_mods'] if levelId in extrainfo else None,
-        "elite_mods": extrainfo[levelId]['elite_mods'] if levelId in extrainfo else None,
-        "floors": extrainfo[levelId]['floors'] if levelId in extrainfo else None,
-        "sp_terrain": extrainfo[levelId]['sp_terrain'] if levelId in extrainfo else None,
-        "sp_enemy": extrainfo[levelId]['sp_enemy'] if levelId in extrainfo else None,
-        "n_count": extrainfo[levelId]['enemy_counts'] if levelId in extrainfo else None,
-        "e_count": extrainfo[levelId]['elite_enemy_counts'] if levelId in extrainfo else None,
+        "addInfo_zh": replace_chevrons(extrainfo[levelId].get('addInfo_zh', None)) if levelId in extrainfo else None,
+        "addInfo_ja": replace_chevrons(extrainfo[levelId].get('addInfo_ja', None)) if levelId in extrainfo else None,
+        "addInfo_en": replace_chevrons(extrainfo[levelId].get('addInfo_en', None)) if levelId in extrainfo else None,
+        "eliteDesc_zh":  replace_chevrons(extrainfo[levelId].get('eliteDesc_zh', None)) if levelId in extrainfo else None,
+        "eliteDesc_ja": replace_chevrons(extrainfo[levelId].get('eliteDesc_ja', None)) if levelId in extrainfo else None,
+        "eliteDesc_en": replace_chevrons(extrainfo[levelId].get('eliteDesc_en', None)) if levelId in extrainfo else None,
+        "all_mods": extrainfo[levelId].get('all_mods', None) if levelId in extrainfo else None,
+        "n_mods": extrainfo[levelId].get('normal_mods', None) if levelId in extrainfo else None,
+        "elite_mods": extrainfo[levelId].get('elite_mods', None) if levelId in extrainfo else None,
+        "floors": extrainfo[levelId].get('floors', None) if levelId in extrainfo else None,
+        "sp_terrain": extrainfo[levelId].get('sp_terrain', None) if levelId in extrainfo else None,
+        "sp_enemy": extrainfo[levelId].get('sp_enemy', None) if levelId in extrainfo else None,
+        "n_count": extrainfo[levelId].get('enemy_counts', None) if levelId in extrainfo else None,
+        "e_count": extrainfo[levelId].get('elite_enemy_counts', None) if levelId in extrainfo else None,
         "traps": []
     }
 
@@ -456,15 +456,12 @@ def generate_roguelike_stages():
                     name_en = stage_info_en["name"].replace(" ", "_")
                     if levelId in stage_name_overwrite_table:
                         name_zh = stage_name_overwrite_table[levelId]['name_zh']
-                    zh_url_key = stage_info_cn["code"] + \
-                        '_' + name_zh
+                    zh_url_key = stage_info_cn["code"] + '_' + name_zh
                     stage_name_lookup[zh_url_key] = {
                         "lang": "zh", "key": levelId, "topic": rogue_topic}
                     if TOPIC_IN_GLOBAL:
-                        en_url_key = stage_info_en["code"] + \
-                            '_' + name_en
-                        ja_url_key = stage_info_jp["code"] + \
-                            '_' + name_ja
+                        en_url_key = stage_info_en["code"] + '_' + name_en
+                        ja_url_key = stage_info_jp["code"] + '_' + name_ja
                         stage_name_lookup[en_url_key] = {
                             "lang": "en", "key": levelId, "topic": rogue_topic}
                         stage_name_lookup[ja_url_key] = {
