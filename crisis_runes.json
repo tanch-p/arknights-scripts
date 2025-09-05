@@ -1,3127 +1,3168 @@
 {
-  "level_recalrune_01-01": {
-    "base": {
-      "desc": "<爱国者><@recalrune.nag>不再等待</>\r\n<爱国者>行军姿态受到来自非阻挡单位的物理与法术伤害减少<@recalrune.nag>90%</>，被阻挡较长时间该效果逐渐降低至<@recalrune.pos>0%</>，直到脱离阻挡\r\n<爱国者>毁灭姿态无敌时间<@recalrune.nag>提升</>，对周围造成的真实伤害<@recalrune.nag>提升</>，投枪造成的伤害<@recalrune.nag>提升</>\r\n所有敌人生命值<@recalrune.nag>+100%</>，攻击力<@recalrune.nag>+25%</>，获得<@recalrune.nag>抵抗</>\r\n我方防御点可承受的敌方数量变为<@recalrune.nag>2</>",
-      "mods": [
-        {
-          "targets": ["ALL"],
-          "mods": [
-            {
-              "key": "atk",
-              "value": 1.25,
-              "mode": "mul",
-              "order": "initial"
-            },
-            {
-              "key": "hp",
-              "value": 2,
-              "mode": "mul",
-              "order": "initial"
-            }
-          ],
-          "special": {
-            "resist": {
-              "tooltip": {
-                "en": ["$<ba.buffres>Resist</>$"],
-                "ja": ["$<ba.buffres>レジスト</>$"],
-                "zh": ["$持有<ba.buffres>抵抗</>$"]
-              }
-            }
-          }
-        },
-        {
-          "targets": ["enemy_1506_patrt"],
-          "special": {
-            "new_defres": {
-              "formIndex": 0,
-              "tooltip": {
-                "en": [
-                  "行军姿态受到来自非阻挡单位的物理与法术伤害减少90%，被阻挡40s后该效果逐渐降低至0%，直到脱离阻挡"
-                ],
-                "ja": [
-                  "行军姿态受到来自非阻挡单位的物理与法术伤害减少90%，被阻挡40s后该效果逐渐降低至0%，直到脱离阻挡"
-                ],
-                "zh": [
-                  "行军姿态受到来自非阻挡单位的物理与法术伤害减少90%，被阻挡40s后该效果逐渐降低至0%，直到脱离阻挡"
-                ]
-              }
-            },
-            "invincible": {
-              "formIndex": 1,
-              "value": 25
-            },
-            "patrt_2_1": {
-              "formIndex": 1,
-              "atk": {
-                "multiplier": 1.8
-              }
-            },
-            "patrt_2_2": {
-              "formIndex": 1,
-              "atk": {
-                "multiplier": 0.1921
-              }
-            }
-          }
-        }
-      ],
-      "runes": [
-        {
-          "key": "enemy_attribute_additive_mul",
-          "blackboard": [
-            {
-              "key": "max_hp",
-              "value": 1.0,
-              "valueStr": null
-            },
-            {
-              "key": "atk",
-              "value": 0.25,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "env_gbuff_new_with_verify",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "enemy_damage_scale[not_block_by_source]"
-            },
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1506_patrt"
-            },
-            {
-              "key": "physical",
-              "value": 1.0,
-              "valueStr": null
-            },
-            {
-              "key": "magical",
-              "value": 1.0,
-              "valueStr": null
-            },
-            {
-              "key": "damage_resistance",
-              "value": 0.9,
-              "valueStr": null
-            },
-            {
-              "key": "block_time",
-              "value": 40.0,
-              "valueStr": null
-            },
-            {
-              "key": "damage_scale[decay].decay_time",
-              "value": 5.0,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "global_lifepoint",
-          "blackboard": [
-            {
-              "key": "value",
-              "value": 2.0,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "enemy_talent_blackb_add",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1506_patrt"
-            },
-            {
-              "key": "reborn.patrt_t_state_2[reborn_invincible].duration",
-              "value": 10.0,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "enemy_skill_blackb_add",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1506_patrt"
-            },
-            {
-              "key": "skill",
-              "value": 0.0,
-              "valueStr": "Immo[Rage]"
-            },
-            {
-              "key": "atk_scale",
-              "value": 0.14,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "env_gbuff_new_with_verify",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "enemy_status_resistance"
-            }
-          ]
-        },
-        {
-          "key": "enemy_skill_blackb_add",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1506_patrt"
-            },
-            {
-              "key": "skill",
-              "value": 0.0,
-              "valueStr": "throwspear[Rage]"
-            },
-            {
-              "key": "atk_scale",
-              "value": 0.45,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_leveltype_attribute_a": {
-      "desc": "所有精英敌人生命值提升至<@recalrune.nag>200%</>，攻击力、防御力提升至<@recalrune.nag>140%</>",
-      "mods": [
-        {
-          "targets": ["ELITE"],
-          "mods": [
-            {
-              "key": "atk",
-              "value": 1.4,
-              "mode": "mul"
-            },
-            {
-              "key": "def",
-              "value": 1.4,
-              "mode": "mul"
-            },
-            {
-              "key": "hp",
-              "value": 2,
-              "mode": "mul"
-            }
-          ]
-        }
-      ],
-      "runes": [
-        {
-          "key": "enemy_attribute_mul",
-          "blackboard": [
-            {
-              "key": "atk",
-              "value": 1.4,
-              "valueStr": null
-            },
-            {
-              "key": "enemy_level_type",
-              "value": 0.0,
-              "valueStr": "ELITE"
-            },
-            {
-              "key": "def",
-              "value": 1.4,
-              "valueStr": null
-            },
-            {
-              "key": "max_hp",
-              "value": 2.0,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_leveltype_attribute_b": {
-      "desc": "<爱国者>与所有普通敌人生命值提升至<@recalrune.nag>150%</>，攻击速度<@recalrune.nag>+50</>",
-      "mods": [
-        {
-          "targets": ["enemy_1506_patrt", "NORMAL"],
-          "mods": [
-            {
-              "key": "hp",
-              "value": 1.5,
-              "mode": "mul"
-            },
-            {
-              "key": "aspd",
-              "value": 50,
-              "mode": "add"
-            }
-          ]
-        }
-      ],
-      "runes": [
-        {
-          "key": "enemy_attribute_mul",
-          "blackboard": [
-            {
-              "key": "max_hp",
-              "value": 1.5,
-              "valueStr": null
-            },
-            {
-              "key": "enemy_level_type",
-              "value": 0.0,
-              "valueStr": "NORMAL|BOSS"
-            }
-          ]
-        },
-        {
-          "key": "enemy_attribute_add",
-          "blackboard": [
-            {
-              "key": "attack_speed",
-              "value": 50.0,
-              "valueStr": null
-            },
-            {
-              "key": "enemy_level_type",
-              "value": 0.0,
-              "valueStr": "NORMAL|BOSS"
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_patrt_5": {
-      "desc": "<爱国者>生命值<@recalrune.nag>+200%</>，行军姿态下<@recalrune.nag>免疫</>停顿、晕眩、束缚、寒冷、冻结、战栗、沉睡、恐惧、浮空、诱导，且移动速度不会低于基础值，<爱国者>在场时我方所有主动撤退的单位再部署时间延长<@recalrune.nag>100%</>",
-      "mods": [
-        {
-          "targets": ["enemy_1506_patrt"],
-          "mods": [
-            {
-              "key": "hp",
-              "value": 2,
-              "mode": "mul",
-              "order": "initial"
-            }
-          ],
-          "special": {
-            "status_immune": [
-              [
-                "sluggish",
-                "stun",
-                "bind",
-                "cold",
-                "freeze",
-                "tremble",
-                "fear",
-                "levitate",
-                "attract"
-              ],
-              []
+    "level_recalrune_01-01": {
+        "base": {
+            "desc": "<爱国者><@recalrune.nag>不再等待</>\r\n<爱国者>行军姿态受到来自非阻挡单位的物理与法术伤害减少<@recalrune.nag>90%</>，被阻挡较长时间该效果逐渐降低至<@recalrune.pos>0%</>，直到脱离阻挡\r\n<爱国者>毁灭姿态无敌时间<@recalrune.nag>提升</>，对周围造成的真实伤害<@recalrune.nag>提升</>，投枪造成的伤害<@recalrune.nag>提升</>\r\n所有敌人生命值<@recalrune.nag>+100%</>，攻击力<@recalrune.nag>+25%</>，获得<@recalrune.nag>抵抗</>\r\n我方防御点可承受的敌方数量变为<@recalrune.nag>2</>",
+            "mods": [
+                {
+                    "targets": [
+                        "ALL"
+                    ],
+                    "mods": [
+                        {
+                            "key": "atk",
+                            "value": 0.25,
+                            "mode": "mul",
+                            "order": "initial"
+                        },
+                        {
+                            "key": "hp",
+                            "value": 1,
+                            "mode": "mul",
+                            "order": "initial"
+                        }
+                    ],
+                    "special": {
+                        "resist": {
+                            "tooltip": {
+                                "en": [
+                                    "$<ba.buffres>Resist</>$"
+                                ],
+                                "ja": [
+                                    "$<ba.buffres>レジスト</>$"
+                                ],
+                                "zh": [
+                                    "$持有<ba.buffres>抵抗</>$"
+                                ]
+                            }
+                        }
+                    }
+                },
+                {
+                    "targets": [
+                        "enemy_1506_patrt"
+                    ],
+                    "special": {
+                        "new_defres": {
+                            "formIndex": 0,
+                            "tooltip": {
+                                "en": [
+                                    "行军姿态受到来自非阻挡单位的物理与法术伤害减少90%，被阻挡40s后该效果逐渐降低至0%，直到脱离阻挡"
+                                ],
+                                "ja": [
+                                    "行军姿态受到来自非阻挡单位的物理与法术伤害减少90%，被阻挡40s后该效果逐渐降低至0%，直到脱离阻挡"
+                                ],
+                                "zh": [
+                                    "行军姿态受到来自非阻挡单位的物理与法术伤害减少90%，被阻挡40s后该效果逐渐降低至0%，直到脱离阻挡"
+                                ]
+                            }
+                        },
+                        "invincible": {
+                            "formIndex": 1,
+                            "value": 25
+                        },
+                        "patrt_2_1": {
+                            "formIndex": 1,
+                            "atk": {
+                                "multiplier": 1.8
+                            }
+                        },
+                        "patrt_2_2": {
+                            "formIndex": 1,
+                            "atk": {
+                                "multiplier": 0.1921
+                            }
+                        }
+                    }
+                }
             ],
-            "min_ms": {
-              "tooltip": {
-                "en": ["$移动速度不会低于基础值$"],
-                "ja": ["$移动速度不会低于基础值$"],
-                "zh": ["$移动速度不会低于基础值$"]
-              }
-            },
-            "respawn_debuff": {
-              "tooltip": {
-                "en": [
-                  "<爱国者>在场时我方所有主动撤退的单位再部署时间延长<@recalrune.nag>100%</>"
-                ],
-                "ja": [
-                  "<爱国者>在场时我方所有主动撤退的单位再部署时间延长<@recalrune.nag>100%</>"
-                ],
-                "zh": [
-                  "<爱国者>在场时我方所有主动撤退的单位再部署时间延长<@recalrune.nag>100%</>"
-                ]
-              }
-            }
-          }
-        }
-      ],
-      "runes": [
-        {
-          "key": "enemy_attribute_additive_mul",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1506_patrt"
-            },
-            {
-              "key": "max_hp",
-              "value": 2.0,
-              "valueStr": null
-            }
-          ]
+            "runes": [
+                {
+                    "key": "enemy_attribute_additive_mul",
+                    "blackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 1.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "atk",
+                            "value": 0.25,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "env_gbuff_new_with_verify",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "enemy_damage_scale[not_block_by_source]"
+                        },
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1506_patrt"
+                        },
+                        {
+                            "key": "physical",
+                            "value": 1.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "magical",
+                            "value": 1.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "damage_resistance",
+                            "value": 0.9,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "block_time",
+                            "value": 40.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "damage_scale[decay].decay_time",
+                            "value": 5.0,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "global_lifepoint",
+                    "blackboard": [
+                        {
+                            "key": "value",
+                            "value": 2.0,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_talent_blackb_add",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1506_patrt"
+                        },
+                        {
+                            "key": "reborn.patrt_t_state_2[reborn_invincible].duration",
+                            "value": 10.0,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_skill_blackb_add",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1506_patrt"
+                        },
+                        {
+                            "key": "skill",
+                            "value": 0.0,
+                            "valueStr": "Immo[Rage]"
+                        },
+                        {
+                            "key": "atk_scale",
+                            "value": 0.14,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "env_gbuff_new_with_verify",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "enemy_status_resistance"
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_skill_blackb_add",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1506_patrt"
+                        },
+                        {
+                            "key": "skill",
+                            "value": 0.0,
+                            "valueStr": "throwspear[Rage]"
+                        },
+                        {
+                            "key": "atk_scale",
+                            "value": 0.45,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
         },
-        {
-          "key": "env_gbuff_new_with_verify",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1506_patrt"
-            },
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "enemy_immune_by_respawn_cnt"
-            },
-            {
-              "key": "respawn_cnt",
-              "value": 0.0,
-              "valueStr": null
-            },
-            {
-              "key": "cold_immune",
-              "value": 1.0,
-              "valueStr": null
-            },
-            {
-              "key": "disarmed_combat_immune",
-              "value": 1.0,
-              "valueStr": null
-            },
-            {
-              "key": "feared_immune",
-              "value": 1.0,
-              "valueStr": null
-            },
-            {
-              "key": "levitate_immune",
-              "value": 1.0,
-              "valueStr": null
-            },
-            {
-              "key": "stun_immune",
-              "value": 1.0,
-              "valueStr": null
-            },
-            {
-              "key": "unmovable_immune",
-              "value": 1.0,
-              "valueStr": null
-            },
-            {
-              "key": "sluggish_immune",
-              "value": 1.0,
-              "valueStr": null
-            },
-            {
-              "key": "attracted_immune",
-              "value": 1.0,
-              "valueStr": null
-            },
-            {
-              "key": "sleep_immune",
-              "value": 1.0,
-              "valueStr": null
-            },
-            {
-              "key": "frozen_immune",
-              "value": 1.0,
-              "valueStr": null
-            }
-          ]
+        "enemy_leveltype_attribute_a": {
+            "desc": "所有精英敌人生命值提升至<@recalrune.nag>200%</>，攻击力、防御力提升至<@recalrune.nag>140%</>",
+            "mods": [
+                {
+                    "targets": [
+                        "ELITE"
+                    ],
+                    "mods": [
+                        {
+                            "key": "atk",
+                            "value": 1.4,
+                            "mode": "mul"
+                        },
+                        {
+                            "key": "def",
+                            "value": 1.4,
+                            "mode": "mul"
+                        },
+                        {
+                            "key": "hp",
+                            "value": 2,
+                            "mode": "mul"
+                        }
+                    ]
+                }
+            ],
+            "runes": [
+                {
+                    "key": "enemy_attribute_mul",
+                    "blackboard": [
+                        {
+                            "key": "atk",
+                            "value": 1.4,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "enemy_level_type",
+                            "value": 0.0,
+                            "valueStr": "ELITE"
+                        },
+                        {
+                            "key": "def",
+                            "value": 1.4,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "max_hp",
+                            "value": 2.0,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
         },
-        {
-          "key": "enemy_dynamic_ability_new",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1506_patrt"
-            },
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "withdraw_respawn_buff"
-            },
-            {
-              "key": "respawn_time",
-              "value": 2.0,
-              "valueStr": null
-            },
-            {
-              "key": "show_toast",
-              "value": 0.0,
-              "valueStr": null
-            }
-          ]
+        "enemy_leveltype_attribute_b": {
+            "desc": "<爱国者>与所有普通敌人生命值提升至<@recalrune.nag>150%</>，攻击速度<@recalrune.nag>+50</>",
+            "mods": [
+                {
+                    "targets": [
+                        "enemy_1506_patrt",
+                        "NORMAL"
+                    ],
+                    "mods": [
+                        {
+                            "key": "hp",
+                            "value": 1.5,
+                            "mode": "mul"
+                        },
+                        {
+                            "key": "aspd",
+                            "value": 50,
+                            "mode": "add"
+                        }
+                    ]
+                }
+            ],
+            "runes": [
+                {
+                    "key": "enemy_attribute_mul",
+                    "blackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 1.5,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "enemy_level_type",
+                            "value": 0.0,
+                            "valueStr": "NORMAL|BOSS"
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_attribute_add",
+                    "blackboard": [
+                        {
+                            "key": "attack_speed",
+                            "value": 50.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "enemy_level_type",
+                            "value": 0.0,
+                            "valueStr": "NORMAL|BOSS"
+                        }
+                    ]
+                }
+            ]
         },
-        {
-          "key": "env_gbuff_new_with_verify",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "move_speed_range_override"
-            },
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1506_patrt"
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_sotidm_3": {
-      "desc": "<游击队萨卡兹战士>与<游击队迫击炮兵>生命值<@recalrune.nag>+200%</>，攻击力<@recalrune.nag>+50%</>，攻击速度<@recalrune.nag>+70</>",
-      "mods": [
-        {
-          "targets": ["enemy_1084_sotidm", "enemy_1082_soticn"],
-          "mods": [
-            {
-              "key": "hp",
-              "value": 2,
-              "mode": "mul",
-              "order": "initial"
-            },
-            {
-              "key": "atk",
-              "value": 0.5,
-              "mode": "mul",
-              "order": "initial"
-            },
-            {
-              "key": "aspd",
-              "value": 70,
-              "mode": "add"
-            }
-          ]
-        }
-      ],
-      "runes": [
-        {
-          "key": "enemy_attribute_additive_mul",
-          "blackboard": [
-            {
-              "key": "max_hp",
-              "value": 2.0,
-              "valueStr": null
-            },
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1084_sotidm|enemy_1082_soticn"
-            },
-            {
-              "key": "atk",
-              "value": 0.5,
-              "valueStr": null
-            }
-          ]
+        "enemy_patrt_5": {
+            "desc": "<爱国者>生命值<@recalrune.nag>+200%</>，行军姿态下<@recalrune.nag>免疫</>停顿、晕眩、束缚、寒冷、冻结、战栗、沉睡、恐惧、浮空、诱导，且移动速度不会低于基础值，<爱国者>在场时我方所有主动撤退的单位再部署时间延长<@recalrune.nag>100%</>",
+            "mods": [
+                {
+                    "targets": [
+                        "enemy_1506_patrt"
+                    ],
+                    "mods": [
+                        {
+                            "key": "hp",
+                            "value": 2,
+                            "mode": "mul",
+                            "order": "initial"
+                        }
+                    ],
+                    "special": {
+                        "status_immune": [
+                            [
+                                "sluggish",
+                                "stun",
+                                "bind",
+                                "cold",
+                                "freeze",
+                                "tremble",
+                                "fear",
+                                "levitate",
+                                "attract"
+                            ],
+                            []
+                        ],
+                        "min_ms": {
+                            "tooltip": {
+                                "en": [
+                                    "$移动速度不会低于基础值$"
+                                ],
+                                "ja": [
+                                    "$移动速度不会低于基础值$"
+                                ],
+                                "zh": [
+                                    "$移动速度不会低于基础值$"
+                                ]
+                            }
+                        },
+                        "respawn_debuff": {
+                            "tooltip": {
+                                "en": [
+                                    "<爱国者>在场时我方所有主动撤退的单位再部署时间延长<@recalrune.nag>100%</>"
+                                ],
+                                "ja": [
+                                    "<爱国者>在场时我方所有主动撤退的单位再部署时间延长<@recalrune.nag>100%</>"
+                                ],
+                                "zh": [
+                                    "<爱国者>在场时我方所有主动撤退的单位再部署时间延长<@recalrune.nag>100%</>"
+                                ]
+                            }
+                        }
+                    }
+                }
+            ],
+            "runes": [
+                {
+                    "key": "enemy_attribute_additive_mul",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1506_patrt"
+                        },
+                        {
+                            "key": "max_hp",
+                            "value": 2.0,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "env_gbuff_new_with_verify",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1506_patrt"
+                        },
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "enemy_immune_by_respawn_cnt"
+                        },
+                        {
+                            "key": "respawn_cnt",
+                            "value": 0.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "cold_immune",
+                            "value": 1.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "disarmed_combat_immune",
+                            "value": 1.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "feared_immune",
+                            "value": 1.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "levitate_immune",
+                            "value": 1.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "stun_immune",
+                            "value": 1.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "unmovable_immune",
+                            "value": 1.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "sluggish_immune",
+                            "value": 1.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "attracted_immune",
+                            "value": 1.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "sleep_immune",
+                            "value": 1.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "frozen_immune",
+                            "value": 1.0,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_dynamic_ability_new",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1506_patrt"
+                        },
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "withdraw_respawn_buff"
+                        },
+                        {
+                            "key": "respawn_time",
+                            "value": 2.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "show_toast",
+                            "value": 0.0,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "env_gbuff_new_with_verify",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "move_speed_range_override"
+                        },
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1506_patrt"
+                        }
+                    ]
+                }
+            ]
         },
-        {
-          "key": "enemy_attribute_add",
-          "blackboard": [
-            {
-              "key": "attack_speed",
-              "value": 70.0,
-              "valueStr": null
-            },
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1084_sotidm|enemy_1082_soticn"
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_movespeed_2": {
-      "desc": "所有敌人移动速度提升<@recalrune.nag>40%</>",
-      "mods": [
-        {
-          "targets": ["enemy_1084_sotidm", "enemy_1082_soticn"],
-          "mods": [
-            {
-              "key": "ms",
-              "value": 1.4,
-              "mode": "mul"
-            }
-          ]
-        }
-      ],
-      "runes": [
-        {
-          "key": "enemy_attribute_mul",
-          "blackboard": [
-            {
-              "key": "move_speed",
-              "value": 1.4,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "char_cost_2": {
-      "desc": "所有我方单位部署费用<@recalrune.nag>+7</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "char_cost_add",
-          "blackboard": [
-            {
-              "key": "value",
-              "value": 7.0,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "char_highp_2": {
-      "desc": "所有我方高台单位的最大生命值<@recalrune.nag>-1500</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "char_attribute_add",
-          "blackboard": [
-            {
-              "key": "max_hp",
-              "value": -1500.0,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_sotiab_2": {
-      "desc": "<游击队突袭战士>与<游击队突袭战士组长><@recalrune.nag>提前出现</>，且攻击力<@recalrune.nag>+100%</>",
-      "mods": [
-        {
-          "targets": ["enemy_1083_sotiab", "enemy_1083_sotiab_2"],
-          "mods": [
-            {
-              "key": "atk",
-              "value": 1,
-              "mode": "mul",
-              "order": "initial"
-            }
-          ]
-        }
-      ],
-      "runes": [
-        {
-          "key": "level_hidden_group_enable",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "sotiab"
-            }
-          ]
+        "enemy_sotidm_3": {
+            "desc": "<游击队萨卡兹战士>与<游击队迫击炮兵>生命值<@recalrune.nag>+200%</>，攻击力<@recalrune.nag>+50%</>，攻击速度<@recalrune.nag>+70</>",
+            "mods": [
+                {
+                    "targets": [
+                        "enemy_1084_sotidm",
+                        "enemy_1082_soticn"
+                    ],
+                    "mods": [
+                        {
+                            "key": "hp",
+                            "value": 2,
+                            "mode": "mul",
+                            "order": "initial"
+                        },
+                        {
+                            "key": "atk",
+                            "value": 0.5,
+                            "mode": "mul",
+                            "order": "initial"
+                        },
+                        {
+                            "key": "aspd",
+                            "value": 70,
+                            "mode": "add"
+                        }
+                    ]
+                }
+            ],
+            "runes": [
+                {
+                    "key": "enemy_attribute_additive_mul",
+                    "blackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 2.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1084_sotidm|enemy_1082_soticn"
+                        },
+                        {
+                            "key": "atk",
+                            "value": 0.5,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_attribute_add",
+                    "blackboard": [
+                        {
+                            "key": "attack_speed",
+                            "value": 70.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1084_sotidm|enemy_1082_soticn"
+                        }
+                    ]
+                }
+            ]
         },
-        {
-          "key": "level_hidden_group_disable",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "sotiab1"
-            }
-          ]
+        "enemy_movespeed_2": {
+            "desc": "所有敌人移动速度提升<@recalrune.nag>40%</>",
+            "mods": [
+                {
+                    "targets": [
+                        "enemy_1084_sotidm",
+                        "enemy_1082_soticn"
+                    ],
+                    "mods": [
+                        {
+                            "key": "ms",
+                            "value": 1.4,
+                            "mode": "mul"
+                        }
+                    ]
+                }
+            ],
+            "runes": [
+                {
+                    "key": "enemy_attribute_mul",
+                    "blackboard": [
+                        {
+                            "key": "move_speed",
+                            "value": 1.4,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
         },
-        {
-          "key": "enemy_attribute_additive_mul",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1083_sotiab|enemy_1083_sotiab_2"
-            },
-            {
-              "key": "atk",
-              "value": 1.0,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_sotiab_3": {
-      "desc": "<游击队突袭战士组长>替换为<乌萨斯高级突袭弩手>，<游击队突袭战士>与<乌萨斯高级突袭弩手><@recalrune.nag>提前出现</>，且攻击力<@recalrune.nag>+200%</>",
-      "mods": [
-        {
-          "targets": ["enemy_1083_sotiab", "enemy_1109_uabone_2"],
-          "mods": [
-            {
-              "key": "atk",
-              "value": 2,
-              "mode": "mul",
-              "order": "initial"
-            }
-          ]
-        }
-      ],
-      "runes": [
-        {
-          "key": "level_hidden_group_enable",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "sotiab2"
-            }
-          ]
+        "char_cost_2": {
+            "desc": "所有我方单位部署费用<@recalrune.nag>+7</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "char_cost_add",
+                    "blackboard": [
+                        {
+                            "key": "value",
+                            "value": 7.0,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
         },
-        {
-          "key": "level_hidden_group_disable",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "sotiab1"
-            }
-          ]
+        "char_highp_2": {
+            "desc": "所有我方高台单位的最大生命值<@recalrune.nag>-1500</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "char_attribute_add",
+                    "blackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": -1500.0,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
         },
-        {
-          "key": "enemy_attribute_additive_mul",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1083_sotiab|enemy_1109_uabone_2"
-            },
-            {
-              "key": "atk",
-              "value": 2.0,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_dpshld_a_3": {
-      "desc": "战场上初始出现<游击队传令兵组长>与<游击队盾卫组长>，且生命值<@recalrune.nag>+200%</>，防御力<@recalrune.nag>+100%</>，攻击力<@recalrune.nag>+100%</>",
-      "mods": [
-        {
-          "targets": ["enemy_1080_sotidp_2","enemy_1081_sotisd_2"],
-          "mods": [
-            {
-              "key": "hp",
-              "value": 2,
-              "mode": "mul",
-              "order": "initial"
-            },
-            {
-              "key": "def",
-              "value": 1,
-              "mode": "mul",
-              "order": "initial"
-            },
-            {
-              "key": "atk",
-              "value": 1,
-              "mode": "mul",
-              "order": "initial"
-            }
-          ]
-        }
-      ],
-      "runes": [
-        {
-          "key": "level_hidden_group_enable",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "dpshlda"
-            }
-          ]
+        "enemy_sotiab_2": {
+            "desc": "<游击队突袭战士>与<游击队突袭战士组长><@recalrune.nag>提前出现</>，且攻击力<@recalrune.nag>+100%</>",
+            "mods": [
+                {
+                    "targets": [
+                        "enemy_1083_sotiab",
+                        "enemy_1083_sotiab_2"
+                    ],
+                    "mods": [
+                        {
+                            "key": "atk",
+                            "value": 1,
+                            "mode": "mul",
+                            "order": "initial"
+                        }
+                    ]
+                }
+            ],
+            "runes": [
+                {
+                    "key": "level_hidden_group_enable",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "sotiab"
+                        }
+                    ]
+                },
+                {
+                    "key": "level_hidden_group_disable",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "sotiab1"
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_attribute_additive_mul",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1083_sotiab|enemy_1083_sotiab_2"
+                        },
+                        {
+                            "key": "atk",
+                            "value": 1.0,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
         },
-        {
-          "key": "enemy_attribute_additive_mul",
-          "blackboard": [
-            {
-              "key": "max_hp",
-              "value": 2.0,
-              "valueStr": null
-            },
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1080_sotidp_2|enemy_1081_sotisd_2"
-            },
-            {
-              "key": "atk",
-              "value": 1.0,
-              "valueStr": null
-            },
-            {
-              "key": "def",
-              "value": 1.0,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_dpshld_b_3": {
-      "desc": "战场上后续出现<游击队传令兵组长>与<游击队盾卫组长>，且生命值<@recalrune.nag>+200%</>，防御力<@recalrune.nag>+100%</>，攻击力<@recalrune.nag>+100%</>",
-      "mods": [
-        {
-          "targets": ["enemy_1080_sotidp_2","enemy_1081_sotisd_2"],
-          "mods": [
-            {
-              "key": "hp",
-              "value": 2,
-              "mode": "mul",
-              "order": "initial"
-            },
-            {
-              "key": "def",
-              "value": 1,
-              "mode": "mul",
-              "order": "initial"
-            },
-            {
-              "key": "atk",
-              "value": 1,
-              "mode": "mul",
-              "order": "initial"
-            }
-          ]
-        }
-      ],
-      "runes": [
-        {
-          "key": "level_hidden_group_enable",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "dpshldb"
-            }
-          ]
+        "enemy_sotiab_3": {
+            "desc": "<游击队突袭战士组长>替换为<乌萨斯高级突袭弩手>，<游击队突袭战士>与<乌萨斯高级突袭弩手><@recalrune.nag>提前出现</>，且攻击力<@recalrune.nag>+200%</>",
+            "mods": [
+                {
+                    "targets": [
+                        "enemy_1083_sotiab",
+                        "enemy_1109_uabone_2"
+                    ],
+                    "mods": [
+                        {
+                            "key": "atk",
+                            "value": 2,
+                            "mode": "mul",
+                            "order": "initial"
+                        }
+                    ]
+                }
+            ],
+            "runes": [
+                {
+                    "key": "level_hidden_group_enable",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "sotiab2"
+                        }
+                    ]
+                },
+                {
+                    "key": "level_hidden_group_disable",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "sotiab1"
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_attribute_additive_mul",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1083_sotiab|enemy_1109_uabone_2"
+                        },
+                        {
+                            "key": "atk",
+                            "value": 2.0,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
         },
-        {
-          "key": "enemy_attribute_additive_mul",
-          "blackboard": [
-            {
-              "key": "max_hp",
-              "value": 2.0,
-              "valueStr": null
-            },
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1080_sotidp_2|enemy_1081_sotisd_2"
-            },
-            {
-              "key": "atk",
-              "value": 1.0,
-              "valueStr": null
-            },
-            {
-              "key": "def",
-              "value": 1.0,
-              "valueStr": null
-            }
-          ]
+        "enemy_dpshld_a_3": {
+            "desc": "战场上初始出现<游击队传令兵组长>与<游击队盾卫组长>，且生命值<@recalrune.nag>+200%</>，防御力<@recalrune.nag>+100%</>，攻击力<@recalrune.nag>+100%</>",
+            "mods": [
+                {
+                    "targets": [
+                        "enemy_1080_sotidp_2",
+                        "enemy_1081_sotisd_2"
+                    ],
+                    "mods": [
+                        {
+                            "key": "hp",
+                            "value": 2,
+                            "mode": "mul",
+                            "order": "initial"
+                        },
+                        {
+                            "key": "def",
+                            "value": 1,
+                            "mode": "mul",
+                            "order": "initial"
+                        },
+                        {
+                            "key": "atk",
+                            "value": 1,
+                            "mode": "mul",
+                            "order": "initial"
+                        }
+                    ]
+                }
+            ],
+            "runes": [
+                {
+                    "key": "level_hidden_group_enable",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "dpshlda"
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_attribute_additive_mul",
+                    "blackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 2.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1080_sotidp_2|enemy_1081_sotisd_2"
+                        },
+                        {
+                            "key": "atk",
+                            "value": 1.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "def",
+                            "value": 1.0,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "enemy_dpshld_b_3": {
+            "desc": "战场上后续出现<游击队传令兵组长>与<游击队盾卫组长>，且生命值<@recalrune.nag>+200%</>，防御力<@recalrune.nag>+100%</>，攻击力<@recalrune.nag>+100%</>",
+            "mods": [
+                {
+                    "targets": [
+                        "enemy_1080_sotidp_2",
+                        "enemy_1081_sotisd_2"
+                    ],
+                    "mods": [
+                        {
+                            "key": "hp",
+                            "value": 2,
+                            "mode": "mul",
+                            "order": "initial"
+                        },
+                        {
+                            "key": "def",
+                            "value": 1,
+                            "mode": "mul",
+                            "order": "initial"
+                        },
+                        {
+                            "key": "atk",
+                            "value": 1,
+                            "mode": "mul",
+                            "order": "initial"
+                        }
+                    ]
+                }
+            ],
+            "runes": [
+                {
+                    "key": "level_hidden_group_enable",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "dpshldb"
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_attribute_additive_mul",
+                    "blackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 2.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1080_sotidp_2|enemy_1081_sotisd_2"
+                        },
+                        {
+                            "key": "atk",
+                            "value": 1.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "def",
+                            "value": 1.0,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "char_groatk_2": {
+            "desc": "所有我方地面单位的攻击速度<@recalrune.nag>-40</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "char_attribute_add",
+                    "blackboard": [
+                        {
+                            "key": "attack_speed",
+                            "value": -40.0,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "char_groatk_3": {
+            "desc": "所有我方地面单位的攻击速度<@recalrune.nag>-60</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "char_attribute_add",
+                    "blackboard": [
+                        {
+                            "key": "attack_speed",
+                            "value": -60.0,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "char_exclude_guard_2": {
+            "desc": "禁止使用近卫干员",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "char_exclude",
+                    "blackboard": []
+                }
+            ]
+        },
+        "char_exclude_medic_2": {
+            "desc": "禁止使用医疗干员",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "char_exclude",
+                    "blackboard": []
+                }
+            ]
+        },
+        "char_exclude_special_2": {
+            "desc": "禁止使用特种干员",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "char_exclude",
+                    "blackboard": []
+                }
+            ]
         }
-      ]
     },
-    "char_groatk_2": {
-      "desc": "所有我方地面单位的攻击速度<@recalrune.nag>-40</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "char_attribute_add",
-          "blackboard": [
-            {
-              "key": "attack_speed",
-              "value": -40.0,
-              "valueStr": null
-            }
-          ]
+    "level_recalrune_01-02": {
+        "base": {
+            "desc": "<源石虫·α>进入目标点<@recalrune.pos>不再损失目标生命值</>，但生命值<@recalrune.nag>+1000%</>\r\n所有敌人生命值<@recalrune.nag>+180%</>，攻击力<@recalrune.nag>+140%</>\r\n<轻甲卫兵>防御力<@recalrune.nag>+800</>\r\n<幽灵>生命值<@recalrune.nag>+400%</>，获得抵抗\r\n所有我方单位攻击力<@recalrune.nag>-50%</>，攻击速度<@recalrune.nag>-50</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "enemy_attribute_additive_mul",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1007_slime_2"
+                        },
+                        {
+                            "key": "max_hp",
+                            "value": 10.0,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_attribute_additive_mul",
+                    "blackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 1.8,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "atk",
+                            "value": 1.4,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_attribute_add",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1015_litamr"
+                        },
+                        {
+                            "key": "def",
+                            "value": 800.0,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_attribute_additive_mul",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1008_ghost"
+                        },
+                        {
+                            "key": "max_hp",
+                            "value": 4.0,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "env_gbuff_new_with_verify",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1008_ghost"
+                        },
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "enemy_status_resistance"
+                        }
+                    ]
+                },
+                {
+                    "key": "char_attribute_mul",
+                    "blackboard": [
+                        {
+                            "key": "atk",
+                            "value": 0.5,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "char_attribute_add",
+                    "blackboard": [
+                        {
+                            "key": "attack_speed",
+                            "value": -50.0,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "char_exclude_highland": {
+            "desc": "禁止使用远程干员",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "char_exclude",
+                    "blackboard": []
+                }
+            ]
+        },
+        "char_exclude_ground": {
+            "desc": "禁止使用近战干员",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "char_exclude",
+                    "blackboard": []
+                }
+            ]
+        },
+        "char_exclude_vansni_2": {
+            "desc": "先锋和狙击干员的部署费用提升至<@recalrune.nag>2</>倍",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "char_cost_mul",
+                    "blackboard": [
+                        {
+                            "key": "scale",
+                            "value": 2.0,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "enemy_replace_ghost_3": {
+            "desc": "部分<幽灵>替换为<全封闭沙滩车>，且生命值<@recalrune.nag>+150%</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "level_hidden_group_enable",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "ghosthigh"
+                        }
+                    ]
+                },
+                {
+                    "key": "level_hidden_group_disable",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "ghostbase"
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_attribute_additive_mul",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1263_durbus"
+                        },
+                        {
+                            "key": "max_hp",
+                            "value": 1.5,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "enemy_replace_yokai_3": {
+            "desc": "部分<妖怪>替换为<威龙>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "level_hidden_group_enable",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "yokaihigh"
+                        }
+                    ]
+                },
+                {
+                    "key": "level_hidden_group_disable",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "yokaibase"
+                        }
+                    ]
+                }
+            ]
+        },
+        "enemy_replace_laxe_2": {
+            "desc": "<屠夫>替换为<荒原劫掠者>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "level_enemy_replace",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "enemy_1034_laxe"
+                        },
+                        {
+                            "key": "value",
+                            "value": 0.0,
+                            "valueStr": "enemy_1339_bhrgrd"
+                        }
+                    ]
+                }
+            ]
+        },
+        "enemy_replace_litamr_2": {
+            "desc": "部分<轻甲卫兵>替换为<游击队盾卫组长>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "level_hidden_group_disable",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "litamrbase"
+                        }
+                    ]
+                },
+                {
+                    "key": "level_hidden_group_enable",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "litamrhigh"
+                        }
+                    ]
+                }
+            ]
+        },
+        "enemy_movespeed_2": {
+            "desc": "所有敌人移动速度提升<@recalrune.nag>40%</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "enemy_attribute_mul",
+                    "blackboard": [
+                        {
+                            "key": "move_speed",
+                            "value": 1.4,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "enemy_maxhp_2": {
+            "desc": "所有敌人生命值提升至<@recalrune.nag>140%</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "enemy_attribute_mul",
+                    "blackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 1.4,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "enemy_maxhp_3": {
+            "desc": "所有敌人生命值提升至<@recalrune.nag>180%</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "enemy_attribute_mul",
+                    "blackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 1.8,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "enemy_slime_repbsl_3": {
+            "desc": "部分<源石虫·α>替换为<高能源石虫>，且重量提升<@recalrune.nag>3</>个等级",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "level_hidden_group_enable",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "slimehigh"
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_attribute_add",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1021_bslime"
+                        },
+                        {
+                            "key": "mass_level",
+                            "value": 3.0,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "level_hidden_group_disable",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "slimebase"
+                        }
+                    ]
+                }
+            ]
+        },
+        "enemy_slime_attr_3": {
+            "desc": "<源石虫·α>生命值提升至<@recalrune.nag>180%</>，且重量提升<@recalrune.nag>3</>个等级",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "enemy_attribute_add",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1007_slime_2"
+                        },
+                        {
+                            "key": "mass_level",
+                            "value": 3.0,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_attribute_mul",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1007_slime_2"
+                        },
+                        {
+                            "key": "max_hp",
+                            "value": 1.8,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "hidden_def_2": {
+            "desc": "出现<御4>保护虫群，且<御4>的法术抗性<@recalrune.nag>+50</>，提供的防御力加成额外<@recalrune.nag>+600</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "level_hidden_group_enable",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "def"
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_talent_blackb_add",
+                    "blackboard": [
+                        {
+                            "key": "defup.def",
+                            "value": 600.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1017_defdrn"
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_attribute_add",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1017_defdrn"
+                        },
+                        {
+                            "key": "magic_resistance",
+                            "value": 50.0,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "hidden_magicresistance_2": {
+            "desc": "出现<护障·P>保护虫群，且<护障·P>的防御力<@recalrune.nag>+900</>，提供的法术抗性加成额外<@recalrune.nag>+40</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "level_hidden_group_enable",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "mr"
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_talent_blackb_add",
+                    "blackboard": [
+                        {
+                            "key": "magdef_add.magic_resistance",
+                            "value": 40.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1355_mrfly_2"
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_attribute_add",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1355_mrfly_2"
+                        },
+                        {
+                            "key": "def",
+                            "value": 900.0,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "enemy_bhrknf_2": {
+            "desc": "场上初始出现<荒原窃盗者>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "level_hidden_group_enable",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "cost1"
+                        }
+                    ]
+                }
+            ]
+        },
+        "enemy_bhrknf_3": {
+            "desc": "场上初始出现<荒原窃盗者精英>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "level_hidden_group_enable",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "cost2"
+                        }
+                    ]
+                }
+            ]
         }
-      ]
     },
-    "char_groatk_3": {
-      "desc": "所有我方地面单位的攻击速度<@recalrune.nag>-60</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "char_attribute_add",
-          "blackboard": [
-            {
-              "key": "attack_speed",
-              "value": -60.0,
-              "valueStr": null
-            }
-          ]
+    "level_recalrune_01-03": {
+        "base": {
+            "desc": "不再持有<干扰装置>，但额外出现可掉落<干扰装置>的<豪华赞助无人机>，且<干扰装置><@recalrune.pos>不容易</>成为敌人的攻击目标，生命值提升至<@recalrune.pos>700%</>\r\n场上初始额外出现一个<寒霜>且<寒霜>的防御力<@recalrune.nag>+100%</>，生命值<@recalrune.nag>+300%</>\r\n<法术大师A1>和<法术大师A2>的生命值<@recalrune.nag>+300%</>，攻击力<@recalrune.nag>+100%</>\r\n<豪华赞助无人机>的生命<@recalrune.nag>+300%</>，移动速度提升至<@recalrune.nag>400%</>\r\n所有我方单位的攻击力<@recalrune.nag>-30%</>，生命值<@recalrune.nag>-30%</>\r\n我方防御点可承受的敌方数量变为<@recalrune.nag>1</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "char_attribute_additive_mul",
+                    "blackboard": [
+                        {
+                            "key": "atk",
+                            "value": -0.3,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "max_hp",
+                            "value": -0.3,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_attribute_additive_mul",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1041_lazerd|enemy_1041_lazerd_2"
+                        },
+                        {
+                            "key": "max_hp",
+                            "value": 3.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "atk",
+                            "value": 1.0,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "char_attribute_add",
+                    "blackboard": [
+                        {
+                            "key": "taunt_level",
+                            "value": -2.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "char",
+                            "value": 0.0,
+                            "valueStr": "trap_006_antidr"
+                        }
+                    ]
+                },
+                {
+                    "key": "char_attribute_mul",
+                    "blackboard": [
+                        {
+                            "key": "char",
+                            "value": 0.0,
+                            "valueStr": "trap_006_antidr"
+                        },
+                        {
+                            "key": "max_hp",
+                            "value": 7.0,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_attribute_mul",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1105_tyokai_2"
+                        },
+                        {
+                            "key": "move_speed",
+                            "value": 4.0,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "level_hidden_group_enable",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "frostdHidden"
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_attribute_additive_mul",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1042_frostd"
+                        },
+                        {
+                            "key": "def",
+                            "value": 1.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "max_hp",
+                            "value": 3.0,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_attribute_additive_mul",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1105_tyokai_2"
+                        },
+                        {
+                            "key": "max_hp",
+                            "value": 3.0,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "global_lifepoint",
+                    "blackboard": [
+                        {
+                            "key": "value",
+                            "value": 1.0,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "token_build_a": {
+            "desc": "<干扰装置>可以额外被部署在地面上，且每<@recalrune.nag>3</>秒扣除<@recalrune.nag>3</>点部署费用",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "card_buff_with_verify",
+                    "blackboard": [
+                        {
+                            "key": "char",
+                            "value": 0.0,
+                            "valueStr": "trap_006_antidr"
+                        },
+                        {
+                            "key": "buildable_type",
+                            "value": 1.0,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "env_gbuff_new_with_verify",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "reduce_cost_by_interval"
+                        },
+                        {
+                            "key": "char",
+                            "value": 0.0,
+                            "valueStr": "trap_006_antidr"
+                        },
+                        {
+                            "key": "interval",
+                            "value": 3.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "cost",
+                            "value": -3.0,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "token_build_b": {
+            "desc": "<干扰装置>仅可被部署在高台上",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "deck_card_buff",
+                    "blackboard": [
+                        {
+                            "key": "char",
+                            "value": 0.0,
+                            "valueStr": "trap_006_antidr"
+                        },
+                        {
+                            "key": "buildable_type",
+                            "value": 2.0,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "enemy_speed_a": {
+            "desc": "所有敌人移动速度提升<@recalrune.nag>60%</>，且生命值<@recalrune.nag>+{max_hp:0%}</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "enemy_attribute_mul",
+                    "blackboard": [
+                        {
+                            "key": "move_speed",
+                            "value": 1.6,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_attribute_additive_mul",
+                    "blackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 0.7,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "enemy_speed_b": {
+            "desc": "所有敌人移动速度降低<@recalrune.pos>40%</>，但生命值<@recalrune.nag>+{max_hp:0%}</>，攻击力<@recalrune.nag>+{atk:0%}</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "enemy_attribute_mul",
+                    "blackboard": [
+                        {
+                            "key": "move_speed",
+                            "value": 0.6,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_attribute_additive_mul",
+                    "blackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 2.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "atk",
+                            "value": 0.7,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "enemy_silenceImmue_a": {
+            "desc": "<帝国炮火中枢先兆者>和<寒霜><@recalrune.nag>不会</>受到<干扰装置>造成的无法攻击效果影响，且<寒霜>获得<@recalrune.nag>沉默抗性</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "env_gbuff_new_with_verify",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1112_emppnt_2"
+                        },
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "disarmed_immune"
+                        }
+                    ]
+                },
+                {
+                    "key": "env_gbuff_new_with_verify",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1042_frostd"
+                        },
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "disarmed_immune"
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_dynamic_ability_new",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1042_frostd"
+                        },
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "silenceimmue"
+                        }
+                    ]
+                }
+            ]
+        },
+        "enemy_silenceImmue_b": {
+            "desc": "<法术大师A1>和<法术大师A2><@recalrune.nag>不会</>受到<干扰装置>造成的无法攻击效果影响",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "env_gbuff_new_with_verify",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1041_lazerd_2|enemy_1041_lazerd"
+                        },
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "disarmed_immune"
+                        }
+                    ]
+                }
+            ]
+        },
+        "emppnt_level_up_2": {
+            "desc": "出现额外的<帝国炮火中枢先兆者>，且<帝国炮火中枢先兆者>的防御力<@recalrune.nag>+{def:0%}</>，攻击力<@recalrune.nag>+{atk:0%}</>，生命值<@recalrune.nag>+{max_hp:0%}</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "enemy_attribute_additive_mul",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1112_emppnt_2"
+                        },
+                        {
+                            "key": "def",
+                            "value": 1.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "atk",
+                            "value": 1.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "max_hp",
+                            "value": 2.0,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "level_hidden_group_enable",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "emppntMore"
+                        }
+                    ]
+                }
+            ]
+        },
+        "airforce_frost_2": {
+            "desc": "<寒霜>受到攻击范围外的伤害降低<@recalrune.nag>{damage_resistance:0%}</>，且生命值<@recalrune.nag>+{max_hp:0%}</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "env_gbuff_new_with_verify",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "damage_scale[type]"
+                        },
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1042_frostd"
+                        },
+                        {
+                            "key": "physical",
+                            "value": 1.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "magical",
+                            "value": 1.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "damage_resistance",
+                            "value": 0.7,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "range_radius",
+                            "value": 2.5,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_attribute_additive_mul",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1042_frostd"
+                        },
+                        {
+                            "key": "max_hp",
+                            "value": 3.0,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "airforce_lazerd_2": {
+            "desc": "<法术大师A1>和<法术大师A2>的生命值<@recalrune.nag>+{max_hp:0%}</>，攻击力<@recalrune.nag>+{atk:0%}</>，防御力<@recalrune.nag>+{def:0%}</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "enemy_attribute_additive_mul",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1041_lazerd|enemy_1041_lazerd_2"
+                        },
+                        {
+                            "key": "max_hp",
+                            "value": 3.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "atk",
+                            "value": 2.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "def",
+                            "value": 2.0,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "char_respawntime_2": {
+            "desc": "我方所有单位再部署时间延长<@recalrune.nag>75%</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "char_respawntime_mul",
+                    "blackboard": [
+                        {
+                            "key": "scale",
+                            "value": 1.75,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "tyokai_immue_3": {
+            "desc": "<豪华赞助无人机><@recalrune.nag>免疫</>沉睡，冻结和晕眩，且生命值<@recalrune.nag>+{max_hp:0%}</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "enemy_dynamic_ability_new",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1105_tyokai_2"
+                        },
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "stunimmue"
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_abnormal_immune",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1105_tyokai_2"
+                        },
+                        {
+                            "key": "sleeping",
+                            "value": 1.0,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_dynamic_ability_new",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1105_tyokai_2"
+                        },
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "frozenimmue"
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_attribute_additive_mul",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1105_tyokai_2"
+                        },
+                        {
+                            "key": "max_hp",
+                            "value": 3.5,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "tyokai_fightback_3": {
+            "desc": "<豪华赞助无人机>的攻击力<@recalrune.nag>+{atk:0}</>，生命值<@recalrune.nag>+{max_hp:0%}</>，且受到物理和法术伤害时对目标造成相当于攻击力<@recalrune.nag>{atk_scale:0%}</>的法术伤害",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "env_gbuff_new_with_verify",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "inverse_damage[type]"
+                        },
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1105_tyokai_2"
+                        },
+                        {
+                            "key": "atk_scale",
+                            "value": 0.6,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "type",
+                            "value": 2.0,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_attribute_add",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1105_tyokai_2"
+                        },
+                        {
+                            "key": "atk",
+                            "value": 500.0,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_attribute_additive_mul",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1105_tyokai_2"
+                        },
+                        {
+                            "key": "max_hp",
+                            "value": 1.0,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "enemy_attri_base_2": {
+            "desc": "所有敌人生命值提升至<@recalrune.nag>{max_hp:0%}</>，防御力提升至<@recalrune.nag>{def:0%}</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "enemy_attribute_mul",
+                    "blackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 2.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "def",
+                            "value": 1.6,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "enemy_attri_atk_2": {
+            "desc": "所有敌人攻击力提升至<@recalrune.nag>{atk:0%}</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "enemy_attribute_mul",
+                    "blackboard": [
+                        {
+                            "key": "atk",
+                            "value": 2.0,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "global_magic_resist_2": {
+            "desc": "所有敌人法术抗性<@recalrune.nag>+{magic_resistance:0}</>，生命值提升至<@recalrune.nag>{max_hp:0%}</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "enemy_attribute_add",
+                    "blackboard": [
+                        {
+                            "key": "magic_resistance",
+                            "value": 30.0,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_attribute_mul",
+                    "blackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 1.3,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "defdrn_up_2": {
+            "desc": "<御4>的生命值<@recalrune.nag>+{max_hp:0%}</>，提供的防御力加成额外<@recalrune.nag>+{defup.def}</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "enemy_talent_blackb_add",
+                    "blackboard": [
+                        {
+                            "key": "defup.def",
+                            "value": 1500.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1017_defdrn"
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_attribute_additive_mul",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1017_defdrn"
+                        },
+                        {
+                            "key": "max_hp",
+                            "value": 5.0,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "emppnt_more_2": {
+            "desc": "场上初始额外出现的一个<寒霜>替换为<帝国炮火中枢先兆者>，且<帝国炮火中枢先兆者>的生命值<@recalrune.nag>+{max_hp:0%}</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "level_hidden_group_enable",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "emppntHidden"
+                        }
+                    ]
+                },
+                {
+                    "key": "level_hidden_group_disable",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "frostdHidden"
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_attribute_additive_mul",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1112_emppnt_2"
+                        },
+                        {
+                            "key": "max_hp",
+                            "value": 1.0,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "lunmag_strong_2": {
+            "desc": "场上初始出现<特战术师组长>，且<特战术师组长>最大生命值提升至<@recalrune.nag>{max_hp}倍</>，防御力提升至<@recalrune.nag>{def}倍</>，攻击力提升至<@recalrune.nag>{atk}倍</>，攻击范围<@recalrune.nag>扩大</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "enemy_attribute_mul",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1038_lunmag_2"
+                        },
+                        {
+                            "key": "max_hp",
+                            "value": 3.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "def",
+                            "value": 2.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "atk",
+                            "value": 1.3,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "level_hidden_group_enable",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "lunmagHidden"
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_attackradius_mul",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1038_lunmag_2"
+                        },
+                        {
+                            "key": "scale",
+                            "value": 1.5,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "global_costrecovery_2": {
+            "desc": "部署费用的自然回复速度降低<@recalrune.nag>50%</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "global_cost_recovery_mul",
+                    "blackboard": [
+                        {
+                            "key": "scale",
+                            "value": 2.0,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "global_costrecovery_3": {
+            "desc": "部署费用的自然回复速度降低<@recalrune.nag>75%</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "global_cost_recovery_mul",
+                    "blackboard": [
+                        {
+                            "key": "scale",
+                            "value": 4.0,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "global_squadnum_2": {
+            "desc": "最多可编入<@recalrune.nag>{value}</>名干员进入作战",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "global_squad_num_limit",
+                    "blackboard": [
+                        {
+                            "key": "value",
+                            "value": 7.0,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "global_pcharnum_3": {
+            "desc": "可同时部署的单位数量减少至<@recalrune.nag>5</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "global_placable_char_num_add",
+                    "blackboard": [
+                        {
+                            "key": "value",
+                            "value": -4.0,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "char_exclude_tavasn_2": {
+            "desc": "重装、狙击和辅助干员的部署费用提升至<@recalrune.nag>2</>倍",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "char_cost_mul",
+                    "blackboard": [
+                        {
+                            "key": "scale",
+                            "value": 2.0,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "char_exclude_tavasn_3": {
+            "desc": "重装、狙击和辅助干员的部署费用提升至<@recalrune.nag>3</>倍",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "char_cost_mul",
+                    "blackboard": [
+                        {
+                            "key": "scale",
+                            "value": 3.0,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "char_exclude_spwime_2": {
+            "desc": "特种、术师和医疗干员的部署费用提升至<@recalrune.nag>2</>倍",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "char_cost_mul",
+                    "blackboard": [
+                        {
+                            "key": "scale",
+                            "value": 2.0,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "char_exclude_spwime_3": {
+            "desc": "特种、术师和医疗干员的部署费用提升至<@recalrune.nag>3</>倍",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "char_cost_mul",
+                    "blackboard": [
+                        {
+                            "key": "scale",
+                            "value": 3.0,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
         }
-      ]
     },
-    "char_exclude_guard_2": {
-      "desc": "禁止使用近卫干员",
-      "mods": [],
-      "runes": [
-        {
-          "key": "char_exclude",
-          "blackboard": []
+    "level_recalrune_01-04": {
+        "base": {
+            "desc": "所有敌人的最大生命值<@recalrune.nag>+80%</>，攻击力<@recalrune.nag>+60%</>，防御力<@recalrune.nag>+400</>\r\n所有我方单位的攻击力<@recalrune.nag>-40%</>，最大生命值<@recalrune.nag>-40%</>\r\n出现<深池伙友卫队精英>和<深池伙友影刃精英>\r\n战场中会出现强行穿过<破碎支柱>的<深池焚毁者队长>\r\n",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "enemy_attribute_additive_mul",
+                    "blackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 0.8,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "atk",
+                            "value": 0.6,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "char_attribute_additive_mul",
+                    "blackboard": [
+                        {
+                            "key": "atk",
+                            "value": -0.4,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "char_attribute_additive_mul",
+                    "blackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": -0.4,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_attribute_add",
+                    "blackboard": [
+                        {
+                            "key": "def",
+                            "value": 400.0,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "level_hidden_group_enable",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "dun0"
+                        }
+                    ]
+                },
+                {
+                    "key": "level_hidden_group_enable",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "jian0"
+                        }
+                    ]
+                }
+            ]
+        },
+        "enemy_dufrbl_a": {
+            "desc": "<净浊之焰>造成的伤害提升至<@recalrune.nag>{atk:0%}</>，我方防御点可承受的敌方数量变为<@recalrune.nag>1</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "enemy_attribute_mul",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1177_dufrbl_2"
+                        },
+                        {
+                            "key": "atk",
+                            "value": 2.0,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "global_lifepoint",
+                    "blackboard": [
+                        {
+                            "key": "value",
+                            "value": 1.0,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "enemy_dufrbl_b": {
+            "desc": "<净浊之焰>造成的伤害降低至<@recalrune.pos>{atk:0%}</>，但是进入目标点后会<@recalrune.nag>扣除1点目标生命值</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "env_gbuff_new_with_verify",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "extra_life_point_on_exit"
+                        },
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1177_dufrbl_2"
+                        },
+                        {
+                            "key": "value",
+                            "value": 1.0,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_attribute_mul",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1177_dufrbl_2"
+                        },
+                        {
+                            "key": "atk",
+                            "value": 0.4,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "enemy_global_b": {
+            "desc": "所有精英敌人的防御力<@recalrune.nag>+1200</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "enemy_attribute_add",
+                    "blackboard": [
+                        {
+                            "key": "def",
+                            "value": 1200.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "enemy_level_type",
+                            "value": 0.0,
+                            "valueStr": "ELITE"
+                        }
+                    ]
+                }
+            ]
+        },
+        "enemy_global_a": {
+            "desc": "所有敌人法术抗性<@recalrune.nag>+30</>，所有精英敌人获得<@recalrune.nag>折射</>并且获得<@recalrune.nag>沉默抗性</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "enemy_dynamic_ability_new",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "silenceimmue"
+                        },
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1176_dusocr_2"
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_dynamic_ability_new",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "silenceimmue"
+                        },
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1173_duspfr_2"
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_dynamic_ability_new",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "silenceimmue"
+                        },
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1170_dushld_2"
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_dynamic_ability_new",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "silenceimmue"
+                        },
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1175_dushdo_2"
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_dynamic_ability_new",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "silenceimmue"
+                        },
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1174_duholy_2"
+                        }
+                    ]
+                },
+                {
+                    "key": "env_gbuff_new_with_verify",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "refracting"
+                        },
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1176_dusocr_2"
+                        },
+                        {
+                            "key": "magic_resistance",
+                            "value": 70.0,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "env_gbuff_new_with_verify",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "refracting"
+                        },
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1173_duspfr_2"
+                        },
+                        {
+                            "key": "magic_resistance",
+                            "value": 70.0,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "env_gbuff_new_with_verify",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "refracting"
+                        },
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1175_dushdo_2"
+                        },
+                        {
+                            "key": "magic_resistance",
+                            "value": 70.0,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_attribute_add",
+                    "blackboard": [
+                        {
+                            "key": "magic_resistance",
+                            "value": 30.0,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "enemy_duholydushdo_a_3": {
+            "desc": "出现额外的<深池伙友卫队精英>和<深池伙友影刃精英>，<深池伙友卫队精英>的最大生命值<@recalrune.nag>+{max_hp:0%}</>，防御力<@recalrune.nag>+{def}</>；<深池伙友影刃精英>的攻击力<@recalrune.nag>+100%</>，最大生命值<@recalrune.nag>+80%</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "enemy_attribute_additive_mul",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1174_duholy_2"
+                        },
+                        {
+                            "key": "max_hp",
+                            "value": 1.5,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_attribute_add",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1174_duholy_2"
+                        },
+                        {
+                            "key": "def",
+                            "value": 600.0,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_attribute_additive_mul",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1175_dushdo_2"
+                        },
+                        {
+                            "key": "atk",
+                            "value": 1.0,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "max_hp",
+                            "value": 0.8,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "level_hidden_group_enable",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "dun"
+                        }
+                    ]
+                },
+                {
+                    "key": "level_hidden_group_enable",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "jian"
+                        }
+                    ]
+                }
+            ]
+        },
+        "enemy_duholydushdo_b_3": {
+            "desc": "出现额外的<深池伙友卫队精英>和<深池伙友影刃精英>，且两者靠近时，<深池伙友卫队精英>激活力场使周围我方攻击速度额外<@recalrune.nag>{traitAbility.attack_speed}</>，<深池伙友影刃精英>的攻击速度进一步<@recalrune.nag>提升</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "enemy_talent_blackb_add",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1175_dushdo_2"
+                        },
+                        {
+                            "key": "traitAbility.base_attack_time",
+                            "value": -0.3,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_talent_blackb_add",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1174_duholy_2"
+                        },
+                        {
+                            "key": "traitAbility.attack_speed",
+                            "value": -60.0,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "level_hidden_group_enable",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "dun"
+                        }
+                    ]
+                },
+                {
+                    "key": "level_hidden_group_enable",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "jian"
+                        }
+                    ]
+                }
+            ]
+        },
+        "enemy_duphlx_b_2": {
+            "desc": "出现<深池方阵指挥官>，<深池方阵指挥官>的攻击力<@recalrune.nag>+{atk:0%}</>，最大生命值<@recalrune.nag>+{max_hp:0%}</>，其他<深池方阵指挥官>位于附近时，防御力额外<@recalrune.nag>+{auraDefup.def}</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "enemy_talent_blackb_add",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1169_duphlx_2"
+                        },
+                        {
+                            "key": "auraDefup.def",
+                            "value": 1000.0,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_attribute_additive_mul",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1169_duphlx_2"
+                        },
+                        {
+                            "key": "atk",
+                            "value": 0.4,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "max_hp",
+                            "value": 1.0,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "level_hidden_group_enable",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "zhihuiguan"
+                        }
+                    ]
+                }
+            ]
+        },
+        "enemy_movespeed_2": {
+            "desc": "所有敌人的移动速度提升<@recalrune.nag>50%</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "enemy_attribute_mul",
+                    "blackboard": [
+                        {
+                            "key": "move_speed",
+                            "value": 1.5,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "enemy_hiddengroup_b_2": {
+            "desc": "地图左侧初始存在<深池焚毁者队长>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "level_hidden_group_enable",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "zibao2"
+                        }
+                    ]
+                }
+            ]
+        },
+        "trap_dupilr_2": {
+            "desc": "<破碎支柱>初始位置改变且最大生命值提升至<@recalrune.nag>{max_hp:0%}</>，防御力<@recalrune.nag>+{def}</>，并且地图右侧初始存在<深池焚毁队长>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "level_hidden_group_enable",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "shizhu2"
+                        }
+                    ]
+                },
+                {
+                    "key": "level_hidden_group_disable",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "shizhu1"
+                        }
+                    ]
+                },
+                {
+                    "key": "char_attribute_mul",
+                    "blackboard": [
+                        {
+                            "key": "char",
+                            "value": 0.0,
+                            "valueStr": "trap_043_dupilr"
+                        },
+                        {
+                            "key": "max_hp",
+                            "value": 5.0,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "char_attribute_add",
+                    "blackboard": [
+                        {
+                            "key": "char",
+                            "value": 0.0,
+                            "valueStr": "trap_043_dupilr"
+                        },
+                        {
+                            "key": "def",
+                            "value": 800.0,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "level_hidden_group_enable",
+                    "blackboard": [
+                        {
+                            "key": "key",
+                            "value": 0.0,
+                            "valueStr": "zibao1"
+                        }
+                    ]
+                }
+            ]
+        },
+        "map_forbid_a_2": {
+            "desc": "地图中的<@recalrune.nag>10</>个位置无法部署",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "global_forbid_location",
+                    "blackboard": [
+                        {
+                            "key": "location",
+                            "value": 0.0,
+                            "valueStr": "(2,4)|(2,1)|(2,6)|(2,8)|(2,10)|(3,5)|(2,5)|(2,9)|(1,9)|(1,8)"
+                        }
+                    ]
+                }
+            ]
+        },
+        "enemy_atk_2": {
+            "desc": "所有敌人的攻击力<@recalrune.nag>+{atk:0%}</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "enemy_attribute_additive_mul",
+                    "blackboard": [
+                        {
+                            "key": "atk",
+                            "value": 0.6,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "enemy_atk_3": {
+            "desc": "所有敌人的攻击力<@recalrune.nag>+{atk:0%}</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "enemy_attribute_additive_mul",
+                    "blackboard": [
+                        {
+                            "key": "atk",
+                            "value": 0.8,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "enemy_duspfr_a_3": {
+            "desc": "<深池焚毁者队长>最大生命值<@recalrune.nag>+{max_hp:0%}</>，技能持续时间增加至<@recalrune.nag>{duspfr_flame[cd].duration:0%}</>，造成的法术伤害增加至<@recalrune.nag>{atk_scale:0%}</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "enemy_skill_blackb_mul",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1173_duspfr_2"
+                        },
+                        {
+                            "key": "skill",
+                            "value": 0.0,
+                            "valueStr": "Flame"
+                        },
+                        {
+                            "key": "duspfr_flame[cd].duration",
+                            "value": 1.5,
+                            "valueStr": null
+                        },
+                        {
+                            "key": "atk_scale",
+                            "value": 2.5,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_attribute_additive_mul",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1173_duspfr_2"
+                        },
+                        {
+                            "key": "max_hp",
+                            "value": 1.0,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "enemy_duspfr_b_3": {
+            "desc": "<深池焚毁者队长>最大生命值<@recalrune.nag>+{max_hp:0%}</>，死亡时爆炸伤害增加至<@recalrune.nag>{atk_scale:0%}</>",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "enemy_attribute_additive_mul",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1173_duspfr_2"
+                        },
+                        {
+                            "key": "max_hp",
+                            "value": 2.0,
+                            "valueStr": null
+                        }
+                    ]
+                },
+                {
+                    "key": "enemy_skill_blackb_mul",
+                    "blackboard": [
+                        {
+                            "key": "enemy",
+                            "value": 0.0,
+                            "valueStr": "enemy_1173_duspfr_2"
+                        },
+                        {
+                            "key": "skill",
+                            "value": 0.0,
+                            "valueStr": "DeadBoom"
+                        },
+                        {
+                            "key": "atk_scale",
+                            "value": 3.0,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "char_exclude_medsip_2": {
+            "desc": "医疗和狙击干员的部署费用提升至<@recalrune.nag>{scale}</>倍",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "char_cost_mul",
+                    "blackboard": [
+                        {
+                            "key": "scale",
+                            "value": 2.0,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "char_exclude_medsip_3": {
+            "desc": "禁止使用医疗和狙击干员",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "char_exclude",
+                    "blackboard": []
+                }
+            ]
+        },
+        "char_exclude_magshel_2": {
+            "desc": "辅助和特种干员的部署费用提升至<@recalrune.nag>{scale}</>倍",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "char_cost_mul",
+                    "blackboard": [
+                        {
+                            "key": "scale",
+                            "value": 2.0,
+                            "valueStr": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "char_exclude_magshel_3": {
+            "desc": "禁止使用辅助和特种干员",
+            "mods": [],
+            "runes": [
+                {
+                    "key": "char_exclude",
+                    "blackboard": []
+                }
+            ]
         }
-      ]
-    },
-    "char_exclude_medic_2": {
-      "desc": "禁止使用医疗干员",
-      "mods": [],
-      "runes": [
-        {
-          "key": "char_exclude",
-          "blackboard": []
-        }
-      ]
-    },
-    "char_exclude_special_2": {
-      "desc": "禁止使用特种干员",
-      "mods": [],
-      "runes": [
-        {
-          "key": "char_exclude",
-          "blackboard": []
-        }
-      ]
     }
-  },
-  "level_recalrune_01-02": {
-    "base": {
-      "desc": "<源石虫·α>进入目标点<@recalrune.pos>不再损失目标生命值</>，但生命值<@recalrune.nag>+1000%</>\r\n所有敌人生命值<@recalrune.nag>+180%</>，攻击力<@recalrune.nag>+140%</>\r\n<轻甲卫兵>防御力<@recalrune.nag>+800</>\r\n<幽灵>生命值<@recalrune.nag>+400%</>，获得抵抗\r\n所有我方单位攻击力<@recalrune.nag>-50%</>，攻击速度<@recalrune.nag>-50</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "enemy_attribute_additive_mul",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1007_slime_2"
-            },
-            {
-              "key": "max_hp",
-              "value": 10.0,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "enemy_attribute_additive_mul",
-          "blackboard": [
-            {
-              "key": "max_hp",
-              "value": 1.8,
-              "valueStr": null
-            },
-            {
-              "key": "atk",
-              "value": 1.4,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "enemy_attribute_add",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1015_litamr"
-            },
-            {
-              "key": "def",
-              "value": 800.0,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "enemy_attribute_additive_mul",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1008_ghost"
-            },
-            {
-              "key": "max_hp",
-              "value": 4.0,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "env_gbuff_new_with_verify",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1008_ghost"
-            },
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "enemy_status_resistance"
-            }
-          ]
-        },
-        {
-          "key": "char_attribute_mul",
-          "blackboard": [
-            {
-              "key": "atk",
-              "value": 0.5,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "char_attribute_add",
-          "blackboard": [
-            {
-              "key": "attack_speed",
-              "value": -50.0,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "char_exclude_highland": {
-      "desc": "禁止使用远程干员",
-      "mods": [],
-      "runes": [
-        {
-          "key": "char_exclude",
-          "blackboard": []
-        }
-      ]
-    },
-    "char_exclude_ground": {
-      "desc": "禁止使用近战干员",
-      "mods": [],
-      "runes": [
-        {
-          "key": "char_exclude",
-          "blackboard": []
-        }
-      ]
-    },
-    "char_exclude_vansni_2": {
-      "desc": "先锋和狙击干员的部署费用提升至<@recalrune.nag>2</>倍",
-      "mods": [],
-      "runes": [
-        {
-          "key": "char_cost_mul",
-          "blackboard": [
-            {
-              "key": "scale",
-              "value": 2.0,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_replace_ghost_3": {
-      "desc": "部分<幽灵>替换为<全封闭沙滩车>，且生命值<@recalrune.nag>+150%</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "level_hidden_group_enable",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "ghosthigh"
-            }
-          ]
-        },
-        {
-          "key": "level_hidden_group_disable",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "ghostbase"
-            }
-          ]
-        },
-        {
-          "key": "enemy_attribute_additive_mul",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1263_durbus"
-            },
-            {
-              "key": "max_hp",
-              "value": 1.5,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_replace_yokai_3": {
-      "desc": "部分<妖怪>替换为<威龙>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "level_hidden_group_enable",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "yokaihigh"
-            }
-          ]
-        },
-        {
-          "key": "level_hidden_group_disable",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "yokaibase"
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_replace_laxe_2": {
-      "desc": "<屠夫>替换为<荒原劫掠者>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "level_enemy_replace",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "enemy_1034_laxe"
-            },
-            {
-              "key": "value",
-              "value": 0.0,
-              "valueStr": "enemy_1339_bhrgrd"
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_replace_litamr_2": {
-      "desc": "部分<轻甲卫兵>替换为<游击队盾卫组长>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "level_hidden_group_disable",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "litamrbase"
-            }
-          ]
-        },
-        {
-          "key": "level_hidden_group_enable",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "litamrhigh"
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_movespeed_2": {
-      "desc": "所有敌人移动速度提升<@recalrune.nag>40%</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "enemy_attribute_mul",
-          "blackboard": [
-            {
-              "key": "move_speed",
-              "value": 1.4,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_maxhp_2": {
-      "desc": "所有敌人生命值提升至<@recalrune.nag>140%</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "enemy_attribute_mul",
-          "blackboard": [
-            {
-              "key": "max_hp",
-              "value": 1.4,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_maxhp_3": {
-      "desc": "所有敌人生命值提升至<@recalrune.nag>180%</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "enemy_attribute_mul",
-          "blackboard": [
-            {
-              "key": "max_hp",
-              "value": 1.8,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_slime_repbsl_3": {
-      "desc": "部分<源石虫·α>替换为<高能源石虫>，且重量提升<@recalrune.nag>3</>个等级",
-      "mods": [],
-      "runes": [
-        {
-          "key": "level_hidden_group_enable",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "slimehigh"
-            }
-          ]
-        },
-        {
-          "key": "enemy_attribute_add",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1021_bslime"
-            },
-            {
-              "key": "mass_level",
-              "value": 3.0,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "level_hidden_group_disable",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "slimebase"
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_slime_attr_3": {
-      "desc": "<源石虫·α>生命值提升至<@recalrune.nag>180%</>，且重量提升<@recalrune.nag>3</>个等级",
-      "mods": [],
-      "runes": [
-        {
-          "key": "enemy_attribute_add",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1007_slime_2"
-            },
-            {
-              "key": "mass_level",
-              "value": 3.0,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "enemy_attribute_mul",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1007_slime_2"
-            },
-            {
-              "key": "max_hp",
-              "value": 1.8,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "hidden_def_2": {
-      "desc": "出现<御4>保护虫群，且<御4>的法术抗性<@recalrune.nag>+50</>，提供的防御力加成额外<@recalrune.nag>+600</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "level_hidden_group_enable",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "def"
-            }
-          ]
-        },
-        {
-          "key": "enemy_talent_blackb_add",
-          "blackboard": [
-            {
-              "key": "defup.def",
-              "value": 600.0,
-              "valueStr": null
-            },
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1017_defdrn"
-            }
-          ]
-        },
-        {
-          "key": "enemy_attribute_add",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1017_defdrn"
-            },
-            {
-              "key": "magic_resistance",
-              "value": 50.0,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "hidden_magicresistance_2": {
-      "desc": "出现<护障·P>保护虫群，且<护障·P>的防御力<@recalrune.nag>+900</>，提供的法术抗性加成额外<@recalrune.nag>+40</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "level_hidden_group_enable",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "mr"
-            }
-          ]
-        },
-        {
-          "key": "enemy_talent_blackb_add",
-          "blackboard": [
-            {
-              "key": "magdef_add.magic_resistance",
-              "value": 40.0,
-              "valueStr": null
-            },
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1355_mrfly_2"
-            }
-          ]
-        },
-        {
-          "key": "enemy_attribute_add",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1355_mrfly_2"
-            },
-            {
-              "key": "def",
-              "value": 900.0,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_bhrknf_2": {
-      "desc": "场上初始出现<荒原窃盗者>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "level_hidden_group_enable",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "cost1"
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_bhrknf_3": {
-      "desc": "场上初始出现<荒原窃盗者精英>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "level_hidden_group_enable",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "cost2"
-            }
-          ]
-        }
-      ]
-    }
-  },
-  "level_recalrune_01-03": {
-    "base": {
-      "desc": "不再持有<干扰装置>，但额外出现可掉落<干扰装置>的<豪华赞助无人机>，且<干扰装置><@recalrune.pos>不容易</>成为敌人的攻击目标，生命值提升至<@recalrune.pos>700%</>\r\n场上初始额外出现一个<寒霜>且<寒霜>的防御力<@recalrune.nag>+100%</>，生命值<@recalrune.nag>+300%</>\r\n<法术大师A1>和<法术大师A2>的生命值<@recalrune.nag>+300%</>，攻击力<@recalrune.nag>+100%</>\r\n<豪华赞助无人机>的生命<@recalrune.nag>+300%</>，移动速度提升至<@recalrune.nag>400%</>\r\n所有我方单位的攻击力<@recalrune.nag>-30%</>，生命值<@recalrune.nag>-30%</>\r\n我方防御点可承受的敌方数量变为<@recalrune.nag>1</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "char_attribute_additive_mul",
-          "blackboard": [
-            {
-              "key": "atk",
-              "value": -0.3,
-              "valueStr": null
-            },
-            {
-              "key": "max_hp",
-              "value": -0.3,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "enemy_attribute_additive_mul",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1041_lazerd|enemy_1041_lazerd_2"
-            },
-            {
-              "key": "max_hp",
-              "value": 3.0,
-              "valueStr": null
-            },
-            {
-              "key": "atk",
-              "value": 1.0,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "char_attribute_add",
-          "blackboard": [
-            {
-              "key": "taunt_level",
-              "value": -2.0,
-              "valueStr": null
-            },
-            {
-              "key": "char",
-              "value": 0.0,
-              "valueStr": "trap_006_antidr"
-            }
-          ]
-        },
-        {
-          "key": "char_attribute_mul",
-          "blackboard": [
-            {
-              "key": "char",
-              "value": 0.0,
-              "valueStr": "trap_006_antidr"
-            },
-            {
-              "key": "max_hp",
-              "value": 7.0,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "enemy_attribute_mul",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1105_tyokai_2"
-            },
-            {
-              "key": "move_speed",
-              "value": 4.0,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "level_hidden_group_enable",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "frostdHidden"
-            }
-          ]
-        },
-        {
-          "key": "enemy_attribute_additive_mul",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1042_frostd"
-            },
-            {
-              "key": "def",
-              "value": 1.0,
-              "valueStr": null
-            },
-            {
-              "key": "max_hp",
-              "value": 3.0,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "enemy_attribute_additive_mul",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1105_tyokai_2"
-            },
-            {
-              "key": "max_hp",
-              "value": 3.0,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "global_lifepoint",
-          "blackboard": [
-            {
-              "key": "value",
-              "value": 1.0,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "token_build_a": {
-      "desc": "<干扰装置>可以额外被部署在地面上，且每<@recalrune.nag>3</>秒扣除<@recalrune.nag>3</>点部署费用",
-      "mods": [],
-      "runes": [
-        {
-          "key": "card_buff_with_verify",
-          "blackboard": [
-            {
-              "key": "char",
-              "value": 0.0,
-              "valueStr": "trap_006_antidr"
-            },
-            {
-              "key": "buildable_type",
-              "value": 1.0,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "env_gbuff_new_with_verify",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "reduce_cost_by_interval"
-            },
-            {
-              "key": "char",
-              "value": 0.0,
-              "valueStr": "trap_006_antidr"
-            },
-            {
-              "key": "interval",
-              "value": 3.0,
-              "valueStr": null
-            },
-            {
-              "key": "cost",
-              "value": -3.0,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "token_build_b": {
-      "desc": "<干扰装置>仅可被部署在高台上",
-      "mods": [],
-      "runes": [
-        {
-          "key": "deck_card_buff",
-          "blackboard": [
-            {
-              "key": "char",
-              "value": 0.0,
-              "valueStr": "trap_006_antidr"
-            },
-            {
-              "key": "buildable_type",
-              "value": 2.0,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_speed_a": {
-      "desc": "所有敌人移动速度提升<@recalrune.nag>60%</>，且生命值<@recalrune.nag>+{max_hp:0%}</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "enemy_attribute_mul",
-          "blackboard": [
-            {
-              "key": "move_speed",
-              "value": 1.6,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "enemy_attribute_additive_mul",
-          "blackboard": [
-            {
-              "key": "max_hp",
-              "value": 0.7,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_speed_b": {
-      "desc": "所有敌人移动速度降低<@recalrune.pos>40%</>，但生命值<@recalrune.nag>+{max_hp:0%}</>，攻击力<@recalrune.nag>+{atk:0%}</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "enemy_attribute_mul",
-          "blackboard": [
-            {
-              "key": "move_speed",
-              "value": 0.6,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "enemy_attribute_additive_mul",
-          "blackboard": [
-            {
-              "key": "max_hp",
-              "value": 2.0,
-              "valueStr": null
-            },
-            {
-              "key": "atk",
-              "value": 0.7,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_silenceImmue_a": {
-      "desc": "<帝国炮火中枢先兆者>和<寒霜><@recalrune.nag>不会</>受到<干扰装置>造成的无法攻击效果影响，且<寒霜>获得<@recalrune.nag>沉默抗性</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "env_gbuff_new_with_verify",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1112_emppnt_2"
-            },
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "disarmed_immune"
-            }
-          ]
-        },
-        {
-          "key": "env_gbuff_new_with_verify",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1042_frostd"
-            },
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "disarmed_immune"
-            }
-          ]
-        },
-        {
-          "key": "enemy_dynamic_ability_new",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1042_frostd"
-            },
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "silenceimmue"
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_silenceImmue_b": {
-      "desc": "<法术大师A1>和<法术大师A2><@recalrune.nag>不会</>受到<干扰装置>造成的无法攻击效果影响",
-      "mods": [],
-      "runes": [
-        {
-          "key": "env_gbuff_new_with_verify",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1041_lazerd_2|enemy_1041_lazerd"
-            },
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "disarmed_immune"
-            }
-          ]
-        }
-      ]
-    },
-    "emppnt_level_up_2": {
-      "desc": "出现额外的<帝国炮火中枢先兆者>，且<帝国炮火中枢先兆者>的防御力<@recalrune.nag>+{def:0%}</>，攻击力<@recalrune.nag>+{atk:0%}</>，生命值<@recalrune.nag>+{max_hp:0%}</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "enemy_attribute_additive_mul",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1112_emppnt_2"
-            },
-            {
-              "key": "def",
-              "value": 1.0,
-              "valueStr": null
-            },
-            {
-              "key": "atk",
-              "value": 1.0,
-              "valueStr": null
-            },
-            {
-              "key": "max_hp",
-              "value": 2.0,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "level_hidden_group_enable",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "emppntMore"
-            }
-          ]
-        }
-      ]
-    },
-    "airforce_frost_2": {
-      "desc": "<寒霜>受到攻击范围外的伤害降低<@recalrune.nag>{damage_resistance:0%}</>，且生命值<@recalrune.nag>+{max_hp:0%}</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "env_gbuff_new_with_verify",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "damage_scale[type]"
-            },
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1042_frostd"
-            },
-            {
-              "key": "physical",
-              "value": 1.0,
-              "valueStr": null
-            },
-            {
-              "key": "magical",
-              "value": 1.0,
-              "valueStr": null
-            },
-            {
-              "key": "damage_resistance",
-              "value": 0.7,
-              "valueStr": null
-            },
-            {
-              "key": "range_radius",
-              "value": 2.5,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "enemy_attribute_additive_mul",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1042_frostd"
-            },
-            {
-              "key": "max_hp",
-              "value": 3.0,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "airforce_lazerd_2": {
-      "desc": "<法术大师A1>和<法术大师A2>的生命值<@recalrune.nag>+{max_hp:0%}</>，攻击力<@recalrune.nag>+{atk:0%}</>，防御力<@recalrune.nag>+{def:0%}</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "enemy_attribute_additive_mul",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1041_lazerd|enemy_1041_lazerd_2"
-            },
-            {
-              "key": "max_hp",
-              "value": 3.0,
-              "valueStr": null
-            },
-            {
-              "key": "atk",
-              "value": 2.0,
-              "valueStr": null
-            },
-            {
-              "key": "def",
-              "value": 2.0,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "char_respawntime_2": {
-      "desc": "我方所有单位再部署时间延长<@recalrune.nag>75%</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "char_respawntime_mul",
-          "blackboard": [
-            {
-              "key": "scale",
-              "value": 1.75,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "tyokai_immue_3": {
-      "desc": "<豪华赞助无人机><@recalrune.nag>免疫</>沉睡，冻结和晕眩，且生命值<@recalrune.nag>+{max_hp:0%}</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "enemy_dynamic_ability_new",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1105_tyokai_2"
-            },
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "stunimmue"
-            }
-          ]
-        },
-        {
-          "key": "enemy_abnormal_immune",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1105_tyokai_2"
-            },
-            {
-              "key": "sleeping",
-              "value": 1.0,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "enemy_dynamic_ability_new",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1105_tyokai_2"
-            },
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "frozenimmue"
-            }
-          ]
-        },
-        {
-          "key": "enemy_attribute_additive_mul",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1105_tyokai_2"
-            },
-            {
-              "key": "max_hp",
-              "value": 3.5,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "tyokai_fightback_3": {
-      "desc": "<豪华赞助无人机>的攻击力<@recalrune.nag>+{atk:0}</>，生命值<@recalrune.nag>+{max_hp:0%}</>，且受到物理和法术伤害时对目标造成相当于攻击力<@recalrune.nag>{atk_scale:0%}</>的法术伤害",
-      "mods": [],
-      "runes": [
-        {
-          "key": "env_gbuff_new_with_verify",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "inverse_damage[type]"
-            },
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1105_tyokai_2"
-            },
-            {
-              "key": "atk_scale",
-              "value": 0.6,
-              "valueStr": null
-            },
-            {
-              "key": "type",
-              "value": 2.0,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "enemy_attribute_add",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1105_tyokai_2"
-            },
-            {
-              "key": "atk",
-              "value": 500.0,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "enemy_attribute_additive_mul",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1105_tyokai_2"
-            },
-            {
-              "key": "max_hp",
-              "value": 1.0,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_attri_base_2": {
-      "desc": "所有敌人生命值提升至<@recalrune.nag>{max_hp:0%}</>，防御力提升至<@recalrune.nag>{def:0%}</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "enemy_attribute_mul",
-          "blackboard": [
-            {
-              "key": "max_hp",
-              "value": 2.0,
-              "valueStr": null
-            },
-            {
-              "key": "def",
-              "value": 1.6,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_attri_atk_2": {
-      "desc": "所有敌人攻击力提升至<@recalrune.nag>{atk:0%}</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "enemy_attribute_mul",
-          "blackboard": [
-            {
-              "key": "atk",
-              "value": 2.0,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "global_magic_resist_2": {
-      "desc": "所有敌人法术抗性<@recalrune.nag>+{magic_resistance:0}</>，生命值提升至<@recalrune.nag>{max_hp:0%}</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "enemy_attribute_add",
-          "blackboard": [
-            {
-              "key": "magic_resistance",
-              "value": 30.0,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "enemy_attribute_mul",
-          "blackboard": [
-            {
-              "key": "max_hp",
-              "value": 1.3,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "defdrn_up_2": {
-      "desc": "<御4>的生命值<@recalrune.nag>+{max_hp:0%}</>，提供的防御力加成额外<@recalrune.nag>+{defup.def}</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "enemy_talent_blackb_add",
-          "blackboard": [
-            {
-              "key": "defup.def",
-              "value": 1500.0,
-              "valueStr": null
-            },
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1017_defdrn"
-            }
-          ]
-        },
-        {
-          "key": "enemy_attribute_additive_mul",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1017_defdrn"
-            },
-            {
-              "key": "max_hp",
-              "value": 5.0,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "emppnt_more_2": {
-      "desc": "场上初始额外出现的一个<寒霜>替换为<帝国炮火中枢先兆者>，且<帝国炮火中枢先兆者>的生命值<@recalrune.nag>+{max_hp:0%}</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "level_hidden_group_enable",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "emppntHidden"
-            }
-          ]
-        },
-        {
-          "key": "level_hidden_group_disable",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "frostdHidden"
-            }
-          ]
-        },
-        {
-          "key": "enemy_attribute_additive_mul",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1112_emppnt_2"
-            },
-            {
-              "key": "max_hp",
-              "value": 1.0,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "lunmag_strong_2": {
-      "desc": "场上初始出现<特战术师组长>，且<特战术师组长>最大生命值提升至<@recalrune.nag>{max_hp}倍</>，防御力提升至<@recalrune.nag>{def}倍</>，攻击力提升至<@recalrune.nag>{atk}倍</>，攻击范围<@recalrune.nag>扩大</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "enemy_attribute_mul",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1038_lunmag_2"
-            },
-            {
-              "key": "max_hp",
-              "value": 3.0,
-              "valueStr": null
-            },
-            {
-              "key": "def",
-              "value": 2.0,
-              "valueStr": null
-            },
-            {
-              "key": "atk",
-              "value": 1.3,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "level_hidden_group_enable",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "lunmagHidden"
-            }
-          ]
-        },
-        {
-          "key": "enemy_attackradius_mul",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1038_lunmag_2"
-            },
-            {
-              "key": "scale",
-              "value": 1.5,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "global_costrecovery_2": {
-      "desc": "部署费用的自然回复速度降低<@recalrune.nag>50%</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "global_cost_recovery_mul",
-          "blackboard": [
-            {
-              "key": "scale",
-              "value": 2.0,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "global_costrecovery_3": {
-      "desc": "部署费用的自然回复速度降低<@recalrune.nag>75%</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "global_cost_recovery_mul",
-          "blackboard": [
-            {
-              "key": "scale",
-              "value": 4.0,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "global_squadnum_2": {
-      "desc": "最多可编入<@recalrune.nag>{value}</>名干员进入作战",
-      "mods": [],
-      "runes": [
-        {
-          "key": "global_squad_num_limit",
-          "blackboard": [
-            {
-              "key": "value",
-              "value": 7.0,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "global_pcharnum_3": {
-      "desc": "可同时部署的单位数量减少至<@recalrune.nag>5</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "global_placable_char_num_add",
-          "blackboard": [
-            {
-              "key": "value",
-              "value": -4.0,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "char_exclude_tavasn_2": {
-      "desc": "重装、狙击和辅助干员的部署费用提升至<@recalrune.nag>2</>倍",
-      "mods": [],
-      "runes": [
-        {
-          "key": "char_cost_mul",
-          "blackboard": [
-            {
-              "key": "scale",
-              "value": 2.0,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "char_exclude_tavasn_3": {
-      "desc": "重装、狙击和辅助干员的部署费用提升至<@recalrune.nag>3</>倍",
-      "mods": [],
-      "runes": [
-        {
-          "key": "char_cost_mul",
-          "blackboard": [
-            {
-              "key": "scale",
-              "value": 3.0,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "char_exclude_spwime_2": {
-      "desc": "特种、术师和医疗干员的部署费用提升至<@recalrune.nag>2</>倍",
-      "mods": [],
-      "runes": [
-        {
-          "key": "char_cost_mul",
-          "blackboard": [
-            {
-              "key": "scale",
-              "value": 2.0,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "char_exclude_spwime_3": {
-      "desc": "特种、术师和医疗干员的部署费用提升至<@recalrune.nag>3</>倍",
-      "mods": [],
-      "runes": [
-        {
-          "key": "char_cost_mul",
-          "blackboard": [
-            {
-              "key": "scale",
-              "value": 3.0,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    }
-  },
-  "level_recalrune_01-04": {
-    "base": {
-      "desc": "所有敌人的最大生命值<@recalrune.nag>+80%</>，攻击力<@recalrune.nag>+60%</>，防御力<@recalrune.nag>+400</>\r\n所有我方单位的攻击力<@recalrune.nag>-40%</>，最大生命值<@recalrune.nag>-40%</>\r\n出现<深池伙友卫队精英>和<深池伙友影刃精英>\r\n战场中会出现强行穿过<破碎支柱>的<深池焚毁者队长>\r\n",
-      "mods": [],
-      "runes": [
-        {
-          "key": "enemy_attribute_additive_mul",
-          "blackboard": [
-            {
-              "key": "max_hp",
-              "value": 0.8,
-              "valueStr": null
-            },
-            {
-              "key": "atk",
-              "value": 0.6,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "char_attribute_additive_mul",
-          "blackboard": [
-            {
-              "key": "atk",
-              "value": -0.4,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "char_attribute_additive_mul",
-          "blackboard": [
-            {
-              "key": "max_hp",
-              "value": -0.4,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "enemy_attribute_add",
-          "blackboard": [
-            {
-              "key": "def",
-              "value": 400.0,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "level_hidden_group_enable",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "dun0"
-            }
-          ]
-        },
-        {
-          "key": "level_hidden_group_enable",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "jian0"
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_dufrbl_a": {
-      "desc": "<净浊之焰>造成的伤害提升至<@recalrune.nag>{atk:0%}</>，我方防御点可承受的敌方数量变为<@recalrune.nag>1</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "enemy_attribute_mul",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1177_dufrbl_2"
-            },
-            {
-              "key": "atk",
-              "value": 2.0,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "global_lifepoint",
-          "blackboard": [
-            {
-              "key": "value",
-              "value": 1.0,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_dufrbl_b": {
-      "desc": "<净浊之焰>造成的伤害降低至<@recalrune.pos>{atk:0%}</>，但是进入目标点后会<@recalrune.nag>扣除1点目标生命值</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "env_gbuff_new_with_verify",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "extra_life_point_on_exit"
-            },
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1177_dufrbl_2"
-            },
-            {
-              "key": "value",
-              "value": 1.0,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "enemy_attribute_mul",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1177_dufrbl_2"
-            },
-            {
-              "key": "atk",
-              "value": 0.4,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_global_b": {
-      "desc": "所有精英敌人的防御力<@recalrune.nag>+1200</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "enemy_attribute_add",
-          "blackboard": [
-            {
-              "key": "def",
-              "value": 1200.0,
-              "valueStr": null
-            },
-            {
-              "key": "enemy_level_type",
-              "value": 0.0,
-              "valueStr": "ELITE"
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_global_a": {
-      "desc": "所有敌人法术抗性<@recalrune.nag>+30</>，所有精英敌人获得<@recalrune.nag>折射</>并且获得<@recalrune.nag>沉默抗性</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "enemy_dynamic_ability_new",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "silenceimmue"
-            },
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1176_dusocr_2"
-            }
-          ]
-        },
-        {
-          "key": "enemy_dynamic_ability_new",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "silenceimmue"
-            },
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1173_duspfr_2"
-            }
-          ]
-        },
-        {
-          "key": "enemy_dynamic_ability_new",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "silenceimmue"
-            },
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1170_dushld_2"
-            }
-          ]
-        },
-        {
-          "key": "enemy_dynamic_ability_new",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "silenceimmue"
-            },
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1175_dushdo_2"
-            }
-          ]
-        },
-        {
-          "key": "enemy_dynamic_ability_new",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "silenceimmue"
-            },
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1174_duholy_2"
-            }
-          ]
-        },
-        {
-          "key": "env_gbuff_new_with_verify",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "refracting"
-            },
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1176_dusocr_2"
-            },
-            {
-              "key": "magic_resistance",
-              "value": 70.0,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "env_gbuff_new_with_verify",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "refracting"
-            },
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1173_duspfr_2"
-            },
-            {
-              "key": "magic_resistance",
-              "value": 70.0,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "env_gbuff_new_with_verify",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "refracting"
-            },
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1175_dushdo_2"
-            },
-            {
-              "key": "magic_resistance",
-              "value": 70.0,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "enemy_attribute_add",
-          "blackboard": [
-            {
-              "key": "magic_resistance",
-              "value": 30.0,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_duholydushdo_a_3": {
-      "desc": "出现额外的<深池伙友卫队精英>和<深池伙友影刃精英>，<深池伙友卫队精英>的最大生命值<@recalrune.nag>+{max_hp:0%}</>，防御力<@recalrune.nag>+{def}</>；<深池伙友影刃精英>的攻击力<@recalrune.nag>+100%</>，最大生命值<@recalrune.nag>+80%</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "enemy_attribute_additive_mul",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1174_duholy_2"
-            },
-            {
-              "key": "max_hp",
-              "value": 1.5,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "enemy_attribute_add",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1174_duholy_2"
-            },
-            {
-              "key": "def",
-              "value": 600.0,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "enemy_attribute_additive_mul",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1175_dushdo_2"
-            },
-            {
-              "key": "atk",
-              "value": 1.0,
-              "valueStr": null
-            },
-            {
-              "key": "max_hp",
-              "value": 0.8,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "level_hidden_group_enable",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "dun"
-            }
-          ]
-        },
-        {
-          "key": "level_hidden_group_enable",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "jian"
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_duholydushdo_b_3": {
-      "desc": "出现额外的<深池伙友卫队精英>和<深池伙友影刃精英>，且两者靠近时，<深池伙友卫队精英>激活力场使周围我方攻击速度额外<@recalrune.nag>{traitAbility.attack_speed}</>，<深池伙友影刃精英>的攻击速度进一步<@recalrune.nag>提升</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "enemy_talent_blackb_add",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1175_dushdo_2"
-            },
-            {
-              "key": "traitAbility.base_attack_time",
-              "value": -0.3,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "enemy_talent_blackb_add",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1174_duholy_2"
-            },
-            {
-              "key": "traitAbility.attack_speed",
-              "value": -60.0,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "level_hidden_group_enable",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "dun"
-            }
-          ]
-        },
-        {
-          "key": "level_hidden_group_enable",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "jian"
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_duphlx_b_2": {
-      "desc": "出现<深池方阵指挥官>，<深池方阵指挥官>的攻击力<@recalrune.nag>+{atk:0%}</>，最大生命值<@recalrune.nag>+{max_hp:0%}</>，其他<深池方阵指挥官>位于附近时，防御力额外<@recalrune.nag>+{auraDefup.def}</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "enemy_talent_blackb_add",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1169_duphlx_2"
-            },
-            {
-              "key": "auraDefup.def",
-              "value": 1000.0,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "enemy_attribute_additive_mul",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1169_duphlx_2"
-            },
-            {
-              "key": "atk",
-              "value": 0.4,
-              "valueStr": null
-            },
-            {
-              "key": "max_hp",
-              "value": 1.0,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "level_hidden_group_enable",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "zhihuiguan"
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_movespeed_2": {
-      "desc": "所有敌人的移动速度提升<@recalrune.nag>50%</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "enemy_attribute_mul",
-          "blackboard": [
-            {
-              "key": "move_speed",
-              "value": 1.5,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_hiddengroup_b_2": {
-      "desc": "地图左侧初始存在<深池焚毁者队长>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "level_hidden_group_enable",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "zibao2"
-            }
-          ]
-        }
-      ]
-    },
-    "trap_dupilr_2": {
-      "desc": "<破碎支柱>初始位置改变且最大生命值提升至<@recalrune.nag>{max_hp:0%}</>，防御力<@recalrune.nag>+{def}</>，并且地图右侧初始存在<深池焚毁队长>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "level_hidden_group_enable",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "shizhu2"
-            }
-          ]
-        },
-        {
-          "key": "level_hidden_group_disable",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "shizhu1"
-            }
-          ]
-        },
-        {
-          "key": "char_attribute_mul",
-          "blackboard": [
-            {
-              "key": "char",
-              "value": 0.0,
-              "valueStr": "trap_043_dupilr"
-            },
-            {
-              "key": "max_hp",
-              "value": 5.0,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "char_attribute_add",
-          "blackboard": [
-            {
-              "key": "char",
-              "value": 0.0,
-              "valueStr": "trap_043_dupilr"
-            },
-            {
-              "key": "def",
-              "value": 800.0,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "level_hidden_group_enable",
-          "blackboard": [
-            {
-              "key": "key",
-              "value": 0.0,
-              "valueStr": "zibao1"
-            }
-          ]
-        }
-      ]
-    },
-    "map_forbid_a_2": {
-      "desc": "地图中的<@recalrune.nag>10</>个位置无法部署",
-      "mods": [],
-      "runes": [
-        {
-          "key": "global_forbid_location",
-          "blackboard": [
-            {
-              "key": "location",
-              "value": 0.0,
-              "valueStr": "(2,4)|(2,1)|(2,6)|(2,8)|(2,10)|(3,5)|(2,5)|(2,9)|(1,9)|(1,8)"
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_atk_2": {
-      "desc": "所有敌人的攻击力<@recalrune.nag>+{atk:0%}</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "enemy_attribute_additive_mul",
-          "blackboard": [
-            {
-              "key": "atk",
-              "value": 0.6,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_atk_3": {
-      "desc": "所有敌人的攻击力<@recalrune.nag>+{atk:0%}</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "enemy_attribute_additive_mul",
-          "blackboard": [
-            {
-              "key": "atk",
-              "value": 0.8,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_duspfr_a_3": {
-      "desc": "<深池焚毁者队长>最大生命值<@recalrune.nag>+{max_hp:0%}</>，技能持续时间增加至<@recalrune.nag>{duspfr_flame[cd].duration:0%}</>，造成的法术伤害增加至<@recalrune.nag>{atk_scale:0%}</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "enemy_skill_blackb_mul",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1173_duspfr_2"
-            },
-            {
-              "key": "skill",
-              "value": 0.0,
-              "valueStr": "Flame"
-            },
-            {
-              "key": "duspfr_flame[cd].duration",
-              "value": 1.5,
-              "valueStr": null
-            },
-            {
-              "key": "atk_scale",
-              "value": 2.5,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "enemy_attribute_additive_mul",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1173_duspfr_2"
-            },
-            {
-              "key": "max_hp",
-              "value": 1.0,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "enemy_duspfr_b_3": {
-      "desc": "<深池焚毁者队长>最大生命值<@recalrune.nag>+{max_hp:0%}</>，死亡时爆炸伤害增加至<@recalrune.nag>{atk_scale:0%}</>",
-      "mods": [],
-      "runes": [
-        {
-          "key": "enemy_attribute_additive_mul",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1173_duspfr_2"
-            },
-            {
-              "key": "max_hp",
-              "value": 2.0,
-              "valueStr": null
-            }
-          ]
-        },
-        {
-          "key": "enemy_skill_blackb_mul",
-          "blackboard": [
-            {
-              "key": "enemy",
-              "value": 0.0,
-              "valueStr": "enemy_1173_duspfr_2"
-            },
-            {
-              "key": "skill",
-              "value": 0.0,
-              "valueStr": "DeadBoom"
-            },
-            {
-              "key": "atk_scale",
-              "value": 3.0,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "char_exclude_medsip_2": {
-      "desc": "医疗和狙击干员的部署费用提升至<@recalrune.nag>{scale}</>倍",
-      "mods": [],
-      "runes": [
-        {
-          "key": "char_cost_mul",
-          "blackboard": [
-            {
-              "key": "scale",
-              "value": 2.0,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "char_exclude_medsip_3": {
-      "desc": "禁止使用医疗和狙击干员",
-      "mods": [],
-      "runes": [
-        {
-          "key": "char_exclude",
-          "blackboard": []
-        }
-      ]
-    },
-    "char_exclude_magshel_2": {
-      "desc": "辅助和特种干员的部署费用提升至<@recalrune.nag>{scale}</>倍",
-      "mods": [],
-      "runes": [
-        {
-          "key": "char_cost_mul",
-          "blackboard": [
-            {
-              "key": "scale",
-              "value": 2.0,
-              "valueStr": null
-            }
-          ]
-        }
-      ]
-    },
-    "char_exclude_magshel_3": {
-      "desc": "禁止使用辅助和特种干员",
-      "mods": [],
-      "runes": [
-        {
-          "key": "char_exclude",
-          "blackboard": []
-        }
-      ]
-    }
-  }
 }
