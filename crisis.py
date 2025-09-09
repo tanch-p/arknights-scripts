@@ -4,6 +4,8 @@ from operator import itemgetter
 from stages import get_trimmed_stage_data
 from tiles import get_special_tiles
 from waves_new import get_wave_spawns_data
+from runes import get_crisis_runes
+from chara_skills import replace_substrings
 
 script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
@@ -42,12 +44,13 @@ def update_crisis_runes():
                 rune_data = stage_info['runes'][rune_type]
                 runes = [{"key": rune['key'], "blackboard": rune['blackboard']}
                          for rune in rune_data['packedRune']['runes']]
+                mods = get_crisis_runes(runes)
                 return_dict[stage_id][rune_data['runeId']] = {
-                    "desc": rune_data['packedRune']['description'], "mods": [], "runes": runes}
+                    "desc": rune_data['packedRune']['description'], "mods": mods, "runes": runes}
 
     with open("crisis_runes.json", "w", encoding="utf-8") as f:
         json.dump(crisis_runes_table | return_dict,
-                  f, ensure_ascii=False, indent=4)
+                  f, ensure_ascii=False, indent=2)
     return
 
 
@@ -114,6 +117,8 @@ def get_crisis_stage_info():
                 runes = []
                 for rune_type in stage_info['runes']:
                     rune_data = stage_info['runes'][rune_type]
+                    rune_blackboard = [rune['blackboard'] for rune in rune_data['packedRune']['runes']]
+                    flat_board = [item for sublist in rune_blackboard for item in sublist]
                     runes.append(
                         {
                             "runeId": rune_data['runeId'],
@@ -123,9 +128,9 @@ def get_crisis_stage_info():
                             "exclusiveGroupId": rune_data['exclusiveGroupId'],
                             "runeIcon": rune_data['runeIcon'],
                             "description": {
-                                "zh": rune_data['packedRune']['description'],
-                                "ja": jp_crisisv2_table['recalRuneData']['seasons'][season]['stages'][stage_id]['runes'][rune_type]['packedRune']['description'] if TOPIC_IN_GLOBAL else None,
-                                "en": en_crisisv2_table['recalRuneData']['seasons'][season]['stages'][stage_id]['runes'][rune_type]['packedRune']['description'] if TOPIC_IN_GLOBAL else None
+                                "zh": replace_substrings(rune_data['packedRune']['description'],flat_board),
+                                "ja": replace_substrings(jp_crisisv2_table['recalRuneData']['seasons'][season]['stages'][stage_id]['runes'][rune_type]['packedRune']['description'],flat_board) if TOPIC_IN_GLOBAL else None,
+                                "en": replace_substrings(en_crisisv2_table['recalRuneData']['seasons'][season]['stages'][stage_id]['runes'][rune_type]['packedRune']['description'],flat_board) if TOPIC_IN_GLOBAL else None
                             },
                             "mods": crisis_runes_table[stage_id][rune_data['runeId']]['mods']
                         }

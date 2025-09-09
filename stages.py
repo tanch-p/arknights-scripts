@@ -140,7 +140,6 @@ def get_rogue_topic(folder):
     if folder == "ro5":
         return 'rogue_yan'
 
-
 def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
     levelId = meta_info['levelId']
     trimmed_stage_info = {

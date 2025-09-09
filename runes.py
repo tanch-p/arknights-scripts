@@ -82,6 +82,15 @@ def generate_desc(effects):
     return result
 
 
+def get_crisis_runes(runes):
+    mods = []
+    for rune in runes:
+        effect = parse_rune(rune)
+        if effect:
+            mods.append(effect)
+    return mods
+
+
 def get_runes(runes):
     """
     "elite_mods": [
@@ -150,16 +159,23 @@ def parse_rune(rune):
                         {"key": translateKey(item['key']),
                             "value": item['value'] if item['value'] > 0 else 1 + item['value'],
                             "valueStr": item['valueStr']})
-    elif key == 'enemy_attribute_mul' or key == 'ebuff_attribute':
+    elif key in ['enemy_attribute_mul', 'ebuff_attribute', 'enemy_attribute_additive_mul']:
         for item in rune['blackboard']:
             if item['key'] == "enemy":
                 targets = item['valueStr'].split("|")
         for item in rune['blackboard']:
             if item['key'] != "enemy":
-                mods.append(
-                    {"key": translateKey(item['key']),
-                        "value": item['value'],
-                        "mode": "mul"})
+                if key == 'enemy_attribute_additive_mul':
+                    mods.append(
+                        {"key": translateKey(item['key']),
+                            "value": item['value'],
+                            "mode": "mul",
+                            "order": "initial"})
+                else:
+                    mods.append(
+                        {"key": translateKey(item['key']),
+                            "value": item['value'],
+                            "mode": "mul"})
     elif key == 'enemy_attribute_add':
         for item in rune['blackboard']:
             if item['key'] == "enemy":
@@ -169,7 +185,8 @@ def parse_rune(rune):
                 mods.append(
                     {"key": translateKey(item['key']),
                         "value": item['value'],
-                        "mode": "add"})
+                        "mode": "add",
+                        "order": "initial"})
     elif key == 'enemy_weight_add':
         for item in rune['blackboard']:
             if item['key'] == "enemy":
@@ -204,6 +221,39 @@ def parse_rune(rune):
                     {"key": translateKey(item['key']),
                         "value": item['value'],
                         "mode": "add"})
+    elif key in ['level_hidden_group_enable', 'level_hidden_group_disable']:
+        targets = ['system']
+        for item in rune['blackboard']:
+            if item['key'] == "key":
+                mods.append(
+                    {
+                        "key": key,
+                        "value": item['value'],
+                        "valueStr": item['valueStr']
+                    })
+    elif key in ['level_enemy_replace']:
+        targets = ['system']
+        target = next(
+            (item['valueStr'] for item in rune['blackboard'] if item['key'] == "key"), None)
+        value = next(
+            (item['valueStr'] for item in rune['blackboard'] if item['key'] == "value"), None)
+        mods.append(
+            {
+                "key": key,
+                "target": target,
+                "value": value
+            })
+    elif key in ['global_forbid_location']:
+        targets = ['system']
+        value = next(
+            (item['valueStr'] for item in rune['blackboard'] if item['key'] == "location"), None)
+        if value:
+            value = value.replace("(", "").replace(")", "")
+        mods.append(
+            {
+                "key": key,
+                "value": value.split("|")
+            })
     elif key in ['enemy_skill_blackb_add', 'enemy_skill_blackb_mul', 'enemy_talent_blackb_mul', 'enemy_talent_blackb_add']:
         special = {}
         mods = {"key": key}
