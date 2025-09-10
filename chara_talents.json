@@ -14131,13 +14131,19 @@
                 "desc_ja": "",
                 "desc_en": "",
                 "tags": [
-                    "apoptosis",
-                    "ele_dmg"
                 ],
                 "blackboard": [
                     {
                         "key": "block_no_attack",
                         "value": 20
+                    },
+                    {
+                        "key": "dmg_res",
+                        "types": [
+                            "phys",
+                            "arts"
+                        ],
+                        "value": 30.0
                     }
                 ]
             },
