@@ -715,9 +715,9 @@ def generate_normal_stages(topic):
 
 
 def main():
-    # generate_roguelike_stages()
+    generate_roguelike_stages()
 
-    generate_normal_stages()
+    # generate_normal_stages()
     with open('temp.json', 'w', encoding='utf-8') as f:
         json.dump(alerts, f, ensure_ascii=False, indent=4)
 
