@@ -596,5 +596,8 @@
   },
   "level_rogue5_t-7": {
     "enemy_1151_dslntc": [{ "key": "sea_reaper_awaken", "standby": 200 }]
+  },
+  "act45side_08":{
+    "enemy_1569_ldevil":[{"key":"ldevil_revive","interval":7,"formIndex": 0}]
   }
 }

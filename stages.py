@@ -1,8 +1,8 @@
 import json
 import os
 from operator import itemgetter
-from waves_new import get_waves_data, get_runes_data
-from tiles import get_list_of_tiles
+from waves_new import get_waves_data, get_runes_data, get_wave_spawns_data
+from tiles import get_list_of_tiles, get_special_tiles
 
 
 def replace_chevrons(text_list):
@@ -140,8 +140,18 @@ def get_rogue_topic(folder):
     if folder == "ro5":
         return 'rogue_yan'
 
+
 def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
     levelId = meta_info['levelId']
+
+    wave_data = get_wave_spawns_data(stage_data, levelId, log=True)
+    enemy_list, elite_enemy_list = itemgetter(
+        "enemy_list", "elite_enemy_list")(wave_data)
+    sp_tiles = get_special_tiles(stage_data['mapData']['tiles'])
+    sp_terrain = sp_tiles
+    if sp_terrain is not None and len(sp_terrain) == 0:
+        sp_terrain = None
+
     trimmed_stage_info = {
         "id": meta_info["id"],
         "levelId": levelId,
@@ -168,7 +178,7 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
         "n_mods": extrainfo[levelId].get('normal_mods', None) if levelId in extrainfo else None,
         "elite_mods": extrainfo[levelId].get('elite_mods', None) if levelId in extrainfo else None,
         "floors": extrainfo[levelId].get('floors', None) if levelId in extrainfo else None,
-        "sp_terrain": extrainfo[levelId].get('sp_terrain', None) if levelId in extrainfo else None,
+        "sp_terrain": sp_terrain,
         "sp_enemy": extrainfo[levelId].get('sp_enemy', None) if levelId in extrainfo else None,
         "n_count": extrainfo[levelId].get('enemy_counts', None) if levelId in extrainfo else None,
         "e_count": extrainfo[levelId].get('elite_enemy_counts', None) if levelId in extrainfo else None,
@@ -244,8 +254,6 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
     trimmed_stage_info['token_cards'] = token_cards
     trimmed_stage_info['systems'] = systems
 
-    enemy_list = extrainfo[levelId]['enemy_list'] if levelId in extrainfo else None
-    elite_enemy_list = extrainfo[levelId]['elite_enemy_list'] if levelId in extrainfo else None
     enemies = []
     enemy_refs = stage_data["enemyDbRefs"]
     alt_data = None
@@ -582,11 +590,9 @@ def generate_normal_stages(topic):
     with open(activity_table_path, encoding="utf-8") as f:
         activity_table = json.load(f)
 
-    # with open("is_stages_extrainfo.json", encoding="utf-8") as f:
-        # extrainfo = json.load(f)
-    extrainfo = {}
-
     data = {}
+    activities_with_story = [id for id in cn_story_review_table if cn_story_review_table[id]['entryType'] in [
+        'MAINLINE', 'ACTIVITY', 'MINI_ACTIVITY']]
     activities = []
     stages = {}
 
@@ -605,6 +611,9 @@ def generate_normal_stages(topic):
         activity_id = stage_info['zoneId']
         if stage_info['stageType'] == 'ACTIVITY':
             activity_id = activity_table['zoneToActivity'][activity_id] if activity_id in activity_table['zoneToActivity'] else None
+            if not activity_id:
+                activity_id = next(
+                    (id for id in activities_with_story if id in stage_info['zoneId']), stage_info['zoneId'])
         item = next(
             (item for item in activities if item['id'] == activity_id), None)
         if not item:
@@ -649,6 +658,18 @@ def generate_normal_stages(topic):
             if TOPIC_IN_GLOBAL and stage_info['description']
             else None,
         }
+
+        wave_data = get_wave_spawns_data(stage_data, stageId, log=True)
+        enemy_list, elite_enemy_list, sp_count, elite_sp_count, enemy_counts, elite_enemy_counts = itemgetter(
+            "enemy_list", "elite_enemy_list", "sp_count", "elite_sp_count", "enemy_counts", "elite_enemy_counts")(wave_data)
+        sp_tiles = get_special_tiles(stage_data['mapData']['tiles'])
+        sp_terrain = sp_tiles
+        if sp_terrain is not None and len(sp_terrain) == 0:
+            sp_terrain = None
+        
+        with open("activity_stages_extrainfo.json", encoding="utf-8") as f:
+            extrainfo = json.load(f)
+
         trimmed_stage_info = get_trimmed_stage_data(
             stage_data, meta_info, extrainfo)
         data[stageId] = trimmed_stage_info
@@ -683,6 +704,9 @@ def generate_normal_stages(topic):
         })
     for zoneId in stages:
         activity_id = activity_table['zoneToActivity'][zoneId] if zoneId in activity_table['zoneToActivity'] else None
+        if not activity_id:
+            activity_id = next(
+                (id for id in activities_with_story if id in zoneId), zoneId)
         if activity_id:
             item = next(
                 (item for item in activities if item['id'] == activity_id), None)
@@ -710,8 +734,8 @@ def generate_normal_stages(topic):
             json.dump(data[stageId], f, ensure_ascii=False, indent=1)
     with open("all_stages_list.json", "w", encoding="utf-8") as f:
         json.dump(stages, f, ensure_ascii=False, indent=4)
-    # with open("activities_list.json", "w", encoding="utf-8") as f:
-    #     json.dump(activities, f, ensure_ascii=False, indent=4)
+    with open("activities_list.json", "w", encoding="utf-8") as f:
+        json.dump(activities, f, ensure_ascii=False, indent=4)
 
 
 def main():
