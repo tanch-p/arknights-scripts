@@ -215,9 +215,10 @@ def add_new_ro_stages():
 
 def add_new_event_stages():
     data = {}
-    stage_type = 'main'
+    # main or activity
+    stage_type = 'activity'
     level = '15'
-    activity = 'act43side'
+    activity = 'act45side'
     if stage_type == 'main':
         path = os.path.join(
             script_dir,
@@ -235,17 +236,10 @@ def add_new_event_stages():
     for file_path in file_paths:
         with open(file_path, encoding="utf-8") as f:
             stage_data = json.load(f)
-        levelId = file_path.split("/")[-1].replace(".json", "")
+        levelId = file_path.split("/")[-1].replace(".json", "").replace("level_","")
         if levelId in STAGES_TO_IGNORE:
             continue
         print(levelId)
-        wave_data = get_wave_spawns_data(stage_data, levelId, log=True)
-        enemy_list, elite_enemy_list, sp_count, elite_sp_count, enemy_counts, elite_enemy_counts = itemgetter(
-            "enemy_list", "elite_enemy_list", "sp_count", "elite_sp_count", "enemy_counts", "elite_enemy_counts")(wave_data)
-        sp_tiles = get_special_tiles(stage_data['mapData']['tiles'])
-        sp_terrain = sp_tiles
-        if sp_terrain is not None and len(sp_terrain) == 0:
-            sp_terrain = None
 
         runes_data = get_runes(
             stage_data['runes']) if stage_data['runes'] else None
@@ -256,7 +250,9 @@ def add_new_event_stages():
             all_mods, elite_mods, normal_mods = itemgetter(
                 'all_mods', 'elite_mods', 'normal_mods')((runes_data))
 
-        desc = generate_desc(elite_mods)
+        desc ={}
+        if stage_type == 'main':
+            desc = generate_desc(elite_mods)
 
         trimmed_stage_info = {
             "activity": activity,
@@ -271,11 +267,6 @@ def add_new_event_stages():
             "all_mods": all_mods,
             "normal_mods": normal_mods,
             "elite_mods": elite_mods,
-            "enemy_counts": enemy_counts,
-            "elite_enemy_counts": elite_enemy_counts,
-            "sp_terrain": sp_terrain,
-            "enemy_list": enemy_list,
-            "elite_enemy_list": elite_enemy_list
         }
         data[levelId] = trimmed_stage_info
 

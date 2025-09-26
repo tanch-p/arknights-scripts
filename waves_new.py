@@ -40,11 +40,13 @@ def is_countable_enemy(key, stage_data):
     if enemy['overwrittenData'] is not None:
         if enemy["overwrittenData"]['prefabKey']['m_defined'] or enemy['useDb'] is False:
             enemy_id = enemy["overwrittenData"]['prefabKey']['m_value']
-        not_countable = my_enemy_db[enemy_id]['notCountInTotal']
+        not_countable = my_enemy_db[enemy_id]['notCountInTotal'] if enemy_id in my_enemy_db else True
         if enemy["overwrittenData"]["notCountInTotal"]["m_defined"]:
             not_countable = enemy["overwrittenData"]["notCountInTotal"]["m_value"]
         return not (not_countable)
     else:
+        if not key in my_enemy_db:
+            return False
         return not (my_enemy_db[key]['notCountInTotal'])
 
 

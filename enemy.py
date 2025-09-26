@@ -193,8 +193,8 @@ def update_entries():
         json.dump(data_to_write, f, ensure_ascii=False, indent=4)
 
 def main():
-    get_single_entry('enemy_1554_lrtsia_2')
-    # update_entries()
+    # get_single_entry('enemy_1554_lrtsia_2')
+    update_entries()
 
 if __name__ == "__main__":
     main()

@@ -58,6 +58,8 @@ def generate_desc(effects):
         if 'mods' in effect:
             for i, mod in enumerate(effect['mods']):
                 key = mod['key']
+                if key not in STATS:
+                    continue
                 value_str = f"+{round((mod['value'] - 1) * 100)}%" if mod['mode'] == "mul" else f"+{mod['value']}"
 
                 for lang, config in lang_configs.items():
@@ -197,6 +199,16 @@ def parse_rune(rune):
                     {"key": "weight",
                         "value": item['value'],
                         "mode": "add"})
+    elif key == 'enemy_attackradius_mul':
+        for item in rune['blackboard']:
+            if item['key'] == "enemy":
+                targets = item['valueStr'].split("|")
+        for item in rune['blackboard']:
+            if item['key'] == "scale":
+                mods.append(
+                    {"key": "range",
+                        "value": item['value'],
+                        "mode": "mul"})
     elif key == 'char_attribute_mul':
         has_target = False
         for item in rune['blackboard']:
