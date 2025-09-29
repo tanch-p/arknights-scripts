@@ -180,6 +180,13 @@ def compress_waves(stage_data, stage_id):
                             indexes.append(idx)
                     fragment['actions'] = remove_by_indexes(
                         fragment['actions'], indexes)
+    if stage_id == 'level_rogue5_fs-5b':
+        for wave in waves:
+            for frag_index, fragment in enumerate(wave['fragments']):
+                if frag_index == 0:
+                    indexes = [6,7,8]
+                    fragment['actions'] = remove_by_indexes(
+                        fragment['actions'], indexes)
     if stage_id == 'level_rogue5_b-4':
         # 39 - dycast x 2
         # 40 - dyrnge x 3

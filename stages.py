@@ -739,7 +739,7 @@ def generate_normal_stages(topic):
 
 
 def main():
-    option = input("Choose an option: \n1 for rogue\n2 for normal")
+    option = input("Choose an option: \n1 for rogue\n2 for normal\n")
     if option == "1":
         generate_roguelike_stages()
     elif option == "2":
