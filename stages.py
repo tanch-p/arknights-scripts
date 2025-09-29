@@ -739,9 +739,11 @@ def generate_normal_stages(topic):
 
 
 def main():
-    generate_roguelike_stages()
-
-    # generate_normal_stages()
+    option = input("Choose an option: \n1 for rogue\n2 for normal")
+    if option == "1":
+        generate_roguelike_stages()
+    elif option == "2":
+        generate_normal_stages()
     with open('temp.json', 'w', encoding='utf-8') as f:
         json.dump(alerts, f, ensure_ascii=False, indent=4)
 
