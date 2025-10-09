@@ -7582,7 +7582,11 @@
                 "blackboard": [
                     {
                         "key": "sp_stock",
-                        "value": "10~20"
+                        "value": 20
+                    },
+                    {
+                        "key": "sp_stock",
+                        "value": 10
                     }
                 ]
             }
@@ -10947,12 +10951,11 @@
                 ],
                 "blackboard": [
                     {
-                        "key": "add_count",
-                        "value": 1.0
-                    },
-                    {
-                        "key": "add_count_max_stack",
-                        "value": 4.0
+                        "key": "max_ammo",
+                        "value": 4.0,
+                        "conditions": [
+                            "laterano"
+                        ]
                     }
                 ]
             }
@@ -13341,11 +13344,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "结绳老手",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Practiced Knot-Tier",
+                "name_ja": "組紐の名手",
                 "desc_zh": "造成20次伤害后，获得38%<@ba.talpu>（+3%）</>物理闪避",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "ダメージを20回与えた後、物理回避+38%<@ba.talpu>（+3%）</>",
+                "desc_en": "After dealing damage 20 times, gains 38% <@ba.talpu>(+3%)</> Physical Dodge",
                 "tags": [],
                 "blackboard": [
                     {
@@ -13368,11 +13371,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "探险家的口袋",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Explorer's Stash",
+                "name_ja": "探検家のポケット",
                 "desc_zh": "可以使用4<@ba.talpu>（+1）</>个矿石“杀手”（最多拥有4个），矿石“杀手”被部署后准备一段时间可以主动引爆",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "罠「鉱石「キラー」」を使用可能（配置時に4<@ba.talpu>（+1）</>個獲得、所持上限4個）、鉱石「キラー」は配置してから一定時間後に手動で起爆可能",
+                "desc_en": "Can use 4 <@ba.talpu>(+1)</> Ore 'Killers' (can hold up to 4); once an Ore 'Killer' is deployed, can be manually detonated after an arming period",
                 "tags": [
                     "summon",
                     "aspd_unrelated"
@@ -13387,11 +13390,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "复燃",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Rekindle",
+                "name_ja": "再燃",
                 "desc_zh": "攻击范围内敌人被击倒时生成一个悲叹的仆役，最多召唤3个，若无法再次召唤则使一个悲叹的仆役升级（提升阻挡数与更多的生命、攻击和防御）",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "攻撃範囲内の敵が倒されたとき、「悲嘆する下僕」を1体召喚（戦場内に最大3体まで）。それ以上召喚できない場合は「悲嘆する下僕」1体をグレードアップ（ブロック数が上昇し、最大HP・攻撃力・防御力がさらに多く上昇）",
+                "desc_en": "When an enemy is defeated within Attack Range, summons a Servant of Lamentation (max 3); if no more Servants can be summoned, upgrades a Servant instead (increases Block, and increases HP, ATK, and DEF by more)",
                 "tags": [
                     "summon"
                 ],
@@ -13400,11 +13403,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "回光黯淡",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Deathbed Deliverance",
+                "name_ja": "回光暗澹",
                 "desc_zh": "自身和召唤物攻击生命低于60%<@ba.talpu>（+10%）</>的敌人时攻击力提升至145%<@ba.talpu>（+5%）</>",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "HPが60%<@ba.talpu>（+10%）</>未満の敵を自身と「悲嘆する下僕」が攻撃するとき、攻撃力が145%<@ba.talpu>（+5%）</>まで上昇",
+                "desc_en": "When Necrass or her summons attack enemies with less than 60% <@ba.talpu>(+10%)</> HP, increases ATK to 145% <@ba.talpu>(+5%)</>",
                 "tags": [],
                 "blackboard": []
             }
@@ -13416,11 +13419,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "藏锋伺敌",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Sheathed Blade, Studied Foe",
+                "name_ja": "奥の手",
                 "desc_zh": "特性攻击力提升至最高时，每次攻击额外追加一次43%<@ba.talpu>（+3%）</>攻击力的攻击",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "特性による攻撃力上昇効果が最大に達した状態でスキルを発動した場合、攻撃するたびに攻撃力の43%<@ba.talpu>（+3%）</>の追加攻撃を行う",
+                "desc_en": "When Trait ATK increase reaches its maximum, each attack is followed by an additional attack of 43% <@ba.talpu>(+3%)</> ATK",
                 "tags": [],
                 "blackboard": []
             }
@@ -13432,11 +13435,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "临时改装",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Makeshift Modification",
+                "name_ja": "臨時改装",
                 "desc_zh": "携带3个支援装置（最多部署2个），使一名干员攻击敌人时无视其90<@ba.talpu>（+10）</>点防御力（持续30秒），装置效果不叠加",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "支援装置を使用可能（配置時に3個獲得、最大2個まで同時配置可能）、支援装置は配置後30秒間持続し、前方のオペレーター1名に「攻撃対象の防御力を90<@ba.talpu>（+10）</>無視」の効果を付与（装置の効果は重複不可）",
+                "desc_en": "Carries 3 Support Devices (max 2 deployed at once) that allow an Operator to ignore 90 <@ba.talpu>(+10)</> DEF when attacking enemies (lasts 30s); effects from Devices do not stack",
                 "tags": [
                     "summon"
                 ],
@@ -13455,11 +13458,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "自我修复",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Self-Repair",
+                "name_ja": "自己修復",
                 "desc_zh": "可以在攻击范围内的地面使用一个仅可被自身治疗的重构体，重构体周围友方单位的攻击力+20%<@ba.talpu>（+5）</>，重构体受到自身和Mon3tr治疗时，可额外进行一次不会衰减的治疗跳跃",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "攻撃範囲内の地面マスに自身のみが治療可能な「再構成核」を1体配置可能。再構成核の周囲にいる味方ユニットの攻撃力+20%<@ba.talpu>（+5%）</>、再構成核が自身かMon3trによる治療を受けると、減衰と跳躍回数の消費なしで次の対象へと跳躍",
+                "desc_en": "Can deploy a Reconstruction on the ground within Attack Range that can only be healed by Mon3tr; the Reconstruction grants surrounding allies +20% <@ba.talpu>(+5%)</> ATK; when the Reconstruction receives healing from itself or Mon3tr, it performs an additional healing bounce that does not weaken",
                 "tags": [
                     "summon"
                 ],
@@ -13473,11 +13476,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "战术协同",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Tactical Coordination",
+                "name_ja": "戦術連携",
                 "desc_zh": "自身或重构体造成治疗时，使目标及自身的攻击速度+22<@ba.talpu>（+2）</>，持续10秒（无法叠加）",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "自身または再構成核による治療時、自身と治療対象の攻撃速度が10秒間+22<@ba.talpu>（+2）</>（重複不可）",
+                "desc_en": "Whenever Mon3tr or the Reconstruction heals a target, grants Mon3tr and the target +22 <@ba.talpu>(+2)</> ASPD for 10s (does not stack)",
                 "tags": [],
                 "blackboard": [
                     {
@@ -13719,8 +13722,13 @@
                 ],
                 "blackboard": [
                     {
-                        "key": "range_radius",
-                        "value": 1.3
+                        "key": "palsy",
+                        "targets": 1,
+                        "value": 3,
+                        "target_air": true,
+                        "category": [
+                            "neural_burst"
+                        ]
                     }
                 ]
             },
@@ -14246,6 +14254,81 @@
                         "conditions": [
                             "within_attack_range"
                         ]
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4208_wintim": {
+        "appellation": "Снегyрочка",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "疾笔撰录",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "攻击速度+12<@ba.talpu>（+2）</>，自身受到伤害后失去该效果",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 12.0
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4207_branch": {
+        "appellation": "Веточки",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "简易包扎",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "技能结束时恢复自身60%<@ba.talpu>（+10%）</>最大生命值",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "heal_self"
+                ],
+                "blackboard": []
+            }
+        ]
+    },
+    "char_4204_mantra": {
+        "appellation": "Mantra",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "噤声限域",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "场上敌人触发<ba.palsy>麻痹</>效果时立即受到相当于真言攻击力145%<@ba.talpu>（+10%）</>的元素伤害，且触发<ba.palsy>麻痹</>时有13%<@ba.talpu>（+3%）</>概率不消耗<ba.palsy>麻痹</>层数",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "ele_dmg"
+                ],
+                "blackboard": []
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "全局洞悉",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "距离真言最近的一个侵入点出场的敌人出现时立刻获得1层<ba.palsy>麻痹</>",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "palsy",
+                        "targets": 1,
+                        "value": 1,
+                        "target_air": true
                     }
                 ]
             }
