@@ -491,11 +491,7 @@
     "enemy_1317_wdexg_2": [
       {
         "key": "ammo",
-        "tooltip": {
-          "en": ["Has $0$ Initial Ammo, <v.value> Max Ammo"],
-          "ja": ["初期弾数$0$、弾薬上限数<v.value>"],
-          "zh": ["初始技力为$0$、技力上限为<v.value>"]
-        }
+        "init":0
       }
     ]
   },
@@ -516,17 +512,14 @@
     "enemy_1216_cansld_2": [
       {
         "key": "ammo",
-        "value": 4
+        "init": 4,
+        "max":4
       }
     ],
     "enemy_1317_wdexg_2": [
       {
         "key": "ammo",
-        "tooltip": {
-          "en": ["Has $2$ Initial Ammo, <v.value> Max Ammo"],
-          "ja": ["初期弾数$2$、弾薬上限数<v.value>"],
-          "zh": ["初始技力为$2$、技力上限为<v.value>"]
-        }
+        "init":2
       }
     ]
   },
@@ -558,6 +551,22 @@
     "enemy_2110_dyyrzf": [{ "key": "yan_statue_standby", "standby": 105 }],
     "enemy_2112_dyhlgy": [{ "key": "yan_statue_standby", "standby": 75 }],
     "enemy_2114_dylbgg": [{ "key": "yan_statue_standby", "standby": 140 }]
+  },
+  "level_rogue5_sv-11": {
+    "enemy_10115_ymghol_2": [
+      {
+        "key": "ymghol_start",
+        "standby": 100
+      }
+    ]
+  },
+  "level_rogue5_sv-12": {
+    "enemy_10087_hlchgr_2": [
+      {
+        "key": "ammo",
+        "init": 0
+      }
+    ]
   },
   "level_rogue5_2-2": {
     "enemy_1303_mhshep_a": [{ "key": "standby", "standby": 115 }],

@@ -2925,6 +2925,28 @@
       }
     }
   },
+  "level_rogue5_2-6": {
+        "10": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "left",
+            "type": "arrow",
+            "position": {
+                "row": 5,
+                "col": 0
+            }
+        },
+        "58": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "right",
+            "type": "arrow",
+            "position": {
+                "row": 1,
+                "col": 8
+            }
+        }
+    },
   "level_rogue5_3-2": {
     "55": {
       "tileKey": "tile_telout",
@@ -3377,6 +3399,130 @@
       }
     }
   },
+  "level_rogue5_7-1": {
+        "35": {
+            "tileKey": "tile_telin",
+            "colorIndex": -1,
+            "direction": "down",
+            "type": "arrow",
+            "position": {
+                "row": 6,
+                "col": 9
+            }
+        },
+        "37": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "down",
+            "type": "arrow",
+            "position": {
+                "row": 6,
+                "col": 11
+            }
+        },
+        "53": {
+            "tileKey": "tile_telout",
+            "colorIndex": -1,
+            "direction": "left",
+            "type": "arrow",
+            "position": {
+                "row": 4,
+                "col": 1
+            }
+        },
+        "79": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "left",
+            "type": "arrow",
+            "position": {
+                "row": 2,
+                "col": 1
+            }
+        },
+        "113": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "up",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 9
+            }
+        },
+        "115": {
+            "tileKey": "tile_telin",
+            "colorIndex": -1,
+            "direction": "up",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 11
+            }
+        }
+    },
+    "level_rogue5_7-2": {
+        "32": {
+            "tileKey": "tile_telout",
+            "colorIndex": -1,
+            "direction": "right",
+            "type": "arrow",
+            "position": {
+                "row": 5,
+                "col": 10
+            }
+        },
+        "54": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 3,
+                "col": 10
+            }
+        },
+        "76": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "right",
+            "type": "arrow",
+            "position": {
+                "row": 1,
+                "col": 10
+            }
+        },
+        "78": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "up",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 1
+            }
+        },
+        "80": {
+            "tileKey": "tile_telin",
+            "colorIndex": -1,
+            "direction": "up",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 3
+            }
+        },
+        "82": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 5
+            }
+        }
+    },
   "level_rogue5_b-1-b": {
     "12": {
       "tileKey": "tile_telout",
@@ -3495,6 +3641,142 @@
       }
     }
   },
+   "level_rogue5_b-4-b": {
+        "29": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "down",
+            "type": "arrow",
+            "position": {
+                "row": 6,
+                "col": 3
+            }
+        },
+        "100": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "up",
+            "type": "arrow",
+            "position": {
+                "row": 1,
+                "col": 9
+            }
+        },
+        "102": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "up",
+            "type": "arrow",
+            "position": {
+                "row": 1,
+                "col": 11
+            }
+        }
+    },
+    "level_rogue5_b-5-b": {
+        "3": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "up",
+            "type": "arrow",
+            "position": {
+                "row": 7,
+                "col": 3
+            }
+        },
+        "4": {
+            "tileKey": "tile_telin",
+            "colorIndex": 1,
+            "direction": "down",
+            "type": "arrow",
+            "position": {
+                "row": 7,
+                "col": 4
+            }
+        },
+        "21": {
+            "tileKey": "tile_telin",
+            "colorIndex": 2,
+            "direction": "right",
+            "type": "arrow",
+            "position": {
+                "row": 6,
+                "col": 6
+            }
+        },
+        "28": {
+            "tileKey": "tile_telout",
+            "colorIndex": 2,
+            "direction": "right",
+            "type": "arrow",
+            "position": {
+                "row": 6,
+                "col": 13
+            }
+        },
+        "91": {
+            "tileKey": "tile_telin",
+            "colorIndex": -1,
+            "direction": "left",
+            "type": "arrow",
+            "position": {
+                "row": 1,
+                "col": 1
+            }
+        },
+        "103": {
+            "tileKey": "tile_telout",
+            "colorIndex": -1,
+            "direction": "right",
+            "type": "arrow",
+            "position": {
+                "row": 1,
+                "col": 13
+            }
+        },
+        "108": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "up",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 3
+            }
+        },
+        "109": {
+            "tileKey": "tile_telout",
+            "colorIndex": 1,
+            "direction": "up",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 4
+            }
+        }
+    },
+    "level_rogue5_b-7": {
+        "115": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "up",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 3
+            }
+        },
+        "122": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "up",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 10
+            }
+        }
+    },
   "level_rogue5_ev-1": {
     "1": {
       "tileKey": "tile_telin",
@@ -3793,6 +4075,188 @@
       }
     }
   },
+  "level_rogue5_sv-12": {
+        "12": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "left",
+            "type": "arrow",
+            "position": {
+                "row": 7,
+                "col": 1
+            }
+        },
+        "14": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "down",
+            "type": "arrow",
+            "position": {
+                "row": 7,
+                "col": 3
+            }
+        },
+        "16": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "down",
+            "type": "arrow",
+            "position": {
+                "row": 7,
+                "col": 5
+            }
+        },
+        "18": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "down",
+            "type": "arrow",
+            "position": {
+                "row": 7,
+                "col": 7
+            }
+        },
+        "20": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "down",
+            "type": "arrow",
+            "position": {
+                "row": 7,
+                "col": 9
+            }
+        },
+        "34": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "up",
+            "type": "arrow",
+            "position": {
+                "row": 5,
+                "col": 1
+            }
+        },
+        "36": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "up",
+            "type": "arrow",
+            "position": {
+                "row": 5,
+                "col": 3
+            }
+        },
+        "38": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "up",
+            "type": "arrow",
+            "position": {
+                "row": 5,
+                "col": 5
+            }
+        },
+        "40": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "up",
+            "type": "arrow",
+            "position": {
+                "row": 5,
+                "col": 7
+            }
+        },
+        "56": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "down",
+            "type": "arrow",
+            "position": {
+                "row": 3,
+                "col": 1
+            }
+        },
+        "58": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "down",
+            "type": "arrow",
+            "position": {
+                "row": 3,
+                "col": 3
+            }
+        },
+        "60": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "down",
+            "type": "arrow",
+            "position": {
+                "row": 3,
+                "col": 5
+            }
+        },
+        "62": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "down",
+            "type": "arrow",
+            "position": {
+                "row": 3,
+                "col": 7
+            }
+        },
+        "64": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "down",
+            "type": "arrow",
+            "position": {
+                "row": 3,
+                "col": 9
+            }
+        },
+        "78": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "up",
+            "type": "arrow",
+            "position": {
+                "row": 1,
+                "col": 1
+            }
+        },
+        "80": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "up",
+            "type": "arrow",
+            "position": {
+                "row": 1,
+                "col": 3
+            }
+        },
+        "82": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "up",
+            "type": "arrow",
+            "position": {
+                "row": 1,
+                "col": 5
+            }
+        },
+        "84": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "up",
+            "type": "arrow",
+            "position": {
+                "row": 1,
+                "col": 7
+            }
+        }
+    },
   "level_rogue5_t-2": {
     "13": {
       "tileKey": "tile_telin",

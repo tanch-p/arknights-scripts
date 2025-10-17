@@ -24,7 +24,7 @@ STAT_KEY_CONVERSION_TABLE = {
 TRAPS_TO_EXCLUDE = ["trap_042_tidectrl", "trap_061_creep", "trap_062_magicstart",
                     "trap_063_magicturn", "trap_050_blizzard", "trap_092_vgctrl",
                     "trap_036_storm", "trap_162_lrctrl", "trap_766_duelwal",
-                    "trap_767_duelcdt", "trap_106_smtree", 'trap_251_buftrp', 'trap_239_dyffgd', 'trap_240_dyffdd']
+                    "trap_767_duelcdt", "trap_106_smtree", 'trap_251_buftrp', 'trap_239_dyffgd', 'trap_240_dyffdd','trap_278_dyfgdd']
 ENEMIES_TO_IGNORE = ['enemy_2086_skzdwx', 'enemy_2087_skzdwy',
                      'enemy_2088_skzdwz', 'enemy_2062_smcar']
 STAGES_WITH_ENEMY_REF_TO_IGNORE = {"level_rogue1_4-2": ["enemy_1025_reveng_2"],

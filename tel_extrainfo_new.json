@@ -1,3 +1,1666 @@
 {
-    
+    "level_rogue5_1-1": {
+        "18": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 6,
+                "col": 8
+            }
+        },
+        "24": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 5,
+                "col": 4
+            }
+        },
+        "25": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 5,
+                "col": 5
+            }
+        },
+        "33": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 4,
+                "col": 3
+            }
+        },
+        "36": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 4,
+                "col": 6
+            }
+        },
+        "43": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 3,
+                "col": 3
+            }
+        },
+        "46": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 3,
+                "col": 6
+            }
+        },
+        "54": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 2,
+                "col": 4
+            }
+        },
+        "55": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 2,
+                "col": 5
+            }
+        },
+        "68": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 1,
+                "col": 8
+            }
+        }
+    },
+    "level_rogue5_1-4": {
+        "19": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 5,
+                "col": 8
+            }
+        },
+        "40": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 3,
+                "col": 7
+            }
+        }
+    },
+    "level_rogue5_2-4": {
+        "9": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 5,
+                "col": 0
+            }
+        },
+        "27": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 3,
+                "col": 0
+            }
+        },
+        "35": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 3,
+                "col": 8
+            }
+        },
+        "53": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 1,
+                "col": 8
+            }
+        }
+    },
+    "level_rogue5_2-6": {
+        "10": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 5,
+                "col": 0
+            }
+        },
+        "58": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 1,
+                "col": 8
+            }
+        }
+    },
+    "level_rogue5_3-2": {
+        "55": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 1,
+                "col": 0
+            }
+        },
+        "65": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 1,
+                "col": 10
+            }
+        }
+    },
+    "level_rogue5_4-3": {
+        "15": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 6,
+                "col": 3
+            }
+        },
+        "17": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 6,
+                "col": 5
+            }
+        }
+    },
+    "level_rogue5_4-4": {
+        "10": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 7,
+                "col": 0
+            }
+        },
+        "60": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 2,
+                "col": 0
+            }
+        },
+        "67": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 2,
+                "col": 7
+            }
+        },
+        "71": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 1,
+                "col": 1
+            }
+        }
+    },
+    "level_rogue5_4-5": {
+        "15": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 6,
+                "col": 3
+            }
+        },
+        "16": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 6,
+                "col": 4
+            }
+        },
+        "91": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 7
+            }
+        },
+        "92": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 8
+            }
+        }
+    },
+    "level_rogue5_4-6": {
+        "15": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 6,
+                "col": 4
+            }
+        },
+        "37": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 4,
+                "col": 4
+            }
+        },
+        "39": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 4,
+                "col": 6
+            }
+        },
+        "59": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 2,
+                "col": 4
+            }
+        },
+        "61": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 2,
+                "col": 6
+            }
+        },
+        "79": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 2
+            }
+        }
+    },
+    "level_rogue5_5-1": {
+        "15": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 6,
+                "col": 3
+            }
+        },
+        "20": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 6,
+                "col": 8
+            }
+        },
+        "80": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 1,
+                "col": 8
+            }
+        }
+    },
+    "level_rogue5_5-2": {
+        "14": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 6,
+                "col": 2
+            }
+        },
+        "21": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 6,
+                "col": 9
+            }
+        },
+        "48": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 3,
+                "col": 0
+            }
+        },
+        "59": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 3,
+                "col": 11
+            }
+        },
+        "87": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 3
+            }
+        },
+        "92": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 8
+            }
+        }
+    },
+    "level_rogue5_5-3": {
+        "16": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 5,
+                "col": 5
+            }
+        },
+        "18": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 5,
+                "col": 7
+            }
+        },
+        "38": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 3,
+                "col": 5
+            }
+        },
+        "40": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 3,
+                "col": 7
+            }
+        },
+        "60": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 1,
+                "col": 5
+            }
+        },
+        "62": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 1,
+                "col": 7
+            }
+        }
+    },
+    "level_rogue5_5-4": {
+        "14": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 6,
+                "col": 2
+            }
+        },
+        "22": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 6,
+                "col": 10
+            }
+        },
+        "86": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 2
+            }
+        },
+        "94": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 10
+            }
+        }
+    },
+    "level_rogue5_5-5": {
+        "23": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 7,
+                "col": 10
+            }
+        },
+        "54": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 4,
+                "col": 2
+            }
+        },
+        "111": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 7
+            }
+        },
+        "112": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 8
+            }
+        }
+    },
+    "level_rogue5_6-2": {
+        "78": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 1
+            }
+        },
+        "86": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 9
+            }
+        }
+    },
+    "level_rogue5_7-1": {
+        "35": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 6,
+                "col": 9
+            }
+        },
+        "37": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 6,
+                "col": 11
+            }
+        },
+        "53": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 4,
+                "col": 1
+            }
+        },
+        "79": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 2,
+                "col": 1
+            }
+        },
+        "113": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 9
+            }
+        },
+        "115": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 11
+            }
+        }
+    },
+    "level_rogue5_7-2": {
+        "32": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 5,
+                "col": 10
+            }
+        },
+        "54": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 3,
+                "col": 10
+            }
+        },
+        "76": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 1,
+                "col": 10
+            }
+        },
+        "78": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 1
+            }
+        },
+        "80": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 3
+            }
+        },
+        "82": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 5
+            }
+        }
+    },
+    "level_rogue5_b-1-b": {
+        "12": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 6,
+                "col": 0
+            }
+        },
+        "73": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 1,
+                "col": 1
+            }
+        }
+    },
+    "level_rogue5_b-1": {
+        "20": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 6,
+                "col": 9
+            }
+        },
+        "78": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 1
+            }
+        },
+        "80": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 3
+            }
+        }
+    },
+    "level_rogue5_b-3": {
+        "1": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 6,
+                "col": 1
+            }
+        },
+        "7": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 6,
+                "col": 7
+            }
+        },
+        "73": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 1
+            }
+        },
+        "79": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 7
+            }
+        }
+    },
+    "level_rogue5_b-4-b": {
+        "29": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 6,
+                "col": 3
+            }
+        },
+        "100": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 1,
+                "col": 9
+            }
+        },
+        "102": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 1,
+                "col": 11
+            }
+        }
+    },
+    "level_rogue5_b-4": {
+        "22": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 6,
+                "col": 9
+            }
+        },
+        "26": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 5,
+                "col": 0
+            }
+        }
+    },
+    "level_rogue5_b-5-b": {
+        "3": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 7,
+                "col": 3
+            }
+        },
+        "4": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 7,
+                "col": 4
+            }
+        },
+        "21": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 6,
+                "col": 6
+            }
+        },
+        "28": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 6,
+                "col": 13
+            }
+        },
+        "91": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 1,
+                "col": 1
+            }
+        },
+        "103": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 1,
+                "col": 13
+            }
+        },
+        "108": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 3
+            }
+        },
+        "109": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 4
+            }
+        }
+    },
+    "level_rogue5_b-7": {
+        "115": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 3
+            }
+        },
+        "122": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 10
+            }
+        }
+    },
+    "level_rogue5_ev-1": {
+        "1": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 6,
+                "col": 1
+            }
+        },
+        "2": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 6,
+                "col": 2
+            }
+        },
+        "3": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 6,
+                "col": 3
+            }
+        },
+        "80": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 8
+            }
+        },
+        "81": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 9
+            }
+        },
+        "82": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 10
+            }
+        }
+    },
+    "level_rogue5_ev-2": {
+        "22": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 7,
+                "col": 10
+            }
+        },
+        "65": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 3,
+                "col": 5
+            }
+        },
+        "66": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 3,
+                "col": 6
+            }
+        },
+        "86": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 1,
+                "col": 2
+            }
+        }
+    },
+    "level_rogue5_sv-12": {
+        "12": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 7,
+                "col": 1
+            }
+        },
+        "14": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 7,
+                "col": 3
+            }
+        },
+        "16": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 7,
+                "col": 5
+            }
+        },
+        "18": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 7,
+                "col": 7
+            }
+        },
+        "20": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 7,
+                "col": 9
+            }
+        },
+        "34": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 5,
+                "col": 1
+            }
+        },
+        "36": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 5,
+                "col": 3
+            }
+        },
+        "38": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 5,
+                "col": 5
+            }
+        },
+        "40": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 5,
+                "col": 7
+            }
+        },
+        "56": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 3,
+                "col": 1
+            }
+        },
+        "58": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 3,
+                "col": 3
+            }
+        },
+        "60": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 3,
+                "col": 5
+            }
+        },
+        "62": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 3,
+                "col": 7
+            }
+        },
+        "64": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 3,
+                "col": 9
+            }
+        },
+        "78": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 1,
+                "col": 1
+            }
+        },
+        "80": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 1,
+                "col": 3
+            }
+        },
+        "82": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 1,
+                "col": 5
+            }
+        },
+        "84": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 1,
+                "col": 7
+            }
+        }
+    },
+    "level_rogue5_sv-6-b": {
+        "7": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 6,
+                "col": 7
+            }
+        },
+        "55": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 1
+            }
+        }
+    },
+    "level_rogue5_sv-6": {
+        "7": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 6,
+                "col": 7
+            }
+        },
+        "55": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 1
+            }
+        }
+    },
+    "level_rogue5_sv-7-b": {
+        "12": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 5,
+                "col": 3
+            }
+        },
+        "31": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 3,
+                "col": 4
+            }
+        },
+        "45": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 1,
+                "col": 0
+            }
+        },
+        "53": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 1,
+                "col": 8
+            }
+        }
+    },
+    "level_rogue5_sv-7": {
+        "12": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 5,
+                "col": 3
+            }
+        },
+        "31": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 3,
+                "col": 4
+            }
+        },
+        "45": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 1,
+                "col": 0
+            }
+        },
+        "53": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 1,
+                "col": 8
+            }
+        }
+    },
+    "level_rogue5_sv-9-b": {
+        "11": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 5,
+                "col": 1
+            }
+        },
+        "65": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 5
+            }
+        }
+    },
+    "level_rogue5_sv-9-c": {
+        "11": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 5,
+                "col": 1
+            }
+        },
+        "65": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 5
+            }
+        }
+    },
+    "level_rogue5_sv-9": {
+        "11": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 5,
+                "col": 1
+            }
+        },
+        "65": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 5
+            }
+        }
+    },
+    "level_rogue5_t-2": {
+        "13": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 5,
+                "col": 2
+            }
+        },
+        "16": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 5,
+                "col": 5
+            }
+        },
+        "35": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 3,
+                "col": 2
+            }
+        },
+        "42": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 3,
+                "col": 9
+            }
+        },
+        "57": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 1,
+                "col": 2
+            }
+        },
+        "60": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 1,
+                "col": 5
+            }
+        }
+    },
+    "level_rogue5_t-4": {
+        "27": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 6,
+                "col": 1
+            }
+        },
+        "54": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 4,
+                "col": 2
+            }
+        },
+        "79": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 2,
+                "col": 1
+            }
+        }
+    },
+    "level_rogue5_t-6": {
+        "2": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 6,
+                "col": 2
+            }
+        },
+        "4": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 6,
+                "col": 4
+            }
+        },
+        "6": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 6,
+                "col": 6
+            }
+        },
+        "31": {
+            "tileKey": "tile_telout",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 3,
+                "col": 1
+            }
+        },
+        "62": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 2
+            }
+        },
+        "64": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 4
+            }
+        },
+        "66": {
+            "tileKey": "tile_telin",
+            "colorIndex": 0,
+            "direction": "",
+            "type": "arrow",
+            "position": {
+                "row": 0,
+                "col": 6
+            }
+        }
+    }
 }

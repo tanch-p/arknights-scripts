@@ -16,21 +16,22 @@ with open("tel_extrainfo.json", encoding="utf-8") as f:
     tel_data = json.load(f)
 
 empty_action = {
-              "actionType": "EMPTY",
-              "key": "",
-              "count": 1,
-              "preDelay": 0.0,
-              "interval": 1.0,
-              "routeIndex": 0,
-              "hiddenGroup": None,
-              "randomSpawnGroupKey": None,
-              "randomSpawnGroupPackKey": None,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
-              "weight": 10,
-              "dontBlockWave": False,
-              "forceBlockWaveInBranch": False
-            }
+    "actionType": "EMPTY",
+    "key": "",
+    "count": 1,
+    "preDelay": 0.0,
+    "interval": 1.0,
+    "routeIndex": 0,
+    "hiddenGroup": None,
+    "randomSpawnGroupKey": None,
+    "randomSpawnGroupPackKey": None,
+    "randomType": "ALWAYS",
+    "refreshType": "ALWAYS",
+    "weight": 10,
+    "dontBlockWave": False,
+    "forceBlockWaveInBranch": False
+}
+
 
 def remove_by_indexes(lst, indexes):
     return [item for i, item in enumerate(lst) if i not in indexes]
@@ -184,7 +185,7 @@ def compress_waves(stage_data, stage_id):
         for wave in waves:
             for frag_index, fragment in enumerate(wave['fragments']):
                 if frag_index == 0:
-                    indexes = [6,7,8]
+                    indexes = [6, 7, 8]
                     fragment['actions'] = remove_by_indexes(
                         fragment['actions'], indexes)
     if stage_id == 'level_rogue5_b-4':
@@ -199,9 +200,9 @@ def compress_waves(stage_data, stage_id):
                     for idx, action in enumerate(fragment['actions']):
                         if idx in [0, 1]:
                             action['randomSpawnGroupPackKey'] = 'sp1'
-                        elif idx in [2,3]:
+                        elif idx in [2, 3]:
                             action['randomSpawnGroupPackKey'] = 'sp2'
-                        elif idx in [4,5]:
+                        elif idx in [4, 5]:
                             action['randomSpawnGroupPackKey'] = 'sp3'
                     empty_t2 = copy.deepcopy(empty_action)
                     empty_t2['randomSpawnGroupKey'] = 't2'
@@ -209,15 +210,14 @@ def compress_waves(stage_data, stage_id):
                     empty_t3 = copy.deepcopy(empty_action)
                     empty_t3['randomSpawnGroupKey'] = 't3'
                     empty_t3['weight'] = 40
-                    fragment['actions'].insert(0,empty_t2)
-                    fragment['actions'].insert(1,empty_t3)
+                    fragment['actions'].insert(0, empty_t2)
+                    fragment['actions'].insert(1, empty_t3)
 
     if stage_id == 'level_rogue4_d-1':
         branches['Walk']['phases'][0]['actions'][0]['key'] = "enemy_1516_jakill"
-    if stage_id == 'level_rogue4_d-2':
-        branches['Walk_1']['phases'][0]['actions'][0]['key'] = "enemy_2001_duckmi"
-        branches['Walk_2']['phases'][0]['actions'][0]['key'] = "enemy_2002_bearmi"
-    if stage_id == 'level_rogue4_d-3':
+    if stage_id in ['level_rogue5_d-1','level_rogue5_d-1-b','level_rogue5_d-3']:
+        branches['Walk']['phases'][0]['actions'][0]['key'] = "enemy_2002_bearmi"
+    if stage_id in ['level_rogue4_d-2', 'level_rogue4_d-3', 'level_rogue5_d-2', 'level_rogue5_d-2-b', 'level_rogue5_d-2-c', 'level_rogue5_d-4']:
         branches['Walk_1']['phases'][0]['actions'][0]['key'] = "enemy_2001_duckmi"
         branches['Walk_2']['phases'][0]['actions'][0]['key'] = "enemy_2002_bearmi"
     if stage_id == 'level_rogue4_d-b':

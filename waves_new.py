@@ -16,7 +16,7 @@ pp = pprint.PrettyPrinter(indent=4)
 pattern = re.compile(r"^level_rogue\d+_\d+-\d+$")
 
 bonus_enemies = ['enemy_2001_duckmi', 'enemy_2002_bearmi',
-                 'enemy_2034_sythef', 'enemy_2085_skzjxd']
+                 'enemy_2034_sythef', 'enemy_2085_skzjxd','enemy_2125_dylnpp']
 sp_stages_with_bonus = [
     "level_rogue5_ev-1",
     "level_rogue5_t-9-a", "level_rogue5_t-9-b", "level_rogue5_t-9-c"]

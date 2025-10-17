@@ -5,6 +5,18 @@ from operator import itemgetter
 script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
 
+"""
+Tel Arrow Color Indexes
+0 - orange
+1 - green
+2 - pink
+3 - yellow
+-1 - blue
+
+Direction - direction stairs is towards
+
+"""
+
 def get_all_files(folder_path):
     file_paths = []
     for root, _, files in os.walk(folder_path):
@@ -49,7 +61,7 @@ for folder in folders:
     all_files = get_all_files(path)
     all_files.sort()
     for file_path in all_files:
-        if "r1." in file_path or "r2." in file_path:
+        if "r1." in file_path or "r2." in file_path or "dlc1" in file_path:
             continue
         with open(file_path, encoding="utf-8") as f:
             stage_data = json.load(f)
