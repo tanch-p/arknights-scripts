@@ -95,7 +95,50 @@ STAGES_WITH_REF_TO_REPLACE = {'level_rogue4_b-4': 'level_rogue4_b-4-c',
                               'level_rogue4_t-5': 'levelreplacers/level_rogue4_t-5_r1',
                               'level_rogue4_t-6': 'levelreplacers/level_rogue4_t-6_r1',
                               'level_rogue4_t-7': 'levelreplacers/level_rogue4_t-7_r1',
-                              'level_rogue4_t-8': 'levelreplacers/level_rogue4_t-8_r1', }
+                              'level_rogue4_t-8': 'levelreplacers/level_rogue4_t-8_r1',
+                              'level_rogue5_1-1': '/dlc1/level_rogue5_1-1_dlc1',
+                              'level_rogue5_1-2': '/dlc1/level_rogue5_1-2_dlc1',
+                              'level_rogue5_1-3': '/dlc1/level_rogue5_1-3_dlc1',
+                              'level_rogue5_1-4': '/dlc1/level_rogue5_1-4_dlc1',
+                              'level_rogue5_2-1': '/dlc1/level_rogue5_2-1_dlc1',
+                              'level_rogue5_2-2': '/dlc1/level_rogue5_2-2_dlc1',
+                              'level_rogue5_2-3': '/dlc1/level_rogue5_2-3_dlc1',
+                              'level_rogue5_2-4': '/dlc1/level_rogue5_2-4_dlc1',
+                              'level_rogue5_3-1': '/dlc1/level_rogue5_3-1_dlc1',
+                              'level_rogue5_3-2': '/dlc1/level_rogue5_3-2_dlc1',
+                              'level_rogue5_3-3': '/dlc1/level_rogue5_3-3_dlc1',
+                              'level_rogue5_3-4': '/dlc1/level_rogue5_3-4_dlc1',
+                              'level_rogue5_3-5': '/dlc1/level_rogue5_3-5_dlc1',
+                              'level_rogue5_4-1': '/dlc1/level_rogue5_4-1_dlc1',
+                              'level_rogue5_4-2': '/dlc1/level_rogue5_4-2_dlc1',
+                              'level_rogue5_4-3': '/dlc1/level_rogue5_4-3_dlc1',
+                              'level_rogue5_4-4': '/dlc1/level_rogue5_4-4_dlc1',
+                              'level_rogue5_4-5': '/dlc1/level_rogue5_4-5_dlc1',
+                              'level_rogue5_4-6': '/dlc1/level_rogue5_4-6_dlc1',
+                              'level_rogue5_5-1': '/dlc1/level_rogue5_5-1_dlc1',
+                              'level_rogue5_5-2': '/dlc1/level_rogue5_5-2_dlc1',
+                              'level_rogue5_5-3': '/dlc1/level_rogue5_5-3_dlc1',
+                              'level_rogue5_5-4': '/dlc1/level_rogue5_5-4_dlc1',
+                              'level_rogue5_5-5': '/dlc1/level_rogue5_5-5_dlc1',
+                              'level_rogue5_5-6': '/dlc1/level_rogue5_5-6_dlc1',
+                              'level_rogue5_6-1': '/dlc1/level_rogue5_6-1_dlc1',
+                              'level_rogue5_6-2': '/dlc1/level_rogue5_6-2_dlc1',
+                              'level_rogue5_sv-1': '/dlc1/level_rogue5_sv-1_dlc1',
+                               'level_rogue5_sv-1-b': '/dlc1/level_rogue5_sv-1-b_dlc1',
+                               'level_rogue5_sv-3': '/dlc1/level_rogue5_sv-3_dlc1',
+                               'level_rogue5_sv-3-b': '/dlc1/level_rogue5_sv-3-b_dlc1',
+                               'level_rogue5_sv-4': '/dlc1/level_rogue5_sv-4_dlc1',
+                               'level_rogue5_sv-5': '/dlc1/level_rogue5_sv-5_dlc1',
+                               'level_rogue5_sv-5-b': '/dlc1/level_rogue5_sv-5-b_dlc1',
+                               'level_rogue5_sv-6': '/dlc1/level_rogue5_sv-6_dlc1',
+                               'level_rogue5_sv-6-b': '/dlc1/level_rogue5_sv-6-b_dlc1',
+                               'level_rogue5_sv-7': '/dlc1/level_rogue5_sv-7_dlc1',
+                               'level_rogue5_sv-7-b': '/dlc1/level_rogue5_sv-7-b_dlc1',
+                               'level_rogue5_sv-8': '/dlc1/level_rogue5_sv-8_dlc1',
+                               'level_rogue5_sv-8-b': '/dlc1/level_rogue5_sv-8-b_dlc1',
+                               'level_rogue5_sv-9': '/dlc1/level_rogue5_sv-9_dlc1',
+                               'level_rogue5_sv-10': '/dlc1/level_rogue5_sv-10_dlc1',
+                                'level_rogue5_sv-10-b': '/dlc1/level_rogue5_sv-10-b_dlc1', }
 STAGES_WITH_NAME_TO_REPLACE = {
 
 }
@@ -443,6 +486,8 @@ def generate_roguelike_stages():
             if not ("_n_" in stage_info_cn["id"] and stage_info_cn["isElite"] == 0):
                 levelId = stage_info_cn["levelId"].split("/")[-1]
                 print(levelId)
+                if 'dlc' in levelId:
+                    continue
                 folder = topic_dict["folder"]
                 stage_data_path = os.path.join(
                     script_dir,
@@ -666,7 +711,7 @@ def generate_normal_stages(topic):
         sp_terrain = sp_tiles
         if sp_terrain is not None and len(sp_terrain) == 0:
             sp_terrain = None
-        
+
         with open("activity_stages_extrainfo.json", encoding="utf-8") as f:
             extrainfo = json.load(f)
 
