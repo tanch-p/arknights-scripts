@@ -122,23 +122,8 @@ STAGES_WITH_REF_TO_REPLACE = {'level_rogue4_b-4': 'level_rogue4_b-4-c',
                               'level_rogue5_5-5': '/dlc1/level_rogue5_5-5_dlc1',
                               'level_rogue5_5-6': '/dlc1/level_rogue5_5-6_dlc1',
                               'level_rogue5_6-1': '/dlc1/level_rogue5_6-1_dlc1',
-                              'level_rogue5_6-2': '/dlc1/level_rogue5_6-2_dlc1',
-                              'level_rogue5_sv-1': '/dlc1/level_rogue5_sv-1_dlc1',
-                               'level_rogue5_sv-1-b': '/dlc1/level_rogue5_sv-1-b_dlc1',
-                               'level_rogue5_sv-3': '/dlc1/level_rogue5_sv-3_dlc1',
-                               'level_rogue5_sv-3-b': '/dlc1/level_rogue5_sv-3-b_dlc1',
-                               'level_rogue5_sv-4': '/dlc1/level_rogue5_sv-4_dlc1',
-                               'level_rogue5_sv-5': '/dlc1/level_rogue5_sv-5_dlc1',
-                               'level_rogue5_sv-5-b': '/dlc1/level_rogue5_sv-5-b_dlc1',
-                               'level_rogue5_sv-6': '/dlc1/level_rogue5_sv-6_dlc1',
-                               'level_rogue5_sv-6-b': '/dlc1/level_rogue5_sv-6-b_dlc1',
-                               'level_rogue5_sv-7': '/dlc1/level_rogue5_sv-7_dlc1',
-                               'level_rogue5_sv-7-b': '/dlc1/level_rogue5_sv-7-b_dlc1',
-                               'level_rogue5_sv-8': '/dlc1/level_rogue5_sv-8_dlc1',
-                               'level_rogue5_sv-8-b': '/dlc1/level_rogue5_sv-8-b_dlc1',
-                               'level_rogue5_sv-9': '/dlc1/level_rogue5_sv-9_dlc1',
-                               'level_rogue5_sv-10': '/dlc1/level_rogue5_sv-10_dlc1',
-                                'level_rogue5_sv-10-b': '/dlc1/level_rogue5_sv-10-b_dlc1', }
+                              'level_rogue5_6-2': '/dlc1/level_rogue5_6-2_dlc1'
+}
 STAGES_WITH_NAME_TO_REPLACE = {
 
 }
@@ -486,12 +471,13 @@ def generate_roguelike_stages():
             if not ("_n_" in stage_info_cn["id"] and stage_info_cn["isElite"] == 0):
                 levelId = stage_info_cn["levelId"].split("/")[-1]
                 print(levelId)
-                if 'dlc' in levelId:
-                    continue
                 folder = topic_dict["folder"]
+                file_path = f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{folder}/{levelId}.json"
+                if 'dlc1' in levelId:
+                    file_path = f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{folder}/dlc1/{levelId}.json"
                 stage_data_path = os.path.join(
                     script_dir,
-                    f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{folder}/{levelId}.json",
+                    file_path,
                 )
                 with open(stage_data_path, encoding="utf-8") as f:
                     stage_data = json.load(f)

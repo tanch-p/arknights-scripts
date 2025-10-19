@@ -147,10 +147,12 @@ def add_new_ro_stages():
                 folder = "ro4"
             elif 'rogue5' in key:
                 folder = "ro5"
-
+            file_path = f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{folder}/{key}.json"
+            if 'dlc1' in key:
+                file_path = f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{folder}/dlc1/{key}.json"
             stage_data_path = os.path.join(
                 script_dir,
-                f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{folder}/{key}.json",
+                file_path,
             )
             with open(stage_data_path, encoding="utf-8") as f:
                 stage_data = json.load(f)
@@ -275,8 +277,8 @@ def add_new_event_stages():
 
 
 def main():
-    update_current_stages()
-    # add_new_ro_stages()
+    # update_current_stages()
+    add_new_ro_stages()
     # add_new_event_stages()
     pass
 
