@@ -32,7 +32,8 @@ STAGES_WITH_ENEMY_REF_TO_IGNORE = {"level_rogue1_4-2": ["enemy_1025_reveng_2"],
                                    "level_rogue4_4-4": ["enemy_1221_dzomg_b", "enemy_1220_dzoms_b"],
                                    "level_rogue3_b-4-b": ["enemy_2054_smdeer"],
                                    "level_rogue4_3-2": ["enemy_1271_nhkodo_a"],
-                                   "level_rogue5_b-4": ["enemy_1128_spmage_2"]}
+                                   "level_rogue5_b-4": ["enemy_1128_spmage_2"],
+                                   "level_rogue5_fs-2":["enemy_1508_faust"]}
 STAGES_TO_SKIP = ['ro4_b_4_c', 'ro4_b_4_d', 'ro4_b_5_c', 'ro4_b_5_d']
 STAGES_WITH_REF_TO_REPLACE = {'level_rogue4_b-4': 'level_rogue4_b-4-c',
                               'level_rogue4_b-4-b': 'level_rogue4_b-4-d',
