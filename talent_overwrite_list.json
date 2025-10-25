@@ -487,6 +487,12 @@
   "level_rogue5_sv-1-b": {
     "enemy_2034_sythef": [{ "key": "attack_stun", "value": 12 }]
   },
+  "level_rogue5_sv-1_dlc1": {
+    "enemy_2034_sythef": [{ "key": "attack_stun", "value": 12 }]
+  },
+  "level_rogue5_sv-1-b_dlc1": {
+    "enemy_2034_sythef": [{ "key": "attack_stun", "value": 12 }]
+  },
   "level_rogue5_sv-2-c": {
     "enemy_1317_wdexg_2": [
       {
@@ -496,6 +502,19 @@
     ]
   },
   "level_rogue5_sv-4": {
+    "enemy_10066_ftxjl_2": [
+      {
+        "key": "ftxjl_grow",
+        "hp": { "multiplier": 8, "order": "initial" },
+        "atk": { "multiplier": 1.6, "order": "initial" },
+        "suffix": { "en": "MAX", "ja": "MAX", "zh": "满层" },
+        "hpup": 800,
+        "atkup": 160,
+        "duration": 60
+      }
+    ]
+  },
+  "level_rogue5_sv-4_dlc1": {
     "enemy_10066_ftxjl_2": [
       {
         "key": "ftxjl_grow",
@@ -523,7 +542,34 @@
       }
     ]
   },
+  "level_rogue5_sv-5_dlc1": {
+    "enemy_1216_cansld_2": [
+      {
+        "key": "ammo",
+        "init": 4,
+        "max":4
+      }
+    ],
+    "enemy_1317_wdexg_2": [
+      {
+        "key": "ammo",
+        "init":2
+      }
+    ]
+  },
   "level_rogue5_sv-6": {
+    "enemy_1105_tyokai_2": [
+      {
+        "key": "defeat_trap_loot",
+        "tooltip": {
+          "en": [],
+          "ja": [],
+          "zh": ["死亡时给予我方干扰装置"]
+        }
+      }
+    ]
+  },
+  "level_rogue5_sv-6_dlc1": {
     "enemy_1105_tyokai_2": [
       {
         "key": "defeat_trap_loot",
@@ -544,10 +590,27 @@
       { "key": "dylbg2_heal", "atk": { "multiplier": 1.2 } }
     ]
   },
+  "level_rogue5_sv-7_dlc1": {
+    "enemy_1146_defspd_2": [{ "key": "anvil_healing_aura", "regen": 300 }]
+  },
+  "level_rogue5_sv-7-b_dlc1": {
+    "enemy_2113_dyhlg2": [{ "key": "yan_statue_standby", "standby": 60 }],
+    "enemy_2115_dylbg2": [
+      { "key": "dylbg2_heal", "atk": { "multiplier": 1.2 } }
+    ]
+  },
   "level_rogue5_sv-8-b": {
     "enemy_1101_plkght_2": [{ "key": "roarknight_barrier", "duration": 60 }]
   },
+   "level_rogue5_sv-8-b_dlc1": {
+    "enemy_1101_plkght_2": [{ "key": "roarknight_barrier", "duration": 60 }]
+  },
   "level_rogue5_sv-10": {
+    "enemy_2110_dyyrzf": [{ "key": "yan_statue_standby", "standby": 105 }],
+    "enemy_2112_dyhlgy": [{ "key": "yan_statue_standby", "standby": 75 }],
+    "enemy_2114_dylbgg": [{ "key": "yan_statue_standby", "standby": 140 }]
+  },
+   "level_rogue5_sv-10_dlc1": {
     "enemy_2110_dyyrzf": [{ "key": "yan_statue_standby", "standby": 105 }],
     "enemy_2112_dyhlgy": [{ "key": "yan_statue_standby", "standby": 75 }],
     "enemy_2114_dylbgg": [{ "key": "yan_statue_standby", "standby": 140 }]
