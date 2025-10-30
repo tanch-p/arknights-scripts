@@ -32130,13 +32130,25 @@
 		"name_en": null,
 		"category": null,
 		"floors": [5],
-		"addInfo_zh": null,
+		"addInfo_zh": [
+			"战斗中期，左侧场地左下化境地块与右上化境地块各自在相邻的不可部署地块刷新1个雕伥，每10s召唤一个除秽"
+		],
 		"addInfo_ja": null,
 		"addInfo_en": null,
 		"eliteDesc_zh": null,
 		"eliteDesc_ja": null,
 		"eliteDesc_en": null,
-		"all_mods": null,
+		"all_mods": [
+			{
+				"targets": ["trap_222_rgdysm#3", "trap_222_rgdysm#4"],
+				"special": {
+					"rgdysm_summon": {
+						"interval": 10.0,
+						"enemy_key": "enemy_1390_dhsbr_2"
+					}
+				}
+			}
+		],
 		"normal_mods": null,
 		"elite_mods": null,
 		"enemy_counts": [75],
@@ -32784,9 +32796,19 @@
 		"addInfo_zh": null,
 		"addInfo_ja": null,
 		"addInfo_en": null,
-		"eliteDesc_zh": ["所有敌方单位的攻击力+10%，生命值+20%"],
-		"eliteDesc_ja": ["敵全員の攻撃力+10%、最大HP+20%"],
-		"eliteDesc_en": ["All enemy units have +10% ATK, +20% Max HP"],
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+10%，生命值+20%",
+			"最左侧的可部署地面处额外出现1个巡游草叶",
+			"保护目标右上一格处额外出现1个雕伥，每10s召唤一个便符"
+		],
+		"eliteDesc_ja": [
+			"敵全員の攻撃力+10%、最大HP+20%",
+			"追加で1体の<ミマワリグサ>と<雕伥>が出現する"
+		],
+		"eliteDesc_en": [
+			"All enemy units have +10% ATK, +20% Max HP",
+			"Additional 1 <'Patrolling Foliage'> and 1 <雕伥> appears"
+		],
 		"all_mods": [
 			{
 				"targets": ["system"],
@@ -33005,7 +33027,11 @@
 		"addInfo_zh": null,
 		"addInfo_ja": null,
 		"addInfo_en": null,
-		"eliteDesc_zh": ["所有敌方单位的攻击力+10%，防御力+10%，生命值+30%"],
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+10%，防御力+10%，生命值+30%",
+			"可移动战术机库左侧两格额外出现2个道路障碍物",
+			"战斗开始后出现1个雕伥，每20s召唤一个感染者纠察官"
+		],
 		"eliteDesc_ja": ["敵全員の攻撃力+10%、防御力+10%、最大HP+30%"],
 		"eliteDesc_en": ["All enemy units have +10% ATK, +10% DEF, +30% Max HP"],
 		"all_mods": [
@@ -33018,6 +33044,15 @@
 						"valueStr": "copper_d"
 					}
 				]
+			},
+			{
+				"targets": ["trap_222_rgdysm"],
+				"special": {
+					"rgdysm_summon": {
+						"interval": 20.0,
+						"enemy_key": "enemy_1107_uoffcr"
+					}
+				}
 			}
 		],
 		"normal_mods": null,
@@ -33122,12 +33157,21 @@
 		"name_en": null,
 		"category": null,
 		"floors": [2],
-		"addInfo_zh": null,
-		"addInfo_ja": null,
-		"addInfo_en": null,
-		"eliteDesc_zh": ["所有敌方单位的攻击力+20%，生命值+20%"],
-		"eliteDesc_ja": ["敵全員の攻撃力+20%、最大HP+20%"],
-		"eliteDesc_en": ["All enemy units have +20% ATK, +20% Max HP"],
+		"addInfo_zh": ["雕伥每25s召唤一个特里蒙城防军"],
+		"addInfo_ja": ["<雕伥>25秒毎に<トリマウンツ都市防衛軍兵士>を召喚する"],
+		"addInfo_en": ["<雕伥> summons 1 <Trimounts City Defender> every 25s"],
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+20%，生命值+20%",
+			"第二个弧光镜卫替换为“肇事者”量产型"
+		],
+		"eliteDesc_ja": [
+			"敵全員の攻撃力+20%、最大HP+20%",
+			"2体目の<アーク鏡衛>が<「トラブルメーカー」量産型>に替わる"
+		],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% Max HP",
+			"2nd <Arc Screenguard> is replaced by <'Offender' Production Model>"
+		],
 		"all_mods": [
 			{
 				"targets": ["system"],
@@ -33138,6 +33182,15 @@
 						"valueStr": "copper_d"
 					}
 				]
+			},
+			{
+				"targets": ["trap_222_rgdysm"],
+				"special": {
+					"rgdysm_summon": {
+						"interval": 25.0,
+						"enemy_key": "enemy_1326_cbagen"
+					}
+				}
 			}
 		],
 		"normal_mods": [
@@ -33243,19 +33296,22 @@
 		"name_en": null,
 		"category": null,
 		"floors": [6],
-		"addInfo_zh": null,
+		"addInfo_zh": ["雕伥每50s召唤一个“越长尘”"],
 		"addInfo_ja": null,
 		"addInfo_en": null,
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力+30%，防御力+30%，生命值+50%",
-			"<雕伥>的生命值-50%?"
+			"躁怒谛兽替换为心涛",
+			"<雕伥>的生命值-50%"
 		],
 		"eliteDesc_ja": [
 			"敵全員の攻撃力+30%、防御力+30%、最大HP+50%",
+			"<怒れる諦獣>が<心涛>に替わる",
 			"<雕伥>の最大HP-50%"
 		],
 		"eliteDesc_en": [
 			"All enemy units have +30% ATK, +30% DEF, +50% Max HP",
+			"<Raging Di Beast> is replaced by <Heartbillow>",
 			"<雕伥> have -50% Max HP"
 		],
 		"all_mods": [
@@ -33268,6 +33324,15 @@
 						"valueStr": "copper_d"
 					}
 				]
+			},
+			{
+				"targets": ["trap_222_rgdysm"],
+				"special": {
+					"rgdysm_summon": {
+						"interval": 50.0,
+						"enemy_key": "enemy_1302_ymtro_2"
+					}
+				}
 			}
 		],
 		"normal_mods": [
@@ -33429,9 +33494,18 @@
 		"addInfo_zh": null,
 		"addInfo_ja": null,
 		"addInfo_en": null,
-		"eliteDesc_zh": ["所有敌方单位的攻击力+20%，防御力+20%，生命值+20%"],
-		"eliteDesc_ja": ["敵全員の攻撃力+20%、防御力+20%、最大HP+20%"],
-		"eliteDesc_en": ["All enemy units have +20% ATK, +20% DEF, +20% Max HP"],
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+20%，防御力+20%，生命值+20%",
+			"初始左下侵入点右侧三格额外刷新3个“废食”"
+		],
+		"eliteDesc_ja": [
+			"敵全員の攻撃力+20%、防御力+20%、最大HP+20%",
+			"戦闘開始時左下に追加で「廃食」3体が出現する"
+		],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% DEF, +20% Max HP",
+			"Additional 3 <'Fasting'> appears at bottom left of map"
+		],
 		"all_mods": [
 			{
 				"targets": ["system"],
@@ -34199,7 +34273,7 @@
 		"name_en": null,
 		"category": null,
 		"floors": [6],
-	"addInfo_zh": ["敌方单位的攻击力、生命值都提升至150%"],
+		"addInfo_zh": ["敌方单位的攻击力、生命值都提升至150%"],
 		"addInfo_ja": ["敵全員の攻撃力+50%、最大HP+50%"],
 		"addInfo_en": ["All enemy units have +50% ATK, +50% Max HP"],
 		"eliteDesc_zh": null,
