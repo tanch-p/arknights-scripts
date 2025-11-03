@@ -4,6 +4,7 @@ from chara_skills import replace_substrings
 from subprofession_tags import get_sub_profession_tags
 import pprint
 import re
+from tokens import IDS_TO_IGNORE
 
 pp = pprint.PrettyPrinter(indent=4)
 
@@ -15,7 +16,7 @@ buffs_list = [
     "inspire"]
 subprofessions = ['physician', 'fearless', 'executor', 'fastshot', 'bombarder', 'bard', 'protector', 'ritualist', 'pioneer', 'corecaster', 'splashcaster', 'charger', 'centurion', 'guardian', 'slower', 'funnel', 'mystic', 'chain', 'aoesniper', 'reaperrange', 'longrange', 'closerange', 'siegesniper', 'loopshooter', 'bearer', 'tactician', 'instructor', 'lord', 'artsfghter', 'sword', 'musha', 'crusher', 'reaper',
                   'merchant', 'hookmaster', 'ringhealer', 'healer', 'wandermedic', 'unyield', 'artsprotector', 'summoner', 'craftsman', 'stalker', 'pusher', 'dollkeeper', 'skywalker', 'agent', 'fighter', 'librator', 'hammer', 'phalanx', 'blastcaster', 'primcaster', 'incantationmedic', 'chainhealer', 'shotprotector', 'fortress', 'duelist', 'primprotector', 'hunter', 'geek', 'underminer', 'blessing', 'traper', 
-                  'alchemist','soulcaster','primguard','counsellor']
+                  'alchemist','soulcaster','primguard','counsellor',"mercenary"]
 
 stat_convert = {'maxHp': "hp", "magicResistance": "res", "attackSpeed": "aspd",
                 "moveSpeed": "ms", "respawnTime": "respawnTime", "atk": 'atk', "def": "def", "cost": "cost"}
@@ -161,7 +162,7 @@ for id in filtered_cn_char_table:
     tokens = []
     if character_dict['displayTokenDict'] is not None:
         tokens = [tokens_dict[key]
-                  for key in character_dict['displayTokenDict']]
+                  for key in character_dict['displayTokenDict'] if key not in IDS_TO_IGNORE]
 
     # subprofession stuff
     desc_zh = character_dict['description'].replace("<$ba", "<ba")
@@ -327,7 +328,7 @@ for id in cn_patch_table['patchChars']:
     tokens = []
     if character_dict['displayTokenDict'] is not None:
         tokens = [tokens_dict[key]
-                  for key in character_dict['displayTokenDict']]
+                  for key in character_dict['displayTokenDict'] if key not in IDS_TO_IGNORE]
 
     blackboard = []
     tags = get_sub_profession_tags(character_dict, id)

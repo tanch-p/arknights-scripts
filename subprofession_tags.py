@@ -39,7 +39,7 @@ def get_sub_profession_tags(char, id):
                                    "fastshot", "closerange", "aoesniper", "longrange", "reaperrange", "siegesniper", "bombarder", "loopshooter", "hunter",
                                    "protector", "guardian", "shotprotector", "artsprotector", "duelist", "fortress", "unyield",
                                    "craftsman", "executor", "stalker", "pusher", "hookmaster", "merchant", "geek", "dollkeeper", "traper", 
-                                   "alchemist", "skywalker", "primprotector", "primguard","counsellor"]:
+                                   "alchemist", "skywalker", "primprotector", "primguard","counsellor","mercenary"]:
         tags.append("phys")
     if char['subProfessionId'] in ["artsfghter", "artsprotector", "incantationmedic",
                                    "slower", "summoner", "underminer", "blessing", "ritualist",

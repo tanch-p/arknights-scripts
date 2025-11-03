@@ -61946,10 +61946,10 @@
                     ]
                 },
                 {
-                "key": "attract",
-                "value": 99,
-                "targets": 99
-            }
+                    "key": "attract",
+                    "value": 99,
+                    "targets": 99
+                }
             ]
         }
     },
@@ -62271,13 +62271,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 80.0,
-                            "valueStr": null
+                            "value": 80.0
                         },
                         {
                             "key": "atk",
-                            "value": 30.0,
-                            "valueStr": null
+                            "value": 30.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -62327,13 +62325,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 100.0,
-                            "valueStr": null
+                            "value": 100.0
                         },
                         {
                             "key": "atk",
-                            "value": 40.0,
-                            "valueStr": null
+                            "value": 40.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -62383,13 +62379,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 120.0,
-                            "valueStr": null
+                            "value": 120.0
                         },
                         {
                             "key": "atk",
-                            "value": 50.0,
-                            "valueStr": null
+                            "value": 50.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -62453,13 +62447,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 80.0,
-                            "valueStr": null
+                            "value": 80.0
                         },
                         {
                             "key": "atk",
-                            "value": 20.0,
-                            "valueStr": null
+                            "value": 20.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -62509,13 +62501,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 90.0,
-                            "valueStr": null
+                            "value": 90.0
                         },
                         {
                             "key": "atk",
-                            "value": 30.0,
-                            "valueStr": null
+                            "value": 30.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -62565,13 +62555,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 100.0,
-                            "valueStr": null
+                            "value": 100.0
                         },
                         {
                             "key": "atk",
-                            "value": 35.0,
-                            "valueStr": null
+                            "value": 35.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -62636,13 +62624,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 30.0,
-                            "valueStr": null
+                            "value": 30.0
                         },
                         {
                             "key": "def",
-                            "value": 25.0,
-                            "valueStr": null
+                            "value": 25.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -62692,13 +62678,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 40.0,
-                            "valueStr": null
+                            "value": 40.0
                         },
                         {
                             "key": "def",
-                            "value": 25.0,
-                            "valueStr": null
+                            "value": 25.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -62748,13 +62732,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 50.0,
-                            "valueStr": null
+                            "value": 50.0
                         },
                         {
                             "key": "def",
-                            "value": 25.0,
-                            "valueStr": null
+                            "value": 25.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -62804,13 +62786,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 90.0,
-                            "valueStr": null
+                            "value": 90.0
                         },
                         {
                             "key": "atk",
-                            "value": 35.0,
-                            "valueStr": null
+                            "value": 35.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -62860,13 +62840,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 110.0,
-                            "valueStr": null
+                            "value": 110.0
                         },
                         {
                             "key": "atk",
-                            "value": 45.0,
-                            "valueStr": null
+                            "value": 45.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -62916,13 +62894,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 120.0,
-                            "valueStr": null
+                            "value": 120.0
                         },
                         {
                             "key": "atk",
-                            "value": 55.0,
-                            "valueStr": null
+                            "value": 55.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -62986,13 +62962,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 125.0,
-                            "valueStr": null
+                            "value": 125.0
                         },
                         {
                             "key": "atk",
-                            "value": 30.0,
-                            "valueStr": null
+                            "value": 30.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -63084,13 +63058,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 140.0,
-                            "valueStr": null
+                            "value": 140.0
                         },
                         {
                             "key": "atk",
-                            "value": 40.0,
-                            "valueStr": null
+                            "value": 40.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -63182,13 +63154,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 150.0,
-                            "valueStr": null
+                            "value": 150.0
                         },
                         {
                             "key": "atk",
-                            "value": 50.0,
-                            "valueStr": null
+                            "value": 50.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -63239,13 +63209,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 150.0,
-                            "valueStr": null
+                            "value": 150.0
                         },
                         {
                             "key": "def",
-                            "value": 45.0,
-                            "valueStr": null
+                            "value": 45.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -63295,13 +63263,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 180.0,
-                            "valueStr": null
+                            "value": 180.0
                         },
                         {
                             "key": "def",
-                            "value": 60.0,
-                            "valueStr": null
+                            "value": 60.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -63351,13 +63317,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 200.0,
-                            "valueStr": null
+                            "value": 200.0
                         },
                         {
                             "key": "def",
-                            "value": 70.0,
-                            "valueStr": null
+                            "value": 70.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -63415,18 +63379,15 @@
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 80.0,
-                            "valueStr": null
+                            "value": 80.0
                         },
                         {
                             "key": "def",
-                            "value": 10.0,
-                            "valueStr": null
+                            "value": 10.0
                         },
                         {
                             "key": "respawn_time",
-                            "value": -25.0,
-                            "valueStr": null
+                            "value": -25.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -63476,18 +63437,15 @@
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 100.0,
-                            "valueStr": null
+                            "value": 100.0
                         },
                         {
                             "key": "def",
-                            "value": 13.0,
-                            "valueStr": null
+                            "value": 13.0
                         },
                         {
                             "key": "respawn_time",
-                            "value": -25.0,
-                            "valueStr": null
+                            "value": -25.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -63537,18 +63495,15 @@
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 120.0,
-                            "valueStr": null
+                            "value": 120.0
                         },
                         {
                             "key": "def",
-                            "value": 16.0,
-                            "valueStr": null
+                            "value": 16.0
                         },
                         {
                             "key": "respawn_time",
-                            "value": -25.0,
-                            "valueStr": null
+                            "value": -25.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -63616,13 +63571,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 150.0,
-                            "valueStr": null
+                            "value": 150.0
                         },
                         {
                             "key": "atk",
-                            "value": 20.0,
-                            "valueStr": null
+                            "value": 20.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -63672,13 +63625,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 200.0,
-                            "valueStr": null
+                            "value": 200.0
                         },
                         {
                             "key": "atk",
-                            "value": 30.0,
-                            "valueStr": null
+                            "value": 30.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -63728,13 +63679,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 300.0,
-                            "valueStr": null
+                            "value": 300.0
                         },
                         {
                             "key": "atk",
-                            "value": 35.0,
-                            "valueStr": null
+                            "value": 35.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -63787,13 +63736,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 130.0,
-                            "valueStr": null
+                            "value": 130.0
                         },
                         {
                             "key": "atk",
-                            "value": 18.0,
-                            "valueStr": null
+                            "value": 18.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -63829,13 +63776,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 180.0,
-                            "valueStr": null
+                            "value": 180.0
                         },
                         {
                             "key": "atk",
-                            "value": 28.0,
-                            "valueStr": null
+                            "value": 28.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -63871,13 +63816,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 220.0,
-                            "valueStr": null
+                            "value": 220.0
                         },
                         {
                             "key": "atk",
-                            "value": 33.0,
-                            "valueStr": null
+                            "value": 33.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -63922,13 +63865,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 150.0,
-                            "valueStr": null
+                            "value": 150.0
                         },
                         {
                             "key": "def",
-                            "value": 20.0,
-                            "valueStr": null
+                            "value": 20.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -63964,13 +63905,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 200.0,
-                            "valueStr": null
+                            "value": 200.0
                         },
                         {
                             "key": "def",
-                            "value": 23.0,
-                            "valueStr": null
+                            "value": 23.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -64006,13 +63945,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 300.0,
-                            "valueStr": null
+                            "value": 300.0
                         },
                         {
                             "key": "def",
-                            "value": 25.0,
-                            "valueStr": null
+                            "value": 25.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -64073,26 +64010,22 @@
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 45.0,
-                            "valueStr": null
+                            "value": 45.0
                         },
                         {
                             "key": "def",
-                            "value": 25.0,
-                            "valueStr": null
+                            "value": 25.0
                         }
                     ],
                     "tokenAttributeBlackboard": {
                         "token_10045_alanna_crane": [
                             {
                                 "key": "cost",
-                                "value": -2.0,
-                                "valueStr": null
+                                "value": -2.0
                             },
                             {
                                 "key": "max_deck_stack_cnt",
-                                "value": 1.0,
-                                "valueStr": null
+                                "value": 1.0
                             }
                         ]
                     }
@@ -64142,26 +64075,22 @@
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 50.0,
-                            "valueStr": null
+                            "value": 50.0
                         },
                         {
                             "key": "def",
-                            "value": 30.0,
-                            "valueStr": null
+                            "value": 30.0
                         }
                     ],
                     "tokenAttributeBlackboard": {
                         "token_10045_alanna_crane": [
                             {
                                 "key": "cost",
-                                "value": -2.0,
-                                "valueStr": null
+                                "value": -2.0
                             },
                             {
                                 "key": "max_deck_stack_cnt",
-                                "value": 1.0,
-                                "valueStr": null
+                                "value": 1.0
                             }
                         ]
                     }
@@ -64211,26 +64140,22 @@
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 55.0,
-                            "valueStr": null
+                            "value": 55.0
                         },
                         {
                             "key": "def",
-                            "value": 35.0,
-                            "valueStr": null
+                            "value": 35.0
                         }
                     ],
                     "tokenAttributeBlackboard": {
                         "token_10045_alanna_crane": [
                             {
                                 "key": "cost",
-                                "value": -2.0,
-                                "valueStr": null
+                                "value": -2.0
                             },
                             {
                                 "key": "max_deck_stack_cnt",
-                                "value": 1.0,
-                                "valueStr": null
+                                "value": 1.0
                             }
                         ]
                     }
@@ -64271,13 +64196,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 35.0,
-                            "valueStr": null
+                            "value": 35.0
                         },
                         {
                             "key": "magic_resistance",
-                            "value": 5.0,
-                            "valueStr": null
+                            "value": 5.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -64313,13 +64236,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 50.0,
-                            "valueStr": null
+                            "value": 50.0
                         },
                         {
                             "key": "magic_resistance",
-                            "value": 5.0,
-                            "valueStr": null
+                            "value": 5.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -64355,13 +64276,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 60.0,
-                            "valueStr": null
+                            "value": 60.0
                         },
                         {
                             "key": "magic_resistance",
-                            "value": 5.0,
-                            "valueStr": null
+                            "value": 5.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -64415,13 +64334,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 60.0,
-                            "valueStr": null
+                            "value": 60.0
                         },
                         {
                             "key": "def",
-                            "value": 50.0,
-                            "valueStr": null
+                            "value": 50.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -64457,13 +64374,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 75.0,
-                            "valueStr": null
+                            "value": 75.0
                         },
                         {
                             "key": "def",
-                            "value": 60.0,
-                            "valueStr": null
+                            "value": 60.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -64499,13 +64414,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 85.0,
-                            "valueStr": null
+                            "value": 85.0
                         },
                         {
                             "key": "def",
-                            "value": 70.0,
-                            "valueStr": null
+                            "value": 70.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -64562,13 +64475,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 130.0,
-                            "valueStr": null
+                            "value": 130.0
                         },
                         {
                             "key": "atk",
-                            "value": 18.0,
-                            "valueStr": null
+                            "value": 18.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -64604,13 +64515,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 180.0,
-                            "valueStr": null
+                            "value": 180.0
                         },
                         {
                             "key": "atk",
-                            "value": 28.0,
-                            "valueStr": null
+                            "value": 28.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -64646,13 +64555,11 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 220.0,
-                            "valueStr": null
+                            "value": 220.0
                         },
                         {
                             "key": "atk",
-                            "value": 33.0,
-                            "valueStr": null
+                            "value": 33.0
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -65846,14 +65753,14 @@
             ],
             "blackboard": [
                 {
-                        "key": "palsy",
-                        "targets": 1,
-                        "value": 3,
-                        "target_air": true,
-                        "category": [
-                            "neural_burst"
-                        ]
-                    }
+                    "key": "palsy",
+                    "targets": 1,
+                    "value": 3,
+                    "target_air": true,
+                    "category": [
+                        "neural_burst"
+                    ]
+                }
             ]
         }
     },
@@ -72993,6 +72900,2199 @@
                     "key": "attack_speed",
                     "value": 16
                 }
+            ]
+        }
+    },
+    "uniequip_003_radian": {
+        "uniEquipId": "uniequip_003_radian",
+        "name_zh": "新起点",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "so-b",
+        "charId": "char_4195_radian",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "DISPLAY",
+                            "isToken": false,
+                            "addDesc_zh": "在【岁的界园志异】中，自身额外攻击一个目标",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": null,
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 41.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "DISPLAY",
+                            "isToken": false,
+                            "addDesc_zh": "在【岁的界园志异】中，自身额外攻击一个目标",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "卡带里的灵感",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "可以使用5个召唤物（最多同时部署3个），功能随技能选择而改变。在【岁的界园志异】中，电弧会回收自身周围四格的召唤物，使自身立即回复20％最大生命值且之后攻击时对目标额外造成一次相当于攻击力20％的法术伤害（最多可叠加4次）",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        },
+                        {
+                            "resKey": "radian_equip_2_2_p1",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": null,
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": -1,
+                            "upgradeDesc_zh": "",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 54.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "DISPLAY",
+                            "isToken": false,
+                            "addDesc_zh": "在【岁的界园志异】中，自身额外攻击一个目标",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "卡带里的灵感",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "可以使用5个召唤物（最多同时部署3个），功能随技能选择而改变。在【岁的界园志异】中，电弧会回收自身周围四格的召唤物，使自身立即回复25％最大生命值且之后攻击时对目标额外造成一次相当于攻击力30％的法术伤害（最多可叠加4次）",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        },
+                        {
+                            "resKey": "radian_equip_2_3_p1",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": null,
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": -1,
+                            "upgradeDesc_zh": "",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 65.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": ["heal_self"],
+            "blackboard": [
+                {
+                    "key": "max_target",
+                    "value": 2.0
+                }
+            ]
+        }
+    },
+    "uniequip_001_sbell2": {
+        "uniEquipId": "uniequip_001_sbell2",
+        "name_zh": "圣聆初雪证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_1046_sbell2",
+        "combatData": null
+    },
+    "uniequip_002_sbell2": {
+        "uniEquipId": "uniequip_002_sbell2",
+        "name_zh": "千分之一的心",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "plx-y",
+        "charId": "char_1046_sbell2",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "DISPLAY",
+                            "isToken": false,
+                            "addDesc_zh": "范围内敌人越多造成的伤害越高（最高提升<@ba.kw>15%</>）",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": "sbell2_equip_1_1_p1",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": null,
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": -1,
+                            "upgradeDesc_zh": "",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 50.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 20.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "DISPLAY",
+                            "isToken": false,
+                            "addDesc_zh": "范围内敌人越多造成的伤害越高（最高提升<@ba.kw>15%</>）",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": "sbell2_equip_1_2_p1",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": null,
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": -1,
+                            "upgradeDesc_zh": "",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "无垠的雪景",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "攻击范围内的地面每隔5秒产生一层积雪，地面敌人经过时立即受到相当于攻击力95%<@ba.talpu>（+5%）</>的法术伤害，每层积雪使经过的所有敌人移动速度下降12%，最多叠加5层（首个敌人离开该地块时积雪消失）",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 62.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 30.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "DISPLAY",
+                            "isToken": false,
+                            "addDesc_zh": "范围内敌人越多造成的伤害越高（最高提升<@ba.kw>15%</>）",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": "sbell2_equip_1_3_p1",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": null,
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": -1,
+                            "upgradeDesc_zh": "",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "无垠的雪景",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "攻击范围内的地面每隔5秒产生一层积雪，地面敌人经过时立即受到相当于攻击力105%<@ba.talpu>（+5%）</>的法术伤害，每层积雪使经过的所有敌人移动速度下降12%，最多叠加5层（首个敌人离开该地块时积雪消失），部署后立刻使攻击范围内的地面产生一层积雪",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 75.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 38.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+                
+            ]
+        }
+    },
+    "uniequip_004_heyak": {
+        "uniEquipId": "uniequip_004_heyak",
+        "name_zh": "霍尔海雅特限证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "isw-a",
+        "charId": "char_4027_heyak",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "DISPLAY",
+                            "isToken": false,
+                            "addDesc_zh": "在<@ba.kw>集成战略</>中，无视目标<@ba.kw>10</>点法术抗性，每个敌人首次进入目标点所在地块时，恢复自身30%的技力",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": "heyak_equip_3_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 100.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 55.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "DISPLAY",
+                            "isToken": false,
+                            "addDesc_zh": "在<@ba.kw>集成战略</>中，无视目标<@ba.kw>10</>点法术抗性，每个敌人首次进入目标点所在地块时，恢复自身30%的技力",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": "heyak_equip_3_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "传承终焉",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "攻击空中敌人时攻击力提升至143%<@ba.talpu>（+3%）</>，并使其特殊能力失效4秒；在<@ba.kw>集成战略</>中，首次部署获得1点临时目标生命值；每次部署后，首次有敌人进入目标点所在地块时，场上所有敌人<ba.levitate>浮空</>15秒",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        },
+                        {
+                            "resKey": "heyak_equip_3_2_p2",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": null,
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": -1,
+                            "upgradeDesc_zh": "",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 120.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 70.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "DISPLAY",
+                            "isToken": false,
+                            "addDesc_zh": "在<@ba.kw>集成战略</>中，无视目标<@ba.kw>10</>点法术抗性，每个敌人首次进入目标点所在地块时，恢复自身30%的技力",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": "heyak_equip_3_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "传承终焉",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "攻击空中目标时攻击力提升至148%<@ba.talpu>（+3%）</>，并使其特殊能力失效5秒；在<@ba.kw>集成战略</>中，首次部署获得1点临时目标生命值；每次部署后，首次有敌人进入目标点所在地块时，场上所有敌人<ba.levitate>浮空</>15秒；自身技能会对敌人及其周围的目标同时造成浮空效果和伤害效果",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        },
+                        {
+                            "resKey": "heyak_equip_3_3_p2",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": null,
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": -1,
+                            "upgradeDesc_zh": "",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        },
+                        {
+                            "resKey": "heyak_equip_3_3_p3",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": null,
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": -1,
+                            "upgradeDesc_zh": "",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 130.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 80.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+                {
+                        "key": "silence",
+                        "targets": 1.0,
+                        "value": 5.0,
+                        "conditions": [
+                            "flying"
+                        ],
+                        "target_air": true
+                    },
+                {
+                    "key": "sp_gain",
+                    "value": 0.3
+                },
+                {
+                    "key": "res_penetrate",
+                    "value": 10.0
+                },
+                {
+                        "key": "levitate",
+                        "targets": 99,
+                        "value": 15
+                    },
+                {
+                    "key": "bonus_lifepoint",
+                    "value": 1.0
+                }
+            ]
+        }
+    },
+    "uniequip_004_gnosis": {
+        "uniEquipId": "uniequip_004_gnosis",
+        "name_zh": "灵知特限证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "isw-a",
+        "charId": "char_206_gnosis",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "DISPLAY",
+                            "isToken": false,
+                            "addDesc_zh": "在<@ba.kw>集成战略</>中，自身在场时，处于<ba.cold>寒冷</>、<ba.frozen>冻结</>的敌人每0.5秒受到灵知攻击力50%的法术伤害",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": "gnosis_equip_3_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 80.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 35.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "DISPLAY",
+                            "isToken": false,
+                            "addDesc_zh": "在<@ba.kw>集成战略</>中，自身在场时，处于<ba.cold>寒冷</>、<ba.frozen>冻结</>的敌人每0.5秒受到灵知攻击力50%的法术伤害",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": "gnosis_equip_3_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "坚冰",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "攻击造成1秒<ba.cold>寒冷</>；在<@ba.kw>集成战略</>中，在场时全场<ba.cold>寒冷</>的敌人受到27%<@ba.talpu>（+2%）</>的<ba.fragile>脆弱</>，<ba.frozen>冻结</>的敌人<ba.fragile>脆弱</>效果提升至2倍；其他【谢拉格】干员每次开启技能后，对攻击范围内的敌人造成3秒的<ba.cold>寒冷</>",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        },
+                        {
+                            "resKey": "gnosis_equip_3_2_p2",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": "坚冰",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        },
+                        {
+                            "resKey": "gnosis_equip_3_2_p3",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": "坚冰",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        },
+                        {
+                            "resKey": "gnosis_equip_3_2_p4",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": "坚冰",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 90.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 45.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "DISPLAY",
+                            "isToken": false,
+                            "addDesc_zh": "在<@ba.kw>集成战略</>中，自身在场时，处于<ba.cold>寒冷</>、<ba.frozen>冻结</>的敌人每0.5秒受到灵知攻击力50%的法术伤害",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": "gnosis_equip_3_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "坚冰",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "攻击造成1秒<ba.cold>寒冷</>；在<@ba.kw>集成战略</>中，在场时全场<ba.cold>寒冷</>的敌人受到32%的<ba.fragile>脆弱</>，<ba.frozen>冻结</>的敌人<ba.fragile>脆弱</>效果提升至2倍，<ba.cold>寒冷</>或<ba.frozen>冻结</>状态下的敌人每秒受到的<ba.fragile>脆弱</>提升5%，最高提升至82%；其他【谢拉格】干员每次开启技能后，对攻击范围内的敌人造成4秒的<ba.cold>寒冷</>",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        },
+                        {
+                            "resKey": "gnosis_equip_3_3_p2",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": "坚冰",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        },
+                        {
+                            "resKey": "gnosis_equip_3_3_p3",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": "坚冰",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        },
+                        {
+                            "resKey": "gnosis_equip_3_3_p4",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": "坚冰",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 100.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 60.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": ["dot","kjerag"],
+            "blackboard": [
+                {
+                    "key": "ally_deal_ailment",
+                    "value": 0.5,
+                    "conditions":["kjerag","skill_usage"]
+                },
+                {
+                        "key": "damage_scale",
+                        "targets": 99,
+                        "value": 1.32,
+                        "types": [
+                            "phys",
+                            "arts",
+                            "true"
+                        ],
+                        "conditions": [
+                            "cold"
+                        ],
+                        "category": [
+                            "fragile"
+                        ]
+                    },
+                    {
+                        "key": "damage_scale",
+                        "targets": 99,
+                        "value": 1.64,
+                        "types": [
+                            "phys",
+                            "arts",
+                            "true"
+                        ],
+                        "conditions": [
+                            "freeze"
+                        ],
+                        "category": [
+                            "fragile"
+                        ]
+                    },
+                    {
+                        "key": "damage_scale",
+                        "targets": 99,
+                        "value": 1.82,
+                        "types": [
+                            "phys",
+                            "arts",
+                            "true"
+                        ],
+                        "conditions": [
+                            "freeze"
+                        ],
+                        "category": [
+                            "fragile"
+                        ]
+                    }
+            ]
+        }
+    },
+    "uniequip_001_halo2": {
+        "uniEquipId": "uniequip_001_halo2",
+        "name_zh": "溯光星源证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_1047_halo2",
+        "combatData": null
+    },
+    "uniequip_002_halo2": {
+        "uniEquipId": "uniequip_002_halo2",
+        "name_zh": "探索者的收藏",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "dec-y",
+        "charId": "char_1047_halo2",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "TRAIT_DATA_ONLY",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长</>的<ba.sluggish>停顿</>",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 85.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 35.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "TRAIT_DATA_ONLY",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长</>的<ba.sluggish>停顿</>",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "数据建模",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "对敌人造成<ba.sluggish>停顿</>效果时，使自身的攻击速度+1，最多叠加23次",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 105.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 45.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "TRAIT_DATA_ONLY",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "攻击造成<@ba.kw>法术伤害</>，并对敌人造成<@ba.kw>较长</>的<ba.sluggish>停顿</>",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "数据建模",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "对敌人造成<ba.sluggish>停顿</>效果时，使自身的攻击速度+1，最多叠加25次；叠满后使自身攻击力+12%",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        },
+                        {
+                            "resKey": "halo2_equip_1_3_p1",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": "数据建模",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": -1,
+                            "upgradeDesc_zh": "",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 115.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 50.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+                {
+                    "key": "sluggish",
+                    "targets": 1,
+                    "value": 1.2,
+                    "target_air": true
+                },
+                {
+                    "key": "attack_speed",
+                    "value": 25.0
+                }
+            ]
+        }
+    },
+    "uniequip_001_akkord": {
+        "uniEquipId": "uniequip_001_akkord",
+        "name_zh": "协律证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_4051_akkord",
+        "combatData": null
+    },
+    "uniequip_002_akkord": {
+        "uniEquipId": "uniequip_002_akkord",
+        "name_zh": "移动八音盒",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "bla-x",
+        "charId": "char_4051_akkord",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": "akkord_equip_1_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "攻击造成<@ba.kw>超远距离的群体法术伤害</>，距离越远伤害越高，最高达到<@ba.kw>110%</>",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 145.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 40.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "akkord_equip_1_2_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "攻击造成<@ba.kw>超远距离的群体法术伤害</>，距离越远伤害越高，最高达到<@ba.kw>110%</>",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "律脉同构",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "攻击范围内至少有1名其他友方干员时，攻击力+19<@ba.talpu>（+2%）</>",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 160.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 45.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "akkord_equip_1_3_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "攻击造成<@ba.kw>超远距离的群体法术伤害</>，距离越远伤害越高，最高达到<@ba.kw>110%</>",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "律脉同构",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "攻击范围内至少有1名其他友方干员时，攻击力+22<@ba.talpu>（+2%）</>",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 175.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 50.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+            ]
+        }
+    },
+    "uniequip_003_siege2": {
+        "uniEquipId": "uniequip_003_siege2",
+        "name_zh": "秩序圣“球”",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "aft-y",
+        "charId": "char_1019_siege2",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": "siege2_equip_2_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "自身及自身召唤物阻挡的敌人受到<@ba.kw>10%</>的<ba.fragile>脆弱</>效果",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": "siege2_equip_2_1_p2",
+                            "target": "TRAIT",
+                            "isToken": true,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 50.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 25.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "siege2_equip_2_2_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "自身及自身召唤物阻挡的敌人受到<@ba.kw>10%</>的<ba.fragile>脆弱</>效果",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": "siege2_equip_2_2_p2",
+                            "target": "TRAIT",
+                            "isToken": true,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": "siege2_equip_2_2_p3",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": null,
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": -1,
+                            "upgradeDesc_zh": "",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        },
+                        {
+                            "resKey": "siege2_equip_2_2_p4",
+                            "target": "TALENT",
+                            "isToken": true,
+                            "name_zh": null,
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": -1,
+                            "upgradeDesc_zh": "",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        },
+                        {
+                            "resKey": "siege2_equip_2_2_p5",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": "无拘的锋芒",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 1,
+                            "upgradeDesc_zh": "对每个敌人首次造成伤害时，使其<ba.tremble>战栗</>5<@ba.talpu>（+1）</>秒，对精英及领袖敌人改为使其<ba.tremble>战栗</>8秒。维娜·维多利亚及其召唤物对战栗的目标造成伤害提升10％",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 65.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 38.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "siege2_equip_2_3_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": "自身及自身召唤物阻挡的敌人受到<@ba.kw>10%</>的<ba.fragile>脆弱</>效果",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": "siege2_equip_2_3_p2",
+                            "target": "TRAIT",
+                            "isToken": true,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": "siege2_equip_2_3_p3",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": null,
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": -1,
+                            "upgradeDesc_zh": "",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        },
+                        {
+                            "resKey": "siege2_equip_2_3_p4",
+                            "target": "TALENT",
+                            "isToken": true,
+                            "name_zh": null,
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": -1,
+                            "upgradeDesc_zh": "",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        },
+                        {
+                            "resKey": "siege2_equip_2_3_p5",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": "无拘的锋芒",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 1,
+                            "upgradeDesc_zh": "对每个敌人首次造成伤害时，使其<ba.tremble>战栗</>7<@ba.talpu>（+1）</>秒，对精英及领袖敌人改为使其<ba.tremble>战栗</>12秒。维娜·维多利亚及其召唤物对战栗的目标造成伤害提升15％",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 75.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 43.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": ["tremble"],
+            "blackboard": [
+                {
+                        "key": "tremble",
+                        "value": 7.0,
+                        "conditions": [
+                            "first_hit"
+                        ]
+                    },
+                    {
+                        "key": "tremble",
+                        "value": 12.0,
+                        "conditions": [
+                            "first_hit","ELITE","BOSS"
+                        ]
+                    }
+            ]
+        }
+    },
+    "uniequip_001_durnar": {
+        "uniEquipId": "uniequip_001_durnar",
+        "name_zh": "坚雷证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_260_durnar",
+        "combatData": null
+    },
+    "uniequip_002_durnar": {
+        "uniEquipId": "uniequip_002_durnar",
+        "name_zh": "守护的道路",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "ast-x",
+        "charId": "char_260_durnar",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": "durnar_equip_1_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "技能开启时普通攻击会造成法术伤害，且攻击和受到攻击时对目标额外造成10％攻击力的法术伤害",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 150.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 27.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "durnar_equip_1_2_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "技能开启时普通攻击会造成法术伤害，且攻击和受到攻击时对目标额外造成10％攻击力的法术伤害",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "攻守兼备",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "攻击力+10%，防御力+10%",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 220.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 35.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "durnar_equip_1_3_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "技能开启时普通攻击会造成法术伤害，且攻击和受到攻击时对目标额外造成10％攻击力的法术伤害",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "攻守兼备",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "攻击力+12%，防御力+12%",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 270.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 40.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+                {
+                "key": "reflect_dmg",
+                "dep_stat": "atk",
+                "value": 0.1,
+                "duration": 999,
+                "damage_type": "arts"
+            }
+            ]
+        }
+    },
+    "uniequip_001_pianst": {
+        "uniEquipId": "uniequip_001_pianst",
+        "name_zh": "车尔尼证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_4047_pianst",
+        "combatData": null
+    },
+    "uniequip_002_pianst": {
+        "uniEquipId": "uniequip_002_pianst",
+        "name_zh": "“日复一日”",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "ast-x",
+        "charId": "char_4047_pianst",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": "pianst_equip_1_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "技能开启时普通攻击会造成法术伤害，且攻击和受到攻击时对目标额外造成10％攻击力的法术伤害",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 150.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 35.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "pianst_equip_1_2_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "技能开启时普通攻击会造成法术伤害，且攻击和受到攻击时对目标额外造成10％攻击力的法术伤害",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "回声",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "法术抗性+10，每次受到法术攻击时对目标造成相当于车尔尼攻击力105%<@ba.talpu>（+5%）</>的法术伤害",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 225.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 50.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "pianst_equip_1_3_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "技能开启时普通攻击会造成法术伤害，且攻击和受到攻击时对目标额外造成10％攻击力的法术伤害",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "回声",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "法术抗性+10，每次受到法术攻击时对目标造成相当于车尔尼攻击力115%<@ba.talpu>（+5%）</>的法术伤害",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 275.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 57.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+                {
+                "key": "reflect_dmg",
+                "dep_stat": "atk",
+                "value": 0.1,
+                "duration": 999,
+                "damage_type": "arts"
+            }
+            ]
+        }
+    },
+    "uniequip_001_asbest": {
+        "uniEquipId": "uniequip_001_asbest",
+        "name_zh": "石棉证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_378_asbest",
+        "combatData": null
+    },
+    "uniequip_002_asbest": {
+        "uniEquipId": "uniequip_002_asbest",
+        "name_zh": "“石棉大战双头钳兽”",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "ast-x",
+        "charId": "char_378_asbest",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": "asbest_equip_1_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "技能开启时普通攻击会造成法术伤害，且攻击和受到攻击时对目标额外造成10％攻击力的法术伤害",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 80.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 28.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 18.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "asbest_equip_1_2_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "技能开启时普通攻击会造成法术伤害，且攻击和受到攻击时对目标额外造成10％攻击力的法术伤害",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "湿润皮肤",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "法术抗性+12，受到敌人的法术普通攻击时获得3点技力",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 125.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 35.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 25.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "asbest_equip_1_3_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "技能开启时普通攻击会造成法术伤害，且攻击和受到攻击时对目标额外造成10％攻击力的法术伤害",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "湿润皮肤",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "法术抗性+12，受到敌人的法术普通攻击时获得4点技力",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 150.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 45.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 30.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+                {
+                "key": "reflect_dmg",
+                "dep_stat": "atk",
+                "value": 0.1,
+                "duration": 999,
+                "damage_type": "arts"
+            },
+                {
+                        "key": "sp_gain",
+                        "value": 4.0,
+                        "conditions": [
+                            "when_attacked_arts"
+                        ]
+                    }
+            ]
+        }
+    },
+    "uniequip_001_aprot2": {
+        "uniEquipId": "uniequip_001_aprot2",
+        "name_zh": "暮落证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_4025_aprot2",
+        "combatData": null
+    },
+    "uniequip_002_aprot2": {
+        "uniEquipId": "uniequip_002_aprot2",
+        "name_zh": "票根收纳册",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "ast-x",
+        "charId": "char_4025_aprot2",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": "aprot2_equip_1_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "技能开启时普通攻击会造成法术伤害，且攻击和受到攻击时对目标额外造成10％攻击力的法术伤害",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 45.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 23.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "aprot2_equip_1_2_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "技能开启时普通攻击会造成法术伤害，且攻击和受到攻击时对目标额外造成10％攻击力的法术伤害",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "厄运宣告",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 1,
+                            "upgradeDesc_zh": "攻击时有40%<@ba.talpu>（+5%）</>的几率使目标法术抗性-30%，持续3秒",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 60.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 30.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "aprot2_equip_1_3_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "技能开启时普通攻击会造成法术伤害，且攻击和受到攻击时对目标额外造成10％攻击力的法术伤害",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "厄运宣告",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 1,
+                            "upgradeDesc_zh": "攻击时有45%<@ba.talpu>（+5%）</>的几率使目标法术抗性-30%，持续6秒",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "atk",
+                            "value": 70.0
+                        },
+                        {
+                            "key": "def",
+                            "value": 35.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+                    {
+                "key": "reflect_dmg",
+                "dep_stat": "atk",
+                "value": 0.1,
+                "duration": 999,
+                "damage_type": "arts"
+            },
+            {
+                        "key": "res_down",
+                        "order": "final_mul",
+                        "targets": 1,
+                        "value": 0.30,
+                        "prob": 0.45,
+                        "duration": 6.0,
+                        "target_air": false
+                    }
+            ]
+        }
+    },
+    "uniequip_001_hsgma2": {
+        "uniEquipId": "uniequip_001_hsgma2",
+        "name_zh": "斩业星熊证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_1044_hsgma2",
+        "combatData": null
+    },
+    "uniequip_002_hsgma2": {
+        "uniEquipId": "uniequip_002_hsgma2",
+        "name_zh": "无迹",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "ast-x",
+        "charId": "char_1044_hsgma2",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": "hsgma2_equip_1_1_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "技能开启时普通攻击会造成法术伤害，且攻击和受到攻击时对目标额外造成10％攻击力的法术伤害",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 190.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 55.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "hsgma2_equip_1_2_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "技能开启时普通攻击会造成法术伤害，且攻击和受到攻击时对目标额外造成10％攻击力的法术伤害",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": "hsgma2_equip_1_2_p2",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": "鬼之架势",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 1,
+                            "upgradeDesc_zh": "在场时，自身获得最高+50法术抗性和35%攻击力的<ba.berserk>坚忍</>（损失60%生命值时达到最大加成）。达到最大加成时，攻击力额外+10％",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 275.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 70.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": "hsgma2_equip_1_3_p1",
+                            "target": "TRAIT",
+                            "isToken": false,
+                            "addDesc_zh": null,
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": "技能开启时普通攻击会造成法术伤害，且攻击和受到攻击时对目标额外造成10％攻击力的法术伤害",
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": "hsgma2_equip_1_3_p2",
+                            "target": "TALENT",
+                            "isToken": false,
+                            "name_zh": "鬼之架势",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 1,
+                            "upgradeDesc_zh": "在场时，自身获得最高+50法术抗性和35%攻击力的<ba.berserk>坚忍</>（损失50%生命值时达到最大加成）。达到最大加成时，攻击力额外+15％",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 325.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 80.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+                {
+                "key": "reflect_dmg",
+                "dep_stat": "atk",
+                "value": 0.1,
+                "duration": 999,
+                "damage_type": "arts"
+            }
+            ]
+        }
+    },
+    "uniequip_001_snhunt": {
+        "uniEquipId": "uniequip_001_snhunt",
+        "name_zh": "雪猎证章",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "original",
+        "charId": "char_4211_snhunt",
+        "combatData": null
+    },
+    "uniequip_002_snhunt": {
+        "uniEquipId": "uniequip_002_snhunt",
+        "name_zh": "过去的狩猎",
+        "name_ja": "",
+        "name_en": "",
+        "typeIcon": "hun-x",
+        "charId": "char_4211_snhunt",
+        "combatData": {
+            "phases": [
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "TRAIT_DATA_ONLY",
+                            "isToken": false,
+                            "addDesc_zh": "子弹数量为空时下次装填额外加装1发子弹",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 140.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 50.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "TRAIT_DATA_ONLY",
+                            "isToken": false,
+                            "addDesc_zh": "子弹数量为空时下次装填额外加装1发子弹",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "裂云一击",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "开启技能时，派出裂云兽进行攻击，造成相当于攻击力200%<@ba.talpu>（+5%）</>的物理伤害和3秒<ba.cold>寒冷</>",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 180.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 65.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                },
+                {
+                    "parts": [
+                        {
+                            "resKey": null,
+                            "target": "TRAIT_DATA_ONLY",
+                            "isToken": false,
+                            "addDesc_zh": "子弹数量为空时下次装填额外加装1发子弹",
+                            "addDesc_ja": "",
+                            "addDesc_en": "",
+                            "overrideDesc_zh": null,
+                            "overrideDesc_ja": "",
+                            "overrideDesc_en": ""
+                        },
+                        {
+                            "resKey": null,
+                            "target": "TALENT_DATA_ONLY",
+                            "isToken": false,
+                            "name_zh": "裂云一击",
+                            "name_ja": "",
+                            "name_en": "",
+                            "displayRangeId": false,
+                            "rangeId": null,
+                            "talentIndex": 0,
+                            "upgradeDesc_zh": "开启技能时，派出裂云兽进行攻击，造成相当于攻击力210%<@ba.talpu>（+5%）</>的物理伤害和3秒<ba.cold>寒冷</>",
+                            "upgradeDesc_ja": "",
+                            "upgradeDesc_en": ""
+                        }
+                    ],
+                    "attributeBlackboard": [
+                        {
+                            "key": "max_hp",
+                            "value": 210.0
+                        },
+                        {
+                            "key": "atk",
+                            "value": 75.0
+                        }
+                    ],
+                    "tokenAttributeBlackboard": {}
+                }
+            ],
+            "tags": [],
+            "blackboard": [
+              
             ]
         }
     }

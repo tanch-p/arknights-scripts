@@ -5639,10 +5639,6 @@
                 ],
                 "blackboard": [
                     {
-                        "key": "skill@delta_force",
-                        "value": 1.0
-                    },
-                    {
                         "key": "silence",
                         "targets": 2.0,
                         "value": 8.0,
@@ -14329,6 +14325,279 @@
                         "targets": 1,
                         "value": 1,
                         "target_air": true
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4051_akkord": {
+        "appellation": "Akkord",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "律脉同构",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "攻击范围内至少有1名其他友方干员时，攻击力+17<@ba.talpu>（+2%）</>",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": []
+            }
+        ]
+    },
+    "char_394_hadiya": {
+        "appellation": "Hadiya",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "荒野的后裔",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "通过部署、开启技能、使用<ba.alter>装备应变</>消耗费用后，攻击力+5%<@ba.talpu>（+1%）</>，使攻击范围内的敌人<ba.stun>晕眩</>2秒（攻击力最多提升5次）",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "stun",
+                        "value": 2.0,
+                        "targets": 99,
+                        "target_air": false
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4211_snhunt": {
+        "appellation": "Snow Hunter",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "裂云一击",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "开启技能时，派出裂云兽进行攻击，造成相当于攻击力185%<@ba.talpu>（+5%）</>的物理伤害和3秒<ba.cold>寒冷</>",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "cold",
+                        "value": 3.0,
+                        "targets": 1,
+                        "target_air": true
+                    }
+                ]
+            }
+        ]
+    },
+    "char_1045_svash2": {
+        "appellation": "SilverAsh the Reignfrost",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "开放性开局",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "在场时向待部署区中加入“风雪之眼”，且使待部署区按照部署费用排列。位于“风雪之眼”左侧的干员与自身初始技力+4，下次再部署时间-20%",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "ally_respawn_time"
+                ],
+                "blackboard": [
+                    {
+                        "key": "sp_stock",
+                        "value": 4
+                    },
+                    {
+                        "key": "ally_sp_stock",
+                        "value": 4.0
+                    }
+                ]
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "雪境先驱",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "在场时，【谢拉格】干员免疫<ba.frozen>冻结</>，防御力+80<@ba.talpu>（+20）</>且每秒回复2%<@ba.talpu>（+0.5%）</>最大生命值；在场15秒后，防御力和生命回复效果翻倍",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "heal_self",
+                    "heal_ally",
+                    "kjerag"
+                ],
+                "blackboard": [
+                    {
+                        "key": "ally_status_immune",
+                        "value": 999,
+                        "types": [
+                            "freeze"
+                        ],
+                        "conditions": [
+                            "kjerag"
+                        ]
+                    },
+                    {
+                        "key": "def",
+                        "value": 80.0
+                    },
+                    {
+                        "key": "ally_def",
+                        "value": 80.0,
+                        "conditions": [
+                            "kjerag"
+                        ]
+                    },
+                    {
+                        "key": "def",
+                        "value": 160.0
+                    },
+                    {
+                        "key": "ally_def",
+                        "value": 160.0,
+                        "conditions": [
+                            "kjerag"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "char_1046_sbell2": {
+        "appellation": "Pramanix the Prerita",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "无垠的雪景",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "攻击范围内的地面每隔5.5秒产生一层积雪，地面敌人经过时立即受到相当于攻击力80%<@ba.talpu>（+5%）</>的法术伤害，每层积雪使经过的所有敌人移动速度下降12%，最多叠加5层（首个敌人离开该地块时积雪消失）",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "ms_down",
+                        "targets": 99,
+                        "value": 0.12,
+                        "duration": 1,
+                        "target_air": false
+                    },
+                    {
+                        "key": "ms_down",
+                        "targets": 99,
+                        "value": 0.6,
+                        "duration": 1,
+                        "target_air": false
+                    }
+                ]
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "圣山的祝福",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "受到伤害时使敌人<ba.cold>寒冷</>2<@ba.talpu>（+0.5）</>秒，若受到致命伤害，仅一次立刻回复所有生命值并使自身<ba.frozen>冻结</>4秒，使攻击范围内所有敌方单位<ba.frozen>冻结</>8秒",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "revive"
+                ],
+                "blackboard": [
+                    {
+                        "key": "cold",
+                        "targets": 1,
+                        "value": 2.0,
+                        "target_air": true,
+                        "conditions": [
+                            "when_attacked"
+                        ]
+                    },
+                    {
+                        "key": "aspd_down",
+                        "targets": 1,
+                        "value": 30.0,
+                        "duration": 2.0,
+                        "target_air": true,
+                        "category": [
+                            "cold"
+                        ]
+                    },
+                    {
+                        "key": "res_down",
+                        "order": "initial_add",
+                        "targets": 1,
+                        "value": 15,
+                        "duration": 8.0,
+                        "target_air": true,
+                        "category": [
+                            "freeze"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "char_1047_halo2": {
+        "appellation": "Astgenne the Lightchaser",
+        "talents": [
+            {
+                "prefabKey": "2",
+                "name_zh": "数据建模",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "对敌人造成<ba.sluggish>停顿</>效果时，自身的攻击速度+1，最多叠加18次",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 18.0
+                    }
+                ]
+            },
+            {
+                "prefabKey": "1",
+                "name_zh": "能源解析",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "攻击范围内的敌人受到12%<@ba.talpu>（+2%）</>的<ba.fragile>脆弱</>效果，敌人在溯光星源的攻击范围内停留超过7秒后，<ba.fragile>脆弱</>效果提升至16%<@ba.talpu>（+2%）</>",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "fragile"
+                ],
+                "blackboard": [
+                    {
+                        "key": "damage_scale",
+                        "targets": 99,
+                        "value": 1.12,
+                        "types": [
+                            "phys",
+                            "arts",
+                            "true"
+                        ],
+                        "category": [
+                            "fragile"
+                        ]
+                    },
+                    {
+                        "key": "damage_scale",
+                        "targets": 99,
+                        "value": 1.16,
+                        "types": [
+                            "phys",
+                            "arts",
+                            "true"
+                        ],
+                        "category": [
+                            "fragile"
+                        ]
                     }
                 ]
             }
