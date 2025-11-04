@@ -51603,7 +51603,7 @@
 				}
 			],
 			"tags": ["first_token_free"],
-			"blackboard": [{ "key": "sp_module", "value": null, "category": ["isw"] }]
+			"blackboard": [{ "key": "sp_module", "value": "isw" }]
 		}
 	},
 	"uniequip_004_phatom": {
@@ -51826,7 +51826,7 @@
 				}
 			],
 			"tags": ["first_token_free"],
-			"blackboard": [{ "key": "sp_module", "value": null, "category": ["isw"] }]
+			"blackboard": [{ "key": "sp_module", "value": "isw" }]
 		}
 	},
 	"uniequip_001_lasher": {
@@ -56922,7 +56922,7 @@
 					"targets": 5,
 					"value": 25.0
 				},
-				{ "key": "sp_module", "value": null, "category": ["isw"] }
+				{ "key": "sp_module", "value": "isw" }
 			]
 		}
 	},
@@ -57121,7 +57121,7 @@
 					"value": 5.0,
 					"target_air": false
 				},
-				{ "key": "sp_module", "value": null, "category": ["isw"] }
+				{ "key": "sp_module", "value": "isw" }
 			]
 		}
 	},
@@ -60758,7 +60758,7 @@
 					"key": "max_target",
 					"value": 2
 				},
-				{ "key": "sp_module", "value": null, "category": ["isw"] }
+				{ "key": "sp_module", "value": "isw" }
 			]
 		}
 	},
@@ -60963,7 +60963,7 @@
 					"value": 999,
 					"targets": 99
 				},
-				{ "key": "sp_module", "value": null, "category": ["ra"] }
+				{ "key": "sp_module", "value": "ra" }
 			]
 		}
 	},
@@ -64951,7 +64951,7 @@
 					"key": "force",
 					"value": 3.0
 				},
-				{ "key": "sp_module", "value": null, "category": ["isw"] }
+				{ "key": "sp_module", "value": "isw" }
 			]
 		}
 	},
@@ -65148,7 +65148,7 @@
 					"duration": 1.0,
 					"conditions": ["INCREASE_WHEN_ATTACK"]
 				},
-				{ "key": "sp_module", "value": null, "category": ["isw"] }
+				{ "key": "sp_module", "value": "isw" }
 			]
 		}
 	},
@@ -68940,7 +68940,7 @@
 				}
 			],
 			"tags": ["ally_respawn_time"],
-			"blackboard": [{ "key": "sp_module", "value": null, "category": ["isw"] }]
+			"blackboard": [{ "key": "sp_module", "value": "isw" }]
 		}
 	},
 	"uniequip_003_pepe": {
@@ -69161,7 +69161,7 @@
 				}
 			],
 			"tags": [],
-			"blackboard": [{ "key": "sp_module", "value": null, "category": ["ra"] }]
+			"blackboard": [{ "key": "sp_module", "value": "ra" }]
 		}
 	},
 	"uniequip_001_haruka": {
@@ -72316,7 +72316,7 @@
 					"key": "bonus_lifepoint",
 					"value": 1.0
 				},
-				{ "key": "sp_module", "value": null, "category": ["isw"] }
+				{ "key": "sp_module", "value": "isw" }
 			]
 		}
 	},
@@ -72584,7 +72584,7 @@
 					"conditions": ["freeze"],
 					"category": ["fragile"]
 				},
-				{ "key": "sp_module", "value": null, "category": ["isw"] }
+				{ "key": "sp_module", "value": "isw" }
 			]
 		}
 	},
