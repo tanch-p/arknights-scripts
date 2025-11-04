@@ -51603,7 +51603,7 @@
 				}
 			],
 			"tags": ["first_token_free"],
-			"blackboard": []
+			"blackboard": [{ "key": "sp_module", "value": null, "category": ["isw"] }]
 		}
 	},
 	"uniequip_004_phatom": {
@@ -51826,7 +51826,7 @@
 				}
 			],
 			"tags": ["first_token_free"],
-			"blackboard": []
+			"blackboard": [{ "key": "sp_module", "value": null, "category": ["isw"] }]
 		}
 	},
 	"uniequip_001_lasher": {
@@ -56921,7 +56921,8 @@
 					"key": "levitate",
 					"targets": 5,
 					"value": 25.0
-				}
+				},
+				{ "key": "sp_module", "value": null, "category": ["isw"] }
 			]
 		}
 	},
@@ -57119,7 +57120,8 @@
 					"targets": 99,
 					"value": 5.0,
 					"target_air": false
-				}
+				},
+				{ "key": "sp_module", "value": null, "category": ["isw"] }
 			]
 		}
 	},
@@ -60755,7 +60757,8 @@
 				{
 					"key": "max_target",
 					"value": 2
-				}
+				},
+				{ "key": "sp_module", "value": null, "category": ["isw"] }
 			]
 		}
 	},
@@ -60959,7 +60962,8 @@
 					"key": "attract",
 					"value": 999,
 					"targets": 99
-				}
+				},
+				{ "key": "sp_module", "value": null, "category": ["ra"] }
 			]
 		}
 	},
@@ -64946,7 +64950,8 @@
 				{
 					"key": "force",
 					"value": 3.0
-				}
+				},
+				{ "key": "sp_module", "value": null, "category": ["isw"] }
 			]
 		}
 	},
@@ -65142,7 +65147,8 @@
 					"value": 0.5,
 					"duration": 1.0,
 					"conditions": ["INCREASE_WHEN_ATTACK"]
-				}
+				},
+				{ "key": "sp_module", "value": null, "category": ["isw"] }
 			]
 		}
 	},
@@ -68934,7 +68940,7 @@
 				}
 			],
 			"tags": ["ally_respawn_time"],
-			"blackboard": []
+			"blackboard": [{ "key": "sp_module", "value": null, "category": ["isw"] }]
 		}
 	},
 	"uniequip_003_pepe": {
@@ -69155,7 +69161,7 @@
 				}
 			],
 			"tags": [],
-			"blackboard": []
+			"blackboard": [{ "key": "sp_module", "value": null, "category": ["ra"] }]
 		}
 	},
 	"uniequip_001_haruka": {
@@ -72309,7 +72315,8 @@
 				{
 					"key": "bonus_lifepoint",
 					"value": 1.0
-				}
+				},
+				{ "key": "sp_module", "value": null, "category": ["isw"] }
 			]
 		}
 	},
@@ -72576,7 +72583,8 @@
 					"types": ["phys", "arts", "true"],
 					"conditions": ["freeze"],
 					"category": ["fragile"]
-				}
+				},
+				{ "key": "sp_module", "value": null, "category": ["isw"] }
 			]
 		}
 	},
