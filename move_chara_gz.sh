@@ -1,0 +1,1 @@
+mv -f characters_en.gz characters_ja.gz characters_zh.gz ../tomimi-dev/static/data/

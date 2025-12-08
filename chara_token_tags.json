@@ -1,140 +1,140 @@
 {
-  "token_10001_deepcl_tentac": {
-    "tags": ["phys"],
-    "blackboard": []
-  },
-  "token_10004_otter_motter": {
-    "tags": ["phys"],
-    "blackboard": []
-  },
-  "token_10010_folivo_car": {
-    "tags": ["phys"],
-    "blackboard": []
-  },
-  "token_10005_mgllan_drone3": {
-    "tags": ["phys", "aoe"],
-    "blackboard": []
-  },
-  "token_10002_kalts_mon3tr": {
-    "tags": ["phys"],
-    "blackboard": []
-  },
-  "token_10020_ling_soul3": {
-    "tags": ["phys", "arts"],
-    "blackboard": [
-      {
-        "key": "blockCnt",
-        "value": 4.0
-      }
-    ]
-  },
-  "token_10027_ironmn_pile3": {
-    "tags": [],
-    "blackboard": [
-      {
-        "key": "ally_dmg_res",
-        "value": 0.36,
-        "types": ["phys"]
-      }
-    ]
-  },
-  "token_10035_wisdel_wward": {
-    "tags": ["arts"],
-    "blackboard": [
-      {
-        "key": "sluggish",
-        "targets": 1,
-        "value": 1.0,
-        "target_air": true
-      }
-    ]
-  },
-  "token_10030_mlyss_wtrman": {
-    "tags": [],
-    "blackboard": [
-      {
-        "key": "atk_down",
-        "order":"final_add",
-        "targets": 1,
-        "value": 250.0,
-        "target_air": false
-      },
-      {
-        "key": "def_down",
-        "order":"final_add",
-        "targets": 1,
-        "value": 250.0,
-        "target_air": false
-      }
-    ]
-  },
-  "token_10037_mitm_trshrb": {
-    "tags": [],
-    "blackboard": [
-      {
-        "key": "block_no_attack",
-        "value": 15
-      }
-    ]
-  },
-  "token_10036_lasher_mcbird": {
-    "tags": ["bonus_machine", "machine"],
-    "blackboard": []
-  },
-  "token_10041_cathy_catsld": {
-    "tags": ["barrier"],
-    "blackboard": []
-  },
-  "token_10040_siege2_vlion": {
-    "tags": ["true"],
-    "blackboard": []
-  },
-  "token_10042_tecno_puppet": {
-    "tags": ["arts"],
-    "blackboard": []
-  },
-  "token_10043_necras_skeltn": {
-    "tags": ["arts"],
-    "blackboard": [
-      {
-        "key": "blockCnt",
-        "value": 2.0
-      },
-      {
-        "key": "blockCnt",
-        "value": 4.0
-      }
-    ]
-  },
-  "token_10055_phatm2_mndclv": {
-    "tags":["block_flying"],
-    "blackboard": [
-      {
-        "key": "blockCnt",
-        "value": 99.0
-      }
-    ]
-  },
-  "token_10051_radian_tower1":{
-    "tags": ["phys"],
-    "blackboard": [
-      {
-        "key": "blockCnt",
-        "value": 3.0
-      }
-    ]
-  },
-  "token_10052_radian_tower2":{
-    "tags": ["phys"],
-    "blackboard": [
-      {
-        "key": "blockCnt",
-        "value": 2.0
-      },
-      {
-        "key": "block_no_attack",
-        "value": 999
-      }
-    ]
-  }
+	"token_10001_deepcl_tentac": {
+		"tags": ["phys"],
+		"blackboard": []
+	},
+	"token_10004_otter_motter": {
+		"tags": ["phys"],
+		"blackboard": []
+	},
+	"token_10010_folivo_car": {
+		"tags": ["phys"],
+		"blackboard": []
+	},
+	"token_10005_mgllan_drone3": {
+		"tags": ["phys", "aoe"],
+		"blackboard": []
+	},
+	"token_10002_kalts_mon3tr": {
+		"tags": ["phys"],
+		"blackboard": []
+	},
+	"token_10020_ling_soul3": {
+		"tags": ["phys", "arts"],
+		"blackboard": [
+			{
+				"key": "blockCnt",
+				"value": 4.0
+			}
+		]
+	},
+	"token_10027_ironmn_pile3": {
+		"tags": [],
+		"blackboard": [
+			{
+				"key": "ally_dmg_res",
+				"value": 0.36,
+				"types": ["phys"]
+			}
+		]
+	},
+	"token_10035_wisdel_wward": {
+		"tags": ["arts"],
+		"blackboard": [
+			{
+				"key": "sluggish",
+				"targets": 1,
+				"value": 1.0,
+				"target_air": true
+			}
+		]
+	},
+	"token_10030_mlyss_wtrman": {
+		"tags": [],
+		"blackboard": [
+			{
+				"key": "atk_down",
+				"order": "final_add",
+				"targets": 1,
+				"value": 250.0,
+				"target_air": false
+			},
+			{
+				"key": "def_down",
+				"order": "final_add",
+				"targets": 1,
+				"value": 250.0,
+				"target_air": false
+			}
+		]
+	},
+	"token_10037_mitm_trshrb": {
+		"tags": [],
+		"blackboard": [
+			{
+				"key": "block_no_attack",
+				"value": 15
+			}
+		]
+	},
+	"token_10036_lasher_mcbird": {
+		"tags": ["bonus_machine", "machine"],
+		"blackboard": []
+	},
+	"token_10041_cathy_catsld": {
+		"tags": ["barrier"],
+		"blackboard": []
+	},
+	"token_10040_siege2_vlion": {
+		"tags": ["true"],
+		"blackboard": []
+	},
+	"token_10042_tecno_puppet": {
+		"tags": ["arts"],
+		"blackboard": []
+	},
+	"token_10043_necras_skeltn": {
+		"tags": ["arts"],
+		"blackboard": [
+			{
+				"key": "blockCnt",
+				"value": 2.0
+			},
+			{
+				"key": "blockCnt",
+				"value": 4.0
+			}
+		]
+	},
+	"token_10055_phatm2_mndclv": {
+		"tags": ["block_flying"],
+		"blackboard": [
+			{
+				"key": "blockCnt",
+				"value": 99.0
+			}
+		]
+	},
+	"token_10051_radian_tower1": {
+		"tags": ["phys"],
+		"blackboard": [
+			{
+				"key": "blockCnt",
+				"value": 3.0
+			}
+		]
+	},
+	"token_10052_radian_tower2": {
+		"tags": ["phys"],
+		"blackboard": [
+			{
+				"key": "blockCnt",
+				"value": 2.0
+			},
+			{
+				"key": "block_no_attack",
+				"value": 999
+			}
+		]
+	}
 }

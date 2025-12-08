@@ -16,7 +16,7 @@ buffs_list = [
     "inspire"]
 subprofessions = ['physician', 'fearless', 'executor', 'fastshot', 'bombarder', 'bard', 'protector', 'ritualist', 'pioneer', 'corecaster', 'splashcaster', 'charger', 'centurion', 'guardian', 'slower', 'funnel', 'mystic', 'chain', 'aoesniper', 'reaperrange', 'longrange', 'closerange', 'siegesniper', 'loopshooter', 'bearer', 'tactician', 'instructor', 'lord', 'artsfghter', 'sword', 'musha', 'crusher', 'reaper',
                   'merchant', 'hookmaster', 'ringhealer', 'healer', 'wandermedic', 'unyield', 'artsprotector', 'summoner', 'craftsman', 'stalker', 'pusher', 'dollkeeper', 'skywalker', 'agent', 'fighter', 'librator', 'hammer', 'phalanx', 'blastcaster', 'primcaster', 'incantationmedic', 'chainhealer', 'shotprotector', 'fortress', 'duelist', 'primprotector', 'hunter', 'geek', 'underminer', 'blessing', 'traper', 
-                  'alchemist','soulcaster','primguard','counsellor',"mercenary"]
+                  'alchemist','soulcaster','primguard','counsellor',"mercenary","skybreaker"]
 
 stat_convert = {'maxHp': "hp", "magicResistance": "res", "attackSpeed": "aspd",
                 "moveSpeed": "ms", "respawnTime": "respawnTime", "atk": 'atk', "def": "def", "cost": "cost"}
@@ -70,10 +70,10 @@ KEYS_TO_IGNORE = ["char_512_aprot", "char_600_cpione", "char_601_cguard",
                   "char_605_cmedic", "char_606_csuppo", "char_607_cspec",
                   "char_608_acpion", "char_609_acguad", "char_610_acfend",
                   "char_611_acnipe", "char_612_accast", "char_613_acmedc",
-                  "char_614_acsupo", "char_615_acspec"]
+                  "char_614_acsupo", "char_615_acspec","char_616_pithst","char_617_sharp2"]
 
 filtered_cn_char_table = {key: cn_char_table[key] for key in cn_char_table.keys(
-) if not "token" in key and not "trap" in key and not key in KEYS_TO_IGNORE}
+) if "token" not in key and "trap" not in key and key not in KEYS_TO_IGNORE}
 
 subProfessionIds = []
 
@@ -202,6 +202,8 @@ for id in filtered_cn_char_table:
         blackboard.append({"key": "max_target", "value": 3})
     if character_dict["subProfessionId"] == "librator":
         blackboard.append({"key": "block", "value": 0})
+    if character_dict["subProfessionId"] == "skybreaker":
+        blackboard.append({"key": "liftoff", "value": 999})
     if character_dict["subProfessionId"] in ["librator", "healer", "musha"]:
         desc_zh = replace_substrings(
             character_dict['trait']['candidates'][-1]['overrideDescripton'], character_dict['trait']['candidates'][-1]['blackboard'])

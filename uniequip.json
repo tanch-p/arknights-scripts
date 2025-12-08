@@ -51603,7 +51603,12 @@
 				}
 			],
 			"tags": ["first_token_free"],
-			"blackboard": [{ "key": "sp_module", "value": "isw" }]
+			"blackboard": [
+				{
+					"key": "sp_module",
+					"value": "isw"
+				}
+			]
 		}
 	},
 	"uniequip_004_phatom": {
@@ -51826,7 +51831,12 @@
 				}
 			],
 			"tags": ["first_token_free"],
-			"blackboard": [{ "key": "sp_module", "value": "isw" }]
+			"blackboard": [
+				{
+					"key": "sp_module",
+					"value": "isw"
+				}
+			]
 		}
 	},
 	"uniequip_001_lasher": {
@@ -56922,7 +56932,10 @@
 					"targets": 5,
 					"value": 25.0
 				},
-				{ "key": "sp_module", "value": "isw" }
+				{
+					"key": "sp_module",
+					"value": "isw"
+				}
 			]
 		}
 	},
@@ -57121,7 +57134,10 @@
 					"value": 5.0,
 					"target_air": false
 				},
-				{ "key": "sp_module", "value": "isw" }
+				{
+					"key": "sp_module",
+					"value": "isw"
+				}
 			]
 		}
 	},
@@ -60758,7 +60774,10 @@
 					"key": "max_target",
 					"value": 2
 				},
-				{ "key": "sp_module", "value": "isw" }
+				{
+					"key": "sp_module",
+					"value": "isw"
+				}
 			]
 		}
 	},
@@ -60963,7 +60982,10 @@
 					"value": 999,
 					"targets": 99
 				},
-				{ "key": "sp_module", "value": "ra" }
+				{
+					"key": "sp_module",
+					"value": "ra"
+				}
 			]
 		}
 	},
@@ -64951,7 +64973,10 @@
 					"key": "force",
 					"value": 3.0
 				},
-				{ "key": "sp_module", "value": "isw" }
+				{
+					"key": "sp_module",
+					"value": "isw"
+				}
 			]
 		}
 	},
@@ -65148,7 +65173,10 @@
 					"duration": 1.0,
 					"conditions": ["INCREASE_WHEN_ATTACK"]
 				},
-				{ "key": "sp_module", "value": "isw" }
+				{
+					"key": "sp_module",
+					"value": "isw"
+				}
 			]
 		}
 	},
@@ -68940,7 +68968,12 @@
 				}
 			],
 			"tags": ["ally_respawn_time"],
-			"blackboard": [{ "key": "sp_module", "value": "isw" }]
+			"blackboard": [
+				{
+					"key": "sp_module",
+					"value": "isw"
+				}
+			]
 		}
 	},
 	"uniequip_003_pepe": {
@@ -69161,7 +69194,12 @@
 				}
 			],
 			"tags": [],
-			"blackboard": [{ "key": "sp_module", "value": "ra" }]
+			"blackboard": [
+				{
+					"key": "sp_module",
+					"value": "ra"
+				}
+			]
 		}
 	},
 	"uniequip_001_haruka": {
@@ -72316,7 +72354,10 @@
 					"key": "bonus_lifepoint",
 					"value": 1.0
 				},
-				{ "key": "sp_module", "value": "isw" }
+				{
+					"key": "sp_module",
+					"value": "isw"
+				}
 			]
 		}
 	},
@@ -72584,7 +72625,10 @@
 					"conditions": ["freeze"],
 					"category": ["fragile"]
 				},
-				{ "key": "sp_module", "value": "isw" }
+				{
+					"key": "sp_module",
+					"value": "isw"
+				}
 			]
 		}
 	},
@@ -73929,6 +73973,1254 @@
 			],
 			"tags": [],
 			"blackboard": []
+		}
+	},
+	"uniequip_001_pithst": {
+		"uniEquipId": "uniequip_001_pithst",
+		"name_zh": "盟约·辅助干员证章",
+		"name_ja": "",
+		"name_en": "",
+		"typeIcon": "original",
+		"charId": "char_616_pithst",
+		"combatData": null
+	},
+	"uniequip_002_pithst": {
+		"uniEquipId": "uniequip_002_pithst",
+		"name_zh": "盟约·辅助干员证章",
+		"name_ja": "",
+		"name_en": "",
+		"typeIcon": "rit-x",
+		"charId": "char_616_pithst",
+		"combatData": {
+			"phases": [
+				{
+					"parts": [
+						{
+							"resKey": null,
+							"target": "DISPLAY",
+							"isToken": false,
+							"addDesc_zh": "对精英和领袖敌人造成的元素损伤提升<@ba.kw>18%</>",
+							"addDesc_ja": "",
+							"addDesc_en": "",
+							"overrideDesc_zh": null,
+							"overrideDesc_ja": "",
+							"overrideDesc_en": ""
+						},
+						{
+							"resKey": "pithst_equip_1_1_p1",
+							"target": "TALENT",
+							"isToken": false,
+							"name_zh": "迭代元素",
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": 0,
+							"upgradeDesc_zh": "攻击同时附带18%攻击力的<ba.dt.neural2>神经损伤</>（优先）、<ba.dt.burning2>灼燃损伤</>、<ba.dt.apoptosis2>凋亡损伤</>；优先攻击未处于损伤爆发的目标",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						}
+					],
+					"attributeBlackboard": [
+						{
+							"key": "max_hp",
+							"value": 90.0
+						},
+						{
+							"key": "atk",
+							"value": 23.0
+						}
+					],
+					"tokenAttributeBlackboard": {}
+				},
+				{
+					"parts": [
+						{
+							"resKey": null,
+							"target": "DISPLAY",
+							"isToken": false,
+							"addDesc_zh": "对精英和领袖敌人造成的元素损伤提升<@ba.kw>18%</>",
+							"addDesc_ja": "",
+							"addDesc_en": "",
+							"overrideDesc_zh": null,
+							"overrideDesc_ja": "",
+							"overrideDesc_en": ""
+						},
+						{
+							"resKey": "pithst_equip_1_2_p1",
+							"target": "TALENT",
+							"isToken": false,
+							"name_zh": "迭代元素",
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": 0,
+							"upgradeDesc_zh": "攻击同时附带19%攻击力的<ba.dt.neural2>神经损伤</>（优先）、<ba.dt.burning2>灼燃损伤</>、<ba.dt.apoptosis2>凋亡损伤</>；优先攻击未处于损伤爆发的目标",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						}
+					],
+					"attributeBlackboard": [
+						{
+							"key": "max_hp",
+							"value": 110.0
+						},
+						{
+							"key": "atk",
+							"value": 28.0
+						}
+					],
+					"tokenAttributeBlackboard": {}
+				},
+				{
+					"parts": [
+						{
+							"resKey": null,
+							"target": "DISPLAY",
+							"isToken": false,
+							"addDesc_zh": "对精英和领袖敌人造成的元素损伤提升<@ba.kw>18%</>",
+							"addDesc_ja": "",
+							"addDesc_en": "",
+							"overrideDesc_zh": null,
+							"overrideDesc_ja": "",
+							"overrideDesc_en": ""
+						},
+						{
+							"resKey": "pithst_equip_1_3_p1",
+							"target": "TALENT",
+							"isToken": false,
+							"name_zh": "迭代元素",
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": 0,
+							"upgradeDesc_zh": "攻击同时附带20%攻击力的<ba.dt.neural2>神经损伤</>（优先）、<ba.dt.burning2>灼燃损伤</>、<ba.dt.apoptosis2>凋亡损伤</>；优先攻击未处于损伤爆发的目标",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						}
+					],
+					"attributeBlackboard": [
+						{
+							"key": "max_hp",
+							"value": 135.0
+						},
+						{
+							"key": "atk",
+							"value": 30.0
+						}
+					],
+					"tokenAttributeBlackboard": {}
+				}
+			],
+			"tags": [],
+			"blackboard": [
+			
+			]
+		}
+	},
+	"uniequip_001_sharp2": {
+		"uniEquipId": "uniequip_001_sharp2",
+		"name_zh": "领主·Sharp证章",
+		"name_ja": "",
+		"name_en": "",
+		"typeIcon": "original",
+		"charId": "char_617_sharp2",
+		"combatData": null
+	},
+	"uniequip_002_sharp2": {
+		"uniEquipId": "uniequip_002_sharp2",
+		"name_zh": "领主·Sharp证章",
+		"name_ja": "",
+		"name_en": "",
+		"typeIcon": "lor-x",
+		"charId": "char_617_sharp2",
+		"combatData": {
+			"phases": [
+				{
+					"parts": [
+						{
+							"resKey": null,
+							"target": "DISPLAY",
+							"isToken": false,
+							"addDesc_zh": "攻击附带<@ba.vup>10%</>攻击力的法术伤害",
+							"addDesc_ja": "",
+							"addDesc_en": "",
+							"overrideDesc_zh": null,
+							"overrideDesc_ja": "",
+							"overrideDesc_en": ""
+						},
+						{
+							"resKey": "sharp2_equip_1_1_p1",
+							"target": "TALENT",
+							"isToken": false,
+							"name_zh": null,
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": -1,
+							"upgradeDesc_zh": "",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						}
+					],
+					"attributeBlackboard": [
+						{
+							"key": "max_hp",
+							"value": 180.0
+						},
+						{
+							"key": "atk",
+							"value": 38.0
+						}
+					],
+					"tokenAttributeBlackboard": {}
+				},
+				{
+					"parts": [
+						{
+							"resKey": null,
+							"target": "DISPLAY",
+							"isToken": false,
+							"addDesc_zh": "攻击附带<@ba.vup>10%</>攻击力的法术伤害",
+							"addDesc_ja": "",
+							"addDesc_en": "",
+							"overrideDesc_zh": null,
+							"overrideDesc_ja": "",
+							"overrideDesc_en": ""
+						},
+						{
+							"resKey": null,
+							"target": "TALENT_DATA_ONLY",
+							"isToken": false,
+							"name_zh": "无声之锋",
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": 0,
+							"upgradeDesc_zh": "攻击力+23%，获得30%的法术闪避",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						},
+						{
+							"resKey": "sharp2_equip_1_2_p1",
+							"target": "TALENT",
+							"isToken": false,
+							"name_zh": null,
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": -1,
+							"upgradeDesc_zh": "",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						}
+					],
+					"attributeBlackboard": [
+						{
+							"key": "max_hp",
+							"value": 250.0
+						},
+						{
+							"key": "atk",
+							"value": 54.0
+						}
+					],
+					"tokenAttributeBlackboard": {}
+				},
+				{
+					"parts": [
+						{
+							"resKey": null,
+							"target": "DISPLAY",
+							"isToken": false,
+							"addDesc_zh": "攻击附带<@ba.vup>10%</>攻击力的法术伤害",
+							"addDesc_ja": "",
+							"addDesc_en": "",
+							"overrideDesc_zh": null,
+							"overrideDesc_ja": "",
+							"overrideDesc_en": ""
+						},
+						{
+							"resKey": null,
+							"target": "TALENT_DATA_ONLY",
+							"isToken": false,
+							"name_zh": "无声之锋",
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": 0,
+							"upgradeDesc_zh": "攻击力+25%，获得35%的法术闪避",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						},
+						{
+							"resKey": "sharp2_equip_1_3_p1",
+							"target": "TALENT",
+							"isToken": false,
+							"name_zh": null,
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": -1,
+							"upgradeDesc_zh": "",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						}
+					],
+					"attributeBlackboard": [
+						{
+							"key": "max_hp",
+							"value": 300.0
+						},
+						{
+							"key": "atk",
+							"value": 63.0
+						}
+					],
+					"tokenAttributeBlackboard": {}
+				}
+			],
+			"tags": [],
+			"blackboard": [
+				
+			]
+		}
+	},
+	"uniequip_001_monstr": {
+		"uniEquipId": "uniequip_001_monstr",
+		"name_zh": "Mon3tr证章",
+		"name_ja": "",
+		"name_en": "",
+		"typeIcon": "original",
+		"charId": "char_4179_monstr",
+		"combatData": null
+	},
+	"uniequip_002_monstr": {
+		"uniEquipId": "uniequip_002_monstr",
+		"name_zh": "记忆存档",
+		"name_ja": "",
+		"name_en": "",
+		"typeIcon": "xah-x",
+		"charId": "char_4179_monstr",
+		"combatData": {
+			"phases": [
+				{
+					"parts": [
+						{
+							"resKey": null,
+							"target": "DISPLAY",
+							"isToken": false,
+							"addDesc_zh": null,
+							"addDesc_ja": "",
+							"addDesc_en": "",
+							"overrideDesc_zh": "恢复友方单位生命，且会在<@ba.kw>3</>个友方单位间跳跃，每次跳跃治疗量降低15%",
+							"overrideDesc_ja": "",
+							"overrideDesc_en": ""
+						},
+						{
+							"resKey": "monstr_equip_1_1_p1",
+							"target": "TALENT",
+							"isToken": false,
+							"name_zh": null,
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": -1,
+							"upgradeDesc_zh": "",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						}
+					],
+					"attributeBlackboard": [
+						{
+							"key": "atk",
+							"value": 40.0
+						},
+						{
+							"key": "def",
+							"value": 30.0
+						}
+					],
+					"tokenAttributeBlackboard": {}
+				},
+				{
+					"parts": [
+						{
+							"resKey": null,
+							"target": "DISPLAY",
+							"isToken": false,
+							"addDesc_zh": null,
+							"addDesc_ja": "",
+							"addDesc_en": "",
+							"overrideDesc_zh": "恢复友方单位生命，且会在<@ba.kw>3</>个友方单位间跳跃，每次跳跃治疗量降低15%",
+							"overrideDesc_ja": "",
+							"overrideDesc_en": ""
+						},
+						{
+							"resKey": "monstr_equip_1_2_p1",
+							"target": "TALENT",
+							"isToken": false,
+							"name_zh": null,
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": -1,
+							"upgradeDesc_zh": "",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						},
+						{
+							"resKey": null,
+							"target": "TALENT_DATA_ONLY",
+							"isToken": false,
+							"name_zh": "自我修复",
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": 0,
+							"upgradeDesc_zh": "可以在攻击范围内的地面使用一个仅可被自身治疗的重构体，重构体周围友方单位的攻击力+25%<@ba.talpu>（+5%）</>，重构体受到自身和Mon3tr治疗时，可额外进行一次不会衰减的治疗跳跃",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						}
+					],
+					"attributeBlackboard": [
+						{
+							"key": "atk",
+							"value": 55.0
+						},
+						{
+							"key": "def",
+							"value": 35.0
+						}
+					],
+					"tokenAttributeBlackboard": {}
+				},
+				{
+					"parts": [
+						{
+							"resKey": null,
+							"target": "DISPLAY",
+							"isToken": false,
+							"addDesc_zh": null,
+							"addDesc_ja": "",
+							"addDesc_en": "",
+							"overrideDesc_zh": "恢复友方单位生命，且会在<@ba.kw>3</>个友方单位间跳跃，每次跳跃治疗量降低15%",
+							"overrideDesc_ja": "",
+							"overrideDesc_en": ""
+						},
+						{
+							"resKey": "monstr_equip_1_3_p1",
+							"target": "TALENT",
+							"isToken": false,
+							"name_zh": null,
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": -1,
+							"upgradeDesc_zh": "",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						},
+						{
+							"resKey": null,
+							"target": "TALENT_DATA_ONLY",
+							"isToken": false,
+							"name_zh": "自我修复",
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": 0,
+							"upgradeDesc_zh": "可以在攻击范围内的地面使用一个仅可被自身治疗的重构体，重构体周围友方单位的攻击力+30%<@ba.talpu>（+5%）</>，重构体受到自身和Mon3tr治疗时，可额外进行一次不会衰减的治疗跳跃，且下次跳跃也不衰减",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						}
+					],
+					"attributeBlackboard": [
+						{
+							"key": "atk",
+							"value": 65.0
+						},
+						{
+							"key": "def",
+							"value": 40.0
+						}
+					],
+					"tokenAttributeBlackboard": {}
+				}
+			],
+			"tags": [],
+			"blackboard": [
+				{
+						"key": "ally_atk",
+						"value": 0.3
+					}
+			]
+		}
+	},
+	"uniequip_001_peper": {
+		"uniEquipId": "uniequip_001_peper",
+		"name_zh": "明椒证章",
+		"name_ja": "",
+		"name_en": "",
+		"typeIcon": "original",
+		"charId": "char_4071_peper",
+		"combatData": null
+	},
+	"uniequip_002_peper": {
+		"uniEquipId": "uniequip_002_peper",
+		"name_zh": "“多彩人生”",
+		"name_ja": "",
+		"name_en": "",
+		"typeIcon": "xah-x",
+		"charId": "char_4071_peper",
+		"combatData": {
+			"phases": [
+				{
+					"parts": [
+						{
+							"resKey": null,
+							"target": "DISPLAY",
+							"isToken": false,
+							"addDesc_zh": null,
+							"addDesc_ja": "",
+							"addDesc_en": "",
+							"overrideDesc_zh": "恢复友方单位生命，且会在<@ba.kw>3</>个友方单位间跳跃，每次跳跃治疗量降低15%",
+							"overrideDesc_ja": "",
+							"overrideDesc_en": ""
+						},
+						{
+							"resKey": "peper_equip_1_1_p1",
+							"target": "TALENT",
+							"isToken": false,
+							"name_zh": null,
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": -1,
+							"upgradeDesc_zh": "",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						}
+					],
+					"attributeBlackboard": [
+						{
+							"key": "max_hp",
+							"value": 160.0
+						},
+						{
+							"key": "atk",
+							"value": 36.0
+						}
+					],
+					"tokenAttributeBlackboard": {}
+				},
+				{
+					"parts": [
+						{
+							"resKey": null,
+							"target": "DISPLAY",
+							"isToken": false,
+							"addDesc_zh": null,
+							"addDesc_ja": "",
+							"addDesc_en": "",
+							"overrideDesc_zh": "恢复友方单位生命，且会在<@ba.kw>3</>个友方单位间跳跃，每次跳跃治疗量降低15%",
+							"overrideDesc_ja": "",
+							"overrideDesc_en": ""
+						},
+						{
+							"resKey": "peper_equip_1_2_p1",
+							"target": "TALENT",
+							"isToken": false,
+							"name_zh": null,
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": -1,
+							"upgradeDesc_zh": "",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						},
+						{
+							"resKey": null,
+							"target": "TALENT_DATA_ONLY",
+							"isToken": false,
+							"name_zh": "重点关照",
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": 0,
+							"upgradeDesc_zh": "治疗时，若目标生命少于40%则为其额外恢复180<@ba.talpu>（+10）</>点生命",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						}
+					],
+					"attributeBlackboard": [
+						{
+							"key": "max_hp",
+							"value": 180.0
+						},
+						{
+							"key": "atk",
+							"value": 51.0
+						}
+					],
+					"tokenAttributeBlackboard": {}
+				},
+				{
+					"parts": [
+						{
+							"resKey": null,
+							"target": "DISPLAY",
+							"isToken": false,
+							"addDesc_zh": null,
+							"addDesc_ja": "",
+							"addDesc_en": "",
+							"overrideDesc_zh": "恢复友方单位生命，且会在<@ba.kw>3</>个友方单位间跳跃，每次跳跃治疗量降低15%",
+							"overrideDesc_ja": "",
+							"overrideDesc_en": ""
+						},
+						{
+							"resKey": "peper_equip_1_3_p1",
+							"target": "TALENT",
+							"isToken": false,
+							"name_zh": null,
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": -1,
+							"upgradeDesc_zh": "",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						},
+						{
+							"resKey": null,
+							"target": "TALENT_DATA_ONLY",
+							"isToken": false,
+							"name_zh": "重点关照",
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": 0,
+							"upgradeDesc_zh": "治疗时，若目标生命少于50%则为其额外恢复210<@ba.talpu>（+10）</>点生命",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						}
+					],
+					"attributeBlackboard": [
+						{
+							"key": "max_hp",
+							"value": 200.0
+						},
+						{
+							"key": "atk",
+							"value": 61.0
+						}
+					],
+					"tokenAttributeBlackboard": {}
+				}
+			],
+			"tags": [],
+			"blackboard": [
+			]
+		}
+	},
+	"uniequip_001_papyrs": {
+		"uniEquipId": "uniequip_001_papyrs",
+		"name_zh": "莎草证章",
+		"name_ja": "",
+		"name_en": "",
+		"typeIcon": "original",
+		"charId": "char_4139_papyrs",
+		"combatData": null
+	},
+	"uniequip_002_papyrs": {
+		"uniEquipId": "uniequip_002_papyrs",
+		"name_zh": "小小的种子",
+		"name_ja": "",
+		"name_en": "",
+		"typeIcon": "xah-x",
+		"charId": "char_4139_papyrs",
+		"combatData": {
+			"phases": [
+				{
+					"parts": [
+						{
+							"resKey": null,
+							"target": "DISPLAY",
+							"isToken": false,
+							"addDesc_zh": null,
+							"addDesc_ja": "",
+							"addDesc_en": "",
+							"overrideDesc_zh": "恢复友方单位生命，且会在<@ba.kw>3</>个友方单位间跳跃，每次跳跃治疗量降低15%",
+							"overrideDesc_ja": "",
+							"overrideDesc_en": ""
+						},
+						{
+							"resKey": "papyrs_equip_1_1_p1",
+							"target": "TALENT",
+							"isToken": false,
+							"name_zh": null,
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": -1,
+							"upgradeDesc_zh": "",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						}
+					],
+					"attributeBlackboard": [
+						{
+							"key": "atk",
+							"value": 38.0
+						},
+						{
+							"key": "def",
+							"value": 23.0
+						}
+					],
+					"tokenAttributeBlackboard": {}
+				},
+				{
+					"parts": [
+						{
+							"resKey": null,
+							"target": "DISPLAY",
+							"isToken": false,
+							"addDesc_zh": null,
+							"addDesc_ja": "",
+							"addDesc_en": "",
+							"overrideDesc_zh": "恢复友方单位生命，且会在<@ba.kw>3</>个友方单位间跳跃，每次跳跃治疗量降低15%",
+							"overrideDesc_ja": "",
+							"overrideDesc_en": ""
+						},
+						{
+							"resKey": "papyrs_equip_1_2_p1",
+							"target": "TALENT",
+							"isToken": false,
+							"name_zh": null,
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": -1,
+							"upgradeDesc_zh": "",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						},
+						{
+							"resKey": null,
+							"target": "TALENT_DATA_ONLY",
+							"isToken": false,
+							"name_zh": "博览古卷",
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": 0,
+							"upgradeDesc_zh": "治疗会为目标干员附加相当于自身25%<@ba.talpu>（+2%）</>攻击力的<ba.barrier>屏障</>，持续8秒",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						}
+					],
+					"attributeBlackboard": [
+						{
+							"key": "atk",
+							"value": 50.0
+						},
+						{
+							"key": "def",
+							"value": 28.0
+						}
+					],
+					"tokenAttributeBlackboard": {}
+				},
+				{
+					"parts": [
+						{
+							"resKey": null,
+							"target": "DISPLAY",
+							"isToken": false,
+							"addDesc_zh": null,
+							"addDesc_ja": "",
+							"addDesc_en": "",
+							"overrideDesc_zh": "恢复友方单位生命，且会在<@ba.kw>3</>个友方单位间跳跃，每次跳跃治疗量降低15%",
+							"overrideDesc_ja": "",
+							"overrideDesc_en": ""
+						},
+						{
+							"resKey": "papyrs_equip_1_3_p1",
+							"target": "TALENT",
+							"isToken": false,
+							"name_zh": null,
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": -1,
+							"upgradeDesc_zh": "",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						},
+						{
+							"resKey": null,
+							"target": "TALENT_DATA_ONLY",
+							"isToken": false,
+							"name_zh": "博览古卷",
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": 0,
+							"upgradeDesc_zh": "治疗会为目标干员附加相当于自身29%<@ba.talpu>（+2%）</>攻击力的<ba.barrier>屏障</>，持续10秒",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						}
+					],
+					"attributeBlackboard": [
+						{
+							"key": "atk",
+							"value": 60.0
+						},
+						{
+							"key": "def",
+							"value": 33.0
+						}
+					],
+					"tokenAttributeBlackboard": {}
+				}
+			],
+			"tags": [],
+			"blackboard": [
+			]
+		}
+	},
+	"uniequip_001_nasti": {
+		"uniEquipId": "uniequip_001_nasti",
+		"name_zh": "娜斯提证章",
+		"name_ja": "",
+		"name_en": "",
+		"typeIcon": "original",
+		"charId": "char_4212_nasti",
+		"combatData": null
+	},
+	"uniequip_002_nasti": {
+		"uniEquipId": "uniequip_002_nasti",
+		"name_zh": "工程师们",
+		"name_ja": "",
+		"name_en": "",
+		"typeIcon": "cra-x",
+		"charId": "char_4212_nasti",
+		"combatData": {
+			"phases": [
+				{
+					"parts": [
+						{
+							"resKey": "nasti_equip_1_1_p1",
+							"target": "TRAIT",
+							"isToken": false,
+							"addDesc_zh": "<支援装置>的持有上限<@ba.kw>+1</>且部署费用<@ba.kw>减少</>",
+							"addDesc_ja": "",
+							"addDesc_en": "",
+							"overrideDesc_zh": null,
+							"overrideDesc_ja": "",
+							"overrideDesc_en": ""
+						}
+					],
+					"attributeBlackboard": [
+						{
+							"key": "max_hp",
+							"value": 78.0
+						},
+						{
+							"key": "atk",
+							"value": 26.0
+						},
+						{
+							"key": "def",
+							"value": 25.0
+						}
+					],
+					"tokenAttributeBlackboard": {
+						"token_10059_nasti_nstdef": [
+							{
+								"key": "cost",
+								"value": -2.0
+							},
+							{
+								"key": "max_deck_stack_cnt",
+								"value": 1.0
+							}
+						],
+						"token_10060_nasti_nstchr": [
+							{
+								"key": "cost",
+								"value": -2.0
+							},
+							{
+								"key": "max_deck_stack_cnt",
+								"value": 1.0
+							}
+						],
+						"token_10061_nasti_nstbld": [
+							{
+								"key": "cost",
+								"value": -3.0
+							},
+							{
+								"key": "max_deck_stack_cnt",
+								"value": 1.0
+							}
+						]
+					}
+				},
+				{
+					"parts": [
+						{
+							"resKey": "nasti_equip_1_2_p1",
+							"target": "TRAIT",
+							"isToken": false,
+							"addDesc_zh": "<支援装置>的持有上限<@ba.kw>+1</>且部署费用<@ba.kw>减少</>",
+							"addDesc_ja": "",
+							"addDesc_en": "",
+							"overrideDesc_zh": null,
+							"overrideDesc_ja": "",
+							"overrideDesc_en": ""
+						},
+						{
+							"resKey": null,
+							"target": "TALENT_DATA_ONLY",
+							"isToken": false,
+							"name_zh": "前方施工",
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": 0,
+							"upgradeDesc_zh": "可以携带3个<支援装置>(最多可部署2个)，效果根据技能改变而改变，首个装置部署费用减少",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						},
+						{
+							"resKey": "nasti_equip_1_2_p2",
+							"target": "TALENT",
+							"isToken": false,
+							"name_zh": null,
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": 0,
+							"upgradeDesc_zh": "",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						}
+					],
+					"attributeBlackboard": [
+						{
+							"key": "max_hp",
+							"value": 102.0
+						},
+						{
+							"key": "atk",
+							"value": 32.0
+						},
+						{
+							"key": "def",
+							"value": 35.0
+						}
+					],
+					"tokenAttributeBlackboard": {
+						"token_10059_nasti_nstdef": [
+							{
+								"key": "cost",
+								"value": -2.0
+							},
+							{
+								"key": "max_deck_stack_cnt",
+								"value": 1.0
+							}
+						],
+						"token_10060_nasti_nstchr": [
+							{
+								"key": "cost",
+								"value": -2.0
+							},
+							{
+								"key": "max_deck_stack_cnt",
+								"value": 1.0
+							}
+						],
+						"token_10061_nasti_nstbld": [
+							{
+								"key": "cost",
+								"value": -3.0
+							},
+							{
+								"key": "max_deck_stack_cnt",
+								"value": 1.0
+							}
+						]
+					}
+				},
+				{
+					"parts": [
+						{
+							"resKey": "nasti_equip_1_3_p1",
+							"target": "TRAIT",
+							"isToken": false,
+							"addDesc_zh": "<支援装置>的持有上限<@ba.kw>+1</>且部署费用<@ba.kw>减少</>",
+							"addDesc_ja": "",
+							"addDesc_en": "",
+							"overrideDesc_zh": null,
+							"overrideDesc_ja": "",
+							"overrideDesc_en": ""
+						},
+						{
+							"resKey": null,
+							"target": "TALENT_DATA_ONLY",
+							"isToken": false,
+							"name_zh": "前方施工",
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": 0,
+							"upgradeDesc_zh": "可以携带3个<支援装置>(最多可部署2个)，效果根据技能改变而改变，首个装置部署费用减少；装置可与攻击范围内其他装置共同提供效果",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						},
+						{
+							"resKey": "nasti_equip_1_3_p2",
+							"target": "TALENT",
+							"isToken": false,
+							"name_zh": null,
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": 0,
+							"upgradeDesc_zh": "",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						},
+						{
+							"resKey": "nasti_equip_1_3_p3",
+							"target": "TALENT",
+							"isToken": false,
+							"name_zh": null,
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": -1,
+							"upgradeDesc_zh": "",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						}
+					],
+					"attributeBlackboard": [
+						{
+							"key": "max_hp",
+							"value": 145.0
+						},
+						{
+							"key": "atk",
+							"value": 40.0
+						},
+						{
+							"key": "def",
+							"value": 45.0
+						}
+					],
+					"tokenAttributeBlackboard": {
+						"token_10059_nasti_nstdef": [
+							{
+								"key": "cost",
+								"value": -2.0
+							},
+							{
+								"key": "max_deck_stack_cnt",
+								"value": 1.0
+							}
+						],
+						"token_10060_nasti_nstchr": [
+							{
+								"key": "cost",
+								"value": -2.0
+							},
+							{
+								"key": "max_deck_stack_cnt",
+								"value": 1.0
+							}
+						],
+						"token_10061_nasti_nstbld": [
+							{
+								"key": "cost",
+								"value": -3.0
+							},
+							{
+								"key": "max_deck_stack_cnt",
+								"value": 1.0
+							}
+						]
+					}
+				}
+			],
+			"tags": [],
+			"blackboard": [
+			]
+		}
+	},
+	"uniequip_003_ray": {
+		"uniEquipId": "uniequip_003_ray",
+		"name_zh": "证明什么？",
+		"name_ja": "",
+		"name_en": "",
+		"typeIcon": "hun-y",
+		"charId": "char_4117_ray",
+		"combatData": {
+			"phases": [
+				{
+					"parts": [
+						{
+							"resKey": null,
+							"target": "TRAIT_DATA_ONLY",
+							"isToken": false,
+							"addDesc_zh": null,
+							"addDesc_ja": "",
+							"addDesc_en": "",
+							"overrideDesc_zh": "攻击时需要消耗子弹且攻击力提升至<@ba.kw>133%</>，不攻击时会缓慢地装填子弹（最多8发）",
+							"overrideDesc_ja": "",
+							"overrideDesc_en": ""
+						}
+					],
+					"attributeBlackboard": [
+						{
+							"key": "max_hp",
+							"value": 100.0
+						},
+						{
+							"key": "atk",
+							"value": 60.0
+						},
+						{
+							"key": "attack_speed",
+							"value": 5.0
+						}
+					],
+					"tokenAttributeBlackboard": {}
+				},
+				{
+					"parts": [
+						{
+							"resKey": null,
+							"target": "TRAIT_DATA_ONLY",
+							"isToken": false,
+							"addDesc_zh": null,
+							"addDesc_ja": "",
+							"addDesc_en": "",
+							"overrideDesc_zh": "攻击时需要消耗子弹且攻击力提升至<@ba.kw>133%</>，不攻击时会缓慢地装填子弹（最多8发）",
+							"overrideDesc_ja": "",
+							"overrideDesc_en": ""
+						},
+						{
+							"resKey": null,
+							"target": "TALENT_DATA_ONLY",
+							"isToken": false,
+							"name_zh": "入神",
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": 1,
+							"upgradeDesc_zh": "攻击相同目标时每次攻击提高自身攻击力9%<@ba.talpu>（+1%）</>，最多4层",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						}
+					],
+					"attributeBlackboard": [
+						{
+							"key": "max_hp",
+							"value": 160.0
+						},
+						{
+							"key": "atk",
+							"value": 65.0
+						},
+						{
+							"key": "attack_speed",
+							"value": 6.0
+						}
+					],
+					"tokenAttributeBlackboard": {}
+				},
+				{
+					"parts": [
+						{
+							"resKey": null,
+							"target": "TRAIT_DATA_ONLY",
+							"isToken": false,
+							"addDesc_zh": null,
+							"addDesc_ja": "",
+							"addDesc_en": "",
+							"overrideDesc_zh": "攻击时需要消耗子弹且攻击力提升至<@ba.kw>133%</>，不攻击时会缓慢地装填子弹（最多8发）",
+							"overrideDesc_ja": "",
+							"overrideDesc_en": ""
+						},
+						{
+							"resKey": null,
+							"target": "TALENT_DATA_ONLY",
+							"isToken": false,
+							"name_zh": "入神",
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": 1,
+							"upgradeDesc_zh": "攻击相同目标时每次攻击提高自身攻击力10%<@ba.talpu>（+1%）</>，最多4层",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						}
+					],
+					"attributeBlackboard": [
+						{
+							"key": "max_hp",
+							"value": 200.0
+						},
+						{
+							"key": "atk",
+							"value": 75.0
+						},
+						{
+							"key": "attack_speed",
+							"value": 7.0
+						}
+					],
+					"tokenAttributeBlackboard": {}
+				}
+			],
+			"tags": [],
+			"blackboard": [
+			]
 		}
 	}
 }
