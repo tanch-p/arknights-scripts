@@ -105,6 +105,8 @@ for id in tokens_list:
                     continue
                 max_candidate_index = len(talent['candidates'])-1
                 maxed_talent = talent['candidates'][max_candidate_index]
+                if maxed_talent["description"] is None:
+                    continue
                 talent_holder = {
                     "prefabKey": maxed_talent["prefabKey"], "name_zh": maxed_talent["name"], "name_en": "", "name_ja": "",
                     "desc_zh": replace_substrings(maxed_talent["description"], maxed_talent['blackboard']),
