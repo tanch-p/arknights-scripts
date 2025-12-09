@@ -13497,11 +13497,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "先付费，再告解·VI",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Pay-Per-Confession VI",
+                "name_ja": "告解は先払いにて・VI",
                 "desc_zh": "首次阻挡敌人时立即获得4点部署费用，并使该敌人<ba.sleep>沉睡</>8秒",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "初めて敵をブロックしたとき所持コスト+4、さらにその敵を8秒間<ba.sleep>睡眠</>させる",
+                "desc_en": "The first time blocking an enemy, gains 4 DP and puts the blocked enemy to <ba.sleep>Sleep</> for 8s",
                 "tags": [],
                 "blackboard": [
                     {
@@ -13520,11 +13520,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "趁势怜悯",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Opportune Mercy",
+                "name_ja": "機に乗じた哀れみ",
                 "desc_zh": "攻击力+13%<@ba.talpu>（+3%）</>，击倒过处于<ba.dt.neural2>神经损伤</>爆发期间的敌人后改为攻击力+18%<@ba.talpu>（+3%）</>",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "攻撃力+13%<@ba.talpu>（+3%）</>。<ba.dt.neural2>神経損傷</>の爆発効果中の敵を撃破すると攻撃力上昇効果が+18%<@ba.talpu>（+3%）</>になる",
+                "desc_en": "ATK +13% <@ba.talpu>(+3%)</>, which becomes ATK +18% <@ba.talpu>(+3%)</> after defeating an enemy under the burst effect of <ba.dt.neural2>Nervous Impairment</>",
                 "tags": [],
                 "blackboard": []
             }
@@ -13536,11 +13536,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "跨境追缉许可",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Diploma Persecutionis Internationalis",
+                "name_ja": "越境追跡許可",
                 "desc_zh": "精英或领袖敌人在拉特兰干员的攻击范围内停留超过6<@ba.talpu>（-2）</>秒后被通缉，受到拉特兰干员的攻击时伤害提升18%<@ba.talpu>（+3%）</>，蕾缪安可以攻击到所有被通缉的目标",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "味方【ラテラーノ】の攻撃範囲内に敵【エリート】・【ボス】が6<@ba.talpu>（-2）</>秒滞在すると指名手配され、味方【ラテラーノ】からの被ダメージ+18%<@ba.talpu>（+3%）</>。レミュアンは攻撃範囲外にいる指名手配中の対象にも攻撃可能",
+                "desc_en": "Elite or leader enemies who are within a Laterano Operator's Attack Range for more than 6 <@ba.talpu>(-2)</> seconds become Wanted, taking 18% <@ba.talpu>(+3%)</> more damage from Laterano Operators; Lemuen can attack all Wanted enemies",
                 "tags": [
                     "laterano",
                     "global_range"
@@ -13550,11 +13550,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "逃犯引渡手续",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Modus Extraditio Fugitivi",
+                "name_ja": "逃走犯引き渡し手続き",
                 "desc_zh": "在场20秒后，攻击力+10%，自身弹药类技能弹药上限+1",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "配置から20秒後、攻撃力+10%、自身の弾薬消費系スキルの弾薬上限数+1",
+                "desc_en": "After being deployed for 20 seconds, ATK +10% and Lemuen's ammo-type skills have +1 Ammo capacity",
                 "tags": [],
                 "blackboard": [
                     {
@@ -13571,11 +13571,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "火力电台",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Firepower FM",
+                "name_ja": "火力放送局",
                 "desc_zh": "在场时，每当有友方干员的弹药被消耗就会回复自身6%生命值，并有25%概率立即对该干员攻击范围的敌人召唤一次轰炸，造成相当于自身攻击力165%<@ba.talpu>（+15%）</>的物理溅射伤害",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "配置中、味方オペレーターの弾薬が消費されるたびに自身のHPが最大値の6%回復し、25%の確率で対象オペレーターの攻撃範囲内の敵に対して、自身の攻撃力の165%<@ba.talpu>（+15%）</>の物理範囲ダメージを与える爆撃を1回行う",
+                "desc_en": "When deployed, recovers 6% HP whenever an allied Operator consumes ammo; in addition, there is a 25% chance to bombard the enemies within that Operator's Attack Range, dealing 165% <@ba.talpu>(+15%)</> of Exusiai the New Covenant's ATK as Physical splash damage",
                 "tags": [
                     "heal_self"
                 ],
@@ -13584,11 +13584,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "铳弹协约",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Covenant of Bullets",
+                "name_ja": "銃弾協約",
                 "desc_zh": "在场时，携带弹药类技能的干员攻击力+13%<@ba.talpu>（+4%）</>，对【拉特兰】干员的效果翻倍",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "配置中、弾薬消費系スキルを持つオペレーターの攻撃力+13%<@ba.talpu>（+4%）</>。味方【ラテラーノ】に対する効果値は倍増",
+                "desc_en": "When deployed, Operators with ammo-type skills gain ATK +13% <@ba.talpu>(+4%)</>; effect is doubled for [Laterano] Operators",
                 "tags": [
                     "laterano"
                 ],
@@ -13618,11 +13618,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "扫射迎宾仪礼",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Machine-Gun Welcome Ceremony",
+                "name_ja": "歓迎の儀・掃射",
                 "desc_zh": "每次造成伤害使自身10秒内防御力+30，攻击速度+3，最多可叠加3层",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "ダメージを与えるたびに10秒間自身の防御力+30、攻撃速度+3（最大3回まで重複可能）",
+                "desc_en": "Whenever Sankta Miksaparato deals damage, he gains DEF +30 and ASPD +3 for 10 seconds, stacking up to 3 times",
                 "tags": [],
                 "blackboard": [
                     {
@@ -13638,11 +13638,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "架盾送客仪礼",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Shield-Up Farewell Ceremony",
+                "name_ja": "見送りの儀・盾を構えて",
                 "desc_zh": "若8秒内未主动攻击，获得相当于生命上限18%<@ba.talpu>（+3%）</>的<ba.barrier>屏障</>，失去屏障后重新计时",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "8秒間通常攻撃せずにいると、最大HPの18%<@ba.talpu>（+3%）</>までの被ダメージを吸収可能な<ba.barrier>バリア</>を獲得（バリア再獲得までの時間はバリアを失った時点から再度カウントされる）",
+                "desc_en": "When Sankta Miksaparato has not attacked for 8 seconds, he gains a <ba.barrier>Barrier</> equal to 18% <@ba.talpu>(+3%)</> Max HP; this timer restarts once the Barrier is lost",
                 "tags": [
                     "barrier"
                 ],
@@ -13661,11 +13661,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "诱人美馔",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Captivating Delicacy",
+                "name_ja": "魅惑のご馳走",
                 "desc_zh": "攻击范围内的敌人触发<ba.palsy>麻痹</>时立即受到相当于攻击力130%<@ba.talpu>（+10%）</>的元素伤害",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "攻撃範囲内の敵に<ba.palsy>麻痺</>の効果が発動した際、攻撃力の130%<@ba.talpu>（+10%）</>の元素ダメージを与える",
+                "desc_en": "Enemies within Attack Range take 130% <@ba.talpu>(+10%)</> of ATK as Elemental damage when they trigger <ba.palsy>Paralysis</>",
                 "tags": [
                     "ele_dmg"
                 ],
@@ -13679,11 +13679,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "片场工作指南",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Film Set Operational Manual",
+                "name_ja": "撮影現場作業マニュアル",
                 "desc_zh": "若最近8<@ba.talpu>（-1）</>秒内未受攻击，闪避下一次物理或法术攻击",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "8<@ba.talpu>（-1）</>秒間攻撃を受けずにいると、次に受ける物理・術のダメージを回避",
+                "desc_en": "If not attacked for 8 <@ba.talpu>(-1)</> seconds, dodge the next Physical or Arts attack",
                 "tags": [],
                 "blackboard": [
                     {
@@ -13707,11 +13707,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "形为心役",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Mind Over Matter",
+                "name_ja": "形は心に役する",
                 "desc_zh": "攻击附带相当于攻击力33%<@ba.talpu>（+3%）</>的<ba.dt.neural2>神经损伤</>，并对目标周围其他敌人造成一次相当于攻击力23%<@ba.talpu>（+3%）</>的<ba.dt.neural2>神经损伤</>",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "攻撃時、対象に追加で攻撃力の33%<@ba.talpu>（+3%）</>の<ba.dt.neural2>神経損傷</>を与え、対象の周囲にいる他の敵に自身の攻撃力の23%<@ba.talpu>（+3%）</>の<ba.dt.neural2>神経損傷</>を与える",
+                "desc_en": "Attacks deal an additional 33% <@ba.talpu>(+3%)</> of ATK as <ba.dt.neural2>Nervous Impairment</>, and deal 23% <@ba.talpu>(+3%)</> of ATK as <ba.dt.neural2>Nervous Impairment</> to enemies around the target",
                 "tags": [
                     "neural",
                     "ele_dmg"
@@ -13731,11 +13731,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "堕梦",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Descend into Dream",
+                "name_ja": "夢に堕ちる",
                 "desc_zh": "在场时，全场处于<ba.dt.neural2>神经损伤</>爆发期间的敌人攻击速度-16<@ba.talpu>（+4）</>；攻击范围内的敌人普通攻击时受到70点<ba.dt.neural2>神经损伤</>",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "配置中、<ba.dt.neural2>神経損傷</>爆発効果中の敵全員の攻撃速度-16<@ba.talpu>（-4）</>。攻撃範囲内の敵が通常攻撃を行うたびに、対象は70の<ba.dt.neural2>神経損傷</>を受ける",
+                "desc_en": "When deployed, all enemies on the field under the burst effect of <ba.dt.neural2>Nervous Impairment</> have ASPD -16 <@ba.talpu>(+4)</>; when enemies within Attack Range perform normal attacks, they take 70 points of <ba.dt.neural2>Nervous Impairment</>",
                 "tags": [
                     "neural",
                     "ele_dmg"
