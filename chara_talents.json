@@ -14639,13 +14639,10 @@
                 "desc_zh": "可以携带3个<支援装置>(最多可部署2个)，效果根据技能改变而改变",
                 "desc_ja": "",
                 "desc_en": "",
-                "tags": [],
-                "blackboard": [
-                    {
-                        "key": "cnt",
-                        "value": 3.0
-                    }
-                ]
+                "tags": [
+                    "summon"
+                ],
+                "blackboard": []
             },
             {
                 "prefabKey": "2",
