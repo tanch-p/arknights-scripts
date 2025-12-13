@@ -2,8 +2,6 @@ def get_sub_profession_tags(char, id):
     tags = []
     if char['subProfessionId'] == "stalker":
         tags.append("lower_target_priority")
-    if char['subProfessionId'] == "loopshooter":
-        tags.append("aspd_unrelated")
     if char['subProfessionId'] == "fastshot":
         tags.append("priority_flying")
     if char['subProfessionId'] == "longrange":
