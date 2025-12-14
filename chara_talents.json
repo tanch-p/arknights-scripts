@@ -8165,7 +8165,8 @@
                 "desc_en": "Enemies in range that are <ba.sluggish>Slowed</> are inflicted with 23% <@ba.talpu>(+3%)</> <ba.fragile>Fragile</> effect for an equivalent duration",
                 "tags": [
                     "fragile",
-                    "sluggish"
+                    "sluggish",
+                    "type_sluggish"
                 ],
                 "blackboard": [
                     {
