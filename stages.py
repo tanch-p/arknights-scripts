@@ -324,6 +324,9 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
                     overwrittenData["lifepoint"] = enemy[
                         "overwrittenData"
                     ]["lifePointReduce"]["m_value"]
+                else:
+                    if levelId == "level_rogue5_t-2" and enemy_id == "enemy_2034_sythef":
+                        overwrittenData["lifepoint"] = 1
                 if 'notCountInTotal' in enemy["overwrittenData"] and enemy["overwrittenData"]["notCountInTotal"]["m_defined"] and enemy["overwrittenData"]["notCountInTotal"]["m_value"]:
                     if my_enemy_db[enemy_id]['notCountInTotal'] is False:
                         overwrittenData['notCountInTotal'] = True
