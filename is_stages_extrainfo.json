@@ -10313,7 +10313,7 @@
 		],
 		"addInfo_ja": [
 			"吹雪 - 発生時間：第１ウェーブ - 15s（継40s)，63s（継45s），第2ウェーブ - 2s（継600s）",
-			"効果：10秒毎に敵味方全体に5秒間の寒冷を与える"
+			"効果：10秒ごとに敵味方全体に5秒間の寒冷を与える"
 		],
 		"addInfo_en": [
 			"Snowfall occurs during Wave 1 - at 15s for 40s，at 63s for 45s; Wave 2 - at 2s for 600s ",
@@ -13591,7 +13591,7 @@
 		],
 		"eliteDesc_ja": [
 			"敵全員の防御力、最大HP+30%",
-			"追加の＜R-31大型パワードスーツ＞が出現する",
+			"追加の<R-31大型パワードスーツ>が出現する",
 			"<Dor-1号失敗作>3体が<Dor-3号改造体>2体に替わる"
 		],
 		"eliteDesc_en": [
@@ -24514,15 +24514,25 @@
 		"category": null,
 		"floors": [1, 2],
 		"addInfo_zh": ["普通作战 - “留声机”所需技力增加至150"],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": ["通常作戦 - 「L-44『蓄音機』」の必要SPが150に増加"],
+		"addInfo_en": [
+			"Normal - <Gramophones> skill activation SP cost increased to 150"
+		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力，生命值+20%",
 			"高普尼克的额外攻击力提升至120%，生命值提升至200%",
 			"“留声机”所需技力增加至200"
 		],
-		"eliteDesc_ja": null,
-		"eliteDesc_en": null,
+		"eliteDesc_ja": [
+			"敵全員の最大HP・攻撃力+20%",
+			"<ゴプニク>の最大HPさらに+100%、攻撃力+20%",
+			"「L-44『蓄音機』」の必要SPが200に増加"
+		],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK and +20% Max HP",
+			"<Gopnik> has additional +20% ATK and +100% Max HP",
+			"<Gramophones> skill activation SP cost increased to 200"
+		],
 		"all_mods": null,
 		"normal_mods": [
 			{
@@ -24633,8 +24643,12 @@
 		"addInfo_ja": null,
 		"addInfo_en": null,
 		"eliteDesc_zh": ["流泪小子生命值提升至150%，攻击能使我方单位晕眩8s"],
-		"eliteDesc_ja": null,
-		"eliteDesc_en": null,
+		"eliteDesc_ja": [
+			"<涙目の坊や>の最大HPが150%に増加、通常攻撃で8秒間スタンさせる"
+		],
+		"eliteDesc_en": [
+			"<Crying Thief> has +50% Max HP, attack's stun duration increased to 8s"
+		],
 		"all_mods": null,
 		"normal_mods": null,
 		"elite_mods": [],
@@ -24701,8 +24715,14 @@
 			"所有敌方单位的攻击力+20%，生命值+50%",
 			"额外出现1个高普尼克"
 		],
-		"eliteDesc_ja": null,
-		"eliteDesc_en": null,
+		"eliteDesc_ja": [
+			"敵全員の最大HP+50%、攻撃力+20%",
+			"追加で<ゴプニク>1体が出現"
+		],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK and +50% Max HP",
+			"Additional 1 <Gopnik> appears"
+		],
 		"all_mods": null,
 		"normal_mods": null,
 		"elite_mods": [
@@ -24804,8 +24824,16 @@
 			"出现更多敌人",
 			"所有角色型单位基础再部署时间提升至150%"
 		],
-		"eliteDesc_ja": null,
-		"eliteDesc_en": null,
+		"eliteDesc_ja": [
+			"敵全員の最大HP・攻撃力+10%",
+			"敵がたくさん追加される",
+			"味方全員の再配置時間+50%"
+		],
+		"eliteDesc_en": [
+			"All enemy units have +10% ATK and +10% Max HP",
+			"Additional many enemies appear",
+			"All operators have redeployment time increased by 50%"
+		],
 		"all_mods": null,
 		"normal_mods": null,
 		"elite_mods": [
@@ -24946,8 +24974,14 @@
 			"所有敌方单位的攻击力+20%，生命值+50%",
 			"所有“废食”的初始位置以废弃火灶为中心各向内移动1格 "
 		],
-		"eliteDesc_ja": null,
-		"eliteDesc_en": null,
+		"eliteDesc_ja": [
+			"敵全員の最大HP+50%、攻撃力+20%",
+			"初期配置の<「廃食」>配置位置が戦場中央寄りに変更"
+		],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK and +50% Max HP",
+			"All <'Fasting'> are positioned closer to the center by 1 tile"
+		],
 		"all_mods": null,
 		"normal_mods": null,
 		"elite_mods": [
@@ -25098,10 +25132,18 @@
 		"addInfo_en": null,
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力+20%，防御力+20%，生命值+50%",
-			"战斗开始时额外出现6个暴走食虫花"
+			"战斗开始时额外出现6个暴走食虫花",
+			"中心的不可部署格刷新怪葫芦"
 		],
-		"eliteDesc_ja": null,
-		"eliteDesc_en": null,
+		"eliteDesc_ja": [
+			"敵全員の最大HP+50%、攻撃力・防御力+20%",
+			"<暴走食虫花>6体が初期配置される",
+			"戦場中央に<奇妙なひょうたん>が出現"
+		],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% DEF and +50% Max HP",
+			"Additional 6 <Raging Slug Eater> appears at the start"
+		],
 		"all_mods": null,
 		"normal_mods": null,
 		"elite_mods": [
@@ -25172,8 +25214,14 @@
 			"所有敌方单位的攻击力，防御力，生命值+10%",
 			"战斗开始时额外部署8个桑特拉"
 		],
-		"eliteDesc_ja": null,
-		"eliteDesc_en": null,
+		"eliteDesc_ja": [
+			"敵全員の最大HP・攻撃力・防御力+10%",
+			"「サントラ」8体が追加で初期配置される"
+		],
+		"eliteDesc_en": [
+			"All enemy units have +10% ATK, +10% DEF and +10% Max HP",
+			"Additional 8 <Center> appear at the start"
+		],
 		"all_mods": null,
 		"normal_mods": null,
 		"elite_mods": [
@@ -25593,13 +25641,15 @@
 		"category": null,
 		"floors": [4, 5],
 		"addInfo_zh": ["每个掉进坑的敌人获得3源石锭"],
-		"addInfo_ja": ["穴に落ちた敵1体につき源石錐3個を獲得"],
+		"addInfo_ja": [
+			"敵を落とし穴に落下させると、1体ごとにステージ報酬の源石錐+3"
+		],
 		"addInfo_en": [
 			"Receive 3 Originium Ingots for every enemy fallen into Hole"
 		],
 		"eliteDesc_zh": ["所有敌方单位的攻击力+50%，生命值+100%"],
-		"eliteDesc_ja": null,
-		"eliteDesc_en": null,
+		"eliteDesc_ja": ["敵全員の最大HP+100%、攻撃力+50%"],
+		"eliteDesc_en": ["All enemy units have +50% ATK and +100% Max HP"],
 		"all_mods": null,
 		"normal_mods": null,
 		"elite_mods": [
@@ -27814,8 +27864,8 @@
 		"category": null,
 		"floors": [3, 4, 5],
 		"addInfo_zh": ["雕伥每8s召唤一个恍惚的“得意”"],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": ["彫鬼は8秒ごとに<恍惚の「オニビ」>一体を召喚する"],
+		"addInfo_en": ["Statuegeist summons 1 <Dazzled 'Smarty'> every 8s"],
 		"eliteDesc_zh": null,
 		"eliteDesc_ja": null,
 		"eliteDesc_en": null,
@@ -27887,8 +27937,8 @@
 		"category": null,
 		"floors": [3, 4, 5],
 		"addInfo_zh": ["雕伥每25s召唤一个魂灵涡流"],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": ["彫鬼は25秒ごとに<ソウルボルテックス>一体を召喚する"],
+		"addInfo_en": ["Statuegeist summons 1 Soul Maelstrom every 25s"],
 		"eliteDesc_zh": null,
 		"eliteDesc_ja": null,
 		"eliteDesc_en": null,
@@ -28575,8 +28625,8 @@
 		"category": null,
 		"floors": [3, 4, 5],
 		"addInfo_zh": ["雕伥每20s召唤一个无谓"],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": ["彫鬼は20秒ごとに<無謂>一体を召喚する"],
+		"addInfo_en": ["Statuegeist summons 1 Vapidity every 20s"],
 		"eliteDesc_zh": null,
 		"eliteDesc_ja": null,
 		"eliteDesc_en": null,
@@ -28659,8 +28709,8 @@
 		"category": null,
 		"floors": [3, 4, 5],
 		"addInfo_zh": ["雕伥每20s召唤一个魂灵涡流"],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": ["彫鬼は20秒ごとに<ソウルボルテックス>一体を召喚する"],
+		"addInfo_en": ["Statuegeist summons 1 Soul Maelstrom every 20s"],
 		"eliteDesc_zh": null,
 		"eliteDesc_ja": null,
 		"eliteDesc_en": null,
@@ -28746,14 +28796,26 @@
 			"【鸭爵金币】固定出现<鸭爵>，且提早出现",
 			"雕伥每10s召唤一个便符"
 		],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": [
+			"【鴨爵の金幣】隠し敵がダック卿に固定され、出現が早くなる",
+			"彫鬼は10秒ごとに便符一体を召喚する"
+		],
+		"addInfo_en": [
+			"Duck Coin - bonus enemy fixed to summon Duck Lord, and appears earlier",
+			"Statuegeist summons 1 Talisman every 10s"
+		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力+10%，生命值+20%",
 			"额外出现2个田鼷力士"
 		],
-		"eliteDesc_ja": null,
-		"eliteDesc_en": null,
+		"eliteDesc_ja": [
+			"敵全員の最大HP+20%、攻撃力+10%",
+			"追加で<剛力田鼷>2体が出現"
+		],
+		"eliteDesc_en": [
+			"All enemy units have +10% ATK and +30% Max HP",
+			"Additional 2 <Fieldmus Bruiser> appears"
+		],
 		"all_mods": [
 			{
 				"targets": ["trap_222_rgdysm#1"],
@@ -28833,15 +28895,27 @@
 		"category": null,
 		"floors": [1],
 		"addInfo_zh": ["【鸭爵金币】固定出现<流泪小子>，且提早出现"],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": [
+			"【鴨爵の金幣】隠し敵が<涙目の坊や>に固定され、出現が早くなる"
+		],
+		"addInfo_en": [
+			"Duck Coin - bonus enemy fixed to summon Crying Thief, and appears earlier"
+		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力+10%，防御力+20%，生命值+50%",
 			"2个速射轻弩手被替换为重弩突袭者",
 			"战斗开始时额外出现1个雕伥，每30s召唤一个速射轻弩手"
 		],
-		"eliteDesc_ja": null,
-		"eliteDesc_en": null,
+		"eliteDesc_ja": [
+			"敵全員の最大HP+50%、攻撃力+10%、防御力+20%",
+			"<軽型クロスボウ速射手>のうち2体が<重型クロスボウ強襲者>に変化",
+			"敵出現地点の間に「彫鬼」が出現、30秒ごとに<軽型クロスボウ速射手>を召喚する"
+		],
+		"eliteDesc_en": [
+			"All enemy units have +10% ATK, +20% DEF and +50% Max HP",
+			"2 <Light Rapid Crossbowman> is replaced with <Heavy Crossbowman Ambusher>",
+			"Additional 1 Statuegeist appears and summons 1 <Light Rapid Crossbowman> every 30s"
+		],
 		"all_mods": [
 			{
 				"targets": ["trap_222_rgdysm#1"],
@@ -28937,14 +29011,26 @@
 			"【鸭爵金币】固定出现<高普尼克>，且提早出现",
 			"雕伥每25s召唤一个源石虫·β"
 		],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": [
+			"【鴨爵の金幣】隠し敵が<ゴプニク>に固定され、出現が早くなる",
+			"彫鬼は25秒ごとに<オリジムシβ>一体を召喚する"
+		],
+		"addInfo_en": [
+			"Duck Coin - bonus enemy fixed to summon Gopnik, and appears earlier",
+			"Statuegeist summons 1 Originium Slug β every 20s"
+		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力+10%，生命值+50%",
 			"大鲍勃的生命值额外提升至120%，路线待机时间减半"
 		],
-		"eliteDesc_ja": null,
-		"eliteDesc_en": null,
+		"eliteDesc_ja": [
+			"敵全員の最大HP+50%、攻撃力+10%",
+			"<Big Bob>の最大HPさらに+20%、侵攻ルート待機時間半減"
+		],
+		"eliteDesc_en": [
+			"All enemy units have +10% ATK and +50% Max HP",
+			"<Big Bob> has additional +20% Max HP, movement route's waiting time halved"
+		],
 		"all_mods": [
 			{
 				"targets": ["trap_222_rgdysm#1"],
@@ -29044,15 +29130,27 @@
 		"category": null,
 		"floors": [1],
 		"addInfo_zh": ["【鸭爵金币】固定出现<圆仔>，且提早出现"],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": [
+			"【鴨爵の金幣】隠し敵が<マルッコ>に固定され、出現が早くなる"
+		],
+		"addInfo_en": [
+			"Duck Coin - bonus enemy fixed to summon Fatty, and appears earlier"
+		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力+10%，生命值+20%",
 			"战斗开始时额外出现1个雕伥，每25s召唤一个“阿咬”",
 			"战斗开始时2个“阿咬”被替换为皮书生"
 		],
-		"eliteDesc_ja": null,
-		"eliteDesc_en": null,
+		"eliteDesc_ja": [
+			"敵全員の最大HP+20%、攻撃力+10%",
+			"防衛ライン左に「彫鬼」が出現、25秒ごとに<「クヒツム」>を召喚する",
+			"初期配置の<「クヒツム」>2体が<皮書生>に変化"
+		],
+		"eliteDesc_en": [
+			"All enemy units have +10% ATK and +20% Max HP",
+			"Additional 1 Statuegeist appears and summons 1 <'Bitey'> every 25s",
+			"2 <'Bitey'> at the start are replaced with <Shadow Scholar>"
+		],
 		"all_mods": [
 			{
 				"targets": ["trap_222_rgdysm#1"],
@@ -29145,15 +29243,25 @@
 		"category": null,
 		"floors": [2],
 		"addInfo_zh": ["【鸭爵金币】固定出现<鸭爵>，且提早出现"],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": ["【鴨爵の金幣】隠し敵がダック卿に固定され、出現が早くなる"],
+		"addInfo_en": [
+			"Duck Coin - bonus enemy fixed to summon Duck Lord, and appears earlier"
+		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力，防御力+20%，生命值+50%",
 			"战斗开始时额外出现1个雕伥，每15s召唤一个便符",
 			"战斗开始时左下额外出现一个靳天师"
 		],
-		"eliteDesc_ja": null,
-		"eliteDesc_en": null,
+		"eliteDesc_ja": [
+			"敵全員の最大HP+50%、攻撃力・防御力+20%",
+			"戦場左下に<靳天師>1体が初期配置",
+			"敵出現地点右下に「彫鬼」が出現、15秒ごとに<便符>を召喚する"
+		],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% DEF and +50% Max HP",
+			"Additional 1 <Mirror Tianshi> appears at the start",
+			"Additional 1 Statuegeist appears and summons 1 <Talisman> every 15s"
+		],
 		"all_mods": null,
 		"normal_mods": null,
 		"elite_mods": [
@@ -29241,14 +29349,26 @@
 			"【鸭爵金币】固定出现<圆仔>，且提早出现",
 			"雕伥每15s召唤一个鬣犄兽"
 		],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": [
+			"【鴨爵の金幣】隠し敵が<マルッコ>に固定され、出現が早くなる",
+			"彫鬼は15秒ごとに<タテガミツキ>一体を召喚する"
+		],
+		"addInfo_en": [
+			"Duck Coin - bonus enemy fixed to summon Fatty, and appears earlier",
+			"Statuegeist summons 1 Oxmane every 15s"
+		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力，防御力，生命值+20%",
 			"战斗开始时额外出现1个雕伥，每30s召唤一个鬣犄兽"
 		],
-		"eliteDesc_ja": null,
-		"eliteDesc_en": null,
+		"eliteDesc_ja": [
+			"敵全員の最大HP・攻撃力・防御力+20%",
+			"初期配置の「彫鬼」右上に彫鬼が追加で出現、30秒ごとに<タテガミツキ>を召喚する"
+		],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% DEF and +20% Max HP",
+			"Additional 1 Statuegeist appears and summons 1 <Oxmane> every 30s"
+		],
 		"all_mods": [
 			{
 				"targets": ["trap_222_rgdysm#2"],
@@ -29355,14 +29475,24 @@
 		"category": null,
 		"floors": [2],
 		"addInfo_zh": ["【鸭爵金币】固定出现<高普尼克>，且提早出现"],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": [
+			"【鴨爵の金幣】隠し敵が<ゴプニク>に固定され、出現が早くなる"
+		],
+		"addInfo_en": [
+			"Duck Coin - bonus enemy fixed to summon Gopnik, and appears earlier"
+		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力，生命值+20%",
 			"一个平剑客被替换为泥岩巨像"
 		],
-		"eliteDesc_ja": null,
-		"eliteDesc_en": null,
+		"eliteDesc_ja": [
+			"敵全員の最大HP・攻撃力+20%",
+			"<平剣客>1体が<マドロックの巨像>に変化"
+		],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK and +20% Max HP",
+			"1 <Bottle Swordsman> is replaced with <Mudrock Colossus>"
+		],
 		"all_mods": null,
 		"normal_mods": null,
 		"elite_mods": [
@@ -29450,15 +29580,25 @@
 		"category": null,
 		"floors": [2],
 		"addInfo_zh": ["【鸭爵金币】固定出现<流泪小子>，且提早出现"],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": [
+			"【鴨爵の金幣】隠し敵が<涙目の坊や>に固定され、出現が早くなる"
+		],
+		"addInfo_en": [
+			"Duck Coin - bonus enemy fixed to summon Crying Thief, and appears earlier"
+		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力，防御力，生命值+20%",
 			"血腥厨子路线发生变化",
 			"战斗开始时额外出现1个雕伥，每15s召唤一个寻险水手"
 		],
-		"eliteDesc_ja": null,
-		"eliteDesc_en": null,
+		"eliteDesc_ja": [
+			"敵全員の最大HP・攻撃力・防御力+20%",
+			"戦場右上または左下に「彫鬼」が出現、15秒ごとに<冒険水夫>を召喚する"
+		],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% DEF and +20% Max HP",
+			"Additional 1 Statuegeist appears and summons 1 <Risk-seeking Sailor> every 15s"
+		],
 		"all_mods": [
 			{
 				"targets": ["trap_222_rgdysm#1"],
@@ -29546,14 +29686,21 @@
 		"category": null,
 		"floors": [3],
 		"addInfo_zh": ["【鸭爵金币】固定出现<高普尼克>，且提早出现"],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": [
+			"【鴨爵の金幣】隠し敵が<ゴプニク>に固定され、出現が早くなる"
+		],
+		"addInfo_en": [
+			"Duck Coin - bonus enemy fixed to summon Gopnik, and appears earlier"
+		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力+20%，防御力+20%，生命值+20%，移动速度+50%",
 			"战斗开始时额外出现1个雕伥，每50s召唤一个$似兽$"
 		],
-		"eliteDesc_ja": null,
-		"eliteDesc_en": null,
+		"eliteDesc_ja": [
+			"敵全員の最大HP・攻撃力・防御力+20%、移動速度+50%",
+			"戦場中央に「彫鬼」が出現、50秒ごとに<似獣>を召喚する"
+		],
+		"eliteDesc_en": ["All enemy units have +20% ATK, +20% DEF, +20% Max HP and +50% Movespeed","Additional 1 Statuegeist appears and summons 1 <Pseudomut> every 50s"],
 		"all_mods": [
 			{
 				"targets": ["trap_222_rgdysm#1"],
@@ -29649,14 +29796,21 @@
 			"【鸭爵金币】固定出现<圆仔>，且提早出现",
 			"雕伥每30s召唤一个角兽"
 		],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": [
+			"【鴨爵の金幣】隠し敵が<マルッコ>に固定され、出現が早くなる","彫鬼は30秒ごとに<ツノシゲミ>一体を召喚する"
+		],
+		"addInfo_en": [
+			"Duck Coin - bonus enemy fixed to summon Fatty, and appears earlier","Statuegeist summons 1 Hornbeast every 30s"
+		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力+20%，生命值+50%",
 			"凶豕兽被替换为狂暴凶豕兽"
 		],
-		"eliteDesc_ja": null,
-		"eliteDesc_en": null,
+		"eliteDesc_ja": [
+			"敵全員の最大HP+50%、攻撃力+20%",
+			"すべての<キバタケリ>が<猛進キバタケリ>に変化"
+		],
+		"eliteDesc_en": ["All enemy units have +20% ATK and +50% Max HP","All <Direswine> is replaced with <Raging Direswine>"],
 		"all_mods": [
 			{
 				"targets": ["trap_222_rgdysm#1"],
@@ -29759,15 +29913,21 @@
 		"category": null,
 		"floors": [3],
 		"addInfo_zh": ["【鸭爵金币】固定出现<鸭爵>，且提早出现"],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": ["【鴨爵の金幣】隠し敵がダック卿に固定され、出現が早くなる"],
+		"addInfo_en": [
+			"Duck Coin - bonus enemy fixed to summon Duck Lord, and appears earlier"
+		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力，防御力+30%，生命值+60%",
 			"额外出现1个墨浪、1个心涛",
 			"战斗开始时额外出现1个雕伥，每15s召唤一个便符"
 		],
-		"eliteDesc_ja": null,
-		"eliteDesc_en": null,
+		"eliteDesc_ja": [
+			"敵全員の最大HP+60%、攻撃力・防御力+30%",
+			"追加で<墨浪>1体と<心涛>が出現",
+			"防衛ライン左下に「彫鬼」が出現、15秒ごとに<便符>を召喚する"
+		],
+		"eliteDesc_en": ["All enemy units have +30% ATK, +30% DEF and +60% Max HP","Additional 1 <Inkwave> and 1 <Heartbillow> appear","Additional 1 Statuegeist appears and summons 1 <Talisman> every 15s"],
 		"all_mods": null,
 		"normal_mods": null,
 		"elite_mods": [
@@ -29882,15 +30042,23 @@
 		"category": null,
 		"floors": [3],
 		"addInfo_zh": ["【鸭爵金币】固定出现<流泪小子>，且提早出现"],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": [
+			"【鴨爵の金幣】隠し敵が<涙目の坊や>に固定され、出現が早くなる"
+		],
+		"addInfo_en": [
+			"Duck Coin - bonus enemy fixed to summon Crying Thief, and appears earlier"
+		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力+40%，防御力+20%，生命值+40%",
 			"净浊之焰的攻击力额外提升至150%",
 			"战斗开始时额外出现1个雕伥，每15s召唤一个便符"
 		],
-		"eliteDesc_ja": null,
-		"eliteDesc_en": null,
+		"eliteDesc_ja": [
+			"敵全員の最大HP・攻撃力+40%、防御力+20%",
+			"<浄化の炎>の攻撃力さらに+50%",
+			"戦場最上部に「彫鬼」が出現、15秒ごとに<便符>を召喚する"
+		],
+		"eliteDesc_en": ["All enemy units have +40% ATK, +20% DEF and +40% Max HP","<Purifying Flames> have additional +50% ATK","Additional 1 Statuegeist appears and summons 1 <Talisman> every 15s"],
 		"all_mods": null,
 		"normal_mods": null,
 		"elite_mods": [
@@ -29995,15 +30163,23 @@
 		"category": null,
 		"floors": [3],
 		"addInfo_zh": ["【鸭爵金币】固定出现<圆仔>，且提早出现"],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": [
+			"【鴨爵の金幣】隠し敵が<マルッコ>に固定され、出現が早くなる"
+		],
+		"addInfo_en": [
+			"Duck Coin - bonus enemy fixed to summon Fatty, and appears earlier"
+		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力，防御力，生命值+20%",
 			"战斗开始时额外出现2个<盾与墙>",
 			"战斗开始时额外出现1个雕伥，每20s召唤一个卷心籽"
 		],
-		"eliteDesc_ja": null,
-		"eliteDesc_en": null,
+		"eliteDesc_ja": [
+			"敵全員の最大HP・攻撃力・防御力+20%",
+			"配置不可マスに「盾と壁」2つが出現",
+			"戦場左上の囲障の左に「彫鬼」が出現、20秒ごとに<バクダンダネ>を召喚する"
+		],
+		"eliteDesc_en": ["All enemy units have +20% ATK, +20% DEF and +20% Max HP","Additional 2 <Shield and Wall> appears","Additional 1 Statuegeist appears and summons 1 <Cabbage Seedling> every 20s"],
 		"all_mods": [
 			{
 				"targets": ["trap_222_rgdysm#1"],
@@ -30101,15 +30277,23 @@
 		"category": null,
 		"floors": [4],
 		"addInfo_zh": ["【鸭爵金币】固定出现<高普尼克>，且提早出现"],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": [
+			"【鴨爵の金幣】隠し敵が<ゴプニク>に固定され、出現が早くなる"
+		],
+		"addInfo_en": [
+			"Duck Coin - bonus enemy fixed to summon Gopnik, and appears earlier"
+		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力，防御力，生命值+20%",
 			"提亚卡乌勇士和提亚卡乌冠军的攻击力额外提升至150%",
 			"战斗开始时额外出现1个雕伥，每30s召唤一个提亚卡乌好战者"
 		],
-		"eliteDesc_ja": null,
-		"eliteDesc_en": null,
+		"eliteDesc_ja": [
+			"敵全員の最大HP・攻撃力・防御力+20%",
+			"<ティアカウ勇士>と<ティアカウチャンピオン>の攻撃力さらに+50%",
+			"都市防衛柵の間に「彫鬼」が出現、30秒ごとに<ティアカウ猛攻兵>を召喚する"
+		],
+		"eliteDesc_en": ["All enemy units have +20% ATK, +20% DEF and +20% Max HP","<Tiacauh Brave> and <Tiacauh Champion> have additional +50% ATK","Additional 1 Statuegeist appears and summons 1 <Tiacauh Fanatic> every 30s"],
 		"all_mods": [
 			{
 				"targets": ["trap_222_rgdysm#1"],
@@ -30247,15 +30431,23 @@
 		"category": null,
 		"floors": [4],
 		"addInfo_zh": ["【鸭爵金币】固定出现<圆仔>，且提早出现"],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": [
+			"【鴨爵の金幣】隠し敵が<マルッコ>に固定され、出現が早くなる"
+		],
+		"addInfo_en": [
+			"Duck Coin - bonus enemy fixed to summon Fatty, and appears earlier"
+		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力，防御力，生命值+40%",
 			"糖果车和节日零食车的攻击力和生命值额外提升至150%",
 			"战斗开始时额外出现1个雕伥，每15s召唤一个节日零食车"
 		],
-		"eliteDesc_ja": null,
-		"eliteDesc_en": null,
+		"eliteDesc_ja": [
+			"敵全員の最大HP・攻撃力・防御力+40%",
+			"<祝祭のおやつカート>の最大HPさらに+50%",
+			"戦場中央下段エリアに「彫鬼」が出現、15秒ごとに<祝祭のおやつカート>を召喚する"
+		],
+		"eliteDesc_en": ["All enemy units have +40% ATK, +40% DEF and +40% Max HP","<Carnevale Snack Cart> has additional +50% Max HP","Additional 1 Statuegeist appears and summons 1 <Carnevale Snack Cart> every 15s"],
 		"all_mods": [
 			{
 				"targets": ["trap_222_rgdysm#1"],
@@ -30401,15 +30593,25 @@
 			"【鸭爵金币】固定出现<流泪小子>，且提早出现",
 			"雕伥每20s召唤一个微核沉积者"
 		],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": [
+			"【鴨爵の金幣】隠し敵が<涙目の坊や>に固定され、出現が早くなる","彫鬼は20秒ごとに<小核のデポジッター>一体を召喚する"
+		],
+		"addInfo_en": [
+			"Duck Coin - bonus enemy fixed to summon Crying Thief, and appears earlier",
+			"Statuegeist summons 1 <Exocellular Depositor> every 20s"
+		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力，防御力，生命值+20%",
 			"微核沉积者的生命值额外提升至150%，雕伥的生命值额外提升至200%",
 			"复核洋流使者被替换为异光体洋流使者"
 		],
-		"eliteDesc_ja": null,
-		"eliteDesc_en": null,
+		"eliteDesc_ja": [
+			"敵全員の最大HP・攻撃力・防御力+20%",
+			"<小核のデポジッター>の最大HPさらに+50%",
+			"「彫鬼」の最大HPさらに+100%",
+			"すべての<複核のヘラルド>が<異光体ヘラルド>に変化"
+		],
+		"eliteDesc_en": ["All enemy units have +20% ATK, +20% DEF and +20% Max HP","All <Exocellular Depositor> have additional +50% Max HP","All <Statuegeist> have additional +100% Max HP","All <Multicellular Herald> are replaced with <Allotropic Herald>"],
 		"all_mods": [
 			{
 				"targets": ["trap_222_rgdysm#1"],
@@ -30554,15 +30756,21 @@
 		"category": null,
 		"floors": [4],
 		"addInfo_zh": ["【鸭爵金币】固定出现<鸭爵>，且提早出现"],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": ["【鴨爵の金幣】隠し敵がダック卿に固定され、出現が早くなる"],
+		"addInfo_en": [
+			"Duck Coin - bonus enemy fixed to summon Duck Lord, and appears earlier"
+		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力，防御力，生命值+30%",
 			"战斗开始时额外在地图左下出现一个爆炸追寻者",
 			"战斗开始时额外出现2个雕伥，每20s召唤一个便符"
 		],
-		"eliteDesc_ja": null,
-		"eliteDesc_en": null,
+		"eliteDesc_ja": [
+			"敵全員の最大HP・攻撃力・防御力+30%",
+			"<爆発探求者>1体が右側通路に初期配置",
+			"戦場下通路に「彫鬼」2つが出現、20秒ごとに<便符>を召喚する"
+		],
+		"eliteDesc_en": ["All enemy units have +30% ATK, +30% DEF and +30% Max HP","Additional 1 <Explosion Chaser> appears at the start","Additional 2 Statuegeist appears and summons 1 <Talisman> every 20s"],
 		"all_mods": [
 			{
 				"targets": ["trap_222_rgdysm"],
@@ -30680,15 +30888,23 @@
 		"category": null,
 		"floors": [4],
 		"addInfo_zh": ["【鸭爵金币】固定出现<高普尼克>，且提早出现"],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": [
+			"【鴨爵の金幣】隠し敵が<ゴプニク>に固定され、出現が早くなる"
+		],
+		"addInfo_en": [
+			"Duck Coin - bonus enemy fixed to summon Gopnik, and appears earlier"
+		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力+20%，防御力+20%，生命值+30%",
 			"清明和堂皇的生命值额外提升至200%",
 			"战斗开始时额外出现2个雕伥，每15s召唤一个便符"
 		],
-		"eliteDesc_ja": null,
-		"eliteDesc_en": null,
+		"eliteDesc_ja": [
+			"敵全員の最大HP+30%、攻撃力・防御力+20%",
+			"<清明>と<堂皇>の最大HPさらに+100%",
+			"戦場左エリアに「彫鬼」2つが出現、15秒ごとに<便符>を召喚する"
+		],
+		"eliteDesc_en": ["All enemy units have +20% ATK, +20% DEF and +30% Max HP","All <Clarity> and <Magnificence> havev additional +100% Max HP","Additional 2 Statuegeist appears and summons 1 <Talisman> every 15s"],
 		"all_mods": [
 			{
 				"targets": ["trap_097_hstone"],
@@ -30844,15 +31060,23 @@
 		"category": null,
 		"floors": [4],
 		"addInfo_zh": ["【鸭爵金币】固定出现<圆仔>，且提早出现"],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": [
+			"【鴨爵の金幣】隠し敵が<マルッコ>に固定され、出現が早くなる"
+		],
+		"addInfo_en": [
+			"Duck Coin - bonus enemy fixed to summon Fatty, and appears earlier"
+		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力+10%，防御力+20%，生命值+20%，移动速度+20%",
 			"战斗开始时额外出现2个灰烬造物",
 			"战斗开始时额外出现1个雕伥，每20s召唤一个便符"
 		],
-		"eliteDesc_ja": null,
-		"eliteDesc_en": null,
+		"eliteDesc_ja": [
+			"敵全員の最大HP・防御力・移動速度+20%、攻撃力+10%",
+			"<灰燼の創造物>2体が戦場中央に初期配置",
+			"戦場左下に「彫鬼」が出現、20秒ごとに<便符>を召喚する"
+		],
+		"eliteDesc_en": ["All enemy units have +10% ATK, +20% DEF, +20% Max HP and +20% Movespeed","Additional 2 <Ash Creation> appear at the start","Additional 1 Statuegeist appears and summons 1 <Talisman> every 20s"],
 		"all_mods": [
 			{
 				"targets": ["trap_222_rgdysm#1"],
@@ -30955,15 +31179,21 @@
 		"category": null,
 		"floors": [5],
 		"addInfo_zh": ["【鸭爵金币】固定出现<鸭爵>，且提早出现"],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": ["【鴨爵の金幣】隠し敵がダック卿に固定され、出現が早くなる"],
+		"addInfo_en": [
+			"Duck Coin - bonus enemy fixed to summon Duck Lord, and appears earlier"
+		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力+50%，防御力+20%，生命值+50%",
 			"“偷闲”和“得意”的生命值额外提升至200%",
 			"战斗开始时额外出现1个雕伥，每15s召唤一个便符"
 		],
-		"eliteDesc_ja": null,
-		"eliteDesc_en": null,
+		"eliteDesc_ja": [
+			"敵全員の最大HP・攻撃力+50%、防御力+20%",
+			"<「ヤマツミ」>と<「オニビ」>の最大HPさらに+100%",
+			"戦場中央に「彫鬼」が出現、15秒ごとに<便符>を召喚する"
+		],
+		"eliteDesc_en": ["All enemy units have +50% ATK, +20% DEF and +50% Max HP","All <'Lazy'> and <'Smarty'> have additional +100% Max HP","Additional 1 Statuegeist appears and summons 1 <Talisman> every 15s"],
 		"all_mods": null,
 		"normal_mods": null,
 		"elite_mods": [
@@ -31098,15 +31328,25 @@
 			"初始部署费用上限降低至50",
 			"【鸭爵金币】固定出现<流泪小子>，且提早出现"
 		],
-		"addInfo_ja": ["初期コスト上限が50になる"],
-		"addInfo_en": ["Starting Max Cost is 50"],
+		"addInfo_ja": [
+			"初期コスト上限が50になる",
+			"【鴨爵の金幣】隠し敵が<涙目の坊や>に固定され、出現が早くなる"
+		],
+		"addInfo_en": [
+			"Starting Max Cost capped at 50",
+			"Duck Coin - bonus enemy fixed to summon Crying Thief, and appears earlier"
+		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力，防御力，生命值+20%",
 			"部分寻路密探长有50%概率被替换为武装密探长",
 			"战斗开始时额外出现1个雕伥，每30s召唤一个萨卡兹悖谬谍报长"
 		],
-		"eliteDesc_ja": null,
-		"eliteDesc_en": null,
+		"eliteDesc_ja": [
+			"敵全員の最大HP・攻撃力・防御力+20%",
+			"<偵察密偵隊長>が50%の確率で<武装密偵隊長>に変化",
+			"追加で「彫鬼」が出現、30秒ごとに<サルカズ悖理諜報隊長>を召喚する"
+		],
+		"eliteDesc_en": ["All enemy units have +20% ATK, +20% DEF, and +20% Max HP","All <Pathfinder Spymaster> have 50% chance of being replaced with <Armed Spymaster>","Additional 1 Statuegeist appears and summons 1 <Sarkaz Absurdist Operative Leader> every 30s"],
 		"all_mods": [
 			{
 				"targets": ["trap_222_rgdysm#1"],
@@ -31247,14 +31487,21 @@
 			"【鸭爵金币】固定出现<圆仔>，且提早出现",
 			"雕伥每20s召唤一个便符"
 		],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": [
+			"【鴨爵の金幣】隠し敵が<マルッコ>に固定され、出現が早くなる","彫鬼は20秒ごとに便符一体を召喚する"
+		],
+		"addInfo_en": [
+			"Duck Coin - bonus enemy fixed to summon Fatty, and appears earlier","Statuegeist summons 1 Talisman every 20s"
+		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力，防御力，生命值+20%",
 			"战斗开始时额外出现2个暴走食虫花"
 		],
-		"eliteDesc_ja": null,
-		"eliteDesc_en": null,
+		"eliteDesc_ja": [
+			"敵全員の最大HP・攻撃力・防御力+20%",
+			"<暴走食虫花>2体が中央の通路に初期配置"
+		],
+		"eliteDesc_en": ["All enemy units have +20% ATK, +20% DEF, and +20% Max HP","Additional 2 <Raging Slug Eater> appear at the start"],
 		"all_mods": [
 			{
 				"targets": ["trap_222_rgdysm"],
@@ -31351,15 +31598,23 @@
 		"category": null,
 		"floors": [5],
 		"addInfo_zh": ["【鸭爵金币】固定出现<高普尼克>，且提早出现"],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": [
+			"【鴨爵の金幣】隠し敵が<ゴプニク>に固定され、出現が早くなる"
+		],
+		"addInfo_en": [
+			"Duck Coin - bonus enemy fixed to summon Gopnik, and appears earlier"
+		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力，防御力+20%，生命值+50%，重量+1",
 			"战斗开始时额外出现10个自由佣兵“主音吉他”",
 			"战斗开始时于化境地块随机出现2个雕伥，每15s召唤一个便符"
 		],
-		"eliteDesc_ja": null,
-		"eliteDesc_en": null,
+		"eliteDesc_ja": [
+			"敵全員の最大HP+50%、攻撃力・防御力+20%、重量ランク+1",
+			"戦場左上と右上エリアに<フリー傭兵「リードギター」>12体が出現",
+			"追加で「彫鬼」が2つ出現、15秒ごとに<便符>を召喚する"
+		],
+		"eliteDesc_en": ["All enemy units have +20% ATK, +20% DEF, +50% Max HP and Weight +1","Additional 12 <Rogue Mercenary 'Lead Guitar'> appear at the start","Additional 2 Statuegeist appears and summons 1 <Talisman> every 15s"],
 		"all_mods": null,
 		"normal_mods": null,
 		"elite_mods": [
@@ -31482,15 +31737,23 @@
 			"【鸭爵金币】固定出现<流泪小子>，且提早出现",
 			"雕伥每20s召唤一个便符"
 		],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": [
+			"【鴨爵の金幣】隠し敵が<涙目の坊や>に固定され、出現が早くなる","彫鬼は20秒ごとに便符一体を召喚する"
+		],
+		"addInfo_en": [
+			"Duck Coin - bonus enemy fixed to summon Crying Thief, and appears earlier","Statuegeist summons 1 Talisman every 20s"
+		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力+30%，生命值+50%",
 			"雕伥的生命值额外提升至200%",
 			"额外出现3个狂暴宿主掷骨手"
 		],
-		"eliteDesc_ja": null,
-		"eliteDesc_en": null,
+		"eliteDesc_ja": [
+			"敵全員の最大HP+50%、攻撃力+30%",
+			"「彫鬼」の最大HPさらに+100%",
+			"<狂化寄生投骨兵>3体が追加で出現"
+		],
+		"eliteDesc_en": ["All enemy units have +30% ATK and +50% Max HP","All <Statuegeist> have additional +100% Max HP","Additional 3 <Enraged Possessed Bonethrower> appear"],
 		"all_mods": [
 			{
 				"targets": ["trap_222_rgdysm"],
@@ -31607,16 +31870,25 @@
 		"category": null,
 		"floors": [5],
 		"addInfo_zh": ["【鸭爵金币】固定出现<圆仔>，且提早出现"],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": [
+			"【鴨爵の金幣】隠し敵が<マルッコ>に固定され、出現が早くなる"
+		],
+		"addInfo_en": [
+			"Duck Coin - bonus enemy fixed to summon Fatty, and appears earlier"
+		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力+20%，防御力+30%，生命值+30%",
 			"所有“废食”获得隐匿",
 			"战斗初期额外出现10个无谓",
 			"额外出现两个雕伥，随机分布于地面的化境地块，每15s召唤一个便符"
 		],
-		"eliteDesc_ja": null,
-		"eliteDesc_en": null,
+		"eliteDesc_ja": [
+			"敵全員の最大HP・防御力+30%、攻撃力+20%",
+			"<「廃食」>がステルス状態になる",
+			"<無謂>10体が追加で出現",
+			"追加で「彫鬼」2つが出現、20秒ごとに<便符>を召喚する"
+		],
+		"eliteDesc_en": ["All enemy units have +20% ATK, +30% DEF and +30% Max HP","All <'Fasting'> gains stealth","Additional 10 <Vapidity> appears","Additional 2 Statuegeist appears and summons 1 <Talisman> every 15s"],
 		"all_mods": null,
 		"normal_mods": null,
 		"elite_mods": [
@@ -31753,15 +32025,23 @@
 		"category": null,
 		"floors": [6],
 		"addInfo_zh": ["【鸭爵金币】固定出现<高普尼克>，且提早出现"],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": [
+			"【鴨爵の金幣】隠し敵が<ゴプニク>に固定され、出現が早くなる"
+		],
+		"addInfo_en": [
+			"Duck Coin - bonus enemy fixed to summon Gopnik, and appears earlier"
+		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力+50%，防御力+30%，生命值+20%",
 			"飘香的生命值额外提升至200%",
 			"额外出现3个飘香和1个雕伥，每15s召唤一个无谓"
 		],
-		"eliteDesc_ja": null,
-		"eliteDesc_en": null,
+		"eliteDesc_ja": [
+			"敵全員の最大HP+20%、攻撃力+50%、防御力+30%",
+			"<漂香>が追加で3体出現し、最大HPさらに+100%",
+			"破棄された竈台の右上に「彫鬼」が出現、15秒ごとに<無謂>を召喚する"
+		],
+		"eliteDesc_en": ["All enemy units have +50% ATK, +30% DEF and +20% Max HP","Additional 3 <Drifting Aroma> appear and all have additional +100% Max HP","Additional 1 Statuegeist appears and summons 1 <Vapidity> every 15s"],
 		"all_mods": [
 			{
 				"targets": ["trap_222_rgdysm#1"],
@@ -31919,15 +32199,23 @@
 			"【鸭爵金币】固定出现<流泪小子>，且提早出现",
 			"雕伥每60s召唤一个竞赛级沙滩车"
 		],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": [
+			"【鴨爵の金幣】隠し敵が<涙目の坊や>に固定され、出現が早くなる","彫鬼は60秒ごとに<レーシングサンドバギー>一体を召喚する"
+		],
+		"addInfo_en": [
+			"Duck Coin - bonus enemy fixed to summon Crying Thief, and appears earlier","Statuegeist summons 1 <Competitive-Grade Beach Buggy> every 60s"
+		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力+20%，防御力+20%，生命值+20%",
 			"重弩猎杀者被替换为战线突破者",
 			"战斗开始时地图左右侧都出现3个马特奥的近卫"
 		],
-		"eliteDesc_ja": null,
-		"eliteDesc_en": null,
+		"eliteDesc_ja": [
+			"敵全員の最大HP・攻撃力・防御力+20%",
+			"<マッテオの近衛兵>3体が追加で初期配置される",
+			"すべての<重型クロスボウ猛襲者>が<戦線突破兵>に変化"
+		],
+		"eliteDesc_en": ["All enemy units have +20% ATK, +20% DEF and +20% Max HP","All <Heavy Crossbowman Hunter> are replaced with <Battleline Breacher>","Additional 3 <Mateo's Guard> appear at the start"],
 		"all_mods": [
 			{
 				"targets": ["trap_222_rgdysm#1"],
@@ -32133,8 +32421,8 @@
 		"addInfo_zh": [
 			"战斗中期，左侧场地左下化境地块与右上化境地块各自在相邻的不可部署地块刷新1个雕伥，每10s召唤一个除秽"
 		],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": ["戦闘中盤、追加で彫鬼二体が出現、10秒ごとに<除穢>を召喚する"],
+		"addInfo_en": ["Halfway through the battle, additional 2 Statuegeist appear, summons <Expelled Filth> every 10s"],
 		"eliteDesc_zh": null,
 		"eliteDesc_ja": null,
 		"eliteDesc_en": null,
@@ -32803,11 +33091,11 @@
 		],
 		"eliteDesc_ja": [
 			"敵全員の攻撃力+10%、最大HP+20%",
-			"追加で1体の<ミマワリグサ>と<雕伥>が出現する"
+			"追加で1体の<ミマワリグサ>と<彫鬼>が出現する、10秒ごとに便符を召喚する"
 		],
 		"eliteDesc_en": [
 			"All enemy units have +10% ATK, +20% Max HP",
-			"Additional 1 <'Patrolling Foliage'> and 1 <雕伥> appears"
+			"Additional 1 <'Patrolling Foliage'> and 1 <Statuegeist> appears, summons 1 Talisman every 10s"
 		],
 		"all_mods": [
 			{
@@ -33032,8 +33320,8 @@
 			"可移动战术机库左侧两格额外出现2个道路障碍物",
 			"战斗开始后出现1个雕伥，每20s召唤一个感染者纠察官"
 		],
-		"eliteDesc_ja": ["敵全員の攻撃力+10%、防御力+10%、最大HP+30%"],
-		"eliteDesc_en": ["All enemy units have +10% ATK, +10% DEF, +30% Max HP"],
+		"eliteDesc_ja": ["敵全員の攻撃力+10%、防御力+10%、最大HP+30%","追加で道路障害物2個が出現","追加で「彫鬼」が出現、20秒ごとに<感染者監視官>を召喚する"],
+		"eliteDesc_en": ["All enemy units have +10% ATK, +10% DEF, +30% Max HP","Additional 2 <Static Roadblock> appears","Additional 1 Statuegeist appears and summons 1 <Infected Patrol Captain> every 20s"],
 		"all_mods": [
 			{
 				"targets": ["system"],
@@ -33158,8 +33446,8 @@
 		"category": null,
 		"floors": [2],
 		"addInfo_zh": ["雕伥每25s召唤一个特里蒙城防军"],
-		"addInfo_ja": ["<雕伥>25秒毎に<トリマウンツ都市防衛軍兵士>を召喚する"],
-		"addInfo_en": ["<雕伥> summons 1 <Trimounts City Defender> every 25s"],
+		"addInfo_ja": ["彫鬼は25秒ごとに<トリマウンツ都市防衛軍兵士>を召喚する"],
+		"addInfo_en": ["Statuegesit summons 1 <Trimounts City Defender> every 25s"],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力+20%，生命值+20%",
 			"第二个弧光镜卫替换为“肇事者”量产型"
@@ -33297,8 +33585,8 @@
 		"category": null,
 		"floors": [6],
 		"addInfo_zh": ["雕伥每50s召唤一个“越长尘”"],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": ["彫鬼は50秒ごとに<「長塵」>一体を召喚する"],
+		"addInfo_en": ["Statuegeist summons 1 'Sand Voyager' every 50s"],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力+30%，防御力+30%，生命值+50%",
 			"躁怒谛兽替换为心涛",
@@ -33312,7 +33600,7 @@
 		"eliteDesc_en": [
 			"All enemy units have +30% ATK, +30% DEF, +50% Max HP",
 			"<Raging Di Beast> is replaced by <Heartbillow>",
-			"<雕伥> have -50% Max HP"
+			"All Statuegeists have -50% Max HP"
 		],
 		"all_mods": [
 			{

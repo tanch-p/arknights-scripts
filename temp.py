@@ -6,6 +6,39 @@ import json
 pp = pprint.PrettyPrinter(indent=4)
 
 script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
+
+def convert_data(old_data, topic="rogue_yan"):
+    # convert ro5 into stage_name_lookup
+    lang_map = {
+        "name_zh": "zh",
+        "name_ja": "ja",
+        "name_en": "en",
+    }
+
+    new_data = {}
+
+    for original_key, entry in old_data.items():
+        code = entry["code"]
+
+        for name_field, lang in lang_map.items():
+            if name_field in entry:
+                new_key = f"{code}_{entry[name_field]}"
+                new_data[new_key] = {
+                    "lang": lang,
+                    "key": original_key,
+                    "topic": topic,
+                }
+
+    return new_data
+
+with open('ro5.json', encoding="utf-8") as f:
+    file = json.load(f)
+
+new_data = convert_data(file)
+
+with open('temp.json', 'w', encoding='utf-8') as f:
+        json.dump(new_data, f, ensure_ascii=False, indent=4)
+
 # cn_char_table_path = os.path.join(
 #     script_dir, "cn_data/zh_CN/gamedata/excel/character_table.json")
 # with open(cn_char_table_path, encoding='utf-8') as f:
@@ -46,13 +79,13 @@ script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 # handpicked 50 characters for testing
 # testing_chars = ['char_4116_blkkgt', 'char_003_kalts', 'char_4048_doroth', '']
 
-enemy_database_path = os.path.join(
-    script_dir, "cn_data/zh_CN/gamedata/levels/enemydata/enemy_database.json"
-)
-with open(enemy_database_path, encoding="utf-8") as f:
-    enemy_database = json.load(f)
-with open("enemy_database.json", encoding="utf-8") as f:
-    my_enemy_db = json.load(f)
+# enemy_database_path = os.path.join(
+#     script_dir, "cn_data/zh_CN/gamedata/levels/enemydata/enemy_database.json"
+# )
+# with open(enemy_database_path, encoding="utf-8") as f:
+#     enemy_database = json.load(f)
+# with open("enemy_database.json", encoding="utf-8") as f:
+#     my_enemy_db = json.load(f)
 
 
 # for enemy in enemy_database['enemies']:
@@ -61,11 +94,14 @@ with open("enemy_database.json", encoding="utf-8") as f:
 #         if stats['enemyData']['attributes']['epDamageResistance']['m_value'] != 0 or stats['enemyData']['attributes']['epResistance']['m_value'] != 0:
 #             print(key)
 
-for [key,enemy] in my_enemy_db.items():
-    db_enemy = next(item for item in enemy_database['enemies'] if item['Key'] == key, None)
-    (db_enemy['Value'][0]['enemyData']['notCountInTotal'])
-    enemy['notCountInTotal'] = db_enemy['Value'][0]['enemyData']['notCountInTotal']['m_value'] if db_enemy['Value'][0]['enemyData']['notCountInTotal']['m_defined'] else False
+# for [key,enemy] in my_enemy_db.items():
+#     db_enemy = next(item for item in enemy_database['enemies'] if item['Key'] == key, None)
+#     (db_enemy['Value'][0]['enemyData']['notCountInTotal'])
+#     enemy['notCountInTotal'] = db_enemy['Value'][0]['enemyData']['notCountInTotal']['m_value'] if db_enemy['Value'][0]['enemyData']['notCountInTotal']['m_defined'] else False
 
-with open("enemy_database.json", "w", encoding="utf-8") as f:
-    data_to_write = my_enemy_db
-    json.dump(data_to_write, f, ensure_ascii=False, indent=4)
+# with open("enemy_database.json", "w", encoding="utf-8") as f:
+#     data_to_write = my_enemy_db
+#     json.dump(data_to_write, f, ensure_ascii=False, indent=4)
+
+
+
