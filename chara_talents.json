@@ -13509,7 +13509,8 @@
                         "key": "sleep",
                         "targets": 1,
                         "value": 8.0,
-                        "target_air": false
+                        "target_air": false,
+                        "conditions":["blocked"]
                     }
                 ]
             }
