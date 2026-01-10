@@ -28,15 +28,15 @@ cn_char_table_path = os.path.join(
 cn_skill_table_path = os.path.join(
     script_dir, "cn_data/zh_CN/gamedata/excel/skill_table.json")
 en_char_table_path = os.path.join(
-    script_dir, "global_data/en_US/gamedata/excel/character_table.json")
+    script_dir, "global_data/en/gamedata/excel/character_table.json")
 jp_char_table_path = os.path.join(
-    script_dir, "global_data/ja_JP/gamedata/excel/character_table.json")
+    script_dir, "global_data/jp/gamedata/excel/character_table.json")
 cn_patch_table_path = os.path.join(
     script_dir, "cn_data/zh_CN/gamedata/excel/char_patch_table.json")
 en_patch_table_path = os.path.join(
-    script_dir, "global_data/en_US/gamedata/excel/char_patch_table.json")
+    script_dir, "global_data/en/gamedata/excel/char_patch_table.json")
 jp_patch_table_path = os.path.join(
-    script_dir, "global_data/ja_JP/gamedata/excel/char_patch_table.json")
+    script_dir, "global_data/jp/gamedata/excel/char_patch_table.json")
 
 with open(cn_char_table_path, encoding='utf-8') as f:
     cn_char_table = json.load(f)

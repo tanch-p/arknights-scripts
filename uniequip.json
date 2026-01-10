@@ -67910,8 +67910,8 @@
     "uniequip_001_reckpr": {
         "uniEquipId": "uniequip_001_reckpr",
         "name_zh": "录武官证章",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "レコードキーパーの記章",
+        "name_en": "Record Keeper's Badge",
         "typeIcon": "original",
         "charId": "char_4196_reckpr",
         "combatData": null
@@ -67919,8 +67919,8 @@
     "uniequip_002_reckpr": {
         "uniEquipId": "uniequip_002_reckpr",
         "name_zh": "未完成的录武簿",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "未完成の録武簿",
+        "name_en": "Unfinished Record",
         "typeIcon": "phy-x",
         "charId": "char_4196_reckpr",
         "combatData": {
@@ -67932,21 +67932,23 @@
                             "target": "TRAIT",
                             "isToken": false,
                             "addDesc_zh": "治疗生命值低于50%的友方单位时治疗量提升<@ba.kw>15%</>",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "HPが50%未満の味方を治療時、HP治療効果<@ba.kw>+15%</>",
+                            "addDesc_en": "When healing allied units with less than 50% HP, increases heal amount by <@ba.kw>15%</>",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         }
                     ],
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 70.0
+                            "value": 70.0,
+                            "valueStr": null
                         },
                         {
                             "key": "attack_speed",
-                            "value": 4.0
+                            "value": 4.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -67958,35 +67960,37 @@
                             "target": "TRAIT",
                             "isToken": false,
                             "addDesc_zh": "治疗生命值低于50%的友方单位时治疗量提升<@ba.kw>15%</>",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "HPが50%未満の味方を治療時、HP治療効果<@ba.kw>+15%</>",
+                            "addDesc_en": "When healing allied units with less than 50% HP, increases heal amount by <@ba.kw>15%</>",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "学成于聚",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Accumulated Knowledge",
+                            "name_ja": "聚知成学",
+                            "name_en": "Accumulated Knowledge",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "攻击范围内的干员开启技能时自身回复1点技力，且攻击速度+20，持续10<@ba.talpu>（+2）</>秒",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "攻撃範囲内のオペレーターがスキル発動時、自身のSPが1回復、10<@ba.talpu>（+2）</>秒間攻撃速度+20",
+                            "upgradeDesc_en": "When Operators within Attack Range activate a skill, Record Keeper recovers 1 SP and gains ASPD +20 for 10 <@ba.talpu>(+2)</>s"
                         }
                     ],
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 100.0
+                            "value": 100.0,
+                            "valueStr": null
                         },
                         {
                             "key": "attack_speed",
-                            "value": 5.0
+                            "value": 5.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -67998,35 +68002,37 @@
                             "target": "TRAIT",
                             "isToken": false,
                             "addDesc_zh": "治疗生命值低于50%的友方单位时治疗量提升<@ba.kw>15%</>",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "HPが50%未満の味方を治療時、HP治療効果<@ba.kw>+15%</>",
+                            "addDesc_en": "When healing allied units with less than 50% HP, increases heal amount by <@ba.kw>15%</>",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "学成于聚",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Accumulated Knowledge",
+                            "name_ja": "聚知成学",
+                            "name_en": "Accumulated Knowledge",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "攻击范围内的干员开启技能时自身回复1点技力，且攻击速度+23，持续10<@ba.talpu>（+2）</>秒",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "攻撃範囲内のオペレーターがスキル発動時、自身のSPが1回復、10<@ba.talpu>（+2）</>秒間攻撃速度+23",
+                            "upgradeDesc_en": "When Operators within Attack Range activate a skill, Record Keeper recovers 1 SP and gains ASPD +23 for 10 <@ba.talpu>(+2)</>s"
                         }
                     ],
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 120.0
+                            "value": 120.0,
+                            "valueStr": null
                         },
                         {
                             "key": "attack_speed",
-                            "value": 6.0
+                            "value": 6.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -68048,8 +68054,8 @@
     "uniequip_001_leizi2": {
         "uniEquipId": "uniequip_001_leizi2",
         "name_zh": "司霆惊蛰证章",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "司霆レイズの記章",
+        "name_en": "Leizi the Thunderbringer's Badge",
         "typeIcon": "original",
         "charId": "char_1043_leizi2",
         "combatData": null
@@ -68057,8 +68063,8 @@
     "uniequip_002_leizi2": {
         "uniEquipId": "uniequip_002_leizi2",
         "name_zh": "“一念”",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "「一念」",
+        "name_en": "'Within a Thought'",
         "typeIcon": "lib-x",
         "charId": "char_1043_leizi2",
         "combatData": {
@@ -68070,19 +68076,19 @@
                             "target": "DISPLAY",
                             "isToken": false,
                             "addDesc_zh": "部署后获得<@ba.kw>+100%</>加成",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "配置時、即座に攻撃力上昇値<@ba.kw>+100%</>",
+                            "addDesc_en": "Directly gains <@ba.kw>+100%</> charge after deployment",
                             "overrideDesc_zh": "通常不攻击且阻挡数为0，技能未开启时<@ba.kw>40</>秒内攻击力逐渐提升至最高<@ba.kw>+200%</>且技能结束时重置攻击力",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "通常時は攻撃せずブロック数が0となり、攻撃力が<@ba.kw>+200%</>まで徐々に上昇していく（最大値になるまでの時間は<@ba.kw>40</>秒）\nスキル終了時、特性による攻撃力上昇効果をリセット",
+                            "overrideDesc_en": "Normally does not attack and has 0 Block; when skill is inactive, ATK gradually increases up to <@ba.kw>+200%</> over <@ba.kw>40</> seconds; ATK is reset when the skill ends"
                         },
                         {
                             "resKey": "leizi2_equip_1_1_p1",
                             "target": "TALENT",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": -1,
@@ -68094,15 +68100,18 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 225.0
+                            "value": 225.0,
+                            "valueStr": null
                         },
                         {
                             "key": "atk",
-                            "value": 26.0
+                            "value": 26.0,
+                            "valueStr": null
                         },
                         {
                             "key": "def",
-                            "value": 27.0
+                            "value": 27.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -68114,33 +68123,33 @@
                             "target": "DISPLAY",
                             "isToken": false,
                             "addDesc_zh": "部署后获得<@ba.kw>+100%</>加成",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "配置時、即座に攻撃力上昇値<@ba.kw>+100%</>",
+                            "addDesc_en": "Directly gains <@ba.kw>+100%</> charge after deployment",
                             "overrideDesc_zh": "通常不攻击且阻挡数为0，技能未开启时<@ba.kw>40</>秒内攻击力逐渐提升至最高<@ba.kw>+200%</>且技能结束时重置攻击力",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "通常時は攻撃せずブロック数が0となり、攻撃力が<@ba.kw>+200%</>まで徐々に上昇していく（最大値になるまでの時間は<@ba.kw>40</>秒）\nスキル終了時、特性による攻撃力上昇効果をリセット",
+                            "overrideDesc_en": "Normally does not attack and has 0 Block; when skill is inactive, ATK gradually increases up to <@ba.kw>+200%</> over <@ba.kw>40</> seconds; ATK is reset when the skill ends"
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "明断",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Clarity of Judgment",
+                            "name_ja": "明断",
+                            "name_en": "Clarity of Judgment",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "攻击范围内每个地块每秒有10%的概率落雷对所有敌人造成相当于攻击力100%的法术伤害。未开启技能时<ba.liftoff>起飞</>；技能期间攻击时攻击力提升至115%<@ba.talpu>（+4%）</>",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "攻撃範囲内のマスごとにそれぞれ1秒ごとに10%の確率で落雷を発生させ、マス内にいる敵全員に司霆レイズの攻撃力の100%の術ダメージを与える。スキル未発動時は<ba.liftoff>離陸</>状態になる。スキル発動中、攻撃力が115%<@ba.talpu>（+4%）</>まで上昇",
+                            "upgradeDesc_en": "Tiles within Attack Range have a 10% chance every second of being struck by lightning, dealing 100% of Leizi the Thunderbringer's ATK as Arts damage; <ba.liftoff>Takes Off</> when this unit's skill is not active; while skill is active, ATK increases to 115% <@ba.talpu>(+4%)</>"
                         },
                         {
                             "resKey": "leizi2_equip_1_2_p1",
                             "target": "TALENT",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": -1,
@@ -68152,15 +68161,18 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 270.0
+                            "value": 270.0,
+                            "valueStr": null
                         },
                         {
                             "key": "atk",
-                            "value": 35.0
+                            "value": 35.0,
+                            "valueStr": null
                         },
                         {
                             "key": "def",
-                            "value": 31.0
+                            "value": 31.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -68172,33 +68184,33 @@
                             "target": "DISPLAY",
                             "isToken": false,
                             "addDesc_zh": "部署后获得<@ba.kw>+100%</>加成",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "配置時、即座に攻撃力上昇値<@ba.kw>+100%</>",
+                            "addDesc_en": "Directly gains <@ba.kw>+100%</> charge after deployment",
                             "overrideDesc_zh": "通常不攻击且阻挡数为0，技能未开启时<@ba.kw>40</>秒内攻击力逐渐提升至最高<@ba.kw>+200%</>且技能结束时重置攻击力",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "通常時は攻撃せずブロック数が0となり、攻撃力が<@ba.kw>+200%</>まで徐々に上昇していく（最大値になるまでの時間は<@ba.kw>40</>秒）\nスキル終了時、特性による攻撃力上昇効果をリセット",
+                            "overrideDesc_en": "Normally does not attack and has 0 Block; when skill is inactive, ATK gradually increases up to <@ba.kw>+200%</> over <@ba.kw>40</> seconds; ATK is reset when the skill ends"
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "明断",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Clarity of Judgment",
+                            "name_ja": "明断",
+                            "name_en": "Clarity of Judgment",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "攻击范围内每个地块每秒有10%的概率落雷对所有敌人造成相当于攻击力100%的法术伤害。未开启技能时<ba.liftoff>起飞</>；技能期间攻击时攻击力提升至117%<@ba.talpu>（+4%）</>",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "攻撃範囲内のマスにそれぞれ1秒ごとに10%の確率で落雷を発生させ、マス内にいる敵全員に司霆レイズの攻撃力の100%の術ダメージを与える。スキル未発動時は<ba.liftoff>離陸</>状態になる。スキル発動中、攻撃力が117%<@ba.talpu>（+4%）</>まで上昇",
+                            "upgradeDesc_en": "Tiles within Attack Range have a 10% chance every second of being struck by lightning, dealing 100% of Leizi the Thunderbringer's ATK as Arts damage; <ba.liftoff>Takes Off</> when this unit's skill is not active; while skill is active, ATK increases to 117% <@ba.talpu>(+4%)</>"
                         },
                         {
                             "resKey": "leizi2_equip_1_3_p1",
                             "target": "TALENT",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": -1,
@@ -68210,15 +68222,18 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 360.0
+                            "value": 360.0,
+                            "valueStr": null
                         },
                         {
                             "key": "atk",
-                            "value": 42.0
+                            "value": 42.0,
+                            "valueStr": null
                         },
                         {
                             "key": "def",
-                            "value": 36.0
+                            "value": 36.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -68231,8 +68246,8 @@
     "uniequip_003_typhon": {
         "uniEquipId": "uniequip_003_typhon",
         "name_zh": "冰原的影子",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "氷原の影",
+        "name_en": "Shadow of the Icefield",
         "typeIcon": "sie-y",
         "charId": "char_2012_typhon",
         "combatData": {
@@ -68244,21 +68259,23 @@
                             "target": "TRAIT",
                             "isToken": false,
                             "addDesc_zh": "攻击越远的敌人造成的伤害越高（最高提升<@ba.kw>12%</>）",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "攻撃時、攻撃対象との距離が離れるほど与ダメージが上昇する（最大<@ba.kw>12%</>上昇）",
+                            "addDesc_en": "The further away the enemy, the higher the damage dealt (up to an increase of <@ba.kw>12%</>)",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         }
                     ],
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 70.0
+                            "value": 70.0,
+                            "valueStr": null
                         },
                         {
                             "key": "attack_speed",
-                            "value": 5.0
+                            "value": 5.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -68270,35 +68287,37 @@
                             "target": "TRAIT",
                             "isToken": false,
                             "addDesc_zh": "攻击越远的敌人造成的伤害越高（最高提升<@ba.kw>12%</>）",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "攻撃時、攻撃対象との距離が離れるほど与ダメージが上昇する（最大<@ba.kw>12%</>上昇）",
+                            "addDesc_en": "The further away the enemy, the higher the damage dealt (up to an increase of <@ba.kw>12%</>)",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": "typhon_equip_2_2_p2",
                             "target": "TALENT",
                             "isToken": false,
-                            "name_zh": "重如沼泥",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Heavy as the Swamp's Mire",
+                            "name_ja": "泥沼の如く",
+                            "name_en": "Heavy as the Swamp's Mire",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 1,
                             "upgradeDesc_zh": "技能期间对每个敌人前两次造成伤害时，攻击力提升至210%<@ba.talpu>（+10%）</>并使目标<ba.sluggish>停顿</>3秒",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "スキル発動中敵にダメージを与えた際、対象ごとに2回限り、攻撃力が210%<@ba.talpu>（+10%）</>まで上昇し、対象を3秒間<ba.sluggish>足止め</>状態にする",
+                            "upgradeDesc_en": "When damaging an enemy for the first and second time while a skill is active, ATK increases to 210% <@ba.talpu>(+10%)</> and <ba.sluggish>Slows</> targets for 3s"
                         }
                     ],
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 84.0
+                            "value": 84.0,
+                            "valueStr": null
                         },
                         {
                             "key": "attack_speed",
-                            "value": 6.0
+                            "value": 6.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -68310,35 +68329,37 @@
                             "target": "TRAIT",
                             "isToken": false,
                             "addDesc_zh": "攻击越远的敌人造成的伤害越高（最高提升<@ba.kw>12%</>）",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "攻撃時、攻撃対象との距離が離れるほど与ダメージが上昇する（最大<@ba.kw>12%</>上昇）",
+                            "addDesc_en": "The further away the enemy, the higher the damage dealt (up to an increase of <@ba.kw>12%</>)",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": "typhon_equip_2_3_p2",
                             "target": "TALENT",
                             "isToken": false,
-                            "name_zh": "重如沼泥",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Heavy as the Swamp's Mire",
+                            "name_ja": "泥沼の如く",
+                            "name_en": "Heavy as the Swamp's Mire",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 1,
                             "upgradeDesc_zh": "技能期间对每个敌人前两次造成伤害时，攻击力提升至230%<@ba.talpu>（+10%）</>并使目标<ba.sluggish>停顿</>3秒",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "スキル発動中敵にダメージを与えた際、対象ごとに2回限り、攻撃力が230%<@ba.talpu>（+10%）</>まで上昇し、対象を3秒間<ba.sluggish>足止め</>状態にする",
+                            "upgradeDesc_en": "When damaging an enemy for the first and second time while a skill is active, ATK increases to 230% <@ba.talpu>(+10%)</> and <ba.sluggish>Slows</> targets for 3s"
                         }
                     ],
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 94.0
+                            "value": 94.0,
+                            "valueStr": null
                         },
                         {
                             "key": "attack_speed",
-                            "value": 7.0
+                            "value": 7.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -68351,8 +68372,8 @@
     "uniequip_003_gdglow": {
         "uniEquipId": "uniequip_003_gdglow",
         "name_zh": "梦想终将实现",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "いつか叶う夢",
+        "name_en": "Dream Must Come True",
         "typeIcon": "fun-y",
         "charId": "char_377_gdglow",
         "combatData": {
@@ -68364,21 +68385,23 @@
                             "target": "TRAIT_DATA_ONLY",
                             "isToken": false,
                             "addDesc_zh": null,
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": null,
+                            "addDesc_en": null,
                             "overrideDesc_zh": "操作<@ba.kw>浮游单元</>造成<@ba.kw>法术伤害</>\\n单元攻击同一敌人伤害提升（最高造成干员120%攻击力的伤害）",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "<@ba.kw>浮遊ユニット</>を操作して敵に<@ba.kw>術ダメージ</>を与える\n浮遊ユニットが連続で同一目標を攻撃時、与ダメージが上昇（最大は攻撃力の120%まで）",
+                            "overrideDesc_en": "Attack with <@ba.kw>Drones</> to deal <@ba.kw>Arts damage</>\nDrone deals more damage when it attacks the same enemy again (deals up to 120% of Operator's ATK as damage)"
                         }
                     ],
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 30.0
+                            "value": 30.0,
+                            "valueStr": null
                         },
                         {
                             "key": "attack_speed",
-                            "value": 5.0
+                            "value": 5.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -68390,35 +68413,37 @@
                             "target": "TRAIT_DATA_ONLY",
                             "isToken": false,
                             "addDesc_zh": null,
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": null,
+                            "addDesc_en": null,
                             "overrideDesc_zh": "操作<@ba.kw>浮游单元</>造成<@ba.kw>法术伤害</>\\n单元攻击同一敌人伤害提升（最高造成干员120%攻击力的伤害）",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "<@ba.kw>浮遊ユニット</>を操作して敵に<@ba.kw>術ダメージ</>を与える\n浮遊ユニットが連続で同一目標を攻撃時、与ダメージが上昇（最大は攻撃力の120%まで）",
+                            "overrideDesc_en": "Attack with <@ba.kw>Drones</> to deal <@ba.kw>Arts damage</>\nDrone deals more damage when it attacks the same enemy again (deals up to 120% of Operator's ATK as damage)"
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "精准导流",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Precise Redirection",
+                            "name_ja": "精密誘電",
+                            "name_en": "Precise Redirection",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 1,
                             "upgradeDesc_zh": "自身与浮游单元无视敌人21<@ba.talpu>（+3）</>点法术抗性",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "自身と浮遊ユニットの攻撃時、敵の術耐性を21<@ba.talpu>（+3）</>無視",
+                            "upgradeDesc_en": "Self and Drones' attacks ignore 21 <@ba.talpu>(+3)</> RES"
                         }
                     ],
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 40.0
+                            "value": 40.0,
+                            "valueStr": null
                         },
                         {
                             "key": "attack_speed",
-                            "value": 6.0
+                            "value": 6.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -68430,35 +68455,37 @@
                             "target": "TRAIT_DATA_ONLY",
                             "isToken": false,
                             "addDesc_zh": null,
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": null,
+                            "addDesc_en": null,
                             "overrideDesc_zh": "操作<@ba.kw>浮游单元</>造成<@ba.kw>法术伤害</>\\n单元攻击同一敌人伤害提升（最高造成干员120%攻击力的伤害）",
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": "<@ba.kw>浮遊ユニット</>を操作して敵に<@ba.kw>術ダメージ</>を与える\n浮遊ユニットが連続で同一目標を攻撃時、与ダメージが上昇（最大は攻撃力の120%まで）",
+                            "overrideDesc_en": "Attack with <@ba.kw>Drones</> to deal <@ba.kw>Arts damage</>\nDrone deals more damage when it attacks the same enemy again (deals up to 120% of Operator's ATK as damage)"
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "精准导流",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Precise Redirection",
+                            "name_ja": "精密誘電",
+                            "name_en": "Precise Redirection",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 1,
                             "upgradeDesc_zh": "自身与浮游单元无视敌人23<@ba.talpu>（+3）</>点法术抗性",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "自身と浮遊ユニットの攻撃時、敵の術耐性を23<@ba.talpu>（+3）</>無視",
+                            "upgradeDesc_en": "Self and Drones' attacks ignore 23 <@ba.talpu>(+3)</> RES"
                         }
                     ],
                     "attributeBlackboard": [
                         {
                             "key": "atk",
-                            "value": 45.0
+                            "value": 45.0,
+                            "valueStr": null
                         },
                         {
                             "key": "attack_speed",
-                            "value": 7.0
+                            "value": 7.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -68476,8 +68503,8 @@
     "uniequip_003_gvial2": {
         "uniEquipId": "uniequip_003_gvial2",
         "name_zh": "好锯多磨",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "研いで磨いて",
+        "name_en": "Sanding and Polishing",
         "typeIcon": "cen-y",
         "charId": "char_1026_gvial2",
         "combatData": {
@@ -68489,25 +68516,28 @@
                             "target": "TRAIT",
                             "isToken": false,
                             "addDesc_zh": "生命值高于50%时受到的物理伤害降低<@ba.kw>20%</>",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "HPが最大値の50%以上の場合、物理の被ダメージ<@ba.kw>-20%</>",
+                            "addDesc_en": "While above 50% HP, reduces the amount of Physical damage taken by <@ba.kw>20%</>",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         }
                     ],
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 155.0
+                            "value": 155.0,
+                            "valueStr": null
                         },
                         {
                             "key": "atk",
-                            "value": 21.0
+                            "value": 21.0,
+                            "valueStr": null
                         },
                         {
                             "key": "def",
-                            "value": 50.0
+                            "value": 50.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -68519,33 +68549,33 @@
                             "target": "TRAIT",
                             "isToken": false,
                             "addDesc_zh": "生命值高于50%时受到的物理伤害降低<@ba.kw>20%</>",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "HPが最大値の50%以上の場合、物理の被ダメージ<@ba.kw>-20%</>",
+                            "addDesc_en": "While above 50% HP, reduces the amount of Physical damage taken by <@ba.kw>20%</>",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "医学背景",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Medical Background",
+                            "name_ja": "医学の心得",
+                            "name_en": "Medical Background",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 1,
                             "upgradeDesc_zh": "被自身阻挡的敌人受到5%的<ba.physicfragile>【物理脆弱】</>，自身受到的治疗效果提升30%<@ba.talpu>（+5%）</>，生命值低于一半时提升至55%<@ba.talpu>（+5%）</>",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "自身にブロックされた敵に5%の<ba.physicfragile>対物理脆弱</>状態を付与し、自身が受ける治療効果+30%<@ba.talpu>（+5%）</>、自身のHPが最大値の50%未満の場合、効果値が+55%<@ba.talpu>（+5%）</>まで上昇",
+                            "upgradeDesc_en": "Enemies blocked by this unit receive 5% <ba.physicfragile>Physical Fragility</>; increases this unit's healing received by 30% <@ba.talpu>(+5%)</>, increased to 55% <@ba.talpu>(+5%)</> when under half HP"
                         },
                         {
                             "resKey": "gvial2_equip_2_2_p2",
                             "target": "TALENT",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 1,
@@ -68557,15 +68587,18 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 180.0
+                            "value": 180.0,
+                            "valueStr": null
                         },
                         {
                             "key": "atk",
-                            "value": 26.0
+                            "value": 26.0,
+                            "valueStr": null
                         },
                         {
                             "key": "def",
-                            "value": 63.0
+                            "value": 63.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -68577,33 +68610,33 @@
                             "target": "TRAIT",
                             "isToken": false,
                             "addDesc_zh": "生命值高于50%时受到的物理伤害降低<@ba.kw>20%</>",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "HPが最大値の50%以上の場合、物理の被ダメージ<@ba.kw>-20%</>",
+                            "addDesc_en": "While above 50% HP, reduces the amount of Physical damage taken by <@ba.kw>20%</>",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "医学背景",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Medical Background",
+                            "name_ja": "医学の心得",
+                            "name_en": "Medical Background",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 1,
                             "upgradeDesc_zh": "被自身阻挡的敌人受到10%的<ba.physicfragile>【物理脆弱】</>，自身受到的治疗效果提升35%<@ba.talpu>（+5%）</>，生命值低于一半时提升至65%<@ba.talpu>（+5%）</>",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "自身にブロックされた敵に10%の<ba.physicfragile>対物理脆弱</>状態を付与し、自身が受ける治療効果+35%<@ba.talpu>（+5%）</>、自身のHPが最大値の50%未満の場合、効果値が+65%<@ba.talpu>（+5%）</>まで上昇",
+                            "upgradeDesc_en": "Enemies blocked by this unit receive 10% <ba.physicfragile>Physical Fragility</>; increases this unit's healing received by 35% <@ba.talpu>(+5%)</>, increased to 65% <@ba.talpu>(+5%)</> when under half HP"
                         },
                         {
                             "resKey": "gvial2_equip_2_3_p2",
                             "target": "TALENT",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 1,
@@ -68615,15 +68648,18 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 200.0
+                            "value": 200.0,
+                            "valueStr": null
                         },
                         {
                             "key": "atk",
-                            "value": 29.0
+                            "value": 29.0,
+                            "valueStr": null
                         },
                         {
                             "key": "def",
-                            "value": 71.0
+                            "value": 71.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -68674,8 +68710,8 @@
     "uniequip_001_radian": {
         "uniEquipId": "uniequip_001_radian",
         "name_zh": "电弧证章",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "レイディアンの記章",
+        "name_en": "Raidian's Badge",
         "typeIcon": "original",
         "charId": "char_4195_radian",
         "combatData": null
@@ -68683,8 +68719,8 @@
     "uniequip_002_radian": {
         "uniEquipId": "uniequip_002_radian",
         "name_zh": "电弧特勤证章",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "レイディアンの特勤記章",
+        "name_en": "Raidian's Special Operator Badge",
         "typeIcon": "so-a",
         "charId": "char_4195_radian",
         "combatData": {
@@ -68696,19 +68732,19 @@
                             "target": "DISPLAY",
                             "isToken": false,
                             "addDesc_zh": "在【岁的界园志异】中，召唤物持有上限<@ba.kw>+5</>，且召唤物被击倒或撤退时，有<@ba.kw>25％</>概率被回收",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "【歳の界園志異】において、召喚物の最大所持数<@ba.kw>+5</>。召喚物が撃破されるか撤退した場合、<@ba.kw>25%</>の確率で回収される",
+                            "addDesc_en": "In [Sui's Garden of Grotesqueries], summon capacity <@ba.kw>+5</>, and when summons are defeated or retreated, there is a <@ba.kw>25%</> chance they are retrieved",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": "radian_equip_1_1_p1",
                             "target": "TALENT",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": -1,
@@ -68720,11 +68756,13 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 125.0
+                            "value": 125.0,
+                            "valueStr": null
                         },
                         {
                             "key": "atk",
-                            "value": 27.0
+                            "value": 27.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -68736,33 +68774,33 @@
                             "target": "DISPLAY",
                             "isToken": false,
                             "addDesc_zh": "在【岁的界园志异】中，召唤物持有上限<@ba.kw>+5</>，且召唤物被击倒或撤退时，有<@ba.kw>25％</>概率被回收",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "【歳の界園志異】において、召喚物の最大所持数<@ba.kw>+5</>。召喚物が撃破されるか撤退した場合、<@ba.kw>25%</>の確率で回収される",
+                            "addDesc_en": "In [Sui's Garden of Grotesqueries], summon capacity <@ba.kw>+5</>, and when summons are defeated or retreated, there is a <@ba.kw>25%</> chance they are retrieved",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "卡带里的灵感",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Cassette Inspiration",
+                            "name_ja": "ゲーム仕込みのアイデア",
+                            "name_en": "Cassette Inspiration",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "可以使用5个召唤物（最多同时部署3个），功能随技能选择而改变。在【岁的界园志异】中，召唤物再部署时间降低25％，且被击倒或撤退时电弧自身回复1点技力",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "召喚物を使用可能（配置時に5体獲得、最大3体まで同時配置可能）、装着中のスキルによって召喚物が変化。【歳の界園志異】において、召喚物の再配置時間-25%、撃破されるか撤退するとレイディアンのSPが1回復",
+                            "upgradeDesc_en": "Can use up to 5 summons (max 3 deployed at once), summons' effect changes based upon Skill; in [Sui's Garden of Grotesqueries], summons have 25% less Redeployment Time, and when defeated or retreated, Raidian recovers 1 SP"
                         },
                         {
                             "resKey": "radian_equip_1_2_p1",
                             "target": "TALENT",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": -1,
@@ -68774,11 +68812,13 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 145.0
+                            "value": 145.0,
+                            "valueStr": null
                         },
                         {
                             "key": "atk",
-                            "value": 36.0
+                            "value": 36.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}
@@ -68790,33 +68830,33 @@
                             "target": "DISPLAY",
                             "isToken": false,
                             "addDesc_zh": "在【岁的界园志异】中，召唤物持有上限<@ba.kw>+5</>，且召唤物被击倒或撤退时，有<@ba.kw>25％</>概率被回收",
-                            "addDesc_ja": "",
-                            "addDesc_en": "",
+                            "addDesc_ja": "【歳の界園志異】において、召喚物の最大所持数<@ba.kw>+5</>。召喚物が撃破されるか撤退した場合、<@ba.kw>25%</>の確率で回収される",
+                            "addDesc_en": "In [Sui's Garden of Grotesqueries], summon capacity <@ba.kw>+5</>, and when summons are defeated or retreated, there is a <@ba.kw>25%</> chance they are retrieved",
                             "overrideDesc_zh": null,
-                            "overrideDesc_ja": "",
-                            "overrideDesc_en": ""
+                            "overrideDesc_ja": null,
+                            "overrideDesc_en": null
                         },
                         {
                             "resKey": null,
                             "target": "TALENT_DATA_ONLY",
                             "isToken": false,
-                            "name_zh": "卡带里的灵感",
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_zh": "Cassette Inspiration",
+                            "name_ja": "ゲーム仕込みのアイデア",
+                            "name_en": "Cassette Inspiration",
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": 0,
                             "upgradeDesc_zh": "可以使用5个召唤物（最多同时部署3个），功能随技能选择而改变。在【岁的界园志异】中，召唤物再部署时间降低50％，且被击倒或撤退时电弧自身回复2点技力",
-                            "upgradeDesc_ja": "",
-                            "upgradeDesc_en": ""
+                            "upgradeDesc_ja": "召喚物を使用可能（配置時に5体獲得、最大3体まで同時配置可能）、装着中のスキルによって召喚物が変化。【歳の界園志異】において、召喚物の再配置時間-50%、撃破されるか撤退するとレイディアンのSPが2回復",
+                            "upgradeDesc_en": "Can use up to 5 summons (max 3 deployed at once), summons' effect changes based upon Skill; in [Sui's Garden of Grotesqueries], summons have 50% less Redeployment Time, and when defeated or retreated, Raidian recovers 2 SP"
                         },
                         {
                             "resKey": "radian_equip_1_3_p1",
                             "target": "TALENT",
                             "isToken": false,
                             "name_zh": null,
-                            "name_ja": "",
-                            "name_en": "",
+                            "name_ja": null,
+                            "name_en": null,
                             "displayRangeId": false,
                             "rangeId": null,
                             "talentIndex": -1,
@@ -68828,11 +68868,13 @@
                     "attributeBlackboard": [
                         {
                             "key": "max_hp",
-                            "value": 165.0
+                            "value": 165.0,
+                            "valueStr": null
                         },
                         {
                             "key": "atk",
-                            "value": 43.0
+                            "value": 43.0,
+                            "valueStr": null
                         }
                     ],
                     "tokenAttributeBlackboard": {}

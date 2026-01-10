@@ -7,10 +7,10 @@ cn_roguelike_topic_path = os.path.join(
     script_dir, "cn_data/zh_CN/gamedata/excel/roguelike_topic_table.json"
 )
 en_roguelike_topic_path = os.path.join(
-    script_dir, "global_data/en_US/gamedata/excel/roguelike_topic_table.json"
+    script_dir, "global_data/en/gamedata/excel/roguelike_topic_table.json"
 )
 jp_roguelike_topic_path = os.path.join(
-    script_dir, "global_data/ja_JP/gamedata/excel/roguelike_topic_table.json"
+    script_dir, "global_data/jp/gamedata/excel/roguelike_topic_table.json"
 )
 
 with open(cn_roguelike_topic_path, encoding="utf-8") as f:

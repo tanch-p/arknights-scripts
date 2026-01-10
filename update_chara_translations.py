@@ -7,31 +7,31 @@ script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 cn_skill_table_path = os.path.join(
     script_dir, "cn_data/zh_CN/gamedata/excel/skill_table.json")
 en_char_table_path = os.path.join(
-    script_dir, "global_data/en_US/gamedata/excel/character_table.json")
+    script_dir, "global_data/en/gamedata/excel/character_table.json")
 en_skill_table_path = os.path.join(
-    script_dir, "global_data/en_US/gamedata/excel/skill_table.json")
+    script_dir, "global_data/en/gamedata/excel/skill_table.json")
 jp_char_table_path = os.path.join(
-    script_dir, "global_data/ja_JP/gamedata/excel/character_table.json")
+    script_dir, "global_data/jp/gamedata/excel/character_table.json")
 jp_skill_table_path = os.path.join(
-    script_dir, "global_data/ja_JP/gamedata/excel/skill_table.json")
+    script_dir, "global_data/jp/gamedata/excel/skill_table.json")
 cn_patch_table_path = os.path.join(
     script_dir, "cn_data/zh_CN/gamedata/excel/char_patch_table.json")
 en_patch_table_path = os.path.join(
-    script_dir, "global_data/en_US/gamedata/excel/char_patch_table.json")
+    script_dir, "global_data/en/gamedata/excel/char_patch_table.json")
 jp_patch_table_path = os.path.join(
-    script_dir, "global_data/ja_JP/gamedata/excel/char_patch_table.json")
+    script_dir, "global_data/jp/gamedata/excel/char_patch_table.json")
 cn_uniequip_path = os.path.join(
     script_dir, "cn_data/zh_CN/gamedata/excel/uniequip_table.json")
 cn_battle_equip_path = os.path.join(
     script_dir, "cn_data/zh_CN/gamedata/excel/battle_equip_table.json")
 jp_uniequip_path = os.path.join(
-    script_dir, "global_data/ja_JP/gamedata/excel/uniequip_table.json")
+    script_dir, "global_data/jp/gamedata/excel/uniequip_table.json")
 jp_battle_equip_path = os.path.join(
-    script_dir, "global_data/ja_JP/gamedata/excel/battle_equip_table.json")
+    script_dir, "global_data/jp/gamedata/excel/battle_equip_table.json")
 en_uniequip_path = os.path.join(
-    script_dir, "global_data/en_US/gamedata/excel/uniequip_table.json")
+    script_dir, "global_data/en/gamedata/excel/uniequip_table.json")
 en_battle_equip_path = os.path.join(
-    script_dir, "global_data/en_US/gamedata/excel/battle_equip_table.json")
+    script_dir, "global_data/en/gamedata/excel/battle_equip_table.json")
 
 
 with open(cn_skill_table_path, encoding='utf-8') as f:

@@ -20,13 +20,13 @@ cn_handbook_info_path = os.path.join(
 cn_team_table_path = os.path.join(
     script_dir, "cn_data/zh_CN/gamedata/excel/handbook_team_table.json")
 en_handbook_info_path = os.path.join(
-    script_dir, "global_data/en_US/gamedata/excel/handbook_info_table.json")
+    script_dir, "global_data/en/gamedata/excel/handbook_info_table.json")
 en_team_table_path = os.path.join(
-    script_dir, "global_data/en_US/gamedata/excel/handbook_team_table.json")
+    script_dir, "global_data/en/gamedata/excel/handbook_team_table.json")
 jp_handbook_info_path = os.path.join(
-    script_dir, "global_data/ja_JP/gamedata/excel/handbook_info_table.json")
+    script_dir, "global_data/jp/gamedata/excel/handbook_info_table.json")
 jp_team_table_path = os.path.join(
-    script_dir, "global_data/ja_JP/gamedata/excel/handbook_team_table.json")
+    script_dir, "global_data/jp/gamedata/excel/handbook_team_table.json")
 
 with open(cn_handbook_info_path, encoding='utf-8') as f:
     cn_handbook_info = json.load(f)

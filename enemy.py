@@ -7,19 +7,19 @@ cn_enemy_handbook_path = os.path.join(
     script_dir, "cn_data/zh_CN/gamedata/excel/enemy_handbook_table.json"
 )
 en_enemy_handbook_path = os.path.join(
-    script_dir, "global_data/en_US/gamedata/excel/enemy_handbook_table.json"
+    script_dir, "global_data/en/gamedata/excel/enemy_handbook_table.json"
 )
 jp_enemy_handbook_path = os.path.join(
-    script_dir, "global_data/ja_JP/gamedata/excel/enemy_handbook_table.json"
+    script_dir, "global_data/jp/gamedata/excel/enemy_handbook_table.json"
 )
 enemy_database_path = os.path.join(
     script_dir, "cn_data/zh_CN/gamedata/levels/enemydata/enemy_database.json"
 )
 en_enemy_database_path = os.path.join(
-    script_dir, "global_data/en_US/gamedata/levels/enemydata/enemy_database.json"
+    script_dir, "global_data/en/gamedata/levels/enemydata/enemy_database.json"
 )
 jp_enemy_database_path = os.path.join(
-    script_dir, "global_data/ja_JP/gamedata/levels/enemydata/enemy_database.json"
+    script_dir, "global_data/jp/gamedata/levels/enemydata/enemy_database.json"
 )
 
 

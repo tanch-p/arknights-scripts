@@ -424,10 +424,10 @@ def generate_roguelike_stages():
         script_dir, "cn_data/zh_CN/gamedata/excel/roguelike_topic_table.json"
     )
     en_roguelike_topic_path = os.path.join(
-        script_dir, "global_data/en_US/gamedata/excel/roguelike_topic_table.json"
+        script_dir, "global_data/en/gamedata/excel/roguelike_topic_table.json"
     )
     jp_roguelike_topic_path = os.path.join(
-        script_dir, "global_data/ja_JP/gamedata/excel/roguelike_topic_table.json"
+        script_dir, "global_data/jp/gamedata/excel/roguelike_topic_table.json"
     )
 
     with open(cn_roguelike_topic_path, encoding="utf-8") as f:
@@ -578,28 +578,28 @@ def generate_normal_stages(topic):
         script_dir, "cn_data/zh_CN/gamedata/excel/stage_table.json"
     )
     en_stage_table_path = os.path.join(
-        script_dir, "global_data/en_US/gamedata/excel/stage_table.json"
+        script_dir, "global_data/en/gamedata/excel/stage_table.json"
     )
     jp_stage_table_path = os.path.join(
-        script_dir, "global_data/ja_JP/gamedata/excel/stage_table.json"
+        script_dir, "global_data/jp/gamedata/excel/stage_table.json"
     )
     cn_zone_table_path = os.path.join(
         script_dir, "cn_data/zh_CN/gamedata/excel/zone_table.json"
     )
     en_zone_table_path = os.path.join(
-        script_dir, "global_data/en_US/gamedata/excel/zone_table.json"
+        script_dir, "global_data/en/gamedata/excel/zone_table.json"
     )
     jp_zone_table_path = os.path.join(
-        script_dir, "global_data/ja_JP/gamedata/excel/zone_table.json"
+        script_dir, "global_data/jp/gamedata/excel/zone_table.json"
     )
     cn_story_review_table_path = os.path.join(
         script_dir, "cn_data/zh_CN/gamedata/excel/story_review_table.json"
     )
     en_story_review_table_path = os.path.join(
-        script_dir, "global_data/en_US/gamedata/excel/story_review_table.json"
+        script_dir, "global_data/en/gamedata/excel/story_review_table.json"
     )
     jp_story_review_table_path = os.path.join(
-        script_dir, "global_data/ja_JP/gamedata/excel/story_review_table.json"
+        script_dir, "global_data/jp/gamedata/excel/story_review_table.json"
     )
     activity_table_path = os.path.join(
         script_dir, "cn_data/zh_CN/gamedata/excel/activity_table.json"

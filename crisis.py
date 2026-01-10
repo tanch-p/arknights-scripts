@@ -13,10 +13,10 @@ cn_crisisv2_path = os.path.join(
     script_dir, "cn_data/zh_CN/gamedata/excel/crisis_v2_table.json"
 )
 en_crisisv2_path = os.path.join(
-    script_dir, "global_data/en_US/gamedata/excel/crisis_v2_table.json"
+    script_dir, "global_data/en/gamedata/excel/crisis_v2_table.json"
 )
 jp_crisisv2_path = os.path.join(
-    script_dir, "global_data/ja_JP/gamedata/excel/crisis_v2_table.json"
+    script_dir, "global_data/jp/gamedata/excel/crisis_v2_table.json"
 )
 
 with open(cn_crisisv2_path, encoding="utf-8") as f:

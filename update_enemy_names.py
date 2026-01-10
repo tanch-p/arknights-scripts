@@ -7,10 +7,10 @@ enemy_database_path = os.path.join(
     script_dir, "cn_data/zh_CN/gamedata/levels/enemydata/enemy_database.json"
 )
 en_enemy_database_path = os.path.join(
-    script_dir, "global_data/en_US/gamedata/levels/enemydata/enemy_database.json"
+    script_dir, "global_data/en/gamedata/levels/enemydata/enemy_database.json"
 )
 jp_enemy_database_path = os.path.join(
-    script_dir, "global_data/ja_JP/gamedata/levels/enemydata/enemy_database.json"
+    script_dir, "global_data/jp/gamedata/levels/enemydata/enemy_database.json"
 )
 
 with open(enemy_database_path, encoding="utf-8") as f:

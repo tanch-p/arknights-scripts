@@ -9,13 +9,13 @@ cn_uniequip_path = os.path.join(
 cn_battle_equip_path = os.path.join(
     script_dir, "cn_data/zh_CN/gamedata/excel/battle_equip_table.json")
 jp_uniequip_path = os.path.join(
-    script_dir, "global_data/ja_JP/gamedata/excel/uniequip_table.json")
+    script_dir, "global_data/jp/gamedata/excel/uniequip_table.json")
 jp_battle_equip_path = os.path.join(
-    script_dir, "global_data/ja_JP/gamedata/excel/battle_equip_table.json")
+    script_dir, "global_data/jp/gamedata/excel/battle_equip_table.json")
 en_uniequip_path = os.path.join(
-    script_dir, "global_data/en_US/gamedata/excel/uniequip_table.json")
+    script_dir, "global_data/en/gamedata/excel/uniequip_table.json")
 en_battle_equip_path = os.path.join(
-    script_dir, "global_data/en_US/gamedata/excel/battle_equip_table.json")
+    script_dir, "global_data/en/gamedata/excel/battle_equip_table.json")
 
 with open(cn_uniequip_path, encoding='utf-8') as f:
     cn_uniequip_table = json.load(f)

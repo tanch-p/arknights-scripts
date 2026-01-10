@@ -8,11 +8,11 @@ with open(os.path.join(
     cn_gameconst = json.load(f)
 with open(os.path.join(
         script_dir,
-        f"global_data/en_US/gamedata/excel/gamedata_const.json"), encoding="utf-8") as f:
+        f"global_data/en/gamedata/excel/gamedata_const.json"), encoding="utf-8") as f:
     en_gameconst = json.load(f)
 with open(os.path.join(
         script_dir,
-        f"global_data/ja_JP/gamedata/excel/gamedata_const.json"), encoding="utf-8") as f:
+        f"global_data/jp/gamedata/excel/gamedata_const.json"), encoding="utf-8") as f:
     jp_gameconst = json.load(f)
 
 data = {}
