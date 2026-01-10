@@ -6802,10 +6802,6 @@
                 "tags": [],
                 "blackboard": [
                     {
-                        "key": "value",
-                        "value": 3.0
-                    },
-                    {
                         "key": "def_penetrate",
                         "value": 0.6,
                         "conditions": [
@@ -10274,12 +10270,16 @@
                 ],
                 "blackboard": [
                     {
-                        "key": "atk_scale",
-                        "value": 1.4
+                        "key": "self_damage_scale",
+                        "value": 1.1
                     },
                     {
-                        "key": "atk_scale_2",
-                        "value": 1.1
+                        "key": "self_damage_scale",
+                        "value": 1.4,
+                        "conditions": [
+                            "stun",
+                            "root"
+                        ]
                     }
                 ]
             },
@@ -10634,14 +10634,6 @@
                             "arts"
                         ],
                         "value": 0.18
-                    },
-                    {
-                        "key": "damage_scale_m",
-                        "value": 0.09
-                    },
-                    {
-                        "key": "super_scale",
-                        "value": 2.0
                     }
                 ]
             },
@@ -13309,7 +13301,24 @@
                     "arts",
                     "min_damage"
                 ],
-                "blackboard": []
+                "blackboard": [
+                    {
+                        "key": "hp_down",
+                        "order": "initial_add",
+                        "targets": 99,
+                        "value": 75,
+                        "duration": 5.0,
+                        "target_air": false
+                    },
+                    {
+                        "key": "hp_down",
+                        "order": "initial_add",
+                        "targets": 99,
+                        "value": 1350,
+                        "duration": 5.0,
+                        "target_air": false
+                    }
+                ]
             },
             {
                 "prefabKey": "2",
@@ -13510,7 +13519,9 @@
                         "targets": 1,
                         "value": 8.0,
                         "target_air": false,
-                        "conditions":["blocked"]
+                        "conditions": [
+                            "blocked"
+                        ]
                     }
                 ]
             }
@@ -14738,6 +14749,110 @@
                         "target_air": false,
                         "category": [
                             "neural_burst"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4166_varkis": {
+        "appellation": "Varkáris",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "永志不忘",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "在场时，所有【米诺斯】干员攻击生命比例不高于自身的敌人时攻击力提升至112%<@ba.talpu>（+2%）</>",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "minos"
+                ],
+                "blackboard": [
+                    {
+                        "key": "ally_damage_scale",
+                        "value": 1.12,
+                        "conditions": [
+                            "minos"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "char_1022_flwr2": {
+        "appellation": "Perfumer the Distilled",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "百里香",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "使攻击范围内除自身外当前生命比例小于等于自身的友军获得16%<@ba.talpu>（+2%）</>的<ba.protect>庇护</>",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "protect"
+                ],
+                "blackboard": [
+                    {
+                        "key": "ally_dmg_res",
+                        "types": [
+                            "phys",
+                            "arts"
+                        ],
+                        "value": 0.16,
+                        "conditions": [
+                            "hp_less_than_self"
+                        ],
+                        "category": [
+                            "protect"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4056_titi": {
+        "appellation": "Titi",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "凝固的时光",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "自身可以攻击<ba.sleep>沉睡</>的敌人，且攻击非移动敌人时对其额外造成相当于攻击力16%<@ba.talpu>（+1%）</>的法术伤害，在场时<ba.sleep>沉睡</>中的敌人每秒受到缇缇攻击力32%<@ba.talpu>（+2%）</>的法术伤害",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "type_sleep",
+                    "type_not_moving",
+                    "dot"
+                ],
+                "blackboard": []
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "勇气的报偿",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "场上的【米诺斯】或【萨尔贡】干员生命值高于50%时，获得+22<@ba.talpu>（+2）</>攻速的<ba.strong>精力充沛</>",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "minos",
+                    "sargon",
+                    "vigor"
+                ],
+                "blackboard": [
+                    {
+                        "key": "ally_aspd",
+                        "value": 22.0,
+                        "conditions": [
+                            "minos",
+                            "sargon",
+                            "hp_gt_50"
                         ]
                     }
                 ]
