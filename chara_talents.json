@@ -13878,11 +13878,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "慢手有筹",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Slowpoke's Gambit",
+                "name_ja": "後手に策あり",
                 "desc_zh": "在战场停留30秒后，仅一次使场上与待部署区的所有重装和辅助干员攻击力+12%<@ba.talpu>（+2%）</>",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "配置から30秒後、1度だけ戦場および配置待機エリアにいる全ての【重装】・【補助】の攻撃力+12%<@ba.talpu>（+2%）</>",
+                "desc_en": "After being deployed for 30s, all Defender and Supporter Operators on the field and in the Deployment Waiting Zone gain ATK +12% <@ba.talpu>(+2%)</>; can only activate once",
                 "tags": [
                     "TANK",
                     "SUPPORT"
@@ -13906,11 +13906,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "好运连击！",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Lucky Combo!",
+                "name_ja": "豪運ラッシュ！",
                 "desc_zh": "上场后每击倒过一种敌人，自身造成的伤害+7%<@ba.talpu>（+1%）</>，最多叠加3次",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "配置後、異なる種類の敵を倒すたびに自身の与ダメージ+7%<@ba.talpu>（+1%）</>（最大3回まで重複可能）",
+                "desc_en": "For every type of enemy defeated after deployment, damage dealt by Kichisei +7% <@ba.talpu>(+1%)</>, stacking up to 3 times",
                 "tags": [],
                 "blackboard": []
             }
@@ -13922,11 +13922,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "浮光泡影",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Fleeting Foam",
+                "name_ja": "儚き水泡",
                 "desc_zh": "每过一个攻击间隔，使范围内一名友方单位获得30%<ba.protect>庇护</>的浮泡，浮泡在受到敌方伤害的短暂延迟后破碎",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "通常攻撃の間隔で、範囲内の味方1人が30%の<ba.protect>加護</>効果を持つ「シャボン玉」を付与。「シャボン玉」は敵の攻撃を受けてからしばらくすると破裂",
+                "desc_en": "Every Attack Interval, an allied unit within range gains a bubble granting 30% <ba.protect>Sanctuary</>; bubbles will pop shortly after being damaged by an enemy",
                 "tags": [
                     "protect"
                 ],
@@ -13947,11 +13947,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "扶摇花火",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Soaring Fireworks",
+                "name_ja": "舞い上がる花火",
                 "desc_zh": "浮泡破碎时，为所在的单位治疗相当于遥攻击力28%<@ba.talpu>（+3%）</>的生命值",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "「シャボン玉」が破裂した時、付与されていたユニットのHPをハルカの攻撃力の28%<@ba.talpu>（+3%）</>治療",
+                "desc_en": "Whenever a bubble pops, the unit at its former location is healed for 28% <@ba.talpu>(+3%)</> of Haruka's ATK",
                 "tags": [
                     "heal_ally"
                 ],
@@ -13965,11 +13965,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "业火",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Gouka",
+                "name_ja": "業火",
                 "desc_zh": "生命降至0时进入“我执”：期间不成为其他角色的治疗目标，受到的伤害会继续积累，积累至生命上限的200%时被击倒，4<@ba.talpu>（-1）</>秒内未受到伤害时，每秒回复5%生命，生命大于0时退出“我执”",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "HPが0になると「我執」状態となる。「我執」状態中は味方の治療対象にならず、受けるダメージは蓄積されていき、蓄積値が最大HPの200%に達すると倒される。4<@ba.talpu>（-1）</>秒間ダメージを受けなければ、1秒ごとにHPが最大値の5%回復し、HPが0を超えると「我執」状態を解除する",
+                "desc_en": "When HP drops to 0, enters 'Ātmagrāha': cannot be healed by allies, damage received will accumulate, and once accumulated damage reaches 200% of Max HP, Hoshiguma the Breacher will be defeated; after 4 <@ba.talpu>(-1)</> seconds without receiving damage, recovers 5% HP every second; once HP is greater than 0, leaves 'Ātmagrāha'",
                 "tags": [
                     "heal_self"
                 ],
@@ -13978,11 +13978,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "鬼之架势",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Oni Battle Stance",
+                "name_ja": "鬼の構え",
                 "desc_zh": "在场时，自身获得最高+50法术抗性和35%攻击力的<ba.berserk>坚忍</>（损失70%生命值时达到最大加成）",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "配置中、最大で術耐性+50と攻撃力の35%の<ba.berserk>不屈</>状態を獲得（HPが最大値の70%減少時、効果最大）",
+                "desc_en": "Gains up to +50 RES and 35% ATK <ba.berserk>Tenacity</> (reaches maximum bonus when losing 70% of Max HP)",
                 "tags": [
                     "berserk"
                 ],

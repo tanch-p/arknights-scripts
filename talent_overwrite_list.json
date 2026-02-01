@@ -471,6 +471,11 @@
 			{ "key": "dyyysg_summon", "cooldown": 20.0, "initCooldown": 3.0 }
 		]
 	},
+	"level_rogue5_b-8": {
+		"enemy_2126_dycyue": [
+			{"key":"dycyue_summon_body","remove":true,"tooltip":null},{"key":"dycyue_card","remove":true,"tooltip":null},{"key":"dycyue_summon_sword","initCooldown":5,"cooldown":25}
+		]
+	},
 	"level_rogue5_ev-1": {
 		"enemy_2107_dycant": [{ "key": "dycant_transform", "value": 158 }]
 	},
@@ -631,6 +636,42 @@
 				"max": 7
 			}
 		]
+	},
+	"level_rogue5_sv-13": {
+		"enemy_1080_sotidp_2": [
+			{
+				"key": "guerilla_herald_buff",
+				"effects": {
+					"targets": ["ALL"],
+					"activeTargets": [
+						{ "key": "enemy_1080_sotidp", "count": 1 },
+						{ "key": "enemy_1080_sotidp_2", "count": 1 }
+					],
+					"mods": [
+						{ "key": "atk", "value": 0.1, "order": "initial", "mode": "mul" },
+						{ "key": "def", "value": 600, "order": "initial", "mode": "add" }
+					],
+					"stackType": "add"
+				},
+				"tooltip": {
+					"en": [
+						"Buff - Grants all enemies ATK +10%, DEF +$600$",
+						"Effect stacks with other Heralds",
+						"Activates special abilities of Guerilla Squad"
+					],
+					"ja": [
+						"バフ→ 敵全体の攻撃力10%＆防御力$600$増加 (重複する) ",
+						"遊撃隊に特殊強化"
+					],
+					"zh": [
+						"在场时，所有敌军获得战术命令，同时提升10%攻击力并增加$600$防御力"
+					]
+				}
+			}
+		]
+	},
+	"level_rogue5_sv-14": {
+		"enemy_1303_mhshep_b": [{ "key": "standby", "standby": 0 }]
 	},
 	"level_rogue5_2-2": {
 		"enemy_1303_mhshep_a": [{ "key": "standby", "standby": 115 }],

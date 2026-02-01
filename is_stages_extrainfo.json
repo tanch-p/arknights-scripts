@@ -24244,7 +24244,7 @@
 		"name_en": null,
 		"category": null,
 		"floors": [5],
-		"addInfo_zh": null,
+		"addInfo_zh": ["N18追加敌人：第一波次：认真的“阿咬”×1"],
 		"addInfo_ja": null,
 		"addInfo_en": null,
 		"eliteDesc_zh": null,
@@ -24348,7 +24348,7 @@
 		"name_en": null,
 		"category": null,
 		"floors": [5],
-		"addInfo_zh": null,
+		"addInfo_zh": ["N18追加敌人：新硎×1、恶语×6、飘香×8"],
 		"addInfo_ja": null,
 		"addInfo_en": null,
 		"eliteDesc_zh": null,
@@ -24410,7 +24410,9 @@
 		"name_en": null,
 		"category": null,
 		"floors": [6],
-		"addInfo_zh": null,
+		"addInfo_zh": [
+			"N18追加敌人：山海众头目×12、山海众窥魅人×6、“破坚”×8，初始额外部署7枚包围右上和右中高台的瑕"
+		],
 		"addInfo_ja": null,
 		"addInfo_en": null,
 		"eliteDesc_zh": null,
@@ -29700,7 +29702,10 @@
 			"敵全員の最大HP・攻撃力・防御力+20%、移動速度+50%",
 			"戦場中央に「彫鬼」が出現、50秒ごとに<似獣>を召喚する"
 		],
-		"eliteDesc_en": ["All enemy units have +20% ATK, +20% DEF, +20% Max HP and +50% Movespeed","Additional 1 Statuegeist appears and summons 1 <Pseudomut> every 50s"],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% DEF, +20% Max HP and +50% Movespeed",
+			"Additional 1 Statuegeist appears and summons 1 <Pseudomut> every 50s"
+		],
 		"all_mods": [
 			{
 				"targets": ["trap_222_rgdysm#1"],
@@ -29797,10 +29802,12 @@
 			"雕伥每30s召唤一个角兽"
 		],
 		"addInfo_ja": [
-			"【鴨爵の金幣】隠し敵が<マルッコ>に固定され、出現が早くなる","彫鬼は30秒ごとに<ツノシゲミ>一体を召喚する"
+			"【鴨爵の金幣】隠し敵が<マルッコ>に固定され、出現が早くなる",
+			"彫鬼は30秒ごとに<ツノシゲミ>一体を召喚する"
 		],
 		"addInfo_en": [
-			"Duck Coin - bonus enemy fixed to summon Fatty, and appears earlier","Statuegeist summons 1 Hornbeast every 30s"
+			"Duck Coin - bonus enemy fixed to summon Fatty, and appears earlier",
+			"Statuegeist summons 1 Hornbeast every 30s"
 		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力+20%，生命值+50%",
@@ -29810,7 +29817,10 @@
 			"敵全員の最大HP+50%、攻撃力+20%",
 			"すべての<キバタケリ>が<猛進キバタケリ>に変化"
 		],
-		"eliteDesc_en": ["All enemy units have +20% ATK and +50% Max HP","All <Direswine> is replaced with <Raging Direswine>"],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK and +50% Max HP",
+			"All <Direswine> is replaced with <Raging Direswine>"
+		],
 		"all_mods": [
 			{
 				"targets": ["trap_222_rgdysm#1"],
@@ -29927,7 +29937,11 @@
 			"追加で<墨浪>1体と<心涛>が出現",
 			"防衛ライン左下に「彫鬼」が出現、15秒ごとに<便符>を召喚する"
 		],
-		"eliteDesc_en": ["All enemy units have +30% ATK, +30% DEF and +60% Max HP","Additional 1 <Inkwave> and 1 <Heartbillow> appear","Additional 1 Statuegeist appears and summons 1 <Talisman> every 15s"],
+		"eliteDesc_en": [
+			"All enemy units have +30% ATK, +30% DEF and +60% Max HP",
+			"Additional 1 <Inkwave> and 1 <Heartbillow> appear",
+			"Additional 1 Statuegeist appears and summons 1 <Talisman> every 15s"
+		],
 		"all_mods": null,
 		"normal_mods": null,
 		"elite_mods": [
@@ -30058,7 +30072,11 @@
 			"<浄化の炎>の攻撃力さらに+50%",
 			"戦場最上部に「彫鬼」が出現、15秒ごとに<便符>を召喚する"
 		],
-		"eliteDesc_en": ["All enemy units have +40% ATK, +20% DEF and +40% Max HP","<Purifying Flames> have additional +50% ATK","Additional 1 Statuegeist appears and summons 1 <Talisman> every 15s"],
+		"eliteDesc_en": [
+			"All enemy units have +40% ATK, +20% DEF and +40% Max HP",
+			"<Purifying Flames> have additional +50% ATK",
+			"Additional 1 Statuegeist appears and summons 1 <Talisman> every 15s"
+		],
 		"all_mods": null,
 		"normal_mods": null,
 		"elite_mods": [
@@ -30179,7 +30197,11 @@
 			"配置不可マスに「盾と壁」2つが出現",
 			"戦場左上の囲障の左に「彫鬼」が出現、20秒ごとに<バクダンダネ>を召喚する"
 		],
-		"eliteDesc_en": ["All enemy units have +20% ATK, +20% DEF and +20% Max HP","Additional 2 <Shield and Wall> appears","Additional 1 Statuegeist appears and summons 1 <Cabbage Seedling> every 20s"],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% DEF and +20% Max HP",
+			"Additional 2 <Shield and Wall> appears",
+			"Additional 1 Statuegeist appears and summons 1 <Cabbage Seedling> every 20s"
+		],
 		"all_mods": [
 			{
 				"targets": ["trap_222_rgdysm#1"],
@@ -30276,7 +30298,10 @@
 		"name_en": null,
 		"category": null,
 		"floors": [4],
-		"addInfo_zh": ["【鸭爵金币】固定出现<高普尼克>，且提早出现"],
+		"addInfo_zh": [
+			"【鸭爵金币】固定出现<高普尼克>，且提早出现",
+			"N18追加敌人：提亚卡乌冠军×2、山海众连阵者×2、山海众头目×2、山海众窥魅人×3、朗姆酒推荐者×6"
+		],
 		"addInfo_ja": [
 			"【鴨爵の金幣】隠し敵が<ゴプニク>に固定され、出現が早くなる"
 		],
@@ -30293,7 +30318,11 @@
 			"<ティアカウ勇士>と<ティアカウチャンピオン>の攻撃力さらに+50%",
 			"都市防衛柵の間に「彫鬼」が出現、30秒ごとに<ティアカウ猛攻兵>を召喚する"
 		],
-		"eliteDesc_en": ["All enemy units have +20% ATK, +20% DEF and +20% Max HP","<Tiacauh Brave> and <Tiacauh Champion> have additional +50% ATK","Additional 1 Statuegeist appears and summons 1 <Tiacauh Fanatic> every 30s"],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% DEF and +20% Max HP",
+			"<Tiacauh Brave> and <Tiacauh Champion> have additional +50% ATK",
+			"Additional 1 Statuegeist appears and summons 1 <Tiacauh Fanatic> every 30s"
+		],
 		"all_mods": [
 			{
 				"targets": ["trap_222_rgdysm#1"],
@@ -30430,7 +30459,10 @@
 		"name_en": null,
 		"category": null,
 		"floors": [4],
-		"addInfo_zh": ["【鸭爵金币】固定出现<圆仔>，且提早出现"],
+		"addInfo_zh": [
+			"【鸭爵金币】固定出现<圆仔>，且提早出现",
+			"N18追加敌人：寻路者突击手×8、寻路者阵地撕裂者×6"
+		],
 		"addInfo_ja": [
 			"【鴨爵の金幣】隠し敵が<マルッコ>に固定され、出現が早くなる"
 		],
@@ -30447,7 +30479,11 @@
 			"<祝祭のおやつカート>の最大HPさらに+50%",
 			"戦場中央下段エリアに「彫鬼」が出現、15秒ごとに<祝祭のおやつカート>を召喚する"
 		],
-		"eliteDesc_en": ["All enemy units have +40% ATK, +40% DEF and +40% Max HP","<Carnevale Snack Cart> has additional +50% Max HP","Additional 1 Statuegeist appears and summons 1 <Carnevale Snack Cart> every 15s"],
+		"eliteDesc_en": [
+			"All enemy units have +40% ATK, +40% DEF and +40% Max HP",
+			"<Carnevale Snack Cart> has additional +50% Max HP",
+			"Additional 1 Statuegeist appears and summons 1 <Carnevale Snack Cart> every 15s"
+		],
 		"all_mods": [
 			{
 				"targets": ["trap_222_rgdysm#1"],
@@ -30591,10 +30627,12 @@
 		"floors": [4],
 		"addInfo_zh": [
 			"【鸭爵金币】固定出现<流泪小子>，且提早出现",
-			"雕伥每20s召唤一个微核沉积者"
+			"雕伥每20s召唤一个微核沉积者",
+			"N18追加敌人：微核沉积者×10、复核洋流使者×2、似兽×4 "
 		],
 		"addInfo_ja": [
-			"【鴨爵の金幣】隠し敵が<涙目の坊や>に固定され、出現が早くなる","彫鬼は20秒ごとに<小核のデポジッター>一体を召喚する"
+			"【鴨爵の金幣】隠し敵が<涙目の坊や>に固定され、出現が早くなる",
+			"彫鬼は20秒ごとに<小核のデポジッター>一体を召喚する"
 		],
 		"addInfo_en": [
 			"Duck Coin - bonus enemy fixed to summon Crying Thief, and appears earlier",
@@ -30611,7 +30649,12 @@
 			"「彫鬼」の最大HPさらに+100%",
 			"すべての<複核のヘラルド>が<異光体ヘラルド>に変化"
 		],
-		"eliteDesc_en": ["All enemy units have +20% ATK, +20% DEF and +20% Max HP","All <Exocellular Depositor> have additional +50% Max HP","All <Statuegeist> have additional +100% Max HP","All <Multicellular Herald> are replaced with <Allotropic Herald>"],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% DEF and +20% Max HP",
+			"All <Exocellular Depositor> have additional +50% Max HP",
+			"All <Statuegeist> have additional +100% Max HP",
+			"All <Multicellular Herald> are replaced with <Allotropic Herald>"
+		],
 		"all_mods": [
 			{
 				"targets": ["trap_222_rgdysm#1"],
@@ -30755,7 +30798,10 @@
 		"name_en": null,
 		"category": null,
 		"floors": [4],
-		"addInfo_zh": ["【鸭爵金币】固定出现<鸭爵>，且提早出现"],
+		"addInfo_zh": [
+			"【鸭爵金币】固定出现<鸭爵>，且提早出现",
+			"N18追加敌人：寻路者术师×2、战线推进者×4、战线突破者×4、爆炸追寻者×1、压力舒缓帮手×4"
+		],
 		"addInfo_ja": ["【鴨爵の金幣】隠し敵がダック卿に固定され、出現が早くなる"],
 		"addInfo_en": [
 			"Duck Coin - bonus enemy fixed to summon Duck Lord, and appears earlier"
@@ -30770,7 +30816,11 @@
 			"<爆発探求者>1体が右側通路に初期配置",
 			"戦場下通路に「彫鬼」2つが出現、20秒ごとに<便符>を召喚する"
 		],
-		"eliteDesc_en": ["All enemy units have +30% ATK, +30% DEF and +30% Max HP","Additional 1 <Explosion Chaser> appears at the start","Additional 2 Statuegeist appears and summons 1 <Talisman> every 20s"],
+		"eliteDesc_en": [
+			"All enemy units have +30% ATK, +30% DEF and +30% Max HP",
+			"Additional 1 <Explosion Chaser> appears at the start",
+			"Additional 2 Statuegeist appears and summons 1 <Talisman> every 20s"
+		],
 		"all_mods": [
 			{
 				"targets": ["trap_222_rgdysm"],
@@ -30887,7 +30937,10 @@
 		"name_en": null,
 		"category": null,
 		"floors": [4],
-		"addInfo_zh": ["【鸭爵金币】固定出现<高普尼克>，且提早出现"],
+		"addInfo_zh": [
+			"【鸭爵金币】固定出现<高普尼克>，且提早出现",
+			"N18追加敌人：身观×4、沉沙×4、新硎×4、竞赛级沙滩车×6"
+		],
 		"addInfo_ja": [
 			"【鴨爵の金幣】隠し敵が<ゴプニク>に固定され、出現が早くなる"
 		],
@@ -30904,7 +30957,11 @@
 			"<清明>と<堂皇>の最大HPさらに+100%",
 			"戦場左エリアに「彫鬼」2つが出現、15秒ごとに<便符>を召喚する"
 		],
-		"eliteDesc_en": ["All enemy units have +20% ATK, +20% DEF and +30% Max HP","All <Clarity> and <Magnificence> havev additional +100% Max HP","Additional 2 Statuegeist appears and summons 1 <Talisman> every 15s"],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% DEF and +30% Max HP",
+			"All <Clarity> and <Magnificence> havev additional +100% Max HP",
+			"Additional 2 Statuegeist appears and summons 1 <Talisman> every 15s"
+		],
 		"all_mods": [
 			{
 				"targets": ["trap_097_hstone"],
@@ -31059,7 +31116,10 @@
 		"name_en": null,
 		"category": null,
 		"floors": [4],
-		"addInfo_zh": ["【鸭爵金币】固定出现<圆仔>，且提早出现"],
+		"addInfo_zh": [
+			"【鸭爵金币】固定出现<圆仔>，且提早出现",
+			"N18追加敌人：倾轧者×5、家族恫吓者×4、重弩猎杀者×2、灰烬造物×2"
+		],
 		"addInfo_ja": [
 			"【鴨爵の金幣】隠し敵が<マルッコ>に固定され、出現が早くなる"
 		],
@@ -31076,7 +31136,11 @@
 			"<灰燼の創造物>2体が戦場中央に初期配置",
 			"戦場左下に「彫鬼」が出現、20秒ごとに<便符>を召喚する"
 		],
-		"eliteDesc_en": ["All enemy units have +10% ATK, +20% DEF, +20% Max HP and +20% Movespeed","Additional 2 <Ash Creation> appear at the start","Additional 1 Statuegeist appears and summons 1 <Talisman> every 20s"],
+		"eliteDesc_en": [
+			"All enemy units have +10% ATK, +20% DEF, +20% Max HP and +20% Movespeed",
+			"Additional 2 <Ash Creation> appear at the start",
+			"Additional 1 Statuegeist appears and summons 1 <Talisman> every 20s"
+		],
 		"all_mods": [
 			{
 				"targets": ["trap_222_rgdysm#1"],
@@ -31178,7 +31242,11 @@
 		"name_en": null,
 		"category": null,
 		"floors": [5],
-		"addInfo_zh": ["【鸭爵金币】固定出现<鸭爵>，且提早出现"],
+		"addInfo_zh": [
+			"【鸭爵金币】固定出现<鸭爵>，且提早出现",
+			"【晦】属性“得意”天赋中的所有倍率失效（变为100%）",
+			"N18追加敌人：“偷闲”×4、“得意”×7、“得意”(晦)×7"
+		],
 		"addInfo_ja": ["【鴨爵の金幣】隠し敵がダック卿に固定され、出現が早くなる"],
 		"addInfo_en": [
 			"Duck Coin - bonus enemy fixed to summon Duck Lord, and appears earlier"
@@ -31193,7 +31261,11 @@
 			"<「ヤマツミ」>と<「オニビ」>の最大HPさらに+100%",
 			"戦場中央に「彫鬼」が出現、15秒ごとに<便符>を召喚する"
 		],
-		"eliteDesc_en": ["All enemy units have +50% ATK, +20% DEF and +50% Max HP","All <'Lazy'> and <'Smarty'> have additional +100% Max HP","Additional 1 Statuegeist appears and summons 1 <Talisman> every 15s"],
+		"eliteDesc_en": [
+			"All enemy units have +50% ATK, +20% DEF and +50% Max HP",
+			"All <'Lazy'> and <'Smarty'> have additional +100% Max HP",
+			"Additional 1 Statuegeist appears and summons 1 <Talisman> every 15s"
+		],
 		"all_mods": null,
 		"normal_mods": null,
 		"elite_mods": [
@@ -31326,7 +31398,8 @@
 		"floors": [5],
 		"addInfo_zh": [
 			"初始部署费用上限降低至50",
-			"【鸭爵金币】固定出现<流泪小子>，且提早出现"
+			"【鸭爵金币】固定出现<流泪小子>，且提早出现",
+			"N18追加敌人：萨卡兹哨兵组长×2、萨卡兹恶咒者×4"
 		],
 		"addInfo_ja": [
 			"初期コスト上限が50になる",
@@ -31346,7 +31419,11 @@
 			"<偵察密偵隊長>が50%の確率で<武装密偵隊長>に変化",
 			"追加で「彫鬼」が出現、30秒ごとに<サルカズ悖理諜報隊長>を召喚する"
 		],
-		"eliteDesc_en": ["All enemy units have +20% ATK, +20% DEF, and +20% Max HP","All <Pathfinder Spymaster> have 50% chance of being replaced with <Armed Spymaster>","Additional 1 Statuegeist appears and summons 1 <Sarkaz Absurdist Operative Leader> every 30s"],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% DEF, and +20% Max HP",
+			"All <Pathfinder Spymaster> have 50% chance of being replaced with <Armed Spymaster>",
+			"Additional 1 Statuegeist appears and summons 1 <Sarkaz Absurdist Operative Leader> every 30s"
+		],
 		"all_mods": [
 			{
 				"targets": ["trap_222_rgdysm#1"],
@@ -31485,13 +31562,16 @@
 		"floors": [5],
 		"addInfo_zh": [
 			"【鸭爵金币】固定出现<圆仔>，且提早出现",
-			"雕伥每20s召唤一个便符"
+			"雕伥每20s召唤一个便符",
+			"N18追加敌人：全封闭沙滩车×4、翻新投石机×2"
 		],
 		"addInfo_ja": [
-			"【鴨爵の金幣】隠し敵が<マルッコ>に固定され、出現が早くなる","彫鬼は20秒ごとに便符一体を召喚する"
+			"【鴨爵の金幣】隠し敵が<マルッコ>に固定され、出現が早くなる",
+			"彫鬼は20秒ごとに便符一体を召喚する"
 		],
 		"addInfo_en": [
-			"Duck Coin - bonus enemy fixed to summon Fatty, and appears earlier","Statuegeist summons 1 Talisman every 20s"
+			"Duck Coin - bonus enemy fixed to summon Fatty, and appears earlier",
+			"Statuegeist summons 1 Talisman every 20s"
 		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力，防御力，生命值+20%",
@@ -31501,7 +31581,10 @@
 			"敵全員の最大HP・攻撃力・防御力+20%",
 			"<暴走食虫花>2体が中央の通路に初期配置"
 		],
-		"eliteDesc_en": ["All enemy units have +20% ATK, +20% DEF, and +20% Max HP","Additional 2 <Raging Slug Eater> appear at the start"],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% DEF, and +20% Max HP",
+			"Additional 2 <Raging Slug Eater> appear at the start"
+		],
 		"all_mods": [
 			{
 				"targets": ["trap_222_rgdysm"],
@@ -31597,7 +31680,10 @@
 		"name_en": null,
 		"category": null,
 		"floors": [5],
-		"addInfo_zh": ["【鸭爵金币】固定出现<高普尼克>，且提早出现"],
+		"addInfo_zh": [
+			"【鸭爵金币】固定出现<高普尼克>，且提早出现",
+			"N18追加敌人：腐败之种×36、高准度伦蒂尼姆城防自行炮×7、腐败萃聚使徒×3"
+		],
 		"addInfo_ja": [
 			"【鴨爵の金幣】隠し敵が<ゴプニク>に固定され、出現が早くなる"
 		],
@@ -31614,7 +31700,11 @@
 			"戦場左上と右上エリアに<フリー傭兵「リードギター」>12体が出現",
 			"追加で「彫鬼」が2つ出現、15秒ごとに<便符>を召喚する"
 		],
-		"eliteDesc_en": ["All enemy units have +20% ATK, +20% DEF, +50% Max HP and Weight +1","Additional 12 <Rogue Mercenary 'Lead Guitar'> appear at the start","Additional 2 Statuegeist appears and summons 1 <Talisman> every 15s"],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% DEF, +50% Max HP and Weight +1",
+			"Additional 12 <Rogue Mercenary 'Lead Guitar'> appear at the start",
+			"Additional 2 Statuegeist appears and summons 1 <Talisman> every 15s"
+		],
 		"all_mods": null,
 		"normal_mods": null,
 		"elite_mods": [
@@ -31735,13 +31825,16 @@
 		"floors": [5],
 		"addInfo_zh": [
 			"【鸭爵金币】固定出现<流泪小子>，且提早出现",
-			"雕伥每20s召唤一个便符"
+			"雕伥每20s召唤一个便符",
+			"N18额外刷新1个雕伥，追加敌人：殉亡魂灵圣杯×4"
 		],
 		"addInfo_ja": [
-			"【鴨爵の金幣】隠し敵が<涙目の坊や>に固定され、出現が早くなる","彫鬼は20秒ごとに便符一体を召喚する"
+			"【鴨爵の金幣】隠し敵が<涙目の坊や>に固定され、出現が早くなる",
+			"彫鬼は20秒ごとに便符一体を召喚する"
 		],
 		"addInfo_en": [
-			"Duck Coin - bonus enemy fixed to summon Crying Thief, and appears earlier","Statuegeist summons 1 Talisman every 20s"
+			"Duck Coin - bonus enemy fixed to summon Crying Thief, and appears earlier",
+			"Statuegeist summons 1 Talisman every 20s"
 		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力+30%，生命值+50%",
@@ -31753,7 +31846,11 @@
 			"「彫鬼」の最大HPさらに+100%",
 			"<狂化寄生投骨兵>3体が追加で出現"
 		],
-		"eliteDesc_en": ["All enemy units have +30% ATK and +50% Max HP","All <Statuegeist> have additional +100% Max HP","Additional 3 <Enraged Possessed Bonethrower> appear"],
+		"eliteDesc_en": [
+			"All enemy units have +30% ATK and +50% Max HP",
+			"All <Statuegeist> have additional +100% Max HP",
+			"Additional 3 <Enraged Possessed Bonethrower> appear"
+		],
 		"all_mods": [
 			{
 				"targets": ["trap_222_rgdysm"],
@@ -31869,7 +31966,10 @@
 		"name_en": null,
 		"category": null,
 		"floors": [5],
-		"addInfo_zh": ["【鸭爵金币】固定出现<圆仔>，且提早出现"],
+		"addInfo_zh": [
+			"【鸭爵金币】固定出现<圆仔>，且提早出现",
+			"N18追加敌人：招财×9、无谓×20"
+		],
 		"addInfo_ja": [
 			"【鴨爵の金幣】隠し敵が<マルッコ>に固定され、出現が早くなる"
 		],
@@ -31888,7 +31988,12 @@
 			"<無謂>10体が追加で出現",
 			"追加で「彫鬼」2つが出現、20秒ごとに<便符>を召喚する"
 		],
-		"eliteDesc_en": ["All enemy units have +20% ATK, +30% DEF and +30% Max HP","All <'Fasting'> gains stealth","Additional 10 <Vapidity> appears","Additional 2 Statuegeist appears and summons 1 <Talisman> every 15s"],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +30% DEF and +30% Max HP",
+			"All <'Fasting'> gains stealth",
+			"Additional 10 <Vapidity> appears",
+			"Additional 2 Statuegeist appears and summons 1 <Talisman> every 15s"
+		],
 		"all_mods": null,
 		"normal_mods": null,
 		"elite_mods": [
@@ -32024,7 +32129,10 @@
 		"name_en": null,
 		"category": null,
 		"floors": [6],
-		"addInfo_zh": ["【鸭爵金币】固定出现<高普尼克>，且提早出现"],
+		"addInfo_zh": [
+			"【鸭爵金币】固定出现<高普尼克>，且提早出现",
+			"N18追加敌人：飘香×4、平剑客×2"
+		],
 		"addInfo_ja": [
 			"【鴨爵の金幣】隠し敵が<ゴプニク>に固定され、出現が早くなる"
 		],
@@ -32041,7 +32149,11 @@
 			"<漂香>が追加で3体出現し、最大HPさらに+100%",
 			"破棄された竈台の右上に「彫鬼」が出現、15秒ごとに<無謂>を召喚する"
 		],
-		"eliteDesc_en": ["All enemy units have +50% ATK, +30% DEF and +20% Max HP","Additional 3 <Drifting Aroma> appear and all have additional +100% Max HP","Additional 1 Statuegeist appears and summons 1 <Vapidity> every 15s"],
+		"eliteDesc_en": [
+			"All enemy units have +50% ATK, +30% DEF and +20% Max HP",
+			"Additional 3 <Drifting Aroma> appear and all have additional +100% Max HP",
+			"Additional 1 Statuegeist appears and summons 1 <Vapidity> every 15s"
+		],
 		"all_mods": [
 			{
 				"targets": ["trap_222_rgdysm#1"],
@@ -32197,13 +32309,16 @@
 		"floors": [6],
 		"addInfo_zh": [
 			"【鸭爵金币】固定出现<流泪小子>，且提早出现",
-			"雕伥每60s召唤一个竞赛级沙滩车"
+			"雕伥每60s召唤一个竞赛级沙滩车",
+			"N18追加敌人：竞赛级沙滩车×3、马特奥的近卫×3"
 		],
 		"addInfo_ja": [
-			"【鴨爵の金幣】隠し敵が<涙目の坊や>に固定され、出現が早くなる","彫鬼は60秒ごとに<レーシングサンドバギー>一体を召喚する"
+			"【鴨爵の金幣】隠し敵が<涙目の坊や>に固定され、出現が早くなる",
+			"彫鬼は60秒ごとに<レーシングサンドバギー>一体を召喚する"
 		],
 		"addInfo_en": [
-			"Duck Coin - bonus enemy fixed to summon Crying Thief, and appears earlier","Statuegeist summons 1 <Competitive-Grade Beach Buggy> every 60s"
+			"Duck Coin - bonus enemy fixed to summon Crying Thief, and appears earlier",
+			"Statuegeist summons 1 <Competitive-Grade Beach Buggy> every 60s"
 		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力+20%，防御力+20%，生命值+20%",
@@ -32215,7 +32330,11 @@
 			"<マッテオの近衛兵>3体が追加で初期配置される",
 			"すべての<重型クロスボウ猛襲者>が<戦線突破兵>に変化"
 		],
-		"eliteDesc_en": ["All enemy units have +20% ATK, +20% DEF and +20% Max HP","All <Heavy Crossbowman Hunter> are replaced with <Battleline Breacher>","Additional 3 <Mateo's Guard> appear at the start"],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% DEF and +20% Max HP",
+			"All <Heavy Crossbowman Hunter> are replaced with <Battleline Breacher>",
+			"Additional 3 <Mateo's Guard> appear at the start"
+		],
 		"all_mods": [
 			{
 				"targets": ["trap_222_rgdysm#1"],
@@ -32319,7 +32438,7 @@
 		"name_en": null,
 		"category": null,
 		"floors": [5],
-		"addInfo_zh": null,
+		"addInfo_zh": ["N18追加敌人：第一波次：山海众连阵者×3、山海众秘使×6"],
 		"addInfo_ja": null,
 		"addInfo_en": null,
 		"eliteDesc_zh": null,
@@ -32419,10 +32538,15 @@
 		"category": null,
 		"floors": [5],
 		"addInfo_zh": [
-			"战斗中期，左侧场地左下化境地块与右上化境地块各自在相邻的不可部署地块刷新1个雕伥，每10s召唤一个除秽"
+			"战斗中期，左侧场地左下化境地块与右上化境地块各自在相邻的不可部署地块刷新1个雕伥，每10s召唤一个除秽",
+			"追加敌人：赤霞×5、新硎×4、山海众秘使×2"
 		],
-		"addInfo_ja": ["戦闘中盤、追加で彫鬼二体が出現、10秒ごとに<除穢>を召喚する"],
-		"addInfo_en": ["Halfway through the battle, additional 2 Statuegeist appear, summons <Expelled Filth> every 10s"],
+		"addInfo_ja": [
+			"戦闘中盤、追加で彫鬼二体が出現、10秒ごとに<除穢>を召喚する"
+		],
+		"addInfo_en": [
+			"Halfway through the battle, additional 2 Statuegeist appear, summons <Expelled Filth> every 10s"
+		],
 		"eliteDesc_zh": null,
 		"eliteDesc_ja": null,
 		"eliteDesc_en": null,
@@ -32492,7 +32616,10 @@
 		"name_en": null,
 		"category": null,
 		"floors": [6],
-		"addInfo_zh": null,
+		"addInfo_zh": [
+			"N18追加敌人：“碎壁”×12、“越长尘”×3、山海众秘使×12",
+			"N16及以上时，后兽召唤：山海众秘使x10，无羁的“盛怒”x4，似兽x8"
+		],
 		"addInfo_ja": null,
 		"addInfo_en": null,
 		"eliteDesc_zh": null,
@@ -33320,8 +33447,16 @@
 			"可移动战术机库左侧两格额外出现2个道路障碍物",
 			"战斗开始后出现1个雕伥，每20s召唤一个感染者纠察官"
 		],
-		"eliteDesc_ja": ["敵全員の攻撃力+10%、防御力+10%、最大HP+30%","追加で道路障害物2個が出現","追加で「彫鬼」が出現、20秒ごとに<感染者監視官>を召喚する"],
-		"eliteDesc_en": ["All enemy units have +10% ATK, +10% DEF, +30% Max HP","Additional 2 <Static Roadblock> appears","Additional 1 Statuegeist appears and summons 1 <Infected Patrol Captain> every 20s"],
+		"eliteDesc_ja": [
+			"敵全員の攻撃力+10%、防御力+10%、最大HP+30%",
+			"追加で道路障害物2個が出現",
+			"追加で「彫鬼」が出現、20秒ごとに<感染者監視官>を召喚する"
+		],
+		"eliteDesc_en": [
+			"All enemy units have +10% ATK, +10% DEF, +30% Max HP",
+			"Additional 2 <Static Roadblock> appears",
+			"Additional 1 Statuegeist appears and summons 1 <Infected Patrol Captain> every 20s"
+		],
 		"all_mods": [
 			{
 				"targets": ["system"],
@@ -33584,7 +33719,7 @@
 		"name_en": null,
 		"category": null,
 		"floors": [6],
-		"addInfo_zh": ["雕伥每50s召唤一个“越长尘”"],
+		"addInfo_zh": ["雕伥每50s召唤一个“越长尘”", "N18追加敌人：山海众秘使×1"],
 		"addInfo_ja": ["彫鬼は50秒ごとに<「長塵」>一体を召喚する"],
 		"addInfo_en": ["Statuegeist summons 1 'Sand Voyager' every 50s"],
 		"eliteDesc_zh": [
@@ -33779,7 +33914,7 @@
 		"name_en": null,
 		"category": null,
 		"floors": [6],
-		"addInfo_zh": null,
+		"addInfo_zh": ["N18追加敌人：“饱食”×6、飘香×6、招财×3、无谓×30"],
 		"addInfo_ja": null,
 		"addInfo_en": null,
 		"eliteDesc_zh": [
@@ -35170,5 +35305,1489 @@
 			}
 		],
 		"elite_enemy_list": null
+	},
+	"level_rogue5_b-8": {
+		"levelId": "level_rogue5_b-8",
+		"code": "ISW-DF",
+		"name_zh": "录忆",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [3, 4, 5],
+		"addInfo_zh": ["N18追加敌人：“碎壁”×7"],
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [56],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_2126_dycyue",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_1298_ymmonk_2",
+				"min_count": 10,
+				"max_count": 10
+			},
+			{
+				"key": "enemy_1301_ymcnon_2",
+				"min_count": 8,
+				"max_count": 8
+			},
+			{
+				"key": "enemy_1295_ymph_2",
+				"min_count": 16,
+				"max_count": 16
+			},
+			{
+				"key": "enemy_1299_ymkilr_2",
+				"min_count": 18,
+				"max_count": 18
+			},
+			{
+				"key": "enemy_1302_ymtro_2",
+				"min_count": 4,
+				"max_count": 4
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue5_b-9-a": {
+		"levelId": "level_rogue5_b-9-a",
+		"code": "ISW-DF",
+		"name_zh": "止变",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [6, 7],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": [
+			{
+				"targets": ["enemy_2130_dyswrd"],
+				"mods": [
+					{
+						"key": "hp",
+						"value": 1.5,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["enemy_2131_dyfire"],
+				"mods": [
+					{
+						"key": "hp",
+						"value": 1.5,
+						"mode": "mul"
+					}
+				]
+			}
+		],
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [208],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_2126_dycyue",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_2118_dylbhm",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_2105_dyrnge",
+				"min_count": 18,
+				"max_count": 18
+			},
+			{
+				"key": "enemy_10007_trspsb_2",
+				"min_count": 26,
+				"max_count": 26
+			},
+			{
+				"key": "enemy_2102_dytmbr",
+				"min_count": 20,
+				"max_count": 20
+			},
+			{
+				"key": "enemy_2103_dykens",
+				"min_count": 10,
+				"max_count": 10
+			},
+			{
+				"key": "enemy_1205_sfpin_2",
+				"min_count": 10,
+				"max_count": 10
+			},
+			{
+				"key": "enemy_1203_sfhu_2",
+				"min_count": 13,
+				"max_count": 13
+			},
+			{
+				"key": "enemy_1301_ymcnon_2",
+				"min_count": 6,
+				"max_count": 6
+			},
+			{
+				"key": "enemy_1299_ymkilr_2",
+				"min_count": 32,
+				"max_count": 32
+			},
+			{
+				"key": "enemy_10058_cjfrog_2",
+				"min_count": 6,
+				"max_count": 6
+			},
+			{
+				"key": "enemy_1295_ymph_2",
+				"min_count": 24,
+				"max_count": 24
+			},
+			{
+				"key": "enemy_1209_sfden_2",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_1300_ymmir_2",
+				"min_count": 6,
+				"max_count": 6
+			},
+			{
+				"key": "enemy_1125_spshld_2",
+				"min_count": 14,
+				"max_count": 14
+			},
+			{
+				"key": "enemy_2104_dycast",
+				"min_count": 9,
+				"max_count": 9
+			},
+			{
+				"key": "enemy_1207_sfji_2",
+				"min_count": 9,
+				"max_count": 9
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue5_b-9-b": {
+		"levelId": "level_rogue5_b-9-b",
+		"code": "ISW-DF",
+		"name_zh": "止变",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [6, 7],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": [
+			{
+				"targets": ["enemy_2130_dyswrd"],
+				"mods": [
+					{
+						"key": "hp",
+						"value": 1.5,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["enemy_2131_dyfire"],
+				"mods": [
+					{
+						"key": "hp",
+						"value": 1.5,
+						"mode": "mul"
+					}
+				]
+			}
+		],
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [208],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_2126_dycyue",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_2105_dyrnge",
+				"min_count": 18,
+				"max_count": 18
+			},
+			{
+				"key": "enemy_10007_trspsb_2",
+				"min_count": 26,
+				"max_count": 26
+			},
+			{
+				"key": "enemy_2102_dytmbr",
+				"min_count": 20,
+				"max_count": 20
+			},
+			{
+				"key": "enemy_2103_dykens",
+				"min_count": 10,
+				"max_count": 10
+			},
+			{
+				"key": "enemy_2119_dyshhj",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_1205_sfpin_2",
+				"min_count": 10,
+				"max_count": 10
+			},
+			{
+				"key": "enemy_1203_sfhu_2",
+				"min_count": 13,
+				"max_count": 13
+			},
+			{
+				"key": "enemy_1301_ymcnon_2",
+				"min_count": 6,
+				"max_count": 6
+			},
+			{
+				"key": "enemy_1299_ymkilr_2",
+				"min_count": 32,
+				"max_count": 32
+			},
+			{
+				"key": "enemy_10058_cjfrog_2",
+				"min_count": 6,
+				"max_count": 6
+			},
+			{
+				"key": "enemy_2127_dysuih",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_1295_ymph_2",
+				"min_count": 24,
+				"max_count": 24
+			},
+			{
+				"key": "enemy_1209_sfden_2",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_1300_ymmir_2",
+				"min_count": 6,
+				"max_count": 6
+			},
+			{
+				"key": "enemy_1125_spshld_2",
+				"min_count": 14,
+				"max_count": 14
+			},
+			{
+				"key": "enemy_2104_dycast",
+				"min_count": 9,
+				"max_count": 9
+			},
+			{
+				"key": "enemy_1207_sfji_2",
+				"min_count": 9,
+				"max_count": 9
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue5_b-9-c": {
+		"levelId": "level_rogue5_b-9-c",
+		"code": "ISW-DF",
+		"name_zh": "止变",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [6, 7],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": [
+			{
+				"targets": ["enemy_2130_dyswrd"],
+				"mods": [
+					{
+						"key": "hp",
+						"value": 1.5,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["enemy_2131_dyfire"],
+				"mods": [
+					{
+						"key": "hp",
+						"value": 1.5,
+						"mode": "mul"
+					}
+				]
+			}
+		],
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [208],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_2126_dycyue",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_2120_dywqgs",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_2105_dyrnge",
+				"min_count": 18,
+				"max_count": 18
+			},
+			{
+				"key": "enemy_10007_trspsb_2",
+				"min_count": 26,
+				"max_count": 26
+			},
+			{
+				"key": "enemy_2102_dytmbr",
+				"min_count": 20,
+				"max_count": 20
+			},
+			{
+				"key": "enemy_2103_dykens",
+				"min_count": 10,
+				"max_count": 10
+			},
+			{
+				"key": "enemy_1205_sfpin_2",
+				"min_count": 10,
+				"max_count": 10
+			},
+			{
+				"key": "enemy_1203_sfhu_2",
+				"min_count": 13,
+				"max_count": 13
+			},
+			{
+				"key": "enemy_1301_ymcnon_2",
+				"min_count": 6,
+				"max_count": 6
+			},
+			{
+				"key": "enemy_1299_ymkilr_2",
+				"min_count": 32,
+				"max_count": 32
+			},
+			{
+				"key": "enemy_10058_cjfrog_2",
+				"min_count": 6,
+				"max_count": 6
+			},
+			{
+				"key": "enemy_1295_ymph_2",
+				"min_count": 24,
+				"max_count": 24
+			},
+			{
+				"key": "enemy_1209_sfden_2",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_1300_ymmir_2",
+				"min_count": 6,
+				"max_count": 6
+			},
+			{
+				"key": "enemy_1125_spshld_2",
+				"min_count": 14,
+				"max_count": 14
+			},
+			{
+				"key": "enemy_2104_dycast",
+				"min_count": 9,
+				"max_count": 9
+			},
+			{
+				"key": "enemy_1207_sfji_2",
+				"min_count": 9,
+				"max_count": 9
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue5_b-9-d": {
+		"levelId": "level_rogue5_b-9-d",
+		"code": "ISW-DF",
+		"name_zh": "止变",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [6, 7],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": [
+			{
+				"targets": ["enemy_2130_dyswrd"],
+				"mods": [
+					{
+						"key": "hp",
+						"value": 1.5,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["enemy_2131_dyfire"],
+				"mods": [
+					{
+						"key": "hp",
+						"value": 1.5,
+						"mode": "mul"
+					}
+				]
+			}
+		],
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [207],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_2126_dycyue",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_2105_dyrnge",
+				"min_count": 18,
+				"max_count": 18
+			},
+			{
+				"key": "enemy_10007_trspsb_2",
+				"min_count": 26,
+				"max_count": 26
+			},
+			{
+				"key": "enemy_2102_dytmbr",
+				"min_count": 20,
+				"max_count": 20
+			},
+			{
+				"key": "enemy_2103_dykens",
+				"min_count": 10,
+				"max_count": 10
+			},
+			{
+				"key": "enemy_1205_sfpin_2",
+				"min_count": 10,
+				"max_count": 10
+			},
+			{
+				"key": "enemy_1203_sfhu_2",
+				"min_count": 13,
+				"max_count": 13
+			},
+			{
+				"key": "enemy_1301_ymcnon_2",
+				"min_count": 6,
+				"max_count": 6
+			},
+			{
+				"key": "enemy_1299_ymkilr_2",
+				"min_count": 32,
+				"max_count": 32
+			},
+			{
+				"key": "enemy_10058_cjfrog_2",
+				"min_count": 6,
+				"max_count": 6
+			},
+			{
+				"key": "enemy_1295_ymph_2",
+				"min_count": 24,
+				"max_count": 24
+			},
+			{
+				"key": "enemy_1209_sfden_2",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_1300_ymmir_2",
+				"min_count": 6,
+				"max_count": 6
+			},
+			{
+				"key": "enemy_1125_spshld_2",
+				"min_count": 14,
+				"max_count": 14
+			},
+			{
+				"key": "enemy_2104_dycast",
+				"min_count": 9,
+				"max_count": 9
+			},
+			{
+				"key": "enemy_1207_sfji_2",
+				"min_count": 9,
+				"max_count": 9
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue5_b-9-e": {
+		"levelId": "level_rogue5_b-9-e",
+		"code": "ISW-DF",
+		"name_zh": "止变",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [6, 7],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": [
+			{
+				"targets": ["enemy_2131_dyfire"],
+				"mods": [
+					{
+						"key": "hp",
+						"value": 1.5,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["enemy_2130_dyswrd"],
+				"mods": [
+					{
+						"key": "hp",
+						"value": 1.5,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "def",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.2,
+						"mode": "mul"
+					}
+				]
+			}
+		],
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [46],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_2127_dysuih",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_2126_dycyue",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_1301_ymcnon_2",
+				"min_count": 12,
+				"max_count": 12
+			},
+			{
+				"key": "enemy_2119_dyshhj",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_1302_ymtro_2",
+				"min_count": 6,
+				"max_count": 6
+			},
+			{
+				"key": "enemy_1207_sfji_2",
+				"min_count": 15,
+				"max_count": 15
+			},
+			{
+				"key": "enemy_1205_sfpin_2",
+				"min_count": 9,
+				"max_count": 9
+			},
+			{
+				"key": "enemy_2118_dylbhm",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_2120_dywqgs",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_2128_dysuib_sp",
+				"min_count": 1,
+				"max_count": 1
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue5_b-10": {
+		"levelId": "level_rogue5_b-10",
+		"code": "ISW-DF",
+		"name_zh": "定乾坤",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [3, 4, 5, 6],
+		"addInfo_zh": [
+			"N18追加敌人：恍惚的“得意”×12、恍惚的“得意”(晦)×12、山海众司魅人×5、不动的“偷闲”×3、“盛怒”×6"
+		],
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [121],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_2126_dycyue",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_1126_spslme_2",
+				"min_count": 10,
+				"max_count": 10
+			},
+			{
+				"key": "enemy_1126_spslme_2_y",
+				"min_count": 10,
+				"max_count": 10
+			},
+			{
+				"key": "enemy_1123_spsbr_2",
+				"min_count": 48,
+				"max_count": 48
+			},
+			{
+				"key": "enemy_10007_trspsb_2",
+				"min_count": 13,
+				"max_count": 13
+			},
+			{
+				"key": "enemy_1209_sfden_2",
+				"min_count": 5,
+				"max_count": 5
+			},
+			{
+				"key": "enemy_1129_spklr",
+				"min_count": 9,
+				"max_count": 9
+			},
+			{
+				"key": "enemy_1300_ymmir_2",
+				"min_count": 5,
+				"max_count": 5
+			},
+			{
+				"key": "enemy_1125_spshld_2",
+				"min_count": 5,
+				"max_count": 5
+			},
+			{
+				"key": "enemy_1207_sfji_2",
+				"min_count": 10,
+				"max_count": 10
+			},
+			{
+				"key": "enemy_10058_cjfrog_2",
+				"min_count": 6,
+				"max_count": 6
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue5_b-10-b": {
+		"levelId": "level_rogue5_b-10-b",
+		"code": "ISW-DF",
+		"name_zh": "定乾坤",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [6, 7],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": [
+			{
+				"targets": ["enemy_2130_dyswrd"],
+				"mods": [
+					{
+						"key": "hp",
+						"value": 1.5,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["enemy_2131_dyfire"],
+				"mods": [
+					{
+						"key": "hp",
+						"value": 1.5,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "def",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.2,
+						"mode": "mul"
+					}
+				]
+			}
+		],
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [72],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_1302_ymtro_2",
+				"min_count": 27,
+				"max_count": 27
+			},
+			{
+				"key": "enemy_2126_dycyue",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_2127_dysuih",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_1301_ymcnon_2",
+				"min_count": 6,
+				"max_count": 6
+			},
+			{
+				"key": "enemy_1205_sfpin_2",
+				"min_count": 24,
+				"max_count": 24
+			},
+			{
+				"key": "enemy_1209_sfden_2",
+				"min_count": 3,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10058_cjfrog_2",
+				"min_count": 12,
+				"max_count": 12
+			},
+			{
+				"key": "enemy_10059_cjgfod",
+				"min_count": 30,
+				"max_count": 30
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue5_sv-13": {
+		"levelId": "level_rogue5_sv-13",
+		"code": "ISW-NO",
+		"name_zh": "时封",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [2, 3, 4, 5],
+		"addInfo_zh": ["雕伥每60s召唤一个利齿鬣犄兽"],
+		"addInfo_ja": ["彫鬼は60秒ごとに<タテガミツキ亜種>一体を召喚する"],
+		"addInfo_en": ["Statuegeist summons 1 Keenfanged Oxmane every 60s"],
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [28],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_1080_sotidp_2",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_1310_mhprpn_2",
+				"min_count": 2,
+				"max_count": 2
+			},
+			{
+				"key": "enemy_1303_mhshep_2",
+				"min_count": 22,
+				"max_count": 22
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue5_sv-14": {
+		"levelId": "level_rogue5_sv-14",
+		"code": "ISW-NO",
+		"name_zh": "遍地福音",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [2, 3, 4, 5],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [19],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_10091_hlsttu_2",
+				"min_count": 3,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1415_mmkabi_2",
+				"min_count": 5,
+				"max_count": 5
+			},
+			{
+				"key": "enemy_1397_dhtsxt_2",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_1303_mhshep_2",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_1303_mhshep_b",
+				"min_count": 6,
+				"max_count": 6
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue5_sv-15": {
+		"levelId": "level_rogue5_sv-15",
+		"code": "ISW-NO",
+		"name_zh": "相合",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [2, 3, 4, 5],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [26],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_10048_prtsld_2",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_2034_sythef",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_1404_msnip_2",
+				"min_count": 6,
+				"max_count": 6
+			},
+			{
+				"key": "enemy_2102_dytmbr",
+				"min_count": 8,
+				"max_count": 8
+			},
+			{
+				"key": "enemy_2103_dykens",
+				"min_count": 5,
+				"max_count": 5
+			},
+			{
+				"key": "enemy_1403_gunsho_2",
+				"min_count": 3,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1408_scotcn_2",
+				"min_count": 2,
+				"max_count": 2
+			},
+			{
+				"key": "enemy_1409_bdguad_2",
+				"min_count": 1,
+				"max_count": 1
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue5_3-6": {
+		"levelId": "level_rogue5_3-6",
+		"code": "ISW-NO",
+		"name_zh": "御外侮",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [3],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+20%，防御力+20%，生命值+20%",
+			"出现一个雕伥，每30s召唤一个集团军潜行兵"
+		],
+		"eliteDesc_ja": [
+			"敵全員の攻撃力+20%、防御力+20%、最大HP+20%",
+			"追加で「彫鬼」が出現、30秒ごとに<集团军潜行兵>を召喚する"
+		],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% DEF, +20% Max HP",
+			"Additional 1 Statuegeist appears and summons 1 <集团军潜行兵> every 30s"
+		],
+		"all_mods": [
+			{
+				"targets": ["trap_222_rgdysm#1"],
+				"special": {
+					"rgdysm_summon": {
+						"interval": 30.0,
+						"enemy_key": "enemy_10120_uaghst"
+					}
+				}
+			},
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "copper_d"
+					}
+				]
+			}
+		],
+		"normal_mods": null,
+		"elite_mods": [
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "def",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.2,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "raid"
+					}
+				]
+			}
+		],
+		"enemy_counts": [28],
+		"sp_count": [29],
+		"elite_enemy_counts": [28],
+		"elite_sp_count": [29],
+		"sp_enemy": {
+			"normal": "29",
+			"elite": null
+		},
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_3010_mcreep",
+				"min_count": 6,
+				"max_count": 6
+			},
+			{
+				"key": "enemy_10121_uasnip",
+				"min_count": 2,
+				"max_count": 2
+			},
+			{
+				"key": "enemy_10126_rkbomb",
+				"min_count": 11,
+				"max_count": 11
+			},
+			{
+				"key": "enemy_10120_uaghst",
+				"min_count": 11,
+				"max_count": 11
+			},
+			{
+				"key": "enemy_10124_uashld",
+				"min_count": 3,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10122_uacann_2",
+				"min_count": 1,
+				"max_count": 1
+			}
+		],
+		"elite_enemy_list": [
+			{
+				"key": "enemy_3010_mcreep",
+				"min_count": 6,
+				"max_count": 6
+			},
+			{
+				"key": "enemy_10121_uasnip",
+				"min_count": 2,
+				"max_count": 2
+			},
+			{
+				"key": "enemy_10126_rkbomb",
+				"min_count": 11,
+				"max_count": 11
+			},
+			{
+				"key": "enemy_10120_uaghst",
+				"min_count": 11,
+				"max_count": 11
+			},
+			{
+				"key": "enemy_10124_uashld",
+				"min_count": 3,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10122_uacann_2",
+				"min_count": 1,
+				"max_count": 1
+			}
+		]
+	},
+	"level_rogue5_4-7": {
+		"levelId": "level_rogue5_4-7",
+		"code": "ISW-NO",
+		"name_zh": "忍气不吞声",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [4],
+		"addInfo_zh": ["N18追加敌人：压力归零帮手×5"],
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+20%，防御力+50%，生命值+20%",
+			"水遁宗师获得隐匿"
+		],
+		"eliteDesc_ja": [
+			"敵全員の攻撃力+20%、防御力+50%、最大HP+20%",
+			"<水遁宗師>がステルス状態になる"
+		],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +50% DEF, +20% Max HP",
+			"<Suiton Master> gains stealth"
+		],
+		"all_mods": [
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "copper_d"
+					}
+				]
+			}
+		],
+		"normal_mods": null,
+		"elite_mods": [
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "def",
+						"value": 1.5,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.2,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["enemy_10116_ymgtop_2"],
+				"special": {
+					"stealth": {
+						"tooltip": {
+							"en": ["$Stealth$"],
+							"ja": ["$ステルス$"],
+							"zh": ["$隐匿$"]
+						}
+					}
+				}
+			}
+		],
+		"enemy_counts": [37],
+		"sp_count": [38],
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": {
+			"normal": "38",
+			"elite": null
+		},
+		"sp_terrain": [
+			{
+				"tileKey": "tile_hole",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": null
+			}
+		],
+		"enemy_list": [
+			{
+				"key": "enemy_10115_ymghol_2",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_10034_cnvsax",
+				"min_count": 3,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10113_ymgung_2",
+				"min_count": 12,
+				"max_count": 12
+			},
+			{
+				"key": "enemy_10117_ymggld_2",
+				"min_count": 9,
+				"max_count": 9
+			},
+			{
+				"key": "enemy_10116_ymgtop_2",
+				"min_count": 12,
+				"max_count": 12
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue5_5-7": {
+		"levelId": "level_rogue5_5-7",
+		"code": "ISW-NO",
+		"name_zh": "砺锋",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [5],
+		"addInfo_zh": ["N18追加敌人：游击队传令兵组长×5、皮书生×10"],
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+20%，防御力+20%，生命值+20%",
+			"狂躁异质裂兽获得额外防御力+50%，生命值+50%，路线由经中央区域进入右上保护目标点变为经中间区域绕左上一圈进入左下保护目标点"
+		],
+		"eliteDesc_ja": [
+			"敵全員の攻撃力+20%、防御力+20%、最大HP+20%",
+			"<狂躁异质裂兽>がさらに防御力+50%、最大HP+50%"
+		],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% DEF, +20% Max HP",
+			"<Boss Bear> gains an additional +50% DEF, +50% Max HP"
+		],
+		"all_mods": [
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "copper_d"
+					}
+				]
+			}
+		],
+		"normal_mods": [
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "normal"
+					}
+				]
+			}
+		],
+		"elite_mods": [
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "def",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.2,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["enemy_1571_mirbst"],
+				"mods": [
+					{
+						"key": "def",
+						"value": 1.5,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.5,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "raid"
+					}
+				]
+			}
+		],
+		"enemy_counts": [31],
+		"sp_count": [32],
+		"elite_enemy_counts": [31],
+		"elite_sp_count": [32],
+		"sp_enemy": {
+			"normal": "32",
+			"elite": null
+		},
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_10124_uashld_2",
+				"min_count": 14,
+				"max_count": 14
+			},
+			{
+				"key": "enemy_10127_rkmbst",
+				"min_count": 6,
+				"max_count": 6
+			},
+			{
+				"key": "enemy_1571_mirbst",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_10123_uareap",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_10120_uaghst_2",
+				"min_count": 6,
+				"max_count": 6
+			}
+		],
+		"elite_enemy_list": [
+			{
+				"key": "enemy_10124_uashld_2",
+				"min_count": 14,
+				"max_count": 14
+			},
+			{
+				"key": "enemy_10127_rkmbst",
+				"min_count": 6,
+				"max_count": 6
+			},
+			{
+				"key": "enemy_1571_mirbst",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_10123_uareap",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_10120_uaghst_2",
+				"min_count": 6,
+				"max_count": 6
+			}
+		]
 	}
 }
