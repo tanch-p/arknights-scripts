@@ -35903,7 +35903,7 @@
 		"name_en": null,
 		"category": null,
 		"floors": [6, 7],
-		"addInfo_zh": null,
+		"addInfo_zh": ["敌方单位的攻击力、防御力和生命值都提升至120%","敛傲与愠怒的生命值额外提升至150%","身形/身形sp受到伤害时反弹伤害量20%的真实伤害","玩家持有【不赦】时，身形sp每8s召唤一次敌人","朔壳与妄躯的周期技能冷却时间降低至80%","N18追加敌人：桓君、昭烈君、文衡君"],
 		"addInfo_ja": null,
 		"addInfo_en": null,
 		"eliteDesc_zh": null,
@@ -35949,6 +35949,14 @@
 						"mode": "mul"
 					}
 				]
+			},
+			{
+				"targets": ["enemy_2128_dysuib"],
+				"special": {
+					"dysuib_reflect": {
+						"value": 20
+					}
+				}
 			}
 		],
 		"normal_mods": null,
@@ -36105,13 +36113,28 @@
 		"name_en": null,
 		"category": null,
 		"floors": [6, 7],
-		"addInfo_zh": null,
+		"addInfo_zh": [
+			"敌方单位的攻击力、防御力和生命值都提升至120%",
+			"敛傲与愠怒的生命值额外提升至150%",
+			"身形/身形sp受到伤害时反弹伤害量20%的真实伤害",
+			"玩家持有【不赦】时，身形sp每45s召唤一次敌人",
+			"朔壳与妄躯技能的周期冷却降低至80%",
+			"N18追加敌人：“碎壁”×6"
+		],
 		"addInfo_ja": null,
 		"addInfo_en": null,
 		"eliteDesc_zh": null,
 		"eliteDesc_ja": null,
 		"eliteDesc_en": null,
 		"all_mods": [
+			{
+				"targets": ["enemy_2128_dysuib"],
+				"special": {
+					"dysuib_reflect": {
+						"value": 20
+					}
+				}
+			},
 			{
 				"targets": ["enemy_2130_dyswrd"],
 				"mods": [
