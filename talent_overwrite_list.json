@@ -473,7 +473,42 @@
 	},
 	"level_rogue5_b-8": {
 		"enemy_2126_dycyue": [
-			{"key":"dycyue_summon_body","remove":true,"tooltip":null},{"key":"dycyue_card","remove":true,"tooltip":null},{"key":"dycyue_summon_sword","initCooldown":5,"cooldown":25}
+			{ "key": "dycyue_summon_body", "remove": true, "tooltip": null },
+			{ "key": "dycyue_card", "remove": true, "tooltip": null },
+			{ "key": "dycyue_summon_sword", "initCooldown": 5, "cooldown": 25 }
+		]
+	},
+	"level_rogue5_b-9-a": {
+		"enemy_2111_dyyrz2": [{ "key": "yan_statue_standby", "standby": 120 }],
+		"enemy_2113_dyhlg2": [{ "key": "yan_statue_standby", "standby": 60 }],
+		"enemy_2115_dylbg2": [{ "key": "yan_statue_standby", "standby": 180 }]
+	},
+	"level_rogue5_b-9-b": {
+		"enemy_2111_dyyrz2": [{ "key": "yan_statue_standby", "standby": 120 }],
+		"enemy_2113_dyhlg2": [{ "key": "yan_statue_standby", "standby": 60 }],
+		"enemy_2115_dylbg2": [{ "key": "yan_statue_standby", "standby": 180 }]
+	},
+	"level_rogue5_b-9-c": {
+		"enemy_2111_dyyrz2": [{ "key": "yan_statue_standby", "standby": 120 }],
+		"enemy_2113_dyhlg2": [{ "key": "yan_statue_standby", "standby": 60 }],
+		"enemy_2115_dylbg2": [{ "key": "yan_statue_standby", "standby": 180 }]
+	},
+	"level_rogue5_b-9-d": {
+		"enemy_2111_dyyrz2": [{ "key": "yan_statue_standby", "standby": 120 }],
+		"enemy_2113_dyhlg2": [{ "key": "yan_statue_standby", "standby": 60 }],
+		"enemy_2115_dylbg2": [{ "key": "yan_statue_standby", "standby": 180 }]
+	},
+	"level_rogue5_b-9-e": {
+		"enemy_2111_dyyrz2": [{ "key": "yan_statue_standby", "standby": 80 }],
+		"enemy_2113_dyhlg2": [{ "key": "yan_statue_standby", "standby": 80 }],
+		"enemy_2115_dylbg2": [{ "key": "yan_statue_standby", "standby": 80 }]
+	},
+	"level_rogue5_b-10-b": {
+		"enemy_2127_dysuih": [
+			{ "key": "dysuih_stun", "standby": 10 },
+			{ "key": "dysuih_end", "value": 30 },
+			{ "key": "dysuih_summon_body", "initCooldown": 240 },
+			{ "key": "dysuih_fire_2", "initCooldown": 2, "cooldown": 9 }
 		]
 	},
 	"level_rogue5_ev-1": {

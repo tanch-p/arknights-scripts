@@ -157,6 +157,20 @@ STAGES_WITH_REF_TO_REPLACE = {
 }
 STAGES_WITH_NAME_TO_REPLACE = {}
 
+MULTI_CONFIG_STAGES = {
+    "level_rogue5_b-9-a": [
+        ["level_rogue5_b-9-a", "choice_yi"],
+        ["level_rogue5_b-9-b", "choice_sui"],
+        ["level_rogue5_b-9-c", "choice_wang"],
+        ["level_rogue5_b-9-d", "choice_tgr"],
+        ["level_rogue5_b-9-e", "choice_all"],
+    ],
+    "level_rogue5_b-10": [
+        ["level_rogue5_b-10", "choice_tgr"],
+        ["level_rogue5_b-10-b", "choice_all"],
+    ],
+}
+
 
 def is_unhandled_alert(levelId, key, rogue_topic):
     levels_to_ignore = [
@@ -222,6 +236,7 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
     trimmed_stage_info = {
         "id": meta_info["id"],
         "levelId": levelId,
+        "suffix":meta_info['suffix'],
         "tags": stage_data["mapData"]["tags"],
         "category": extrainfo[levelId].get("category", None)
         if levelId in extrainfo
@@ -624,110 +639,151 @@ def generate_roguelike_stages():
                 TOPIC_IN_GLOBAL = False
             if not ("_n_" in stage_info_cn["id"] and stage_info_cn["isElite"] == 0):
                 levelId = stage_info_cn["levelId"].split("/")[-1]
-                print(levelId)
-                folder = topic_dict["folder"]
-                file_path = f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{folder}/{levelId}.json"
-                if "dlc1" in levelId:
-                    file_path = f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{folder}/dlc1/{levelId}.json"
-                stage_data_path = os.path.join(
-                    script_dir,
-                    file_path,
+                level_id_list = (
+                    MULTI_CONFIG_STAGES[levelId]
+                    if levelId in MULTI_CONFIG_STAGES
+                    else [levelId]
                 )
-                with open(stage_data_path, encoding="utf-8") as f:
-                    stage_data = json.load(f)
+                configs = []
+                for list_item in level_id_list:
+                    if type(list_item) is list:
+                        level_id = list_item[0]
+                        suffix = list_item[1]
+                    else:
+                        level_id = list_item
+                        suffix = ""
+                    folder = topic_dict["folder"]
+                    file_path = f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{folder}/{level_id}.json"
+                    if "dlc1" in level_id:
+                        file_path = f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{folder}/dlc1/{level_id}.json"
+                    stage_data_path = os.path.join(
+                        script_dir,
+                        file_path,
+                    )
+                    with open(stage_data_path, encoding="utf-8") as f:
+                        stage_data = json.load(f)
 
-                # for reverse lookup in website
-                rogue_topic = get_rogue_topic(folder)
-                if levelId == "level_rogue4_b-9":
-                    url_key = "ro4_b_9"
-                    stage_name_lookup[url_key] = {
-                        "lang": "ALL",
-                        "key": levelId,
-                        "topic": rogue_topic,
-                    }
-                else:
-                    name_zh = stage_info_cn["name"]
-                    name_ja = stage_info_jp["name"].replace(" ", "_")
-                    name_en = stage_info_en["name"].replace(" ", "_")
-                    if levelId in stage_name_overwrite_table:
-                        name_zh = stage_name_overwrite_table[levelId]["name_zh"]
-                    zh_url_key = stage_info_cn["code"] + "_" + name_zh
-                    stage_name_lookup[zh_url_key] = {
-                        "lang": "zh",
-                        "key": levelId,
-                        "topic": rogue_topic,
-                    }
-                    if TOPIC_IN_GLOBAL:
-                        en_url_key = stage_info_en["code"] + "_" + name_en
-                        ja_url_key = stage_info_jp["code"] + "_" + name_ja
-                        stage_name_lookup[en_url_key] = {
-                            "lang": "en",
-                            "key": levelId,
+                    # for reverse lookup in website
+                    rogue_topic = get_rogue_topic(folder)
+                    if level_id == "level_rogue4_b-9":
+                        url_key = "ro4_b_9"
+                        stage_name_lookup[url_key] = {
+                            "lang": "ALL",
+                            "key": level_id,
                             "topic": rogue_topic,
                         }
-                        stage_name_lookup[ja_url_key] = {
-                            "lang": "ja",
-                            "key": levelId,
+                    else:
+                        real_stage_key = extrainfo[level_id]["id"].replace("_e_", "_n_")
+                        stage_info_cn = cn_roguelike_topic_table["details"][
+                            topic_dict["topic"]
+                        ]["stages"][real_stage_key]
+                        try:
+                            stage_info_jp = jp_roguelike_topic_table["details"][
+                                topic_dict["topic"]
+                            ]["stages"][real_stage_key]
+                            stage_info_en = en_roguelike_topic_table["details"][
+                                topic_dict["topic"]
+                            ]["stages"][real_stage_key]
+                            TOPIC_IN_GLOBAL = True
+                        except KeyError:
+                            TOPIC_IN_GLOBAL = False
+                        name_zh = stage_info_cn["name"]
+                        name_ja = stage_info_jp["name"].replace(" ", "_")
+                        name_en = stage_info_en["name"].replace(" ", "_")
+                        if level_id in stage_name_overwrite_table:
+                            name_zh = stage_name_overwrite_table[level_id]["name_zh"]
+                        zh_url_key = stage_info_cn["code"] + "_" + name_zh
+                        stage_name_lookup[zh_url_key] = {
+                            "lang": "zh",
+                            "key": level_id,
                             "topic": rogue_topic,
                         }
-                meta_info = {
-                    "id": stage_info_cn["id"],
-                    "levelId": levelId,
-                    "code": stage_info_cn["code"],
-                    "name_zh": stage_info_cn["name"]
-                    if levelId != "level_rogue4_b-9"
-                    else "「」",
-                    "name_ja": (
-                        stage_info_jp["name"]
-                        if levelId != "level_rogue4_b-9"
-                        else "「」"
-                    ).replace(" ", "_")
-                    if TOPIC_IN_GLOBAL
-                    else None,
-                    "name_en": (
-                        stage_info_en["name"]
-                        if levelId != "level_rogue4_b-9"
-                        else "「」"
-                    ).replace(" ", "_")
-                    if TOPIC_IN_GLOBAL
-                    else None,
-                    "description_zh": stage_info_cn["description"].replace("\\n", "\n"),
-                    "description_ja": stage_info_jp["description"].replace("\\n", "\n")
-                    if TOPIC_IN_GLOBAL
-                    else None,
-                    "description_en": stage_info_en["description"].replace("\\n", "\n")
-                    if TOPIC_IN_GLOBAL
-                    else None,
+                        if TOPIC_IN_GLOBAL:
+                            en_url_key = stage_info_en["code"] + "_" + name_en
+                            ja_url_key = stage_info_jp["code"] + "_" + name_ja
+                            stage_name_lookup[en_url_key] = {
+                                "lang": "en",
+                                "key": level_id,
+                                "topic": rogue_topic,
+                            }
+                            stage_name_lookup[ja_url_key] = {
+                                "lang": "ja",
+                                "key": level_id,
+                                "topic": rogue_topic,
+                            }
+                    meta_info = {
+                        "suffix": suffix,
+                        "id": stage_info_cn["id"],
+                        "levelId": level_id,
+                        "code": stage_info_cn["code"],
+                        "name_zh": stage_info_cn["name"]
+                        if level_id != "level_rogue4_b-9"
+                        else "「」",
+                        "name_ja": (
+                            stage_info_jp["name"]
+                            if level_id != "level_rogue4_b-9"
+                            else "「」"
+                        ).replace(" ", "_")
+                        if TOPIC_IN_GLOBAL
+                        else None,
+                        "name_en": (
+                            stage_info_en["name"]
+                            if level_id != "level_rogue4_b-9"
+                            else "「」"
+                        ).replace(" ", "_")
+                        if TOPIC_IN_GLOBAL
+                        else None,
+                        "description_zh": stage_info_cn["description"].replace(
+                            "\\n", "\n"
+                        ),
+                        "description_ja": stage_info_jp["description"].replace(
+                            "\\n", "\n"
+                        )
+                        if TOPIC_IN_GLOBAL
+                        else None,
+                        "description_en": stage_info_en["description"].replace(
+                            "\\n", "\n"
+                        )
+                        if TOPIC_IN_GLOBAL
+                        else None,
+                    }
+                    trimmed_stage_info = get_trimmed_stage_data(
+                        stage_data, meta_info, extrainfo, folder
+                    )
+                    configs.append(trimmed_stage_info)
+                stage_name = {
+                    "zh": configs[0]["name_zh"],
+                    "ja": configs[0]["name_ja"],
+                    "en": configs[0]["name_en"],
                 }
-                trimmed_stage_info = get_trimmed_stage_data(
-                    stage_data, meta_info, extrainfo, folder
-                )
-                data[levelId] = trimmed_stage_info
-                stages_list.append(trimmed_stage_info)
+                config = {"name": stage_name, "data": configs}
 
+                data[levelId] = config
+                stages_list.append(config)
     # for stage navigation ro1 ro2 ro3...
     for topic_dict in roguelike_topics:
         stage_nav = {}
         write_path = os.path.join(script_dir, topic_dict["folder"] + ".json")
         rogue_topic = get_rogue_topic(topic_dict["folder"])
         for stage in stages_list:
-            if rogue_topic in stage["tags"]:
-                stage_name = stage["name_zh"]
-                levelId = stage["levelId"]
+            config = stage["data"][0]
+            if rogue_topic in config["tags"]:
+                stage_name = config["name_zh"]
+                levelId = config["levelId"]
                 if levelId in stage_name_overwrite_table:
                     info = stage_name_overwrite_table[levelId]
                     stage_nav[levelId] = {
-                        "code": stage["code"],
+                        "code": config["code"],
                         "name_zh": info["name_zh"],
                         "name_ja": info["name_ja"],
                         "name_en": info["name_en"],
                     }
                 else:
                     stage_nav[levelId] = {
-                        "code": stage["code"],
+                        "code": config["code"],
                         "name_zh": stage_name,
-                        "name_ja": stage["name_ja"],
-                        "name_en": stage["name_en"],
+                        "name_ja": config["name_ja"],
+                        "name_en": config["name_en"],
                     }
         with open(write_path, "w+", encoding="utf-8") as f:
             json.dump(stage_nav, f, ensure_ascii=False, indent=4)
