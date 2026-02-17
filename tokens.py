@@ -128,7 +128,7 @@ for id in tokens_list:
             blackboard = token_tags[id]['blackboard']
 
         return_dict = {"id": id, "name_zh": token_dict['name'], "name_ja": "", "name_en": "",
-                    "desc_zh": token_dict['description'].replace("<$ba", "<ba"), "desc_ja": "", "desc_en": "",
+                    "desc_zh": token_dict['description'].replace("<$ba", "<ba") if token_dict['description'] else "", "desc_ja": "", "desc_en": "",
                     "position": token_dict['position'], 
                     "stats": stats,
                     "tags": tags, "blackboard": blackboard,

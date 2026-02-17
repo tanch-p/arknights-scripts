@@ -14001,11 +14001,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "双利手",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Ambidextrous",
+                "name_ja": "両利き",
                 "desc_zh": "祐天寺若麦可以进行<ba.permanentatk>持续攻击</>；攻击时10%概率使敌人获得8%<ba.fragile>脆弱</>，持续2秒",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "祐天寺にゃむは<ba.permanentatk>常時攻撃</>を行う。攻撃時、10%の確率で敵に8%の<ba.fragile>脆弱</>を2秒間付与",
+                "desc_en": "Nyamu Yūtenji can <ba.permanentatk>continuously attack</>; attacks have a 10% chance to inflict 8% <ba.fragile>Fragile</> on enemies for 2s",
                 "tags": [
                     "permanentatk",
                     "fragile"
@@ -14031,11 +14031,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "毋畏爱意",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Do Not Fear Love",
+                "name_ja": "愛を恐れるなかれ",
                 "desc_zh": "在场时每秒使<ba.fever>Fever</>+3；<ba.mujica>Ave Mujica</>成员的攻击力+9%<@ba.talpu>（+1%）</>",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "配置中、1秒ごとに<ba.fever>Fever</>値+3、味方<ba.mujica>Ave Mujica</>の攻撃力+9%<@ba.talpu>（+1%）</>",
+                "desc_en": "When deployed, <ba.fever>Fever</> +3 per second; <ba.mujica>Ave Mujica</> members gain +9% <@ba.talpu>(+1%)</> ATK",
                 "tags": [
                     "mujica"
                 ],
@@ -14058,11 +14058,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "谎言的假面",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Mask of Lies",
+                "name_ja": "偽りの仮面",
                 "desc_zh": "技能未开启时每4秒治疗攻击范围内生命最低的友方单位相当于攻击力35%<@ba.talpu>(+5%)</>的生命；技能期间优先选择丰川祥子作为治疗目标",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "スキル未発動時、4秒ごとに攻撃範囲内のHPが最も低い味方を治療し、対象のHPを三角初華の攻撃力の35%<@ba.talpu>（+5%）</>回復。スキル発動中は豊川祥子を優先して治療",
+                "desc_en": "When skill is inactive, restores HP to the ally with the lowest HP within Attack Range for 35% <@ba.talpu>(+5%)</> of ATK every 4s; when skill is active, prioritizes Sakiko Togawa as the restoration target",
                 "tags": [
                     "heal_ally"
                 ],
@@ -14071,11 +14071,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "毋畏悲伤",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Do Not Fear Sorrow",
+                "name_ja": "悲しみを恐れるなかれ",
                 "desc_zh": "治疗<ba.mujica>Ave Mujica</>成员时使<ba.fever>Fever</>+5；攻击范围内<ba.mujica>Ave Mujica</>成员攻击时，附带三角初华攻击力30%的法术伤害",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "味方<ba.mujica>Ave Mujica</>を治療時、<ba.fever>Fever</>値+5\n攻撃範囲内の味方<ba.mujica>Ave Mujica</>に「攻撃時に追加で三角初華の攻撃力の30%の術ダメージを与える」効果を付与",
+                "desc_en": "<ba.fever>Fever</> +5 whenever restoring an <ba.mujica>Ave Mujica</> member's HP; when <ba.mujica>Ave Mujica</> members within Attack Range attack, they deal an extra 30% of Uika Misumi's ATK as Arts damage",
                 "tags": [
                     "ally_arts"
                 ],
@@ -14089,11 +14089,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "应召而至",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Professional",
+                "name_ja": "仕事人",
                 "desc_zh": "被八幡海铃伤害的敌人有21%概率被<ba.sluggish>停顿</>3秒；技能期间，八幡海铃的攻击范围扩大",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "ダメージを与えた敵を21%の確率で3秒<ba.sluggish>足止め</>する。スキル発動中、八幡海鈴の攻撃範囲が拡大",
+                "desc_en": "Enemies damaged by Umiri Yahata have a 21% chance of being <ba.sluggish>Slowed</> for 3s; when skill is active, Umiri Yahata's Attack Range expands",
                 "tags": [
                     "sluggish"
                 ],
@@ -14110,11 +14110,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "毋畏恐惧",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Do Not Fear Being Afraid",
+                "name_ja": "恐れることを恐れるなかれ",
                 "desc_zh": "造成<ba.sluggish>停顿</>、<ba.fear>恐惧</>时使<ba.fever>Fever</>+2；\\n在场时，<ba.mujica>Ave Mujica</>成员对处于<ba.sluggish>停顿</>、<ba.fear>恐惧</>的敌人造成的伤害增加15%<@ba.talpu>（+5%）</>",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "<ba.sluggish>足止め</>・<ba.fear>恐怖</>を付与した際に<ba.fever>Fever</>値+2。\n配置中、味方<ba.mujica>Ave Mujica</>の<ba.sluggish>足止め</>・<ba.fear>恐怖</>状態の敵への与ダメージ+15%<@ba.talpu>(+5%)</>",
+                "desc_en": "<ba.fever>Fever</> +2 whenever inflicting <ba.sluggish>Slow</> or <ba.fear>Fear</>\nWhen deployed, <ba.mujica>Ave Mujica</> members deal 15% <@ba.talpu>(+5%)</> more damage to <ba.sluggish>Slowed</> or <ba.fear>Feared</> enemies",
                 "tags": [],
                 "blackboard": [
                     {
@@ -14142,11 +14142,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "另一个“她”",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Another 'Her'",
+                "name_ja": "もう一人の「彼女」",
                 "desc_zh": "若叶睦和<替身>受到物理和法术伤害的30%转化为一半的<ba.dt.apoptosis>凋亡损伤</>；<替身>不攻击，防御力+24%<@ba.talpu>（+4%）</>，<ba.mujica>Ave Mujica</>成员攻击时有20%的概率使替身持续时间缩短1秒",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "若葉睦と<身替り>は受ける物理・術ダメージを30%軽減し、軽減値の50%を<ba.dt.apoptosis>壊死損傷</>として受ける。<身替り>は攻撃せず、防御力+24%<@ba.talpu>(+4%)</>。味方<ba.mujica>Ave Mujica</>が攻撃した際、20%の確率で<身替り>から自身に入れ替わるまでの時間を1秒短縮",
+                "desc_en": "When Mutsumi Wakaba or her &lt;Substitute&gt; receive Physical or Arts damage, the damage is reduced by 30%, and half of the reduced damage is received as <ba.dt.apoptosis>Necrosis</>; &lt;Substitute&gt; does not attack and has DEF +24% <@ba.talpu>(+4%)</>; whenever <ba.mujica>Ave Mujica</> members attack, there is a 20% chance &lt;Substitute&gt; duration shortens by 1s",
                 "tags": [],
                 "blackboard": [
                     {
@@ -14166,11 +14166,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "毋畏死亡",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Do Not Fear Death",
+                "name_ja": "死を恐れるなかれ",
                 "desc_zh": "自身受到一次伤害或损伤时使<ba.fever>Fever</>+3，在场时<ba.mujica>Ave Mujica</>成员生命上限+10%",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "ダメージか損傷を受けるたびに<ba.fever>Fever</>値+3。配置中、味方<ba.mujica>Ave Mujica</>全員の最大HP+10%",
+                "desc_en": "<ba.fever>Fever</> +3 whenever Mutsumi Wakaba receives damage or Injury; when deployed, <ba.mujica>Ave Mujica</> members gain +10% Max HP",
                 "tags": [],
                 "blackboard": [
                     {
@@ -14190,11 +14190,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "颂乐音符",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Notes of Ode",
+                "name_ja": "讃歌の音符",
                 "desc_zh": "丰川祥子可以<ba.permanentatk>持续攻击</>且攻击会演奏追踪敌人的音符，音符飘出攻击范围一段时间后消失。每存在一个音符，<ba.mujica>Ave Mujica</>成员无视敌人3%的防御力和2%法术抗性（最多叠加至10层）",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "攻撃が敵を追尾する音符攻撃に変化し、豊川祥子は<ba.permanentatk>常時攻撃</>を行う。音符は攻撃範囲外に出ると一定時間後に消滅。戦場中に存在する音符1つにつき、味方<ba.mujica>Ave Mujica</>の攻撃は敵防御力の3%、術耐性の2%を無視（最大10回まで重複可能）",
+                "desc_en": "Sakiko Togawa can <ba.permanentatk>continuously attack</>, creating notes that pursue enemies; notes disappear shortly after floating out of her Attack Range; for every note on the field, <ba.mujica>Ave Mujica</> members ignore 3% DEF and 2% RES of the enemies (stacks up to 10 times)",
                 "tags": [
                     "permanentatk"
                 ],
@@ -14248,11 +14248,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "毋畏遗忘",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Do Not Fear Forgetting",
+                "name_ja": "忘却を恐れるなかれ",
                 "desc_zh": "对敌人造成伤害时使<ba.fever>Fever</>+3；其他<ba.mujica>Ave Mujica</>成员的攻击范围若与自身原本攻击范围重合，则将其视作攻击范围的延伸；攻击范围内干员攻击速度+16<@ba.talpu>（+4）</>",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "敵にダメージを与えるたびに<ba.fever>Fever</>値+3。他の<ba.mujica>Ave Mujica</>の攻撃範囲が自身の攻撃範囲と重なっている場合、対象の攻撃範囲を自身の追加攻撃範囲と見なす。攻撃範囲内にいるオペレーターの攻撃速度+16<@ba.talpu>（+4）</>",
+                "desc_en": "<ba.fever>Fever</> +3 whenever dealing damage to enemies; if another <ba.mujica>Ave Mujica</> member's Attack Range overlaps with Sakiko Togawa's, their Attack Range will be treated as an extension of her own; Operators within her Attack Range have ASPD +16 <@ba.talpu>(+4)</>",
                 "tags": [
                     "mujica"
                 ],
@@ -14854,6 +14854,151 @@
                             "minos",
                             "sargon",
                             "hp_gt_50"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4222_taraxa": {
+        "appellation": "Taraxacum",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "定风絮",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "攻击范围内飞行的友方单位获得12%<@ba.talpu>（+2%）</>的<ba.protect>庇护</>，阻挡数+1",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "protect"
+                ],
+                "blackboard": [
+                    {
+                        "key": "ally_dmg_res",
+                        "types": [
+                            "phys",
+                            "arts"
+                        ],
+                        "value": 0.12,
+                        "conditions": [
+                            "flying"
+                        ],
+                        "category": [
+                            "protect"
+                        ]
+                    },
+                    {
+                        "key": "ally_block_up",
+                        "value": 1.0,
+                        "duration": 999.0,
+                        "conditions": [
+                            "flying"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4221_ju": {
+        "appellation": "Ju",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "墨守",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "造成致命伤害时使敌人保留1点生命并使其<ba.dying>重伤</>（击杀者技力+2）；矩不攻击<ba.dying>重伤</>单位",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "crit_wound"
+                ],
+                "blackboard": []
+            }
+        ]
+    },
+    "char_2027_wang": {
+        "appellation": "Wang",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "铸子",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "可以使用7<@ba.talpu>（+1）</>枚棋子（最多拥有8<@ba.talpu>（+1）</>枚），棋子相连时相互激活，敌人进入激活的棋子所在地块时触发其效果；手动部署棋子时，望在相邻位置额外部署一枚棋子（最多10<@ba.talpu>（+1）</>枚，可以且优先部署在有敌人的不可部署地块）",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "summon"
+                ],
+                "blackboard": []
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "料敌机先",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "棋子激活时所在的连续直线上每有一枚棋子，直线上所有棋子造成伤害提升12%<@ba.talpu>（+2%）</>并无视敌人10<@ba.talpu>（+1）</>点法术抗性（最多叠加3次）",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "res_penetrate",
+                        "value": 10.0
+                    },
+                    {
+                        "key": "res_penetrate",
+                        "value": 30.0
+                    }
+                ]
+            }
+        ]
+    },
+    "char_1050_chen3": {
+        "appellation": "Ch'en the Dawnstreak",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "形意洞照",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "攻击力+16%<@ba.talpu>（+3%）</>，攻击速度+16<@ba.talpu>（+3）</>，攻击变为<ba.weaknessatk>弱点伤害</>",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "weaknessatk"
+                ],
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 16.0
+                    }
+                ]
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "寒暑觉知",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "未受到伤害时，每7秒随机治疗自身一定（攻击力的35%<@ba.talpu>（+5%）</>~165%<@ba.talpu>（+5%）</>）生命值，并闪避下次物理与法术攻击",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "heal_self"
+                ],
+                "blackboard": [
+                    {
+                        "key": "evasion",
+                        "value": 1.0,
+                        "conditions": [
+                            "not_attacked_8s"
+                        ],
+                        "types": [
+                            "phys",
+                            "arts"
                         ]
                     }
                 ]
