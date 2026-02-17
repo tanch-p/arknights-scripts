@@ -35745,7 +35745,7 @@
 		"name_en": null,
 		"category": null,
 		"floors": [6, 7],
-		"addInfo_zh": ["N18追加敌人：桓君、昭烈君、文衡君"],
+		"addInfo_zh": ["敛傲与愠怒的生命值额外提升至150%","身形/身形sp受到伤害时反弹伤害量10%的真实伤害","玩家持有【不赦】时，身形sp每30s召唤一次敌人","N18追加敌人：桓君、昭烈君、文衡君"],
 		"addInfo_ja": null,
 		"addInfo_en": null,
 		"eliteDesc_zh": null,
@@ -35771,6 +35771,14 @@
 						"mode": "mul"
 					}
 				]
+			},
+			{
+				"targets": ["enemy_2128_dysuib"],
+				"special": {
+					"dysuib_reflect": {
+						"value": 10
+					}
+				}
 			}
 		],
 		"normal_mods": null,
@@ -35879,7 +35887,7 @@
 		"name_en": null,
 		"category": null,
 		"floors": [6, 7],
-		"addInfo_zh": ["N18追加敌人：桓君、昭烈君、文衡君"],
+		"addInfo_zh": ["敛傲与愠怒的生命值额外提升至150%","身形/身形sp受到伤害时反弹伤害量10%的真实伤害","玩家持有【不赦】时，身形sp每30s召唤一次敌人","N18追加敌人：桓君、昭烈君、文衡君"],
 		"addInfo_ja": null,
 		"addInfo_en": null,
 		"eliteDesc_zh": null,
@@ -35905,6 +35913,14 @@
 						"mode": "mul"
 					}
 				]
+			},
+			{
+				"targets": ["enemy_2128_dysuib"],
+				"special": {
+					"dysuib_reflect": {
+						"value": 10
+					}
+				}
 			}
 		],
 		"normal_mods": null,
@@ -36018,7 +36034,7 @@
 		"name_en": null,
 		"category": null,
 		"floors": [6, 7],
-		"addInfo_zh": ["N18追加敌人：桓君、昭烈君、文衡君"],
+		"addInfo_zh": ["敛傲与愠怒的生命值额外提升至150%","身形/身形sp受到伤害时反弹伤害量10%的真实伤害","玩家持有【不赦】时，身形sp每30s召唤一次敌人","N18追加敌人：桓君、昭烈君、文衡君"],
 		"addInfo_ja": null,
 		"addInfo_en": null,
 		"eliteDesc_zh": null,
@@ -36044,6 +36060,14 @@
 						"mode": "mul"
 					}
 				]
+			},
+			{
+				"targets": ["enemy_2128_dysuib"],
+				"special": {
+					"dysuib_reflect": {
+						"value": 10
+					}
+				}
 			}
 		],
 		"normal_mods": null,
@@ -36152,7 +36176,7 @@
 		"name_en": null,
 		"category": null,
 		"floors": [6, 7],
-		"addInfo_zh": ["N18追加敌人：桓君、昭烈君、文衡君"],
+		"addInfo_zh": ["敛傲与愠怒的生命值额外提升至150%","身形/身形sp受到伤害时反弹伤害量10%的真实伤害","玩家持有【不赦】时，身形sp每30s召唤一次敌人","雕伥(左上，右下)每20s召唤一个狂暴凶豕兽","其他雕伥每10s召唤一个利齿鬣犄兽","N18追加敌人：桓君、昭烈君、文衡君"],
 		"addInfo_ja": null,
 		"addInfo_en": null,
 		"eliteDesc_zh": null,
@@ -36178,6 +36202,32 @@
 						"mode": "mul"
 					}
 				]
+			},
+			{
+				"targets": ["trap_222_rgdysm#2","trap_222_rgdysm#3","trap_222_rgdysm#4","trap_222_rgdysm#5"],
+				"special": {
+					"rgdysm_summon": {
+						"interval": 10.0,
+						"enemy_key": "enemy_1304_mhwolf_2"
+					}
+				}
+			},
+			{
+				"targets": ["trap_222_rgdysm#1","trap_222_rgdysm#6"],
+				"special": {
+					"rgdysm_summon": {
+						"interval": 20.0,
+						"enemy_key": "enemy_1309_mhboar_2"
+					}
+				}
+			},
+			{
+				"targets": ["enemy_2128_dysuib"],
+				"special": {
+					"dysuib_reflect": {
+						"value": 10
+					}
+				}
 			}
 		],
 		"normal_mods": null,
@@ -36416,6 +36466,8 @@
 		"category": null,
 		"floors": [3, 4, 5, 6],
 		"addInfo_zh": [
+			"玩家持有【不赦】时，身形sp每45s召唤一次敌人",
+			"【晦】属性恍惚的“得意”天赋中的所有倍率失效（变为100%）",
 			"N18追加敌人：恍惚的“得意”×12、恍惚的“得意”(晦)×12、山海众司魅人×5、不动的“偷闲”×3、“盛怒”×6"
 		],
 		"addInfo_ja": null,

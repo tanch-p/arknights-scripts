@@ -162,12 +162,12 @@ MULTI_CONFIG_STAGES = {
         ["level_rogue5_b-9-a", "choice_yi"],
         ["level_rogue5_b-9-b", "choice_sui"],
         ["level_rogue5_b-9-c", "choice_wang"],
-        ["level_rogue5_b-9-d", "choice_tgr"],
+        ["level_rogue5_b-9-d", "choice_rgdysm"],
         ["level_rogue5_b-9-e", "choice_all"],
     ],
     "level_rogue5_b-10": [
-        ["level_rogue5_b-10", "choice_tgr"],
-        ["level_rogue5_b-10-b", "choice_all"],
+        ["level_rogue5_b-10", "choice_normal"],
+        ["level_rogue5_b-10-b", "choice_tgr"],
     ],
 }
 
