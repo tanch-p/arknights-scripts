@@ -15004,5 +15004,92 @@
                 ]
             }
         ]
+    },
+    "char_4031_liesel": {
+        "appellation": "Ripresa",
+        "talents": [
+            {
+                "prefabKey": "0",
+                "name_zh": "执棒素养",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "攻击溅射范围内有大于或等于3个敌人时，使当次攻击造成的伤害提升至125%<@ba.talpu>（+5%）</>",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "damage_scale",
+                        "value": 1.25
+                    },
+                    {
+                        "key": "min_target_cnt",
+                        "value": 3.0
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4037_demetr": {
+        "appellation": "Bellone",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "家族手段",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "攻击使目标在10秒内防御力降低7%（最多叠加5次），并且目标剩余生命值比例越低自身对其造成的伤害越高，在剩余20%以下生命值时伤害提高到最高136%<@ba.talpu>（+8%）</>",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "def_down",
+                        "order": "initial_mul",
+                        "targets": 1,
+                        "value": 0.07,
+                        "duration": 10.0,
+                        "target_air": false
+                    },
+                    {
+                        "key": "def_down",
+                        "order": "initial_mul",
+                        "targets": 1,
+                        "value": 0.35,
+                        "duration": 10.0,
+                        "target_air": false
+                    }
+                ]
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "街头直觉",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "获得40%的物理和法术闪避，部署后提高到80%并在20秒内逐渐衰减",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "evasion",
+                        "value": 0.4,
+                        "types": [
+                            "phys",
+                            "arts"
+                        ]
+                    },
+                    {
+                        "key": "evasion",
+                        "value": 0.8,
+                        "duration": 2,
+                        "types": [
+                            "phys",
+                            "arts"
+                        ]
+                    }
+                ]
+            }
+        ]
     }
 }
