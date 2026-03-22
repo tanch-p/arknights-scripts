@@ -14274,11 +14274,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "疾笔撰录",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Swift Stenography",
+                "name_ja": "速記",
                 "desc_zh": "攻击速度+12<@ba.talpu>（+2）</>，自身受到伤害后失去该效果",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "攻撃速度+12<@ba.talpu>（+2）</>、ダメージを受けると効果を失う",
+                "desc_en": "ASPD +12 <@ba.talpu>(+2)</>; this effect is lost when damage is received",
                 "tags": [],
                 "blackboard": [
                     {
@@ -14295,11 +14295,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "简易包扎",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Simple Bandages",
+                "name_ja": "応急手当",
                 "desc_zh": "技能结束时恢复自身60%<@ba.talpu>（+10%）</>最大生命值",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "スキル終了時、HPが最大値の60%<@ba.talpu>（+10%）</>回復",
+                "desc_en": "Restores 60% <@ba.talpu>(+10%)</> of Max HP when skill ends",
                 "tags": [
                     "heal_self"
                 ],
@@ -14313,11 +14313,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "噤声限域",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Quiet Zone",
+                "name_ja": "沈黙の領域",
                 "desc_zh": "场上敌人触发<ba.palsy>麻痹</>效果时立即受到相当于真言攻击力145%<@ba.talpu>（+10%）</>的元素伤害，且触发<ba.palsy>麻痹</>时有13%<@ba.talpu>（+3%）</>概率不消耗<ba.palsy>麻痹</>层数",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "戦場の敵に<ba.palsy>麻痺</>の効果が発動すると、マントラの攻撃力の145%<@ba.talpu>（+10%）</>の元素ダメージを受け、13%<@ba.talpu>（+3%）</>の確率で<ba.palsy>麻痺</>の発動回数が消費されない",
+                "desc_en": "Enemies take 145% <@ba.talpu>(+10%)</> of Mantra's ATK as Elemental Damage when they trigger <ba.palsy>Paralysis</>; when <ba.palsy>Paralysis</> is triggered, there is an 13% <@ba.talpu>(+3%)</> chance to not consume a <ba.palsy>Paralysis</> stack",
                 "tags": [
                     "ele_dmg"
                 ],
@@ -14326,11 +14326,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "全局洞悉",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Total Grasp",
+                "name_ja": "全域洞察",
                 "desc_zh": "距离真言最近的一个侵入点出场的敌人出现时立刻获得1层<ba.palsy>麻痹</>",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "マントラに最も近い敵出現地点から出てきた敵に<ba.palsy>麻痺</>を1回分付与",
+                "desc_en": "Enemies entering the field from the closest Incursion Point to Mantra immediately gain 1 stack of <ba.palsy>Paralysis</>",
                 "tags": [],
                 "blackboard": [
                     {
