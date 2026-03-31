@@ -56895,7 +56895,11 @@
                 "ms": 0.6,
                 "epDamageResistance": 0.0,
                 "epResistance": 0.0,
-                "traits": [],
+                "traits": [
+                    {
+                        "key": "trspsb_buff"
+                    }
+                ],
                 "special": []
             }
         ],
@@ -72156,8 +72160,8 @@
         "key": "enemy_10103_mjcppp",
         "sortId": 1042,
         "name_zh": "浅睡的臼齿",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "まどろみ奥歯",
+        "name_en": "Snoozing Molar",
         "stats": [
             {
                 "hp": 3000,
@@ -72199,8 +72203,8 @@
         "key": "enemy_10103_mjcppp_2",
         "sortId": 1043,
         "name_zh": "沉睡的臼齿",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "ぐっすり奥歯",
+        "name_en": "Slumbering Molar",
         "stats": [
             {
                 "hp": 4200,
@@ -72242,8 +72246,8 @@
         "key": "enemy_10104_mjcbln",
         "sortId": 1044,
         "name_zh": "布景小丑",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "飾り付けピエロ",
+        "name_en": "Background Clown",
         "stats": [
             {
                 "hp": 4500,
@@ -72285,8 +72289,8 @@
         "key": "enemy_10104_mjcbln_2",
         "sortId": 1045,
         "name_zh": "布景大师",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "飾り付けマスター",
+        "name_en": "Background Master",
         "stats": [
             {
                 "hp": 5800,
@@ -72328,8 +72332,8 @@
         "key": "enemy_10105_mjcdol",
         "sortId": 1046,
         "name_zh": "发条仆从",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "ゼンマイ召使い",
+        "name_en": "Clockwork Servant",
         "stats": [
             {
                 "hp": 7000,
@@ -72371,8 +72375,8 @@
         "key": "enemy_10105_mjcdol_2",
         "sortId": 1047,
         "name_zh": "暗黑发条仆从",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "闇のゼンマイ召使い",
+        "name_en": "Dark Clockwork Servant",
         "stats": [
             {
                 "hp": 7700,
@@ -72414,8 +72418,8 @@
         "key": "enemy_10106_mjcbat",
         "sortId": 1048,
         "name_zh": "玩耍的卡尔顿",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "わんぱくカールトン",
+        "name_en": "Playful Coretton",
         "stats": [
             {
                 "hp": 3000,
@@ -72457,8 +72461,8 @@
         "key": "enemy_10106_mjcbat_2",
         "sortId": 1049,
         "name_zh": "欢快的卡尔顿",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "うきうきカールトン",
+        "name_en": "Joyful Coretton",
         "stats": [
             {
                 "hp": 3300,
@@ -72500,8 +72504,8 @@
         "key": "enemy_10107_mjcdog",
         "sortId": 1050,
         "name_zh": "安眠伴随兽",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "安眠の随伴獣",
+        "name_en": "Sleep Companion Beast",
         "stats": [
             {
                 "hp": 16000,
@@ -72543,8 +72547,8 @@
         "key": "enemy_10107_mjcdog_2",
         "sortId": 1051,
         "name_zh": "沉眠伴随兽",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "熟睡の随伴獣",
+        "name_en": "Slumber Companion Beast",
         "stats": [
             {
                 "hp": 17600,
@@ -72586,8 +72590,8 @@
         "key": "enemy_10108_mjclun",
         "sortId": 1052,
         "name_zh": "梦游管家",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "夢に彷徨う執事",
+        "name_en": "Sleepwalking Valet",
         "stats": [
             {
                 "hp": 25000,
@@ -72629,8 +72633,8 @@
         "key": "enemy_10108_mjclun_2",
         "sortId": 1053,
         "name_zh": "梦游大总管",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "夢に彷徨う執事長",
+        "name_en": "Sleepwalking Butler",
         "stats": [
             {
                 "hp": 27500,
@@ -72672,8 +72676,8 @@
         "key": "enemy_10109_mjcgst",
         "sortId": 1054,
         "name_zh": "沃尔夫之影",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "ウォルフシャドウ",
+        "name_en": "Wolff's Shadow",
         "stats": [
             {
                 "hp": 15000,
@@ -72715,8 +72719,8 @@
         "key": "enemy_10109_mjcgst_2",
         "sortId": 1055,
         "name_zh": "沃尔夫幽影",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "ウォルフゴースト",
+        "name_en": "Wolff Phantom",
         "stats": [
             {
                 "hp": 16500,
@@ -72758,8 +72762,8 @@
         "key": "enemy_10110_mjcsdw",
         "sortId": 1056,
         "name_zh": "“破茧之梦”",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "「繭を破る夢」",
+        "name_en": "'Dream of Eclosion'",
         "stats": [
             {
                 "hp": 30000,
@@ -72801,8 +72805,8 @@
         "key": "enemy_10110_mjcsdw_2",
         "sortId": 1057,
         "name_zh": "“羽化之梦”",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "「羽化する夢」",
+        "name_en": "'Dream of Metamorphosis'",
         "stats": [
             {
                 "hp": 33000,
@@ -73689,8 +73693,8 @@
         "key": "enemy_10120_uaghst",
         "sortId": 1058,
         "name_zh": "集团军潜行兵",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "ウルサス軍スニーク兵",
+        "name_en": "Army Infiltrator",
         "stats": [
             {
                 "hp": 5000,
@@ -73741,8 +73745,8 @@
         "key": "enemy_10120_uaghst_2",
         "sortId": 1059,
         "name_zh": "集团军幽灵兵",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "ウルサス軍ゴースト兵",
+        "name_en": "Army Phantom",
         "stats": [
             {
                 "hp": 7000,
@@ -73793,8 +73797,8 @@
         "key": "enemy_10121_uasnip",
         "sortId": 1060,
         "name_zh": "集团军机动弩手",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "ウルサス軍機動狙撃兵",
+        "name_en": "Army Mobile Crossbowman",
         "stats": [
             {
                 "hp": 7000,
@@ -73843,8 +73847,8 @@
         "key": "enemy_10121_uasnip_2",
         "sortId": 1061,
         "name_zh": "集团军精锐弩手",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "ウルサス軍精鋭狙撃兵",
+        "name_en": "Army Elite Crossbowman",
         "stats": [
             {
                 "hp": 8500,
@@ -73893,8 +73897,8 @@
         "key": "enemy_10122_uacann",
         "sortId": 1062,
         "name_zh": "集团军轻型火炮",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "ウルサス軍軽野砲",
+        "name_en": "Army Light Artillery",
         "stats": [
             {
                 "hp": 8000,
@@ -73909,9 +73913,6 @@
                 "epDamageResistance": 0.0,
                 "epResistance": 0.0,
                 "traits": [
-                    {
-                        "key": "no_attack_flying"
-                    },
                     {
                         "key": "splash"
                     },
@@ -73949,8 +73950,8 @@
         "key": "enemy_10122_uacann_2",
         "sortId": 1063,
         "name_zh": "集团军重型火炮",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "ウルサス軍重野砲",
+        "name_en": "Army Heavy Artillery",
         "stats": [
             {
                 "hp": 10000,
@@ -73965,9 +73966,6 @@
                 "epDamageResistance": 0.0,
                 "epResistance": 0.0,
                 "traits": [
-                    {
-                        "key": "no_attack_flying"
-                    },
                     {
                         "key": "splash"
                     },
@@ -74006,8 +74004,8 @@
         "key": "enemy_10123_uareap",
         "sortId": 1064,
         "name_zh": "破城者",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "フォートブレイカー",
+        "name_en": "Fortbreaker",
         "stats": [
             {
                 "hp": 25000,
@@ -74063,8 +74061,8 @@
         "key": "enemy_10123_uareap_2",
         "sortId": 1065,
         "name_zh": "破城者·Ⅱ型",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "フォートブレイカーⅡ",
+        "name_en": "Fortbreaker Mk-II",
         "stats": [
             {
                 "hp": 35000,
@@ -74108,8 +74106,8 @@
         "key": "enemy_10124_uashld",
         "sortId": 1066,
         "name_zh": "集团军盾卫",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "ウルサス軍盾兵",
+        "name_en": "Army Shieldguard",
         "stats": [
             {
                 "hp": 15000,
@@ -74162,8 +74160,8 @@
         "key": "enemy_10124_uashld_2",
         "sortId": 1067,
         "name_zh": "集团军中坚盾卫",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "ウルサス軍中堅盾兵",
+        "name_en": "Army Veteran Shieldguard",
         "stats": [
             {
                 "hp": 25000,
@@ -74216,8 +74214,8 @@
         "key": "enemy_10125_uacomd",
         "sortId": 1068,
         "name_zh": "集团军前线指挥员",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "ウルサス軍前線指揮兵",
+        "name_en": "Army Frontline Commander",
         "stats": [
             {
                 "hp": 15000,
@@ -74259,8 +74257,8 @@
         "key": "enemy_10125_uacomd_2",
         "sortId": 1069,
         "name_zh": "集团军核心指挥官",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "ウルサス軍中枢指揮官",
+        "name_en": "Army Senior Commander",
         "stats": [
             {
                 "hp": 20000,
@@ -74302,8 +74300,8 @@
         "key": "enemy_10126_rkbomb",
         "sortId": 1070,
         "name_zh": "异质源石虫",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "変質オリジムシ",
+        "name_en": "Abnormal Originium Slug",
         "stats": [
             {
                 "hp": 4500,
@@ -74359,8 +74357,8 @@
         "key": "enemy_10126_rkbomb_2",
         "sortId": 1071,
         "name_zh": "异质源石虫·α",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "変質オリジムシα",
+        "name_en": "Abnormal Originium Slug α",
         "stats": [
             {
                 "hp": 6000,
@@ -74416,8 +74414,8 @@
         "key": "enemy_10127_rkmbst",
         "sortId": 1072,
         "name_zh": "异质裂兽",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "変質裂獣",
+        "name_en": "Abnormal Manglerbeast",
         "stats": [
             {
                 "hp": 20000,
@@ -74473,8 +74471,8 @@
         "key": "enemy_10127_rkmbst_2",
         "sortId": 1073,
         "name_zh": "异质裂兽·α",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "変質裂獣α",
+        "name_en": "Abnormal Manglerbeast α",
         "stats": [
             {
                 "hp": 27500,
@@ -74530,8 +74528,8 @@
         "key": "enemy_10128_fearpj",
         "sortId": 1074,
         "name_zh": "“惘核”",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "「惘核」",
+        "name_en": "'Core of Stupor'",
         "stats": [
             {
                 "hp": 5000,
@@ -74588,8 +74586,8 @@
         "key": "enemy_1569_ldevil",
         "sortId": 1269,
         "name_zh": "莫菲丝",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "モーフィアス",
+        "name_en": "Morpheus",
         "stats": [
             {
                 "hp": 60000,
@@ -74716,8 +74714,8 @@
         "key": "enemy_1571_mirbst",
         "sortId": 1271,
         "name_zh": "狂躁异质裂兽",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "狂乱の変質裂獣",
+        "name_en": "Rampaging Abnormal Manglerbeast",
         "stats": [
             {
                 "hp": 150000,
@@ -74854,8 +74852,8 @@
         "key": "enemy_1572_folchr",
         "sortId": 1272,
         "name_zh": "圣愚",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "佯狂者",
+        "name_en": "Yurodstvo",
         "stats": [
             {
                 "hp": 80000,
@@ -74919,8 +74917,8 @@
         "key": "enemy_18001_lhship",
         "sortId": 1460,
         "name_zh": "运输汽艇",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "輸送艇",
+        "name_en": "Transport Boat",
         "stats": [
             {
                 "hp": 5500,
@@ -74962,8 +74960,8 @@
         "key": "enemy_18002_lhbetl",
         "sortId": 1461,
         "name_zh": "小颚虫",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "コアゴムシ",
+        "name_en": "Pincerbug",
         "stats": [
             {
                 "hp": 3450,
@@ -75008,8 +75006,8 @@
         "key": "enemy_18003_lhkarb",
         "sortId": 1462,
         "name_zh": "吸气乱动机",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "吸い込み暴走マシン",
+        "name_en": "Rampaging Vacuum",
         "stats": [
             {
                 "hp": 9800,
@@ -75054,8 +75052,8 @@
         "key": "enemy_18004_lhbmom",
         "sortId": 1463,
         "name_zh": "巨锹虫",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "オオクワムシ",
+        "name_en": "Giant Pincerbug",
         "stats": [
             {
                 "hp": 23500,
@@ -75100,8 +75098,8 @@
         "key": "enemy_18005_lhwand",
         "sortId": 1464,
         "name_zh": "“徘徊者”",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "「徘徊者」",
+        "name_en": "'Wanderer'",
         "stats": [
             {
                 "hp": 70000,
@@ -75160,8 +75158,8 @@
         "key": "enemy_18006_lhprie",
         "sortId": 1465,
         "name_zh": "恩慈祷者",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "恩慈の祈祷者",
+        "name_en": "Praying Benefactor",
         "stats": [
             {
                 "hp": 68000,
@@ -75205,8 +75203,8 @@
         "key": "enemy_18007_lhbque",
         "sortId": 1466,
         "name_zh": "斑斓虫",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "ナナイロムシ",
+        "name_en": "Kaleidoqueen",
         "stats": [
             {
                 "hp": 138000,
@@ -75252,8 +75250,8 @@
         "key": "enemy_18008_lhbbos",
         "sortId": 1467,
         "name_zh": "“老尖牙”",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "「老いた牙」",
+        "name_en": "'Old Fanged One'",
         "stats": [
             {
                 "hp": 97500,
@@ -75302,8 +75300,8 @@
         "key": "enemy_2123_dyjsww",
         "sortId": 1343,
         "name_zh": "后兽",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "後獣",
+        "name_en": "Bestial Hou",
         "stats": [
             {
                 "hp": 1000000,
@@ -75414,8 +75412,8 @@
         "key": "enemy_2124_dyjsfg",
         "sortId": 1344,
         "name_zh": "矩兽",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "矩獣",
+        "name_en": "Bestial Ju",
         "stats": [
             {
                 "hp": 350000,
@@ -75482,8 +75480,8 @@
         "key": "enemy_2125_dylnpp",
         "sortId": 1083,
         "name_zh": "小八界",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "八界くん",
+        "name_en": "Little Ba'jie",
         "stats": [
             {
                 "hp": 25000,
@@ -75578,8 +75576,8 @@
         "key": "enemy_3010_mcreep",
         "sortId": 1075,
         "name_zh": "矿工游击队",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "坑夫遊撃隊員",
+        "name_en": "Miner Guerrilla",
         "stats": [
             {
                 "hp": 3000,
@@ -75631,8 +75629,8 @@
         "key": "enemy_3011_dyegrd",
         "sortId": 1076,
         "name_zh": "“皇帝的利刃”，折戟者",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "「皇帝の利刃」、断刃者",
+        "name_en": "'Emperor's Blade', Halberd Breaker",
         "stats": [
             {
                 "hp": 40000,
@@ -79002,7 +79000,7 @@
                 "epResistance": 0.0,
                 "traits": [
                     {
-                        "key": "dyswrd_1"
+                        "key": "dyfire_1"
                     },
                     {
                         "key": "dy_end"

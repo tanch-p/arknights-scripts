@@ -692,6 +692,9 @@ def generate_roguelike_stages():
                         name_en = stage_info_en["name"].replace(" ", "_")
                         if level_id in stage_name_overwrite_table:
                             name_zh = stage_name_overwrite_table[level_id]["name_zh"]
+                            if TOPIC_IN_GLOBAL:
+                                name_en = stage_name_overwrite_table[level_id]["name_en"]
+                                name_ja = stage_name_overwrite_table[level_id]["name_ja"]
                         zh_url_key = stage_info_cn["code"] + "_" + name_zh
                         stage_name_lookup[zh_url_key] = {
                             "lang": "zh",
