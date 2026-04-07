@@ -15091,5 +15091,126 @@
                 ]
             }
         ]
+    },
+    "char_4224_turdus": {
+        "appellation": "Укусик",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "久病良医",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "受到自身的跳跃治疗时，治疗量提升至125%<@ba.talpu>（+5%）</>，并额外进行一次不衰减的治疗跳跃",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": []
+            }
+        ]
+    },
+    "char_4223_botany": {
+        "appellation": "Ботани",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "背弃沉默",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "攻击范围内有敌人<ba.dt.erosion2>侵蚀损伤</>爆发时攻击速度+7<@ba.talpu>（+1）</>，最多可叠加3层",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 7.0
+                    }
+                ]
+            }
+        ]
+    },
+    "char_1051_headb2": {
+        "appellation": "Zima the Raging Tide",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "汹涌怒火",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "特性溅射造成的物理伤害提升24%，且溅射到的每个高台对周围四格所有地面敌人造成相当于攻击力27%<@ba.talpu>（+3%）</>的物理伤害和0.5秒<ba.sluggish>停顿</>",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "sluggish",
+                        "targets": 99,
+                        "value": 0.5,
+                        "target_air": false
+                    },
+                    {
+                        "key": "ms_down",
+                        "targets": 99,
+                        "value": 0.8,
+                        "duration": 0.5,
+                        "category": [
+                            "sluggish"
+                        ],
+                        "target_air": false
+                    }
+                ]
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "万众巨潮",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "技能期间所有场上干员攻击力和防御力+18%<@ba.talpu>（+4%）</>，【乌萨斯学生自治团】干员获得加成效果翻倍",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "student"
+                ],
+                "blackboard": [
+                    {
+                        "key": "def",
+                        "value": 0.36,
+                        "conditions": [
+                            "skill_active"
+                        ]
+                    },
+                    {
+                        "key": "ally_def",
+                        "value": 0.18,
+                        "conditions": [
+                            "skill_active"
+                        ]
+                    },
+                    {
+                        "key": "ally_atk",
+                        "value": 0.18,
+                        "conditions": [
+                            "skill_active"
+                        ]
+                    },
+                    {
+                        "key": "ally_def",
+                        "value": 0.36,
+                        "conditions": [
+                            "skill_active",
+                            "student"
+                        ]
+                    },
+                    {
+                        "key": "ally_atk",
+                        "value": 0.36,
+                        "conditions": [
+                            "skill_active",
+                            "student"
+                        ]
+                    }
+                ]
+            }
+        ]
     }
 }

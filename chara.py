@@ -2,6 +2,7 @@ from __future__ import annotations
 import json
 import os
 import re
+from datetime import datetime
 from game_types.character_table import (
     CharacterTable,
     CharacterTableEntry,
@@ -14,6 +15,7 @@ from chara_skills import replace_substrings
 from subprofession_tags import get_sub_profession_tags
 import pprint
 from tokens import IDS_TO_IGNORE
+from utils.datetime_to_unix import datetime_to_unix_gmt8
 
 script_dir = os.path.dirname(__file__)
 
@@ -707,12 +709,36 @@ def update_chara_talents_json(filtered_cn_char_table: CharacterTable) -> None:
         json.dump(return_dict, f, ensure_ascii=False, indent=4)
 
 
+def get_new_chara_keys_for_imple_dates(
+    filtered_cn_char_table: CharacterTable,
+) -> list[str]:
+    keys = [id for id in filtered_cn_char_table if id not in imple_dates]
+    keys.extend(id for id in cn_patch_table["patchChars"] if id not in imple_dates)
+    return list(dict.fromkeys(keys))
+
+
+def append_new_chara_imple_dates(new_chara_keys: list[str]) -> None:
+    if not new_chara_keys:
+        return
+
+    datetime_str = "07/04/2026 12:00:00"
+    timestamp = datetime_to_unix_gmt8(datetime_str)
+
+    for key in new_chara_keys:
+        imple_dates[key] = timestamp
+
+    with open("chara_imple_dates.json", "w", encoding="utf-8") as f:
+        json.dump(imple_dates, f, ensure_ascii=False, indent=4)
+
+
 # Main execution
 filtered_cn_char_table = {
     key: cn_char_table[key]
     for key in cn_char_table
     if "token" not in key and "trap" not in key and key not in KEYS_TO_IGNORE
 }
+
+append_new_chara_imple_dates(get_new_chara_keys_for_imple_dates(filtered_cn_char_table))
 
 data, subProfessionIds = process_main_chars(filtered_cn_char_table)
 data.extend(process_patch_chars())

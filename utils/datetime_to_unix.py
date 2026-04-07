@@ -12,5 +12,5 @@ def datetime_to_unix_gmt8(datetime_str: str) -> int:
     
     return int(dt.timestamp())
 
-# Example usage
-print(datetime_to_unix_gmt8("10/03/2026 12:00:00"))
+if __name__ == "__main__":
+    print(datetime_to_unix_gmt8("10/03/2026 12:00:00"))
