@@ -1,23 +1,11 @@
 from __future__ import annotations
-
+from common import Blackboard, ItemCost
 from typing import TypedDict
 
 
 class UnlockCondition(TypedDict):
     phase: str  # "PHASE_0" | "PHASE_1" | "PHASE_2"
     level: int
-
-
-class Blackboard(TypedDict):
-    key: str
-    value: float
-    valueStr: str | None
-
-
-class ItemCost(TypedDict):
-    id: str
-    count: int
-    type: str  # e.g. "MATERIAL"
 
 
 class AttributeData(TypedDict):
