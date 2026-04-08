@@ -1,5 +1,5 @@
 import os
-import shutil
+import subprocess
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -20,14 +20,14 @@ TARGET_FILES = [
 
 
 def get_images(category, file_names):
-    if category == "char":
+    if category == "chara":
         folder_prefix = "ui_char_avatar_"
     elif category == "skill":
         folder_prefix = "skill_icons_"
         file_names = [f"skill_icon_{name}" for name in file_names]
 
     ensure_dest()
-    results = find_and_copy(folder_prefix, file_names)
+    results = find_and_copy(category, folder_prefix, file_names)
 
     print("Copied files:" if results else "No matching files found.")
     for r in results:
@@ -62,7 +62,7 @@ def get_target_folders(folder_prefix):
     return folders
 
 
-def find_and_copy(folder_prefix, keys):
+def find_and_copy(category, folder_prefix, keys):
     found = []
 
     folders = get_target_folders(folder_prefix)
@@ -73,14 +73,33 @@ def find_and_copy(folder_prefix, keys):
 
             if file_name in keys:
                 src_path = os.path.join(folder_path, file)
+                dest_name = os.path.splitext(file)[0] + ".webp"
+                dest_path = get_unique_path(os.path.join(DEST_DIR, dest_name))
 
-                dest_path = get_unique_path(os.path.join(DEST_DIR, file))
-                shutil.copy2(src_path, dest_path)
+                if category == "chara":
+                    subprocess.run(
+                        [
+                            "magick",
+                            "convert",
+                            "-resize",
+                            "128x128",
+                            "-quality",
+                            "90",
+                            src_path,
+                            dest_path,
+                        ],
+                        check=True,
+                    )
+                else:
+                    subprocess.run(
+                        ["magick", "convert", "-quality", "90", src_path, dest_path],
+                        check=True,
+                    )
 
-                found.append(dest_path)
+            found.append(dest_path)
 
     return found
 
 
 if __name__ == "__main__":
-    get_images("skill",TARGET_FILES)
+    get_images("chara", TARGET_FILES)
