@@ -22,6 +22,16 @@ TARGET_FILES = [
 def get_images(category, file_names):
     if category == "chara":
         folder_prefix = "ui_char_avatar_"
+    elif category == "enemy":
+        folder_prefix = "icon_enemies_"
+    elif category == "color_equip":
+        folder_prefix = "ui_equip_type_direction_hub_h2_"
+    elif category == "equip":
+        folder_prefix = "ui_equip_type_hub_h2_"
+    elif category == "rogue_item":
+        folder_prefix = "ui_roguelike_topic_item_h1_rogue_"
+    elif category == "recalrune":
+        folder_prefix = "ui_recalrune_rune_icon_sprites_"
     elif category == "skill":
         folder_prefix = "skill_icons_"
         file_names = [f"skill_icon_{name}" for name in file_names]
@@ -69,6 +79,8 @@ def find_and_copy(category, folder_prefix, keys):
 
     for folder_path in folders:
         for file in os.listdir(folder_path):
+            if "$0" in file:
+                continue
             file_name, _ = os.path.splitext(file)
 
             if file_name in keys:
@@ -76,7 +88,7 @@ def find_and_copy(category, folder_prefix, keys):
                 dest_name = os.path.splitext(file)[0] + ".webp"
                 dest_path = get_unique_path(os.path.join(DEST_DIR, dest_name))
 
-                if category == "chara":
+                if category == "chara" or category == "enemy":
                     subprocess.run(
                         [
                             "magick",
@@ -96,7 +108,7 @@ def find_and_copy(category, folder_prefix, keys):
                         check=True,
                     )
 
-            found.append(dest_path)
+                found.append(dest_path)
 
     return found
 
