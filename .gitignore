@@ -1,6 +1,4 @@
-/.claude
-.codex
-.env
+# data files
 /cn_data
 /global_data
 is_stages_list_read.json
@@ -20,9 +18,6 @@ variations*
 disasters.json
 skz_fragments.json
 temp.json
-__pycache__/
-sitemap.txt
-.vscode
 log.txt
 temp.txt
 ro_wave_timelines/*/*
@@ -39,5 +34,32 @@ ro4.json
 ro5.json
 sec_filters.json
 translations.json
-convert_translations.py
+converted_translations.jsonro_wave_timelines/*/*
+ro_stage_data/*
+all_stage_data/*
+all_stages_list.json
+activities_list.json
+system_token_skills.json
+stage_predefines.json
+ro1.json
+ro2.json
+ro3.json
+ro4.json
+ro5.json
+sec_filters.json
+translations.json
 converted_translations.json
+sitemap.txt
+skill_bat.json
+skill_bat_final.json
+
+# tools
+/.claude
+.codex
+.env
+
+# misc
+__pycache__/
+.vscode
+
+convert_translations.py
