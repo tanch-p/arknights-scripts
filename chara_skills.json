@@ -117867,8 +117867,8 @@
     },
     "skchr_akkord_1": {
         "name_zh": "反拍重音",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "裏拍の強音",
+        "name_en": "Backbeat Stress",
         "chara_list": [
             "协律"
         ],
@@ -117879,8 +117879,8 @@
             {
                 "rangeId": null,
                 "description_zh": "下次攻击造成相当于攻击力<@ba.vup>170%</>的法术伤害\\n<@ba.rem>可充能2次</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "次の通常攻撃時、攻撃力の<@ba.vup>170%</>の術ダメージを与える\n<@ba.rem>2回チャージ可能</>",
+                "description_en": "The next attack deals <@ba.vup>170%</> ATK as Arts damage\n<@ba.rem>Can store 2 charges</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -117900,8 +117900,8 @@
             {
                 "rangeId": null,
                 "description_zh": "下次攻击造成相当于攻击力<@ba.vup>180%</>的法术伤害\\n<@ba.rem>可充能2次</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "次の通常攻撃時、攻撃力の<@ba.vup>180%</>の術ダメージを与える\n<@ba.rem>2回チャージ可能</>",
+                "description_en": "The next attack deals <@ba.vup>180%</> ATK as Arts damage\n<@ba.rem>Can store 2 charges</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -117921,8 +117921,8 @@
             {
                 "rangeId": null,
                 "description_zh": "下次攻击造成相当于攻击力<@ba.vup>190%</>的法术伤害\\n<@ba.rem>可充能2次</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "次の通常攻撃時、攻撃力の<@ba.vup>190%</>の術ダメージを与える\n<@ba.rem>2回チャージ可能</>",
+                "description_en": "The next attack deals <@ba.vup>190%</> ATK as Arts damage\n<@ba.rem>Can store 2 charges</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -117942,8 +117942,8 @@
             {
                 "rangeId": null,
                 "description_zh": "下次攻击造成相当于攻击力<@ba.vup>200%</>的法术伤害\\n<@ba.rem>可充能2次</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "次の通常攻撃時、攻撃力の<@ba.vup>200%</>の術ダメージを与える\n<@ba.rem>2回チャージ可能</>",
+                "description_en": "The next attack deals <@ba.vup>200%</> ATK as Arts damage\n<@ba.rem>Can store 2 charges</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -117973,8 +117973,8 @@
     },
     "skchr_akkord_2": {
         "name_zh": "震爆调谐",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "共震の調律",
+        "name_en": "Explosive Tuning",
         "chara_list": [
             "协律"
         ],
@@ -117985,8 +117985,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击力<@ba.vup>+45%</>，每次攻击在攻击范围内的其他干员处施加一次音爆，造成相当于<@ba.vup>20%</>攻击力的群体法术伤害",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃力<@ba.vup>+45%</>、攻撃時、攻撃範囲内のオペレーターの位置にソニックブームを発生させ、攻撃力の<@ba.vup>20%</>の範囲術ダメージを与える",
+                "description_en": "<@ba.vup>+45%</> ATK, every attack triggers a sonic boom at the location of other Operators within attack range, dealing <@ba.vup>20%</> ATK as AoE Arts damage",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -118014,8 +118014,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击力<@ba.vup>+50%</>，每次攻击在攻击范围内的其他干员处施加一次音爆，造成相当于<@ba.vup>20%</>攻击力的群体法术伤害",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃力<@ba.vup>+50%</>、攻撃時、攻撃範囲内のオペレーターの位置にソニックブームを発生させ、攻撃力の<@ba.vup>20%</>の範囲術ダメージを与える",
+                "description_en": "<@ba.vup>+50%</> ATK, every attack triggers a sonic boom at the location of other Operators within attack range, dealing <@ba.vup>20%</> ATK as AoE Arts damage",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -118043,8 +118043,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击力<@ba.vup>+55%</>，每次攻击在攻击范围内的其他干员处施加一次音爆，造成相当于<@ba.vup>20%</>攻击力的群体法术伤害",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃力<@ba.vup>+55%</>、攻撃時、攻撃範囲内のオペレーターの位置にソニックブームを発生させ、攻撃力の<@ba.vup>20%</>の範囲術ダメージを与える",
+                "description_en": "<@ba.vup>+55%</> ATK, every attack triggers a sonic boom at the location of other Operators within attack range, dealing <@ba.vup>20%</> ATK as AoE Arts damage",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -118072,8 +118072,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击力<@ba.vup>+60%</>，每次攻击在攻击范围内的其他干员处施加一次音爆，造成相当于<@ba.vup>25%</>攻击力的群体法术伤害",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃力<@ba.vup>+60%</>、攻撃時、攻撃範囲内のオペレーターの位置にソニックブームを発生させ、攻撃力の<@ba.vup>25%</>の範囲術ダメージを与える",
+                "description_en": "<@ba.vup>+60%</> ATK, every attack triggers a sonic boom at the location of other Operators within attack range, dealing <@ba.vup>25%</> ATK as AoE Arts damage",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -118104,8 +118104,8 @@
     },
     "skchr_hadiya_1": {
         "name_zh": "沙地战术改良",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "砂地適応戦術",
+        "name_en": "Enhanced Desert Tactics",
         "chara_list": [
             "哈蒂娅"
         ],
@@ -118116,8 +118116,8 @@
             {
                 "rangeId": null,
                 "description_zh": "防御力<@ba.vup>+70%</>\\n<ba.alter>装备应变</>：消耗<@ba.vdown>10</>点部署费用，攻击力<@ba.vup>+70%</>，持续到技能结束\\n<@ba.rem>技力满时可使用<ba.alter>装备应变</>来开启技能</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "防御力<@ba.vup>+70%</>\n<ba.alter>戦術換装</>：コストを<@ba.vdown>10</>消費し、攻撃力<@ba.vup>+70%</>（スキル終了まで継続）\n<@ba.rem>SPが最大値に達している場合、<ba.alter>戦術換装</>によりスキルを発動可能</>",
+                "description_en": "<@ba.vup>+70%</> DEF\n<ba.alter>Equipment Alteration</>: Consumes <@ba.vdown>10</> DP to gain <@ba.vup>+70%</> ATK until skill ends\n<@ba.rem>Can use <ba.alter>Equipment Alteration</> to activate skill when SP is full</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -118145,8 +118145,8 @@
             {
                 "rangeId": null,
                 "description_zh": "防御力<@ba.vup>+80%</>\\n<ba.alter>装备应变</>：消耗<@ba.vdown>10</>点部署费用，攻击力<@ba.vup>+80%</>，持续到技能结束\\n<@ba.rem>技力满时可使用<ba.alter>装备应变</>来开启技能</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "防御力<@ba.vup>+80%</>\n<ba.alter>戦術換装</>：コストを<@ba.vdown>10</>消費し、攻撃力<@ba.vup>+80%</>（スキル終了まで継続）\n<@ba.rem>SPが最大値に達している場合、<ba.alter>戦術換装</>によりスキルを発動可能</>",
+                "description_en": "<@ba.vup>+80%</> DEF\n<ba.alter>Equipment Alteration</>: Consumes <@ba.vdown>10</> DP to gain <@ba.vup>+80%</> ATK until skill ends\n<@ba.rem>Can use <ba.alter>Equipment Alteration</> to activate skill when SP is full</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -118174,8 +118174,8 @@
             {
                 "rangeId": null,
                 "description_zh": "防御力<@ba.vup>+90%</>\\n<ba.alter>装备应变</>：消耗<@ba.vdown>10</>点部署费用，攻击力<@ba.vup>+90%</>，持续到技能结束\\n<@ba.rem>技力满时可使用<ba.alter>装备应变</>来开启技能</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "防御力<@ba.vup>+90%</>\n<ba.alter>戦術換装</>：コストを<@ba.vdown>10</>消費し、攻撃力<@ba.vup>+90%</>（スキル終了まで継続）\n<@ba.rem>SPが最大値に達している場合、<ba.alter>戦術換装</>によりスキルを発動可能</>",
+                "description_en": "<@ba.vup>+90%</> DEF\n<ba.alter>Equipment Alteration</>: Consumes <@ba.vdown>10</> DP to gain <@ba.vup>+90%</> ATK until skill ends\n<@ba.rem>Can use <ba.alter>Equipment Alteration</> to activate skill when SP is full</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -118203,8 +118203,8 @@
             {
                 "rangeId": null,
                 "description_zh": "防御力<@ba.vup>+100%</>\\n<ba.alter>装备应变</>：消耗<@ba.vdown>10</>点部署费用，攻击力<@ba.vup>+100%</>，持续到技能结束\\n<@ba.rem>技力满时可使用<ba.alter>装备应变</>来开启技能</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "防御力<@ba.vup>+100%</>\n<ba.alter>戦術換装</>：コストを<@ba.vdown>10</>消費し、攻撃力<@ba.vup>+100%</>（スキル終了まで継続）\n<@ba.rem>SPが最大値に達している場合、<ba.alter>戦術換装</>によりスキルを発動可能</>",
+                "description_en": "<@ba.vup>+100%</> DEF\n<ba.alter>Equipment Alteration</>: Consumes <@ba.vdown>10</> DP to gain <@ba.vup>+100%</> ATK until skill ends\n<@ba.rem>Can use <ba.alter>Equipment Alteration</> to activate skill when SP is full</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -118241,8 +118241,8 @@
     },
     "skchr_hadiya_2": {
         "name_zh": "剑角之锋",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "カルンサイフの鋭鋒",
+        "name_en": "Blade of the Qarnsayf",
         "chara_list": [
             "哈蒂娅"
         ],
@@ -118253,8 +118253,8 @@
             {
                 "rangeId": "3-2",
                 "description_zh": "消耗<@ba.vdown>10</>点部署费用组合剑和杖，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+135%</>，同时攻击<@ba.vup>3</>个目标；\\n技能期间可消耗<@ba.vdown>15</>点部署费用使用<ba.alter>装备应变</>，延长<@ba.vup>15</>秒技能持续时间",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "コストを<@ba.vdown>10</>消費し、剣と杖を組み合わせる。攻撃範囲<@ba.vup>拡大</>、攻撃力<@ba.vup>+135%</>、敵最大<@ba.vup>3</>体を同時に攻撃する\nスキル発動中、コストを<@ba.vdown>15</>消費して<ba.alter>戦術換装</>を発動し、スキル発動時間を<@ba.vup>15</>秒延長可能",
+                "description_en": "Consumes <@ba.vdown>10</> DP to fuse sword and staff, gaining <@ba.vup>increased</> Attack Range, <@ba.vup>+135%</> ATK, and attacking up to <@ba.vup>3</> targets simultaneously; \nWhen skill is active, can spend <@ba.vdown>15</> DP to activate <ba.alter>Equipment Alteration</>, extending skill duration by <@ba.vup>15</> seconds",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -118290,8 +118290,8 @@
             {
                 "rangeId": "3-2",
                 "description_zh": "消耗<@ba.vdown>10</>点部署费用组合剑和杖，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+140%</>，同时攻击<@ba.vup>3</>个目标；\\n技能期间可消耗<@ba.vdown>15</>点部署费用使用<ba.alter>装备应变</>，延长<@ba.vup>15</>秒技能持续时间",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "コストを<@ba.vdown>10</>消費し、剣と杖を組み合わせる。攻撃範囲<@ba.vup>拡大</>、攻撃力<@ba.vup>+140%</>、敵最大<@ba.vup>3</>体を同時に攻撃する\nスキル発動中、コストを<@ba.vdown>15</>消費して<ba.alter>戦術換装</>を発動し、スキル発動時間を<@ba.vup>15</>秒延長可能",
+                "description_en": "Consumes <@ba.vdown>10</> DP to fuse sword and staff, gaining <@ba.vup>increased</> Attack Range, <@ba.vup>+140%</> ATK, and attacking up to <@ba.vup>3</> targets simultaneously; \nWhen skill is active, can spend <@ba.vdown>15</> DP to activate <ba.alter>Equipment Alteration</>, extending skill duration by <@ba.vup>15</> seconds",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -118327,8 +118327,8 @@
             {
                 "rangeId": "3-2",
                 "description_zh": "消耗<@ba.vdown>10</>点部署费用组合剑和杖，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+145%</>，同时攻击<@ba.vup>3</>个目标；\\n技能期间可消耗<@ba.vdown>15</>点部署费用使用<ba.alter>装备应变</>，延长<@ba.vup>15</>秒技能持续时间",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "コストを<@ba.vdown>10</>消費し、剣と杖を組み合わせる。攻撃範囲<@ba.vup>拡大</>、攻撃力<@ba.vup>+145%</>、敵最大<@ba.vup>3</>体を同時に攻撃する\nスキル発動中、コストを<@ba.vdown>15</>消費して<ba.alter>戦術換装</>を発動し、スキル発動時間を<@ba.vup>15</>秒延長可能",
+                "description_en": "Consumes <@ba.vdown>10</> DP to fuse sword and staff, gaining <@ba.vup>increased</> Attack Range, <@ba.vup>+145%</> ATK, and attacking up to <@ba.vup>3</> targets simultaneously; \nWhen skill is active, can spend <@ba.vdown>15</> DP to activate <ba.alter>Equipment Alteration</>, extending skill duration by <@ba.vup>15</> seconds",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -118364,8 +118364,8 @@
             {
                 "rangeId": "3-2",
                 "description_zh": "消耗<@ba.vdown>10</>点部署费用组合剑和杖，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+150%</>，同时攻击<@ba.vup>3</>个目标；\\n技能期间可消耗<@ba.vdown>15</>点部署费用使用<ba.alter>装备应变</>，延长<@ba.vup>15</>秒技能持续时间",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "コストを<@ba.vdown>10</>消費し、剣と杖を組み合わせる。攻撃範囲<@ba.vup>拡大</>、攻撃力<@ba.vup>+150%</>、敵最大<@ba.vup>3</>体を同時に攻撃する\nスキル発動中、コストを<@ba.vdown>15</>消費して<ba.alter>戦術換装</>を発動し、スキル発動時間を<@ba.vup>15</>秒延長可能",
+                "description_en": "Consumes <@ba.vdown>10</> DP to fuse sword and staff, gaining <@ba.vup>increased</> Attack Range, <@ba.vup>+150%</> ATK, and attacking up to <@ba.vup>3</> targets simultaneously; \nWhen skill is active, can spend <@ba.vdown>15</> DP to activate <ba.alter>Equipment Alteration</>, extending skill duration by <@ba.vup>15</> seconds",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -118409,8 +118409,8 @@
     },
     "skchr_snhunt_1": {
         "name_zh": "强力击·β型",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "強撃β",
+        "name_en": "Power Strike β",
         "chara_list": [
             "雪猎"
         ],
@@ -118421,8 +118421,8 @@
             {
                 "rangeId": null,
                 "description_zh": "下次攻击的攻击力提高至<@ba.vup>200%</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "次の通常攻撃時、攻撃力が<@ba.vup>200%</>まで上昇",
+                "description_en": "Increases the ATK of next attack to <@ba.vup>200%</>",
                 "spData": {
                     "spType": "INCREASE_WHEN_ATTACK",
                     "levelUpCost": null,
@@ -118442,8 +118442,8 @@
             {
                 "rangeId": null,
                 "description_zh": "下次攻击的攻击力提高至<@ba.vup>210%</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "次の通常攻撃時、攻撃力が<@ba.vup>210%</>まで上昇",
+                "description_en": "Increases the ATK of next attack to <@ba.vup>210%</>",
                 "spData": {
                     "spType": "INCREASE_WHEN_ATTACK",
                     "levelUpCost": null,
@@ -118463,8 +118463,8 @@
             {
                 "rangeId": null,
                 "description_zh": "下次攻击的攻击力提高至<@ba.vup>220%</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "次の通常攻撃時、攻撃力が<@ba.vup>220%</>まで上昇",
+                "description_en": "Increases the ATK of next attack to <@ba.vup>220%</>",
                 "spData": {
                     "spType": "INCREASE_WHEN_ATTACK",
                     "levelUpCost": null,
@@ -118484,8 +118484,8 @@
             {
                 "rangeId": null,
                 "description_zh": "下次攻击的攻击力提高至<@ba.vup>230%</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "次の通常攻撃時、攻撃力が<@ba.vup>230%</>まで上昇",
+                "description_en": "Increases the ATK of next attack to <@ba.vup>230%</>",
                 "spData": {
                     "spType": "INCREASE_WHEN_ATTACK",
                     "levelUpCost": null,
@@ -118515,8 +118515,8 @@
     },
     "skchr_snhunt_2": {
         "name_zh": "风雪连弩",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "吹雪の連矢",
+        "name_en": "Twin Blizzard Bolts",
         "chara_list": [
             "雪猎"
         ],
@@ -118527,8 +118527,8 @@
             {
                 "rangeId": null,
                 "description_zh": "立即使用特殊子弹发动相当于攻击力<@ba.vup>180%</>的两连击（对非移动敌人提升至<@ba.vup>210%</>）\\n<@ba.rem>可充能2次</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "特殊弾で攻撃力の<@ba.vup>180%</>（移動していない敵を攻撃する場合、攻撃力が<@ba.vup>210%</>まで上昇）の2連撃を行う\n<@ba.rem>2回チャージ可能</>",
+                "description_en": "Immediately fires special bullets dealing <@ba.vup>180%</> ATK for two shots (increases to <@ba.vup>210%</> when hitting non-mobile enemies)\n<@ba.rem>Can hold 2 charge(s)</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -118556,8 +118556,8 @@
             {
                 "rangeId": null,
                 "description_zh": "立即使用特殊子弹发动相当于攻击力<@ba.vup>190%</>的两连击（对非移动敌人提升至<@ba.vup>220%</>）\\n<@ba.rem>可充能2次</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "特殊弾で攻撃力の<@ba.vup>190%</>（移動していない敵を攻撃する場合、攻撃力が<@ba.vup>220%</>まで上昇）の2連撃を行う\n<@ba.rem>2回チャージ可能</>",
+                "description_en": "Immediately fires special bullets dealing <@ba.vup>190%</> ATK for two shots (increases to <@ba.vup>220%</> when hitting non-mobile enemies)\n<@ba.rem>Can hold 2 charge(s)</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -118585,8 +118585,8 @@
             {
                 "rangeId": null,
                 "description_zh": "立即使用特殊子弹发动相当于攻击力<@ba.vup>200%</>的两连击（对非移动敌人提升至<@ba.vup>240%</>）\\n<@ba.rem>可充能2次</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "特殊弾で攻撃力の<@ba.vup>200%</>（移動していない敵を攻撃する場合、攻撃力が<@ba.vup>240%</>まで上昇）の2連撃を行う\n<@ba.rem>2回チャージ可能</>",
+                "description_en": "Immediately fires special bullets dealing <@ba.vup>200%</> ATK for two shots (increases to <@ba.vup>240%</> when hitting non-mobile enemies)\n<@ba.rem>Can hold 2 charge(s)</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -118614,8 +118614,8 @@
             {
                 "rangeId": null,
                 "description_zh": "立即使用特殊子弹发动相当于攻击力<@ba.vup>220%</>的两连击（对非移动敌人提升至<@ba.vup>260%</>）\\n<@ba.rem>可充能2次</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "特殊弾で攻撃力の<@ba.vup>220%</>（移動していない敵を攻撃する場合、攻撃力が<@ba.vup>260%</>まで上昇）の2連撃を行う\n<@ba.rem>2回チャージ可能</>",
+                "description_en": "Immediately fires special bullets dealing <@ba.vup>220%</> ATK for two shots (increases to <@ba.vup>260%</> when hitting non-mobile enemies)\n<@ba.rem>Can hold 2 charge(s)</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -118654,8 +118654,8 @@
     },
     "skchr_svash2_1": {
         "name_zh": "周旋的谋略",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "ポーンブレイク",
+        "name_en": "Pawn Break",
         "chara_list": [
             "凛御银灰"
         ],
@@ -118666,8 +118666,8 @@
             {
                 "rangeId": null,
                 "description_zh": "立刻获得<@ba.vup>10</>点部署费用。待部署区中距离“风雪之眼”最近的1名干员费用<@ba.vup>-5</>（优先选择右侧<@ba.vup>近卫/术师/狙击</>干员），且部署后获得相当于凛御银灰最大生命值<@ba.vup>50%</>的<ba.barrier>屏障</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "所持コスト<@ba.vup>+10</>。配置待機エリアの「風雪の眼」から最も近いオペレーター1名の配置コスト<@ba.vup>-5</>（右側の<@ba.vup>【前衛】・【術師】・【狙撃】</>が優先的に選ばれる）、さらに対象は配置後、凛御シルバーアッシュのHP最大値の<@ba.vup>50%</>の<ba.barrier>バリア</>を獲得する",
+                "description_en": "Immediately gains <@ba.vup>10</> DP. The Operator nearest to 'Eye of the Blizzard' in the Deployment Waiting Zone has <@ba.vup>-5</> DP Cost (Prioritizes <@ba.vup>Guard/Caster/Sniper</> Operator on the right), and gains a <ba.barrier>Barrier</> equal to <@ba.vup>50%</> of SilverAsh the Reignfrost's Max HP upon deployment",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -118699,8 +118699,8 @@
             {
                 "rangeId": null,
                 "description_zh": "立刻获得<@ba.vup>10</>点部署费用。待部署区中距离“风雪之眼”最近的1名干员费用<@ba.vup>-5</>（优先选择右侧<@ba.vup>近卫/术师/狙击</>干员），且部署后获得相当于凛御银灰最大生命值<@ba.vup>50%</>的<ba.barrier>屏障</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "所持コスト<@ba.vup>+10</>。配置待機エリアの「風雪の眼」から最も近いオペレーター1名の配置コスト<@ba.vup>-5</>（右側の<@ba.vup>【前衛】・【術師】・【狙撃】</>が優先的に選ばれる）、さらに対象は配置後、凛御シルバーアッシュのHP最大値の<@ba.vup>50%</>の<ba.barrier>バリア</>を獲得する",
+                "description_en": "Immediately gains <@ba.vup>10</> DP. The Operator nearest to 'Eye of the Blizzard' in the Deployment Waiting Zone has <@ba.vup>-5</> DP Cost (Prioritizes <@ba.vup>Guard/Caster/Sniper</> Operator on the right), and gains a <ba.barrier>Barrier</> equal to <@ba.vup>50%</> of SilverAsh the Reignfrost's Max HP upon deployment",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -118732,8 +118732,8 @@
             {
                 "rangeId": null,
                 "description_zh": "立刻获得<@ba.vup>10</>点部署费用。待部署区中距离“风雪之眼”最近的1名干员费用<@ba.vup>-5</>（优先选择右侧<@ba.vup>近卫/术师/狙击</>干员），且部署后获得相当于凛御银灰最大生命值<@ba.vup>50%</>的<ba.barrier>屏障</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "所持コスト<@ba.vup>+10</>。配置待機エリアの「風雪の眼」から最も近いオペレーター1名の配置コスト<@ba.vup>-5</>（右側の<@ba.vup>【前衛】・【術師】・【狙撃】</>が優先的に選ばれる）、さらに対象は配置後、凛御シルバーアッシュのHP最大値の<@ba.vup>50%</>の<ba.barrier>バリア</>を獲得する",
+                "description_en": "Immediately gains <@ba.vup>10</> DP. The Operator nearest to 'Eye of the Blizzard' in the Deployment Waiting Zone has <@ba.vup>-5</> DP Cost (Prioritizes <@ba.vup>Guard/Caster/Sniper</> Operator on the right), and gains a <ba.barrier>Barrier</> equal to <@ba.vup>50%</> of SilverAsh the Reignfrost's Max HP upon deployment",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -118765,8 +118765,8 @@
             {
                 "rangeId": null,
                 "description_zh": "立刻获得<@ba.vup>10</>点部署费用。待部署区中距离“风雪之眼”最近的1名干员费用<@ba.vup>-5</>（优先选择右侧<@ba.vup>近卫/术师/狙击</>干员），且部署后获得相当于凛御银灰最大生命值<@ba.vup>50%</>的<ba.barrier>屏障</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "所持コスト<@ba.vup>+10</>。配置待機エリアの「風雪の眼」から最も近いオペレーター1名の配置コスト<@ba.vup>-5</>（右側の<@ba.vup>【前衛】・【術師】・【狙撃】</>が優先的に選ばれる）、さらに対象は配置後、凛御シルバーアッシュのHP最大値の<@ba.vup>50%</>の<ba.barrier>バリア</>を獲得する",
+                "description_en": "Immediately gains <@ba.vup>10</> DP. The Operator nearest to 'Eye of the Blizzard' in the Deployment Waiting Zone has <@ba.vup>-5</> DP Cost (Prioritizes <@ba.vup>Guard/Caster/Sniper</> Operator on the right), and gains a <ba.barrier>Barrier</> equal to <@ba.vup>50%</> of SilverAsh the Reignfrost's Max HP upon deployment",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -118808,8 +118808,8 @@
     },
     "skchr_svash2_2": {
         "name_zh": "御敌的锋锐",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "カウンターギャンビット",
+        "name_en": "Countergambit",
         "chara_list": [
             "凛御银灰"
         ],
@@ -118820,8 +118820,8 @@
             {
                 "rangeId": "3-7",
                 "description_zh": "对前方6名敌人造成攻击力<@ba.vup>320%</>的物理伤害，使其<@ba.vup>5</>秒内<ba.cold>寒冷</>且<ba.invisible>隐匿</>失效；待部署区中距离“风雪之眼”最近的1名干员费用<@ba.vup>-11</>（优先选择右侧<@ba.vup>近卫/术师/狙击</>干员）；使“风雪之眼”左侧所有干员部署时以<@ba.vup>自身攻击力</>施放一次本技能的范围效果（最多叠加2次）\\n<@ba.rem>可充能2次</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "前方に斬撃を放ち、敵6体に攻撃力の<@ba.vup>320%</>の物理ダメージを与え、<@ba.vup>5</>秒間<ba.cold>寒冷</>状態を付与し、<ba.invisible>ステルス</>状態を無効にする。配置待機エリアの「風雪の眼」から最も近いオペレーター1名の配置コスト<@ba.vup>-11</>（右側の<@ba.vup>【前衛】・【術師】・【狙撃】</>が優先的に選ばれる）。「風雪の眼」左側の全てのオペレーターが配置後<@ba.vup>自身の攻撃力</>で本スキルの斬撃効果を1回発動する（最大2回まで重複可能）\n<@ba.rem>2回チャージ可能</>",
+                "description_en": "Deals <@ba.vup>320%</> ATK as Physical damage to 6 enemies in front, inflicts <ba.cold>Cold</> on them and removes their <ba.invisible>Invisibility</> for <@ba.vup>5</> seconds; the Operator nearest to 'Eye of the Blizzard' has <@ba.vup>-11</> DP Cost (Prioritizes <@ba.vup>Guard/Caster/Sniper</> Operator on the right); All Operators to the left of 'Eye of the Blizzard' cast this skill <@ba.vup>with their own ATK</> once when deployed (stacks 2 times) \n<@ba.rem>Can store 2 charges</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -118874,8 +118874,8 @@
             {
                 "rangeId": "3-7",
                 "description_zh": "对前方6名敌人造成攻击力<@ba.vup>340%</>的物理伤害，使其<@ba.vup>5</>秒内<ba.cold>寒冷</>且<ba.invisible>隐匿</>失效；待部署区中距离“风雪之眼”最近的1名干员费用<@ba.vup>-11</>（优先选择右侧<@ba.vup>近卫/术师/狙击</>干员）；使“风雪之眼”左侧所有干员部署时以<@ba.vup>自身攻击力</>施放一次本技能的范围效果（最多叠加2次）\\n<@ba.rem>可充能2次</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "前方に斬撃を放ち、敵6体に攻撃力の<@ba.vup>340%</>の物理ダメージを与え、<@ba.vup>5</>秒間<ba.cold>寒冷</>状態を付与し、<ba.invisible>ステルス</>状態を無効にする。配置待機エリアの「風雪の眼」から最も近いオペレーター1名の配置コスト<@ba.vup>-11</>（右側の<@ba.vup>【前衛】・【術師】・【狙撃】</>が優先的に選ばれる）。「風雪の眼」左側の全てのオペレーターが配置後<@ba.vup>自身の攻撃力</>で本スキルの斬撃効果を1回発動する（最大2回まで重複可能）\n<@ba.rem>2回チャージ可能</>",
+                "description_en": "Deals <@ba.vup>340%</> ATK as Physical damage to 6 enemies in front, inflicts <ba.cold>Cold</> on them and removes their <ba.invisible>Invisibility</> for <@ba.vup>5</> seconds; the Operator nearest to 'Eye of the Blizzard' has <@ba.vup>-11</> DP Cost (Prioritizes <@ba.vup>Guard/Caster/Sniper</> Operator on the right); All Operators to the left of 'Eye of the Blizzard' cast this skill <@ba.vup>with their own ATK</> once when deployed (stacks 2 times) \n<@ba.rem>Can store 2 charges</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -118928,8 +118928,8 @@
             {
                 "rangeId": "3-7",
                 "description_zh": "对前方6名敌人造成攻击力<@ba.vup>360%</>的物理伤害，使其<@ba.vup>5</>秒内<ba.cold>寒冷</>且<ba.invisible>隐匿</>失效；待部署区中距离“风雪之眼”最近的1名干员费用<@ba.vup>-11</>（优先选择右侧<@ba.vup>近卫/术师/狙击</>干员）；使“风雪之眼”左侧所有干员部署时以<@ba.vup>自身攻击力</>施放一次本技能的范围效果（最多叠加2次）\\n<@ba.rem>可充能2次</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "前方に斬撃を放ち、敵6体に攻撃力の<@ba.vup>360%</>の物理ダメージを与え、<@ba.vup>5</>秒間<ba.cold>寒冷</>状態を付与し、<ba.invisible>ステルス</>状態を無効にする。配置待機エリアの「風雪の眼」から最も近いオペレーター1名の配置コスト<@ba.vup>-11</>（右側の<@ba.vup>【前衛】・【術師】・【狙撃】</>が優先的に選ばれる）。「風雪の眼」左側の全てのオペレーターが配置後<@ba.vup>自身の攻撃力</>で本スキルの斬撃効果を1回発動する（最大2回まで重複可能）\n<@ba.rem>2回チャージ可能</>",
+                "description_en": "Deals <@ba.vup>360%</> ATK as Physical damage to 6 enemies in front, inflicts <ba.cold>Cold</> on them and removes their <ba.invisible>Invisibility</> for <@ba.vup>5</> seconds; the Operator nearest to 'Eye of the Blizzard' has <@ba.vup>-11</> DP Cost (Prioritizes <@ba.vup>Guard/Caster/Sniper</> Operator on the right); All Operators to the left of 'Eye of the Blizzard' cast this skill <@ba.vup>with their own ATK</> once when deployed (stacks 2 times) \n<@ba.rem>Can store 2 charges</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -118982,8 +118982,8 @@
             {
                 "rangeId": "3-7",
                 "description_zh": "对前方6名敌人造成攻击力<@ba.vup>380%</>的物理伤害，使其<@ba.vup>6</>秒内<ba.cold>寒冷</>且<ba.invisible>隐匿</>失效；待部署区中距离“风雪之眼”最近的1名干员费用<@ba.vup>-11</>（优先选择右侧<@ba.vup>近卫/术师/狙击</>干员）；使“风雪之眼”左侧所有干员部署时以<@ba.vup>自身攻击力</>施放一次本技能的范围效果（最多叠加2次）\\n<@ba.rem>可充能2次</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "前方に斬撃を放ち、敵6体に攻撃力の<@ba.vup>380%</>の物理ダメージを与え、<@ba.vup>6</>秒間<ba.cold>寒冷</>状態を付与し、<ba.invisible>ステルス</>状態を無効にする。配置待機エリアの「風雪の眼」から最も近いオペレーター1名の配置コスト<@ba.vup>-11</>（右側の<@ba.vup>【前衛】・【術師】・【狙撃】</>が優先的に選ばれる）。「風雪の眼」左側の全てのオペレーターが配置後<@ba.vup>自身の攻撃力</>で本スキルの斬撃効果を1回発動する（最大2回まで重複可能）\n<@ba.rem>2回チャージ可能</>",
+                "description_en": "Deals <@ba.vup>380%</> ATK as Physical damage to 6 enemies in front, inflicts <ba.cold>Cold</> on them and removes their <ba.invisible>Invisibility</> for <@ba.vup>6</> seconds; the Operator nearest to 'Eye of the Blizzard' has <@ba.vup>-11</> DP Cost (Prioritizes <@ba.vup>Guard/Caster/Sniper</> Operator on the right); All Operators to the left of 'Eye of the Blizzard' cast this skill <@ba.vup>with their own ATK</> once when deployed (stacks 2 times) \n<@ba.rem>Can store 2 charges</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -119088,8 +119088,8 @@
     },
     "skchr_svash2_3": {
         "name_zh": "变革已至",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "キャスリング",
+        "name_en": "Castled King",
         "chara_list": [
             "凛御银灰"
         ],
@@ -119100,8 +119100,8 @@
             {
                 "rangeId": "3-1",
                 "description_zh": "攻击范围<@ba.vup>扩大</>并使敌人<ba.invisible>隐匿</>失效，攻击对直线范围造成攻击力<@ba.vup>170%</>的物理伤害和<@ba.vup>25%</>的<ba.fragile>脆弱</>；立即获得<@ba.vup>6</>点后持续获得<@ba.vup>24</>点部署费用\\n<@ba.rem>首次开启时交换待部署区中费用最高（优先选择近卫/术师/狙击干员）与最低干员的基础部署费用</>\\n<@ba.rem>技能期间“风雪之眼”变为可部署</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃範囲<@ba.vup>拡大</>、敵の<ba.invisible>ステルス</>状態を無効にし、通常攻撃が攻撃力の<@ba.vup>170%</>の物理ダメージを与える範囲直線攻撃になり、攻撃対象に<@ba.vup>25%</>の<ba.fragile>脆弱</>状態を付与する。所持コスト<@ba.vup>+6</>、その後所持コストが徐々に増加（合計<@ba.vup>24</>）。\n<@ba.rem>初めてのスキル発動時に配置待機エリアの配置コストが最も高いオペレーター（【前衛】・【術師】・【狙撃】が優先的に選ばれる）と最も低いオペレーターの配置コストを交換する</>\n<@ba.rem>スキル発動中「風雪の眼」が配置可能になる</>",
+                "description_en": "Attack Range <@ba.vup>expands</>, removes enemies' <ba.invisible>Invisibility</>, attacks deal <@ba.vup>170%</> ATK as Physical damage and inflict <@ba.vup>25%</> <ba.fragile>Fragile</> to targets in a straight line; immediately gains <@ba.vup>6</> DP, then gradually gains <@ba.vup>24</> DP\n<@ba.rem>On first skill activation, swaps the DP Cost of the Operator with the highest Cost (Prioritizes Guard/Caster/Sniper Operators) with the lowest in the Deployment Waiting Zone</>\n<@ba.rem>'Eye of the Blizzard' is deployable when skill is active</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -119162,8 +119162,8 @@
             {
                 "rangeId": "3-1",
                 "description_zh": "攻击范围<@ba.vup>扩大</>并使敌人<ba.invisible>隐匿</>失效，攻击对直线范围造成攻击力<@ba.vup>180%</>的物理伤害和<@ba.vup>25%</>的<ba.fragile>脆弱</>；立即获得<@ba.vup>7</>点后持续获得<@ba.vup>24</>点部署费用\\n<@ba.rem>首次开启时交换待部署区中费用最高（优先选择近卫/术师/狙击干员）与最低干员的基础部署费用</>\\n<@ba.rem>技能期间“风雪之眼”变为可部署</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃範囲<@ba.vup>拡大</>、敵の<ba.invisible>ステルス</>状態を無効にし、通常攻撃が攻撃力の<@ba.vup>180%</>の物理ダメージを与える範囲直線攻撃になり、攻撃対象に<@ba.vup>25%</>の<ba.fragile>脆弱</>状態を付与する。所持コスト<@ba.vup>+7</>、その後所持コストが徐々に増加（合計<@ba.vup>24</>）。\n<@ba.rem>初めてのスキル発動時に配置待機エリアの配置コストが最も高いオペレーター（【前衛】・【術師】・【狙撃】が優先的に選ばれる）と最も低いオペレーターの配置コストを交換する</>\n<@ba.rem>スキル発動中「風雪の眼」が配置可能になる</>",
+                "description_en": "Attack Range <@ba.vup>expands</>, removes enemies' <ba.invisible>Invisibility</>, attacks deal <@ba.vup>180%</> ATK as Physical damage and inflict <@ba.vup>25%</> <ba.fragile>Fragile</> to targets in a straight line; immediately gains <@ba.vup>7</> DP, then gradually gains <@ba.vup>24</> DP\n<@ba.rem>On first skill activation, swaps the DP Cost of the Operator with the highest Cost (Prioritizes Guard/Caster/Sniper Operators) with the lowest in the Deployment Waiting Zone</>\n<@ba.rem>'Eye of the Blizzard' is deployable when skill is active</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -119224,8 +119224,8 @@
             {
                 "rangeId": "3-1",
                 "description_zh": "攻击范围<@ba.vup>扩大</>并使敌人<ba.invisible>隐匿</>失效，攻击对直线范围造成攻击力<@ba.vup>190%</>的物理伤害和<@ba.vup>25%</>的<ba.fragile>脆弱</>；立即获得<@ba.vup>8</>点后持续获得<@ba.vup>24</>点部署费用\\n<@ba.rem>首次开启时交换待部署区中费用最高（优先选择近卫/术师/狙击干员）与最低干员的基础部署费用</>\\n<@ba.rem>技能期间“风雪之眼”变为可部署</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃範囲<@ba.vup>拡大</>、敵の<ba.invisible>ステルス</>状態を無効にし、通常攻撃が攻撃力の<@ba.vup>190%</>の物理ダメージを与える範囲直線攻撃になり、攻撃対象に<@ba.vup>25%</>の<ba.fragile>脆弱</>状態を付与する。所持コスト<@ba.vup>+8</>、その後所持コストが徐々に増加（合計<@ba.vup>24</>）。\n<@ba.rem>初めてのスキル発動時に配置待機エリアの配置コストが最も高いオペレーター（【前衛】・【術師】・【狙撃】が優先的に選ばれる）と最も低いオペレーターの配置コストを交換する</>\n<@ba.rem>スキル発動中「風雪の眼」が配置可能になる</>",
+                "description_en": "Attack Range <@ba.vup>expands</>, removes enemies' <ba.invisible>Invisibility</>, attacks deal <@ba.vup>190%</> ATK as Physical damage and inflict <@ba.vup>25%</> <ba.fragile>Fragile</> to targets in a straight line; immediately gains <@ba.vup>8</> DP, then gradually gains <@ba.vup>24</> DP\n<@ba.rem>On first skill activation, swaps the DP Cost of the Operator with the highest Cost (Prioritizes Guard/Caster/Sniper Operators) with the lowest in the Deployment Waiting Zone</>\n<@ba.rem>'Eye of the Blizzard' is deployable when skill is active</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -119286,8 +119286,8 @@
             {
                 "rangeId": "3-1",
                 "description_zh": "攻击范围<@ba.vup>扩大</>并使敌人<ba.invisible>隐匿</>失效，攻击对直线范围造成攻击力<@ba.vup>200%</>的物理伤害和<@ba.vup>30%</>的<ba.fragile>脆弱</>；立即获得<@ba.vup>9</>点后持续获得<@ba.vup>24</>点部署费用\\n<@ba.rem>首次开启时交换待部署区中费用最高（优先选择近卫/术师/狙击干员）与最低干员的基础部署费用</>\\n<@ba.rem>技能期间“风雪之眼”变为可部署</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃範囲<@ba.vup>拡大</>、敵の<ba.invisible>ステルス</>状態を無効にし、通常攻撃が攻撃力の<@ba.vup>200%</>の物理ダメージを与える範囲直線攻撃になり、攻撃対象に<@ba.vup>30%</>の<ba.fragile>脆弱</>状態を付与する。所持コスト<@ba.vup>+9</>、その後所持コストが徐々に増加（合計<@ba.vup>24</>）。\n<@ba.rem>初めてのスキル発動時に配置待機エリアの配置コストが最も高いオペレーター（【前衛】・【術師】・【狙撃】が優先的に選ばれる）と最も低いオペレーターの配置コストを交換する</>\n<@ba.rem>スキル発動中「風雪の眼」が配置可能になる</>",
+                "description_en": "Attack Range <@ba.vup>expands</>, removes enemies' <ba.invisible>Invisibility</>, attacks deal <@ba.vup>200%</> ATK as Physical damage and inflict <@ba.vup>30%</> <ba.fragile>Fragile</> to targets in a straight line; immediately gains <@ba.vup>9</> DP, then gradually gains <@ba.vup>24</> DP\n<@ba.rem>On first skill activation, swaps the DP Cost of the Operator with the highest Cost (Prioritizes Guard/Caster/Sniper Operators) with the lowest in the Deployment Waiting Zone</>\n<@ba.rem>'Eye of the Blizzard' is deployable when skill is active</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -119373,8 +119373,8 @@
     },
     "skchr_sbell2_1": {
         "name_zh": "铃音吹雪",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "雪嵐呼ぶ鈴音",
+        "name_en": "Ere Snow, Bells Chime",
         "chara_list": [
             "圣聆初雪"
         ],
@@ -119385,8 +119385,8 @@
             {
                 "rangeId": null,
                 "description_zh": "立即对范围内所有敌人造成相当于攻击力<@ba.vup>480%</>的法术伤害及<@ba.vup>3.5</>秒<ba.cold>寒冷</>并将其中等力度地朝部署方向推动，之后积雪向前方地面扩散（最多向前扩散5格）\\n<@ba.rem>可充能2次</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "範囲内の敵全員に攻撃力の<@ba.vup>480%</>の術ダメージを与え、<@ba.vup>3.5</>秒間<ba.cold>寒冷</>状態を付与し、対象を配置方向に相当の力で突き飛ばす。その後積雪が前方の地面マスに拡散（最大前方5マスまで）\n<@ba.rem>2回チャージ可能</>",
+                "description_en": "Deals <@ba.vup>480%</> ATK as Arts damage to all enemies within range, inflicting <ba.cold>Cold</> for <@ba.vup>3.5</> seconds, and pushing them with moderate force in deployment direction; snow spreads on the ground (Up to 5 tiles forward)\n<@ba.rem>Can store 2 charges</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -119418,8 +119418,8 @@
             {
                 "rangeId": null,
                 "description_zh": "立即对范围内所有敌人造成相当于攻击力<@ba.vup>500%</>的法术伤害及<@ba.vup>3.5</>秒<ba.cold>寒冷</>并将其中等力度地朝部署方向推动，之后积雪向前方地面扩散（最多向前扩散5格）\\n<@ba.rem>可充能2次</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "範囲内の敵全員に攻撃力の<@ba.vup>500%</>の術ダメージを与え、<@ba.vup>3.5</>秒間<ba.cold>寒冷</>状態を付与し、対象を配置方向に相当の力で突き飛ばす。その後積雪が前方の地面マスに拡散（最大前方5マスまで）\n<@ba.rem>2回チャージ可能</>",
+                "description_en": "Deals <@ba.vup>500%</> ATK as Arts damage to all enemies within range, inflicting <ba.cold>Cold</> for <@ba.vup>3.5</> seconds, and pushing them with moderate force in deployment direction; snow spreads on the ground (Up to 5 tiles forward)\n<@ba.rem>Can store 2 charges</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -119451,8 +119451,8 @@
             {
                 "rangeId": null,
                 "description_zh": "立即对范围内所有敌人造成相当于攻击力<@ba.vup>510%</>的法术伤害及<@ba.vup>3.5</>秒<ba.cold>寒冷</>并将其中等力度地朝部署方向推动，之后积雪向前方地面扩散（最多向前扩散5格）\\n<@ba.rem>可充能2次</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "範囲内の敵全員に攻撃力の<@ba.vup>510%</>の術ダメージを与え、<@ba.vup>3.5</>秒間<ba.cold>寒冷</>状態を付与し、対象を配置方向に相当の力で突き飛ばす。その後積雪が前方の地面マスに拡散（最大前方5マスまで）\n<@ba.rem>2回チャージ可能</>",
+                "description_en": "Deals <@ba.vup>510%</> ATK as Arts damage to all enemies within range, inflicting <ba.cold>Cold</> for <@ba.vup>3.5</> seconds, and pushing them with moderate force in deployment direction; snow spreads on the ground (Up to 5 tiles forward)\n<@ba.rem>Can store 2 charges</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -119484,8 +119484,8 @@
             {
                 "rangeId": null,
                 "description_zh": "立即对范围内所有敌人造成相当于攻击力<@ba.vup>520%</>的法术伤害及<@ba.vup>3.5</>秒<ba.cold>寒冷</>并将其中等力度地朝部署方向推动，之后积雪向前方地面扩散（最多向前扩散5格）\\n<@ba.rem>可充能2次</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "範囲内の敵全員に攻撃力の<@ba.vup>520%</>の術ダメージを与え、<@ba.vup>3.5</>秒間<ba.cold>寒冷</>状態を付与し、対象を配置方向に相当の力で突き飛ばす。その後積雪が前方の地面マスに拡散（最大前方5マスまで）\n<@ba.rem>2回チャージ可能</>",
+                "description_en": "Deals <@ba.vup>520%</> ATK as Arts damage to all enemies within range, inflicting <ba.cold>Cold</> for <@ba.vup>3.5</> seconds, and pushing them with moderate force in deployment direction; snow spreads on the ground (Up to 5 tiles forward)\n<@ba.rem>Can store 2 charges</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -119539,8 +119539,8 @@
     },
     "skchr_sbell2_2": {
         "name_zh": "霜涛覆岭",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "峰覆う霜の波",
+        "name_en": "Peaks, Clad in Frost",
         "chara_list": [
             "圣聆初雪"
         ],
@@ -119551,8 +119551,8 @@
             {
                 "rangeId": null,
                 "description_zh": "每次攻击造成相当于攻击力<@ba.vup>350%</>的法术伤害，积雪超过5层时会向周围扩散一层（最多向外扩散20格），处于积雪上的地面敌人每秒受到攻击力<@ba.vup>20%</>的法术伤害，敌人离开积雪时获得<@ba.vup>5</>秒<ba.cold>寒冷</>，积雪在目标点积累至5层时，使目标点变为冻结状态\\n<@ba.rem>持续时间无限，可主动关闭技能（期间可随时停止技能）</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃時、攻撃対象に攻撃力の<@ba.vup>350%</>の術ダメージを与える。積雪が5層を超えると、周囲のマスに1層拡散（攻撃範囲外に最大20マス分まで拡散可能）するようになる。さらに積雪マスの地上にいる敵は1秒ごとに聖聆プラマニクスの攻撃力の<@ba.vup>20%</>の術ダメージを受け、積雪マスを離れると<@ba.vup>5</>秒間<ba.cold>寒冷</>状態になる。積雪が防衛ラインに5層蓄積すると、防衛ラインを凍結状態にする\n<@ba.rem>退場まで効果継続、手動でスキルを停止可能</>",
+                "description_en": "Attacks deal <@ba.vup>350%</> ATK as Arts damage, and snow spreads to surrounding tiles after reaching 5 stacks (Spreads to a max of 20 tiles); ground enemies on snow tiles take <@ba.vup>20%</> ATK as Arts damage every second, and are inflicted with <@ba.vup>5</> seconds of <ba.cold>Cold</> after leaving a snow tile; When snow accumulates on the Objective Point 5 times, it freezes\n<@ba.rem>Unlimited duration, can manually deactivate skill (skill can be deactivated at will)</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -119589,8 +119589,8 @@
             {
                 "rangeId": null,
                 "description_zh": "每次攻击造成相当于攻击力<@ba.vup>360%</>的法术伤害，积雪超过5层时会向周围扩散一层（最多向外扩散20格），处于积雪上的地面敌人每秒受到攻击力<@ba.vup>20%</>的法术伤害，敌人离开积雪时获得<@ba.vup>5</>秒<ba.cold>寒冷</>，积雪在目标点积累至5层时，使目标点变为冻结状态\\n<@ba.rem>持续时间无限，可主动关闭技能（期间可随时停止技能）</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃時、攻撃対象に攻撃力の<@ba.vup>360%</>の術ダメージを与える。積雪が5層を超えると、周囲のマスに1層拡散（攻撃範囲外に最大20マス分まで拡散可能）するようになる。さらに積雪マスの地上にいる敵は1秒ごとに聖聆プラマニクスの攻撃力の<@ba.vup>20%</>の術ダメージを受け、積雪マスを離れると<@ba.vup>5</>秒間<ba.cold>寒冷</>状態になる。積雪が防衛ラインに5層蓄積すると、防衛ラインを凍結状態にする\n<@ba.rem>退場まで効果継続、手動でスキルを停止可能</>",
+                "description_en": "Attacks deal <@ba.vup>360%</> ATK as Arts damage, and snow spreads to surrounding tiles after reaching 5 stacks (Spreads to a max of 20 tiles); ground enemies on snow tiles take <@ba.vup>20%</> ATK as Arts damage every second, and are inflicted with <@ba.vup>5</> seconds of <ba.cold>Cold</> after leaving a snow tile; When snow accumulates on the Objective Point 5 times, it freezes\n<@ba.rem>Unlimited duration, can manually deactivate skill (skill can be deactivated at will)</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -119627,8 +119627,8 @@
             {
                 "rangeId": null,
                 "description_zh": "每次攻击造成相当于攻击力<@ba.vup>370%</>的法术伤害，积雪超过5层时会向周围扩散一层（最多向外扩散20格），处于积雪上的地面敌人每秒受到攻击力<@ba.vup>20%</>的法术伤害，敌人离开积雪时获得<@ba.vup>5</>秒<ba.cold>寒冷</>，积雪在目标点积累至5层时，使目标点变为冻结状态\\n<@ba.rem>持续时间无限，可主动关闭技能（期间可随时停止技能）</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃時、攻撃対象に攻撃力の<@ba.vup>370%</>の術ダメージを与える。積雪が5層を超えると、周囲のマスに1層拡散（攻撃範囲外に最大20マス分まで拡散可能）するようになる。さらに積雪マスの地上にいる敵は1秒ごとに聖聆プラマニクスの攻撃力の<@ba.vup>20%</>の術ダメージを受け、積雪マスを離れると<@ba.vup>5</>秒間<ba.cold>寒冷</>状態になる。積雪が防衛ラインに5層蓄積すると、防衛ラインを凍結状態にする\n<@ba.rem>退場まで効果継続、手動でスキルを停止可能</>",
+                "description_en": "Attacks deal <@ba.vup>370%</> ATK as Arts damage, and snow spreads to surrounding tiles after reaching 5 stacks (Spreads to a max of 20 tiles); ground enemies on snow tiles take <@ba.vup>20%</> ATK as Arts damage every second, and are inflicted with <@ba.vup>5</> seconds of <ba.cold>Cold</> after leaving a snow tile; When snow accumulates on the Objective Point 5 times, it freezes\n<@ba.rem>Unlimited duration, can manually deactivate skill (skill can be deactivated at will)</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -119665,8 +119665,8 @@
             {
                 "rangeId": null,
                 "description_zh": "每次攻击造成相当于攻击力<@ba.vup>380%</>的法术伤害，积雪超过5层时会向周围扩散一层（最多向外扩散20格），处于积雪上的地面敌人每秒受到攻击力<@ba.vup>20%</>的法术伤害，敌人离开积雪时获得<@ba.vup>5</>秒<ba.cold>寒冷</>，积雪在目标点积累至5层时，使目标点变为冻结状态\\n<@ba.rem>持续时间无限，可主动关闭技能（期间可随时停止技能）</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃時、攻撃対象に攻撃力の<@ba.vup>380%</>の術ダメージを与える。積雪が5層を超えると、周囲のマスに1層拡散（攻撃範囲外に最大20マス分まで拡散可能）するようになる。さらに積雪マスの地上にいる敵は1秒ごとに聖聆プラマニクスの攻撃力の<@ba.vup>20%</>の術ダメージを受け、積雪マスを離れると<@ba.vup>5</>秒間<ba.cold>寒冷</>状態になる。積雪が防衛ラインに5層蓄積すると、防衛ラインを凍結状態にする\n<@ba.rem>退場まで効果継続、手動でスキルを停止可能</>",
+                "description_en": "Attacks deal <@ba.vup>380%</> ATK as Arts damage, and snow spreads to surrounding tiles after reaching 5 stacks (Spreads to a max of 20 tiles); ground enemies on snow tiles take <@ba.vup>20%</> ATK as Arts damage every second, and are inflicted with <@ba.vup>5</> seconds of <ba.cold>Cold</> after leaving a snow tile; When snow accumulates on the Objective Point 5 times, it freezes\n<@ba.rem>Unlimited duration, can manually deactivate skill (skill can be deactivated at will)</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -119739,8 +119739,8 @@
     },
     "skchr_sbell2_3": {
         "name_zh": "群山俯首",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "首を垂れる山々",
+        "name_en": "Towards the Mountains, Bow",
         "chara_list": [
             "圣聆初雪"
         ],
@@ -119751,8 +119751,8 @@
             {
                 "rangeId": "x-2",
                 "description_zh": "攻击范围<@ba.vup>扩大</>，立即<ba.attract>诱导</>攻击范围内的所有敌人至自身周围的可达地面，持续<@ba.vup>10</>秒，积雪生成速度加快，攻击力<@ba.vup>+70%</>，攻击速度<@ba.vup>+30</>，攻击无视目标<@ba.vup>10</>点法术抗性，每次攻击造成相当于攻击力<@ba.vup>210%</>的法术伤害",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃範囲<@ba.vup>拡大</>、即座に攻撃範囲内にいる敵全員を<@ba.vup>10</>秒間、自身周囲の到達可能な地面マスに<ba.attract>誘導</>する。積雪がより早く生成されるようになり、攻撃力<@ba.vup>+70%</>、攻撃速度<@ba.vup>+30</>、攻撃時に対象の術耐性を<@ba.vup>10</>無視し、攻撃対象に攻撃力の<@ba.vup>210%</>の術ダメージを与える",
+                "description_en": "Attack range <@ba.vup>expands</>. Immediately <ba.attract>Lures</> all enemies within attack range for <@ba.vup>10</> seconds to the closest reachable ground near her, increases snowfall speed, <@ba.vup>+70%</> ATK, <@ba.vup>+30</> ASPD, attacks ignore <@ba.vup>10</> RES, and every attack deals <@ba.vup>210%</> ATK as Arts damage",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -119792,8 +119792,8 @@
             {
                 "rangeId": "x-2",
                 "description_zh": "攻击范围<@ba.vup>扩大</>，立即<ba.attract>诱导</>攻击范围内的所有敌人至自身周围的可达地面，持续<@ba.vup>10</>秒，积雪生成速度加快，攻击力<@ba.vup>+80%</>，攻击速度<@ba.vup>+30</>，攻击无视目标<@ba.vup>10</>点法术抗性，每次攻击造成相当于攻击力<@ba.vup>230%</>的法术伤害",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃範囲<@ba.vup>拡大</>、即座に攻撃範囲内にいる敵全員を<@ba.vup>10</>秒間、自身周囲の到達可能な地面マスに<ba.attract>誘導</>する。積雪がより早く生成されるようになり、攻撃力<@ba.vup>+80%</>、攻撃速度<@ba.vup>+30</>、攻撃時に対象の術耐性を<@ba.vup>10</>無視し、攻撃対象に攻撃力の<@ba.vup>230%</>の術ダメージを与える",
+                "description_en": "Attack range <@ba.vup>expands</>. Immediately <ba.attract>Lures</> all enemies within attack range for <@ba.vup>10</> seconds to the closest reachable ground near her, increases snowfall speed, <@ba.vup>+80%</> ATK, <@ba.vup>+30</> ASPD, attacks ignore <@ba.vup>10</> RES, and every attack deals <@ba.vup>230%</> ATK as Arts damage",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -119833,8 +119833,8 @@
             {
                 "rangeId": "x-2",
                 "description_zh": "攻击范围<@ba.vup>扩大</>，立即<ba.attract>诱导</>攻击范围内的所有敌人至自身周围的可达地面，持续<@ba.vup>10</>秒，积雪生成速度加快，攻击力<@ba.vup>+90%</>，攻击速度<@ba.vup>+30</>，攻击无视目标<@ba.vup>10</>点法术抗性，每次攻击造成相当于攻击力<@ba.vup>250%</>的法术伤害",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃範囲<@ba.vup>拡大</>、即座に攻撃範囲内にいる敵全員を<@ba.vup>10</>秒間、自身周囲の到達可能な地面マスに<ba.attract>誘導</>する。積雪がより早く生成されるようになり、攻撃力<@ba.vup>+90%</>、攻撃速度<@ba.vup>+30</>、攻撃時に対象の術耐性を<@ba.vup>10</>無視し、攻撃対象に攻撃力の<@ba.vup>250%</>の術ダメージを与える",
+                "description_en": "Attack range <@ba.vup>expands</>. Immediately <ba.attract>Lures</> all enemies within attack range for <@ba.vup>10</> seconds to the closest reachable ground near her, increases snowfall speed, <@ba.vup>+90%</> ATK, <@ba.vup>+30</> ASPD, attacks ignore <@ba.vup>10</> RES, and every attack deals <@ba.vup>250%</> ATK as Arts damage",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -119874,8 +119874,8 @@
             {
                 "rangeId": "x-2",
                 "description_zh": "攻击范围<@ba.vup>扩大</>，立即<ba.attract>诱导</>攻击范围内的所有敌人至自身周围的可达地面，持续<@ba.vup>10</>秒，积雪生成速度加快，攻击力<@ba.vup>+100%</>，攻击速度<@ba.vup>+30</>，攻击无视目标<@ba.vup>10</>点法术抗性，每次攻击造成相当于攻击力<@ba.vup>260%</>的法术伤害",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃範囲<@ba.vup>拡大</>、即座に攻撃範囲内にいる敵全員を<@ba.vup>10</>秒間、自身周囲の到達可能な地面マスに<ba.attract>誘導</>する。積雪がより早く生成されるようになり、攻撃力<@ba.vup>+100%</>、攻撃速度<@ba.vup>+30</>、攻撃時に対象の術耐性を<@ba.vup>10</>無視し、攻撃対象に攻撃力の<@ba.vup>260%</>の術ダメージを与える",
+                "description_en": "Attack range <@ba.vup>expands</>. Immediately <ba.attract>Lures</> all enemies within attack range for <@ba.vup>10</> seconds to the closest reachable ground near her, increases snowfall speed, <@ba.vup>+100%</> ATK, <@ba.vup>+30</> ASPD, attacks ignore <@ba.vup>10</> RES, and every attack deals <@ba.vup>260%</> ATK as Arts damage",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -119931,8 +119931,8 @@
     },
     "skchr_halo2_1": {
         "name_zh": "星图闪烁",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "スターチャート",
+        "name_en": "Star Chart's Shine",
         "chara_list": [
             "溯光星源"
         ],
@@ -119943,8 +119943,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击力<@ba.vup>+60%</>，攻击可在敌人间重复跳跃，最多跳跃<@ba.vup>3</>次",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃力<@ba.vup>+60%</>、通常攻撃が最大<@ba.vup>3</>回まで跳躍し、跳躍済みの対象にも再跳躍可能になる",
+                "description_en": "<@ba.vup>+60%</> ATK, attacks can jump between enemies multiple times, up to <@ba.vup>3</> times",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -119972,8 +119972,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击力<@ba.vup>+70%</>，攻击可在敌人间重复跳跃，最多跳跃<@ba.vup>3</>次",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃力<@ba.vup>+70%</>、通常攻撃が最大<@ba.vup>3</>回まで跳躍し、跳躍済みの対象にも再跳躍可能になる",
+                "description_en": "<@ba.vup>+70%</> ATK, attacks can jump between enemies multiple times, up to <@ba.vup>3</> times",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -120001,8 +120001,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击力<@ba.vup>+80%</>，攻击可在敌人间重复跳跃，最多跳跃<@ba.vup>3</>次",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃力<@ba.vup>+80%</>、通常攻撃が最大<@ba.vup>3</>回まで跳躍し、跳躍済みの対象にも再跳躍可能になる",
+                "description_en": "<@ba.vup>+80%</> ATK, attacks can jump between enemies multiple times, up to <@ba.vup>3</> times",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -120030,8 +120030,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击力<@ba.vup>+100%</>，攻击可在敌人间重复跳跃，最多跳跃<@ba.vup>3</>次",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃力<@ba.vup>+100%</>、通常攻撃が最大<@ba.vup>3</>回まで跳躍し、跳躍済みの対象にも再跳躍可能になる",
+                "description_en": "<@ba.vup>+100%</> ATK, attacks can jump between enemies multiple times, up to <@ba.vup>3</> times",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -120062,8 +120062,8 @@
     },
     "skchr_halo2_2": {
         "name_zh": "星束引力",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "アストラルグラビティ",
+        "name_en": "Stellar Gravity",
         "chara_list": [
             "溯光星源"
         ],
@@ -120074,8 +120074,8 @@
             {
                 "rangeId": null,
                 "description_zh": "下次攻击选择攻击范围内距离目标点最远的<@ba.vup>1</>个敌人为目标，造成相当于攻击力<@ba.vup>130%</>的法术伤害，攻击造成的<ba.sluggish>停顿</>时间延长至<@ba.vup>3</>秒，并分别链接目标附近的最多<@ba.vup>2</>个敌人<@ba.vup>中等力度地</>拉向目标所在位置同时造成相同的法术伤害",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "次の通常攻撃時、範囲内の防衛ラインから最も遠い敵<@ba.vup>1</>体に攻撃力の<@ba.vup>130%</>の術ダメージを与え、<ba.sluggish>足止め</>の効果時間が<@ba.vup>3</>秒まで増加。さらに攻撃対象周囲一定範囲内の敵最大<@ba.vup>2</>体を<@ba.vup>相当の力で</>対象のいる位置に引き寄せ、同量の術ダメージを与える",
+                "description_en": "The next attack targets the furthest <@ba.vup>1</> enemies from the Objective Point within Attack Range, dealing <@ba.vup>130%</> ATK as Arts damage; extends <ba.sluggish>Slow</> duration to <@ba.vup>3</> seconds, links to up to <@ba.vup>2</> enemies around the target and pulls them towards the target's location with <@ba.vup>moderate</> force, dealing the same amount of Arts damage",
                 "spData": {
                     "spType": "INCREASE_WHEN_ATTACK",
                     "levelUpCost": null,
@@ -120119,8 +120119,8 @@
             {
                 "rangeId": null,
                 "description_zh": "下次攻击选择攻击范围内距离目标点最远的<@ba.vup>2</>个敌人为目标，造成相当于攻击力<@ba.vup>135%</>的法术伤害，攻击造成的<ba.sluggish>停顿</>时间延长至<@ba.vup>3</>秒，并分别链接目标附近的最多<@ba.vup>2</>个敌人<@ba.vup>中等力度地</>拉向目标所在位置同时造成相同的法术伤害",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "次の通常攻撃時、範囲内の防衛ラインから最も遠い敵<@ba.vup>2</>体に攻撃力の<@ba.vup>135%</>の術ダメージを与え、<ba.sluggish>足止め</>の効果時間が<@ba.vup>3</>秒まで増加。さらに攻撃対象周囲一定範囲内の敵最大<@ba.vup>2</>体を<@ba.vup>相当の力で</>対象のいる位置に引き寄せ、同量の術ダメージを与える",
+                "description_en": "The next attack targets the furthest <@ba.vup>2</> enemies from the Objective Point within Attack Range, dealing <@ba.vup>135%</> ATK as Arts damage; extends <ba.sluggish>Slow</> duration to <@ba.vup>3</> seconds, links to up to <@ba.vup>2</> enemies around the target and pulls them towards the target's location with <@ba.vup>moderate</> force, dealing the same amount of Arts damage",
                 "spData": {
                     "spType": "INCREASE_WHEN_ATTACK",
                     "levelUpCost": null,
@@ -120164,8 +120164,8 @@
             {
                 "rangeId": null,
                 "description_zh": "下次攻击选择攻击范围内距离目标点最远的<@ba.vup>2</>个敌人为目标，造成相当于攻击力<@ba.vup>140%</>的法术伤害，攻击造成的<ba.sluggish>停顿</>时间延长至<@ba.vup>3</>秒，并分别链接目标附近的最多<@ba.vup>2</>个敌人<@ba.vup>中等力度地</>拉向目标所在位置同时造成相同的法术伤害",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "次の通常攻撃時、範囲内の防衛ラインから最も遠い敵<@ba.vup>2</>体に攻撃力の<@ba.vup>140%</>の術ダメージを与え、<ba.sluggish>足止め</>の効果時間が<@ba.vup>3</>秒まで増加。さらに攻撃対象周囲一定範囲内の敵最大<@ba.vup>2</>体を<@ba.vup>相当の力で</>対象のいる位置に引き寄せ、同量の術ダメージを与える",
+                "description_en": "The next attack targets the furthest <@ba.vup>2</> enemies from the Objective Point within Attack Range, dealing <@ba.vup>140%</> ATK as Arts damage; extends <ba.sluggish>Slow</> duration to <@ba.vup>3</> seconds, links to up to <@ba.vup>2</> enemies around the target and pulls them towards the target's location with <@ba.vup>moderate</> force, dealing the same amount of Arts damage",
                 "spData": {
                     "spType": "INCREASE_WHEN_ATTACK",
                     "levelUpCost": null,
@@ -120209,8 +120209,8 @@
             {
                 "rangeId": null,
                 "description_zh": "下次攻击选择攻击范围内距离目标点最远的<@ba.vup>2</>个敌人为目标，造成相当于攻击力<@ba.vup>145%</>的法术伤害，攻击造成的<ba.sluggish>停顿</>时间延长至<@ba.vup>3</>秒，并分别链接目标附近的最多<@ba.vup>3</>个敌人<@ba.vup>中等力度地</>拉向目标所在位置同时造成相同的法术伤害",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "次の通常攻撃時、範囲内の防衛ラインから最も遠い敵<@ba.vup>2</>体に攻撃力の<@ba.vup>145%</>の術ダメージを与え、<ba.sluggish>足止め</>の効果時間が<@ba.vup>3</>秒まで増加。さらに攻撃対象周囲一定範囲内の敵最大<@ba.vup>3</>体を<@ba.vup>相当の力で</>対象のいる位置に引き寄せ、同量の術ダメージを与える",
+                "description_en": "The next attack targets the furthest <@ba.vup>2</> enemies from the Objective Point within Attack Range, dealing <@ba.vup>145%</> ATK as Arts damage; extends <ba.sluggish>Slow</> duration to <@ba.vup>3</> seconds, links to up to <@ba.vup>3</> enemies around the target and pulls them towards the target's location with <@ba.vup>moderate</> force, dealing the same amount of Arts damage",
                 "spData": {
                     "spType": "INCREASE_WHEN_ATTACK",
                     "levelUpCost": null,
@@ -120268,8 +120268,8 @@
     },
     "skchr_halo2_3": {
         "name_zh": "并流连锁",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "コンカレントチェイン",
+        "name_en": "Flux Chain",
         "chara_list": [
             "溯光星源"
         ],
@@ -120280,8 +120280,8 @@
             {
                 "rangeId": "y-4",
                 "description_zh": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+50%</>，攻击间隔<@ba.vup>缩短(-0.7)</>，持续锁定<@ba.vup>2</>个敌人进行攻击，被锁定的敌人会互相链接；每个被链接的敌人会把即将受到法术伤害的<@ba.vup>20%</>额外传导给其他链接目标",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃範囲<@ba.vup>拡大</>、攻撃力<@ba.vup>+50%</>、攻撃の間隔を<@ba.vup>短縮</>し、敵<@ba.vup>2</>体をロックオンして攻撃し続ける。さらにロックオンした敵同士を連結し、連結中の敵が受けた術ダメージの<@ba.vup>20%</>を追加で他の連結対象に伝導する",
+                "description_en": "Attack range <@ba.vup>expands</>; <@ba.vup>+50%</> ATK, ATK interval <@ba.vup>decreases</>; attacks continuously lock onto <@ba.vup>2</> enemies, chaining them together, and every chained enemy will deal <@ba.vup>20%</> of the Arts damage taken to other chained enemies as extra damage",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -120313,8 +120313,8 @@
             {
                 "rangeId": "y-4",
                 "description_zh": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+55%</>，攻击间隔<@ba.vup>缩短(-0.7)</>，持续锁定<@ba.vup>2</>个敌人进行攻击，被锁定的敌人会互相链接；每个被链接的敌人会把即将受到法术伤害的<@ba.vup>20%</>额外传导给其他链接目标",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃範囲<@ba.vup>拡大</>、攻撃力<@ba.vup>+55%</>、攻撃の間隔を<@ba.vup>短縮</>し、敵<@ba.vup>2</>体をロックオンして攻撃し続ける。さらにロックオンした敵同士を連結し、連結中の敵が受けた術ダメージの<@ba.vup>20%</>を追加で他の連結対象に伝導する",
+                "description_en": "Attack range <@ba.vup>expands</>; <@ba.vup>+55%</> ATK, ATK interval <@ba.vup>decreases</>; attacks continuously lock onto <@ba.vup>2</> enemies, chaining them together, and every chained enemy will deal <@ba.vup>20%</> of the Arts damage taken to other chained enemies as extra damage",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -120346,8 +120346,8 @@
             {
                 "rangeId": "y-4",
                 "description_zh": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+60%</>，攻击间隔<@ba.vup>缩短(-0.7)</>，持续锁定<@ba.vup>2</>个敌人进行攻击，被锁定的敌人会互相链接；每个被链接的敌人会把即将受到法术伤害的<@ba.vup>20%</>额外传导给其他链接目标",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃範囲<@ba.vup>拡大</>、攻撃力<@ba.vup>+60%</>、攻撃の間隔を<@ba.vup>短縮</>し、敵<@ba.vup>2</>体をロックオンして攻撃し続ける。さらにロックオンした敵同士を連結し、連結中の敵が受けた術ダメージの<@ba.vup>20%</>を追加で他の連結対象に伝導する",
+                "description_en": "Attack range <@ba.vup>expands</>; <@ba.vup>+60%</> ATK, ATK interval <@ba.vup>decreases</>; attacks continuously lock onto <@ba.vup>2</> enemies, chaining them together, and every chained enemy will deal <@ba.vup>20%</> of the Arts damage taken to other chained enemies as extra damage",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -120379,8 +120379,8 @@
             {
                 "rangeId": "y-4",
                 "description_zh": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+70%</>，攻击间隔<@ba.vup>缩短(-0.7)</>，持续锁定<@ba.vup>2</>个敌人进行攻击，被锁定的敌人会互相链接；每个被链接的敌人会把即将受到法术伤害的<@ba.vup>25%</>额外传导给其他链接目标",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃範囲<@ba.vup>拡大</>、攻撃力<@ba.vup>+70%</>、攻撃の間隔を<@ba.vup>短縮</>し、敵<@ba.vup>2</>体をロックオンして攻撃し続ける。さらにロックオンした敵同士を連結し、連結中の敵が受けた術ダメージの<@ba.vup>25%</>を追加で他の連結対象に伝導する",
+                "description_en": "Attack range <@ba.vup>expands</>; <@ba.vup>+70%</> ATK, ATK interval <@ba.vup>decreases</>; attacks continuously lock onto <@ba.vup>2</> enemies, chaining them together, and every chained enemy will deal <@ba.vup>25%</> of the Arts damage taken to other chained enemies as extra damage",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -120653,8 +120653,8 @@
     },
     "skchr_pithst_1": {
         "name_zh": "战术咏唱·双型",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "戦術詠唱W",
+        "name_en": "Tactical Chant Gemini",
         "chara_list": [
             "盟约·辅助干员"
         ],
@@ -120665,8 +120665,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击速度<@ba.vup>+80</>，同时攻击2个目标",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃速度<@ba.vup>+80</>、敵最大2体を同時に攻撃",
+                "description_en": "<@ba.vup>+80</> ASPD, and attacks 2 targets simultaneously",
                 "spData": {
                     "spType": "INCREASE_WHEN_ATTACK",
                     "levelUpCost": null,
@@ -120690,8 +120690,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击速度<@ba.vup>+80</>，同时攻击2个目标",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃速度<@ba.vup>+80</>、敵最大2体を同時に攻撃",
+                "description_en": "<@ba.vup>+80</> ASPD, and attacks 2 targets simultaneously",
                 "spData": {
                     "spType": "INCREASE_WHEN_ATTACK",
                     "levelUpCost": null,
@@ -120715,8 +120715,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击速度<@ba.vup>+80</>，同时攻击2个目标",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃速度<@ba.vup>+80</>、敵最大2体を同時に攻撃",
+                "description_en": "<@ba.vup>+80</> ASPD, and attacks 2 targets simultaneously",
                 "spData": {
                     "spType": "INCREASE_WHEN_ATTACK",
                     "levelUpCost": null,
@@ -120740,8 +120740,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击速度<@ba.vup>+90</>，同时攻击2个目标",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃速度<@ba.vup>+90</>、敵最大2体を同時に攻撃",
+                "description_en": "<@ba.vup>+90</> ASPD, and attacks 2 targets simultaneously",
                 "spData": {
                     "spType": "INCREASE_WHEN_ATTACK",
                     "levelUpCost": null,
@@ -121522,8 +121522,8 @@
     },
     "skchr_sharp2_1": {
         "name_zh": "沉默的爆发",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "静かなる爆発",
+        "name_en": "Silent Explosion",
         "chara_list": [
             "领主·Sharp"
         ],
@@ -121534,8 +121534,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击力<@ba.vup>+180%</>，攻击速度<@ba.vup>+50</>，同时攻击<@ba.vup>2</>个目标，远程攻击不再降低攻击力",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃力<@ba.vup>+180%</>、攻撃速度<@ba.vup>+50</>、敵最大<@ba.vup>2</>体を同時に攻撃、特性による遠距離攻撃時の攻撃力低下が無効化される",
+                "description_en": "<@ba.vup>+180%</> ATK, <@ba.vup>+50</> ASPD, simultaneously attacks <@ba.vup>2</> targets, and ranged attacks no longer reduce ATK",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -121563,8 +121563,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击力<@ba.vup>+195%</>，攻击速度<@ba.vup>+50</>，同时攻击<@ba.vup>2</>个目标，远程攻击不再降低攻击力",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃力<@ba.vup>+195%</>、攻撃速度<@ba.vup>+50</>、敵最大<@ba.vup>2</>体を同時に攻撃、特性による遠距離攻撃時の攻撃力低下が無効化される",
+                "description_en": "<@ba.vup>+195%</> ATK, <@ba.vup>+50</> ASPD, simultaneously attacks <@ba.vup>2</> targets, and ranged attacks no longer reduce ATK",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -121592,8 +121592,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击力<@ba.vup>+210%</>，攻击速度<@ba.vup>+50</>，同时攻击<@ba.vup>2</>个目标，远程攻击不再降低攻击力",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃力<@ba.vup>+210%</>、攻撃速度<@ba.vup>+50</>、敵最大<@ba.vup>2</>体を同時に攻撃、特性による遠距離攻撃時の攻撃力低下が無効化される",
+                "description_en": "<@ba.vup>+210%</> ATK, <@ba.vup>+50</> ASPD, simultaneously attacks <@ba.vup>2</> targets, and ranged attacks no longer reduce ATK",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -121621,8 +121621,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击力<@ba.vup>+225%</>，攻击速度<@ba.vup>+50</>，同时攻击<@ba.vup>2</>个目标，远程攻击不再降低攻击力",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃力<@ba.vup>+225%</>、攻撃速度<@ba.vup>+50</>、敵最大<@ba.vup>2</>体を同時に攻撃、特性による遠距離攻撃時の攻撃力低下が無効化される",
+                "description_en": "<@ba.vup>+225%</> ATK, <@ba.vup>+50</> ASPD, simultaneously attacks <@ba.vup>2</> targets, and ranged attacks no longer reduce ATK",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -125422,7 +125422,16 @@
             "erosion",
             "ele_dmg"
         ],
-        "blackboard": []
+        "blackboard": [
+            {
+                        "key": "def_down",
+                        "order": "initial_add",
+                        "targets": 1,
+                        "value": 120,
+                        "target_air": true,
+                        "conditions":["erosion"]
+                    }
+        ]
     },
     "skchr_botany_2": {
         "name_zh": "静域回声",
@@ -125576,7 +125585,15 @@
             {
                 "key": "max_target",
                 "value": 2.0
-            }
+            },
+              {
+                        "key": "def_down",
+                        "order": "initial_add",
+                        "targets": 2,
+                        "value": 120,
+                        "target_air": true,
+                        "conditions":["erosion"]
+                    }
         ]
     },
     "skchr_headb2_1": {
@@ -126048,6 +126065,1920 @@
                 "targets": 99,
                 "value": 2.0,
                 "target_air": false
+            }
+        ]
+    },
+    "skchr_tanya_1": {
+        "name_zh": "涤净",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "裂响"
+        ],
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": null,
+                "description_zh": "生命上限<@ba.vup>+70%</>，自身每秒回复<@ba.vup>90</>点<ba.dt.element>元素损伤</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 34,
+                    "initSp": 10,
+                    "increment": 1.0
+                },
+                "duration": 20.0,
+                "blackboard": [
+                    {
+                        "key": "max_hp",
+                        "value": 0.7
+                    },
+                    {
+                        "key": "ep_heal",
+                        "value": 90.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "生命上限<@ba.vup>+80%</>，自身每秒回复<@ba.vup>100</>点<ba.dt.element>元素损伤</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 33,
+                    "initSp": 13,
+                    "increment": 1.0
+                },
+                "duration": 20.0,
+                "blackboard": [
+                    {
+                        "key": "max_hp",
+                        "value": 0.8
+                    },
+                    {
+                        "key": "ep_heal",
+                        "value": 100.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "生命上限<@ba.vup>+90%</>，自身每秒回复<@ba.vup>110</>点<ba.dt.element>元素损伤</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 32,
+                    "initSp": 14,
+                    "increment": 1.0
+                },
+                "duration": 20.0,
+                "blackboard": [
+                    {
+                        "key": "max_hp",
+                        "value": 0.9
+                    },
+                    {
+                        "key": "ep_heal",
+                        "value": 110.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "生命上限<@ba.vup>+100%</>，自身每秒回复<@ba.vup>120</>点<ba.dt.element>元素损伤</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 30,
+                    "initSp": 15,
+                    "increment": 1.0
+                },
+                "duration": 20.0,
+                "blackboard": [
+                    {
+                        "key": "max_hp",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "ep_heal",
+                        "value": 120.0
+                    }
+                ]
+            }
+        ],
+        "tags": [],
+        "blackboard": [
+            {
+                "key": "max_hp",
+                "value": 1.0
+            },
+            {
+                "key": "ep_heal",
+                "value": 120.0
+            }
+        ]
+    },
+    "skchr_tanya_2": {
+        "name_zh": "溃决",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "裂响"
+        ],
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": "x-4",
+                "description_zh": "获得<@ba.vup>5</>层可叠加的防御力<@ba.vup>+20%</>的增益，受到攻击后消耗1层，并对周围所有地面敌人造成相当于攻击力<@ba.vup>30%</>的<ba.dt.erosion2>侵蚀损伤</>\\n<@ba.rem>增益最多叠加5层</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 28,
+                    "initSp": 9,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "def",
+                        "value": 0.2
+                    },
+                    {
+                        "key": "ep_damage_ratio",
+                        "value": 0.3
+                    },
+                    {
+                        "key": "max_stack_cnt",
+                        "value": 5.0
+                    },
+                    {
+                        "key": "cnt",
+                        "value": 5.0
+                    }
+                ]
+            },
+            {
+                "rangeId": "x-4",
+                "description_zh": "获得<@ba.vup>5</>层可叠加的防御力<@ba.vup>+20%</>的增益，受到攻击后消耗1层，并对周围所有地面敌人造成相当于攻击力<@ba.vup>31%</>的<ba.dt.erosion2>侵蚀损伤</>\\n<@ba.rem>增益最多叠加5层</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 27,
+                    "initSp": 10,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "def",
+                        "value": 0.2
+                    },
+                    {
+                        "key": "ep_damage_ratio",
+                        "value": 0.31
+                    }
+                ]
+            },
+            {
+                "rangeId": "x-4",
+                "description_zh": "获得<@ba.vup>5</>层可叠加的防御力<@ba.vup>+20%</>的增益，受到攻击后消耗1层，并对周围所有地面敌人造成相当于攻击力<@ba.vup>33%</>的<ba.dt.erosion2>侵蚀损伤</>\\n<@ba.rem>增益最多叠加5层</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 26,
+                    "initSp": 11,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "def",
+                        "value": 0.2
+                    },
+                    {
+                        "key": "ep_damage_ratio",
+                        "value": 0.33
+                    },
+                    {
+                        "key": "max_stack_cnt",
+                        "value": 5.0
+                    },
+                    {
+                        "key": "cnt",
+                        "value": 5.0
+                    }
+                ]
+            },
+            {
+                "rangeId": "x-4",
+                "description_zh": "获得<@ba.vup>5</>层可叠加的防御力<@ba.vup>+20%</>的增益，受到攻击后消耗1层，并对周围所有地面敌人造成相当于攻击力<@ba.vup>35%</>的<ba.dt.erosion2>侵蚀损伤</>\\n<@ba.rem>增益最多叠加5层</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 25,
+                    "initSp": 12,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "def",
+                        "value": 0.2
+                    },
+                    {
+                        "key": "ep_damage_ratio",
+                        "value": 0.35
+                    },
+                    {
+                        "key": "max_stack_cnt",
+                        "value": 5.0
+                    },
+                    {
+                        "key": "cnt",
+                        "value": 5.0
+                    }
+                ]
+            }
+        ],
+        "tags": ["erosion","ele_dmg"],
+        "blackboard": [
+            {
+                "key": "def",
+                "order":"initial_mul",
+                "value": 0.2
+            },
+                {
+                "key": "def",
+                "order":"initial_mul",
+                "value": 1.0
+            },
+               {
+                        "key": "def_down",
+                        "order": "initial_add",
+                        "targets": 99,
+                        "value": 120,
+                        "target_air": false,
+                        "conditions":["erosion"]
+                    },
+            {
+                "key": "ep_damage_ratio",
+                "value": 0.35
+            }
+        ]
+    },
+    "skchr_closur_1": {
+        "name_zh": "递归策略",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "可露希尔"
+        ],
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": null,
+                "description_zh": "立即使自身的援军获得<@ba.vup>1</>层护盾（不叠加），技能持续时间内逐渐获得<@ba.vup>3</>点部署费用；部署后每使用过一次技能，获得的部署费用<@ba.vup>+1</>（最多提升至<@ba.vup>7</>点）",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 11,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": 8.0,
+                "blackboard": [
+                    {
+                        "key": "cost",
+                        "value": 3.0
+                    },
+                    {
+                        "key": "cost_per_add",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "cost_add_max",
+                        "value": 7.0
+                    },
+                    {
+                        "key": "shield_cnt",
+                        "value": 1.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "立即使自身的援军获得<@ba.vup>1</>层护盾（不叠加），技能持续时间内逐渐获得<@ba.vup>3</>点部署费用；部署后每使用过一次技能，获得的部署费用<@ba.vup>+1</>（最多提升至<@ba.vup>7</>点）",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 10,
+                    "initSp": 1,
+                    "increment": 1.0
+                },
+                "duration": 8.0,
+                "blackboard": [
+                    {
+                        "key": "cost",
+                        "value": 3.0
+                    },
+                    {
+                        "key": "cost_per_add",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "cost_add_max",
+                        "value": 7.0
+                    },
+                    {
+                        "key": "shield_cnt",
+                        "value": 1.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "立即使自身的援军获得<@ba.vup>1</>层护盾（不叠加），技能持续时间内逐渐获得<@ba.vup>3</>点部署费用；部署后每使用过一次技能，获得的部署费用<@ba.vup>+1</>（最多提升至<@ba.vup>7</>点）",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 9,
+                    "initSp": 1,
+                    "increment": 1.0
+                },
+                "duration": 8.0,
+                "blackboard": [
+                    {
+                        "key": "cost",
+                        "value": 3.0
+                    },
+                    {
+                        "key": "cost_per_add",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "cost_add_max",
+                        "value": 7.0
+                    },
+                    {
+                        "key": "shield_cnt",
+                        "value": 1.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "立即使自身的援军获得<@ba.vup>1</>层护盾（不叠加），技能持续时间内逐渐获得<@ba.vup>3</>点部署费用；部署后每使用过一次技能，获得的部署费用<@ba.vup>+1</>（最多提升至<@ba.vup>7</>点）",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 8,
+                    "initSp": 1,
+                    "increment": 1.0
+                },
+                "duration": 8.0,
+                "blackboard": [
+                    {
+                        "key": "cost",
+                        "value": 3.0
+                    },
+                    {
+                        "key": "cost_per_add",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "cost_add_max",
+                        "value": 7.0
+                    },
+                    {
+                        "key": "shield_cnt",
+                        "value": 1.0
+                    }
+                ]
+            }
+        ],
+        "tags": [],
+        "blackboard": [
+              {
+                        "key": "ally_shield",
+                        "types": [
+                            "phys",
+                            "arts",
+                            "true"
+                        ],
+                        "value": 1
+                    }
+        ]
+    },
+    "skchr_closur_2": {
+        "name_zh": "模型扩展",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "可露希尔"
+        ],
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": null,
+                "description_zh": "立即获得<@ba.vup>7</>点部署费用，持续时间内逐渐获得<@ba.vup>15</>点部署费用，自身的援军防御力<@ba.vup>+45%</>，阻挡数<@ba.vup>+1</>，自身攻击力<@ba.vup>+55%</>，同时攻击<@ba.vup>2</>个目标且能攻击到自身援军阻挡的敌人；在战术点效果范围内部署干员时，立即返还部署费用的<@ba.vup>40%</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 44,
+                    "initSp": 31,
+                    "increment": 1.0
+                },
+                "duration": 30.0,
+                "blackboard": [
+                    {
+                        "key": "cost",
+                        "value": 7.0
+                    },
+                    {
+                        "key": "cost_return",
+                        "value": 0.4
+                    },
+                    {
+                        "key": "block_cnt",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "def",
+                        "value": 0.45
+                    },
+                    {
+                        "key": "atk",
+                        "value": 0.55
+                    },
+                    {
+                        "key": "attack@max_target",
+                        "value": 2.0
+                    },
+                    {
+                        "key": "cost_period",
+                        "value": 15.0
+                    },
+                    {
+                        "key": "closur_s_2[add_cost_period].cost",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "closur_s_2[add_cost_period].interval",
+                        "value": 2.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "立即获得<@ba.vup>8</>点部署费用，持续时间内逐渐获得<@ba.vup>15</>点部署费用，自身的援军防御力<@ba.vup>+50%</>，阻挡数<@ba.vup>+1</>，自身攻击力<@ba.vup>+60%</>，同时攻击<@ba.vup>2</>个目标且能攻击到自身援军阻挡的敌人；在战术点效果范围内部署干员时，立即返还部署费用的<@ba.vup>40%</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 43,
+                    "initSp": 32,
+                    "increment": 1.0
+                },
+                "duration": 30.0,
+                "blackboard": [
+                    {
+                        "key": "cost",
+                        "value": 8.0
+                    },
+                    {
+                        "key": "cost_return",
+                        "value": 0.4
+                    },
+                    {
+                        "key": "block_cnt",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "def",
+                        "value": 0.5
+                    },
+                    {
+                        "key": "atk",
+                        "value": 0.6
+                    },
+                    {
+                        "key": "attack@max_target",
+                        "value": 2.0
+                    },
+                    {
+                        "key": "cost_period",
+                        "value": 15.0
+                    },
+                    {
+                        "key": "closur_s_2[add_cost_period].cost",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "closur_s_2[add_cost_period].interval",
+                        "value": 2.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "立即获得<@ba.vup>9</>点部署费用，持续时间内逐渐获得<@ba.vup>15</>点部署费用，自身的援军防御力<@ba.vup>+55%</>，阻挡数<@ba.vup>+1</>，自身攻击力<@ba.vup>+70%</>，同时攻击<@ba.vup>2</>个目标且能攻击到自身援军阻挡的敌人；在战术点效果范围内部署干员时，立即返还部署费用的<@ba.vup>40%</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 42,
+                    "initSp": 33,
+                    "increment": 1.0
+                },
+                "duration": 30.0,
+                "blackboard": [
+                    {
+                        "key": "cost",
+                        "value": 9.0
+                    },
+                    {
+                        "key": "cost_return",
+                        "value": 0.4
+                    },
+                    {
+                        "key": "block_cnt",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "def",
+                        "value": 0.55
+                    },
+                    {
+                        "key": "atk",
+                        "value": 0.7
+                    },
+                    {
+                        "key": "attack@max_target",
+                        "value": 2.0
+                    },
+                    {
+                        "key": "cost_period",
+                        "value": 15.0
+                    },
+                    {
+                        "key": "closur_s_2[add_cost_period].cost",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "closur_s_2[add_cost_period].interval",
+                        "value": 2.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "立即获得<@ba.vup>10</>点部署费用，持续时间内逐渐获得<@ba.vup>15</>点部署费用，自身的援军防御力<@ba.vup>+60%</>，阻挡数<@ba.vup>+1</>，自身攻击力<@ba.vup>+80%</>，同时攻击<@ba.vup>2</>个目标且能攻击到自身援军阻挡的敌人；在战术点效果范围内部署干员时，立即返还部署费用的<@ba.vup>40%</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 40,
+                    "initSp": 34,
+                    "increment": 1.0
+                },
+                "duration": 30.0,
+                "blackboard": [
+                    {
+                        "key": "cost",
+                        "value": 10.0
+                    },
+                    {
+                        "key": "cost_return",
+                        "value": 0.4
+                    },
+                    {
+                        "key": "block_cnt",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "def",
+                        "value": 0.6
+                    },
+                    {
+                        "key": "atk",
+                        "value": 0.8
+                    },
+                    {
+                        "key": "attack@max_target",
+                        "value": 2.0
+                    },
+                    {
+                        "key": "cost_period",
+                        "value": 15.0
+                    },
+                    {
+                        "key": "closur_s_2[add_cost_period].cost",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "closur_s_2[add_cost_period].interval",
+                        "value": 2.0
+                    }
+                ]
+            }
+        ],
+        "tags": [],
+        "blackboard": [
+            {
+                "key": "cost_return",
+                "value": 0.4
+            },
+            {
+                "key": "blockCnt",
+                "value": 3.0,
+                "duration":30
+            },
+            {
+                "key": "ally_block_up",
+                "value": 1.0,
+                "duration": 30.0
+            },
+            {
+                "key": "ally_def",
+                "value": 0.6,
+                "duration":30.0
+            },
+            {
+                "key": "atk",
+                "value": 0.8
+            },
+            {
+                "key": "max_target",
+                "value": 2.0
+            }
+        ]
+    },
+    "skchr_closur_3": {
+        "name_zh": "Q.E.D.",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "可露希尔"
+        ],
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": null,
+                "description_zh": "技能持续时间内逐渐获得<@ba.vup>18</>点部署费用，攻击间隔缩短(-0.5)，锁定自身和援军原本攻击范围内的敌人进行攻击，造成可露希尔<@ba.vup>190%</>攻击力的物理伤害并施加持续<@ba.vup>3</>秒的<@ba.vup>5%</><ba.slowdown>迟钝</>效果（可叠加，最高<@ba.vup>50%</>），每攻击<@ba.vup>9</>次后攻击目标数+1（最多触发<@ba.vup>6</>次）",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 36,
+                    "initSp": 18,
+                    "increment": 1.0
+                },
+                "duration": 30.0,
+                "blackboard": [
+                    {
+                        "key": "cost",
+                        "value": 0.0
+                    },
+                    {
+                        "key": "cost_attack_add",
+                        "value": 0.0
+                    },
+                    {
+                        "key": "attack_trigger_cnt",
+                        "value": 9.0
+                    },
+                    {
+                        "key": "max_trigger_cnt",
+                        "value": 6.0
+                    },
+                    {
+                        "key": "attack@atk_scale",
+                        "value": 1.9
+                    },
+                    {
+                        "key": "base_attack_time",
+                        "value": -0.5
+                    },
+                    {
+                        "key": "attack@slow_down",
+                        "value": 0.05
+                    },
+                    {
+                        "key": "attack@slow_down_time",
+                        "value": 3.0
+                    },
+                    {
+                        "key": "attack@max_stack_cnt",
+                        "value": 10.0
+                    },
+                    {
+                        "key": "attack@slow_down_max",
+                        "value": 0.5
+                    },
+                    {
+                        "key": "cost_period",
+                        "value": 18.0
+                    },
+                    {
+                        "key": "closur_s_3[add_cost_period].cost",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "closur_s_3[add_cost_period].interval",
+                        "value": 1.66
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "技能持续时间内逐渐获得<@ba.vup>18</>点部署费用，攻击间隔缩短(-0.5)，锁定自身和援军原本攻击范围内的敌人进行攻击，造成可露希尔<@ba.vup>210%</>攻击力的物理伤害并施加持续<@ba.vup>3</>秒的<@ba.vup>5%</><ba.slowdown>迟钝</>效果（可叠加，最高<@ba.vup>50%</>），每攻击<@ba.vup>9</>次后攻击目标数+1（最多触发<@ba.vup>6</>次）",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 34,
+                    "initSp": 19,
+                    "increment": 1.0
+                },
+                "duration": 30.0,
+                "blackboard": [
+                    {
+                        "key": "cost",
+                        "value": 0.0
+                    },
+                    {
+                        "key": "cost_attack_add",
+                        "value": 0.0
+                    },
+                    {
+                        "key": "attack_trigger_cnt",
+                        "value": 9.0
+                    },
+                    {
+                        "key": "max_trigger_cnt",
+                        "value": 6.0
+                    },
+                    {
+                        "key": "attack@atk_scale",
+                        "value": 2.1
+                    },
+                    {
+                        "key": "base_attack_time",
+                        "value": -0.5
+                    },
+                    {
+                        "key": "attack@slow_down",
+                        "value": 0.05
+                    },
+                    {
+                        "key": "attack@slow_down_time",
+                        "value": 3.0
+                    },
+                    {
+                        "key": "attack@max_stack_cnt",
+                        "value": 10.0
+                    },
+                    {
+                        "key": "attack@slow_down_max",
+                        "value": 0.5
+                    },
+                    {
+                        "key": "cost_period",
+                        "value": 18.0
+                    },
+                    {
+                        "key": "closur_s_3[add_cost_period].cost",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "closur_s_3[add_cost_period].interval",
+                        "value": 1.66
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "技能持续时间内逐渐获得<@ba.vup>18</>点部署费用，攻击间隔缩短(-0.5)，锁定自身和援军原本攻击范围内的敌人进行攻击，造成可露希尔<@ba.vup>230%</>攻击力的物理伤害并施加持续<@ba.vup>3</>秒的<@ba.vup>5%</><ba.slowdown>迟钝</>效果（可叠加，最高<@ba.vup>50%</>），每攻击<@ba.vup>9</>次后攻击目标数+1（最多触发<@ba.vup>6</>次）",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 32,
+                    "initSp": 21,
+                    "increment": 1.0
+                },
+                "duration": 30.0,
+                "blackboard": [
+                    {
+                        "key": "cost",
+                        "value": 0.0
+                    },
+                    {
+                        "key": "cost_attack_add",
+                        "value": 0.0
+                    },
+                    {
+                        "key": "attack_trigger_cnt",
+                        "value": 9.0
+                    },
+                    {
+                        "key": "max_trigger_cnt",
+                        "value": 6.0
+                    },
+                    {
+                        "key": "attack@atk_scale",
+                        "value": 2.3
+                    },
+                    {
+                        "key": "base_attack_time",
+                        "value": -0.5
+                    },
+                    {
+                        "key": "attack@slow_down",
+                        "value": 0.05
+                    },
+                    {
+                        "key": "attack@slow_down_time",
+                        "value": 3.0
+                    },
+                    {
+                        "key": "attack@max_stack_cnt",
+                        "value": 10.0
+                    },
+                    {
+                        "key": "attack@slow_down_max",
+                        "value": 0.5
+                    },
+                    {
+                        "key": "cost_period",
+                        "value": 18.0
+                    },
+                    {
+                        "key": "closur_s_3[add_cost_period].cost",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "closur_s_3[add_cost_period].interval",
+                        "value": 1.66
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "技能持续时间内逐渐获得<@ba.vup>18</>点部署费用，攻击间隔缩短(-0.5)，锁定自身和援军原本攻击范围内的敌人进行攻击，造成可露希尔<@ba.vup>250%</>攻击力的物理伤害并施加持续<@ba.vup>3</>秒的<@ba.vup>6%</><ba.slowdown>迟钝</>效果（可叠加，最高<@ba.vup>60%</>），每攻击<@ba.vup>9</>次后攻击目标数+1（最多触发<@ba.vup>6</>次）",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 30,
+                    "initSp": 23,
+                    "increment": 1.0
+                },
+                "duration": 30.0,
+                "blackboard": [
+                    {
+                        "key": "cost",
+                        "value": 0.0
+                    },
+                    {
+                        "key": "cost_attack_add",
+                        "value": 0.0
+                    },
+                    {
+                        "key": "attack_trigger_cnt",
+                        "value": 9.0
+                    },
+                    {
+                        "key": "max_trigger_cnt",
+                        "value": 6.0
+                    },
+                    {
+                        "key": "attack@atk_scale",
+                        "value": 2.5
+                    },
+                    {
+                        "key": "base_attack_time",
+                        "value": -0.5
+                    },
+                    {
+                        "key": "attack@slow_down",
+                        "value": 0.06
+                    },
+                    {
+                        "key": "attack@slow_down_time",
+                        "value": 3.0
+                    },
+                    {
+                        "key": "attack@max_stack_cnt",
+                        "value": 10.0
+                    },
+                    {
+                        "key": "attack@slow_down_max",
+                        "value": 0.6
+                    },
+                    {
+                        "key": "cost_period",
+                        "value": 18.0
+                    },
+                    {
+                        "key": "closur_s_3[add_cost_period].cost",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "closur_s_3[add_cost_period].interval",
+                        "value": 1.66
+                    }
+                ]
+            }
+        ],
+        "tags": [],
+        "blackboard": [
+            {
+                "key": "max_target",
+                "value": 3.0
+            },
+            {
+                        "key": "aspd_down",
+                        "order":"initial_mul",
+                        "targets": 3,
+                        "value": 6,
+                        "duration":3,
+                        "category":["slowdown"],
+                        "target_air": true
+                    },
+                    {
+                        "key": "aspd_down",
+                        "order":"initial_mul",
+                        "targets": 3,
+                        "value": 60,
+                        "duration":3,
+                        "category":["slowdown"],
+                        "target_air": true
+                    },
+                    {
+                        "key": "ms_down",
+                        "order":"initial_mul",
+                        "targets": 3,
+                        "value": 6,
+                        "duration":3,
+                        "category":["slowdown"],
+                        "target_air": true
+                    },
+                    {
+                        "key": "ms_down",
+                        "order":"initial_mul",
+                        "targets": 3,
+                        "value": 60,
+                        "duration":3,
+                        "category":["slowdown"],
+                        "target_air": true
+                    }
+        ]
+    },
+    "skchr_veen_1": {
+        "name_zh": "“自呼号生发”",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "维伊"
+        ],
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": null,
+                "description_zh": "攻击速度<@ba.vup>+75</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 29,
+                    "initSp": 9,
+                    "increment": 1.0
+                },
+                "duration": 18.0,
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 75.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "攻击速度<@ba.vup>+80</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 28,
+                    "initSp": 10,
+                    "increment": 1.0
+                },
+                "duration": 18.0,
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 80.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "攻击速度<@ba.vup>+90</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 27,
+                    "initSp": 11,
+                    "increment": 1.0
+                },
+                "duration": 18.0,
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 90.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "攻击速度<@ba.vup>+100</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 25,
+                    "initSp": 12,
+                    "increment": 1.0
+                },
+                "duration": 18.0,
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 100.0
+                    }
+                ]
+            }
+        ],
+        "tags": [],
+        "blackboard": [
+            {
+                "key": "attack_speed",
+                "value": 100.0
+            }
+        ]
+    },
+    "skchr_veen_2": {
+        "name_zh": "“以鲜血洗去”",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "维伊"
+        ],
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": null,
+                "description_zh": "攻击间隔<@ba.vup>小幅缩短(-0.5)</>，每次攻击或发射储存能量后，使自身后续攻击力<@ba.vup>+11%</>，攻击速度<@ba.vup>+7</>（至多叠加<@ba.vup>9</>层，发射转置能量可叠加<@ba.vup>3</>层），持续至技能结束",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 34,
+                    "initSp": 6,
+                    "increment": 1.0
+                },
+                "duration": 28.0,
+                "blackboard": [
+                    {
+                        "key": "base_attack_time",
+                        "value": -0.5
+                    },
+                    {
+                        "key": "attack@veen_s_2_buff[stack].atk",
+                        "value": 0.11
+                    },
+                    {
+                        "key": "attack@veen_s_2_buff[stack].attack_speed",
+                        "value": 7.0
+                    },
+                    {
+                        "key": "attack@veen_s_2_buff[stack].max_stack_cnt",
+                        "value": 9.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "攻击间隔<@ba.vup>小幅缩短(-0.5)</>，每次攻击或发射储存能量后，使自身后续攻击力<@ba.vup>+13%</>，攻击速度<@ba.vup>+7</>（至多叠加<@ba.vup>9</>层，发射转置能量可叠加<@ba.vup>3</>层），持续至技能结束",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 34,
+                    "initSp": 8,
+                    "increment": 1.0
+                },
+                "duration": 28.0,
+                "blackboard": [
+                    {
+                        "key": "base_attack_time",
+                        "value": -0.5
+                    },
+                    {
+                        "key": "attack@veen_s_2_buff[stack].atk",
+                        "value": 0.13
+                    },
+                    {
+                        "key": "attack@veen_s_2_buff[stack].attack_speed",
+                        "value": 7.0
+                    },
+                    {
+                        "key": "attack@veen_s_2_buff[stack].max_stack_cnt",
+                        "value": 9.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "攻击间隔<@ba.vup>小幅缩短(-0.5)</>，每次攻击或发射储存能量后，使自身后续攻击力<@ba.vup>+13%</>，攻击速度<@ba.vup>+8</>（至多叠加<@ba.vup>9</>层，发射转置能量可叠加<@ba.vup>3</>层），持续至技能结束",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 33,
+                    "initSp": 8,
+                    "increment": 1.0
+                },
+                "duration": 28.0,
+                "blackboard": [
+                    {
+                        "key": "base_attack_time",
+                        "value": -0.5
+                    },
+                    {
+                        "key": "attack@veen_s_2_buff[stack].atk",
+                        "value": 0.13
+                    },
+                    {
+                        "key": "attack@veen_s_2_buff[stack].attack_speed",
+                        "value": 8.0
+                    },
+                    {
+                        "key": "attack@veen_s_2_buff[stack].max_stack_cnt",
+                        "value": 9.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "攻击间隔<@ba.vup>小幅缩短(-0.5)</>，每次攻击或发射储存能量后，使自身后续攻击力<@ba.vup>+15%</>，攻击速度<@ba.vup>+8</>（至多叠加<@ba.vup>9</>层，发射转置能量可叠加<@ba.vup>3</>层），持续至技能结束",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 32,
+                    "initSp": 10,
+                    "increment": 1.0
+                },
+                "duration": 28.0,
+                "blackboard": [
+                    {
+                        "key": "base_attack_time",
+                        "value": -0.5
+                    },
+                    {
+                        "key": "attack@veen_s_2_buff[stack].atk",
+                        "value": 0.15
+                    },
+                    {
+                        "key": "attack@veen_s_2_buff[stack].attack_speed",
+                        "value": 8.0
+                    },
+                    {
+                        "key": "attack@veen_s_2_buff[stack].max_stack_cnt",
+                        "value": 9.0
+                    }
+                ]
+            }
+        ],
+        "tags": [],
+        "blackboard": [
+        ]
+    },
+    "skchr_veen_3": {
+        "name_zh": "“用赤铁铭记”",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "维伊"
+        ],
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": null,
+                "description_zh": "攻击速度<@ba.vup>+140</>，储存的能量发射后会在敌人间（优先不同目标）跳跃一次，并造成相当于<@ba.vup>140%</>攻击力的法术伤害，<@ba.vup>转置能量</>改为跳跃<@ba.vup>3</>次\\n<@ba.rem>攻击装有21发弹药，仅在发射每个储存能量时消耗1发弹药，发射转置能量消耗3发弹药，弹药打完后结束（可随时停止技能）</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 51,
+                    "initSp": 24,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 140.0
+                    },
+                    {
+                        "key": "attack@bounce_atk_scale",
+                        "value": 1.4
+                    },
+                    {
+                        "key": "attack@delay",
+                        "value": 0.4
+                    },
+                    {
+                        "key": "attack@trigger_time",
+                        "value": 21.0
+                    },
+                    {
+                        "key": "merge_hit_cnt",
+                        "value": 3.0
+                    },
+                    {
+                        "key": "attack@base_atk_scale",
+                        "value": 1.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "攻击速度<@ba.vup>+150</>，储存的能量发射后会在敌人间（优先不同目标）跳跃一次，并造成相当于<@ba.vup>150%</>攻击力的法术伤害，<@ba.vup>转置能量</>改为跳跃<@ba.vup>3</>次\\n<@ba.rem>攻击装有24发弹药，仅在发射每个储存能量时消耗1发弹药，发射转置能量消耗3发弹药，弹药打完后结束（可随时停止技能）</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 49,
+                    "initSp": 24,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 150.0
+                    },
+                    {
+                        "key": "attack@bounce_atk_scale",
+                        "value": 1.5
+                    },
+                    {
+                        "key": "attack@delay",
+                        "value": 0.4
+                    },
+                    {
+                        "key": "attack@trigger_time",
+                        "value": 24.0
+                    },
+                    {
+                        "key": "merge_hit_cnt",
+                        "value": 3.0
+                    },
+                    {
+                        "key": "attack@base_atk_scale",
+                        "value": 1.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "攻击速度<@ba.vup>+160</>，储存的能量发射后会在敌人间（优先不同目标）跳跃一次，并造成相当于<@ba.vup>150%</>攻击力的法术伤害，<@ba.vup>转置能量</>改为跳跃<@ba.vup>3</>次\\n<@ba.rem>攻击装有24发弹药，仅在发射每个储存能量时消耗1发弹药，发射转置能量消耗3发弹药，弹药打完后结束（可随时停止技能）</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 47,
+                    "initSp": 26,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 160.0
+                    },
+                    {
+                        "key": "attack@bounce_atk_scale",
+                        "value": 1.5
+                    },
+                    {
+                        "key": "attack@delay",
+                        "value": 0.4
+                    },
+                    {
+                        "key": "attack@trigger_time",
+                        "value": 24.0
+                    },
+                    {
+                        "key": "merge_hit_cnt",
+                        "value": 3.0
+                    },
+                    {
+                        "key": "attack@base_atk_scale",
+                        "value": 1.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "攻击速度<@ba.vup>+180</>，储存的能量发射后会在敌人间（优先不同目标）跳跃一次，并造成相当于<@ba.vup>165%</>攻击力的法术伤害，<@ba.vup>转置能量</>改为跳跃<@ba.vup>3</>次\\n<@ba.rem>攻击装有27发弹药，仅在发射每个储存能量时消耗1发弹药，发射转置能量消耗3发弹药，弹药打完后结束（可随时停止技能）</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 45,
+                    "initSp": 28,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 180.0
+                    },
+                    {
+                        "key": "attack@bounce_atk_scale",
+                        "value": 1.65
+                    },
+                    {
+                        "key": "attack@delay",
+                        "value": 0.4
+                    },
+                    {
+                        "key": "attack@trigger_time",
+                        "value": 27.0
+                    },
+                    {
+                        "key": "merge_hit_cnt",
+                        "value": 3.0
+                    },
+                    {
+                        "key": "attack@base_atk_scale",
+                        "value": 1.0
+                    }
+                ]
+            }
+        ],
+        "tags": [],
+        "blackboard": [
+            {
+                "key": "attack_speed",
+                "value": 180.0
+            },
+            {
+                "key": "trigger_time",
+                "value": 27.0
+            }
+        ]
+    },
+    "skchr_kalts2_1": {
+        "name_zh": "应急肃正防线",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "凯尔希·思衡托"
+        ],
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": null,
+                "description_zh": "攻击力<@ba.vup>+75%</>，攻击速度<@ba.vup>+35</>，所有其他<ba.liftoff>起飞</>的友方干员阻挡范围扩大",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 35,
+                    "initSp": 20,
+                    "increment": 1.0
+                },
+                "duration": 35.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.75
+                    },
+                    {
+                        "key": "attack@block_radius_scale",
+                        "value": 0.23
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 35.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "攻击力<@ba.vup>+80%</>，攻击速度<@ba.vup>+35</>，所有其他<ba.liftoff>起飞</>的友方干员阻挡范围扩大",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 35,
+                    "initSp": 22,
+                    "increment": 1.0
+                },
+                "duration": 35.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.8
+                    },
+                    {
+                        "key": "attack@block_radius_scale",
+                        "value": 0.23
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 35.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "攻击力<@ba.vup>+85%</>，攻击速度<@ba.vup>+35</>，所有其他<ba.liftoff>起飞</>的友方干员阻挡范围扩大",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 35,
+                    "initSp": 25,
+                    "increment": 1.0
+                },
+                "duration": 35.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.85
+                    },
+                    {
+                        "key": "attack@block_radius_scale",
+                        "value": 0.23
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 35.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "攻击力<@ba.vup>+90%</>，攻击速度<@ba.vup>+50</>，所有其他<ba.liftoff>起飞</>的友方干员阻挡范围扩大",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 35,
+                    "initSp": 28,
+                    "increment": 1.0
+                },
+                "duration": 35.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.9
+                    },
+                    {
+                        "key": "attack@block_radius_scale",
+                        "value": 0.23
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 50.0
+                    }
+                ]
+            }
+        ],
+        "tags": [],
+        "blackboard": [
+            {
+                "key": "atk",
+                "value": 0.9
+            },
+            {
+                "key": "ally_block_radius_scale",
+                "value": 0.23,
+                "conditions":["liftoff"]
+            },
+            {
+                "key": "attack_speed",
+                "value": 50.0
+            }
+        ]
+    },
+    "skchr_kalts2_2": {
+        "name_zh": "保护性拒止",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "凯尔希·思衡托"
+        ],
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": "y-11",
+                "description_zh": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+125%</>，攻击变为射出医疗单元（优先选择敌人），击中时对目标周围所有敌人造成相当于攻击力<@ba.vup>350%</>的真实伤害，使其<ba.sluggish>停顿</><@ba.vup>5</>秒并回复目标周围所有友方干员相当于攻击力<@ba.vup>170%</>的生命\\n<@ba.rem>攻击装有10发弹药，可以随时停止技能</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 35,
+                    "initSp": 20,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 1.25
+                    },
+                    {
+                        "key": "attack@atk_scale",
+                        "value": 3.5
+                    },
+                    {
+                        "key": "attack@heal_scale",
+                        "value": 1.7
+                    },
+                    {
+                        "key": "attack@sluggish",
+                        "value": 5.0
+                    },
+                    {
+                        "key": "attack@trigger_time",
+                        "value": 10.0
+                    }
+                ]
+            },
+            {
+                "rangeId": "y-11",
+                "description_zh": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+130%</>，攻击变为射出医疗单元（优先选择敌人），击中时对目标周围所有敌人造成相当于攻击力<@ba.vup>360%</>的真实伤害，使其<ba.sluggish>停顿</><@ba.vup>5</>秒并回复目标周围所有友方干员相当于攻击力<@ba.vup>180%</>的生命\\n<@ba.rem>攻击装有10发弹药，可以随时停止技能</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 35,
+                    "initSp": 22,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 1.3
+                    },
+                    {
+                        "key": "attack@atk_scale",
+                        "value": 3.6
+                    },
+                    {
+                        "key": "attack@heal_scale",
+                        "value": 1.8
+                    },
+                    {
+                        "key": "attack@sluggish",
+                        "value": 5.0
+                    },
+                    {
+                        "key": "attack@trigger_time",
+                        "value": 10.0
+                    }
+                ]
+            },
+            {
+                "rangeId": "y-11",
+                "description_zh": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+135%</>，攻击变为射出医疗单元（优先选择敌人），击中时对目标周围所有敌人造成相当于攻击力<@ba.vup>370%</>的真实伤害，使其<ba.sluggish>停顿</><@ba.vup>5</>秒并回复目标周围所有友方干员相当于攻击力<@ba.vup>190%</>的生命\\n<@ba.rem>攻击装有10发弹药，可以随时停止技能</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 35,
+                    "initSp": 25,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 1.35
+                    },
+                    {
+                        "key": "attack@atk_scale",
+                        "value": 3.7
+                    },
+                    {
+                        "key": "attack@heal_scale",
+                        "value": 1.9
+                    },
+                    {
+                        "key": "attack@sluggish",
+                        "value": 5.0
+                    },
+                    {
+                        "key": "attack@trigger_time",
+                        "value": 10.0
+                    }
+                ]
+            },
+            {
+                "rangeId": "y-11",
+                "description_zh": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+150%</>，攻击变为射出医疗单元（优先选择敌人），击中时对目标周围所有敌人造成相当于攻击力<@ba.vup>380%</>的真实伤害，使其<ba.sluggish>停顿</><@ba.vup>5</>秒并回复目标周围所有友方干员相当于攻击力<@ba.vup>200%</>的生命\\n<@ba.rem>攻击装有10发弹药，可以随时停止技能</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 35,
+                    "initSp": 28,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 1.5
+                    },
+                    {
+                        "key": "attack@atk_scale",
+                        "value": 3.8
+                    },
+                    {
+                        "key": "attack@heal_scale",
+                        "value": 2.0
+                    },
+                    {
+                        "key": "attack@sluggish",
+                        "value": 5.0
+                    },
+                    {
+                        "key": "attack@trigger_time",
+                        "value": 10.0
+                    }
+                ]
+            }
+        ],
+        "tags": ["skill_manual_off","true"],
+        "blackboard": [
+           
+           {
+                        "key": "sluggish",
+                        "targets": 99,
+                        "value": 5.0,
+                        "target_air": true
+                    },
+            {
+                "key": "trigger_time",
+                "value": 10.0
+            }
+        ]
+    },
+    "skchr_kalts2_3": {
+        "name_zh": "破梏重生",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "凯尔希·思衡托"
+        ],
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": null,
+                "description_zh": "立刻获得战术锚点，攻击力<@ba.vup>+125%</>，攻击间隔<@ba.vup>大幅缩小(-1.55)</>，额外治疗<@ba.vup>1</>个目标，部署战术锚点后，自身<ba.addash>移动</>至该位置，并使攻击范围内最多<@ba.vup>2</>名友方干员可以部署至自身攻击范围的另一位置",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 60,
+                    "initSp": 30,
+                    "increment": 1.0
+                },
+                "duration": 35.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 1.25
+                    },
+                    {
+                        "key": "base_attack_time",
+                        "value": -1.55
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "立刻获得战术锚点，攻击力<@ba.vup>+130%</>，攻击间隔<@ba.vup>大幅缩小(-1.55)</>，额外治疗<@ba.vup>1</>个目标，部署战术锚点后，自身<ba.addash>移动</>至该位置，并使攻击范围内最多<@ba.vup>2</>名友方干员可以部署至自身攻击范围的另一位置",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 58,
+                    "initSp": 32,
+                    "increment": 1.0
+                },
+                "duration": 35.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 1.3
+                    },
+                    {
+                        "key": "base_attack_time",
+                        "value": -1.55
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "立刻获得战术锚点，攻击力<@ba.vup>+135%</>，攻击间隔<@ba.vup>大幅缩小(-1.55)</>，额外治疗<@ba.vup>1</>个目标，部署战术锚点后，自身<ba.addash>移动</>至该位置，并使攻击范围内最多<@ba.vup>2</>名友方干员可以部署至自身攻击范围的另一位置",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 55,
+                    "initSp": 33,
+                    "increment": 1.0
+                },
+                "duration": 35.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 1.35
+                    },
+                    {
+                        "key": "base_attack_time",
+                        "value": -1.55
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "立刻获得战术锚点，攻击力<@ba.vup>+150%</>，攻击间隔<@ba.vup>大幅缩小(-1.55)</>，额外治疗<@ba.vup>1</>个目标，部署战术锚点后，自身<ba.addash>移动</>至该位置，并使攻击范围内最多<@ba.vup>2</>名友方干员可以部署至自身攻击范围的另一位置",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 50,
+                    "initSp": 35,
+                    "increment": 1.0
+                },
+                "duration": 35.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 1.5
+                    },
+                    {
+                        "key": "base_attack_time",
+                        "value": -1.55
+                    }
+                ]
+            }
+        ],
+        "tags": [],
+        "blackboard": [
+            {
+                "key": "atk",
+                "value": 1.5
+            },
+            {
+                "key": "base_attack_time",
+                "value": -1.55
             }
         ]
     }

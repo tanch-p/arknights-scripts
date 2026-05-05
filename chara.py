@@ -11,7 +11,7 @@ from game_types.character_table import (
     Talent,
 )
 from game_types.char_patch_table import CharPatchTable
-from chara_skills import replace_substrings
+from chara_skills import replace_substrings, update_chara_skills
 from subprofession_tags import get_sub_profession_tags
 import pprint
 from tokens import IDS_TO_IGNORE
@@ -721,7 +721,7 @@ def append_new_chara_imple_dates(new_chara_keys: list[str]) -> None:
     if not new_chara_keys:
         return
 
-    datetime_str = "07/04/2026 12:00:00"
+    datetime_str = "01/05/2026 12:00:00"
     timestamp = datetime_to_unix_gmt8(datetime_str)
 
     for key in new_chara_keys:
@@ -731,23 +731,53 @@ def append_new_chara_imple_dates(new_chara_keys: list[str]) -> None:
         json.dump(imple_dates, f, ensure_ascii=False, indent=4)
 
 
-# Main execution
-filtered_cn_char_table = {
-    key: cn_char_table[key]
-    for key in cn_char_table
-    if "token" not in key and "trap" not in key and key not in KEYS_TO_IGNORE
-}
+def get_filtered_cn_char_table() -> CharacterTable:
+    return {
+        key: cn_char_table[key]
+        for key in cn_char_table
+        if "token" not in key and "trap" not in key and key not in KEYS_TO_IGNORE
+    }
 
-append_new_chara_imple_dates(get_new_chara_keys_for_imple_dates(filtered_cn_char_table))
 
-data, subProfessionIds = process_main_chars(filtered_cn_char_table)
-data.extend(process_patch_chars())
+def load_new_characters() -> None:
+    filtered_cn_char_table = get_filtered_cn_char_table()
+    new_chara_keys = [
+        key for key in filtered_cn_char_table if key not in chara_talents
+    ]
+    append_new_chara_imple_dates(new_chara_keys)
+    update_chara_skills()
+    update_chara_talents_json(filtered_cn_char_table)
 
-with open("characters.json", "w", encoding="utf-8") as f:
-    json.dump(data, f, ensure_ascii=False, separators=(",", ":"), indent=4)
 
-update_chara_talents_json(filtered_cn_char_table)
+def generate_character_json_files() -> None:
+    filtered_cn_char_table = get_filtered_cn_char_table()
 
-for id in subProfessionIds:
-    if id not in subprofessions:
-        print(id, " (new!)")
+    data, subProfessionIds = process_main_chars(filtered_cn_char_table)
+    data.extend(process_patch_chars())
+
+    with open("characters.json", "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, separators=(",", ":"), indent=4)
+
+    
+
+    for id in subProfessionIds:
+        if id not in subprofessions:
+            print(id, " (new!)")
+
+
+def main() -> None:
+    print("Select an option:")
+    print("1. Load new characters")
+    print("2. Generate character JSON files")
+    choice = input("Enter your choice (1 or 2): ").strip()
+
+    if choice == "1":
+        load_new_characters()
+    elif choice == "2":
+        generate_character_json_files()
+    else:
+        print("Invalid choice. Please enter 1 or 2.")
+
+
+if __name__ == "__main__":
+    main()

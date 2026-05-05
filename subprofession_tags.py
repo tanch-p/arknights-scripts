@@ -18,7 +18,7 @@ def get_sub_profession_tags(char, id):
         tags.append("no_healing")
     if char['subProfessionId'] in ["reaper", "guardian", "bard"]:
         tags.append("heal_self")
-    if char['subProfessionId'] in ["skywalker","skybreaker"]:
+    if char['subProfessionId'] in ["skywalker","skybreaker","watchman"]:
         tags.append("block_flying")
     if char['subProfessionId'] in ["guardian", "bard"]:
         tags.append("heal_ally")

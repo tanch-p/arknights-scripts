@@ -9,13 +9,7 @@ DEST_DIR = os.getenv("DEST_DIR")
 
 # TARGET_FILES = ["char_4224_turdus", "char_4223_botany","char_1051_headb2"]
 TARGET_FILES = [
-    "skchr_headb2_1",
-    "skchr_headb2_2",
-    "skchr_headb2_3",
-    "skchr_botany_1",
-    "skchr_botany_2",
-    "skchr_turdus_1",
-    "skchr_turdus_2",
+    "token_10068_kalts2_mtship"
 ]
 
 
@@ -91,7 +85,6 @@ def find_and_copy(category, folder_prefix, keys):
                 if category == "chara" or category == "enemy":
                     subprocess.run(
                         [
-                            "magick",
                             "convert",
                             "-resize",
                             "128x128",
@@ -104,7 +97,7 @@ def find_and_copy(category, folder_prefix, keys):
                     )
                 else:
                     subprocess.run(
-                        ["magick", "convert", "-quality", "90", src_path, dest_path],
+                        ["convert", "-quality", "90", src_path, dest_path],
                         check=True,
                     )
 

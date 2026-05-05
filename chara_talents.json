@@ -8991,11 +8991,14 @@
                 "desc_ja": "<身替り>状態時、周囲の敵の移動速度-40%、1秒ごとに攻撃力の40%の術ダメージを与える",
                 "desc_en": "&lt;Substitute&gt; reduces Movement Speed of nearby enemies by 40%, and deals 40% ATK as Arts damage to them per second",
                 "tags": [
-                    "arts"
+                    "arts",
+                    "aspd_unrelated",
+                    "dot"
                 ],
                 "blackboard": [
                     {
                         "key": "ms_down",
+                        "order":"final_mul",
                         "targets": 99,
                         "value": 0.4,
                         "duration": 20.0,
@@ -14349,11 +14352,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "律脉同构",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Pulse Isomorphism",
+                "name_ja": "律動の共鳴",
                 "desc_zh": "攻击范围内至少有1名其他友方干员时，攻击力+17<@ba.talpu>（+2%）</>",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "攻撃範囲内に自身以外のオペレーターが1名以上配置されている場合、攻撃力+17%<@ba.talpu>（+2%）</>",
+                "desc_en": "When there is at least 1 other Operator within range, +17% <@ba.talpu>(+2%)</> ATK",
                 "tags": [],
                 "blackboard": []
             }
@@ -14365,11 +14368,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "荒野的后裔",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Child of the Wilds",
+                "name_ja": "荒野の末裔",
                 "desc_zh": "通过部署、开启技能、使用<ba.alter>装备应变</>消耗费用后，攻击力+5%<@ba.talpu>（+1%）</>，使攻击范围内的敌人<ba.stun>晕眩</>2秒（攻击力最多提升5次）",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "配置・スキル発動・<ba.alter>戦術換装</>発動でコストを消費するたび、攻撃力+5%<@ba.talpu>（+1%）</>、攻撃範囲内の敵を2秒間<ba.stun>スタン</>させる（攻撃力上昇効果は最大5回まで重複可能）",
+                "desc_en": "Whenever DP is spent through deployment, skill activation, or <ba.alter>Equipment Alteration</>, +5% <@ba.talpu>(+1%)</> ATK and <ba.stun>Stuns</> all enemies within range for 2 seconds (ATK can increase up to 5 times)",
                 "tags": [],
                 "blackboard": [
                     {
@@ -14388,11 +14391,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "裂云一击",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Cloud-Rifting Shot",
+                "name_ja": "裂雲の一撃",
                 "desc_zh": "开启技能时，派出裂云兽进行攻击，造成相当于攻击力185%<@ba.talpu>（+5%）</>的物理伤害和3秒<ba.cold>寒冷</>",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "スキル発動時、裂雲獣に攻撃させ、対象に攻撃力の185%<@ba.talpu>（+5%）</>の物理ダメージを与え、3秒間<ba.cold>寒冷</>状態を付与",
+                "desc_en": "On skill activation, sends out Rift Cloudbeast to attack, dealing 185% <@ba.talpu>(+5%)</> ATK as Physical damage and inflicting <ba.cold>Cold</> for 3 seconds",
                 "tags": [],
                 "blackboard": [
                     {
@@ -14411,11 +14414,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "开放性开局",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Open Game",
+                "name_ja": "オープンゲーム",
                 "desc_zh": "在场时向待部署区中加入“风雪之眼”，且使待部署区按照部署费用排列。位于“风雪之眼”左侧的干员与自身初始技力+4，下次再部署时间-20%",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "配置中、配置待機エリアに「風雪の眼」を追加し、配置待機エリアを配置コスト順に並び変える。「風雪の眼」の左側のオペレーター及び自身のストックSP+4、次の再配置時間-20%",
+                "desc_en": "When on field, adds an 'Eye of the Blizzard' to the Deployment Waiting Zone and rearranges undeployed Operators according to their DP Cost. Self and the Operators to the left of the Eye gain +4 starting SP and -20% Redeployment Time",
                 "tags": [
                     "ally_respawn_time"
                 ],
@@ -14433,11 +14436,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "雪境先驱",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Snow Realm Trailblazer",
+                "name_ja": "雪境の先駆け",
                 "desc_zh": "在场时，【谢拉格】干员免疫<ba.frozen>冻结</>，防御力+80<@ba.talpu>（+20）</>且每秒回复2%<@ba.talpu>（+0.5%）</>最大生命值；在场15秒后，防御力和生命回复效果翻倍",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "配置中、味方【イェラグ】が<ba.frozen>凍結</>無効になり、防御力+80<@ba.talpu>（+20）</>、1秒ごとにHPが最大値の2%<@ba.talpu>（+0.5%）</>回復。凛御シルバーアッシュの配置から15秒後、防御力上昇とHP回復の効果が2倍となる",
+                "desc_en": "When on field, all Kjerag Operators gain <ba.frozen>Frozen</> immunity, +80 <@ba.talpu>(+20)</> DEF, and recover 2% <@ba.talpu>(+0.5%)</> Max HP every second; after being deployed for 15 seconds, DEF and HP recovery effects double",
                 "tags": [
                     "heal_self",
                     "heal_ally",
@@ -14486,11 +14489,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "无垠的雪景",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Unending Snows",
+                "name_ja": "果てなき雪景色",
                 "desc_zh": "攻击范围内的地面每隔5.5秒产生一层积雪，地面敌人经过时立即受到相当于攻击力80%<@ba.talpu>（+5%）</>的法术伤害，每层积雪使经过的所有敌人移动速度下降12%，最多叠加5层（首个敌人离开该地块时积雪消失）",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "5.5秒ごとに攻撃範囲内の地面マスに積雪を1層生成。積雪マスに進入した地上の敵に攻撃力の80%<@ba.talpu>（+5%）</>の術ダメージを与える。積雪が1層蓄積するごとに、マス内の敵全員の移動速度が12%低下（最大5層まで重複可能。いずれかの敵が積雪マスを離れると、対象マスの積雪が消失）",
+                "desc_en": "Snow falls every 5.5 seconds onto tiles within attack range, dealing 80% <@ba.talpu>(+5%)</> ATK as Arts damage to any ground enemies passing through affected tiles. Each stack of snow reduces enemy Movement Speed by 12%, stacking up to 5 times (Snow on the tile disappears when the first enemy on it leaves the tile)",
                 "tags": [],
                 "blackboard": [
                     {
@@ -14512,11 +14515,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "圣山的祝福",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Blessing of Karlan",
+                "name_ja": "カランドの祝福",
                 "desc_zh": "受到伤害时使敌人<ba.cold>寒冷</>2<@ba.talpu>（+0.5）</>秒，若受到致命伤害，仅一次立刻回复所有生命值并使自身<ba.frozen>冻结</>4秒，使攻击范围内所有敌方单位<ba.frozen>冻结</>8秒",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "ダメージを受けると、攻撃者に2<@ba.talpu>（+0.5）</>秒間<ba.cold>寒冷</>状態を付与。配置中、致命的なダメージを受けた場合、1度だけHPを全回復し、自身が4秒間<ba.frozen>凍結</>状態になり、攻撃範囲内の敵全員に8秒間<ba.frozen>凍結</>状態を付与",
+                "desc_en": "Upon taking damage, inflicts <ba.cold>Cold</> on enemies for 2 <@ba.talpu>(+0.5)</> seconds; if taking lethal damage, recovers all HP (once only) and <ba.frozen>Freezes</> herself for 4 seconds, while <ba.frozen>Freezing</> all enemies for 8 seconds",
                 "tags": [
                     "revive"
                 ],
@@ -14561,11 +14564,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "数据建模",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Data Modeling",
+                "name_ja": "データモデリング",
                 "desc_zh": "对敌人造成<ba.sluggish>停顿</>效果时，自身的攻击速度+1，最多叠加18次",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "敵を<ba.sluggish>足止め</>するたび、自身の攻撃速度+1（最大18回まで重複可能）",
+                "desc_en": "When inflicting <ba.sluggish>Slow</> on an enemy, +1 ASPD, stacking up to 18 times",
                 "tags": [],
                 "blackboard": [
                     {
@@ -14577,11 +14580,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "能源解析",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Energy Source Analysis",
+                "name_ja": "エネルギー解析",
                 "desc_zh": "攻击范围内的敌人受到12%<@ba.talpu>（+2%）</>的<ba.fragile>脆弱</>效果，敌人在溯光星源的攻击范围内停留超过7秒后，<ba.fragile>脆弱</>效果提升至16%<@ba.talpu>（+2%）</>",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "攻撃範囲内の敵に12%<@ba.talpu>（+2%）</>の<ba.fragile>脆弱</>状態を付与。溯光アステジーニの攻撃範囲内に7秒以上滞在した敵に対しては、付与する<ba.fragile>脆弱</>の効果が16%<@ba.talpu>（+2%）</>になる",
+                "desc_en": "Enemies within attack range gain 12% <@ba.talpu>(+2%)</> <ba.fragile>Fragile</>, increasing to 16% <@ba.talpu>(+2%)</> <ba.fragile>Fragile</> after being in Astgenne the Lightchaser's attack range for more than 7 seconds",
                 "tags": [
                     "fragile"
                 ],
@@ -15208,6 +15211,190 @@
                             "skill_active",
                             "student"
                         ]
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4227_gallus": {
+        "appellation": "GALLUS²",
+        "talents": [
+            {
+                "prefabKey": "0",
+                "name_zh": "“来抓我啊”",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "部署后20秒内，攻击使敌人法术抗性-25%（持续10秒），且优先攻击未获得此效果的敌人",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "res_down",
+                        "order": "final_mul",
+                        "targets": 1,
+                        "value": 0.25,
+                        "duration":10,
+                        "target_air": true
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4225_tanya": {
+        "appellation": "Crackborne",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "劣质溶剂耐受",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "自身受到的<ba.dt.element>元素损伤</>-12%<@ba.talpu>（+2%）</>，受到的<ba.dt.erosion>侵蚀损伤</>额外-12%<@ba.talpu>（+2%）</>",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                   
+                ]
+            }
+        ]
+    },
+    "char_4228_closur": {
+        "appellation": "Closure",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "精准投放",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "可以在战术点召唤指挥中心协助作战，其被击败后会在15秒后自动刷新；战术点效果范围随携带技能变化，效果范围内的友方单位视为自身的援军",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                ]
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "极限调度",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "携带可露希尔时，<ba.costlowerbound>部署费用下限</>降低4<@ba.talpu>（+1）</>，【罗德岛】干员攻击力+4%",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": ["squad_effect","rhodes"],
+                "blackboard": [
+                    {
+                        "key": "ally_atk",
+                        "value": 0.04,
+                        "conditions":["rhodes"]
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4226_veen": {
+        "appellation": "Вий",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "“在挥刀之前”",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "特性储存的能量达到3个时，合成为1个转置能量（至多储存等同于9倍的能量），拥有转置能量时攻击力+12%<@ba.talpu>（+2%）</>，未拥有转置能量时攻击速度+15",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.12
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 15.0
+                    }
+                ]
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "战争技艺",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "攻击和储存的能量使目标在5秒内每秒受到90点法术伤害（至多叠加3次，发射转置能量可以叠加3次），维伊不以该效果影响的敌人为攻击目标",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": ["dot"],
+                "blackboard": [
+                    {
+                        "key": "attack@duration",
+                        "value": 5.0
+                    },
+                    {
+                        "key": "attack@value",
+                        "value": 90.0
+                    },
+                    {
+                        "key": "attack@max_stack_cnt",
+                        "value": 3.0
+                    }
+                ]
+            }
+        ]
+    },
+    "char_1052_kalts2": {
+        "appellation": "Kal'tsit·Esperanta",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "遗尘守望",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "生命上限和防御力+30%<@ba.talpu>（+5%）</>，阻挡数+1，阻挡范围扩大，部署后生命修复单元升空，自身<ba.liftoff>起飞</>",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "max_hp",
+                        "value": 0.3
+                    },
+                    {
+                        "key": "def",
+                        "value": 0.3
+                    },
+                    {
+                        "key": "block_cnt",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "block_radius_scale",
+                        "value": 0.23
+                    },
+                    {
+                        "key": "liftoff",
+                        "value": 999
+                    }
+                ]
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "医者丰碑",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "其他友方干员进入自身攻击范围时立刻获得1层<ba.shield>护盾</>并额外获得一次每秒回复60<@ba.talpu>（+10）</>点生命值的增益治疗，持续30秒（不可叠加），增益治疗对【罗德岛】干员的效果翻倍",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": ["rhodes","heal_unhealable"],
+                "blackboard": [
+                    {
+                        "key": "ally_shield",
+                        "types": [
+                            "phys",
+                            "arts",
+                            "true"
+                        ],
+                        "value": 1
                     }
                 ]
             }
