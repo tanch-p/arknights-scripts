@@ -7,14 +7,15 @@ pp = pprint.PrettyPrinter(indent=4)
 
 script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 mzk_path = os.path.join(
-    script_dir, "cn_data\\zh_CN\\gamedata\\levels\\obt\\roguelike\\ro2\\level_rogue2_b-7.json"
+    script_dir,
+    "cn_data\\zh_CN\\gamedata\\levels\\obt\\roguelike\\ro2\\level_rogue2_b-7.json",
 )
 with open(mzk_path, encoding="utf-8") as f:
     mzk_stage_info = json.load(f)
 
 lower_left_routes = []
 upper_left_routes = []
-top_routes = [] 
+top_routes = []
 upper_right_routes = []
 extra_routes = []
 extra_routes_indexes = []
@@ -34,7 +35,7 @@ key_replace = {
     "enemy_2041_syjely_c": "萨卡兹大剑手",
     "enemy_2041_syjely_g": "呼啸骑士团学徒",
     "enemy_2041_syjely_d": "爆破攻坚手",
-    "enemy_2041_syjely_l": "碎岩者组长"
+    "enemy_2041_syjely_l": "碎岩者组长",
 }
 
 
@@ -47,16 +48,16 @@ def get_start_pos(routeIndex):
         return "↑"
     if routeIndex in upper_right_routes:
         return "➚"
-    start_pos = mzk_stage_info['extraRoutes'][routeIndex]['startPosition']
-    x = start_pos['col']
-    y = start_pos['row']
+    start_pos = mzk_stage_info["extraRoutes"][routeIndex]["startPosition"]
+    x = start_pos["col"]
+    y = start_pos["row"]
     return f"x:{x} y:{y}"
 
 
-for index, route in enumerate(mzk_stage_info['extraRoutes']):
-    startPosition = route['startPosition']
-    row = startPosition['row']
-    col = startPosition['col']
+for index, route in enumerate(mzk_stage_info["extraRoutes"]):
+    startPosition = route["startPosition"]
+    row = startPosition["row"]
+    col = startPosition["col"]
 
     if index == 83:
         pp.pprint(route)
@@ -71,7 +72,7 @@ for index, route in enumerate(mzk_stage_info['extraRoutes']):
         top_routes.append(index)
     else:
         pass
-    
+
     if index > 103:
         found = False
         for item in extra_routes:
@@ -90,38 +91,44 @@ with open("test.json", "w", encoding="utf-8") as f:
 
 prev_phase_time = 0
 data = {}
-for branch in mzk_stage_info['branches']:
+for branch in mzk_stage_info["branches"]:
     # if branch == "syboss_extra":
     #     continue
-    for index, phase in enumerate(mzk_stage_info['branches'][branch]['phases']):
+    for index, phase in enumerate(mzk_stage_info["branches"][branch]["phases"]):
         spawns = {}
-        for action in phase['actions']:
-            if action['count'] > 1:
-                for count in range(action['count']):
-                    spawn_time = prev_phase_time + \
-                        action['preDelay']+count*action['interval']
-                    if not spawn_time in spawns:
+        for action in phase["actions"]:
+            if action["count"] > 1:
+                for count in range(action["count"]):
+                    spawn_time = (
+                        prev_phase_time
+                        + action["preDelay"]
+                        + count * action["interval"]
+                    )
+                    if spawn_time not in spawns:
                         spawns[spawn_time] = []
                     spawns[spawn_time].append(
-                        {"key": action['key'],
-                            "enemy": key_replace[action['key']],
-                         "count": f"{count+1}/{action['count']}",
-                         "interval":action['interval'],
-                         "route": get_start_pos(action['routeIndex']),
-                         "routeIndex": action['routeIndex']
-                         }
+                        {
+                            "key": action["key"],
+                            "enemy": key_replace[action["key"]],
+                            "count": f"{count + 1}/{action['count']}",
+                            "interval": action["interval"],
+                            "route": get_start_pos(action["routeIndex"]),
+                            "routeIndex": action["routeIndex"],
+                        }
                     )
             else:
-                spawn_time = prev_phase_time + action['preDelay']
-                if not spawn_time in spawns:
+                spawn_time = prev_phase_time + action["preDelay"]
+                if spawn_time not in spawns:
                     spawns[spawn_time] = []
                 spawns[spawn_time].append(
-                    {"key": action['key'],
-                        "enemy": key_replace[action['key']],
-                     "count": "1/1",
-                     "route": get_start_pos(action['routeIndex']),
-                     "routeIndex": action['routeIndex']
-                     })
+                    {
+                        "key": action["key"],
+                        "enemy": key_replace[action["key"]],
+                        "count": "1/1",
+                        "route": get_start_pos(action["routeIndex"]),
+                        "routeIndex": action["routeIndex"],
+                    }
+                )
         myKeys = list(spawns.keys())
         myKeys.sort()
         sorted_dict = {i: spawns[i] for i in myKeys}

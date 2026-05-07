@@ -236,7 +236,7 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
     trimmed_stage_info = {
         "id": meta_info["id"],
         "levelId": levelId,
-        "suffix":meta_info['suffix'],
+        "suffix": meta_info["suffix"],
         "tags": stage_data["mapData"]["tags"],
         "category": extrainfo[levelId].get("category", None)
         if levelId in extrainfo
@@ -354,9 +354,9 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
                         for tile_key in tiles_keys:
                             tile_list = get_list_of_tiles(stage_data, tile_key)
                             if len(tile_list) > 0:
-                                if not rune["key"] in systems:
+                                if rune["key"] not in systems:
                                     systems[rune["key"]] = {"tiles": {}}
-                                if not tile_key in systems[rune["key"]]["tiles"]:
+                                if tile_key not in systems[rune["key"]]["tiles"]:
                                     systems[rune["key"]]["tiles"][tile_key] = [
                                         {
                                             "pos": tile["position"],
@@ -370,7 +370,7 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
     if stage_data["predefines"]:
         for item in stage_data["predefines"]["tokenInsts"]:
             key = item["inst"]["characterKey"]
-            if not key in TRAPS_TO_EXCLUDE:
+            if key not in TRAPS_TO_EXCLUDE:
                 traps.append(
                     {
                         "key": key,
@@ -455,7 +455,7 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
                         alerts.append(
                             f"notCountInTotal, {enemy['id']}, {my_enemy_db[enemy_id]['name_zh']}, {levelId})"
                         )
-                        if not "talentBlackboard" in overwrittenData:
+                        if "talentBlackboard" not in overwrittenData:
                             overwrittenData["talentBlackboard"] = []
                         overwrittenData["talentBlackboard"].append(
                             {
@@ -488,7 +488,7 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
                     levelId in talent_overwrite_list
                     and enemy["id"] in talent_overwrite_list[levelId]
                 ):
-                    if not "talentBlackboard" in overwrittenData:
+                    if "talentBlackboard" not in overwrittenData:
                         overwrittenData["talentBlackboard"] = []
                     overwrittenData["talentBlackboard"] += talent_overwrite_list[
                         levelId
@@ -512,7 +512,7 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
                         ][enemy["id"]]
 
                 if enemy["overwrittenData"]["talentBlackboard"]:
-                    if not "talentBlackboard" in overwrittenData:
+                    if "talentBlackboard" not in overwrittenData:
                         overwrittenData["talentBlackboard"] = []
                     for item in enemy["overwrittenData"]["talentBlackboard"]:
                         if (
@@ -693,8 +693,12 @@ def generate_roguelike_stages():
                         if level_id in stage_name_overwrite_table:
                             name_zh = stage_name_overwrite_table[level_id]["name_zh"]
                             if TOPIC_IN_GLOBAL:
-                                name_en = stage_name_overwrite_table[level_id]["name_en"]
-                                name_ja = stage_name_overwrite_table[level_id]["name_ja"]
+                                name_en = stage_name_overwrite_table[level_id][
+                                    "name_en"
+                                ]
+                                name_ja = stage_name_overwrite_table[level_id][
+                                    "name_ja"
+                                ]
                         zh_url_key = stage_info_cn["code"] + "_" + name_zh
                         stage_name_lookup[zh_url_key] = {
                             "lang": "zh",
@@ -926,7 +930,7 @@ def generate_normal_stages(topic):
         try:
             with open(stage_data_path, encoding="utf-8") as f:
                 stage_data = json.load(f)
-        except FileNotFoundError as e:
+        except FileNotFoundError:
             print(f"{file_path} not found")
         if not stage_data:
             continue
@@ -983,7 +987,7 @@ def generate_normal_stages(topic):
         trimmed_stage_info = get_trimmed_stage_data(stage_data, meta_info, extrainfo)
         data[stageId] = trimmed_stage_info
         zoneId = stage_info["zoneId"]
-        if not zoneId in stages:
+        if zoneId not in stages:
             zone_in_global = zoneId in jp_zone_table["zones"]
             zoneNameFirst = {
                 "zh": cn_zone_table["zones"][zoneId]["zoneNameFirst"],

@@ -171,8 +171,10 @@ def insert_attack_interval(text, blackboard, base_attack_time=None, bracket_valu
             if re.search(r"\([+\-*][^)]+\)", desc):
                 return m.group(0)
             space = " " if keyword.isascii() else ""
-            val = bracket_value if bracket_value is not None else pick_val(
-                "vup", desc, "absolute"
+            val = (
+                bracket_value
+                if bracket_value is not None
+                else pick_val("vup", desc, "absolute")
             )
             return f"{keyword}{desc}{space}({val})"
 
@@ -315,9 +317,6 @@ def update_chara_skills_new():
         en_skill_table = json.load(f)
     with open(jp_skill_table_path, encoding="utf-8") as f:
         jp_skill_table = json.load(f)
-
-    with open("chara_skills.json", encoding="utf-8") as f:
-        chara_skills = json.load(f)
 
     def get_base_attack_time(char_id):
         char = cn_char_table.get(char_id)

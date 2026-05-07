@@ -1,8 +1,9 @@
 from __future__ import annotations
+from uniequip import generate_uniequip
+from split_chara_json import split_characters_json
 import json
 import os
 import re
-from datetime import datetime
 from game_types.character_table import (
     CharacterTable,
     CharacterTableEntry,
@@ -14,7 +15,7 @@ from game_types.char_patch_table import CharPatchTable
 from chara_skills import replace_substrings, update_chara_skills
 from subprofession_tags import get_sub_profession_tags
 import pprint
-from tokens import IDS_TO_IGNORE
+from tokens import IDS_TO_IGNORE, generate_tokens
 from utils.datetime_to_unix import datetime_to_unix_gmt8
 
 script_dir = os.path.dirname(__file__)
@@ -741,12 +742,12 @@ def get_filtered_cn_char_table() -> CharacterTable:
 
 def load_new_characters() -> None:
     filtered_cn_char_table = get_filtered_cn_char_table()
-    new_chara_keys = [
-        key for key in filtered_cn_char_table if key not in chara_talents
-    ]
+    new_chara_keys = [key for key in filtered_cn_char_table if key not in chara_talents]
     append_new_chara_imple_dates(new_chara_keys)
     update_chara_skills()
     update_chara_talents_json(filtered_cn_char_table)
+    generate_uniequip()
+    generate_tokens()
 
 
 def generate_character_json_files() -> None:
@@ -758,11 +759,11 @@ def generate_character_json_files() -> None:
     with open("characters.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, separators=(",", ":"), indent=4)
 
-    
-
     for id in subProfessionIds:
         if id not in subprofessions:
             print(id, " (new!)")
+
+    split_characters_json(script_dir)
 
 
 def main() -> None:

@@ -8998,7 +8998,7 @@
                 "blackboard": [
                     {
                         "key": "ms_down",
-                        "order":"final_mul",
+                        "order": "final_mul",
                         "targets": 99,
                         "value": 0.4,
                         "duration": 20.0,
@@ -15234,7 +15234,7 @@
                         "order": "final_mul",
                         "targets": 1,
                         "value": 0.25,
-                        "duration":10,
+                        "duration": 10,
                         "target_air": true
                     }
                 ]
@@ -15253,9 +15253,7 @@
                 "desc_ja": "",
                 "desc_en": "",
                 "tags": [],
-                "blackboard": [
-                   
-                ]
+                "blackboard": []
             }
         ]
     },
@@ -15271,8 +15269,7 @@
                 "desc_ja": "",
                 "desc_en": "",
                 "tags": [],
-                "blackboard": [
-                ]
+                "blackboard": []
             },
             {
                 "prefabKey": "2",
@@ -15282,12 +15279,17 @@
                 "desc_zh": "携带可露希尔时，<ba.costlowerbound>部署费用下限</>降低4<@ba.talpu>（+1）</>，【罗德岛】干员攻击力+4%",
                 "desc_ja": "",
                 "desc_en": "",
-                "tags": ["squad_effect","rhodes"],
+                "tags": [
+                    "squad_effect",
+                    "rhodes"
+                ],
                 "blackboard": [
                     {
                         "key": "ally_atk",
                         "value": 0.04,
-                        "conditions":["rhodes"]
+                        "conditions": [
+                            "rhodes"
+                        ]
                     }
                 ]
             }
@@ -15324,7 +15326,9 @@
                 "desc_zh": "攻击和储存的能量使目标在5秒内每秒受到90点法术伤害（至多叠加3次，发射转置能量可以叠加3次），维伊不以该效果影响的敌人为攻击目标",
                 "desc_ja": "",
                 "desc_en": "",
-                "tags": ["dot"],
+                "tags": [
+                    "dot"
+                ],
                 "blackboard": [
                     {
                         "key": "attack@duration",
@@ -15385,7 +15389,10 @@
                 "desc_zh": "其他友方干员进入自身攻击范围时立刻获得1层<ba.shield>护盾</>并额外获得一次每秒回复60<@ba.talpu>（+10）</>点生命值的增益治疗，持续30秒（不可叠加），增益治疗对【罗德岛】干员的效果翻倍",
                 "desc_ja": "",
                 "desc_en": "",
-                "tags": ["rhodes","heal_unhealable"],
+                "tags": [
+                    "rhodes",
+                    "heal_unhealable"
+                ],
                 "blackboard": [
                     {
                         "key": "ally_shield",

@@ -125424,13 +125424,15 @@
         ],
         "blackboard": [
             {
-                        "key": "def_down",
-                        "order": "initial_add",
-                        "targets": 1,
-                        "value": 120,
-                        "target_air": true,
-                        "conditions":["erosion"]
-                    }
+                "key": "def_down",
+                "order": "initial_add",
+                "targets": 1,
+                "value": 120,
+                "target_air": true,
+                "conditions": [
+                    "erosion"
+                ]
+            }
         ]
     },
     "skchr_botany_2": {
@@ -125586,14 +125588,16 @@
                 "key": "max_target",
                 "value": 2.0
             },
-              {
-                        "key": "def_down",
-                        "order": "initial_add",
-                        "targets": 2,
-                        "value": 120,
-                        "target_air": true,
-                        "conditions":["erosion"]
-                    }
+            {
+                "key": "def_down",
+                "order": "initial_add",
+                "targets": 2,
+                "value": 120,
+                "target_air": true,
+                "conditions": [
+                    "erosion"
+                ]
+            }
         ]
     },
     "skchr_headb2_1": {
@@ -126328,26 +126332,31 @@
                 ]
             }
         ],
-        "tags": ["erosion","ele_dmg"],
+        "tags": [
+            "erosion",
+            "ele_dmg"
+        ],
         "blackboard": [
             {
                 "key": "def",
-                "order":"initial_mul",
+                "order": "initial_mul",
                 "value": 0.2
             },
-                {
+            {
                 "key": "def",
-                "order":"initial_mul",
+                "order": "initial_mul",
                 "value": 1.0
             },
-               {
-                        "key": "def_down",
-                        "order": "initial_add",
-                        "targets": 99,
-                        "value": 120,
-                        "target_air": false,
-                        "conditions":["erosion"]
-                    },
+            {
+                "key": "def_down",
+                "order": "initial_add",
+                "targets": 99,
+                "value": 120,
+                "target_air": false,
+                "conditions": [
+                    "erosion"
+                ]
+            },
             {
                 "key": "ep_damage_ratio",
                 "value": 0.35
@@ -126500,15 +126509,15 @@
         ],
         "tags": [],
         "blackboard": [
-              {
-                        "key": "ally_shield",
-                        "types": [
-                            "phys",
-                            "arts",
-                            "true"
-                        ],
-                        "value": 1
-                    }
+            {
+                "key": "ally_shield",
+                "types": [
+                    "phys",
+                    "arts",
+                    "true"
+                ],
+                "value": 1
+            }
         ]
     },
     "skchr_closur_2": {
@@ -126744,7 +126753,7 @@
             {
                 "key": "blockCnt",
                 "value": 3.0,
-                "duration":30
+                "duration": 30
             },
             {
                 "key": "ally_block_up",
@@ -126754,7 +126763,7 @@
             {
                 "key": "ally_def",
                 "value": 0.6,
-                "duration":30.0
+                "duration": 30.0
             },
             {
                 "key": "atk",
@@ -127061,41 +127070,49 @@
                 "value": 3.0
             },
             {
-                        "key": "aspd_down",
-                        "order":"initial_mul",
-                        "targets": 3,
-                        "value": 6,
-                        "duration":3,
-                        "category":["slowdown"],
-                        "target_air": true
-                    },
-                    {
-                        "key": "aspd_down",
-                        "order":"initial_mul",
-                        "targets": 3,
-                        "value": 60,
-                        "duration":3,
-                        "category":["slowdown"],
-                        "target_air": true
-                    },
-                    {
-                        "key": "ms_down",
-                        "order":"initial_mul",
-                        "targets": 3,
-                        "value": 6,
-                        "duration":3,
-                        "category":["slowdown"],
-                        "target_air": true
-                    },
-                    {
-                        "key": "ms_down",
-                        "order":"initial_mul",
-                        "targets": 3,
-                        "value": 60,
-                        "duration":3,
-                        "category":["slowdown"],
-                        "target_air": true
-                    }
+                "key": "aspd_down",
+                "order": "initial_mul",
+                "targets": 3,
+                "value": 6,
+                "duration": 3,
+                "category": [
+                    "slowdown"
+                ],
+                "target_air": true
+            },
+            {
+                "key": "aspd_down",
+                "order": "initial_mul",
+                "targets": 3,
+                "value": 60,
+                "duration": 3,
+                "category": [
+                    "slowdown"
+                ],
+                "target_air": true
+            },
+            {
+                "key": "ms_down",
+                "order": "initial_mul",
+                "targets": 3,
+                "value": 6,
+                "duration": 3,
+                "category": [
+                    "slowdown"
+                ],
+                "target_air": true
+            },
+            {
+                "key": "ms_down",
+                "order": "initial_mul",
+                "targets": 3,
+                "value": 60,
+                "duration": 3,
+                "category": [
+                    "slowdown"
+                ],
+                "target_air": true
+            }
         ]
     },
     "skchr_veen_1": {
@@ -127347,8 +127364,7 @@
             }
         ],
         "tags": [],
-        "blackboard": [
-        ]
+        "blackboard": []
     },
     "skchr_veen_3": {
         "name_zh": "“用赤铁铭记”",
@@ -127675,7 +127691,9 @@
             {
                 "key": "ally_block_radius_scale",
                 "value": 0.23,
-                "conditions":["liftoff"]
+                "conditions": [
+                    "liftoff"
+                ]
             },
             {
                 "key": "attack_speed",
@@ -127843,15 +127861,17 @@
                 ]
             }
         ],
-        "tags": ["skill_manual_off","true"],
+        "tags": [
+            "skill_manual_off",
+            "true"
+        ],
         "blackboard": [
-           
-           {
-                        "key": "sluggish",
-                        "targets": 99,
-                        "value": 5.0,
-                        "target_air": true
-                    },
+            {
+                "key": "sluggish",
+                "targets": 99,
+                "value": 5.0,
+                "target_air": true
+            },
             {
                 "key": "trigger_time",
                 "value": 10.0

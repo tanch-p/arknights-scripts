@@ -1,4 +1,3 @@
-from os import walk
 import pprint
 import os
 import json
@@ -6,6 +5,7 @@ import json
 pp = pprint.PrettyPrinter(indent=4)
 
 script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
+
 
 def convert_data(old_data, topic="rogue_yan"):
     # convert ro5 into stage_name_lookup
@@ -31,13 +31,14 @@ def convert_data(old_data, topic="rogue_yan"):
 
     return new_data
 
-with open('ro5.json', encoding="utf-8") as f:
+
+with open("ro5.json", encoding="utf-8") as f:
     file = json.load(f)
 
 new_data = convert_data(file)
 
-with open('temp.json', 'w', encoding='utf-8') as f:
-        json.dump(new_data, f, ensure_ascii=False, indent=4)
+with open("temp.json", "w", encoding="utf-8") as f:
+    json.dump(new_data, f, ensure_ascii=False, indent=4)
 
 # cn_char_table_path = os.path.join(
 #     script_dir, "cn_data/zh_CN/gamedata/excel/character_table.json")
@@ -102,6 +103,3 @@ with open('temp.json', 'w', encoding='utf-8') as f:
 # with open("enemy_database.json", "w", encoding="utf-8") as f:
 #     data_to_write = my_enemy_db
 #     json.dump(data_to_write, f, ensure_ascii=False, indent=4)
-
-
-

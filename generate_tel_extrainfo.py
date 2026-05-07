@@ -1,6 +1,5 @@
 import os
 import json
-from operator import itemgetter
 
 script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
@@ -17,6 +16,7 @@ Direction - direction stairs is towards
 
 """
 
+
 def get_all_files(folder_path):
     file_paths = []
     for root, _, files in os.walk(folder_path):
@@ -25,7 +25,7 @@ def get_all_files(folder_path):
     return file_paths
 
 
-folders = ['ro5']
+folders = ["ro5"]
 
 
 def get_row_col(tile_index, map_data):
@@ -38,16 +38,26 @@ def get_row_col(tile_index, map_data):
 def get_tel_data(stage_data):
     tels = {}
     count = 0
-    map_data = stage_data['mapData']['map']
-    tiles = stage_data['mapData']['tiles']
+    map_data = stage_data["mapData"]["map"]
+    tiles = stage_data["mapData"]["tiles"]
     for tile_index, tile in enumerate(tiles):
-        if tile['tileKey'] == 'tile_telin':
+        if tile["tileKey"] == "tile_telin":
             count += 1
-            tels[tile_index] = ({"tileKey": tile['tileKey'], "colorIndex": 0, "direction": "", "type": "arrow",  "position": get_row_col(
-                tile_index, map_data)})
-        if tile['tileKey'] == 'tile_telout':
-            tels[tile_index] = ({"tileKey": tile['tileKey'], "colorIndex": 0, "direction": "", "type": "arrow", "position": get_row_col(
-                tile_index, map_data)})
+            tels[tile_index] = {
+                "tileKey": tile["tileKey"],
+                "colorIndex": 0,
+                "direction": "",
+                "type": "arrow",
+                "position": get_row_col(tile_index, map_data),
+            }
+        if tile["tileKey"] == "tile_telout":
+            tels[tile_index] = {
+                "tileKey": tile["tileKey"],
+                "colorIndex": 0,
+                "direction": "",
+                "type": "arrow",
+                "position": get_row_col(tile_index, map_data),
+            }
     return tels
 
 
@@ -69,9 +79,8 @@ for folder in folders:
         tel_data = get_tel_data(stage_data)
         if len(tel_data) == 0:
             continue
-        data[stage_id.replace(".json","")] = get_tel_data(stage_data)
+        data[stage_id.replace(".json", "")] = get_tel_data(stage_data)
 
-write_path = os.path.join(
-    script_dir, 'tel_extrainfo_new.json')
-with open(write_path, 'w+', encoding='utf-8') as f:
+write_path = os.path.join(script_dir, "tel_extrainfo_new.json")
+with open(write_path, "w+", encoding="utf-8") as f:
     json.dump(data, f, ensure_ascii=False, indent=4)

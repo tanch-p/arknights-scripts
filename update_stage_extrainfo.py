@@ -122,7 +122,7 @@ def update_current_stages():
             sp_tiles = get_special_tiles(stage_data["mapData"]["tiles"])
             sp_terrain = (
                 sp_tiles
-                if not key in ["level_rogue2_b-10"]
+                if key not in ["level_rogue2_b-10"]
                 else extra_info["sp_terrain"]
             )
             if sp_terrain is not None and len(sp_terrain) == 0:
@@ -170,20 +170,20 @@ def update_current_stages():
                 "normal_mods": extra_info["normal_mods"],
                 "elite_mods": extra_info["elite_mods"],
                 "enemy_counts": enemy_counts
-                if not extra_info["levelId"] in STAGES_TO_IGNORE
+                if extra_info["levelId"] not in STAGES_TO_IGNORE
                 else extra_info["enemy_counts"],
                 "sp_count": sp_count,
                 "elite_enemy_counts": elite_enemy_counts
-                if not extra_info["levelId"] in STAGES_TO_IGNORE
+                if extra_info["levelId"] not in STAGES_TO_IGNORE
                 else extra_info["elite_enemy_counts"],
                 "elite_sp_count": elite_sp_count,
                 "sp_enemy": extra_info["sp_enemy"],
                 "sp_terrain": extra_info["sp_terrain"],
                 "enemy_list": enemy_list
-                if not extra_info["levelId"] in STAGES_TO_IGNORE
+                if extra_info["levelId"] not in STAGES_TO_IGNORE
                 else extra_info["enemy_list"],
                 "elite_enemy_list": elite_enemy_list
-                if not extra_info["levelId"] in STAGES_TO_IGNORE
+                if extra_info["levelId"] not in STAGES_TO_IGNORE
                 else extra_info["elite_enemy_list"],
             }
 
@@ -197,7 +197,7 @@ def add_new_ro_stages():
     data = {}
     for stage in stages_list:
         key = stage["levelId"]
-        if not stage["levelId"] in extra_info_list:
+        if stage["levelId"] not in extra_info_list:
             if "rogue1" in key:
                 folder = "ro1"
             elif "rogue2" in key:
@@ -308,7 +308,7 @@ def add_new_event_stages():
     if stage_type == "main":
         path = os.path.join(
             script_dir,
-            f"cn_data/zh_CN/gamedata/levels/obt/main",
+            "cn_data/zh_CN/gamedata/levels/obt/main",
         )
     else:
         path = os.path.join(
