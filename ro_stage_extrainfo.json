@@ -1,0 +1,5340 @@
+[
+  {
+    "id": "ro5_n_1_1",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_1-1",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_1-1_dlc1"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "狡鼷三窟",
+      "ja": "鼷獣の巣穴",
+      "en": "Whack-A-Mus"
+    },
+    "description": {
+      "zh": "传说，界园里的鼷兽喜啃古籍诗书。有游客吟出酸诗俗句，听到阴暗处的嘻嘻嘲笑，追之则匿迹穴中，勃然大怒与之大战。",
+      "ja": "噂によると、界園の鼷獣は、古い文献や詩集を好んでかじるそうだ。ある観光客がデタラメな詩を吟じていると、影で嘲笑う声が聞こえ、声の主を追いかけたところ穴の中に逃げ込まれたため、観光客は怒り狂って大喧嘩になったという。",
+      "en": "Legend says the musbeasts of the Garden of Grotesqueries love to nibble on ancient tomes of poetry. Visitors who recite sordid poems or vulgar words will hear jeering chitters from the shadows, and chase after them to hidden burrows, ultimately provoking furious battles."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_n_1_2",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_1-2",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_1-2_dlc1"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "赶集",
+      "ja": "露店市場へ",
+      "en": "To Market"
+    },
+    "description": {
+      "zh": "偶见人群方方正正地列在空地。问之，答：“去赶集。”铜锣一响，摇摇晃晃行走起来，路遇障碍则除之。见者无不心惊。",
+      "ja": "空地に行儀よく並んでいる人々がいた。理由を尋ねたところ、「定期的にやってる露店市場へ行くんだ」と言った。銅鑼の音が鳴り響くと、人々はフラフラと歩き出し、行く手を阻む障害を次々と取り除いていくので、見る者は皆、肝を冷やした。",
+      "en": "Occasionally, a group of people will line up in squares in an empty space. When asked, they say: 'We're going to market.' With the strike of a gong, they head off on a tottering march, destroying all that blocks the way. A startling sight for onlookers."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_n_1_3",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_1-3",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_1-3_dlc1"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "正经生意",
+      "ja": "まともな商売",
+      "en": "Serious Business"
+    },
+    "description": {
+      "zh": "要守住生意，靠的可不只是一张嘴。只不过，鲍老板对你的来意似乎有些误会？\\n<@rolv.rem>场地中有阻挡敌人的<城防路障></>",
+      "ja": "商売を守りたいなら、口だけに頼っていてはいけない。ただ、ボブの旦那はあなたがここに来た理由を少し誤解しているようだ。\n<@rolv.rem>敵をブロックできる<都市防衛柵>が出現</>",
+      "en": "You can't defend a business with only your mouth. But it does seem like Big Bob has misunderstood why you've come to his shop.\n<@rolv.rem><Defensive Barricades> are present on the field that Block enemies</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_n_1_4",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_1-4",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_1-4_dlc1"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "老戏骨",
+      "ja": "老練の役者",
+      "en": "Veteran Actor"
+    },
+    "description": {
+      "zh": "你被热情地邀来看戏，却见戏院已是人去楼空。破败的戏台上忽然响起了唱曲声，似在挽留你，却让此景更显诡异。",
+      "ja": "あなたは熱心に観劇に誘われたが、いざ劇場へ行くと、すでに終演後で人っ子一人いなくなっていた。そんな中、突如としてボロボロの舞台に歌声が響いた。あなたを引き留めるようなその声は、目の前の光景をより不気味なものにした。",
+      "en": "You are cordially invited to watch the play, but the theater is deserted. There is a sudden burst of song from the shoddy stage as if urging you to stay, making the scene stranger than it already is."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_n_1_5",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_1-5",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "驱虫",
+      "ja": "害虫駆除",
+      "en": "Pest Control"
+    },
+    "description": {
+      "zh": "在界园，驱虫这件事一般是由作物自己完成的，而在它们的认知里，只要不是农人，都可以归类为虫。",
+      "ja": "界園では、害虫駆除は基本的に作物自身が行うものであり、作物たちは農民以外の者をすべて害虫と見なしている。",
+      "en": "In the Garden of Grotesqueries, pest control is generally done by the crops themselves. In their minds, if you are not a farmer, then you are a pest."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_n_1_6",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_1-6",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "凭票入内",
+      "ja": "入園受付",
+      "en": "Ticket Please"
+    },
+    "description": {
+      "zh": "开园时人声鼎沸的场景仿佛印刻在了界园入口，以至于闭园时不懂事的伥怪们会争相模仿挤在一处检票的游客并乐在其中。",
+      "ja": "開園時の賑わいは界園の入口に刻まれているかのようで、そのせいか、閉園時間になると分別のない器鬼たちが観光客のように群がってはチケットのもぎりの真似をし、楽しげに騒ぎ立てる。",
+      "en": "It seems that the hubbub when the Garden opens has made its mark on the entrance, to the point that when it closes, naive geists are all too eager to imitate the tourists crowding into the gate to get their tickets inspected."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_n_2_1",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_2-1",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_2-1_dlc1"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "有教无类",
+      "ja": "教え有りて類無し",
+      "en": "Learning for All"
+    },
+    "description": {
+      "zh": "修葺工地上，工人们津津有味地听“天师”讲课。“人而不学，与伥何异！”途经此处的你被那位义正词严的“天师”训斥着拉入了“课堂”。",
+      "ja": "ある修理現場で、作業員たちが「天師」の講義を興味津々に聞いている。そこに通りかかったあなたは、「学ばぬ人間など、器鬼と変わりないではないか！」と正論を唱えるその「天師」に叱責されながら、無理やり「講堂」に引き入れられた。",
+      "en": "At the renovation site, the workers are eagerly listening to a lesson taught by a 'Tianshi'. 'Uneducated men are no different from geists!' As you pass by, you are pulled into the 'classroom' by the strict 'Tianshi'."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_n_2_2",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_2-2",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_2-2_dlc1"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "飞来横祸",
+      "ja": "飛来する災い",
+      "en": "Look Out Above"
+    },
+    "description": {
+      "zh": "满天飞的鬣犄兽与四处奔逃的角兽将园内搅得一团乱。那台引起骚乱的投掷机从何而来？角落里巧手的伥拍拍身上的木屑，满意离去。\\n<@lv.item><盐坨子炮></>周期性发射炮弹造成物理溅射伤害，可以将周围1名重量小于等于3的地面敌人传送至爆炸中心",
+      "ja": "空一面の山顎獣と逃げ惑う角獣が、界園を大混乱に陥れている。騒ぎを引き起こしたあの投擲機は、どこから現われたものだろうか？隅っこにいた手先が器用な器鬼は、体に付いた木くずを払い落とすと、満足げに立ち去った。\n<@lv.item><ソルトキャノン></>周期的に塩塊を放って物理範囲ダメージを与える。その際、周囲の地上にいる重量ランクが3以下の敵1体を着弾地点へと飛ばす",
+      "en": "Flying Oxmanes and fleeing Hornbeasts are causing a ruckus in the Garden. Where did the throwing device that started it all come from? A geist tinkerer pats the sawdust off his body in a corner of the garden, leaving in satisfaction.\n<@lv.item><Saltheap Cannon></> Periodically fires a shell forward, dealing Physical splash damage; can launch a nearby ground enemy of 3 Weight or less to the center of the explosion"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_n_2_3",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_2-3",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_2-3_dlc1"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "所守者，义",
+      "ja": "守りしものは義なり",
+      "en": "Guardian of Justice"
+    },
+    "description": {
+      "zh": "侠士为一场对决等了十年，直至一小童前来：“别等了，十年前那人就死了。看，我找你这么多年，都长这么大了。”语毕消失不见，只留一把佩刀在地。\\n<@rolv.rem>场地中有夺取后可以治疗友方单位并对敌方造成法术伤害的<\"留声机\"></>",
+      "ja": "十年もの間、決闘を待っている侠客がいた。そこへ一人の子どもがやって来て、「もう待つことはありません。十年前にあの人は死にました。ほら、あなたを探している間に、私はこんなにも大きくなりました」と伝えた。言い終えるとすぐ、子どもの姿は消えてなくなり、一本の刀だけがその場に残された。\n<@rolv.rem>制御権を奪取した後、周囲の別陣営のユニットに術ダメージを与え、同陣営のユニットを治療する<「蓄音機」>が出現</>",
+      "en": "The wandering warrior has been awaiting this match for over a decade, until a young child comes over: 'You can stop waiting now, that guy died ten years ago. Look, I've been looking for you so long, I'm big now.' Once done speaking, the child disappears, leaving behind only a saber on the ground.\n<@rolv.rem><Gramophones> that deal Arts damage to enemies and heal allies when captured are present on the field</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_n_2_4",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_2-4",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_2-4_dlc1"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "明抢暗偷",
+      "ja": "強盗と泥棒",
+      "en": "Daylight Robbery"
+    },
+    "description": {
+      "zh": "江湖规矩，打赢我俩，东西都归你——盗贼双子正义凛然，试图掩护那些正偷偷溜走的同伙。",
+      "ja": "世の摂理に従い、我ら二人に勝つことができれば、全てをお前にやろう――そう言う双子の盗賊は、正義漢のふりをして、こっそり逃げ出す仲間を援護しようとしている。",
+      "en": "'Jianghu rules: if you beat the two of us, you'll keep all the belongings.' The twin bandits are beacons of righteousness, trying to cover for their comrades as they sneak away."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_n_2_5",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_2-5",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "救援行动",
+      "ja": "救助活動",
+      "en": "Rescue Mission"
+    },
+    "description": {
+      "zh": "总有那么些游客闭园了还不想离开，你不仅要将他们送出去，还得解决他们惹出的乱子。\\n<@lv.item><道路障碍物></>可以阻挡乌萨斯平民与斗士塔露拉前进，可被我方单位击毁。\\n<@lv.item><乌萨斯平民></>被敌人击杀时扣除关卡生命值",
+      "ja": "閉園時間になっても帰りたがらない観光客はいるものだ。あなたは彼らを送り出すのみならず、彼らが引き起こすトラブルも片付けなければならない。\n<@lv.item><道路障害物></>ウルサス民間人と闘士タルラの前進を阻害する。味方の攻撃によって破壊できる\n<@lv.item><ウルサス民間人></>敵に倒された時、耐久値が減少",
+      "en": "There will always be some tourists who decide they don't want to leave yet when the Garden closes. Not only do you have to see them out, you also need to resolve whatever chaos they caused.\n<@lv.item><Static Roadblock></> Blocks the movement of Ursus Civilians and Talulah, the Fighter; Can be destroyed by allied units.\n<@lv.item><Ursus Civilian></> Depletes a Life Point when killed by an enemy."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_n_2_6",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_2-6",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "玩具兵将",
+      "ja": "おもちゃの将兵",
+      "en": "Toy Soldiers"
+    },
+    "description": {
+      "zh": "曾经有位外国游客将一套玩具小人遗留在了园内，如今，它们已经在这里站稳了脚跟。",
+      "ja": "昔、ある外国人観光客がおもちゃの人形セットを園内に置き忘れていった。そして今、そうしたおもちゃたちはすっかり園内に居座っている。",
+      "en": "Once, a foreign guest left behind a set of action figures in the Garden. Now, they have made a place for themselves here."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_n_3_1",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_3-1",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_3-1_dlc1"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "啖之以利",
+      "ja": "甘い誘い",
+      "en": "Hook, Line, and Sinker"
+    },
+    "description": {
+      "zh": "于界园中才能看到这些绝迹的似兽。因贪欲被诱入园中，多年来却也不愁吃喝。易与似兽皆觉自己得了便宜。",
+      "ja": "これらの絶滅した似獣は、界園の中でしかお目にかかれない。欲望のままに界園に誘い込まれたにもかかわらず、ソレらは長年食うに困っていない。イーと似獣は双方自分が利益を得ていると感じている。",
+      "en": "Only in the Garden of Grotesqueries can you see these extinct Pseudomuts. Enticed into the Garden by their rapacious appetite, they have not had to worry about food or drink for many years since. Both Yi and the Pseudomuts believe they have the favorable side of the arrangement."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_n_3_2",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_3-2",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_3-2_dlc1"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "长驱不复",
+      "ja": "ひたすらな前進",
+      "en": "Stopping the Advance"
+    },
+    "description": {
+      "zh": "此地转不过身，扭不过头。于是想要追逐尾巴的兽只好不停向前奔跑，不仅把所有挡路的东西撞了个稀烂，也让一旁的雕伥张嘴笑了好久。",
+      "ja": "この地では、身を翻すことも、後ろを振り返ることもできない。そのため、尻尾を追いかけようとする獣は、前に向かって走り続けるしかない。その結果、行く手を阻むものを全て粉々に打ち砕くだけでなく、傍らの彫像器鬼を長いこと笑わせた。",
+      "en": "There's barely any space here to turn your head, let alone your body. Beasts intent on chasing their tails have no choice but to keep running forward, smashing everything in their path. The Statuegeists watching from the sidelines chortle as they pass."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_n_3_3",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_3-3",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_3-3_dlc1"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "背山面水",
+      "ja": "後方に山、前方に水",
+      "en": "Feng Shui"
+    },
+    "description": {
+      "zh": "伥心惶惶，四处乱窜。细观此景——开门见山，路出反弓，源石虫都待不住！也该为它们调一调风水布局了。\\n<@rolv.rem>提供部署以后可以阻挡敌人的行进路线的<障碍物>。</>",
+      "ja": "不安に支配された器鬼が、四方八方を駆け回っている。よく観察してみると――門前山と反弓路の凶相が出ており、オリジムシでさえここには留まれないようだ！どうやら風水の配置を変えてあげたほうがよさそうだ。\n<@rolv.rem>配置すれば敵の進行ルートを遮ることのできる<障害物>が用意されている</>",
+      "en": "The geists are alarmed, and they scatter all over the place. Have a closer look. I'll get straight to the point, the road's so curved, not even Originium slugs can stand it! Do some rearranging to get the feng shui right for them.\n<@rolv.rem><Roadblocks> that can block the enemy's route can be deployed</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_n_3_4",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_3-4",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_3-4_dlc1"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "去晦",
+      "ja": "邪気払い",
+      "en": "Away, Hui!"
+    },
+    "description": {
+      "zh": "园中规矩，每到月初便持火例行“去晦”之务。至于被烧的究竟是什么，最好别过问。\\n<@rolv.rem>场地中有可以阻挡敌人行进路线的<碎石></>",
+      "ja": "界園では、摂理に従い、月初めに火を持って「邪気払い」を行うのが慣習になっている。何が燃やされるのかについては、尋ねないほうが良いだろう。\n<@rolv.rem>敵の進攻ルートを遮る<礫岩>が出現</>",
+      "en": "Garden rules state that at the start of every month, fire will be used to 'drive away the darkness of Hui'. As for what is being burned as fuel, best not ask.\n<@rolv.rem>This stage has <Rubble> that can block the enemy's path</>."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_n_3_5",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_3-5",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_3-5_dlc1"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "落叶归根",
+      "ja": "落葉の帰る場所",
+      "en": "Return to Your Roots"
+    },
+    "description": {
+      "zh": "时移世易，钢铁之城崛起。家乡早已不在，但它们总想摸索出一条归乡路。\\n<@lv.item><盾与墙></>遮挡我方单位的视野",
+      "ja": "時とともに世が変わり、鋼鉄の街が次々と出現した。故郷はすでに存在しないが、ソレらは帰郷のための道を探し続けている。\n<@lv.item><盾と壁></>味方ユニットの視野を遮る",
+      "en": "Time flows, the land changes, and cities of steel rise. Their hometowns are long gone, but they are always looking out for a way back home.\n<@lv.item><Shield and Wall></> Blocks the vision of your units"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_n_3_6",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_3-6",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "御外侮",
+      "ja": null,
+      "en": null
+    },
+    "description": {
+      "zh": "许多人一生都没离开过家园，他们会，也愿为这个概念付出一切。",
+      "ja": null,
+      "en": null
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_n_4_1",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_4-1",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_4-1_dlc1",
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_4-1_dlc2"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "山海必争",
+      "ja": "山海の争い",
+      "en": "Shanhaizhong Scramble"
+    },
+    "description": {
+      "zh": "“八个不要”已犯四条，于是，走路路不通，寻物物不见，混入园中的山海众被伥“教了规矩”。把他们提溜去司岁台前，还是先帮他们脱困吧。\\n<@rolv.rem>场地中有阻挡敌人的<城防路障></>",
+      "ja": "「八つの『しない』」のうち四つを犯したため、行く道は通れず、探し物も見つからない。界園に紛れ込んだ山海衆は、器鬼によって「摂理」を思い知らされた。彼らを司歳台に連れて行く前に、まずは窮地を脱する手助けをしよう。\n<@rolv.rem>敵をブロックできる<都市防衛柵>が出現</>",
+      "en": "Of the eight 'Do Nots', the Shanhaizhong intruding in the Garden have violated four of them, so the roads they walk and the searches they perform are all fruitless as the geists 'teach them the rules'. Give them a hand before you hand them over to the Sui Regulator.\n<@rolv.rem><Defensive Barricades> are present on the field that Block enemies</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_n_4_2",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_4-2",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_4-2_dlc1",
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_4-2_dlc2"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "贪饵",
+      "ja": "食い意地",
+      "en": "Sugared Bait"
+    },
+    "description": {
+      "zh": "投喂了池鳞，竟被弹射出八丈远！为了让池鳞满意，这些游客吸取教训，积极反思——决定奋力研制更大、更香甜的饵。\\n<@rolv.rem>场地中有夺取后回复周围友方单位技力的<“冰淇淋机”></>\\n<@rolv.rem>场地中有阻挡敌人的<城防路障></>",
+      "ja": "池の鱗獣に餌をやったら、物凄い勢いで吹き飛ばされてしまった！池の鱗獣を満足させるため、観光客たちは教訓から学び、大いに反省した――そしてより大きく、より美味しい餌の開発に取り組むことを決めた。\n<@rolv.rem>制御権を奪取すると、周囲の味方ユニットのSPを回復する<「ジェラート供給所」>が出現</>\n<@rolv.rem>敵をブロックできる<都市防衛柵>が出現</>",
+      "en": "After trying to feed the fins in the pond, some tourists were knocked eight <i>zhang</i> away! In order to satisfy those fins, they learned from their mistakes and reflected on the past... deciding to do all they can to develop bigger, sweeter bait.\n<@rolv.rem><'Gelato Stops'> are present on the field that restore allied SP when captured</>\n<@rolv.rem><Defensive Barricades> are present on the field that Block enemies</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_n_4_3",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_4-3",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_4-3_dlc1",
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_4-3_dlc2"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "识文",
+      "ja": "文字を知る",
+      "en": "Cultured"
+    },
+    "description": {
+      "zh": "此地的海嗣都在涂涂画画，这让你松了口气。而后你就看到了墙上的“天涯何处无芳”——以及歪歪斜斜、遍布各处、各式各样的“草”。",
+      "ja": "この地のシーボーンが皆、絵を描いていることに、あなたは安心した。だがその後、あなたが目にしたものは、「天涯何れの処にか芳■無からん」という壁の一文――そして歪な形をしながら、あちらこちらに点在する、さまざまな「草」であった。",
+      "en": "You see that the Seaborn here are daubing paint, letting you breathe a sigh of relief. Then you see, painted on the wall, a 'sea with plenty of'—scrawled, teeming, and diverse 'fins'."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_n_4_4",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_4-4",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_4-4_dlc1",
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_4-4_dlc2"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "赶场戏班",
+      "ja": "舞台への出演",
+      "en": "Take the Stage"
+    },
+    "description": {
+      "zh": "即便是人们已不常看戏的年代，它们仍执着地认为自己还有待出演的场子要赶。有的伥无法走出自己的时代，这点倒与人无异。",
+      "ja": "人々があまり観劇をしない時代になっても、ソレらはいまだに自分の出番があると頑なに信じている。中には自分の時代から抜け出せない器鬼もいるようで、その様子は人間と何ら変わらない。",
+      "en": "Even though this is no longer an age when many watch plays, they still stubbornly cling to the idea that they have parts to play upon the stage. Some geists are trapped in the past, much like humanity."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_n_4_5",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_4-5",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_4-5_dlc1",
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_4-5_dlc2"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "峥嵘战功",
+      "ja": "輝かしい戦功",
+      "en": "Exemplary Service"
+    },
+    "description": {
+      "zh": "一身铠甲的怪人枕山而眠，十年来纹丝不动。你路过其身侧，忽觉黄沙漫天，回过神来已立身钢铁城门之前。兵临城下，战鼓震天，昔日战功是梦亦是牢笼。\\n<@rolv.rem>场地中有阻挡敌人的<城防路障></>",
+      "ja": "鎧を身にまとい、山の中で眠りについたまま、十年もの間微動だにしない奇人がいた。その横を通りがかったあなたは、突然砂が空に舞い上がるのを感じ、気づけば鋼鉄の街の入口に立っていた。兵士たちが街に迫り、軍鼓が鳴り響く。遠い昔の戦功は、夢であり牢でもある。\n<@rolv.rem>敵をブロックできる<都市防衛柵>が出現</>",
+      "en": "An armor-clad eccentric sleeps atop the mount, unmoving for over a decade. As you pass them, you suddenly sense yellow sands fill the air, and when you open your eyes, you find yourself before a city gate of steel. Soldiers line the walls while battle drums shake the heavens. Glory days of past service can be both a dream, and a cage.\n<@rolv.rem><Defensive Barricades> are present on the field that Block enemies</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_n_4_6",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_4-6",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_4-6_dlc1",
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_4-6_dlc2"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "暗箭难防",
+      "ja": "闇討ちは防ぎ難し",
+      "en": "Beware the Shadows"
+    },
+    "description": {
+      "zh": "左右两条道，均有“安全须知”。提及的明贼似不难防，却有一条令人不安：小心阴影中的■■。字迹模糊，难以辨识。",
+      "ja": "左右の分かれ道、そのいずれにも「安全の心得」の記載がある。そこで言及されている盗賊から身を守るのは容易いことだが、しかし「影の中の■■に注意」という一文が人を不安にさせる。文字がかすれているため、判読するのは難しい。",
+      "en": "Two roads, one on either side, both with 'safety instructions'. The obvious dangers mentioned seem easy to guard against, but one line is worrying: Beware the ■■■■ in the shadows. The text is smudged, and hard to read."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_n_4_7",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_4-7",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "忍气不吞声",
+      "ja": null,
+      "en": null
+    },
+    "description": {
+      "zh": "易有些懊悔，或许当初就不该让伥们有机会阅读那些他收藏的东国流行小说，现在这些扮作忍者的伥只学了点皮毛就四处横行，比那些聒噪的乐师闹出的动静还要大。",
+      "ja": null,
+      "en": null
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_n_5_1",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_5-1",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_5-1_dlc1",
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_5-1_dlc2"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "青山不语",
+      "ja": "青嶺は語らず",
+      "en": "Green Hills Speak Not"
+    },
+    "description": {
+      "zh": "“你压着我了。”此处似乎并无易的藏品，但山石众多，正好坐下休憩。“你压着我了！”声音又响起，你四处张望，与身下巨石对上了视线。",
+      "ja": "「上に座るな」と誰かが言った。ここにイーのコレクションはなさそうだが。岩場が多いので、座って休憩するにはちょうど良い場所だ。「上に座るな！」という声がまた響いた。あなたが周りを見渡すと、体の下の巨石と目が合った。",
+      "en": "'You're sitting on me.' There don't seem to be any of Yi's relics here, but there are plenty of rocks. It is a good time to rest. 'I said, you're sitting on me!' The voice rings out again. You look all around you to find it, until the boulder under you rises into your field of view."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_n_5_2",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_5-2",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_5-2_dlc1",
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_5-2_dlc2"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "离域检查",
+      "ja": "退場検査",
+      "en": "Departing Inspection"
+    },
+    "description": {
+      "zh": "对离开禁入区域的游客，司岁台将安排额外检查，确保你还是你，离开的只有你。",
+      "ja": "立ち入り禁止区域から退場する観光客に対し、司歳台は追加の検査を行っている。その目的は、あなたがあなたであること、そして退場者があなただけであると保証することにある。",
+      "en": "The Sui Regulator performs additional inspections on visitors leaving forbidden areas, to ensure you are still you, and all that leaves is you."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_n_5_3",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_5-3",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_5-3_dlc1",
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_5-3_dlc2"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "薄礼一份",
+      "ja": "ささやかな謝礼",
+      "en": "A Humble Gift"
+    },
+    "description": {
+      "zh": "弟弟要收哥哥托人送来的货，这自然没有问题。可他们一个叫易，一个叫绩，那往山上送的东西，秉烛人没有不查的理。",
+      "ja": "兄が人に頼んで送った荷物を受け取ろうとしている弟がいた。それ自体は問題ないが、兄弟のうち一人はイー、もう一人はジーである。ならば、山の上宛ての荷物を持燭人が調べないわけにはいかない。",
+      "en": "A younger brother receiving goods from his older brother is naturally not an issue. However, since one is named Yi and the other Ji, the Candleholders never lack reasons to inspect things being sent up the mountain."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_n_5_4",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_5-4",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_5-4_dlc1",
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_5-4_dlc2"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "往事喑哑",
+      "ja": "過去の沈黙",
+      "en": "Muted Past"
+    },
+    "description": {
+      "zh": "弹不出音的破烂吉他换给易后却在他手中奏响了最本真的曲调，萨卡兹们为了抢回这段旋律，从西边一路追着他进了园子。",
+      "ja": "物々交換で壊れて音の出ないギターをイーにあげたら、驚くことにそれは彼の手中で本来あるべき音を奏でた。サルカズたちはその旋律を取り返すため、西から彼を追いかけてきて界園に入った。",
+      "en": "Yi was given a worn-out guitar that couldn't produce a single note, but in his hands, it was able to play the most basic of tunes. The Sarkaz, wanting to snatch back this melody, chased him all the way back to the Garden from the west."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_n_5_5",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_5-5",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_5-5_dlc1",
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_5-5_dlc2"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "邙山镇地方志",
+      "ja": "邙山町郷土誌",
+      "en": "Mangshan Town Records"
+    },
+    "description": {
+      "zh": "“百器......苏醒......沿街奔袭......灾祸......毁......”余下字迹，皆为暗红色旧渍所覆盖，无法看清。",
+      "ja": "「百器……覚醒し……通り沿いに襲い……災禍……破壊され…….」と書かれた一文の残りの文字は、赤黒い汚れに覆われており、判別ができない。",
+      "en": "'A horde of wares... awakened... attacked us in the streets... disaster... destruction...' The rest is hidden below an old, dark-red stain, unable to be read clearly."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_n_5_6",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_5-6",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_5-6_dlc1",
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_5-6_dlc2"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "不成烟火",
+      "ja": "煙火に成らず",
+      "en": "Unlit Sparks"
+    },
+    "description": {
+      "zh": "此处尽是自被人厌弃的饮食中诞生的化物，易收集它们也不是为了收藏。若是“无谓”能成“饮啄”，那它们或许也有生出滋味的可能。\\n<@lv.item><火灶></>召唤“人间烟火”对沿途所有敌方单位造成真实伤害。\\n<@lv.item><废弃火灶></>召唤“饮露餐风”对所有沿途我方单位造成真实伤害。",
+      "ja": "この場所は、人間に嫌われ捨てられた食べ物から生まれた化物で一杯だ。イーがソレらを集めるのは、コレクションのためではない。「無謂」が「飲啄」に変わるのであれば、それらからも味わいが生じるかもしれない。\n<@lv.item><竈台></>「人間煙火」を召喚し、接触した敵全員に確定ダメージを与える\n<@lv.item><破棄された竈台></>「飲露餐風」を召喚し、接触した味方ユニット全員に確定ダメージを与える",
+      "en": "Here lie abominations born of the food and drink people discard. Yi did not gather them for his collection. If Vapidities can become Sapidities, then there is the possibility they can yet bloom with flavor.\n<@lv.item><Stove></> Summons 'Sapid Auspice' to deal True damage to all enemies in its path.\n<@lv.item><Derelict Stove></> Summons 'Vapid Blight' to deal True damage to all allied units in its path."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_n_5_7",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_5-7",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "砺锋",
+      "ja": null,
+      "en": null
+    },
+    "description": {
+      "zh": "藏品经过维护方可彰显其价值，而这批藏品的维护方式，是以不停息的争斗磨砺其血性与锐意。",
+      "ja": null,
+      "en": null
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_n_6_1",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_6-1",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_6-1_dlc1",
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_6-1_dlc2"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "炎灼",
+      "ja": "灼熱の炎",
+      "en": "Inferno"
+    },
+    "description": {
+      "zh": "一灼矿脉延绵天灾匿伏，二灼地下恶兽浅眠将醒。与天争时，与地争生。\\n<@lv.item><火灶></>召唤“人间烟火”对沿途所有敌方单位造成真实伤害。\\n<@lv.item><废弃火灶></>召唤“饮露餐风”对所有沿途我方单位造成真实伤害。",
+      "ja": "第一の炎で鉱脈が連なり、天災が影を潜める。第二の炎で地下の邪悪な獣が浅い眠りから目を覚まそうとする。天と時を競い、地と命を争う。\n<@lv.item><竈台></>「人間煙火」を召喚し、接触した敵全員に確定ダメージを与える\n<@lv.item><破棄された竈台></>「飲露餐風」を召喚し、接触した味方ユニット全員に確定ダメージを与える",
+      "en": "One burning vein of ore stretches on, hiding in Catastrophe. The other awakens evil beasts under the earth from their shallow sleep. Battle Heaven for time, battle the earth for life.\n<@lv.item><Stove></> Summons 'Sapid Auspice' to deal True damage to all enemies in its path.\n<@lv.item><Derelict Stove></> Summons 'Vapid Blight' to deal True damage to all allied units in its path."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_n_6_2",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_6-2",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_6-2_dlc1",
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_6-2_dlc2"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "人镇",
+      "ja": "人により鎮める",
+      "en": "Garrison"
+    },
+    "description": {
+      "zh": "岁陵之上建城以聚来客。以八方运势为镇，唯余一口，设仪削势。”\\n<@lv.item><作战专用掩体></>可遮挡敌人视线使其无法“直击”",
+      "ja": "客を集めるため、歳の陵墓の上方に街が建てられた。その際、八つの方向の運勢をもって陵墓を鎮め、出入り口を一つだけ残した。その出入り口で儀式を行い、陵墓からあふれだす力を削ぐのだ。\n<@lv.item><作戦用掩体></>敵の視界を遮り、味方ユニットが「直線射撃」の対象になることを防ぐ",
+      "en": "'Atop the Tomb of Sui, a town was founded to receive guests. Suppressed by the geomantic fortunes of the eight directions, only a single gate was left open for the rite that saps Its strength.'\n<@lv.item><Combat Special Barricade></> Blocks the enemy's line of sight, preventing direct shots."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_n_7_1",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_7-1",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_7-1_dlc2"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "越山海",
+      "ja": "山海を越える",
+      "en": "Beyond Mount and Sea"
+    },
+    "description": {
+      "zh": "历史被当下所诱引，展现出了融合古今的往昔。",
+      "ja": "歴史が現在に引き寄せられ、古今の融け合う過去を映し出した。",
+      "en": "History has been enticed by the present, revealing a past formed from both old and new."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_n_7_2",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_7-2",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_7-2_dlc2"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "借力打力",
+      "ja": "力を借りて力を打つ",
+      "en": "Force Redirection"
+    },
+    "description": {
+      "zh": "以其兽之道还治其兽之身，这便是大炎在对抗神明时最重要的发现。\\n<@lv.item><火灶></>召唤“人间烟火”对沿途所有敌方单位造成真实伤害。\\n<@lv.item><废弃火灶></>召唤“饮露餐风”对所有沿途我方单位造成真实伤害。",
+      "ja": "獣の道を以て獣を制す手法こそが、炎国が神に抗う中で掴んだ最大の発見だった。\n<@lv.item><竈台></>「人間煙火」を召喚し、接触した敵全員に確定ダメージを与える\n<@lv.item><破棄された竈台></>「飲露餐風」を召喚し、接触した味方全員に確定ダメージを与える",
+      "en": "Use the ways of beasts to reign over beasts. This was Great Yan's most important discovery when fighting against the gods.\n<@lv.item><Stove></> Summons 'Sapid Auspice' to deal True damage to all enemies in its path.\n<@lv.item><Derelict Stove></> Summons 'Vapid Blight' to deal True damage to all allied units in its path."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_b_1",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_b-1",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "月华寒",
+      "ja": "月華の寒気",
+      "en": "Cold Moonlight"
+    },
+    "description": {
+      "zh": "任谁寻了那么久的人，脾气都好不到哪里去。至极的冷冽，正是她坚毅的映照——即使这只是她的一尊塑像。\\n<@lv.item><源石冰晶></>周期性地释放对我方单位施加【寒冷】的范围性寒流",
+      "ja": "長く人探しをしていると、誰でも不機嫌になるものだ。この極寒の空気は、まさに彼女の強い意志の現れである――たとえ彼女が彫像に過ぎなかったとしても。\n<@lv.item><源石氷晶></>一定時間ごとに周囲を【寒冷】状態にする衝撃波を放出",
+      "en": "Anyone who searches for that long won't have a much better temper. The chill, colder than ice, is a reflection of her determination—even though this is only a statue of her.\n<@lv.item><Originium Ice Crystal></> Periodically releases a frigid wave that will inflict Cold on your units"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 1,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_b_1_b",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_b-1-b",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "夕娥忆",
+      "ja": "夕娥の記憶",
+      "en": "Memories of Dusk Beauty"
+    },
+    "description": {
+      "zh": "人只道她双月寻夫，却不知晓她缘何如此——严冬乍暖，寒冰初融，纵使时光流逝，这份回忆也无法被抹去。",
+      "ja": "人は夕娥が双月で夫を探していると言うものの、彼女がそのような行為に至った経緯は知らない――厳しい冬の寒さが緩み、雪解けが始まった。たとえ時が流れても、彼女の記憶を消し去ることはできない。",
+      "en": "People only ever speak of her searching the twin moons for her husband, but they never understand why she does so. Winter's grip may loosen, bitter frost may thaw, time may pass, but these memories shall never be erased."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 1,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_b_2",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_b-2",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "剑·刀·矛",
+      "ja": "剣・刀・矛",
+      "en": "Sword, Glaive, Spear"
+    },
+    "description": {
+      "zh": "壮志未酬身已死。三英遗留之兵刃曾亲历百氏干戈，见今日之大炎，是否会感到宽慰？\\n<@lv.item><活性源石></>部署于其上的我军和经过的敌军持续受到伤害，但攻击力和攻速大幅度提升",
+      "ja": "「出師未だ捷たざるに身已に死す」。三英雄の残した武器はかつて百氏の乱を生き抜いたものだが、現在の炎国を目の当たりにして、それらの武器たちは安らぎを得られるのだろうか？\n<@lv.item><活性源石></>配置した味方及び通過した敵は継続してダメージを受けるが、攻撃力と攻撃速度が大幅に上昇",
+      "en": "They died before their lofty ambitions could be realized. The three heroes' weapons have faced the arms and armor of the Hundred Clans. If they saw Yan as it is today, would they know contentment?\n<@lv.item><Active Originium></> Operators deployed on it and enemies who have passed it will take constant damage, but their ATK and ASPD will be increased significantly."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 1,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_b_2_b",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_b-2-b",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "仁·义·武",
+      "ja": "仁・義・武",
+      "en": "Compassion, Justice, Valor"
+    },
+    "description": {
+      "zh": "贤者以仁德先行，义因仁起，武为后用，是以虽未安定天下却也流芳后世。",
+      "ja": "賢者は仁徳を以て先ず行い、義は仁に因りて起こし、武は後に用うるを為す。是を以て未だ天下を安定せずと雖も却って也た後世に流芳するなり。",
+      "en": "The virtuous begin with compassion. From compassion stems justice. Only in the end do they call for valor. And so, despite failing to quell the unrest under heaven, they shall be remembered with kind words for generations to come."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 1,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_b_3",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_b-3",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "点化",
+      "ja": "教え導く",
+      "en": "Enlightenment"
+    },
+    "description": {
+      "zh": "云深之处，你的脚步惊扰了池鳞。眼前大炎千年，脚下山河万载，端坐的老者放下手中钓竿，等着机缘相合者上前一叙。",
+      "ja": "雲の深い場所で、あなたの足音は鱗獣を驚かせた。眼前にある炎国の歴史は千年、足元にある山河の歴史は万年。行儀よく座る老人は手にしていた釣竿を置き、縁ある者と語らう機会を待っている。",
+      "en": "Here, where the clouds lie deep, your footsteps alarm the pondfins. Before you lies a thousand years of Yan. Under your feet rests ten thousand years of the land. The elderly man sits upright as he places his finning rod down, waiting for the opportune one to step forward and talk."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 1,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_b_3_b",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_b-3-b",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "求道",
+      "ja": "求道",
+      "en": "Seeking the Way"
+    },
+    "description": {
+      "zh": "尝尽世间纷扰，他自世外逍遥。来此一叙者既见得和风细雨，自然也要见得暴风雷霆。",
+      "ja": "世の煩悩を経験し尽くした人間は、世間から距離を置く。ここに来て語らう者は、そよ風と霧雨を目にするだけでなく、当然、暴風と轟雷も目にすることになる。",
+      "en": "After experiencing a lifetime of strife, he retreated beyond the land, free, unfettered. The one who has come to talk has witnessed breeze and drizzle, but naturally must also witness gale and storm."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 1,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_b_4",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_b-4",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_b-4_dlc2"
+    ],
+    "code": "ISW-DF",
+    "name": {
+      "zh": "破岁阵祀",
+      "ja": "歳破りし陣を祀る",
+      "en": "The Suppression of Sui"
+    },
+    "description": {
+      "zh": "诸物皆可为梁柱，然承界之重，赋园以格，唯一，唯易。撼动了他，大炎才会心安。\\n<@lv.item><晦明之印></>部署在其上的干员获得晦明属性",
+      "ja": "万物は柱となり得るが、界の重みを背負い、園に命と色を吹き込める者はイーをおいて他にいない。彼を揺り動かさなければ、炎国は安寧を得られないだろう。\n<@lv.item><晦明の印></>配置した味方が対応する晦明属性を獲得",
+      "en": "All things may act as the Garden of Grotesqueries' beams and columns, but there is only one who can bear the weight of it, only one who can bestow order upon it. It is not ye, but Yi. Sway his heart, and Yan shall breathe easy.\n<@lv.item><Mark of Hui and Ming></> Operators deployed on it will earn a Hui-Ming Attribute."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 1,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_b_4_b",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_b-4-b",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_b-4-b_dlc2"
+    ],
+    "code": "ISW-DF",
+    "name": {
+      "zh": "天数将易",
+      "ja": "天命将に易えんとす",
+      "en": "A Change of Fate"
+    },
+    "description": {
+      "zh": "易很乐意放你们过去，但是在更进一步前，你们得先完成自己的职责。\\n<@lv.item><晦明之印></>部署在其上的干员获得晦明属性",
+      "ja": "イーは喜んであなたたちを通すだろう。だが先へ進む前に、自らの務めを果たさねばならない。\n<@lv.item><晦明の印></>配置した味方が対応する晦明属性を獲得",
+      "en": "Yi is more than happy to allow you in, but ere you take another step, you must complete your duty.\n<@lv.item><Mark of Hui and Ming></> Operators deployed on it gain a Hui-Ming Attribute."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 1,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_b_5",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_b-5",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_b-5_dlc2"
+    ],
+    "code": "ISW-DF",
+    "name": {
+      "zh": "昔字如烟",
+      "ja": "古き文字は煙の如し",
+      "en": "Words Past Like Smoke"
+    },
+    "description": {
+      "zh": "究竟是什么使得岁兽再次苏醒，而后又随之覆灭，没在人世间留下半分痕迹？",
+      "ja": "一体何が原因で、歳獣は再び目覚めてしまったのだろうか？そして、何故この世に痕跡を残すことなく、忽然と消え去ってしまったのだろうか？",
+      "en": "What caused the bestial Sui to reawaken, then leave no trace upon the mortal realm after Its destruction?"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 1,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_b_5_b",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_b-5-b",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_b-5-b_dlc2"
+    ],
+    "code": "ISW-DF",
+    "name": {
+      "zh": "往昔难忆",
+      "ja": "往昔は憶い難し",
+      "en": "Near-Forgotten"
+    },
+    "description": {
+      "zh": "当不可着墨的长卷遇上不可记述的过往。",
+      "ja": "墨を以て記すことのできない巻物が、記述すべからざる過去と出会った時。",
+      "en": "When an uninkable scroll meets an unwritable past."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 1,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_b_6",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_b-6",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_b-6_dlc2"
+    ],
+    "code": "ISW-DF",
+    "name": {
+      "zh": "谋岁者",
+      "ja": "歳を謀る者",
+      "en": "The Sui Strategist"
+    },
+    "description": {
+      "zh": "与其年复一年行仪自欺，不如直捣岁躯以定万安。有“人”也是这么谋算的，他认可你们的锐气，但决不饶恕你们扰他亲族安眠。",
+      "ja": "一年また一年と儀式を行って自らを欺くぐらいなら、歳の体を直接狙い、平穏をもたらす方がましだ。ある「人」も、そのような策略を巡らした。彼はあなたたちの気概を認めても、あなたたちが彼の親族の安らかな眠りを妨げることを決して許さない。",
+      "en": "Rather than fooling around with ceremonies year after year, it would be better to just pound the body of Sui into the dust to create a lasting peace. There is a 'man' who planned to do as such, and he approves of your gumption, but he cannot forgive you disturbing his kin's eternal rest."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 1,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_b_7",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_b-7",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_b-7_dlc2"
+    ],
+    "code": "ISW-DF",
+    "name": {
+      "zh": "末狩",
+      "ja": "末狩",
+      "en": "The Last Hunt"
+    },
+    "description": {
+      "zh": "岁兽记忆中最为鲜明的战争，祂将胜利，亦将失败。",
+      "ja": "歳獣の記憶に最も鮮烈に刻まれた戦争。歳獣は勝利し、そして敗北する。",
+      "en": "The clearest recollection of the war in Sui's memories. It will know victory, and It will know defeat."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 1,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_b_8",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_b-8",
+    "levelReplaceIds": [],
+    "code": "ISW-DF",
+    "name": {
+      "zh": "录忆",
+      "ja": null,
+      "en": null
+    },
+    "description": {
+      "zh": "岁兽代理人的回忆让墨成仪器有了化伥的迹象，但点睛的一着，仍需由人来行。",
+      "ja": null,
+      "en": null
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_b_9_a",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_b-9-a",
+    "levelReplaceIds": [],
+    "code": "ISW-DF",
+    "name": {
+      "zh": "止变",
+      "ja": null,
+      "en": null
+    },
+    "description": {
+      "zh": "让无休止的演化，留驻于此。\\n<@rolv.rem>“身形”反弹部分受到的伤害；“敛傲”“愠怒”最大生命值提升</>",
+      "ja": null,
+      "en": null
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 1,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_b_9_b",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_b-9-b",
+    "levelReplaceIds": [],
+    "code": "ISW-DF",
+    "name": {
+      "zh": "止变",
+      "ja": null,
+      "en": null
+    },
+    "description": {
+      "zh": "让无休止的演化，留驻于此。\\n<@rolv.rem>“身形”反弹部分受到的伤害；“敛傲”“愠怒”最大生命值提升</>",
+      "ja": null,
+      "en": null
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 1,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_b_9_c",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_b-9-c",
+    "levelReplaceIds": [],
+    "code": "ISW-DF",
+    "name": {
+      "zh": "止变",
+      "ja": null,
+      "en": null
+    },
+    "description": {
+      "zh": "让无休止的演化，留驻于此。\\n<@rolv.rem>“身形”反弹部分受到的伤害；“敛傲”“愠怒”最大生命值提升</>",
+      "ja": null,
+      "en": null
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 1,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_b_9_d",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_b-9-d",
+    "levelReplaceIds": [],
+    "code": "ISW-DF",
+    "name": {
+      "zh": "止变",
+      "ja": null,
+      "en": null
+    },
+    "description": {
+      "zh": "让无休止的演化，留驻于此。\\n<@rolv.rem>“身形”反弹部分受到的伤害；“敛傲”“愠怒”最大生命值提升</>",
+      "ja": null,
+      "en": null
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 1,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_b_9_e",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_b-9-e",
+    "levelReplaceIds": [],
+    "code": "ISW-DF",
+    "name": {
+      "zh": "止变",
+      "ja": null,
+      "en": null
+    },
+    "description": {
+      "zh": "让无休止的演化，留驻于此。\\n<@rolv.rem>“身形”反弹部分受到的伤害；所有敌人攻击力、防御力、生命值提升且“敛傲”“愠怒”最大生命值额外提升；“朔壳”“妄躯”技能释放更加频繁</>",
+      "ja": null,
+      "en": null
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 1,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_b_10",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_b-10",
+    "levelReplaceIds": [],
+    "code": "ISW-DF",
+    "name": {
+      "zh": "定乾坤",
+      "ja": null,
+      "en": null
+    },
+    "description": {
+      "zh": "人所能见，能及，能定的尽头。",
+      "ja": null,
+      "en": null
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 1,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_b_10_b",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_b-10-b",
+    "levelReplaceIds": [],
+    "code": "ISW-DF",
+    "name": {
+      "zh": "定乾坤",
+      "ja": null,
+      "en": null
+    },
+    "description": {
+      "zh": "人所能见，能及，能定的尽头。\\n<@rolv.rem>“身形”反弹部分受到的伤害；所有敌人攻击力、防御力、生命值提升且“敛傲”“愠怒”最大生命值额外提升；“朔壳”“妄躯”技能释放更加频繁</>",
+      "ja": null,
+      "en": null
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 1,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_t_1",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_t-1",
+    "levelReplaceIds": [],
+    "code": "ISW-SP",
+    "name": {
+      "zh": "源源不断",
+      "ja": "底なし",
+      "en": "Steady Stream"
+    },
+    "description": {
+      "zh": "这熊霸乱丢的食物残渣吸引来许多源石虫，赶紧来个人告诉他，在界园不要乱扔垃圾！\\n<@rolv.rem>场地中有可以阻挡敌人行进路线的<碎石></>\\n<@rolv.rem>场地中有夺取后可以治疗友方单位并对敌方造成法术伤害的<\"留声机\"></>",
+      "ja": "この乱暴な熊野郎があちこちに捨てた食べカスにオリジムシがたくさん集まっている。誰か、界園でゴミのポイ捨てをしないように注意してやってくれ！\n<@rolv.rem>敵の進攻ルートを遮る<礫岩>が出現</>\n<@rolv.rem>制御権を奪取した後、周囲の別陣営のユニットに術ダメージを与え、同陣営のユニットを治療する<「蓄音機」>が出現</>",
+      "en": "The food that Bear Lord's throwing away is attracting Originium slugs! Quick, send someone to tell him: NO LITTERING IN THE GARDEN OF GROTESQUERIES!\n<@rolv.rem>This stage has <Rubble> that can block the enemy's path</>\n<@rolv.rem><Gramophones> that deal Arts damage to enemies and heal allies when captured are present on the field</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_t_2",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_t-2",
+    "levelReplaceIds": [],
+    "code": "ISW-SP",
+    "name": {
+      "zh": "闪闪发光",
+      "ja": "きらきら輝いて",
+      "en": "Sparkling Shine"
+    },
+    "description": {
+      "zh": "别以为靠虫子打掩护就能逃走，抓住那狗子！",
+      "ja": "虫を呼び寄せて目くらましにしたところで、逃げられると思うなよ！あの犬っころを捕まえろ！",
+      "en": "Don't think you can hide behind those slugs to escape! Get that dog!"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_t_3",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_t-3",
+    "levelReplaceIds": [],
+    "code": "ISW-SP",
+    "name": {
+      "zh": "循循善诱",
+      "ja": "商売禁止",
+      "en": "Reeducation"
+    },
+    "description": {
+      "zh": "界园内严禁无证经商，正好抓这鼠辈去做典型案例。",
+      "ja": "界園の中では、許可なく商いをすることは許されない。ちょうど良い、このドブネズミを捕まえて見せしめにしてやろう。",
+      "en": "Trading without a license is strictly prohibited in the Garden of Grotesqueries. Get that rat to make an example out of him."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_t_4",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_t-4",
+    "levelReplaceIds": [],
+    "code": "ISW-SP",
+    "name": {
+      "zh": "易易鸭鸭",
+      "ja": "良いカモ",
+      "en": "Duck and Yi"
+    },
+    "description": {
+      "zh": "这上架的鸭子一定暗中和易做了什么买卖，赶紧从实招来！",
+      "ja": "このダックは、イーと何らかの裏取引をしたに違いない！さっさと白状しろ！",
+      "en": "This duck stocking the shelves definitely made some kind of shady deal with Yi! Get him to 'fess up!"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_t_5",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_t-5",
+    "levelReplaceIds": [],
+    "code": "ISW-SP",
+    "name": {
+      "zh": "劫罚",
+      "ja": "劫罰",
+      "en": "Calamitous Punishment"
+    },
+    "description": {
+      "zh": "惹了大士清修，自然要遭点罪。想必经历这一劫，也就知道乱动手脚是什么后果了。\\n<@lv.item><火灶></>召唤“人间烟火”对沿途所有敌方单位造成真实伤害。\\n<@lv.item><废弃火灶></>召唤“饮露餐风”对所有沿途我方单位造成真实伤害。",
+      "ja": "大士の修行を邪魔すれば、当然バチが当たる。その苦しみを経験すれば、無鉄砲な行動がどんな結果につながるかを理解できるはずだ。\n<@lv.item><竈台></>「人間煙火」を召喚し、接触した敵全員に確定ダメージを与える\n<@lv.item><破棄された竈台></>「飲露餐風」を召喚し、接触した味方ユニット全員に確定ダメージを与える",
+      "en": "You have disturbed the Bodhisattva's contemplation, thus you shall be punished. No doubt by experiencing this torment, you shall know the consequences of itchy hands and restless feet.\n<@lv.item><Stove></> Summons 'Sapid Auspice' to deal True damage to all enemies in its path.\n<@lv.item><Derelict Stove></> Summons 'Vapid Blight' to deal True damage to all allied units in its path."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_t_6",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_t-6",
+    "levelReplaceIds": [],
+    "code": "ISW-SP",
+    "name": {
+      "zh": "生百相",
+      "ja": "生ける百面相",
+      "en": "Of Hundred Forms"
+    },
+    "description": {
+      "zh": "在文明之中，坎诺特会用文明的手段待你。可如果你非要看他另一副面貌，他也会勉为其难应了你的请求。",
+      "ja": "文明社会において、キャノットはあなたに文明的に応対する。だが、あなたがどうしても彼のもう一つの顔を見ようとするのなら、彼はしぶしぶあなたの要望に応じるだろう。",
+      "en": "When among civilization, Cannot shall treat you in a civilized manner. But if you insist on seeing another side of him, he shall grant your request. Reluctantly."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_t_7",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_t-7",
+    "levelReplaceIds": [],
+    "code": "ISW-DF",
+    "name": {
+      "zh": "硕果累累",
+      "ja": "鈴なりの果実",
+      "en": "Feast of Fruit"
+    },
+    "description": {
+      "zh": "天地精华结成的果实都囤积在这里，由食肉作物层层看守。它们没等来栽种的农人，只等来了你。\\n<@lv.item><树丛></>不会受到攻击，遮挡我方单位的视野",
+      "ja": "大地の恵みが生み出した果実は、収穫後ここに集められ、肉食の作物によって厳重に守られている。そして、ソレらの前に現れたのは栽培のために来た農民ではなく、あなただった。\n<@lv.item><茂み></>味方ユニットの視野を遮る。攻撃の対象にならない",
+      "en": "Fruit born from the soul of the land is stored here, guarded by rows of man-eating plants. They do not await a farmer to tend them, but rather, you.\n<@lv.item><Thicket></> Cannot be attacked, and blocks the vision of your units"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_t_8",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_t-8",
+    "levelReplaceIds": [],
+    "code": "ISW-SP",
+    "name": {
+      "zh": "以逸待劳",
+      "ja": "逸を以て労を待つ",
+      "en": "Biding Time"
+    },
+    "description": {
+      "zh": "电弧在进行侦察作业时会布下“岗哨”与大部队串联到一起，没有讯息与事件逃得过她的罗网。",
+      "ja": "レイディアンは偵察を行う時、「哨戒所」を設けて大部隊と連携を取る。彼女の情報網からはら、どんな情報や事件も逃れられない。",
+      "en": "When on reconnaissance missions, Raidian will deploy 'lookouts' to establish contact with the main force. There is no information that can escape her net."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_t_9_a",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_t-9-a",
+    "levelReplaceIds": [],
+    "code": "ISW-SP",
+    "name": {
+      "zh": "喜从驮来",
+      "ja": "喜びは駄獣より来たる",
+      "en": "Joy From Burdenbeast"
+    },
+    "description": {
+      "zh": "寓意生长的棋局。“战略家”说生长就如驮兽散步，温驯而绵长。",
+      "ja": "成長を意味する盤面。「戦略家」いわく、成長は駄獣の散歩と同じように、従順で長く続くらしい。",
+      "en": "A game about growth. The 'strategist' says growth is like a burdenbeast's plodding steps, gentle and enduring."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "id": "ro5_t_9_b",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_t-9-b",
+    "levelReplaceIds": [],
+    "code": "ISW-SP",
+    "name": {
+      "zh": "硅基伥的宴席",
+      "ja": "ケイ素器鬼の宴",
+      "en": "Silicon Geist's Banquet"
+    },
+    "description": {
+      "zh": "寓意繁殖的棋局。“战略家”说繁殖就如人造物成伥，即使拼尽全力，后果也难以预测。",
+      "ja": "繁殖を意味する盤面。「戦略家」いわく、繁殖は人工物が器鬼と成ることと同じように、結果の予想が難しいらしい。",
+      "en": "A game about propagation. The 'strategist' says propagation is like man-made objects becoming geists. You can try as hard as you like, but the results are hard to predict."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_t_9_c",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_t-9-c",
+    "levelReplaceIds": [],
+    "code": "ISW-SP",
+    "name": {
+      "zh": "彻底失控",
+      "ja": "完全制御不能",
+      "en": "Totally Out of Control"
+    },
+    "description": {
+      "zh": "寓意存续的棋局。“战略家”说存续就如感染者悖论，想要活着，就免不了牺牲。",
+      "ja": "存続を意味する盤面。「戦略家」いわく、存続は感染者のパラドックスと同じように、生存のための犠牲がつきものらしい。",
+      "en": "A game about continuation. The 'strategist' says continuation is like the paradox of the Infected. To live, one cannot avoid self-sacrifice."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_t_10",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_t-10",
+    "levelReplaceIds": [],
+    "code": "ISW-SP",
+    "name": {
+      "zh": "为崖作伥",
+      "ja": "崖の下の器鬼",
+      "en": "Cliff of Geists"
+    },
+    "description": {
+      "zh": "经过此处天险之地的人总是怒气冲冲，丝毫不肯退缩，殊不知绝壁两边尽是失足落崖的伥怪，这没来由的怒气，正是它们的杰作。",
+      "ja": "この天険の地を通る者は、常に怒りに満ち、一歩も退こうとしない。彼らは知らないのだ。絶壁の両側は崖から足を滑らせて落ちた器鬼で一杯だということを。この理由のない怒りは、まさにソレらの傑作なのである。",
+      "en": "Those passing through this natural redoubt always fly into a raging fury, refusing to fall back. Little do they know of the geists who lost their footing and slipped off the precipices on either side. This unnatural anger is their masterpiece."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_ev_1",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_ev-1",
+    "levelReplaceIds": [],
+    "code": "ISW-SP",
+    "name": {
+      "zh": "神游天外",
+      "ja": "心ここにあらず",
+      "en": "Astral Projection"
+    },
+    "description": {
+      "zh": "为什么梦中也有这位好商人，他是来赠送珍宝的吗？为什么笑纳了这些馈赠，他反而不开心？",
+      "ja": "夢の中にもこの人の良い商人がいるのはどういう訳だろう？彼は珍しい宝を贈るために来たのだろうか？喜んでそれらの贈り物を受け取ったのに、何故彼はかえって不機嫌になってしまったのだろう？",
+      "en": "Why is this good merchant in your dream? Is he here to give you a treasure or two? Why isn't he happy to accept these presents you offer him?"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_ev_2",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_ev-2",
+    "levelReplaceIds": [],
+    "code": "ISW-SP",
+    "name": {
+      "zh": "作壁上观",
+      "ja": "高みの見物",
+      "en": "Sit Back and Watch"
+    },
+    "description": {
+      "zh": "为了应对你的任性他已经想了诸多方法，最新的这一招叫做：“以毒攻毒”。反正财物指定没救了，不如喝口茶，放任你们互相撕咬。",
+      "ja": "あなたのわがままに対応するため、彼はすでに多くの方法を考えた。その中で一番新しい方法は、「毒を以て毒を制す」である。どうせ財宝を守る手立てがないのなら、お茶でも飲んで、あなたたちが噛みつき合う様をただ眺めていれば良いのだ。",
+      "en": "He's thought of a lot of ways to handle your unruliness. His latest idea is what he calls 'fighting fire with fire'. Besides, the goods are lost either way, so why not sit back and enjoy a cup of tea while watching you tear at each other's throats?"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_duel_1",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_d-1",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "夕江对擂",
+      "ja": "夕江にて対擂す",
+      "en": "Bout by the Dusk River"
+    },
+    "description": {
+      "zh": "既然费了口舌还是要上拳脚，为何不直接上拳脚呢？\\n<@rolv.rem>使用远程位干员选择对手进行战斗，失败不会扣除目标生命值，在限定时间内击败越难的对手将会获得更好的奖励</>",
+      "ja": "論争の末に暴力を振るうのなら、最初から拳で解決すれば良いのではないだろうか？\n<@rolv.rem>遠距離オペレーターを使用し、相手を選択し戦闘を行う。失敗しても耐久値は失われない。限られた時間内でより強力な相手を倒せば、より豪華な報酬が手に入る</>",
+      "en": "Since needless arguing will lead to a flurry of blows, why not just get straight to the punching and kicking?\n<@rolv.rem>Use Ranged Operators to fight the foe you picked; Losing will not deduct Life Points. Defeating a tougher foe within the given time grants a better reward</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_duel_1_b",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_d-1-b",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "夕江对擂",
+      "ja": "夕江にて対擂す",
+      "en": "Bout by the Dusk River"
+    },
+    "description": {
+      "zh": "既然费了口舌还是要上拳脚，为何不直接上拳脚呢？\\n<@rolv.rem>使用近战位干员选择对手进行战斗，失败不会扣除目标生命值，在限定时间内击败越难的对手将会获得更好的奖励</>",
+      "ja": "論争の末に暴力を振るうのなら、最初から拳で解決すれば良いのではないだろうか？\n<@rolv.rem>近距離オペレーターを使用し、相手を選択し戦闘を行う。失敗しても耐久値は失われない。限られた時間内でより強力な相手を倒せば、より豪華な報酬が手に入る</>",
+      "en": "Since needless arguing will lead to a flurry of blows, why not just get straight to the punching and kicking?\n<@rolv.rem>Use Melee Operators to fight the foe you picked; Losing will not deduct Life Points. Defeating a tougher foe within the given time grants a better reward</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_duel_2",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_d-2",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "南武群英会",
+      "ja": "南武群英会",
+      "en": "Heroes of Nanwu"
+    },
+    "description": {
+      "zh": "拔得头筹只是这场江湖盛会的前奏，不然你以为南武这么多的门派和镖局是怎么来的？\\n<@rolv.rem>使用远程位干员选择对手进行战斗，失败不会扣除目标生命值，在限定时间内击败越难的对手将会获得更好的奖励</>",
+      "ja": "一位になることは、この江湖の盛大な催しの前哨戦に過ぎない。そうでなければ、南武にこれほど多くの流派と鏢局ができるはずがない。\n<@rolv.rem>遠距離オペレーターを使用し、相手を選択し戦闘を行う。失敗しても耐久値は失われない。限られた時間内でより強力な相手を倒せば、より豪華な報酬が手に入る</>",
+      "en": "Taking first place is only the prelude to this gathering of the jianghu. Why do you think the Nanwu styles boast so many martial schools and escort agencies?\n<@rolv.rem>Use Ranged Operators to fight the foe you picked; Losing will not deduct Life Points. Defeating a tougher foe within the given time grants a better reward</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_duel_2_b",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_d-2-b",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "南武群英会",
+      "ja": "南武群英会",
+      "en": "Heroes of Nanwu"
+    },
+    "description": {
+      "zh": "拔得头筹只是这场江湖盛会的前奏，不然你以为南武这么多的门派和镖局是怎么来的？\\n<@rolv.rem>使用远程位和近战位干员选择对手进行战斗，失败不会扣除目标生命值，在限定时间内击败越难的对手将会获得更好的奖励</>",
+      "ja": "一位になることは、この江湖の盛大な催しの前哨戦に過ぎない。そうでなければ、南武にこれほど多くの流派と鏢局ができるはずがない。\n<@rolv.rem>遠距離オペレーターと近距離オペレーターを使用し、相手を選択し戦闘を行う。失敗しても耐久値は失われない。限られた時間内でより強力な相手を倒せば、より豪華な報酬が手に入る</>",
+      "en": "Taking first place is only the prelude to this gathering of the jianghu. Why do you think the Nanwu styles boast so many martial schools and escort agencies?\n<@rolv.rem>Use Ranged and Melee Operators to fight the foe you picked; Losing will not deduct Life Points. Defeating a tougher foe within the given time grants a better reward</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_duel_2_c",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_d-2-c",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "南武群英会",
+      "ja": "南武群英会",
+      "en": "Heroes of Nanwu"
+    },
+    "description": {
+      "zh": "拔得头筹只是这场江湖盛会的前奏，不然你以为南武这么多的门派和镖局是怎么来的？\\n<@rolv.rem>使用近战位干员选择对手进行战斗，失败不会扣除目标生命值，在限定时间内击败越难的对手将会获得更好的奖励</>",
+      "ja": "一位になることは、この江湖の盛大な催しの前哨戦に過ぎない。そうでなければ、南武にこれほど多くの流派と鏢局ができるはずがない。\n<@rolv.rem>近距離オペレーターを使用し、相手を選択し戦闘を行う。失敗しても耐久値は失われない。限られた時間内でより強力な相手を倒せば、より豪華な報酬が手に入る</>",
+      "en": "Taking first place is only the prelude to this gathering of the jianghu. Why do you think the Nanwu styles boast so many martial schools and escort agencies?\n<@rolv.rem>Use Melee Operators to fight the foe you picked; Losing will not deduct Life Points. Defeating a tougher foe within the given time grants a better reward</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_duel_3",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_d-3",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "夕江诀",
+      "ja": "夕江訣",
+      "en": "Dusk River Sayings"
+    },
+    "description": {
+      "zh": "事已至此，定分生死。\\n<@rolv.rem>选择对手进行战斗，失败不会扣除目标生命值，在限定时间内击败越难的对手将会获得更好的奖励</>",
+      "ja": "事ここに至っては、死命を決するのみ。\n<@rolv.rem>相手を選択し戦闘を行う。失敗しても耐久値は失われない。限られた時間内でより強力な相手を倒せば、より豪華な報酬が手に入る</>",
+      "en": "Having come to this, life and death are decided.\n<@rolv.rem>Fight the foe you picked; Losing will not deduct Life Points. Defeating a tougher foe within the given time grants a better reward</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_duel_4",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_d-4",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "南武约",
+      "ja": "南武約",
+      "en": "Nanwu Vows"
+    },
+    "description": {
+      "zh": "既已立约，唯有胜利。\\n<@rolv.rem>选择对手进行战斗，失败不会扣除目标生命值，在限定时间内击败越难的对手将会获得更好的奖励</>",
+      "ja": "取り決めを交わしたのなら、勝利あるのみ。\n<@rolv.rem>相手を選択し戦闘を行う。失敗しても耐久値は失われない。限られた時間内でより強力な相手を倒せば、より豪華な報酬が手に入る</>",
+      "en": "Vows have been sworn. All that is left is to triumph.\n<@rolv.rem>Fight the foe you picked; Losing will not deduct Life Points. Defeating a tougher foe within the given time grants a better reward</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_fs_1",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_fs-1",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "谤天",
+      "ja": "謗天",
+      "en": "Slandering Heaven"
+    },
+    "description": {
+      "zh": "天不与，人自取之。\\n<@rolv.rem>明烛台-谤天：位于其上及周围四格的我方干员每隔一段时间受到递增的高额法术伤害。若战斗结束时未撤退，则获得秉烛状态。</>",
+      "ja": "天は与えず、人自ら之を取る。\n<@rolv.rem>明燭台-謗天：明燭台の上および隣接4マス内にいる味方オペレーターは一定時間ごとに増加していく強力な術ダメージを受ける。当該オペレーターが戦闘終了時に撤退していない場合、伺燭客になる</>",
+      "en": "If Heaven does not stand with you, snatch it yourself.\n<@rolv.rem>Candle Stand: Slandering Heaven: the Operators on this stand and the four adjacent tiles take progressively higher amounts of Arts damage at regular intervals. If the battle ends without that Operator retreating, they become a Candleguest.</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_fs_1_b",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_fs-1b",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "谤天",
+      "ja": "謗天",
+      "en": "Slandering Heaven"
+    },
+    "description": {
+      "zh": "天不与，人自取之。\\n<@rolv.rem>明烛台-谤天：位于其上及周围四格的我方干员每隔一段时间受到递增的高额法术伤害。若战斗结束时未撤退，则获得秉烛状态。</>",
+      "ja": "天は与えず、人自ら之を取る。\n<@rolv.rem>明燭台-謗天：明燭台の上および隣接4マス内にいる味方オペレーターは一定時間ごとに増加していく強力な術ダメージを受ける。当該オペレーターが戦闘終了時に撤退していない場合、伺燭客になる</>",
+      "en": "If Heaven does not stand with you, snatch it yourself.\n<@rolv.rem>Candle Stand: Slandering Heaven: the Operators on this stand and the four adjacent tiles take progressively higher amounts of Arts damage at regular intervals. If the battle ends without that Operator retreating, they become a Candleguest.</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_fs_2",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_fs-2",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "迎雷",
+      "ja": "迎雷",
+      "en": "Amidst Thunder"
+    },
+    "description": {
+      "zh": "雷云集，人自拾之。\\n<@rolv.rem>明烛台-迎雷：位于其上的我方干员每隔一段时间受到自身最大生命值一定比例的真实伤害。若战斗结束时未撤退，则获得秉烛状态。</>",
+      "ja": "雷雲集まり、人自ら之を拾う。\n<@rolv.rem>明燭台-迎雷：明燭台の上にいる味方オペレーターは一定時間ごとに自身の最大HPの一定割合分の確定ダメージを受ける。当該オペレーターが戦闘終了時に撤退していない場合、伺燭客になる</>",
+      "en": "If storm clouds gather, take it yourself.\n<@rolv.rem>Candle Stand: Amidst Thunder: the Operator on this stand takes a proportion of their Max HP as True damage at regular intervals. If the battle ends without that Operator retreating, they become a Candleguest.</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_fs_2_b",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_fs-2b",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "迎雷",
+      "ja": "迎雷",
+      "en": "Amidst Thunder"
+    },
+    "description": {
+      "zh": "雷云集，人自拾之。\\n<@rolv.rem>明烛台-迎雷：位于其上的我方干员每隔一段时间受到自身最大生命值一定比例的真实伤害。若战斗结束时未撤退，则获得秉烛状态。</>",
+      "ja": "雷雲集まり、人自ら之を拾う。\n<@rolv.rem>明燭台-迎雷：明燭台の上にいる味方オペレーターは一定時間ごとに自身の最大HPの一定割合分の確定ダメージを受ける。当該オペレーターが戦闘終了時に撤退していない場合、伺燭客になる</>",
+      "en": "If storm clouds gather, take it yourself.\n<@rolv.rem>Candle Stand: Amidst Thunder: the Operator on this stand takes a proportion of their Max HP as True damage at regular intervals. If the battle ends without that Operator retreating, they become a Candleguest.</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_fs_3",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_fs-3",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "蔑震",
+      "ja": "蔑震",
+      "en": "Defying Quakes"
+    },
+    "description": {
+      "zh": "地生祸，人自除之。\\n<@rolv.rem>明烛台-蔑震：位于其上的我方干员每隔一段受到自身攻击力一定比例的物理伤害。若战斗结束时未撤退，则获得秉烛状态。</>",
+      "ja": "地禍を生じ、人自ら之を除く。\n<@rolv.rem>明燭台-蔑震：明燭台の上にいる味方オペレーターは一定時間ごとに自身の攻撃力の一定割合分の物理ダメージを受ける。当該オペレーターが戦闘終了時に撤退していない場合、伺燭客になる</>",
+      "en": "If the earth spawns disaster, remove it yourself.\n<@rolv.rem>Candle Stand: Defying Quakes: the Operator on this stand takes a proportion of their ATK as Physical damage at regular intervals. If the battle ends without that Operator retreating, they become a Candleguest.</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_fs_3_b",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_fs-3b",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "蔑震",
+      "ja": "蔑震",
+      "en": "Defying Quakes"
+    },
+    "description": {
+      "zh": "地生祸，人自除之。\\n<@rolv.rem>明烛台-蔑震：位于其上的我方干员每隔一段受到自身攻击力一定比例的物理伤害。若战斗结束时未撤退，则获得秉烛状态。</>",
+      "ja": "地禍を生じ、人自ら之を除く。\n<@rolv.rem>明燭台-蔑震：明燭台の上にいる味方オペレーターは一定時間ごとに自身の攻撃力の一定割合分の物理ダメージを受ける。当該オペレーターが戦闘終了時に撤退していない場合、伺燭客になる</>",
+      "en": "If the earth spawns disaster, remove it yourself.\n<@rolv.rem>Candle Stand: Defying Quakes: the Operator on this stand takes a proportion of their ATK as Physical damage at regular intervals. If the battle ends without that Operator retreating, they become a Candleguest.</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_fs_4",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_fs-4",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "赴陨",
+      "ja": "赴隕",
+      "en": "To the Fall"
+    },
+    "description": {
+      "zh": "源石落，人自平之。\\n<@rolv.rem>明烛台-赴陨：位于其上的我方干员每隔一段时间受到数次法术伤害，每拥有4枚源石锭，受到法术伤害次数+1。若战斗结束时未撤退，则获得秉烛状态。</>",
+      "ja": "源石落ち、人自ら之を平らかにす。\n<@rolv.rem>明燭台-赴隕：明燭台の上にいる味方オペレーターは一定時間ごとに数回の術ダメージを受ける。所持中の源石錐4個につき、術ダメージを受ける回数+1。当該オペレーターが戦闘終了時に撤退していない場合、伺燭客になる</>",
+      "en": "If Originium falls, calm it yourself.\n<@rolv.rem>Candle Stand: To the Fall: the Operator on this stand takes several instances of Arts damage at regular intervals. For every 4 Originium Ingots owned, number of instances +1. If the battle ends without that Operator retreating, they become a Candleguest.</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_fs_4_b",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_fs-4b",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "赴陨",
+      "ja": "赴隕",
+      "en": "To the Fall"
+    },
+    "description": {
+      "zh": "源石落，人自平之。\\n<@rolv.rem>明烛台-赴陨：位于其上的我方干员每隔一段时间受到数次法术伤害，每拥有4枚源石锭，受到法术伤害次数+1。若战斗结束时未撤退，则获得秉烛状态。</>",
+      "ja": "源石落ち、人自ら之を平らかにす。\n<@rolv.rem>明燭台-赴隕：明燭台の上にいる味方オペレーターは一定時間ごとに数回の術ダメージを受ける。所持中の源石錐4個につき、術ダメージを受ける回数+1。当該オペレーターが戦闘終了時に撤退していない場合、伺燭客になる</>",
+      "en": "If Originium falls, calm it yourself.\n<@rolv.rem>Candle Stand: To the Fall: the Operator on this stand takes several instances of Arts damage at regular intervals. For every 4 Originium Ingots owned, number of instances +1. If the battle ends without that Operator retreating, they become a Candleguest.</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_fs_5",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_fs-5",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "斥洪",
+      "ja": "斥洪",
+      "en": "Against the Flood"
+    },
+    "description": {
+      "zh": "水行乱，人自改之。\\n<@rolv.rem>明烛台-斥洪：位于其上的我方干员更易受到敌人攻击，且受到物理与法术伤害增加。若战斗结束时未撤退，则获得秉烛状态。</>",
+      "ja": "水行乱れば、人自ら之を改む。\n<@rolv.rem>明燭台-斥洪：明燭台の上にいる味方オペレーターは敵に狙われやすくなり、物理と術の被ダメージ量が上昇する。当該オペレーターが戦闘終了時に撤退していない場合、伺燭客になる</>",
+      "en": "If water flows wild, redirect it yourself.\n<@rolv.rem>Candle Stand: Against the Flood: the Operator on this stand is more likely to be attacked by enemies, and receives increased Physical and Arts damage. If the battle ends without that Operator retreating, they become a Candleguest.</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_fs_5_b",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_fs-5b",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "斥洪",
+      "ja": "斥洪",
+      "en": "Against the Flood"
+    },
+    "description": {
+      "zh": "水行乱，人自改之。\\n<@rolv.rem>明烛台-斥洪：位于其上的我方干员更易受到敌人攻击，且受到物理与法术伤害增加。若战斗结束时未撤退，则获得秉烛状态。</>",
+      "ja": "水行乱れば、人自ら之を改む。\n<@rolv.rem>明燭台-斥洪：明燭台の上にいる味方オペレーターは敵に狙われやすくなり、物理と術の被ダメージ量が上昇する。当該オペレーターが戦闘終了時に撤退していない場合、伺燭客になる</>",
+      "en": "If water flows wild, redirect it yourself.\n<@rolv.rem>Candle Stand: Against the Flood: the Operator on this stand is more likely to be attacked by enemies, and receives increased Physical and Arts damage. If the battle ends without that Operator retreating, they become a Candleguest.</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_dv_5",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_dv-5",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "分明",
+      "ja": "明瞭",
+      "en": "Clarity"
+    },
+    "description": {
+      "zh": "某人在这明暗黑白交错间为你置了一副棋局，以防你真要对弈时手忙脚乱。",
+      "ja": "あなたが本番の対局で慌てないように、ある人がこの明暗と白黒が錯綜する空間に盤面を配置してくれた。",
+      "en": "Someone has placed a board here where black and white intersect, so that you will not be confused when you sit down for an actual game."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_1",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_sv-1",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "地有四难",
+      "ja": "地に四難有り",
+      "en": "The Four Difficulties"
+    },
+    "description": {
+      "zh": "出人头地，难；学以致用，难；繁衍生息，难；免于沉湎，难。",
+      "ja": "頭角を現すは、難し。学びて以て能く用うるは、難し。繁栄すること窮むる無きは、難し。耽溺を避くるは、難し。",
+      "en": "To stand out from the crowd is a difficulty. To apply what you have learned is a difficulty. To thrive is a difficulty. To free yourself from wallowing is a difficulty."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_1_b",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_sv-1-b",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "地有四难",
+      "ja": "地に四難有り",
+      "en": "The Four Difficulties"
+    },
+    "description": {
+      "zh": "出人头地，难；学以致用，难；繁衍生息，难；免于沉湎，难。",
+      "ja": "頭角を現すは、難し。学びて以て能く用うるは、難し。繁栄すること窮むる無きは、難し。耽溺を避くるは、難し。",
+      "en": "To stand out from the crowd is a difficulty. To apply what you have learned is a difficulty. To thrive is a difficulty. To free yourself from wallowing is a difficulty."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "id": "ro5_sv_2",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_sv-2",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "凭器",
+      "ja": "器頼み",
+      "en": "Ware-User"
+    },
+    "description": {
+      "zh": "是否有一日，伥也会想要脱去自己的皮囊，随着时代变迁，将意识附于全新的造物上？\\n<@rolv.rem>场地中有使我方不会成为敌人远程攻击目标的<排气格栅></>\\n<@rolv.rem>胜利后获得收藏品及其他奖励</>",
+      "ja": "いつかは器鬼も自らの皮を脱ぎ捨て、時代の変化に合わせて全く新しい創造物に意識を移したいと思う日が来るだろうか？\n<@rolv.rem>配置した味方が敵遠距離攻撃の対象にならない<換気口>が出現</>\n<@rolv.rem>勝利後、秘宝とその他報酬を獲得可能</>",
+      "en": "Are there ever days when geists too will wish to shed their forms and change with the times, attaching their consciousnesses to an all-new creation?\n<@rolv.rem><Exhaust Grilles> are present on the field; Operators deployed on this tile will not be targeted by enemy ranged attacks</>\n<@rolv.rem>Obtain Collectibles and other rewards upon victory</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_2_b",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_sv-2-b",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "凭器",
+      "ja": "器頼み",
+      "en": "Ware-User"
+    },
+    "description": {
+      "zh": "是否有一日，伥也会想要脱去自己的皮囊，随着时代变迁，将意识附于全新的造物上？\\n<@rolv.rem>场地中有使我方不会成为敌人远程攻击目标的<排气格栅></>\\n<@rolv.rem>胜利后获得收藏品及其他奖励</>",
+      "ja": "いつかは器鬼も自らの皮を脱ぎ捨て、時代の変化に合わせて全く新しい創造物に意識を移したいと思う日が来るだろうか？\n<@rolv.rem>配置した味方が敵遠距離攻撃の対象にならない<換気口>が出現</>\n<@rolv.rem>勝利後、秘宝とその他報酬を獲得可能</>",
+      "en": "Are there ever days when geists too will wish to shed their forms and change with the times, attaching their consciousnesses to an all-new creation?\n<@rolv.rem><Exhaust Grilles> are present on the field; Operators deployed on this tile will not be targeted by enemy ranged attacks</>\n<@rolv.rem>Obtain Collectibles and other rewards upon victory</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_2_c",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_sv-2-c",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "凭器",
+      "ja": "器頼み",
+      "en": "Ware-User"
+    },
+    "description": {
+      "zh": "是否有一日，伥也会想要脱去自己的皮囊，随着时代变迁，将意识附于全新的造物上？\\n<@rolv.rem>场地中有阻挡敌人的<城防路障></>\\n<@rolv.rem>场地中有使我方不会成为敌人远程攻击目标的<排气格栅></>\\n<@rolv.rem>胜利后获得收藏品及其他奖励</>",
+      "ja": "いつかは器鬼も自らの皮を脱ぎ捨て、時代の変化に合わせて全く新しい創造物に意識を移したいと思う日が来るだろうか？\n<@rolv.rem>敵をブロックできる<都市防衛柵>が出現</>\n<@rolv.rem>配置した味方が敵遠距離攻撃の対象にならない<換気口>が出現</>\n<@rolv.rem>勝利後、秘宝とその他報酬を獲得可能</>",
+      "en": "Are there ever days when geists too will wish to shed their forms and change with the times, attaching their consciousnesses to an all-new creation?\n<@rolv.rem><Defensive Barricades> are present on the field that Block enemies</>\n<@rolv.rem><Exhaust Grilles> are present on the field; Operators deployed on this tile will not be targeted by enemy ranged attacks</>\n<@rolv.rem>Obtain Collectibles and other rewards upon victory</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_3",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_sv-3",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "忘形",
+      "ja": "我を忘れる",
+      "en": "To Forget Oneself"
+    },
+    "description": {
+      "zh": "世上有两种得意：一种高高在上，有恃无恐；一种从口而出，真假难辨。\\n<@rolv.rem>胜利后获得收藏品及其他奖励</>",
+      "ja": "世の中には二種類のうぬぼれが存在する。一つは高みに登りつめて恐れを知らぬもの、一つは口先だけのもので真偽の判別が難しいものである。\n<@rolv.rem>勝利後、秘宝とその他報酬を獲得可能</>",
+      "en": "There are two types of arrogance in the land: one is lofty and cocksure, the other is spoken and deceitful.\n<@rolv.rem>Obtain Collectibles and other rewards upon victory</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_3_b",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_sv-3-b",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "忘形",
+      "ja": "我を忘れる",
+      "en": "To Forget Oneself"
+    },
+    "description": {
+      "zh": "世上有两种得意：一种高高在上，有恃无恐；一种从口而出，真假难辨。\\n<@rolv.rem>胜利后获得收藏品及其他奖励</>",
+      "ja": "世の中には二種類のうぬぼれが存在する。一つは高みに登りつめて恐れを知らぬもの、一つは口先だけのもので真偽の判別が難しいものである。\n<@rolv.rem>勝利後、秘宝とその他報酬を獲得可能</>",
+      "en": "There are two types of arrogance in the land: one is lofty and cocksure, the other is spoken and deceitful.\n<@rolv.rem>Obtain Collectibles and other rewards upon victory</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_4",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_sv-4",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "贪妄",
+      "ja": "貪欲にして妄執",
+      "en": "Avarice"
+    },
+    "description": {
+      "zh": "燃烧不尽，生长不息，饥渴不止。长此以往，通常只会迎来自毁的结局。\\n<@rolv.rem>胜利后获得收藏品及其他奖励</>",
+      "ja": "燃焼尽きず、生長息まず、飢渴止まらず。長く此れ以て往けば、必ず只だ自ら毀つの顛末を迎う。\n<@rolv.rem>勝利後、秘宝とその他報酬を獲得可能</>",
+      "en": "To burn unending, to grow unending, to hunger unending. These forms of development will only lead to self-destruction.\n<@rolv.rem>Obtain Collectibles and other rewards upon victory</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_5",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_sv-5",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "奇谭",
+      "ja": "奇譚",
+      "en": "Strange Tales"
+    },
+    "description": {
+      "zh": "东游的萨科塔叫什么？也会有如同阿纳萨一般的名号吗？——在如是虚幻的想象中，时光流逝殆尽。\\n<@rolv.rem>场地中有夺取后回复周围友方单位技力的<“冰淇淋机”></>\\n<@rolv.rem>胜利后获得收藏品及其他奖励</>",
+      "ja": "東に向かうサンクタは何と呼ばれるのだろう？「アナサ」のような名前があるのだろうか――このような虚ろな想像の中で、ただ時間だけが過ぎていく。\n<@rolv.rem>制御権を奪取すると、周囲の味方ユニットのSPを回復する<「ジェラート供給所」>が出現</>\n<@rolv.rem>勝利後、秘宝とその他報酬を獲得可能</>",
+      "en": "What would Sankta who headed east be called? Would they have a name like the Anasa? And thus, in this imaginary illusion, time flows until there is none left.\n<@rolv.rem><'Gelato Stops'> are present on the field that restore allied SP when captured</>\n<@rolv.rem>Obtain Collectibles and other rewards upon victory</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_5_b",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_sv-5-b",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "奇谭",
+      "ja": "奇譚",
+      "en": "Strange Tales"
+    },
+    "description": {
+      "zh": "东游的萨科塔叫什么？也会有如同阿纳萨一般的名号吗？——在如是虚幻的想象中，时光流逝殆尽。\\n<@rolv.rem>胜利后获得收藏品及其他奖励</>",
+      "ja": "東に向かうサンクタは何と呼ばれるのだろう？「アナサ」のような名前があるのだろうか――このような虚ろな想像の中で、ただ時間だけが過ぎていく。\n<@rolv.rem>勝利後、秘宝とその他報酬を獲得可能</>",
+      "en": "What would Sankta who headed east be called? Would they have a name like the Anasa? And thus, in this imaginary illusion, time flows until there is none left.\n<@rolv.rem>Obtain Collectibles and other rewards upon victory</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_6",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_sv-6",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "破局",
+      "ja": "局面打破",
+      "en": "Breakthrough"
+    },
+    "description": {
+      "zh": "选择众多，生路只有一条。\\n<@rolv.rem>胜利后获得收藏品及其他奖励</>",
+      "ja": "多くの選択肢がある中で、生き残る道は一つしかない。\n<@rolv.rem>勝利後、秘宝とその他報酬を獲得可能</>",
+      "en": "From these many paths, there is only one that leads to survival.\n<@rolv.rem>Obtain Collectibles and other rewards upon victory</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_6_b",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_sv-6-b",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "破局",
+      "ja": "局面打破",
+      "en": "Breakthrough"
+    },
+    "description": {
+      "zh": "选择众多，生路只有一条。\\n<@rolv.rem>胜利后获得收藏品及其他奖励</>",
+      "ja": "多くの選択肢がある中で、生き残る道は一つしかない。\n<@rolv.rem>勝利後、秘宝とその他報酬を獲得可能</>",
+      "en": "From these many paths, there is only one that leads to survival.\n<@rolv.rem>Obtain Collectibles and other rewards upon victory</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_7",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_sv-7",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "不鉴",
+      "ja": "教訓とせず",
+      "en": "Unreflecting"
+    },
+    "description": {
+      "zh": "惟余复哀。\\n<@rolv.rem>胜利后获得收藏品及其他奖励</>\\n<@rolv.rem>场地中有夺取后可以治疗友方单位并对敌方造成法术伤害的<\"留声机\"></>",
+      "ja": "ただ、悲しみを繰り返すだけだ。\n<@rolv.rem>勝利後、秘宝とその他報酬を獲得可能</>\n<@rolv.rem>制御権を奪取した後、周囲の別陣営のユニットに術ダメージを与え、同陣営のユニットを治療する<「蓄音機」>が出現</>",
+      "en": "Overthinking only leads to more sorrow.\n<@rolv.rem>Obtain Collectibles and other rewards upon victory</>\n<@rolv.rem><Gramophones> that deal Arts damage to enemies and heal allies when captured are present on the field</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_7_b",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_sv-7-b",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "不鉴",
+      "ja": "教訓とせず",
+      "en": "Unreflecting"
+    },
+    "description": {
+      "zh": "惟余复哀。\\n<@rolv.rem>胜利后获得收藏品及其他奖励</>\\n<@rolv.rem>场地中有夺取后可以治疗友方单位并对敌方造成法术伤害的<\"留声机\"></>",
+      "ja": "ただ、悲しみを繰り返すだけだ。\n<@rolv.rem>勝利後、秘宝とその他報酬を獲得可能</>\n<@rolv.rem>制御権を奪取した後、周囲の別陣営のユニットに術ダメージを与え、同陣営のユニットを治療する<「蓄音機」>が出現</>",
+      "en": "Overthinking only leads to more sorrow.\n<@rolv.rem>Obtain Collectibles and other rewards upon victory</>\n<@rolv.rem><Gramophones> that deal Arts damage to enemies and heal allies when captured are present on the field</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_8",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_sv-8",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "靡靡之音",
+      "ja": "退廃の音",
+      "en": "Frivolous Tunes"
+    },
+    "description": {
+      "zh": "人心如曲，积重难调。\\n<@rolv.rem>胜利后获得收藏品及其他奖励</>\\n<@rolv.rem>场地中有使我方单位防御力减半的<腐蚀地面>。</>",
+      "ja": "人の心は音楽の旋律のように幾重にも重なり合い、調和するのは難しい。\n<@rolv.rem>勝利後、秘宝とその他報酬を獲得可能</>\n<@rolv.rem>味方ユニットの防御力を半減させる<腐食した地面>が出現</>",
+      "en": "The will of the masses is like a song. The more there are, the harder it is to harmonize.\n<@rolv.rem>Obtain Collectibles and other rewards upon victory</>\n<@rolv.rem>This stage has <Corrosive Ground> that halves the DEF of allied units deployed on it.</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_8_b",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_sv-8-b",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "靡靡之音",
+      "ja": "退廃の音",
+      "en": "Frivolous Tunes"
+    },
+    "description": {
+      "zh": "人心如曲，积重难调。\\n<@rolv.rem>胜利后获得收藏品及其他奖励</>\\n<@rolv.rem>场地中有使我方单位防御力减半的<腐蚀地面>。</>",
+      "ja": "人の心は音楽の旋律のように幾重にも重なり合い、調和するのは難しい。\n<@rolv.rem>勝利後、秘宝とその他報酬を獲得可能</>\n<@rolv.rem>味方ユニットの防御力を半減させる<腐食した地面>が出現</>",
+      "en": "The will of the masses is like a song. The more there are, the harder it is to harmonize.\n<@rolv.rem>Obtain Collectibles and other rewards upon victory</>\n<@rolv.rem>This stage has <Corrosive Ground> that halves the DEF of allied units deployed on it.</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_9",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_sv-9",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "愠怒",
+      "ja": "憤怒",
+      "en": "Inner Rage"
+    },
+    "description": {
+      "zh": "拆毁所有理性，也得不到宣泄后的自由。\\n<@rolv.rem>胜利后获得收藏品及其他奖励</>",
+      "ja": "全ての理性を打ち捨てたとしても、感情を発散した後に自由は得られない。\n<@rolv.rem>勝利後、秘宝とその他報酬を獲得可能</>",
+      "en": "Ridding yourself of all rationality will not grant you freedom.\n<@rolv.rem>Obtain Collectibles and other rewards upon victory</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_9_b",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_sv-9-b",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "愠怒",
+      "ja": "憤怒",
+      "en": "Inner Rage"
+    },
+    "description": {
+      "zh": "拆毁所有理性，也得不到宣泄后的自由。\\n<@rolv.rem>胜利后获得收藏品及其他奖励</>",
+      "ja": "全ての理性を打ち捨てたとしても、感情を発散した後に自由は得られない。\n<@rolv.rem>勝利後、秘宝とその他報酬を獲得可能</>",
+      "en": "Ridding yourself of all rationality will not grant you freedom.\n<@rolv.rem>Obtain Collectibles and other rewards upon victory</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_9_c",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_sv-9-c",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "愠怒",
+      "ja": "憤怒",
+      "en": "Inner Rage"
+    },
+    "description": {
+      "zh": "拆毁所有理性，也得不到宣泄后的自由。\\n<@rolv.rem>胜利后获得收藏品及其他奖励</>",
+      "ja": "全ての理性を打ち捨てたとしても、感情を発散した後に自由は得られない。\n<@rolv.rem>勝利後、秘宝とその他報酬を獲得可能</>",
+      "en": "Ridding yourself of all rationality will not grant you freedom.\n<@rolv.rem>Obtain Collectibles and other rewards upon victory</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_10",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_sv-10",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "迷惘",
+      "ja": "迷い",
+      "en": "Confusion"
+    },
+    "description": {
+      "zh": "别被蛛网困住。当断则断，当立则立。\\n<@rolv.rem>胜利后获得收藏品及其他奖励</>\\n<@lv.item><火灶></>召唤“人间烟火”对沿途所有敌方单位造成真实伤害。\\n<@lv.item><废弃火灶></>召唤“饮露餐风”对所有沿途我方单位造成真实伤害。\\n<@rolv.rem>场地中有可以阻挡敌人行进路线的<碎石></>",
+      "ja": "グモの巣に囚われるなかれ。当に断つべくして則ち断ち、当に立つべくして則ち立つべし。\n<@rolv.rem>勝利後、秘宝とその他報酬を獲得可能</>\n<@lv.item><竈台></>「人間煙火」を召喚し、接触した敵全員に確定ダメージを与える\n<@lv.item><破棄された竈台></>「飲露餐風」を召喚し、接触した味方ユニット全員に確定ダメージを与える\n<@rolv.rem>敵の進攻ルートを遮る<礫岩>が出現</>",
+      "en": "Do not get ensnared by the web. Be decisive, and follow through.\n<@rolv.rem>Obtain Collectibles and other rewards upon victory</>\n<@lv.item><Stove></> Summons 'Sapid Auspice' to deal True damage to all enemies in its path.\n<@lv.item><Derelict Stove></> Summons 'Vapid Blight' to deal True damage to all allied units in its path.\n<@rolv.rem>This stage has <Rubble> that can block the enemy's path</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_10_b",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_sv-10-b",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "迷惘",
+      "ja": "迷い",
+      "en": "Confusion"
+    },
+    "description": {
+      "zh": "别被蛛网困住。当断则断，当立则立。\\n<@rolv.rem>胜利后获得收藏品及其他奖励</>\\n<@rolv.rem>场地中有可以阻挡敌人行进路线的<碎石></>",
+      "ja": "グモの巣に囚われるなかれ。当に断つべくして則ち断ち、当に立つべくして則ち立つべし。\n<@rolv.rem>勝利後、秘宝とその他報酬を獲得可能</>\n<@rolv.rem>敵の進攻ルートを遮る<礫岩>が出現</>",
+      "en": "Do not get ensnared by the web. Be decisive, and follow through.\n<@rolv.rem>Obtain Collectibles and other rewards upon victory</>\n<@rolv.rem>This stage has <Rubble> that can block the enemy's path</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_11",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_sv-11",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "震坎",
+      "ja": "震坎",
+      "en": "Difficult Beginnings"
+    },
+    "description": {
+      "zh": "惊雷移，涡旋停。",
+      "ja": "驚雷が移り、渦旋が停まる。",
+      "en": "Thunder claps, and the maelstrom stops."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_12",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_sv-12",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "四方",
+      "ja": "四方",
+      "en": "Everywhere"
+    },
+    "description": {
+      "zh": "求同，祛异。",
+      "ja": "同を求め、異を除く。",
+      "en": "Seek similarity, reject difference."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_13",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_sv-13",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "时封",
+      "ja": null,
+      "en": null
+    },
+    "description": {
+      "zh": "时光定格在了群兽起乱的那一刻，但封禁总有尽头，赶快寻找出路吧。",
+      "ja": null,
+      "en": null
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_14",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_sv-14",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "遍地福音",
+      "ja": null,
+      "en": null
+    },
+    "description": {
+      "zh": "无论被何人收藏，无论被置于何处，拉特兰圣像那照拂一切的光芒都无法掩盖。",
+      "ja": null,
+      "en": null
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_15",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_sv-15",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "相合",
+      "ja": null,
+      "en": null
+    },
+    "description": {
+      "zh": "左行人，右行伥，远伐近攻，至尽而相合。",
+      "ja": null,
+      "en": null
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_1_dlc1",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/DLC1/level_rogue5_sv-1_dlc1",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "地有四难",
+      "ja": "地に四難有り",
+      "en": "The Four Difficulties"
+    },
+    "description": {
+      "zh": "出人头地，难；学以致用，难；繁衍生息，难；免于沉湎，难。",
+      "ja": "頭角を現すは、難し。学びて以て能く用うるは、難し。繁栄すること窮むる無きは、難し。耽溺を避くるは、難し。",
+      "en": "To stand out from the crowd is a difficulty. To apply what you have learned is a difficulty. To thrive is a difficulty. To free yourself from wallowing is a difficulty."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_1_b_dlc1",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/DLC1/level_rogue5_sv-1-b_dlc1",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "地有四难",
+      "ja": "地に四難有り",
+      "en": "The Four Difficulties"
+    },
+    "description": {
+      "zh": "出人头地，难；学以致用，难；繁衍生息，难；免于沉湎，难。",
+      "ja": "頭角を現すは、難し。学びて以て能く用うるは、難し。繁栄すること窮むる無きは、難し。耽溺を避くるは、難し。",
+      "en": "To stand out from the crowd is a difficulty. To apply what you have learned is a difficulty. To thrive is a difficulty. To free yourself from wallowing is a difficulty."
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "id": "ro5_sv_3_dlc1",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/DLC1/level_rogue5_sv-3_dlc1",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "忘形",
+      "ja": "我を忘れる",
+      "en": "To Forget Oneself"
+    },
+    "description": {
+      "zh": "世上有两种得意：一种高高在上，有恃无恐；一种从口而出，真假难辨。\\n<@rolv.rem>胜利后获得收藏品及其他奖励</>",
+      "ja": "世の中には二種類のうぬぼれが存在する。一つは高みに登りつめて恐れを知らぬもの、一つは口先だけのもので真偽の判別が難しいものである。\n<@rolv.rem>勝利後、秘宝とその他報酬を獲得可能</>",
+      "en": "There are two types of arrogance in the land: one is lofty and cocksure, the other is spoken and deceitful.\n<@rolv.rem>Obtain Collectibles and other rewards upon victory</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_3_b_dlc1",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/DLC1/level_rogue5_sv-3-b_dlc1",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "忘形",
+      "ja": "我を忘れる",
+      "en": "To Forget Oneself"
+    },
+    "description": {
+      "zh": "世上有两种得意：一种高高在上，有恃无恐；一种从口而出，真假难辨。\\n<@rolv.rem>胜利后获得收藏品及其他奖励</>",
+      "ja": "世の中には二種類のうぬぼれが存在する。一つは高みに登りつめて恐れを知らぬもの、一つは口先だけのもので真偽の判別が難しいものである。\n<@rolv.rem>勝利後、秘宝とその他報酬を獲得可能</>",
+      "en": "There are two types of arrogance in the land: one is lofty and cocksure, the other is spoken and deceitful.\n<@rolv.rem>Obtain Collectibles and other rewards upon victory</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_4_dlc1",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/DLC1/level_rogue5_sv-4_dlc1",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "贪妄",
+      "ja": "貪欲にして妄執",
+      "en": "Avarice"
+    },
+    "description": {
+      "zh": "燃烧不尽，生长不息，饥渴不止。长此以往，通常只会迎来自毁的结局。\\n<@rolv.rem>胜利后获得收藏品及其他奖励</>",
+      "ja": "燃焼尽きず、生長息まず、飢渴止まらず。長く此れ以て往けば、必ず只だ自ら毀つの顛末を迎う。\n<@rolv.rem>勝利後、秘宝とその他報酬を獲得可能</>",
+      "en": "To burn unending, to grow unending, to hunger unending. These forms of development will only lead to self-destruction.\n<@rolv.rem>Obtain Collectibles and other rewards upon victory</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_5_dlc1",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/DLC1/level_rogue5_sv-5_dlc1",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "奇谭",
+      "ja": "奇譚",
+      "en": "Strange Tales"
+    },
+    "description": {
+      "zh": "东游的萨科塔叫什么？也会有如同阿纳萨一般的名号吗？——在如是虚幻的想象中，时光流逝殆尽。\\n<@rolv.rem>场地中有夺取后回复周围友方单位技力的<“冰淇淋机”></>\\n<@rolv.rem>胜利后获得收藏品及其他奖励</>",
+      "ja": "東に向かうサンクタは何と呼ばれるのだろう？「アナサ」のような名前があるのだろうか――このような虚ろな想像の中で、ただ時間だけが過ぎていく。\n<@rolv.rem>制御権を奪取すると、周囲の味方ユニットのSPを回復する<「ジェラート供給所」>が出現</>\n<@rolv.rem>勝利後、秘宝とその他報酬を獲得可能</>",
+      "en": "What would Sankta who headed east be called? Would they have a name like the Anasa? And thus, in this imaginary illusion, time flows until there is none left.\n<@rolv.rem><'Gelato Stops'> are present on the field that restore allied SP when captured</>\n<@rolv.rem>Obtain Collectibles and other rewards upon victory</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_5_b_dlc1",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/DLC1/level_rogue5_sv-5-b_dlc1",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "奇谭",
+      "ja": "奇譚",
+      "en": "Strange Tales"
+    },
+    "description": {
+      "zh": "东游的萨科塔叫什么？也会有如同阿纳萨一般的名号吗？——在如是虚幻的想象中，时光流逝殆尽。\\n<@rolv.rem>胜利后获得收藏品及其他奖励</>",
+      "ja": "東に向かうサンクタは何と呼ばれるのだろう？「アナサ」のような名前があるのだろうか――このような虚ろな想像の中で、ただ時間だけが過ぎていく。\n<@rolv.rem>勝利後、秘宝とその他報酬を獲得可能</>",
+      "en": "What would Sankta who headed east be called? Would they have a name like the Anasa? And thus, in this imaginary illusion, time flows until there is none left.\n<@rolv.rem>Obtain Collectibles and other rewards upon victory</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_6_dlc1",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/DLC1/level_rogue5_sv-6_dlc1",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "破局",
+      "ja": "局面打破",
+      "en": "Breakthrough"
+    },
+    "description": {
+      "zh": "选择众多，生路只有一条。\\n<@rolv.rem>胜利后获得收藏品及其他奖励</>",
+      "ja": "多くの選択肢がある中で、生き残る道は一つしかない。\n<@rolv.rem>勝利後、秘宝とその他報酬を獲得可能</>",
+      "en": "From these many paths, there is only one that leads to survival.\n<@rolv.rem>Obtain Collectibles and other rewards upon victory</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_6_b_dlc1",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/DLC1/level_rogue5_sv-6-b_dlc1",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "破局",
+      "ja": "局面打破",
+      "en": "Breakthrough"
+    },
+    "description": {
+      "zh": "选择众多，生路只有一条。\\n<@rolv.rem>胜利后获得收藏品及其他奖励</>",
+      "ja": "多くの選択肢がある中で、生き残る道は一つしかない。\n<@rolv.rem>勝利後、秘宝とその他報酬を獲得可能</>",
+      "en": "From these many paths, there is only one that leads to survival.\n<@rolv.rem>Obtain Collectibles and other rewards upon victory</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_7_dlc1",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/DLC1/level_rogue5_sv-7_dlc1",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "不鉴",
+      "ja": "教訓とせず",
+      "en": "Unreflecting"
+    },
+    "description": {
+      "zh": "惟余复哀。\\n<@rolv.rem>胜利后获得收藏品及其他奖励</>\\n<@rolv.rem>场地中有夺取后可以治疗友方单位并对敌方造成法术伤害的<\"留声机\"></>",
+      "ja": "ただ、悲しみを繰り返すだけだ。\n<@rolv.rem>勝利後、秘宝とその他報酬を獲得可能</>\n<@rolv.rem>制御権を奪取した後、周囲の別陣営のユニットに術ダメージを与え、同陣営のユニットを治療する<「蓄音機」>が出現</>",
+      "en": "Overthinking only leads to more sorrow.\n<@rolv.rem>Obtain Collectibles and other rewards upon victory</>\n<@rolv.rem><Gramophones> that deal Arts damage to enemies and heal allies when captured are present on the field</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_7_b_dlc1",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/DLC1/level_rogue5_sv-7-b_dlc1",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "不鉴",
+      "ja": "教訓とせず",
+      "en": "Unreflecting"
+    },
+    "description": {
+      "zh": "惟余复哀。\\n<@rolv.rem>胜利后获得收藏品及其他奖励</>\\n<@rolv.rem>场地中有夺取后可以治疗友方单位并对敌方造成法术伤害的<\"留声机\"></>",
+      "ja": "ただ、悲しみを繰り返すだけだ。\n<@rolv.rem>勝利後、秘宝とその他報酬を獲得可能</>\n<@rolv.rem>制御権を奪取した後、周囲の別陣営のユニットに術ダメージを与え、同陣営のユニットを治療する<「蓄音機」>が出現</>",
+      "en": "Overthinking only leads to more sorrow.\n<@rolv.rem>Obtain Collectibles and other rewards upon victory</>\n<@rolv.rem><Gramophones> that deal Arts damage to enemies and heal allies when captured are present on the field</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_8_dlc1",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/DLC1/level_rogue5_sv-8_dlc1",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "靡靡之音",
+      "ja": "退廃の音",
+      "en": "Frivolous Tunes"
+    },
+    "description": {
+      "zh": "人心如曲，积重难调。\\n<@rolv.rem>胜利后获得收藏品及其他奖励</>\\n<@rolv.rem>场地中有使我方单位防御力减半的<腐蚀地面>。</>",
+      "ja": "人の心は音楽の旋律のように幾重にも重なり合い、調和するのは難しい。\n<@rolv.rem>勝利後、秘宝とその他報酬を獲得可能</>\n<@rolv.rem>味方ユニットの防御力を半減させる<腐食した地面>が出現</>",
+      "en": "The will of the masses is like a song. The more there are, the harder it is to harmonize.\n<@rolv.rem>Obtain Collectibles and other rewards upon victory</>\n<@rolv.rem>This stage has <Corrosive Ground> that halves the DEF of allied units deployed on it.</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_8_b_dlc1",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/DLC1/level_rogue5_sv-8-b_dlc1",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "靡靡之音",
+      "ja": "退廃の音",
+      "en": "Frivolous Tunes"
+    },
+    "description": {
+      "zh": "人心如曲，积重难调。\\n<@rolv.rem>胜利后获得收藏品及其他奖励</>\\n<@rolv.rem>场地中有使我方单位防御力减半的<腐蚀地面>。</>",
+      "ja": "人の心は音楽の旋律のように幾重にも重なり合い、調和するのは難しい。\n<@rolv.rem>勝利後、秘宝とその他報酬を獲得可能</>\n<@rolv.rem>味方ユニットの防御力を半減させる<腐食した地面>が出現</>",
+      "en": "The will of the masses is like a song. The more there are, the harder it is to harmonize.\n<@rolv.rem>Obtain Collectibles and other rewards upon victory</>\n<@rolv.rem>This stage has <Corrosive Ground> that halves the DEF of allied units deployed on it.</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_9_dlc1",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/DLC1/level_rogue5_sv-9_dlc1",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "愠怒",
+      "ja": "憤怒",
+      "en": "Inner Rage"
+    },
+    "description": {
+      "zh": "拆毁所有理性，也得不到宣泄后的自由。\\n<@rolv.rem>胜利后获得收藏品及其他奖励</>",
+      "ja": "全ての理性を打ち捨てたとしても、感情を発散した後に自由は得られない。\n<@rolv.rem>勝利後、秘宝とその他報酬を獲得可能</>",
+      "en": "Ridding yourself of all rationality will not grant you freedom.\n<@rolv.rem>Obtain Collectibles and other rewards upon victory</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_10_dlc1",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/DLC1/level_rogue5_sv-10_dlc1",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "迷惘",
+      "ja": "迷い",
+      "en": "Confusion"
+    },
+    "description": {
+      "zh": "别被蛛网困住。当断则断，当立则立。\\n<@rolv.rem>胜利后获得收藏品及其他奖励</>\\n<@lv.item><火灶></>召唤“人间烟火”对沿途所有敌方单位造成真实伤害。\\n<@lv.item><废弃火灶></>召唤“饮露餐风”对所有沿途我方单位造成真实伤害。\\n<@rolv.rem>场地中有可以阻挡敌人行进路线的<碎石></>",
+      "ja": "グモの巣に囚われるなかれ。当に断つべくして則ち断ち、当に立つべくして則ち立つべし。\n<@rolv.rem>勝利後、秘宝とその他報酬を獲得可能</>\n<@lv.item><竈台></>「人間煙火」を召喚し、接触した敵全員に確定ダメージを与える\n<@lv.item><破棄された竈台></>「飲露餐風」を召喚し、接触した味方ユニット全員に確定ダメージを与える\n<@rolv.rem>敵の進攻ルートを遮る<礫岩>が出現</>",
+      "en": "Do not get ensnared by the web. Be decisive, and follow through.\n<@rolv.rem>Obtain Collectibles and other rewards upon victory</>\n<@lv.item><Stove></> Summons 'Sapid Auspice' to deal True damage to all enemies in its path.\n<@lv.item><Derelict Stove></> Summons 'Vapid Blight' to deal True damage to all allied units in its path.\n<@rolv.rem>This stage has <Rubble> that can block the enemy's path</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_sv_10_b_dlc1",
+    "linkedStageId": "",
+    "levelId": "Obt/Roguelike/RO5/DLC1/level_rogue5_sv-10-b_dlc1",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "迷惘",
+      "ja": "迷い",
+      "en": "Confusion"
+    },
+    "description": {
+      "zh": "别被蛛网困住。当断则断，当立则立。\\n<@rolv.rem>胜利后获得收藏品及其他奖励</>\\n<@rolv.rem>场地中有可以阻挡敌人行进路线的<碎石></>",
+      "ja": "グモの巣に囚われるなかれ。当に断つべくして則ち断ち、当に立つべくして則ち立つべし。\n<@rolv.rem>勝利後、秘宝とその他報酬を獲得可能</>\n<@rolv.rem>敵の進攻ルートを遮る<礫岩>が出現</>",
+      "en": "Do not get ensnared by the web. Be decisive, and follow through.\n<@rolv.rem>Obtain Collectibles and other rewards upon victory</>\n<@rolv.rem>This stage has <Rubble> that can block the enemy's path</>"
+    },
+    "eliteDesc": {
+      "zh": null,
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 0,
+    "difficulty": "NORMAL",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_1_1",
+    "linkedStageId": "ro5_n_1_1",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_1-1",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_1-1_dlc1"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "狡鼷三窟",
+      "ja": "鼷獣の巣穴",
+      "en": "Whack-A-Mus"
+    },
+    "description": {
+      "zh": "传说，界园里的鼷兽喜啃古籍诗书。有游客吟出酸诗俗句，听到阴暗处的嘻嘻嘲笑，追之则匿迹穴中，勃然大怒与之大战。",
+      "ja": "噂によると、界園の鼷獣は、古い文献や詩集を好んでかじるそうだ。ある観光客がデタラメな詩を吟じていると、影で嘲笑う声が聞こえ、声の主を追いかけたところ穴の中に逃げ込まれたため、観光客は怒り狂って大喧嘩になったという。",
+      "en": "Legend says the musbeasts of the Garden of Grotesqueries love to nibble on ancient tomes of poetry. Visitors who recite sordid poems or vulgar words will hear jeering chitters from the shadows, and chase after them to hidden burrows, ultimately provoking furious battles."
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力和生命值提升，出现额外敌人",
+      "ja": "敵の攻撃力と最大HPが上昇。追加の敵が出現",
+      "en": "Enemies gain increased ATK and HP; additional enemies will appear"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_1_2",
+    "linkedStageId": "ro5_n_1_2",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_1-2",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_1-2_dlc1"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "赶集",
+      "ja": "露店市場へ",
+      "en": "To Market"
+    },
+    "description": {
+      "zh": "偶见人群方方正正地列在空地。问之，答：“去赶集。”铜锣一响，摇摇晃晃行走起来，路遇障碍则除之。见者无不心惊。",
+      "ja": "空地に行儀よく並んでいる人々がいた。理由を尋ねたところ、「定期的にやってる露店市場へ行くんだ」と言った。銅鑼の音が鳴り響くと、人々はフラフラと歩き出し、行く手を阻む障害を次々と取り除いていくので、見る者は皆、肝を冷やした。",
+      "en": "Occasionally, a group of people will line up in squares in an empty space. When asked, they say: 'We're going to market.' With the strike of a gong, they head off on a tottering march, destroying all that blocks the way. A startling sight for onlookers."
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力、防御力和生命值提升，出现不同敌人",
+      "ja": "敵の攻撃力、防御力と最大HPが上昇。異なる敵が出現",
+      "en": "Enemies gain increased ATK, DEF, and HP; different enemies will appear"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_1_3",
+    "linkedStageId": "ro5_n_1_3",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_1-3",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_1-3_dlc1"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "正经生意",
+      "ja": "まともな商売",
+      "en": "Serious Business"
+    },
+    "description": {
+      "zh": "要守住生意，靠的可不只是一张嘴。只不过，鲍老板对你的来意似乎有些误会？\\n<@rolv.rem>场地中有阻挡敌人的<城防路障></>",
+      "ja": "商売を守りたいなら、口だけに頼っていてはいけない。ただ、ボブの旦那はあなたがここに来た理由を少し誤解しているようだ。\n<@rolv.rem>敵をブロックできる<都市防衛柵>が出現</>",
+      "en": "You can't defend a business with only your mouth. But it does seem like Big Bob has misunderstood why you've come to his shop.\n<@rolv.rem><Defensive Barricades> are present on the field that Block enemies</>"
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力和生命值提升，大鲍勃的生命值额外提升",
+      "ja": "敵の攻撃力と最大HPが上昇。<ビッグ・ボブ>の最大HPが追加で上昇",
+      "en": "Enemies gain increased ATK and HP; Big Bob's HP is further increased"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_1_4",
+    "linkedStageId": "ro5_n_1_4",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_1-4",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_1-4_dlc1"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "老戏骨",
+      "ja": "老練の役者",
+      "en": "Veteran Actor"
+    },
+    "description": {
+      "zh": "你被热情地邀来看戏，却见戏院已是人去楼空。破败的戏台上忽然响起了唱曲声，似在挽留你，却让此景更显诡异。",
+      "ja": "あなたは熱心に観劇に誘われたが、いざ劇場へ行くと、すでに終演後で人っ子一人いなくなっていた。そんな中、突如としてボロボロの舞台に歌声が響いた。あなたを引き留めるようなその声は、目の前の光景をより不気味なものにした。",
+      "en": "You are cordially invited to watch the play, but the theater is deserted. There is a sudden burst of song from the shoddy stage as if urging you to stay, making the scene stranger than it already is."
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力和生命值提升，出现不同敌人，出现额外的雕伥",
+      "ja": "敵の攻撃力と最大HPが上昇。異なる敵が出現。追加の<彫像器鬼>が出現",
+      "en": "Enemies gain increased ATK and HP; different enemies will appear; additional Statuegeists will appear"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_1_5",
+    "linkedStageId": "ro5_n_1_5",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_1-5",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "驱虫",
+      "ja": "害虫駆除",
+      "en": "Pest Control"
+    },
+    "description": {
+      "zh": "在界园，驱虫这件事一般是由作物自己完成的，而在它们的认知里，只要不是农人，都可以归类为虫。",
+      "ja": "界園では、害虫駆除は基本的に作物自身が行うものであり、作物たちは農民以外の者をすべて害虫と見なしている。",
+      "en": "In the Garden of Grotesqueries, pest control is generally done by the crops themselves. In their minds, if you are not a farmer, then you are a pest."
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力和生命值提升，出现额外敌人，出现额外的雕伥",
+      "ja": "敵の攻撃力と最大HPが上昇。追加の敵が出現。追加の<彫像器鬼>が出現",
+      "en": "Enemies gain increased ATK and HP; additional enemies will appear; additional Statuegeists will appear"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_1_6",
+    "linkedStageId": "ro5_n_1_6",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_1-6",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "凭票入内",
+      "ja": "入園受付",
+      "en": "Ticket Please"
+    },
+    "description": {
+      "zh": "开园时人声鼎沸的场景仿佛印刻在了界园入口，以至于闭园时不懂事的伥怪们会争相模仿挤在一处检票的游客并乐在其中。",
+      "ja": "開園時の賑わいは界園の入口に刻まれているかのようで、そのせいか、閉園時間になると分別のない器鬼たちが観光客のように群がってはチケットのもぎりの真似をし、楽しげに騒ぎ立てる。",
+      "en": "It seems that the hubbub when the Garden opens has made its mark on the entrance, to the point that when it closes, naive geists are all too eager to imitate the tourists crowding into the gate to get their tickets inspected."
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力和生命值提升，沸血骑士团精锐的攻击力额外提升",
+      "ja": "敵の攻撃力と最大HPが上昇。<ブラッドボイル精鋭騎士>の攻撃力が追加で上昇",
+      "en": "Enemies gain increased ATK and HP; Bloodboil Knightclub Elite's ATK is further increased"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_2_1",
+    "linkedStageId": "ro5_n_2_1",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_2-1",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_2-1_dlc1"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "有教无类",
+      "ja": "教え有りて類無し",
+      "en": "Learning for All"
+    },
+    "description": {
+      "zh": "修葺工地上，工人们津津有味地听“天师”讲课。“人而不学，与伥何异！”途经此处的你被那位义正词严的“天师”训斥着拉入了“课堂”。",
+      "ja": "ある修理現場で、作業員たちが「天師」の講義を興味津々に聞いている。そこに通りかかったあなたは、「学ばぬ人間など、器鬼と変わりないではないか！」と正論を唱えるその「天師」に叱責されながら、無理やり「講堂」に引き入れられた。",
+      "en": "At the renovation site, the workers are eagerly listening to a lesson taught by a 'Tianshi'. 'Uneducated men are no different from geists!' As you pass by, you are pulled into the 'classroom' by the strict 'Tianshi'."
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力和防御力提升，生命值大幅提升，出现额外敌人，出现额外的雕伥",
+      "ja": "敵の攻撃力と防御力が上昇、最大HPが大幅に上昇。追加の敵が出現。追加の<彫像器鬼>が出現",
+      "en": "Enemies gain increased ATK and DEF and greatly increased HP; additional enemies will appear; additional Statuegeists will appear"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_2_2",
+    "linkedStageId": "ro5_n_2_2",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_2-2",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_2-2_dlc1"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "飞来横祸",
+      "ja": "飛来する災い",
+      "en": "Look Out Above"
+    },
+    "description": {
+      "zh": "满天飞的鬣犄兽与四处奔逃的角兽将园内搅得一团乱。那台引起骚乱的投掷机从何而来？角落里巧手的伥拍拍身上的木屑，满意离去。\\n<@lv.item><盐坨子炮></>周期性发射炮弹造成物理溅射伤害，可以将周围1名重量小于等于3的地面敌人传送至爆炸中心",
+      "ja": "空一面の山顎獣と逃げ惑う角獣が、界園を大混乱に陥れている。騒ぎを引き起こしたあの投擲機は、どこから現われたものだろうか？隅っこにいた手先が器用な器鬼は、体に付いた木くずを払い落とすと、満足げに立ち去った。\n<@lv.item><ソルトキャノン></>周期的に塩塊を放って物理範囲ダメージを与える。その際、周囲の地上にいる重量ランクが3以下の敵1体を着弾地点へと飛ばす",
+      "en": "Flying Oxmanes and fleeing Hornbeasts are causing a ruckus in the Garden. Where did the throwing device that started it all come from? A geist tinkerer pats the sawdust off his body in a corner of the garden, leaving in satisfaction.\n<@lv.item><Saltheap Cannon></> Periodically fires a shell forward, dealing Physical splash damage; can launch a nearby ground enemy of 3 Weight or less to the center of the explosion"
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力、防御力和生命值提升，出现额外的雕伥",
+      "ja": "敵の攻撃力、防御力と最大HPが上昇。追加の<彫像器鬼>が出現",
+      "en": "Enemies gain increased ATK, DEF, and HP; additional Statuegeists will appear"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_2_3",
+    "linkedStageId": "ro5_n_2_3",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_2-3",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_2-3_dlc1"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "所守者，义",
+      "ja": "守りしものは義なり",
+      "en": "Guardian of Justice"
+    },
+    "description": {
+      "zh": "侠士为一场对决等了十年，直至一小童前来：“别等了，十年前那人就死了。看，我找你这么多年，都长这么大了。”语毕消失不见，只留一把佩刀在地。\\n<@rolv.rem>场地中有夺取后可以治疗友方单位并对敌方造成法术伤害的<\"留声机\"></>",
+      "ja": "十年もの間、決闘を待っている侠客がいた。そこへ一人の子どもがやって来て、「もう待つことはありません。十年前にあの人は死にました。ほら、あなたを探している間に、私はこんなにも大きくなりました」と伝えた。言い終えるとすぐ、子どもの姿は消えてなくなり、一本の刀だけがその場に残された。\n<@rolv.rem>制御権を奪取した後、周囲の別陣営のユニットに術ダメージを与え、同陣営のユニットを治療する<「蓄音機」>が出現</>",
+      "en": "The wandering warrior has been awaiting this match for over a decade, until a young child comes over: 'You can stop waiting now, that guy died ten years ago. Look, I've been looking for you so long, I'm big now.' Once done speaking, the child disappears, leaving behind only a saber on the ground.\n<@rolv.rem><Gramophones> that deal Arts damage to enemies and heal allies when captured are present on the field</>"
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力和生命值提升，出现额外敌人",
+      "ja": "敵の攻撃力と最大HPが上昇。追加の敵が出現",
+      "en": "Enemies gain increased ATK and HP; additional enemies will appear"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_2_4",
+    "linkedStageId": "ro5_n_2_4",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_2-4",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_2-4_dlc1"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "明抢暗偷",
+      "ja": "強盗と泥棒",
+      "en": "Daylight Robbery"
+    },
+    "description": {
+      "zh": "江湖规矩，打赢我俩，东西都归你——盗贼双子正义凛然，试图掩护那些正偷偷溜走的同伙。",
+      "ja": "世の摂理に従い、我ら二人に勝つことができれば、全てをお前にやろう――そう言う双子の盗賊は、正義漢のふりをして、こっそり逃げ出す仲間を援護しようとしている。",
+      "en": "'Jianghu rules: if you beat the two of us, you'll keep all the belongings.' The twin bandits are beacons of righteousness, trying to cover for their comrades as they sneak away."
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力、防御力和生命值提升，部分敌人路线变化，出现额外的雕伥",
+      "ja": "敵の攻撃力、防御力と最大HPが上昇。一部の敵の進攻ルートが変化。追加の<彫像器鬼>が出現",
+      "en": "Enemies gain increased ATK, DEF, and HP; some enemies will follow different routes; additional Statuegeists will appear"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_2_5",
+    "linkedStageId": "ro5_n_2_5",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_2-5",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "救援行动",
+      "ja": "救助活動",
+      "en": "Rescue Mission"
+    },
+    "description": {
+      "zh": "总有那么些游客闭园了还不想离开，你不仅要将他们送出去，还得解决他们惹出的乱子。\\n<@lv.item><道路障碍物></>可以阻挡乌萨斯平民与斗士塔露拉前进，可被我方单位击毁。\\n<@lv.item><乌萨斯平民></>被敌人击杀时扣除关卡生命值",
+      "ja": "閉園時間になっても帰りたがらない観光客はいるものだ。あなたは彼らを送り出すのみならず、彼らが引き起こすトラブルも片付けなければならない。\n<@lv.item><道路障害物></>ウルサス民間人と闘士タルラの前進を阻害する。味方の攻撃によって破壊できる\n<@lv.item><ウルサス民間人></>敵に倒された時、耐久値が減少",
+      "en": "There will always be some tourists who decide they don't want to leave yet when the Garden closes. Not only do you have to see them out, you also need to resolve whatever chaos they caused.\n<@lv.item><Static Roadblock></> Blocks the movement of Ursus Civilians and Talulah, the Fighter; Can be destroyed by allied units.\n<@lv.item><Ursus Civilian></> Depletes a Life Point when killed by an enemy."
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力和防御力提升，生命值大幅提升，出现额外的道路障碍物，出现额外的雕伥",
+      "ja": "敵の攻撃力と防御力が上昇、最大HPが大幅に上昇。追加の<道路障害物>と<彫像器鬼>が出現",
+      "en": "Enemies gain increased ATK and DEF, and greatly increased HP; additional Static Roadblocks will appear; additional Statuegeists will appear"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_2_6",
+    "linkedStageId": "ro5_n_2_6",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_2-6",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "玩具兵将",
+      "ja": "おもちゃの将兵",
+      "en": "Toy Soldiers"
+    },
+    "description": {
+      "zh": "曾经有位外国游客将一套玩具小人遗留在了园内，如今，它们已经在这里站稳了脚跟。",
+      "ja": "昔、ある外国人観光客がおもちゃの人形セットを園内に置き忘れていった。そして今、そうしたおもちゃたちはすっかり園内に居座っている。",
+      "en": "Once, a foreign guest left behind a set of action figures in the Garden. Now, they have made a place for themselves here."
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力和生命值提升，出现不同敌人",
+      "ja": "敵の攻撃力、最大HPが上昇。異なる敵が出現",
+      "en": "Enemies gain increased ATK and HP; different enemies will appear"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_3_1",
+    "linkedStageId": "ro5_n_3_1",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_3-1",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_3-1_dlc1"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "啖之以利",
+      "ja": "甘い誘い",
+      "en": "Hook, Line, and Sinker"
+    },
+    "description": {
+      "zh": "于界园中才能看到这些绝迹的似兽。因贪欲被诱入园中，多年来却也不愁吃喝。易与似兽皆觉自己得了便宜。",
+      "ja": "これらの絶滅した似獣は、界園の中でしかお目にかかれない。欲望のままに界園に誘い込まれたにもかかわらず、ソレらは長年食うに困っていない。イーと似獣は双方自分が利益を得ていると感じている。",
+      "en": "Only in the Garden of Grotesqueries can you see these extinct Pseudomuts. Enticed into the Garden by their rapacious appetite, they have not had to worry about food or drink for many years since. Both Yi and the Pseudomuts believe they have the favorable side of the arrangement."
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力、防御力和生命值提升，移动速度大幅提升，出现额外的雕伥",
+      "ja": "敵の攻撃力、防御力と最大HPが上昇、移動速度が大幅に上昇。追加の<彫像器鬼>が出現",
+      "en": "Enemies gain increased ATK, DEF, HP and greatly increased Movement Speed; additional Statuegeists will appear"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_3_2",
+    "linkedStageId": "ro5_n_3_2",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_3-2",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_3-2_dlc1"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "长驱不复",
+      "ja": "ひたすらな前進",
+      "en": "Stopping the Advance"
+    },
+    "description": {
+      "zh": "此地转不过身，扭不过头。于是想要追逐尾巴的兽只好不停向前奔跑，不仅把所有挡路的东西撞了个稀烂，也让一旁的雕伥张嘴笑了好久。",
+      "ja": "この地では、身を翻すことも、後ろを振り返ることもできない。そのため、尻尾を追いかけようとする獣は、前に向かって走り続けるしかない。その結果、行く手を阻むものを全て粉々に打ち砕くだけでなく、傍らの彫像器鬼を長いこと笑わせた。",
+      "en": "There's barely any space here to turn your head, let alone your body. Beasts intent on chasing their tails have no choice but to keep running forward, smashing everything in their path. The Statuegeists watching from the sidelines chortle as they pass."
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力和生命值提升，出现不同敌人",
+      "ja": "敵の攻撃力、最大HPが上昇。異なる敵が出現",
+      "en": "Enemies gain increased ATK and HP; different enemies will appear"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_3_3",
+    "linkedStageId": "ro5_n_3_3",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_3-3",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_3-3_dlc1"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "背山面水",
+      "ja": "後方に山、前方に水",
+      "en": "Feng Shui"
+    },
+    "description": {
+      "zh": "伥心惶惶，四处乱窜。细观此景——开门见山，路出反弓，源石虫都待不住！也该为它们调一调风水布局了。\\n<@rolv.rem>提供部署以后可以阻挡敌人的行进路线的<障碍物>。</>",
+      "ja": "不安に支配された器鬼が、四方八方を駆け回っている。よく観察してみると――門前山と反弓路の凶相が出ており、オリジムシでさえここには留まれないようだ！どうやら風水の配置を変えてあげたほうがよさそうだ。\n<@rolv.rem>配置すれば敵の進行ルートを遮ることのできる<障害物>が用意されている</>",
+      "en": "The geists are alarmed, and they scatter all over the place. Have a closer look. I'll get straight to the point, the road's so curved, not even Originium slugs can stand it! Do some rearranging to get the feng shui right for them.\n<@rolv.rem><Roadblocks> that can block the enemy's route can be deployed</>"
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力和防御力提升，最大生命值大幅提升，出现额外敌人，出现额外的雕伥",
+      "ja": "敵の攻撃力と防御力が上昇、最大HPが大幅に上昇。追加の敵が出現。追加の<彫像器鬼>が出現",
+      "en": "Enemies gain increased ATK and DEF and greatly increased Max HP; additional enemies will appear; additional Statuegeists will appear"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_3_4",
+    "linkedStageId": "ro5_n_3_4",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_3-4",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_3-4_dlc1"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "去晦",
+      "ja": "邪気払い",
+      "en": "Away, Hui!"
+    },
+    "description": {
+      "zh": "园中规矩，每到月初便持火例行“去晦”之务。至于被烧的究竟是什么，最好别过问。\\n<@rolv.rem>场地中有可以阻挡敌人行进路线的<碎石></>",
+      "ja": "界園では、摂理に従い、月初めに火を持って「邪気払い」を行うのが慣習になっている。何が燃やされるのかについては、尋ねないほうが良いだろう。\n<@rolv.rem>敵の進攻ルートを遮る<礫岩>が出現</>",
+      "en": "Garden rules state that at the start of every month, fire will be used to 'drive away the darkness of Hui'. As for what is being burned as fuel, best not ask.\n<@rolv.rem>This stage has <Rubble> that can block the enemy's path</>."
+    },
+    "eliteDesc": {
+      "zh": "敌人的防御力提升，攻击力和生命值大幅提升，净浊之焰的攻击力进一步提升，出现额外的雕伥",
+      "ja": "敵の防御力が上昇、攻撃力と最大HPが大幅に上昇。浄化の炎の攻撃力がさらに上昇。追加の<彫像器鬼>が出現",
+      "en": "Enemies gain increased DEF and greatly increased ATK and HP; Purifying Flames have further increased ATK; additional Statuegeists will appear"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_3_5",
+    "linkedStageId": "ro5_n_3_5",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_3-5",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_3-5_dlc1"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "落叶归根",
+      "ja": "落葉の帰る場所",
+      "en": "Return to Your Roots"
+    },
+    "description": {
+      "zh": "时移世易，钢铁之城崛起。家乡早已不在，但它们总想摸索出一条归乡路。\\n<@lv.item><盾与墙></>遮挡我方单位的视野",
+      "ja": "時とともに世が変わり、鋼鉄の街が次々と出現した。故郷はすでに存在しないが、ソレらは帰郷のための道を探し続けている。\n<@lv.item><盾と壁></>味方ユニットの視野を遮る",
+      "en": "Time flows, the land changes, and cities of steel rise. Their hometowns are long gone, but they are always looking out for a way back home.\n<@lv.item><Shield and Wall></> Blocks the vision of your units"
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力、防御力和生命值提升，出现额外的<盾与墙>，出现额外的雕伥",
+      "ja": "敵の攻撃力、防御力と最大HPが上昇。追加の<盾と壁>が出現。追加の<彫像器鬼>が出現",
+      "en": "Enemies gain increased ATK, DEF, and HP; additional <Shield and Walls> will appear; additional Statuegeists will appear"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_3_6",
+    "linkedStageId": "ro5_n_3_6",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_3-6",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "御外侮",
+      "ja": null,
+      "en": null
+    },
+    "description": {
+      "zh": "许多人一生都没离开过家园，他们会，也愿为这个概念付出一切。",
+      "ja": null,
+      "en": null
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力、防御力和生命值提升，出现额外的雕伥",
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_4_1",
+    "linkedStageId": "ro5_n_4_1",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_4-1",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_4-1_dlc1",
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_4-1_dlc2"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "山海必争",
+      "ja": "山海の争い",
+      "en": "Shanhaizhong Scramble"
+    },
+    "description": {
+      "zh": "“八个不要”已犯四条，于是，走路路不通，寻物物不见，混入园中的山海众被伥“教了规矩”。把他们提溜去司岁台前，还是先帮他们脱困吧。\\n<@rolv.rem>场地中有阻挡敌人的<城防路障></>",
+      "ja": "「八つの『しない』」のうち四つを犯したため、行く道は通れず、探し物も見つからない。界園に紛れ込んだ山海衆は、器鬼によって「摂理」を思い知らされた。彼らを司歳台に連れて行く前に、まずは窮地を脱する手助けをしよう。\n<@rolv.rem>敵をブロックできる<都市防衛柵>が出現</>",
+      "en": "Of the eight 'Do Nots', the Shanhaizhong intruding in the Garden have violated four of them, so the roads they walk and the searches they perform are all fruitless as the geists 'teach them the rules'. Give them a hand before you hand them over to the Sui Regulator.\n<@rolv.rem><Defensive Barricades> are present on the field that Block enemies</>"
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力、防御力和生命值提升，特定敌人的攻击力大幅提升，出现额外的雕伥",
+      "ja": "敵の攻撃力、防御力と最大HPが上昇。特定の敵の攻撃力が大幅に上昇。追加の<彫像器鬼>が出現",
+      "en": "Enemies gain increased ATK, DEF, and HP; certain enemies have greatly increased ATK; additional Statuegeists will appear"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_4_2",
+    "linkedStageId": "ro5_n_4_2",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_4-2",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_4-2_dlc1",
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_4-2_dlc2"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "贪饵",
+      "ja": "食い意地",
+      "en": "Sugared Bait"
+    },
+    "description": {
+      "zh": "投喂了池鳞，竟被弹射出八丈远！为了让池鳞满意，这些游客吸取教训，积极反思——决定奋力研制更大、更香甜的饵。\\n<@rolv.rem>场地中有夺取后回复周围友方单位技力的<“冰淇淋机”></>\\n<@rolv.rem>场地中有阻挡敌人的<城防路障></>",
+      "ja": "池の鱗獣に餌をやったら、物凄い勢いで吹き飛ばされてしまった！池の鱗獣を満足させるため、観光客たちは教訓から学び、大いに反省した――そしてより大きく、より美味しい餌の開発に取り組むことを決めた。\n<@rolv.rem>制御権を奪取すると、周囲の味方ユニットのSPを回復する<「ジェラート供給所」>が出現</>\n<@rolv.rem>敵をブロックできる<都市防衛柵>が出現</>",
+      "en": "After trying to feed the fins in the pond, some tourists were knocked eight <i>zhang</i> away! In order to satisfy those fins, they learned from their mistakes and reflected on the past... deciding to do all they can to develop bigger, sweeter bait.\n<@rolv.rem><'Gelato Stops'> are present on the field that restore allied SP when captured</>\n<@rolv.rem><Defensive Barricades> are present on the field that Block enemies</>"
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力、防御力和生命值大幅提升，特定敌人的攻击力和生命值进一步提升，出现额外的雕伥",
+      "ja": "敵の攻撃力、防御力と最大HPが大幅に上昇。特定の敵の攻撃力と最大HPがさらに上昇。追加の<彫像器鬼>が出現",
+      "en": "Enemies gain greatly increased ATK, DEF, and HP; certain enemies have further increased ATK and HP; additional Statuegeists will appear"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_4_3",
+    "linkedStageId": "ro5_n_4_3",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_4-3",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_4-3_dlc1",
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_4-3_dlc2"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "识文",
+      "ja": "文字を知る",
+      "en": "Cultured"
+    },
+    "description": {
+      "zh": "此地的海嗣都在涂涂画画，这让你松了口气。而后你就看到了墙上的“天涯何处无芳”——以及歪歪斜斜、遍布各处、各式各样的“草”。",
+      "ja": "この地のシーボーンが皆、絵を描いていることに、あなたは安心した。だがその後、あなたが目にしたものは、「天涯何れの処にか芳■無からん」という壁の一文――そして歪な形をしながら、あちらこちらに点在する、さまざまな「草」であった。",
+      "en": "You see that the Seaborn here are daubing paint, letting you breathe a sigh of relief. Then you see, painted on the wall, a 'sea with plenty of'—scrawled, teeming, and diverse 'fins'."
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力、防御力和生命值提升，特定敌人的生命值进一步提升，出现额外敌人",
+      "ja": "敵の攻撃力、防御力と最大HPが上昇。特定の敵の最大HPがさらに上昇。追加の敵が出現",
+      "en": "Enemies gain increased ATK, DEF, and HP; certain enemies have further increased HP; additional enemies will appear"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_4_4",
+    "linkedStageId": "ro5_n_4_4",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_4-4",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_4-4_dlc1",
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_4-4_dlc2"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "赶场戏班",
+      "ja": "舞台への出演",
+      "en": "Take the Stage"
+    },
+    "description": {
+      "zh": "即便是人们已不常看戏的年代，它们仍执着地认为自己还有待出演的场子要赶。有的伥无法走出自己的时代，这点倒与人无异。",
+      "ja": "人々があまり観劇をしない時代になっても、ソレらはいまだに自分の出番があると頑なに信じている。中には自分の時代から抜け出せない器鬼もいるようで、その様子は人間と何ら変わらない。",
+      "en": "Even though this is no longer an age when many watch plays, they still stubbornly cling to the idea that they have parts to play upon the stage. Some geists are trapped in the past, much like humanity."
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力、防御力和生命值提升，出现额外敌人，出现额外的雕伥",
+      "ja": "敵の攻撃力、防御力と最大HPが上昇。追加の敵が出現。追加の<彫像器鬼>が出現",
+      "en": "Enemies gain increased ATK, DEF, and HP; additional enemies will appear; additional Statuegeists will appear"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_4_5",
+    "linkedStageId": "ro5_n_4_5",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_4-5",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_4-5_dlc1",
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_4-5_dlc2"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "峥嵘战功",
+      "ja": "輝かしい戦功",
+      "en": "Exemplary Service"
+    },
+    "description": {
+      "zh": "一身铠甲的怪人枕山而眠，十年来纹丝不动。你路过其身侧，忽觉黄沙漫天，回过神来已立身钢铁城门之前。兵临城下，战鼓震天，昔日战功是梦亦是牢笼。\\n<@rolv.rem>场地中有阻挡敌人的<城防路障></>",
+      "ja": "鎧を身にまとい、山の中で眠りについたまま、十年もの間微動だにしない奇人がいた。その横を通りがかったあなたは、突然砂が空に舞い上がるのを感じ、気づけば鋼鉄の街の入口に立っていた。兵士たちが街に迫り、軍鼓が鳴り響く。遠い昔の戦功は、夢であり牢でもある。\n<@rolv.rem>敵をブロックできる<都市防衛柵>が出現</>",
+      "en": "An armor-clad eccentric sleeps atop the mount, unmoving for over a decade. As you pass them, you suddenly sense yellow sands fill the air, and when you open your eyes, you find yourself before a city gate of steel. Soldiers line the walls while battle drums shake the heavens. Glory days of past service can be both a dream, and a cage.\n<@rolv.rem><Defensive Barricades> are present on the field that Block enemies</>"
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力、防御力和生命值提升，特定敌人的生命值进一步提升，出现额外的雕伥",
+      "ja": "敵の攻撃力、防御力と最大HPが上昇。特定の敵の最大HPがさらに上昇。追加の<彫像器鬼>が出現",
+      "en": "Enemies gain increased ATK, DEF, and HP; certain enemies have further increased HP; additional Statuegeists will appear"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_4_6",
+    "linkedStageId": "ro5_n_4_6",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_4-6",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_4-6_dlc1",
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_4-6_dlc2"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "暗箭难防",
+      "ja": "闇討ちは防ぎ難し",
+      "en": "Beware the Shadows"
+    },
+    "description": {
+      "zh": "左右两条道，均有“安全须知”。提及的明贼似不难防，却有一条令人不安：小心阴影中的■■。字迹模糊，难以辨识。",
+      "ja": "左右の分かれ道、そのいずれにも「安全の心得」の記載がある。そこで言及されている盗賊から身を守るのは容易いことだが、しかし「影の中の■■に注意」という一文が人を不安にさせる。文字がかすれているため、判読するのは難しい。",
+      "en": "Two roads, one on either side, both with 'safety instructions'. The obvious dangers mentioned seem easy to guard against, but one line is worrying: Beware the ■■■■ in the shadows. The text is smudged, and hard to read."
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力、防御力、生命值和移动速度提升，出现额外敌人，出现额外的雕伥",
+      "ja": "敵の攻撃力、防御力、最大HPと移動速度が上昇。追加の敵が出現。追加の<彫像器鬼>が出現",
+      "en": "Enemies gain increased ATK, DEF, HP, and Movement Speed; additional enemies will appear; additional Statuegeists will appear"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_4_7",
+    "linkedStageId": "ro5_n_4_7",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_4-7",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "忍气不吞声",
+      "ja": null,
+      "en": null
+    },
+    "description": {
+      "zh": "易有些懊悔，或许当初就不该让伥们有机会阅读那些他收藏的东国流行小说，现在这些扮作忍者的伥只学了点皮毛就四处横行，比那些聒噪的乐师闹出的动静还要大。",
+      "ja": null,
+      "en": null
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力、防御力、生命值提升，\"水遁宗师\"获得隐匿",
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_5_1",
+    "linkedStageId": "ro5_n_5_1",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_5-1",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_5-1_dlc1",
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_5-1_dlc2"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "青山不语",
+      "ja": "青嶺は語らず",
+      "en": "Green Hills Speak Not"
+    },
+    "description": {
+      "zh": "“你压着我了。”此处似乎并无易的藏品，但山石众多，正好坐下休憩。“你压着我了！”声音又响起，你四处张望，与身下巨石对上了视线。",
+      "ja": "「上に座るな」と誰かが言った。ここにイーのコレクションはなさそうだが。岩場が多いので、座って休憩するにはちょうど良い場所だ。「上に座るな！」という声がまた響いた。あなたが周りを見渡すと、体の下の巨石と目が合った。",
+      "en": "'You're sitting on me.' There don't seem to be any of Yi's relics here, but there are plenty of rocks. It is a good time to rest. 'I said, you're sitting on me!' The voice rings out again. You look all around you to find it, until the boulder under you rises into your field of view."
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力和生命值大幅提升，防御力提升，特定敌人的生命值进一步提升，出现额外的雕伥",
+      "ja": "敵の攻撃力と最大HPが大幅に上昇。防御力が上昇。特定の敵の最大HPがさらに上昇。追加の<彫像器鬼>が出現",
+      "en": "Enemies gain increased DEF and greatly increased ATK and HP; certain enemies have further increased HP; additional Statuegeists will appear"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_5_2",
+    "linkedStageId": "ro5_n_5_2",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_5-2",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_5-2_dlc1",
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_5-2_dlc2"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "离域检查",
+      "ja": "退場検査",
+      "en": "Departing Inspection"
+    },
+    "description": {
+      "zh": "对离开禁入区域的游客，司岁台将安排额外检查，确保你还是你，离开的只有你。",
+      "ja": "立ち入り禁止区域から退場する観光客に対し、司歳台は追加の検査を行っている。その目的は、あなたがあなたであること、そして退場者があなただけであると保証することにある。",
+      "en": "The Sui Regulator performs additional inspections on visitors leaving forbidden areas, to ensure you are still you, and all that leaves is you."
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力、防御力和生命值提升，出现额外敌人，出现额外的雕伥",
+      "ja": "敵の攻撃力、防御力と最大HPが上昇。追加の敵が出現。追加の<彫像器鬼>が出現",
+      "en": "Enemies gain increased ATK, DEF, and HP; additional enemies will appear; additional Statuegeists will appear"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_5_3",
+    "linkedStageId": "ro5_n_5_3",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_5-3",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_5-3_dlc1",
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_5-3_dlc2"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "薄礼一份",
+      "ja": "ささやかな謝礼",
+      "en": "A Humble Gift"
+    },
+    "description": {
+      "zh": "弟弟要收哥哥托人送来的货，这自然没有问题。可他们一个叫易，一个叫绩，那往山上送的东西，秉烛人没有不查的理。",
+      "ja": "兄が人に頼んで送った荷物を受け取ろうとしている弟がいた。それ自体は問題ないが、兄弟のうち一人はイー、もう一人はジーである。ならば、山の上宛ての荷物を持燭人が調べないわけにはいかない。",
+      "en": "A younger brother receiving goods from his older brother is naturally not an issue. However, since one is named Yi and the other Ji, the Candleholders never lack reasons to inspect things being sent up the mountain."
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力、防御力和生命值提升，出现额外敌人",
+      "ja": "敵の攻撃力、防御力と最大HPが上昇。追加の敵が出現",
+      "en": "Enemies gain increased ATK, DEF, and HP; additional enemies will appear"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_5_4",
+    "linkedStageId": "ro5_n_5_4",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_5-4",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_5-4_dlc1",
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_5-4_dlc2"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "往事喑哑",
+      "ja": "過去の沈黙",
+      "en": "Muted Past"
+    },
+    "description": {
+      "zh": "弹不出音的破烂吉他换给易后却在他手中奏响了最本真的曲调，萨卡兹们为了抢回这段旋律，从西边一路追着他进了园子。",
+      "ja": "物々交換で壊れて音の出ないギターをイーにあげたら、驚くことにそれは彼の手中で本来あるべき音を奏でた。サルカズたちはその旋律を取り返すため、西から彼を追いかけてきて界園に入った。",
+      "en": "Yi was given a worn-out guitar that couldn't produce a single note, but in his hands, it was able to play the most basic of tunes. The Sarkaz, wanting to snatch back this melody, chased him all the way back to the Garden from the west."
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力、防御力和重量提升，生命值大幅提升，出现额外敌人，出现额外的雕伥",
+      "ja": "敵の攻撃力、防御力、重量ランクが上昇。最大HPが大幅に上昇。追加の敵が出現。追加の<彫像器鬼>が出現",
+      "en": "Enemies gain increased ATK, DEF, and Weight and greatly increased HP; additional enemies will appear; additional Statuegeists will appear"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_5_5",
+    "linkedStageId": "ro5_n_5_5",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_5-5",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_5-5_dlc1",
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_5-5_dlc2"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "邙山镇地方志",
+      "ja": "邙山町郷土誌",
+      "en": "Mangshan Town Records"
+    },
+    "description": {
+      "zh": "“百器......苏醒......沿街奔袭......灾祸......毁......”余下字迹，皆为暗红色旧渍所覆盖，无法看清。",
+      "ja": "「百器……覚醒し……通り沿いに襲い……災禍……破壊され…….」と書かれた一文の残りの文字は、赤黒い汚れに覆われており、判別ができない。",
+      "en": "'A horde of wares... awakened... attacked us in the streets... disaster... destruction...' The rest is hidden below an old, dark-red stain, unable to be read clearly."
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力和生命值大幅提升，雕伥的生命值进一步提升，出现额外敌人",
+      "ja": "敵の攻撃力と最大HPが大幅に上昇。<彫像器鬼>の最大HPがさらに上昇。追加の敵が出現",
+      "en": "Enemies gain greatly increased ATK and HP; Statuegeists have further increased HP; additional enemies will appear"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_5_6",
+    "linkedStageId": "ro5_n_5_6",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_5-6",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_5-6_dlc1",
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_5-6_dlc2"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "不成烟火",
+      "ja": "煙火に成らず",
+      "en": "Unlit Sparks"
+    },
+    "description": {
+      "zh": "此处尽是自被人厌弃的饮食中诞生的化物，易收集它们也不是为了收藏。若是“无谓”能成“饮啄”，那它们或许也有生出滋味的可能。\\n<@lv.item><火灶></>召唤“人间烟火”对沿途所有敌方单位造成真实伤害。\\n<@lv.item><废弃火灶></>召唤“饮露餐风”对所有沿途我方单位造成真实伤害。",
+      "ja": "この場所は、人間に嫌われ捨てられた食べ物から生まれた化物で一杯だ。イーがソレらを集めるのは、コレクションのためではない。「無謂」が「飲啄」に変わるのであれば、それらからも味わいが生じるかもしれない。\n<@lv.item><竈台></>「人間煙火」を召喚し、接触した敵全員に確定ダメージを与える\n<@lv.item><破棄された竈台></>「飲露餐風」を召喚し、接触した味方ユニット全員に確定ダメージを与える",
+      "en": "Here lie abominations born of the food and drink people discard. Yi did not gather them for his collection. If Vapidities can become Sapidities, then there is the possibility they can yet bloom with flavor.\n<@lv.item><Stove></> Summons 'Sapid Auspice' to deal True damage to all enemies in its path.\n<@lv.item><Derelict Stove></> Summons 'Vapid Blight' to deal True damage to all allied units in its path."
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力、防御力和生命值提升，出现额外敌人和雕伥，“废食”获得隐匿",
+      "ja": "敵の攻撃力、防御力と最大HPが上昇。追加の敵と<彫像器鬼>が出現。<「廃食」>がステルス状態になる",
+      "en": "Enemies gain increased ATK, DEF, and HP; additional enemies and Statuegeists will appear; 'Fasting' is Invisible"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_5_7",
+    "linkedStageId": "ro5_n_5_7",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_5-7",
+    "levelReplaceIds": [],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "砺锋",
+      "ja": null,
+      "en": null
+    },
+    "description": {
+      "zh": "藏品经过维护方可彰显其价值，而这批藏品的维护方式，是以不停息的争斗磨砺其血性与锐意。",
+      "ja": null,
+      "en": null
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力、防御力和生命值提升，“狂躁异质裂兽”的防御力、生命值额外提升，且路线发生变化",
+      "ja": null,
+      "en": null
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_6_1",
+    "linkedStageId": "ro5_n_6_1",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_6-1",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_6-1_dlc1",
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_6-1_dlc2"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "炎灼",
+      "ja": "灼熱の炎",
+      "en": "Inferno"
+    },
+    "description": {
+      "zh": "一灼矿脉延绵天灾匿伏，二灼地下恶兽浅眠将醒。与天争时，与地争生。\\n<@lv.item><火灶></>召唤“人间烟火”对沿途所有敌方单位造成真实伤害。\\n<@lv.item><废弃火灶></>召唤“饮露餐风”对所有沿途我方单位造成真实伤害。",
+      "ja": "第一の炎で鉱脈が連なり、天災が影を潜める。第二の炎で地下の邪悪な獣が浅い眠りから目を覚まそうとする。天と時を競い、地と命を争う。\n<@lv.item><竈台></>「人間煙火」を召喚し、接触した敵全員に確定ダメージを与える\n<@lv.item><破棄された竈台></>「飲露餐風」を召喚し、接触した味方ユニット全員に確定ダメージを与える",
+      "en": "One burning vein of ore stretches on, hiding in Catastrophe. The other awakens evil beasts under the earth from their shallow sleep. Battle Heaven for time, battle the earth for life.\n<@lv.item><Stove></> Summons 'Sapid Auspice' to deal True damage to all enemies in its path.\n<@lv.item><Derelict Stove></> Summons 'Vapid Blight' to deal True damage to all allied units in its path."
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力、防御力和生命值提升，特定敌人的生命值进一步提升，出现额外敌人，出现额外的雕伥",
+      "ja": "敵の攻撃力、防御力と最大HPが上昇。特定の敵の最大HPがさらに上昇。追加の敵が出現。追加の<彫像器鬼>が出現",
+      "en": "Enemies gain increased ATK, DEF, and HP; certain enemies have further increased HP; additional enemies will appear; additional Statuegeists will appear"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_6_2",
+    "linkedStageId": "ro5_n_6_2",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_6-2",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC1/level_rogue5_6-2_dlc1",
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_6-2_dlc2"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "人镇",
+      "ja": "人により鎮める",
+      "en": "Garrison"
+    },
+    "description": {
+      "zh": "岁陵之上建城以聚来客。以八方运势为镇，唯余一口，设仪削势。”\\n<@lv.item><作战专用掩体></>可遮挡敌人视线使其无法“直击”",
+      "ja": "客を集めるため、歳の陵墓の上方に街が建てられた。その際、八つの方向の運勢をもって陵墓を鎮め、出入り口を一つだけ残した。その出入り口で儀式を行い、陵墓からあふれだす力を削ぐのだ。\n<@lv.item><作戦用掩体></>敵の視界を遮り、味方ユニットが「直線射撃」の対象になることを防ぐ",
+      "en": "'Atop the Tomb of Sui, a town was founded to receive guests. Suppressed by the geomantic fortunes of the eight directions, only a single gate was left open for the rite that saps Its strength.'\n<@lv.item><Combat Special Barricade></> Blocks the enemy's line of sight, preventing direct shots."
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力、防御力和生命值提升，出现额外敌人，部分敌人有所变化",
+      "ja": "敵の攻撃力、防御力と最大HPが上昇。追加の敵が出現。一部の敵が変化",
+      "en": "Enemies gain increased ATK, DEF, and HP; additional enemies will appear; some enemies have been changed"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_7_1",
+    "linkedStageId": "ro5_n_7_1",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_7-1",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_7-1_dlc2"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "越山海",
+      "ja": "山海を越える",
+      "en": "Beyond Mount and Sea"
+    },
+    "description": {
+      "zh": "历史被当下所诱引，展现出了融合古今的往昔。",
+      "ja": "歴史が現在に引き寄せられ、古今の融け合う過去を映し出した。",
+      "en": "History has been enticed by the present, revealing a past formed from both old and new."
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力、防御力和生命值提升，部分敌人有所变化，雕伥的生命值降低",
+      "ja": "敵の攻撃力、防御力と最大HPが上昇。一部の敵が変化し、<彫像器鬼>の最大HPが減少",
+      "en": "Enemies gain increased ATK, DEF, and HP; some enemies have been changed; Statuegeists have reduced HP"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_7_2",
+    "linkedStageId": "ro5_n_7_2",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_7-2",
+    "levelReplaceIds": [
+      "Obt/Roguelike/RO5/DLC2/level_rogue5_7-2_dlc2"
+    ],
+    "code": "ISW-NO",
+    "name": {
+      "zh": "借力打力",
+      "ja": "力を借りて力を打つ",
+      "en": "Force Redirection"
+    },
+    "description": {
+      "zh": "以其兽之道还治其兽之身，这便是大炎在对抗神明时最重要的发现。\\n<@lv.item><火灶></>召唤“人间烟火”对沿途所有敌方单位造成真实伤害。\\n<@lv.item><废弃火灶></>召唤“饮露餐风”对所有沿途我方单位造成真实伤害。",
+      "ja": "獣の道を以て獣を制す手法こそが、炎国が神に抗う中で掴んだ最大の発見だった。\n<@lv.item><竈台></>「人間煙火」を召喚し、接触した敵全員に確定ダメージを与える\n<@lv.item><破棄された竈台></>「飲露餐風」を召喚し、接触した味方全員に確定ダメージを与える",
+      "en": "Use the ways of beasts to reign over beasts. This was Great Yan's most important discovery when fighting against the gods.\n<@lv.item><Stove></> Summons 'Sapid Auspice' to deal True damage to all enemies in its path.\n<@lv.item><Derelict Stove></> Summons 'Vapid Blight' to deal True damage to all allied units in its path."
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力、防御力和生命值提升，出现额外敌人",
+      "ja": "敵の攻撃力、防御力と最大HPが上昇。追加の敵が出現",
+      "en": "Enemies gain increased ATK, DEF, and HP; additional enemies will appear"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_t_1",
+    "linkedStageId": "ro5_t_1",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_t-1",
+    "levelReplaceIds": [],
+    "code": "ISW-SP",
+    "name": {
+      "zh": "源源不断",
+      "ja": "底なし",
+      "en": "Steady Stream"
+    },
+    "description": {
+      "zh": "这熊霸乱丢的食物残渣吸引来许多源石虫，赶紧来个人告诉他，在界园不要乱扔垃圾！\\n<@rolv.rem>场地中有可以阻挡敌人行进路线的<碎石></>\\n<@rolv.rem>场地中有夺取后可以治疗友方单位并对敌方造成法术伤害的<\"留声机\"></>",
+      "ja": "この乱暴な熊野郎があちこちに捨てた食べカスにオリジムシがたくさん集まっている。誰か、界園でゴミのポイ捨てをしないように注意してやってくれ！\n<@rolv.rem>敵の進攻ルートを遮る<礫岩>が出現</>\n<@rolv.rem>制御権を奪取した後、周囲の別陣営のユニットに術ダメージを与え、同陣営のユニットを治療する<「蓄音機」>が出現</>",
+      "en": "The food that Bear Lord's throwing away is attracting Originium slugs! Quick, send someone to tell him: NO LITTERING IN THE GARDEN OF GROTESQUERIES!\n<@rolv.rem>This stage has <Rubble> that can block the enemy's path</>\n<@rolv.rem><Gramophones> that deal Arts damage to enemies and heal allies when captured are present on the field</>"
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力和生命值提升，特定敌人的攻击力和生命值进一步提升，“留声机”所需技力增加",
+      "ja": "敵の攻撃力と最大HPが上昇。特定の敵の攻撃力と最大HPがさらに上昇。<「蓄音機」>の起動に必要なSPが増加",
+      "en": "Enemies gain increased ATK and HP; certain enemies have further increased ATK and HP; 'Gramophone' SP requirement increased"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_t_2",
+    "linkedStageId": "ro5_t_2",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_t-2",
+    "levelReplaceIds": [],
+    "code": "ISW-SP",
+    "name": {
+      "zh": "闪闪发光",
+      "ja": "きらきら輝いて",
+      "en": "Sparkling Shine"
+    },
+    "description": {
+      "zh": "别以为靠虫子打掩护就能逃走，抓住那狗子！",
+      "ja": "虫を呼び寄せて目くらましにしたところで、逃げられると思うなよ！あの犬っころを捕まえろ！",
+      "en": "Don't think you can hide behind those slugs to escape! Get that dog!"
+    },
+    "eliteDesc": {
+      "zh": "流泪小子生命值大幅提升，攻击能使我方单位晕眩更长时间",
+      "ja": "<涙目の坊や>の最大HPが大幅に上昇、攻撃対象へのスタン時間が延長",
+      "en": "Crying Thief gains greatly increased HP; his attacks will Stun allied units for longer"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_t_3",
+    "linkedStageId": "ro5_t_3",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_t-3",
+    "levelReplaceIds": [],
+    "code": "ISW-SP",
+    "name": {
+      "zh": "循循善诱",
+      "ja": "商売禁止",
+      "en": "Reeducation"
+    },
+    "description": {
+      "zh": "界园内严禁无证经商，正好抓这鼠辈去做典型案例。",
+      "ja": "界園の中では、許可なく商いをすることは許されない。ちょうど良い、このドブネズミを捕まえて見せしめにしてやろう。",
+      "en": "Trading without a license is strictly prohibited in the Garden of Grotesqueries. Get that rat to make an example out of him."
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力提升，生命值大幅提升，出现额外敌人",
+      "ja": "敵の攻撃力が上昇、最大HPが大幅に上昇。追加の敵が出現",
+      "en": "Enemies gain increased ATK and greatly increased HP; additional enemies will appear"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_t_4",
+    "linkedStageId": "ro5_t_4",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_t-4",
+    "levelReplaceIds": [],
+    "code": "ISW-SP",
+    "name": {
+      "zh": "易易鸭鸭",
+      "ja": "良いカモ",
+      "en": "Duck and Yi"
+    },
+    "description": {
+      "zh": "这上架的鸭子一定暗中和易做了什么买卖，赶紧从实招来！",
+      "ja": "このダックは、イーと何らかの裏取引をしたに違いない！さっさと白状しろ！",
+      "en": "This duck stocking the shelves definitely made some kind of shady deal with Yi! Get him to 'fess up!"
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力和生命值提升，我方再部署时间增加，出现不同敌人",
+      "ja": "敵の攻撃力と最大HPが上昇。味方の再配置時間が延長。異なる敵が出現",
+      "en": "Enemies gain increased ATK and HP; allied units have increased Redeployment Time; different enemies will appear"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_t_5",
+    "linkedStageId": "ro5_t_5",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_t-5",
+    "levelReplaceIds": [],
+    "code": "ISW-SP",
+    "name": {
+      "zh": "劫罚",
+      "ja": "劫罰",
+      "en": "Calamitous Punishment"
+    },
+    "description": {
+      "zh": "惹了大士清修，自然要遭点罪。想必经历这一劫，也就知道乱动手脚是什么后果了。\\n<@lv.item><火灶></>召唤“人间烟火”对沿途所有敌方单位造成真实伤害。\\n<@lv.item><废弃火灶></>召唤“饮露餐风”对所有沿途我方单位造成真实伤害。",
+      "ja": "大士の修行を邪魔すれば、当然バチが当たる。その苦しみを経験すれば、無鉄砲な行動がどんな結果につながるかを理解できるはずだ。\n<@lv.item><竈台></>「人間煙火」を召喚し、接触した敵全員に確定ダメージを与える\n<@lv.item><破棄された竈台></>「飲露餐風」を召喚し、接触した味方ユニット全員に確定ダメージを与える",
+      "en": "You have disturbed the Bodhisattva's contemplation, thus you shall be punished. No doubt by experiencing this torment, you shall know the consequences of itchy hands and restless feet.\n<@lv.item><Stove></> Summons 'Sapid Auspice' to deal True damage to all enemies in its path.\n<@lv.item><Derelict Stove></> Summons 'Vapid Blight' to deal True damage to all allied units in its path."
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力提升，生命值大幅提升，敌人路线变化",
+      "ja": "敵の攻撃力が上昇、最大HPが大幅に上昇。敵の進攻ルートが変化",
+      "en": "Enemies gain increased ATK and greatly increased HP; enemies will follow different routes"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_t_6",
+    "linkedStageId": "ro5_t_6",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_t-6",
+    "levelReplaceIds": [],
+    "code": "ISW-SP",
+    "name": {
+      "zh": "生百相",
+      "ja": "生ける百面相",
+      "en": "Of Hundred Forms"
+    },
+    "description": {
+      "zh": "在文明之中，坎诺特会用文明的手段待你。可如果你非要看他另一副面貌，他也会勉为其难应了你的请求。",
+      "ja": "文明社会において、キャノットはあなたに文明的に応対する。だが、あなたがどうしても彼のもう一つの顔を見ようとするのなら、彼はしぶしぶあなたの要望に応じるだろう。",
+      "en": "When among civilization, Cannot shall treat you in a civilized manner. But if you insist on seeing another side of him, he shall grant your request. Reluctantly."
+    },
+    "eliteDesc": {
+      "zh": "无",
+      "ja": "なし",
+      "en": "Null"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_t_7",
+    "linkedStageId": "ro5_t_7",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_t-7",
+    "levelReplaceIds": [],
+    "code": "ISW-DF",
+    "name": {
+      "zh": "硕果累累",
+      "ja": "鈴なりの果実",
+      "en": "Feast of Fruit"
+    },
+    "description": {
+      "zh": "天地精华结成的果实都囤积在这里，由食肉作物层层看守。它们没等来栽种的农人，只等来了你。\\n<@lv.item><树丛></>不会受到攻击，遮挡我方单位的视野",
+      "ja": "大地の恵みが生み出した果実は、収穫後ここに集められ、肉食の作物によって厳重に守られている。そして、ソレらの前に現れたのは栽培のために来た農民ではなく、あなただった。\n<@lv.item><茂み></>味方ユニットの視野を遮る。攻撃の対象にならない",
+      "en": "Fruit born from the soul of the land is stored here, guarded by rows of man-eating plants. They do not await a farmer to tend them, but rather, you.\n<@lv.item><Thicket></> Cannot be attacked, and blocks the vision of your units"
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力和防御力提升，最大生命值大幅提升，出现额外敌人",
+      "ja": "敵の攻撃力と防御力が上昇、最大HPが大幅に上昇。追加の敵が出現",
+      "en": "Enemies gain increased ATK and DEF and greatly increased Max HP; additional enemies will appear"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_t_8",
+    "linkedStageId": "ro5_t_8",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_t-8",
+    "levelReplaceIds": [],
+    "code": "ISW-SP",
+    "name": {
+      "zh": "以逸待劳",
+      "ja": "逸を以て労を待つ",
+      "en": "Biding Time"
+    },
+    "description": {
+      "zh": "电弧在进行侦察作业时会布下“岗哨”与大部队串联到一起，没有讯息与事件逃得过她的罗网。",
+      "ja": "レイディアンは偵察を行う時、「哨戒所」を設けて大部隊と連携を取る。彼女の情報網からはら、どんな情報や事件も逃れられない。",
+      "en": "When on reconnaissance missions, Raidian will deploy 'lookouts' to establish contact with the main force. There is no information that can escape her net."
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力、防御力和生命值提升",
+      "ja": "敵の攻撃力、防御力と最大HPが上昇",
+      "en": "Enemies gain increased ATK, DEF, and HP"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_t_9_a",
+    "linkedStageId": "ro5_t_9_a",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_t-9-a",
+    "levelReplaceIds": [],
+    "code": "ISW-SP",
+    "name": {
+      "zh": "喜从驮来",
+      "ja": "喜びは駄獣より来たる",
+      "en": "Joy From Burdenbeast"
+    },
+    "description": {
+      "zh": "寓意生长的棋局。“战略家”说生长就如驮兽散步，温驯而绵长。",
+      "ja": "成長を意味する盤面。「戦略家」いわく、成長は駄獣の散歩と同じように、従順で長く続くらしい。",
+      "en": "A game about growth. The 'strategist' says growth is like a burdenbeast's plodding steps, gentle and enduring."
+    },
+    "eliteDesc": {
+      "zh": "无",
+      "ja": "なし",
+      "en": "Null"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "id": "ro5_e_t_9_b",
+    "linkedStageId": "ro5_t_9_b",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_t-9-b",
+    "levelReplaceIds": [],
+    "code": "ISW-SP",
+    "name": {
+      "zh": "硅基伥的宴席",
+      "ja": "ケイ素器鬼の宴",
+      "en": "Silicon Geist's Banquet"
+    },
+    "description": {
+      "zh": "寓意繁殖的棋局。“战略家”说繁殖就如人造物成伥，即使拼尽全力，后果也难以预测。",
+      "ja": "繁殖を意味する盤面。「戦略家」いわく、繁殖は人工物が器鬼と成ることと同じように、結果の予想が難しいらしい。",
+      "en": "A game about propagation. The 'strategist' says propagation is like man-made objects becoming geists. You can try as hard as you like, but the results are hard to predict."
+    },
+    "eliteDesc": {
+      "zh": "附加条件：敌人的攻击力和生命值提升，防御力和法术抗性大幅提升",
+      "ja": "制限：敵の攻撃力、最大HPが上昇。防御力、術耐性が大幅に上昇。",
+      "en": "Condition: Enemies have increased ATK and HP, and greatly increased DEF and RES"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_t_9_c",
+    "linkedStageId": "ro5_t_9_c",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_t-9-c",
+    "levelReplaceIds": [],
+    "code": "ISW-SP",
+    "name": {
+      "zh": "彻底失控",
+      "ja": "完全制御不能",
+      "en": "Totally Out of Control"
+    },
+    "description": {
+      "zh": "寓意存续的棋局。“战略家”说存续就如感染者悖论，想要活着，就免不了牺牲。",
+      "ja": "存続を意味する盤面。「戦略家」いわく、存続は感染者のパラドックスと同じように、生存のための犠牲がつきものらしい。",
+      "en": "A game about continuation. The 'strategist' says continuation is like the paradox of the Infected. To live, one cannot avoid self-sacrifice."
+    },
+    "eliteDesc": {
+      "zh": "附加条件：敌人的攻击力、防御力、生命值、攻击速度和移动速度大幅度提升",
+      "ja": "制限：敵の攻撃力、防御力、最大HP、攻撃速度、移動速度が大幅に上昇。",
+      "en": "Condition: Enemies have significantly increased ATK, DEF, HP, ASPD, and Movement Speed"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "id": "ro5_e_t_10",
+    "linkedStageId": "ro5_t_10",
+    "levelId": "Obt/Roguelike/RO5/level_rogue5_t-10",
+    "levelReplaceIds": [],
+    "code": "ISW-SP",
+    "name": {
+      "zh": "为崖作伥",
+      "ja": "崖の下の器鬼",
+      "en": "Cliff of Geists"
+    },
+    "description": {
+      "zh": "经过此处天险之地的人总是怒气冲冲，丝毫不肯退缩，殊不知绝壁两边尽是失足落崖的伥怪，这没来由的怒气，正是它们的杰作。",
+      "ja": "この天険の地を通る者は、常に怒りに満ち、一歩も退こうとしない。彼らは知らないのだ。絶壁の両側は崖から足を滑らせて落ちた器鬼で一杯だということを。この理由のない怒りは、まさにソレらの傑作なのである。",
+      "en": "Those passing through this natural redoubt always fly into a raging fury, refusing to fall back. Little do they know of the geists who lost their footing and slipped off the precipices on either side. This unnatural anger is their masterpiece."
+    },
+    "eliteDesc": {
+      "zh": "敌人的攻击力和生命值大幅提升",
+      "ja": "敵の攻撃力と最大HPが大幅に上昇",
+      "en": "Enemies gain increased ATK and HP"
+    },
+    "isBoss": 0,
+    "isElite": 1,
+    "difficulty": "FOUR_STAR",
+    "boxProb": [
+      0.2,
+      0.2
+    ]
+  }
+]

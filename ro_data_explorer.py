@@ -25,7 +25,9 @@ def iter_roguelike_topic_stages(
         topic_detail = details.get(topic_id, {})
         stages = topic_detail.get("stages", {})
         for stage_id, stage_info in stages.items():
-            yield topic_id, stage_id, stage_info
+            vutresProb = stage_info.get("vutresProb", None)
+            if len(vutresProb) > 0:
+                print(stage_id, vutresProb)
 
 
 def runes_check(stage_data):
@@ -99,17 +101,24 @@ parsed_rune_keys = [
     "char_skill_blackb_mul",
 ]
 
-for folder in folders:
-    path = BASE_DIR / f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{folder}"
-    file_paths = get_all_file_paths(str(path))
-    for file_path in file_paths:
-        with Path(file_path).open(encoding="utf-8") as f:
-            stage_data = json.load(f)
-        levelId = Path(file_path).name
 
-        waves_check(stage_data, levelId)
-        if "rogue5" not in levelId:
-            continue
-        # for enemy in stage_data['enemyDbRefs']:
-        #     if enemy['useDb'] is False:
-        #         print(levelId,enemy['id'])
+def main():
+    iter_roguelike_topic_stages()
+    # for folder in folders:
+    #     path = BASE_DIR / f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{folder}"
+    #     file_paths = get_all_file_paths(str(path))
+    #     for file_path in file_paths:
+    #         with Path(file_path).open(encoding="utf-8") as f:
+    #             stage_data = json.load(f)
+    #         levelId = Path(file_path).name
+
+    #         # waves_check(stage_data, levelId)
+    #         if "rogue5" not in levelId:
+    #             continue
+    #         # for enemy in stage_data['enemyDbRefs']:
+    #         #     if enemy['useDb'] is False:
+    #         #         print(levelId,enemy['id'])
+
+
+if __name__ == "__main__":
+    main()
