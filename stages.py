@@ -1,5 +1,6 @@
 import json
 import os
+from pathlib import Path
 from operator import itemgetter
 from waves_new import get_waves_data, get_runes_data, get_wave_spawns_data
 from tiles import get_list_of_tiles, get_special_tiles
@@ -191,10 +192,10 @@ def is_unhandled_alert(levelId, key, rogue_topic):
     return True
 
 
-script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
+BASE_DIR = Path(__file__).resolve().parent
 
 enemy_database_path = os.path.join(
-    script_dir, "cn_data/zh_CN/gamedata/levels/enemydata/enemy_database.json"
+    BASE_DIR, "cn_data/zh_CN/gamedata/levels/enemydata/enemy_database.json"
 )
 with open("talent_overwrite_list.json", encoding="utf-8") as f:
     talent_overwrite_list = json.load(f)
@@ -401,7 +402,7 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
     alt_data = None
     if levelId in STAGES_WITH_REF_TO_REPLACE:
         stage_data_path = os.path.join(
-            script_dir,
+            BASE_DIR,
             f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{rogue_topic}/{STAGES_WITH_REF_TO_REPLACE[levelId]}.json",
         )
         with open(stage_data_path, encoding="utf-8") as f:
@@ -583,13 +584,13 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
 
 def generate_roguelike_stages():
     cn_roguelike_topic_path = os.path.join(
-        script_dir, "cn_data/zh_CN/gamedata/excel/roguelike_topic_table.json"
+        BASE_DIR, "cn_data/zh_CN/gamedata/excel/roguelike_topic_table.json"
     )
     en_roguelike_topic_path = os.path.join(
-        script_dir, "global_data/en/gamedata/excel/roguelike_topic_table.json"
+        BASE_DIR, "global_data/en/gamedata/excel/roguelike_topic_table.json"
     )
     jp_roguelike_topic_path = os.path.join(
-        script_dir, "global_data/jp/gamedata/excel/roguelike_topic_table.json"
+        BASE_DIR, "global_data/jp/gamedata/excel/roguelike_topic_table.json"
     )
 
     with open(cn_roguelike_topic_path, encoding="utf-8") as f:
@@ -657,7 +658,7 @@ def generate_roguelike_stages():
                     if "dlc1" in level_id:
                         file_path = f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{folder}/dlc1/{level_id}.json"
                     stage_data_path = os.path.join(
-                        script_dir,
+                        BASE_DIR,
                         file_path,
                     )
                     with open(stage_data_path, encoding="utf-8") as f:
@@ -770,7 +771,7 @@ def generate_roguelike_stages():
     # for stage navigation ro1 ro2 ro3...
     for topic_dict in roguelike_topics:
         stage_nav = {}
-        write_path = os.path.join(script_dir, topic_dict["folder"] + ".json")
+        write_path = os.path.join(BASE_DIR, topic_dict["folder"] + ".json")
         rogue_topic = get_rogue_topic(topic_dict["folder"])
         for stage in stages_list:
             config = stage["data"][0]
@@ -796,7 +797,7 @@ def generate_roguelike_stages():
             json.dump(stage_nav, f, ensure_ascii=False, indent=4)
 
     for levelId in data:
-        write_path = os.path.join(script_dir, "ro_stage_data", levelId + ".json")
+        write_path = os.path.join(BASE_DIR, "ro_stage_data", levelId + ".json")
         with open(write_path, "w+", encoding="utf-8") as f:
             json.dump(data[levelId], f, ensure_ascii=False, indent=1)
 
@@ -812,34 +813,34 @@ def generate_roguelike_stages():
 
 def generate_normal_stages(topic):
     cn_stage_table_path = os.path.join(
-        script_dir, "cn_data/zh_CN/gamedata/excel/stage_table.json"
+        BASE_DIR, "cn_data/zh_CN/gamedata/excel/stage_table.json"
     )
     en_stage_table_path = os.path.join(
-        script_dir, "global_data/en/gamedata/excel/stage_table.json"
+        BASE_DIR, "global_data/en/gamedata/excel/stage_table.json"
     )
     jp_stage_table_path = os.path.join(
-        script_dir, "global_data/jp/gamedata/excel/stage_table.json"
+        BASE_DIR, "global_data/jp/gamedata/excel/stage_table.json"
     )
     cn_zone_table_path = os.path.join(
-        script_dir, "cn_data/zh_CN/gamedata/excel/zone_table.json"
+        BASE_DIR, "cn_data/zh_CN/gamedata/excel/zone_table.json"
     )
     en_zone_table_path = os.path.join(
-        script_dir, "global_data/en/gamedata/excel/zone_table.json"
+        BASE_DIR, "global_data/en/gamedata/excel/zone_table.json"
     )
     jp_zone_table_path = os.path.join(
-        script_dir, "global_data/jp/gamedata/excel/zone_table.json"
+        BASE_DIR, "global_data/jp/gamedata/excel/zone_table.json"
     )
     cn_story_review_table_path = os.path.join(
-        script_dir, "cn_data/zh_CN/gamedata/excel/story_review_table.json"
+        BASE_DIR, "cn_data/zh_CN/gamedata/excel/story_review_table.json"
     )
     en_story_review_table_path = os.path.join(
-        script_dir, "global_data/en/gamedata/excel/story_review_table.json"
+        BASE_DIR, "global_data/en/gamedata/excel/story_review_table.json"
     )
     jp_story_review_table_path = os.path.join(
-        script_dir, "global_data/jp/gamedata/excel/story_review_table.json"
+        BASE_DIR, "global_data/jp/gamedata/excel/story_review_table.json"
     )
     activity_table_path = os.path.join(
-        script_dir, "cn_data/zh_CN/gamedata/excel/activity_table.json"
+        BASE_DIR, "cn_data/zh_CN/gamedata/excel/activity_table.json"
     )
 
     with open(cn_stage_table_path, encoding="utf-8") as f:
@@ -923,7 +924,7 @@ def generate_normal_stages(topic):
             )
         file_path = stage_info["levelId"].lower()
         stage_data_path = os.path.join(
-            script_dir,
+            BASE_DIR,
             f"cn_data/zh_CN/gamedata/levels/{file_path}.json",
         )
         print(stageId)
@@ -1063,7 +1064,7 @@ def generate_normal_stages(topic):
                     }
                 )
     for stageId in data:
-        write_path = os.path.join(script_dir, "all_stage_data", stageId + ".json")
+        write_path = os.path.join(BASE_DIR, "all_stage_data", stageId + ".json")
         with open(write_path, "w+", encoding="utf-8") as f:
             json.dump(data[stageId], f, ensure_ascii=False, indent=1)
     with open("all_stages_list.json", "w", encoding="utf-8") as f:

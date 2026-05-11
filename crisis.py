@@ -1,5 +1,6 @@
 import json
 import os
+from pathlib import Path
 from operator import itemgetter
 from stages import get_trimmed_stage_data
 from tiles import get_special_tiles
@@ -7,16 +8,16 @@ from waves_new import get_wave_spawns_data
 from runes import get_crisis_runes
 from chara_skills import replace_substrings
 
-script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
+BASE_DIR = Path(__file__).resolve().parent
 
 cn_crisisv2_path = os.path.join(
-    script_dir, "cn_data/zh_CN/gamedata/excel/crisis_v2_table.json"
+    BASE_DIR, "cn_data/zh_CN/gamedata/excel/crisis_v2_table.json"
 )
 en_crisisv2_path = os.path.join(
-    script_dir, "global_data/en/gamedata/excel/crisis_v2_table.json"
+    BASE_DIR, "global_data/en/gamedata/excel/crisis_v2_table.json"
 )
 jp_crisisv2_path = os.path.join(
-    script_dir, "global_data/jp/gamedata/excel/crisis_v2_table.json"
+    BASE_DIR, "global_data/jp/gamedata/excel/crisis_v2_table.json"
 )
 
 with open(cn_crisisv2_path, encoding="utf-8") as f:
@@ -74,7 +75,7 @@ def get_crisis_stage_info():
 
                 file_path = stage_info["levelId"].lower()
                 stage_data_path = os.path.join(
-                    script_dir,
+                    BASE_DIR,
                     f"cn_data/zh_CN/gamedata/levels/{file_path}.json",
                 )
                 print(stage_id, stage_info["levelId"].lower())
@@ -219,7 +220,7 @@ def get_crisis_stage_info():
         pass
 
     for stage_id in data:
-        write_path = os.path.join(script_dir, "all_stage_data", stage_id + ".json")
+        write_path = os.path.join(BASE_DIR, "all_stage_data", stage_id + ".json")
         with open(write_path, "w+", encoding="utf-8") as f:
             json.dump(data[stage_id], f, ensure_ascii=False, indent=1)
     with open("temp.json", "w", encoding="utf-8") as f:

@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 import json
 import pprint
 from operator import itemgetter
@@ -532,10 +533,10 @@ def get_wave_data(stage_data, stage_id, log=False):
     }
 
 
-script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
+BASE_DIR = Path(__file__).resolve().parent
 
 # stage_data_path = os.path.join(
-#     script_dir,
+#     BASE_DIR,
 #     f"zh_CN/gamedata/levels/obt/roguelike/ro3/level_rogue3_1-3.json",
 # )
 # with open(stage_data_path, encoding="utf-8") as f:

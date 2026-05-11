@@ -1,10 +1,11 @@
 import json
 import os
+from pathlib import Path
 
 from chara_skills import replace_substrings
 
-SCRIPT_DIR = os.path.dirname(__file__)
-DEFAULT_OUTPUT_PATH = os.path.join(SCRIPT_DIR, "uniequip.json")
+BASE_DIR = Path(__file__).resolve().parent
+DEFAULT_OUTPUT_PATH = os.path.join(BASE_DIR, "uniequip.json")
 
 
 def _load_json(path):
@@ -12,7 +13,7 @@ def _load_json(path):
         return json.load(file)
 
 
-def _get_data_paths(base_dir=SCRIPT_DIR):
+def _get_data_paths(base_dir=BASE_DIR):
     return {
         "cn_uniequip": os.path.join(
             base_dir, "cn_data/zh_CN/gamedata/excel/uniequip_table.json"
@@ -284,7 +285,7 @@ def _build_uniequip_entry(
 
 
 def generate_uniequip(
-    output_path=DEFAULT_OUTPUT_PATH, base_dir=SCRIPT_DIR, verbose=False
+    output_path=DEFAULT_OUTPUT_PATH, base_dir=BASE_DIR, verbose=False
 ):
     paths = _get_data_paths(base_dir)
     cn_uniequip_table = _load_json(paths["cn_uniequip"])

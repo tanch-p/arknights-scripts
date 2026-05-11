@@ -1,7 +1,8 @@
 import os
+from pathlib import Path
 import json
 
-script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
+BASE_DIR = Path(__file__).resolve().parent
 
 
 """
@@ -65,7 +66,7 @@ data = {}
 for folder in folders:
     files = []
     path = os.path.join(
-        script_dir,
+        BASE_DIR,
         f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{folder}",
     )
     all_files = get_all_files(path)
@@ -81,6 +82,6 @@ for folder in folders:
             continue
         data[stage_id.replace(".json", "")] = get_tel_data(stage_data)
 
-write_path = os.path.join(script_dir, "tel_extrainfo_new.json")
+write_path = os.path.join(BASE_DIR, "tel_extrainfo_new.json")
 with open(write_path, "w+", encoding="utf-8") as f:
     json.dump(data, f, ensure_ascii=False, indent=4)

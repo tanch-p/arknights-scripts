@@ -1,10 +1,11 @@
 import pprint
 import os
+from pathlib import Path
 import json
 
 pp = pprint.PrettyPrinter(indent=4)
 
-script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
+BASE_DIR = Path(__file__).resolve().parent
 
 parsed_rune_keys = [
     "enemy_attribute_mul",
@@ -40,10 +41,10 @@ parsed_rune_keys = [
 ]
 
 cn_stage_table_path = os.path.join(
-    script_dir, "cn_data/zh_CN/gamedata/excel/stage_table.json"
+    BASE_DIR, "cn_data/zh_CN/gamedata/excel/stage_table.json"
 )
 activity_table_path = os.path.join(
-    script_dir, "cn_data/zh_CN/gamedata/excel/activity_table.json"
+    BASE_DIR, "cn_data/zh_CN/gamedata/excel/activity_table.json"
 )
 
 with open(cn_stage_table_path, encoding="utf-8") as f:
@@ -59,7 +60,7 @@ for stageId in cn_stage_table["stages"]:
         continue
     file_path = stage_info["levelId"].lower()
     stage_data_path = os.path.join(
-        script_dir,
+        BASE_DIR,
         f"cn_data/zh_CN/gamedata/levels/{file_path}.json",
     )
     try:

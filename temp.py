@@ -1,10 +1,11 @@
 import pprint
 import os
+from pathlib import Path
 import json
 
 pp = pprint.PrettyPrinter(indent=4)
 
-script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
+BASE_DIR = Path(__file__).resolve().parent
 
 
 def convert_data(old_data, topic="rogue_yan"):
@@ -41,7 +42,7 @@ with open("temp.json", "w", encoding="utf-8") as f:
     json.dump(new_data, f, ensure_ascii=False, indent=4)
 
 # cn_char_table_path = os.path.join(
-#     script_dir, "cn_data/zh_CN/gamedata/excel/character_table.json")
+#     BASE_DIR, "cn_data/zh_CN/gamedata/excel/character_table.json")
 # with open(cn_char_table_path, encoding='utf-8') as f:
 #     char_table = json.load(f)
 
@@ -81,7 +82,7 @@ with open("temp.json", "w", encoding="utf-8") as f:
 # testing_chars = ['char_4116_blkkgt', 'char_003_kalts', 'char_4048_doroth', '']
 
 # enemy_database_path = os.path.join(
-#     script_dir, "cn_data/zh_CN/gamedata/levels/enemydata/enemy_database.json"
+#     BASE_DIR, "cn_data/zh_CN/gamedata/levels/enemydata/enemy_database.json"
 # )
 # with open(enemy_database_path, encoding="utf-8") as f:
 #     enemy_database = json.load(f)

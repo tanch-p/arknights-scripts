@@ -1,14 +1,15 @@
 import json
 import os
+from pathlib import Path
 
-script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
+BASE_DIR = Path(__file__).resolve().parent
 
 cn_enemy_handbook_path = os.path.join(
-    script_dir, "cn_data/zh_CN/gamedata/excel/enemy_handbook_table.json"
+    BASE_DIR, "cn_data/zh_CN/gamedata/excel/enemy_handbook_table.json"
 )
 
 enemy_database_path = os.path.join(
-    script_dir, "cn_data/zh_CN/gamedata/levels/enemydata/enemy_database.json"
+    BASE_DIR, "cn_data/zh_CN/gamedata/levels/enemydata/enemy_database.json"
 )
 
 with open(cn_enemy_handbook_path, encoding="utf-8") as f:
@@ -25,7 +26,7 @@ for enemy in enemy_database["enemies"]:
     talentLength = 0
     skills = []
     skillsLength = 0
-    for value in enemy['Value']:
+    for value in enemy["Value"]:
         # if value['enemyData']['attributes']['palsyImmune']['m_value'] is True:
         #     print(key, " palsy immune")
         # if value['enemyData']['attributes']['attractImmune']['m_value'] is True:
@@ -34,8 +35,11 @@ for enemy in enemy_database["enemies"]:
         #     print(key, " epDamageResistance not 0")
         # if value['enemyData']['attributes']['epResistance']['m_value'] != 0:
         #     print(key, " epResistance not 0")
-        if value['enemyData']['attributes']['tauntLevel']['m_value'] != 0:
-            print(key, f" tauntLevel {value['enemyData']['attributes']['tauntLevel']['m_value']}")
+        if value["enemyData"]["attributes"]["tauntLevel"]["m_value"] != 0:
+            print(
+                key,
+                f" tauntLevel {value['enemyData']['attributes']['tauntLevel']['m_value']}",
+            )
     #     if value['enemyData']['talentBlackboard'] is not None:
     #         for talent in value['enemyData']['talentBlackboard']:
     #             if not talent in talentBlackboard:

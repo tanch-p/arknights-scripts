@@ -1,5 +1,6 @@
 import json
 import os
+from pathlib import Path
 import re
 
 
@@ -183,21 +184,21 @@ def insert_attack_interval(text, blackboard, base_attack_time=None, bracket_valu
     return result
 
 
-script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
+BASE_DIR = Path(__file__).resolve().parent
 
 
 def update_chara_skills():
     cn_char_table_path = os.path.join(
-        script_dir, "cn_data/zh_CN/gamedata/excel/character_table.json"
+        BASE_DIR, "cn_data/zh_CN/gamedata/excel/character_table.json"
     )
     cn_skill_table_path = os.path.join(
-        script_dir, "cn_data/zh_CN/gamedata/excel/skill_table.json"
+        BASE_DIR, "cn_data/zh_CN/gamedata/excel/skill_table.json"
     )
     en_skill_table_path = os.path.join(
-        script_dir, "global_data/en/gamedata/excel/skill_table.json"
+        BASE_DIR, "global_data/en/gamedata/excel/skill_table.json"
     )
     jp_skill_table_path = os.path.join(
-        script_dir, "global_data/jp/gamedata/excel/skill_table.json"
+        BASE_DIR, "global_data/jp/gamedata/excel/skill_table.json"
     )
 
     with open(cn_char_table_path, encoding="utf-8") as f:
@@ -297,16 +298,16 @@ def update_chara_skills():
 
 def update_chara_skills_new():
     cn_char_table_path = os.path.join(
-        script_dir, "cn_data/zh_CN/gamedata/excel/character_table.json"
+        BASE_DIR, "cn_data/zh_CN/gamedata/excel/character_table.json"
     )
     cn_skill_table_path = os.path.join(
-        script_dir, "cn_data/zh_CN/gamedata/excel/skill_table.json"
+        BASE_DIR, "cn_data/zh_CN/gamedata/excel/skill_table.json"
     )
     en_skill_table_path = os.path.join(
-        script_dir, "global_data/en/gamedata/excel/skill_table.json"
+        BASE_DIR, "global_data/en/gamedata/excel/skill_table.json"
     )
     jp_skill_table_path = os.path.join(
-        script_dir, "global_data/jp/gamedata/excel/skill_table.json"
+        BASE_DIR, "global_data/jp/gamedata/excel/skill_table.json"
     )
 
     with open(cn_char_table_path, encoding="utf-8") as f:

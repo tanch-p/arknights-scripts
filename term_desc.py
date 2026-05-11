@@ -1,20 +1,21 @@
 import os
+from pathlib import Path
 import json
 
-script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
+BASE_DIR = Path(__file__).resolve().parent
 
 with open(
-    os.path.join(script_dir, "cn_data/zh_CN/gamedata/excel/gamedata_const.json"),
+    os.path.join(BASE_DIR, "cn_data/zh_CN/gamedata/excel/gamedata_const.json"),
     encoding="utf-8",
 ) as f:
     cn_gameconst = json.load(f)
 with open(
-    os.path.join(script_dir, "global_data/en/gamedata/excel/gamedata_const.json"),
+    os.path.join(BASE_DIR, "global_data/en/gamedata/excel/gamedata_const.json"),
     encoding="utf-8",
 ) as f:
     en_gameconst = json.load(f)
 with open(
-    os.path.join(script_dir, "global_data/jp/gamedata/excel/gamedata_const.json"),
+    os.path.join(BASE_DIR, "global_data/jp/gamedata/excel/gamedata_const.json"),
     encoding="utf-8",
 ) as f:
     jp_gameconst = json.load(f)

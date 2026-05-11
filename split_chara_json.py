@@ -1,11 +1,12 @@
 import json
 import os
+from pathlib import Path
 from contextlib import contextmanager
 
 from json_gz import json_to_gz
 from sec_filter import gen_sec_filter_options
 
-SCRIPT_DIR = os.path.dirname(__file__)
+BASE_DIR = Path(__file__).resolve().parent
 LANGUAGES = ["zh", "ja", "en"]
 
 
@@ -276,7 +277,7 @@ def _build_character_entry(chara_dict, lang):
 
 def split_characters_json(
     output_dir=None,
-    base_dir=SCRIPT_DIR,
+    base_dir=BASE_DIR,
     languages=None,
     compress=True,
     generate_sec_filters=True,
@@ -310,8 +311,8 @@ def split_characters_json(
 
 def main():
     split_characters_json(
-        output_dir=SCRIPT_DIR,
-        base_dir=SCRIPT_DIR,
+        output_dir=BASE_DIR,
+        base_dir=BASE_DIR,
         compress=True,
         generate_sec_filters=True,
     )

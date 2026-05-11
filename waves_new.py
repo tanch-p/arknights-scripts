@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 import json
 import pprint
 import itertools
@@ -28,7 +29,7 @@ sp_stages_with_bonus = [
     "level_rogue5_t-9-c",
 ]
 
-script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
+BASE_DIR = Path(__file__).resolve().parent
 
 ACTION_TYPES_TO_PARSE = ["SPAWN", "ACTIVATE_PREDEFINED", "EMPTY"]
 
@@ -848,9 +849,6 @@ def create_timeline(waves, has_bonus_wave, bonus_wave_idx):
             }
         )
     return {"timelines": timelines, "count": total_count}
-
-
-script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
 
 
 def get_waves_data(stage_data, levelId, log=False, test=False):

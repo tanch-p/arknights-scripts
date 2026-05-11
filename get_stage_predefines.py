@@ -1,27 +1,28 @@
 import os
+from pathlib import Path
 from os import walk
 import json
 
-script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
+BASE_DIR = Path(__file__).resolve().parent
 
 
 cn_char_table_path = os.path.join(
-    script_dir, "cn_data/zh_CN/gamedata/excel/character_table.json"
+    BASE_DIR, "cn_data/zh_CN/gamedata/excel/character_table.json"
 )
 cn_skill_table_path = os.path.join(
-    script_dir, "cn_data/zh_CN/gamedata/excel/skill_table.json"
+    BASE_DIR, "cn_data/zh_CN/gamedata/excel/skill_table.json"
 )
 en_char_table_path = os.path.join(
-    script_dir, "global_data/en/gamedata/excel/character_table.json"
+    BASE_DIR, "global_data/en/gamedata/excel/character_table.json"
 )
 en_skill_table_path = os.path.join(
-    script_dir, "global_data/en/gamedata/excel/skill_table.json"
+    BASE_DIR, "global_data/en/gamedata/excel/skill_table.json"
 )
 jp_char_table_path = os.path.join(
-    script_dir, "global_data/jp/gamedata/excel/character_table.json"
+    BASE_DIR, "global_data/jp/gamedata/excel/character_table.json"
 )
 jp_skill_table_path = os.path.join(
-    script_dir, "global_data/jp/gamedata/excel/skill_table.json"
+    BASE_DIR, "global_data/jp/gamedata/excel/skill_table.json"
 )
 
 with open(cn_char_table_path, encoding="utf-8") as f:
@@ -62,7 +63,7 @@ token_list = []
 for folder in folders:
     files = []
     path = os.path.join(
-        script_dir,
+        BASE_DIR,
         f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{folder}",
     )
     for dirpath, dirnames, filenames in walk(path):
@@ -75,7 +76,7 @@ for folder in folders:
         if "r1" in stage_id:
             continue
         stage_data_path = os.path.join(
-            script_dir,
+            BASE_DIR,
             f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{folder}/{stage_id}",
         )
         with open(stage_data_path, encoding="utf-8") as f:

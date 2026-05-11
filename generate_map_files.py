@@ -1,9 +1,10 @@
 import os
+from pathlib import Path
 from os import walk
 import json
 from waves_new import get_wave_spawns_data
 
-script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
+BASE_DIR = Path(__file__).resolve().parent
 
 STAGES_WITH_ENEMY_REF_TO_REPLACE = {
     "level_rogue4_b-4": "level_rogue4_b-4-c",
@@ -77,7 +78,7 @@ stages_to_ignore = []
 for folder in folders:
     files = []
     path = os.path.join(
-        script_dir,
+        BASE_DIR,
         f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{folder}",
     )
     for dirpath, dirnames, filenames in walk(path):
@@ -96,7 +97,7 @@ for folder in folders:
             stage_id = STAGES_WITH_ENEMY_REF_TO_REPLACE[stage_id]
         print(stage_id)
         file_path = os.path.join(
-            script_dir,
+            BASE_DIR,
             f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{folder}/{stage_id}",
         )
         with open(file_path, encoding="utf-8") as f:
@@ -109,7 +110,7 @@ for folder in folders:
         # timeline = get_waves_data(
         #     stage_data, stage_id.replace(".json", ""), log=True)
         # write_path = os.path.join(
-        #     script_dir, 'ro_wave_timelines', folder, stage_id)
+        #     BASE_DIR, 'ro_wave_timelines', folder, stage_id)
         # if timeline:
         #     with open(write_path, 'w+', encoding='utf-8') as f:
         #         json.dump(timeline, f, ensure_ascii=False, indent=4)

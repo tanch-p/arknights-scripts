@@ -1,10 +1,11 @@
 from os import walk
 import pprint
 import os
+from pathlib import Path
 import json
 
 pp = pprint.PrettyPrinter(indent=4)
-script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
+BASE_DIR = Path(__file__).resolve().parent
 
 
 def get_list_of_tiles(stage_data, key):
@@ -29,7 +30,7 @@ def get_list_of_tiles(stage_data, key):
 def get_all_tiles():
     f = []
     for dirpath, dirnames, filenames in walk(
-        os.path.join(script_dir, "cn_data/zh_CN/gamedata/levels/obt")
+        os.path.join(BASE_DIR, "cn_data/zh_CN/gamedata/levels/obt")
     ):
         for filename in filenames:
             f.append(os.path.join(dirpath, filename))

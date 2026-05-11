@@ -1,16 +1,17 @@
 import json
 import os
+from pathlib import Path
 
-script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
+BASE_DIR = Path(__file__).resolve().parent
 
 enemy_database_path = os.path.join(
-    script_dir, "global_data/cn/gamedata/levels/enemydata/enemy_database.json"
+    BASE_DIR, "global_data/cn/gamedata/levels/enemydata/enemy_database.json"
 )
 en_enemy_database_path = os.path.join(
-    script_dir, "global_data/en/gamedata/levels/enemydata/enemy_database.json"
+    BASE_DIR, "global_data/en/gamedata/levels/enemydata/enemy_database.json"
 )
 jp_enemy_database_path = os.path.join(
-    script_dir, "global_data/jp/gamedata/levels/enemydata/enemy_database.json"
+    BASE_DIR, "global_data/jp/gamedata/levels/enemydata/enemy_database.json"
 )
 
 with open(enemy_database_path, encoding="utf-8") as f:
@@ -29,10 +30,10 @@ for key in existing_data:
     jp_db_enemy = jp_enemy_database[key] if key in jp_enemy_database else None
     en_db_enemy = en_enemy_database[key] if key in en_enemy_database else None
     data["name_ja"] = (
-        jp_db_enemy[0]['enemyData']["name"]["m_value"] if jp_db_enemy else ""
+        jp_db_enemy[0]["enemyData"]["name"]["m_value"] if jp_db_enemy else ""
     )
     data["name_en"] = (
-        en_db_enemy[0]['enemyData']["name"]["m_value"] if en_db_enemy else ""
+        en_db_enemy[0]["enemyData"]["name"]["m_value"] if en_db_enemy else ""
     )
     enemies[key] = data
 

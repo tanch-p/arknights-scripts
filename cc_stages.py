@@ -1,5 +1,6 @@
 import json
 import os
+from pathlib import Path
 from os import walk
 
 STAT_KEY_CONVERSION_TABLE = {
@@ -7,15 +8,13 @@ STAT_KEY_CONVERSION_TABLE = {
     "baseAttackTime": "aspd",
     "magicResistance": "res",
     "massLevel": "weight",
-    "moveSpeed": "ms"
+    "moveSpeed": "ms",
 }
-script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
+BASE_DIR = Path(__file__).resolve().parent
 
-cn_rune_path = os.path.join(
-    script_dir, "zh_CN\\gamedata\\levels\\obt\\rune"
-)
+cn_rune_path = os.path.join(BASE_DIR, "zh_CN\\gamedata\\levels\\obt\\rune")
 enemy_database_path = os.path.join(
-    script_dir, "zh_CN\\gamedata\\levels\\enemydata/enemy_database.json"
+    BASE_DIR, "zh_CN\\gamedata\\levels\\enemydata/enemy_database.json"
 )
 
 with open(enemy_database_path, encoding="utf-8") as f:
@@ -27,12 +26,12 @@ stages_list = []
 
 cc_stages = []
 
-for (dirpath, dirnames, filenames) in walk(cn_rune_path):
+for dirpath, dirnames, filenames in walk(cn_rune_path):
     cc_stages.extend(filenames)
     break
 
 for cc_stage in cc_stages:
-    with open(cn_rune_path+"\\"+cc_stage, encoding="utf-8") as f:
+    with open(cn_rune_path + "\\" + cc_stage, encoding="utf-8") as f:
         rune_stage_info = json.load(f)
         trimmed_stage_info = {
             "id": cc_stage,
@@ -55,23 +54,23 @@ for cc_stage in cc_stages:
 
         enemies = []
         for enemy in rune_stage_info["enemyDbRefs"]:
-            if enemy['id'] in my_enemy_db:
+            if enemy["id"] in my_enemy_db:
                 overwrittenData = {}
                 if enemy["overwrittenData"]:
                     for key in enemy["overwrittenData"]["attributes"]:
                         if enemy["overwrittenData"]["attributes"][key]["m_defined"]:
                             if key in STAT_KEY_CONVERSION_TABLE:
-                                overwrittenData[STAT_KEY_CONVERSION_TABLE[key]] = enemy["overwrittenData"][
-                                    "attributes"
-                                ][key]["m_value"]
+                                overwrittenData[STAT_KEY_CONVERSION_TABLE[key]] = enemy[
+                                    "overwrittenData"
+                                ]["attributes"][key]["m_value"]
                             else:
                                 overwrittenData[key] = enemy["overwrittenData"][
                                     "attributes"
                                 ][key]["m_value"]
                         if enemy["overwrittenData"]["lifePointReduce"]["m_defined"]:
-                            overwrittenData["lifepoint"] = enemy[
-                                "overwrittenData"
-                            ]["lifePointReduce"]["m_value"]
+                            overwrittenData["lifepoint"] = enemy["overwrittenData"][
+                                "lifePointReduce"
+                            ]["m_value"]
                         if enemy["overwrittenData"]["rangeRadius"]["m_defined"]:
                             overwrittenData["range"] = enemy["overwrittenData"][
                                 "rangeRadius"

@@ -1,16 +1,17 @@
 import json
 import os
+from pathlib import Path
 
-script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
+BASE_DIR = Path(__file__).resolve().parent
 
 cn_roguelike_topic_path = os.path.join(
-    script_dir, "cn_data/zh_CN/gamedata/excel/roguelike_topic_table.json"
+    BASE_DIR, "cn_data/zh_CN/gamedata/excel/roguelike_topic_table.json"
 )
 en_roguelike_topic_path = os.path.join(
-    script_dir, "global_data/en/gamedata/excel/roguelike_topic_table.json"
+    BASE_DIR, "global_data/en/gamedata/excel/roguelike_topic_table.json"
 )
 jp_roguelike_topic_path = os.path.join(
-    script_dir, "global_data/jp/gamedata/excel/roguelike_topic_table.json"
+    BASE_DIR, "global_data/jp/gamedata/excel/roguelike_topic_table.json"
 )
 
 with open(cn_roguelike_topic_path, encoding="utf-8") as f:

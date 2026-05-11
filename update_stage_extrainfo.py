@@ -5,12 +5,13 @@ from tiles import get_special_tiles
 from waves_new import get_wave_spawns_data
 import json
 import os
+from pathlib import Path
 import pprint
 
 pp = pprint.PrettyPrinter(indent=4)
 
 
-script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
+BASE_DIR = Path(__file__).resolve().parent
 
 with open("is_stages_extrainfo.json", encoding="utf-8") as f:
     extra_info_list = json.load(f)
@@ -76,17 +77,17 @@ def update_current_stages():
             folder = "ro5"
 
         stage_data_path = os.path.join(
-            script_dir,
+            BASE_DIR,
             f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{folder}/{key}.json",
         )
         if "dlc1" in key:
             stage_data_path = os.path.join(
-                script_dir,
+                BASE_DIR,
                 f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{folder}/dlc1/{key}.json",
             )
         if "dlc2" in key:
             stage_data_path = os.path.join(
-                script_dir,
+                BASE_DIR,
                 f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{folder}/dlc2/{key}.json",
             )
         with open(stage_data_path, encoding="utf-8") as f:
@@ -214,7 +215,7 @@ def add_new_ro_stages():
             if "dlc1" in key:
                 file_path = f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{folder}/dlc1/{key}.json"
             stage_data_path = os.path.join(
-                script_dir,
+                BASE_DIR,
                 file_path,
             )
             with open(stage_data_path, encoding="utf-8") as f:
@@ -307,12 +308,12 @@ def add_new_event_stages():
     activity = "act45side"
     if stage_type == "main":
         path = os.path.join(
-            script_dir,
+            BASE_DIR,
             "cn_data/zh_CN/gamedata/levels/obt/main",
         )
     else:
         path = os.path.join(
-            script_dir,
+            BASE_DIR,
             f"cn_data/zh_CN/gamedata/levels/activities/{activity}",
         )
     file_paths = get_all_file_paths(path)

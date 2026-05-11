@@ -1,10 +1,11 @@
 import json
 import os
+from pathlib import Path
 
 from chara_skills import replace_substrings
 
-SCRIPT_DIR = os.path.dirname(__file__)
-DEFAULT_OUTPUT_PATH = os.path.join(SCRIPT_DIR, "tokens.json")
+BASE_DIR = Path(__file__).resolve().parent
+DEFAULT_OUTPUT_PATH = os.path.join(BASE_DIR, "tokens.json")
 
 IDS_TO_IGNORE = ["token_10057_svash2_eagle"]
 
@@ -14,7 +15,7 @@ def _load_json(path):
         return json.load(file)
 
 
-def _get_data_paths(base_dir=SCRIPT_DIR):
+def _get_data_paths(base_dir=BASE_DIR):
     return {
         "cn_char_table": os.path.join(
             base_dir, "cn_data/zh_CN/gamedata/excel/character_table.json"
@@ -232,9 +233,7 @@ def _build_token_entry(
     return entry
 
 
-def generate_tokens(
-    output_path=DEFAULT_OUTPUT_PATH, base_dir=SCRIPT_DIR, verbose=False
-):
+def generate_tokens(output_path=DEFAULT_OUTPUT_PATH, base_dir=BASE_DIR, verbose=False):
     paths = _get_data_paths(base_dir)
     cn_char_table = _load_json(paths["cn_char_table"])
     cn_skill_table = _load_json(paths["cn_skill_table"])

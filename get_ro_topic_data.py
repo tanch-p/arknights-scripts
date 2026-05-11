@@ -1,13 +1,14 @@
 import pprint
 import os
+from pathlib import Path
 import json
 from runes import parse_rune
 
 pp = pprint.PrettyPrinter(indent=4)
 
-script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
+BASE_DIR = Path(__file__).resolve().parent
 roguelike_table_path = os.path.join(
-    script_dir, "cn_data/zh_CN/gamedata/excel/roguelike_topic_table.json"
+    BASE_DIR, "cn_data/zh_CN/gamedata/excel/roguelike_topic_table.json"
 )
 with open(roguelike_table_path, encoding="utf-8") as f:
     ro_topic_table = json.load(f)

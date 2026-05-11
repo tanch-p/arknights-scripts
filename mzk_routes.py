@@ -1,13 +1,14 @@
 import json
 import os
+from pathlib import Path
 import pprint
 
 pp = pprint.PrettyPrinter(indent=4)
 
 
-script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
+BASE_DIR = Path(__file__).resolve().parent
 mzk_path = os.path.join(
-    script_dir,
+    BASE_DIR,
     "cn_data\\zh_CN\\gamedata\\levels\\obt\\roguelike\\ro2\\level_rogue2_b-7.json",
 )
 with open(mzk_path, encoding="utf-8") as f:

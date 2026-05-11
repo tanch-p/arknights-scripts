@@ -3,11 +3,12 @@ from runes import get_runes
 from operator import itemgetter
 import json
 import os
+from pathlib import Path
 import pprint
 
 pp = pprint.PrettyPrinter(indent=4)
 
-script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
+BASE_DIR = Path(__file__).resolve().parent
 
 test_cases = [
     {
@@ -120,7 +121,7 @@ test_cases = [
 def test_runes():
     for case in test_cases:
         stage_data_path = os.path.join(
-            script_dir,
+            BASE_DIR,
             f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{case['path']}",
         )
         with open(stage_data_path, encoding="utf-8") as f:

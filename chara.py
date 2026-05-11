@@ -3,6 +3,7 @@ from uniequip import generate_uniequip
 from split_chara_json import split_characters_json
 import json
 import os
+from pathlib import Path
 import re
 from game_types.character_table import (
     CharacterTable,
@@ -18,7 +19,7 @@ import pprint
 from tokens import IDS_TO_IGNORE, generate_tokens
 from utils.datetime_to_unix import datetime_to_unix_gmt8
 
-script_dir = os.path.dirname(__file__)
+BASE_DIR = Path(__file__).resolve().parent
 
 pp = pprint.PrettyPrinter(indent=4)
 
@@ -155,25 +156,25 @@ KEYS_TO_IGNORE = [
 ]
 
 cn_char_table_path = os.path.join(
-    script_dir, "cn_data/zh_CN/gamedata/excel/character_table.json"
+    BASE_DIR, "cn_data/zh_CN/gamedata/excel/character_table.json"
 )
 cn_skill_table_path = os.path.join(
-    script_dir, "cn_data/zh_CN/gamedata/excel/skill_table.json"
+    BASE_DIR, "cn_data/zh_CN/gamedata/excel/skill_table.json"
 )
 en_char_table_path = os.path.join(
-    script_dir, "global_data/en/gamedata/excel/character_table.json"
+    BASE_DIR, "global_data/en/gamedata/excel/character_table.json"
 )
 jp_char_table_path = os.path.join(
-    script_dir, "global_data/jp/gamedata/excel/character_table.json"
+    BASE_DIR, "global_data/jp/gamedata/excel/character_table.json"
 )
 cn_patch_table_path = os.path.join(
-    script_dir, "cn_data/zh_CN/gamedata/excel/char_patch_table.json"
+    BASE_DIR, "cn_data/zh_CN/gamedata/excel/char_patch_table.json"
 )
 en_patch_table_path = os.path.join(
-    script_dir, "global_data/en/gamedata/excel/char_patch_table.json"
+    BASE_DIR, "global_data/en/gamedata/excel/char_patch_table.json"
 )
 jp_patch_table_path = os.path.join(
-    script_dir, "global_data/jp/gamedata/excel/char_patch_table.json"
+    BASE_DIR, "global_data/jp/gamedata/excel/char_patch_table.json"
 )
 
 with open(cn_char_table_path, encoding="utf-8") as f:
@@ -763,7 +764,7 @@ def generate_character_json_files() -> None:
         if id not in subprofessions:
             print(id, " (new!)")
 
-    split_characters_json(script_dir)
+    split_characters_json(BASE_DIR)
 
 
 def main() -> None:

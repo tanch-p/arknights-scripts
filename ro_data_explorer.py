@@ -1,11 +1,31 @@
 import pprint
-import os
 import json
+from pathlib import Path
 from walk import get_all_file_paths
 
 pp = pprint.PrettyPrinter(indent=4)
 
-script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
+BASE_DIR = Path(__file__).resolve().parent
+ROGUELIKE_TOPIC_TABLE_PATH = (
+    BASE_DIR / "cn_data/zh_CN/gamedata/excel/roguelike_topic_table.json"
+)
+
+
+def iter_roguelike_topic_stages(
+    topic_table_path=ROGUELIKE_TOPIC_TABLE_PATH,
+    topic_ids=None,
+):
+    with Path(topic_table_path).open(encoding="utf-8") as f:
+        roguelike_topic_table = json.load(f)
+
+    details = roguelike_topic_table["details"]
+    topics_to_iterate = topic_ids or details.keys()
+
+    for topic_id in topics_to_iterate:
+        topic_detail = details.get(topic_id, {})
+        stages = topic_detail.get("stages", {})
+        for stage_id, stage_info in stages.items():
+            yield topic_id, stage_id, stage_info
 
 
 def runes_check(stage_data):
@@ -80,15 +100,12 @@ parsed_rune_keys = [
 ]
 
 for folder in folders:
-    path = os.path.join(
-        script_dir,
-        f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{folder}",
-    )
-    file_paths = get_all_file_paths(path)
+    path = BASE_DIR / f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{folder}"
+    file_paths = get_all_file_paths(str(path))
     for file_path in file_paths:
-        with open(file_path, encoding="utf-8") as f:
+        with Path(file_path).open(encoding="utf-8") as f:
             stage_data = json.load(f)
-        levelId = file_path.split("/")[-1]
+        levelId = Path(file_path).name
 
         waves_check(stage_data, levelId)
         if "rogue5" not in levelId:
