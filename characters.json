@@ -1058,6 +1058,139 @@
         "uniequip":[]
     },
     {
+        "id":"char_4215_buddy",
+        "appellation":"Rhodes Island Recon",
+        "name_zh":"罗德岛隐秘队",
+        "name_ja":"",
+        "name_en":"",
+        "desc_zh":"可以在攻击范围内选择一次<@ba.kw>战术点</>来召唤援军，自身攻击援军阻挡的敌人时攻击力提升至150%；不受<@ba.kw>部署数量</>限制，但再部署时间极长",
+        "desc_ja":"",
+        "desc_en":"",
+        "release_time":1780286400,
+        "tags":[
+            "target_air",
+            "phys"
+        ],
+        "blackboard":[],
+        "powers":[
+            "rhodes"
+        ],
+        "position":"RANGED",
+        "isSpChar":false,
+        "rarity":"TIER_1",
+        "profession":"PIONEER",
+        "subProfessionId":"tactician",
+        "stats":{
+            "rangeId":"3-1",
+            "level":30,
+            "hp":590,
+            "atk":107,
+            "def":45,
+            "res":0.0,
+            "cost":3,
+            "blockCnt":1,
+            "aspd":1.0,
+            "respawnTime":200
+        },
+        "potential":[
+            {
+                "desc_zh":"天赋效果加强",
+                "desc_ja":"",
+                "desc_en":"",
+                "attribute":null
+            },
+            {
+                "desc_zh":"天赋效果加强",
+                "desc_ja":"",
+                "desc_en":"",
+                "attribute":null
+            },
+            {
+                "desc_zh":"天赋效果加强",
+                "desc_ja":"",
+                "desc_en":"",
+                "attribute":null
+            },
+            {
+                "desc_zh":"天赋效果加强",
+                "desc_ja":"",
+                "desc_en":"",
+                "attribute":null
+            },
+            {
+                "desc_zh":"天赋效果加强",
+                "desc_ja":"",
+                "desc_en":"",
+                "attribute":null
+            }
+        ],
+        "favorData":{
+            "hp":100,
+            "atk":15
+        },
+        "tokens":[
+            {
+                "id":"token_10063_buddy_bddg",
+                "name_zh":"牙猎犬",
+                "name_ja":"",
+                "name_en":"",
+                "desc_zh":"能够阻挡一个敌人，只能部署在艾露猫的攻击范围内",
+                "desc_ja":"",
+                "desc_en":"",
+                "position":"MELEE",
+                "stats":{
+                    "rangeId":"0-1",
+                    "level":30,
+                    "hp":1095,
+                    "atk":175,
+                    "def":180,
+                    "res":0.0,
+                    "cost":0,
+                    "blockCnt":0,
+                    "aspd":1.25,
+                    "respawnTime":60
+                },
+                "tags":[],
+                "blackboard":[],
+                "skills":[],
+                "talents":[
+                    {
+                        "prefabKey":"0",
+                        "name_zh":"疾如闪电",
+                        "name_en":"",
+                        "name_ja":"",
+                        "desc_zh":"部署时对周围8格的最多3个敌人进行相当于200%攻击力的斩击，并将其小力地拉向自身方向；被击倒后回到艾露猫身边休息，60秒后重新在战术点的位置部署",
+                        "desc_ja":"",
+                        "desc_en":""
+                    }
+                ]
+            }
+        ],
+        "skills":[],
+        "talents":[
+            {
+                "prefabKey":"2",
+                "name_zh":"猫式起爆龙弹·VI",
+                "name_en":"",
+                "name_ja":"",
+                "desc_zh":"对前三个敌人首次进行攻击时改为使用“猫式起爆龙弹”。来自我方其他单位的伤害会将其引爆，造成罗德岛隐秘队500%攻击力的伤害和3秒晕眩，并回复1点部署费用。“猫式起爆龙弹”在被引爆后或30秒后消失",
+                "desc_en":"",
+                "desc_ja":"",
+                "rangeId":null,
+                "tags":[],
+                "blackboard":[
+                    {
+                        "key":"stun",
+                        "targets":99,
+                        "value":3.0,
+                        "target_air":true
+                    }
+                ]
+            }
+        ],
+        "uniequip":[]
+    },
+    {
         "id":"char_502_nblade",
         "appellation":"Yato",
         "name_zh":"夜刀",
@@ -20474,7 +20607,9 @@
                         ]
                     }
                 ],
-                "tags":[],
+                "tags":[
+                    "unlimited_duration"
+                ],
                 "blackboard":[
                     {
                         "key":"evasion",
@@ -58777,8 +58912,8 @@
                 ],
                 "blackboard":[
                     {
-                        "key":"ctt",
-                        "value":3.0
+                        "key":"ct",
+                        "value":2.0
                     }
                 ]
             }
@@ -62509,6 +62644,644 @@
             }
         ],
         "uniequip":[]
+    },
+    {
+        "id":"char_1049_catap2",
+        "appellation":"Zinogre S Catapult",
+        "name_zh":"雷狼龙S空爆",
+        "name_ja":"",
+        "name_en":"",
+        "desc_zh":"可消耗部署费用来强化作战能力",
+        "desc_ja":"",
+        "desc_en":"",
+        "release_time":1780286400,
+        "tags":[
+            "phys"
+        ],
+        "blackboard":[],
+        "powers":[
+            "kazimierz",
+            "rhodes",
+            "reserve6"
+        ],
+        "position":"MELEE",
+        "isSpChar":true,
+        "rarity":"TIER_5",
+        "profession":"WARRIOR",
+        "subProfessionId":"mercenary",
+        "stats":{
+            "rangeId":"1-1",
+            "level":80,
+            "hp":3010,
+            "atk":544,
+            "def":377,
+            "res":10.0,
+            "cost":10,
+            "blockCnt":2,
+            "aspd":1.25,
+            "respawnTime":70
+        },
+        "potential":[
+            {
+                "desc_zh":"部署费用-1",
+                "desc_ja":"",
+                "desc_en":"",
+                "attribute":{
+                    "cost":-1.0
+                }
+            },
+            {
+                "desc_zh":"再部署时间-4秒",
+                "desc_ja":"",
+                "desc_en":"",
+                "attribute":{
+                    "respawnTime":-4.0
+                }
+            },
+            {
+                "desc_zh":"防御力+30",
+                "desc_ja":"",
+                "desc_en":"",
+                "attribute":{
+                    "def":30.0
+                }
+            },
+            {
+                "desc_zh":"天赋效果增强",
+                "desc_ja":"",
+                "desc_en":"",
+                "attribute":null
+            },
+            {
+                "desc_zh":"部署费用-1",
+                "desc_ja":"",
+                "desc_en":"",
+                "attribute":{
+                    "cost":-1.0
+                }
+            }
+        ],
+        "favorData":{
+            "atk":30,
+            "def":35
+        },
+        "tokens":[],
+        "skills":[
+            {
+                "skillId":"skchr_catap2_1",
+                "name_zh":"高压回填斩",
+                "name_ja":"",
+                "name_en":"",
+                "skillType":"MANUAL",
+                "durationType":"NONE",
+                "spType":"INCREASE_WHEN_ATTACK",
+                "levels":[
+                    {
+                        "rangeId":"2-2",
+                        "description_zh":"消耗<@ba.vdown>20</>点部署费用，攻击间隔增大(+100%)，交替使用五连击与十连击攻击阻挡的所有敌人，且每一击附带相当于攻击力<@ba.vup>26%</>的法术伤害\\n<@ba.rem>可充能5次</>",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WHEN_ATTACK",
+                            "levelUpCost":null,
+                            "maxChargeTime":5,
+                            "spCost":2,
+                            "initSp":0,
+                            "increment":1.0
+                        },
+                        "duration":4.0,
+                        "blackboard":[
+                            {
+                                "key":"attack@atk_magic",
+                                "value":0.26
+                            },
+                            {
+                                "key":"base_attack_time",
+                                "value":1.0
+                            },
+                            {
+                                "key":"cost",
+                                "value":20.0
+                            },
+                            {
+                                "key":"atk_magic",
+                                "value":0.26
+                            }
+                        ]
+                    },
+                    {
+                        "rangeId":"2-2",
+                        "description_zh":"消耗<@ba.vdown>20</>点部署费用，攻击间隔增大(+100%)，交替使用五连击与十连击攻击阻挡的所有敌人，且每一击附带相当于攻击力<@ba.vup>29%</>的法术伤害\\n<@ba.rem>可充能5次</>",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WHEN_ATTACK",
+                            "levelUpCost":null,
+                            "maxChargeTime":5,
+                            "spCost":2,
+                            "initSp":0,
+                            "increment":1.0
+                        },
+                        "duration":4.0,
+                        "blackboard":[
+                            {
+                                "key":"attack@atk_magic",
+                                "value":0.29
+                            },
+                            {
+                                "key":"base_attack_time",
+                                "value":1.0
+                            },
+                            {
+                                "key":"cost",
+                                "value":20.0
+                            },
+                            {
+                                "key":"atk_magic",
+                                "value":0.29
+                            }
+                        ]
+                    },
+                    {
+                        "rangeId":"2-2",
+                        "description_zh":"消耗<@ba.vdown>20</>点部署费用，攻击间隔增大(+100%)，交替使用五连击与十连击攻击阻挡的所有敌人，且每一击附带相当于攻击力<@ba.vup>32%</>的法术伤害\\n<@ba.rem>可充能5次</>",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WHEN_ATTACK",
+                            "levelUpCost":null,
+                            "maxChargeTime":5,
+                            "spCost":2,
+                            "initSp":0,
+                            "increment":1.0
+                        },
+                        "duration":4.0,
+                        "blackboard":[
+                            {
+                                "key":"attack@atk_magic",
+                                "value":0.32
+                            },
+                            {
+                                "key":"base_attack_time",
+                                "value":1.0
+                            },
+                            {
+                                "key":"cost",
+                                "value":20.0
+                            },
+                            {
+                                "key":"atk_magic",
+                                "value":0.32
+                            }
+                        ]
+                    },
+                    {
+                        "rangeId":"2-2",
+                        "description_zh":"消耗<@ba.vdown>20</>点部署费用，攻击间隔增大(+100%)，交替使用五连击与十连击攻击阻挡的所有敌人，且每一击附带相当于攻击力<@ba.vup>35%</>的法术伤害\\n<@ba.rem>可充能5次</>",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WHEN_ATTACK",
+                            "levelUpCost":null,
+                            "maxChargeTime":5,
+                            "spCost":2,
+                            "initSp":0,
+                            "increment":1.0
+                        },
+                        "duration":4.0,
+                        "blackboard":[
+                            {
+                                "key":"attack@atk_magic",
+                                "value":0.35
+                            },
+                            {
+                                "key":"base_attack_time",
+                                "value":1.0
+                            },
+                            {
+                                "key":"cost",
+                                "value":20.0
+                            },
+                            {
+                                "key":"atk_magic",
+                                "value":0.35
+                            }
+                        ]
+                    }
+                ],
+                "tags":[
+                    "arts"
+                ],
+                "blackboard":[]
+            },
+            {
+                "skillId":"skchr_catap2_2",
+                "name_zh":"超高输出属性解放斩",
+                "name_ja":"",
+                "name_en":"",
+                "skillType":"MANUAL",
+                "durationType":"NONE",
+                "spType":"INCREASE_WHEN_ATTACK",
+                "levels":[
+                    {
+                        "rangeId":"2-2",
+                        "description_zh":"消耗<@ba.vdown>5</>点部署费用，攻击力和防御力<@ba.vup>+85%</>；技能期间可消耗<@ba.vdown>10</>点部署费用使用<ba.alter>装备应变</>，对前方造成一次相当于攻击力<@ba.vup>280%</>的物理伤害，且开启技能时每消耗一层充能附加一次相当于攻击力<@ba.vup>110%</>的法术伤害，之后技能立即结束\\n<@ba.rem>可充能5次</>",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WHEN_ATTACK",
+                            "levelUpCost":null,
+                            "maxChargeTime":5,
+                            "spCost":2,
+                            "initSp":0,
+                            "increment":1.0
+                        },
+                        "duration":4.0,
+                        "blackboard":[
+                            {
+                                "key":"atk",
+                                "value":0.85
+                            },
+                            {
+                                "key":"def",
+                                "value":0.85
+                            },
+                            {
+                                "key":"cost",
+                                "value":5.0
+                            },
+                            {
+                                "key":"attack@extra_physic_atk_scale",
+                                "value":2.8
+                            },
+                            {
+                                "key":"attack@extra_magic_atk_scale",
+                                "value":1.1
+                            },
+                            {
+                                "key":"retrigger_cost",
+                                "value":10.0
+                            },
+                            {
+                                "key":"attack@atk",
+                                "value":0.85
+                            },
+                            {
+                                "key":"attack@def",
+                                "value":0.85
+                            }
+                        ]
+                    },
+                    {
+                        "rangeId":"2-2",
+                        "description_zh":"消耗<@ba.vdown>5</>点部署费用，攻击力和防御力<@ba.vup>+90%</>；技能期间可消耗<@ba.vdown>10</>点部署费用使用<ba.alter>装备应变</>，对前方造成一次相当于攻击力<@ba.vup>300%</>的物理伤害，且开启技能时每消耗一层充能附加一次相当于攻击力<@ba.vup>120%</>的法术伤害，之后技能立即结束\\n<@ba.rem>可充能5次</>",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WHEN_ATTACK",
+                            "levelUpCost":null,
+                            "maxChargeTime":5,
+                            "spCost":2,
+                            "initSp":0,
+                            "increment":1.0
+                        },
+                        "duration":4.0,
+                        "blackboard":[
+                            {
+                                "key":"atk",
+                                "value":0.9
+                            },
+                            {
+                                "key":"def",
+                                "value":0.9
+                            },
+                            {
+                                "key":"cost",
+                                "value":5.0
+                            },
+                            {
+                                "key":"attack@extra_physic_atk_scale",
+                                "value":3.0
+                            },
+                            {
+                                "key":"attack@extra_magic_atk_scale",
+                                "value":1.2
+                            },
+                            {
+                                "key":"retrigger_cost",
+                                "value":10.0
+                            },
+                            {
+                                "key":"attack@atk",
+                                "value":0.9
+                            },
+                            {
+                                "key":"attack@def",
+                                "value":0.9
+                            }
+                        ]
+                    },
+                    {
+                        "rangeId":"2-2",
+                        "description_zh":"消耗<@ba.vdown>5</>点部署费用，攻击力和防御力<@ba.vup>+95%</>；技能期间可消耗<@ba.vdown>10</>点部署费用使用<ba.alter>装备应变</>，对前方造成一次相当于攻击力<@ba.vup>320%</>的物理伤害，且开启技能时每消耗一层充能附加一次相当于攻击力<@ba.vup>130%</>的法术伤害，之后技能立即结束\\n<@ba.rem>可充能5次</>",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WHEN_ATTACK",
+                            "levelUpCost":null,
+                            "maxChargeTime":5,
+                            "spCost":2,
+                            "initSp":0,
+                            "increment":1.0
+                        },
+                        "duration":4.0,
+                        "blackboard":[
+                            {
+                                "key":"atk",
+                                "value":0.95
+                            },
+                            {
+                                "key":"def",
+                                "value":0.95
+                            },
+                            {
+                                "key":"cost",
+                                "value":5.0
+                            },
+                            {
+                                "key":"attack@extra_physic_atk_scale",
+                                "value":3.2
+                            },
+                            {
+                                "key":"attack@extra_magic_atk_scale",
+                                "value":1.3
+                            },
+                            {
+                                "key":"retrigger_cost",
+                                "value":10.0
+                            },
+                            {
+                                "key":"attack@atk",
+                                "value":0.95
+                            },
+                            {
+                                "key":"attack@def",
+                                "value":0.95
+                            }
+                        ]
+                    },
+                    {
+                        "rangeId":"2-2",
+                        "description_zh":"消耗<@ba.vdown>5</>点部署费用，攻击力和防御力<@ba.vup>+100%</>；技能期间可消耗<@ba.vdown>10</>点部署费用使用<ba.alter>装备应变</>，对前方造成一次相当于攻击力<@ba.vup>350%</>的物理伤害，且开启技能时每消耗一层充能附加一次相当于攻击力<@ba.vup>150%</>的法术伤害，之后技能立即结束\\n<@ba.rem>可充能5次</>",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WHEN_ATTACK",
+                            "levelUpCost":null,
+                            "maxChargeTime":5,
+                            "spCost":2,
+                            "initSp":0,
+                            "increment":1.0
+                        },
+                        "duration":4.0,
+                        "blackboard":[
+                            {
+                                "key":"atk",
+                                "value":1.0
+                            },
+                            {
+                                "key":"def",
+                                "value":1.0
+                            },
+                            {
+                                "key":"cost",
+                                "value":5.0
+                            },
+                            {
+                                "key":"attack@extra_physic_atk_scale",
+                                "value":3.5
+                            },
+                            {
+                                "key":"attack@extra_magic_atk_scale",
+                                "value":1.5
+                            },
+                            {
+                                "key":"retrigger_cost",
+                                "value":10.0
+                            },
+                            {
+                                "key":"attack@atk",
+                                "value":1.0
+                            },
+                            {
+                                "key":"attack@def",
+                                "value":1.0
+                            }
+                        ]
+                    }
+                ],
+                "tags":[
+                    "arts"
+                ],
+                "blackboard":[
+                    {
+                        "key":"atk",
+                        "value":1.0
+                    },
+                    {
+                        "key":"def",
+                        "value":1.0
+                    }
+                ]
+            }
+        ],
+        "talents":[
+            {
+                "prefabKey":"1",
+                "name_zh":"斧模式变形",
+                "name_en":"",
+                "name_ja":"",
+                "desc_zh":"技能期间攻击距离延长。开启技能时施展变形斩造成伤害，同时消耗所有充能，每层使技能持续时间增加50%<@ba.talpu>（+10%）</>",
+                "desc_en":"",
+                "desc_ja":"",
+                "rangeId":null,
+                "tags":[],
+                "blackboard":[]
+            }
+        ],
+        "uniequip":[
+            {
+                "uniEquipId":"uniequip_001_catap2",
+                "name_zh":"雷狼龙S空爆证章",
+                "name_ja":"",
+                "name_en":"",
+                "typeIcon":"original",
+                "charId":"char_1049_catap2",
+                "combatData":null
+            },
+            {
+                "uniEquipId":"uniequip_002_catap2",
+                "name_zh":"狩猎之路",
+                "name_ja":"",
+                "name_en":"",
+                "typeIcon":"mcn-x",
+                "charId":"char_1049_catap2",
+                "combatData":{
+                    "phases":[
+                        {
+                            "parts":[
+                                {
+                                    "resKey":null,
+                                    "target":"DISPLAY",
+                                    "isToken":false,
+                                    "addDesc_zh":"特性消耗费用时，每消耗1点费用使本次技能期间攻击力<@ba.kw>+2%</>（上限10层）",
+                                    "addDesc_ja":"",
+                                    "addDesc_en":"",
+                                    "overrideDesc_zh":null,
+                                    "overrideDesc_ja":"",
+                                    "overrideDesc_en":""
+                                },
+                                {
+                                    "resKey":"catap2_equip_1_1_p1",
+                                    "target":"TALENT",
+                                    "isToken":false,
+                                    "name_zh":null,
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":-1,
+                                    "upgradeDesc_zh":"",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                }
+                            ],
+                            "attributeBlackboard":[
+                                {
+                                    "key":"max_hp",
+                                    "value":200.0
+                                },
+                                {
+                                    "key":"def",
+                                    "value":40.0
+                                }
+                            ],
+                            "tokenAttributeBlackboard":{}
+                        },
+                        {
+                            "parts":[
+                                {
+                                    "resKey":null,
+                                    "target":"DISPLAY",
+                                    "isToken":false,
+                                    "addDesc_zh":"特性消耗费用时，每消耗1点费用使本次技能期间攻击力<@ba.kw>+2%</>（上限10层）",
+                                    "addDesc_ja":"",
+                                    "addDesc_en":"",
+                                    "overrideDesc_zh":null,
+                                    "overrideDesc_ja":"",
+                                    "overrideDesc_en":""
+                                },
+                                {
+                                    "resKey":"catap2_equip_1_2_p1",
+                                    "target":"TALENT",
+                                    "isToken":false,
+                                    "name_zh":null,
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":-1,
+                                    "upgradeDesc_zh":"",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                },
+                                {
+                                    "resKey":null,
+                                    "target":"TALENT_DATA_ONLY",
+                                    "isToken":false,
+                                    "name_zh":"斧模式变形",
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":0,
+                                    "upgradeDesc_zh":"技能期间攻击距离延长。开启技能时施展变形斩造成伤害，同时消耗所有充能，每层使技能持续时间增加50%<@ba.talpu>（+10%）</>且攻击力增加3%<@ba.talpu>（+1%）</>",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                }
+                            ],
+                            "attributeBlackboard":[
+                                {
+                                    "key":"max_hp",
+                                    "value":250.0
+                                },
+                                {
+                                    "key":"def",
+                                    "value":50.0
+                                }
+                            ],
+                            "tokenAttributeBlackboard":{}
+                        },
+                        {
+                            "parts":[
+                                {
+                                    "resKey":null,
+                                    "target":"DISPLAY",
+                                    "isToken":false,
+                                    "addDesc_zh":"特性消耗费用时，每消耗1点费用使本次技能期间攻击力<@ba.kw>+2%</>（上限10层）",
+                                    "addDesc_ja":"",
+                                    "addDesc_en":"",
+                                    "overrideDesc_zh":null,
+                                    "overrideDesc_ja":"",
+                                    "overrideDesc_en":""
+                                },
+                                {
+                                    "resKey":"catap2_equip_1_3_p1",
+                                    "target":"TALENT",
+                                    "isToken":false,
+                                    "name_zh":null,
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":-1,
+                                    "upgradeDesc_zh":"",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                },
+                                {
+                                    "resKey":null,
+                                    "target":"TALENT_DATA_ONLY",
+                                    "isToken":false,
+                                    "name_zh":"斧模式变形",
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":0,
+                                    "upgradeDesc_zh":"技能期间攻击距离延长。开启技能时施展变形斩造成伤害，同时消耗所有充能，每层使技能持续时间增加50%<@ba.talpu>（+10%）</>且攻击力增加4%<@ba.talpu>（+1%）</>",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                }
+                            ],
+                            "attributeBlackboard":[
+                                {
+                                    "key":"max_hp",
+                                    "value":280.0
+                                },
+                                {
+                                    "key":"def",
+                                    "value":55.0
+                                }
+                            ],
+                            "tokenAttributeBlackboard":{}
+                        }
+                    ],
+                    "tags":[],
+                    "blackboard":[]
+                }
+            }
+        ]
     },
     {
         "id":"char_129_bluep",
@@ -68688,11 +69461,11 @@
         "id":"char_4213_skybx",
         "appellation":"Skybox",
         "name_zh":"天空盒",
-        "name_ja":"",
-        "name_en":"",
+        "name_ja":"スカイボックス",
+        "name_en":"Skybox",
         "desc_zh":"部署后<ba.liftoff>起飞</>，<ba.liftoff>起飞</>后只攻击空中敌人；技能开启时降落且攻击造成<@ba.kw>群体物理伤害</>",
-        "desc_ja":"",
-        "desc_en":"",
+        "desc_ja":"配置後<ba.liftoff>離陸</>する\n<ba.liftoff>離陸</>中は飛行ユニットのみを攻撃\nスキル発動中は降下して<@ba.kw>範囲物理攻撃</>を行う",
+        "desc_en":"<ba.liftoff>Takes off</> on deployment, and only attacks aerial enemies when <ba.liftoff>in mid-air</>; on skill activation, descends and deals <@ba.kw>AOE Physical damage</>",
         "release_time":1764903600,
         "tags":[
             "block_flying",
@@ -68728,40 +69501,40 @@
         "potential":[
             {
                 "desc_zh":"部署费用-1",
-                "desc_ja":"",
-                "desc_en":"",
+                "desc_ja":"配置コスト-1",
+                "desc_en":"DP Cost -1",
                 "attribute":{
                     "cost":-1.0
                 }
             },
             {
                 "desc_zh":"再部署时间-10秒",
-                "desc_ja":"",
-                "desc_en":"",
+                "desc_ja":"再配置時間-10秒",
+                "desc_en":"Redeployment Time -10 sec",
                 "attribute":{
                     "respawnTime":-10.0
                 }
             },
             {
                 "desc_zh":"部署费用-1",
-                "desc_ja":"",
-                "desc_en":"",
+                "desc_ja":"配置コスト-1",
+                "desc_en":"DP Cost -1",
                 "attribute":{
                     "cost":-1.0
                 }
             },
             {
                 "desc_zh":"攻击力+35",
-                "desc_ja":"",
-                "desc_en":"",
+                "desc_ja":"攻撃力+35",
+                "desc_en":"ATK +35",
                 "attribute":{
                     "atk":35.0
                 }
             },
             {
                 "desc_zh":"部署费用-1",
-                "desc_ja":"",
-                "desc_en":"",
+                "desc_ja":"配置コスト-1",
+                "desc_en":"DP Cost -1",
                 "attribute":{
                     "cost":-1.0
                 }
@@ -68775,8 +69548,8 @@
             {
                 "skillId":"skchr_skybx_1",
                 "name_zh":"源石火药驾临",
-                "name_ja":"",
-                "name_en":"",
+                "name_ja":"源石火薬ご到着",
+                "name_en":"Gunpowder Soiree",
                 "skillType":"AUTO",
                 "durationType":"NONE",
                 "spType":"INCREASE_WITH_TIME",
@@ -68784,8 +69557,8 @@
                     {
                         "rangeId":null,
                         "description_zh":"下次攻击变为投掷源石炸弹，爆炸范围<@ba.vup>扩大</>，造成相当于攻击力<@ba.vup>240%</>的物理伤害\\n<@ba.rem>可充能2次</>",
-                        "description_ja":"",
-                        "description_en":"",
+                        "description_ja":"次の通常攻撃時に源石爆弾を投擲し、ダメージ発生範囲が<@ba.vup>拡大</>、攻撃力の<@ba.vup>240%</>の物理ダメージを与える\n<@ba.rem>2回チャージ可能</>",
+                        "description_en":"The next attack throws an Originium bomb with <@ba.vup>expanded</> AoE, dealing <@ba.vup>240%</> ATK as Physical damage\n<@ba.rem>Can store 2 charges</>",
                         "spData":{
                             "spType":"INCREASE_WITH_TIME",
                             "levelUpCost":null,
@@ -68805,8 +69578,8 @@
                     {
                         "rangeId":null,
                         "description_zh":"下次攻击变为投掷源石炸弹，爆炸范围<@ba.vup>扩大</>，造成相当于攻击力<@ba.vup>260%</>的物理伤害\\n<@ba.rem>可充能2次</>",
-                        "description_ja":"",
-                        "description_en":"",
+                        "description_ja":"次の通常攻撃時に源石爆弾を投擲し、ダメージ発生範囲が<@ba.vup>拡大</>、攻撃力の<@ba.vup>260%</>の物理ダメージを与える\n<@ba.rem>2回チャージ可能</>",
+                        "description_en":"The next attack throws an Originium bomb with <@ba.vup>expanded</> AoE, dealing <@ba.vup>260%</> ATK as Physical damage\n<@ba.rem>Can store 2 charges</>",
                         "spData":{
                             "spType":"INCREASE_WITH_TIME",
                             "levelUpCost":null,
@@ -68826,8 +69599,8 @@
                     {
                         "rangeId":null,
                         "description_zh":"下次攻击变为投掷源石炸弹，爆炸范围<@ba.vup>扩大</>，造成相当于攻击力<@ba.vup>280%</>的物理伤害\\n<@ba.rem>可充能2次</>",
-                        "description_ja":"",
-                        "description_en":"",
+                        "description_ja":"次の通常攻撃時に源石爆弾を投擲し、ダメージ発生範囲が<@ba.vup>拡大</>、攻撃力の<@ba.vup>280%</>の物理ダメージを与える\n<@ba.rem>2回チャージ可能</>",
+                        "description_en":"The next attack throws an Originium bomb with <@ba.vup>expanded</> AoE, dealing <@ba.vup>280%</> ATK as Physical damage\n<@ba.rem>Can store 2 charges</>",
                         "spData":{
                             "spType":"INCREASE_WITH_TIME",
                             "levelUpCost":null,
@@ -68847,8 +69620,8 @@
                     {
                         "rangeId":null,
                         "description_zh":"下次攻击变为投掷源石炸弹，爆炸范围<@ba.vup>扩大</>，造成相当于攻击力<@ba.vup>300%</>的物理伤害\\n<@ba.rem>可充能2次</>",
-                        "description_ja":"",
-                        "description_en":"",
+                        "description_ja":"次の通常攻撃時に源石爆弾を投擲し、ダメージ発生範囲が<@ba.vup>拡大</>、攻撃力の<@ba.vup>300%</>の物理ダメージを与える\n<@ba.rem>2回チャージ可能</>",
+                        "description_en":"The next attack throws an Originium bomb with <@ba.vup>expanded</> AoE, dealing <@ba.vup>300%</> ATK as Physical damage\n<@ba.rem>Can store 2 charges</>",
                         "spData":{
                             "spType":"INCREASE_WITH_TIME",
                             "levelUpCost":null,
@@ -68880,8 +69653,8 @@
             {
                 "skillId":"skchr_skybx_2",
                 "name_zh":"电磁脉冲恩宠",
-                "name_ja":"",
-                "name_en":"",
+                "name_ja":"電磁パルスの洗礼",
+                "name_en":"EMP Benefaction",
                 "skillType":"MANUAL",
                 "durationType":"AMMO",
                 "spType":"INCREASE_WITH_TIME",
@@ -68889,8 +69662,8 @@
                     {
                         "rangeId":"3-10",
                         "description_zh":"攻击范围<@ba.vup>扩大</>，攻击时攻击力提升至<@ba.vup>180%</>\\n<ba.overdrive>过载</>：主动关闭时发射剩余全部弹药攻击随机敌人\\n<@ba.rem>技能拥有<@ba.vup>10</>枚弹药，可随时主动关闭</>",
-                        "description_ja":"",
-                        "description_en":"",
+                        "description_ja":"攻撃範囲<@ba.vup>拡大</>、攻撃時、攻撃力が<@ba.vup>180%</>まで上昇する\n<$ba.overdrive>オーバードライブ</>：手動でスキルを停止すると残り全ての弾薬を発射し、ランダムな敵を攻撃する\n<@ba.rem>合計<@ba.vup>10</>発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+                        "description_en":"Attack range <@ba.vup>expands</>; when attacking, increases ATK to <@ba.vup>180%</>\n<$ba.overdrive>Overload</>: if manually deactivated, fires all remaining ammo at random enemies within Attack Range\n<@ba.rem>Skill activation grants <@ba.vup>10</> ammo, can manually deactivate skill</>",
                         "spData":{
                             "spType":"INCREASE_WITH_TIME",
                             "levelUpCost":null,
@@ -68914,8 +69687,8 @@
                     {
                         "rangeId":"3-10",
                         "description_zh":"攻击范围<@ba.vup>扩大</>，攻击时攻击力提升至<@ba.vup>200%</>\\n<ba.overdrive>过载</>：主动关闭时发射剩余全部弹药攻击随机敌人\\n<@ba.rem>技能拥有<@ba.vup>10</>枚弹药，可随时主动关闭</>",
-                        "description_ja":"",
-                        "description_en":"",
+                        "description_ja":"攻撃範囲<@ba.vup>拡大</>、攻撃時、攻撃力が<@ba.vup>200%</>まで上昇する\n<$ba.overdrive>オーバードライブ</>：手動でスキルを停止すると残り全ての弾薬を発射し、ランダムな敵を攻撃する\n<@ba.rem>合計<@ba.vup>10</>発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+                        "description_en":"Attack range <@ba.vup>expands</>; when attacking, increases ATK to <@ba.vup>200%</>\n<$ba.overdrive>Overload</>: if manually deactivated, fires all remaining ammo at random enemies within Attack Range\n<@ba.rem>Skill activation grants <@ba.vup>10</> ammo, can manually deactivate skill</>",
                         "spData":{
                             "spType":"INCREASE_WITH_TIME",
                             "levelUpCost":null,
@@ -68939,8 +69712,8 @@
                     {
                         "rangeId":"3-10",
                         "description_zh":"攻击范围<@ba.vup>扩大</>，攻击时攻击力提升至<@ba.vup>220%</>\\n<ba.overdrive>过载</>：主动关闭时发射剩余全部弹药攻击随机敌人\\n<@ba.rem>技能拥有<@ba.vup>10</>枚弹药，可随时主动关闭</>",
-                        "description_ja":"",
-                        "description_en":"",
+                        "description_ja":"攻撃範囲<@ba.vup>拡大</>、攻撃時、攻撃力が<@ba.vup>220%</>まで上昇する\n<$ba.overdrive>オーバードライブ</>：手動でスキルを停止すると残り全ての弾薬を発射し、ランダムな敵を攻撃する\n<@ba.rem>合計<@ba.vup>10</>発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+                        "description_en":"Attack range <@ba.vup>expands</>; when attacking, increases ATK to <@ba.vup>220%</>\n<$ba.overdrive>Overload</>: if manually deactivated, fires all remaining ammo at random enemies within Attack Range\n<@ba.rem>Skill activation grants <@ba.vup>10</> ammo, can manually deactivate skill</>",
                         "spData":{
                             "spType":"INCREASE_WITH_TIME",
                             "levelUpCost":null,
@@ -68964,8 +69737,8 @@
                     {
                         "rangeId":"3-10",
                         "description_zh":"攻击范围<@ba.vup>扩大</>，攻击时攻击力提升至<@ba.vup>240%</>\\n<ba.overdrive>过载</>：主动关闭时发射剩余全部弹药攻击随机敌人\\n<@ba.rem>技能拥有<@ba.vup>10</>枚弹药，可随时主动关闭</>",
-                        "description_ja":"",
-                        "description_en":"",
+                        "description_ja":"攻撃範囲<@ba.vup>拡大</>、攻撃時、攻撃力が<@ba.vup>240%</>まで上昇する\n<$ba.overdrive>オーバードライブ</>：手動でスキルを停止すると残り全ての弾薬を発射し、ランダムな敵を攻撃する\n<@ba.rem>合計<@ba.vup>10</>発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+                        "description_en":"Attack range <@ba.vup>expands</>; when attacking, increases ATK to <@ba.vup>240%</>\n<$ba.overdrive>Overload</>: if manually deactivated, fires all remaining ammo at random enemies within Attack Range\n<@ba.rem>Skill activation grants <@ba.vup>10</> ammo, can manually deactivate skill</>",
                         "spData":{
                             "spType":"INCREASE_WITH_TIME",
                             "levelUpCost":null,
@@ -69003,11 +69776,11 @@
             {
                 "prefabKey":"1",
                 "name_zh":"开门！管理局",
-                "name_en":"",
-                "name_ja":"",
+                "name_en":"ATAO! Open Up!",
+                "name_ja":"開けろ、管理局だ！",
                 "desc_zh":"对每个敌人首次造成伤害后，使目标的特殊能力失效，持续7秒",
-                "desc_en":"",
-                "desc_ja":"",
+                "desc_en":"When damaging an enemy for the first time, disables target's special abilities for 7 seconds",
+                "desc_ja":"敵にダメージを与えた際、敵ごとに一度だけ、攻撃対象の一部の特殊能力を7秒間無効化",
                 "rangeId":null,
                 "tags":[],
                 "blackboard":[
@@ -74547,6 +75320,7 @@
         ],
         "blackboard":[],
         "powers":[
+            "leithanien",
             "siracusa"
         ],
         "position":"RANGED",
@@ -91540,8 +92314,8 @@
             {
                 "uniEquipId":"uniequip_001_peper",
                 "name_zh":"明椒证章",
-                "name_ja":"",
-                "name_en":"",
+                "name_ja":"パプリカの記章",
+                "name_en":"Paprika's Badge",
                 "typeIcon":"original",
                 "charId":"char_4071_peper",
                 "combatData":null
@@ -91549,8 +92323,8 @@
             {
                 "uniEquipId":"uniequip_002_peper",
                 "name_zh":"“多彩人生”",
-                "name_ja":"",
-                "name_en":"",
+                "name_ja":"「多彩な人生」",
+                "name_en":"'Colorful Life'",
                 "typeIcon":"xah-x",
                 "charId":"char_4071_peper",
                 "combatData":{
@@ -91562,19 +92336,19 @@
                                     "target":"DISPLAY",
                                     "isToken":false,
                                     "addDesc_zh":null,
-                                    "addDesc_ja":"",
-                                    "addDesc_en":"",
+                                    "addDesc_ja":null,
+                                    "addDesc_en":null,
                                     "overrideDesc_zh":"恢复友方单位生命，且会在<@ba.kw>3</>个友方单位间跳跃，每次跳跃治疗量降低15%",
-                                    "overrideDesc_ja":"",
-                                    "overrideDesc_en":""
+                                    "overrideDesc_ja":"味方のHPを回復\n味方を治療する際、<@ba.kw>3</>体目の味方まで治療が跳躍していく（跳躍するたびに治療量は15%ずつ減衰）",
+                                    "overrideDesc_en":"Restores HP of allies, bouncing between <@ba.kw>3</> allies. Healing reduced by 15% per bounce."
                                 },
                                 {
                                     "resKey":"peper_equip_1_1_p1",
                                     "target":"TALENT",
                                     "isToken":false,
                                     "name_zh":null,
-                                    "name_ja":"",
-                                    "name_en":"",
+                                    "name_ja":null,
+                                    "name_en":null,
                                     "displayRangeId":false,
                                     "rangeId":null,
                                     "talentIndex":-1,
@@ -91586,11 +92360,13 @@
                             "attributeBlackboard":[
                                 {
                                     "key":"max_hp",
-                                    "value":160.0
+                                    "value":160.0,
+                                    "valueStr":null
                                 },
                                 {
                                     "key":"atk",
-                                    "value":36.0
+                                    "value":36.0,
+                                    "valueStr":null
                                 }
                             ],
                             "tokenAttributeBlackboard":{}
@@ -91602,19 +92378,19 @@
                                     "target":"DISPLAY",
                                     "isToken":false,
                                     "addDesc_zh":null,
-                                    "addDesc_ja":"",
-                                    "addDesc_en":"",
+                                    "addDesc_ja":null,
+                                    "addDesc_en":null,
                                     "overrideDesc_zh":"恢复友方单位生命，且会在<@ba.kw>3</>个友方单位间跳跃，每次跳跃治疗量降低15%",
-                                    "overrideDesc_ja":"",
-                                    "overrideDesc_en":""
+                                    "overrideDesc_ja":"味方のHPを回復\n味方を治療する際、<@ba.kw>3</>体目の味方まで治療が跳躍していく（跳躍するたびに治療量は15%ずつ減衰）",
+                                    "overrideDesc_en":"Restores HP of allies, bouncing between <@ba.kw>3</> allies. Healing reduced by 15% per bounce."
                                 },
                                 {
                                     "resKey":"peper_equip_1_2_p1",
                                     "target":"TALENT",
                                     "isToken":false,
                                     "name_zh":null,
-                                    "name_ja":"",
-                                    "name_en":"",
+                                    "name_ja":null,
+                                    "name_en":null,
                                     "displayRangeId":false,
                                     "rangeId":null,
                                     "talentIndex":-1,
@@ -91626,25 +92402,27 @@
                                     "resKey":null,
                                     "target":"TALENT_DATA_ONLY",
                                     "isToken":false,
-                                    "name_zh":"重点关照",
-                                    "name_ja":"",
-                                    "name_en":"",
+                                    "name_zh":"Focused Attention",
+                                    "name_ja":"気配り屋",
+                                    "name_en":"Focused Attention",
                                     "displayRangeId":false,
                                     "rangeId":null,
                                     "talentIndex":0,
                                     "upgradeDesc_zh":"治疗时，若目标生命少于40%则为其额外恢复180<@ba.talpu>（+10）</>点生命",
-                                    "upgradeDesc_ja":"",
-                                    "upgradeDesc_en":""
+                                    "upgradeDesc_ja":"治療時、対象のHPが最大値の40%未満の場合、HPを追加で180<@ba.talpu>（+10）</>回復",
+                                    "upgradeDesc_en":"When healing, heal an extra 180 <@ba.talpu>(+10)</> HP if target HP is below 40%"
                                 }
                             ],
                             "attributeBlackboard":[
                                 {
                                     "key":"max_hp",
-                                    "value":180.0
+                                    "value":180.0,
+                                    "valueStr":null
                                 },
                                 {
                                     "key":"atk",
-                                    "value":51.0
+                                    "value":51.0,
+                                    "valueStr":null
                                 }
                             ],
                             "tokenAttributeBlackboard":{}
@@ -91656,19 +92434,19 @@
                                     "target":"DISPLAY",
                                     "isToken":false,
                                     "addDesc_zh":null,
-                                    "addDesc_ja":"",
-                                    "addDesc_en":"",
+                                    "addDesc_ja":null,
+                                    "addDesc_en":null,
                                     "overrideDesc_zh":"恢复友方单位生命，且会在<@ba.kw>3</>个友方单位间跳跃，每次跳跃治疗量降低15%",
-                                    "overrideDesc_ja":"",
-                                    "overrideDesc_en":""
+                                    "overrideDesc_ja":"味方のHPを回復\n味方を治療する際、<@ba.kw>3</>体目の味方まで治療が跳躍していく（跳躍するたびに治療量は15%ずつ減衰）",
+                                    "overrideDesc_en":"Restores HP of allies, bouncing between <@ba.kw>3</> allies. Healing reduced by 15% per bounce."
                                 },
                                 {
                                     "resKey":"peper_equip_1_3_p1",
                                     "target":"TALENT",
                                     "isToken":false,
                                     "name_zh":null,
-                                    "name_ja":"",
-                                    "name_en":"",
+                                    "name_ja":null,
+                                    "name_en":null,
                                     "displayRangeId":false,
                                     "rangeId":null,
                                     "talentIndex":-1,
@@ -91680,25 +92458,27 @@
                                     "resKey":null,
                                     "target":"TALENT_DATA_ONLY",
                                     "isToken":false,
-                                    "name_zh":"重点关照",
-                                    "name_ja":"",
-                                    "name_en":"",
+                                    "name_zh":"Focused Attention",
+                                    "name_ja":"気配り屋",
+                                    "name_en":"Focused Attention",
                                     "displayRangeId":false,
                                     "rangeId":null,
                                     "talentIndex":0,
                                     "upgradeDesc_zh":"治疗时，若目标生命少于50%则为其额外恢复210<@ba.talpu>（+10）</>点生命",
-                                    "upgradeDesc_ja":"",
-                                    "upgradeDesc_en":""
+                                    "upgradeDesc_ja":"治療時、対象のHPが最大値の50%未満の場合、HPを追加で210<@ba.talpu>（+10）</>回復",
+                                    "upgradeDesc_en":"When healing, heal an extra 210 <@ba.talpu>(+10)</> HP if target HP is below 50%"
                                 }
                             ],
                             "attributeBlackboard":[
                                 {
                                     "key":"max_hp",
-                                    "value":200.0
+                                    "value":200.0,
+                                    "valueStr":null
                                 },
                                 {
                                     "key":"atk",
-                                    "value":61.0
+                                    "value":61.0,
+                                    "valueStr":null
                                 }
                             ],
                             "tokenAttributeBlackboard":{}
@@ -92080,8 +92860,8 @@
             {
                 "uniEquipId":"uniequip_001_papyrs",
                 "name_zh":"莎草证章",
-                "name_ja":"",
-                "name_en":"",
+                "name_ja":"パピルスの記章",
+                "name_en":"Papyrus's Badge",
                 "typeIcon":"original",
                 "charId":"char_4139_papyrs",
                 "combatData":null
@@ -92089,8 +92869,8 @@
             {
                 "uniEquipId":"uniequip_002_papyrs",
                 "name_zh":"小小的种子",
-                "name_ja":"",
-                "name_en":"",
+                "name_ja":"小さな種",
+                "name_en":"Little Seeds",
                 "typeIcon":"xah-x",
                 "charId":"char_4139_papyrs",
                 "combatData":{
@@ -92102,19 +92882,19 @@
                                     "target":"DISPLAY",
                                     "isToken":false,
                                     "addDesc_zh":null,
-                                    "addDesc_ja":"",
-                                    "addDesc_en":"",
+                                    "addDesc_ja":null,
+                                    "addDesc_en":null,
                                     "overrideDesc_zh":"恢复友方单位生命，且会在<@ba.kw>3</>个友方单位间跳跃，每次跳跃治疗量降低15%",
-                                    "overrideDesc_ja":"",
-                                    "overrideDesc_en":""
+                                    "overrideDesc_ja":"味方のHPを回復\n味方を治療する際、<@ba.kw>3</>体目の味方まで治療が跳躍していく（跳躍するたびに治療量は15%ずつ減衰）",
+                                    "overrideDesc_en":"Restores HP of allies, bouncing between <@ba.kw>3</> allies. Healing reduced by 15% per bounce."
                                 },
                                 {
                                     "resKey":"papyrs_equip_1_1_p1",
                                     "target":"TALENT",
                                     "isToken":false,
                                     "name_zh":null,
-                                    "name_ja":"",
-                                    "name_en":"",
+                                    "name_ja":null,
+                                    "name_en":null,
                                     "displayRangeId":false,
                                     "rangeId":null,
                                     "talentIndex":-1,
@@ -92126,11 +92906,13 @@
                             "attributeBlackboard":[
                                 {
                                     "key":"atk",
-                                    "value":38.0
+                                    "value":38.0,
+                                    "valueStr":null
                                 },
                                 {
                                     "key":"def",
-                                    "value":23.0
+                                    "value":23.0,
+                                    "valueStr":null
                                 }
                             ],
                             "tokenAttributeBlackboard":{}
@@ -92142,19 +92924,19 @@
                                     "target":"DISPLAY",
                                     "isToken":false,
                                     "addDesc_zh":null,
-                                    "addDesc_ja":"",
-                                    "addDesc_en":"",
+                                    "addDesc_ja":null,
+                                    "addDesc_en":null,
                                     "overrideDesc_zh":"恢复友方单位生命，且会在<@ba.kw>3</>个友方单位间跳跃，每次跳跃治疗量降低15%",
-                                    "overrideDesc_ja":"",
-                                    "overrideDesc_en":""
+                                    "overrideDesc_ja":"味方のHPを回復\n味方を治療する際、<@ba.kw>3</>体目の味方まで治療が跳躍していく（跳躍するたびに治療量は15%ずつ減衰）",
+                                    "overrideDesc_en":"Restores HP of allies, bouncing between <@ba.kw>3</> allies. Healing reduced by 15% per bounce."
                                 },
                                 {
                                     "resKey":"papyrs_equip_1_2_p1",
                                     "target":"TALENT",
                                     "isToken":false,
                                     "name_zh":null,
-                                    "name_ja":"",
-                                    "name_en":"",
+                                    "name_ja":null,
+                                    "name_en":null,
                                     "displayRangeId":false,
                                     "rangeId":null,
                                     "talentIndex":-1,
@@ -92166,25 +92948,27 @@
                                     "resKey":null,
                                     "target":"TALENT_DATA_ONLY",
                                     "isToken":false,
-                                    "name_zh":"博览古卷",
-                                    "name_ja":"",
-                                    "name_en":"",
+                                    "name_zh":"Erudite of Ancient Scrolls",
+                                    "name_ja":"古書博覧",
+                                    "name_en":"Erudite of Ancient Scrolls",
                                     "displayRangeId":false,
                                     "rangeId":null,
                                     "talentIndex":0,
                                     "upgradeDesc_zh":"治疗会为目标干员附加相当于自身25%<@ba.talpu>（+2%）</>攻击力的<ba.barrier>屏障</>，持续8秒",
-                                    "upgradeDesc_ja":"",
-                                    "upgradeDesc_en":""
+                                    "upgradeDesc_ja":"治療時、対象に自身の攻撃力の25%<@ba.talpu>（+2%）</>の<$ba.barrier>バリア</>を付与（8秒間持続可能）",
+                                    "upgradeDesc_en":"Healing grants the target Operator a <$ba.barrier>Barrier</> equal to 25% <@ba.talpu>(+2%)</> of Papyrus's ATK, lasting 8 seconds"
                                 }
                             ],
                             "attributeBlackboard":[
                                 {
                                     "key":"atk",
-                                    "value":50.0
+                                    "value":50.0,
+                                    "valueStr":null
                                 },
                                 {
                                     "key":"def",
-                                    "value":28.0
+                                    "value":28.0,
+                                    "valueStr":null
                                 }
                             ],
                             "tokenAttributeBlackboard":{}
@@ -92196,19 +92980,19 @@
                                     "target":"DISPLAY",
                                     "isToken":false,
                                     "addDesc_zh":null,
-                                    "addDesc_ja":"",
-                                    "addDesc_en":"",
+                                    "addDesc_ja":null,
+                                    "addDesc_en":null,
                                     "overrideDesc_zh":"恢复友方单位生命，且会在<@ba.kw>3</>个友方单位间跳跃，每次跳跃治疗量降低15%",
-                                    "overrideDesc_ja":"",
-                                    "overrideDesc_en":""
+                                    "overrideDesc_ja":"味方のHPを回復\n味方を治療する際、<@ba.kw>3</>体目の味方まで治療が跳躍していく（跳躍するたびに治療量は15%ずつ減衰）",
+                                    "overrideDesc_en":"Restores HP of allies, bouncing between <@ba.kw>3</> allies. Healing reduced by 15% per bounce."
                                 },
                                 {
                                     "resKey":"papyrs_equip_1_3_p1",
                                     "target":"TALENT",
                                     "isToken":false,
                                     "name_zh":null,
-                                    "name_ja":"",
-                                    "name_en":"",
+                                    "name_ja":null,
+                                    "name_en":null,
                                     "displayRangeId":false,
                                     "rangeId":null,
                                     "talentIndex":-1,
@@ -92220,25 +93004,27 @@
                                     "resKey":null,
                                     "target":"TALENT_DATA_ONLY",
                                     "isToken":false,
-                                    "name_zh":"博览古卷",
-                                    "name_ja":"",
-                                    "name_en":"",
+                                    "name_zh":"Erudite of Ancient Scrolls",
+                                    "name_ja":"古書博覧",
+                                    "name_en":"Erudite of Ancient Scrolls",
                                     "displayRangeId":false,
                                     "rangeId":null,
                                     "talentIndex":0,
                                     "upgradeDesc_zh":"治疗会为目标干员附加相当于自身29%<@ba.talpu>（+2%）</>攻击力的<ba.barrier>屏障</>，持续10秒",
-                                    "upgradeDesc_ja":"",
-                                    "upgradeDesc_en":""
+                                    "upgradeDesc_ja":"治療時、対象に自身の攻撃力の29%<@ba.talpu>（+2%）</>の<$ba.barrier>バリア</>を付与（10秒間持続可能）",
+                                    "upgradeDesc_en":"Healing grants the target Operator a <$ba.barrier>Barrier</> equal to 29% <@ba.talpu>(+2%)</> of Papyrus's ATK, lasting 10 seconds"
                                 }
                             ],
                             "attributeBlackboard":[
                                 {
                                     "key":"atk",
-                                    "value":60.0
+                                    "value":60.0,
+                                    "valueStr":null
                                 },
                                 {
                                     "key":"def",
-                                    "value":33.0
+                                    "value":33.0,
+                                    "valueStr":null
                                 }
                             ],
                             "tokenAttributeBlackboard":{}
@@ -92746,6 +93532,7 @@
         ],
         "blackboard":[],
         "powers":[
+            "sargon",
             "yan"
         ],
         "position":"RANGED",
@@ -140146,6 +140933,831 @@
         ]
     },
     {
+        "id":"char_1048_orchd2",
+        "appellation":"Violet Mizutsune Orchid",
+        "name_zh":"焰狐龙梓兰",
+        "name_ja":"",
+        "name_en":"",
+        "desc_zh":"高精度的近距离射击",
+        "desc_ja":"",
+        "desc_en":"",
+        "release_time":1780286400,
+        "tags":[
+            "target_air",
+            "phys"
+        ],
+        "blackboard":[],
+        "powers":[
+            "columbia",
+            "rhodes",
+            "reserve6"
+        ],
+        "position":"RANGED",
+        "isSpChar":true,
+        "rarity":"TIER_6",
+        "profession":"SNIPER",
+        "subProfessionId":"closerange",
+        "stats":{
+            "rangeId":"3-6",
+            "level":90,
+            "hp":1788,
+            "atk":842,
+            "def":231,
+            "res":0.0,
+            "cost":20,
+            "blockCnt":1,
+            "aspd":1.6,
+            "respawnTime":70
+        },
+        "potential":[
+            {
+                "desc_zh":"部署费用-1",
+                "desc_ja":"",
+                "desc_en":"",
+                "attribute":{
+                    "cost":-1.0
+                }
+            },
+            {
+                "desc_zh":"再部署时间-4秒",
+                "desc_ja":"",
+                "desc_en":"",
+                "attribute":{
+                    "respawnTime":-4.0
+                }
+            },
+            {
+                "desc_zh":"攻击力+30",
+                "desc_ja":"",
+                "desc_en":"",
+                "attribute":{
+                    "atk":30.0
+                }
+            },
+            {
+                "desc_zh":"第一天赋效果增强",
+                "desc_ja":"",
+                "desc_en":"",
+                "attribute":null
+            },
+            {
+                "desc_zh":"部署费用-1",
+                "desc_ja":"",
+                "desc_en":"",
+                "attribute":{
+                    "cost":-1.0
+                }
+            }
+        ],
+        "favorData":{
+            "atk":100
+        },
+        "tokens":[],
+        "skills":[
+            {
+                "skillId":"skchr_orchd2_1",
+                "name_zh":"刚射",
+                "name_ja":"",
+                "name_en":"",
+                "skillType":"MANUAL",
+                "durationType":"NONE",
+                "spType":"INCREASE_WITH_TIME",
+                "levels":[
+                    {
+                        "rangeId":null,
+                        "description_zh":"发射4支攻击力<@ba.vup>120%</>的箭矢，若还有充能则额外消耗1层施展<@ba.vup>刚连射</>：发射5支攻击力<@ba.vup>160%</>的箭矢，每支箭矢有<@ba.vup>20%</>概率使目标<ba.stun>晕眩</><@ba.vup>2</>秒\\n<@ba.rem>可充能3次，充能至最大层数时自动释放一次</>",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":3,
+                            "spCost":5,
+                            "initSp":10,
+                            "increment":1.0
+                        },
+                        "duration":-1.0,
+                        "blackboard":[
+                            {
+                                "key":"atk_scale_1",
+                                "value":1.2
+                            },
+                            {
+                                "key":"atk_scale_2",
+                                "value":1.6
+                            },
+                            {
+                                "key":"stun_prob",
+                                "value":0.2
+                            },
+                            {
+                                "key":"stun",
+                                "value":2.0
+                            }
+                        ]
+                    },
+                    {
+                        "rangeId":null,
+                        "description_zh":"发射4支攻击力<@ba.vup>130%</>的箭矢，若还有充能则额外消耗1层施展<@ba.vup>刚连射</>：发射5支攻击力<@ba.vup>180%</>的箭矢，每支箭矢有<@ba.vup>20%</>概率使目标<ba.stun>晕眩</><@ba.vup>2</>秒\\n<@ba.rem>可充能3次，充能至最大层数时自动释放一次</>",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":3,
+                            "spCost":4,
+                            "initSp":11,
+                            "increment":1.0
+                        },
+                        "duration":-1.0,
+                        "blackboard":[
+                            {
+                                "key":"atk_scale_1",
+                                "value":1.3
+                            },
+                            {
+                                "key":"atk_scale_2",
+                                "value":1.8
+                            },
+                            {
+                                "key":"stun_prob",
+                                "value":0.2
+                            },
+                            {
+                                "key":"stun",
+                                "value":2.0
+                            }
+                        ]
+                    },
+                    {
+                        "rangeId":null,
+                        "description_zh":"发射4支攻击力<@ba.vup>145%</>的箭矢，若还有充能则额外消耗1层施展<@ba.vup>刚连射</>：发射5支攻击力<@ba.vup>180%</>的箭矢，每支箭矢有<@ba.vup>20%</>概率使目标<ba.stun>晕眩</><@ba.vup>2</>秒\\n<@ba.rem>可充能4次，充能至最大层数时自动释放一次</>",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":4,
+                            "spCost":4,
+                            "initSp":12,
+                            "increment":1.0
+                        },
+                        "duration":-1.0,
+                        "blackboard":[
+                            {
+                                "key":"atk_scale_1",
+                                "value":1.45
+                            },
+                            {
+                                "key":"atk_scale_2",
+                                "value":1.8
+                            },
+                            {
+                                "key":"stun_prob",
+                                "value":0.2
+                            },
+                            {
+                                "key":"stun",
+                                "value":2.0
+                            }
+                        ]
+                    },
+                    {
+                        "rangeId":null,
+                        "description_zh":"发射4支攻击力<@ba.vup>160%</>的箭矢，若还有充能则额外消耗1层施展<@ba.vup>刚连射</>：发射5支攻击力<@ba.vup>200%</>的箭矢，每支箭矢有<@ba.vup>20%</>概率使目标<ba.stun>晕眩</><@ba.vup>2</>秒\\n<@ba.rem>可充能4次，充能至最大层数时自动释放一次</>",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":4,
+                            "spCost":4,
+                            "initSp":14,
+                            "increment":1.0
+                        },
+                        "duration":-1.0,
+                        "blackboard":[
+                            {
+                                "key":"atk_scale_1",
+                                "value":1.6
+                            },
+                            {
+                                "key":"atk_scale_2",
+                                "value":2.0
+                            },
+                            {
+                                "key":"stun_prob",
+                                "value":0.2
+                            },
+                            {
+                                "key":"stun",
+                                "value":2.0
+                            }
+                        ]
+                    }
+                ],
+                "tags":[
+                    "burst",
+                    "aspd_unrelated"
+                ],
+                "blackboard":[
+                    {
+                        "key":"stun",
+                        "targets":1,
+                        "value":2.0,
+                        "prob":0.2,
+                        "target_air":true
+                    }
+                ]
+            },
+            {
+                "skillId":"skchr_orchd2_2",
+                "name_zh":"飞翔瞪射",
+                "name_ja":"",
+                "name_en":"",
+                "skillType":"MANUAL",
+                "durationType":"NONE",
+                "spType":"INCREASE_WITH_TIME",
+                "levels":[
+                    {
+                        "rangeId":"4-4",
+                        "description_zh":"立刻<ba.liftoff>起飞</>并对前方范围的所有目标射击3次，分别射出3、4、5支攻击力提升至<@ba.vup>150%</>的箭矢；之后降落并对前方小范围内的所有敌人造成攻击力<@ba.vup>270%</>的物理伤害\\n<@ba.rem>可充能3次，部署后立即释放一次</>",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":3,
+                            "spCost":20,
+                            "initSp":14,
+                            "increment":1.0
+                        },
+                        "duration":4.2,
+                        "blackboard":[
+                            {
+                                "key":"attack@atk_scale_loop",
+                                "value":1.5
+                            },
+                            {
+                                "key":"attack@atk_scale_end",
+                                "value":2.7
+                            },
+                            {
+                                "key":"attack@fly_height",
+                                "value":0.4
+                            },
+                            {
+                                "key":"attack@fly_duration",
+                                "value":0.2
+                            },
+                            {
+                                "key":"attack@fly_end_duration",
+                                "value":0.2
+                            }
+                        ]
+                    },
+                    {
+                        "rangeId":"4-4",
+                        "description_zh":"立刻<ba.liftoff>起飞</>并对前方范围的所有目标射击3次，分别射出3、4、5支攻击力提升至<@ba.vup>160%</>的箭矢；之后降落并对前方小范围内的所有敌人造成攻击力<@ba.vup>280%</>的物理伤害\\n<@ba.rem>可充能3次，部署后立即释放一次</>",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":3,
+                            "spCost":20,
+                            "initSp":15,
+                            "increment":1.0
+                        },
+                        "duration":4.2,
+                        "blackboard":[
+                            {
+                                "key":"attack@atk_scale_loop",
+                                "value":1.6
+                            },
+                            {
+                                "key":"attack@atk_scale_end",
+                                "value":2.8
+                            },
+                            {
+                                "key":"attack@fly_height",
+                                "value":0.4
+                            },
+                            {
+                                "key":"attack@fly_duration",
+                                "value":0.2
+                            },
+                            {
+                                "key":"attack@fly_end_duration",
+                                "value":0.2
+                            }
+                        ]
+                    },
+                    {
+                        "rangeId":"4-4",
+                        "description_zh":"立刻<ba.liftoff>起飞</>并对前方范围的所有目标射击3次，分别射出3、4、5支攻击力提升至<@ba.vup>170%</>的箭矢；之后降落并对前方小范围内的所有敌人造成攻击力<@ba.vup>290%</>的物理伤害\\n<@ba.rem>可充能3次，部署后立即释放一次</>",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":3,
+                            "spCost":20,
+                            "initSp":16,
+                            "increment":1.0
+                        },
+                        "duration":4.2,
+                        "blackboard":[
+                            {
+                                "key":"attack@atk_scale_loop",
+                                "value":1.7
+                            },
+                            {
+                                "key":"attack@atk_scale_end",
+                                "value":2.9
+                            },
+                            {
+                                "key":"attack@fly_height",
+                                "value":0.4
+                            },
+                            {
+                                "key":"attack@fly_duration",
+                                "value":0.2
+                            },
+                            {
+                                "key":"attack@fly_end_duration",
+                                "value":0.2
+                            }
+                        ]
+                    },
+                    {
+                        "rangeId":"4-4",
+                        "description_zh":"立刻<ba.liftoff>起飞</>并对前方范围的所有目标射击3次，分别射出3、4、5支攻击力提升至<@ba.vup>180%</>的箭矢；之后降落并对前方小范围内的所有敌人造成攻击力<@ba.vup>300%</>的物理伤害\\n<@ba.rem>可充能3次，部署后立即释放一次</>",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":3,
+                            "spCost":20,
+                            "initSp":17,
+                            "increment":1.0
+                        },
+                        "duration":4.2,
+                        "blackboard":[
+                            {
+                                "key":"attack@atk_scale_loop",
+                                "value":1.8
+                            },
+                            {
+                                "key":"attack@atk_scale_end",
+                                "value":3.0
+                            },
+                            {
+                                "key":"attack@fly_height",
+                                "value":0.4
+                            },
+                            {
+                                "key":"attack@fly_duration",
+                                "value":0.2
+                            },
+                            {
+                                "key":"attack@fly_end_duration",
+                                "value":0.2
+                            }
+                        ]
+                    }
+                ],
+                "tags":[
+                    "burst",
+                    "aoe",
+                    "aspd_unrelated"
+                ],
+                "blackboard":[
+                    {
+                        "key":"liftoff",
+                        "value":0.2
+                    }
+                ]
+            },
+            {
+                "skillId":"skchr_orchd2_3",
+                "name_zh":"龙之箭",
+                "name_ja":"",
+                "name_en":"",
+                "skillType":"MANUAL",
+                "durationType":"NONE",
+                "spType":"INCREASE_WITH_TIME",
+                "levels":[
+                    {
+                        "rangeId":null,
+                        "description_zh":"蓄力<@ba.vup>3</>秒后射出直线飞行的贯穿箭矢，箭矢以<@ba.vup>中等力度</>推动每个经过的敌人，每飞行一段距离都会对周围所有敌人造成攻击力<@ba.vup>300%</>的物理伤害和攻击力<@ba.vup>40%</>的法术伤害，箭矢射程无限\\n<@ba.rem>可充能2次</>",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":2,
+                            "spCost":25,
+                            "initSp":20,
+                            "increment":1.0
+                        },
+                        "duration":-1.0,
+                        "blackboard":[
+                            {
+                                "key":"atk_scale",
+                                "value":3.0
+                            },
+                            {
+                                "key":"atk_scale_magic",
+                                "value":0.4
+                            },
+                            {
+                                "key":"wait_duration",
+                                "value":3.0
+                            },
+                            {
+                                "key":"dist_interval",
+                                "value":0.25
+                            },
+                            {
+                                "key":"max_dist",
+                                "value":99.0
+                            },
+                            {
+                                "key":"force",
+                                "value":1.0
+                            },
+                            {
+                                "key":"knockback_duration",
+                                "value":1.0
+                            }
+                        ]
+                    },
+                    {
+                        "rangeId":null,
+                        "description_zh":"蓄力<@ba.vup>3</>秒后射出直线飞行的贯穿箭矢，箭矢以<@ba.vup>中等力度</>推动每个经过的敌人，每飞行一段距离都会对周围所有敌人造成攻击力<@ba.vup>320%</>的物理伤害和攻击力<@ba.vup>45%</>的法术伤害，箭矢射程无限\\n<@ba.rem>可充能2次</>",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":2,
+                            "spCost":25,
+                            "initSp":25,
+                            "increment":1.0
+                        },
+                        "duration":-1.0,
+                        "blackboard":[
+                            {
+                                "key":"atk_scale",
+                                "value":3.2
+                            },
+                            {
+                                "key":"atk_scale_magic",
+                                "value":0.45
+                            },
+                            {
+                                "key":"wait_duration",
+                                "value":3.0
+                            },
+                            {
+                                "key":"dist_interval",
+                                "value":0.25
+                            },
+                            {
+                                "key":"max_dist",
+                                "value":99.0
+                            },
+                            {
+                                "key":"force",
+                                "value":1.0
+                            },
+                            {
+                                "key":"knockback_duration",
+                                "value":1.0
+                            }
+                        ]
+                    },
+                    {
+                        "rangeId":null,
+                        "description_zh":"蓄力<@ba.vup>3</>秒后射出直线飞行的贯穿箭矢，箭矢以<@ba.vup>中等力度</>推动每个经过的敌人，每飞行一段距离都会对周围所有敌人造成攻击力<@ba.vup>340%</>的物理伤害和攻击力<@ba.vup>50%</>的法术伤害，箭矢射程无限\\n<@ba.rem>可充能2次</>",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":2,
+                            "spCost":25,
+                            "initSp":28,
+                            "increment":1.0
+                        },
+                        "duration":-1.0,
+                        "blackboard":[
+                            {
+                                "key":"atk_scale",
+                                "value":3.4
+                            },
+                            {
+                                "key":"atk_scale_magic",
+                                "value":0.5
+                            },
+                            {
+                                "key":"wait_duration",
+                                "value":3.0
+                            },
+                            {
+                                "key":"dist_interval",
+                                "value":0.25
+                            },
+                            {
+                                "key":"max_dist",
+                                "value":99.0
+                            },
+                            {
+                                "key":"force",
+                                "value":1.0
+                            },
+                            {
+                                "key":"knockback_duration",
+                                "value":1.0
+                            }
+                        ]
+                    },
+                    {
+                        "rangeId":null,
+                        "description_zh":"蓄力<@ba.vup>3</>秒后射出直线飞行的贯穿箭矢，箭矢以<@ba.vup>较大力度</>推动每个经过的敌人，每飞行一段距离都会对周围所有敌人造成攻击力<@ba.vup>360%</>的物理伤害和攻击力<@ba.vup>60%</>的法术伤害，箭矢射程无限\\n<@ba.rem>可充能2次</>",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":2,
+                            "spCost":25,
+                            "initSp":30,
+                            "increment":1.0
+                        },
+                        "duration":-1.0,
+                        "blackboard":[
+                            {
+                                "key":"atk_scale",
+                                "value":3.6
+                            },
+                            {
+                                "key":"atk_scale_magic",
+                                "value":0.6
+                            },
+                            {
+                                "key":"wait_duration",
+                                "value":3.0
+                            },
+                            {
+                                "key":"dist_interval",
+                                "value":0.25
+                            },
+                            {
+                                "key":"max_dist",
+                                "value":99.0
+                            },
+                            {
+                                "key":"force",
+                                "value":2.0
+                            },
+                            {
+                                "key":"knockback_duration",
+                                "value":1.0
+                            }
+                        ]
+                    }
+                ],
+                "tags":[
+                    "arts",
+                    "aspd_unrelated",
+                    "push"
+                ],
+                "blackboard":[
+                    {
+                        "key":"force",
+                        "value":2.0
+                    },
+                    {
+                        "key":"ct",
+                        "value":2.0
+                    }
+                ]
+            }
+        ],
+        "talents":[
+            {
+                "prefabKey":"2",
+                "name_zh":"强击瓶专家",
+                "name_en":"",
+                "name_ja":"",
+                "desc_zh":"部署后首次开启技能时，接下来50次攻击的攻击力提升至120%<@ba.talpu>（+5%）</>",
+                "desc_en":"",
+                "desc_ja":"",
+                "rangeId":null,
+                "tags":[],
+                "blackboard":[
+                    {
+                        "key":"power_attack_count",
+                        "value":50.0
+                    },
+                    {
+                        "key":"power_attack_scale",
+                        "value":1.2
+                    }
+                ]
+            },
+            {
+                "prefabKey":"1",
+                "name_zh":"翔虫机动",
+                "name_en":"",
+                "name_ja":"",
+                "desc_zh":"再部署时间-15秒且不提高部署费用；部署至上次部署位置周围时，30秒内攻击力+15%并且可以部署在近战位",
+                "desc_en":"",
+                "desc_ja":"",
+                "rangeId":null,
+                "tags":[
+                    "position_all",
+                    "fast_redeploy"
+                ],
+                "blackboard":[]
+            }
+        ],
+        "uniequip":[
+            {
+                "uniEquipId":"uniequip_001_orchd2",
+                "name_zh":"焰狐龙梓兰证章",
+                "name_ja":"",
+                "name_en":"",
+                "typeIcon":"original",
+                "charId":"char_1048_orchd2",
+                "combatData":null
+            },
+            {
+                "uniEquipId":"uniequip_002_orchd2",
+                "name_zh":"梓兰特制箭靶",
+                "name_ja":"",
+                "name_en":"",
+                "typeIcon":"arc-x",
+                "charId":"char_1048_orchd2",
+                "combatData":{
+                    "phases":[
+                        {
+                            "parts":[
+                                {
+                                    "resKey":null,
+                                    "target":"DISPLAY",
+                                    "isToken":false,
+                                    "addDesc_zh":"再部署时间<@ba.kw>减少</>",
+                                    "addDesc_ja":"",
+                                    "addDesc_en":"",
+                                    "overrideDesc_zh":null,
+                                    "overrideDesc_ja":"",
+                                    "overrideDesc_en":""
+                                }
+                            ],
+                            "attributeBlackboard":[
+                                {
+                                    "key":"atk",
+                                    "value":80.0
+                                },
+                                {
+                                    "key":"def",
+                                    "value":10.0
+                                },
+                                {
+                                    "key":"respawn_time",
+                                    "value":-25.0
+                                }
+                            ],
+                            "tokenAttributeBlackboard":{}
+                        },
+                        {
+                            "parts":[
+                                {
+                                    "resKey":null,
+                                    "target":"DISPLAY",
+                                    "isToken":false,
+                                    "addDesc_zh":"再部署时间<@ba.kw>减少</>",
+                                    "addDesc_ja":"",
+                                    "addDesc_en":"",
+                                    "overrideDesc_zh":null,
+                                    "overrideDesc_ja":"",
+                                    "overrideDesc_en":""
+                                },
+                                {
+                                    "resKey":null,
+                                    "target":"TALENT_DATA_ONLY",
+                                    "isToken":false,
+                                    "name_zh":"翔虫机动",
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":1,
+                                    "upgradeDesc_zh":"再部署时间-17秒且不提高部署费用；部署至上次部署位置周围时，30秒内攻击力+20%并且可以部署在近战位",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                },
+                                {
+                                    "resKey":null,
+                                    "target":"TALENT_DATA_ONLY",
+                                    "isToken":false,
+                                    "name_zh":null,
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":3,
+                                    "upgradeDesc_zh":"",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                }
+                            ],
+                            "attributeBlackboard":[
+                                {
+                                    "key":"atk",
+                                    "value":100.0
+                                },
+                                {
+                                    "key":"def",
+                                    "value":13.0
+                                },
+                                {
+                                    "key":"respawn_time",
+                                    "value":-25.0
+                                }
+                            ],
+                            "tokenAttributeBlackboard":{}
+                        },
+                        {
+                            "parts":[
+                                {
+                                    "resKey":null,
+                                    "target":"DISPLAY",
+                                    "isToken":false,
+                                    "addDesc_zh":"再部署时间<@ba.kw>减少</>",
+                                    "addDesc_ja":"",
+                                    "addDesc_en":"",
+                                    "overrideDesc_zh":null,
+                                    "overrideDesc_ja":"",
+                                    "overrideDesc_en":""
+                                },
+                                {
+                                    "resKey":null,
+                                    "target":"TALENT_DATA_ONLY",
+                                    "isToken":false,
+                                    "name_zh":"翔虫机动",
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":1,
+                                    "upgradeDesc_zh":"再部署时间-18秒且不提高部署费用；部署至上次部署位置周围更大范围时，30秒内攻击力+20%并且可以部署在近战位",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                },
+                                {
+                                    "resKey":null,
+                                    "target":"TALENT_DATA_ONLY",
+                                    "isToken":false,
+                                    "name_zh":null,
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":3,
+                                    "upgradeDesc_zh":"",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                }
+                            ],
+                            "attributeBlackboard":[
+                                {
+                                    "key":"atk",
+                                    "value":120.0
+                                },
+                                {
+                                    "key":"def",
+                                    "value":16.0
+                                },
+                                {
+                                    "key":"respawn_time",
+                                    "value":-25.0
+                                }
+                            ],
+                            "tokenAttributeBlackboard":{}
+                        }
+                    ],
+                    "tags":[],
+                    "blackboard":[]
+                }
+            }
+        ]
+    },
+    {
         "id":"char_430_fartth",
         "appellation":"Fartooth",
         "name_zh":"远牙",
@@ -149009,8 +150621,8 @@
             {
                 "uniEquipId":"uniequip_003_ray",
                 "name_zh":"证明什么？",
-                "name_ja":"",
-                "name_en":"",
+                "name_ja":"何を証明する？",
+                "name_en":"To Certify What?",
                 "typeIcon":"hun-y",
                 "charId":"char_4117_ray",
                 "combatData":{
@@ -149022,25 +150634,28 @@
                                     "target":"TRAIT_DATA_ONLY",
                                     "isToken":false,
                                     "addDesc_zh":null,
-                                    "addDesc_ja":"",
-                                    "addDesc_en":"",
+                                    "addDesc_ja":null,
+                                    "addDesc_en":null,
                                     "overrideDesc_zh":"攻击时需要消耗子弹且攻击力提升至<@ba.kw>133%</>，不攻击时会缓慢地装填子弹（最多8发）",
-                                    "overrideDesc_ja":"",
-                                    "overrideDesc_en":""
+                                    "overrideDesc_ja":"弾が装填されている状態でのみ攻撃でき、攻撃力が<@ba.kw>133%</>に上昇する。攻撃をしていない時は弾の装填を行う（最大装弾数：8）",
+                                    "overrideDesc_en":"Attacks consume Ammo to increase ATK to <@ba.kw>133%</>; While not attacking, Ammo will be slowly reloaded (max capacity at 8)."
                                 }
                             ],
                             "attributeBlackboard":[
                                 {
                                     "key":"max_hp",
-                                    "value":100.0
+                                    "value":100.0,
+                                    "valueStr":null
                                 },
                                 {
                                     "key":"atk",
-                                    "value":60.0
+                                    "value":60.0,
+                                    "valueStr":null
                                 },
                                 {
                                     "key":"attack_speed",
-                                    "value":5.0
+                                    "value":5.0,
+                                    "valueStr":null
                                 }
                             ],
                             "tokenAttributeBlackboard":{}
@@ -149052,39 +150667,42 @@
                                     "target":"TRAIT_DATA_ONLY",
                                     "isToken":false,
                                     "addDesc_zh":null,
-                                    "addDesc_ja":"",
-                                    "addDesc_en":"",
+                                    "addDesc_ja":null,
+                                    "addDesc_en":null,
                                     "overrideDesc_zh":"攻击时需要消耗子弹且攻击力提升至<@ba.kw>133%</>，不攻击时会缓慢地装填子弹（最多8发）",
-                                    "overrideDesc_ja":"",
-                                    "overrideDesc_en":""
+                                    "overrideDesc_ja":"弾が装填されている状態でのみ攻撃でき、攻撃力が<@ba.kw>133%</>に上昇する。攻撃をしていない時は弾の装填を行う（最大装弾数：8）",
+                                    "overrideDesc_en":"Attacks consume Ammo to increase ATK to <@ba.kw>133%</>; While not attacking, Ammo will be slowly reloaded (max capacity at 8)."
                                 },
                                 {
                                     "resKey":null,
                                     "target":"TALENT_DATA_ONLY",
                                     "isToken":false,
-                                    "name_zh":"入神",
-                                    "name_ja":"",
-                                    "name_en":"",
+                                    "name_zh":"Extreme Focus",
+                                    "name_ja":"一意専心",
+                                    "name_en":"Extreme Focus",
                                     "displayRangeId":false,
                                     "rangeId":null,
                                     "talentIndex":1,
                                     "upgradeDesc_zh":"攻击相同目标时每次攻击提高自身攻击力9%<@ba.talpu>（+1%）</>，最多4层",
-                                    "upgradeDesc_ja":"",
-                                    "upgradeDesc_en":""
+                                    "upgradeDesc_ja":"同じ敵を攻撃するたび攻撃力+9%<@ba.talpu>（+1%）</>、最大4回まで",
+                                    "upgradeDesc_en":"When attacking the same target, each attack increases ATK by 9% <@ba.talpu>(+1%)</>, stacking up to 4 times"
                                 }
                             ],
                             "attributeBlackboard":[
                                 {
                                     "key":"max_hp",
-                                    "value":160.0
+                                    "value":160.0,
+                                    "valueStr":null
                                 },
                                 {
                                     "key":"atk",
-                                    "value":65.0
+                                    "value":65.0,
+                                    "valueStr":null
                                 },
                                 {
                                     "key":"attack_speed",
-                                    "value":6.0
+                                    "value":6.0,
+                                    "valueStr":null
                                 }
                             ],
                             "tokenAttributeBlackboard":{}
@@ -149096,39 +150714,42 @@
                                     "target":"TRAIT_DATA_ONLY",
                                     "isToken":false,
                                     "addDesc_zh":null,
-                                    "addDesc_ja":"",
-                                    "addDesc_en":"",
+                                    "addDesc_ja":null,
+                                    "addDesc_en":null,
                                     "overrideDesc_zh":"攻击时需要消耗子弹且攻击力提升至<@ba.kw>133%</>，不攻击时会缓慢地装填子弹（最多8发）",
-                                    "overrideDesc_ja":"",
-                                    "overrideDesc_en":""
+                                    "overrideDesc_ja":"弾が装填されている状態でのみ攻撃でき、攻撃力が<@ba.kw>133%</>に上昇する。攻撃をしていない時は弾の装填を行う（最大装弾数：8）",
+                                    "overrideDesc_en":"Attacks consume Ammo to increase ATK to <@ba.kw>133%</>; While not attacking, Ammo will be slowly reloaded (max capacity at 8)."
                                 },
                                 {
                                     "resKey":null,
                                     "target":"TALENT_DATA_ONLY",
                                     "isToken":false,
-                                    "name_zh":"入神",
-                                    "name_ja":"",
-                                    "name_en":"",
+                                    "name_zh":"Extreme Focus",
+                                    "name_ja":"一意専心",
+                                    "name_en":"Extreme Focus",
                                     "displayRangeId":false,
                                     "rangeId":null,
                                     "talentIndex":1,
                                     "upgradeDesc_zh":"攻击相同目标时每次攻击提高自身攻击力10%<@ba.talpu>（+1%）</>，最多4层",
-                                    "upgradeDesc_ja":"",
-                                    "upgradeDesc_en":""
+                                    "upgradeDesc_ja":"同じ敵を攻撃するたび攻撃力10%<@ba.talpu>（+1%）</>、最大4回まで",
+                                    "upgradeDesc_en":"When attacking the same target, each attack increases ATK by 10% <@ba.talpu>(+1%)</>, stacking up to 4 times"
                                 }
                             ],
                             "attributeBlackboard":[
                                 {
                                     "key":"max_hp",
-                                    "value":200.0
+                                    "value":200.0,
+                                    "valueStr":null
                                 },
                                 {
                                     "key":"atk",
-                                    "value":75.0
+                                    "value":75.0,
+                                    "valueStr":null
                                 },
                                 {
                                     "key":"attack_speed",
-                                    "value":7.0
+                                    "value":7.0,
+                                    "valueStr":null
                                 }
                             ],
                             "tokenAttributeBlackboard":{}
@@ -149347,7 +150968,9 @@
                         "rangeExtend":-1.0
                     }
                 ],
-                "tags":[],
+                "tags":[
+                    "unlimited_duration"
+                ],
                 "blackboard":[
                     {
                         "key":"attack@times",
@@ -149967,6 +151590,164 @@
                             "order":"final_add",
                             "targets":1,
                             "value":252.0,
+                            "target_air":true
+                        }
+                    ]
+                }
+            },
+            {
+                "uniEquipId":"uniequip_003_narant",
+                "name_zh":"“致我们的老大”",
+                "name_ja":"",
+                "name_en":"",
+                "typeIcon":"lps-y",
+                "charId":"char_4138_narant",
+                "combatData":{
+                    "phases":[
+                        {
+                            "parts":[
+                                {
+                                    "resKey":"narant_equip_2_1_p1",
+                                    "target":"TRAIT",
+                                    "isToken":false,
+                                    "addDesc_zh":"每回收5次<@ba.kw>回旋投射物</>时获得1点技力",
+                                    "addDesc_ja":"",
+                                    "addDesc_en":"",
+                                    "overrideDesc_zh":null,
+                                    "overrideDesc_ja":"",
+                                    "overrideDesc_en":""
+                                }
+                            ],
+                            "attributeBlackboard":[
+                                {
+                                    "key":"max_hp",
+                                    "value":210.0
+                                },
+                                {
+                                    "key":"atk",
+                                    "value":20.0
+                                }
+                            ],
+                            "tokenAttributeBlackboard":{}
+                        },
+                        {
+                            "parts":[
+                                {
+                                    "resKey":"narant_equip_2_2_p1",
+                                    "target":"TRAIT",
+                                    "isToken":false,
+                                    "addDesc_zh":"每回收5次<@ba.kw>回旋投射物</>时获得1点技力",
+                                    "addDesc_ja":"",
+                                    "addDesc_en":"",
+                                    "overrideDesc_zh":null,
+                                    "overrideDesc_ja":"",
+                                    "overrideDesc_en":""
+                                },
+                                {
+                                    "resKey":null,
+                                    "target":"TALENT_DATA_ONLY",
+                                    "isToken":false,
+                                    "name_zh":"婀娜虚影",
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":1,
+                                    "upgradeDesc_zh":"获得38%<@ba.talpu>（+3%）</>的物理与法术闪避，周围8格内敌人的物理与法术命中率-25%；6秒内未受到伤害时，攻击力+10%",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                },
+                                {
+                                    "resKey":"narant_equip_2_2_p2",
+                                    "target":"TALENT",
+                                    "isToken":false,
+                                    "name_zh":null,
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":-1,
+                                    "upgradeDesc_zh":"",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                }
+                            ],
+                            "attributeBlackboard":[
+                                {
+                                    "key":"max_hp",
+                                    "value":260.0
+                                },
+                                {
+                                    "key":"atk",
+                                    "value":32.0
+                                }
+                            ],
+                            "tokenAttributeBlackboard":{}
+                        },
+                        {
+                            "parts":[
+                                {
+                                    "resKey":"narant_equip_2_3_p1",
+                                    "target":"TRAIT",
+                                    "isToken":false,
+                                    "addDesc_zh":"每回收5次<@ba.kw>回旋投射物</>时获得1点技力",
+                                    "addDesc_ja":"",
+                                    "addDesc_en":"",
+                                    "overrideDesc_zh":null,
+                                    "overrideDesc_ja":"",
+                                    "overrideDesc_en":""
+                                },
+                                {
+                                    "resKey":null,
+                                    "target":"TALENT_DATA_ONLY",
+                                    "isToken":false,
+                                    "name_zh":"婀娜虚影",
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":1,
+                                    "upgradeDesc_zh":"获得38%<@ba.talpu>（+3%）</>的物理与法术闪避，周围8格内敌人的物理与法术命中率-30%；6秒内未受到伤害时，攻击力+15%",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                },
+                                {
+                                    "resKey":"narant_equip_2_3_p2",
+                                    "target":"TALENT",
+                                    "isToken":false,
+                                    "name_zh":null,
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":-1,
+                                    "upgradeDesc_zh":"",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                }
+                            ],
+                            "attributeBlackboard":[
+                                {
+                                    "key":"max_hp",
+                                    "value":300.0
+                                },
+                                {
+                                    "key":"atk",
+                                    "value":40.0
+                                }
+                            ],
+                            "tokenAttributeBlackboard":{}
+                        }
+                    ],
+                    "tags":[],
+                    "blackboard":[
+                        {
+                            "key":"hitrate_down",
+                            "value":0.3,
+                            "types":[
+                                "phys",
+                                "arts"
+                            ],
                             "target_air":true
                         }
                     ]
@@ -153482,6 +155263,213 @@
                     ],
                     "tags":[],
                     "blackboard":[]
+                }
+            },
+            {
+                "uniEquipId":"uniequip_003_vulpis",
+                "name_zh":"剑舞",
+                "name_ja":"",
+                "name_en":"",
+                "typeIcon":"sol-y",
+                "charId":"char_4026_vulpis",
+                "combatData":{
+                    "phases":[
+                        {
+                            "parts":[
+                                {
+                                    "resKey":null,
+                                    "target":"DISPLAY",
+                                    "isToken":false,
+                                    "addDesc_zh":"首次部署时部署费用-4",
+                                    "addDesc_ja":"",
+                                    "addDesc_en":"",
+                                    "overrideDesc_zh":null,
+                                    "overrideDesc_ja":"",
+                                    "overrideDesc_en":""
+                                },
+                                {
+                                    "resKey":"vulpis_equip_2_1_p1",
+                                    "target":"TALENT",
+                                    "isToken":false,
+                                    "name_zh":null,
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":-1,
+                                    "upgradeDesc_zh":"",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                }
+                            ],
+                            "attributeBlackboard":[
+                                {
+                                    "key":"max_hp",
+                                    "value":80.0
+                                },
+                                {
+                                    "key":"atk",
+                                    "value":35.0
+                                },
+                                {
+                                    "key":"def",
+                                    "value":10.0
+                                }
+                            ],
+                            "tokenAttributeBlackboard":{}
+                        },
+                        {
+                            "parts":[
+                                {
+                                    "resKey":null,
+                                    "target":"DISPLAY",
+                                    "isToken":false,
+                                    "addDesc_zh":"首次部署时部署费用-4",
+                                    "addDesc_ja":"",
+                                    "addDesc_en":"",
+                                    "overrideDesc_zh":null,
+                                    "overrideDesc_ja":"",
+                                    "overrideDesc_en":""
+                                },
+                                {
+                                    "resKey":null,
+                                    "target":"TALENT_DATA_ONLY",
+                                    "isToken":false,
+                                    "name_zh":"蓄势",
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":1,
+                                    "upgradeDesc_zh":"在场时，部署费用的自然回复速度+13%，若4秒内自身未受到伤害，则每秒恢复5%<@ba.talpu>（+1%）</>的最大生命值，首次部署后获得<ba.camou>迷彩</>直至开启技能",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                },
+                                {
+                                    "resKey":"vulpis_equip_2_2_p1",
+                                    "target":"TALENT",
+                                    "isToken":false,
+                                    "name_zh":null,
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":-1,
+                                    "upgradeDesc_zh":"",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                },
+                                {
+                                    "resKey":"vulpis_equip_2_2_p2",
+                                    "target":"TALENT",
+                                    "isToken":false,
+                                    "name_zh":null,
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":-1,
+                                    "upgradeDesc_zh":"",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                }
+                            ],
+                            "attributeBlackboard":[
+                                {
+                                    "key":"max_hp",
+                                    "value":105.0
+                                },
+                                {
+                                    "key":"atk",
+                                    "value":47.0
+                                },
+                                {
+                                    "key":"def",
+                                    "value":15.0
+                                }
+                            ],
+                            "tokenAttributeBlackboard":{}
+                        },
+                        {
+                            "parts":[
+                                {
+                                    "resKey":null,
+                                    "target":"DISPLAY",
+                                    "isToken":false,
+                                    "addDesc_zh":"首次部署时部署费用-4",
+                                    "addDesc_ja":"",
+                                    "addDesc_en":"",
+                                    "overrideDesc_zh":null,
+                                    "overrideDesc_ja":"",
+                                    "overrideDesc_en":""
+                                },
+                                {
+                                    "resKey":null,
+                                    "target":"TALENT_DATA_ONLY",
+                                    "isToken":false,
+                                    "name_zh":"蓄势",
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":1,
+                                    "upgradeDesc_zh":"在场时，部署费用的自然回复速度+15%，若4秒内自身未受到伤害，则每秒恢复5%<@ba.talpu>（+1%）</>的最大生命值，首次部署后获得<ba.camou>迷彩</>直至开启技能",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                },
+                                {
+                                    "resKey":"vulpis_equip_2_3_p1",
+                                    "target":"TALENT",
+                                    "isToken":false,
+                                    "name_zh":null,
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":-1,
+                                    "upgradeDesc_zh":"",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                },
+                                {
+                                    "resKey":"vulpis_equip_2_3_p2",
+                                    "target":"TALENT",
+                                    "isToken":false,
+                                    "name_zh":null,
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":-1,
+                                    "upgradeDesc_zh":"",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                }
+                            ],
+                            "attributeBlackboard":[
+                                {
+                                    "key":"max_hp",
+                                    "value":120.0
+                                },
+                                {
+                                    "key":"atk",
+                                    "value":55.0
+                                },
+                                {
+                                    "key":"def",
+                                    "value":20.0
+                                }
+                            ],
+                            "tokenAttributeBlackboard":{}
+                        }
+                    ],
+                    "tags":[],
+                    "blackboard":[
+                        {
+                            "key":"camouflage",
+                            "value":999
+                        }
+                    ]
                 }
             }
         ]
@@ -170638,7 +172626,9 @@
                         ]
                     }
                 ],
-                "tags":[],
+                "tags":[
+                    "unlimited_duration"
+                ],
                 "blackboard":[
                     {
                         "key":"sluggish",
@@ -173243,7 +175233,8 @@
                     }
                 ],
                 "tags":[
-                    "global_range"
+                    "global_range",
+                    "unlimited_duration"
                 ],
                 "blackboard":[]
             },
@@ -177477,6 +179468,8 @@
         ],
         "blackboard":[],
         "powers":[
+            "babel",
+            "sargon",
             "rhodes",
             "elite"
         ],
@@ -191346,11 +193339,11 @@
         "id":"char_4212_nasti",
         "appellation":"Nasti",
         "name_zh":"娜斯提",
-        "name_ja":"",
-        "name_en":"",
+        "name_ja":"ナスティ",
+        "name_en":"Nasti",
         "desc_zh":"能够阻挡两个敌人，使用<支援装置>协助作战",
-        "desc_ja":"",
-        "desc_en":"",
+        "desc_ja":"敵を2体までブロック\n<支援装置>を使用可能",
+        "desc_en":"Blocks 2 enemies; Can use &lt;Support Devices&gt; in battles",
         "release_time":1764903600,
         "tags":[
             "phys"
@@ -191380,38 +193373,38 @@
         "potential":[
             {
                 "desc_zh":"部署费用-1",
-                "desc_ja":"",
-                "desc_en":"",
+                "desc_ja":"配置コスト-1",
+                "desc_en":"DP Cost -1",
                 "attribute":{
                     "cost":-1.0
                 }
             },
             {
                 "desc_zh":"再部署时间-6秒",
-                "desc_ja":"",
-                "desc_en":"",
+                "desc_ja":"再配置時間-6秒",
+                "desc_en":"Redeployment Time -6 sec",
                 "attribute":{
                     "respawnTime":-6.0
                 }
             },
             {
                 "desc_zh":"攻击力+25",
-                "desc_ja":"",
-                "desc_en":"",
+                "desc_ja":"攻撃力+25",
+                "desc_en":"ATK +25",
                 "attribute":{
                     "atk":25.0
                 }
             },
             {
                 "desc_zh":"第二天赋效果增强",
-                "desc_ja":"",
-                "desc_en":"",
+                "desc_ja":"第二素質強化",
+                "desc_en":"Improves Second Talent",
                 "attribute":null
             },
             {
                 "desc_zh":"部署费用-1",
-                "desc_ja":"",
-                "desc_en":"",
+                "desc_ja":"配置コスト-1",
+                "desc_en":"DP Cost -1",
                 "attribute":{
                     "cost":-1.0
                 }
@@ -191604,8 +193597,8 @@
             {
                 "skillId":"skchr_nasti_1",
                 "name_zh":"“拱卫”",
-                "name_ja":"",
-                "name_en":"",
+                "name_ja":"「衛護」",
+                "name_en":"'Fortify'",
                 "skillType":"MANUAL",
                 "durationType":"NONE",
                 "spType":"INCREASE_WITH_TIME",
@@ -191613,8 +193606,8 @@
                     {
                         "rangeId":null,
                         "description_zh":"携带此技能时：装置使前方干员防御力提升\\n攻击力<@ba.vup>+65%</>，防御力<@ba.vup>+65%</>，同时攻击阻挡的所有敌人；装置效果改为使前方干员阻挡数<@ba.vup>+1</>，防御力<@ba.vup>+46%</>，装置每秒流失2%最大生命值\\n<@ba.rem>技能开启时获得一个装置</>",
-                        "description_ja":"",
-                        "description_en":"",
+                        "description_ja":"パッシブ：装置の前方にいるオペレーターの防御力が上昇\nアクティブ：攻撃力<@ba.vup>+65%</>、防御力<@ba.vup>+65%</>、ブロック中の敵全員を同時に攻撃。さらに装置の効果が「前方にいるオペレーターのブロック数<@ba.vup>+1</>、防御力<@ba.vup>+46%」になるが、1秒ごとに装置のHPが最大値の2%減少\n<@ba.rem>スキル発動時、装置を1個獲得</>",
+                        "description_en":"When this skill is equipped, Device grants the Operator in front extra DEF\n<@ba.vup>+65%</> ATK, <@ba.vup>+65%</> DEF, and simultaneously attacks all blocked enemies; Device grants <@ba.vup>+1</> Block to the Operator in front and <@ba.vup>+46%</> DEF, but devices lose 2% Max HP every second\n<@ba.rem>Gains 1 Device on skill activation</>",
                         "spData":{
                             "spType":"INCREASE_WITH_TIME",
                             "levelUpCost":null,
@@ -191642,8 +193635,8 @@
                     {
                         "rangeId":null,
                         "description_zh":"携带此技能时：装置使前方干员防御力提升\\n攻击力<@ba.vup>+70%</>，防御力<@ba.vup>+70%</>，同时攻击阻挡的所有敌人；装置效果改为使前方干员阻挡数<@ba.vup>+1</>，防御力<@ba.vup>+49%</>，装置每秒流失2%最大生命值\\n<@ba.rem>技能开启时获得一个装置</>",
-                        "description_ja":"",
-                        "description_en":"",
+                        "description_ja":"パッシブ：装置の前方にいるオペレーターの防御力が上昇\nアクティブ：攻撃力<@ba.vup>+70%</>、防御力<@ba.vup>+70%</>、ブロック中の敵全員を同時に攻撃。さらに装置の効果が「前方にいるオペレーターのブロック数<@ba.vup>+1</>、防御力<@ba.vup>+49%」になるが、1秒ごとに装置のHPが最大値の2%減少\n<@ba.rem>スキル発動時、装置を1個獲得</>",
+                        "description_en":"When this skill is equipped, Device grants the Operator in front extra DEF\n<@ba.vup>+70%</> ATK, <@ba.vup>+70%</> DEF, and simultaneously attacks all blocked enemies; Device grants <@ba.vup>+1</> Block to the Operator in front and <@ba.vup>+49%</> DEF, but devices lose 2% Max HP every second\n<@ba.rem>Gains 1 Device on skill activation</>",
                         "spData":{
                             "spType":"INCREASE_WITH_TIME",
                             "levelUpCost":null,
@@ -191671,8 +193664,8 @@
                     {
                         "rangeId":null,
                         "description_zh":"携带此技能时：装置使前方干员防御力提升\\n攻击力<@ba.vup>+75%</>，防御力<@ba.vup>+75%</>，同时攻击阻挡的所有敌人；装置效果改为使前方干员阻挡数<@ba.vup>+1</>，防御力<@ba.vup>+52%</>，装置每秒流失2%最大生命值\\n<@ba.rem>技能开启时获得一个装置</>",
-                        "description_ja":"",
-                        "description_en":"",
+                        "description_ja":"パッシブ：装置の前方にいるオペレーターの防御力が上昇\nアクティブ：攻撃力<@ba.vup>+75%</>、防御力<@ba.vup>+75%</>、ブロック中の敵全員を同時に攻撃。さらに装置の効果が「前方にいるオペレーターのブロック数<@ba.vup>+1</>、防御力<@ba.vup>+52%」になるが、1秒ごとに装置のHPが最大値の2%減少\n<@ba.rem>スキル発動時、装置を1個獲得</>",
+                        "description_en":"When this skill is equipped, Device grants the Operator in front extra DEF\n<@ba.vup>+75%</> ATK, <@ba.vup>+75%</> DEF, and simultaneously attacks all blocked enemies; Device grants <@ba.vup>+1</> Block to the Operator in front and <@ba.vup>+52%</> DEF, but devices lose 2% Max HP every second\n<@ba.rem>Gains 1 Device on skill activation</>",
                         "spData":{
                             "spType":"INCREASE_WITH_TIME",
                             "levelUpCost":null,
@@ -191700,8 +193693,8 @@
                     {
                         "rangeId":null,
                         "description_zh":"携带此技能时：装置使前方干员防御力提升\\n攻击力<@ba.vup>+80%</>，防御力<@ba.vup>+80%</>，同时攻击阻挡的所有敌人；装置效果改为使前方干员阻挡数<@ba.vup>+1</>，防御力<@ba.vup>+55%</>，装置每秒流失2%最大生命值\\n<@ba.rem>技能开启时获得一个装置</>",
-                        "description_ja":"",
-                        "description_en":"",
+                        "description_ja":"パッシブ：装置の前方にいるオペレーターの防御力が上昇\nアクティブ：攻撃力<@ba.vup>+80%</>、防御力<@ba.vup>+80%</>、ブロック中の敵全員を同時に攻撃。さらに装置の効果が「前方にいるオペレーターのブロック数<@ba.vup>+1</>、防御力<@ba.vup>+55%」になるが、1秒ごとに装置のHPが最大値の2%減少\n<@ba.rem>スキル発動時、装置を1個獲得</>",
+                        "description_en":"When this skill is equipped, Device grants the Operator in front extra DEF\n<@ba.vup>+80%</> ATK, <@ba.vup>+80%</> DEF, and simultaneously attacks all blocked enemies; Device grants <@ba.vup>+1</> Block to the Operator in front and <@ba.vup>+55%</> DEF, but devices lose 2% Max HP every second\n<@ba.rem>Gains 1 Device on skill activation</>",
                         "spData":{
                             "spType":"INCREASE_WITH_TIME",
                             "levelUpCost":null,
@@ -191749,8 +193742,8 @@
             {
                 "skillId":"skchr_nasti_2",
                 "name_zh":"“执行”",
-                "name_ja":"",
-                "name_en":"",
+                "name_ja":"「執行」",
+                "name_en":"'Execute'",
                 "skillType":"MANUAL",
                 "durationType":"NONE",
                 "spType":"INCREASE_WITH_TIME",
@@ -191758,8 +193751,8 @@
                     {
                         "rangeId":null,
                         "description_zh":"携带此技能时：装置部署后逐渐回复自身生命值，激活后每0.5秒流失1点生命值，使前方干员获得<@ba.vup>1</>点技力和相当于娜斯提生命上限<@ba.vup>4%</>的<ba.barrier>屏障</>\\n立即激活场上装置，停止攻击，每0.5秒获得相当于生命上限<@ba.vup>8%</>的<ba.barrier>屏障</>（最多不超过生命上限64%）\\n<@ba.rem>技能结束时获得一个装置</>",
-                        "description_ja":"",
-                        "description_en":"",
+                        "description_ja":"パッシブ：配置中の装置のHPが徐々に回復。起動後の装置が0.5秒ごとにHPを1失い、前方1マス内のオペレーターのSPを<@ba.vup>1</>回復し、ナスティの最大HPの<@ba.vup>4%</>までの被ダメージを吸収できる<$ba.barrier>バリア</>を付与\nアクティブ：攻撃しなくなり、0.5秒ごとに最大HPの<@ba.vup>8%</>までの被ダメージを吸収できるバリア（バリアの上限は最大HPの64%まで）を獲得し、配置中の装置をすべて起動する\n<@ba.rem>スキル終了時、装置を1個獲得</>",
+                        "description_en":"When this skill is equipped, restores device HP over time after the device is deployed. On activation, the device loses 1 HP every 0.5 seconds, and grants the Operator in front <@ba.vup>1</> SP and a <$ba.barrier>Barrier</> equal to <@ba.vup>4%</> of Nasti's Max HP.\nImmediately activates the devices on the field. Stops attacking and gains a <$ba.barrier>Barrier</> equal to <@ba.vup>8%</> of her Max HP every 0.5 seconds. (Barrier cannot exceed 64% of Max HP)\n<@ba.rem>Gains 1 Device when skill ends</>",
                         "spData":{
                             "spType":"INCREASE_WITH_TIME",
                             "levelUpCost":null,
@@ -191795,8 +193788,8 @@
                     {
                         "rangeId":null,
                         "description_zh":"携带此技能时：装置部署后逐渐回复自身生命值，激活后每0.5秒流失1点生命值，使前方干员获得<@ba.vup>1</>点技力和相当于娜斯提生命上限<@ba.vup>4%</>的<ba.barrier>屏障</>\\n立即激活场上装置，停止攻击，每0.5秒获得相当于生命上限<@ba.vup>8%</>的<ba.barrier>屏障</>（最多不超过生命上限64%）\\n<@ba.rem>技能结束时获得一个装置</>",
-                        "description_ja":"",
-                        "description_en":"",
+                        "description_ja":"パッシブ：配置中の装置のHPが徐々に回復。起動後の装置が0.5秒ごとにHPを1失い、前方1マス内のオペレーターのSPを<@ba.vup>1</>回復し、ナスティの最大HPの<@ba.vup>4%</>までの被ダメージを吸収できる<$ba.barrier>バリア</>を付与\nアクティブ：攻撃しなくなり、0.5秒ごとに最大HPの<@ba.vup>8%</>までの被ダメージを吸収できるバリア（バリアの上限は最大HPの64%まで）を獲得し、配置中の装置をすべて起動する\n<@ba.rem>スキル終了時、装置を1個獲得</>",
+                        "description_en":"When this skill is equipped, restores device HP over time after the device is deployed. On activation, the device loses 1 HP every 0.5 seconds, and grants the Operator in front <@ba.vup>1</> SP and a <$ba.barrier>Barrier</> equal to <@ba.vup>4%</> of Nasti's Max HP.\nImmediately activates the devices on the field. Stops attacking and gains a <$ba.barrier>Barrier</> equal to <@ba.vup>8%</> of her Max HP every 0.5 seconds. (Barrier cannot exceed 64% of Max HP)\n<@ba.rem>Gains 1 Device when skill ends</>",
                         "spData":{
                             "spType":"INCREASE_WITH_TIME",
                             "levelUpCost":null,
@@ -191832,8 +193825,8 @@
                     {
                         "rangeId":null,
                         "description_zh":"携带此技能时：装置部署后逐渐回复自身生命值，激活后每0.5秒流失1点生命值，使前方干员获得<@ba.vup>1</>点技力和相当于娜斯提生命上限<@ba.vup>4%</>的<ba.barrier>屏障</>\\n立即激活场上装置，停止攻击，每0.5秒获得相当于生命上限<@ba.vup>8%</>的<ba.barrier>屏障</>（最多不超过生命上限64%）\\n<@ba.rem>技能结束时获得一个装置</>",
-                        "description_ja":"",
-                        "description_en":"",
+                        "description_ja":"パッシブ：配置中の装置のHPが徐々に回復。起動後の装置が0.5秒ごとにHPを1失い、前方1マス内のオペレーターのSPを<@ba.vup>1</>回復し、ナスティの最大HPの<@ba.vup>4%</>までの被ダメージを吸収できる<$ba.barrier>バリア</>を付与\nアクティブ：攻撃しなくなり、0.5秒ごとに最大HPの<@ba.vup>8%</>までの被ダメージを吸収できるバリア（バリアの上限は最大HPの64%まで）を獲得し、配置中の装置をすべて起動する\n<@ba.rem>スキル終了時、装置を1個獲得</>",
+                        "description_en":"When this skill is equipped, restores device HP over time after the device is deployed. On activation, the device loses 1 HP every 0.5 seconds, and grants the Operator in front <@ba.vup>1</> SP and a <$ba.barrier>Barrier</> equal to <@ba.vup>4%</> of Nasti's Max HP.\nImmediately activates the devices on the field. Stops attacking and gains a <$ba.barrier>Barrier</> equal to <@ba.vup>8%</> of her Max HP every 0.5 seconds. (Barrier cannot exceed 64% of Max HP)\n<@ba.rem>Gains 1 Device when skill ends</>",
                         "spData":{
                             "spType":"INCREASE_WITH_TIME",
                             "levelUpCost":null,
@@ -191869,8 +193862,8 @@
                     {
                         "rangeId":null,
                         "description_zh":"携带此技能时：装置部署后逐渐回复自身生命值，激活后每0.5秒流失1点生命值，使前方干员获得<@ba.vup>1</>点技力和相当于娜斯提生命上限<@ba.vup>5%</>的<ba.barrier>屏障</>\\n立即激活场上装置，停止攻击，每0.5秒获得相当于生命上限<@ba.vup>10%</>的<ba.barrier>屏障</>（最多不超过生命上限80%）\\n<@ba.rem>技能结束时获得一个装置</>",
-                        "description_ja":"",
-                        "description_en":"",
+                        "description_ja":"パッシブ：配置中の装置のHPが徐々に回復。起動後の装置が0.5秒ごとにHPを1失い、前方1マス内のオペレーターのSPを<@ba.vup>1</>回復し、ナスティの最大HPの<@ba.vup>5%</>までの被ダメージを吸収できる<$ba.barrier>バリア</>を付与\nアクティブ：攻撃しなくなり、0.5秒ごとに最大HPの<@ba.vup>10%</>までの被ダメージを吸収できるバリア（バリアの上限は最大HPの80%まで）を獲得し、配置中の装置をすべて起動する\n<@ba.rem>スキル終了時、装置を1個獲得</>",
+                        "description_en":"When this skill is equipped, restores device HP over time after the device is deployed. On activation, the device loses 1 HP every 0.5 seconds, and grants the Operator in front <@ba.vup>1</> SP and a <$ba.barrier>Barrier</> equal to <@ba.vup>5%</> of Nasti's Max HP.\nImmediately activates the devices on the field. Stops attacking and gains a <$ba.barrier>Barrier</> equal to <@ba.vup>10%</> of her Max HP every 0.5 seconds. (Barrier cannot exceed 80% of Max HP)\n<@ba.rem>Gains 1 Device when skill ends</>",
                         "spData":{
                             "spType":"INCREASE_WITH_TIME",
                             "levelUpCost":null,
@@ -191918,8 +193911,8 @@
             {
                 "skillId":"skchr_nasti_3",
                 "name_zh":"栖脚地",
-                "name_ja":"",
-                "name_en":"",
+                "name_ja":"止まり木",
+                "name_en":"Roosting Grounds",
                 "skillType":"MANUAL",
                 "durationType":"NONE",
                 "spType":"INCREASE_WITH_TIME",
@@ -191927,8 +193920,8 @@
                     {
                         "rangeId":null,
                         "description_zh":"携带此技能时：装置可建造并升级一个可以放置远程干员并为其提供增益的特殊高台\\n攻击力<@ba.vup>+130%</>，防御力<@ba.vup>+130%</>；小工程师装置为高台装置回复技力和生命的效果翻倍\\n<@ba.rem>技能开启时获得一个装置</>",
-                        "description_ja":"",
-                        "description_en":"",
+                        "description_ja":"パッシブ：装置は遠距離オペレーターを配置可能かつ強化可能な高台を建設・アップグレードできる\nアクティブ：攻撃力<@ba.vup>+130%</>、防御力<@ba.vup>+130%</>、エンジニア形態の装置による高台形態の装置へのSP・HP回復効果が2倍になる\n<@ba.rem>スキル発動時、装置を1個獲得</>",
+                        "description_en":"When this skill is equipped, the device can build and upgrade a special high ground device to deploy Ranged Operators and provide them with a buff\n<@ba.vup>+130%</> ATK, <@ba.vup>+130%</> DEF; the little engineer's device restores double SP and HP to the special high ground.\n<@ba.rem>Gains 1 Device on skill activation</>",
                         "spData":{
                             "spType":"INCREASE_WITH_TIME",
                             "levelUpCost":null,
@@ -191952,8 +193945,8 @@
                     {
                         "rangeId":null,
                         "description_zh":"携带此技能时：装置可建造并升级一个可以放置远程干员并为其提供增益的特殊高台\\n攻击力<@ba.vup>+140%</>，防御力<@ba.vup>+140%</>；小工程师装置为高台装置回复技力和生命的效果翻倍\\n<@ba.rem>技能开启时获得一个装置</>",
-                        "description_ja":"",
-                        "description_en":"",
+                        "description_ja":"パッシブ：装置は遠距離オペレーターを配置可能かつ強化可能な高台を建設・アップグレードできる\nアクティブ：攻撃力<@ba.vup>+140%</>、防御力<@ba.vup>+140%</>、エンジニア形態の装置による高台形態の装置へのSP・HP回復効果が2倍になる\n<@ba.rem>スキル発動時、装置を1個獲得</>",
+                        "description_en":"When this skill is equipped, the device can build and upgrade a special high ground device to deploy Ranged Operators and provide them with a buff\n<@ba.vup>+140%</> ATK, <@ba.vup>+140%</> DEF; the little engineer's device restores double SP and HP to the special high ground.\n<@ba.rem>Gains 1 Device on skill activation</>",
                         "spData":{
                             "spType":"INCREASE_WITH_TIME",
                             "levelUpCost":null,
@@ -191977,8 +193970,8 @@
                     {
                         "rangeId":null,
                         "description_zh":"携带此技能时：装置可建造并升级一个可以放置远程干员并为其提供增益的特殊高台\\n攻击力<@ba.vup>+150%</>，防御力<@ba.vup>+150%</>；小工程师装置为高台装置回复技力和生命的效果翻倍\\n<@ba.rem>技能开启时获得一个装置</>",
-                        "description_ja":"",
-                        "description_en":"",
+                        "description_ja":"パッシブ：装置は遠距離オペレーターを配置可能かつ強化可能な高台を建設・アップグレードできる\nアクティブ：攻撃力<@ba.vup>+150%</>、防御力<@ba.vup>+150%</>、エンジニア形態の装置による高台形態の装置へのSP・HP回復効果が2倍になる\n<@ba.rem>スキル発動時、装置を1個獲得</>",
+                        "description_en":"When this skill is equipped, the device can build and upgrade a special high ground device to deploy Ranged Operators and provide them with a buff\n<@ba.vup>+150%</> ATK, <@ba.vup>+150%</> DEF; the little engineer's device restores double SP and HP to the special high ground.\n<@ba.rem>Gains 1 Device on skill activation</>",
                         "spData":{
                             "spType":"INCREASE_WITH_TIME",
                             "levelUpCost":null,
@@ -192002,8 +193995,8 @@
                     {
                         "rangeId":null,
                         "description_zh":"携带此技能时：装置可建造并升级一个可以放置远程干员并为其提供增益的特殊高台\\n攻击力<@ba.vup>+160%</>，防御力<@ba.vup>+160%</>；小工程师装置为高台装置回复技力和生命的效果翻倍\\n<@ba.rem>技能开启时获得一个装置</>",
-                        "description_ja":"",
-                        "description_en":"",
+                        "description_ja":"パッシブ：装置は遠距離オペレーターを配置可能かつ強化可能な高台を建設・アップグレードできる\nアクティブ：攻撃力<@ba.vup>+160%</>、防御力<@ba.vup>+160%</>、エンジニア形態の装置による高台形態の装置へのSP・HP回復効果が2倍になる\n<@ba.rem>スキル発動時、装置を1個獲得</>",
+                        "description_en":"When this skill is equipped, the device can build and upgrade a special high ground device to deploy Ranged Operators and provide them with a buff\n<@ba.vup>+160%</> ATK, <@ba.vup>+160%</> DEF; the little engineer's device restores double SP and HP to the special high ground.\n<@ba.rem>Gains 1 Device on skill activation</>",
                         "spData":{
                             "spType":"INCREASE_WITH_TIME",
                             "levelUpCost":null,
@@ -192071,11 +194064,11 @@
             {
                 "prefabKey":"1",
                 "name_zh":"前方施工",
-                "name_en":"",
-                "name_ja":"",
+                "name_en":"Construction Ahead",
+                "name_ja":"前方工事中",
                 "desc_zh":"可以携带3个<支援装置>(最多可部署2个)，效果根据技能改变而改变",
-                "desc_en":"",
-                "desc_ja":"",
+                "desc_en":"Can carry 3 &lt;Support Devices&gt; (deploy up to 2), with different effects depending on Skill",
+                "desc_ja":"支援装置を使用可能（配置時に3個獲得、最大2個まで同時配置可能）、装着中のスキルによって支援装置の性能が変化",
                 "rangeId":null,
                 "tags":[
                     "summon"
@@ -192085,11 +194078,11 @@
             {
                 "prefabKey":"2",
                 "name_zh":"注意安全",
-                "name_en":"",
-                "name_ja":"",
+                "name_en":"Safety First",
+                "name_ja":"注意喚起",
                 "desc_zh":"获得12%<@ba.talpu>（+2%）</><ba.protect>庇护</>；远程敌人出现后，改为使自身和场上的高台干员获得18%<@ba.talpu>（+3%）</><ba.protect>庇护</>，且每6秒获得1点技力",
-                "desc_en":"",
-                "desc_ja":"",
+                "desc_en":"Gains 12% <@ba.talpu>(+2%)</> <$ba.protect>Sanctuary</>; after a ranged enemy appears, instead grants herself and all High Ground Operators 18% <@ba.talpu>(+3%)</> <$ba.protect>Sanctuary</>, and also 1 SP every 6 seconds",
+                "desc_ja":"自身が12%<@ba.talpu>（+2%）</>の<$ba.protect>加護</>を獲得。遠距離攻撃を行う敵が出現すると、効果が「自身と戦場に配置されている遠距離オペレーター全員が18%<@ba.talpu>（+3%）</>の<$ba.protect>加護</>を獲得、6秒ごとにSPを1回復」に変化する",
                 "rangeId":null,
                 "tags":[
                     "protect"
@@ -192155,8 +194148,8 @@
             {
                 "uniEquipId":"uniequip_001_nasti",
                 "name_zh":"娜斯提证章",
-                "name_ja":"",
-                "name_en":"",
+                "name_ja":"ナスティの記章",
+                "name_en":"Nasti's Badge",
                 "typeIcon":"original",
                 "charId":"char_4212_nasti",
                 "combatData":null
@@ -192164,8 +194157,8 @@
             {
                 "uniEquipId":"uniequip_002_nasti",
                 "name_zh":"工程师们",
-                "name_ja":"",
-                "name_en":"",
+                "name_ja":"エンジニアたち",
+                "name_en":"The Engineers",
                 "typeIcon":"cra-x",
                 "charId":"char_4212_nasti",
                 "combatData":{
@@ -192177,56 +194170,65 @@
                                     "target":"TRAIT",
                                     "isToken":false,
                                     "addDesc_zh":"<支援装置>的持有上限<@ba.kw>+1</>且部署费用<@ba.kw>减少</>",
-                                    "addDesc_ja":"",
-                                    "addDesc_en":"",
+                                    "addDesc_ja":"「支援装置」の最大所持数<@ba.kw>+1</>、配置コスト<@ba.kw>減少</>",
+                                    "addDesc_en":"Increases the max number of Support Devices that can be held by <@ba.kw>+1</> and <@ba.kw>reduces</> their Deployment Cost",
                                     "overrideDesc_zh":null,
-                                    "overrideDesc_ja":"",
-                                    "overrideDesc_en":""
+                                    "overrideDesc_ja":null,
+                                    "overrideDesc_en":null
                                 }
                             ],
                             "attributeBlackboard":[
                                 {
                                     "key":"max_hp",
-                                    "value":78.0
+                                    "value":78.0,
+                                    "valueStr":null
                                 },
                                 {
                                     "key":"atk",
-                                    "value":26.0
+                                    "value":26.0,
+                                    "valueStr":null
                                 },
                                 {
                                     "key":"def",
-                                    "value":25.0
+                                    "value":25.0,
+                                    "valueStr":null
                                 }
                             ],
                             "tokenAttributeBlackboard":{
                                 "token_10059_nasti_nstdef":[
                                     {
                                         "key":"cost",
-                                        "value":-2.0
+                                        "value":-2.0,
+                                        "valueStr":null
                                     },
                                     {
                                         "key":"max_deck_stack_cnt",
-                                        "value":1.0
+                                        "value":1.0,
+                                        "valueStr":null
                                     }
                                 ],
                                 "token_10060_nasti_nstchr":[
                                     {
                                         "key":"cost",
-                                        "value":-2.0
+                                        "value":-2.0,
+                                        "valueStr":null
                                     },
                                     {
                                         "key":"max_deck_stack_cnt",
-                                        "value":1.0
+                                        "value":1.0,
+                                        "valueStr":null
                                     }
                                 ],
                                 "token_10061_nasti_nstbld":[
                                     {
                                         "key":"cost",
-                                        "value":-3.0
+                                        "value":-3.0,
+                                        "valueStr":null
                                     },
                                     {
                                         "key":"max_deck_stack_cnt",
-                                        "value":1.0
+                                        "value":1.0,
+                                        "valueStr":null
                                     }
                                 ]
                             }
@@ -192238,33 +194240,33 @@
                                     "target":"TRAIT",
                                     "isToken":false,
                                     "addDesc_zh":"<支援装置>的持有上限<@ba.kw>+1</>且部署费用<@ba.kw>减少</>",
-                                    "addDesc_ja":"",
-                                    "addDesc_en":"",
+                                    "addDesc_ja":"「支援装置」の最大所持数<@ba.kw>+1</>、配置コスト<@ba.kw>減少</>",
+                                    "addDesc_en":"Increases the max number of Support Devices that can be held by <@ba.kw>+1</> and <@ba.kw>reduces</> their Deployment Cost",
                                     "overrideDesc_zh":null,
-                                    "overrideDesc_ja":"",
-                                    "overrideDesc_en":""
+                                    "overrideDesc_ja":null,
+                                    "overrideDesc_en":null
                                 },
                                 {
                                     "resKey":null,
                                     "target":"TALENT_DATA_ONLY",
                                     "isToken":false,
-                                    "name_zh":"前方施工",
-                                    "name_ja":"",
-                                    "name_en":"",
+                                    "name_zh":"Construction Ahead",
+                                    "name_ja":"前方工事中",
+                                    "name_en":"Construction Ahead",
                                     "displayRangeId":false,
                                     "rangeId":null,
                                     "talentIndex":0,
                                     "upgradeDesc_zh":"可以携带3个<支援装置>(最多可部署2个)，效果根据技能改变而改变，首个装置部署费用减少",
-                                    "upgradeDesc_ja":"",
-                                    "upgradeDesc_en":""
+                                    "upgradeDesc_ja":"支援装置を使用可能（配置時に3個獲得、最大2個まで同時配置可能）、装着中のスキルによって支援装置の性能が変化、最初に配置する支援装置の配置コストが減少",
+                                    "upgradeDesc_en":"Can carry 3 &lt;Support Devices&gt; (deploy up to 2), with different effects depending on Skill; first device has reduced Deployment Cost"
                                 },
                                 {
                                     "resKey":"nasti_equip_1_2_p2",
                                     "target":"TALENT",
                                     "isToken":false,
                                     "name_zh":null,
-                                    "name_ja":"",
-                                    "name_en":"",
+                                    "name_ja":null,
+                                    "name_en":null,
                                     "displayRangeId":false,
                                     "rangeId":null,
                                     "talentIndex":0,
@@ -192276,46 +194278,55 @@
                             "attributeBlackboard":[
                                 {
                                     "key":"max_hp",
-                                    "value":102.0
+                                    "value":102.0,
+                                    "valueStr":null
                                 },
                                 {
                                     "key":"atk",
-                                    "value":32.0
+                                    "value":32.0,
+                                    "valueStr":null
                                 },
                                 {
                                     "key":"def",
-                                    "value":35.0
+                                    "value":35.0,
+                                    "valueStr":null
                                 }
                             ],
                             "tokenAttributeBlackboard":{
                                 "token_10059_nasti_nstdef":[
                                     {
                                         "key":"cost",
-                                        "value":-2.0
+                                        "value":-2.0,
+                                        "valueStr":null
                                     },
                                     {
                                         "key":"max_deck_stack_cnt",
-                                        "value":1.0
+                                        "value":1.0,
+                                        "valueStr":null
                                     }
                                 ],
                                 "token_10060_nasti_nstchr":[
                                     {
                                         "key":"cost",
-                                        "value":-2.0
+                                        "value":-2.0,
+                                        "valueStr":null
                                     },
                                     {
                                         "key":"max_deck_stack_cnt",
-                                        "value":1.0
+                                        "value":1.0,
+                                        "valueStr":null
                                     }
                                 ],
                                 "token_10061_nasti_nstbld":[
                                     {
                                         "key":"cost",
-                                        "value":-3.0
+                                        "value":-3.0,
+                                        "valueStr":null
                                     },
                                     {
                                         "key":"max_deck_stack_cnt",
-                                        "value":1.0
+                                        "value":1.0,
+                                        "valueStr":null
                                     }
                                 ]
                             }
@@ -192327,33 +194338,33 @@
                                     "target":"TRAIT",
                                     "isToken":false,
                                     "addDesc_zh":"<支援装置>的持有上限<@ba.kw>+1</>且部署费用<@ba.kw>减少</>",
-                                    "addDesc_ja":"",
-                                    "addDesc_en":"",
+                                    "addDesc_ja":"「支援装置」の最大所持数<@ba.kw>+1</>、配置コスト<@ba.kw>減少</>",
+                                    "addDesc_en":"Increases the max number of Support Devices that can be held by <@ba.kw>+1</> and <@ba.kw>reduces</> their Deployment Cost",
                                     "overrideDesc_zh":null,
-                                    "overrideDesc_ja":"",
-                                    "overrideDesc_en":""
+                                    "overrideDesc_ja":null,
+                                    "overrideDesc_en":null
                                 },
                                 {
                                     "resKey":null,
                                     "target":"TALENT_DATA_ONLY",
                                     "isToken":false,
-                                    "name_zh":"前方施工",
-                                    "name_ja":"",
-                                    "name_en":"",
+                                    "name_zh":"Construction Ahead",
+                                    "name_ja":"前方工事中",
+                                    "name_en":"Construction Ahead",
                                     "displayRangeId":false,
                                     "rangeId":null,
                                     "talentIndex":0,
                                     "upgradeDesc_zh":"可以携带3个<支援装置>(最多可部署2个)，效果根据技能改变而改变，首个装置部署费用减少；装置可与攻击范围内其他装置共同提供效果",
-                                    "upgradeDesc_ja":"",
-                                    "upgradeDesc_en":""
+                                    "upgradeDesc_ja":"支援装置を使用可能（配置時に3個獲得、最大2個まで同時配置可能）、装着中のスキルによって支援装置の性能が変化、最初に配置する支援装置の配置コストが減少、支援装置の効果が攻撃範囲内の自身の他の支援装置の効果に加算される",
+                                    "upgradeDesc_en":"Can carry 3 &lt;Support Devices&gt; (deploy up to 2), with different effects depending on Skill; first device has reduced Deployment Cost; each device can combine effects with other devices in its attack range"
                                 },
                                 {
                                     "resKey":"nasti_equip_1_3_p2",
                                     "target":"TALENT",
                                     "isToken":false,
                                     "name_zh":null,
-                                    "name_ja":"",
-                                    "name_en":"",
+                                    "name_ja":null,
+                                    "name_en":null,
                                     "displayRangeId":false,
                                     "rangeId":null,
                                     "talentIndex":0,
@@ -192366,8 +194377,8 @@
                                     "target":"TALENT",
                                     "isToken":false,
                                     "name_zh":null,
-                                    "name_ja":"",
-                                    "name_en":"",
+                                    "name_ja":null,
+                                    "name_en":null,
                                     "displayRangeId":false,
                                     "rangeId":null,
                                     "talentIndex":-1,
@@ -192379,46 +194390,55 @@
                             "attributeBlackboard":[
                                 {
                                     "key":"max_hp",
-                                    "value":145.0
+                                    "value":145.0,
+                                    "valueStr":null
                                 },
                                 {
                                     "key":"atk",
-                                    "value":40.0
+                                    "value":40.0,
+                                    "valueStr":null
                                 },
                                 {
                                     "key":"def",
-                                    "value":45.0
+                                    "value":45.0,
+                                    "valueStr":null
                                 }
                             ],
                             "tokenAttributeBlackboard":{
                                 "token_10059_nasti_nstdef":[
                                     {
                                         "key":"cost",
-                                        "value":-2.0
+                                        "value":-2.0,
+                                        "valueStr":null
                                     },
                                     {
                                         "key":"max_deck_stack_cnt",
-                                        "value":1.0
+                                        "value":1.0,
+                                        "valueStr":null
                                     }
                                 ],
                                 "token_10060_nasti_nstchr":[
                                     {
                                         "key":"cost",
-                                        "value":-2.0
+                                        "value":-2.0,
+                                        "valueStr":null
                                     },
                                     {
                                         "key":"max_deck_stack_cnt",
-                                        "value":1.0
+                                        "value":1.0,
+                                        "valueStr":null
                                     }
                                 ],
                                 "token_10061_nasti_nstbld":[
                                     {
                                         "key":"cost",
-                                        "value":-3.0
+                                        "value":-3.0,
+                                        "valueStr":null
                                     },
                                     {
                                         "key":"max_deck_stack_cnt",
-                                        "value":1.0
+                                        "value":1.0,
+                                        "valueStr":null
                                     }
                                 ]
                             }
@@ -197223,6 +199243,175 @@
                         }
                     ]
                 }
+            },
+            {
+                "uniEquipId":"uniequip_003_yato2",
+                "name_zh":"罗德岛制式双刀",
+                "name_ja":"",
+                "name_en":"",
+                "typeIcon":"exe-y",
+                "charId":"char_1029_yato2",
+                "combatData":{
+                    "phases":[
+                        {
+                            "parts":[
+                                {
+                                    "resKey":"yato2_equip_2_1_p1",
+                                    "target":"TRAIT",
+                                    "isToken":false,
+                                    "addDesc_zh":"周围四格没有友方干员时攻击力<@ba.kw>+10%</>",
+                                    "addDesc_ja":"",
+                                    "addDesc_en":"",
+                                    "overrideDesc_zh":null,
+                                    "overrideDesc_ja":"",
+                                    "overrideDesc_en":""
+                                }
+                            ],
+                            "attributeBlackboard":[
+                                {
+                                    "key":"max_hp",
+                                    "value":135.0
+                                },
+                                {
+                                    "key":"atk",
+                                    "value":23.0
+                                }
+                            ],
+                            "tokenAttributeBlackboard":{}
+                        },
+                        {
+                            "parts":[
+                                {
+                                    "resKey":"yato2_equip_2_2_p1",
+                                    "target":"TRAIT",
+                                    "isToken":false,
+                                    "addDesc_zh":"周围四格没有友方干员时攻击力<@ba.kw>+10%</>",
+                                    "addDesc_ja":"",
+                                    "addDesc_en":"",
+                                    "overrideDesc_zh":null,
+                                    "overrideDesc_ja":"",
+                                    "overrideDesc_en":""
+                                },
+                                {
+                                    "resKey":null,
+                                    "target":"TALENT_DATA_ONLY",
+                                    "isToken":false,
+                                    "name_zh":"双雷剑麒麟",
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":0,
+                                    "upgradeDesc_zh":"攻击额外造成攻击力23%的法术伤害，根据造成的法术伤害次数获得不断提高的<ba.magicarcane>术法充盈</>（最高在造成7次法术伤害后获得35%的<ba.magicarcane>术法充盈</>），首次撤退再部署时间为0",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                },
+                                {
+                                    "resKey":"yato2_equip_2_2_p2",
+                                    "target":"TALENT",
+                                    "isToken":false,
+                                    "name_zh":"双雷剑麒麟",
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":-1,
+                                    "upgradeDesc_zh":"",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                }
+                            ],
+                            "attributeBlackboard":[
+                                {
+                                    "key":"max_hp",
+                                    "value":170.0
+                                },
+                                {
+                                    "key":"atk",
+                                    "value":39.0
+                                }
+                            ],
+                            "tokenAttributeBlackboard":{}
+                        },
+                        {
+                            "parts":[
+                                {
+                                    "resKey":"yato2_equip_2_3_p1",
+                                    "target":"TRAIT",
+                                    "isToken":false,
+                                    "addDesc_zh":"周围四格没有友方干员时攻击力<@ba.kw>+10%</>",
+                                    "addDesc_ja":"",
+                                    "addDesc_en":"",
+                                    "overrideDesc_zh":null,
+                                    "overrideDesc_ja":"",
+                                    "overrideDesc_en":""
+                                },
+                                {
+                                    "resKey":null,
+                                    "target":"TALENT_DATA_ONLY",
+                                    "isToken":false,
+                                    "name_zh":"双雷剑麒麟",
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":0,
+                                    "upgradeDesc_zh":"攻击额外造成攻击力25%的法术伤害，根据造成的法术伤害次数获得不断提高的<ba.magicarcane>术法充盈</>（最高在造成10次法术伤害后获得50%的<ba.magicarcane>术法充盈</>），首次撤退再部署时间为0",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                },
+                                {
+                                    "resKey":"yato2_equip_2_3_p2",
+                                    "target":"TALENT",
+                                    "isToken":false,
+                                    "name_zh":"双雷剑麒麟",
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":-1,
+                                    "upgradeDesc_zh":"",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                }
+                            ],
+                            "attributeBlackboard":[
+                                {
+                                    "key":"max_hp",
+                                    "value":200.0
+                                },
+                                {
+                                    "key":"atk",
+                                    "value":50.0
+                                }
+                            ],
+                            "tokenAttributeBlackboard":{}
+                        }
+                    ],
+                    "tags":[],
+                    "blackboard":[
+                        {
+                            "key":"atk",
+                            "value":0.1
+                        },
+                        {
+                            "key":"attack@atk_scale_1",
+                            "value":0.25
+                        },
+                        {
+                            "key":"damage_up",
+                            "value":0.05
+                        },
+                        {
+                            "key":"max_stack_cnt",
+                            "value":10.0
+                        },
+                        {
+                            "key":"respawn_time",
+                            "value":0.0
+                        }
+                    ]
+                }
             }
         ]
     },
@@ -200718,7 +202907,8 @@
                     }
                 ],
                 "tags":[
-                    "push"
+                    "push",
+                    "unlimited_duration"
                 ],
                 "blackboard":[
                     {
@@ -217909,8 +220099,8 @@
             {
                 "uniEquipId":"uniequip_001_monstr",
                 "name_zh":"Mon3tr证章",
-                "name_ja":"",
-                "name_en":"",
+                "name_ja":"Mon3trの記章",
+                "name_en":"Mon3tr's Badge",
                 "typeIcon":"original",
                 "charId":"char_4179_monstr",
                 "combatData":null
@@ -217918,8 +220108,8 @@
             {
                 "uniEquipId":"uniequip_002_monstr",
                 "name_zh":"记忆存档",
-                "name_ja":"",
-                "name_en":"",
+                "name_ja":"記憶アーカイブ",
+                "name_en":"Ten Thousand Years of Memories",
                 "typeIcon":"xah-x",
                 "charId":"char_4179_monstr",
                 "combatData":{
@@ -217931,19 +220121,19 @@
                                     "target":"DISPLAY",
                                     "isToken":false,
                                     "addDesc_zh":null,
-                                    "addDesc_ja":"",
-                                    "addDesc_en":"",
+                                    "addDesc_ja":null,
+                                    "addDesc_en":null,
                                     "overrideDesc_zh":"恢复友方单位生命，且会在<@ba.kw>3</>个友方单位间跳跃，每次跳跃治疗量降低15%",
-                                    "overrideDesc_ja":"",
-                                    "overrideDesc_en":""
+                                    "overrideDesc_ja":"味方のHPを回復\n味方を治療する際、<@ba.kw>3</>体目の味方まで治療が跳躍していく（跳躍するたびに治療量は15%ずつ減衰）",
+                                    "overrideDesc_en":"Restores HP of allies, bouncing between <@ba.kw>3</> allies. Healing reduced by 15% per bounce."
                                 },
                                 {
                                     "resKey":"monstr_equip_1_1_p1",
                                     "target":"TALENT",
                                     "isToken":false,
                                     "name_zh":null,
-                                    "name_ja":"",
-                                    "name_en":"",
+                                    "name_ja":null,
+                                    "name_en":null,
                                     "displayRangeId":false,
                                     "rangeId":null,
                                     "talentIndex":-1,
@@ -217955,11 +220145,13 @@
                             "attributeBlackboard":[
                                 {
                                     "key":"atk",
-                                    "value":40.0
+                                    "value":40.0,
+                                    "valueStr":null
                                 },
                                 {
                                     "key":"def",
-                                    "value":30.0
+                                    "value":30.0,
+                                    "valueStr":null
                                 }
                             ],
                             "tokenAttributeBlackboard":{}
@@ -217971,19 +220163,19 @@
                                     "target":"DISPLAY",
                                     "isToken":false,
                                     "addDesc_zh":null,
-                                    "addDesc_ja":"",
-                                    "addDesc_en":"",
+                                    "addDesc_ja":null,
+                                    "addDesc_en":null,
                                     "overrideDesc_zh":"恢复友方单位生命，且会在<@ba.kw>3</>个友方单位间跳跃，每次跳跃治疗量降低15%",
-                                    "overrideDesc_ja":"",
-                                    "overrideDesc_en":""
+                                    "overrideDesc_ja":"味方のHPを回復\n味方を治療する際、<@ba.kw>3</>体目の味方まで治療が跳躍していく（跳躍するたびに治療量は15%ずつ減衰）",
+                                    "overrideDesc_en":"Restores HP of allies, bouncing between <@ba.kw>3</> allies. Healing reduced by 15% per bounce."
                                 },
                                 {
                                     "resKey":"monstr_equip_1_2_p1",
                                     "target":"TALENT",
                                     "isToken":false,
                                     "name_zh":null,
-                                    "name_ja":"",
-                                    "name_en":"",
+                                    "name_ja":null,
+                                    "name_en":null,
                                     "displayRangeId":false,
                                     "rangeId":null,
                                     "talentIndex":-1,
@@ -217995,25 +220187,27 @@
                                     "resKey":null,
                                     "target":"TALENT_DATA_ONLY",
                                     "isToken":false,
-                                    "name_zh":"自我修复",
-                                    "name_ja":"",
-                                    "name_en":"",
+                                    "name_zh":"Self-Repair",
+                                    "name_ja":"自己修復",
+                                    "name_en":"Self-Repair",
                                     "displayRangeId":false,
                                     "rangeId":null,
                                     "talentIndex":0,
                                     "upgradeDesc_zh":"可以在攻击范围内的地面使用一个仅可被自身治疗的重构体，重构体周围友方单位的攻击力+25%<@ba.talpu>（+5%）</>，重构体受到自身和Mon3tr治疗时，可额外进行一次不会衰减的治疗跳跃",
-                                    "upgradeDesc_ja":"",
-                                    "upgradeDesc_en":""
+                                    "upgradeDesc_ja":"攻撃範囲内の地面マスに自身のみが治療可能な「再構成核」を1体配置可能。再構成核の周囲にいる味方ユニットの攻撃力+25%<@ba.talpu>（+5%）</>、再構成核が自身かMon3trによる治療を受けると、減衰と跳躍回数の消費なしで次の対象へと跳躍",
+                                    "upgradeDesc_en":"Can deploy a Reconstruction on the ground within Attack Range that can only be healed by Mon3tr; the Reconstruction grants surrounding allies +25% <@ba.talpu>(+5%)</> ATK; when the Reconstruction receives healing from itself or Mon3tr, it performs an additional healing bounce that does not weaken"
                                 }
                             ],
                             "attributeBlackboard":[
                                 {
                                     "key":"atk",
-                                    "value":55.0
+                                    "value":55.0,
+                                    "valueStr":null
                                 },
                                 {
                                     "key":"def",
-                                    "value":35.0
+                                    "value":35.0,
+                                    "valueStr":null
                                 }
                             ],
                             "tokenAttributeBlackboard":{}
@@ -218025,19 +220219,19 @@
                                     "target":"DISPLAY",
                                     "isToken":false,
                                     "addDesc_zh":null,
-                                    "addDesc_ja":"",
-                                    "addDesc_en":"",
+                                    "addDesc_ja":null,
+                                    "addDesc_en":null,
                                     "overrideDesc_zh":"恢复友方单位生命，且会在<@ba.kw>3</>个友方单位间跳跃，每次跳跃治疗量降低15%",
-                                    "overrideDesc_ja":"",
-                                    "overrideDesc_en":""
+                                    "overrideDesc_ja":"味方のHPを回復\n味方を治療する際、<@ba.kw>3</>体目の味方まで治療が跳躍していく（跳躍するたびに治療量は15%ずつ減衰）",
+                                    "overrideDesc_en":"Restores HP of allies, bouncing between <@ba.kw>3</> allies. Healing reduced by 15% per bounce."
                                 },
                                 {
                                     "resKey":"monstr_equip_1_3_p1",
                                     "target":"TALENT",
                                     "isToken":false,
                                     "name_zh":null,
-                                    "name_ja":"",
-                                    "name_en":"",
+                                    "name_ja":null,
+                                    "name_en":null,
                                     "displayRangeId":false,
                                     "rangeId":null,
                                     "talentIndex":-1,
@@ -218049,25 +220243,27 @@
                                     "resKey":null,
                                     "target":"TALENT_DATA_ONLY",
                                     "isToken":false,
-                                    "name_zh":"自我修复",
-                                    "name_ja":"",
-                                    "name_en":"",
+                                    "name_zh":"Self-Repair",
+                                    "name_ja":"自己修復",
+                                    "name_en":"Self-Repair",
                                     "displayRangeId":false,
                                     "rangeId":null,
                                     "talentIndex":0,
                                     "upgradeDesc_zh":"可以在攻击范围内的地面使用一个仅可被自身治疗的重构体，重构体周围友方单位的攻击力+30%<@ba.talpu>（+5%）</>，重构体受到自身和Mon3tr治疗时，可额外进行一次不会衰减的治疗跳跃，且下次跳跃也不衰减",
-                                    "upgradeDesc_ja":"",
-                                    "upgradeDesc_en":""
+                                    "upgradeDesc_ja":"攻撃範囲内の地面マスに自身のみが治療可能な「再構成核」を1体配置可能。再構成核の周囲にいる味方ユニットの攻撃力+30%<@ba.talpu>（+5%）</>、再構成核が自身かMon3trによる治療を受けると、減衰と跳躍回数の消費なしで次の対象へと跳躍し、さらにその次の跳躍においても減衰しない",
+                                    "upgradeDesc_en":"Can deploy a Reconstruction on the ground within Attack Range that can only be healed by Mon3tr; the Reconstruction grants surrounding allies +30% <@ba.talpu>(+5%)</> ATK; when the Reconstruction receives healing from itself or Mon3tr, it performs an additional healing bounce that does not weaken, and the next bounce will not weaken either"
                                 }
                             ],
                             "attributeBlackboard":[
                                 {
                                     "key":"atk",
-                                    "value":65.0
+                                    "value":65.0,
+                                    "valueStr":null
                                 },
                                 {
                                     "key":"def",
-                                    "value":40.0
+                                    "value":40.0,
+                                    "valueStr":null
                                 }
                             ],
                             "tokenAttributeBlackboard":{}
@@ -229755,6 +231951,7 @@
         ],
         "blackboard":[],
         "powers":[
+            "higashi",
             "lungmen",
             "lgd"
         ],
@@ -235799,7 +237996,8 @@
                     }
                 ],
                 "tags":[
-                    "arts"
+                    "arts",
+                    "unlimited_duration"
                 ],
                 "blackboard":[]
             },
@@ -247054,6 +249252,7 @@
         ],
         "blackboard":[],
         "powers":[
+            "rhodes",
             "yan"
         ],
         "position":"MELEE",
@@ -255709,11 +257908,11 @@
         "id":"char_4214_cairn",
         "appellation":"Cairn",
         "name_zh":"响石",
-        "name_ja":"",
-        "name_en":"",
+        "name_ja":"ケルン",
+        "name_en":"Cairn",
         "desc_zh":"能够阻挡三个敌人，可以造成元素损伤",
-        "desc_ja":"",
-        "desc_en":"",
+        "desc_ja":"敵を3体までブロック\n元素損傷を与える能力を持つ",
+        "desc_en":"Blocks 3 enemies, and can inflict Elemental Injury",
         "release_time":1764903600,
         "tags":[
             "phys"
@@ -255742,38 +257941,38 @@
         "potential":[
             {
                 "desc_zh":"部署费用-1",
-                "desc_ja":"",
-                "desc_en":"",
+                "desc_ja":"配置コスト-1",
+                "desc_en":"DP Cost -1",
                 "attribute":{
                     "cost":-1.0
                 }
             },
             {
                 "desc_zh":"再部署时间-4秒",
-                "desc_ja":"",
-                "desc_en":"",
+                "desc_ja":"再配置時間-4秒",
+                "desc_en":"Redeployment Time -4 sec",
                 "attribute":{
                     "respawnTime":-4.0
                 }
             },
             {
                 "desc_zh":"攻击力+25",
-                "desc_ja":"",
-                "desc_en":"",
+                "desc_ja":"攻撃力+25",
+                "desc_en":"ATK +25",
                 "attribute":{
                     "atk":25.0
                 }
             },
             {
                 "desc_zh":"第一天赋效果增强",
-                "desc_ja":"",
-                "desc_en":"",
+                "desc_ja":"第一素質強化",
+                "desc_en":"Improves First Talent",
                 "attribute":null
             },
             {
                 "desc_zh":"部署费用-1",
-                "desc_ja":"",
-                "desc_en":"",
+                "desc_ja":"配置コスト-1",
+                "desc_en":"DP Cost -1",
                 "attribute":{
                     "cost":-1.0
                 }
@@ -255788,8 +257987,8 @@
             {
                 "skillId":"skchr_cairn_1",
                 "name_zh":"覆盖式休整",
-                "name_ja":"",
-                "name_en":"",
+                "name_ja":"ガイドのたしなみ",
+                "name_en":"Covered Consolidation",
                 "skillType":"MANUAL",
                 "durationType":"NONE",
                 "spType":"INCREASE_WITH_TIME",
@@ -255797,8 +257996,8 @@
                     {
                         "rangeId":null,
                         "description_zh":"生命上限<@ba.vup>+100%</>",
-                        "description_ja":"",
-                        "description_en":"",
+                        "description_ja":"最大HP<@ba.vup>+100%</>",
+                        "description_en":"<@ba.vup>+100%</> Max HP",
                         "spData":{
                             "spType":"INCREASE_WITH_TIME",
                             "levelUpCost":null,
@@ -255818,8 +258017,8 @@
                     {
                         "rangeId":null,
                         "description_zh":"生命上限<@ba.vup>+110%</>",
-                        "description_ja":"",
-                        "description_en":"",
+                        "description_ja":"最大HP<@ba.vup>+110%</>",
+                        "description_en":"<@ba.vup>+110%</> Max HP",
                         "spData":{
                             "spType":"INCREASE_WITH_TIME",
                             "levelUpCost":null,
@@ -255839,8 +258038,8 @@
                     {
                         "rangeId":null,
                         "description_zh":"生命上限<@ba.vup>+120%</>",
-                        "description_ja":"",
-                        "description_en":"",
+                        "description_ja":"最大HP<@ba.vup>+120%</>",
+                        "description_en":"<@ba.vup>+120%</> Max HP",
                         "spData":{
                             "spType":"INCREASE_WITH_TIME",
                             "levelUpCost":null,
@@ -255860,8 +258059,8 @@
                     {
                         "rangeId":null,
                         "description_zh":"生命上限<@ba.vup>+130%</>",
-                        "description_ja":"",
-                        "description_en":"",
+                        "description_ja":"最大HP<@ba.vup>+130%</>",
+                        "description_en":"<@ba.vup>+130%</> Max HP",
                         "spData":{
                             "spType":"INCREASE_WITH_TIME",
                             "levelUpCost":null,
@@ -255890,8 +258089,8 @@
             {
                 "skillId":"skchr_cairn_2",
                 "name_zh":"震撼型指路",
-                "name_ja":"",
-                "name_en":"",
+                "name_ja":"メガホン式ガイド",
+                "name_en":"Stunning Directives",
                 "skillType":"MANUAL",
                 "durationType":"NONE",
                 "spType":"INCREASE_WITH_TIME",
@@ -255899,8 +258098,8 @@
                     {
                         "rangeId":"x-4",
                         "description_zh":"立即获得<@ba.vup>90%</>最大生命值的<ba.barrier>屏障</>（屏障持续<@ba.vup>10</>秒，最多不超过生命上限<@ba.vup>90%</>），并使自身周围地面敌人<@ba.vup>10</>秒内每秒受到相当于攻击力<@ba.vup>60%</>的法术伤害和攻击力<@ba.vup>10%</>的<ba.dt.neural2>神经损伤</>",
-                        "description_ja":"",
-                        "description_en":"",
+                        "description_ja":"最大HPの<@ba.vup>90%</>までの被ダメージを吸収できる<$ba.barrier>バリア</>を獲得（バリアは<@ba.vup>10</>秒間持続し、効果値は最大HPの<@ba.vup>90%</>まで）し、自身の周囲8マスの地面にいる敵全員に<@ba.vup>10</>秒間毎秒攻撃力の<@ba.vup>60%</>の術ダメージと、攻撃力の<@ba.vup>10%</>の<$ba.dt.neural2>神経損傷</>を与える",
+                        "description_en":"Gains a <$ba.barrier>Barrier</> equal to <@ba.vup>90%</> of Max HP (Barrier lasts <@ba.vup>10</> seconds, cannot exceed <@ba.vup>90%</> of Max HP), and deals <@ba.vup>60%</> ATK as Arts damage and <@ba.vup>10%</> ATK as <$ba.dt.neural2>Nervous Impairment</> every second for <@ba.vup>10</> seconds to surrounding ground enemies",
                         "spData":{
                             "spType":"INCREASE_WITH_TIME",
                             "levelUpCost":null,
@@ -255936,8 +258135,8 @@
                     {
                         "rangeId":"x-4",
                         "description_zh":"立即获得<@ba.vup>90%</>最大生命值的<ba.barrier>屏障</>（屏障持续<@ba.vup>10</>秒，最多不超过生命上限<@ba.vup>90%</>），并使自身周围地面敌人<@ba.vup>10</>秒内每秒受到相当于攻击力<@ba.vup>60%</>的法术伤害和攻击力<@ba.vup>10%</>的<ba.dt.neural2>神经损伤</>",
-                        "description_ja":"",
-                        "description_en":"",
+                        "description_ja":"最大HPの<@ba.vup>90%</>までの被ダメージを吸収できる<$ba.barrier>バリア</>を獲得（バリアは<@ba.vup>10</>秒間持続し、効果値は最大HPの<@ba.vup>90%</>まで）し、自身の周囲8マスの地面にいる敵全員に<@ba.vup>10</>秒間毎秒攻撃力の<@ba.vup>60%</>の術ダメージと、攻撃力の<@ba.vup>10%</>の<$ba.dt.neural2>神経損傷</>を与える",
+                        "description_en":"Gains a <$ba.barrier>Barrier</> equal to <@ba.vup>90%</> of Max HP (Barrier lasts <@ba.vup>10</> seconds, cannot exceed <@ba.vup>90%</> of Max HP), and deals <@ba.vup>60%</> ATK as Arts damage and <@ba.vup>10%</> ATK as <$ba.dt.neural2>Nervous Impairment</> every second for <@ba.vup>10</> seconds to surrounding ground enemies",
                         "spData":{
                             "spType":"INCREASE_WITH_TIME",
                             "levelUpCost":null,
@@ -255973,8 +258172,8 @@
                     {
                         "rangeId":"x-4",
                         "description_zh":"立即获得<@ba.vup>90%</>最大生命值的<ba.barrier>屏障</>（屏障持续<@ba.vup>10</>秒，最多不超过生命上限<@ba.vup>90%</>），并使自身周围地面敌人<@ba.vup>10</>秒内每秒受到相当于攻击力<@ba.vup>70%</>的法术伤害和攻击力<@ba.vup>10%</>的<ba.dt.neural2>神经损伤</>",
-                        "description_ja":"",
-                        "description_en":"",
+                        "description_ja":"最大HPの<@ba.vup>90%</>までの被ダメージを吸収できる<$ba.barrier>バリア</>を獲得（バリアは<@ba.vup>10</>秒間持続し、効果値は最大HPの<@ba.vup>90%</>まで）し、自身の周囲8マスの地面にいる敵全員に<@ba.vup>10</>秒間毎秒攻撃力の<@ba.vup>70%</>の術ダメージと、攻撃力の<@ba.vup>10%</>の<$ba.dt.neural2>神経損傷</>を与える",
+                        "description_en":"Gains a <$ba.barrier>Barrier</> equal to <@ba.vup>90%</> of Max HP (Barrier lasts <@ba.vup>10</> seconds, cannot exceed <@ba.vup>90%</> of Max HP), and deals <@ba.vup>70%</> ATK as Arts damage and <@ba.vup>10%</> ATK as <$ba.dt.neural2>Nervous Impairment</> every second for <@ba.vup>10</> seconds to surrounding ground enemies",
                         "spData":{
                             "spType":"INCREASE_WITH_TIME",
                             "levelUpCost":null,
@@ -256010,8 +258209,8 @@
                     {
                         "rangeId":"x-4",
                         "description_zh":"立即获得<@ba.vup>90%</>最大生命值的<ba.barrier>屏障</>（屏障持续<@ba.vup>10</>秒，最多不超过生命上限<@ba.vup>90%</>），并使自身周围地面敌人<@ba.vup>10</>秒内每秒受到相当于攻击力<@ba.vup>80%</>的法术伤害和攻击力<@ba.vup>10%</>的<ba.dt.neural2>神经损伤</>",
-                        "description_ja":"",
-                        "description_en":"",
+                        "description_ja":"最大HPの<@ba.vup>90%</>までの被ダメージを吸収できる<$ba.barrier>バリア</>を獲得（バリアは<@ba.vup>10</>秒間持続し、効果値は最大HPの<@ba.vup>90%</>まで）し、自身の周囲8マスの地面にいる敵全員に<@ba.vup>10</>秒間毎秒攻撃力の<@ba.vup>80%</>の術ダメージと、攻撃力の<@ba.vup>10%</>の<$ba.dt.neural2>神経損傷</>を与える",
+                        "description_en":"Gains a <$ba.barrier>Barrier</> equal to <@ba.vup>90%</> of Max HP (Barrier lasts <@ba.vup>10</> seconds, cannot exceed <@ba.vup>90%</> of Max HP), and deals <@ba.vup>80%</> ATK as Arts damage and <@ba.vup>10%</> ATK as <$ba.dt.neural2>Nervous Impairment</> every second for <@ba.vup>10</> seconds to surrounding ground enemies",
                         "spData":{
                             "spType":"INCREASE_WITH_TIME",
                             "levelUpCost":null,
@@ -256069,11 +258268,11 @@
             {
                 "prefabKey":"1",
                 "name_zh":"过饱和讲解",
-                "name_en":"",
-                "name_ja":"",
+                "name_en":"Explanation Saturation",
+                "name_ja":"過飽和説明",
                 "desc_zh":"对自身阻挡的敌人每秒造成相当于攻击力10%<@ba.talpu>（+1%）</>的<ba.dt.neural2>神经损伤</>",
-                "desc_en":"",
-                "desc_ja":"",
+                "desc_en":"Deals 10% <@ba.talpu>(+1%)</> ATK as <$ba.dt.neural2>Nervous Impairment</> every second to enemies blocked by herself",
+                "desc_ja":"自身がブロックしている敵に1秒ごとに自身の攻撃力の10%<@ba.talpu>（+1%）</>の<$ba.dt.neural2>神経損傷</>を与える",
                 "rangeId":null,
                 "tags":[
                     "neural",

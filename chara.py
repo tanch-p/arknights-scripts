@@ -342,7 +342,12 @@ def build_talents(
     talents = []
     if not character_talents:
         return talents
-    for talent_index, talent in enumerate(character_talents):
+    filtered_talents = [
+        talent
+        for talent_index, talent in enumerate(character_talents)
+        if not any(candidate.get("isHideTalent") for candidate in talent["candidates"])
+    ]
+    for talent_index, talent in enumerate(filtered_talents):
         max_candidate_index = len(talent["candidates"]) - 1
         maxed_talent = talent["candidates"][max_candidate_index]
         if skip_none_names and maxed_talent["name"] is None:

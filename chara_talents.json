@@ -14625,11 +14625,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "开门！管理局",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "ATAO! Open Up!",
+                "name_ja": "開けろ、管理局だ！",
                 "desc_zh": "对每个敌人首次造成伤害后，使目标的特殊能力失效，持续7秒",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "敵にダメージを与えた際、敵ごとに一度だけ、攻撃対象の一部の特殊能力を7秒間無効化",
+                "desc_en": "When damaging an enemy for the first time, disables target's special abilities for 7 seconds",
                 "tags": [],
                 "blackboard": [
                     {
@@ -14650,11 +14650,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "前方施工",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Construction Ahead",
+                "name_ja": "前方工事中",
                 "desc_zh": "可以携带3个<支援装置>(最多可部署2个)，效果根据技能改变而改变",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "支援装置を使用可能（配置時に3個獲得、最大2個まで同時配置可能）、装着中のスキルによって支援装置の性能が変化",
+                "desc_en": "Can carry 3 &lt;Support Devices&gt; (deploy up to 2), with different effects depending on Skill",
                 "tags": [
                     "summon"
                 ],
@@ -14663,11 +14663,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "注意安全",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Safety First",
+                "name_ja": "注意喚起",
                 "desc_zh": "获得12%<@ba.talpu>（+2%）</><ba.protect>庇护</>；远程敌人出现后，改为使自身和场上的高台干员获得18%<@ba.talpu>（+3%）</><ba.protect>庇护</>，且每6秒获得1点技力",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "自身が12%<@ba.talpu>（+2%）</>の<$ba.protect>加護</>を獲得。遠距離攻撃を行う敵が出現すると、効果が「自身と戦場に配置されている遠距離オペレーター全員が18%<@ba.talpu>（+3%）</>の<$ba.protect>加護</>を獲得、6秒ごとにSPを1回復」に変化する",
+                "desc_en": "Gains 12% <@ba.talpu>(+2%)</> <$ba.protect>Sanctuary</>; after a ranged enemy appears, instead grants herself and all High Ground Operators 18% <@ba.talpu>(+3%)</> <$ba.protect>Sanctuary</>, and also 1 SP every 6 seconds",
                 "tags": [
                     "protect"
                 ],
@@ -14735,11 +14735,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "过饱和讲解",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Explanation Saturation",
+                "name_ja": "過飽和説明",
                 "desc_zh": "对自身阻挡的敌人每秒造成相当于攻击力10%<@ba.talpu>（+1%）</>的<ba.dt.neural2>神经损伤</>",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "自身がブロックしている敵に1秒ごとに自身の攻撃力の10%<@ba.talpu>（+1%）</>の<$ba.dt.neural2>神経損傷</>を与える",
+                "desc_en": "Deals 10% <@ba.talpu>(+1%)</> ATK as <$ba.dt.neural2>Nervous Impairment</> every second to enemies blocked by herself",
                 "tags": [
                     "neural",
                     "ele_dmg"
@@ -15404,6 +15404,84 @@
                         "value": 1
                     }
                 ]
+            }
+        ]
+    },
+    "char_4215_buddy": {
+        "appellation": "Rhodes Island Recon",
+        "talents": [
+            {
+                "prefabKey": "2",
+                "name_zh": "猫式起爆龙弹·VI",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "对前三个敌人首次进行攻击时改为使用“猫式起爆龙弹”。来自我方其他单位的伤害会将其引爆，造成罗德岛隐秘队500%攻击力的伤害和3秒晕眩，并回复1点部署费用。“猫式起爆龙弹”在被引爆后或30秒后消失",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "stun",
+                        "targets": 99,
+                        "value": 3.0,
+                        "target_air": true
+                    }
+                ]
+            }
+        ]
+    },
+    "char_1049_catap2": {
+        "appellation": "Zinogre S Catapult",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "斧模式变形",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "技能期间攻击距离延长。开启技能时施展变形斩造成伤害，同时消耗所有充能，每层使技能持续时间增加50%<@ba.talpu>（+10%）</>",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": []
+            }
+        ]
+    },
+    "char_1048_orchd2": {
+        "appellation": "Violet Mizutsune Orchid",
+        "talents": [
+            {
+                "prefabKey": "2",
+                "name_zh": "强击瓶专家",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "部署后首次开启技能时，接下来50次攻击的攻击力提升至120%<@ba.talpu>（+5%）</>",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "power_attack_count",
+                        "value": 50.0
+                    },
+                    {
+                        "key": "power_attack_scale",
+                        "value": 1.2
+                    }
+                ]
+            },
+            {
+                "prefabKey": "1",
+                "name_zh": "翔虫机动",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "再部署时间-15秒且不提高部署费用；部署至上次部署位置周围时，30秒内攻击力+15%并且可以部署在近战位",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [
+                    "position_all",
+                    "fast_redeploy"
+                ],
+                "blackboard": []
             }
         ]
     }

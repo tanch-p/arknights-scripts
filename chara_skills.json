@@ -7774,7 +7774,9 @@
             "ja": "※猫の姿で対空不可",
             "en": "※Unable to target aerial enemies when a cat."
         },
-        "tags": [],
+        "tags": [
+            "unlimited_duration"
+        ],
         "blackboard": [
             {
                 "key": "evasion",
@@ -22296,8 +22298,8 @@
         ],
         "blackboard": [
             {
-                "key": "ctt",
-                "value": 3.0
+                "key": "ct",
+                "value": 2.0
             }
         ]
     },
@@ -60822,7 +60824,9 @@
                 ]
             }
         ],
-        "tags": [],
+        "tags": [
+            "unlimited_duration"
+        ],
         "blackboard": [
             {
                 "key": "sluggish",
@@ -68183,7 +68187,8 @@
             }
         ],
         "tags": [
-            "push"
+            "push",
+            "unlimited_duration"
         ],
         "blackboard": [
             {
@@ -93420,7 +93425,9 @@
                 "rangeExtend": -1.0
             }
         ],
-        "tags": [],
+        "tags": [
+            "unlimited_duration"
+        ],
         "blackboard": [
             {
                 "key": "attack@times",
@@ -98500,7 +98507,8 @@
             }
         ],
         "tags": [
-            "global_range"
+            "global_range",
+            "unlimited_duration"
         ],
         "blackboard": []
     },
@@ -116626,7 +116634,8 @@
             }
         ],
         "tags": [
-            "arts"
+            "arts",
+            "unlimited_duration"
         ],
         "blackboard": []
     },
@@ -120423,8 +120432,8 @@
     },
     "skchr_skybx_1": {
         "name_zh": "源石火药驾临",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "源石火薬ご到着",
+        "name_en": "Gunpowder Soiree",
         "chara_list": [
             "天空盒"
         ],
@@ -120435,8 +120444,8 @@
             {
                 "rangeId": null,
                 "description_zh": "下次攻击变为投掷源石炸弹，爆炸范围<@ba.vup>扩大</>，造成相当于攻击力<@ba.vup>240%</>的物理伤害\\n<@ba.rem>可充能2次</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "次の通常攻撃時に源石爆弾を投擲し、ダメージ発生範囲が<@ba.vup>拡大</>、攻撃力の<@ba.vup>240%</>の物理ダメージを与える\n<@ba.rem>2回チャージ可能</>",
+                "description_en": "The next attack throws an Originium bomb with <@ba.vup>expanded</> AoE, dealing <@ba.vup>240%</> ATK as Physical damage\n<@ba.rem>Can store 2 charges</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -120456,8 +120465,8 @@
             {
                 "rangeId": null,
                 "description_zh": "下次攻击变为投掷源石炸弹，爆炸范围<@ba.vup>扩大</>，造成相当于攻击力<@ba.vup>260%</>的物理伤害\\n<@ba.rem>可充能2次</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "次の通常攻撃時に源石爆弾を投擲し、ダメージ発生範囲が<@ba.vup>拡大</>、攻撃力の<@ba.vup>260%</>の物理ダメージを与える\n<@ba.rem>2回チャージ可能</>",
+                "description_en": "The next attack throws an Originium bomb with <@ba.vup>expanded</> AoE, dealing <@ba.vup>260%</> ATK as Physical damage\n<@ba.rem>Can store 2 charges</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -120477,8 +120486,8 @@
             {
                 "rangeId": null,
                 "description_zh": "下次攻击变为投掷源石炸弹，爆炸范围<@ba.vup>扩大</>，造成相当于攻击力<@ba.vup>280%</>的物理伤害\\n<@ba.rem>可充能2次</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "次の通常攻撃時に源石爆弾を投擲し、ダメージ発生範囲が<@ba.vup>拡大</>、攻撃力の<@ba.vup>280%</>の物理ダメージを与える\n<@ba.rem>2回チャージ可能</>",
+                "description_en": "The next attack throws an Originium bomb with <@ba.vup>expanded</> AoE, dealing <@ba.vup>280%</> ATK as Physical damage\n<@ba.rem>Can store 2 charges</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -120498,8 +120507,8 @@
             {
                 "rangeId": null,
                 "description_zh": "下次攻击变为投掷源石炸弹，爆炸范围<@ba.vup>扩大</>，造成相当于攻击力<@ba.vup>300%</>的物理伤害\\n<@ba.rem>可充能2次</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "次の通常攻撃時に源石爆弾を投擲し、ダメージ発生範囲が<@ba.vup>拡大</>、攻撃力の<@ba.vup>300%</>の物理ダメージを与える\n<@ba.rem>2回チャージ可能</>",
+                "description_en": "The next attack throws an Originium bomb with <@ba.vup>expanded</> AoE, dealing <@ba.vup>300%</> ATK as Physical damage\n<@ba.rem>Can store 2 charges</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -120530,8 +120539,8 @@
     },
     "skchr_skybx_2": {
         "name_zh": "电磁脉冲恩宠",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "電磁パルスの洗礼",
+        "name_en": "EMP Benefaction",
         "chara_list": [
             "天空盒"
         ],
@@ -120542,8 +120551,8 @@
             {
                 "rangeId": "3-10",
                 "description_zh": "攻击范围<@ba.vup>扩大</>，攻击时攻击力提升至<@ba.vup>180%</>\\n<ba.overdrive>过载</>：主动关闭时发射剩余全部弹药攻击随机敌人\\n<@ba.rem>技能拥有<@ba.vup>10</>枚弹药，可随时主动关闭</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃範囲<@ba.vup>拡大</>、攻撃時、攻撃力が<@ba.vup>180%</>まで上昇する\n<$ba.overdrive>オーバードライブ</>：手動でスキルを停止すると残り全ての弾薬を発射し、ランダムな敵を攻撃する\n<@ba.rem>合計<@ba.vup>10</>発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+                "description_en": "Attack range <@ba.vup>expands</>; when attacking, increases ATK to <@ba.vup>180%</>\n<$ba.overdrive>Overload</>: if manually deactivated, fires all remaining ammo at random enemies within Attack Range\n<@ba.rem>Skill activation grants <@ba.vup>10</> ammo, can manually deactivate skill</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -120567,8 +120576,8 @@
             {
                 "rangeId": "3-10",
                 "description_zh": "攻击范围<@ba.vup>扩大</>，攻击时攻击力提升至<@ba.vup>200%</>\\n<ba.overdrive>过载</>：主动关闭时发射剩余全部弹药攻击随机敌人\\n<@ba.rem>技能拥有<@ba.vup>10</>枚弹药，可随时主动关闭</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃範囲<@ba.vup>拡大</>、攻撃時、攻撃力が<@ba.vup>200%</>まで上昇する\n<$ba.overdrive>オーバードライブ</>：手動でスキルを停止すると残り全ての弾薬を発射し、ランダムな敵を攻撃する\n<@ba.rem>合計<@ba.vup>10</>発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+                "description_en": "Attack range <@ba.vup>expands</>; when attacking, increases ATK to <@ba.vup>200%</>\n<$ba.overdrive>Overload</>: if manually deactivated, fires all remaining ammo at random enemies within Attack Range\n<@ba.rem>Skill activation grants <@ba.vup>10</> ammo, can manually deactivate skill</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -120592,8 +120601,8 @@
             {
                 "rangeId": "3-10",
                 "description_zh": "攻击范围<@ba.vup>扩大</>，攻击时攻击力提升至<@ba.vup>220%</>\\n<ba.overdrive>过载</>：主动关闭时发射剩余全部弹药攻击随机敌人\\n<@ba.rem>技能拥有<@ba.vup>10</>枚弹药，可随时主动关闭</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃範囲<@ba.vup>拡大</>、攻撃時、攻撃力が<@ba.vup>220%</>まで上昇する\n<$ba.overdrive>オーバードライブ</>：手動でスキルを停止すると残り全ての弾薬を発射し、ランダムな敵を攻撃する\n<@ba.rem>合計<@ba.vup>10</>発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+                "description_en": "Attack range <@ba.vup>expands</>; when attacking, increases ATK to <@ba.vup>220%</>\n<$ba.overdrive>Overload</>: if manually deactivated, fires all remaining ammo at random enemies within Attack Range\n<@ba.rem>Skill activation grants <@ba.vup>10</> ammo, can manually deactivate skill</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -120617,8 +120626,8 @@
             {
                 "rangeId": "3-10",
                 "description_zh": "攻击范围<@ba.vup>扩大</>，攻击时攻击力提升至<@ba.vup>240%</>\\n<ba.overdrive>过载</>：主动关闭时发射剩余全部弹药攻击随机敌人\\n<@ba.rem>技能拥有<@ba.vup>10</>枚弹药，可随时主动关闭</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃範囲<@ba.vup>拡大</>、攻撃時、攻撃力が<@ba.vup>240%</>まで上昇する\n<$ba.overdrive>オーバードライブ</>：手動でスキルを停止すると残り全ての弾薬を発射し、ランダムな敵を攻撃する\n<@ba.rem>合計<@ba.vup>10</>発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+                "description_en": "Attack range <@ba.vup>expands</>; when attacking, increases ATK to <@ba.vup>240%</>\n<$ba.overdrive>Overload</>: if manually deactivated, fires all remaining ammo at random enemies within Attack Range\n<@ba.rem>Skill activation grants <@ba.vup>10</> ammo, can manually deactivate skill</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -120768,8 +120777,8 @@
     },
     "skchr_cairn_1": {
         "name_zh": "覆盖式休整",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "ガイドのたしなみ",
+        "name_en": "Covered Consolidation",
         "chara_list": [
             "响石"
         ],
@@ -120780,8 +120789,8 @@
             {
                 "rangeId": null,
                 "description_zh": "生命上限<@ba.vup>+100%</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "最大HP<@ba.vup>+100%</>",
+                "description_en": "<@ba.vup>+100%</> Max HP",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -120801,8 +120810,8 @@
             {
                 "rangeId": null,
                 "description_zh": "生命上限<@ba.vup>+110%</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "最大HP<@ba.vup>+110%</>",
+                "description_en": "<@ba.vup>+110%</> Max HP",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -120822,8 +120831,8 @@
             {
                 "rangeId": null,
                 "description_zh": "生命上限<@ba.vup>+120%</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "最大HP<@ba.vup>+120%</>",
+                "description_en": "<@ba.vup>+120%</> Max HP",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -120843,8 +120852,8 @@
             {
                 "rangeId": null,
                 "description_zh": "生命上限<@ba.vup>+130%</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "最大HP<@ba.vup>+130%</>",
+                "description_en": "<@ba.vup>+130%</> Max HP",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -120872,8 +120881,8 @@
     },
     "skchr_cairn_2": {
         "name_zh": "震撼型指路",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "メガホン式ガイド",
+        "name_en": "Stunning Directives",
         "chara_list": [
             "响石"
         ],
@@ -120884,8 +120893,8 @@
             {
                 "rangeId": "x-4",
                 "description_zh": "立即获得<@ba.vup>90%</>最大生命值的<ba.barrier>屏障</>（屏障持续<@ba.vup>10</>秒，最多不超过生命上限<@ba.vup>90%</>），并使自身周围地面敌人<@ba.vup>10</>秒内每秒受到相当于攻击力<@ba.vup>60%</>的法术伤害和攻击力<@ba.vup>10%</>的<ba.dt.neural2>神经损伤</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "最大HPの<@ba.vup>90%</>までの被ダメージを吸収できる<$ba.barrier>バリア</>を獲得（バリアは<@ba.vup>10</>秒間持続し、効果値は最大HPの<@ba.vup>90%</>まで）し、自身の周囲8マスの地面にいる敵全員に<@ba.vup>10</>秒間毎秒攻撃力の<@ba.vup>60%</>の術ダメージと、攻撃力の<@ba.vup>10%</>の<$ba.dt.neural2>神経損傷</>を与える",
+                "description_en": "Gains a <$ba.barrier>Barrier</> equal to <@ba.vup>90%</> of Max HP (Barrier lasts <@ba.vup>10</> seconds, cannot exceed <@ba.vup>90%</> of Max HP), and deals <@ba.vup>60%</> ATK as Arts damage and <@ba.vup>10%</> ATK as <$ba.dt.neural2>Nervous Impairment</> every second for <@ba.vup>10</> seconds to surrounding ground enemies",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -120921,8 +120930,8 @@
             {
                 "rangeId": "x-4",
                 "description_zh": "立即获得<@ba.vup>90%</>最大生命值的<ba.barrier>屏障</>（屏障持续<@ba.vup>10</>秒，最多不超过生命上限<@ba.vup>90%</>），并使自身周围地面敌人<@ba.vup>10</>秒内每秒受到相当于攻击力<@ba.vup>60%</>的法术伤害和攻击力<@ba.vup>10%</>的<ba.dt.neural2>神经损伤</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "最大HPの<@ba.vup>90%</>までの被ダメージを吸収できる<$ba.barrier>バリア</>を獲得（バリアは<@ba.vup>10</>秒間持続し、効果値は最大HPの<@ba.vup>90%</>まで）し、自身の周囲8マスの地面にいる敵全員に<@ba.vup>10</>秒間毎秒攻撃力の<@ba.vup>60%</>の術ダメージと、攻撃力の<@ba.vup>10%</>の<$ba.dt.neural2>神経損傷</>を与える",
+                "description_en": "Gains a <$ba.barrier>Barrier</> equal to <@ba.vup>90%</> of Max HP (Barrier lasts <@ba.vup>10</> seconds, cannot exceed <@ba.vup>90%</> of Max HP), and deals <@ba.vup>60%</> ATK as Arts damage and <@ba.vup>10%</> ATK as <$ba.dt.neural2>Nervous Impairment</> every second for <@ba.vup>10</> seconds to surrounding ground enemies",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -120958,8 +120967,8 @@
             {
                 "rangeId": "x-4",
                 "description_zh": "立即获得<@ba.vup>90%</>最大生命值的<ba.barrier>屏障</>（屏障持续<@ba.vup>10</>秒，最多不超过生命上限<@ba.vup>90%</>），并使自身周围地面敌人<@ba.vup>10</>秒内每秒受到相当于攻击力<@ba.vup>70%</>的法术伤害和攻击力<@ba.vup>10%</>的<ba.dt.neural2>神经损伤</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "最大HPの<@ba.vup>90%</>までの被ダメージを吸収できる<$ba.barrier>バリア</>を獲得（バリアは<@ba.vup>10</>秒間持続し、効果値は最大HPの<@ba.vup>90%</>まで）し、自身の周囲8マスの地面にいる敵全員に<@ba.vup>10</>秒間毎秒攻撃力の<@ba.vup>70%</>の術ダメージと、攻撃力の<@ba.vup>10%</>の<$ba.dt.neural2>神経損傷</>を与える",
+                "description_en": "Gains a <$ba.barrier>Barrier</> equal to <@ba.vup>90%</> of Max HP (Barrier lasts <@ba.vup>10</> seconds, cannot exceed <@ba.vup>90%</> of Max HP), and deals <@ba.vup>70%</> ATK as Arts damage and <@ba.vup>10%</> ATK as <$ba.dt.neural2>Nervous Impairment</> every second for <@ba.vup>10</> seconds to surrounding ground enemies",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -120995,8 +121004,8 @@
             {
                 "rangeId": "x-4",
                 "description_zh": "立即获得<@ba.vup>90%</>最大生命值的<ba.barrier>屏障</>（屏障持续<@ba.vup>10</>秒，最多不超过生命上限<@ba.vup>90%</>），并使自身周围地面敌人<@ba.vup>10</>秒内每秒受到相当于攻击力<@ba.vup>80%</>的法术伤害和攻击力<@ba.vup>10%</>的<ba.dt.neural2>神经损伤</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "最大HPの<@ba.vup>90%</>までの被ダメージを吸収できる<$ba.barrier>バリア</>を獲得（バリアは<@ba.vup>10</>秒間持続し、効果値は最大HPの<@ba.vup>90%</>まで）し、自身の周囲8マスの地面にいる敵全員に<@ba.vup>10</>秒間毎秒攻撃力の<@ba.vup>80%</>の術ダメージと、攻撃力の<@ba.vup>10%</>の<$ba.dt.neural2>神経損傷</>を与える",
+                "description_en": "Gains a <$ba.barrier>Barrier</> equal to <@ba.vup>90%</> of Max HP (Barrier lasts <@ba.vup>10</> seconds, cannot exceed <@ba.vup>90%</> of Max HP), and deals <@ba.vup>80%</> ATK as Arts damage and <@ba.vup>10%</> ATK as <$ba.dt.neural2>Nervous Impairment</> every second for <@ba.vup>10</> seconds to surrounding ground enemies",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -121051,8 +121060,8 @@
     },
     "skchr_nasti_1": {
         "name_zh": "“拱卫”",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "「衛護」",
+        "name_en": "'Fortify'",
         "chara_list": [
             "娜斯提"
         ],
@@ -121063,8 +121072,8 @@
             {
                 "rangeId": null,
                 "description_zh": "携带此技能时：装置使前方干员防御力提升\\n攻击力<@ba.vup>+65%</>，防御力<@ba.vup>+65%</>，同时攻击阻挡的所有敌人；装置效果改为使前方干员阻挡数<@ba.vup>+1</>，防御力<@ba.vup>+46%</>，装置每秒流失2%最大生命值\\n<@ba.rem>技能开启时获得一个装置</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "パッシブ：装置の前方にいるオペレーターの防御力が上昇\nアクティブ：攻撃力<@ba.vup>+65%</>、防御力<@ba.vup>+65%</>、ブロック中の敵全員を同時に攻撃。さらに装置の効果が「前方にいるオペレーターのブロック数<@ba.vup>+1</>、防御力<@ba.vup>+46%」になるが、1秒ごとに装置のHPが最大値の2%減少\n<@ba.rem>スキル発動時、装置を1個獲得</>",
+                "description_en": "When this skill is equipped, Device grants the Operator in front extra DEF\n<@ba.vup>+65%</> ATK, <@ba.vup>+65%</> DEF, and simultaneously attacks all blocked enemies; Device grants <@ba.vup>+1</> Block to the Operator in front and <@ba.vup>+46%</> DEF, but devices lose 2% Max HP every second\n<@ba.rem>Gains 1 Device on skill activation</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -121092,8 +121101,8 @@
             {
                 "rangeId": null,
                 "description_zh": "携带此技能时：装置使前方干员防御力提升\\n攻击力<@ba.vup>+70%</>，防御力<@ba.vup>+70%</>，同时攻击阻挡的所有敌人；装置效果改为使前方干员阻挡数<@ba.vup>+1</>，防御力<@ba.vup>+49%</>，装置每秒流失2%最大生命值\\n<@ba.rem>技能开启时获得一个装置</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "パッシブ：装置の前方にいるオペレーターの防御力が上昇\nアクティブ：攻撃力<@ba.vup>+70%</>、防御力<@ba.vup>+70%</>、ブロック中の敵全員を同時に攻撃。さらに装置の効果が「前方にいるオペレーターのブロック数<@ba.vup>+1</>、防御力<@ba.vup>+49%」になるが、1秒ごとに装置のHPが最大値の2%減少\n<@ba.rem>スキル発動時、装置を1個獲得</>",
+                "description_en": "When this skill is equipped, Device grants the Operator in front extra DEF\n<@ba.vup>+70%</> ATK, <@ba.vup>+70%</> DEF, and simultaneously attacks all blocked enemies; Device grants <@ba.vup>+1</> Block to the Operator in front and <@ba.vup>+49%</> DEF, but devices lose 2% Max HP every second\n<@ba.rem>Gains 1 Device on skill activation</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -121121,8 +121130,8 @@
             {
                 "rangeId": null,
                 "description_zh": "携带此技能时：装置使前方干员防御力提升\\n攻击力<@ba.vup>+75%</>，防御力<@ba.vup>+75%</>，同时攻击阻挡的所有敌人；装置效果改为使前方干员阻挡数<@ba.vup>+1</>，防御力<@ba.vup>+52%</>，装置每秒流失2%最大生命值\\n<@ba.rem>技能开启时获得一个装置</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "パッシブ：装置の前方にいるオペレーターの防御力が上昇\nアクティブ：攻撃力<@ba.vup>+75%</>、防御力<@ba.vup>+75%</>、ブロック中の敵全員を同時に攻撃。さらに装置の効果が「前方にいるオペレーターのブロック数<@ba.vup>+1</>、防御力<@ba.vup>+52%」になるが、1秒ごとに装置のHPが最大値の2%減少\n<@ba.rem>スキル発動時、装置を1個獲得</>",
+                "description_en": "When this skill is equipped, Device grants the Operator in front extra DEF\n<@ba.vup>+75%</> ATK, <@ba.vup>+75%</> DEF, and simultaneously attacks all blocked enemies; Device grants <@ba.vup>+1</> Block to the Operator in front and <@ba.vup>+52%</> DEF, but devices lose 2% Max HP every second\n<@ba.rem>Gains 1 Device on skill activation</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -121150,8 +121159,8 @@
             {
                 "rangeId": null,
                 "description_zh": "携带此技能时：装置使前方干员防御力提升\\n攻击力<@ba.vup>+80%</>，防御力<@ba.vup>+80%</>，同时攻击阻挡的所有敌人；装置效果改为使前方干员阻挡数<@ba.vup>+1</>，防御力<@ba.vup>+55%</>，装置每秒流失2%最大生命值\\n<@ba.rem>技能开启时获得一个装置</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "パッシブ：装置の前方にいるオペレーターの防御力が上昇\nアクティブ：攻撃力<@ba.vup>+80%</>、防御力<@ba.vup>+80%</>、ブロック中の敵全員を同時に攻撃。さらに装置の効果が「前方にいるオペレーターのブロック数<@ba.vup>+1</>、防御力<@ba.vup>+55%」になるが、1秒ごとに装置のHPが最大値の2%減少\n<@ba.rem>スキル発動時、装置を1個獲得</>",
+                "description_en": "When this skill is equipped, Device grants the Operator in front extra DEF\n<@ba.vup>+80%</> ATK, <@ba.vup>+80%</> DEF, and simultaneously attacks all blocked enemies; Device grants <@ba.vup>+1</> Block to the Operator in front and <@ba.vup>+55%</> DEF, but devices lose 2% Max HP every second\n<@ba.rem>Gains 1 Device on skill activation</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -121198,8 +121207,8 @@
     },
     "skchr_nasti_2": {
         "name_zh": "“执行”",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "「執行」",
+        "name_en": "'Execute'",
         "chara_list": [
             "娜斯提"
         ],
@@ -121210,8 +121219,8 @@
             {
                 "rangeId": null,
                 "description_zh": "携带此技能时：装置部署后逐渐回复自身生命值，激活后每0.5秒流失1点生命值，使前方干员获得<@ba.vup>1</>点技力和相当于娜斯提生命上限<@ba.vup>4%</>的<ba.barrier>屏障</>\\n立即激活场上装置，停止攻击，每0.5秒获得相当于生命上限<@ba.vup>8%</>的<ba.barrier>屏障</>（最多不超过生命上限64%）\\n<@ba.rem>技能结束时获得一个装置</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "パッシブ：配置中の装置のHPが徐々に回復。起動後の装置が0.5秒ごとにHPを1失い、前方1マス内のオペレーターのSPを<@ba.vup>1</>回復し、ナスティの最大HPの<@ba.vup>4%</>までの被ダメージを吸収できる<$ba.barrier>バリア</>を付与\nアクティブ：攻撃しなくなり、0.5秒ごとに最大HPの<@ba.vup>8%</>までの被ダメージを吸収できるバリア（バリアの上限は最大HPの64%まで）を獲得し、配置中の装置をすべて起動する\n<@ba.rem>スキル終了時、装置を1個獲得</>",
+                "description_en": "When this skill is equipped, restores device HP over time after the device is deployed. On activation, the device loses 1 HP every 0.5 seconds, and grants the Operator in front <@ba.vup>1</> SP and a <$ba.barrier>Barrier</> equal to <@ba.vup>4%</> of Nasti's Max HP.\nImmediately activates the devices on the field. Stops attacking and gains a <$ba.barrier>Barrier</> equal to <@ba.vup>8%</> of her Max HP every 0.5 seconds. (Barrier cannot exceed 64% of Max HP)\n<@ba.rem>Gains 1 Device when skill ends</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -121247,8 +121256,8 @@
             {
                 "rangeId": null,
                 "description_zh": "携带此技能时：装置部署后逐渐回复自身生命值，激活后每0.5秒流失1点生命值，使前方干员获得<@ba.vup>1</>点技力和相当于娜斯提生命上限<@ba.vup>4%</>的<ba.barrier>屏障</>\\n立即激活场上装置，停止攻击，每0.5秒获得相当于生命上限<@ba.vup>8%</>的<ba.barrier>屏障</>（最多不超过生命上限64%）\\n<@ba.rem>技能结束时获得一个装置</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "パッシブ：配置中の装置のHPが徐々に回復。起動後の装置が0.5秒ごとにHPを1失い、前方1マス内のオペレーターのSPを<@ba.vup>1</>回復し、ナスティの最大HPの<@ba.vup>4%</>までの被ダメージを吸収できる<$ba.barrier>バリア</>を付与\nアクティブ：攻撃しなくなり、0.5秒ごとに最大HPの<@ba.vup>8%</>までの被ダメージを吸収できるバリア（バリアの上限は最大HPの64%まで）を獲得し、配置中の装置をすべて起動する\n<@ba.rem>スキル終了時、装置を1個獲得</>",
+                "description_en": "When this skill is equipped, restores device HP over time after the device is deployed. On activation, the device loses 1 HP every 0.5 seconds, and grants the Operator in front <@ba.vup>1</> SP and a <$ba.barrier>Barrier</> equal to <@ba.vup>4%</> of Nasti's Max HP.\nImmediately activates the devices on the field. Stops attacking and gains a <$ba.barrier>Barrier</> equal to <@ba.vup>8%</> of her Max HP every 0.5 seconds. (Barrier cannot exceed 64% of Max HP)\n<@ba.rem>Gains 1 Device when skill ends</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -121284,8 +121293,8 @@
             {
                 "rangeId": null,
                 "description_zh": "携带此技能时：装置部署后逐渐回复自身生命值，激活后每0.5秒流失1点生命值，使前方干员获得<@ba.vup>1</>点技力和相当于娜斯提生命上限<@ba.vup>4%</>的<ba.barrier>屏障</>\\n立即激活场上装置，停止攻击，每0.5秒获得相当于生命上限<@ba.vup>8%</>的<ba.barrier>屏障</>（最多不超过生命上限64%）\\n<@ba.rem>技能结束时获得一个装置</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "パッシブ：配置中の装置のHPが徐々に回復。起動後の装置が0.5秒ごとにHPを1失い、前方1マス内のオペレーターのSPを<@ba.vup>1</>回復し、ナスティの最大HPの<@ba.vup>4%</>までの被ダメージを吸収できる<$ba.barrier>バリア</>を付与\nアクティブ：攻撃しなくなり、0.5秒ごとに最大HPの<@ba.vup>8%</>までの被ダメージを吸収できるバリア（バリアの上限は最大HPの64%まで）を獲得し、配置中の装置をすべて起動する\n<@ba.rem>スキル終了時、装置を1個獲得</>",
+                "description_en": "When this skill is equipped, restores device HP over time after the device is deployed. On activation, the device loses 1 HP every 0.5 seconds, and grants the Operator in front <@ba.vup>1</> SP and a <$ba.barrier>Barrier</> equal to <@ba.vup>4%</> of Nasti's Max HP.\nImmediately activates the devices on the field. Stops attacking and gains a <$ba.barrier>Barrier</> equal to <@ba.vup>8%</> of her Max HP every 0.5 seconds. (Barrier cannot exceed 64% of Max HP)\n<@ba.rem>Gains 1 Device when skill ends</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -121321,8 +121330,8 @@
             {
                 "rangeId": null,
                 "description_zh": "携带此技能时：装置部署后逐渐回复自身生命值，激活后每0.5秒流失1点生命值，使前方干员获得<@ba.vup>1</>点技力和相当于娜斯提生命上限<@ba.vup>5%</>的<ba.barrier>屏障</>\\n立即激活场上装置，停止攻击，每0.5秒获得相当于生命上限<@ba.vup>10%</>的<ba.barrier>屏障</>（最多不超过生命上限80%）\\n<@ba.rem>技能结束时获得一个装置</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "パッシブ：配置中の装置のHPが徐々に回復。起動後の装置が0.5秒ごとにHPを1失い、前方1マス内のオペレーターのSPを<@ba.vup>1</>回復し、ナスティの最大HPの<@ba.vup>5%</>までの被ダメージを吸収できる<$ba.barrier>バリア</>を付与\nアクティブ：攻撃しなくなり、0.5秒ごとに最大HPの<@ba.vup>10%</>までの被ダメージを吸収できるバリア（バリアの上限は最大HPの80%まで）を獲得し、配置中の装置をすべて起動する\n<@ba.rem>スキル終了時、装置を1個獲得</>",
+                "description_en": "When this skill is equipped, restores device HP over time after the device is deployed. On activation, the device loses 1 HP every 0.5 seconds, and grants the Operator in front <@ba.vup>1</> SP and a <$ba.barrier>Barrier</> equal to <@ba.vup>5%</> of Nasti's Max HP.\nImmediately activates the devices on the field. Stops attacking and gains a <$ba.barrier>Barrier</> equal to <@ba.vup>10%</> of her Max HP every 0.5 seconds. (Barrier cannot exceed 80% of Max HP)\n<@ba.rem>Gains 1 Device when skill ends</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -121369,8 +121378,8 @@
     },
     "skchr_nasti_3": {
         "name_zh": "栖脚地",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "止まり木",
+        "name_en": "Roosting Grounds",
         "chara_list": [
             "娜斯提"
         ],
@@ -121381,8 +121390,8 @@
             {
                 "rangeId": null,
                 "description_zh": "携带此技能时：装置可建造并升级一个可以放置远程干员并为其提供增益的特殊高台\\n攻击力<@ba.vup>+130%</>，防御力<@ba.vup>+130%</>；小工程师装置为高台装置回复技力和生命的效果翻倍\\n<@ba.rem>技能开启时获得一个装置</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "パッシブ：装置は遠距離オペレーターを配置可能かつ強化可能な高台を建設・アップグレードできる\nアクティブ：攻撃力<@ba.vup>+130%</>、防御力<@ba.vup>+130%</>、エンジニア形態の装置による高台形態の装置へのSP・HP回復効果が2倍になる\n<@ba.rem>スキル発動時、装置を1個獲得</>",
+                "description_en": "When this skill is equipped, the device can build and upgrade a special high ground device to deploy Ranged Operators and provide them with a buff\n<@ba.vup>+130%</> ATK, <@ba.vup>+130%</> DEF; the little engineer's device restores double SP and HP to the special high ground.\n<@ba.rem>Gains 1 Device on skill activation</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -121406,8 +121415,8 @@
             {
                 "rangeId": null,
                 "description_zh": "携带此技能时：装置可建造并升级一个可以放置远程干员并为其提供增益的特殊高台\\n攻击力<@ba.vup>+140%</>，防御力<@ba.vup>+140%</>；小工程师装置为高台装置回复技力和生命的效果翻倍\\n<@ba.rem>技能开启时获得一个装置</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "パッシブ：装置は遠距離オペレーターを配置可能かつ強化可能な高台を建設・アップグレードできる\nアクティブ：攻撃力<@ba.vup>+140%</>、防御力<@ba.vup>+140%</>、エンジニア形態の装置による高台形態の装置へのSP・HP回復効果が2倍になる\n<@ba.rem>スキル発動時、装置を1個獲得</>",
+                "description_en": "When this skill is equipped, the device can build and upgrade a special high ground device to deploy Ranged Operators and provide them with a buff\n<@ba.vup>+140%</> ATK, <@ba.vup>+140%</> DEF; the little engineer's device restores double SP and HP to the special high ground.\n<@ba.rem>Gains 1 Device on skill activation</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -121431,8 +121440,8 @@
             {
                 "rangeId": null,
                 "description_zh": "携带此技能时：装置可建造并升级一个可以放置远程干员并为其提供增益的特殊高台\\n攻击力<@ba.vup>+150%</>，防御力<@ba.vup>+150%</>；小工程师装置为高台装置回复技力和生命的效果翻倍\\n<@ba.rem>技能开启时获得一个装置</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "パッシブ：装置は遠距離オペレーターを配置可能かつ強化可能な高台を建設・アップグレードできる\nアクティブ：攻撃力<@ba.vup>+150%</>、防御力<@ba.vup>+150%</>、エンジニア形態の装置による高台形態の装置へのSP・HP回復効果が2倍になる\n<@ba.rem>スキル発動時、装置を1個獲得</>",
+                "description_en": "When this skill is equipped, the device can build and upgrade a special high ground device to deploy Ranged Operators and provide them with a buff\n<@ba.vup>+150%</> ATK, <@ba.vup>+150%</> DEF; the little engineer's device restores double SP and HP to the special high ground.\n<@ba.rem>Gains 1 Device on skill activation</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -121456,8 +121465,8 @@
             {
                 "rangeId": null,
                 "description_zh": "携带此技能时：装置可建造并升级一个可以放置远程干员并为其提供增益的特殊高台\\n攻击力<@ba.vup>+160%</>，防御力<@ba.vup>+160%</>；小工程师装置为高台装置回复技力和生命的效果翻倍\\n<@ba.rem>技能开启时获得一个装置</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "パッシブ：装置は遠距離オペレーターを配置可能かつ強化可能な高台を建設・アップグレードできる\nアクティブ：攻撃力<@ba.vup>+160%</>、防御力<@ba.vup>+160%</>、エンジニア形態の装置による高台形態の装置へのSP・HP回復効果が2倍になる\n<@ba.rem>スキル発動時、装置を1個獲得</>",
+                "description_en": "When this skill is equipped, the device can build and upgrade a special high ground device to deploy Ranged Operators and provide them with a buff\n<@ba.vup>+160%</> ATK, <@ba.vup>+160%</> DEF; the little engineer's device restores double SP and HP to the special high ground.\n<@ba.rem>Gains 1 Device on skill activation</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -127999,6 +128008,915 @@
             {
                 "key": "base_attack_time",
                 "value": -1.55
+            }
+        ]
+    },
+    "skchr_catap2_1": {
+        "name_zh": "高压回填斩",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "雷狼龙S空爆"
+        ],
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spType": "INCREASE_WHEN_ATTACK",
+        "levels": [
+            {
+                "rangeId": "2-2",
+                "description_zh": "消耗<@ba.vdown>20</>点部署费用，攻击间隔增大(+100%)，交替使用五连击与十连击攻击阻挡的所有敌人，且每一击附带相当于攻击力<@ba.vup>26%</>的法术伤害\\n<@ba.rem>可充能5次</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WHEN_ATTACK",
+                    "levelUpCost": null,
+                    "maxChargeTime": 5,
+                    "spCost": 2,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": 4.0,
+                "blackboard": [
+                    {
+                        "key": "attack@atk_magic",
+                        "value": 0.26
+                    },
+                    {
+                        "key": "base_attack_time",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "cost",
+                        "value": 20.0
+                    },
+                    {
+                        "key": "atk_magic",
+                        "value": 0.26
+                    }
+                ]
+            },
+            {
+                "rangeId": "2-2",
+                "description_zh": "消耗<@ba.vdown>20</>点部署费用，攻击间隔增大(+100%)，交替使用五连击与十连击攻击阻挡的所有敌人，且每一击附带相当于攻击力<@ba.vup>29%</>的法术伤害\\n<@ba.rem>可充能5次</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WHEN_ATTACK",
+                    "levelUpCost": null,
+                    "maxChargeTime": 5,
+                    "spCost": 2,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": 4.0,
+                "blackboard": [
+                    {
+                        "key": "attack@atk_magic",
+                        "value": 0.29
+                    },
+                    {
+                        "key": "base_attack_time",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "cost",
+                        "value": 20.0
+                    },
+                    {
+                        "key": "atk_magic",
+                        "value": 0.29
+                    }
+                ]
+            },
+            {
+                "rangeId": "2-2",
+                "description_zh": "消耗<@ba.vdown>20</>点部署费用，攻击间隔增大(+100%)，交替使用五连击与十连击攻击阻挡的所有敌人，且每一击附带相当于攻击力<@ba.vup>32%</>的法术伤害\\n<@ba.rem>可充能5次</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WHEN_ATTACK",
+                    "levelUpCost": null,
+                    "maxChargeTime": 5,
+                    "spCost": 2,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": 4.0,
+                "blackboard": [
+                    {
+                        "key": "attack@atk_magic",
+                        "value": 0.32
+                    },
+                    {
+                        "key": "base_attack_time",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "cost",
+                        "value": 20.0
+                    },
+                    {
+                        "key": "atk_magic",
+                        "value": 0.32
+                    }
+                ]
+            },
+            {
+                "rangeId": "2-2",
+                "description_zh": "消耗<@ba.vdown>20</>点部署费用，攻击间隔增大(+100%)，交替使用五连击与十连击攻击阻挡的所有敌人，且每一击附带相当于攻击力<@ba.vup>35%</>的法术伤害\\n<@ba.rem>可充能5次</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WHEN_ATTACK",
+                    "levelUpCost": null,
+                    "maxChargeTime": 5,
+                    "spCost": 2,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": 4.0,
+                "blackboard": [
+                    {
+                        "key": "attack@atk_magic",
+                        "value": 0.35
+                    },
+                    {
+                        "key": "base_attack_time",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "cost",
+                        "value": 20.0
+                    },
+                    {
+                        "key": "atk_magic",
+                        "value": 0.35
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "arts"
+        ],
+        "blackboard": []
+    },
+    "skchr_catap2_2": {
+        "name_zh": "超高输出属性解放斩",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "雷狼龙S空爆"
+        ],
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spType": "INCREASE_WHEN_ATTACK",
+        "levels": [
+            {
+                "rangeId": "2-2",
+                "description_zh": "消耗<@ba.vdown>5</>点部署费用，攻击力和防御力<@ba.vup>+85%</>；技能期间可消耗<@ba.vdown>10</>点部署费用使用<ba.alter>装备应变</>，对前方造成一次相当于攻击力<@ba.vup>280%</>的物理伤害，且开启技能时每消耗一层充能附加一次相当于攻击力<@ba.vup>110%</>的法术伤害，之后技能立即结束\\n<@ba.rem>可充能5次</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WHEN_ATTACK",
+                    "levelUpCost": null,
+                    "maxChargeTime": 5,
+                    "spCost": 2,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": 4.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.85
+                    },
+                    {
+                        "key": "def",
+                        "value": 0.85
+                    },
+                    {
+                        "key": "cost",
+                        "value": 5.0
+                    },
+                    {
+                        "key": "attack@extra_physic_atk_scale",
+                        "value": 2.8
+                    },
+                    {
+                        "key": "attack@extra_magic_atk_scale",
+                        "value": 1.1
+                    },
+                    {
+                        "key": "retrigger_cost",
+                        "value": 10.0
+                    },
+                    {
+                        "key": "attack@atk",
+                        "value": 0.85
+                    },
+                    {
+                        "key": "attack@def",
+                        "value": 0.85
+                    }
+                ]
+            },
+            {
+                "rangeId": "2-2",
+                "description_zh": "消耗<@ba.vdown>5</>点部署费用，攻击力和防御力<@ba.vup>+90%</>；技能期间可消耗<@ba.vdown>10</>点部署费用使用<ba.alter>装备应变</>，对前方造成一次相当于攻击力<@ba.vup>300%</>的物理伤害，且开启技能时每消耗一层充能附加一次相当于攻击力<@ba.vup>120%</>的法术伤害，之后技能立即结束\\n<@ba.rem>可充能5次</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WHEN_ATTACK",
+                    "levelUpCost": null,
+                    "maxChargeTime": 5,
+                    "spCost": 2,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": 4.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.9
+                    },
+                    {
+                        "key": "def",
+                        "value": 0.9
+                    },
+                    {
+                        "key": "cost",
+                        "value": 5.0
+                    },
+                    {
+                        "key": "attack@extra_physic_atk_scale",
+                        "value": 3.0
+                    },
+                    {
+                        "key": "attack@extra_magic_atk_scale",
+                        "value": 1.2
+                    },
+                    {
+                        "key": "retrigger_cost",
+                        "value": 10.0
+                    },
+                    {
+                        "key": "attack@atk",
+                        "value": 0.9
+                    },
+                    {
+                        "key": "attack@def",
+                        "value": 0.9
+                    }
+                ]
+            },
+            {
+                "rangeId": "2-2",
+                "description_zh": "消耗<@ba.vdown>5</>点部署费用，攻击力和防御力<@ba.vup>+95%</>；技能期间可消耗<@ba.vdown>10</>点部署费用使用<ba.alter>装备应变</>，对前方造成一次相当于攻击力<@ba.vup>320%</>的物理伤害，且开启技能时每消耗一层充能附加一次相当于攻击力<@ba.vup>130%</>的法术伤害，之后技能立即结束\\n<@ba.rem>可充能5次</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WHEN_ATTACK",
+                    "levelUpCost": null,
+                    "maxChargeTime": 5,
+                    "spCost": 2,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": 4.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.95
+                    },
+                    {
+                        "key": "def",
+                        "value": 0.95
+                    },
+                    {
+                        "key": "cost",
+                        "value": 5.0
+                    },
+                    {
+                        "key": "attack@extra_physic_atk_scale",
+                        "value": 3.2
+                    },
+                    {
+                        "key": "attack@extra_magic_atk_scale",
+                        "value": 1.3
+                    },
+                    {
+                        "key": "retrigger_cost",
+                        "value": 10.0
+                    },
+                    {
+                        "key": "attack@atk",
+                        "value": 0.95
+                    },
+                    {
+                        "key": "attack@def",
+                        "value": 0.95
+                    }
+                ]
+            },
+            {
+                "rangeId": "2-2",
+                "description_zh": "消耗<@ba.vdown>5</>点部署费用，攻击力和防御力<@ba.vup>+100%</>；技能期间可消耗<@ba.vdown>10</>点部署费用使用<ba.alter>装备应变</>，对前方造成一次相当于攻击力<@ba.vup>350%</>的物理伤害，且开启技能时每消耗一层充能附加一次相当于攻击力<@ba.vup>150%</>的法术伤害，之后技能立即结束\\n<@ba.rem>可充能5次</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WHEN_ATTACK",
+                    "levelUpCost": null,
+                    "maxChargeTime": 5,
+                    "spCost": 2,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": 4.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "def",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "cost",
+                        "value": 5.0
+                    },
+                    {
+                        "key": "attack@extra_physic_atk_scale",
+                        "value": 3.5
+                    },
+                    {
+                        "key": "attack@extra_magic_atk_scale",
+                        "value": 1.5
+                    },
+                    {
+                        "key": "retrigger_cost",
+                        "value": 10.0
+                    },
+                    {
+                        "key": "attack@atk",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "attack@def",
+                        "value": 1.0
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "arts"
+        ],
+        "blackboard": [
+            {
+                "key": "atk",
+                "value": 1.0
+            },
+            {
+                "key": "def",
+                "value": 1.0
+            }
+        ]
+    },
+    "skchr_orchd2_1": {
+        "name_zh": "刚射",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "焰狐龙梓兰"
+        ],
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": null,
+                "description_zh": "发射4支攻击力<@ba.vup>120%</>的箭矢，若还有充能则额外消耗1层施展<@ba.vup>刚连射</>：发射5支攻击力<@ba.vup>160%</>的箭矢，每支箭矢有<@ba.vup>20%</>概率使目标<ba.stun>晕眩</><@ba.vup>2</>秒\\n<@ba.rem>可充能3次，充能至最大层数时自动释放一次</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 3,
+                    "spCost": 5,
+                    "initSp": 10,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale_1",
+                        "value": 1.2
+                    },
+                    {
+                        "key": "atk_scale_2",
+                        "value": 1.6
+                    },
+                    {
+                        "key": "stun_prob",
+                        "value": 0.2
+                    },
+                    {
+                        "key": "stun",
+                        "value": 2.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "发射4支攻击力<@ba.vup>130%</>的箭矢，若还有充能则额外消耗1层施展<@ba.vup>刚连射</>：发射5支攻击力<@ba.vup>180%</>的箭矢，每支箭矢有<@ba.vup>20%</>概率使目标<ba.stun>晕眩</><@ba.vup>2</>秒\\n<@ba.rem>可充能3次，充能至最大层数时自动释放一次</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 3,
+                    "spCost": 4,
+                    "initSp": 11,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale_1",
+                        "value": 1.3
+                    },
+                    {
+                        "key": "atk_scale_2",
+                        "value": 1.8
+                    },
+                    {
+                        "key": "stun_prob",
+                        "value": 0.2
+                    },
+                    {
+                        "key": "stun",
+                        "value": 2.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "发射4支攻击力<@ba.vup>145%</>的箭矢，若还有充能则额外消耗1层施展<@ba.vup>刚连射</>：发射5支攻击力<@ba.vup>180%</>的箭矢，每支箭矢有<@ba.vup>20%</>概率使目标<ba.stun>晕眩</><@ba.vup>2</>秒\\n<@ba.rem>可充能4次，充能至最大层数时自动释放一次</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 4,
+                    "spCost": 4,
+                    "initSp": 12,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale_1",
+                        "value": 1.45
+                    },
+                    {
+                        "key": "atk_scale_2",
+                        "value": 1.8
+                    },
+                    {
+                        "key": "stun_prob",
+                        "value": 0.2
+                    },
+                    {
+                        "key": "stun",
+                        "value": 2.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "发射4支攻击力<@ba.vup>160%</>的箭矢，若还有充能则额外消耗1层施展<@ba.vup>刚连射</>：发射5支攻击力<@ba.vup>200%</>的箭矢，每支箭矢有<@ba.vup>20%</>概率使目标<ba.stun>晕眩</><@ba.vup>2</>秒\\n<@ba.rem>可充能4次，充能至最大层数时自动释放一次</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 4,
+                    "spCost": 4,
+                    "initSp": 14,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale_1",
+                        "value": 1.6
+                    },
+                    {
+                        "key": "atk_scale_2",
+                        "value": 2.0
+                    },
+                    {
+                        "key": "stun_prob",
+                        "value": 0.2
+                    },
+                    {
+                        "key": "stun",
+                        "value": 2.0
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "burst",
+            "aspd_unrelated"
+        ],
+        "blackboard": [
+            {
+                "key": "stun",
+                "targets": 1,
+                "value": 2.0,
+                "prob": 0.2,
+                "target_air": true
+            }
+        ]
+    },
+    "skchr_orchd2_2": {
+        "name_zh": "飞翔瞪射",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "焰狐龙梓兰"
+        ],
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": "4-4",
+                "description_zh": "立刻<ba.liftoff>起飞</>并对前方范围的所有目标射击3次，分别射出3、4、5支攻击力提升至<@ba.vup>150%</>的箭矢；之后降落并对前方小范围内的所有敌人造成攻击力<@ba.vup>270%</>的物理伤害\\n<@ba.rem>可充能3次，部署后立即释放一次</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 3,
+                    "spCost": 20,
+                    "initSp": 14,
+                    "increment": 1.0
+                },
+                "duration": 4.2,
+                "blackboard": [
+                    {
+                        "key": "attack@atk_scale_loop",
+                        "value": 1.5
+                    },
+                    {
+                        "key": "attack@atk_scale_end",
+                        "value": 2.7
+                    },
+                    {
+                        "key": "attack@fly_height",
+                        "value": 0.4
+                    },
+                    {
+                        "key": "attack@fly_duration",
+                        "value": 0.2
+                    },
+                    {
+                        "key": "attack@fly_end_duration",
+                        "value": 0.2
+                    }
+                ]
+            },
+            {
+                "rangeId": "4-4",
+                "description_zh": "立刻<ba.liftoff>起飞</>并对前方范围的所有目标射击3次，分别射出3、4、5支攻击力提升至<@ba.vup>160%</>的箭矢；之后降落并对前方小范围内的所有敌人造成攻击力<@ba.vup>280%</>的物理伤害\\n<@ba.rem>可充能3次，部署后立即释放一次</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 3,
+                    "spCost": 20,
+                    "initSp": 15,
+                    "increment": 1.0
+                },
+                "duration": 4.2,
+                "blackboard": [
+                    {
+                        "key": "attack@atk_scale_loop",
+                        "value": 1.6
+                    },
+                    {
+                        "key": "attack@atk_scale_end",
+                        "value": 2.8
+                    },
+                    {
+                        "key": "attack@fly_height",
+                        "value": 0.4
+                    },
+                    {
+                        "key": "attack@fly_duration",
+                        "value": 0.2
+                    },
+                    {
+                        "key": "attack@fly_end_duration",
+                        "value": 0.2
+                    }
+                ]
+            },
+            {
+                "rangeId": "4-4",
+                "description_zh": "立刻<ba.liftoff>起飞</>并对前方范围的所有目标射击3次，分别射出3、4、5支攻击力提升至<@ba.vup>170%</>的箭矢；之后降落并对前方小范围内的所有敌人造成攻击力<@ba.vup>290%</>的物理伤害\\n<@ba.rem>可充能3次，部署后立即释放一次</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 3,
+                    "spCost": 20,
+                    "initSp": 16,
+                    "increment": 1.0
+                },
+                "duration": 4.2,
+                "blackboard": [
+                    {
+                        "key": "attack@atk_scale_loop",
+                        "value": 1.7
+                    },
+                    {
+                        "key": "attack@atk_scale_end",
+                        "value": 2.9
+                    },
+                    {
+                        "key": "attack@fly_height",
+                        "value": 0.4
+                    },
+                    {
+                        "key": "attack@fly_duration",
+                        "value": 0.2
+                    },
+                    {
+                        "key": "attack@fly_end_duration",
+                        "value": 0.2
+                    }
+                ]
+            },
+            {
+                "rangeId": "4-4",
+                "description_zh": "立刻<ba.liftoff>起飞</>并对前方范围的所有目标射击3次，分别射出3、4、5支攻击力提升至<@ba.vup>180%</>的箭矢；之后降落并对前方小范围内的所有敌人造成攻击力<@ba.vup>300%</>的物理伤害\\n<@ba.rem>可充能3次，部署后立即释放一次</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 3,
+                    "spCost": 20,
+                    "initSp": 17,
+                    "increment": 1.0
+                },
+                "duration": 4.2,
+                "blackboard": [
+                    {
+                        "key": "attack@atk_scale_loop",
+                        "value": 1.8
+                    },
+                    {
+                        "key": "attack@atk_scale_end",
+                        "value": 3.0
+                    },
+                    {
+                        "key": "attack@fly_height",
+                        "value": 0.4
+                    },
+                    {
+                        "key": "attack@fly_duration",
+                        "value": 0.2
+                    },
+                    {
+                        "key": "attack@fly_end_duration",
+                        "value": 0.2
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "burst",
+            "aoe",
+            "aspd_unrelated"
+        ],
+        "blackboard": [
+            {
+                "key": "liftoff",
+                "value": 0.2
+            }
+        ]
+    },
+    "skchr_orchd2_3": {
+        "name_zh": "龙之箭",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "焰狐龙梓兰"
+        ],
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": null,
+                "description_zh": "蓄力<@ba.vup>3</>秒后射出直线飞行的贯穿箭矢，箭矢以<@ba.vup>中等力度</>推动每个经过的敌人，每飞行一段距离都会对周围所有敌人造成攻击力<@ba.vup>300%</>的物理伤害和攻击力<@ba.vup>40%</>的法术伤害，箭矢射程无限\\n<@ba.rem>可充能2次</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 2,
+                    "spCost": 25,
+                    "initSp": 20,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 3.0
+                    },
+                    {
+                        "key": "atk_scale_magic",
+                        "value": 0.4
+                    },
+                    {
+                        "key": "wait_duration",
+                        "value": 3.0
+                    },
+                    {
+                        "key": "dist_interval",
+                        "value": 0.25
+                    },
+                    {
+                        "key": "max_dist",
+                        "value": 99.0
+                    },
+                    {
+                        "key": "force",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "knockback_duration",
+                        "value": 1.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "蓄力<@ba.vup>3</>秒后射出直线飞行的贯穿箭矢，箭矢以<@ba.vup>中等力度</>推动每个经过的敌人，每飞行一段距离都会对周围所有敌人造成攻击力<@ba.vup>320%</>的物理伤害和攻击力<@ba.vup>45%</>的法术伤害，箭矢射程无限\\n<@ba.rem>可充能2次</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 2,
+                    "spCost": 25,
+                    "initSp": 25,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 3.2
+                    },
+                    {
+                        "key": "atk_scale_magic",
+                        "value": 0.45
+                    },
+                    {
+                        "key": "wait_duration",
+                        "value": 3.0
+                    },
+                    {
+                        "key": "dist_interval",
+                        "value": 0.25
+                    },
+                    {
+                        "key": "max_dist",
+                        "value": 99.0
+                    },
+                    {
+                        "key": "force",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "knockback_duration",
+                        "value": 1.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "蓄力<@ba.vup>3</>秒后射出直线飞行的贯穿箭矢，箭矢以<@ba.vup>中等力度</>推动每个经过的敌人，每飞行一段距离都会对周围所有敌人造成攻击力<@ba.vup>340%</>的物理伤害和攻击力<@ba.vup>50%</>的法术伤害，箭矢射程无限\\n<@ba.rem>可充能2次</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 2,
+                    "spCost": 25,
+                    "initSp": 28,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 3.4
+                    },
+                    {
+                        "key": "atk_scale_magic",
+                        "value": 0.5
+                    },
+                    {
+                        "key": "wait_duration",
+                        "value": 3.0
+                    },
+                    {
+                        "key": "dist_interval",
+                        "value": 0.25
+                    },
+                    {
+                        "key": "max_dist",
+                        "value": 99.0
+                    },
+                    {
+                        "key": "force",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "knockback_duration",
+                        "value": 1.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "蓄力<@ba.vup>3</>秒后射出直线飞行的贯穿箭矢，箭矢以<@ba.vup>较大力度</>推动每个经过的敌人，每飞行一段距离都会对周围所有敌人造成攻击力<@ba.vup>360%</>的物理伤害和攻击力<@ba.vup>60%</>的法术伤害，箭矢射程无限\\n<@ba.rem>可充能2次</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 2,
+                    "spCost": 25,
+                    "initSp": 30,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 3.6
+                    },
+                    {
+                        "key": "atk_scale_magic",
+                        "value": 0.6
+                    },
+                    {
+                        "key": "wait_duration",
+                        "value": 3.0
+                    },
+                    {
+                        "key": "dist_interval",
+                        "value": 0.25
+                    },
+                    {
+                        "key": "max_dist",
+                        "value": 99.0
+                    },
+                    {
+                        "key": "force",
+                        "value": 2.0
+                    },
+                    {
+                        "key": "knockback_duration",
+                        "value": 1.0
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "arts",
+            "aspd_unrelated",
+            "push"
+        ],
+        "blackboard": [
+            {
+                "key": "force",
+                "value": 2.0
+            },
+            {
+                "key": "ct",
+                "value": 2.0
             }
         ]
     }
