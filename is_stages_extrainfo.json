@@ -24508,8 +24508,14 @@
 			"N18追加敌人：第一波次：认真的“阿咬”×1",
 			"其他波次：看路线模拟吧"
 		],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": [
+			"18難：最初のウェーブに<真面目な「クヒツム」>1体が追加で出現",
+			"ほかウェーブも変化あり"
+		],
+		"addInfo_en": [
+			"D18: Initial enemy wave - Additional 1 <Serious 'Bitey'> appears",
+			"Changes in other waves too"
+		],
 		"eliteDesc_zh": null,
 		"eliteDesc_ja": null,
 		"eliteDesc_en": null,
@@ -24613,8 +24619,10 @@
 		"category": null,
 		"floors": [5],
 		"addInfo_zh": ["N18追加敌人：新硎×1、恶语×6、飘香×8"],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": ["18難：＜新砥＞1体、＜悪語＞6体、＜漂香＞8体が追加で出現"],
+		"addInfo_en": [
+			"D18: Additional 1 <Sharpedge>, 6 <Profanity> and 8 <Drifting Aroma> appear"
+		],
 		"eliteDesc_zh": null,
 		"eliteDesc_ja": null,
 		"eliteDesc_en": null,
@@ -24678,8 +24686,14 @@
 		"addInfo_zh": [
 			"N18追加敌人：山海众头目×12、山海众窥魅人×6、“破坚”×8，初始额外部署7枚包围右上和右中高台的瑕"
 		],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": [
+			"18難：＜山海衆精鋭＞12体、＜山海衆霊視者＞6体、＜「破堅」＞8体が追加で出現",
+			"戦場右上と右中央の高台周囲4マスが「瑕」に囲まれた状態で開始"
+		],
+		"addInfo_en": [
+			"D18: Additional 12 <Shanhaizhong Ringleader>, 6 <Shanhaizhong Seer> and 8 <'Wallbreaker'> appear",
+			"Additional 7 Flaws are deployed on the right side of the map at the start"
+		],
 		"eliteDesc_zh": null,
 		"eliteDesc_ja": null,
 		"eliteDesc_en": null,
@@ -30633,10 +30647,12 @@
 			"N18追加敌人：提亚卡乌冠军×2、山海众连阵者×2、山海众头目×2、山海众窥魅人×3、朗姆酒推荐者×6"
 		],
 		"addInfo_ja": [
-			"【鴨爵の金幣】隠し敵が<ゴプニク>に固定され、出現が早くなる"
+			"【鴨爵の金幣】隠し敵が<ゴプニク>に固定され、出現が早くなる",
+			"18難：＜ティアカウチャンピオン＞2体、＜山海衆連陣守護者＞2体、＜山海衆精鋭＞2体、＜山海衆霊視者＞3体、＜ラム酒過激派＞6体が追加で出現"
 		],
 		"addInfo_en": [
-			"Duck Coin - bonus enemy fixed to summon Gopnik, and appears earlier"
+			"Duck Coin - bonus enemy fixed to summon Gopnik, and appears earlier",
+			"D18: Additional 2 <Tiacauh Champion>, 2 <Shanhaizhong Phalanx>, 2 <Shanhaizhong Ringleader>, 2 <Shanhaizhong Seer> and 6 <Rum Gourmet> appear"
 		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力，防御力，生命值+20%",
@@ -30795,10 +30811,12 @@
 			"N18追加敌人：寻路者突击手×8、寻路者阵地撕裂者×6"
 		],
 		"addInfo_ja": [
-			"【鴨爵の金幣】隠し敵が<マルッコ>に固定され、出現が早くなる"
+			"【鴨爵の金幣】隠し敵が<マルッコ>に固定され、出現が早くなる",
+			"18難：＜求道強襲者＞8体、＜精鋭求道ブレイカー＞6体が追加で出現"
 		],
 		"addInfo_en": [
-			"Duck Coin - bonus enemy fixed to summon Fatty, and appears earlier"
+			"Duck Coin - bonus enemy fixed to summon Fatty, and appears earlier",
+			"D18: Additional 8 <Pathfinder Veles> and 6 <Pathfinder Ballistarius Prefect> appear"
 		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力，防御力，生命值+40%",
@@ -30964,11 +30982,13 @@
 		],
 		"addInfo_ja": [
 			"【鴨爵の金幣】隠し敵が<涙目の坊や>に固定され、出現が早くなる",
-			"彫鬼は20秒ごとに<小核のデポジッター>一体を召喚する"
+			"彫鬼は20秒ごとに<小核のデポジッター>一体を召喚する",
+			"18難：＜小核のデポジッター＞10体、＜複核のヘラルド＞2体、＜似獣＞4体が追加で出現"
 		],
 		"addInfo_en": [
 			"Duck Coin - bonus enemy fixed to summon Crying Thief, and appears earlier",
-			"Statuegeist summons 1 <Exocellular Depositor> every 20s"
+			"Statuegeist summons 1 <Exocellular Depositor> every 20s",
+			"D18: Additional 10 <Exocellular Depositor>, 2 <Multicellular Herald> and 4 <Pseudomut> appear"
 		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力，防御力，生命值+20%",
@@ -31135,9 +31155,13 @@
 			"【鸭爵金币】固定出现<鸭爵>，且提早出现",
 			"N18追加敌人：寻路者术师×2、战线推进者×4、战线突破者×4、爆炸追寻者×1、压力舒缓帮手×4"
 		],
-		"addInfo_ja": ["【鴨爵の金幣】隠し敵がダック卿に固定され、出現が早くなる"],
+		"addInfo_ja": [
+			"【鴨爵の金幣】隠し敵がダック卿に固定され、出現が早くなる",
+			"18難：＜求道術師＞2体、＜戦線推進兵＞4体、＜戦線突破兵＞4体、＜爆発探求者＞1体、＜モヤモヤナクナール＞4体が追加で出現"
+		],
 		"addInfo_en": [
-			"Duck Coin - bonus enemy fixed to summon Duck Lord, and appears earlier"
+			"Duck Coin - bonus enemy fixed to summon Duck Lord, and appears earlier",
+			"D18: Additional 2 <Pathfinder Artifex>, 4 <Battleline Advance Guard>, 1 <Explosion Chaser> and 4 <Stress-Relief Helper> appear"
 		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力，防御力，生命值+30%",
@@ -31276,10 +31300,12 @@
 			"N18追加敌人：身观×4、沉沙×4、新硎×4、竞赛级沙滩车×6"
 		],
 		"addInfo_ja": [
-			"【鴨爵の金幣】隠し敵が<ゴプニク>に固定され、出現が早くなる"
+			"【鴨爵の金幣】隠し敵が<ゴプニク>に固定され、出現が早くなる",
+			"18難：＜身観＞4体、＜沈砂＞4体、＜新砥＞4体、＜レーシングサンドバギー＞6体が追加で出現"
 		],
 		"addInfo_en": [
-			"Duck Coin - bonus enemy fixed to summon Gopnik, and appears earlier"
+			"Duck Coin - bonus enemy fixed to summon Gopnik, and appears earlier",
+			"D18: Additional 4 <Introspection>, 4 <Sinkingsand>,  4 <Sharpedge> and 4 <Competitive-Grade Beach Buggy> appear"
 		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力+20%，防御力+20%，生命值+30%",
@@ -31456,10 +31482,12 @@
 			"N18追加敌人：倾轧者×5、家族恫吓者×4、重弩猎杀者×2、灰烬造物×2"
 		],
 		"addInfo_ja": [
-			"【鴨爵の金幣】隠し敵が<マルッコ>に固定され、出現が早くなる"
+			"【鴨爵の金幣】隠し敵が<マルッコ>に固定され、出現が早くなる",
+			"18難：＜凶悪ロードローラー＞5体、＜マフィアの脅迫者＞4体、＜重型クロスボウ猛襲者＞2体、＜灰燼の創造物＞2体が追加で出現"
 		],
 		"addInfo_en": [
-			"Duck Coin - bonus enemy fixed to summon Fatty, and appears earlier"
+			"Duck Coin - bonus enemy fixed to summon Fatty, and appears earlier",
+			"D18: Additional 5 <Bulldozer>, 4 <Famiglia Intimidator>, 4 <Heavy Crossbowman Hunter> and 2 <Ash Creation> appear"
 		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力+10%，防御力+20%，生命值+20%，移动速度+20%",
@@ -31583,9 +31611,13 @@
 			"【晦】属性“得意”天赋中的所有倍率失效（变为100%）",
 			"N18追加敌人：“偷闲”×4、“得意”×7、“得意”(晦)×7"
 		],
-		"addInfo_ja": ["【鴨爵の金幣】隠し敵がダック卿に固定され、出現が早くなる"],
+		"addInfo_ja": [
+			"【鴨爵の金幣】隠し敵がダック卿に固定され、出現が早くなる",
+			"18難：＜「ヤマツミ」＞4体、明晦属性の＜「オニビ」＞7体ずつが追加で出現"
+		],
 		"addInfo_en": [
-			"Duck Coin - bonus enemy fixed to summon Duck Lord, and appears earlier"
+			"Duck Coin - bonus enemy fixed to summon Duck Lord, and appears earlier",
+			"D18: Additional 4 <'Lazy'>, 7 Yang <'Smarty'> and 7 Yin <'Smarty'> appear"
 		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力+50%，防御力+20%，生命值+50%",
@@ -31740,11 +31772,13 @@
 		],
 		"addInfo_ja": [
 			"初期コスト上限が50になる",
-			"【鴨爵の金幣】隠し敵が<涙目の坊や>に固定され、出現が早くなる"
+			"【鴨爵の金幣】隠し敵が<涙目の坊や>に固定され、出現が早くなる",
+			"18難：＜サルカズ歩哨隊長＞2体、＜サルカズ呪術隊長＞4体が追加で出現"
 		],
 		"addInfo_en": [
 			"Starting Max Cost capped at 50",
-			"Duck Coin - bonus enemy fixed to summon Crying Thief, and appears earlier"
+			"Duck Coin - bonus enemy fixed to summon Crying Thief, and appears earlier",
+			"D18: Additional 2 <Sarkaz Sentinel Leader> and 4 <Sarkaz Worldcurser> appear"
 		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力，防御力，生命值+20%",
@@ -31905,11 +31939,13 @@
 		],
 		"addInfo_ja": [
 			"【鴨爵の金幣】隠し敵が<マルッコ>に固定され、出現が早くなる",
-			"彫鬼は20秒ごとに便符一体を召喚する"
+			"彫鬼は20秒ごとに便符一体を召喚する",
+			"18難：＜防塵サンドバギー＞4体、＜改良型投石機＞2体が追加で出現"
 		],
 		"addInfo_en": [
 			"Duck Coin - bonus enemy fixed to summon Fatty, and appears earlier",
-			"Statuegeist summons 1 Talisman every 20s"
+			"Statuegeist summons 1 Talisman every 20s",
+			"D18: Additional 4 <Fully-Enclosed Beach Buggy> and 2 <Refurbished Lithobolos> appear"
 		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力，防御力，生命值+20%",
@@ -32024,10 +32060,12 @@
 			"N18追加敌人：腐败之种×36、高准度伦蒂尼姆城防自行炮×7、腐败萃聚使徒×3"
 		],
 		"addInfo_ja": [
-			"【鴨爵の金幣】隠し敵が<ゴプニク>に固定され、出現が早くなる"
+			"【鴨爵の金幣】隠し敵が<ゴプニク>に固定され、出現が早くなる",
+			"18難：＜腐敗の種＞36体、＜高精度都市防衛自走砲＞7体、＜腐敗凝集使徒＞3体が追加で出現"
 		],
 		"addInfo_en": [
-			"Duck Coin - bonus enemy fixed to summon Gopnik, and appears earlier"
+			"Duck Coin - bonus enemy fixed to summon Gopnik, and appears earlier",
+			"D18: Additional 36 <Seed of Decay>, 7 <Londinium Precision Mobile Defense Artillery> and 3 <Decaying Collector Disciple> appear"
 		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力，防御力+20%，生命值+50%，重量+1",
@@ -32170,11 +32208,13 @@
 		],
 		"addInfo_ja": [
 			"【鴨爵の金幣】隠し敵が<涙目の坊や>に固定され、出現が早くなる",
-			"彫鬼は20秒ごとに便符一体を召喚する"
+			"彫鬼は20秒ごとに便符一体を召喚する",
+			"18難：「彫鬼」1体と＜殉死せし魂の聖杯＞4体が追加で出現"
 		],
 		"addInfo_en": [
 			"Duck Coin - bonus enemy fixed to summon Crying Thief, and appears earlier",
-			"Statuegeist summons 1 Talisman every 20s"
+			"Statuegeist summons 1 Talisman every 20s",
+			"D18: Additional 1 Statuegeist and 4 <Chalice of Mortality> appear"
 		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力+30%，生命值+50%",
@@ -32312,10 +32352,12 @@
 			"N18追加敌人：招财×9、无谓×20"
 		],
 		"addInfo_ja": [
-			"【鴨爵の金幣】隠し敵が<マルッコ>に固定され、出現が早くなる"
+			"【鴨爵の金幣】隠し敵が<マルッコ>に固定され、出現が早くなる",
+			"18難：＜招財＞9体、＜無謂＞20体が追加で出現"
 		],
 		"addInfo_en": [
-			"Duck Coin - bonus enemy fixed to summon Fatty, and appears earlier"
+			"Duck Coin - bonus enemy fixed to summon Fatty, and appears earlier",
+			"D18: Additional 9 <Prosperity> and 20 <Vapidity> appear"
 		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力+20%，防御力+30%，生命值+30%",
@@ -32476,10 +32518,12 @@
 			"N18追加敌人：飘香×4、平剑客×2"
 		],
 		"addInfo_ja": [
-			"【鴨爵の金幣】隠し敵が<ゴプニク>に固定され、出現が早くなる"
+			"【鴨爵の金幣】隠し敵が<ゴプニク>に固定され、出現が早くなる",
+			"18難：＜漂香＞4体、＜平剣客＞2体が追加で出現"
 		],
 		"addInfo_en": [
-			"Duck Coin - bonus enemy fixed to summon Gopnik, and appears earlier"
+			"Duck Coin - bonus enemy fixed to summon Gopnik, and appears earlier",
+			"D18: Additional 4 <Drifting Aroma> and 2 <Bottle Swordsman> appear"
 		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力+50%，防御力+30%，生命值+20%",
@@ -32657,11 +32701,13 @@
 		],
 		"addInfo_ja": [
 			"【鴨爵の金幣】隠し敵が<涙目の坊や>に固定され、出現が早くなる",
-			"彫鬼は60秒ごとに<レーシングサンドバギー>一体を召喚する"
+			"彫鬼は60秒ごとに<レーシングサンドバギー>一体を召喚する",
+			"18難：＜レーシングサンドバギー＞3体、＜マッテオの近衛兵＞3体が追加で出現"
 		],
 		"addInfo_en": [
 			"Duck Coin - bonus enemy fixed to summon Crying Thief, and appears earlier",
-			"Statuegeist summons 1 <Competitive-Grade Beach Buggy> every 60s"
+			"Statuegeist summons 1 <Competitive-Grade Beach Buggy> every 60s",
+			"D18: Additional 3 <Competitive-Grade Beach Buggy> and 3 <Mateo's Guard> appear"
 		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力+20%，防御力+20%，生命值+20%",
@@ -32783,8 +32829,12 @@
 		"category": null,
 		"floors": [5],
 		"addInfo_zh": ["N18追加敌人：第一波次：山海众连阵者×3、山海众秘使×6"],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": [
+			"18難：＜山海衆連陣守護者＞3体、＜山海衆密使＞6体が追加で出現"
+		],
+		"addInfo_en": [
+			"D18 - additional 3 <Shanhaizhong Phalanx> and 6 <Shanhaizhong Secret-Keeper> appears"
+		],
 		"eliteDesc_zh": null,
 		"eliteDesc_ja": null,
 		"eliteDesc_en": null,
@@ -32884,13 +32934,15 @@
 		"floors": [5],
 		"addInfo_zh": [
 			"战斗中期，左侧场地左下化境地块与右上化境地块各自在相邻的不可部署地块刷新1个雕伥，每10s召唤一个除秽",
-			"追加敌人：赤霞×5、新硎×4、山海众秘使×2"
+			"N18追加敌人：赤霞×5、新硎×4、山海众秘使×2"
 		],
 		"addInfo_ja": [
-			"戦闘中盤、追加で彫鬼二体が出現、10秒ごとに<除穢>を召喚する"
+			"戦闘中盤、追加で彫鬼二体が出現、10秒ごとに<除穢>を召喚する",
+			"18難：＜赤霞＞5体、＜新砥＞4体、＜山海衆密使＞2体が追加で出現"
 		],
 		"addInfo_en": [
-			"Halfway through the battle, additional 2 Statuegeist appear, summons <Expelled Filth> every 10s"
+			"Halfway through the battle, additional 2 Statuegeist appear, summons <Expelled Filth> every 10s",
+			"D18: Additional 5 <Scarletmist>, 5 <Sharpedge> and 4 <Shanhaizhong Secret-Keeper> appear"
 		],
 		"eliteDesc_zh": null,
 		"eliteDesc_ja": null,
@@ -32966,8 +33018,14 @@
 			"N18追加敌人：“碎壁”×12、“越长尘”×3、山海众秘使×12",
 			"N16及以上时，后兽召唤：山海众秘使x10，无羁的“盛怒”x4，似兽x8"
 		],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": [
+			"18難：＜「砕壁」＞12体、＜「長塵」＞3体、＜山海衆密使＞12体が追加で出現",
+			"16難以上：後獣が召喚する敵が変化する＜「山海衆密使」＞10体、＜「奔放な「シンイ」＞4体、＜似獣＞8体"
+		],
+		"addInfo_en": [
+			"D18 - additional 12 <'Fortbreaker'>, 3 <'Sand Voyager'> and 12 <Shanhaizhong Secret-Keeper> appears",
+			"D16: Bestial Hou summons different enemies - 10 <Shanhaizhong Secret-Keeper>, 4 <Unbridled 'Fury'> and 8 <Pseudomut>"
+		],
 		"eliteDesc_zh": null,
 		"eliteDesc_ja": null,
 		"eliteDesc_en": null,
@@ -34075,8 +34133,14 @@
 		"category": null,
 		"floors": [6],
 		"addInfo_zh": ["雕伥每50s召唤一个“越长尘”", "N18追加敌人：山海众秘使×1"],
-		"addInfo_ja": ["彫鬼は50秒ごとに<「長塵」>一体を召喚する"],
-		"addInfo_en": ["Statuegeist summons 1 'Sand Voyager' every 50s"],
+		"addInfo_ja": [
+			"彫鬼は50秒ごとに<「長塵」>一体を召喚する",
+			"18難：＜山海衆密使＞1体が追加で出現"
+		],
+		"addInfo_en": [
+			"Statuegeist summons 1 'Sand Voyager' every 50s",
+			"D18: Additional 1 <Shanhaizhong Secret-Keeper> appear"
+		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力+30%，防御力+30%，生命值+50%",
 			"躁怒谛兽替换为心涛",
@@ -34271,8 +34335,12 @@
 		"category": null,
 		"floors": [6],
 		"addInfo_zh": ["N18追加敌人：“饱食”×6、飘香×6、招财×3、无谓×30"],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": [
+			"18難：＜「飽食」＞6体、＜漂香＞6体、＜招財＞3体、＜無謂＞30体が追加で出現"
+		],
+		"addInfo_en": [
+			"D18 - additional 6 <'Bloated'>, 6 <Drifting Aroma>, 3 <Prosperity> and 30 <Vapidity> appears"
+		],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力+20%，防御力+20%，生命值+20%",
 			"初始左下侵入点右侧三格额外刷新3个“废食”"
@@ -35688,8 +35756,8 @@
 		"category": null,
 		"floors": [3, 4, 5],
 		"addInfo_zh": ["N18追加敌人：“碎壁”×7"],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": ["18難：＜「砕壁」＞7体が追加で初期配置される"],
+		"addInfo_en": ["D18 - additional 7 <'Fortbreaker'> appear at the start"],
 		"eliteDesc_zh": null,
 		"eliteDesc_ja": null,
 		"eliteDesc_en": null,
@@ -35745,9 +35813,24 @@
 		"name_en": null,
 		"category": null,
 		"floors": [6, 7],
-		"addInfo_zh": ["敛傲与愠怒的生命值额外提升至150%","身形/身形sp受到伤害时反弹伤害量10%的真实伤害","玩家持有【不赦】时，身形sp每30s召唤一次敌人","N18追加敌人：桓君、昭烈君、文衡君"],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_zh": [
+			"敛傲与愠怒的生命值额外提升至150%",
+			"身形/身形sp受到伤害时反弹伤害量10%的真实伤害",
+			"玩家持有【不赦】时，身形sp每30s召唤一次敌人",
+			"N18追加敌人：桓君、昭烈君、文衡君"
+		],
+		"addInfo_ja": [
+			"＜抑傲＞と＜憤怒＞の最大HP+50%",
+			"＜身形＞が攻撃を受けた時、そのダメージ源に対して受けたダメージの10%の確定ダメージを与える",
+			"秘宝「不赦」所持時、＜身形＞が30秒ごとに追加の敵を召喚する",
+			"18難：＜昭烈君＞1体、＜文衡君＞1体、＜桓君＞1体が追加で初期配置される"
+		],
+		"addInfo_en": [
+			"<Restrained Pride> and <Fumes of Anger> have +50% Max HP",
+			"<Body> reflect 10% of the damage received to attacker as True damage",
+			"When possessing the relic <Merciless>, special <Body> summons additional enemies every 30s",
+			"D18 - additional 1 <Lord Zhaolie>, 1 <Lord Wenheng> and 1 <Lord Huan> appear at the start"
+		],
 		"eliteDesc_zh": null,
 		"eliteDesc_ja": null,
 		"eliteDesc_en": null,
@@ -35887,9 +35970,24 @@
 		"name_en": null,
 		"category": null,
 		"floors": [6, 7],
-		"addInfo_zh": ["敛傲与愠怒的生命值额外提升至150%","身形/身形sp受到伤害时反弹伤害量10%的真实伤害","玩家持有【不赦】时，身形sp每30s召唤一次敌人","N18追加敌人：桓君、昭烈君、文衡君"],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_zh": [
+			"敛傲与愠怒的生命值额外提升至150%",
+			"身形/身形sp受到伤害时反弹伤害量10%的真实伤害",
+			"玩家持有【不赦】时，身形sp每30s召唤一次敌人",
+			"N18追加敌人：桓君、昭烈君、文衡君"
+		],
+		"addInfo_ja": [
+			"＜抑傲＞と＜憤怒＞の最大HP+50%",
+			"＜身形＞が攻撃を受けた時、そのダメージ源に対して受けたダメージの10%の確定ダメージを与える",
+			"秘宝「不赦」所持時、＜身形＞が30秒ごとに追加の敵を召喚する",
+			"18難：＜昭烈君＞1体、＜文衡君＞1体、＜桓君＞1体が追加で初期配置される"
+		],
+		"addInfo_en": [
+			"<Restrained Pride> and <Fumes of Anger> have +50% Max HP",
+			"<Body> reflect 10% of the damage received to attacker as True damage",
+			"When possessing the relic <Merciless>, special <Body> summons additional enemies every 30s",
+			"D18 - additional 1 <Lord Zhaolie>, 1 <Lord Wenheng> and 1 <Lord Huan> appear at the start"
+		],
 		"eliteDesc_zh": null,
 		"eliteDesc_ja": null,
 		"eliteDesc_en": null,
@@ -36034,9 +36132,24 @@
 		"name_en": null,
 		"category": null,
 		"floors": [6, 7],
-		"addInfo_zh": ["敛傲与愠怒的生命值额外提升至150%","身形/身形sp受到伤害时反弹伤害量10%的真实伤害","玩家持有【不赦】时，身形sp每30s召唤一次敌人","N18追加敌人：桓君、昭烈君、文衡君"],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_zh": [
+			"敛傲与愠怒的生命值额外提升至150%",
+			"身形/身形sp受到伤害时反弹伤害量10%的真实伤害",
+			"玩家持有【不赦】时，身形sp每30s召唤一次敌人",
+			"N18追加敌人：桓君、昭烈君、文衡君"
+		],
+		"addInfo_ja": [
+			"＜抑傲＞と＜憤怒＞の最大HP+50%",
+			"＜身形＞が攻撃を受けた時、そのダメージ源に対して受けたダメージの10%の確定ダメージを与える",
+			"秘宝「不赦」所持時、＜身形＞が30秒ごとに追加の敵を召喚する",
+			"18難：＜昭烈君＞1体、＜文衡君＞1体、＜桓君＞1体が追加で初期配置される"
+		],
+		"addInfo_en": [
+			"<Restrained Pride> and <Fumes of Anger> have +50% Max HP",
+			"<Body> reflect 10% of the damage received to attacker as True damage",
+			"When possessing the relic <Merciless>, special <Body> summons additional enemies every 30s",
+			"D18 - additional 1 <Lord Zhaolie>, 1 <Lord Wenheng> and 1 <Lord Huan> appear at the start"
+		],
 		"eliteDesc_zh": null,
 		"eliteDesc_ja": null,
 		"eliteDesc_en": null,
@@ -36176,9 +36289,26 @@
 		"name_en": null,
 		"category": null,
 		"floors": [6, 7],
-		"addInfo_zh": ["敛傲与愠怒的生命值额外提升至150%","身形/身形sp受到伤害时反弹伤害量10%的真实伤害","玩家持有【不赦】时，身形sp每30s召唤一次敌人","雕伥(左上，右下)每20s召唤一个狂暴凶豕兽","其他雕伥每10s召唤一个利齿鬣犄兽","N18追加敌人：桓君、昭烈君、文衡君"],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_zh": [
+			"敛傲与愠怒的生命值额外提升至150%",
+			"身形/身形sp受到伤害时反弹伤害量10%的真实伤害",
+			"玩家持有【不赦】时，身形sp每30s召唤一次敌人",
+			"雕伥(左上，右下)每20s召唤一个狂暴凶豕兽",
+			"其他雕伥每10s召唤一个利齿鬣犄兽",
+			"N18追加敌人：桓君、昭烈君、文衡君"
+		],
+		"addInfo_ja": [
+			"＜抑傲＞と＜憤怒＞の最大HP+50%",
+			"＜身形＞が攻撃を受けた時、そのダメージ源に対して受けたダメージの10%の確定ダメージを与える",
+			"秘宝「不赦」所持時、＜身形＞が30秒ごとに追加の敵を召喚する",
+			"18難：＜昭烈君＞1体、＜文衡君＞1体、＜桓君＞1体が追加で初期配置される"
+		],
+		"addInfo_en": [
+			"<Restrained Pride> and <Fumes of Anger> have +50% Max HP",
+			"<Body> reflect 10% of the damage received to attacker as True damage",
+			"When possessing the relic <Merciless>, special <Body> summons additional enemies every 30s",
+			"D18 - additional 1 <Lord Zhaolie>, 1 <Lord Wenheng> and 1 <Lord Huan> appear at the start"
+		],
 		"eliteDesc_zh": null,
 		"eliteDesc_ja": null,
 		"eliteDesc_en": null,
@@ -36204,7 +36334,12 @@
 				]
 			},
 			{
-				"targets": ["trap_222_rgdysm#2","trap_222_rgdysm#3","trap_222_rgdysm#4","trap_222_rgdysm#5"],
+				"targets": [
+					"trap_222_rgdysm#2",
+					"trap_222_rgdysm#3",
+					"trap_222_rgdysm#4",
+					"trap_222_rgdysm#5"
+				],
 				"special": {
 					"rgdysm_summon": {
 						"interval": 10.0,
@@ -36213,7 +36348,7 @@
 				}
 			},
 			{
-				"targets": ["trap_222_rgdysm#1","trap_222_rgdysm#6"],
+				"targets": ["trap_222_rgdysm#1", "trap_222_rgdysm#6"],
 				"special": {
 					"rgdysm_summon": {
 						"interval": 20.0,
@@ -36339,8 +36474,22 @@
 			"朔壳与妄躯的周期技能冷却时间降低至80%",
 			"N18追加敌人：桓君、昭烈君、文衡君"
 		],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": [
+			"敵全員の攻撃力+20%、防御力+20%、最大HP+20%",
+			"＜抑傲＞と＜憤怒＞の最大HP+50%",
+			"＜身形＞が攻撃を受けた時、そのダメージ源に対して受けたダメージの20%の確定ダメージを与える",
+			"秘宝「不赦」所持時、＜身形＞が8秒ごとに追加の敵を召喚する",
+			"＜朔殻＞と＜妄躯＞のスキル発動頻度が増加(必要SP-20%)",
+			"18難：＜昭烈君＞1体、＜文衡君＞1体、＜桓君＞1体が追加で初期配置される"
+		],
+		"addInfo_en": [
+			"All enemy units have +20% ATK, +20% DEF and +20% Max HP",
+			"<Restrained Pride> and <Fumes of Anger> have +50% Max HP",
+			"<Body> reflect 20% of the damage received to attacker as True damage",
+			"When possessing the relic <Merciless>, special <Body> summons additional enemies every 8s",
+			"Skill cooldowns of <Vessel of Shuo> and <Arrogance Embodied> are reduced by 20%",
+			"D18 - additional 1 <Lord Zhaolie>, 1 <Lord Wenheng> and 1 <Lord Huan> appear at the start"
+		],
 		"eliteDesc_zh": null,
 		"eliteDesc_ja": null,
 		"eliteDesc_en": null,
@@ -36470,8 +36619,14 @@
 			"【晦】属性恍惚的“得意”天赋中的所有倍率失效（变为100%）",
 			"N18追加敌人：恍惚的“得意”×12、恍惚的“得意”(晦)×12、山海众司魅人×5、不动的“偷闲”×3、“盛怒”×6"
 		],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": [
+			"秘宝「不赦」所持時、＜身形＞が45秒ごとに追加の敵を召喚する",
+			"18難：＜不動の「ヤマツミ」＞3体、＜恍惚の「オニビ」＞24体、＜「シンイ」＞6体、＜山海衆怪術師＞5体が追加で出現"
+		],
+		"addInfo_en": [
+			"When possessing the relic <Merciless>, special <Body> summons additional enemies every 45s",
+			"D18 - additional 3 <Unmoving 'Lazy'>, 24 <Dazzled 'Smarty'>, 6 'Fury'> and 5 <Shanhaizhong Oracle> appear"
+		],
 		"eliteDesc_zh": null,
 		"eliteDesc_ja": null,
 		"eliteDesc_en": null,
@@ -36560,8 +36715,22 @@
 			"朔壳与妄躯技能的周期冷却降低至80%",
 			"N18追加敌人：“碎壁”×6"
 		],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": [
+			"敵全員の攻撃力+20%、防御力+20%、最大HP+20%",
+			"＜抑傲＞と＜憤怒＞の最大HP+50%",
+			"＜身形＞が攻撃を受けた時、そのダメージ源に対して受けたダメージの20%の確定ダメージを与える",
+			"秘宝「不赦」所持時、＜身形＞が45秒ごとに追加の敵を召喚する",
+			"＜朔殻＞と＜妄躯＞のスキル発動頻度が増加(必要SP-20%)",
+			"18難：＜「砕壁」＞6体が追加で初期配置される"
+		],
+		"addInfo_en": [
+			"All enemy units have +20% ATK, +20% DEF and +20% Max HP",
+			"<Restrained Pride> and <Fumes of Anger> have +50% Max HP",
+			"<Body> reflect 20% of the damage received to attacker as True damage",
+			"When possessing the relic <Merciless>, special <Body> summons additional enemies every 45s",
+			"Skill cooldowns of <Vessel of Shuo> and <Arrogance Embodied> are reduced by 20%",
+			"D18 - additional 6 <'Fortbreaker'> appear at the start"
+		],
 		"eliteDesc_zh": null,
 		"eliteDesc_ja": null,
 		"eliteDesc_en": null,
@@ -36993,8 +37162,8 @@
 		"category": null,
 		"floors": [4],
 		"addInfo_zh": ["N18追加敌人：压力归零帮手×5"],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": ["18難：＜イライラナクナール＞5体が追加で出現"],
+		"addInfo_en": ["D18 - additional 5 <Zero-Stress Helper> appear"],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力+20%，防御力+50%，生命值+20%",
 			"水遁宗师获得隐匿"
@@ -37109,19 +37278,19 @@
 		"category": null,
 		"floors": [5],
 		"addInfo_zh": ["N18追加敌人：游击队传令兵组长×5、皮书生×10"],
-		"addInfo_ja": null,
-		"addInfo_en": null,
+		"addInfo_ja": ["18難：＜遊撃隊伝令隊長＞5体、＜皮書生＞10体が追加で出現"],
+		"addInfo_en": ["D18 - additional 5 <Zero-Stress Helper> appear"],
 		"eliteDesc_zh": [
 			"所有敌方单位的攻击力+20%，防御力+20%，生命值+20%",
-			"狂躁异质裂兽获得额外防御力+50%，生命值+50%，路线由经中央区域进入右上保护目标点变为经中间区域绕左上一圈进入左下保护目标点"
+			"狂躁异质裂兽获得额外防御力+50%，生命值+50%，路线由经中央区域进入右上保护目标点"
 		],
 		"eliteDesc_ja": [
 			"敵全員の攻撃力+20%、防御力+20%、最大HP+20%",
-			"<狂躁异质裂兽>がさらに防御力+50%、最大HP+50%"
+			"<狂乱の変質裂獣>がさらに防御力+50%、最大HP+50%、戦場右上の防衛ラインを目指す進行ルートに変更"
 		],
 		"eliteDesc_en": [
 			"All enemy units have +20% ATK, +20% DEF, +20% Max HP",
-			"<Boss Bear> gains an additional +50% DEF, +50% Max HP"
+			"<Rampaging Abnormal Manglerbeast> gains an additional +50% DEF, +50% Max HP, movement route changes to enter the top right Protection Objective"
 		],
 		"all_mods": [
 			{
