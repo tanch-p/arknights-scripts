@@ -9388,10 +9388,6 @@
                 ],
                 "blackboard": [
                     {
-                        "key": "prob",
-                        "value": 0.3
-                    },
-                    {
                         "key": "atk_down",
                         "order": "initial_mul",
                         "targets": 1,
@@ -9410,18 +9406,6 @@
                         "category": [
                             "magicfragile"
                         ]
-                    },
-                    {
-                        "key": "duration",
-                        "value": 6.0
-                    },
-                    {
-                        "key": "talent@atk",
-                        "value": -0.22
-                    },
-                    {
-                        "key": "talent@damage_scale",
-                        "value": 1.32
                     }
                 ]
             },
@@ -14764,11 +14748,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "永志不忘",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Never Forgotten",
+                "name_ja": "忘れ得ぬ志",
                 "desc_zh": "在场时，所有【米诺斯】干员攻击生命比例不高于自身的敌人时攻击力提升至112%<@ba.talpu>（+2%）</>",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "配置中、味方【ミノス】が残りHP割合が自身以下の敵を攻撃する際、攻撃力が112%<@ba.talpu>（+2%）</>まで上昇",
+                "desc_en": "When deployed, all [Minos] Operators have their ATK increased to 112% <@ba.talpu>(+2%)</> when attacking enemies with an HP percentage equal to or lower than their own",
                 "tags": [
                     "minos"
                 ],
@@ -14790,11 +14774,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "百里香",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Leaf of Thyme",
+                "name_ja": "タイムの香り",
                 "desc_zh": "使攻击范围内除自身外当前生命比例小于等于自身的友军获得16%<@ba.talpu>（+2%）</>的<ba.protect>庇护</>",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "攻撃範囲内にいる自身以外の、残りHP割合が自身以下の味方に16%<@ba.talpu>（+2%）</>の<$ba.protect>加護</>状態を付与",
+                "desc_en": "Other allies within Attack Range with current HP percentage less than or equal to Perfumer the Distilled's gain 16% <@ba.talpu>(+2%)</> <$ba.protect>Sanctuary</>",
                 "tags": [
                     "protect"
                 ],
@@ -14823,11 +14807,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "凝固的时光",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Frozen in Time",
+                "name_ja": "止まった時の中",
                 "desc_zh": "自身可以攻击<ba.sleep>沉睡</>的敌人，且攻击非移动敌人时对其额外造成相当于攻击力16%<@ba.talpu>（+1%）</>的法术伤害，在场时<ba.sleep>沉睡</>中的敌人每秒受到缇缇攻击力32%<@ba.talpu>（+2%）</>的法术伤害",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "<$ba.sleep>睡眠</>状態の敵を攻撃できる。移動していない敵を攻撃する場合、追加で対象に攻撃力の16%<@ba.talpu>（+1%）</>の術ダメージを与える。配置中、<$ba.sleep>睡眠</>状態の敵に毎秒ティティの攻撃力の32%<@ba.talpu>（+2%）</>の術ダメージを与える",
+                "desc_en": "Can attack <$ba.sleep>Sleeping</> enemies, and when attacking stationary enemies, deals an additional 16% <@ba.talpu>(+1%)</> ATK as Arts damage; when deployed, <$ba.sleep>Sleeping</> enemies receive 32% <@ba.talpu>(+2%)</> of Titi's ATK as Arts damage per second",
                 "tags": [
                     "type_sleep",
                     "type_not_moving",
@@ -14839,11 +14823,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "勇气的报偿",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Courage's Reward",
+                "name_ja": "勇者への恩賞",
                 "desc_zh": "场上的【米诺斯】或【萨尔贡】干员生命值高于50%时，获得+22<@ba.talpu>（+2）</>攻速的<ba.strong>精力充沛</>",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "配置中、味方【ミノス】・【サルゴン】にHPが最大値の50%以上で攻撃速度+22<@ba.talpu>（+2）</>の<$ba.strong>勇猛</>状態を付与",
+                "desc_en": "Deployed [Minos] and [Sargon] Operators gain <$ba.strong>Vigor</> effect of +22 <@ba.talpu>(+2)</> ASPD when HP is above 50%",
                 "tags": [
                     "minos",
                     "sargon",
@@ -14869,11 +14853,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "定风絮",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Anchor Dandelion",
+                "name_ja": "風絮の安着",
                 "desc_zh": "攻击范围内飞行的友方单位获得12%<@ba.talpu>（+2%）</>的<ba.protect>庇护</>，阻挡数+1",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "攻撃範囲内の味方飛行ユニットは12%<@ba.talpu>（+2%）</>の<$ba.protect>加護</>を獲得し、ブロック数+1",
+                "desc_en": "Flying allies within Attack Range gain 12% <@ba.talpu>(+2%)</> <$ba.protect>Sanctuary</>, Block +1",
                 "tags": [
                     "protect"
                 ],
@@ -14910,11 +14894,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "墨守",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Dogmatist",
+                "name_ja": "墨守",
                 "desc_zh": "造成致命伤害时使敌人保留1点生命并使其<ba.dying>重伤</>（击杀者技力+2）；矩不攻击<ba.dying>重伤</>单位",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "敵に致命的なダメージを与えた時、対象のHPを1残し、<$ba.dying>重傷</>（倒すとSPが2回復）を付与する。自身は<$ba.dying>重傷</>状態の敵を攻撃しない",
+                "desc_en": "When dealing lethal damage, leaves the enemy with 1 HP and inflicts <$ba.dying>Critically Wounded</> (gives +2 SP to the attacker when killed); Ju will not attack <$ba.dying>Critically Wounded</> targets",
                 "tags": [
                     "crit_wound"
                 ],
@@ -14928,11 +14912,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "铸子",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Mold Stones",
+                "name_ja": "入局",
                 "desc_zh": "可以使用7<@ba.talpu>（+1）</>枚棋子（最多拥有8<@ba.talpu>（+1）</>枚），棋子相连时相互激活，敌人进入激活的棋子所在地块时触发其效果；手动部署棋子时，望在相邻位置额外部署一枚棋子（最多10<@ba.talpu>（+1）</>枚，可以且优先部署在有敌人的不可部署地块）",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "罠「碁石」を使用可能（配置時に7<@ba.talpu>（+1）</>個獲得、所持上限8<@ba.talpu>（+1）</>個）、碁石が隣接すると互いを起動させ、敵が起動済みの碁石のマスに入ると効果が発動。手動で碁石を配置する際、隣接マスに自動で碁石が1個配置される（最大10<@ba.talpu>（+1）</>個まで。敵がいるマス、配置不可のマスも配置対象となり、かつそれらのマスを優先して配置される）",
+                "desc_en": "Can deploy up to 7 <@ba.talpu>(+1)</> weiqi stones (can hold up to 8 <@ba.talpu>(+1)</>); stones link together and activate each other; enemies that enter a tile with an active stone will trigger its effects; when manually deploying a stone, Wang will deploy an additional stone on a tile next to it (at most 10 <@ba.talpu>(+1)</> stones, prioritize deploying on undeployable tiles with enemies)",
                 "tags": [
                     "summon"
                 ],
@@ -14941,11 +14925,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "料敌机先",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "Every Move Anticipated",
+                "name_ja": "機先を制す",
                 "desc_zh": "棋子激活时所在的连续直线上每有一枚棋子，直线上所有棋子造成伤害提升12%<@ba.talpu>（+2%）</>并无视敌人10<@ba.talpu>（+1）</>点法术抗性（最多叠加3次）",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "連続して一直線に配置された碁石が起動時、連続している碁石1個につき、それらの碁石全ての与ダメージ+12%<@ba.talpu>（+2%）</>、敵の術耐性を10<@ba.talpu>（+1）</>無視（最大3回まで重複可能）",
+                "desc_en": "When a stone is activated, for every stone in the same straight chain, all stones within that chain deal an additional 12% <@ba.talpu>(+2%)</> damage and ignore 10 <@ba.talpu>(+1)</> RES (stacks up to 3 times)",
                 "tags": [],
                 "blackboard": [
                     {
@@ -14966,11 +14950,11 @@
             {
                 "prefabKey": "1",
                 "name_zh": "形意洞照",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "All-Seeing Eye",
+                "name_ja": "形意洞察",
                 "desc_zh": "攻击力+16%<@ba.talpu>（+3%）</>，攻击速度+16<@ba.talpu>（+3）</>，攻击变为<ba.weaknessatk>弱点伤害</>",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "攻撃力+16%<@ba.talpu>（+3%）</>、攻撃速度+16<@ba.talpu>（+3）</>、攻撃が<$ba.weaknessatk>弱点ダメージ</>を与えるようになる",
+                "desc_en": "ATK +16% <@ba.talpu>(+3%)</>, ASPD +16 <@ba.talpu>(+3)</>, and attacks deal <$ba.weaknessatk>Weakness damage</>",
                 "tags": [
                     "weaknessatk"
                 ],
@@ -14984,11 +14968,11 @@
             {
                 "prefabKey": "2",
                 "name_zh": "寒暑觉知",
-                "name_en": "",
-                "name_ja": "",
+                "name_en": "To Know Time's Flow",
+                "name_ja": "寒暑覚知",
                 "desc_zh": "未受到伤害时，每7秒随机治疗自身一定（攻击力的35%<@ba.talpu>（+5%）</>~165%<@ba.talpu>（+5%）</>）生命值，并闪避下次物理与法术攻击",
-                "desc_ja": "",
-                "desc_en": "",
+                "desc_ja": "ダメージを受けていない間、7秒ごとに自身のHPをランダムに（攻撃力の35%<@ba.talpu>（+5%）</>～165%<@ba.talpu>（+5%）</>）回復し、次に受ける物理・術攻撃を回避できるようになる",
+                "desc_en": "When not taking damage, every 7s restores a random amount of HP equal to 35% <@ba.talpu>(+5%)</> to 165% <@ba.talpu>(+5%)</> of ATK and dodges the next Physical or Arts attack received",
                 "tags": [
                     "heal_self"
                 ],
@@ -15482,6 +15466,92 @@
                     "fast_redeploy"
                 ],
                 "blackboard": []
+            }
+        ]
+    },
+    "char_4234_pedro": {
+        "appellation": "Pedro",
+        "talents": [
+            {
+                "prefabKey": "0",
+                "name_zh": "掩护战术",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "攻击范围内至少有2名其他干员时，自身攻击力+12%<@ba.talpu>（+2%）</>",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                ]
+            }
+        ]
+    },
+    "char_4229_aphris": {
+        "appellation": "Aphrissa",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "链路协议",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "可以使用一个持续时间25秒的“中继器”，能改变自身的攻击方向，且使该次攻击距离+2；“中继器”在场时，自身攻击力+25%",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": ["summon"],
+                "blackboard": [
+                ]
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "取样优化",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "攻击范围内的友方干员攻击时无视敌方13<@ba.talpu>（+3）</>点法术抗性",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": [],
+                "blackboard": [
+                    {
+                        "key": "res_penetrate",
+                        "value": 13.0
+                    },
+                    {
+                        "key": "ally_res_penetrate",
+                        "value": 13.0
+                    }
+                ]
+            }
+        ]
+    },
+    "char_4230_mcnist": {
+        "appellation": "Mechanist",
+        "talents": [
+            {
+                "prefabKey": "1",
+                "name_zh": "结构性原理",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "可以使用一个持续30秒的结构性原理，拥有独立的再部署时间",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": ["summon"],
+                "blackboard": []
+            },
+            {
+                "prefabKey": "2",
+                "name_zh": "生命方程",
+                "name_en": "",
+                "name_ja": "",
+                "desc_zh": "自身和结构性原理部署时获得最大生命40%<@ba.talpu>（+10%）</>的<$ba.barrier>屏障</>；来自自身的<$ba.barrier>屏障</>可以抵挡超额的伤害",
+                "desc_ja": "",
+                "desc_en": "",
+                "tags": ["barrier"],
+                "blackboard": [
+                    {
+                        "key": "hp_ratio",
+                        "value": 0.4
+                    }
+                ]
             }
         ]
     }

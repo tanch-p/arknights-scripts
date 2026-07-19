@@ -110,6 +110,7 @@ subprofessions = [
     "mercenary",
     "skybreaker",
     "watchman",
+    "supportiveranger",
 ]
 
 stat_convert = {

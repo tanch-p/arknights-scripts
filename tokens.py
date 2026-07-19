@@ -223,12 +223,19 @@ def _build_token_entry(
             token_id, token_dict, in_global, en_char_table, jp_char_table
         ),
     }
-
     if in_global:
         entry["name_ja"] = jp_char_table[token_id]["name"]
         entry["name_en"] = en_char_table[token_id]["name"]
-        entry["desc_ja"] = jp_char_table[token_id]["description"].replace("<$ba", "<ba")
-        entry["desc_en"] = en_char_table[token_id]["description"].replace("<$ba", "<ba")
+        entry["desc_ja"] = (
+            jp_char_table[token_id]["description"].replace("<$ba", "<ba")
+            if jp_char_table[token_id]["description"]
+            else None
+        )
+        entry["desc_en"] = (
+            en_char_table[token_id]["description"].replace("<$ba", "<ba")
+            if en_char_table[token_id]["description"]
+            else None
+        )
 
     return entry
 

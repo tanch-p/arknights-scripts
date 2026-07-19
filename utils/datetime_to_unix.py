@@ -15,4 +15,4 @@ def datetime_to_unix_gmt8(datetime_str: str) -> int:
 
 
 if __name__ == "__main__":
-    print(datetime_to_unix_gmt8("01/06/2026 12:00:00"))
+    print(datetime_to_unix_gmt8("10/07/2026 12:00:00"))
