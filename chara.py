@@ -729,7 +729,7 @@ def append_new_chara_imple_dates(new_chara_keys: list[str]) -> None:
     if not new_chara_keys:
         return
 
-    datetime_str = "01/05/2026 12:00:00"
+    datetime_str = "01/08/2026 12:00:00"
     timestamp = datetime_to_unix_gmt8(datetime_str)
 
     for key in new_chara_keys:
@@ -749,7 +749,9 @@ def get_filtered_cn_char_table() -> CharacterTable:
 
 def load_new_characters() -> None:
     filtered_cn_char_table = get_filtered_cn_char_table()
-    new_chara_keys = [key for key in filtered_cn_char_table if key not in chara_talents]
+    new_chara_keys: list[str] = [
+        key for key in filtered_cn_char_table if key not in chara_talents
+    ]
     append_new_chara_imple_dates(new_chara_keys)
     update_chara_skills()
     update_chara_talents_json(filtered_cn_char_table)
