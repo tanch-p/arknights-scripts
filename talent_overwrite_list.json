@@ -770,9 +770,15 @@
 				"key": "mpplai_avenger_stat",
 				"v_hp": 2500,
 				"v_atk": 400,
-				"v_def": 100
+				"v_def": 100,
+				"formIndex": 1
 			},
-			{ "key": "mpplai_caster_stat", "v_def": "-200", "v_atk": 200 }
+			{
+				"key": "mpplai_caster_stat",
+				"v_def": "-200",
+				"v_atk": 200,
+				"formIndex": 2
+			}
 		]
 	},
 	"level_rogue6_2-2": {
@@ -822,6 +828,19 @@
 		],
 		"enemy_1404_msnip_2_b": [{ "key": "msnip_shot", "duration": 10 }]
 	},
+	"level_rogue6_4-3": {
+		"enemy_1311_mhkryk_2": [
+			{
+				"key": "mhkryk_1",
+				"spineState": 1,
+				"tooltip": {
+					"en": ["$Already holds shell on spawn$"],
+					"ja": ["$出現時すでに甲羅所持状態$"],
+					"zh": ["$出现时持有甲壳$"]
+				}
+			}
+		]
+	},
 	"level_rogue6_5-3": {
 		"enemy_2133_shdopl": [
 			{ "key": "shdopl_disguise", "enemy_key": "enemy_1513_dekght" }
@@ -834,6 +853,21 @@
 		],
 		"enemy_2133_shdopl_d": [
 			{ "key": "shdopl_disguise", "enemy_key": "enemy_1104_lfkght_2" }
+		]
+	},
+	"level_rogue6_6-1": {
+		"enemy_1514_smephi": [
+			{
+				"key": "smephi_rest_break",
+				"value": 60,
+				"formIndex": 1
+			},
+			{
+				"key": "smephi_rest",
+				"v_def": 6000,
+				"v_heal": 400,
+				"formIndex": 1
+			}
 		]
 	},
 	"level_rogue6_6-2": {
@@ -869,7 +903,21 @@
 		],
 		"enemy_2146_cadesd": [
 			{
+				"key": "cadesd_defeat",
+				"value": 30,
+				"effects": {
+					"targets": ["enemy_2146_cadesd"],
+					"activeTargets": [],
+					"mods": [
+						{ "key": "atk", "value": 0.3, "order": "initial", "mode": "mul" }
+					],
+					"stackType": "add",
+					"maxCount": 1
+				}
+			},
+			{
 				"key": "wolf_howl",
+				"initCooldown": 10,
 				"cooldown": 20,
 				"single": 400,
 				"global": 100
@@ -894,11 +942,12 @@
 						{ "key": "atk", "value": 0.5, "order": "initial", "mode": "mul" }
 					],
 					"stackType": "add",
-					"maxCount": 2
+					"maxCount": 1
 				}
 			},
 			{
 				"key": "wolf_howl",
+				"initCooldown": 10,
 				"cooldown": 20,
 				"single": 400,
 				"global": 100
@@ -923,11 +972,12 @@
 						{ "key": "atk", "value": 0.5, "order": "initial", "mode": "mul" }
 					],
 					"stackType": "add",
-					"maxCount": 2
+					"maxCount": 1
 				}
 			},
 			{
 				"key": "wolf_howl",
+				"initCooldown": 10,
 				"cooldown": 20,
 				"single": 400,
 				"global": 100
@@ -978,6 +1028,9 @@
 			{ "key": "shdopl_disguise", "enemy_key": "enemy_2085_skzjxd" }
 		]
 	},
+	"level_rogue6_t-3": {
+		"enemy_10164_tjgxb": [{ "key": "tjgxb", "value": 10 }]
+	},
 	"level_rogue6_t-4": {
 		"enemy_2133_shdopl": [
 			{ "key": "shdopl_disguise", "enemy_key": "enemy_2034_sythef" }
@@ -1009,10 +1062,10 @@
 		]
 	},
 	"level_rogue6_t-10": {
-		"enemy_1074_dbskar": [{ "key": "standby", "standby": 0 }]
+		"enemy_1074_dbskar": [{ "key": "sarkaz_standby", "standby": 0 }]
 	},
 	"level_rogue6_t-11": {
-		"enemy_1074_dbskar_2": [{ "key": "standby", "standby": 22 }]
+		"enemy_1074_dbskar_2": [{ "key": "sarkaz_standby", "standby": 22 }]
 	},
 	"level_rogue6_b-3-b": {
 		"enemy_2154_shdfb": [
