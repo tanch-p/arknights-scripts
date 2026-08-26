@@ -15,6 +15,8 @@ Tel Arrow Color Indexes
 
 Direction - direction stairs is towards
 
+Instructions for doing this manually
+1. first entry always starts from bottom left of map, then right then up
 """
 
 
@@ -26,7 +28,7 @@ def get_all_files(folder_path):
     return file_paths
 
 
-folders = ["ro5"]
+folders = ["ro6"]
 
 
 def get_row_col(tile_index, map_data):

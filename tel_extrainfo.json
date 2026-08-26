@@ -1,4576 +1,5942 @@
 {
-  "level_rogue1_1-2": {
-    "26": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 8
-      }
-    },
-    "44": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 8
-      }
-    }
-  },
-  "level_rogue1_2-2": {
-    "26": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 8
-      }
-    },
-    "44": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 8
-      }
-    }
-  },
-  "level_rogue1_3-2": {
-    "19": {
-      "tileKey": "tile_telout",
-      "colorIndex": -1,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 9
-      }
-    },
-    "30": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 0
-      }
-    },
-    "39": {
-      "tileKey": "tile_telin",
-      "colorIndex": -1,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 9
-      }
-    },
-    "50": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 0
-      }
-    }
-  },
-  "level_rogue1_4-7": {
-    "75": {
-      "tileKey": "tile_telin",
-      "colorIndex": -1,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 3
-      }
-    },
-    "82": {
-      "tileKey": "tile_telout",
-      "colorIndex": -1,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 10
-      }
-    }
-  },
-  "level_rogue1_5-8": {
-    "60": {
-      "tileKey": "tile_telin",
-      "colorIndex": -1,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 2,
-        "col": 0
-      }
-    },
-    "90": {
-      "tileKey": "tile_telout",
-      "colorIndex": -1,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 6
-      }
-    }
-  },
-  "level_rogue1_b-8": {
-    "25": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 7,
-        "col": 12
-      }
-    },
-    "45": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 6
-      }
-    },
-    "71": {
-      "tileKey": "tile_telin",
-      "colorIndex": -1,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 6
-      }
-    },
-    "91": {
-      "tileKey": "tile_telout",
-      "colorIndex": -1,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 0
-      }
-    }
-  },
-  "level_rogue1_b-9": {
-    "13": {
-      "tileKey": "tile_telout",
-      "colorIndex": -1,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 7,
-        "col": 0
-      }
-    },
-    "64": {
-      "tileKey": "tile_telin",
-      "colorIndex": -1,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 12
-      }
-    },
-    "106": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 2
-      }
-    },
-    "115": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 11
-      }
-    }
-  },
-  "level_rogue2_2-6": {
-    "38": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 6
-      }
-    },
-    "49": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 1
-      }
-    }
-  },
-  "level_rogue2_3-4": {
-    "22": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "block",
-      "position": {
-        "row": 4,
-        "col": 0
-      }
-    },
-    "52": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "block",
-      "position": {
-        "row": 2,
-        "col": 8
-      }
-    }
-  },
-  "level_rogue2_4-4": {
-    "32": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "block",
-      "position": {
-        "row": 4,
-        "col": 10
-      }
-    },
-    "71": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "block",
-      "position": {
-        "row": 0,
-        "col": 5
-      }
-    }
-  },
-  "level_rogue2_4-7": {
-    "8": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "block",
-      "position": {
-        "row": 6,
-        "col": 8
-      }
-    },
-    "33": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "block",
-      "position": {
-        "row": 3,
-        "col": 3
-      }
-    }
-  },
-  "level_rogue2_4-8": {
-    "10": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 7,
-        "col": 1
-      }
-    },
-    "11": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 7,
-        "col": 2
-      }
-    },
-    "15": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 7,
-        "col": 6
-      }
-    },
-    "16": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 7,
-        "col": 7
-      }
-    },
-    "62": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 2,
-        "col": 8
-      }
-    },
-    "64": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 1
-      }
-    },
-    "65": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 2
-      }
-    },
-    "76": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 4
-      }
-    }
-  },
-  "level_rogue2_5-4": {
-    "22": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 2
-      }
-    },
-    "29": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 9
-      }
-    },
-    "42": {
-      "tileKey": "tile_telin",
-      "colorIndex": 1,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 2,
-        "col": 2
-      }
-    },
-    "49": {
-      "tileKey": "tile_telout",
-      "colorIndex": 1,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 2,
-        "col": 9
-      }
-    }
-  },
-  "level_rogue2_5-6": {
-    "32": {
-      "tileKey": "tile_telin",
-      "colorIndex": -1,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 10
-      }
-    },
-    "36": {
-      "tileKey": "tile_telout",
-      "colorIndex": -1,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 3
-      }
-    },
-    "42": {
-      "tileKey": "tile_telin",
-      "colorIndex": 1,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 9
-      }
-    },
-    "46": {
-      "tileKey": "tile_telout",
-      "colorIndex": 1,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 2
-      }
-    },
-    "52": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 8
-      }
-    },
-    "76": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 10
-      }
-    }
-  },
-  "level_rogue2_5-7": {
-    "33": {
-      "tileKey": "tile_telin",
-      "colorIndex": 1,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 0
-      }
-    },
-    "37": {
-      "tileKey": "tile_telout",
-      "colorIndex": 1,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 4
-      }
-    },
-    "44": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 0
-      }
-    },
-    "48": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 4
-      }
-    }
-  },
-  "level_rogue2_5-8": {
-    "12": {
-      "tileKey": "tile_telin",
-      "colorIndex": 1,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 1
-      }
-    },
-    "64": {
-      "tileKey": "tile_telout",
-      "colorIndex": 1,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 9
-      }
-    }
-  },
-  "level_rogue2_b-5": {
-    "1": {
-      "tileKey": "tile_telout",
-      "colorIndex": -1,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 8,
-        "col": 1
-      }
-    },
-    "20": {
-      "tileKey": "tile_telin",
-      "colorIndex": -1,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 7,
-        "col": 7
-      }
-    },
-    "85": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 2,
-        "col": 7
-      }
-    },
-    "105": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 1
-      }
-    }
-  },
-  "level_rogue2_b-7": {
-    "18": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 7,
-        "col": 5
-      }
-    },
-    "19": {
-      "tileKey": "tile_telout",
-      "colorIndex": 1,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 7,
-        "col": 6
-      }
-    },
-    "108": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 4
-      }
-    },
-    "109": {
-      "tileKey": "tile_telin",
-      "colorIndex": 1,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 5
-      }
-    }
-  },
-  "level_rogue2_t-4": {
-    "33": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 0
-      }
-    },
-    "43": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 10
-      }
-    }
-  },
-  "level_rogue3_2-1": {
-    "17": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 8
-      }
-    },
-    "57": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 3
-      }
-    }
-  },
-  "level_rogue3_2-5": {
-    "21": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 10
-      }
-    },
-    "44": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 2,
-        "col": 0
-      }
-    }
-  },
-  "level_rogue3_3-1": {
-    "9": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 0
-      }
-    },
-    "27": {
-      "tileKey": "tile_telin",
-      "colorIndex": 3,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 0
-      }
-    },
-    "64": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 1
-      }
-    },
-    "70": {
-      "tileKey": "tile_telout",
-      "colorIndex": 3,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 7
-      }
-    }
-  },
-  "level_rogue3_3-3": {
-    "27": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "block",
-      "position": {
-        "row": 4,
-        "col": 3
-      }
-    },
-    "28": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "block",
-      "position": {
-        "row": 4,
-        "col": 4
-      }
-    },
-    "29": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "block",
-      "position": {
-        "row": 4,
-        "col": 5
-      }
-    },
-    "39": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "block",
-      "position": {
-        "row": 3,
-        "col": 3
-      }
-    },
-    "40": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "block",
-      "position": {
-        "row": 3,
-        "col": 4
-      }
-    },
-    "41": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "block",
-      "position": {
-        "row": 3,
-        "col": 5
-      }
-    },
-    "51": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "block",
-      "position": {
-        "row": 2,
-        "col": 3
-      }
-    },
-    "52": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "block",
-      "position": {
-        "row": 2,
-        "col": 4
-      }
-    },
-    "53": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "block",
-      "position": {
-        "row": 2,
-        "col": 5
-      }
-    },
-    "68": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "block",
-      "position": {
-        "row": 1,
-        "col": 8
-      }
-    },
-    "69": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "block",
-      "position": {
-        "row": 1,
-        "col": 9
-      }
-    },
-    "70": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "block",
-      "position": {
-        "row": 1,
-        "col": 10
-      }
-    }
-  },
-  "level_rogue3_3-5": {
-    "11": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 0
-      }
-    },
-    "44": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 0
-      }
-    }
-  },
-  "level_rogue3_4-1": {
-    "11": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 0
-      }
-    },
-    "81": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 4
-      }
-    },
-    "83": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 6
-      }
-    }
-  },
-  "level_rogue3_4-3": {
-    "44": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 0
-      }
-    },
-    "54": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 10
-      }
-    }
-  },
-  "level_rogue3_4-4": {
-    "12": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 0
-      }
-    },
-    "60": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 0
-      }
-    }
-  },
-  "level_rogue3_5-4": {
-    "44": {
-      "tileKey": "tile_telout",
-      "colorIndex": -1,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 0
-      }
-    },
-    "54": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 10
-      }
-    },
-    "69": {
-      "tileKey": "tile_telin",
-      "colorIndex": -1,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 3
-      }
-    },
-    "73": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 7
-      }
-    }
-  },
-  "level_rogue3_b-1": {
-    "16": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 5
-      }
-    },
-    "19": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 8
-      }
-    }
-  },
-  "level_rogue3_b-2-b": {
-    "32": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 10
-      }
-    },
-    "86": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 9
-      }
-    }
-  },
-  "level_rogue3_b-2": {
-    "1": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 7,
-        "col": 1
-      }
-    },
-    "71": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 1
-      }
-    }
-  },
-  "level_rogue3_b-7-b": {
-    "39": {
-      "tileKey": "tile_telout",
-      "colorIndex": 2,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 0
-      }
-    },
-    "44": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 5
-      }
-    },
-    "46": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 7
-      }
-    },
-    "51": {
-      "tileKey": "tile_telout",
-      "colorIndex": 2,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 12
-      }
-    },
-    "52": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 0
-      }
-    },
-    "57": {
-      "tileKey": "tile_telin",
-      "colorIndex": 2,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 5
-      }
-    },
-    "59": {
-      "tileKey": "tile_telin",
-      "colorIndex": 2,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 7
-      }
-    },
-    "64": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 12
-      }
-    },
-    "82": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 4
-      }
-    },
-    "86": {
-      "tileKey": "tile_telout",
-      "colorIndex": 2,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 8
-      }
-    }
-  },
-  "level_rogue3_b-7": {
-    "39": {
-      "tileKey": "tile_telout",
-      "colorIndex": 2,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 0
-      }
-    },
-    "44": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 5
-      }
-    },
-    "46": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 7
-      }
-    },
-    "51": {
-      "tileKey": "tile_telout",
-      "colorIndex": 2,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 12
-      }
-    },
-    "52": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 0
-      }
-    },
-    "57": {
-      "tileKey": "tile_telin",
-      "colorIndex": 2,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 5
-      }
-    },
-    "59": {
-      "tileKey": "tile_telin",
-      "colorIndex": 2,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 7
-      }
-    },
-    "64": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 12
-      }
-    },
-    "82": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 4
-      }
-    },
-    "86": {
-      "tileKey": "tile_telout",
-      "colorIndex": 2,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 8
-      }
-    }
-  },
-  "level_rogue3_ev-7": {
-    "33": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 0
-      }
-    },
-    "71": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 5
-      }
-    }
-  },
-  "level_rogue3_ev-9": {
-    "14": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 3
-      }
-    },
-    "18": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 7
-      }
-    },
-    "49": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 5
-      }
-    },
-    "68": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 2
-      }
-    },
-    "74": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 8
-      }
-    }
-  },
-  "level_rogue3_t-1": {
-    "11": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 0
-      }
-    },
-    "61": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 6
-      }
-    }
-  },
-  "level_rogue4_1-1": {
-    "39": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 3
-      }
-    },
-    "58": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 10
-      }
-    }
-  },
-  "level_rogue4_1-4": {
-    "14": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 5
-      }
-    },
-    "48": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 3
-      }
-    }
-  },
-  "level_rogue4_2-1": {
-    "15": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 7
-      }
-    },
-    "54": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 6
-      }
-    }
-  },
-  "level_rogue4_2-4": {
-    "40": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 0
-      }
-    },
-    "68": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 8
-      }
-    }
-  },
-  "level_rogue4_2-6": {
-    "20": {
-      "tileKey": "tile_telin",
-      "colorIndex": -1,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 2
-      }
-    },
-    "21": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 3
-      }
-    },
-    "57": {
-      "tileKey": "tile_telout",
-      "colorIndex": -1,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 3
-      }
-    },
-    "59": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 5
-      }
-    }
-  },
-  "level_rogue4_3-4": {
-    "11": {
-      "tileKey": "tile_telout",
-      "colorIndex": 2,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 0
-      }
-    },
-    "13": {
-      "tileKey": "tile_telin",
-      "colorIndex": 3,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 2
-      }
-    },
-    "22": {
-      "tileKey": "tile_telout",
-      "colorIndex": 1,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 0
-      }
-    },
-    "24": {
-      "tileKey": "tile_telin",
-      "colorIndex": 2,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 2
-      }
-    },
-    "33": {
-      "tileKey": "tile_telout",
-      "colorIndex": -1,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 0
-      }
-    },
-    "35": {
-      "tileKey": "tile_telin",
-      "colorIndex": 1,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 2
-      }
-    },
-    "44": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 2,
-        "col": 0
-      }
-    },
-    "46": {
-      "tileKey": "tile_telin",
-      "colorIndex": -1,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 2,
-        "col": 2
-      }
-    },
-    "53": {
-      "tileKey": "tile_telout",
-      "colorIndex": 3,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 2,
-        "col": 9
-      }
-    },
-    "57": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 2
-      }
-    }
-  },
-  "level_rogue4_3-6": {
-    "12": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 0
-      }
-    },
-    "71": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 2,
-        "col": 11
-      }
-    },
-    "75": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 3
-      }
-    },
-    "78": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 6
-      }
-    },
-    "81": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 9
-      }
-    }
-  },
-  "level_rogue4_3-7": {
-    "20": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 0
-      }
-    },
-    "60": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 0
-      }
-    }
-  },
-  "level_rogue4_3-8": {
-    "23": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 1
-      }
-    },
-    "64": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 9
-      }
-    }
-  },
-  "level_rogue4_4-2": {
-    "12": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 1
-      }
-    },
-    "17": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 6
-      }
-    },
-    "23": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 1
-      }
-    },
-    "28": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 6
-      }
-    }
-  },
-  "level_rogue4_4-4": {
-    "10": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 0
-      }
-    },
-    "49": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 2,
-        "col": 9
-      }
-    }
-  },
-  "level_rogue4_4-8": {
-    "16": {
-      "tileKey": "tile_telin",
-      "colorIndex": 1,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 6
-      }
-    },
-    "24": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 4
-      }
-    },
-    "40": {
-      "tileKey": "tile_telout",
-      "colorIndex": -1,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 0
-      }
-    },
-    "58": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 2,
-        "col": 8
-      }
-    },
-    "60": {
-      "tileKey": "tile_telin",
-      "colorIndex": -1,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 0
-      }
-    },
-    "62": {
-      "tileKey": "tile_telout",
-      "colorIndex": 1,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 2
-      }
-    }
-  },
-  "level_rogue4_4-9": {
-    "60": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 0
-      }
-    },
-    "71": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 11
-      }
-    }
-  },
-  "level_rogue4_5-4": {
-    "46": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 10
-      }
-    },
-    "90": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 6
-      }
-    }
-  },
-  "level_rogue4_5-5": {
-    "15": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 7,
-        "col": 2
-      }
-    },
-    "51": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 12
-      }
-    }
-  },
-  "level_rogue4_5-6": {
-    "68": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 8
-      }
-    },
-    "98": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 2
-      }
-    }
-  },
-  "level_rogue4_5-7": {
-    "1": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 7,
-        "col": 1
-      }
-    },
-    "16": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 4
-      }
-    },
-    "92": {
-      "tileKey": "tile_telin",
-      "colorIndex": -1,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 8
-      }
-    },
-    "94": {
-      "tileKey": "tile_telout",
-      "colorIndex": -1,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 10
-      }
-    }
-  },
-  "level_rogue4_5-8": {
-    "20": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 8
-      }
-    },
-    "29": {
-      "tileKey": "tile_telout",
-      "colorIndex": 2,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 5
-      }
-    },
-    "74": {
-      "tileKey": "tile_telin",
-      "colorIndex": 2,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 2
-      }
-    },
-    "90": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 6
-      }
-    }
-  },
-  "level_rogue4_5-9": {
-    "13": {
-      "tileKey": "tile_telout",
-      "colorIndex": 2,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 1
-      }
-    },
-    "32": {
-      "tileKey": "tile_telin",
-      "colorIndex": 2,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 8
-      }
-    },
-    "44": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 8
-      }
-    },
-    "80": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 8
-      }
-    }
-  },
-  "level_rogue4_7-1": {
-    "16": {
-      "tileKey": "tile_telin",
-      "colorIndex": 1,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 4
-      }
-    },
-    "29": {
-      "tileKey": "tile_telin",
-      "colorIndex": 3,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 5
-      }
-    },
-    "35": {
-      "tileKey": "tile_telout",
-      "colorIndex": 1,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 11
-      }
-    },
-    "42": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 6
-      }
-    },
-    "47": {
-      "tileKey": "tile_telout",
-      "colorIndex": 3,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 11
-      }
-    },
-    "55": {
-      "tileKey": "tile_telin",
-      "colorIndex": -1,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 7
-      }
-    },
-    "59": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 11
-      }
-    },
-    "71": {
-      "tileKey": "tile_telout",
-      "colorIndex": -1,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 2,
-        "col": 11
-      }
-    }
-  },
-  "level_rogue4_7-2": {
-    "59": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 11
-      }
-    },
-    "81": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 2,
-        "col": 9
-      }
-    }
-  },
-  "level_rogue4_b-1-b": {
-    "16": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 3
-      }
-    },
-    "87": {
-      "tileKey": "tile_telin",
-      "colorIndex": -1,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 9
-      }
-    },
-    "96": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 5
-      }
-    },
-    "97": {
-      "tileKey": "tile_telout",
-      "colorIndex": -1,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 6
-      }
-    }
-  },
-  "level_rogue4_b-1": {
-    "16": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 3
-      }
-    },
-    "87": {
-      "tileKey": "tile_telin",
-      "colorIndex": -1,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 9
-      }
-    },
-    "96": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 5
-      }
-    },
-    "97": {
-      "tileKey": "tile_telout",
-      "colorIndex": -1,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 6
-      }
-    }
-  },
-  "level_rogue4_b-2-b": {
-    "30": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 6
-      }
-    },
-    "74": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 2
-      }
-    }
-  },
-  "level_rogue4_b-2": {
-    "30": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 6
-      }
-    },
-    "74": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 2
-      }
-    }
-  },
-  "level_rogue4_b-3-b": {
-    "34": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 10
-      }
-    },
-    "90": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 6
-      }
-    }
-  },
-  "level_rogue4_b-3": {
-    "34": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 10
-      }
-    },
-    "90": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 6
-      }
-    }
-  },
-  "level_rogue4_b-4-b": {
-    "19": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 7,
-        "col": 6
-      }
-    },
-    "24": {
-      "tileKey": "tile_telout",
-      "colorIndex": 2,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 7,
-        "col": 11
-      }
-    },
-    "105": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 1
-      }
-    },
-    "115": {
-      "tileKey": "tile_telin",
-      "colorIndex": 2,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 11
-      }
-    }
-  },
-  "level_rogue4_b-4-c": {
-    "14": {
-      "tileKey": "tile_telout",
-      "colorIndex": -1,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 7,
-        "col": 1
-      }
-    },
-    "19": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 7,
-        "col": 6
-      }
-    },
-    "105": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 1
-      }
-    },
-    "115": {
-      "tileKey": "tile_telin",
-      "colorIndex": -1,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 11
-      }
-    }
-  },
-  "level_rogue4_b-4-d": {
-    "19": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 7,
-        "col": 6
-      }
-    },
-    "24": {
-      "tileKey": "tile_telout",
-      "colorIndex": 2,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 7,
-        "col": 11
-      }
-    },
-    "105": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 1
-      }
-    },
-    "115": {
-      "tileKey": "tile_telin",
-      "colorIndex": 2,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 11
-      }
-    }
-  },
-  "level_rogue4_b-4": {
-    "14": {
-      "tileKey": "tile_telout",
-      "colorIndex": -1,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 7,
-        "col": 1
-      }
-    },
-    "19": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 7,
-        "col": 6
-      }
-    },
-    "105": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 1
-      }
-    },
-    "115": {
-      "tileKey": "tile_telin",
-      "colorIndex": -1,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 11
-      }
-    }
-  },
-  "level_rogue4_b-6": {
-    "23": {
-      "tileKey": "tile_telout",
-      "colorIndex": 3,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 7,
-        "col": 10
-      }
-    },
-    "32": {
-      "tileKey": "tile_telin",
-      "colorIndex": -1,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 6
-      }
-    },
-    "35": {
-      "tileKey": "tile_telout",
-      "colorIndex": -1,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 9
-      }
-    },
-    "71": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 6
-      }
-    },
-    "74": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 9
-      }
-    },
-    "105": {
-      "tileKey": "tile_telin",
-      "colorIndex": 3,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 1
-      }
-    }
-  },
-  "level_rogue4_b-7": {
-    "109": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 9
-      }
-    },
-    "181": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 6
-      }
-    }
-  },
-  "level_rogue4_b-8": {
-    "98": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 26
-      }
-    },
-    "286": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 34
-      }
-    }
-  },
-  "level_rogue4_t-1": {
-    "43": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 10
-      }
-    },
-    "65": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 10
-      }
-    }
-  },
-  "level_rogue4_t-2": {
-    "5": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 5
-      }
-    },
-    "46": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 2
-      }
-    }
-  },
-  "level_rogue4_t-6": {
-    "14": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 1
-      }
-    },
-    "20": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 7
-      }
-    },
-    "22": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 9
-      }
-    },
-    "92": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 1
-      }
-    },
-    "96": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 5
-      }
-    },
-    "100": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 9
-      }
-    }
-  },
-  "level_rogue4_t-7": {
-    "23": {
-      "tileKey": "tile_telin",
-      "colorIndex": -1,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 11
-      }
-    },
-    "44": {
-      "tileKey": "tile_telout",
-      "colorIndex": -1,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 8
-      }
-    },
-    "76": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 4
-      }
-    },
-    "86": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 2
-      }
-    }
-  },
-  "level_rogue4_t-8": {
-    "23": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 1
-      }
-    },
-    "65": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 10
-      }
-    }
-  },
-  "level_rogue5_1-1": {
-    "18": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 8
-      }
-    },
-    "24": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 4
-      }
-    },
-    "25": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 5
-      }
-    },
-    "33": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 3
-      }
-    },
-    "36": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 6
-      }
-    },
-    "43": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 3
-      }
-    },
-    "46": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 6
-      }
-    },
-    "54": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 2,
-        "col": 4
-      }
-    },
-    "55": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 2,
-        "col": 5
-      }
-    },
-    "68": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 8
-      }
-    }
-  },
-  "level_rogue5_1-4": {
-    "19": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 8
-      }
-    },
-    "40": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 7
-      }
-    }
-  },
-  "level_rogue5_2-4": {
-    "9": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 0
-      }
-    },
-    "27": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 0
-      }
-    },
-    "35": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 8
-      }
-    },
-    "53": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 8
-      }
-    }
-  },
-  "level_rogue5_2-6": {
-        "10": {
-            "tileKey": "tile_telout",
-            "colorIndex": 0,
-            "direction": "left",
-            "type": "arrow",
-            "position": {
-                "row": 5,
-                "col": 0
-            }
-        },
-        "58": {
-            "tileKey": "tile_telin",
-            "colorIndex": 0,
-            "direction": "right",
-            "type": "arrow",
-            "position": {
-                "row": 1,
-                "col": 8
-            }
-        }
-    },
-  "level_rogue5_3-2": {
-    "55": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 0
-      }
-    },
-    "65": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 10
-      }
-    }
-  },
-  "level_rogue5_4-3": {
-    "15": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 3
-      }
-    },
-    "17": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 5
-      }
-    }
-  },
-  "level_rogue5_4-4": {
-    "10": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 7,
-        "col": 0
-      }
-    },
-    "60": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 2,
-        "col": 0
-      }
-    },
-    "67": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 2,
-        "col": 7
-      }
-    },
-    "71": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 1
-      }
-    }
-  },
-  "level_rogue5_4-5": {
-    "15": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 3
-      }
-    },
-    "16": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 4
-      }
-    },
-    "91": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 7
-      }
-    },
-    "92": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 8
-      }
-    }
-  },
-  "level_rogue5_4-6": {
-    "15": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 4
-      }
-    },
-    "37": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 4
-      }
-    },
-    "39": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 6
-      }
-    },
-    "59": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 2,
-        "col": 4
-      }
-    },
-    "61": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 2,
-        "col": 6
-      }
-    },
-    "79": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 2
-      }
-    }
-  },
-  "level_rogue5_5-1": {
-    "15": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 3
-      }
-    },
-    "20": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 8
-      }
-    },
-    "80": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 8
-      }
-    }
-  },
-  "level_rogue5_5-2": {
-    "14": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 2
-      }
-    },
-    "21": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 9
-      }
-    },
-    "48": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 0
-      }
-    },
-    "59": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 11
-      }
-    },
-    "87": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 3
-      }
-    },
-    "92": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 8
-      }
-    }
-  },
-  "level_rogue5_5-3": {
-    "16": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 5
-      }
-    },
-    "18": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 7
-      }
-    },
-    "38": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 5
-      }
-    },
-    "40": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 7
-      }
-    },
-    "60": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 5
-      }
-    },
-    "62": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 7
-      }
-    }
-  },
-  "level_rogue5_5-4": {
-    "14": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 2
-      }
-    },
-    "22": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 10
-      }
-    },
-    "86": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 2
-      }
-    },
-    "94": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 10
-      }
-    }
-  },
-  "level_rogue5_5-5": {
-    "23": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 7,
-        "col": 10
-      }
-    },
-    "54": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 2
-      }
-    },
-    "111": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 7
-      }
-    },
-    "112": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 8
-      }
-    }
-  },
-  "level_rogue5_6-2": {
-    "78": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 1
-      }
-    },
-    "86": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 9
-      }
-    }
-  },
-  "level_rogue5_7-1": {
-        "35": {
-            "tileKey": "tile_telin",
-            "colorIndex": -1,
-            "direction": "down",
-            "type": "arrow",
-            "position": {
-                "row": 6,
-                "col": 9
-            }
-        },
-        "37": {
-            "tileKey": "tile_telin",
-            "colorIndex": 0,
-            "direction": "down",
-            "type": "arrow",
-            "position": {
-                "row": 6,
-                "col": 11
-            }
-        },
-        "53": {
-            "tileKey": "tile_telout",
-            "colorIndex": -1,
-            "direction": "left",
-            "type": "arrow",
-            "position": {
-                "row": 4,
-                "col": 1
-            }
-        },
-        "79": {
-            "tileKey": "tile_telout",
-            "colorIndex": 0,
-            "direction": "left",
-            "type": "arrow",
-            "position": {
-                "row": 2,
-                "col": 1
-            }
-        },
-        "113": {
-            "tileKey": "tile_telin",
-            "colorIndex": 0,
-            "direction": "up",
-            "type": "arrow",
-            "position": {
-                "row": 0,
-                "col": 9
-            }
-        },
-        "115": {
-            "tileKey": "tile_telin",
-            "colorIndex": -1,
-            "direction": "up",
-            "type": "arrow",
-            "position": {
-                "row": 0,
-                "col": 11
-            }
-        }
-    },
-    "level_rogue5_7-2": {
-        "32": {
-            "tileKey": "tile_telout",
-            "colorIndex": -1,
-            "direction": "right",
-            "type": "arrow",
-            "position": {
-                "row": 5,
-                "col": 10
-            }
-        },
-        "54": {
-            "tileKey": "tile_telout",
-            "colorIndex": 0,
-            "direction": "",
-            "type": "arrow",
-            "position": {
-                "row": 3,
-                "col": 10
-            }
-        },
-        "76": {
-            "tileKey": "tile_telout",
-            "colorIndex": 0,
-            "direction": "right",
-            "type": "arrow",
-            "position": {
-                "row": 1,
-                "col": 10
-            }
-        },
-        "78": {
-            "tileKey": "tile_telin",
-            "colorIndex": 0,
-            "direction": "up",
-            "type": "arrow",
-            "position": {
-                "row": 0,
-                "col": 1
-            }
-        },
-        "80": {
-            "tileKey": "tile_telin",
-            "colorIndex": -1,
-            "direction": "up",
-            "type": "arrow",
-            "position": {
-                "row": 0,
-                "col": 3
-            }
-        },
-        "82": {
-            "tileKey": "tile_telin",
-            "colorIndex": 0,
-            "direction": "",
-            "type": "arrow",
-            "position": {
-                "row": 0,
-                "col": 5
-            }
-        }
-    },
-  "level_rogue5_b-1-b": {
-    "12": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 0
-      }
-    },
-    "73": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 1
-      }
-    }
-  },
-  "level_rogue5_b-1": {
-    "20": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 9
-      }
-    },
-    "78": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 1
-      }
-    },
-    "80": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 3
-      }
-    }
-  },
-  "level_rogue5_b-3": {
-    "1": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 1
-      }
-    },
-    "7": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 7
-      }
-    },
-    "73": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 1
-      }
-    },
-    "79": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 7
-      }
-    }
-  },
-  "level_rogue5_b-4": {
-    "22": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 9
-      }
-    },
-    "26": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 0
-      }
-    }
-  },
-   "level_rogue5_b-4-b": {
-        "29": {
-            "tileKey": "tile_telout",
-            "colorIndex": 0,
-            "direction": "down",
-            "type": "arrow",
-            "position": {
-                "row": 6,
-                "col": 3
-            }
-        },
-        "100": {
-            "tileKey": "tile_telin",
-            "colorIndex": 0,
-            "direction": "up",
-            "type": "arrow",
-            "position": {
-                "row": 1,
-                "col": 9
-            }
-        },
-        "102": {
-            "tileKey": "tile_telin",
-            "colorIndex": 0,
-            "direction": "up",
-            "type": "arrow",
-            "position": {
-                "row": 1,
-                "col": 11
-            }
-        }
-    },
-    "level_rogue5_b-5-b": {
-        "3": {
-            "tileKey": "tile_telout",
-            "colorIndex": 0,
-            "direction": "up",
-            "type": "arrow",
-            "position": {
-                "row": 7,
-                "col": 3
-            }
-        },
-        "4": {
-            "tileKey": "tile_telin",
-            "colorIndex": 1,
-            "direction": "down",
-            "type": "arrow",
-            "position": {
-                "row": 7,
-                "col": 4
-            }
-        },
-        "21": {
-            "tileKey": "tile_telin",
-            "colorIndex": 2,
-            "direction": "right",
-            "type": "arrow",
-            "position": {
-                "row": 6,
-                "col": 6
-            }
-        },
-        "28": {
-            "tileKey": "tile_telout",
-            "colorIndex": 2,
-            "direction": "right",
-            "type": "arrow",
-            "position": {
-                "row": 6,
-                "col": 13
-            }
-        },
-        "91": {
-            "tileKey": "tile_telin",
-            "colorIndex": -1,
-            "direction": "left",
-            "type": "arrow",
-            "position": {
-                "row": 1,
-                "col": 1
-            }
-        },
-        "103": {
-            "tileKey": "tile_telout",
-            "colorIndex": -1,
-            "direction": "right",
-            "type": "arrow",
-            "position": {
-                "row": 1,
-                "col": 13
-            }
-        },
-        "108": {
-            "tileKey": "tile_telin",
-            "colorIndex": 0,
-            "direction": "up",
-            "type": "arrow",
-            "position": {
-                "row": 0,
-                "col": 3
-            }
-        },
-        "109": {
-            "tileKey": "tile_telout",
-            "colorIndex": 1,
-            "direction": "up",
-            "type": "arrow",
-            "position": {
-                "row": 0,
-                "col": 4
-            }
-        }
-    },
-    "level_rogue5_b-7": {
-        "115": {
-            "tileKey": "tile_telout",
-            "colorIndex": 0,
-            "direction": "up",
-            "type": "arrow",
-            "position": {
-                "row": 0,
-                "col": 3
-            }
-        },
-        "122": {
-            "tileKey": "tile_telin",
-            "colorIndex": 0,
-            "direction": "up",
-            "type": "arrow",
-            "position": {
-                "row": 0,
-                "col": 10
-            }
-        }
-    },
-  "level_rogue5_ev-1": {
-    "1": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 1
-      }
-    },
-    "2": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 2
-      }
-    },
-    "3": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 3
-      }
-    },
-    "80": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 8
-      }
-    },
-    "81": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 9
-      }
-    },
-    "82": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 10
-      }
-    }
-  },
-  "level_rogue5_ev-2": {
-    "22": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 7,
-        "col": 10
-      }
-    },
-    "65": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 5
-      }
-    },
-    "66": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 6
-      }
-    },
-    "86": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 2
-      }
-    }
-  },
-  "level_rogue5_sv-6-b": {
-    "7": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 7
-      }
-    },
-    "55": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 1
-      }
-    }
-  },
-  "level_rogue5_sv-6": {
-    "7": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 7
-      }
-    },
-    "55": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 1
-      }
-    }
-  },
-  "level_rogue5_sv-6-b_dlc1": {
-    "7": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 7
-      }
-    },
-    "55": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 1
-      }
-    }
-  },
-  "level_rogue5_sv-6_dlc1": {
-    "7": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 7
-      }
-    },
-    "55": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 1
-      }
-    }
-  },
-  "level_rogue5_sv-7-b": {
-    "12": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 3
-      }
-    },
-    "31": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 4
-      }
-    },
-    "45": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 0
-      }
-    },
-    "53": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 8
-      }
-    }
-  },
-  "level_rogue5_sv-7": {
-    "12": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 3
-      }
-    },
-    "31": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 4
-      }
-    },
-    "45": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 0
-      }
-    },
-    "53": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 8
-      }
-    }
-  },
-  "level_rogue5_sv-7_dlc1": {
-    "12": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 3
-      }
-    },
-    "31": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 4
-      }
-    },
-    "45": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 0
-      }
-    },
-    "53": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 8
-      }
-    }
-  },
-  "level_rogue5_sv-7-b_dlc1": {
-    "12": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 3
-      }
-    },
-    "31": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 4
-      }
-    },
-    "45": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 0
-      }
-    },
-    "53": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 8
-      }
-    }
-  },
-  "level_rogue5_sv-9-b": {
-    "11": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 1
-      }
-    },
-    "65": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 5
-      }
-    }
-  },
-  "level_rogue5_sv-9-c": {
-    "11": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 1
-      }
-    },
-    "65": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 5
-      }
-    }
-  },
-  "level_rogue5_sv-9": {
-    "11": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 1
-      }
-    },
-    "65": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 5
-      }
-    }
-  },
-  "level_rogue5_sv-9_dlc1": {
-    "11": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 1
-      }
-    },
-    "65": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 5
-      }
-    }
-  },
-  "level_rogue5_sv-12": {
-        "12": {
-            "tileKey": "tile_telin",
-            "colorIndex": 0,
-            "direction": "left",
-            "type": "arrow",
-            "position": {
-                "row": 7,
-                "col": 1
-            }
-        },
-        "14": {
-            "tileKey": "tile_telout",
-            "colorIndex": 0,
-            "direction": "down",
-            "type": "arrow",
-            "position": {
-                "row": 7,
-                "col": 3
-            }
-        },
-        "16": {
-            "tileKey": "tile_telin",
-            "colorIndex": 0,
-            "direction": "down",
-            "type": "arrow",
-            "position": {
-                "row": 7,
-                "col": 5
-            }
-        },
-        "18": {
-            "tileKey": "tile_telout",
-            "colorIndex": 0,
-            "direction": "down",
-            "type": "arrow",
-            "position": {
-                "row": 7,
-                "col": 7
-            }
-        },
-        "20": {
-            "tileKey": "tile_telin",
-            "colorIndex": 0,
-            "direction": "down",
-            "type": "arrow",
-            "position": {
-                "row": 7,
-                "col": 9
-            }
-        },
-        "34": {
-            "tileKey": "tile_telout",
-            "colorIndex": 0,
-            "direction": "up",
-            "type": "arrow",
-            "position": {
-                "row": 5,
-                "col": 1
-            }
-        },
-        "36": {
-            "tileKey": "tile_telin",
-            "colorIndex": 0,
-            "direction": "up",
-            "type": "arrow",
-            "position": {
-                "row": 5,
-                "col": 3
-            }
-        },
-        "38": {
-            "tileKey": "tile_telout",
-            "colorIndex": 0,
-            "direction": "up",
-            "type": "arrow",
-            "position": {
-                "row": 5,
-                "col": 5
-            }
-        },
-        "40": {
-            "tileKey": "tile_telin",
-            "colorIndex": 0,
-            "direction": "up",
-            "type": "arrow",
-            "position": {
-                "row": 5,
-                "col": 7
-            }
-        },
-        "56": {
-            "tileKey": "tile_telin",
-            "colorIndex": 0,
-            "direction": "down",
-            "type": "arrow",
-            "position": {
-                "row": 3,
-                "col": 1
-            }
-        },
-        "58": {
-            "tileKey": "tile_telout",
-            "colorIndex": 0,
-            "direction": "down",
-            "type": "arrow",
-            "position": {
-                "row": 3,
-                "col": 3
-            }
-        },
-        "60": {
-            "tileKey": "tile_telin",
-            "colorIndex": 0,
-            "direction": "down",
-            "type": "arrow",
-            "position": {
-                "row": 3,
-                "col": 5
-            }
-        },
-        "62": {
-            "tileKey": "tile_telout",
-            "colorIndex": 0,
-            "direction": "down",
-            "type": "arrow",
-            "position": {
-                "row": 3,
-                "col": 7
-            }
-        },
-        "64": {
-            "tileKey": "tile_telout",
-            "colorIndex": 0,
-            "direction": "down",
-            "type": "arrow",
-            "position": {
-                "row": 3,
-                "col": 9
-            }
-        },
-        "78": {
-            "tileKey": "tile_telout",
-            "colorIndex": 0,
-            "direction": "up",
-            "type": "arrow",
-            "position": {
-                "row": 1,
-                "col": 1
-            }
-        },
-        "80": {
-            "tileKey": "tile_telin",
-            "colorIndex": 0,
-            "direction": "up",
-            "type": "arrow",
-            "position": {
-                "row": 1,
-                "col": 3
-            }
-        },
-        "82": {
-            "tileKey": "tile_telout",
-            "colorIndex": 0,
-            "direction": "up",
-            "type": "arrow",
-            "position": {
-                "row": 1,
-                "col": 5
-            }
-        },
-        "84": {
-            "tileKey": "tile_telin",
-            "colorIndex": 0,
-            "direction": "up",
-            "type": "arrow",
-            "position": {
-                "row": 1,
-                "col": 7
-            }
-        }
-    },
-  "level_rogue5_t-2": {
-    "13": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 2
-      }
-    },
-    "16": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 5,
-        "col": 5
-      }
-    },
-    "35": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 2
-      }
-    },
-    "42": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 9
-      }
-    },
-    "57": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 2
-      }
-    },
-    "60": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 1,
-        "col": 5
-      }
-    }
-  },
-  "level_rogue5_t-4": {
-    "27": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 1
-      }
-    },
-    "54": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 4,
-        "col": 2
-      }
-    },
-    "79": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "right",
-      "type": "arrow",
-      "position": {
-        "row": 2,
-        "col": 1
-      }
-    }
-  },
-  "level_rogue5_t-6": {
-    "2": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 2
-      }
-    },
-    "4": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 4
-      }
-    },
-    "6": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "down",
-      "type": "arrow",
-      "position": {
-        "row": 6,
-        "col": 6
-      }
-    },
-    "31": {
-      "tileKey": "tile_telout",
-      "colorIndex": 0,
-      "direction": "left",
-      "type": "arrow",
-      "position": {
-        "row": 3,
-        "col": 1
-      }
-    },
-    "62": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 2
-      }
-    },
-    "64": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 4
-      }
-    },
-    "66": {
-      "tileKey": "tile_telin",
-      "colorIndex": 0,
-      "direction": "up",
-      "type": "arrow",
-      "position": {
-        "row": 0,
-        "col": 6
-      }
-    }
-  }
+	"level_rogue1_1-2": {
+		"26": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 8
+			}
+		},
+		"44": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 8
+			}
+		}
+	},
+	"level_rogue1_2-2": {
+		"26": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 8
+			}
+		},
+		"44": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 8
+			}
+		}
+	},
+	"level_rogue1_3-2": {
+		"19": {
+			"tileKey": "tile_telout",
+			"colorIndex": -1,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 9
+			}
+		},
+		"30": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 0
+			}
+		},
+		"39": {
+			"tileKey": "tile_telin",
+			"colorIndex": -1,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 9
+			}
+		},
+		"50": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 0
+			}
+		}
+	},
+	"level_rogue1_4-7": {
+		"75": {
+			"tileKey": "tile_telin",
+			"colorIndex": -1,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 3
+			}
+		},
+		"82": {
+			"tileKey": "tile_telout",
+			"colorIndex": -1,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 10
+			}
+		}
+	},
+	"level_rogue1_5-8": {
+		"60": {
+			"tileKey": "tile_telin",
+			"colorIndex": -1,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 2,
+				"col": 0
+			}
+		},
+		"90": {
+			"tileKey": "tile_telout",
+			"colorIndex": -1,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 6
+			}
+		}
+	},
+	"level_rogue1_b-8": {
+		"25": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 12
+			}
+		},
+		"45": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 6
+			}
+		},
+		"71": {
+			"tileKey": "tile_telin",
+			"colorIndex": -1,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 6
+			}
+		},
+		"91": {
+			"tileKey": "tile_telout",
+			"colorIndex": -1,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 0
+			}
+		}
+	},
+	"level_rogue1_b-9": {
+		"13": {
+			"tileKey": "tile_telout",
+			"colorIndex": -1,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 0
+			}
+		},
+		"64": {
+			"tileKey": "tile_telin",
+			"colorIndex": -1,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 12
+			}
+		},
+		"106": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 2
+			}
+		},
+		"115": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 11
+			}
+		}
+	},
+	"level_rogue2_2-6": {
+		"38": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 6
+			}
+		},
+		"49": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 1
+			}
+		}
+	},
+	"level_rogue2_3-4": {
+		"22": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "block",
+			"position": {
+				"row": 4,
+				"col": 0
+			}
+		},
+		"52": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "block",
+			"position": {
+				"row": 2,
+				"col": 8
+			}
+		}
+	},
+	"level_rogue2_4-4": {
+		"32": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "block",
+			"position": {
+				"row": 4,
+				"col": 10
+			}
+		},
+		"71": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "block",
+			"position": {
+				"row": 0,
+				"col": 5
+			}
+		}
+	},
+	"level_rogue2_4-7": {
+		"8": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "block",
+			"position": {
+				"row": 6,
+				"col": 8
+			}
+		},
+		"33": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "block",
+			"position": {
+				"row": 3,
+				"col": 3
+			}
+		}
+	},
+	"level_rogue2_4-8": {
+		"10": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 1
+			}
+		},
+		"11": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 2
+			}
+		},
+		"15": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 6
+			}
+		},
+		"16": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 7
+			}
+		},
+		"62": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 2,
+				"col": 8
+			}
+		},
+		"64": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 1
+			}
+		},
+		"65": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 2
+			}
+		},
+		"76": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 4
+			}
+		}
+	},
+	"level_rogue2_5-4": {
+		"22": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 2
+			}
+		},
+		"29": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 9
+			}
+		},
+		"42": {
+			"tileKey": "tile_telin",
+			"colorIndex": 1,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 2,
+				"col": 2
+			}
+		},
+		"49": {
+			"tileKey": "tile_telout",
+			"colorIndex": 1,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 2,
+				"col": 9
+			}
+		}
+	},
+	"level_rogue2_5-6": {
+		"32": {
+			"tileKey": "tile_telin",
+			"colorIndex": -1,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 10
+			}
+		},
+		"36": {
+			"tileKey": "tile_telout",
+			"colorIndex": -1,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 3
+			}
+		},
+		"42": {
+			"tileKey": "tile_telin",
+			"colorIndex": 1,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 9
+			}
+		},
+		"46": {
+			"tileKey": "tile_telout",
+			"colorIndex": 1,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 2
+			}
+		},
+		"52": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 8
+			}
+		},
+		"76": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 10
+			}
+		}
+	},
+	"level_rogue2_5-7": {
+		"33": {
+			"tileKey": "tile_telin",
+			"colorIndex": 1,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 0
+			}
+		},
+		"37": {
+			"tileKey": "tile_telout",
+			"colorIndex": 1,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 4
+			}
+		},
+		"44": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 0
+			}
+		},
+		"48": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 4
+			}
+		}
+	},
+	"level_rogue2_5-8": {
+		"12": {
+			"tileKey": "tile_telin",
+			"colorIndex": 1,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 1
+			}
+		},
+		"64": {
+			"tileKey": "tile_telout",
+			"colorIndex": 1,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 9
+			}
+		}
+	},
+	"level_rogue2_b-5": {
+		"1": {
+			"tileKey": "tile_telout",
+			"colorIndex": -1,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 8,
+				"col": 1
+			}
+		},
+		"20": {
+			"tileKey": "tile_telin",
+			"colorIndex": -1,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 7
+			}
+		},
+		"85": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 2,
+				"col": 7
+			}
+		},
+		"105": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 1
+			}
+		}
+	},
+	"level_rogue2_b-7": {
+		"18": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 5
+			}
+		},
+		"19": {
+			"tileKey": "tile_telout",
+			"colorIndex": 1,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 6
+			}
+		},
+		"108": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 4
+			}
+		},
+		"109": {
+			"tileKey": "tile_telin",
+			"colorIndex": 1,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 5
+			}
+		}
+	},
+	"level_rogue2_t-4": {
+		"33": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 0
+			}
+		},
+		"43": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 10
+			}
+		}
+	},
+	"level_rogue3_2-1": {
+		"17": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 8
+			}
+		},
+		"57": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 3
+			}
+		}
+	},
+	"level_rogue3_2-5": {
+		"21": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 10
+			}
+		},
+		"44": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 2,
+				"col": 0
+			}
+		}
+	},
+	"level_rogue3_3-1": {
+		"9": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 0
+			}
+		},
+		"27": {
+			"tileKey": "tile_telin",
+			"colorIndex": 3,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 0
+			}
+		},
+		"64": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 1
+			}
+		},
+		"70": {
+			"tileKey": "tile_telout",
+			"colorIndex": 3,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 7
+			}
+		}
+	},
+	"level_rogue3_3-3": {
+		"27": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "block",
+			"position": {
+				"row": 4,
+				"col": 3
+			}
+		},
+		"28": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "block",
+			"position": {
+				"row": 4,
+				"col": 4
+			}
+		},
+		"29": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "block",
+			"position": {
+				"row": 4,
+				"col": 5
+			}
+		},
+		"39": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "block",
+			"position": {
+				"row": 3,
+				"col": 3
+			}
+		},
+		"40": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "block",
+			"position": {
+				"row": 3,
+				"col": 4
+			}
+		},
+		"41": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "block",
+			"position": {
+				"row": 3,
+				"col": 5
+			}
+		},
+		"51": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "block",
+			"position": {
+				"row": 2,
+				"col": 3
+			}
+		},
+		"52": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "block",
+			"position": {
+				"row": 2,
+				"col": 4
+			}
+		},
+		"53": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "block",
+			"position": {
+				"row": 2,
+				"col": 5
+			}
+		},
+		"68": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "block",
+			"position": {
+				"row": 1,
+				"col": 8
+			}
+		},
+		"69": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "block",
+			"position": {
+				"row": 1,
+				"col": 9
+			}
+		},
+		"70": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "block",
+			"position": {
+				"row": 1,
+				"col": 10
+			}
+		}
+	},
+	"level_rogue3_3-5": {
+		"11": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 0
+			}
+		},
+		"44": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 0
+			}
+		}
+	},
+	"level_rogue3_4-1": {
+		"11": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 0
+			}
+		},
+		"81": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 4
+			}
+		},
+		"83": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 6
+			}
+		}
+	},
+	"level_rogue3_4-3": {
+		"44": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 0
+			}
+		},
+		"54": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 10
+			}
+		}
+	},
+	"level_rogue3_4-4": {
+		"12": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 0
+			}
+		},
+		"60": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 0
+			}
+		}
+	},
+	"level_rogue3_5-4": {
+		"44": {
+			"tileKey": "tile_telout",
+			"colorIndex": -1,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 0
+			}
+		},
+		"54": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 10
+			}
+		},
+		"69": {
+			"tileKey": "tile_telin",
+			"colorIndex": -1,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 3
+			}
+		},
+		"73": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 7
+			}
+		}
+	},
+	"level_rogue3_b-1": {
+		"16": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 5
+			}
+		},
+		"19": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 8
+			}
+		}
+	},
+	"level_rogue3_b-2-b": {
+		"32": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 10
+			}
+		},
+		"86": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 9
+			}
+		}
+	},
+	"level_rogue3_b-2": {
+		"1": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 1
+			}
+		},
+		"71": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 1
+			}
+		}
+	},
+	"level_rogue3_b-7-b": {
+		"39": {
+			"tileKey": "tile_telout",
+			"colorIndex": 2,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 0
+			}
+		},
+		"44": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 5
+			}
+		},
+		"46": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 7
+			}
+		},
+		"51": {
+			"tileKey": "tile_telout",
+			"colorIndex": 2,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 12
+			}
+		},
+		"52": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 0
+			}
+		},
+		"57": {
+			"tileKey": "tile_telin",
+			"colorIndex": 2,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 5
+			}
+		},
+		"59": {
+			"tileKey": "tile_telin",
+			"colorIndex": 2,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 7
+			}
+		},
+		"64": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 12
+			}
+		},
+		"82": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 4
+			}
+		},
+		"86": {
+			"tileKey": "tile_telout",
+			"colorIndex": 2,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 8
+			}
+		}
+	},
+	"level_rogue3_b-7": {
+		"39": {
+			"tileKey": "tile_telout",
+			"colorIndex": 2,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 0
+			}
+		},
+		"44": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 5
+			}
+		},
+		"46": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 7
+			}
+		},
+		"51": {
+			"tileKey": "tile_telout",
+			"colorIndex": 2,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 12
+			}
+		},
+		"52": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 0
+			}
+		},
+		"57": {
+			"tileKey": "tile_telin",
+			"colorIndex": 2,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 5
+			}
+		},
+		"59": {
+			"tileKey": "tile_telin",
+			"colorIndex": 2,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 7
+			}
+		},
+		"64": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 12
+			}
+		},
+		"82": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 4
+			}
+		},
+		"86": {
+			"tileKey": "tile_telout",
+			"colorIndex": 2,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 8
+			}
+		}
+	},
+	"level_rogue3_ev-7": {
+		"33": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 0
+			}
+		},
+		"71": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 5
+			}
+		}
+	},
+	"level_rogue3_ev-9": {
+		"14": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 3
+			}
+		},
+		"18": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 7
+			}
+		},
+		"49": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 5
+			}
+		},
+		"68": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 2
+			}
+		},
+		"74": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 8
+			}
+		}
+	},
+	"level_rogue3_t-1": {
+		"11": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 0
+			}
+		},
+		"61": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 6
+			}
+		}
+	},
+	"level_rogue4_1-1": {
+		"39": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 3
+			}
+		},
+		"58": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 10
+			}
+		}
+	},
+	"level_rogue4_1-4": {
+		"14": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 5
+			}
+		},
+		"48": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 3
+			}
+		}
+	},
+	"level_rogue4_2-1": {
+		"15": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 7
+			}
+		},
+		"54": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 6
+			}
+		}
+	},
+	"level_rogue4_2-4": {
+		"40": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 0
+			}
+		},
+		"68": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 8
+			}
+		}
+	},
+	"level_rogue4_2-6": {
+		"20": {
+			"tileKey": "tile_telin",
+			"colorIndex": -1,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 2
+			}
+		},
+		"21": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 3
+			}
+		},
+		"57": {
+			"tileKey": "tile_telout",
+			"colorIndex": -1,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 3
+			}
+		},
+		"59": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 5
+			}
+		}
+	},
+	"level_rogue4_3-4": {
+		"11": {
+			"tileKey": "tile_telout",
+			"colorIndex": 2,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 0
+			}
+		},
+		"13": {
+			"tileKey": "tile_telin",
+			"colorIndex": 3,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 2
+			}
+		},
+		"22": {
+			"tileKey": "tile_telout",
+			"colorIndex": 1,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 0
+			}
+		},
+		"24": {
+			"tileKey": "tile_telin",
+			"colorIndex": 2,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 2
+			}
+		},
+		"33": {
+			"tileKey": "tile_telout",
+			"colorIndex": -1,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 0
+			}
+		},
+		"35": {
+			"tileKey": "tile_telin",
+			"colorIndex": 1,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 2
+			}
+		},
+		"44": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 2,
+				"col": 0
+			}
+		},
+		"46": {
+			"tileKey": "tile_telin",
+			"colorIndex": -1,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 2,
+				"col": 2
+			}
+		},
+		"53": {
+			"tileKey": "tile_telout",
+			"colorIndex": 3,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 2,
+				"col": 9
+			}
+		},
+		"57": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 2
+			}
+		}
+	},
+	"level_rogue4_3-6": {
+		"12": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 0
+			}
+		},
+		"71": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 2,
+				"col": 11
+			}
+		},
+		"75": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 3
+			}
+		},
+		"78": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 6
+			}
+		},
+		"81": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 9
+			}
+		}
+	},
+	"level_rogue4_3-7": {
+		"20": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 0
+			}
+		},
+		"60": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 0
+			}
+		}
+	},
+	"level_rogue4_3-8": {
+		"23": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 1
+			}
+		},
+		"64": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 9
+			}
+		}
+	},
+	"level_rogue4_4-2": {
+		"12": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 1
+			}
+		},
+		"17": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 6
+			}
+		},
+		"23": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 1
+			}
+		},
+		"28": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 6
+			}
+		}
+	},
+	"level_rogue4_4-4": {
+		"10": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 0
+			}
+		},
+		"49": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 2,
+				"col": 9
+			}
+		}
+	},
+	"level_rogue4_4-8": {
+		"16": {
+			"tileKey": "tile_telin",
+			"colorIndex": 1,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 6
+			}
+		},
+		"24": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 4
+			}
+		},
+		"40": {
+			"tileKey": "tile_telout",
+			"colorIndex": -1,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 0
+			}
+		},
+		"58": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 2,
+				"col": 8
+			}
+		},
+		"60": {
+			"tileKey": "tile_telin",
+			"colorIndex": -1,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 0
+			}
+		},
+		"62": {
+			"tileKey": "tile_telout",
+			"colorIndex": 1,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 2
+			}
+		}
+	},
+	"level_rogue4_4-9": {
+		"60": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 0
+			}
+		},
+		"71": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 11
+			}
+		}
+	},
+	"level_rogue4_5-4": {
+		"46": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 10
+			}
+		},
+		"90": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 6
+			}
+		}
+	},
+	"level_rogue4_5-5": {
+		"15": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 2
+			}
+		},
+		"51": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 12
+			}
+		}
+	},
+	"level_rogue4_5-6": {
+		"68": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 8
+			}
+		},
+		"98": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 2
+			}
+		}
+	},
+	"level_rogue4_5-7": {
+		"1": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 1
+			}
+		},
+		"16": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 4
+			}
+		},
+		"92": {
+			"tileKey": "tile_telin",
+			"colorIndex": -1,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 8
+			}
+		},
+		"94": {
+			"tileKey": "tile_telout",
+			"colorIndex": -1,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 10
+			}
+		}
+	},
+	"level_rogue4_5-8": {
+		"20": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 8
+			}
+		},
+		"29": {
+			"tileKey": "tile_telout",
+			"colorIndex": 2,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 5
+			}
+		},
+		"74": {
+			"tileKey": "tile_telin",
+			"colorIndex": 2,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 2
+			}
+		},
+		"90": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 6
+			}
+		}
+	},
+	"level_rogue4_5-9": {
+		"13": {
+			"tileKey": "tile_telout",
+			"colorIndex": 2,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 1
+			}
+		},
+		"32": {
+			"tileKey": "tile_telin",
+			"colorIndex": 2,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 8
+			}
+		},
+		"44": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 8
+			}
+		},
+		"80": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 8
+			}
+		}
+	},
+	"level_rogue4_7-1": {
+		"16": {
+			"tileKey": "tile_telin",
+			"colorIndex": 1,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 4
+			}
+		},
+		"29": {
+			"tileKey": "tile_telin",
+			"colorIndex": 3,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 5
+			}
+		},
+		"35": {
+			"tileKey": "tile_telout",
+			"colorIndex": 1,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 11
+			}
+		},
+		"42": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 6
+			}
+		},
+		"47": {
+			"tileKey": "tile_telout",
+			"colorIndex": 3,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 11
+			}
+		},
+		"55": {
+			"tileKey": "tile_telin",
+			"colorIndex": -1,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 7
+			}
+		},
+		"59": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 11
+			}
+		},
+		"71": {
+			"tileKey": "tile_telout",
+			"colorIndex": -1,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 2,
+				"col": 11
+			}
+		}
+	},
+	"level_rogue4_7-2": {
+		"59": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 11
+			}
+		},
+		"81": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 2,
+				"col": 9
+			}
+		}
+	},
+	"level_rogue4_b-1-b": {
+		"16": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 3
+			}
+		},
+		"87": {
+			"tileKey": "tile_telin",
+			"colorIndex": -1,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 9
+			}
+		},
+		"96": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 5
+			}
+		},
+		"97": {
+			"tileKey": "tile_telout",
+			"colorIndex": -1,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 6
+			}
+		}
+	},
+	"level_rogue4_b-1": {
+		"16": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 3
+			}
+		},
+		"87": {
+			"tileKey": "tile_telin",
+			"colorIndex": -1,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 9
+			}
+		},
+		"96": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 5
+			}
+		},
+		"97": {
+			"tileKey": "tile_telout",
+			"colorIndex": -1,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 6
+			}
+		}
+	},
+	"level_rogue4_b-2-b": {
+		"30": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 6
+			}
+		},
+		"74": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 2
+			}
+		}
+	},
+	"level_rogue4_b-2": {
+		"30": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 6
+			}
+		},
+		"74": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 2
+			}
+		}
+	},
+	"level_rogue4_b-3-b": {
+		"34": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 10
+			}
+		},
+		"90": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 6
+			}
+		}
+	},
+	"level_rogue4_b-3": {
+		"34": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 10
+			}
+		},
+		"90": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 6
+			}
+		}
+	},
+	"level_rogue4_b-4-b": {
+		"19": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 6
+			}
+		},
+		"24": {
+			"tileKey": "tile_telout",
+			"colorIndex": 2,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 11
+			}
+		},
+		"105": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 1
+			}
+		},
+		"115": {
+			"tileKey": "tile_telin",
+			"colorIndex": 2,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 11
+			}
+		}
+	},
+	"level_rogue4_b-4-c": {
+		"14": {
+			"tileKey": "tile_telout",
+			"colorIndex": -1,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 1
+			}
+		},
+		"19": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 6
+			}
+		},
+		"105": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 1
+			}
+		},
+		"115": {
+			"tileKey": "tile_telin",
+			"colorIndex": -1,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 11
+			}
+		}
+	},
+	"level_rogue4_b-4-d": {
+		"19": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 6
+			}
+		},
+		"24": {
+			"tileKey": "tile_telout",
+			"colorIndex": 2,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 11
+			}
+		},
+		"105": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 1
+			}
+		},
+		"115": {
+			"tileKey": "tile_telin",
+			"colorIndex": 2,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 11
+			}
+		}
+	},
+	"level_rogue4_b-4": {
+		"14": {
+			"tileKey": "tile_telout",
+			"colorIndex": -1,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 1
+			}
+		},
+		"19": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 6
+			}
+		},
+		"105": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 1
+			}
+		},
+		"115": {
+			"tileKey": "tile_telin",
+			"colorIndex": -1,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 11
+			}
+		}
+	},
+	"level_rogue4_b-6": {
+		"23": {
+			"tileKey": "tile_telout",
+			"colorIndex": 3,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 10
+			}
+		},
+		"32": {
+			"tileKey": "tile_telin",
+			"colorIndex": -1,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 6
+			}
+		},
+		"35": {
+			"tileKey": "tile_telout",
+			"colorIndex": -1,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 9
+			}
+		},
+		"71": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 6
+			}
+		},
+		"74": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 9
+			}
+		},
+		"105": {
+			"tileKey": "tile_telin",
+			"colorIndex": 3,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 1
+			}
+		}
+	},
+	"level_rogue4_b-7": {
+		"109": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 9
+			}
+		},
+		"181": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 6
+			}
+		}
+	},
+	"level_rogue4_b-8": {
+		"98": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 26
+			}
+		},
+		"286": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 34
+			}
+		}
+	},
+	"level_rogue4_t-1": {
+		"43": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 10
+			}
+		},
+		"65": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 10
+			}
+		}
+	},
+	"level_rogue4_t-2": {
+		"5": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 5
+			}
+		},
+		"46": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 2
+			}
+		}
+	},
+	"level_rogue4_t-6": {
+		"14": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 1
+			}
+		},
+		"20": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 7
+			}
+		},
+		"22": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 9
+			}
+		},
+		"92": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 1
+			}
+		},
+		"96": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 5
+			}
+		},
+		"100": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 9
+			}
+		}
+	},
+	"level_rogue4_t-7": {
+		"23": {
+			"tileKey": "tile_telin",
+			"colorIndex": -1,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 11
+			}
+		},
+		"44": {
+			"tileKey": "tile_telout",
+			"colorIndex": -1,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 8
+			}
+		},
+		"76": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 4
+			}
+		},
+		"86": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 2
+			}
+		}
+	},
+	"level_rogue4_t-8": {
+		"23": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 1
+			}
+		},
+		"65": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 10
+			}
+		}
+	},
+	"level_rogue5_1-1": {
+		"18": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 8
+			}
+		},
+		"24": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 4
+			}
+		},
+		"25": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 5
+			}
+		},
+		"33": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 3
+			}
+		},
+		"36": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 6
+			}
+		},
+		"43": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 3
+			}
+		},
+		"46": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 6
+			}
+		},
+		"54": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 2,
+				"col": 4
+			}
+		},
+		"55": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 2,
+				"col": 5
+			}
+		},
+		"68": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 8
+			}
+		}
+	},
+	"level_rogue5_1-4": {
+		"19": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 8
+			}
+		},
+		"40": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 7
+			}
+		}
+	},
+	"level_rogue5_2-4": {
+		"9": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 0
+			}
+		},
+		"27": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 0
+			}
+		},
+		"35": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 8
+			}
+		},
+		"53": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 8
+			}
+		}
+	},
+	"level_rogue5_2-6": {
+		"10": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 0
+			}
+		},
+		"58": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 8
+			}
+		}
+	},
+	"level_rogue5_3-2": {
+		"55": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 0
+			}
+		},
+		"65": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 10
+			}
+		}
+	},
+	"level_rogue5_4-3": {
+		"15": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 3
+			}
+		},
+		"17": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 5
+			}
+		}
+	},
+	"level_rogue5_4-4": {
+		"10": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 0
+			}
+		},
+		"60": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 2,
+				"col": 0
+			}
+		},
+		"67": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 2,
+				"col": 7
+			}
+		},
+		"71": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 1
+			}
+		}
+	},
+	"level_rogue5_4-5": {
+		"15": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 3
+			}
+		},
+		"16": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 4
+			}
+		},
+		"91": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 7
+			}
+		},
+		"92": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 8
+			}
+		}
+	},
+	"level_rogue5_4-6": {
+		"15": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 4
+			}
+		},
+		"37": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 4
+			}
+		},
+		"39": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 6
+			}
+		},
+		"59": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 2,
+				"col": 4
+			}
+		},
+		"61": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 2,
+				"col": 6
+			}
+		},
+		"79": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 2
+			}
+		}
+	},
+	"level_rogue5_5-1": {
+		"15": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 3
+			}
+		},
+		"20": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 8
+			}
+		},
+		"80": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 8
+			}
+		}
+	},
+	"level_rogue5_5-2": {
+		"14": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 2
+			}
+		},
+		"21": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 9
+			}
+		},
+		"48": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 0
+			}
+		},
+		"59": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 11
+			}
+		},
+		"87": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 3
+			}
+		},
+		"92": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 8
+			}
+		}
+	},
+	"level_rogue5_5-3": {
+		"16": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 5
+			}
+		},
+		"18": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 7
+			}
+		},
+		"38": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 5
+			}
+		},
+		"40": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 7
+			}
+		},
+		"60": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 5
+			}
+		},
+		"62": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 7
+			}
+		}
+	},
+	"level_rogue5_5-4": {
+		"14": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 2
+			}
+		},
+		"22": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 10
+			}
+		},
+		"86": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 2
+			}
+		},
+		"94": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 10
+			}
+		}
+	},
+	"level_rogue5_5-5": {
+		"23": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 10
+			}
+		},
+		"54": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 2
+			}
+		},
+		"111": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 7
+			}
+		},
+		"112": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 8
+			}
+		}
+	},
+	"level_rogue5_6-2": {
+		"78": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 1
+			}
+		},
+		"86": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 9
+			}
+		}
+	},
+	"level_rogue5_7-1": {
+		"35": {
+			"tileKey": "tile_telin",
+			"colorIndex": -1,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 9
+			}
+		},
+		"37": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 11
+			}
+		},
+		"53": {
+			"tileKey": "tile_telout",
+			"colorIndex": -1,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 1
+			}
+		},
+		"79": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 2,
+				"col": 1
+			}
+		},
+		"113": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 9
+			}
+		},
+		"115": {
+			"tileKey": "tile_telin",
+			"colorIndex": -1,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 11
+			}
+		}
+	},
+	"level_rogue5_7-2": {
+		"32": {
+			"tileKey": "tile_telout",
+			"colorIndex": -1,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 10
+			}
+		},
+		"54": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 10
+			}
+		},
+		"76": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 10
+			}
+		},
+		"78": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 1
+			}
+		},
+		"80": {
+			"tileKey": "tile_telin",
+			"colorIndex": -1,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 3
+			}
+		},
+		"82": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 5
+			}
+		}
+	},
+	"level_rogue5_b-1-b": {
+		"12": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 0
+			}
+		},
+		"73": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 1
+			}
+		}
+	},
+	"level_rogue5_b-1": {
+		"20": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 9
+			}
+		},
+		"78": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 1
+			}
+		},
+		"80": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 3
+			}
+		}
+	},
+	"level_rogue5_b-3": {
+		"1": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 1
+			}
+		},
+		"7": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 7
+			}
+		},
+		"73": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 1
+			}
+		},
+		"79": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 7
+			}
+		}
+	},
+	"level_rogue5_b-4": {
+		"22": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 9
+			}
+		},
+		"26": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 0
+			}
+		}
+	},
+	"level_rogue5_b-4-b": {
+		"29": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 3
+			}
+		},
+		"100": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 9
+			}
+		},
+		"102": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 11
+			}
+		}
+	},
+	"level_rogue5_b-5-b": {
+		"3": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 3
+			}
+		},
+		"4": {
+			"tileKey": "tile_telin",
+			"colorIndex": 1,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 4
+			}
+		},
+		"21": {
+			"tileKey": "tile_telin",
+			"colorIndex": 2,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 6
+			}
+		},
+		"28": {
+			"tileKey": "tile_telout",
+			"colorIndex": 2,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 13
+			}
+		},
+		"91": {
+			"tileKey": "tile_telin",
+			"colorIndex": -1,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 1
+			}
+		},
+		"103": {
+			"tileKey": "tile_telout",
+			"colorIndex": -1,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 13
+			}
+		},
+		"108": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 3
+			}
+		},
+		"109": {
+			"tileKey": "tile_telout",
+			"colorIndex": 1,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 4
+			}
+		}
+	},
+	"level_rogue5_b-7": {
+		"115": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 3
+			}
+		},
+		"122": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 10
+			}
+		}
+	},
+	"level_rogue5_ev-1": {
+		"1": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 1
+			}
+		},
+		"2": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 2
+			}
+		},
+		"3": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 3
+			}
+		},
+		"80": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 8
+			}
+		},
+		"81": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 9
+			}
+		},
+		"82": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 10
+			}
+		}
+	},
+	"level_rogue5_ev-2": {
+		"22": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 10
+			}
+		},
+		"65": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 5
+			}
+		},
+		"66": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 6
+			}
+		},
+		"86": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 2
+			}
+		}
+	},
+	"level_rogue5_sv-6-b": {
+		"7": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 7
+			}
+		},
+		"55": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 1
+			}
+		}
+	},
+	"level_rogue5_sv-6": {
+		"7": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 7
+			}
+		},
+		"55": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 1
+			}
+		}
+	},
+	"level_rogue5_sv-6-b_dlc1": {
+		"7": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 7
+			}
+		},
+		"55": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 1
+			}
+		}
+	},
+	"level_rogue5_sv-6_dlc1": {
+		"7": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 7
+			}
+		},
+		"55": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 1
+			}
+		}
+	},
+	"level_rogue5_sv-7-b": {
+		"12": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 3
+			}
+		},
+		"31": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 4
+			}
+		},
+		"45": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 0
+			}
+		},
+		"53": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 8
+			}
+		}
+	},
+	"level_rogue5_sv-7": {
+		"12": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 3
+			}
+		},
+		"31": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 4
+			}
+		},
+		"45": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 0
+			}
+		},
+		"53": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 8
+			}
+		}
+	},
+	"level_rogue5_sv-7_dlc1": {
+		"12": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 3
+			}
+		},
+		"31": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 4
+			}
+		},
+		"45": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 0
+			}
+		},
+		"53": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 8
+			}
+		}
+	},
+	"level_rogue5_sv-7-b_dlc1": {
+		"12": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 3
+			}
+		},
+		"31": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 4
+			}
+		},
+		"45": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 0
+			}
+		},
+		"53": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 8
+			}
+		}
+	},
+	"level_rogue5_sv-9-b": {
+		"11": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 1
+			}
+		},
+		"65": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 5
+			}
+		}
+	},
+	"level_rogue5_sv-9-c": {
+		"11": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 1
+			}
+		},
+		"65": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 5
+			}
+		}
+	},
+	"level_rogue5_sv-9": {
+		"11": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 1
+			}
+		},
+		"65": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 5
+			}
+		}
+	},
+	"level_rogue5_sv-9_dlc1": {
+		"11": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 1
+			}
+		},
+		"65": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 5
+			}
+		}
+	},
+	"level_rogue5_sv-12": {
+		"12": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 1
+			}
+		},
+		"14": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 3
+			}
+		},
+		"16": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 5
+			}
+		},
+		"18": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 7
+			}
+		},
+		"20": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 9
+			}
+		},
+		"34": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 1
+			}
+		},
+		"36": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 3
+			}
+		},
+		"38": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 5
+			}
+		},
+		"40": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 7
+			}
+		},
+		"56": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 1
+			}
+		},
+		"58": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 3
+			}
+		},
+		"60": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 5
+			}
+		},
+		"62": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 7
+			}
+		},
+		"64": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 9
+			}
+		},
+		"78": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 1
+			}
+		},
+		"80": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 3
+			}
+		},
+		"82": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 5
+			}
+		},
+		"84": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 7
+			}
+		}
+	},
+	"level_rogue5_t-2": {
+		"13": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 2
+			}
+		},
+		"16": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 5
+			}
+		},
+		"35": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 2
+			}
+		},
+		"42": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 9
+			}
+		},
+		"57": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 2
+			}
+		},
+		"60": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 5
+			}
+		}
+	},
+	"level_rogue5_t-4": {
+		"27": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 1
+			}
+		},
+		"54": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 2
+			}
+		},
+		"79": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 2,
+				"col": 1
+			}
+		}
+	},
+	"level_rogue5_t-6": {
+		"2": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 2
+			}
+		},
+		"4": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 4
+			}
+		},
+		"6": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 6
+			}
+		},
+		"31": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 1
+			}
+		},
+		"62": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 2
+			}
+		},
+		"64": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 4
+			}
+		},
+		"66": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 6
+			}
+		}
+	},
+	"level_rogue6_1-3": {
+		"18": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 8
+			}
+		},
+		"56": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 6
+			}
+		},
+		"64": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 4
+			}
+		}
+	},
+	"level_rogue6_2-5": {
+		"7": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 7
+			}
+		},
+
+		"40": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 2,
+				"col": 0
+			}
+		}
+	},
+	"level_rogue6_3-1": {
+		"43": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 10
+			}
+		},
+		"71": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 5
+			}
+		}
+	},
+	"level_rogue6_3-2": {
+		"23": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 11
+			}
+		},
+		"26": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 2
+			}
+		},
+		"35": {
+			"tileKey": "tile_telout",
+			"colorIndex": -1,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 11
+			}
+		},
+		"44": {
+			"tileKey": "tile_telin",
+			"colorIndex": -1,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 8
+			}
+		}
+	},
+	"level_rogue6_3-3": {
+		"69": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 3
+			}
+		},
+		"75": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 9
+			}
+		}
+	},
+	"level_rogue6_3-4": {
+		"6": {
+			"tileKey": "tile_telout",
+			"colorIndex": -1,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 6
+			}
+		},
+		"8": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 8
+			}
+		},
+		"50": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 6
+			}
+		},
+		"52": {
+			"tileKey": "tile_telin",
+			"colorIndex": -1,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 8
+			}
+		}
+	},
+	"level_rogue6_3-6": {
+		"40": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 7
+			}
+		},
+		"78": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 1
+			}
+		}
+	},
+	"level_rogue6_4-2": {
+		"14": {
+			"tileKey": "tile_telout",
+			"colorIndex": 2,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 1
+			}
+		},
+		"17": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 4
+			}
+		},
+		"22": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 9
+			}
+		},
+		"24": {
+			"tileKey": "tile_telin",
+			"colorIndex": 1,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 11
+			}
+		},
+		"53": {
+			"tileKey": "tile_telin",
+			"colorIndex": 2,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 1
+			}
+		},
+		"84": {
+			"tileKey": "tile_telout",
+			"colorIndex": 1,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 6
+			}
+		}
+	},
+
+	"level_rogue6_4-3": {
+		"12": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 1
+			}
+		},
+		"20": {
+			"tileKey": "tile_telin",
+			"colorIndex": -1,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 9
+			}
+		},
+		"81": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 4
+			}
+		},
+		"83": {
+			"tileKey": "tile_telout",
+			"colorIndex": -1,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 6
+			}
+		}
+	},
+	"level_rogue6_4-4": {
+		"4": {
+			"tileKey": "tile_telin",
+			"colorIndex": -1,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 4
+			}
+		},
+		"66": {
+			"tileKey": "tile_telin",
+			"colorIndex": -1,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 0
+			}
+		},
+		"76": {
+			"tileKey": "tile_telin",
+			"colorIndex": 1,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 10
+			}
+		},
+		"78": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 1
+			}
+		},
+		"81": {
+			"tileKey": "tile_telout",
+			"colorIndex": 1,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 4
+			}
+		},
+		"86": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 9
+			}
+		}
+	},
+	"level_rogue6_4-5": {
+		"5": {
+			"tileKey": "tile_telout",
+			"colorIndex": 1,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 5
+			}
+		},
+		"8": {
+			"tileKey": "tile_telout",
+			"colorIndex": 2,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 8
+			}
+		},
+		"15": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 3
+			}
+		},
+		"18": {
+			"tileKey": "tile_telin",
+			"colorIndex": -1,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 6
+			}
+		},
+		"75": {
+			"tileKey": "tile_telin",
+			"colorIndex": 1,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 3
+			}
+		},
+		"78": {
+			"tileKey": "tile_telin",
+			"colorIndex": 2,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 6
+			}
+		},
+		"89": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 5
+			}
+		},
+		"92": {
+			"tileKey": "tile_telout",
+			"colorIndex": -1,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 8
+			}
+		}
+	},
+	"level_rogue6_4-6": {
+		"26": {
+			"tileKey": "tile_telin",
+			"colorIndex": 1,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 2
+			}
+		},
+		"33": {
+			"tileKey": "tile_telout",
+			"colorIndex": 2,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 9
+			}
+		},
+		"49": {
+			"tileKey": "tile_telout",
+			"colorIndex": 1,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 1
+			}
+		},
+		"82": {
+			"tileKey": "tile_telin",
+			"colorIndex": 2,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 10
+			}
+		}
+	},
+	"level_rogue6_4-7": {
+		"1": {
+			"tileKey": "tile_telout",
+			"colorIndex": 2,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 1
+			}
+		},
+		"94": {
+			"tileKey": "tile_telin",
+			"colorIndex": 2,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 10
+			}
+		}
+	},
+	"level_rogue6_5-1": {
+		"34": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 10
+			}
+		},
+		"87": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 3
+			}
+		},
+		"89": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 5
+			}
+		},
+		"91": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 7
+			}
+		}
+	},
+	"level_rogue6_5-3": {
+		"18": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 7
+			}
+		},
+		"35": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 2
+			}
+		},
+		"40": {
+			"tileKey": "tile_telout",
+			"colorIndex": -1,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 7
+			}
+		},
+		"62": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 7
+			}
+		}
+	},
+	"level_rogue6_5-5": {
+		"1": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 1
+			}
+		},
+		"4": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 4
+			}
+		},
+		"45": {
+			"tileKey": "tile_telout",
+			"colorIndex": -1,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 6
+			}
+		},
+		"51": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 12
+			}
+		},
+		"58": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 6
+			}
+		},
+		"64": {
+			"tileKey": "tile_telin",
+			"colorIndex": -1,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 12
+			}
+		}
+	},
+	"level_rogue6_5-6": {
+		"25": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 12
+			}
+		},
+		"78": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 0
+			}
+		}
+	},
+	"level_rogue6_5-7": {
+		"23": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 10
+			}
+		},
+		"58": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 6
+			}
+		},
+		"79": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 1
+			}
+		},
+		"80": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 2
+			}
+		}
+	},
+	"level_rogue6_6-1": {
+		"18": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 5
+			}
+		},
+		"99": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 8
+			}
+		}
+	},
+	"level_rogue6_6-2": {
+		"40": {
+			"tileKey": "tile_telout",
+			"colorIndex": 1,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 1
+			}
+		},
+		"47": {
+			"tileKey": "tile_telin",
+			"colorIndex": 1,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 8
+			}
+		},
+		"66": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 1
+			}
+		},
+		"73": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 8
+			}
+		}
+	},
+	"level_rogue6_b-1-b": {
+		"12": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 1
+			}
+		},
+		"71": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 5
+			}
+		}
+	},
+	"level_rogue6_b-1": {
+		"1": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "down",
+			"type": "arrow",
+			"position": {
+				"row": 7,
+				"col": 1
+			}
+		},
+		"37": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 4
+			}
+		},
+		"78": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 1
+			}
+		},
+		"86": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 9
+			}
+		}
+	},
+	"level_rogue6_b-3-b": {
+		"44": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 0
+			}
+		},
+		"84": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 7
+			}
+		}
+	},
+	"level_rogue6_b-4": {
+		"71": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 11
+			}
+		},
+		"84": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 0
+			}
+		}
+	},
+	"level_rogue6_b-5": {
+		"28": {
+			"tileKey": "tile_telout",
+			"colorIndex": -1,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 2
+			}
+		},
+		"36": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 10
+			}
+		},
+		"58": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 6
+			}
+		},
+		"91": {
+			"tileKey": "tile_telin",
+			"colorIndex": -1,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 0
+			}
+		},
+		"103": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 12
+			}
+		}
+	},
+	"level_rogue6_c-1-b": {
+		"35": {
+			"tileKey": "tile_telout",
+			"colorIndex": 1,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 5
+			}
+		},
+		"62": {
+			"tileKey": "tile_telin",
+			"colorIndex": 1,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 2
+			}
+		}
+	},
+	"level_rogue6_c-1-c": {
+		"35": {
+			"tileKey": "tile_telout",
+			"colorIndex": 1,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 5
+			}
+		},
+		"62": {
+			"tileKey": "tile_telin",
+			"colorIndex": 1,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 2
+			}
+		}
+	},
+	"level_rogue6_c-1": {
+		"35": {
+			"tileKey": "tile_telout",
+			"colorIndex": 1,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 5
+			}
+		},
+		"62": {
+			"tileKey": "tile_telin",
+			"colorIndex": 1,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 2
+			}
+		}
+	},
+	"level_rogue6_c-3": {
+		"11": {
+			"tileKey": "tile_telin",
+			"colorIndex": -1,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 0
+			}
+		},
+		"21": {
+			"tileKey": "tile_telin",
+			"colorIndex": -1,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 10
+			}
+		},
+		"26": {
+			"tileKey": "tile_telout",
+			"colorIndex": -1,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 4
+			}
+		},
+		"48": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 2,
+				"col": 4
+			}
+		},
+		"55": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 0
+			}
+		},
+		"65": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 10
+			}
+		}
+	},
+	"level_rogue6_c-5": {
+		"33": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 7
+			}
+		},
+		"92": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "up",
+			"type": "arrow",
+			"position": {
+				"row": 0,
+				"col": 1
+			}
+		}
+	},
+	"level_rogue6_c-6": {
+		"45": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 9
+			}
+		},
+		"84": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 0
+			}
+		}
+	},
+	"level_rogue6_t-3": {
+		"66": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 0
+			}
+		},
+		"76": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 10
+			}
+		}
+	},
+	"level_rogue6_t-4": {
+		"23": {
+			"tileKey": "tile_telout",
+			"colorIndex": 1,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 5,
+				"col": 11
+			}
+		},
+		"36": {
+			"tileKey": "tile_telin",
+			"colorIndex": 1,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 0
+			}
+		},
+		"39": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 3
+			}
+		},
+		"44": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 8
+			}
+		},
+		"60": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 0
+			}
+		}
+	},
+	"level_rogue6_t-6": {
+		"12": {
+			"tileKey": "tile_telout",
+			"colorIndex": -1,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 6,
+				"col": 0
+			}
+		},
+		"36": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 0
+			}
+		},
+		"40": {
+			"tileKey": "tile_telin",
+			"colorIndex": -1,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 4
+			}
+		},
+		"72": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 1,
+				"col": 0
+			}
+		}
+	},
+	"level_rogue6_t-9-b": {
+		"36": {
+			"tileKey": "tile_telin",
+			"colorIndex": 1,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 0
+			}
+		},
+		"47": {
+			"tileKey": "tile_telout",
+			"colorIndex": 1,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 11
+			}
+		},
+		"48": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 0
+			}
+		},
+		"59": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 11
+			}
+		}
+	},
+	"level_rogue6_t-9-c": {
+		"36": {
+			"tileKey": "tile_telin",
+			"colorIndex": 1,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 0
+			}
+		},
+		"47": {
+			"tileKey": "tile_telout",
+			"colorIndex": 1,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 11
+			}
+		},
+		"48": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 0
+			}
+		},
+		"59": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 11
+			}
+		}
+	},
+	"level_rogue6_t-9": {
+		"36": {
+			"tileKey": "tile_telin",
+			"colorIndex": 1,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 0
+			}
+		},
+		"47": {
+			"tileKey": "tile_telout",
+			"colorIndex": 1,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 4,
+				"col": 11
+			}
+		},
+		"48": {
+			"tileKey": "tile_telin",
+			"colorIndex": 0,
+			"direction": "left",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 0
+			}
+		},
+		"59": {
+			"tileKey": "tile_telout",
+			"colorIndex": 0,
+			"direction": "right",
+			"type": "arrow",
+			"position": {
+				"row": 3,
+				"col": 11
+			}
+		}
+	}
 }
