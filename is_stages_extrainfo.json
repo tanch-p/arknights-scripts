@@ -37426,5 +37426,6812 @@
 				"max_count": 6
 			}
 		]
+	},
+	"level_rogue6_b-1": {
+		"id": "ro6_b_1",
+		"levelId": "level_rogue6_b-1",
+		"code": "ISW-NO",
+		"name_zh": "铁腕迷思",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [3],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [30],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_1143_merrpg",
+				"min_count": 9,
+				"max_count": 9
+			},
+			{
+				"key": "enemy_1140_merhd",
+				"min_count": 16,
+				"max_count": 16
+			},
+			{
+				"key": "enemy_1141_merbow",
+				"min_count": 3,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_2138_shdbjg",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_1144_merlgd",
+				"min_count": 1,
+				"max_count": 1
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue6_b-1-b": {
+		"id": "ro6_b_1_b",
+		"levelId": "level_rogue6_b-1-b",
+		"code": "ISW-NO",
+		"name_zh": "哀悼铁腕",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [3],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [38],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_2139_shdbj2",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_1024_mortar",
+				"min_count": 5,
+				"max_count": 5
+			},
+			{
+				"key": "enemy_1325_cbgpro",
+				"min_count": 17,
+				"max_count": 17
+			},
+			{
+				"key": "enemy_2134_shrshep",
+				"min_count": 3,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_2133_shdopl_b",
+				"min_count": 2,
+				"max_count": 2
+			},
+			{
+				"key": "enemy_1256_lyacpa",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_2133_shdopl",
+				"min_count": 9,
+				"max_count": 9
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue6_b-2": {
+		"id": "ro6_b_2",
+		"levelId": "level_rogue6_b-2",
+		"code": "ISW-NO",
+		"name_zh": "光荣远征",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [3],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [28],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_2142_shsggd",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_10048_prtsld",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_2133_shdopl_b",
+				"min_count": 8,
+				"max_count": 8
+			},
+			{
+				"key": "enemy_2133_shdopl_c",
+				"min_count": 2,
+				"max_count": 2
+			},
+			{
+				"key": "enemy_10043_sailor",
+				"min_count": 12,
+				"max_count": 12
+			},
+			{
+				"key": "enemy_2140_shsgzd",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_10047_shrknt",
+				"min_count": 2,
+				"max_count": 2
+			},
+			{
+				"key": "enemy_10044_wintun",
+				"min_count": 2,
+				"max_count": 2
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue6_b-2-b": {
+		"id": "ro6_b_2_b",
+		"levelId": "level_rogue6_b-2-b",
+		"code": "ISW-NO",
+		"name_zh": "赤金厄运",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [3],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [23],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_1073_dscout_2",
+				"min_count": 2,
+				"max_count": 2
+			},
+			{
+				"key": "enemy_2141_shsgz2",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_1074_dbskar_2",
+				"min_count": 6,
+				"max_count": 6
+			},
+			{
+				"key": "enemy_1075_dmgswd_2",
+				"min_count": 8,
+				"max_count": 8
+			},
+			{
+				"key": "enemy_1072_dlancer",
+				"min_count": 6,
+				"max_count": 6
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue6_b-3": {
+		"id": "ro6_b_3",
+		"levelId": "level_rogue6_b-3",
+		"code": "ISW-NO",
+		"name_zh": "狂热敬虔",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [3],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [24],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": [
+			{
+				"tileKey": "tile_hole",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": null
+			}
+		],
+		"enemy_list": [
+			{
+				"key": "enemy_2143_shwksc",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_1335_bldrat",
+				"min_count": 8,
+				"max_count": 8
+			},
+			{
+				"key": "enemy_1098_cchmpn",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_1270_nhstlk",
+				"min_count": 9,
+				"max_count": 9
+			},
+			{
+				"key": "enemy_1098_cchmpn_2",
+				"min_count": 2,
+				"max_count": 2
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue6_b-3-b": {
+		"id": "ro6_b_3_b",
+		"levelId": "level_rogue6_b-3-b",
+		"code": "ISW-NO",
+		"name_zh": "冰冷流亡",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [3],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [34],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_2144_shwks2",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_1064_snsbr",
+				"min_count": 10,
+				"max_count": 10
+			},
+			{
+				"key": "enemy_1067_snslime",
+				"min_count": 3,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1068_snmage",
+				"min_count": 7,
+				"max_count": 7
+			},
+			{
+				"key": "enemy_10144_xdelk_2",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_1193_krgbsk",
+				"min_count": 5,
+				"max_count": 5
+			},
+			{
+				"key": "enemy_1191_krgrg",
+				"min_count": 4,
+				"max_count": 4
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue6_b-4": {
+		"id": "ro6_b_4",
+		"levelId": "level_rogue6_b-4",
+		"code": "ISW-DF",
+		"name_zh": "永无安宁",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [5],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [85],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": [
+			{
+				"tileKey": "tile_hole",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": null
+			}
+		],
+		"enemy_list": [
+			{
+				"key": "enemy_1000_gopro_3",
+				"min_count": 32,
+				"max_count": 32
+			},
+			{
+				"key": "enemy_2135_shkrbt",
+				"min_count": 16,
+				"max_count": 16
+			},
+			{
+				"key": "enemy_2134_shrshep",
+				"min_count": 14,
+				"max_count": 14
+			},
+			{
+				"key": "enemy_2136_shcolo",
+				"min_count": 3,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10084_hlegle",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_2145_cadejo",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_2137_shsdgo",
+				"min_count": 12,
+				"max_count": 12
+			},
+			{
+				"key": "enemy_2146_cadesd",
+				"min_count": 3,
+				"max_count": 3
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue6_b-4-b": {
+		"id": "ro6_b_4_b",
+		"levelId": "level_rogue6_b-4-b",
+		"code": "ISW-DF",
+		"name_zh": "痛苦将息",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [5],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [74],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_2133_shdopl1",
+				"min_count": 8,
+				"max_count": 8
+			},
+			{
+				"key": "enemy_1292_duskld_2",
+				"min_count": 5,
+				"max_count": 5
+			},
+			{
+				"key": "enemy_1270_nhstlk_2",
+				"min_count": 9,
+				"max_count": 9
+			},
+			{
+				"key": "enemy_2133_shdopl",
+				"min_count": 30,
+				"max_count": 30
+			},
+			{
+				"key": "enemy_10077_mpbarr_2",
+				"min_count": 2,
+				"max_count": 2
+			},
+			{
+				"key": "enemy_2145_cadejo",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_1176_dusocr_2",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_2137_shsdgo",
+				"min_count": 12,
+				"max_count": 12
+			},
+			{
+				"key": "enemy_2146_cadesd",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_2146_cadesd_2",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_2146_cadesd_3",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_10085_hllevi_2",
+				"min_count": 3,
+				"max_count": 3
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue6_b-5": {
+		"id": "ro6_b_5",
+		"levelId": "level_rogue6_b-5",
+		"code": "ISW-DF",
+		"name_zh": "混沌源阶理论",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [5],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [58],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_2148_shorbb",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_1331_cbsisy_2",
+				"min_count": 8,
+				"max_count": 8
+			},
+			{
+				"key": "enemy_2147_shophm",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_1256_lyacpa_2",
+				"min_count": 2,
+				"max_count": 2
+			},
+			{
+				"key": "enemy_1254_lypa_2",
+				"min_count": 6,
+				"max_count": 6
+			},
+			{
+				"key": "enemy_2149_shorsm",
+				"min_count": 40,
+				"max_count": 40
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue6_b-6": {
+		"id": "ro6_b_6",
+		"levelId": "level_rogue6_b-6",
+		"code": "ISW-DF",
+		"name_zh": "畸症",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [6],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [101, 102],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_2133_shdopl_d",
+				"min_count": 0,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_2150_shchmr",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_2133_shdopl_b",
+				"min_count": 15,
+				"max_count": 15
+			},
+			{
+				"key": "enemy_2135_shkrbt",
+				"min_count": 21,
+				"max_count": 21
+			},
+			{
+				"key": "enemy_1309_mhboar_2",
+				"min_count": 6,
+				"max_count": 6
+			},
+			{
+				"key": "enemy_10084_hlegle_2",
+				"min_count": 30,
+				"max_count": 30
+			},
+			{
+				"key": "enemy_1350_mgcshp_2",
+				"min_count": 14,
+				"max_count": 14
+			},
+			{
+				"key": "enemy_10086_hltigr_2",
+				"min_count": 9,
+				"max_count": 9
+			},
+			{
+				"key": "enemy_2136_shcolo",
+				"min_count": 5,
+				"max_count": 5
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue6_t-1": {
+		"id": "ro6_t_1",
+		"levelId": "level_rogue6_t-1",
+		"code": "ISW-NO",
+		"name_zh": "陌生旅伴",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [1],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [16],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_1047_sagent",
+				"min_count": 2,
+				"max_count": 2
+			},
+			{
+				"key": "enemy_10001_trslim",
+				"min_count": 13,
+				"max_count": 13
+			},
+			{
+				"key": "enemy_2034_sythef",
+				"min_count": 1,
+				"max_count": 1
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue6_t-2": {
+		"id": "ro6_t_2",
+		"levelId": "level_rogue6_t-2",
+		"code": "ISW-NO",
+		"name_zh": "安保措施",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [2, 3],
+		"addInfo_zh": [
+			"最上沙滩车对应中间目标，中间沙滩车对应最下目标，最下沙滩车对应中间目标。"
+		],
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [6],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": [
+			{
+				"tileKey": "tile_hole",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": null
+			}
+		],
+		"enemy_list": [
+			{
+				"key": "enemy_2085_skzjxd",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_2133_shdopl",
+				"min_count": 2,
+				"max_count": 2
+			},
+			{
+				"key": "enemy_1263_durbus",
+				"min_count": 3,
+				"max_count": 3
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue6_t-3": {
+		"id": "ro6_t_3",
+		"levelId": "level_rogue6_t-3",
+		"code": "ISW-NO",
+		"name_zh": "开业剪彩",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [3, 4],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+20%，防御力+20%，生命值+20%",
+			"战场最上方一行初始额外出现2个聆风猎手，战斗中期上方侵入点中会额外出现鸭爵"
+		],
+		"eliteDesc_ja": ["敵全員の攻撃力+20%、防御力+20%、最大HP+20%", "<system>"],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% DEF, +20% Max HP",
+			"<system>"
+		],
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": [
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "def",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.2,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "hard"
+					}
+				]
+			}
+		],
+		"enemy_counts": [31],
+		"sp_count": null,
+		"elite_enemy_counts": [34],
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_2135_shkrbt",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_10164_tjgxb",
+				"min_count": 8,
+				"max_count": 8
+			},
+			{
+				"key": "enemy_1000_gopro_2",
+				"min_count": 18,
+				"max_count": 18
+			},
+			{
+				"key": "enemy_2002_bearmi",
+				"min_count": 1,
+				"max_count": 1
+			}
+		],
+		"elite_enemy_list": [
+			{
+				"key": "enemy_2135_shkrbt",
+				"min_count": 6,
+				"max_count": 6
+			},
+			{
+				"key": "enemy_10164_tjgxb",
+				"min_count": 8,
+				"max_count": 8
+			},
+			{
+				"key": "enemy_1000_gopro_2",
+				"min_count": 18,
+				"max_count": 18
+			},
+			{
+				"key": "enemy_2002_bearmi",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_2001_duckmi",
+				"min_count": 1,
+				"max_count": 1
+			}
+		]
+	},
+	"level_rogue6_t-4": {
+		"id": "ro6_t_4",
+		"levelId": "level_rogue6_t-4",
+		"code": "ISW-NO",
+		"name_zh": "合伙人会议",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [5, 6],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+20%，防御力+20%，生命值+20%",
+			"相较于普通作战，最后额外出现圆仔x1，圆仔(空值体)x7，“萨科塔昂首”x2，撼地遗众x2，精锐圣堂剑士x5 "
+		],
+		"eliteDesc_ja": ["敵全員の攻撃力+20%、防御力+20%、最大HP+20%", "<system>"],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% DEF, +20% Max HP",
+			"<system>"
+		],
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": [
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "def",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.2,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "raid"
+					}
+				]
+			}
+		],
+		"enemy_counts": [62],
+		"sp_count": null,
+		"elite_enemy_counts": [79],
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_2133_shdopl_3",
+				"min_count": 12,
+				"max_count": 12
+			},
+			{
+				"key": "enemy_2001_duckmi",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_2136_shcolo",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_10162_mnctpt",
+				"min_count": 5,
+				"max_count": 5
+			},
+			{
+				"key": "enemy_2133_shdopl_2",
+				"min_count": 2,
+				"max_count": 2
+			},
+			{
+				"key": "enemy_10087_hlchgr_2",
+				"min_count": 8,
+				"max_count": 8
+			},
+			{
+				"key": "enemy_2002_bearmi",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_2133_shdopl_4",
+				"min_count": 10,
+				"max_count": 10
+			},
+			{
+				"key": "enemy_2135_shkrbt",
+				"min_count": 8,
+				"max_count": 8
+			},
+			{
+				"key": "enemy_2034_sythef",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_2133_shdopl",
+				"min_count": 7,
+				"max_count": 7
+			},
+			{
+				"key": "enemy_2134_shrshep",
+				"min_count": 5,
+				"max_count": 5
+			},
+			{
+				"key": "enemy_2139_shdbj2",
+				"min_count": 1,
+				"max_count": 1
+			}
+		],
+		"elite_enemy_list": [
+			{
+				"key": "enemy_2133_shdopl_3",
+				"min_count": 12,
+				"max_count": 12
+			},
+			{
+				"key": "enemy_2001_duckmi",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_2136_shcolo",
+				"min_count": 3,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10162_mnctpt",
+				"min_count": 5,
+				"max_count": 5
+			},
+			{
+				"key": "enemy_2133_shdopl_2",
+				"min_count": 2,
+				"max_count": 2
+			},
+			{
+				"key": "enemy_10087_hlchgr_2",
+				"min_count": 13,
+				"max_count": 13
+			},
+			{
+				"key": "enemy_2002_bearmi",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_2133_shdopl_4",
+				"min_count": 10,
+				"max_count": 10
+			},
+			{
+				"key": "enemy_2135_shkrbt",
+				"min_count": 8,
+				"max_count": 8
+			},
+			{
+				"key": "enemy_2034_sythef",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_2133_shdopl",
+				"min_count": 7,
+				"max_count": 7
+			},
+			{
+				"key": "enemy_2134_shrshep",
+				"min_count": 5,
+				"max_count": 5
+			},
+			{
+				"key": "enemy_2139_shdbj2",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_2085_skzjxd",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_2133_shdopl_5",
+				"min_count": 7,
+				"max_count": 7
+			},
+			{
+				"key": "enemy_10085_hllevi_2",
+				"min_count": 2,
+				"max_count": 2
+			}
+		]
+	},
+	"level_rogue6_t-5": {
+		"id": "ro6_t_5",
+		"levelId": "level_rogue6_t-5",
+		"code": "ISW-NO",
+		"name_zh": "湖中魇",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [3, 4, 5, 6],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+20%，防御力+20%，生命值+50%",
+			"额外出现街头火舞明星x8"
+		],
+		"eliteDesc_ja": ["敵全員の攻撃力+20%、防御力+20%、最大HP+50%", ""],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% DEF, +50% Max HP",
+			""
+		],
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": [
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "def",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.5,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "raid"
+					}
+				]
+			}
+		],
+		"enemy_counts": [8],
+		"sp_count": null,
+		"elite_enemy_counts": [16],
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_10033_cnvbsk",
+				"min_count": 8,
+				"max_count": 8
+			}
+		],
+		"elite_enemy_list": [
+			{
+				"key": "enemy_10033_cnvbsk",
+				"min_count": 8,
+				"max_count": 8
+			},
+			{
+				"key": "enemy_10033_cnvbsk_2",
+				"min_count": 8,
+				"max_count": 8
+			}
+		]
+	},
+	"level_rogue6_t-6": {
+		"id": "ro6_t_6",
+		"levelId": "level_rogue6_t-6",
+		"code": "ISW-NO",
+		"name_zh": "死箱",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [1, 2, 3],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [28],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_10196_ubba",
+				"min_count": 2,
+				"max_count": 2
+			},
+			{
+				"key": "enemy_2153_shcan",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_1246_aslime_2",
+				"min_count": 18,
+				"max_count": 18
+			},
+			{
+				"key": "enemy_2133_shdopl",
+				"min_count": 3,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_2134_shrshep",
+				"min_count": 4,
+				"max_count": 4
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue6_t-7": {
+		"id": "ro6_t_7",
+		"levelId": "level_rogue6_t-7",
+		"code": "ISW-NO",
+		"name_zh": "活木",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [4, 5, 6],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [5],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_2153_shcan",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_10071_ftprg_2",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_10071_ftprg_2_b",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_10071_ftprg_2_c",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_10071_ftprg_2_d",
+				"min_count": 1,
+				"max_count": 1
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue6_t-8": {
+		"id": "ro6_t_8",
+		"levelId": "level_rogue6_t-8",
+		"code": "ISW-NO",
+		"name_zh": "强买强卖",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [2, 3],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [31],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": [
+			{
+				"tileKey": "tile_hole",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": null
+			}
+		],
+		"enemy_list": [
+			{
+				"key": "enemy_10073_mpcar",
+				"min_count": 21,
+				"max_count": 21
+			},
+			{
+				"key": "enemy_10077_mpbarr",
+				"min_count": 3,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10075_mpwrj",
+				"min_count": 7,
+				"max_count": 7
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue6_t-8-b": {
+		"id": "ro6_t_8_b",
+		"levelId": "level_rogue6_t-8-b",
+		"code": "ISW-NO",
+		"name_zh": "强买强卖",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [2, 3],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [24],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": [
+			{
+				"tileKey": "tile_hole",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": null
+			}
+		],
+		"enemy_list": [
+			{
+				"key": "enemy_1152_dsurch",
+				"min_count": 2,
+				"max_count": 2
+			},
+			{
+				"key": "enemy_1147_dshond",
+				"min_count": 11,
+				"max_count": 11
+			},
+			{
+				"key": "enemy_1148_dssbr",
+				"min_count": 8,
+				"max_count": 8
+			},
+			{
+				"key": "enemy_1153_dsexcu",
+				"min_count": 3,
+				"max_count": 3
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue6_t-8-c": {
+		"id": "ro6_t_8_c",
+		"levelId": "level_rogue6_t-8-c",
+		"code": "ISW-NO",
+		"name_zh": "强买强卖",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [2, 3],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [20],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": [
+			{
+				"tileKey": "tile_hole",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": null
+			}
+		],
+		"enemy_list": [
+			{
+				"key": "enemy_2133_shdopl",
+				"min_count": 8,
+				"max_count": 8
+			},
+			{
+				"key": "enemy_1390_dhsbr",
+				"min_count": 8,
+				"max_count": 8
+			},
+			{
+				"key": "enemy_1392_dhshld",
+				"min_count": 4,
+				"max_count": 4
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue6_t-9": {
+		"id": "ro6_t_9",
+		"levelId": "level_rogue6_t-9",
+		"code": "ISW-NO",
+		"name_zh": "进退趋同",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [4, 5, 6],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [38],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": [
+			{
+				"tileKey": "tile_hole",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": null
+			}
+		],
+		"enemy_list": [
+			{
+				"key": "enemy_1439_dslntf_2",
+				"min_count": 6,
+				"max_count": 6
+			},
+			{
+				"key": "enemy_1433_dsbasi_2",
+				"min_count": 20,
+				"max_count": 20
+			},
+			{
+				"key": "enemy_1436_dsdivi_2",
+				"min_count": 12,
+				"max_count": 12
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue6_t-9-b": {
+		"id": "ro6_t_9_b",
+		"levelId": "level_rogue6_t-9-b",
+		"code": "ISW-NO",
+		"name_zh": "进退趋同",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [4, 5, 6],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [30],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": [
+			{
+				"tileKey": "tile_hole",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": null
+			}
+		],
+		"enemy_list": [
+			{
+				"key": "enemy_10089_hlsprt",
+				"min_count": 6,
+				"max_count": 6
+			},
+			{
+				"key": "enemy_10126_rkbomb_2",
+				"min_count": 16,
+				"max_count": 16
+			},
+			{
+				"key": "enemy_3010_mcreep",
+				"min_count": 2,
+				"max_count": 2
+			},
+			{
+				"key": "enemy_1214_mtrmgc_2",
+				"min_count": 8,
+				"max_count": 8
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue6_t-9-c": {
+		"id": "ro6_t_9_c",
+		"levelId": "level_rogue6_t-9-c",
+		"code": "ISW-NO",
+		"name_zh": "进退趋同",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [4, 5, 6],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [34],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": [
+			{
+				"tileKey": "tile_hole",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": null
+			}
+		],
+		"enemy_list": [
+			{
+				"key": "enemy_10081_mpplai",
+				"min_count": 14,
+				"max_count": 14
+			},
+			{
+				"key": "enemy_1270_nhstlk",
+				"min_count": 16,
+				"max_count": 16
+			},
+			{
+				"key": "enemy_10159_mntrjn",
+				"min_count": 4,
+				"max_count": 4
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue6_t-10": {
+		"id": "ro6_t_10",
+		"levelId": "level_rogue6_t-10",
+		"code": "ISW-NO",
+		"name_zh": "枯枝",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [2, 3],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [1],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": [
+			{
+				"tileKey": "tile_hole",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": null
+			},
+			{
+				"tileKey": "tile_infection",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": {
+					"damage": 200.0,
+					"atk": 0.3,
+					"attack_speed": 30.0,
+					"duration": 300.0
+				}
+			}
+		],
+		"enemy_list": [
+			{
+				"key": "enemy_1074_dbskar",
+				"min_count": 1,
+				"max_count": 1
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue6_t-11": {
+		"id": "ro6_t_11",
+		"levelId": "level_rogue6_t-11",
+		"code": "ISW-NO",
+		"name_zh": "败叶",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [3, 4, 5, 6],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [6],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": [
+			{
+				"tileKey": "tile_hole",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": null
+			},
+			{
+				"tileKey": "tile_infection",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": {
+					"damage": 100.0,
+					"atk": 0.5,
+					"attack_speed": 50.0,
+					"duration": 300.0
+				}
+			}
+		],
+		"enemy_list": [
+			{
+				"key": "enemy_1074_dbskar_2",
+				"min_count": 6,
+				"max_count": 6
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue6_t-12": {
+		"id": "ro6_t_12",
+		"levelId": "level_rogue6_t-12",
+		"code": "ISW-NO",
+		"name_zh": "无效验尸",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [3, 4, 5],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [55],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": [
+			{
+				"tileKey": "tile_healing",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": {
+					"HP_RECOVERY_PER_SEC_BY_MAX_HP_RATIO": 0.03
+				}
+			}
+		],
+		"enemy_list": [
+			{
+				"key": "enemy_1285_sgwlf",
+				"min_count": 5,
+				"max_count": 5
+			},
+			{
+				"key": "enemy_2133_shdopl",
+				"min_count": 23,
+				"max_count": 23
+			},
+			{
+				"key": "enemy_2133_shdopl_a",
+				"min_count": 5,
+				"max_count": 5
+			},
+			{
+				"key": "enemy_1277_sgman_2",
+				"min_count": 11,
+				"max_count": 11
+			},
+			{
+				"key": "enemy_1280_sgmag_2",
+				"min_count": 6,
+				"max_count": 6
+			},
+			{
+				"key": "enemy_2151_shwolf",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_2137_shsdgo",
+				"min_count": 4,
+				"max_count": 4
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue6_c-5": {
+		"id": "ro6_c_5",
+		"levelId": "level_rogue6_c-5",
+		"code": "ISW-NO",
+		"name_zh": "“闹乐”",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [4, 5, 6],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [19],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_1351_yhhshp",
+				"min_count": 14,
+				"max_count": 14
+			},
+			{
+				"key": "enemy_1350_mgcshp",
+				"min_count": 6,
+				"max_count": 6
+			},
+			{
+				"key": "enemy_1545_shpkg",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_1344_ddlamb",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_1346_ynshp",
+				"min_count": 2,
+				"max_count": 2
+			},
+			{
+				"key": "enemy_1347_fyshp",
+				"min_count": 6,
+				"max_count": 6
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue6_c-6": {
+		"id": "ro6_c_6",
+		"levelId": "level_rogue6_c-6",
+		"code": "ISW-NO",
+		"name_zh": "“纵怒”",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [4, 5, 6],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [36],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_10035_cnvdnc_2",
+				"min_count": 9,
+				"max_count": 9
+			},
+			{
+				"key": "enemy_1535_wlfmster",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_1277_sgman_2",
+				"min_count": 12,
+				"max_count": 12
+			},
+			{
+				"key": "enemy_10034_cnvsax_2",
+				"min_count": 8,
+				"max_count": 8
+			},
+			{
+				"key": "enemy_1278_sgbow_2",
+				"min_count": 6,
+				"max_count": 6
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue6_c-7": {
+		"id": "ro6_c_7",
+		"levelId": "level_rogue6_c-7",
+		"code": "ISW-NO",
+		"name_zh": "“灭身”",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [4, 5, 6],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [65],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_1571_mirbst",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_10126_rkbomb_2",
+				"min_count": 22,
+				"max_count": 22
+			},
+			{
+				"key": "enemy_3001_upeopl",
+				"min_count": 25,
+				"max_count": 25
+			},
+			{
+				"key": "enemy_2137_shsdgo",
+				"min_count": 15,
+				"max_count": 15
+			},
+			{
+				"key": "enemy_2133_shdopl",
+				"min_count": 2,
+				"max_count": 2
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue6_d-1": {
+		"id": "ro6_duel_1",
+		"levelId": "level_rogue6_d-1",
+		"code": "ISW-NO",
+		"name_zh": "搏杀",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [2, 3, 4],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [9],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": [
+			{
+				"tileKey": "tile_volcano",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": {
+					"damage": 2000.0,
+					"cd_min": 4.0,
+					"cd_max": 8.0
+				}
+			},
+			{
+				"tileKey": "tile_bigforce",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": {
+					"base_force_level": 2.0
+				}
+			}
+		],
+		"enemy_list": [
+			{
+				"key": "enemy_1001_bigbo_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1005_yokai_3",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1089_ltlntc_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1235_dsbskr_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1309_mhboar_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1320_wdrrl_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1359_ekulsr_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1362_dfat_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10019_sgmum_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10086_hltigr_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10118_ymgprc",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1283_sgkill_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10108_mjclun_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10123_uareap_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_2001_duckmi",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_2002_bearmi",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1152_dsurch_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10144_xdelk_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1114_rgrdmn_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1063_rageth",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1194_krgmtr",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1350_mgcshp_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_2034_sythef",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1273_stmgun",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1356_egun_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10116_ymgtop_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1412_mmjump_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10054_cjhot",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_2010_csdcr",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_2023_sypult",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10114_ymgsld",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_2030_symon2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10104_mjcbln_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10126_rkbomb_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1206_msfpin_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1191_krgrg_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10146_nscola_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_2134_shrshep",
+				"min_count": 0,
+				"max_count": 3
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue6_d-2": {
+		"id": "ro6_duel_2",
+		"levelId": "level_rogue6_d-2",
+		"code": "ISW-NO",
+		"name_zh": "共斗",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [4, 5, 6],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [9],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": [
+			{
+				"tileKey": "tile_infection",
+				"alias": null,
+				"heightType": "HIGHLAND",
+				"blackboard": {
+					"damage": 100.0,
+					"atk": 0.5,
+					"attack_speed": 50.0,
+					"duration": 300.0
+				}
+			}
+		],
+		"enemy_list": [
+			{
+				"key": "enemy_2134_shrshep",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10077_mpbarr_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_2010_csdcr",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1022_dmage",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10065_ftzlc_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10164_tjgxb_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_2012_csbln",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_2101_dyspll",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10089_hlsprt_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1103_wdkght_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_2009_csaudc",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10079_mpmage",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10067_ftsjc",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10165_tjggb_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_2017_csphts",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_2104_dycast",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_2023_sypult",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_2135_shkrbt",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10151_nspace",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1385_winbom_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1402_tgshd_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10035_cnvdnc_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1311_mhkryk_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1134_diamd_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1359_ekulsr_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10098_crhro_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_2025_syufo",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1073_dscout_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10150_nsheat",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1388_wingnt_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1404_msnip_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10034_cnvsax_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1306_mhtrtl_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1507_mephi",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1356_egun_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10099_crvln_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_2137_shsdgo",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_2031_syboy",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10123_uareap_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10162_mnctpt_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_2015_csicem",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1427_lrnazg_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1092_mdgint",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1415_mmkabi",
+				"min_count": 0,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_2001_duckmi",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1322_wdgyht",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10086_hltigr_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_2136_shcolo",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_2032_syboy2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10125_uacomd_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10163_mnctur_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_2014_csicer",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1430_lrrook_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1511_mdrock",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_2051_smsha2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1419_mmcike",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_2002_bearmi",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10085_hllevi_2",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_2004_balloon",
+				"min_count": 0,
+				"max_count": 2
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue6_c-1": {
+		"id": "ro6_c_1",
+		"levelId": "level_rogue6_c-1",
+		"code": "ISW-NO",
+		"name_zh": "血夜回魂",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [1],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [17],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_1277_sgman",
+				"min_count": 10,
+				"max_count": 10
+			},
+			{
+				"key": "enemy_1281_sgcar",
+				"min_count": 5,
+				"max_count": 5
+			},
+			{
+				"key": "enemy_2137_shsdgo",
+				"min_count": 2,
+				"max_count": 2
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue6_c-1-b": {
+		"id": "ro6_c_1_b",
+		"levelId": "level_rogue6_c-1-b",
+		"code": "ISW-NO",
+		"name_zh": "毛绒游戏",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [1],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [19],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_1344_ddlamb",
+				"min_count": 9,
+				"max_count": 9
+			},
+			{
+				"key": "enemy_1345_tplamb",
+				"min_count": 7,
+				"max_count": 7
+			},
+			{
+				"key": "enemy_1348_rllamb",
+				"min_count": 3,
+				"max_count": 3
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue6_c-1-c": {
+		"id": "ro6_c_1_c",
+		"levelId": "level_rogue6_c-1-c",
+		"code": "ISW-NO",
+		"name_zh": "在劫难逃",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [1],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [20],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_1078_sotisc",
+				"min_count": 10,
+				"max_count": 10
+			},
+			{
+				"key": "enemy_1078_sotisc_2",
+				"min_count": 3,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1082_soticn",
+				"min_count": 3,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10127_rkmbst",
+				"min_count": 4,
+				"max_count": 4
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue6_c-2": {
+		"id": "ro6_c_2",
+		"levelId": "level_rogue6_c-2",
+		"code": "ISW-NO",
+		"name_zh": "咩的朋友",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [2],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [28, 29],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_1303_mhshep",
+				"min_count": 18,
+				"max_count": 19
+			},
+			{
+				"key": "enemy_1344_ddlamb",
+				"min_count": 10,
+				"max_count": 10
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue6_c-3": {
+		"id": "ro6_c_3",
+		"levelId": "level_rogue6_c-3",
+		"code": "ISW-NO",
+		"name_zh": "外显尖牙",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [2],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [35],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": [
+			{
+				"tileKey": "tile_grass",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": null
+			}
+		],
+		"enemy_list": [
+			{
+				"key": "enemy_1280_sgmag_2",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_1056_ganwar",
+				"min_count": 15,
+				"max_count": 15
+			},
+			{
+				"key": "enemy_1056_ganwar_2",
+				"min_count": 8,
+				"max_count": 8
+			},
+			{
+				"key": "enemy_1284_sgprst",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_2133_shdopl_a",
+				"min_count": 7,
+				"max_count": 7
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue6_c-4": {
+		"id": "ro6_c_4",
+		"levelId": "level_rogue6_c-4",
+		"code": "ISW-NO",
+		"name_zh": "一视同仁",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [2],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": null,
+		"eliteDesc_ja": null,
+		"eliteDesc_en": null,
+		"all_mods": [
+			{
+				"targets": ["trap_097_hstone"],
+				"mods": [
+					{
+						"key": "hp",
+						"value": 10.0,
+						"mode": "mul"
+					}
+				]
+			}
+		],
+		"normal_mods": null,
+		"elite_mods": null,
+		"enemy_counts": [20],
+		"sp_count": null,
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": null,
+		"sp_terrain": [
+			{
+				"tileKey": "tile_hole",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": null
+			}
+		],
+		"enemy_list": [
+			{
+				"key": "enemy_1571_mirbst",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_2133_shdopl",
+				"min_count": 3,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_2134_shrshep",
+				"min_count": 10,
+				"max_count": 10
+			},
+			{
+				"key": "enemy_2136_shcolo",
+				"min_count": 6,
+				"max_count": 6
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue6_1-1": {
+		"id": "ro6_n_1_1",
+		"levelId": "level_rogue6_1-1",
+		"code": "ISW-NO",
+		"name_zh": "猎犬病原",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [1],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+20%，生命值+40%",
+			"屠夫替换为雇佣军萨卡兹术师"
+		],
+		"eliteDesc_ja": ["敵全員の攻撃力+20%、最大HP+40%", "<system>"],
+		"eliteDesc_en": ["All enemy units have +20% ATK, +40% Max HP", "<system>"],
+		"all_mods": null,
+		"normal_mods": [
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "normal"
+					}
+				]
+			}
+		],
+		"elite_mods": [
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.4,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "raid"
+					}
+				]
+			}
+		],
+		"enemy_counts": [15],
+		"sp_count": [16],
+		"elite_enemy_counts": [14],
+		"elite_sp_count": [15],
+		"sp_enemy": {
+			"normal": "16",
+			"elite": "15"
+		},
+		"sp_terrain": [
+			{
+				"tileKey": "tile_hole",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": null
+			}
+		],
+		"enemy_list": [
+			{
+				"key": "enemy_2133_shdopl",
+				"min_count": 12,
+				"max_count": 12
+			},
+			{
+				"key": "enemy_1034_laxe",
+				"min_count": 2,
+				"max_count": 2
+			},
+			{
+				"key": "enemy_1085_sotiwz_3",
+				"min_count": 1,
+				"max_count": 1
+			}
+		],
+		"elite_enemy_list": [
+			{
+				"key": "enemy_2133_shdopl",
+				"min_count": 11,
+				"max_count": 11
+			},
+			{
+				"key": "enemy_1085_sotiwz_3",
+				"min_count": 3,
+				"max_count": 3
+			}
+		]
+	},
+	"level_rogue6_1-2": {
+		"id": "ro6_n_1_2",
+		"levelId": "level_rogue6_1-2",
+		"code": "ISW-NO",
+		"name_zh": "遗忘时间",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [1],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+20%，防御力+20%，生命值+50%",
+			"初始出现4个雷遁忍者"
+		],
+		"eliteDesc_ja": ["敵全員の攻撃力+20%、防御力+20%、最大HP+50%", "<system>"],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% DEF, +50% Max HP",
+			"<system>"
+		],
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": [
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "def",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.5,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "raid"
+					}
+				]
+			}
+		],
+		"enemy_counts": [18],
+		"sp_count": [19],
+		"elite_enemy_counts": [22],
+		"elite_sp_count": [23],
+		"sp_enemy": {
+			"normal": "19",
+			"elite": "23"
+		},
+		"sp_terrain": [
+			{
+				"tileKey": "tile_hole",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": null
+			}
+		],
+		"enemy_list": [
+			{
+				"key": "enemy_1093_ccsbr",
+				"min_count": 10,
+				"max_count": 10
+			},
+			{
+				"key": "enemy_1095_ccripr",
+				"min_count": 2,
+				"max_count": 2
+			},
+			{
+				"key": "enemy_10113_ymgung",
+				"min_count": 6,
+				"max_count": 6
+			}
+		],
+		"elite_enemy_list": [
+			{
+				"key": "enemy_10113_ymgung",
+				"min_count": 10,
+				"max_count": 10
+			},
+			{
+				"key": "enemy_1093_ccsbr",
+				"min_count": 10,
+				"max_count": 10
+			},
+			{
+				"key": "enemy_1095_ccripr",
+				"min_count": 2,
+				"max_count": 2
+			}
+		]
+	},
+	"level_rogue6_1-3": {
+		"id": "ro6_n_1_3",
+		"levelId": "level_rogue6_1-3",
+		"code": "ISW-NO",
+		"name_zh": "急不可耐",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [1],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+20%，防御力+20%，生命值+20%",
+			"初始出现1个内测版自助出餐终端"
+		],
+		"eliteDesc_ja": ["敵全員の攻撃力+20%、防御力+20%、最大HP+20%", "<system>"],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% DEF, +20% Max HP",
+			"<system>"
+		],
+		"all_mods": [
+			{
+				"targets": ["enemy_10081_mpplai"],
+				"special": {
+					"mods_1": [
+						{
+							"key": "hp",
+							"value": 2500,
+							"mode": "add",
+							"order": "initial"
+						},
+						{
+							"key": "atk",
+							"value": 400,
+							"mode": "add",
+							"order": "initial"
+						},
+						{
+							"key": "def",
+							"value": 100,
+							"mode": "add",
+							"order": "initial"
+						},
+						{
+							"key": "res",
+							"value": 20,
+							"mode": "add",
+							"order": "initial"
+						},
+						{
+							"key": "ms",
+							"value": -0.55,
+							"mode": "add",
+							"order": "initial"
+						},
+						{
+							"key": "atk_interval",
+							"value": 1.3,
+							"mode": "add",
+							"order": "final"
+						},
+						{
+							"key": "weight",
+							"value": 1,
+							"mode": "add",
+							"order": "initial"
+						}
+					],
+					"mods_2": [
+						{
+							"key": "hp",
+							"value": 2000,
+							"mode": "add",
+							"order": "initial"
+						},
+						{
+							"key": "atk",
+							"value": 200,
+							"mode": "add",
+							"order": "initial"
+						},
+						{
+							"key": "def",
+							"value": -200,
+							"mode": "add",
+							"order": "initial"
+						},
+						{
+							"key": "res",
+							"value": 30,
+							"mode": "add",
+							"order": "initial"
+						},
+						{
+							"key": "ms",
+							"value": -0.4,
+							"mode": "add",
+							"order": "initial"
+						},
+						{
+							"key": "atk_interval",
+							"value": 3.0,
+							"mode": "add",
+							"order": "final"
+						},
+						{
+							"key": "weight",
+							"value": 1,
+							"mode": "add",
+							"order": "initial"
+						}
+					]
+				}
+			}
+		],
+		"normal_mods": null,
+		"elite_mods": [
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "def",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.2,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "hard"
+					}
+				]
+			}
+		],
+		"enemy_counts": [15],
+		"sp_count": [16],
+		"elite_enemy_counts": [16],
+		"elite_sp_count": [17],
+		"sp_enemy": {
+			"normal": "16",
+			"elite": "17"
+		},
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_10081_mpplai",
+				"min_count": 6,
+				"max_count": 6
+			},
+			{
+				"key": "enemy_10073_mpcar",
+				"min_count": 9,
+				"max_count": 9
+			}
+		],
+		"elite_enemy_list": [
+			{
+				"key": "enemy_10081_mpplai",
+				"min_count": 6,
+				"max_count": 6
+			},
+			{
+				"key": "enemy_10073_mpcar",
+				"min_count": 9,
+				"max_count": 9
+			},
+			{
+				"key": "enemy_10077_mpbarr",
+				"min_count": 1,
+				"max_count": 1
+			}
+		]
+	},
+	"level_rogue6_1-4": {
+		"id": "ro6_n_1_4",
+		"levelId": "level_rogue6_1-4",
+		"code": "ISW-NO",
+		"name_zh": "灌水贤者",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [1],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+20%，防御力+20%，生命值+20%",
+			"炮手替换为炮击组长"
+		],
+		"eliteDesc_ja": ["敵全員の攻撃力+20%、防御力+20%、最大HP+20%", "<system>"],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% DEF, +20% Max HP",
+			"<system>"
+		],
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": [
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "def",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.2,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_enemy_replace",
+						"target": "enemy_1024_mortar",
+						"value": "enemy_1024_mortar_2"
+					}
+				]
+			}
+		],
+		"enemy_counts": [16, 17, 18],
+		"sp_count": [19],
+		"elite_enemy_counts": [16, 17, 18],
+		"elite_sp_count": [19],
+		"sp_enemy": {
+			"normal": "19",
+			"elite": null
+		},
+		"sp_terrain": [
+			{
+				"tileKey": "tile_grass",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": null
+			},
+			{
+				"tileKey": "tile_grass",
+				"alias": null,
+				"heightType": "HIGHLAND",
+				"blackboard": null
+			}
+		],
+		"enemy_list": [
+			{
+				"key": "enemy_2134_shrshep",
+				"min_count": 11,
+				"max_count": 13
+			},
+			{
+				"key": "enemy_1024_mortar",
+				"min_count": 5,
+				"max_count": 5
+			}
+		],
+		"elite_enemy_list": [
+			{
+				"key": "enemy_2134_shrshep",
+				"min_count": 11,
+				"max_count": 13
+			},
+			{
+				"key": "enemy_1024_mortar_2",
+				"min_count": 5,
+				"max_count": 5
+			}
+		]
+	},
+	"level_rogue6_2-1": {
+		"id": "ro6_n_2_1",
+		"levelId": "level_rogue6_2-1",
+		"code": "ISW-NO",
+		"name_zh": "虫虫游戏厅",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [2],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+20%，生命值+30%，防御力+20%",
+			"地图左上和左下角各额外出现1个压力舒缓帮手(装置) "
+		],
+		"eliteDesc_ja": ["敵全員の攻撃力+20%、最大HP+30%、防御力+20%", "<system>"],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +30% Max HP, +20% DEF",
+			"<system>"
+		],
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": [
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.3,
+						"mode": "mul"
+					},
+					{
+						"key": "def",
+						"value": 1.2,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "raid"
+					}
+				]
+			}
+		],
+		"enemy_counts": [65, 71, 77, 83],
+		"sp_count": [66, 72, 78, 84],
+		"elite_enemy_counts": [65, 71, 77, 83],
+		"elite_sp_count": [66, 72, 78, 84],
+		"sp_enemy": {
+			"normal": "66 / 72 / 78 / 84",
+			"elite": null
+		},
+		"sp_terrain": [
+			{
+				"tileKey": "tile_hole",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": null
+			}
+		],
+		"enemy_list": [
+			{
+				"key": "enemy_1246_aslime",
+				"min_count": 13,
+				"max_count": 32
+			},
+			{
+				"key": "enemy_1352_eslime",
+				"min_count": 0,
+				"max_count": 13
+			},
+			{
+				"key": "enemy_1246_aslime_2",
+				"min_count": 25,
+				"max_count": 51
+			},
+			{
+				"key": "enemy_1067_snslime",
+				"min_count": 0,
+				"max_count": 7
+			},
+			{
+				"key": "enemy_1021_bslime",
+				"min_count": 0,
+				"max_count": 14
+			},
+			{
+				"key": "enemy_1067_snslime_2",
+				"min_count": 0,
+				"max_count": 7
+			}
+		],
+		"elite_enemy_list": [
+			{
+				"key": "enemy_1246_aslime",
+				"min_count": 13,
+				"max_count": 32
+			},
+			{
+				"key": "enemy_1352_eslime",
+				"min_count": 0,
+				"max_count": 13
+			},
+			{
+				"key": "enemy_1246_aslime_2",
+				"min_count": 25,
+				"max_count": 51
+			},
+			{
+				"key": "enemy_1067_snslime",
+				"min_count": 0,
+				"max_count": 7
+			},
+			{
+				"key": "enemy_1021_bslime",
+				"min_count": 0,
+				"max_count": 14
+			},
+			{
+				"key": "enemy_1067_snslime_2",
+				"min_count": 0,
+				"max_count": 7
+			}
+		]
+	},
+	"level_rogue6_2-2": {
+		"id": "ro6_n_2_2",
+		"levelId": "level_rogue6_2-2",
+		"code": "ISW-NO",
+		"name_zh": "无主地",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [2],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+20%，防御力+20%，生命值+20%",
+			"右侧的5个暴走食虫花(空值体)替换为3个暴走食虫花"
+		],
+		"eliteDesc_ja": ["敵全員の攻撃力+20%、防御力+20%、最大HP+20%", "<system>"],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% DEF, +20% Max HP",
+			"<system>"
+		],
+		"all_mods": null,
+		"normal_mods": [
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "dog"
+					}
+				]
+			}
+		],
+		"elite_mods": [
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "def",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.2,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "flower"
+					}
+				]
+			}
+		],
+		"enemy_counts": [30, 32, 33],
+		"sp_count": [31, 34],
+		"elite_enemy_counts": [28, 30, 31],
+		"elite_sp_count": [29, 32],
+		"sp_enemy": {
+			"normal": "31 / 34",
+			"elite": "29 / 32"
+		},
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_2133_shdopl",
+				"min_count": 8,
+				"max_count": 14
+			},
+			{
+				"key": "enemy_10003_trwlpl",
+				"min_count": 0,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1094_ccspm",
+				"min_count": 7,
+				"max_count": 7
+			},
+			{
+				"key": "enemy_1093_ccsbr",
+				"min_count": 11,
+				"max_count": 11
+			},
+			{
+				"key": "enemy_1097_cclmbjk",
+				"min_count": 1,
+				"max_count": 1
+			}
+		],
+		"elite_enemy_list": [
+			{
+				"key": "enemy_2133_shdopl",
+				"min_count": 3,
+				"max_count": 9
+			},
+			{
+				"key": "enemy_10003_trwlpl",
+				"min_count": 3,
+				"max_count": 6
+			},
+			{
+				"key": "enemy_1094_ccspm",
+				"min_count": 7,
+				"max_count": 7
+			},
+			{
+				"key": "enemy_1093_ccsbr",
+				"min_count": 11,
+				"max_count": 11
+			},
+			{
+				"key": "enemy_1097_cclmbjk",
+				"min_count": 1,
+				"max_count": 1
+			}
+		]
+	},
+	"level_rogue6_2-3": {
+		"id": "ro6_n_2_3",
+		"levelId": "level_rogue6_2-3",
+		"code": "ISW-NO",
+		"name_zh": "本性难移",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [2],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+20%，防御力+20%，生命值+20%",
+			"除最上方的萨卡兹魔剑士(空值体)均替换为萨卡兹魔剑士",
+			"萨卡兹百夫长(空值体)替换为萨卡兹百夫长"
+		],
+		"eliteDesc_ja": ["敵全員の攻撃力+20%、防御力+20%、最大HP+20%", "<system>"],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% DEF, +20% Max HP",
+			"<system>"
+		],
+		"all_mods": null,
+		"normal_mods": [
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "normal"
+					}
+				]
+			}
+		],
+		"elite_mods": [
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "def",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.2,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "raid"
+					}
+				]
+			}
+		],
+		"enemy_counts": [27, 28],
+		"sp_count": [29],
+		"elite_enemy_counts": [27, 28],
+		"elite_sp_count": [29],
+		"sp_enemy": {
+			"normal": "29",
+			"elite": null
+		},
+		"sp_terrain": [
+			{
+				"tileKey": "tile_hole",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": null
+			}
+		],
+		"enemy_list": [
+			{
+				"key": "enemy_2133_shdopl_sword",
+				"min_count": 6,
+				"max_count": 8
+			},
+			{
+				"key": "enemy_1075_dmgswd",
+				"min_count": 0,
+				"max_count": 2
+			},
+			{
+				"key": "enemy_2133_shdopl",
+				"min_count": 2,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1073_dscout",
+				"min_count": 2,
+				"max_count": 2
+			},
+			{
+				"key": "enemy_2133_shdopl_lancer",
+				"min_count": 10,
+				"max_count": 10
+			},
+			{
+				"key": "enemy_2133_shdopl_mpmage",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_2133_shdopl_demonk",
+				"min_count": 1,
+				"max_count": 1
+			}
+		],
+		"elite_enemy_list": [
+			{
+				"key": "enemy_2133_shdopl_sword",
+				"min_count": 0,
+				"max_count": 2
+			},
+			{
+				"key": "enemy_1075_dmgswd",
+				"min_count": 6,
+				"max_count": 8
+			},
+			{
+				"key": "enemy_2133_shdopl",
+				"min_count": 2,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1073_dscout",
+				"min_count": 2,
+				"max_count": 2
+			},
+			{
+				"key": "enemy_2133_shdopl_lancer",
+				"min_count": 10,
+				"max_count": 10
+			},
+			{
+				"key": "enemy_2133_shdopl_mpmage",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_1501_demonk",
+				"min_count": 1,
+				"max_count": 1
+			}
+		]
+	},
+	"level_rogue6_2-4": {
+		"id": "ro6_n_2_4",
+		"levelId": "level_rogue6_2-4",
+		"code": "ISW-NO",
+		"name_zh": "远北猎场",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [2],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+20%，防御力+20%，生命值+20%",
+			"左下的3只颂水贤者改为梯形行进"
+		],
+		"eliteDesc_ja": ["<system>", "敵全員の攻撃力+20%、防御力+20%、最大HP+20%"],
+		"eliteDesc_en": [
+			"<system>",
+			"All enemy units have +20% ATK, +20% DEF, +20% Max HP"
+		],
+		"all_mods": null,
+		"normal_mods": [
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "norm"
+					}
+				]
+			}
+		],
+		"elite_mods": [
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "raid"
+					}
+				]
+			},
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "def",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.2,
+						"mode": "mul"
+					}
+				]
+			}
+		],
+		"enemy_counts": [21],
+		"sp_count": [22],
+		"elite_enemy_counts": [21],
+		"elite_sp_count": [22],
+		"sp_enemy": {
+			"normal": "22",
+			"elite": null
+		},
+		"sp_terrain": [
+			{
+				"tileKey": "tile_hole",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": null
+			}
+		],
+		"enemy_list": [
+			{
+				"key": "enemy_1108_uterer",
+				"min_count": 11,
+				"max_count": 11
+			},
+			{
+				"key": "enemy_2134_shrshep",
+				"min_count": 8,
+				"max_count": 8
+			},
+			{
+				"key": "enemy_10126_rkbomb",
+				"min_count": 2,
+				"max_count": 2
+			}
+		],
+		"elite_enemy_list": [
+			{
+				"key": "enemy_1108_uterer",
+				"min_count": 11,
+				"max_count": 11
+			},
+			{
+				"key": "enemy_2134_shrshep",
+				"min_count": 8,
+				"max_count": 8
+			},
+			{
+				"key": "enemy_10126_rkbomb",
+				"min_count": 2,
+				"max_count": 2
+			}
+		]
+	},
+	"level_rogue6_2-5": {
+		"id": "ro6_n_2_5",
+		"levelId": "level_rogue6_2-5",
+		"code": "ISW-NO",
+		"name_zh": "枝头陷阱",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [2],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+10%，防御力+10%，生命值+40%",
+			"初始下方出现2个灼藤"
+		],
+		"eliteDesc_ja": ["敵全員の攻撃力+10%、防御力+10%、最大HP+40%", "<system>"],
+		"eliteDesc_en": [
+			"All enemy units have +10% ATK, +10% DEF, +40% Max HP",
+			"<system>"
+		],
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": [
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.1,
+						"mode": "mul"
+					},
+					{
+						"key": "def",
+						"value": 1.1,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.4,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "raid"
+					}
+				]
+			}
+		],
+		"enemy_counts": [24, 25, 26],
+		"sp_count": [27],
+		"elite_enemy_counts": [26, 27, 28],
+		"elite_sp_count": [29],
+		"sp_enemy": {
+			"normal": "27",
+			"elite": "29"
+		},
+		"sp_terrain": [
+			{
+				"tileKey": "tile_hole",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": null
+			}
+		],
+		"enemy_list": [
+			{
+				"key": "enemy_2135_shkrbt",
+				"min_count": 2,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_10066_ftxjl_2",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_10065_ftzlc",
+				"min_count": 12,
+				"max_count": 12
+			},
+			{
+				"key": "enemy_10064_ftyzss",
+				"min_count": 6,
+				"max_count": 6
+			}
+		],
+		"elite_enemy_list": [
+			{
+				"key": "enemy_2135_shkrbt",
+				"min_count": 2,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_10066_ftxjl_2",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_10067_ftsjc",
+				"min_count": 2,
+				"max_count": 2
+			},
+			{
+				"key": "enemy_10065_ftzlc",
+				"min_count": 12,
+				"max_count": 12
+			},
+			{
+				"key": "enemy_10064_ftyzss",
+				"min_count": 6,
+				"max_count": 6
+			}
+		]
+	},
+	"level_rogue6_3-1": {
+		"id": "ro6_n_3_1",
+		"levelId": "level_rogue6_3-1",
+		"code": "ISW-NO",
+		"name_zh": "预算否决",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [3],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+20%，防御力+20%，生命值+20%",
+			"风情街“满天飞空员”变为风情街“满天飞空员”(组合) "
+		],
+		"eliteDesc_ja": ["敵全員の攻撃力+20%、防御力+20%、最大HP+20%", "<system>"],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% DEF, +20% Max HP",
+			"<system>"
+		],
+		"all_mods": null,
+		"normal_mods": [
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "normal"
+					}
+				]
+			}
+		],
+		"elite_mods": [
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "def",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.2,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "hard"
+					}
+				]
+			}
+		],
+		"enemy_counts": [38],
+		"sp_count": [39],
+		"elite_enemy_counts": [38],
+		"elite_sp_count": [39],
+		"sp_enemy": {
+			"normal": "39",
+			"elite": null
+		},
+		"sp_terrain": [
+			{
+				"tileKey": "tile_hole",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": null
+			}
+		],
+		"enemy_list": [
+			{
+				"key": "enemy_2135_shkrbt",
+				"min_count": 9,
+				"max_count": 9
+			},
+			{
+				"key": "enemy_2133_shdopl",
+				"min_count": 9,
+				"max_count": 9
+			},
+			{
+				"key": "enemy_1263_durbus_2",
+				"min_count": 13,
+				"max_count": 13
+			},
+			{
+				"key": "enemy_1347_fyshp_2_b",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_1263_durbus",
+				"min_count": 3,
+				"max_count": 3
+			}
+		],
+		"elite_enemy_list": [
+			{
+				"key": "enemy_2135_shkrbt",
+				"min_count": 9,
+				"max_count": 9
+			},
+			{
+				"key": "enemy_2133_shdopl",
+				"min_count": 9,
+				"max_count": 9
+			},
+			{
+				"key": "enemy_1263_durbus_2",
+				"min_count": 13,
+				"max_count": 13
+			},
+			{
+				"key": "enemy_1347_fyshp_2",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_1263_durbus",
+				"min_count": 3,
+				"max_count": 3
+			}
+		]
+	},
+	"level_rogue6_3-2": {
+		"id": "ro6_n_3_2",
+		"levelId": "level_rogue6_3-2",
+		"code": "ISW-NO",
+		"name_zh": "生存习性",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [3],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+20%，防御力+20%，生命值+20%",
+			"额外出现2个狂暴凶豕兽"
+		],
+		"eliteDesc_ja": ["敵全員の攻撃力+20%、防御力+20%、最大HP+20%", "<system>"],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% DEF, +20% Max HP",
+			"<system>"
+		],
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": [
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "def",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.2,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "raid"
+					}
+				]
+			}
+		],
+		"enemy_counts": [22],
+		"sp_count": [23],
+		"elite_enemy_counts": [24],
+		"elite_sp_count": [25],
+		"sp_enemy": {
+			"normal": "23",
+			"elite": "25"
+		},
+		"sp_terrain": [
+			{
+				"tileKey": "tile_hole",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": null
+			}
+		],
+		"enemy_list": [
+			{
+				"key": "enemy_1303_mhshep_2b",
+				"min_count": 7,
+				"max_count": 7
+			},
+			{
+				"key": "enemy_2133_shdopl",
+				"min_count": 6,
+				"max_count": 6
+			},
+			{
+				"key": "enemy_1307_mhrhcr_2",
+				"min_count": 8,
+				"max_count": 8
+			},
+			{
+				"key": "enemy_1309_mhboar_2",
+				"min_count": 1,
+				"max_count": 1
+			}
+		],
+		"elite_enemy_list": [
+			{
+				"key": "enemy_1303_mhshep_2b",
+				"min_count": 7,
+				"max_count": 7
+			},
+			{
+				"key": "enemy_2133_shdopl",
+				"min_count": 6,
+				"max_count": 6
+			},
+			{
+				"key": "enemy_1307_mhrhcr_2",
+				"min_count": 8,
+				"max_count": 8
+			},
+			{
+				"key": "enemy_1309_mhboar_2",
+				"min_count": 3,
+				"max_count": 3
+			}
+		]
+	},
+	"level_rogue6_3-3": {
+		"id": "ro6_n_3_3",
+		"levelId": "level_rogue6_3-3",
+		"code": "ISW-NO",
+		"name_zh": "辟路行进",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [3],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+20%，生命值+50%",
+			"爆破攻坚手的攻击力额外提升至150%",
+			"额外出现1个爆破攻坚手"
+		],
+		"eliteDesc_ja": [
+			"敵全員の攻撃力+20%、最大HP+50%",
+			"<ボンバークラッシャー>攻撃力+50%",
+			"<system>"
+		],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +50% Max HP",
+			"<Demolitionist>+50% ATK",
+			"<system>"
+		],
+		"all_mods": null,
+		"normal_mods": [
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "normal"
+					}
+				]
+			}
+		],
+		"elite_mods": [
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.5,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["enemy_1076_bsthmr"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.5,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "hard"
+					}
+				]
+			}
+		],
+		"enemy_counts": [23],
+		"sp_count": [24],
+		"elite_enemy_counts": [24],
+		"elite_sp_count": [25],
+		"sp_enemy": {
+			"normal": "24",
+			"elite": "25"
+		},
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_1108_uterer",
+				"min_count": 11,
+				"max_count": 11
+			},
+			{
+				"key": "enemy_1076_bsthmr",
+				"min_count": 3,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1113_empace",
+				"min_count": 5,
+				"max_count": 5
+			},
+			{
+				"key": "enemy_1111_ucommd",
+				"min_count": 4,
+				"max_count": 4
+			}
+		],
+		"elite_enemy_list": [
+			{
+				"key": "enemy_1108_uterer",
+				"min_count": 11,
+				"max_count": 11
+			},
+			{
+				"key": "enemy_1076_bsthmr",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_1113_empace",
+				"min_count": 5,
+				"max_count": 5
+			},
+			{
+				"key": "enemy_1111_ucommd",
+				"min_count": 4,
+				"max_count": 4
+			}
+		]
+	},
+	"level_rogue6_3-4": {
+		"id": "ro6_n_3_4",
+		"levelId": "level_rogue6_3-4",
+		"code": "ISW-NO",
+		"name_zh": "趁火打劫",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [3],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+20%，防御力+20%，生命值+50%",
+			"匪帮斧手替换为匪帮斧手头目"
+		],
+		"eliteDesc_ja": ["敵全員の攻撃力+20%、防御力+20%、最大HP+50%", "<system>"],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% DEF, +50% Max HP",
+			"<system>"
+		],
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": [
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "def",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.5,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_enemy_replace",
+						"target": "enemy_1357_erob",
+						"value": "enemy_1357_erob_2"
+					}
+				]
+			}
+		],
+		"enemy_counts": [20],
+		"sp_count": [21],
+		"elite_enemy_counts": [20],
+		"elite_sp_count": [21],
+		"sp_enemy": {
+			"normal": "21",
+			"elite": null
+		},
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_1357_erob",
+				"min_count": 5,
+				"max_count": 5
+			},
+			{
+				"key": "enemy_2133_shdopl",
+				"min_count": 8,
+				"max_count": 8
+			},
+			{
+				"key": "enemy_1353_esabr",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_2135_shkrbt",
+				"min_count": 3,
+				"max_count": 3
+			}
+		],
+		"elite_enemy_list": [
+			{
+				"key": "enemy_1357_erob_2",
+				"min_count": 5,
+				"max_count": 5
+			},
+			{
+				"key": "enemy_2133_shdopl",
+				"min_count": 8,
+				"max_count": 8
+			},
+			{
+				"key": "enemy_1353_esabr",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_2135_shkrbt",
+				"min_count": 3,
+				"max_count": 3
+			}
+		]
+	},
+	"level_rogue6_3-5": {
+		"id": "ro6_n_3_5",
+		"levelId": "level_rogue6_3-5",
+		"code": "ISW-NO",
+		"name_zh": "焦土之家",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [3],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+20%，防御力+20%，生命值+40%",
+			"初始在保护目标点下方一格出现一个汲营枯枝"
+		],
+		"eliteDesc_ja": ["敵全員の攻撃力+20%、防御力+20%、最大HP+40%", "<system>"],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% DEF, +40% Max HP",
+			"<system>"
+		],
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": [
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "def",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.4,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "raid"
+					}
+				]
+			}
+		],
+		"enemy_counts": [32, 33, 34],
+		"sp_count": [35],
+		"elite_enemy_counts": [32, 33, 34],
+		"elite_sp_count": [35],
+		"sp_enemy": {
+			"normal": "35",
+			"elite": null
+		},
+		"sp_terrain": [
+			{
+				"tileKey": "tile_volcano",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": {
+					"damage": 3000.0,
+					"cd_min": 5.0,
+					"cd_max": 10.0
+				}
+			},
+			{
+				"tileKey": "tile_hole",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": null
+			}
+		],
+		"enemy_list": [
+			{
+				"key": "enemy_1222_dpvt_2",
+				"min_count": 20,
+				"max_count": 21
+			},
+			{
+				"key": "enemy_1271_nhkodo_2",
+				"min_count": 1,
+				"max_count": 2
+			},
+			{
+				"key": "enemy_1224_dsuply_2",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_1271_nhkodo",
+				"min_count": 2,
+				"max_count": 2
+			},
+			{
+				"key": "enemy_1268_nhnrs_2",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_1226_dklord_2",
+				"min_count": 1,
+				"max_count": 1
+			}
+		],
+		"elite_enemy_list": [
+			{
+				"key": "enemy_1222_dpvt_2",
+				"min_count": 20,
+				"max_count": 21
+			},
+			{
+				"key": "enemy_1271_nhkodo_2",
+				"min_count": 1,
+				"max_count": 2
+			},
+			{
+				"key": "enemy_1224_dsuply_2",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_1271_nhkodo",
+				"min_count": 2,
+				"max_count": 2
+			},
+			{
+				"key": "enemy_1268_nhnrs_2",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_1226_dklord_2",
+				"min_count": 1,
+				"max_count": 1
+			}
+		]
+	},
+	"level_rogue6_3-6": {
+		"id": "ro6_n_3_6",
+		"levelId": "level_rogue6_3-6",
+		"code": "ISW-NO",
+		"name_zh": "黑色逆流",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [3],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+20%，生命值+50%，移动速度+50%",
+			"无敌人变动"
+		],
+		"eliteDesc_ja": [
+			"敵全員の攻撃力+20%、最大HP+50%、移動速度+50%",
+			"<system>"
+		],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +50% Max HP, +50% Movespeed",
+			"<system>"
+		],
+		"all_mods": null,
+		"normal_mods": [
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "normal"
+					}
+				]
+			}
+		],
+		"elite_mods": [
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.5,
+						"mode": "mul"
+					},
+					{
+						"key": "ms",
+						"value": 1.5,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "hard"
+					}
+				]
+			}
+		],
+		"enemy_counts": [26],
+		"sp_count": [27],
+		"elite_enemy_counts": [26],
+		"elite_sp_count": [27],
+		"sp_enemy": {
+			"normal": "27",
+			"elite": null
+		},
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_2133_shdopl_b",
+				"min_count": 8,
+				"max_count": 8
+			},
+			{
+				"key": "enemy_10107_mjcdog_2",
+				"min_count": 6,
+				"max_count": 6
+			},
+			{
+				"key": "enemy_1404_msnip_2",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_1049_eagent",
+				"min_count": 8,
+				"max_count": 8
+			}
+		],
+		"elite_enemy_list": [
+			{
+				"key": "enemy_2133_shdopl_b",
+				"min_count": 8,
+				"max_count": 8
+			},
+			{
+				"key": "enemy_10107_mjcdog_2",
+				"min_count": 6,
+				"max_count": 6
+			},
+			{
+				"key": "enemy_1404_msnip_2_b",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_1049_eagent",
+				"min_count": 8,
+				"max_count": 8
+			}
+		]
+	},
+	"level_rogue6_4-1": {
+		"id": "ro6_n_4_1",
+		"levelId": "level_rogue6_4-1",
+		"code": "ISW-NO",
+		"name_zh": "未来见闻",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [4],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+20%，防御力+20%，生命值+20%",
+			"行天救护车的生命值额外提升至150%",
+			"初始额外出现5个行天救护车"
+		],
+		"eliteDesc_ja": [
+			"<system>",
+			"敵全員の攻撃力+20%、防御力+20%、最大HP+20%",
+			"<天駆ける救急車>最大HP+50%"
+		],
+		"eliteDesc_en": [
+			"<system>",
+			"All enemy units have +20% ATK, +20% DEF, +20% Max HP",
+			"<Skystrider Ambulance>+50% Max HP"
+		],
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": [
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "raid"
+					}
+				]
+			},
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "def",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.2,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["enemy_10151_nspace_2"],
+				"mods": [
+					{
+						"key": "hp",
+						"value": 1.5,
+						"mode": "mul"
+					}
+				]
+			}
+		],
+		"enemy_counts": [36, 37],
+		"sp_count": [38],
+		"elite_enemy_counts": [41, 42],
+		"elite_sp_count": [43],
+		"sp_enemy": {
+			"normal": "38",
+			"elite": "43"
+		},
+		"sp_terrain": [
+			{
+				"tileKey": "tile_hole",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": null
+			}
+		],
+		"enemy_list": [
+			{
+				"key": "enemy_10150_nsheat_2",
+				"min_count": 5,
+				"max_count": 5
+			},
+			{
+				"key": "enemy_10146_nscola_2",
+				"min_count": 12,
+				"max_count": 13
+			},
+			{
+				"key": "enemy_2135_shkrbt",
+				"min_count": 10,
+				"max_count": 10
+			},
+			{
+				"key": "enemy_10151_nspace_2",
+				"min_count": 3,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_10147_nsbomb_2",
+				"min_count": 6,
+				"max_count": 6
+			}
+		],
+		"elite_enemy_list": [
+			{
+				"key": "enemy_10150_nsheat_2",
+				"min_count": 5,
+				"max_count": 5
+			},
+			{
+				"key": "enemy_10146_nscola_2",
+				"min_count": 12,
+				"max_count": 13
+			},
+			{
+				"key": "enemy_2135_shkrbt",
+				"min_count": 10,
+				"max_count": 10
+			},
+			{
+				"key": "enemy_10151_nspace_2",
+				"min_count": 8,
+				"max_count": 8
+			},
+			{
+				"key": "enemy_10147_nsbomb_2",
+				"min_count": 6,
+				"max_count": 6
+			}
+		]
+	},
+	"level_rogue6_4-2": {
+		"id": "ro6_n_4_2",
+		"levelId": "level_rogue6_4-2",
+		"code": "ISW-NO",
+		"name_zh": "种植园惊魂",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [4],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+30%，防御力+30%，生命值+40%",
+			"额外出现2个灰烬造物"
+		],
+		"eliteDesc_ja": ["敵全員の攻撃力+30%、防御力+30%、最大HP+40%", "<system>"],
+		"eliteDesc_en": [
+			"All enemy units have +30% ATK, +30% DEF, +40% Max HP",
+			"<system>"
+		],
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": [
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.3,
+						"mode": "mul"
+					},
+					{
+						"key": "def",
+						"value": 1.3,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.4,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "raid"
+					}
+				]
+			}
+		],
+		"enemy_counts": [40],
+		"sp_count": [41],
+		"elite_enemy_counts": [42],
+		"elite_sp_count": [43],
+		"sp_enemy": {
+			"normal": "41",
+			"elite": "43"
+		},
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_10065_ftzlc_2",
+				"min_count": 29,
+				"max_count": 29
+			},
+			{
+				"key": "enemy_10064_ftyzss_2",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_10067_ftsjc_2",
+				"min_count": 5,
+				"max_count": 5
+			},
+			{
+				"key": "enemy_10070_ftkbtt",
+				"min_count": 2,
+				"max_count": 2
+			}
+		],
+		"elite_enemy_list": [
+			{
+				"key": "enemy_10065_ftzlc_2",
+				"min_count": 29,
+				"max_count": 29
+			},
+			{
+				"key": "enemy_10064_ftyzss_2",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_10067_ftsjc_2",
+				"min_count": 5,
+				"max_count": 5
+			},
+			{
+				"key": "enemy_10070_ftkbtt",
+				"min_count": 4,
+				"max_count": 4
+			}
+		]
+	},
+	"level_rogue6_4-3": {
+		"id": "ro6_n_4_3",
+		"levelId": "level_rogue6_4-3",
+		"code": "ISW-NO",
+		"name_zh": "选边站",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [4],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+10%，防御力+20%，生命值+35%",
+			"初始额外出现1个帝国炮火中枢先兆者"
+		],
+		"eliteDesc_ja": ["敵全員の攻撃力+10%、防御力+20%、最大HP+35%", "<system>"],
+		"eliteDesc_en": [
+			"All enemy units have +10% ATK, +20% DEF, +35% Max HP",
+			"<system>"
+		],
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": [
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.1,
+						"mode": "mul"
+					},
+					{
+						"key": "def",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.35,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "raid"
+					}
+				]
+			}
+		],
+		"enemy_counts": [24],
+		"sp_count": [25],
+		"elite_enemy_counts": [25],
+		"elite_sp_count": [26],
+		"sp_enemy": {
+			"normal": "25",
+			"elite": "26"
+		},
+		"sp_terrain": [
+			{
+				"tileKey": "tile_hole",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": null
+			}
+		],
+		"enemy_list": [
+			{
+				"key": "enemy_1311_mhkryk_2",
+				"min_count": 12,
+				"max_count": 12
+			},
+			{
+				"key": "enemy_1347_fyshp_2",
+				"min_count": 12,
+				"max_count": 12
+			}
+		],
+		"elite_enemy_list": [
+			{
+				"key": "enemy_1311_mhkryk_2",
+				"min_count": 12,
+				"max_count": 12
+			},
+			{
+				"key": "enemy_1112_emppnt_2",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_1347_fyshp_2",
+				"min_count": 12,
+				"max_count": 12
+			}
+		]
+	},
+	"level_rogue6_4-4": {
+		"id": "ro6_n_4_4",
+		"levelId": "level_rogue6_4-4",
+		"code": "ISW-NO",
+		"name_zh": "诞生礼",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [4],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+20%，防御力+20%，生命值+20%",
+			"额外出现4个萨卡兹悖谬谍报官"
+		],
+		"eliteDesc_ja": ["敵全員の攻撃力+20%、防御力+20%、最大HP+20%", "<system>"],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% DEF, +20% Max HP",
+			"<system>"
+		],
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": [
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "def",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.2,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "hard"
+					}
+				]
+			}
+		],
+		"enemy_counts": [27],
+		"sp_count": [28],
+		"elite_enemy_counts": [31],
+		"elite_sp_count": [32],
+		"sp_enemy": {
+			"normal": "28",
+			"elite": "32"
+		},
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_10089_hlsprt",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_1216_cansld",
+				"min_count": 5,
+				"max_count": 5
+			},
+			{
+				"key": "enemy_1212_mtrfol",
+				"min_count": 14,
+				"max_count": 14
+			},
+			{
+				"key": "enemy_10088_hlsnip",
+				"min_count": 4,
+				"max_count": 4
+			}
+		],
+		"elite_enemy_list": [
+			{
+				"key": "enemy_10089_hlsprt",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_1216_cansld",
+				"min_count": 5,
+				"max_count": 5
+			},
+			{
+				"key": "enemy_1317_wdexg",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_1212_mtrfol",
+				"min_count": 14,
+				"max_count": 14
+			},
+			{
+				"key": "enemy_10088_hlsnip",
+				"min_count": 4,
+				"max_count": 4
+			}
+		]
+	},
+	"level_rogue6_4-5": {
+		"id": "ro6_n_4_5",
+		"levelId": "level_rogue6_4-5",
+		"code": "ISW-NO",
+		"name_zh": "暴力押运",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [4],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+20%，防御力+20%，生命值+20%",
+			"“肇事者”量产型获得隐匿"
+		],
+		"eliteDesc_ja": [
+			"敵全員の攻撃力+20%、防御力+20%、最大HP+20%",
+			"<「トラブルメーカー」量産型>がステルス状態になる"
+		],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% DEF, +20% Max HP",
+			"<'Offender' Production Model> gains stealth"
+		],
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": [
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "def",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.2,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["enemy_1330_cbrush"],
+				"special": {
+					"stealth": {
+						"tooltip": {
+							"en": ["$Stealth$"],
+							"ja": ["$ステルス$"],
+							"zh": ["$隐匿$"]
+						}
+					}
+				}
+			}
+		],
+		"enemy_counts": [27],
+		"sp_count": [28],
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": {
+			"normal": "28",
+			"elite": null
+		},
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_1249_lysdb",
+				"min_count": 11,
+				"max_count": 11
+			},
+			{
+				"key": "enemy_1326_cbagen",
+				"min_count": 5,
+				"max_count": 5
+			},
+			{
+				"key": "enemy_1329_cbshld",
+				"min_count": 3,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1330_cbrush",
+				"min_count": 6,
+				"max_count": 6
+			},
+			{
+				"key": "enemy_1328_cbjedi",
+				"min_count": 2,
+				"max_count": 2
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue6_4-6": {
+		"id": "ro6_n_4_6",
+		"levelId": "level_rogue6_4-6",
+		"code": "ISW-NO",
+		"name_zh": "长刀寒夜",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [4],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+10%，防御力+20%，生命值+30%",
+			"初始下方出现1个“越长尘”"
+		],
+		"eliteDesc_ja": ["敵全員の攻撃力+10%、防御力+20%、最大HP+30%", "<system>"],
+		"eliteDesc_en": [
+			"All enemy units have +10% ATK, +20% DEF, +30% Max HP",
+			"<system>"
+		],
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": [
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.1,
+						"mode": "mul"
+					},
+					{
+						"key": "def",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.3,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "raid"
+					}
+				]
+			}
+		],
+		"enemy_counts": [30],
+		"sp_count": [31],
+		"elite_enemy_counts": [31],
+		"elite_sp_count": [32],
+		"sp_enemy": {
+			"normal": "31",
+			"elite": "32"
+		},
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_2136_shcolo",
+				"min_count": 3,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1191_krgrg_2",
+				"min_count": 15,
+				"max_count": 15
+			},
+			{
+				"key": "enemy_1065_snwolf_2",
+				"min_count": 9,
+				"max_count": 9
+			},
+			{
+				"key": "enemy_1263_durbus",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_1069_icebrk_2",
+				"min_count": 2,
+				"max_count": 2
+			}
+		],
+		"elite_enemy_list": [
+			{
+				"key": "enemy_2136_shcolo",
+				"min_count": 3,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1302_ymtro_2",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_1191_krgrg_2",
+				"min_count": 15,
+				"max_count": 15
+			},
+			{
+				"key": "enemy_1065_snwolf_2",
+				"min_count": 9,
+				"max_count": 9
+			},
+			{
+				"key": "enemy_1263_durbus",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_1069_icebrk_2",
+				"min_count": 2,
+				"max_count": 2
+			}
+		]
+	},
+	"level_rogue6_4-7": {
+		"id": "ro6_n_4_7",
+		"levelId": "level_rogue6_4-7",
+		"code": "ISW-NO",
+		"name_zh": "侵占家园",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [4],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+20%，防御力+20%，生命值+20%",
+			"“终点”的把戏登场40秒后召唤1只萨卡兹穿刺手组长，此后每隔40秒召唤1次（共计8次，含首次）"
+		],
+		"eliteDesc_ja": [
+			"敵全員の攻撃力+20%、防御力+20%、最大HP+20%",
+			"<system>",
+			"<system>"
+		],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% DEF, +20% Max HP",
+			"<system>",
+			"<system>"
+		],
+		"all_mods": null,
+		"normal_mods": [
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "normal"
+					}
+				]
+			}
+		],
+		"elite_mods": [
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "def",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.2,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "hard"
+					}
+				]
+			},
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_disable",
+						"value": 0.0,
+						"valueStr": "normal"
+					}
+				]
+			}
+		],
+		"enemy_counts": [36],
+		"sp_count": [37],
+		"elite_enemy_counts": [36],
+		"elite_sp_count": [37],
+		"sp_enemy": {
+			"normal": "37",
+			"elite": null
+		},
+		"sp_terrain": [
+			{
+				"tileKey": "tile_hole",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": null
+			}
+		],
+		"enemy_list": [
+			{
+				"key": "enemy_10071_ftprg_a",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_10071_ftprg_b",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_10065_ftzlc",
+				"min_count": 21,
+				"max_count": 21
+			},
+			{
+				"key": "enemy_2134_shrshep",
+				"min_count": 9,
+				"max_count": 9
+			},
+			{
+				"key": "enemy_2135_shkrbt",
+				"min_count": 4,
+				"max_count": 4
+			}
+		],
+		"elite_enemy_list": [
+			{
+				"key": "enemy_10071_ftprg_c",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_10071_ftprg_d",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_10065_ftzlc",
+				"min_count": 21,
+				"max_count": 21
+			},
+			{
+				"key": "enemy_2134_shrshep",
+				"min_count": 9,
+				"max_count": 9
+			},
+			{
+				"key": "enemy_2135_shkrbt",
+				"min_count": 4,
+				"max_count": 4
+			}
+		]
+	},
+	"level_rogue6_5-1": {
+		"id": "ro6_n_5_1",
+		"levelId": "level_rogue6_5-1",
+		"code": "ISW-NO",
+		"name_zh": "一步之遥",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [5],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+20%，防御力+20%，生命值+20%",
+			"所有敌方单位的攻击范围+50%",
+			"第三行的3个盾与墙必定出现，第四行的每个盾与墙各有50%概率不出现"
+		],
+		"eliteDesc_ja": [
+			"敵全員の攻撃力+20%、防御力+20%、最大HP+20%",
+			"敵全員の攻撃範囲+50%",
+			"<system>"
+		],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% DEF, +20% Max HP",
+			"All enemy units have +50% Attack range",
+			"<system>"
+		],
+		"all_mods": null,
+		"normal_mods": [
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "normal"
+					}
+				]
+			}
+		],
+		"elite_mods": [
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "def",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.2,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "range",
+						"value": 1.5,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "hard"
+					}
+				]
+			}
+		],
+		"enemy_counts": [30],
+		"sp_count": [31],
+		"elite_enemy_counts": [30],
+		"elite_sp_count": [31],
+		"sp_enemy": {
+			"normal": "31",
+			"elite": null
+		},
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_10071_ftprg_2_a",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_10071_ftprg_2_b",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_10071_ftprg_2_c",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_10065_ftzlc_2",
+				"min_count": 16,
+				"max_count": 16
+			},
+			{
+				"key": "enemy_10064_ftyzss_2",
+				"min_count": 7,
+				"max_count": 7
+			},
+			{
+				"key": "enemy_10070_ftkbtt_2",
+				"min_count": 4,
+				"max_count": 4
+			}
+		],
+		"elite_enemy_list": [
+			{
+				"key": "enemy_10071_ftprg_2_a",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_10071_ftprg_2_b",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_10071_ftprg_2_c",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_10065_ftzlc_2",
+				"min_count": 16,
+				"max_count": 16
+			},
+			{
+				"key": "enemy_10064_ftyzss_2",
+				"min_count": 7,
+				"max_count": 7
+			},
+			{
+				"key": "enemy_10070_ftkbtt_2",
+				"min_count": 4,
+				"max_count": 4
+			}
+		]
+	},
+	"level_rogue6_5-2": {
+		"id": "ro6_n_5_2",
+		"levelId": "level_rogue6_5-2",
+		"code": "ISW-NO",
+		"name_zh": "物欲遮天",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [5],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+50%，防御力+20%，生命值+20%",
+			"额外出现2个圣徒像"
+		],
+		"eliteDesc_ja": ["敵全員の攻撃力+50%、防御力+20%、最大HP+20%", "<system>"],
+		"eliteDesc_en": [
+			"All enemy units have +50% ATK, +20% DEF, +20% Max HP",
+			"<system>"
+		],
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": [
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.5,
+						"mode": "mul"
+					},
+					{
+						"key": "def",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.2,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "raid"
+					}
+				]
+			}
+		],
+		"enemy_counts": [33],
+		"sp_count": [34],
+		"elite_enemy_counts": [33],
+		"elite_sp_count": [34],
+		"sp_enemy": {
+			"normal": "34",
+			"elite": null
+		},
+		"sp_terrain": [
+			{
+				"tileKey": "tile_grass",
+				"alias": null,
+				"heightType": "HIGHLAND",
+				"blackboard": null
+			},
+			{
+				"tileKey": "tile_hole",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": null
+			}
+		],
+		"enemy_list": [
+			{
+				"key": "enemy_10083_hlbird",
+				"min_count": 21,
+				"max_count": 21
+			},
+			{
+				"key": "enemy_1532_minima",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_10085_hllevi",
+				"min_count": 2,
+				"max_count": 2
+			},
+			{
+				"key": "enemy_10084_hlegle",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_1291_dusrch",
+				"min_count": 2,
+				"max_count": 2
+			},
+			{
+				"key": "enemy_10086_hltigr",
+				"min_count": 3,
+				"max_count": 3
+			}
+		],
+		"elite_enemy_list": [
+			{
+				"key": "enemy_10091_hlsttu",
+				"min_count": 2,
+				"max_count": 2
+			},
+			{
+				"key": "enemy_10083_hlbird",
+				"min_count": 21,
+				"max_count": 21
+			},
+			{
+				"key": "enemy_1532_minima",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_10085_hllevi",
+				"min_count": 2,
+				"max_count": 2
+			},
+			{
+				"key": "enemy_10084_hlegle",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_1291_dusrch",
+				"min_count": 2,
+				"max_count": 2
+			},
+			{
+				"key": "enemy_10086_hltigr",
+				"min_count": 3,
+				"max_count": 3
+			}
+		]
+	},
+	"level_rogue6_5-3": {
+		"id": "ro6_n_5_3",
+		"levelId": "level_rogue6_5-3",
+		"code": "ISW-NO",
+		"name_zh": "恶意讨薪",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [5],
+		"addInfo_zh": [
+			"若初始中央为沸血骑士团精锐，则出现腐败骑士(空值体)和凋零骑士",
+			"若初始中央为呼啸骑士团精锐，则出现凋零骑士(空值体)和腐败骑士",
+			"*空值体解除伪装也会触发另一方的狂暴效果"
+		],
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+10%，防御力+20%，生命值+50%",
+			"腐败骑士(空值体)出场后，腐败骑士随后出场",
+			"凋零骑士分支同理"
+		],
+		"eliteDesc_ja": ["敵全員の攻撃力+10%、防御力+20%、最大HP+50%", "<system>"],
+		"eliteDesc_en": [
+			"All enemy units have +10% ATK, +20% DEF, +50% Max HP",
+			"<system>"
+		],
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": [
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.1,
+						"mode": "mul"
+					},
+					{
+						"key": "def",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.5,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "raid"
+					}
+				]
+			}
+		],
+		"enemy_counts": [37, 39],
+		"sp_count": [38, 40],
+		"elite_enemy_counts": [38, 40],
+		"elite_sp_count": [39, 41],
+		"sp_enemy": {
+			"normal": "38 / 40",
+			"elite": "39 / 41"
+		},
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_1104_lfkght_2",
+				"min_count": 1,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_2133_shdopl_d",
+				"min_count": 2,
+				"max_count": 5
+			},
+			{
+				"key": "enemy_2133_shdopl",
+				"min_count": 0,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_1103_wdkght_2",
+				"min_count": 0,
+				"max_count": 7
+			},
+			{
+				"key": "enemy_1513_dekght_2",
+				"min_count": 0,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_2133_shdopl_c",
+				"min_count": 0,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_1101_plkght_2",
+				"min_count": 0,
+				"max_count": 9
+			},
+			{
+				"key": "enemy_1513_dekght",
+				"min_count": 0,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_1099_nbkght_2",
+				"min_count": 19,
+				"max_count": 19
+			},
+			{
+				"key": "enemy_2133_shdopl_b",
+				"min_count": 3,
+				"max_count": 3
+			}
+		],
+		"elite_enemy_list": [
+			{
+				"key": "enemy_1104_lfkght_2",
+				"min_count": 1,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_2133_shdopl_d",
+				"min_count": 2,
+				"max_count": 5
+			},
+			{
+				"key": "enemy_2133_shdopl",
+				"min_count": 0,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_1103_wdkght_2",
+				"min_count": 0,
+				"max_count": 7
+			},
+			{
+				"key": "enemy_1513_dekght",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_1513_dekght_2",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_2133_shdopl_c",
+				"min_count": 0,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_1101_plkght_2",
+				"min_count": 0,
+				"max_count": 9
+			},
+			{
+				"key": "enemy_1099_nbkght_2",
+				"min_count": 19,
+				"max_count": 19
+			},
+			{
+				"key": "enemy_2133_shdopl_b",
+				"min_count": 3,
+				"max_count": 3
+			}
+		]
+	},
+	"level_rogue6_5-4": {
+		"id": "ro6_n_5_4",
+		"levelId": "level_rogue6_5-4",
+		"code": "ISW-NO",
+		"name_zh": "送别仪式",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [5],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+60%，防御力+20%，生命值+60%",
+			"额外出现3个撼地遗众"
+		],
+		"eliteDesc_ja": ["敵全員の攻撃力+60%、防御力+20%、最大HP+60%", "<system>"],
+		"eliteDesc_en": [
+			"All enemy units have +60% ATK, +20% DEF, +60% Max HP",
+			"<system>"
+		],
+		"all_mods": null,
+		"normal_mods": [
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "normal"
+					}
+				]
+			}
+		],
+		"elite_mods": [
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.6,
+						"mode": "mul"
+					},
+					{
+						"key": "def",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.6,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "raid"
+					}
+				]
+			}
+		],
+		"enemy_counts": [24],
+		"sp_count": [25],
+		"elite_enemy_counts": [27],
+		"elite_sp_count": [28],
+		"sp_enemy": {
+			"normal": "25",
+			"elite": "28"
+		},
+		"sp_terrain": [
+			{
+				"tileKey": "tile_infection",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": {
+					"duration": 300.0,
+					"damage": 90.0,
+					"attack_speed": 50.0,
+					"atk": 0.5
+				}
+			},
+			{
+				"tileKey": "tile_hole",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": null
+			}
+		],
+		"enemy_list": [
+			{
+				"key": "enemy_10087_hlchgr_2",
+				"min_count": 6,
+				"max_count": 6
+			},
+			{
+				"key": "enemy_2136_shcolo",
+				"min_count": 8,
+				"max_count": 8
+			},
+			{
+				"key": "enemy_10089_hlsprt_2",
+				"min_count": 10,
+				"max_count": 10
+			}
+		],
+		"elite_enemy_list": [
+			{
+				"key": "enemy_10087_hlchgr_2",
+				"min_count": 6,
+				"max_count": 6
+			},
+			{
+				"key": "enemy_2136_shcolo",
+				"min_count": 11,
+				"max_count": 11
+			},
+			{
+				"key": "enemy_10089_hlsprt_2",
+				"min_count": 10,
+				"max_count": 10
+			}
+		]
+	},
+	"level_rogue6_5-5": {
+		"id": "ro6_n_5_5",
+		"levelId": "level_rogue6_5-5",
+		"code": "ISW-NO",
+		"name_zh": "彼处水如酒",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [5],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+20%，防御力+20%，生命值+20%",
+			"盐坨子炮左边三个地面位置不可部署"
+		],
+		"eliteDesc_ja": ["敵全員の攻撃力+20%、防御力+20%、最大HP+20%", "<system>"],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% DEF, +20% Max HP",
+			"<system>"
+		],
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": [
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "def",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.2,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "global_forbid_location",
+						"value": ["4,1", "3,1", "2,1"]
+					}
+				]
+			}
+		],
+		"enemy_counts": [40],
+		"sp_count": [41],
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": {
+			"normal": "41",
+			"elite": null
+		},
+		"sp_terrain": [
+			{
+				"tileKey": "tile_hole",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": null
+			}
+		],
+		"enemy_list": [
+			{
+				"key": "enemy_10047_shrknt_2",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_10046_pshark_2",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_10043_sailor_2",
+				"min_count": 20,
+				"max_count": 20
+			},
+			{
+				"key": "enemy_10049_pcaptn_2",
+				"min_count": 2,
+				"max_count": 2
+			},
+			{
+				"key": "enemy_10048_prtsld_2",
+				"min_count": 2,
+				"max_count": 2
+			},
+			{
+				"key": "enemy_10045_parrot_2",
+				"min_count": 8,
+				"max_count": 8
+			}
+		],
+		"elite_enemy_list": null
+	},
+	"level_rogue6_5-6": {
+		"id": "ro6_n_5_6",
+		"levelId": "level_rogue6_5-6",
+		"code": "ISW-NO",
+		"name_zh": "丛林法则",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [5],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+20%，防御力+20%，生命值+20%",
+			"额外出现6个狂暴凶豕兽"
+		],
+		"eliteDesc_ja": ["敵全員の攻撃力+20%、防御力+20%、最大HP+20%", "<system>"],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% DEF, +20% Max HP",
+			"<system>"
+		],
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": [
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "def",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.2,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "hard"
+					}
+				]
+			}
+		],
+		"enemy_counts": [51],
+		"sp_count": [52],
+		"elite_enemy_counts": [57],
+		"elite_sp_count": [58],
+		"sp_enemy": {
+			"normal": "52",
+			"elite": "58"
+		},
+		"sp_terrain": [
+			{
+				"tileKey": "tile_hole",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": null
+			}
+		],
+		"enemy_list": [
+			{
+				"key": "enemy_1309_mhboar",
+				"min_count": 11,
+				"max_count": 11
+			},
+			{
+				"key": "enemy_1396_dhdts_2",
+				"min_count": 7,
+				"max_count": 7
+			},
+			{
+				"key": "enemy_1307_mhrhcr_2",
+				"min_count": 7,
+				"max_count": 7
+			},
+			{
+				"key": "enemy_1395_dhxts",
+				"min_count": 19,
+				"max_count": 19
+			},
+			{
+				"key": "enemy_10210_muwiz",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_1309_mhboar_2",
+				"min_count": 3,
+				"max_count": 3
+			}
+		],
+		"elite_enemy_list": [
+			{
+				"key": "enemy_1309_mhboar",
+				"min_count": 11,
+				"max_count": 11
+			},
+			{
+				"key": "enemy_1396_dhdts_2",
+				"min_count": 7,
+				"max_count": 7
+			},
+			{
+				"key": "enemy_1307_mhrhcr_2",
+				"min_count": 7,
+				"max_count": 7
+			},
+			{
+				"key": "enemy_1395_dhxts",
+				"min_count": 19,
+				"max_count": 19
+			},
+			{
+				"key": "enemy_10210_muwiz",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_1309_mhboar_2",
+				"min_count": 9,
+				"max_count": 9
+			}
+		]
+	},
+	"level_rogue6_5-7": {
+		"id": "ro6_n_5_7",
+		"levelId": "level_rogue6_5-7",
+		"code": "ISW-NO",
+		"name_zh": "过度繁殖",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [5],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+20%，防御力+20%，生命值+20%",
+			"变异巨岩蛛替换为变异巨岩蛛α"
+		],
+		"eliteDesc_ja": ["敵全員の攻撃力+20%、防御力+20%、最大HP+20%", "<system>"],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% DEF, +20% Max HP",
+			"<system>"
+		],
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": [
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "def",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.2,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_enemy_replace",
+						"target": "enemy_1133_harchn",
+						"value": "enemy_1133_harchn_2"
+					}
+				]
+			}
+		],
+		"enemy_counts": [33],
+		"sp_count": [34],
+		"elite_enemy_counts": [33],
+		"elite_sp_count": [34],
+		"sp_enemy": {
+			"normal": "34",
+			"elite": null
+		},
+		"sp_terrain": null,
+		"enemy_list": [
+			{
+				"key": "enemy_1143_merrpg",
+				"min_count": 8,
+				"max_count": 8
+			},
+			{
+				"key": "enemy_1141_merbow",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_1131_sbeast",
+				"min_count": 7,
+				"max_count": 7
+			},
+			{
+				"key": "enemy_1133_harchn",
+				"min_count": 3,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1132_sarchn",
+				"min_count": 9,
+				"max_count": 9
+			},
+			{
+				"key": "enemy_1144_merlgd",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_1142_mershd",
+				"min_count": 1,
+				"max_count": 1
+			}
+		],
+		"elite_enemy_list": [
+			{
+				"key": "enemy_1143_merrpg",
+				"min_count": 8,
+				"max_count": 8
+			},
+			{
+				"key": "enemy_1141_merbow",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_1131_sbeast",
+				"min_count": 7,
+				"max_count": 7
+			},
+			{
+				"key": "enemy_1133_harchn_2",
+				"min_count": 3,
+				"max_count": 3
+			},
+			{
+				"key": "enemy_1132_sarchn",
+				"min_count": 9,
+				"max_count": 9
+			},
+			{
+				"key": "enemy_1144_merlgd",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_1142_mershd",
+				"min_count": 1,
+				"max_count": 1
+			}
+		]
+	},
+	"level_rogue6_6-1": {
+		"id": "ro6_n_6_1",
+		"levelId": "level_rogue6_6-1",
+		"code": "ISW-NO",
+		"name_zh": "命运共享",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [6],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+20%，防御力+20%，生命值+50%",
+			"梅菲斯特，“歌者”跳过第一个检查点"
+		],
+		"eliteDesc_ja": ["敵全員の攻撃力+20%、防御力+20%、最大HP+50%", "<system>"],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% DEF, +50% Max HP",
+			"<system>"
+		],
+		"all_mods": [
+			{
+				"targets": ["enemy_1514_smephi"],
+				"special": {
+					"mods_1": [
+						{
+							"key": "def",
+							"value": 6000,
+							"mode": "add",
+							"order": "initial"
+						},
+						{
+							"key": "res",
+							"value": 50,
+							"mode": "add",
+							"order": "initial"
+						}
+					]
+				}
+			}
+		],
+		"normal_mods": [
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "normal"
+					}
+				]
+			}
+		],
+		"elite_mods": [
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "def",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.5,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["system"],
+				"mods": [
+					{
+						"key": "level_hidden_group_enable",
+						"value": 0.0,
+						"valueStr": "raid"
+					}
+				]
+			}
+		],
+		"enemy_counts": [76],
+		"sp_count": [77],
+		"elite_enemy_counts": [76],
+		"elite_sp_count": [77],
+		"sp_enemy": {
+			"normal": "77",
+			"elite": null
+		},
+		"sp_terrain": [
+			{
+				"tileKey": "tile_hole",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": null
+			}
+		],
+		"enemy_list": [
+			{
+				"key": "enemy_1514_smephi",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_1114_rgrdmn_2",
+				"min_count": 10,
+				"max_count": 10
+			},
+			{
+				"key": "enemy_1062_rager_2",
+				"min_count": 25,
+				"max_count": 25
+			},
+			{
+				"key": "enemy_1061_zomshd_2",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_10087_hlchgr_2",
+				"min_count": 19,
+				"max_count": 19
+			},
+			{
+				"key": "enemy_10089_hlsprt_2",
+				"min_count": 17,
+				"max_count": 17
+			}
+		],
+		"elite_enemy_list": [
+			{
+				"key": "enemy_1514_smephi",
+				"min_count": 1,
+				"max_count": 1
+			},
+			{
+				"key": "enemy_1114_rgrdmn_2",
+				"min_count": 10,
+				"max_count": 10
+			},
+			{
+				"key": "enemy_1062_rager_2",
+				"min_count": 25,
+				"max_count": 25
+			},
+			{
+				"key": "enemy_1061_zomshd_2",
+				"min_count": 4,
+				"max_count": 4
+			},
+			{
+				"key": "enemy_10087_hlchgr_2",
+				"min_count": 19,
+				"max_count": 19
+			},
+			{
+				"key": "enemy_10089_hlsprt_2",
+				"min_count": 17,
+				"max_count": 17
+			}
+		]
+	},
+	"level_rogue6_6-2": {
+		"id": "ro6_n_6_2",
+		"levelId": "level_rogue6_6-2",
+		"code": "ISW-NO",
+		"name_zh": "同域共存",
+		"name_ja": null,
+		"name_en": null,
+		"category": null,
+		"floors": [6],
+		"addInfo_zh": null,
+		"addInfo_ja": null,
+		"addInfo_en": null,
+		"eliteDesc_zh": [
+			"所有敌方单位的攻击力+20%，防御力+20%，生命值+40%",
+			"猎犬proto获得隐匿"
+		],
+		"eliteDesc_ja": [
+			"敵全員の攻撃力+20%、防御力+20%、最大HP+40%",
+			"<enemy_2137_shsdgo>がステルス状態になる"
+		],
+		"eliteDesc_en": [
+			"All enemy units have +20% ATK, +20% DEF, +40% Max HP",
+			"<enemy_2137_shsdgo> gains stealth"
+		],
+		"all_mods": null,
+		"normal_mods": null,
+		"elite_mods": [
+			{
+				"targets": ["ALL"],
+				"mods": [
+					{
+						"key": "atk",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "def",
+						"value": 1.2,
+						"mode": "mul"
+					},
+					{
+						"key": "hp",
+						"value": 1.4,
+						"mode": "mul"
+					}
+				]
+			},
+			{
+				"targets": ["enemy_2137_shsdgo"],
+				"special": {
+					"stealth": {
+						"tooltip": {
+							"en": ["$Stealth$"],
+							"ja": ["$ステルス$"],
+							"zh": ["$隐匿$"]
+						}
+					}
+				}
+			}
+		],
+		"enemy_counts": [63],
+		"sp_count": [64],
+		"elite_enemy_counts": null,
+		"elite_sp_count": null,
+		"sp_enemy": {
+			"normal": "64",
+			"elite": null
+		},
+		"sp_terrain": [
+			{
+				"tileKey": "tile_hole",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": {
+					"duration": 300.0,
+					"damage": 90.0,
+					"attack_speed": 50.0,
+					"atk": 0.5
+				}
+			},
+			{
+				"tileKey": "tile_hole",
+				"alias": null,
+				"heightType": "LOWLAND",
+				"blackboard": null
+			}
+		],
+		"enemy_list": [
+			{
+				"key": "enemy_2137_shsdgo",
+				"min_count": 8,
+				"max_count": 9
+			},
+			{
+				"key": "enemy_2133_shdopl",
+				"min_count": 7,
+				"max_count": 8
+			},
+			{
+				"key": "enemy_2134_shrshep",
+				"min_count": 27,
+				"max_count": 27
+			},
+			{
+				"key": "enemy_2135_shkrbt",
+				"min_count": 14,
+				"max_count": 14
+			},
+			{
+				"key": "enemy_2136_shcolo",
+				"min_count": 6,
+				"max_count": 6
+			}
+		],
+		"elite_enemy_list": null
 	}
 }
