@@ -22,7 +22,7 @@ with open(jp_roguelike_topic_path, encoding="utf-8") as f:
     jp_roguelike_topic_table = json.load(f)
 
 
-topics = ["rogue_1", "rogue_2", "rogue_3", "rogue_4"]
+topics = ["rogue_1", "rogue_2", "rogue_3", "rogue_4", "rogue_5", "rogue_6"]
 
 
 def get_relic_info(id, topic):
@@ -61,6 +61,23 @@ def get_relic_info(id, topic):
             relic_info["subProfessionId"] = cn_roguelike_topic_table["details"][topic][
                 "relicParams"
             ][id]["checkCharBoxParams"][0]["valueStrs"]
+        elif id in cn_roguelike_topic_table["details"][topic]["relics"]:
+            sub_profession_ids = []
+            for buff in cn_roguelike_topic_table["details"][topic]["relics"][id][
+                "buffs"
+            ]:
+                for blackboard in buff["blackboard"]:
+                    if blackboard["key"] == "selector.sub_profession":
+                        sub_profession_ids.extend(
+                            sub_profession
+                            for sub_profession in blackboard["valueStr"].split("|")
+                            if sub_profession not in sub_profession_ids
+                        )
+                        break
+            if sub_profession_ids:
+                relic_info["subProfessionId"] = sub_profession_ids
+            else:
+                relic_info["tags"] = None
         else:
             relic_info["tags"] = None
 
@@ -111,6 +128,28 @@ relics_list = [
     "rogue_4_relic_hand_4",
     "rogue_4_relic_hand_5",
     "rogue_4_relic_hand_6",
+    "rogue_5_relic_return_30",
+    "rogue_5_relic_return_31",
+    "rogue_5_relic_return_32",
+    "rogue_5_relic_return_33",
+    "rogue_5_relic_return_34",
+    "rogue_5_relic_return_35",
+    "rogue_5_relic_legacy_46",
+    "rogue_5_relic_bullet_3",
+    "rogue_6_relic_hand_1",
+    "rogue_6_relic_hand_2",
+    "rogue_6_relic_hand_3",
+    "rogue_6_relic_hand_4",
+    "rogue_6_relic_hand_5",
+    "rogue_6_relic_hand_6",
+    "rogue_6_relic_hand_7",
+    "rogue_6_relic_assign_10",
+    "rogue_6_relic_assign_12",
+    "rogue_6_relic_fight_18",
+    "rogue_6_relic_fight_22",
+    "rogue_6_relic_legacy_61",
+    "rogue_6_relic_legacy_134",
+    "rogue_6_relic_legacy_139",
 ]
 data = {}
 for topic in topics:

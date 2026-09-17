@@ -1,3 +1,4 @@
+from get_images import get_images
 import json
 import os
 from pathlib import Path
@@ -40,6 +41,25 @@ def _get_data_paths(base_dir=BASE_DIR):
 def _log(verbose, *args):
     if verbose:
         print(*args)
+
+
+def check_new_type_icons(type_icons, current_uniequip=None):
+    if current_uniequip is None:
+        current_uniequip = _load_json(DEFAULT_OUTPUT_PATH)
+
+    existing_type_icons = {entry["typeIcon"] for entry in current_uniequip.values()}
+    new_type_icons = list(
+        dict.fromkeys(
+            type_icon
+            for type_icon in type_icons
+            if type_icon not in existing_type_icons
+        )
+    )
+    print("New typeIcons:", new_type_icons)
+    if new_type_icons:
+        get_images(category="equip", file_names=new_type_icons)
+        get_images(category="color_equip", file_names=new_type_icons)
+    return new_type_icons
 
 
 def _build_trait_or_display_part(
@@ -315,6 +335,10 @@ def generate_uniequip(
             jp_battle_equip_table,
             verbose,
         )
+
+    check_new_type_icons(
+        [entry["typeIcon"] for entry in new_entries.values()], curr_uniequip
+    )
 
     result = curr_uniequip | new_entries
 

@@ -14210,5 +14210,99 @@
 				]
 			}
 		]
+	},
+	"char_4220_kormr": {
+		"appellation": "Koromaru",
+		"talents": [
+			{
+				"prefabKey": "1",
+				"name_zh": "黑色猎犬·VI",
+				"name_en": "",
+				"name_ja": "",
+				"desc_zh": "部署后对周围一定范围内最近的1名敌人发动总计6次无视闪避的斩击，每次斩击造成相当于攻击力200%的法术伤害，最后一次斩击改为造成攻击力400%的法术伤害并使目标<$ba.fear>恐惧</>4秒",
+				"desc_ja": "",
+				"desc_en": "",
+				"tags": ["ignore_evasion", "arts"],
+				"blackboard": [
+					{
+						"key": "fear",
+						"targets": 1,
+						"value": 4.0
+					}
+				]
+			}
+		]
+	},
+	"char_4218_aigis": {
+		"appellation": "Aegis",
+		"talents": [
+			{
+				"prefabKey": "1",
+				"name_zh": "反暗影特殊压制兵装",
+				"name_en": "",
+				"name_ja": "",
+				"desc_zh": "造成的物理伤害+12%<@ba.talpu>（+2%）</>，受到的物理伤害-12%<@ba.talpu>（+2%）</>",
+				"desc_ja": "",
+				"desc_en": "",
+				"tags": [],
+				"blackboard": [
+					{
+						"key": "dmg_res",
+						"types": ["phys"],
+						"value": 0.12
+					}
+				]
+			}
+		]
+	},
+	"char_4219_yukari": {
+		"appellation": "Yukari Takeba",
+		"talents": [
+			{
+				"prefabKey": "1",
+				"name_zh": "治愈之风",
+				"name_en": "",
+				"name_ja": "",
+				"desc_zh": "技能结束后，治疗自身和攻击范围内最多3名干员相当于岳羽由加莉攻击力100%的生命值",
+				"desc_ja": "",
+				"desc_en": "",
+				"tags": ["heal_ally"],
+				"blackboard": []
+			}
+		]
+	},
+	"char_4217_makoto": {
+		"appellation": "Makoto Yuki",
+		"talents": [
+			{
+				"prefabKey": "1",
+				"name_zh": "不羁之力",
+				"name_en": "",
+				"name_ja": "",
+				"desc_zh": "结城理切换为<替身>状态时<$ba.sluggish>停顿</>周围一定范围内敌人8秒；<替身>状态下结城理召唤人格面具作战，攻击间隔增大(+0.4)，攻击力+85%<@ba.talpu>（+5%）</>，生命值+35%，作战能力随技能选择而改变",
+				"desc_ja": "",
+				"desc_en": "",
+				"tags": [],
+				"blackboard": [
+					{
+						"key": "sluggish",
+						"targets": 99,
+						"value": 8.0,
+						"target_air": true
+					}
+				]
+			},
+			{
+				"prefabKey": "2",
+				"name_zh": "S.E.E.S.队长",
+				"name_en": "",
+				"name_ja": "",
+				"desc_zh": "结城理<替身>状态结束后，带领<$ba.sees>S.E.E.S.</>小队发动总攻击，对<$ba.sees>S.E.E.S.</>小队队员周围一定范围内的所有敌人造成相当于结城理攻击力450%<@ba.talpu>（+20%）</>的真实伤害（可叠加）",
+				"desc_ja": "",
+				"desc_en": "",
+				"tags": ["true"],
+				"blackboard": []
+			}
+		]
 	}
 }

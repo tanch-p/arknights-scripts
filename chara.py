@@ -14,6 +14,7 @@ from game_types.character_table import (
 )
 from game_types.char_patch_table import CharPatchTable
 from chara_skills import replace_substrings, update_chara_skills
+from get_images import get_images
 from subprofession_tags import get_sub_profession_tags
 import pprint
 from tokens import IDS_TO_IGNORE, generate_tokens
@@ -346,7 +347,8 @@ def build_talents(
     filtered_talents = [
         talent
         for talent_index, talent in enumerate(character_talents)
-        if not any(candidate.get("isHideTalent") for candidate in talent["candidates"])
+        if talent["candidates"]
+        and not any(candidate.get("isHideTalent") for candidate in talent["candidates"])
     ]
     for talent_index, talent in enumerate(filtered_talents):
         max_candidate_index = len(talent["candidates"]) - 1
@@ -619,17 +621,36 @@ def process_patch_chars() -> list:
     return data
 
 
+def remove_null_value_str(blackboard: list[dict]) -> list[dict]:
+    return [
+        {
+            key: value
+            for key, value in item.items()
+            if key != "valueStr" or value is not None
+        }
+        for item in blackboard
+    ]
+
+
 def update_chara_talents_json(filtered_cn_char_table: CharacterTable) -> None:
-    new_chara_list = [id for id in filtered_cn_char_table if id not in chara_talents]
+    main_new_chara_list = [
+        id for id in filtered_cn_char_table if id not in chara_talents
+    ]
+    patch_new_chara_list = [
+        id for id in cn_patch_table["patchChars"] if id not in chara_talents
+    ]
+    new_chara_list = list(dict.fromkeys(main_new_chara_list + patch_new_chara_list))
     print(f"new charas: {new_chara_list}")
     return_dict = {}
 
-    for id in new_chara_list:
+    for id in main_new_chara_list:
         talents = []
         if filtered_cn_char_table[id]["talents"]:
             for talent_index, talent in enumerate(
                 filtered_cn_char_table[id]["talents"]
             ):
+                if not talent["candidates"]:
+                    continue
                 max_candidate_index = len(talent["candidates"]) - 1
                 maxed_talent = talent["candidates"][max_candidate_index]
                 talent_holder = {
@@ -671,10 +692,7 @@ def update_chara_talents_json(filtered_cn_char_table: CharacterTable) -> None:
         }
 
     # patch table
-    new_chara_list = [
-        id for id in cn_patch_table["patchChars"] if id not in chara_talents
-    ]
-    for id in new_chara_list:
+    for id in patch_new_chara_list:
         talents = []
         if cn_patch_table["patchChars"][id]["talents"]:
             for talent_index, talent in enumerate(
@@ -713,8 +731,15 @@ def update_chara_talents_json(filtered_cn_char_table: CharacterTable) -> None:
         }
 
     return_dict = chara_talents | return_dict
+    for character in return_dict.values():
+        for talent in character["talents"]:
+            talent["blackboard"] = remove_null_value_str(talent["blackboard"])
+
     with open("chara_talents.json", "w", encoding="utf-8") as f:
         json.dump(return_dict, f, ensure_ascii=False, indent=4)
+
+    if new_chara_list:
+        get_images(category="chara", file_names=new_chara_list)
 
 
 def get_new_chara_keys_for_imple_dates(
@@ -725,11 +750,12 @@ def get_new_chara_keys_for_imple_dates(
     return list(dict.fromkeys(keys))
 
 
-def append_new_chara_imple_dates(new_chara_keys: list[str]) -> None:
+def append_new_chara_imple_dates(
+    new_chara_keys: list[str], datetime_str="01/08/2026 12:00:00"
+) -> None:
     if not new_chara_keys:
         return
 
-    datetime_str = "01/08/2026 12:00:00"
     timestamp = datetime_to_unix_gmt8(datetime_str)
 
     for key in new_chara_keys:
@@ -747,12 +773,12 @@ def get_filtered_cn_char_table() -> CharacterTable:
     }
 
 
-def load_new_characters() -> None:
+def load_new_characters(datetime_str) -> None:
     filtered_cn_char_table = get_filtered_cn_char_table()
     new_chara_keys: list[str] = [
         key for key in filtered_cn_char_table if key not in chara_talents
     ]
-    append_new_chara_imple_dates(new_chara_keys)
+    append_new_chara_imple_dates(new_chara_keys, datetime_str)
     update_chara_skills()
     update_chara_talents_json(filtered_cn_char_table)
     generate_uniequip()
@@ -782,7 +808,8 @@ def main() -> None:
     choice = input("Enter your choice (1 or 2): ").strip()
 
     if choice == "1":
-        load_new_characters()
+        datetime_str = "04/09/2026 12:00:00"
+        load_new_characters(datetime_str)
     elif choice == "2":
         generate_character_json_files()
     else:

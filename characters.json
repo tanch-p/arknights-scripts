@@ -200,6 +200,104 @@
         "uniequip":[]
     },
     {
+        "id":"char_4220_kormr",
+        "appellation":"Koromaru",
+        "name_zh":"虎狼丸",
+        "name_ja":"",
+        "name_en":"",
+        "desc_zh":"普通攻击连续造成<@ba.kw>两次</>伤害，且不受<@ba.kw>部署数量</>限制，但再部署时间极长",
+        "desc_ja":"",
+        "desc_en":"",
+        "release_time":1788494400,
+        "tags":[
+            "phys"
+        ],
+        "blackboard":[],
+        "powers":[
+            "laterano",
+            "sees"
+        ],
+        "position":"MELEE",
+        "isSpChar":false,
+        "rarity":"TIER_1",
+        "profession":"WARRIOR",
+        "subProfessionId":"sword",
+        "stats":{
+            "rangeId":"1-1",
+            "level":30,
+            "hp":904,
+            "atk":242,
+            "def":125,
+            "res":0.0,
+            "cost":3,
+            "blockCnt":2,
+            "aspd":1.3,
+            "respawnTime":200
+        },
+        "potential":[
+            {
+                "desc_zh":"天赋效果加强",
+                "desc_ja":"",
+                "desc_en":"",
+                "attribute":null
+            },
+            {
+                "desc_zh":"天赋效果加强",
+                "desc_ja":"",
+                "desc_en":"",
+                "attribute":null
+            },
+            {
+                "desc_zh":"天赋效果加强",
+                "desc_ja":"",
+                "desc_en":"",
+                "attribute":null
+            },
+            {
+                "desc_zh":"天赋效果加强",
+                "desc_ja":"",
+                "desc_en":"",
+                "attribute":null
+            },
+            {
+                "desc_zh":"天赋效果加强",
+                "desc_ja":"",
+                "desc_en":"",
+                "attribute":null
+            }
+        ],
+        "favorData":{
+            "atk":30,
+            "def":30
+        },
+        "tokens":[],
+        "skills":[],
+        "talents":[
+            {
+                "prefabKey":"1",
+                "name_zh":"黑色猎犬·VI",
+                "name_en":"",
+                "name_ja":"",
+                "desc_zh":"部署后对周围一定范围内最近的1名敌人发动总计6次无视闪避的斩击，每次斩击造成相当于攻击力200%的法术伤害，最后一次斩击改为造成攻击力400%的法术伤害并使目标<$ba.fear>恐惧</>4秒",
+                "desc_en":"",
+                "desc_ja":"",
+                "rangeId":null,
+                "tags":[
+                    "ignore_evasion",
+                    "arts"
+                ],
+                "blackboard":[
+                    {
+                        "key":"fear",
+                        "targets":1,
+                        "value":4.0
+                    }
+                ]
+            }
+        ],
+        "uniequip":[]
+    },
+    {
         "id":"char_376_therex",
         "appellation":"Thermal-EX",
         "name_zh":"THRM-EX",
@@ -938,7 +1036,7 @@
                 "prefabKey":"1",
                 "name_zh":"先付费，再告解·VI",
                 "name_en":"Pay-Per-Confession VI",
-                "name_ja":"告解は先払いにてVI",
+                "name_ja":"告解は先払いにてⅥ",
                 "desc_zh":"首次阻挡敌人时立即获得4点部署费用，并使该敌人<ba.sleep>沉睡</>8秒",
                 "desc_en":"The first time blocking an enemy, gains 4 DP and puts the blocked enemy to <ba.sleep>Sleep</> for 8s",
                 "desc_ja":"初めて敵をブロックしたとき所持コスト+4、さらにその敵を8秒間<ba.sleep>睡眠</>させる",
@@ -31754,7 +31852,7 @@
                 "name_ja":"メイクアップマシン",
                 "name_en":"Full Auto Modeler",
                 "desc_zh":"不会受到攻击",
-                "desc_ja":"ダメージを受けない",
+                "desc_ja":"攻撃されない",
                 "desc_en":"Cannot be attacked",
                 "position":"ALL",
                 "stats":{
@@ -70432,6 +70530,574 @@
         "uniequip":[]
     },
     {
+        "id":"char_4218_aigis",
+        "appellation":"Aegis",
+        "name_zh":"埃癸斯",
+        "name_ja":"",
+        "name_en":"",
+        "desc_zh":"部署后<ba.liftoff>起飞</>，<ba.liftoff>起飞</>后只攻击空中敌人；技能开启时降落且攻击造成<@ba.kw>群体物理伤害</>",
+        "desc_ja":"",
+        "desc_en":"",
+        "release_time":1788494400,
+        "tags":[
+            "block_flying",
+            "target_air",
+            "phys"
+        ],
+        "blackboard":[
+            {
+                "key":"liftoff",
+                "value":999
+            }
+        ],
+        "powers":[
+            "laterano",
+            "sees"
+        ],
+        "position":"RANGED",
+        "isSpChar":false,
+        "rarity":"TIER_5",
+        "profession":"SNIPER",
+        "subProfessionId":"skybreaker",
+        "stats":{
+            "rangeId":"3-1",
+            "level":80,
+            "hp":1586,
+            "atk":882,
+            "def":219,
+            "res":0.0,
+            "cost":22,
+            "blockCnt":1,
+            "aspd":2.1,
+            "respawnTime":70
+        },
+        "potential":[
+            {
+                "desc_zh":"部署费用-1",
+                "desc_ja":"",
+                "desc_en":"",
+                "attribute":{
+                    "cost":-1.0
+                }
+            },
+            {
+                "desc_zh":"再部署时间-4秒",
+                "desc_ja":"",
+                "desc_en":"",
+                "attribute":{
+                    "respawnTime":-4.0
+                }
+            },
+            {
+                "desc_zh":"攻击力+33",
+                "desc_ja":"",
+                "desc_en":"",
+                "attribute":{
+                    "atk":33.0
+                }
+            },
+            {
+                "desc_zh":"天赋效果增强",
+                "desc_ja":"",
+                "desc_en":"",
+                "attribute":null
+            },
+            {
+                "desc_zh":"部署费用-1",
+                "desc_ja":"",
+                "desc_en":"",
+                "attribute":{
+                    "cost":-1.0
+                }
+            }
+        ],
+        "favorData":{
+            "hp":100,
+            "atk":60
+        },
+        "tokens":[],
+        "skills":[
+            {
+                "skillId":"skchr_aigis_1",
+                "name_zh":"启动狂宴模式",
+                "name_ja":"",
+                "name_en":"",
+                "skillType":"MANUAL",
+                "durationType":"NONE",
+                "spType":"INCREASE_WITH_TIME",
+                "levels":[
+                    {
+                        "rangeId":null,
+                        "description_zh":"攻击力<@ba.vup>+100%</>，防御力<@ba.vup>+50%</>，随机攻击范围内的目标\\n<@ba.rem>技能结束后自身<$ba.stun>晕眩</>10秒</>",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":1,
+                            "spCost":27,
+                            "initSp":12,
+                            "increment":1.0
+                        },
+                        "duration":20.0,
+                        "blackboard":[
+                            {
+                                "key":"atk",
+                                "value":1.0
+                            },
+                            {
+                                "key":"def",
+                                "value":0.5
+                            },
+                            {
+                                "key":"stun",
+                                "value":10.0
+                            }
+                        ]
+                    },
+                    {
+                        "rangeId":null,
+                        "description_zh":"攻击力<@ba.vup>+120%</>，防御力<@ba.vup>+60%</>，随机攻击范围内的目标\\n<@ba.rem>技能结束后自身<$ba.stun>晕眩</>10秒</>",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":1,
+                            "spCost":26,
+                            "initSp":13,
+                            "increment":1.0
+                        },
+                        "duration":20.0,
+                        "blackboard":[
+                            {
+                                "key":"atk",
+                                "value":1.2
+                            },
+                            {
+                                "key":"def",
+                                "value":0.6
+                            },
+                            {
+                                "key":"stun",
+                                "value":10.0
+                            }
+                        ]
+                    },
+                    {
+                        "rangeId":null,
+                        "description_zh":"攻击力<@ba.vup>+130%</>，防御力<@ba.vup>+60%</>，随机攻击范围内的目标\\n<@ba.rem>技能结束后自身<$ba.stun>晕眩</>10秒</>",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":1,
+                            "spCost":25,
+                            "initSp":14,
+                            "increment":1.0
+                        },
+                        "duration":20.0,
+                        "blackboard":[
+                            {
+                                "key":"atk",
+                                "value":1.3
+                            },
+                            {
+                                "key":"def",
+                                "value":0.6
+                            },
+                            {
+                                "key":"stun",
+                                "value":10.0
+                            }
+                        ]
+                    },
+                    {
+                        "rangeId":null,
+                        "description_zh":"攻击力<@ba.vup>+140%</>，防御力<@ba.vup>+70%</>，随机攻击范围内的目标\\n<@ba.rem>技能结束后自身<$ba.stun>晕眩</>10秒</>",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":1,
+                            "spCost":24,
+                            "initSp":15,
+                            "increment":1.0
+                        },
+                        "duration":20.0,
+                        "blackboard":[
+                            {
+                                "key":"atk",
+                                "value":1.4
+                            },
+                            {
+                                "key":"def",
+                                "value":0.7
+                            },
+                            {
+                                "key":"stun",
+                                "value":10.0
+                            }
+                        ]
+                    }
+                ],
+                "tags":[],
+                "blackboard":[
+                    {
+                        "key":"def",
+                        "value":0.7
+                    }
+                ]
+            },
+            {
+                "skillId":"skchr_aigis_2",
+                "name_zh":"全弹发射",
+                "name_ja":"",
+                "name_en":"",
+                "skillType":"MANUAL",
+                "durationType":"NONE",
+                "spType":"INCREASE_WITH_TIME",
+                "levels":[
+                    {
+                        "rangeId":null,
+                        "description_zh":"锁定范围内一个目标，对其发射6枚导弹，每枚导弹造成相当于攻击力<@ba.vup>130%</>的物理伤害，之后自身飞踢向目标，对目标及目标周围敌人造成相当于攻击力<@ba.vup>270%</>的物理伤害",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":1,
+                            "spCost":27,
+                            "initSp":12,
+                            "increment":1.0
+                        },
+                        "duration":-1.0,
+                        "blackboard":[
+                            {
+                                "key":"times",
+                                "value":6.0
+                            },
+                            {
+                                "key":"atk_scale",
+                                "value":1.3
+                            },
+                            {
+                                "key":"kick_atk_scale",
+                                "value":2.7
+                            }
+                        ]
+                    },
+                    {
+                        "rangeId":null,
+                        "description_zh":"锁定范围内一个目标，对其发射6枚导弹，每枚导弹造成相当于攻击力<@ba.vup>140%</>的物理伤害，之后自身飞踢向目标，对目标及目标周围敌人造成相当于攻击力<@ba.vup>280%</>的物理伤害",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":1,
+                            "spCost":26,
+                            "initSp":13,
+                            "increment":1.0
+                        },
+                        "duration":-1.0,
+                        "blackboard":[
+                            {
+                                "key":"times",
+                                "value":6.0
+                            },
+                            {
+                                "key":"atk_scale",
+                                "value":1.4
+                            },
+                            {
+                                "key":"kick_atk_scale",
+                                "value":2.8
+                            }
+                        ]
+                    },
+                    {
+                        "rangeId":null,
+                        "description_zh":"锁定范围内一个目标，对其发射6枚导弹，每枚导弹造成相当于攻击力<@ba.vup>150%</>的物理伤害，之后自身飞踢向目标，对目标及目标周围敌人造成相当于攻击力<@ba.vup>290%</>的物理伤害",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":1,
+                            "spCost":25,
+                            "initSp":14,
+                            "increment":1.0
+                        },
+                        "duration":-1.0,
+                        "blackboard":[
+                            {
+                                "key":"times",
+                                "value":6.0
+                            },
+                            {
+                                "key":"atk_scale",
+                                "value":1.5
+                            },
+                            {
+                                "key":"kick_atk_scale",
+                                "value":2.9
+                            }
+                        ]
+                    },
+                    {
+                        "rangeId":null,
+                        "description_zh":"锁定范围内一个目标，对其发射6枚导弹，每枚导弹造成相当于攻击力<@ba.vup>160%</>的物理伤害，之后自身飞踢向目标，对目标及目标周围敌人造成相当于攻击力<@ba.vup>300%</>的物理伤害",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":1,
+                            "spCost":24,
+                            "initSp":15,
+                            "increment":1.0
+                        },
+                        "duration":-1.0,
+                        "blackboard":[
+                            {
+                                "key":"times",
+                                "value":6.0
+                            },
+                            {
+                                "key":"atk_scale",
+                                "value":1.6
+                            },
+                            {
+                                "key":"kick_atk_scale",
+                                "value":3.0
+                            }
+                        ]
+                    }
+                ],
+                "tags":[],
+                "blackboard":[]
+            }
+        ],
+        "talents":[
+            {
+                "prefabKey":"1",
+                "name_zh":"反暗影特殊压制兵装",
+                "name_en":"",
+                "name_ja":"",
+                "desc_zh":"造成的物理伤害+12%<@ba.talpu>（+2%）</>，受到的物理伤害-12%<@ba.talpu>（+2%）</>",
+                "desc_en":"",
+                "desc_ja":"",
+                "rangeId":null,
+                "tags":[],
+                "blackboard":[
+                    {
+                        "key":"dmg_res",
+                        "types":[
+                            "phys"
+                        ],
+                        "value":0.12
+                    }
+                ]
+            }
+        ],
+        "uniequip":[
+            {
+                "uniEquipId":"uniequip_001_aigis",
+                "name_zh":"埃癸斯证章",
+                "name_ja":"",
+                "name_en":"",
+                "typeIcon":"original",
+                "charId":"char_4218_aigis",
+                "combatData":null
+            },
+            {
+                "uniEquipId":"uniequip_002_aigis",
+                "name_zh":"约定的证明",
+                "name_ja":"",
+                "name_en":"",
+                "typeIcon":"brk-x",
+                "charId":"char_4218_aigis",
+                "combatData":{
+                    "phases":[
+                        {
+                            "parts":[
+                                {
+                                    "resKey":null,
+                                    "target":"DISPLAY",
+                                    "isToken":false,
+                                    "addDesc_zh":null,
+                                    "addDesc_ja":"",
+                                    "addDesc_en":"",
+                                    "overrideDesc_zh":"部署后<$ba.liftoff>起飞</>，<$ba.liftoff>起飞</>后只攻击空中敌人；技能开启时降落，攻击造成<@ba.kw>群体物理伤害</>且攻击地面敌人时攻击力提升至<@ba.kw>110％</>",
+                                    "overrideDesc_ja":"",
+                                    "overrideDesc_en":""
+                                },
+                                {
+                                    "resKey":null,
+                                    "target":"TALENT_DATA_ONLY",
+                                    "isToken":false,
+                                    "name_zh":null,
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":0,
+                                    "upgradeDesc_zh":"",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                }
+                            ],
+                            "attributeBlackboard":[
+                                {
+                                    "key":"max_hp",
+                                    "value":35.0
+                                },
+                                {
+                                    "key":"atk",
+                                    "value":35.0
+                                },
+                                {
+                                    "key":"def",
+                                    "value":12.0
+                                }
+                            ],
+                            "tokenAttributeBlackboard":{}
+                        },
+                        {
+                            "parts":[
+                                {
+                                    "resKey":null,
+                                    "target":"DISPLAY",
+                                    "isToken":false,
+                                    "addDesc_zh":null,
+                                    "addDesc_ja":"",
+                                    "addDesc_en":"",
+                                    "overrideDesc_zh":"部署后<$ba.liftoff>起飞</>，<$ba.liftoff>起飞</>后只攻击空中敌人；技能开启时降落，攻击造成<@ba.kw>群体物理伤害</>且攻击地面敌人时攻击力提升至<@ba.kw>110％</>",
+                                    "overrideDesc_ja":"",
+                                    "overrideDesc_en":""
+                                },
+                                {
+                                    "resKey":null,
+                                    "target":"TALENT_DATA_ONLY",
+                                    "isToken":false,
+                                    "name_zh":"反暗影特殊压制兵装",
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":0,
+                                    "upgradeDesc_zh":"造成的物理伤害+15%<@ba.talpu>（+2%）</>，受到的物理伤害-15%<@ba.talpu>（+2%）</>",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                },
+                                {
+                                    "resKey":null,
+                                    "target":"TALENT_DATA_ONLY",
+                                    "isToken":false,
+                                    "name_zh":null,
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":0,
+                                    "upgradeDesc_zh":"",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                }
+                            ],
+                            "attributeBlackboard":[
+                                {
+                                    "key":"max_hp",
+                                    "value":60.0
+                                },
+                                {
+                                    "key":"atk",
+                                    "value":50.0
+                                },
+                                {
+                                    "key":"def",
+                                    "value":17.0
+                                }
+                            ],
+                            "tokenAttributeBlackboard":{}
+                        },
+                        {
+                            "parts":[
+                                {
+                                    "resKey":null,
+                                    "target":"DISPLAY",
+                                    "isToken":false,
+                                    "addDesc_zh":null,
+                                    "addDesc_ja":"",
+                                    "addDesc_en":"",
+                                    "overrideDesc_zh":"部署后<$ba.liftoff>起飞</>，<$ba.liftoff>起飞</>后只攻击空中敌人；技能开启时降落，攻击造成<@ba.kw>群体物理伤害</>且攻击地面敌人时攻击力提升至<@ba.kw>110％</>",
+                                    "overrideDesc_ja":"",
+                                    "overrideDesc_en":""
+                                },
+                                {
+                                    "resKey":null,
+                                    "target":"TALENT_DATA_ONLY",
+                                    "isToken":false,
+                                    "name_zh":"反暗影特殊压制兵装",
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":0,
+                                    "upgradeDesc_zh":"造成的物理伤害+17%<@ba.talpu>（+2%）</>，受到的物理伤害-17%<@ba.talpu>（+2%）</>",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                },
+                                {
+                                    "resKey":null,
+                                    "target":"TALENT_DATA_ONLY",
+                                    "isToken":false,
+                                    "name_zh":null,
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":0,
+                                    "upgradeDesc_zh":"",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                }
+                            ],
+                            "attributeBlackboard":[
+                                {
+                                    "key":"max_hp",
+                                    "value":80.0
+                                },
+                                {
+                                    "key":"atk",
+                                    "value":60.0
+                                },
+                                {
+                                    "key":"def",
+                                    "value":20.0
+                                }
+                            ],
+                            "tokenAttributeBlackboard":{}
+                        }
+                    ],
+                    "tags":[],
+                    "blackboard":[
+                        {
+                            "key":"dmg_res",
+                            "types":[
+                                "phys"
+                            ],
+                            "value":0.17
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
         "id":"char_002_amiya",
         "appellation":"Amiya",
         "name_zh":"阿米娅",
@@ -75942,11 +76608,11 @@
         "id":"char_4031_liesel",
         "appellation":"Ripresa",
         "name_zh":"复奏",
-        "name_ja":"",
-        "name_en":"",
+        "name_ja":"リプレーザ",
+        "name_en":"Ripresa",
         "desc_zh":"攻击造成<@ba.kw>群体法术伤害</>",
-        "desc_ja":"",
-        "desc_en":"",
+        "desc_ja":"敵に<@ba.kw>範囲術ダメージ</>を与える",
+        "desc_en":"Deals <@ba.kw>AOE Arts damage</>",
         "release_time":1773115200,
         "tags":[
             "aoe",
@@ -75978,38 +76644,38 @@
         "potential":[
             {
                 "desc_zh":"部署费用-1",
-                "desc_ja":"",
-                "desc_en":"",
+                "desc_ja":"配置コスト-1",
+                "desc_en":"DP Cost -1",
                 "attribute":{
                     "cost":-1.0
                 }
             },
             {
                 "desc_zh":"再部署时间-4秒",
-                "desc_ja":"",
-                "desc_en":"",
+                "desc_ja":"再配置時間-4秒",
+                "desc_en":"Redeployment Time -4 sec",
                 "attribute":{
                     "respawnTime":-4.0
                 }
             },
             {
                 "desc_zh":"攻击力+32",
-                "desc_ja":"",
-                "desc_en":"",
+                "desc_ja":"攻撃力+32",
+                "desc_en":"ATK +32",
                 "attribute":{
                     "atk":32.0
                 }
             },
             {
                 "desc_zh":"天赋效果增强",
-                "desc_ja":"",
-                "desc_en":"",
+                "desc_ja":"素質強化",
+                "desc_en":"Improves Talent",
                 "attribute":null
             },
             {
                 "desc_zh":"部署费用-1",
-                "desc_ja":"",
-                "desc_en":"",
+                "desc_ja":"配置コスト-1",
+                "desc_en":"DP Cost -1",
                 "attribute":{
                     "cost":-1.0
                 }
@@ -76276,8 +76942,8 @@
             {
                 "prefabKey":"0",
                 "name_zh":"执棒素养",
-                "name_en":"",
-                "name_ja":"",
+                "name_en":"Baton Mastery",
+                "name_ja":"指揮者の素質",
                 "desc_zh":"攻击溅射范围内有大于或等于3个敌人时，使当次攻击造成的伤害提升至125%<@ba.talpu>（+5%）</>",
                 "desc_en":"",
                 "desc_ja":"",
@@ -92097,7 +92763,7 @@
         "name_ja":"濯塵ハイビスカス",
         "name_en":"Hibiscus the Purifier",
         "desc_zh":"攻击造成法术伤害，攻击敌人时为攻击范围内一名友方干员治疗相当于50%伤害的生命值",
-        "desc_ja":"術ダメージを与え、敵を攻撃するたび攻撃範囲内の味方1人のHPを与ダメージの50%回復",
+        "desc_ja":"術ダメージを与え、敵を攻撃するたび攻撃範囲内の味方1名のHPを与ダメージの50%回復",
         "desc_en":"Attacks deal Arts damage and heal the HP of an ally within Attack Range for 50% of the damage dealt",
         "release_time":1654761600,
         "tags":[
@@ -92621,7 +93287,7 @@
         "name_ja":"ヴァンデラ",
         "name_en":"Vendela",
         "desc_zh":"攻击造成法术伤害，攻击敌人时为攻击范围内一名友方干员治疗相当于50%伤害的生命值",
-        "desc_ja":"術ダメージを与え、敵を攻撃するたび攻撃範囲内の味方1人のHPを与ダメージの50%回復",
+        "desc_ja":"術ダメージを与え、敵を攻撃するたび攻撃範囲内の味方1名のHPを与ダメージの50%回復",
         "desc_en":"Attacks deal Arts damage and heal the HP of an ally within Attack Range for 50% of the damage dealt",
         "release_time":1696752000,
         "tags":[
@@ -118389,7 +119055,7 @@
                 "name_ja":"呪いの人形",
                 "name_en":"Cursed Doll",
                 "desc_zh":"不会受到攻击",
-                "desc_ja":"ダメージを受けない",
+                "desc_ja":"攻撃されない",
                 "desc_en":"Cannot be attacked",
                 "position":"ALL",
                 "stats":{
@@ -121856,7 +122522,7 @@
                 "name_ja":"高信頼性バッテリー",
                 "name_en":"Reliable Battery",
                 "desc_zh":"不会受到攻击",
-                "desc_ja":"ダメージを受けない",
+                "desc_ja":"攻撃されない",
                 "desc_en":"Cannot be attacked",
                 "position":"ALL",
                 "stats":{
@@ -122538,7 +123204,7 @@
                 "name_ja":"クローラー・防護ユニット",
                 "name_en":"Crawler Protection Unit",
                 "desc_zh":"不会受到攻击",
-                "desc_ja":"ダメージを受けない",
+                "desc_ja":"攻撃されない",
                 "desc_en":"Cannot be attacked",
                 "position":"ALL",
                 "stats":{
@@ -123194,7 +123860,7 @@
                 "name_ja":"ナットちゃん",
                 "name_en":"Nutty",
                 "desc_zh":"不会受到攻击",
-                "desc_ja":"ダメージを受けない",
+                "desc_ja":"攻撃されない",
                 "desc_en":"Cannot be attacked",
                 "position":"ALL",
                 "stats":{
@@ -129823,6 +130489,569 @@
         ]
     },
     {
+        "id":"char_4219_yukari",
+        "appellation":"Yukari Takeba",
+        "name_zh":"岳羽由加莉",
+        "name_ja":"",
+        "name_en":"",
+        "desc_zh":"可以使用<ba.triggereffect>触发型效果</>协助作战",
+        "desc_ja":"",
+        "desc_en":"",
+        "release_time":1788494400,
+        "tags":[
+            "target_air",
+            "phys"
+        ],
+        "blackboard":[],
+        "powers":[
+            "laterano",
+            "sees"
+        ],
+        "position":"RANGED",
+        "isSpChar":false,
+        "rarity":"TIER_5",
+        "profession":"SUPPORT",
+        "subProfessionId":"supportiveranger",
+        "stats":{
+            "rangeId":"3-18",
+            "level":80,
+            "hp":1510,
+            "atk":775,
+            "def":200,
+            "res":10.0,
+            "cost":16,
+            "blockCnt":1,
+            "aspd":2.1,
+            "respawnTime":70
+        },
+        "potential":[
+            {
+                "desc_zh":"部署费用-1",
+                "desc_ja":"",
+                "desc_en":"",
+                "attribute":{
+                    "cost":-1.0
+                }
+            },
+            {
+                "desc_zh":"再部署时间-4秒",
+                "desc_ja":"",
+                "desc_en":"",
+                "attribute":{
+                    "respawnTime":-4.0
+                }
+            },
+            {
+                "desc_zh":"攻击力+30",
+                "desc_ja":"",
+                "desc_en":"",
+                "attribute":{
+                    "atk":30.0
+                }
+            },
+            {
+                "desc_zh":"再部署时间-6秒",
+                "desc_ja":"",
+                "desc_en":"",
+                "attribute":{
+                    "respawnTime":-6.0
+                }
+            },
+            {
+                "desc_zh":"部署费用-1",
+                "desc_ja":"",
+                "desc_en":"",
+                "attribute":{
+                    "cost":-1.0
+                }
+            }
+        ],
+        "favorData":{
+            "hp":300,
+            "atk":30
+        },
+        "tokens":[],
+        "skills":[
+            {
+                "skillId":"skchr_yukari_1",
+                "name_zh":"龙卷箭",
+                "name_ja":"",
+                "name_en":"",
+                "skillType":"MANUAL",
+                "durationType":"NONE",
+                "spType":"INCREASE_WITH_TIME",
+                "levels":[
+                    {
+                        "rangeId":null,
+                        "description_zh":"立即发射三发箭矢，每发对目标造成相当于<@ba.vup>65%</>攻击力的法术伤害，随后追加一次相当于攻击力<@ba.vup>300%</>的范围法术伤害并<$ba.levitate>浮空</>所有目标<@ba.vup>1.5</>秒",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":1,
+                            "spCost":26,
+                            "initSp":10,
+                            "increment":1.0
+                        },
+                        "duration":-1.0,
+                        "blackboard":[
+                            {
+                                "key":"multi_atk_scale",
+                                "value":0.65
+                            },
+                            {
+                                "key":"final_atk_scale",
+                                "value":3.0
+                            },
+                            {
+                                "key":"levitate",
+                                "value":1.5
+                            }
+                        ]
+                    },
+                    {
+                        "rangeId":null,
+                        "description_zh":"立即发射三发箭矢，每发对目标造成相当于<@ba.vup>70%</>攻击力的法术伤害，随后追加一次相当于攻击力<@ba.vup>350%</>的范围法术伤害并<$ba.levitate>浮空</>所有目标<@ba.vup>1.5</>秒",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":1,
+                            "spCost":24,
+                            "initSp":10,
+                            "increment":1.0
+                        },
+                        "duration":-1.0,
+                        "blackboard":[
+                            {
+                                "key":"multi_atk_scale",
+                                "value":0.7
+                            },
+                            {
+                                "key":"final_atk_scale",
+                                "value":3.5
+                            },
+                            {
+                                "key":"levitate",
+                                "value":1.5
+                            }
+                        ]
+                    },
+                    {
+                        "rangeId":null,
+                        "description_zh":"立即发射三发箭矢，每发对目标造成相当于<@ba.vup>75%</>攻击力的法术伤害，随后追加一次相当于攻击力<@ba.vup>350%</>的范围法术伤害并<$ba.levitate>浮空</>所有目标<@ba.vup>1.5</>秒",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":1,
+                            "spCost":22,
+                            "initSp":10,
+                            "increment":1.0
+                        },
+                        "duration":-1.0,
+                        "blackboard":[
+                            {
+                                "key":"multi_atk_scale",
+                                "value":0.75
+                            },
+                            {
+                                "key":"final_atk_scale",
+                                "value":3.5
+                            },
+                            {
+                                "key":"levitate",
+                                "value":1.5
+                            }
+                        ]
+                    },
+                    {
+                        "rangeId":null,
+                        "description_zh":"立即发射三发箭矢，每发对目标造成相当于<@ba.vup>80%</>攻击力的法术伤害，随后追加一次相当于攻击力<@ba.vup>400%</>的范围法术伤害并<$ba.levitate>浮空</>所有目标<@ba.vup>1.5</>秒",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":1,
+                            "spCost":20,
+                            "initSp":10,
+                            "increment":1.0
+                        },
+                        "duration":-1.0,
+                        "blackboard":[
+                            {
+                                "key":"multi_atk_scale",
+                                "value":0.8
+                            },
+                            {
+                                "key":"final_atk_scale",
+                                "value":4.0
+                            },
+                            {
+                                "key":"levitate",
+                                "value":1.5
+                            }
+                        ]
+                    }
+                ],
+                "tags":[
+                    "arts"
+                ],
+                "blackboard":[
+                    {
+                        "key":"levitate",
+                        "targets":99,
+                        "value":1.5
+                    }
+                ]
+            },
+            {
+                "skillId":"skchr_yukari_2",
+                "name_zh":"明镜止水",
+                "name_ja":"",
+                "name_en":"",
+                "skillType":"MANUAL",
+                "durationType":"NONE",
+                "spType":"INCREASE_WITH_TIME",
+                "levels":[
+                    {
+                        "rangeId":null,
+                        "description_zh":"为范围内最多<@ba.vup>4</>名我方干员（优先选择结城理、术师干员）施加<$ba.triggereffect>触发型效果</>：\\n干员施放技能后，自身在<@ba.vup>15</>秒内获得<@ba.vup>20%</><$ba.magicarcane>术法充盈</>",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":1,
+                            "spCost":39,
+                            "initSp":15,
+                            "increment":1.0
+                        },
+                        "duration":-1.0,
+                        "blackboard":[
+                            {
+                                "key":"max_target",
+                                "value":4.0
+                            },
+                            {
+                                "key":"duration",
+                                "value":15.0
+                            },
+                            {
+                                "key":"damage_up",
+                                "value":0.2
+                            }
+                        ]
+                    },
+                    {
+                        "rangeId":null,
+                        "description_zh":"为范围内最多<@ba.vup>4</>名我方干员（优先选择结城理、术师干员）施加<$ba.triggereffect>触发型效果</>：\\n干员施放技能后，自身在<@ba.vup>15</>秒内获得<@ba.vup>25%</><$ba.magicarcane>术法充盈</>",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":1,
+                            "spCost":36,
+                            "initSp":15,
+                            "increment":1.0
+                        },
+                        "duration":-1.0,
+                        "blackboard":[
+                            {
+                                "key":"max_target",
+                                "value":4.0
+                            },
+                            {
+                                "key":"duration",
+                                "value":15.0
+                            },
+                            {
+                                "key":"damage_up",
+                                "value":0.25
+                            }
+                        ]
+                    },
+                    {
+                        "rangeId":null,
+                        "description_zh":"为范围内最多<@ba.vup>4</>名我方干员（优先选择结城理、术师干员）施加<$ba.triggereffect>触发型效果</>：\\n干员施放技能后，自身在<@ba.vup>15</>秒内获得<@ba.vup>25%</><$ba.magicarcane>术法充盈</>",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":1,
+                            "spCost":33,
+                            "initSp":15,
+                            "increment":1.0
+                        },
+                        "duration":-1.0,
+                        "blackboard":[
+                            {
+                                "key":"max_target",
+                                "value":4.0
+                            },
+                            {
+                                "key":"duration",
+                                "value":15.0
+                            },
+                            {
+                                "key":"damage_up",
+                                "value":0.25
+                            }
+                        ]
+                    },
+                    {
+                        "rangeId":null,
+                        "description_zh":"为范围内最多<@ba.vup>4</>名我方干员（优先选择结城理、术师干员）施加<$ba.triggereffect>触发型效果</>：\\n干员施放技能后，自身在<@ba.vup>15</>秒内获得<@ba.vup>30%</><$ba.magicarcane>术法充盈</>",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":1,
+                            "spCost":30,
+                            "initSp":15,
+                            "increment":1.0
+                        },
+                        "duration":-1.0,
+                        "blackboard":[
+                            {
+                                "key":"max_target",
+                                "value":4.0
+                            },
+                            {
+                                "key":"duration",
+                                "value":15.0
+                            },
+                            {
+                                "key":"damage_up",
+                                "value":0.3
+                            }
+                        ]
+                    }
+                ],
+                "tags":[
+                    "triggereffect"
+                ],
+                "blackboard":[
+                    {
+                        "key":"ally_damage_scale",
+                        "value":1.3,
+                        "category":[
+                            "magicarcane"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "talents":[
+            {
+                "prefabKey":"1",
+                "name_zh":"治愈之风",
+                "name_en":"",
+                "name_ja":"",
+                "desc_zh":"技能结束后，治疗自身和攻击范围内最多3名干员相当于岳羽由加莉攻击力100%的生命值",
+                "desc_en":"",
+                "desc_ja":"",
+                "rangeId":null,
+                "tags":[
+                    "heal_ally"
+                ],
+                "blackboard":[]
+            }
+        ],
+        "uniequip":[
+            {
+                "uniEquipId":"uniequip_001_yukari",
+                "name_zh":"岳羽由加莉证章",
+                "name_ja":"",
+                "name_en":"",
+                "typeIcon":"original",
+                "charId":"char_4219_yukari",
+                "combatData":null
+            },
+            {
+                "uniEquipId":"uniequip_002_yukari",
+                "name_zh":"命运的奖赏",
+                "name_ja":"",
+                "name_en":"",
+                "typeIcon":"ran-x",
+                "charId":"char_4219_yukari",
+                "combatData":{
+                    "phases":[
+                        {
+                            "parts":[
+                                {
+                                    "resKey":"yukari_equip_1_1_p1",
+                                    "target":"TRAIT",
+                                    "isToken":false,
+                                    "addDesc_zh":"攻击范围内有干员处于技能持续期间时，自身攻击力<@ba.kw>+8%</>",
+                                    "addDesc_ja":"",
+                                    "addDesc_en":"",
+                                    "overrideDesc_zh":null,
+                                    "overrideDesc_ja":"",
+                                    "overrideDesc_en":""
+                                },
+                                {
+                                    "resKey":"yukari_equip_1_1_p1",
+                                    "target":"TALENT",
+                                    "isToken":false,
+                                    "name_zh":null,
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":-2,
+                                    "upgradeDesc_zh":"",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                }
+                            ],
+                            "attributeBlackboard":[
+                                {
+                                    "key":"max_hp",
+                                    "value":120.0
+                                },
+                                {
+                                    "key":"atk",
+                                    "value":36.0
+                                },
+                                {
+                                    "key":"def",
+                                    "value":10.0
+                                }
+                            ],
+                            "tokenAttributeBlackboard":{}
+                        },
+                        {
+                            "parts":[
+                                {
+                                    "resKey":"yukari_equip_1_2_p1",
+                                    "target":"TRAIT",
+                                    "isToken":false,
+                                    "addDesc_zh":"攻击范围内有干员处于技能持续期间时，自身攻击力<@ba.kw>+8%</>",
+                                    "addDesc_ja":"",
+                                    "addDesc_en":"",
+                                    "overrideDesc_zh":null,
+                                    "overrideDesc_ja":"",
+                                    "overrideDesc_en":""
+                                },
+                                {
+                                    "resKey":"yukari_equip_1_2_p1",
+                                    "target":"TALENT",
+                                    "isToken":false,
+                                    "name_zh":null,
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":-2,
+                                    "upgradeDesc_zh":"",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                },
+                                {
+                                    "resKey":null,
+                                    "target":"TALENT_DATA_ONLY",
+                                    "isToken":false,
+                                    "name_zh":"治愈之风",
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":0,
+                                    "upgradeDesc_zh":"技能结束后，治疗自身和攻击范围内最多3名干员相当于岳羽由加莉攻击力110%的生命值",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                }
+                            ],
+                            "attributeBlackboard":[
+                                {
+                                    "key":"max_hp",
+                                    "value":140.0
+                                },
+                                {
+                                    "key":"atk",
+                                    "value":42.0
+                                },
+                                {
+                                    "key":"def",
+                                    "value":15.0
+                                }
+                            ],
+                            "tokenAttributeBlackboard":{}
+                        },
+                        {
+                            "parts":[
+                                {
+                                    "resKey":"yukari_equip_1_3_p1",
+                                    "target":"TRAIT",
+                                    "isToken":false,
+                                    "addDesc_zh":"攻击范围内有干员处于技能持续期间时，自身攻击力<@ba.kw>+8%</>",
+                                    "addDesc_ja":"",
+                                    "addDesc_en":"",
+                                    "overrideDesc_zh":null,
+                                    "overrideDesc_ja":"",
+                                    "overrideDesc_en":""
+                                },
+                                {
+                                    "resKey":"yukari_equip_1_3_p1",
+                                    "target":"TALENT",
+                                    "isToken":false,
+                                    "name_zh":null,
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":-2,
+                                    "upgradeDesc_zh":"",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                },
+                                {
+                                    "resKey":null,
+                                    "target":"TALENT_DATA_ONLY",
+                                    "isToken":false,
+                                    "name_zh":"治愈之风",
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":0,
+                                    "upgradeDesc_zh":"技能结束后，治疗自身和攻击范围内最多3名干员相当于岳羽由加莉攻击力120%的生命值",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                }
+                            ],
+                            "attributeBlackboard":[
+                                {
+                                    "key":"max_hp",
+                                    "value":160.0
+                                },
+                                {
+                                    "key":"atk",
+                                    "value":48.0
+                                },
+                                {
+                                    "key":"def",
+                                    "value":20.0
+                                }
+                            ],
+                            "tokenAttributeBlackboard":{}
+                        }
+                    ],
+                    "tags":[],
+                    "blackboard":[]
+                }
+            }
+        ]
+    },
+    {
         "id":"char_4234_pedro",
         "appellation":"Pedro",
         "name_zh":"佩德洛",
@@ -133098,7 +134327,7 @@
                 "name_ja":"「クリップ」",
                 "name_en":"'Clip'",
                 "desc_zh":"不会受到攻击，无法放置于<@ba.kw>敌人已在</>的格子中",
-                "desc_ja":"ダメージを受けない。<@ba.kw>敵のいるマス</>に配置不可",
+                "desc_ja":"攻撃されない。<@ba.kw>敵のいるマス</>に配置不可",
                 "desc_en":"Cannot be attacked; cannot be deployed on tiles where enemies are <@ba.kw>already present</>",
                 "position":"MELEE",
                 "stats":{
@@ -133679,7 +134908,7 @@
                 "name_ja":"ウェルカムマット",
                 "name_en":"Welcome Mat",
                 "desc_zh":"不会受到攻击，无法放置于<@ba.kw>敌人已在</>的格子中",
-                "desc_ja":"ダメージを受けない。<@ba.kw>敵のいるマス</>に配置不可",
+                "desc_ja":"攻撃されない。<@ba.kw>敵のいるマス</>に配置不可",
                 "desc_en":"Cannot be attacked; cannot be deployed on tiles where enemies are <@ba.kw>already present</>",
                 "position":"MELEE",
                 "stats":{
@@ -134321,7 +135550,7 @@
                 "name_ja":"鉱石「キラー」",
                 "name_en":"Ore 'Killer'",
                 "desc_zh":"不会受到攻击，无法放置于<@ba.kw>敌人已在</>的格子中",
-                "desc_ja":"ダメージを受けない。<@ba.kw>敵のいるマス</>に配置不可",
+                "desc_ja":"攻撃されない。<@ba.kw>敵のいるマス</>に配置不可",
                 "desc_en":"Cannot be attacked; cannot be deployed on tiles where enemies are <@ba.kw>already present</>",
                 "position":"MELEE",
                 "stats":{
@@ -141651,7 +142880,7 @@
                 "name_ja":"「タイプライター」",
                 "name_en":"'Typewriter'",
                 "desc_zh":"不会受到攻击",
-                "desc_ja":"ダメージを受けない",
+                "desc_ja":"攻撃されない",
                 "desc_en":"Cannot be attacked",
                 "position":"RANGED",
                 "stats":{
@@ -190213,7 +191442,7 @@
                 "name_ja":"スカジのシーボーン",
                 "name_en":"Skadi's Seaborn",
                 "desc_zh":"不会受到攻击",
-                "desc_ja":"ダメージを受けない",
+                "desc_ja":"攻撃されない",
                 "desc_en":"Cannot be attacked",
                 "position":"ALL",
                 "stats":{
@@ -192240,7 +193469,7 @@
                 "name_ja":"夜の灯火",
                 "name_en":"Night Banisher",
                 "desc_zh":"不会受到攻击",
-                "desc_ja":"ダメージを受けない",
+                "desc_ja":"攻撃されない",
                 "desc_en":"Cannot be attacked",
                 "position":"ALL",
                 "stats":{
@@ -195027,7 +196256,7 @@
                 "name_ja":"ステインレス™多機能プラットフォーム",
                 "name_en":"Stainless™ Multifunctional Platform",
                 "desc_zh":"不会受到攻击",
-                "desc_ja":"ダメージを受けない",
+                "desc_ja":"攻撃されない",
                 "desc_en":"Cannot be attacked",
                 "position":"ALL",
                 "stats":{
@@ -195086,7 +196315,7 @@
                 "name_ja":"ステインレス™多機能プラットフォーム",
                 "name_en":"Stainless™ Multifunctional Platform",
                 "desc_zh":"不会受到攻击",
-                "desc_ja":"ダメージを受けない",
+                "desc_ja":"攻撃されない",
                 "desc_en":"Cannot be attacked",
                 "position":"ALL",
                 "stats":{
@@ -196324,7 +197553,7 @@
                         "iconId":null,
                         "rangeId":null,
                         "desc_zh":"开启技能时回复<@ba.vup>1</>点生命值；激活后每0.5秒流失1点生命值，使前方干员获得<@ba.vup>1</>点技力和相当于娜斯提生命上限<@ba.vup>5%</>的<$ba.barrier>屏障</>（最多不超过生命上限80%），激活的装置在娜斯提技能结束时离场",
-                        "desc_ja":"スキル発動時、自身のHPを<@ba.vup>1</>回復。起動後、0.5秒ごとにHPを1失い、前方1マス内のオペレーターのSPを<@ba.vup>1</>回復し、ナスティの最大HPの<@ba.vup>5%</>までの被ダメージを吸収できる<$ba.barrier>バリア</>を付与する（バリアの上限は最大HPの80%まで）。起動した装置はナスティのスキル終了時に撤退する",
+                        "desc_ja":"スキル発動時、自身のHPを<@ba.vup>1</>回復。起動後、0.5秒ごとにHPを1失い、前方1マス内のオペレーターのSPを<@ba.vup>1</>回復し、ナスティの最大HPの<@ba.vup>5%</>までの被ダメージを吸収可能な<$ba.barrier>バリア</>を付与する（バリアの上限は最大HPの80%まで）。起動した装置はナスティのスキル終了時に撤退する",
                         "desc_en":"When skill is activated, restores <@ba.vup>1</> HP. After activation, loses 1 HP every 0.5 seconds, and grants the Operator in front <@ba.vup>1</> SP and a <$ba.barrier>Barrier</> equal to <@ba.vup>5%</> of Nasti's Max HP (Barrier cannot exceed 80% of Max HP). The activated devices leave the field when Nasti's skill ends",
                         "skillType":"AUTO",
                         "durationType":"NONE",
@@ -199256,7 +200485,7 @@
                         "iconId":null,
                         "rangeId":null,
                         "desc_zh":"部署后立即获得<@ba.vup>50%</>的物理闪避和可吸收相当于自己最大生命<@ba.vup>80%</>物理伤害的<$ba.barrier>屏障</>，持续<@ba.vup>10</>秒",
-                        "desc_ja":"配置後の<@ba.vup>10</>秒間、物理回避<@ba.vup>+50%</>、最大HPの<@ba.vup>80%</>までの被ダメージを吸収できる<$ba.barrier>バリア</>を獲得",
+                        "desc_ja":"配置後の<@ba.vup>10</>秒間、物理回避<@ba.vup>+50%</>、最大HPの<@ba.vup>80%</>までの物理の被ダメージを吸収可能な<$ba.barrier>バリア</>を獲得する",
                         "desc_en":"After deployment, immediately gains <@ba.vup>50%</> Physical Dodge and a <$ba.barrier>Barrier</> that can absorb Physical damage equal to <@ba.vup>80%</> of this unit's Max HP, lasting for <@ba.vup>10</> seconds",
                         "skillType":"PASSIVE",
                         "durationType":"NONE",
@@ -199278,7 +200507,7 @@
                         "iconId":null,
                         "rangeId":null,
                         "desc_zh":"部署后立即获得<@ba.vup>10</>层可叠加的攻击力<@ba.vup>+20%</>的增益（每攻击一次消耗一层）",
-                        "desc_ja":"配置後、攻撃力<@ba.vup>+20%</>の効果を<@ba.vup>10</>回獲得（攻撃するたびに回数を1回消費する）",
+                        "desc_ja":"配置後、攻撃力<@ba.vup>+20%</>の効果を<@ba.vup>10</>回獲得する（攻撃するたびに回数を1回消費する）",
                         "desc_en":"Upon deployment, immediately gains <@ba.vup>10</> charges of a stacking <@ba.vup>+20%</> ATK buff (each attack consumes one charge)",
                         "skillType":"PASSIVE",
                         "durationType":"NONE",
@@ -202182,24 +203411,8 @@
                     "tags":[],
                     "blackboard":[
                         {
-                            "key":"atk",
-                            "value":0.1
-                        },
-                        {
-                            "key":"attack@atk_scale_1",
-                            "value":0.25
-                        },
-                        {
                             "key":"damage_up",
                             "value":0.05
-                        },
-                        {
-                            "key":"max_stack_cnt",
-                            "value":10.0
-                        },
-                        {
-                            "key":"respawn_time",
-                            "value":0.0
                         }
                     ]
                 }
@@ -205356,7 +206569,7 @@
                 "name_ja":"工事用蓄水砲",
                 "name_en":"Industrial Water Cannon",
                 "desc_zh":"不会受到攻击",
-                "desc_ja":"ダメージを受けない",
+                "desc_ja":"攻撃されない",
                 "desc_en":"Cannot be attacked",
                 "position":"ALL",
                 "stats":{
@@ -207269,7 +208482,7 @@
                 "name_ja":"配達先座標",
                 "name_en":"Delivery Coordinates",
                 "desc_zh":"不会受到攻击",
-                "desc_ja":"ダメージを受けない",
+                "desc_ja":"攻撃されない",
                 "desc_en":"Cannot be attacked",
                 "position":"MELEE",
                 "stats":{
@@ -212306,6 +213519,825 @@
         ]
     },
     {
+        "id":"char_4217_makoto",
+        "appellation":"Makoto Yuki",
+        "name_zh":"结城理",
+        "name_ja":"",
+        "name_en":"",
+        "desc_zh":"受到致命伤时不撤退，切换成<替身>作战（替身阻挡数为0），持续20秒后自身再次替换<替身>",
+        "desc_ja":"",
+        "desc_en":"",
+        "release_time":1788494400,
+        "tags":[
+            "phys"
+        ],
+        "blackboard":[],
+        "powers":[
+            "laterano",
+            "sees"
+        ],
+        "position":"MELEE",
+        "isSpChar":false,
+        "rarity":"TIER_6",
+        "profession":"SPECIAL",
+        "subProfessionId":"dollkeeper",
+        "stats":{
+            "rangeId":"1-1",
+            "level":90,
+            "hp":2805,
+            "atk":785,
+            "def":305,
+            "res":0.0,
+            "cost":16,
+            "blockCnt":2,
+            "aspd":1.2,
+            "respawnTime":70
+        },
+        "potential":[
+            {
+                "desc_zh":"部署费用-1",
+                "desc_ja":"",
+                "desc_en":"",
+                "attribute":{
+                    "cost":-1.0
+                }
+            },
+            {
+                "desc_zh":"第二天赋效果增强",
+                "desc_ja":"",
+                "desc_en":"",
+                "attribute":null
+            },
+            {
+                "desc_zh":"攻击力+34",
+                "desc_ja":"",
+                "desc_en":"",
+                "attribute":{
+                    "atk":34.0
+                }
+            },
+            {
+                "desc_zh":"第一天赋效果增强",
+                "desc_ja":"",
+                "desc_en":"",
+                "attribute":null
+            },
+            {
+                "desc_zh":"部署费用-1",
+                "desc_ja":"",
+                "desc_en":"",
+                "attribute":{
+                    "cost":-1.0
+                }
+            }
+        ],
+        "favorData":{
+            "hp":200,
+            "atk":40
+        },
+        "tokens":[],
+        "skills":[
+            {
+                "skillId":"skchr_makoto_1",
+                "name_zh":"俄耳甫斯的竖琴",
+                "name_ja":"",
+                "name_en":"",
+                "skillType":"MANUAL",
+                "durationType":"NONE",
+                "spType":"INCREASE_WITH_TIME",
+                "levels":[
+                    {
+                        "rangeId":"x-1",
+                        "description_zh":"被动：<替身>状态召唤<@ba.vup>俄耳甫斯</>，攻击对敌人造成攻击力<@ba.vup>210%</>的法术伤害，范围内有生命值低于<@ba.vup>50%</>的友方干员时，改为对其治疗相当于结城理攻击力<@ba.vup>50%</>的生命值\\n主动：立即切换为<替身>状态作战",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":1,
+                            "spCost":8,
+                            "initSp":4,
+                            "increment":1.0
+                        },
+                        "duration":0.0,
+                        "blackboard":[
+                            {
+                                "key":"attack@atk_scale",
+                                "value":2.1
+                            },
+                            {
+                                "key":"attack@heal_scale",
+                                "value":0.5
+                            }
+                        ]
+                    },
+                    {
+                        "rangeId":"x-1",
+                        "description_zh":"被动：<替身>状态召唤<@ba.vup>俄耳甫斯</>，攻击对敌人造成攻击力<@ba.vup>230%</>的法术伤害，范围内有生命值低于<@ba.vup>50%</>的友方干员时，改为对其治疗相当于结城理攻击力<@ba.vup>60%</>的生命值\\n主动：立即切换为<替身>状态作战",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":1,
+                            "spCost":7,
+                            "initSp":5,
+                            "increment":1.0
+                        },
+                        "duration":0.0,
+                        "blackboard":[
+                            {
+                                "key":"attack@atk_scale",
+                                "value":2.3
+                            },
+                            {
+                                "key":"attack@heal_scale",
+                                "value":0.6
+                            }
+                        ]
+                    },
+                    {
+                        "rangeId":"x-1",
+                        "description_zh":"被动：<替身>状态召唤<@ba.vup>俄耳甫斯</>，攻击对敌人造成攻击力<@ba.vup>250%</>的法术伤害，范围内有生命值低于<@ba.vup>50%</>的友方干员时，改为对其治疗相当于结城理攻击力<@ba.vup>60%</>的生命值\\n主动：立即切换为<替身>状态作战",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":1,
+                            "spCost":7,
+                            "initSp":6,
+                            "increment":1.0
+                        },
+                        "duration":0.0,
+                        "blackboard":[
+                            {
+                                "key":"attack@atk_scale",
+                                "value":2.5
+                            },
+                            {
+                                "key":"attack@heal_scale",
+                                "value":0.6
+                            }
+                        ]
+                    },
+                    {
+                        "rangeId":"x-1",
+                        "description_zh":"被动：<替身>状态召唤<@ba.vup>俄耳甫斯</>，攻击对敌人造成攻击力<@ba.vup>280%</>的法术伤害，范围内有生命值低于<@ba.vup>50%</>的友方干员时，改为对其治疗相当于结城理攻击力<@ba.vup>60%</>的生命值\\n主动：立即切换为<替身>状态作战",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":1,
+                            "spCost":7,
+                            "initSp":7,
+                            "increment":1.0
+                        },
+                        "duration":0.0,
+                        "blackboard":[
+                            {
+                                "key":"attack@atk_scale",
+                                "value":2.8
+                            },
+                            {
+                                "key":"attack@heal_scale",
+                                "value":0.6
+                            }
+                        ]
+                    }
+                ],
+                "tags":[
+                    "arts",
+                    "heal_ally",
+                    "heal_self"
+                ],
+                "blackboard":[]
+            },
+            {
+                "skillId":"skchr_makoto_2",
+                "name_zh":"塔纳托斯的囚锁",
+                "name_ja":"",
+                "name_en":"",
+                "skillType":"MANUAL",
+                "durationType":"NONE",
+                "spType":"INCREASE_WITH_TIME",
+                "levels":[
+                    {
+                        "rangeId":"x-1",
+                        "description_zh":"被动：<替身>状态召唤<@ba.vup>塔纳托斯</>，攻击对至多<@ba.vup>4</>名敌人造成攻击力<@ba.vup>220%</>的法术伤害并有<@ba.vup>35%</>概率<$ba.fear>恐惧</>敌人<@ba.vup>1.5</>秒，范围内<$ba.fear>恐惧</>中的敌人若生命值低于结城理攻击力的<@ba.vup>250%</>则立刻倒下\\n主动：立即切换为<替身>状态作战",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":1,
+                            "spCost":12,
+                            "initSp":6,
+                            "increment":1.0
+                        },
+                        "duration":0.0,
+                        "blackboard":[
+                            {
+                                "key":"attack@max_target",
+                                "value":4.0
+                            },
+                            {
+                                "key":"attack@atk_scale",
+                                "value":2.2
+                            },
+                            {
+                                "key":"attack@prob",
+                                "value":0.35
+                            },
+                            {
+                                "key":"attack@fear",
+                                "value":1.5
+                            },
+                            {
+                                "key":"attack@kill_atk_scale",
+                                "value":2.5
+                            },
+                            {
+                                "key":"attack@kill_damage",
+                                "value":9999999.0
+                            }
+                        ]
+                    },
+                    {
+                        "rangeId":"x-1",
+                        "description_zh":"被动：<替身>状态召唤<@ba.vup>塔纳托斯</>，攻击对至多<@ba.vup>4</>名敌人造成攻击力<@ba.vup>230%</>的法术伤害并有<@ba.vup>35%</>概率<$ba.fear>恐惧</>敌人<@ba.vup>1.5</>秒，范围内<$ba.fear>恐惧</>中的敌人若生命值低于结城理攻击力的<@ba.vup>260%</>则立刻倒下\\n主动：立即切换为<替身>状态作战",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":1,
+                            "spCost":12,
+                            "initSp":7,
+                            "increment":1.0
+                        },
+                        "duration":0.0,
+                        "blackboard":[
+                            {
+                                "key":"attack@max_target",
+                                "value":4.0
+                            },
+                            {
+                                "key":"attack@atk_scale",
+                                "value":2.3
+                            },
+                            {
+                                "key":"attack@prob",
+                                "value":0.35
+                            },
+                            {
+                                "key":"attack@fear",
+                                "value":1.5
+                            },
+                            {
+                                "key":"attack@kill_atk_scale",
+                                "value":2.6
+                            },
+                            {
+                                "key":"attack@kill_damage",
+                                "value":9999999.0
+                            }
+                        ]
+                    },
+                    {
+                        "rangeId":"x-1",
+                        "description_zh":"被动：<替身>状态召唤<@ba.vup>塔纳托斯</>，攻击对至多<@ba.vup>4</>名敌人造成攻击力<@ba.vup>240%</>的法术伤害并有<@ba.vup>35%</>概率<$ba.fear>恐惧</>敌人<@ba.vup>1.5</>秒，范围内<$ba.fear>恐惧</>中的敌人若生命值低于结城理攻击力的<@ba.vup>270%</>则立刻倒下\\n主动：立即切换为<替身>状态作战",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":1,
+                            "spCost":12,
+                            "initSp":7,
+                            "increment":1.0
+                        },
+                        "duration":0.0,
+                        "blackboard":[
+                            {
+                                "key":"attack@max_target",
+                                "value":4.0
+                            },
+                            {
+                                "key":"attack@atk_scale",
+                                "value":2.4
+                            },
+                            {
+                                "key":"attack@prob",
+                                "value":0.35
+                            },
+                            {
+                                "key":"attack@fear",
+                                "value":1.5
+                            },
+                            {
+                                "key":"attack@kill_atk_scale",
+                                "value":2.7
+                            },
+                            {
+                                "key":"attack@kill_damage",
+                                "value":9999999.0
+                            }
+                        ]
+                    },
+                    {
+                        "rangeId":"x-1",
+                        "description_zh":"被动：<替身>状态召唤<@ba.vup>塔纳托斯</>，攻击对至多<@ba.vup>4</>名敌人造成攻击力<@ba.vup>250%</>的法术伤害并有<@ba.vup>35%</>概率<$ba.fear>恐惧</>敌人<@ba.vup>1.5</>秒，范围内<$ba.fear>恐惧</>中的敌人若生命值低于结城理攻击力的<@ba.vup>280%</>则立刻倒下\\n主动：立即切换为<替身>状态作战",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":1,
+                            "spCost":12,
+                            "initSp":7,
+                            "increment":1.0
+                        },
+                        "duration":0.0,
+                        "blackboard":[
+                            {
+                                "key":"attack@max_target",
+                                "value":4.0
+                            },
+                            {
+                                "key":"attack@atk_scale",
+                                "value":2.5
+                            },
+                            {
+                                "key":"attack@prob",
+                                "value":0.35
+                            },
+                            {
+                                "key":"attack@fear",
+                                "value":1.5
+                            },
+                            {
+                                "key":"attack@kill_atk_scale",
+                                "value":2.8
+                            },
+                            {
+                                "key":"attack@kill_damage",
+                                "value":9999999.0
+                            }
+                        ]
+                    }
+                ],
+                "tags":[
+                    "execute",
+                    "arts"
+                ],
+                "blackboard":[
+                    {
+                        "key":"max_target",
+                        "value":4.0
+                    },
+                    {
+                        "key":"fear",
+                        "targets":4,
+                        "value":1.5,
+                        "target_air":false,
+                        "prob":0.35
+                    }
+                ]
+            },
+            {
+                "skillId":"skchr_makoto_3",
+                "name_zh":"开辟明日的剑刃",
+                "name_ja":"",
+                "name_en":"",
+                "skillType":"MANUAL",
+                "durationType":"NONE",
+                "spType":"INCREASE_WITH_TIME",
+                "levels":[
+                    {
+                        "rangeId":"x-1",
+                        "description_zh":"被动：<替身>状态初始召唤<@ba.vup>塔纳托斯</>，攻击速度<@ba.vup>+45</>，攻击对至多<@ba.vup>4</>名敌人造成攻击力<@ba.vup>200%</>的<$ba.weaknessatk>弱点伤害</>，<@ba.vup>塔纳托斯</>在场时，开启技能或受到致命伤时改为召唤<@ba.vup>俄耳甫斯</>，阻挡数<@ba.vup>+2</>，使范围内友方干员获得<@ba.vup>35%</>的物理与法术闪避并每秒治疗范围内最多<@ba.vup>4</>名友方干员相当于结城理攻击力<@ba.vup>30%</>的生命值，直到<替身>状态结束\\n主动：立即切换为<替身>状态作战",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":1,
+                            "spCost":15,
+                            "initSp":7,
+                            "increment":1.0
+                        },
+                        "duration":0.0,
+                        "blackboard":[
+                            {
+                                "key":"talent@attack_speed",
+                                "value":45.0
+                            },
+                            {
+                                "key":"attack@atk_scale",
+                                "value":2.0
+                            },
+                            {
+                                "key":"attack@heal_scale",
+                                "value":0.3
+                            },
+                            {
+                                "key":"attack@interval",
+                                "value":1.0
+                            },
+                            {
+                                "key":"attack@prob",
+                                "value":0.35
+                            },
+                            {
+                                "key":"attack@max_target",
+                                "value":4.0
+                            },
+                            {
+                                "key":"attack@max_target_heal",
+                                "value":4.0
+                            },
+                            {
+                                "key":"attack@block_cnt",
+                                "value":2.0
+                            }
+                        ]
+                    },
+                    {
+                        "rangeId":"x-1",
+                        "description_zh":"被动：<替身>状态初始召唤<@ba.vup>塔纳托斯</>，攻击速度<@ba.vup>+50</>，攻击对至多<@ba.vup>4</>名敌人造成攻击力<@ba.vup>210%</>的<$ba.weaknessatk>弱点伤害</>，<@ba.vup>塔纳托斯</>在场时，开启技能或受到致命伤时改为召唤<@ba.vup>俄耳甫斯</>，阻挡数<@ba.vup>+2</>，使范围内友方干员获得<@ba.vup>36%</>的物理与法术闪避并每秒治疗范围内最多<@ba.vup>4</>名友方干员相当于结城理攻击力<@ba.vup>35%</>的生命值，直到<替身>状态结束\\n主动：立即切换为<替身>状态作战",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":1,
+                            "spCost":15,
+                            "initSp":8,
+                            "increment":1.0
+                        },
+                        "duration":0.0,
+                        "blackboard":[
+                            {
+                                "key":"talent@attack_speed",
+                                "value":50.0
+                            },
+                            {
+                                "key":"attack@atk_scale",
+                                "value":2.1
+                            },
+                            {
+                                "key":"attack@heal_scale",
+                                "value":0.35
+                            },
+                            {
+                                "key":"attack@interval",
+                                "value":1.0
+                            },
+                            {
+                                "key":"attack@prob",
+                                "value":0.36
+                            },
+                            {
+                                "key":"attack@max_target",
+                                "value":4.0
+                            },
+                            {
+                                "key":"attack@max_target_heal",
+                                "value":4.0
+                            },
+                            {
+                                "key":"attack@block_cnt",
+                                "value":2.0
+                            }
+                        ]
+                    },
+                    {
+                        "rangeId":"x-1",
+                        "description_zh":"被动：<替身>状态初始召唤<@ba.vup>塔纳托斯</>，攻击速度<@ba.vup>+55</>，攻击对至多<@ba.vup>4</>名敌人造成攻击力<@ba.vup>220%</>的<$ba.weaknessatk>弱点伤害</>，<@ba.vup>塔纳托斯</>在场时，开启技能或受到致命伤时改为召唤<@ba.vup>俄耳甫斯</>，阻挡数<@ba.vup>+2</>，使范围内友方干员获得<@ba.vup>38%</>的物理与法术闪避并每秒治疗范围内最多<@ba.vup>4</>名友方干员相当于结城理攻击力<@ba.vup>35%</>的生命值，直到<替身>状态结束\\n主动：立即切换为<替身>状态作战",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":1,
+                            "spCost":15,
+                            "initSp":9,
+                            "increment":1.0
+                        },
+                        "duration":0.0,
+                        "blackboard":[
+                            {
+                                "key":"talent@attack_speed",
+                                "value":55.0
+                            },
+                            {
+                                "key":"attack@atk_scale",
+                                "value":2.2
+                            },
+                            {
+                                "key":"attack@heal_scale",
+                                "value":0.35
+                            },
+                            {
+                                "key":"attack@interval",
+                                "value":1.0
+                            },
+                            {
+                                "key":"attack@prob",
+                                "value":0.38
+                            },
+                            {
+                                "key":"attack@max_target",
+                                "value":4.0
+                            },
+                            {
+                                "key":"attack@max_target_heal",
+                                "value":4.0
+                            },
+                            {
+                                "key":"attack@block_cnt",
+                                "value":2.0
+                            }
+                        ]
+                    },
+                    {
+                        "rangeId":"x-1",
+                        "description_zh":"被动：<替身>状态初始召唤<@ba.vup>塔纳托斯</>，攻击速度<@ba.vup>+60</>，攻击对至多<@ba.vup>4</>名敌人造成攻击力<@ba.vup>230%</>的<$ba.weaknessatk>弱点伤害</>，<@ba.vup>塔纳托斯</>在场时，开启技能或受到致命伤时改为召唤<@ba.vup>俄耳甫斯</>，阻挡数<@ba.vup>+2</>，使范围内友方干员获得<@ba.vup>40%</>的物理与法术闪避并每秒治疗范围内最多<@ba.vup>4</>名友方干员相当于结城理攻击力<@ba.vup>35%</>的生命值，直到<替身>状态结束\\n主动：立即切换为<替身>状态作战",
+                        "description_ja":"",
+                        "description_en":"",
+                        "spData":{
+                            "spType":"INCREASE_WITH_TIME",
+                            "levelUpCost":null,
+                            "maxChargeTime":1,
+                            "spCost":15,
+                            "initSp":10,
+                            "increment":1.0
+                        },
+                        "duration":0.0,
+                        "blackboard":[
+                            {
+                                "key":"talent@attack_speed",
+                                "value":60.0
+                            },
+                            {
+                                "key":"attack@atk_scale",
+                                "value":2.3
+                            },
+                            {
+                                "key":"attack@heal_scale",
+                                "value":0.35
+                            },
+                            {
+                                "key":"attack@interval",
+                                "value":1.0
+                            },
+                            {
+                                "key":"attack@prob",
+                                "value":0.4
+                            },
+                            {
+                                "key":"attack@max_target",
+                                "value":4.0
+                            },
+                            {
+                                "key":"attack@max_target_heal",
+                                "value":4.0
+                            },
+                            {
+                                "key":"attack@block_cnt",
+                                "value":2.0
+                            }
+                        ]
+                    }
+                ],
+                "tags":[
+                    "heal_ally",
+                    "heal_self",
+                    "weaknessatk"
+                ],
+                "blackboard":[
+                    {
+                        "key":"attack_speed",
+                        "value":60.0
+                    },
+                    {
+                        "key":"ally_evasion",
+                        "value":0.4,
+                        "duration":19.0,
+                        "types":[
+                            "phys",
+                            "arts"
+                        ]
+                    },
+                    {
+                        "key":"evasion",
+                        "value":0.4,
+                        "duration":19.0,
+                        "types":[
+                            "phys",
+                            "arts"
+                        ]
+                    },
+                    {
+                        "key":"max_target",
+                        "value":4.0
+                    },
+                    {
+                        "key":"blockCnt",
+                        "value":2.0
+                    }
+                ]
+            }
+        ],
+        "talents":[
+            {
+                "prefabKey":"1",
+                "name_zh":"不羁之力",
+                "name_en":"",
+                "name_ja":"",
+                "desc_zh":"结城理切换为<替身>状态时<$ba.sluggish>停顿</>周围一定范围内敌人8秒；<替身>状态下结城理召唤人格面具作战，攻击间隔增大(+0.4)，攻击力+85%<@ba.talpu>（+5%）</>，生命值+35%，作战能力随技能选择而改变",
+                "desc_en":"",
+                "desc_ja":"",
+                "rangeId":null,
+                "tags":[],
+                "blackboard":[
+                    {
+                        "key":"sluggish",
+                        "targets":99,
+                        "value":8.0,
+                        "target_air":true
+                    }
+                ]
+            },
+            {
+                "prefabKey":"2",
+                "name_zh":"S.E.E.S.队长",
+                "name_en":"",
+                "name_ja":"",
+                "desc_zh":"结城理<替身>状态结束后，带领<$ba.sees>S.E.E.S.</>小队发动总攻击，对<$ba.sees>S.E.E.S.</>小队队员周围一定范围内的所有敌人造成相当于结城理攻击力450%<@ba.talpu>（+20%）</>的真实伤害（可叠加）",
+                "desc_en":"",
+                "desc_ja":"",
+                "rangeId":null,
+                "tags":[
+                    "true"
+                ],
+                "blackboard":[]
+            }
+        ],
+        "uniequip":[
+            {
+                "uniEquipId":"uniequip_001_makoto",
+                "name_zh":"结城理证章",
+                "name_ja":"",
+                "name_en":"",
+                "typeIcon":"original",
+                "charId":"char_4217_makoto",
+                "combatData":null
+            },
+            {
+                "uniEquipId":"uniequip_002_makoto",
+                "name_zh":"彼此的声音",
+                "name_ja":"",
+                "name_en":"",
+                "typeIcon":"pum-y",
+                "charId":"char_4217_makoto",
+                "combatData":{
+                    "phases":[
+                        {
+                            "parts":[
+                                {
+                                    "resKey":null,
+                                    "target":"TRAIT_DATA_ONLY",
+                                    "isToken":false,
+                                    "addDesc_zh":null,
+                                    "addDesc_ja":"",
+                                    "addDesc_en":"",
+                                    "overrideDesc_zh":"受到致命伤时不撤退，切换成<替身>作战（替身阻挡数为0但生命值<@ba.kw>提升</>），持续20秒后自身再次替换<替身>",
+                                    "overrideDesc_ja":"",
+                                    "overrideDesc_en":""
+                                }
+                            ],
+                            "attributeBlackboard":[
+                                {
+                                    "key":"max_hp",
+                                    "value":200.0
+                                },
+                                {
+                                    "key":"atk",
+                                    "value":18.0
+                                },
+                                {
+                                    "key":"def",
+                                    "value":18.0
+                                }
+                            ],
+                            "tokenAttributeBlackboard":{}
+                        },
+                        {
+                            "parts":[
+                                {
+                                    "resKey":null,
+                                    "target":"TRAIT_DATA_ONLY",
+                                    "isToken":false,
+                                    "addDesc_zh":null,
+                                    "addDesc_ja":"",
+                                    "addDesc_en":"",
+                                    "overrideDesc_zh":"受到致命伤时不撤退，切换成<替身>作战（替身阻挡数为0但生命值<@ba.kw>提升</>），持续20秒后自身再次替换<替身>",
+                                    "overrideDesc_ja":"",
+                                    "overrideDesc_en":""
+                                },
+                                {
+                                    "resKey":null,
+                                    "target":"TALENT_DATA_ONLY",
+                                    "isToken":false,
+                                    "name_zh":"不羁之力",
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":0,
+                                    "upgradeDesc_zh":"结城理切换为<替身>状态时<$ba.sluggish>停顿</>周围一定范围内敌人9秒；<替身>状态下结城理召唤人格面具作战，攻击间隔增大(+0.4)，攻击力+93%<@ba.talpu>（+5%）</>，生命值+38%，作战能力随技能选择而改变",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                }
+                            ],
+                            "attributeBlackboard":[
+                                {
+                                    "key":"max_hp",
+                                    "value":257.0
+                                },
+                                {
+                                    "key":"atk",
+                                    "value":27.0
+                                },
+                                {
+                                    "key":"def",
+                                    "value":27.0
+                                }
+                            ],
+                            "tokenAttributeBlackboard":{}
+                        },
+                        {
+                            "parts":[
+                                {
+                                    "resKey":null,
+                                    "target":"TRAIT_DATA_ONLY",
+                                    "isToken":false,
+                                    "addDesc_zh":null,
+                                    "addDesc_ja":"",
+                                    "addDesc_en":"",
+                                    "overrideDesc_zh":"受到致命伤时不撤退，切换成<替身>作战（替身阻挡数为0但生命值<@ba.kw>提升</>），持续20秒后自身再次替换<替身>",
+                                    "overrideDesc_ja":"",
+                                    "overrideDesc_en":""
+                                },
+                                {
+                                    "resKey":null,
+                                    "target":"TALENT_DATA_ONLY",
+                                    "isToken":false,
+                                    "name_zh":"不羁之力",
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":0,
+                                    "upgradeDesc_zh":"结城理切换为<替身>状态时<$ba.sluggish>停顿</>周围一定范围内敌人10秒；<替身>状态下结城理召唤人格面具作战，攻击间隔增大(+0.4)，攻击力+100%<@ba.talpu>（+5%）</>，生命值+40%，作战能力随技能选择而改变",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                }
+                            ],
+                            "attributeBlackboard":[
+                                {
+                                    "key":"max_hp",
+                                    "value":304.0
+                                },
+                                {
+                                    "key":"atk",
+                                    "value":34.0
+                                },
+                                {
+                                    "key":"def",
+                                    "value":34.0
+                                }
+                            ],
+                            "tokenAttributeBlackboard":{}
+                        }
+                    ],
+                    "tags":[],
+                    "blackboard":[
+                        {
+                            "key":"sluggish",
+                            "targets":99,
+                            "value":10.0,
+                            "target_air":true
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
         "id":"char_4048_doroth",
         "appellation":"Dorothy",
         "name_zh":"多萝西",
@@ -212389,7 +214421,7 @@
                 "name_ja":"共振装置",
                 "name_en":"Resonator",
                 "desc_zh":"不会受到攻击，无法放置于<@ba.kw>敌人已在</>的格子中",
-                "desc_ja":"ダメージを受けない。<@ba.kw>敵のいるマス</>に配置不可",
+                "desc_ja":"攻撃されない。<@ba.kw>敵のいるマス</>に配置不可",
                 "desc_en":"Cannot be attacked; cannot be deployed on tiles where enemies are <@ba.kw>already present</>",
                 "position":"MELEE",
                 "stats":{
@@ -213406,7 +215438,7 @@
                 "name_ja":"GRZMOTマイン",
                 "name_en":"Grzmot Mine",
                 "desc_zh":"不会受到攻击，无法放置于<@ba.kw>敌人已在</>的格子中",
-                "desc_ja":"ダメージを受けない。<@ba.kw>敵のいるマス</>に配置不可",
+                "desc_ja":"攻撃されない。<@ba.kw>敵のいるマス</>に配置不可",
                 "desc_en":"Cannot be attacked; cannot be deployed on tiles where enemies are <@ba.kw>already present</>",
                 "position":"MELEE",
                 "stats":{
@@ -214503,7 +216535,7 @@
                         "name_en":"Power Play",
                         "iconId":"sktok_wang_stone1",
                         "rangeId":null,
-                        "desc_zh":"触发时使目标敌人停顿且每秒受到相当于望攻击力的<@ba.vup>135%</>的法术伤害，持续<@ba.vup>6.5</>秒",
+                        "desc_zh":"触发时使目标敌人<$ba.sluggish>停顿</>且每秒受到相当于望攻击力的<@ba.vup>135%</>的法术伤害，持续<@ba.vup>6.5</>秒",
                         "desc_ja":"発動時、対象の敵を<@ba.vup>6.5</>秒間足止めし、毎秒ウァンの攻撃力の<@ba.vup>135%</>の術ダメージを与える",
                         "desc_en":"When triggered, target enemy is Slowed and receives <@ba.vup>135%</> of Wang's ATK as Arts damage every second for <@ba.vup>6.5</>s",
                         "skillType":"AUTO",
@@ -221576,7 +223608,7 @@
         "name_ja":"焔影リード",
         "name_en":"Reed the Flame Shadow",
         "desc_zh":"攻击造成法术伤害，攻击敌人时为攻击范围内一名友方干员治疗相当于50%伤害的生命值",
-        "desc_ja":"術ダメージを与え、敵を攻撃するたび攻撃範囲内の味方1人のHPを与ダメージの50%回復",
+        "desc_ja":"術ダメージを与え、敵を攻撃するたび攻撃範囲内の味方1名のHPを与ダメージの50%回復",
         "desc_en":"Attacks deal Arts damage and heal the HP of an ally within Attack Range for 50% of the damage dealt",
         "release_time":1671091200,
         "tags":[
@@ -222516,7 +224548,7 @@
         "name_ja":"ティティ",
         "name_en":"Titi",
         "desc_zh":"攻击造成法术伤害，攻击敌人时为攻击范围内一名友方干员治疗相当于50%伤害的生命值",
-        "desc_ja":"術ダメージを与え、敵を攻撃するたび攻撃範囲内の味方1人のHPを与ダメージの50%回復",
+        "desc_ja":"術ダメージを与え、敵を攻撃するたび攻撃範囲内の味方1名のHPを与ダメージの50%回復",
         "desc_en":"Attacks deal Arts damage and heal the HP of an ally within Attack Range for 50% of the damage dealt",
         "release_time":1767927600,
         "tags":[
@@ -240065,11 +242097,11 @@
         "id":"char_4037_demetr",
         "appellation":"Bellone",
         "name_zh":"贝洛内",
-        "name_ja":"",
-        "name_en":"",
+        "name_ja":"ベッローネ",
+        "name_en":"Bellone",
         "desc_zh":"能够阻挡一个敌人",
-        "desc_ja":"",
-        "desc_en":"",
+        "desc_ja":"敵を1体までブロック",
+        "desc_en":"Blocks 1 enemy",
         "release_time":1773115200,
         "tags":[
             "phys"
@@ -240098,38 +242130,38 @@
         "potential":[
             {
                 "desc_zh":"部署费用-1",
-                "desc_ja":"",
-                "desc_en":"",
+                "desc_ja":"配置コスト-1",
+                "desc_en":"DP Cost -1",
                 "attribute":{
                     "cost":-1.0
                 }
             },
             {
                 "desc_zh":"再部署时间-4秒",
-                "desc_ja":"",
-                "desc_en":"",
+                "desc_ja":"再配置時間-4秒",
+                "desc_en":"Redeployment Time -4 sec",
                 "attribute":{
                     "respawnTime":-4.0
                 }
             },
             {
                 "desc_zh":"攻击力+24",
-                "desc_ja":"",
-                "desc_en":"",
+                "desc_ja":"攻撃力+24",
+                "desc_en":"ATK +24",
                 "attribute":{
                     "atk":24.0
                 }
             },
             {
                 "desc_zh":"第一天赋效果增强",
-                "desc_ja":"",
-                "desc_en":"",
+                "desc_ja":"第一素質強化",
+                "desc_en":"Improves First Talent",
                 "attribute":null
             },
             {
                 "desc_zh":"部署费用-1",
-                "desc_ja":"",
-                "desc_en":"",
+                "desc_ja":"配置コスト-1",
+                "desc_en":"DP Cost -1",
                 "attribute":{
                     "cost":-1.0
                 }
@@ -240623,8 +242655,8 @@
             {
                 "prefabKey":"1",
                 "name_zh":"家族手段",
-                "name_en":"",
-                "name_ja":"",
+                "name_en":"The Way of the Famiglia",
+                "name_ja":"ファミリーの流儀",
                 "desc_zh":"攻击使目标在10秒内防御力降低7%（最多叠加5次），并且目标剩余生命值比例越低自身对其造成的伤害越高，在剩余20%以下生命值时伤害提高到最高136%<@ba.talpu>（+8%）</>",
                 "desc_en":"",
                 "desc_ja":"",
@@ -240652,8 +242684,8 @@
             {
                 "prefabKey":"2",
                 "name_zh":"街头直觉",
-                "name_en":"",
-                "name_ja":"",
+                "name_en":"Street Smarts",
+                "name_ja":"路地裏の勘",
                 "desc_zh":"获得40%的物理和法术闪避，部署后提高到80%并在20秒内逐渐衰减",
                 "desc_en":"",
                 "desc_ja":"",
@@ -243139,6 +245171,201 @@
                         {
                             "key":"value",
                             "value":1.2
+                        }
+                    ]
+                }
+            },
+            {
+                "uniEquipId":"uniequip_003_qiubai",
+                "name_zh":"欲雪时",
+                "name_ja":"",
+                "name_en":"",
+                "typeIcon":"lor-y",
+                "charId":"char_4082_qiubai",
+                "combatData":{
+                    "phases":[
+                        {
+                            "parts":[
+                                {
+                                    "resKey":null,
+                                    "target":"DISPLAY",
+                                    "isToken":false,
+                                    "addDesc_zh":"攻击范围内存在2名及以上敌人时攻击速度<@ba.vup>+12</>",
+                                    "addDesc_ja":"",
+                                    "addDesc_en":"",
+                                    "overrideDesc_zh":null,
+                                    "overrideDesc_ja":"",
+                                    "overrideDesc_en":""
+                                },
+                                {
+                                    "resKey":"qiubai_equip_2_1_p1",
+                                    "target":"TALENT",
+                                    "isToken":false,
+                                    "name_zh":null,
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":0,
+                                    "upgradeDesc_zh":"",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                }
+                            ],
+                            "attributeBlackboard":[
+                                {
+                                    "key":"max_hp",
+                                    "value":190.0
+                                },
+                                {
+                                    "key":"atk",
+                                    "value":30.0
+                                },
+                                {
+                                    "key":"attack_speed",
+                                    "value":5.0
+                                }
+                            ],
+                            "tokenAttributeBlackboard":{}
+                        },
+                        {
+                            "parts":[
+                                {
+                                    "resKey":null,
+                                    "target":"DISPLAY",
+                                    "isToken":false,
+                                    "addDesc_zh":"攻击范围内存在2名及以上敌人时攻击速度<@ba.vup>+12</>",
+                                    "addDesc_ja":"",
+                                    "addDesc_en":"",
+                                    "overrideDesc_zh":null,
+                                    "overrideDesc_ja":"",
+                                    "overrideDesc_en":""
+                                },
+                                {
+                                    "resKey":"qiubai_equip_2_2_p2",
+                                    "target":"TALENT",
+                                    "isToken":false,
+                                    "name_zh":"落英",
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":1,
+                                    "upgradeDesc_zh":"攻击时有26%<@ba.talpu>（+3%）</>的几率使目标<$ba.root>束缚</>1.5秒，首次命中敌人时提升至100%且<$ba.root>束缚</>时间提升至3秒",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                },
+                                {
+                                    "resKey":"qiubai_equip_2_2_p1",
+                                    "target":"TALENT",
+                                    "isToken":false,
+                                    "name_zh":null,
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":0,
+                                    "upgradeDesc_zh":"",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                }
+                            ],
+                            "attributeBlackboard":[
+                                {
+                                    "key":"max_hp",
+                                    "value":240.0
+                                },
+                                {
+                                    "key":"atk",
+                                    "value":40.0
+                                },
+                                {
+                                    "key":"attack_speed",
+                                    "value":6.0
+                                }
+                            ],
+                            "tokenAttributeBlackboard":{}
+                        },
+                        {
+                            "parts":[
+                                {
+                                    "resKey":null,
+                                    "target":"DISPLAY",
+                                    "isToken":false,
+                                    "addDesc_zh":"攻击范围内存在2名及以上敌人时攻击速度<@ba.vup>+12</>",
+                                    "addDesc_ja":"",
+                                    "addDesc_en":"",
+                                    "overrideDesc_zh":null,
+                                    "overrideDesc_ja":"",
+                                    "overrideDesc_en":""
+                                },
+                                {
+                                    "resKey":"qiubai_equip_2_3_p2",
+                                    "target":"TALENT",
+                                    "isToken":false,
+                                    "name_zh":"落英",
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":1,
+                                    "upgradeDesc_zh":"攻击时有28%<@ba.talpu>（+3%）</>的几率使目标<$ba.root>束缚</>1.5秒，首次命中敌人时提升至100%且<$ba.root>束缚</>时间提升至3秒",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                },
+                                {
+                                    "resKey":"qiubai_equip_2_3_p1",
+                                    "target":"TALENT",
+                                    "isToken":false,
+                                    "name_zh":null,
+                                    "name_ja":"",
+                                    "name_en":"",
+                                    "displayRangeId":false,
+                                    "rangeId":null,
+                                    "talentIndex":0,
+                                    "upgradeDesc_zh":"",
+                                    "upgradeDesc_ja":"",
+                                    "upgradeDesc_en":""
+                                }
+                            ],
+                            "attributeBlackboard":[
+                                {
+                                    "key":"max_hp",
+                                    "value":280.0
+                                },
+                                {
+                                    "key":"atk",
+                                    "value":50.0
+                                },
+                                {
+                                    "key":"attack_speed",
+                                    "value":7.0
+                                }
+                            ],
+                            "tokenAttributeBlackboard":{}
+                        }
+                    ],
+                    "tags":[],
+                    "blackboard":[
+                        {
+                            "key":"root",
+                            "targets":1,
+                            "value":1.5,
+                            "prob":0.28,
+                            "target_air":true
+                        },
+                        {
+                            "key":"root",
+                            "targets":1,
+                            "value":3.0,
+                            "target_air":true,
+                            "conditions":[
+                                "first_hit"
+                            ]
+                        },
+                        {
+                            "key":"attack_speed",
+                            "value":12.0
                         }
                     ]
                 }
@@ -268381,7 +270608,7 @@
         "name_ja":"アーミヤ",
         "name_en":"Amiya",
         "desc_zh":"攻击造成法术伤害，攻击敌人时为攻击范围内一名友方干员治疗相当于50%伤害的生命值",
-        "desc_ja":"術ダメージを与え、敵を攻撃するたび攻撃範囲内の味方1人のHPを与ダメージの50%回復",
+        "desc_ja":"術ダメージを与え、敵を攻撃するたび攻撃範囲内の味方1名のHPを与ダメージの50%回復",
         "desc_en":"Attacks deal Arts damage and heal the HP of an ally within Attack Range for 50% of the damage dealt",
         "release_time":1714550400,
         "tags":[

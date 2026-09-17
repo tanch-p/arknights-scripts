@@ -80979,24 +80979,8 @@
 			"tags": [],
 			"blackboard": [
 				{
-					"key": "atk",
-					"value": 0.1
-				},
-				{
-					"key": "attack@atk_scale_1",
-					"value": 0.25
-				},
-				{
 					"key": "damage_up",
 					"value": 0.05
-				},
-				{
-					"key": "max_stack_cnt",
-					"value": 10.0
-				},
-				{
-					"key": "respawn_time",
-					"value": 0.0
 				}
 			]
 		}
@@ -82388,17 +82372,17 @@
 					"value": 1.0
 				},
 				{
-						"key": "dmg_res",
-						"types": ["phys", "arts"],
-						"category": ["airprotect"],
-						"value": 0.20
-					},
-					{
-						"key": "ally_dmg_res",
-						"types": ["phys", "arts"],
-						"category": ["airprotect"],
-						"value": 0.20
-					}
+					"key": "dmg_res",
+					"types": ["phys", "arts"],
+					"category": ["airprotect"],
+					"value": 0.2
+				},
+				{
+					"key": "ally_dmg_res",
+					"types": ["phys", "arts"],
+					"category": ["airprotect"],
+					"value": 0.2
+				}
 			]
 		}
 	},
@@ -82529,7 +82513,7 @@
 			],
 			"tags": [],
 			"blackboard": [
-								{
+				{
 					"key": "sluggish",
 					"value": 1.5
 				}
@@ -82788,12 +82772,12 @@
 				{
 					"key": "attack_speed",
 					"value": 30.0,
-                    "conditions":["peak_performance"]
+					"conditions": ["peak_performance"]
 				},
-                {
+				{
 					"key": "ally_attack_speed",
 					"value": 30.0,
-                    "conditions":["peak_performance","last_deploy"]
+					"conditions": ["peak_performance", "last_deploy"]
 				}
 			]
 		}
@@ -83033,6 +83017,721 @@
 					"key": "range_id",
 					"value": 0.0,
 					"valueStr": "x-2"
+				}
+			]
+		}
+	},
+	"uniequip_001_makoto": {
+		"uniEquipId": "uniequip_001_makoto",
+		"name_zh": "结城理证章",
+		"name_ja": "",
+		"name_en": "",
+		"typeIcon": "original",
+		"charId": "char_4217_makoto",
+		"combatData": null
+	},
+	"uniequip_002_makoto": {
+		"uniEquipId": "uniequip_002_makoto",
+		"name_zh": "彼此的声音",
+		"name_ja": "",
+		"name_en": "",
+		"typeIcon": "pum-y",
+		"charId": "char_4217_makoto",
+		"combatData": {
+			"phases": [
+				{
+					"parts": [
+						{
+							"resKey": null,
+							"target": "TRAIT_DATA_ONLY",
+							"isToken": false,
+							"addDesc_zh": null,
+							"addDesc_ja": "",
+							"addDesc_en": "",
+							"overrideDesc_zh": "受到致命伤时不撤退，切换成<替身>作战（替身阻挡数为0但生命值<@ba.kw>提升</>），持续20秒后自身再次替换<替身>",
+							"overrideDesc_ja": "",
+							"overrideDesc_en": ""
+						}
+					],
+					"attributeBlackboard": [
+						{
+							"key": "max_hp",
+							"value": 200.0
+						},
+						{
+							"key": "atk",
+							"value": 18.0
+						},
+						{
+							"key": "def",
+							"value": 18.0
+						}
+					],
+					"tokenAttributeBlackboard": {}
+				},
+				{
+					"parts": [
+						{
+							"resKey": null,
+							"target": "TRAIT_DATA_ONLY",
+							"isToken": false,
+							"addDesc_zh": null,
+							"addDesc_ja": "",
+							"addDesc_en": "",
+							"overrideDesc_zh": "受到致命伤时不撤退，切换成<替身>作战（替身阻挡数为0但生命值<@ba.kw>提升</>），持续20秒后自身再次替换<替身>",
+							"overrideDesc_ja": "",
+							"overrideDesc_en": ""
+						},
+						{
+							"resKey": null,
+							"target": "TALENT_DATA_ONLY",
+							"isToken": false,
+							"name_zh": "不羁之力",
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": 0,
+							"upgradeDesc_zh": "结城理切换为<替身>状态时<$ba.sluggish>停顿</>周围一定范围内敌人9秒；<替身>状态下结城理召唤人格面具作战，攻击间隔增大(+0.4)，攻击力+93%<@ba.talpu>（+5%）</>，生命值+38%，作战能力随技能选择而改变",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						}
+					],
+					"attributeBlackboard": [
+						{
+							"key": "max_hp",
+							"value": 257.0
+						},
+						{
+							"key": "atk",
+							"value": 27.0
+						},
+						{
+							"key": "def",
+							"value": 27.0
+						}
+					],
+					"tokenAttributeBlackboard": {}
+				},
+				{
+					"parts": [
+						{
+							"resKey": null,
+							"target": "TRAIT_DATA_ONLY",
+							"isToken": false,
+							"addDesc_zh": null,
+							"addDesc_ja": "",
+							"addDesc_en": "",
+							"overrideDesc_zh": "受到致命伤时不撤退，切换成<替身>作战（替身阻挡数为0但生命值<@ba.kw>提升</>），持续20秒后自身再次替换<替身>",
+							"overrideDesc_ja": "",
+							"overrideDesc_en": ""
+						},
+						{
+							"resKey": null,
+							"target": "TALENT_DATA_ONLY",
+							"isToken": false,
+							"name_zh": "不羁之力",
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": 0,
+							"upgradeDesc_zh": "结城理切换为<替身>状态时<$ba.sluggish>停顿</>周围一定范围内敌人10秒；<替身>状态下结城理召唤人格面具作战，攻击间隔增大(+0.4)，攻击力+100%<@ba.talpu>（+5%）</>，生命值+40%，作战能力随技能选择而改变",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						}
+					],
+					"attributeBlackboard": [
+						{
+							"key": "max_hp",
+							"value": 304.0
+						},
+						{
+							"key": "atk",
+							"value": 34.0
+						},
+						{
+							"key": "def",
+							"value": 34.0
+						}
+					],
+					"tokenAttributeBlackboard": {}
+				}
+			],
+			"tags": [],
+			"blackboard": [
+				{
+						"key": "sluggish",
+						"targets": 99,
+						"value": 10.0,
+						"target_air": true
+					}
+			]
+		}
+	},
+	"uniequip_001_aigis": {
+		"uniEquipId": "uniequip_001_aigis",
+		"name_zh": "埃癸斯证章",
+		"name_ja": "",
+		"name_en": "",
+		"typeIcon": "original",
+		"charId": "char_4218_aigis",
+		"combatData": null
+	},
+	"uniequip_002_aigis": {
+		"uniEquipId": "uniequip_002_aigis",
+		"name_zh": "约定的证明",
+		"name_ja": "",
+		"name_en": "",
+		"typeIcon": "brk-x",
+		"charId": "char_4218_aigis",
+		"combatData": {
+			"phases": [
+				{
+					"parts": [
+						{
+							"resKey": null,
+							"target": "DISPLAY",
+							"isToken": false,
+							"addDesc_zh": null,
+							"addDesc_ja": "",
+							"addDesc_en": "",
+							"overrideDesc_zh": "部署后<$ba.liftoff>起飞</>，<$ba.liftoff>起飞</>后只攻击空中敌人；技能开启时降落，攻击造成<@ba.kw>群体物理伤害</>且攻击地面敌人时攻击力提升至<@ba.kw>110％</>",
+							"overrideDesc_ja": "",
+							"overrideDesc_en": ""
+						},
+						{
+							"resKey": null,
+							"target": "TALENT_DATA_ONLY",
+							"isToken": false,
+							"name_zh": null,
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": 0,
+							"upgradeDesc_zh": "",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						}
+					],
+					"attributeBlackboard": [
+						{
+							"key": "max_hp",
+							"value": 35.0
+						},
+						{
+							"key": "atk",
+							"value": 35.0
+						},
+						{
+							"key": "def",
+							"value": 12.0
+						}
+					],
+					"tokenAttributeBlackboard": {}
+				},
+				{
+					"parts": [
+						{
+							"resKey": null,
+							"target": "DISPLAY",
+							"isToken": false,
+							"addDesc_zh": null,
+							"addDesc_ja": "",
+							"addDesc_en": "",
+							"overrideDesc_zh": "部署后<$ba.liftoff>起飞</>，<$ba.liftoff>起飞</>后只攻击空中敌人；技能开启时降落，攻击造成<@ba.kw>群体物理伤害</>且攻击地面敌人时攻击力提升至<@ba.kw>110％</>",
+							"overrideDesc_ja": "",
+							"overrideDesc_en": ""
+						},
+						{
+							"resKey": null,
+							"target": "TALENT_DATA_ONLY",
+							"isToken": false,
+							"name_zh": "反暗影特殊压制兵装",
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": 0,
+							"upgradeDesc_zh": "造成的物理伤害+15%<@ba.talpu>（+2%）</>，受到的物理伤害-15%<@ba.talpu>（+2%）</>",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						},
+						{
+							"resKey": null,
+							"target": "TALENT_DATA_ONLY",
+							"isToken": false,
+							"name_zh": null,
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": 0,
+							"upgradeDesc_zh": "",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						}
+					],
+					"attributeBlackboard": [
+						{
+							"key": "max_hp",
+							"value": 60.0
+						},
+						{
+							"key": "atk",
+							"value": 50.0
+						},
+						{
+							"key": "def",
+							"value": 17.0
+						}
+					],
+					"tokenAttributeBlackboard": {}
+				},
+				{
+					"parts": [
+						{
+							"resKey": null,
+							"target": "DISPLAY",
+							"isToken": false,
+							"addDesc_zh": null,
+							"addDesc_ja": "",
+							"addDesc_en": "",
+							"overrideDesc_zh": "部署后<$ba.liftoff>起飞</>，<$ba.liftoff>起飞</>后只攻击空中敌人；技能开启时降落，攻击造成<@ba.kw>群体物理伤害</>且攻击地面敌人时攻击力提升至<@ba.kw>110％</>",
+							"overrideDesc_ja": "",
+							"overrideDesc_en": ""
+						},
+						{
+							"resKey": null,
+							"target": "TALENT_DATA_ONLY",
+							"isToken": false,
+							"name_zh": "反暗影特殊压制兵装",
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": 0,
+							"upgradeDesc_zh": "造成的物理伤害+17%<@ba.talpu>（+2%）</>，受到的物理伤害-17%<@ba.talpu>（+2%）</>",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						},
+						{
+							"resKey": null,
+							"target": "TALENT_DATA_ONLY",
+							"isToken": false,
+							"name_zh": null,
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": 0,
+							"upgradeDesc_zh": "",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						}
+					],
+					"attributeBlackboard": [
+						{
+							"key": "max_hp",
+							"value": 80.0
+						},
+						{
+							"key": "atk",
+							"value": 60.0
+						},
+						{
+							"key": "def",
+							"value": 20.0
+						}
+					],
+					"tokenAttributeBlackboard": {}
+				}
+			],
+			"tags": [],
+			"blackboard": [
+				{
+						"key": "dmg_res",
+						"types": ["phys"],
+						"value": 0.17
+					}
+			]
+		}
+	},
+	"uniequip_001_yukari": {
+		"uniEquipId": "uniequip_001_yukari",
+		"name_zh": "岳羽由加莉证章",
+		"name_ja": "",
+		"name_en": "",
+		"typeIcon": "original",
+		"charId": "char_4219_yukari",
+		"combatData": null
+	},
+	"uniequip_002_yukari": {
+		"uniEquipId": "uniequip_002_yukari",
+		"name_zh": "命运的奖赏",
+		"name_ja": "",
+		"name_en": "",
+		"typeIcon": "ran-x",
+		"charId": "char_4219_yukari",
+		"combatData": {
+			"phases": [
+				{
+					"parts": [
+						{
+							"resKey": "yukari_equip_1_1_p1",
+							"target": "TRAIT",
+							"isToken": false,
+							"addDesc_zh": "攻击范围内有干员处于技能持续期间时，自身攻击力<@ba.kw>+8%</>",
+							"addDesc_ja": "",
+							"addDesc_en": "",
+							"overrideDesc_zh": null,
+							"overrideDesc_ja": "",
+							"overrideDesc_en": ""
+						},
+						{
+							"resKey": "yukari_equip_1_1_p1",
+							"target": "TALENT",
+							"isToken": false,
+							"name_zh": null,
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": -2,
+							"upgradeDesc_zh": "",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						}
+					],
+					"attributeBlackboard": [
+						{
+							"key": "max_hp",
+							"value": 120.0
+						},
+						{
+							"key": "atk",
+							"value": 36.0
+						},
+						{
+							"key": "def",
+							"value": 10.0
+						}
+					],
+					"tokenAttributeBlackboard": {}
+				},
+				{
+					"parts": [
+						{
+							"resKey": "yukari_equip_1_2_p1",
+							"target": "TRAIT",
+							"isToken": false,
+							"addDesc_zh": "攻击范围内有干员处于技能持续期间时，自身攻击力<@ba.kw>+8%</>",
+							"addDesc_ja": "",
+							"addDesc_en": "",
+							"overrideDesc_zh": null,
+							"overrideDesc_ja": "",
+							"overrideDesc_en": ""
+						},
+						{
+							"resKey": "yukari_equip_1_2_p1",
+							"target": "TALENT",
+							"isToken": false,
+							"name_zh": null,
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": -2,
+							"upgradeDesc_zh": "",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						},
+						{
+							"resKey": null,
+							"target": "TALENT_DATA_ONLY",
+							"isToken": false,
+							"name_zh": "治愈之风",
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": 0,
+							"upgradeDesc_zh": "技能结束后，治疗自身和攻击范围内最多3名干员相当于岳羽由加莉攻击力110%的生命值",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						}
+					],
+					"attributeBlackboard": [
+						{
+							"key": "max_hp",
+							"value": 140.0
+						},
+						{
+							"key": "atk",
+							"value": 42.0
+						},
+						{
+							"key": "def",
+							"value": 15.0
+						}
+					],
+					"tokenAttributeBlackboard": {}
+				},
+				{
+					"parts": [
+						{
+							"resKey": "yukari_equip_1_3_p1",
+							"target": "TRAIT",
+							"isToken": false,
+							"addDesc_zh": "攻击范围内有干员处于技能持续期间时，自身攻击力<@ba.kw>+8%</>",
+							"addDesc_ja": "",
+							"addDesc_en": "",
+							"overrideDesc_zh": null,
+							"overrideDesc_ja": "",
+							"overrideDesc_en": ""
+						},
+						{
+							"resKey": "yukari_equip_1_3_p1",
+							"target": "TALENT",
+							"isToken": false,
+							"name_zh": null,
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": -2,
+							"upgradeDesc_zh": "",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						},
+						{
+							"resKey": null,
+							"target": "TALENT_DATA_ONLY",
+							"isToken": false,
+							"name_zh": "治愈之风",
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": 0,
+							"upgradeDesc_zh": "技能结束后，治疗自身和攻击范围内最多3名干员相当于岳羽由加莉攻击力120%的生命值",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						}
+					],
+					"attributeBlackboard": [
+						{
+							"key": "max_hp",
+							"value": 160.0
+						},
+						{
+							"key": "atk",
+							"value": 48.0
+						},
+						{
+							"key": "def",
+							"value": 20.0
+						}
+					],
+					"tokenAttributeBlackboard": {}
+				}
+			],
+			"tags": [],
+			"blackboard": [
+				
+			]
+		}
+	},
+	"uniequip_003_qiubai": {
+		"uniEquipId": "uniequip_003_qiubai",
+		"name_zh": "欲雪时",
+		"name_ja": "",
+		"name_en": "",
+		"typeIcon": "lor-y",
+		"charId": "char_4082_qiubai",
+		"combatData": {
+			"phases": [
+				{
+					"parts": [
+						{
+							"resKey": null,
+							"target": "DISPLAY",
+							"isToken": false,
+							"addDesc_zh": "攻击范围内存在2名及以上敌人时攻击速度<@ba.vup>+12</>",
+							"addDesc_ja": "",
+							"addDesc_en": "",
+							"overrideDesc_zh": null,
+							"overrideDesc_ja": "",
+							"overrideDesc_en": ""
+						},
+						{
+							"resKey": "qiubai_equip_2_1_p1",
+							"target": "TALENT",
+							"isToken": false,
+							"name_zh": null,
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": 0,
+							"upgradeDesc_zh": "",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						}
+					],
+					"attributeBlackboard": [
+						{
+							"key": "max_hp",
+							"value": 190.0
+						},
+						{
+							"key": "atk",
+							"value": 30.0
+						},
+						{
+							"key": "attack_speed",
+							"value": 5.0
+						}
+					],
+					"tokenAttributeBlackboard": {}
+				},
+				{
+					"parts": [
+						{
+							"resKey": null,
+							"target": "DISPLAY",
+							"isToken": false,
+							"addDesc_zh": "攻击范围内存在2名及以上敌人时攻击速度<@ba.vup>+12</>",
+							"addDesc_ja": "",
+							"addDesc_en": "",
+							"overrideDesc_zh": null,
+							"overrideDesc_ja": "",
+							"overrideDesc_en": ""
+						},
+						{
+							"resKey": "qiubai_equip_2_2_p2",
+							"target": "TALENT",
+							"isToken": false,
+							"name_zh": "落英",
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": 1,
+							"upgradeDesc_zh": "攻击时有26%<@ba.talpu>（+3%）</>的几率使目标<$ba.root>束缚</>1.5秒，首次命中敌人时提升至100%且<$ba.root>束缚</>时间提升至3秒",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						},
+						{
+							"resKey": "qiubai_equip_2_2_p1",
+							"target": "TALENT",
+							"isToken": false,
+							"name_zh": null,
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": 0,
+							"upgradeDesc_zh": "",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						}
+					],
+					"attributeBlackboard": [
+						{
+							"key": "max_hp",
+							"value": 240.0
+						},
+						{
+							"key": "atk",
+							"value": 40.0
+						},
+						{
+							"key": "attack_speed",
+							"value": 6.0
+						}
+					],
+					"tokenAttributeBlackboard": {}
+				},
+				{
+					"parts": [
+						{
+							"resKey": null,
+							"target": "DISPLAY",
+							"isToken": false,
+							"addDesc_zh": "攻击范围内存在2名及以上敌人时攻击速度<@ba.vup>+12</>",
+							"addDesc_ja": "",
+							"addDesc_en": "",
+							"overrideDesc_zh": null,
+							"overrideDesc_ja": "",
+							"overrideDesc_en": ""
+						},
+						{
+							"resKey": "qiubai_equip_2_3_p2",
+							"target": "TALENT",
+							"isToken": false,
+							"name_zh": "落英",
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": 1,
+							"upgradeDesc_zh": "攻击时有28%<@ba.talpu>（+3%）</>的几率使目标<$ba.root>束缚</>1.5秒，首次命中敌人时提升至100%且<$ba.root>束缚</>时间提升至3秒",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						},
+						{
+							"resKey": "qiubai_equip_2_3_p1",
+							"target": "TALENT",
+							"isToken": false,
+							"name_zh": null,
+							"name_ja": "",
+							"name_en": "",
+							"displayRangeId": false,
+							"rangeId": null,
+							"talentIndex": 0,
+							"upgradeDesc_zh": "",
+							"upgradeDesc_ja": "",
+							"upgradeDesc_en": ""
+						}
+					],
+					"attributeBlackboard": [
+						{
+							"key": "max_hp",
+							"value": 280.0
+						},
+						{
+							"key": "atk",
+							"value": 50.0
+						},
+						{
+							"key": "attack_speed",
+							"value": 7.0
+						}
+					],
+					"tokenAttributeBlackboard": {}
+				}
+			],
+			"tags": [],
+			"blackboard": [
+				{
+					"key": "root",
+					"targets": 1,
+					"value": 1.5,
+					"prob": 0.28,
+					"target_air": true
+				},
+				{
+					"key": "root",
+					"targets": 1,
+					"value": 3.0,
+					"target_air": true,
+					"conditions": ["first_hit"]
+				},
+				{
+					"key": "attack_speed",
+					"value": 12.0
 				}
 			]
 		}

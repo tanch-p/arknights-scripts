@@ -3,6 +3,8 @@ import os
 from pathlib import Path
 import re
 
+from get_images import get_images
+
 
 def replace_key(string):
     string = string.replace(
@@ -218,12 +220,12 @@ def update_chara_skills():
         skill
         for skill in dict.keys(cn_skill_table)
         if skill not in set(dict.keys(chara_skills))
+        and "sktok" not in skill
+        and "skcom_withdraw" not in skill
     ]
     return_dict = {}
     for skill in new_skill_list:
         in_global = skill in en_skill_table
-        if "sktok" in skill or "skcom_withdraw" in skill:
-            continue
         chara_list = []
         for id in cn_char_table:
             for skill_dict in cn_char_table[id]["skills"]:
@@ -294,6 +296,10 @@ def update_chara_skills():
 
     with open("chara_skills.json", "w", encoding="utf-8") as f:
         json.dump(return_dict, f, ensure_ascii=False, indent=4)
+
+    if new_skill_list:
+        print("new ")
+        get_images(category="skill", file_names=new_skill_list)
 
 
 def update_chara_skills_new():
