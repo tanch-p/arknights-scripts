@@ -1,13 +1,80 @@
-from __future__ import annotations
-from .common import Blackboard
-from typing import TypedDict, Generic, TypeVar
-
-T = TypeVar("T")
+from typing import TypedDict
 
 
-class MaybeField(TypedDict, Generic[T]):
+class DefinedString(TypedDict):
     m_defined: bool
-    m_value: T
+    m_value: str | None
+
+
+class DefinedInt(TypedDict):
+    m_defined: bool
+    m_value: int
+
+
+class DefinedFloat(TypedDict):
+    m_defined: bool
+    m_value: float
+
+
+class DefinedBool(TypedDict):
+    m_defined: bool
+    m_value: bool
+
+
+class DefinedStringList(TypedDict):
+    m_defined: bool
+    m_value: list[str] | None
+
+
+Attributes = TypedDict(
+    "Attributes",
+    {
+        "maxHp": DefinedInt,
+        "atk": DefinedInt,
+        "def": DefinedInt,
+        "magicResistance": DefinedFloat,
+        "cost": DefinedInt,
+        "blockCnt": DefinedInt,
+        "moveSpeed": DefinedFloat,
+        "attackSpeed": DefinedFloat,
+        "baseAttackTime": DefinedFloat,
+        "respawnTime": DefinedInt,
+        "hpRecoveryPerSec": DefinedFloat,
+        "spRecoveryPerSec": DefinedFloat,
+        "maxDeployCount": DefinedInt,
+        "massLevel": DefinedInt,
+        "baseForceLevel": DefinedInt,
+        "tauntLevel": DefinedInt,
+        "epDamageResistance": DefinedFloat,
+        "epResistance": DefinedFloat,
+        "damageHitratePhysical": DefinedFloat,
+        "damageHitrateMagical": DefinedFloat,
+        "epBreakRecoverSpeed": DefinedFloat,
+        "stunImmune": DefinedBool,
+        "silenceImmune": DefinedBool,
+        "sleepImmune": DefinedBool,
+        "frozenImmune": DefinedBool,
+        "levitateImmune": DefinedBool,
+        "disarmedCombatImmune": DefinedBool,
+        "fearedImmune": DefinedBool,
+        "palsyImmune": DefinedBool,
+        "attractImmune": DefinedBool,
+        "teleportImmune": DefinedBool,
+        "groundBoundImmune": DefinedBool,
+    },
+)
+
+
+class TalentBlackboard(TypedDict):
+    key: str
+    value: float
+    valueStr: str | None
+
+
+class SkillBlackboard(TypedDict):
+    key: str | None
+    value: float
+    valueStr: str | None
 
 
 class EnemySkill(TypedDict):
@@ -16,7 +83,7 @@ class EnemySkill(TypedDict):
     cooldown: float
     initCooldown: float
     spCost: int
-    blackboard: list[Blackboard]
+    blackboard: list[SkillBlackboard] | None
 
 
 class SpData(TypedDict):
@@ -26,55 +93,27 @@ class SpData(TypedDict):
     increment: float
 
 
-class EnemyAttributes(TypedDict):
-    maxHp: MaybeField[int]
-    atk: MaybeField[int]
-    def_: MaybeField[int]  # key in JSON is "def"
-    magicResistance: MaybeField[float]
-    cost: MaybeField[int]
-    blockCnt: MaybeField[int]
-    moveSpeed: MaybeField[float]
-    attackSpeed: MaybeField[float]
-    baseAttackTime: MaybeField[float]
-    respawnTime: MaybeField[int]
-    hpRecoveryPerSec: MaybeField[float]
-    spRecoveryPerSec: MaybeField[float]
-    maxDeployCount: MaybeField[int]
-    massLevel: MaybeField[int]
-    baseForceLevel: MaybeField[int]
-    tauntLevel: MaybeField[int]
-    epDamageResistance: MaybeField[float]
-    epResistance: MaybeField[float]
-    damageHitratePhysical: MaybeField[float]
-    damageHitrateMagical: MaybeField[float]
-    epBreakRecoverSpeed: MaybeField[float]
-    stunImmune: MaybeField[bool]
-    silenceImmune: MaybeField[bool]
-    sleepImmune: MaybeField[bool]
-    frozenImmune: MaybeField[bool]
-    levitateImmune: MaybeField[bool]
-    disarmedCombatImmune: MaybeField[bool]
-    fearedImmune: MaybeField[bool]
-    palsyImmune: MaybeField[bool]
-    attractImmune: MaybeField[bool]
-
-
 class EnemyData(TypedDict):
-    name: MaybeField[str]
-    description: MaybeField[str]
-    prefabKey: MaybeField[str]
-    attributes: EnemyAttributes
-    applyWay: MaybeField[str]
-    motion: MaybeField[str]
-    enemyTags: MaybeField[list[str]]
-    lifePointReduce: MaybeField[int]
-    levelType: MaybeField[str]
-    rangeRadius: MaybeField[float]
-    numOfExtraDrops: MaybeField[int]
-    viewRadius: MaybeField[float]
-    notCountInTotal: MaybeField[bool]
-    talentBlackboard: list[Blackboard] | None
-    skills: list[EnemySkill]
+    name: DefinedString
+    description: DefinedString
+    prefabKey: DefinedString
+
+    attributes: Attributes
+
+    applyWay: DefinedString
+    motion: DefinedString
+    enemyTags: DefinedStringList
+
+    lifePointReduce: DefinedInt
+    levelType: DefinedString
+    rangeRadius: DefinedFloat
+    numOfExtraDrops: DefinedInt
+    viewRadius: DefinedFloat
+    notCountInTotal: DefinedBool
+
+    talentBlackboard: list[TalentBlackboard] | None
+
+    skills: list[EnemySkill] | None
     spData: SpData | None
 
 
@@ -88,5 +127,8 @@ class EnemyEntry(TypedDict):
     Value: list[EnemyLevel]
 
 
-class EnemyDatabase(TypedDict):
+class EnemyFile(TypedDict):
     enemies: list[EnemyEntry]
+
+
+EnemyLookup = dict[str, EnemyEntry]

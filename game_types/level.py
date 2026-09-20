@@ -92,11 +92,14 @@ WaveRandomType = str | int
 #   NEVER/PER_* values are sandbox-only (obt/sandbox/sandbox_1/)
 WaveRefreshType = str
 
+# Shared identifier: a WaveAction key corresponds to an EnemyDbRef id.
+StageKey = str
+
 
 class WaveAction(TypedDict):
     actionType: WaveActionType
     managedByScheduler: bool
-    key: str  # enemy ID or predefined alias; empty string = no-op placeholder
+    key: StageKey  # enemy ID or predefined alias; empty string = no-op placeholder
     count: int
     preDelay: float
     interval: float
@@ -337,7 +340,7 @@ class EnemyOverwrittenData(TypedDict):
 
 class EnemyDbRef(TypedDict):
     useDb: bool
-    id: str
+    id: StageKey
     level: int
     overwrittenData: EnemyOverwrittenData | None
 
