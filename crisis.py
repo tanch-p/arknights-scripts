@@ -87,6 +87,7 @@ def get_crisis_stage_info():
                 if not stage_data:
                     continue
                 meta_info = {
+                    "suffix": "",
                     "id": stage_id,
                     "levelId": stage_id,
                     "code": stage_info["levelCode"],
@@ -219,8 +220,10 @@ def get_crisis_stage_info():
     except FileNotFoundError:
         pass
 
+    output_dir = BASE_DIR / "all_stage_data"
+    output_dir.mkdir(exist_ok=True)
     for stage_id in data:
-        write_path = os.path.join(BASE_DIR, "all_stage_data", stage_id + ".json")
+        write_path = output_dir / f"{stage_id}.json"
         with open(write_path, "w+", encoding="utf-8") as f:
             json.dump(data[stage_id], f, ensure_ascii=False, indent=1)
     with open("temp.json", "w", encoding="utf-8") as f:
