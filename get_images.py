@@ -8,9 +8,7 @@ BASE_DIR = os.getenv("BASE_DIR")
 DEST_DIR = os.getenv("DEST_DIR")
 
 # TARGET_FILES = ["char_4224_turdus", "char_4223_botany","char_1051_headb2"]
-TARGET_FILES = [
-    "token_10068_kalts2_mtship"
-]
+TARGET_FILES = ["enemy_reinforce_faust"]
 
 
 def get_images(category, file_names):
@@ -26,6 +24,7 @@ def get_images(category, file_names):
         folder_prefix = "ui_roguelike_topic_item_h1_rogue_"
     elif category == "recalrune":
         folder_prefix = "ui_recalrune_rune_icon_sprites_"
+        file_names = [f"r_{name}" for name in file_names]
     elif category == "skill":
         folder_prefix = "skill_icons_"
         file_names = [f"skill_icon_{name}" for name in file_names]
@@ -107,4 +106,4 @@ def find_and_copy(category, folder_prefix, keys):
 
 
 if __name__ == "__main__":
-    get_images("chara", TARGET_FILES)
+    get_images("recalrune", TARGET_FILES)
