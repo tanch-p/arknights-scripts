@@ -7955,25 +7955,8 @@
 				"desc_zh": "开启技能时获得1枚金币(可用于技能消耗)，技能期间每次特性消耗费用时获得1枚金币，并提升自身4%的攻击力(最多叠加9<@ba.talpu>(+1)</>次)",
 				"desc_ja": "スキル発動時、コイン(スキル発動時に消費)を1枚獲得。スキル発動中に特性によるコスト消費時、コインを1枚獲得し、自身の攻撃力+4%(最大9<@ba.talpu>(+1)</>回まで重複可能)",
 				"desc_en": "Gains 1 Coin upon skill activation (can be spent through skills). While a skill is active, gains 1 Coin each time DP is consumed by this unit's Trait, and +4% ATK (stacks up to 9 <@ba.talpu>(+1)</> times)",
-				"tags": [],
-				"blackboard": [
-					{
-						"key": "sp",
-						"value": 1.0
-					},
-					{
-						"key": "trait_sp",
-						"value": 1.0
-					},
-					{
-						"key": "atk",
-						"value": 0.36
-					},
-					{
-						"key": "max_stack_cnt",
-						"value": 9.0
-					}
-				]
+				"tags": ["coin_skill"],
+				"blackboard": []
 			},
 			{
 				"prefabKey": "2",
@@ -7984,20 +7967,7 @@
 				"desc_ja": "致命的なダメージを受けた時、所持コストが5以上の場合、代わりにコストを5消費して、HPを最大値の80%<@ba.talpu>(+10%)</>まで回復する(発動のたびに消費コストが前回の2倍になる)",
 				"desc_en": "Upon receiving lethal damage, as long as enough DP is available, consumes 5 DP to restore this unit's HP to 80% <@ba.talpu>(+10%)</>; the cost of this Talent doubles every time it is activated",
 				"tags": ["revive"],
-				"blackboard": [
-					{
-						"key": "cost",
-						"value": -5.0
-					},
-					{
-						"key": "hp_ratio",
-						"value": 0.8
-					},
-					{
-						"key": "cost_multi",
-						"value": 2.0
-					}
-				]
+				"blackboard": []
 			}
 		]
 	},
@@ -13555,11 +13525,11 @@
 			{
 				"prefabKey": "0",
 				"name_zh": "执棒素养",
-				"name_en": "",
-				"name_ja": "",
+				"name_en": "Baton Mastery",
+				"name_ja": "指揮者の素質",
 				"desc_zh": "攻击溅射范围内有大于或等于3个敌人时，使当次攻击造成的伤害提升至125%<@ba.talpu>（+5%）</>",
-				"desc_ja": "",
-				"desc_en": "",
+				"desc_ja": "攻撃のダメージ発生範囲内に3体以上の敵がいる場合、その攻撃の与ダメージが125%<@ba.talpu>（+5%）</>まで上昇",
+				"desc_en": "When there are 3 or more enemies within an attack's splash area, that attack deals 125% <@ba.talpu>(+5%)</> damage",
 				"tags": [],
 				"blackboard": [
 					{
@@ -13580,11 +13550,11 @@
 			{
 				"prefabKey": "1",
 				"name_zh": "家族手段",
-				"name_en": "",
-				"name_ja": "",
+				"name_en": "The Way of the Famiglia",
+				"name_ja": "ファミリーの流儀",
 				"desc_zh": "攻击使目标在10秒内防御力降低7%（最多叠加5次），并且目标剩余生命值比例越低自身对其造成的伤害越高，在剩余20%以下生命值时伤害提高到最高136%<@ba.talpu>（+8%）</>",
-				"desc_ja": "",
-				"desc_en": "",
+				"desc_ja": "攻撃した敵に10秒間防御力-7%の効果を付与（最大5回まで重複可能）。対象の残りHP割合が低いほど、自身による与ダメージが上昇（残りHP20%以下で効果が最大となり、与ダメージが136%<@ba.talpu>（+8%）</>まで上昇）",
+				"desc_en": "Attacks reduce the target's DEF by 7% for 10s (stacks up to 5 times); as the target's remaining HP percentage decreases, Bellone's damage dealt increases, to a maximum of 136% <@ba.talpu>(+8%)</> when target HP is below 20%",
 				"tags": [],
 				"blackboard": [
 					{
@@ -13608,11 +13578,11 @@
 			{
 				"prefabKey": "2",
 				"name_zh": "街头直觉",
-				"name_en": "",
-				"name_ja": "",
+				"name_en": "Street Smarts",
+				"name_ja": "路地裏の勘",
 				"desc_zh": "获得40%的物理和法术闪避，部署后提高到80%并在20秒内逐渐衰减",
-				"desc_ja": "",
-				"desc_en": "",
+				"desc_ja": "配置後、物理・術回避+80%、20秒間で効果は+40%まで徐々に減衰していく",
+				"desc_en": "Gains 40% Physical and Arts Dodge; increases to 80% after deployment, gradually decaying over 20s",
 				"tags": [],
 				"blackboard": [
 					{
@@ -13636,11 +13606,11 @@
 			{
 				"prefabKey": "1",
 				"name_zh": "久病良医",
-				"name_en": "",
-				"name_ja": "",
+				"name_en": "Illness, the Best Teacher",
+				"name_ja": "患者の医術",
 				"desc_zh": "受到自身的跳跃治疗时，治疗量提升至125%<@ba.talpu>（+5%）</>，并额外进行一次不衰减的治疗跳跃",
-				"desc_ja": "",
-				"desc_en": "",
+				"desc_ja": "自身による跳躍治療を受けると、治療量が125%<@ba.talpu>（+5%）</>まで上昇し、さらに減衰と跳躍回数の消費なしで次の対象へと跳躍",
+				"desc_en": "When receiving her own bouncing heal, Ukusik's healing amount increases to 125% <@ba.talpu>(+5%)</>, and she performs an additional unweakened healing bounce",
 				"tags": [],
 				"blackboard": []
 			}
@@ -13652,11 +13622,11 @@
 			{
 				"prefabKey": "1",
 				"name_zh": "背弃沉默",
-				"name_en": "",
-				"name_ja": "",
+				"name_en": "Silent No Longer",
+				"name_ja": "声を上げる勇気",
 				"desc_zh": "攻击范围内有敌人<ba.dt.erosion2>侵蚀损伤</>爆发时攻击速度+7<@ba.talpu>（+1）</>，最多可叠加3层",
-				"desc_ja": "",
-				"desc_en": "",
+				"desc_ja": "攻撃範囲内の敵の<$ba.dt.erosion2>侵蝕損傷</>が爆発するたび、攻撃速度+7<@ba.talpu>（+1）</>（最大3回まで重複可能）",
+				"desc_en": "When there are enemies in attack range under the burst effect of <$ba.dt.erosion2>Corrosion</>, ASPD +7 <@ba.talpu>(+1)</>; stacks up to 3 times",
 				"tags": [],
 				"blackboard": [
 					{
@@ -13673,11 +13643,11 @@
 			{
 				"prefabKey": "1",
 				"name_zh": "汹涌怒火",
-				"name_en": "",
-				"name_ja": "",
+				"name_en": "Roiling Rage",
+				"name_ja": "渦巻く激情",
 				"desc_zh": "特性溅射造成的物理伤害提升24%，且溅射到的每个高台对周围四格所有地面敌人造成相当于攻击力27%<@ba.talpu>（+3%）</>的物理伤害和0.5秒<ba.sluggish>停顿</>",
-				"desc_ja": "",
-				"desc_en": "",
+				"desc_ja": "特性による範囲物理攻撃の与ダメージ+24%。攻撃時、ダメージ発生範囲内の高台が隣接4マスの地上の敵全員に攻撃力の27%<@ba.talpu>（+3%）</>の物理ダメージを与え、0.5秒間<$ba.sluggish>足止め</>する",
+				"desc_en": "Physical damage caused by Trait splash effect increases by 24%; any high ground tile touched by the splash deals 27%<@ba.talpu>(+3%)</> ATK as Physical damage and inflicts a 0.5s <$ba.sluggish>Slow</> to all ground enemies in the four adjacent tiles",
 				"tags": [],
 				"blackboard": [
 					{
@@ -13699,11 +13669,11 @@
 			{
 				"prefabKey": "2",
 				"name_zh": "万众巨潮",
-				"name_en": "",
-				"name_ja": "",
+				"name_en": "Human Tide",
+				"name_ja": "連帯のうねり",
 				"desc_zh": "技能期间所有场上干员攻击力和防御力+18%<@ba.talpu>（+4%）</>，【乌萨斯学生自治团】干员获得加成效果翻倍",
-				"desc_ja": "",
-				"desc_en": "",
+				"desc_ja": "スキル発動中、オペレーター全員の攻撃力と防御力+18%<@ba.talpu>（+4%）</>。【ウルサス学生自治団】所属のオペレーターの場合、効果が倍になる",
+				"desc_en": "When skill is active, all Operators gain +18% <@ba.talpu>(+4%)</> ATK and DEF; [Ursus Student Self-Government Group] Operators receive double the effect",
 				"tags": ["student"],
 				"blackboard": [
 					{
