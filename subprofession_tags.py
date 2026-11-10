@@ -10,6 +10,8 @@ def get_sub_profession_tags(char, id):
         tags.append("priority_highest_weight")
     if char["subProfessionId"] == "bard":
         tags.append("heal_unhealable")
+    if char["subProfessionId"] == "executor":
+        tags.append("skill_init_on")
     if (
         char["subProfessionId"] in ["executor", "merchant", "agent"]
         and id != "char_376_therex"
@@ -125,6 +127,7 @@ def get_sub_profession_tags(char, id):
         "mercenary",
         "skybreaker",
         "supportiveranger",
+        "dispatcher",
     ]:
         tags.append("phys")
     if char["subProfessionId"] in [

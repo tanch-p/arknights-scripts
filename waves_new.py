@@ -7,8 +7,13 @@ from operator import itemgetter
 import copy
 from collections import defaultdict
 from compress_waves import compress_waves
-from waves import ALWAYS_KILLED_KEYS
 import re
+from typing import cast
+from game_types.enemy_database import EnemyFile, EnemyLookup
+from game_types.level import EnemyDbRef, LevelData
+
+EnemyRefLookup = dict[str, EnemyDbRef]
+NotCountedEnemyLookup = dict[str, bool]
 
 pp = pprint.PrettyPrinter(indent=4)
 
@@ -29,39 +34,46 @@ sp_stages_with_bonus = [
 ]
 
 BASE_DIR = Path(__file__).resolve().parent
+CN_DATA_DIR = BASE_DIR / "cn_data/zh_CN/gamedata"
+ENEMY_DATABASE_PATH = CN_DATA_DIR / "levels/enemydata/enemy_database.json"
 
 ACTION_TYPES_TO_PARSE = ["SPAWN", "ACTIVATE_PREDEFINED", "EMPTY"]
 
 
-with open("enemy_database.json", encoding="utf-8") as f:
-    my_enemy_db = json.load(f)
+def load_enemy_lookup() -> EnemyLookup:
+    with open(ENEMY_DATABASE_PATH, "r", encoding="utf-8") as f:
+        data = cast(EnemyFile, json.load(f))
+    return {enemy["Key"]: enemy for enemy in data.get("enemies", []) if "Key" in enemy}
 
 
-def is_countable_enemy(key, stage_data):
-    enemy_refs = stage_data["enemyDbRefs"]
-    enemy = next((item for item in enemy_refs if item["id"] == key), None)
-    if enemy is None:
-        print(f"{key} not found")
-        return True
-    enemy_id = key
-    if enemy["overwrittenData"] is not None:
-        if (
-            enemy["overwrittenData"]["prefabKey"]["m_defined"]
-            or enemy["useDb"] is False
-        ):
-            enemy_id = enemy["overwrittenData"]["prefabKey"]["m_value"]
-        not_countable = (
-            my_enemy_db[enemy_id]["notCountInTotal"]
-            if enemy_id in my_enemy_db
-            else True
-        )
-        if enemy["overwrittenData"]["notCountInTotal"]["m_defined"]:
-            not_countable = enemy["overwrittenData"]["notCountInTotal"]["m_value"]
-        return not (not_countable)
-    else:
-        if key not in my_enemy_db:
-            return False
-        return not (my_enemy_db[key]["notCountInTotal"])
+ENEMY_LOOKUP = load_enemy_lookup()
+
+
+def is_counted_enemy(key: str, enemy_ref_lookup: EnemyRefLookup | None = None) -> bool:
+    """Return an enemy's effective ``notCountInTotal`` value."""
+
+    database_key = key
+    enemy_ref = enemy_ref_lookup.get(key) if enemy_ref_lookup is not None else None
+    if enemy_ref is not None and enemy_ref["overwrittenData"] is not None:
+        overwritten_data = enemy_ref["overwrittenData"]
+        not_count_override = overwritten_data["notCountInTotal"]
+        if not_count_override["m_defined"]:
+            return bool(not_count_override["m_value"])
+
+        database_key = cast(str, overwritten_data["prefabKey"]["m_value"])
+
+    database_enemy = ENEMY_LOOKUP.get(database_key)
+    if database_enemy is None:
+        return False
+    not_count_in_total = database_enemy["Value"][0]["enemyData"]["notCountInTotal"]
+    return not_count_in_total["m_value"] if not_count_in_total["m_defined"] else False
+
+
+def build_not_counted_enemy_lookup(stage_data: LevelData) -> NotCountedEnemyLookup:
+    """Resolve ``notCountInTotal`` once for every stage enemy reference."""
+
+    enemy_ref_lookup = {enemy["id"]: enemy for enemy in stage_data["enemyDbRefs"]}
+    return {key: is_counted_enemy(key, enemy_ref_lookup) for key in enemy_ref_lookup}
 
 
 def analyze_enemy_spawns(
@@ -71,7 +83,7 @@ def analyze_enemy_spawns(
     difficulty,
     group_name,
     enemies_to_replace,
-    stage_data,
+    not_counted_enemy_lookup: NotCountedEnemyLookup,
 ):
     """
     Returns:
@@ -179,16 +191,19 @@ def analyze_enemy_spawns(
     def generate_scenarios():
         base_count = 0
         for key in guaranteed_spawns:
-            if is_countable_action(key, stage_data):
+            if is_countable_action(key, not_counted_enemy_lookup):
                 base_count += guaranteed_spawns[key]
         if not fragment_groups:
             # No random groups, only guaranteed spawns
             return [base_count]
 
-        data = get_enemy_spawn_counts(fragment_groups, stage_data)
+        data = get_enemy_spawn_counts(fragment_groups, not_counted_enemy_lookup)
         final_list = data["list"]
         base_count += data["extra_count"]
-        combinations = get_count_combinations(final_list)
+        if levelId == "level_rogue6_d-2":
+            combinations = [0]
+        else:
+            combinations = get_count_combinations(final_list)
         return [count + base_count for count in combinations]
 
     base_counts = generate_scenarios()
@@ -345,7 +360,7 @@ def get_random_groups(fragment, hidden_groups):
     return packed_groups
 
 
-def get_enemy_spawn_counts(spawn_data, stage_data):
+def get_enemy_spawn_counts(spawn_data, not_counted_enemy_lookup: NotCountedEnemyLookup):
     # pp.pprint(spawn_data)
     final_list = []
     extra_base_count = 0
@@ -354,7 +369,7 @@ def get_enemy_spawn_counts(spawn_data, stage_data):
             options = []
             count_list = []
             for option in group_data["options"]:
-                count = get_option_count(option, stage_data)
+                count = get_option_count(option, not_counted_enemy_lookup)
                 count_list.append(count)
                 options.append({"count": count, "packKey": option["packKey"]})
             count_set = set(count_list)
@@ -367,11 +382,11 @@ def get_enemy_spawn_counts(spawn_data, stage_data):
     return {"list": final_list, "extra_count": extra_base_count}
 
 
-def get_option_count(option, stage_data):
+def get_option_count(option, not_counted_enemy_lookup: NotCountedEnemyLookup):
     count = 0
     for action in option["actions"]:
         key = action["key"]
-        if is_countable_action(key, stage_data):
+        if is_countable_action(key, not_counted_enemy_lookup):
             count += action["count"]
     return count
 
@@ -398,15 +413,14 @@ def get_topic(stage_id):
         return "rogue_phantom"
 
 
-def is_countable_action(key, stage_data):
+def is_countable_action(
+    key: str, not_counted_enemy_lookup: NotCountedEnemyLookup
+) -> bool:
     if "trap" in key:
         return False
     if key == "":
         return False
-    if key in ALWAYS_KILLED_KEYS:
-        return False
-
-    return is_countable_enemy(key, stage_data)
+    return not not_counted_enemy_lookup.get(key, False)
 
 
 def generate_all_permutations(input_list):
@@ -582,7 +596,8 @@ def get_bonus(stage_data):
         }
 
 
-def get_wave_spawns_data(stage_data, levelId, log=False):
+def get_wave_spawns_data(stage_data: LevelData, levelId, log=False):
+    not_counted_enemy_lookup = build_not_counted_enemy_lookup(stage_data)
     waves_data = itemgetter("waves")(compress_waves(stage_data, levelId))
     normal_group_name, elite_group_name, enemies_to_replace = itemgetter(
         "normal_group_name", "elite_group_name", "enemies_to_replace"
@@ -625,7 +640,7 @@ def get_wave_spawns_data(stage_data, levelId, log=False):
             difficulty,
             group_name,
             enemies_to_replace,
-            stage_data,
+            not_counted_enemy_lookup,
         )
         list, counts, absolute_bonus_count = itemgetter(
             "enemy_list", "enemy_counts", "absolute_bonus_count"
@@ -748,7 +763,12 @@ def permutate(permutations, log=False):
     return {"max_permutations": max_permutations, "data": temp}
 
 
-def create_timeline(waves, has_bonus_wave, bonus_wave_idx):
+def create_timeline(
+    waves,
+    has_bonus_wave,
+    bonus_wave_idx,
+    not_counted_enemy_lookup: NotCountedEnemyLookup,
+):
     timelines = []
     total_count = 0
     for wave_idx, wave in enumerate(waves):
@@ -760,7 +780,7 @@ def create_timeline(waves, has_bonus_wave, bonus_wave_idx):
         for index, fragment in enumerate(wave["fragments"]):
             prev_phase_time += fragment["preDelay"]
             for action in fragment["actions"]:
-                if action["key"] in ALWAYS_KILLED_KEYS:
+                if not_counted_enemy_lookup.get(action["key"], False):
                     continue
                 if action["key"] != "" and "trap" not in action["key"]:
                     total_count += action["count"]
@@ -850,7 +870,8 @@ def create_timeline(waves, has_bonus_wave, bonus_wave_idx):
     return {"timelines": timelines, "count": total_count}
 
 
-def get_waves_data(stage_data, levelId, log=False, test=False):
+def get_waves_data(stage_data: LevelData, levelId, log=False, test=False):
+    not_counted_enemy_lookup = build_not_counted_enemy_lookup(stage_data)
     routes, waves_data, extra_routes, branches, map_data = itemgetter(
         "routes", "waves", "extra_routes", "branches", "map_data"
     )(compress_waves(stage_data, levelId))
@@ -867,6 +888,10 @@ def get_waves_data(stage_data, levelId, log=False, test=False):
         elite_group_name,
         "replace:",
         enemies_to_replace,
+    )
+    log and print(
+        "not counted enemies:",
+        [key for key, not_counted in not_counted_enemy_lookup.items() if not_counted],
     )
     has_bonus_wave = pattern.match(levelId) or levelId in sp_stages_with_bonus
     return_data = {

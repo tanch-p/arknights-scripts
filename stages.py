@@ -29,7 +29,6 @@ TRAPS_TO_EXCLUDE = [
     "trap_062_magicstart",
     "trap_063_magicturn",
     "trap_050_blizzard",
-    "trap_092_vgctrl",
     "trap_036_storm",
     "trap_162_lrctrl",
     "trap_766_duelwal",
@@ -55,6 +54,8 @@ STAGES_WITH_ENEMY_REF_TO_IGNORE = {
     "level_rogue5_1-5": ["enemy_10071_ftprg"],
     "level_rogue5_b-4": ["enemy_1128_spmage_2"],
     "level_rogue5_fs-2": ["enemy_1508_faust"],
+    "level_rogue6_4-7": ["enemy_10071_ftprg"],
+    "level_rogue6_5-1": ["enemy_10071_ftprg_2"],
 }
 STAGES_TO_SKIP = ["ro4_b_4_c", "ro4_b_4_d", "ro4_b_5_c", "ro4_b_5_d"]
 STAGES_WITH_REF_TO_REPLACE = {
@@ -155,10 +156,45 @@ STAGES_WITH_REF_TO_REPLACE = {
     "level_rogue5_b-5-b": "/dlc2/level_rogue5_b-5-b_dlc2",
     "level_rogue5_b-6": "/dlc2/level_rogue5_b-6_dlc2",
     "level_rogue5_b-7": "/dlc2/level_rogue5_b-7_dlc2",
+    "level_rogue6_3-1": "/dlc1/level_rogue6_3-1_dlc1",
+    "level_rogue6_3-2": "/dlc1/level_rogue6_3-2_dlc1",
+    "level_rogue6_3-3": "/dlc1/level_rogue6_3-3_dlc1",
+    "level_rogue6_3-4": "/dlc1/level_rogue6_3-4_dlc1",
+    "level_rogue6_3-5": "/dlc1/level_rogue6_3-5_dlc1",
+    "level_rogue6_3-6": "/dlc1/level_rogue6_3-6_dlc1",
+    "level_rogue6_3-7": "/dlc1/level_rogue6_3-7_dlc1",
+    "level_rogue6_4-1": "/dlc1/level_rogue6_4-1_dlc1",
+    "level_rogue6_4-2": "/dlc1/level_rogue6_4-2_dlc1",
+    "level_rogue6_4-3": "/dlc1/level_rogue6_4-3_dlc1",
+    "level_rogue6_4-4": "/dlc1/level_rogue6_4-4_dlc1",
+    "level_rogue6_4-5": "/dlc1/level_rogue6_4-5_dlc1",
+    "level_rogue6_4-6": "/dlc1/level_rogue6_4-6_dlc1",
+    "level_rogue6_4-7": "/dlc1/level_rogue6_4-7_dlc1",
+    "level_rogue6_4-8": "/dlc1/level_rogue6_4-8_dlc1",
+    "level_rogue6_4-9": "/dlc1/level_rogue6_4-9_dlc1",
+    "level_rogue6_5-1": "/dlc1/level_rogue6_5-1_dlc1",
+    "level_rogue6_5-2": "/dlc1/level_rogue6_5-2_dlc1",
+    "level_rogue6_5-3": "/dlc1/level_rogue6_5-3_dlc1",
+    "level_rogue6_5-4": "/dlc1/level_rogue6_5-4_dlc1",
+    "level_rogue6_5-5": "/dlc1/level_rogue6_5-5_dlc1",
+    "level_rogue6_5-6": "/dlc1/level_rogue6_5-6_dlc1",
+    "level_rogue6_5-7": "/dlc1/level_rogue6_5-7_dlc1",
+    "level_rogue6_5-8": "/dlc1/level_rogue6_5-8_dlc1",
+    "level_rogue6_5-9": "/dlc1/level_rogue6_5-9_dlc1",
 }
 STAGES_WITH_NAME_TO_REPLACE = {}
 
 MULTI_CONFIG_STAGES = {
+    "level_rogue6_t-8": [
+        ["level_rogue6_t-8", "a"],
+        ["level_rogue6_t-8-b", "b"],
+        ["level_rogue6_t-8-c", "c"],
+    ],
+    "level_rogue6_t-9": [
+        ["level_rogue6_t-9", "a"],
+        ["level_rogue6_t-9-b", "b"],
+        ["level_rogue6_t-9-c", "c"],
+    ],
     "level_rogue5_b-9-a": [
         ["level_rogue5_b-9-a", "choice_yi"],
         ["level_rogue5_b-9-b", "choice_sui"],
@@ -169,6 +205,40 @@ MULTI_CONFIG_STAGES = {
     "level_rogue5_b-10": [
         ["level_rogue5_b-10", "choice_normal"],
         ["level_rogue5_b-10-b", "choice_tgr"],
+    ],
+    "level_rogue5_sv-7": [
+        ["level_rogue5_sv-7", "a"],
+        ["level_rogue5_sv-7-b", "b"],
+        ["level_rogue5_sv-7_dlc1", "a_dlc1"],
+        ["level_rogue5_sv-7-b_dlc1", "b_dlc1"],
+    ],
+    "level_rogue6_b-1-b": [
+        ["level_rogue6_b-1-b", "n"],
+        ["level_rogue6_b-1-b_dlc1", "e"],
+    ],
+    "level_rogue6_b-1": [
+        ["level_rogue6_b-1", "n"],
+        ["level_rogue6_b-1_dlc1", "e"],
+    ],
+    "level_rogue6_b-2-b": [
+        ["level_rogue6_b-2-b", "n"],
+        ["level_rogue6_b-2-b_dlc1", "e"],
+    ],
+    "level_rogue6_b-2": [
+        ["level_rogue6_b-2", "n"],
+        ["level_rogue6_b-2_dlc1", "e"],
+    ],
+    "level_rogue6_b-3-b": [
+        ["level_rogue6_b-3-b", "n"],
+        ["level_rogue6_b-3-b_dlc1", "e"],
+    ],
+    "level_rogue6_b-3": [
+        ["level_rogue6_b-3", "n"],
+        ["level_rogue6_b-3_dlc1", "e"],
+    ],
+    "level_rogue6_b-7": [
+        ["level_rogue6_b-7", "n"],
+        ["level_rogue6_b-7-b", "e"],
     ],
 }
 
@@ -197,13 +267,13 @@ BASE_DIR = Path(__file__).resolve().parent
 enemy_database_path = os.path.join(
     BASE_DIR, "cn_data/zh_CN/gamedata/levels/enemydata/enemy_database.json"
 )
-with open("talent_overwrite_list.json", encoding="utf-8") as f:
+with (BASE_DIR / "talent_overwrite_list.json").open(encoding="utf-8") as f:
     talent_overwrite_list = json.load(f)
 with open(enemy_database_path, encoding="utf-8") as f:
     enemy_database = json.load(f)
-with open("enemy_database.json", encoding="utf-8") as f:
+with (BASE_DIR / "enemy_database.json").open(encoding="utf-8") as f:
     my_enemy_db = json.load(f)
-with open("stage_name_overwrite_table.json", encoding="utf-8") as f:
+with (BASE_DIR / "stage_name_overwrite_table.json").open(encoding="utf-8") as f:
     stage_name_overwrite_table = json.load(f)
 
 alerts = []
@@ -220,6 +290,8 @@ def get_rogue_topic(folder):
         return "rogue_skz"
     if folder == "ro5":
         return "rogue_yan"
+    if folder == "ro6":
+        return "rogue_6"
 
 
 def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
@@ -368,8 +440,18 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
                                 for target in targets:
                                     systems[rune["key"]][target] = tiles_keys
 
-    if stage_data["predefines"]:
-        for item in stage_data["predefines"]["tokenInsts"]:
+    alt_data = None
+    if levelId in STAGES_WITH_REF_TO_REPLACE:
+        stage_data_path = os.path.join(
+            BASE_DIR,
+            f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{rogue_topic}/{STAGES_WITH_REF_TO_REPLACE[levelId]}.json",
+        )
+        with open(stage_data_path, encoding="utf-8") as f:
+            alt_data = json.load(f)
+
+    predefines = (alt_data if alt_data is not None else stage_data)["predefines"]
+    if predefines:
+        for item in predefines["tokenInsts"]:
             key = item["inst"]["characterKey"]
             if key not in TRAPS_TO_EXCLUDE:
                 traps.append(
@@ -387,7 +469,7 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
                         else None,
                     }
                 )
-        for item in stage_data["predefines"]["tokenCards"]:
+        for item in predefines["tokenCards"]:
             if item["hidden"]:
                 continue
             token_cards.append(
@@ -398,16 +480,7 @@ def get_trimmed_stage_data(stage_data, meta_info, extrainfo, rogue_topic=None):
     trimmed_stage_info["systems"] = systems
 
     enemies = []
-    enemy_refs = stage_data["enemyDbRefs"]
-    alt_data = None
-    if levelId in STAGES_WITH_REF_TO_REPLACE:
-        stage_data_path = os.path.join(
-            BASE_DIR,
-            f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{rogue_topic}/{STAGES_WITH_REF_TO_REPLACE[levelId]}.json",
-        )
-        with open(stage_data_path, encoding="utf-8") as f:
-            alt_data = json.load(f)
-        enemy_refs = alt_data["enemyDbRefs"]
+    enemy_refs = (alt_data if alt_data is not None else stage_data)["enemyDbRefs"]
     refs_to_ignore = []
     if levelId in STAGES_WITH_ENEMY_REF_TO_IGNORE:
         refs_to_ignore = STAGES_WITH_ENEMY_REF_TO_IGNORE[levelId]
@@ -603,7 +676,6 @@ def generate_roguelike_stages():
     with open("is_stages_extrainfo.json", encoding="utf-8") as f:
         extrainfo = json.load(f)
 
-    data = {}
     stage_name_lookup = {}
     stages_list = []
     roguelike_topics = [
@@ -612,7 +684,9 @@ def generate_roguelike_stages():
         {"topic": "rogue_3", "folder": "ro3"},
         {"topic": "rogue_4", "folder": "ro4"},
         {"topic": "rogue_5", "folder": "ro5"},
+        {"topic": "rogue_6", "folder": "ro6"},
     ]
+    data_by_topic = {topic["folder"]: {} for topic in roguelike_topics}
 
     for topic_dict in roguelike_topics:
         for stage_key in cn_roguelike_topic_table["details"][topic_dict["topic"]][
@@ -640,6 +714,9 @@ def generate_roguelike_stages():
                 TOPIC_IN_GLOBAL = False
             if not ("_n_" in stage_info_cn["id"] and stage_info_cn["isElite"] == 0):
                 levelId = stage_info_cn["levelId"].split("/")[-1]
+                # DLC1 levels are only emitted as configs of their parent stages.
+                if "dlc1" in levelId and "rogue6" in levelId:
+                    continue
                 level_id_list = (
                     MULTI_CONFIG_STAGES[levelId]
                     if levelId in MULTI_CONFIG_STAGES
@@ -665,29 +742,28 @@ def generate_roguelike_stages():
                         stage_data = json.load(f)
 
                     # for reverse lookup in website
-                    rogue_topic = get_rogue_topic(folder)
                     if level_id == "level_rogue4_b-9":
                         url_key = "ro4_b_9"
-                        stage_name_lookup[url_key] = {
-                            "lang": "ALL",
-                            "key": level_id,
-                            "topic": rogue_topic,
-                        }
+                        stage_name_lookup[url_key] = level_id
                     else:
-                        real_stage_key = extrainfo[level_id]["id"].replace("_e_", "_n_")
-                        stage_info_cn = cn_roguelike_topic_table["details"][
-                            topic_dict["topic"]
-                        ]["stages"][real_stage_key]
-                        try:
-                            stage_info_jp = jp_roguelike_topic_table["details"][
+                        if level_id in extrainfo:
+                            print(level_id)
+                            real_stage_key = extrainfo[level_id]["id"].replace(
+                                "_e_", "_n_"
+                            )
+                            stage_info_cn = cn_roguelike_topic_table["details"][
                                 topic_dict["topic"]
                             ]["stages"][real_stage_key]
-                            stage_info_en = en_roguelike_topic_table["details"][
-                                topic_dict["topic"]
-                            ]["stages"][real_stage_key]
-                            TOPIC_IN_GLOBAL = True
-                        except KeyError:
-                            TOPIC_IN_GLOBAL = False
+                            try:
+                                stage_info_jp = jp_roguelike_topic_table["details"][
+                                    topic_dict["topic"]
+                                ]["stages"][real_stage_key]
+                                stage_info_en = en_roguelike_topic_table["details"][
+                                    topic_dict["topic"]
+                                ]["stages"][real_stage_key]
+                                TOPIC_IN_GLOBAL = True
+                            except KeyError:
+                                TOPIC_IN_GLOBAL = False
                         name_zh = stage_info_cn["name"]
                         name_ja = stage_info_jp["name"].replace(" ", "_")
                         name_en = stage_info_en["name"].replace(" ", "_")
@@ -701,24 +777,12 @@ def generate_roguelike_stages():
                                     "name_ja"
                                 ]
                         zh_url_key = stage_info_cn["code"] + "_" + name_zh
-                        stage_name_lookup[zh_url_key] = {
-                            "lang": "zh",
-                            "key": level_id,
-                            "topic": rogue_topic,
-                        }
+                        stage_name_lookup[zh_url_key] = level_id
                         if TOPIC_IN_GLOBAL:
                             en_url_key = stage_info_en["code"] + "_" + name_en
                             ja_url_key = stage_info_jp["code"] + "_" + name_ja
-                            stage_name_lookup[en_url_key] = {
-                                "lang": "en",
-                                "key": level_id,
-                                "topic": rogue_topic,
-                            }
-                            stage_name_lookup[ja_url_key] = {
-                                "lang": "ja",
-                                "key": level_id,
-                                "topic": rogue_topic,
-                            }
+                            stage_name_lookup[en_url_key] = level_id
+                            stage_name_lookup[ja_url_key] = level_id
                     meta_info = {
                         "suffix": suffix,
                         "id": stage_info_cn["id"],
@@ -766,7 +830,7 @@ def generate_roguelike_stages():
                 }
                 config = {"name": stage_name, "data": configs}
 
-                data[levelId] = config
+                data_by_topic[topic_dict["folder"]][levelId] = config
                 stages_list.append(config)
     # for stage navigation ro1 ro2 ro3...
     for topic_dict in roguelike_topics:
@@ -796,22 +860,26 @@ def generate_roguelike_stages():
         with open(write_path, "w+", encoding="utf-8") as f:
             json.dump(stage_nav, f, ensure_ascii=False, indent=4)
 
-    for levelId in data:
-        write_path = os.path.join(BASE_DIR, "ro_stage_data", levelId + ".json")
-        with open(write_path, "w+", encoding="utf-8") as f:
-            json.dump(data[levelId], f, ensure_ascii=False, indent=1)
+    output_dir = BASE_DIR / "ro_stage_data"
+    for topic, topic_data in data_by_topic.items():
+        topic_output_dir = output_dir / topic
+        topic_output_dir.mkdir(parents=True, exist_ok=True)
+        for levelId, stage_data in topic_data.items():
+            write_path = topic_output_dir / f"{levelId}.json"
+            with write_path.open("w", encoding="utf-8") as f:
+                json.dump(stage_data, f, ensure_ascii=False, indent=1)
 
     # with open("is_stages_list_read.json", "w", encoding="utf-8") as f:
     #     json.dump(data, f, ensure_ascii=False, indent=4)
 
     with open("is_stages_list.json", "w", encoding="utf-8") as f:
-        json.dump(stages_list, f, ensure_ascii=False, separators=(",", ":"))
+        json.dump(stages_list, f, ensure_ascii=False, indent=4)
 
     with open("stage_name_lookup_table.json", "w", encoding="utf-8") as f:
         json.dump(stage_name_lookup, f, ensure_ascii=False, indent=4)
 
 
-def generate_normal_stages(topic):
+def generate_normal_stages():
     cn_stage_table_path = os.path.join(
         BASE_DIR, "cn_data/zh_CN/gamedata/excel/stage_table.json"
     )

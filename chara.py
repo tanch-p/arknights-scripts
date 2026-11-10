@@ -112,6 +112,7 @@ subprofessions = [
     "skybreaker",
     "watchman",
     "supportiveranger",
+    "dispatcher",
 ]
 
 stat_convert = {
@@ -258,11 +259,9 @@ def build_favor(character_dict: CharacterTableEntry) -> dict:
     favor_data = {}
     if character_dict["favorKeyFrames"] is None:
         return favor_data
-    for key in character_dict["favorKeyFrames"][-1]["data"]:
-        if bool(character_dict["favorKeyFrames"][-1]["data"][key]):
-            favor_data[stat_convert[key]] = character_dict["favorKeyFrames"][-1][
-                "data"
-            ][key]
+    for key, value in character_dict["favorKeyFrames"][-1]["data"].items():
+        if key in stat_convert and value:
+            favor_data[stat_convert[key]] = value
     return favor_data
 
 
@@ -808,7 +807,7 @@ def main() -> None:
     choice = input("Enter your choice (1 or 2): ").strip()
 
     if choice == "1":
-        datetime_str = "04/09/2026 12:00:00"
+        datetime_str = "1/11/2026 12:00:00"
         load_new_characters(datetime_str)
     elif choice == "2":
         generate_character_json_files()

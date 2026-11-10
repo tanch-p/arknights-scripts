@@ -49,7 +49,7 @@ with open(jp_char_table_path, encoding="utf-8") as f:
 with open(jp_skill_table_path, encoding="utf-8") as f:
     jp_skill_table = json.load(f)
 
-keys = ["trap_249_mjcsdw"]
+keys: list[str] = ["trap_078_rmtarms"]
 data = {}
 for key in keys:
     holder = {}
@@ -58,8 +58,12 @@ for key in keys:
     if len(character_dict["phases"]) > 1:
         print(key, "phases more than 1")
     level1 = character_dict["phases"][-1]["attributesKeyFrames"][0]["data"]
-    level30 = character_dict["phases"][-1]["attributesKeyFrames"][1]["data"]
-    has_levels = level1 != level30
+    level30 = (
+        character_dict["phases"][-1]["attributesKeyFrames"][1]["data"]
+        if len(character_dict["phases"][-1]["attributesKeyFrames"]) > 1
+        else None
+    )
+    has_levels = level1 != level30 and level30 is not None
     holder["key"] = key
 
     in_global = key in en_char_table

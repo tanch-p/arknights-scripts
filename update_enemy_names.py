@@ -5,7 +5,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent
 
 enemy_database_path = os.path.join(
-    BASE_DIR, "global_data/cn/gamedata/levels/enemydata/enemy_database.json"
+    BASE_DIR, "cn_data/zh_CN/gamedata/levels/enemydata/enemy_database.json"
 )
 en_enemy_database_path = os.path.join(
     BASE_DIR, "global_data/en/gamedata/levels/enemydata/enemy_database.json"

@@ -14,7 +14,7 @@ jp_enemy_handbook_path = os.path.join(
     BASE_DIR, "global_data/jp/gamedata/excel/enemy_handbook_table.json"
 )
 enemy_database_path = os.path.join(
-    BASE_DIR, "global_data/cn/gamedata/levels/enemydata/enemy_database.json"
+    BASE_DIR, "cn_data/zh_CN/gamedata/levels/enemydata/enemy_database.json"
 )
 en_enemy_database_path = os.path.join(
     BASE_DIR, "global_data/en/gamedata/levels/enemydata/enemy_database.json"
@@ -44,7 +44,21 @@ def get_status_immune_list(stat):
         list.append("palsy")
     if stat["enemyData"]["attributes"]["attractImmune"]["m_value"]:
         list.append("attract")
+    if stat["enemyData"]["attributes"]["teleportImmune"]["m_value"]:
+        list.append("teleport")
+    if stat["enemyData"]["attributes"]["groundBoundImmune"]["m_value"]:
+        list.append("groundbind")
     return list
+
+
+def get_taunt_level(stat, base_stat):
+    taunt_level = stat["enemyData"]["attributes"]["tauntLevel"]
+    if not taunt_level["m_defined"]:
+        taunt_level = base_stat["enemyData"]["attributes"]["tauntLevel"]
+
+    if taunt_level["m_value"] != 0:
+        return [{"key": "taunt", "value": taunt_level["m_value"]}]
+    return []
 
 
 with open(cn_enemy_handbook_path, encoding="utf-8") as f:
@@ -68,19 +82,26 @@ def get_enemy_data(key, entry=None):
     data = {}
     if entry is None:
         entry = next(
-            (enemy_database[e_key] for e_key in enemy_database.keys() if e_key == key),
-            None,
+            (enemy for enemy in enemy_database["enemies"] if enemy["Key"] == key), None
         )
     IN_HANDBOOK = key in cn_enemy_handbook["enemyData"]
     cn_enemy_info = cn_enemy_handbook["enemyData"][key] if IN_HANDBOOK else None
     enemyIndex = cn_enemy_info["enemyIndex"] if IN_HANDBOOK else "-"
-    enemyStats = entry
+    enemyStats = entry["Value"]
     jp_entry = next(
-        (enemy_database[e_key] for e_key in jp_enemy_database.keys() if e_key == key),
+        (
+            jp_enemy_database[e_key]
+            for e_key in jp_enemy_database.keys()
+            if e_key == key
+        ),
         None,
     )
     en_entry = next(
-        (enemy_database[e_key] for e_key in en_enemy_database.keys() if e_key == key),
+        (
+            en_enemy_database[e_key]
+            for e_key in en_enemy_database.keys()
+            if e_key == key
+        ),
         None,
     )
     # attackType = MELEE | RANGED | ALL | NONE
@@ -157,7 +178,7 @@ def get_enemy_data(key, entry=None):
             "epResistance": stat["enemyData"]["attributes"]["epResistance"]["m_value"]
             if stat["enemyData"]["attributes"]["epResistance"]["m_defined"]
             else enemyStats[0]["enemyData"]["attributes"]["epResistance"]["m_value"],
-            "traits": [],
+            "traits": get_taunt_level(stat, enemyStats[0]),
             "special": [],
         }
         for stat in enemyStats
@@ -190,13 +211,13 @@ def get_single_entry(key):
 
 def update_entries():
     new_data = {}
-    key_list = enemy_database.keys()
-    for key in key_list:
+    for entry in enemy_database["enemies"]:
+        key = entry["Key"]
         if key not in existing_data:
             IN_HANDBOOK = key in cn_enemy_handbook["enemyData"]
             if not IN_HANDBOOK:
                 continue
-            data = get_enemy_data(key, enemy_database[key])
+            data = get_enemy_data(key, entry)
             new_data[key] = data
 
     with open("enemy_database.json", "w", encoding="utf-8") as f:

@@ -8,7 +8,7 @@ BASE_DIR = os.getenv("BASE_DIR")
 DEST_DIR = os.getenv("DEST_DIR")
 
 # TARGET_FILES = ["char_4224_turdus", "char_4223_botany","char_1051_headb2"]
-TARGET_FILES = ["enemy_reinforce_faust"]
+TARGET_FILES = ["skchr_hbound_1", "skchr_hbound_2", "skchr_toledo_1", "skchr_toledo_2"]
 
 
 def get_images(category, file_names):

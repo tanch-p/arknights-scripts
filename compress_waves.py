@@ -3,6 +3,7 @@ from pathlib import Path
 import pprint
 import copy
 import json
+from collections import Counter, defaultdict
 
 pp = pprint.PrettyPrinter(indent=4)
 
@@ -31,6 +32,77 @@ empty_action = {
     "dontBlockWave": False,
     "forceBlockWaveInBranch": False,
 }
+
+
+def group_actions_by_pack_key(waves):
+    for wave in waves:
+        fragments = wave["fragments"]
+
+        # Count each pack key within each original fragment
+        fragment_counts = [
+            Counter(
+                action.get("randomSpawnGroupPackKey")
+                for action in fragment["actions"]
+                if action.get("randomSpawnGroupPackKey") is not None
+            )
+            for fragment in fragments
+        ]
+
+        # key -> list of (fragment_index, actions)
+        groups = defaultdict(list)
+
+        for frag_idx, fragment in enumerate(fragments):
+            actions_by_key = defaultdict(list)
+
+            for action in fragment["actions"]:
+                pack_key = action.get("randomSpawnGroupPackKey")
+
+                if pack_key is not None:
+                    actions_by_key[pack_key].append(action)
+
+            for pack_key, actions in actions_by_key.items():
+                groups[pack_key].append((frag_idx, actions))
+
+        new_fragments = []
+
+        # Preserve pack-key order based on first appearance
+        seen = set()
+
+        for frag_idx, fragment in enumerate(fragments):
+            for action in fragment["actions"]:
+                pack_key = action.get("randomSpawnGroupPackKey")
+
+                if pack_key is None or pack_key in seen:
+                    continue
+
+                seen.add(pack_key)
+                occurrences = groups[pack_key]
+
+                # If this key appears multiple times inside any one fragment,
+                # preserve each fragment's group separately.
+                if any(fragment_counts[i][pack_key] > 1 for i, _ in occurrences):
+                    for _, actions in occurrences:
+                        new_fragments.append(
+                            {
+                                "preDelay": 0.0,
+                                "actions": actions,
+                            }
+                        )
+
+                else:
+                    # Otherwise combine matching pack keys across fragments.
+                    combined_actions = [
+                        action for _, actions in occurrences for action in actions
+                    ]
+
+                    new_fragments.append(
+                        {
+                            "preDelay": 0.0,
+                            "actions": combined_actions,
+                        }
+                    )
+
+        wave["fragments"] = new_fragments
 
 
 def remove_by_indexes(lst, indexes):
@@ -222,7 +294,12 @@ def compress_waves(stage_data, stage_id):
 
     if stage_id == "level_rogue4_d-1":
         branches["Walk"]["phases"][0]["actions"][0]["key"] = "enemy_1516_jakill"
-    if stage_id in ["level_rogue5_d-1", "level_rogue5_d-1-b", "level_rogue5_d-3"]:
+    if stage_id in [
+        "level_rogue5_d-1",
+        "level_rogue5_d-1-b",
+        "level_rogue5_d-3",
+        "level_rogue6_d-1",
+    ]:
         branches["Walk"]["phases"][0]["actions"][0]["key"] = "enemy_2002_bearmi"
     if stage_id in [
         "level_rogue4_d-2",
@@ -231,19 +308,35 @@ def compress_waves(stage_data, stage_id):
         "level_rogue5_d-2-b",
         "level_rogue5_d-2-c",
         "level_rogue5_d-4",
+        "level_rogue6_d-2",
     ]:
         branches["Walk_1"]["phases"][0]["actions"][0]["key"] = "enemy_2001_duckmi"
         branches["Walk_2"]["phases"][0]["actions"][0]["key"] = "enemy_2002_bearmi"
     if stage_id == "level_rogue4_d-b":
         branches["Walk_1"]["phases"][0]["actions"][0]["key"] = "enemy_2090_skzjbc"
         branches["Walk_2"]["phases"][0]["actions"][0]["key"] = "enemy_2090_skzjbc"
-    if stage_id in ["level_rogue4_d-1"]:
+    if stage_id in [
+        "level_rogue4_d-1",
+        "level_rogue5_d-1",
+        "level_rogue5_d-1-b",
+        "level_rogue5_d-3",
+        "level_rogue6_d-1",
+    ]:
         waves = waves[:1]
-    if stage_id in ["level_rogue4_d-2", "level_rogue4_d-3", "level_rogue4_d-b"]:
+    if stage_id in [
+        "level_rogue4_d-2",
+        "level_rogue4_d-3",
+        "level_rogue4_d-b",
+        "level_rogue5_d-2",
+        "level_rogue5_d-4",
+        "level_rogue6_d-2",
+    ]:
         # fix to pack enemies together
         waves = waves[:1]
+        # group_actions_by_pack_key(waves)
         for wave in waves:
-            wave["fragments"] = wave["fragments"][1:]
+            if stage_id in ["level_rogue4_d-2", "level_rogue4_d-3", "level_rogue4_d-b"]:
+                wave["fragments"] = wave["fragments"][1:]
             for frag_idx, fragment in enumerate(wave["fragments"]):
                 if frag_idx % 2 == 1:
                     for action in fragment["actions"]:

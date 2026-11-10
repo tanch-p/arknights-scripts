@@ -73,8 +73,13 @@ def update_current_stages():
             folder = "ro3"
         elif "rogue4" in key:
             folder = "ro4"
-        else:
+        elif "rogue5" in key:
             folder = "ro5"
+        elif "rogue6" in key:
+            folder = "ro6"
+        else:
+            print("key not found")
+            return
 
         stage_data_path = os.path.join(
             BASE_DIR,
@@ -109,7 +114,7 @@ def update_current_stages():
                 "elite_enemy_counts",
             )(wave_data)
             extra_info = extra_info_list[key]
-            sp_enemy = extra_info["sp_enemy"]
+            sp_enemy = None
             if sp_enemy is None and sp_count is not None:
                 sp_enemy = {
                     "normal": " / ".join([str(i) for i in sp_count]),
@@ -145,9 +150,9 @@ def update_current_stages():
                     all_mods += rgdysm_mods
             stage = next(
                 (
-                    item
+                    item["data"][0]
                     for item in stages_list
-                    if item["levelId"] == extra_info["levelId"]
+                    if item["data"][0]["levelId"] == extra_info["levelId"]
                 ),
                 None,
             )
@@ -172,13 +177,13 @@ def update_current_stages():
                 "elite_mods": extra_info["elite_mods"],
                 "enemy_counts": enemy_counts
                 if extra_info["levelId"] not in STAGES_TO_IGNORE
-                else extra_info["enemy_counts"],
+                else enemy_counts,
                 "sp_count": sp_count,
                 "elite_enemy_counts": elite_enemy_counts
                 if extra_info["levelId"] not in STAGES_TO_IGNORE
-                else extra_info["elite_enemy_counts"],
+                else elite_enemy_counts,
                 "elite_sp_count": elite_sp_count,
-                "sp_enemy": extra_info["sp_enemy"],
+                "sp_enemy": sp_enemy,
                 "sp_terrain": extra_info["sp_terrain"],
                 "enemy_list": enemy_list
                 if extra_info["levelId"] not in STAGES_TO_IGNORE
@@ -197,8 +202,8 @@ def update_current_stages():
 def add_new_ro_stages():
     data = {}
     for stage in stages_list:
-        key = stage["levelId"]
-        if stage["levelId"] not in extra_info_list:
+        key = stage["data"][0].get("levelId")
+        if key not in extra_info_list:
             if "rogue1" in key:
                 folder = "ro1"
             elif "rogue2" in key:
@@ -209,6 +214,8 @@ def add_new_ro_stages():
                 folder = "ro4"
             elif "rogue5" in key:
                 folder = "ro5"
+            elif "rogue6" in key:
+                folder = "ro6"
             file_path = (
                 f"cn_data/zh_CN/gamedata/levels/obt/roguelike/{folder}/{key}.json"
             )
@@ -267,17 +274,19 @@ def add_new_ro_stages():
 
                 desc = generate_desc(elite_mods)
 
+                stage_data = stage["data"][0]
                 trimmed_stage_info = {
-                    "levelId": stage["levelId"],
-                    "code": stage["code"],
-                    "name_zh": stage["name_zh"],
-                    "name_ja": stage["name_ja"],
-                    "name_en": stage["name_en"],
-                    "category": stage["category"],
-                    "floors": stage["floors"],
-                    "addInfo_zh": stage["addInfo_zh"],
-                    "addInfo_ja": stage["addInfo_ja"],
-                    "addInfo_en": stage["addInfo_en"],
+                    "levelId": stage_data["levelId"],
+                    "id": stage_data["id"],
+                    "code": stage_data["code"],
+                    "name_zh": stage_data["name_zh"],
+                    "name_ja": stage_data["name_ja"],
+                    "name_en": stage_data["name_en"],
+                    "category": stage_data["category"],
+                    "floors": stage_data["floors"],
+                    "addInfo_zh": stage_data["addInfo_zh"],
+                    "addInfo_ja": stage_data["addInfo_ja"],
+                    "addInfo_en": stage_data["addInfo_en"],
                     "eliteDesc_zh": desc.get("zh", None),
                     "eliteDesc_ja": desc.get("ja", None),
                     "eliteDesc_en": desc.get("en", None),
@@ -293,7 +302,7 @@ def add_new_ro_stages():
                     "enemy_list": enemy_list,
                     "elite_enemy_list": elite_enemy_list,
                 }
-            data[stage["levelId"]] = trimmed_stage_info
+            data[stage_data["levelId"]] = trimmed_stage_info
     data = extra_info_list | data
 
     with open("is_stages_extrainfo.json", "w", encoding="utf-8") as f:

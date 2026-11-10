@@ -78057,7 +78057,9 @@
                 ]
             }
         ],
-        "tags": [],
+        "tags": [
+            "skill_init_on"
+        ],
         "blackboard": [
             {
                 "key": "atk",
@@ -78477,7 +78479,9 @@
                 ]
             }
         ],
-        "tags": [],
+        "tags": [
+            "skill_init_on"
+        ],
         "blackboard": [
             {
                 "key": "atk",
@@ -91320,10 +91324,6 @@
         ],
         "blackboard": [
             {
-                "key": "talent_scale",
-                "value": 2.0
-            },
-            {
                 "key": "atk",
                 "value": 1.6
             },
@@ -91334,6 +91334,11 @@
             {
                 "key": "blockCnt",
                 "value": 3.0
+            },
+            {
+                "key": "blockCnt",
+                "value": 4.0,
+                "module": "cru-y"
             }
         ]
     },
@@ -121491,7 +121496,7 @@
         "tags": [],
         "blackboard": [
             {
-                "key": "ally_hp",
+                "key": "ally_max_hp",
                 "value": 0.2,
                 "duration": 999,
                 "conditions": [
@@ -121499,7 +121504,7 @@
                 ]
             },
             {
-                "key": "ally_hp",
+                "key": "ally_max_hp",
                 "value": 0.6,
                 "duration": 999,
                 "conditions": [
@@ -126083,8 +126088,8 @@
     },
     "skchr_tanya_1": {
         "name_zh": "涤净",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "洗浄",
+        "name_en": "Decontamination",
         "chara_list": [
             "裂响"
         ],
@@ -126095,8 +126100,8 @@
             {
                 "rangeId": null,
                 "description_zh": "生命上限<@ba.vup>+70%</>，自身每秒回复<@ba.vup>90</>点<ba.dt.element>元素损伤</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "最大HP<@ba.vup>+70%</>、自身の<$ba.dt.element>元素損傷</>が1秒ごとに<@ba.vup>90</>回復",
+                "description_en": "Max HP <@ba.vup>+70%</>, and recovers <@ba.vup>90</> <$ba.dt.element>Elemental Injury</> per second",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -126120,8 +126125,8 @@
             {
                 "rangeId": null,
                 "description_zh": "生命上限<@ba.vup>+80%</>，自身每秒回复<@ba.vup>100</>点<ba.dt.element>元素损伤</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "最大HP<@ba.vup>+80%</>、自身の<$ba.dt.element>元素損傷</>が1秒ごとに<@ba.vup>100</>回復",
+                "description_en": "Max HP <@ba.vup>+80%</>, and recovers <@ba.vup>100</> <$ba.dt.element>Elemental Injury</> per second",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -126145,8 +126150,8 @@
             {
                 "rangeId": null,
                 "description_zh": "生命上限<@ba.vup>+90%</>，自身每秒回复<@ba.vup>110</>点<ba.dt.element>元素损伤</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "最大HP<@ba.vup>+90%</>、自身の<$ba.dt.element>元素損傷</>が1秒ごとに<@ba.vup>110</>回復",
+                "description_en": "Max HP <@ba.vup>+90%</>, and recovers <@ba.vup>110</> <$ba.dt.element>Elemental Injury</> per second",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -126170,8 +126175,8 @@
             {
                 "rangeId": null,
                 "description_zh": "生命上限<@ba.vup>+100%</>，自身每秒回复<@ba.vup>120</>点<ba.dt.element>元素损伤</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "最大HP<@ba.vup>+100%</>、自身の<$ba.dt.element>元素損傷</>が1秒ごとに<@ba.vup>120</>回復",
+                "description_en": "Max HP <@ba.vup>+100%</>, and recovers <@ba.vup>120</> <$ba.dt.element>Elemental Injury</> per second",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -126207,8 +126212,8 @@
     },
     "skchr_tanya_2": {
         "name_zh": "溃决",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "決壊",
+        "name_en": "Cracking Dam",
         "chara_list": [
             "裂响"
         ],
@@ -126219,8 +126224,8 @@
             {
                 "rangeId": "x-4",
                 "description_zh": "获得<@ba.vup>5</>层可叠加的防御力<@ba.vup>+20%</>的增益，受到攻击后消耗1层，并对周围所有地面敌人造成相当于攻击力<@ba.vup>30%</>的<ba.dt.erosion2>侵蚀损伤</>\\n<@ba.rem>增益最多叠加5层</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "防御力<@ba.vup>+20%</>の効果を<@ba.vup>5</>回獲得。ダメージを受けるたびに回数を1回消費し、周囲8マス内の地上にいる敵全員に攻撃力の<@ba.vup>30%</>の<$ba.dt.erosion2>侵蝕損傷</>を与える\n<@ba.rem>防御力上昇効果は最大5回まで重複可能</>",
+                "description_en": "Gains <@ba.vup>5</> stacks of a buff that grants DEF <@ba.vup>+20%</> per stack; when damage is taken, consumes 1 stack to deal <@ba.vup>30%</> ATK as <$ba.dt.erosion2>Corrosion</> to all surrounding ground enemies\n<@ba.rem>Buff stacks up to 5 times</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -126252,8 +126257,8 @@
             {
                 "rangeId": "x-4",
                 "description_zh": "获得<@ba.vup>5</>层可叠加的防御力<@ba.vup>+20%</>的增益，受到攻击后消耗1层，并对周围所有地面敌人造成相当于攻击力<@ba.vup>31%</>的<ba.dt.erosion2>侵蚀损伤</>\\n<@ba.rem>增益最多叠加5层</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "防御力<@ba.vup>+20%</>の効果を<@ba.vup>5</>回獲得。ダメージを受けるたびに回数を1回消費し、周囲8マス内の地上にいる敵全員に攻撃力の<@ba.vup>31%</>の<$ba.dt.erosion2>侵蝕損傷</>を与える\n<@ba.rem>防御力上昇効果は最大5回まで重複可能</>",
+                "description_en": "Gains <@ba.vup>5</> stacks of a buff that grants DEF <@ba.vup>+20%</> per stack; when damage is taken, consumes 1 stack to deal <@ba.vup>31%</> ATK as <$ba.dt.erosion2>Corrosion</> to all surrounding ground enemies\n<@ba.rem>Buff stacks up to 5 times</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -126277,8 +126282,8 @@
             {
                 "rangeId": "x-4",
                 "description_zh": "获得<@ba.vup>5</>层可叠加的防御力<@ba.vup>+20%</>的增益，受到攻击后消耗1层，并对周围所有地面敌人造成相当于攻击力<@ba.vup>33%</>的<ba.dt.erosion2>侵蚀损伤</>\\n<@ba.rem>增益最多叠加5层</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "防御力<@ba.vup>+20%</>の効果を<@ba.vup>5</>回獲得。ダメージを受けるたびに回数を1回消費し、周囲8マス内の地上にいる敵全員に攻撃力の<@ba.vup>33%</>の<$ba.dt.erosion2>侵蝕損傷</>を与える\n<@ba.rem>防御力上昇効果は最大5回まで重複可能</>",
+                "description_en": "Gains <@ba.vup>5</> stacks of a buff that grants DEF <@ba.vup>+20%</> per stack; when damage is taken, consumes 1 stack to deal <@ba.vup>33%</> ATK as <$ba.dt.erosion2>Corrosion</> to all surrounding ground enemies\n<@ba.rem>Buff stacks up to 5 times</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -126310,8 +126315,8 @@
             {
                 "rangeId": "x-4",
                 "description_zh": "获得<@ba.vup>5</>层可叠加的防御力<@ba.vup>+20%</>的增益，受到攻击后消耗1层，并对周围所有地面敌人造成相当于攻击力<@ba.vup>35%</>的<ba.dt.erosion2>侵蚀损伤</>\\n<@ba.rem>增益最多叠加5层</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "防御力<@ba.vup>+20%</>の効果を<@ba.vup>5</>回獲得。ダメージを受けるたびに回数を1回消費し、周囲8マス内の地上にいる敵全員に攻撃力の<@ba.vup>35%</>の<$ba.dt.erosion2>侵蝕損傷</>を与える\n<@ba.rem>防御力上昇効果は最大5回まで重複可能</>",
+                "description_en": "Gains <@ba.vup>5</> stacks of a buff that grants DEF <@ba.vup>+20%</> per stack; when damage is taken, consumes 1 stack to deal <@ba.vup>35%</> ATK as <$ba.dt.erosion2>Corrosion</> to all surrounding ground enemies\n<@ba.rem>Buff stacks up to 5 times</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -126374,8 +126379,8 @@
     },
     "skchr_closur_1": {
         "name_zh": "递归策略",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "再帰的アプローチ",
+        "name_en": "Recursive Tactics",
         "chara_list": [
             "可露希尔"
         ],
@@ -126386,8 +126391,8 @@
             {
                 "rangeId": null,
                 "description_zh": "立即使自身的援军获得<@ba.vup>1</>层护盾（不叠加），技能持续时间内逐渐获得<@ba.vup>3</>点部署费用；部署后每使用过一次技能，获得的部署费用<@ba.vup>+1</>（最多提升至<@ba.vup>7</>点）",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "即座に自身の援軍にシールドを<@ba.vup>1</>枚付与し（重複不可）、スキル発動中所持コストが徐々に増加（合計<@ba.vup>3</>）。配置後スキルを使用するたびに、増加する所持コスト<@ba.vup>+1</>（最大<@ba.vup>7</>まで）",
+                "description_en": "Grants Reinforcements <@ba.vup>1</> Shield (does not stack); gradually generates <@ba.vup>3</> DP over skill duration; each time this skill is used, DP gained <@ba.vup>+1</> (up to <@ba.vup>7</> DP)",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -126419,8 +126424,8 @@
             {
                 "rangeId": null,
                 "description_zh": "立即使自身的援军获得<@ba.vup>1</>层护盾（不叠加），技能持续时间内逐渐获得<@ba.vup>3</>点部署费用；部署后每使用过一次技能，获得的部署费用<@ba.vup>+1</>（最多提升至<@ba.vup>7</>点）",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "即座に自身の援軍にシールドを<@ba.vup>1</>枚付与し（重複不可）、スキル発動中所持コストが徐々に増加（合計<@ba.vup>3</>）。配置後スキルを使用するたびに、増加する所持コスト<@ba.vup>+1</>（最大<@ba.vup>7</>まで）",
+                "description_en": "Grants Reinforcements <@ba.vup>1</> Shield (does not stack); gradually generates <@ba.vup>3</> DP over skill duration; each time this skill is used, DP gained <@ba.vup>+1</> (up to <@ba.vup>7</> DP)",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -126452,8 +126457,8 @@
             {
                 "rangeId": null,
                 "description_zh": "立即使自身的援军获得<@ba.vup>1</>层护盾（不叠加），技能持续时间内逐渐获得<@ba.vup>3</>点部署费用；部署后每使用过一次技能，获得的部署费用<@ba.vup>+1</>（最多提升至<@ba.vup>7</>点）",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "即座に自身の援軍にシールドを<@ba.vup>1</>枚付与し（重複不可）、スキル発動中所持コストが徐々に増加（合計<@ba.vup>3</>）。配置後スキルを使用するたびに、増加する所持コスト<@ba.vup>+1</>（最大<@ba.vup>7</>まで）",
+                "description_en": "Grants Reinforcements <@ba.vup>1</> Shield (does not stack); gradually generates <@ba.vup>3</> DP over skill duration; each time this skill is used, DP gained <@ba.vup>+1</> (up to <@ba.vup>7</> DP)",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -126485,8 +126490,8 @@
             {
                 "rangeId": null,
                 "description_zh": "立即使自身的援军获得<@ba.vup>1</>层护盾（不叠加），技能持续时间内逐渐获得<@ba.vup>3</>点部署费用；部署后每使用过一次技能，获得的部署费用<@ba.vup>+1</>（最多提升至<@ba.vup>7</>点）",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "即座に自身の援軍にシールドを<@ba.vup>1</>枚付与し（重複不可）、スキル発動中所持コストが徐々に増加（合計<@ba.vup>3</>）。配置後スキルを使用するたびに、増加する所持コスト<@ba.vup>+1</>（最大<@ba.vup>7</>まで）",
+                "description_en": "Grants Reinforcements <@ba.vup>1</> Shield (does not stack); gradually generates <@ba.vup>3</> DP over skill duration; each time this skill is used, DP gained <@ba.vup>+1</> (up to <@ba.vup>7</> DP)",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -126531,8 +126536,8 @@
     },
     "skchr_closur_2": {
         "name_zh": "模型扩展",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "モデル拡張",
+        "name_en": "Model Expansion",
         "chara_list": [
             "可露希尔"
         ],
@@ -126543,8 +126548,8 @@
             {
                 "rangeId": null,
                 "description_zh": "立即获得<@ba.vup>7</>点部署费用，持续时间内逐渐获得<@ba.vup>15</>点部署费用，自身的援军防御力<@ba.vup>+45%</>，阻挡数<@ba.vup>+1</>，自身攻击力<@ba.vup>+55%</>，同时攻击<@ba.vup>2</>个目标且能攻击到自身援军阻挡的敌人；在战术点效果范围内部署干员时，立即返还部署费用的<@ba.vup>40%</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "所持コスト+<@ba.vup>7</>、スキル発動中所持コストが徐々に増加（合計<@ba.vup>15</>）。自身の援軍の防御力<@ba.vup>+45%</>、ブロック数<@ba.vup>+1</>。自身の攻撃力<@ba.vup>+55%</>、<@ba.vup>2</>体を同時に攻撃し、自身の援軍がブロックしている敵を攻撃可能になる\n戦術召集点の効果範囲内にオペレーターを配置すると、配置コストの<@ba.vup>40%</>を即座に返還",
+                "description_en": "Immediately generates <@ba.vup>7</> DP, gradually generates <@ba.vup>15</> DP over skill duration, Reinforcements DEF <@ba.vup>+45%</>, Block <@ba.vup>+1</>, Closure's ATK <@ba.vup>+55%</>, attacks <@ba.vup>2</> targets simultaneously, and can attack enemies blocked by her own Reinforcements; Operators deployed within Tactical Point effect range refund <@ba.vup>40%</> of their DP cost",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -126596,8 +126601,8 @@
             {
                 "rangeId": null,
                 "description_zh": "立即获得<@ba.vup>8</>点部署费用，持续时间内逐渐获得<@ba.vup>15</>点部署费用，自身的援军防御力<@ba.vup>+50%</>，阻挡数<@ba.vup>+1</>，自身攻击力<@ba.vup>+60%</>，同时攻击<@ba.vup>2</>个目标且能攻击到自身援军阻挡的敌人；在战术点效果范围内部署干员时，立即返还部署费用的<@ba.vup>40%</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "所持コスト+<@ba.vup>8</>、スキル発動中所持コストが徐々に増加（合計<@ba.vup>15</>）。自身の援軍の防御力<@ba.vup>+50%</>、ブロック数<@ba.vup>+1</>。自身の攻撃力<@ba.vup>+60%</>、<@ba.vup>2</>体を同時に攻撃し、自身の援軍がブロックしている敵を攻撃可能になる\n戦術召集点の効果範囲内にオペレーターを配置すると、配置コストの<@ba.vup>40%</>を即座に返還",
+                "description_en": "Immediately generates <@ba.vup>8</> DP, gradually generates <@ba.vup>15</> DP over skill duration, Reinforcements DEF <@ba.vup>+50%</>, Block <@ba.vup>+1</>, Closure's ATK <@ba.vup>+60%</>, attacks <@ba.vup>2</> targets simultaneously, and can attack enemies blocked by her own Reinforcements; Operators deployed within Tactical Point effect range refund <@ba.vup>40%</> of their DP cost",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -126649,8 +126654,8 @@
             {
                 "rangeId": null,
                 "description_zh": "立即获得<@ba.vup>9</>点部署费用，持续时间内逐渐获得<@ba.vup>15</>点部署费用，自身的援军防御力<@ba.vup>+55%</>，阻挡数<@ba.vup>+1</>，自身攻击力<@ba.vup>+70%</>，同时攻击<@ba.vup>2</>个目标且能攻击到自身援军阻挡的敌人；在战术点效果范围内部署干员时，立即返还部署费用的<@ba.vup>40%</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "所持コスト+<@ba.vup>9</>、スキル発動中所持コストが徐々に増加（合計<@ba.vup>15</>）。自身の援軍の防御力<@ba.vup>+55%</>、ブロック数<@ba.vup>+1</>。自身の攻撃力<@ba.vup>+70%</>、<@ba.vup>2</>体を同時に攻撃し、自身の援軍がブロックしている敵を攻撃可能になる\n戦術召集点の効果範囲内にオペレーターを配置すると、配置コストの<@ba.vup>40%</>を即座に返還",
+                "description_en": "Immediately generates <@ba.vup>9</> DP, gradually generates <@ba.vup>15</> DP over skill duration, Reinforcements DEF <@ba.vup>+55%</>, Block <@ba.vup>+1</>, Closure's ATK <@ba.vup>+70%</>, attacks <@ba.vup>2</> targets simultaneously, and can attack enemies blocked by her own Reinforcements; Operators deployed within Tactical Point effect range refund <@ba.vup>40%</> of their DP cost",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -126702,8 +126707,8 @@
             {
                 "rangeId": null,
                 "description_zh": "立即获得<@ba.vup>10</>点部署费用，持续时间内逐渐获得<@ba.vup>15</>点部署费用，自身的援军防御力<@ba.vup>+60%</>，阻挡数<@ba.vup>+1</>，自身攻击力<@ba.vup>+80%</>，同时攻击<@ba.vup>2</>个目标且能攻击到自身援军阻挡的敌人；在战术点效果范围内部署干员时，立即返还部署费用的<@ba.vup>40%</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "所持コスト+<@ba.vup>10</>、スキル発動中所持コストが徐々に増加（合計<@ba.vup>15</>）。自身の援軍の防御力<@ba.vup>+60%</>、ブロック数<@ba.vup>+1</>。自身の攻撃力<@ba.vup>+80%</>、<@ba.vup>2</>体を同時に攻撃し、自身の援軍がブロックしている敵を攻撃可能になる\n戦術召集点の効果範囲内にオペレーターを配置すると、配置コストの<@ba.vup>40%</>を即座に返還",
+                "description_en": "Immediately generates <@ba.vup>10</> DP, gradually generates <@ba.vup>15</> DP over skill duration, Reinforcements DEF <@ba.vup>+60%</>, Block <@ba.vup>+1</>, Closure's ATK <@ba.vup>+80%</>, attacks <@ba.vup>2</> targets simultaneously, and can attack enemies blocked by her own Reinforcements; Operators deployed within Tactical Point effect range refund <@ba.vup>40%</> of their DP cost",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -126786,8 +126791,8 @@
     },
     "skchr_closur_3": {
         "name_zh": "Q.E.D.",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "Q.E.D.",
+        "name_en": "Q.E.D.",
         "chara_list": [
             "可露希尔"
         ],
@@ -126798,8 +126803,8 @@
             {
                 "rangeId": null,
                 "description_zh": "技能持续时间内逐渐获得<@ba.vup>18</>点部署费用，攻击间隔缩短(-0.5)，锁定自身和援军原本攻击范围内的敌人进行攻击，造成可露希尔<@ba.vup>190%</>攻击力的物理伤害并施加持续<@ba.vup>3</>秒的<@ba.vup>5%</><ba.slowdown>迟钝</>效果（可叠加，最高<@ba.vup>50%</>），每攻击<@ba.vup>9</>次后攻击目标数+1（最多触发<@ba.vup>6</>次）",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "スキル発動中所持コストが徐々に増加（合計<@ba.vup>18</>）、攻撃間隔短縮。自身および援軍の初期攻撃範囲内の敵をロックオンして攻撃し、クロージャの攻撃力の<@ba.vup>190%</>の物理ダメージを与え、<@ba.vup>3</>秒間<@ba.vup>5%</>の<$ba.slowdown>鈍化</>状態を付与（最大<@ba.vup>50%</>まで重複可能）。<@ba.vup>9</>回攻撃するたびに攻撃対象数+1（最大<@ba.vup>6</>回まで発動）",
+                "description_en": "Gradually generates <@ba.vup>18</> DP over skill duration, and Attack Interval decreases; locks onto and attacks enemies within Closure or her Reinforcements' normal Attack Ranges, dealing <@ba.vup>190%</> of Closure's ATK as Physical damage and inflicting a <@ba.vup>5%</> <$ba.slowdown>Sluggish</> effect for <@ba.vup>3</>s (stacks up to <@ba.vup>50%</>); target count +1 after every <@ba.vup>9</> attacks (can trigger up to <@ba.vup>6</> times)",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -126867,8 +126872,8 @@
             {
                 "rangeId": null,
                 "description_zh": "技能持续时间内逐渐获得<@ba.vup>18</>点部署费用，攻击间隔缩短(-0.5)，锁定自身和援军原本攻击范围内的敌人进行攻击，造成可露希尔<@ba.vup>210%</>攻击力的物理伤害并施加持续<@ba.vup>3</>秒的<@ba.vup>5%</><ba.slowdown>迟钝</>效果（可叠加，最高<@ba.vup>50%</>），每攻击<@ba.vup>9</>次后攻击目标数+1（最多触发<@ba.vup>6</>次）",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "スキル発動中所持コストが徐々に増加（合計<@ba.vup>18</>）、攻撃間隔短縮。自身および援軍の初期攻撃範囲内の敵をロックオンして攻撃し、クロージャの攻撃力の<@ba.vup>210%</>の物理ダメージを与え、<@ba.vup>3</>秒間<@ba.vup>5%</>の<$ba.slowdown>鈍化</>状態を付与（最大<@ba.vup>50%</>まで重複可能）。<@ba.vup>9</>回攻撃するたびに攻撃対象数+1（最大<@ba.vup>6</>回まで発動）",
+                "description_en": "Gradually generates <@ba.vup>18</> DP over skill duration, and Attack Interval decreases; locks onto and attacks enemies within Closure or her Reinforcements' normal Attack Ranges, dealing <@ba.vup>210%</> of Closure's ATK as Physical damage and inflicting a <@ba.vup>5%</> <$ba.slowdown>Sluggish</> effect for <@ba.vup>3</>s (stacks up to <@ba.vup>50%</>); target count +1 after every <@ba.vup>9</> attacks (can trigger up to <@ba.vup>6</> times)",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -126936,8 +126941,8 @@
             {
                 "rangeId": null,
                 "description_zh": "技能持续时间内逐渐获得<@ba.vup>18</>点部署费用，攻击间隔缩短(-0.5)，锁定自身和援军原本攻击范围内的敌人进行攻击，造成可露希尔<@ba.vup>230%</>攻击力的物理伤害并施加持续<@ba.vup>3</>秒的<@ba.vup>5%</><ba.slowdown>迟钝</>效果（可叠加，最高<@ba.vup>50%</>），每攻击<@ba.vup>9</>次后攻击目标数+1（最多触发<@ba.vup>6</>次）",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "スキル発動中所持コストが徐々に増加（合計<@ba.vup>18</>）、攻撃間隔短縮。自身および援軍の初期攻撃範囲内の敵をロックオンして攻撃し、クロージャの攻撃力の<@ba.vup>230%</>の物理ダメージを与え、<@ba.vup>3</>秒間<@ba.vup>5%</>の<$ba.slowdown>鈍化</>状態を付与（最大<@ba.vup>50%</>まで重複可能）。<@ba.vup>9</>回攻撃するたびに攻撃対象数+1（最大<@ba.vup>6</>回まで発動）",
+                "description_en": "Gradually generates <@ba.vup>18</> DP over skill duration, and Attack Interval decreases; locks onto and attacks enemies within Closure or her Reinforcements' normal Attack Ranges, dealing <@ba.vup>230%</> of Closure's ATK as Physical damage and inflicting a <@ba.vup>5%</> <$ba.slowdown>Sluggish</> effect for <@ba.vup>3</>s (stacks up to <@ba.vup>50%</>); target count +1 after every <@ba.vup>9</> attacks (can trigger up to <@ba.vup>6</> times)",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -127005,8 +127010,8 @@
             {
                 "rangeId": null,
                 "description_zh": "技能持续时间内逐渐获得<@ba.vup>18</>点部署费用，攻击间隔缩短(-0.5)，锁定自身和援军原本攻击范围内的敌人进行攻击，造成可露希尔<@ba.vup>250%</>攻击力的物理伤害并施加持续<@ba.vup>3</>秒的<@ba.vup>6%</><ba.slowdown>迟钝</>效果（可叠加，最高<@ba.vup>60%</>），每攻击<@ba.vup>9</>次后攻击目标数+1（最多触发<@ba.vup>6</>次）",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "スキル発動中所持コストが徐々に増加（合計<@ba.vup>18</>）、攻撃間隔短縮。自身および援軍の初期攻撃範囲内の敵をロックオンして攻撃し、クロージャの攻撃力の<@ba.vup>250%</>の物理ダメージを与え、<@ba.vup>3</>秒間<@ba.vup>6%</>の<$ba.slowdown>鈍化</>状態を付与（最大<@ba.vup>60%</>まで重複可能）。<@ba.vup>9</>回攻撃するたびに攻撃対象数+1（最大<@ba.vup>6</>回まで発動）",
+                "description_en": "Gradually generates <@ba.vup>18</> DP over skill duration, and Attack Interval decreases; locks onto and attacks enemies within Closure or her Reinforcements' normal Attack Ranges, dealing <@ba.vup>250%</> of Closure's ATK as Physical damage and inflicting a <@ba.vup>6%</> <$ba.slowdown>Sluggish</> effect for <@ba.vup>3</>s (stacks up to <@ba.vup>60%</>); target count +1 after every <@ba.vup>9</> attacks (can trigger up to <@ba.vup>6</> times)",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -127126,8 +127131,8 @@
     },
     "skchr_veen_1": {
         "name_zh": "“自呼号生发”",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "「叫びより出でよ」",
+        "name_en": "'From Wailing Born'",
         "chara_list": [
             "维伊"
         ],
@@ -127138,8 +127143,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击速度<@ba.vup>+75</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃速度<@ba.vup>+75</>",
+                "description_en": "ASPD <@ba.vup>+75</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -127159,8 +127164,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击速度<@ba.vup>+80</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃速度<@ba.vup>+80</>",
+                "description_en": "ASPD <@ba.vup>+80</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -127180,8 +127185,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击速度<@ba.vup>+90</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃速度<@ba.vup>+90</>",
+                "description_en": "ASPD <@ba.vup>+90</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -127201,8 +127206,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击速度<@ba.vup>+100</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃速度<@ba.vup>+100</>",
+                "description_en": "ASPD <@ba.vup>+100</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -127230,8 +127235,8 @@
     },
     "skchr_veen_2": {
         "name_zh": "“以鲜血洗去”",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "「血で洗い流せ」",
+        "name_en": "'By Blood Cleansed'",
         "chara_list": [
             "维伊"
         ],
@@ -127242,8 +127247,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击间隔<@ba.vup>小幅缩短(-0.5)</>，每次攻击或发射储存能量后，使自身后续攻击力<@ba.vup>+11%</>，攻击速度<@ba.vup>+7</>（至多叠加<@ba.vup>9</>层，发射转置能量可叠加<@ba.vup>3</>层），持续至技能结束",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃間隔を<@ba.vup>わずかに短縮</>し、攻撃またはチャージしたエネルギーを発射するたび、自身の攻撃力<@ba.vup>+11%</>、攻撃速度<@ba.vup>+7</>（最大<@ba.vup>9</>回まで重複可能。転置エネルギー発射時は一度に効果が<@ba.vup>3</>回分重複する）。スキル終了まで効果継続",
+                "description_en": "Attack Interval <@ba.vup>decreases slightly</>; every attack or release of stored charges grants ATK <@ba.vup>+11%</> and ASPD <@ba.vup>+7</> (max <@ba.vup>9</> stacks, releasing Transposed Energy gives <@ba.vup>3</> stacks) until skill ends",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -127275,8 +127280,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击间隔<@ba.vup>小幅缩短(-0.5)</>，每次攻击或发射储存能量后，使自身后续攻击力<@ba.vup>+13%</>，攻击速度<@ba.vup>+7</>（至多叠加<@ba.vup>9</>层，发射转置能量可叠加<@ba.vup>3</>层），持续至技能结束",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃間隔を<@ba.vup>わずかに短縮</>し、攻撃またはチャージしたエネルギーを発射するたび、自身の攻撃力<@ba.vup>+13%</>、攻撃速度<@ba.vup>+7</>（最大<@ba.vup>9</>回まで重複可能。転置エネルギー発射時は一度に効果が<@ba.vup>3</>回分重複する）。スキル終了まで効果継続",
+                "description_en": "Attack Interval <@ba.vup>decreases slightly</>; every attack or release of stored charges grants ATK <@ba.vup>+13%</> and ASPD <@ba.vup>+7</> (max <@ba.vup>9</> stacks, releasing Transposed Energy gives <@ba.vup>3</> stacks) until skill ends",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -127308,8 +127313,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击间隔<@ba.vup>小幅缩短(-0.5)</>，每次攻击或发射储存能量后，使自身后续攻击力<@ba.vup>+13%</>，攻击速度<@ba.vup>+8</>（至多叠加<@ba.vup>9</>层，发射转置能量可叠加<@ba.vup>3</>层），持续至技能结束",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃間隔を<@ba.vup>わずかに短縮</>し、攻撃またはチャージしたエネルギーを発射するたび、自身の攻撃力<@ba.vup>+13%</>、攻撃速度<@ba.vup>+8</>（最大<@ba.vup>9</>回まで重複可能。転置エネルギー発射時は一度に効果が<@ba.vup>3</>回分重複する）。スキル終了まで効果継続",
+                "description_en": "Attack Interval <@ba.vup>decreases slightly</>; every attack or release of stored charges grants ATK <@ba.vup>+13%</> and ASPD <@ba.vup>+8</> (max <@ba.vup>9</> stacks, releasing Transposed Energy gives <@ba.vup>3</> stacks) until skill ends",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -127341,8 +127346,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击间隔<@ba.vup>小幅缩短(-0.5)</>，每次攻击或发射储存能量后，使自身后续攻击力<@ba.vup>+15%</>，攻击速度<@ba.vup>+8</>（至多叠加<@ba.vup>9</>层，发射转置能量可叠加<@ba.vup>3</>层），持续至技能结束",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃間隔を<@ba.vup>わずかに短縮</>し、攻撃またはチャージしたエネルギーを発射するたび、自身の攻撃力<@ba.vup>+15%</>、攻撃速度<@ba.vup>+8</>（最大<@ba.vup>9</>回まで重複可能。転置エネルギー発射時は一度に効果が<@ba.vup>3</>回分重複する）。スキル終了まで効果継続",
+                "description_en": "Attack Interval <@ba.vup>decreases slightly</>; every attack or release of stored charges grants ATK <@ba.vup>+15%</> and ASPD <@ba.vup>+8</> (max <@ba.vup>9</> stacks, releasing Transposed Energy gives <@ba.vup>3</> stacks) until skill ends",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -127377,8 +127382,8 @@
     },
     "skchr_veen_3": {
         "name_zh": "“用赤铁铭记”",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "「赤鉄に刻もう」",
+        "name_en": "'With Iron Engraved'",
         "chara_list": [
             "维伊"
         ],
@@ -127389,8 +127394,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击速度<@ba.vup>+140</>，储存的能量发射后会在敌人间（优先不同目标）跳跃一次，并造成相当于<@ba.vup>140%</>攻击力的法术伤害，<@ba.vup>转置能量</>改为跳跃<@ba.vup>3</>次\\n<@ba.rem>攻击装有21发弹药，仅在发射每个储存能量时消耗1发弹药，发射转置能量消耗3发弹药，弹药打完后结束（可随时停止技能）</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃速度<@ba.vup>+140</>、チャージしたエネルギーを発射すると、敵の間で1回跳躍し（異なる対象を優先）、攻撃力の<@ba.vup>140%</>の術ダメージを与える。<@ba.vup>転置エネルギー</>発射時は跳躍回数が<@ba.vup>3</>回まで増加\n<@ba.rem>合計21発の弾薬を所持し、チャージしたエネルギーの発射時は1発、転置エネルギーの発射時は3発消費する。全ての弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+                "description_en": "ASPD <@ba.vup>+140</>; stored charges will bounce between enemies once on being released (prioritizing different targets), dealing <@ba.vup>140%</> ATK as Arts damage; <@ba.vup>Transposed Energy</> bounces <@ba.vup>3</> times\n<@ba.rem>Skill activation grants 21 ammo; 1 ammo is spent per stored charge released, and 3 ammo per Transposed Energy released; skill ends when all ammo is used (Can manually deactivate skill)</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -127430,8 +127435,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击速度<@ba.vup>+150</>，储存的能量发射后会在敌人间（优先不同目标）跳跃一次，并造成相当于<@ba.vup>150%</>攻击力的法术伤害，<@ba.vup>转置能量</>改为跳跃<@ba.vup>3</>次\\n<@ba.rem>攻击装有24发弹药，仅在发射每个储存能量时消耗1发弹药，发射转置能量消耗3发弹药，弹药打完后结束（可随时停止技能）</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃速度<@ba.vup>+150</>、チャージしたエネルギーを発射すると、敵の間で1回跳躍し（異なる対象を優先）、攻撃力の<@ba.vup>150%</>の術ダメージを与える。<@ba.vup>転置エネルギー</>発射時は跳躍回数が<@ba.vup>3</>回まで増加\n<@ba.rem>合計24発の弾薬を所持し、チャージしたエネルギーの発射時は1発、転置エネルギーの発射時は3発消費する。全ての弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+                "description_en": "ASPD <@ba.vup>+150</>; stored charges will bounce between enemies once on being released (prioritizing different targets), dealing <@ba.vup>150%</> ATK as Arts damage; <@ba.vup>Transposed Energy</> bounces <@ba.vup>3</> times\n<@ba.rem>Skill activation grants 24 ammo; 1 ammo is spent per stored charge released, and 3 ammo per Transposed Energy released; skill ends when all ammo is used (Can manually deactivate skill)</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -127471,8 +127476,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击速度<@ba.vup>+160</>，储存的能量发射后会在敌人间（优先不同目标）跳跃一次，并造成相当于<@ba.vup>150%</>攻击力的法术伤害，<@ba.vup>转置能量</>改为跳跃<@ba.vup>3</>次\\n<@ba.rem>攻击装有24发弹药，仅在发射每个储存能量时消耗1发弹药，发射转置能量消耗3发弹药，弹药打完后结束（可随时停止技能）</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃速度<@ba.vup>+160</>、チャージしたエネルギーを発射すると、敵の間で1回跳躍し（異なる対象を優先）、攻撃力の<@ba.vup>150%</>の術ダメージを与える。<@ba.vup>転置エネルギー</>発射時は跳躍回数が<@ba.vup>3</>回まで増加\n<@ba.rem>合計24発の弾薬を所持し、チャージしたエネルギーの発射時は1発、転置エネルギーの発射時は3発消費する。全ての弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+                "description_en": "ASPD <@ba.vup>+160</>; stored charges will bounce between enemies once on being released (prioritizing different targets), dealing <@ba.vup>150%</> ATK as Arts damage; <@ba.vup>Transposed Energy</> bounces <@ba.vup>3</> times\n<@ba.rem>Skill activation grants 24 ammo; 1 ammo is spent per stored charge released, and 3 ammo per Transposed Energy released; skill ends when all ammo is used (Can manually deactivate skill)</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -127512,8 +127517,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击速度<@ba.vup>+180</>，储存的能量发射后会在敌人间（优先不同目标）跳跃一次，并造成相当于<@ba.vup>165%</>攻击力的法术伤害，<@ba.vup>转置能量</>改为跳跃<@ba.vup>3</>次\\n<@ba.rem>攻击装有27发弹药，仅在发射每个储存能量时消耗1发弹药，发射转置能量消耗3发弹药，弹药打完后结束（可随时停止技能）</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃速度<@ba.vup>+180</>、チャージしたエネルギーを発射すると、敵の間で1回跳躍し（異なる対象を優先）、攻撃力の<@ba.vup>165%</>の術ダメージを与える。<@ba.vup>転置エネルギー</>発射時は跳躍回数が<@ba.vup>3</>回まで増加\n<@ba.rem>合計27発の弾薬を所持し、チャージしたエネルギーの発射時は1発、転置エネルギーの発射時は3発消費する。全ての弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+                "description_en": "ASPD <@ba.vup>+180</>; stored charges will bounce between enemies once on being released (prioritizing different targets), dealing <@ba.vup>165%</> ATK as Arts damage; <@ba.vup>Transposed Energy</> bounces <@ba.vup>3</> times\n<@ba.rem>Skill activation grants 27 ammo; 1 ammo is spent per stored charge released, and 3 ammo per Transposed Energy released; skill ends when all ammo is used (Can manually deactivate skill)</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -127565,8 +127570,8 @@
     },
     "skchr_kalts2_1": {
         "name_zh": "应急肃正防线",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "緊急粛清防衛ライン",
+        "name_en": "Kriza Responda Bastiono",
         "chara_list": [
             "凯尔希·思衡托"
         ],
@@ -127577,8 +127582,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击力<@ba.vup>+75%</>，攻击速度<@ba.vup>+35</>，所有其他<ba.liftoff>起飞</>的友方干员阻挡范围扩大",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃力<@ba.vup>+75%</>、攻撃速度<@ba.vup>+35</>、自身以外の<$ba.liftoff>離陸</>中のオペレーター全員のブロック範囲が拡大",
+                "description_en": "ATK <@ba.vup>+75%</>, ASPD <@ba.vup>+35</>, all other <$ba.liftoff>Flying</> allied Operators have expanded Block range",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -127606,8 +127611,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击力<@ba.vup>+80%</>，攻击速度<@ba.vup>+35</>，所有其他<ba.liftoff>起飞</>的友方干员阻挡范围扩大",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃力<@ba.vup>+80%</>、攻撃速度<@ba.vup>+35</>、自身以外の<$ba.liftoff>離陸</>中のオペレーター全員のブロック範囲が拡大",
+                "description_en": "ATK <@ba.vup>+80%</>, ASPD <@ba.vup>+35</>, all other <$ba.liftoff>Flying</> allied Operators have expanded Block range",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -127635,8 +127640,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击力<@ba.vup>+85%</>，攻击速度<@ba.vup>+35</>，所有其他<ba.liftoff>起飞</>的友方干员阻挡范围扩大",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃力<@ba.vup>+85%</>、攻撃速度<@ba.vup>+35</>、自身以外の<$ba.liftoff>離陸</>中のオペレーター全員のブロック範囲が拡大",
+                "description_en": "ATK <@ba.vup>+85%</>, ASPD <@ba.vup>+35</>, all other <$ba.liftoff>Flying</> allied Operators have expanded Block range",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -127664,8 +127669,8 @@
             {
                 "rangeId": null,
                 "description_zh": "攻击力<@ba.vup>+90%</>，攻击速度<@ba.vup>+50</>，所有其他<ba.liftoff>起飞</>的友方干员阻挡范围扩大",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃力<@ba.vup>+90%</>、攻撃速度<@ba.vup>+50</>、自身以外の<$ba.liftoff>離陸</>中のオペレーター全員のブロック範囲が拡大",
+                "description_en": "ATK <@ba.vup>+90%</>, ASPD <@ba.vup>+50</>, all other <$ba.liftoff>Flying</> allied Operators have expanded Block range",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -127712,8 +127717,8 @@
     },
     "skchr_kalts2_2": {
         "name_zh": "保护性拒止",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "保護的拒否",
+        "name_en": "Repuŝado Defenda",
         "chara_list": [
             "凯尔希·思衡托"
         ],
@@ -127724,8 +127729,8 @@
             {
                 "rangeId": "y-11",
                 "description_zh": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+125%</>，攻击变为射出医疗单元（优先选择敌人），击中时对目标周围所有敌人造成相当于攻击力<@ba.vup>350%</>的真实伤害，使其<ba.sluggish>停顿</><@ba.vup>5</>秒并回复目标周围所有友方干员相当于攻击力<@ba.vup>170%</>的生命\\n<@ba.rem>攻击装有10发弹药，可以随时停止技能</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃範囲<@ba.vup>拡大</>、攻撃力<@ba.vup>+125%</>、通常攻撃が医療ユニット射撃（攻撃範囲内の敵を優先して攻撃）になり、命中時、対象の周囲一定範囲内の敵全員に攻撃力の<@ba.vup>350%</>の確定ダメージを与え、<@ba.vup>5</>秒間<$ba.sluggish>足止め</>し、同範囲内のオペレーター全員のHPを攻撃力の<@ba.vup>170%</>回復する\n<@ba.rem>合計10発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+                "description_en": "Attack Range <@ba.vup>expands</>, ATK <@ba.vup>+125%</>, and attacks now release medical units (prioritizing enemies) that deal <@ba.vup>350%</> ATK as True damage to all enemies around the target, <$ba.sluggish>Slow</> them for <@ba.vup>5</>s, and restore HP equal to <@ba.vup>170%</> ATK to all allied Operators around the target\n<@ba.rem>Skill activation grants 10 ammo; can manually deactivate skill</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -127761,8 +127766,8 @@
             {
                 "rangeId": "y-11",
                 "description_zh": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+130%</>，攻击变为射出医疗单元（优先选择敌人），击中时对目标周围所有敌人造成相当于攻击力<@ba.vup>360%</>的真实伤害，使其<ba.sluggish>停顿</><@ba.vup>5</>秒并回复目标周围所有友方干员相当于攻击力<@ba.vup>180%</>的生命\\n<@ba.rem>攻击装有10发弹药，可以随时停止技能</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃範囲<@ba.vup>拡大</>、攻撃力<@ba.vup>+130%</>、通常攻撃が医療ユニット射撃（攻撃範囲内の敵を優先して攻撃）になり、命中時、対象の周囲一定範囲内の敵全員に攻撃力の<@ba.vup>360%</>の確定ダメージを与え、<@ba.vup>5</>秒間<$ba.sluggish>足止め</>し、同範囲内のオペレーター全員のHPを攻撃力の<@ba.vup>180%</>回復する\n<@ba.rem>合計10発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+                "description_en": "Attack Range <@ba.vup>expands</>, ATK <@ba.vup>+130%</>, and attacks now release medical units (prioritizing enemies) that deal <@ba.vup>360%</> ATK as True damage to all enemies around the target, <$ba.sluggish>Slow</> them for <@ba.vup>5</>s, and restore HP equal to <@ba.vup>180%</> ATK to all allied Operators around the target\n<@ba.rem>Skill activation grants 10 ammo; can manually deactivate skill</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -127798,8 +127803,8 @@
             {
                 "rangeId": "y-11",
                 "description_zh": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+135%</>，攻击变为射出医疗单元（优先选择敌人），击中时对目标周围所有敌人造成相当于攻击力<@ba.vup>370%</>的真实伤害，使其<ba.sluggish>停顿</><@ba.vup>5</>秒并回复目标周围所有友方干员相当于攻击力<@ba.vup>190%</>的生命\\n<@ba.rem>攻击装有10发弹药，可以随时停止技能</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃範囲<@ba.vup>拡大</>、攻撃力<@ba.vup>+135%</>、通常攻撃が医療ユニット射撃（攻撃範囲内の敵を優先して攻撃）になり、命中時、対象の周囲一定範囲内の敵全員に攻撃力の<@ba.vup>370%</>の確定ダメージを与え、<@ba.vup>5</>秒間<$ba.sluggish>足止め</>し、同範囲内のオペレーター全員のHPを攻撃力の<@ba.vup>190%</>回復する\n<@ba.rem>合計10発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+                "description_en": "Attack Range <@ba.vup>expands</>, ATK <@ba.vup>+135%</>, and attacks now release medical units (prioritizing enemies) that deal <@ba.vup>370%</> ATK as True damage to all enemies around the target, <$ba.sluggish>Slow</> them for <@ba.vup>5</>s, and restore HP equal to <@ba.vup>190%</> ATK to all allied Operators around the target\n<@ba.rem>Skill activation grants 10 ammo; can manually deactivate skill</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -127835,8 +127840,8 @@
             {
                 "rangeId": "y-11",
                 "description_zh": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+150%</>，攻击变为射出医疗单元（优先选择敌人），击中时对目标周围所有敌人造成相当于攻击力<@ba.vup>380%</>的真实伤害，使其<ba.sluggish>停顿</><@ba.vup>5</>秒并回复目标周围所有友方干员相当于攻击力<@ba.vup>200%</>的生命\\n<@ba.rem>攻击装有10发弹药，可以随时停止技能</>",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "攻撃範囲<@ba.vup>拡大</>、攻撃力<@ba.vup>+150%</>、通常攻撃が医療ユニット射撃（攻撃範囲内の敵を優先して攻撃）になり、命中時、対象の周囲一定範囲内の敵全員に攻撃力の<@ba.vup>380%</>の確定ダメージを与え、<@ba.vup>5</>秒間<$ba.sluggish>足止め</>し、同範囲内のオペレーター全員のHPを攻撃力の<@ba.vup>200%</>回復する\n<@ba.rem>合計10発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+                "description_en": "Attack Range <@ba.vup>expands</>, ATK <@ba.vup>+150%</>, and attacks now release medical units (prioritizing enemies) that deal <@ba.vup>380%</> ATK as True damage to all enemies around the target, <$ba.sluggish>Slow</> them for <@ba.vup>5</>s, and restore HP equal to <@ba.vup>200%</> ATK to all allied Operators around the target\n<@ba.rem>Skill activation grants 10 ammo; can manually deactivate skill</>",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -127889,8 +127894,8 @@
     },
     "skchr_kalts2_3": {
         "name_zh": "破梏重生",
-        "name_ja": "",
-        "name_en": "",
+        "name_ja": "枷なき新生",
+        "name_en": "Renaskiĝo Malkatena",
         "chara_list": [
             "凯尔希·思衡托"
         ],
@@ -127901,8 +127906,8 @@
             {
                 "rangeId": null,
                 "description_zh": "立刻获得战术锚点，攻击力<@ba.vup>+125%</>，攻击间隔<@ba.vup>大幅缩小(-1.55)</>，额外治疗<@ba.vup>1</>个目标，部署战术锚点后，自身<ba.addash>移动</>至该位置，并使攻击范围内最多<@ba.vup>2</>名友方干员可以部署至自身攻击范围的另一位置",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "戦術アンカーを即座に1つ獲得、攻撃力<@ba.vup>+125%</>、攻撃間隔を<@ba.vup>大幅に短縮</>、治療対象数<@ba.vup>+1</>。戦術アンカーを配置すると、自身がその位置に<$ba.addash>移動</>し、攻撃範囲内に配置されていたオペレーター最大<@ba.vup>2</>名を、移動後の攻撃範囲内に再配置できる",
+                "description_en": "Gain a Tactical Anchor Point; ATK <@ba.vup>+125%</>, Attack Interval <@ba.vup>decreases significantly</>, and heals <@ba.vup>1</> additional target; after deploying the Tactical Anchor Point, Kal'tsit Esperanta <$ba.addash>Moves</> to its position, and up to <@ba.vup>2</> allied Operators within her Attack Range can be brought along and deployed elsewhere within her new Attack Range",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -127926,8 +127931,8 @@
             {
                 "rangeId": null,
                 "description_zh": "立刻获得战术锚点，攻击力<@ba.vup>+130%</>，攻击间隔<@ba.vup>大幅缩小(-1.55)</>，额外治疗<@ba.vup>1</>个目标，部署战术锚点后，自身<ba.addash>移动</>至该位置，并使攻击范围内最多<@ba.vup>2</>名友方干员可以部署至自身攻击范围的另一位置",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "戦術アンカーを即座に1つ獲得、攻撃力<@ba.vup>+130%</>、攻撃間隔を<@ba.vup>大幅に短縮</>、治療対象数<@ba.vup>+1</>。戦術アンカーを配置すると、自身がその位置に<$ba.addash>移動</>し、攻撃範囲内に配置されていたオペレーター最大<@ba.vup>2</>名を、移動後の攻撃範囲内に再配置できる",
+                "description_en": "Gain a Tactical Anchor Point; ATK <@ba.vup>+130%</>, Attack Interval <@ba.vup>decreases significantly</>, and heals <@ba.vup>1</> additional target; after deploying the Tactical Anchor Point, Kal'tsit Esperanta <$ba.addash>Moves</> to its position, and up to <@ba.vup>2</> allied Operators within her Attack Range can be brought along and deployed elsewhere within her new Attack Range",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -127951,8 +127956,8 @@
             {
                 "rangeId": null,
                 "description_zh": "立刻获得战术锚点，攻击力<@ba.vup>+135%</>，攻击间隔<@ba.vup>大幅缩小(-1.55)</>，额外治疗<@ba.vup>1</>个目标，部署战术锚点后，自身<ba.addash>移动</>至该位置，并使攻击范围内最多<@ba.vup>2</>名友方干员可以部署至自身攻击范围的另一位置",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "戦術アンカーを即座に1つ獲得、攻撃力<@ba.vup>+135%</>、攻撃間隔を<@ba.vup>大幅に短縮</>、治療対象数<@ba.vup>+1</>。戦術アンカーを配置すると、自身がその位置に<$ba.addash>移動</>し、攻撃範囲内に配置されていたオペレーター最大<@ba.vup>2</>名を、移動後の攻撃範囲内に再配置できる",
+                "description_en": "Gain a Tactical Anchor Point; ATK <@ba.vup>+135%</>, Attack Interval <@ba.vup>decreases significantly</>, and heals <@ba.vup>1</> additional target; after deploying the Tactical Anchor Point, Kal'tsit Esperanta <$ba.addash>Moves</> to its position, and up to <@ba.vup>2</> allied Operators within her Attack Range can be brought along and deployed elsewhere within her new Attack Range",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -127976,8 +127981,8 @@
             {
                 "rangeId": null,
                 "description_zh": "立刻获得战术锚点，攻击力<@ba.vup>+150%</>，攻击间隔<@ba.vup>大幅缩小(-1.55)</>，额外治疗<@ba.vup>1</>个目标，部署战术锚点后，自身<ba.addash>移动</>至该位置，并使攻击范围内最多<@ba.vup>2</>名友方干员可以部署至自身攻击范围的另一位置",
-                "description_ja": "",
-                "description_en": "",
+                "description_ja": "戦術アンカーを即座に1つ獲得、攻撃力<@ba.vup>+150%</>、攻撃間隔を<@ba.vup>大幅に短縮</>、治療対象数<@ba.vup>+1</>。戦術アンカーを配置すると、自身がその位置に<$ba.addash>移動</>し、攻撃範囲内に配置されていたオペレーター最大<@ba.vup>2</>名を、移動後の攻撃範囲内に再配置できる",
+                "description_en": "Gain a Tactical Anchor Point; ATK <@ba.vup>+150%</>, Attack Interval <@ba.vup>decreases significantly</>, and heals <@ba.vup>1</> additional target; after deploying the Tactical Anchor Point, Kal'tsit Esperanta <$ba.addash>Moves</> to its position, and up to <@ba.vup>2</> allied Operators within her Attack Range can be brought along and deployed elsewhere within her new Attack Range",
                 "spData": {
                     "spType": "INCREASE_WITH_TIME",
                     "levelUpCost": null,
@@ -133082,5 +133087,3828 @@
                 "value": 2.0
             }
         ]
+    },
+    "skchr_toledo_1": {
+        "name_zh": "以假乱真",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "德·托莱多"
+        ],
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": null,
+                "description_zh": "攻击力<@ba.vup>+75%</>，攻击范围内被阻挡的敌人获得<@ba.vup>19%</><$ba.weaken>虚弱</>效果",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 55,
+                    "initSp": 26,
+                    "increment": 1.0
+                },
+                "duration": 27.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.75
+                    },
+                    {
+                        "key": "attack@atk",
+                        "value": -0.19
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "攻击力<@ba.vup>+80%</>，攻击范围内被阻挡的敌人获得<@ba.vup>21%</><$ba.weaken>虚弱</>效果",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 55,
+                    "initSp": 29,
+                    "increment": 1.0
+                },
+                "duration": 28.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.8
+                    },
+                    {
+                        "key": "attack@atk",
+                        "value": -0.21
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "攻击力<@ba.vup>+90%</>，攻击范围内被阻挡的敌人获得<@ba.vup>23%</><$ba.weaken>虚弱</>效果",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 55,
+                    "initSp": 32,
+                    "increment": 1.0
+                },
+                "duration": 29.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.9
+                    },
+                    {
+                        "key": "attack@atk",
+                        "value": -0.23
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "攻击力<@ba.vup>+100%</>，攻击范围内被阻挡的敌人获得<@ba.vup>25%</><$ba.weaken>虚弱</>效果",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 55,
+                    "initSp": 35,
+                    "increment": 1.0
+                },
+                "duration": 30.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "attack@atk",
+                        "value": -0.25
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "weaken"
+        ],
+        "blackboard": [
+            {
+                "key": "atk",
+                "value": 1.0
+            },
+            {
+                "key": "atk_down",
+                "order": "final_mul",
+                "targets": 99,
+                "value": 0.25,
+                "duration": 30.0,
+                "conditions": [
+                    "blocked_enemy"
+                ],
+                "category": [
+                    "weaken"
+                ],
+                "target_air": true
+            }
+        ]
+    },
+    "skchr_toledo_2": {
+        "name_zh": "危言耸听",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "德·托莱多"
+        ],
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": null,
+                "description_zh": "天赋效果提升至<@ba.vup>1.7</>倍，在攻击范围内的近战部署位召唤一个可以阻挡敌人的征服者传说，征服者传说在出现时会使附近的敌人<$ba.tremble>战栗</><@ba.vup>4</>秒",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 40,
+                    "initSp": 12,
+                    "increment": 1.0
+                },
+                "duration": 20.0,
+                "blackboard": [
+                    {
+                        "key": "talent@s2_talent_scale",
+                        "value": 1.7
+                    },
+                    {
+                        "key": "not_combat",
+                        "value": 4.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "天赋效果提升至<@ba.vup>1.8</>倍，在攻击范围内的近战部署位召唤一个可以阻挡敌人的征服者传说，征服者传说在出现时会使附近的敌人<$ba.tremble>战栗</><@ba.vup>5</>秒",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 34,
+                    "initSp": 13,
+                    "increment": 1.0
+                },
+                "duration": 20.0,
+                "blackboard": [
+                    {
+                        "key": "talent@s2_talent_scale",
+                        "value": 1.8
+                    },
+                    {
+                        "key": "not_combat",
+                        "value": 5.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "天赋效果提升至<@ba.vup>1.9</>倍，在攻击范围内的近战部署位召唤一个可以阻挡敌人的征服者传说，征服者传说在出现时会使附近的敌人<$ba.tremble>战栗</><@ba.vup>6</>秒",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 32,
+                    "initSp": 14,
+                    "increment": 1.0
+                },
+                "duration": 20.0,
+                "blackboard": [
+                    {
+                        "key": "talent@s2_talent_scale",
+                        "value": 1.9
+                    },
+                    {
+                        "key": "not_combat",
+                        "value": 6.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "天赋效果提升至<@ba.vup>2</>倍，在攻击范围内的近战部署位召唤一个可以阻挡敌人的征服者传说，征服者传说在出现时会使附近的敌人<$ba.tremble>战栗</><@ba.vup>7</>秒",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 30,
+                    "initSp": 15,
+                    "increment": 1.0
+                },
+                "duration": 20.0,
+                "blackboard": [
+                    {
+                        "key": "talent@s2_talent_scale",
+                        "value": 2.0
+                    },
+                    {
+                        "key": "not_combat",
+                        "value": 7.0
+                    }
+                ]
+            }
+        ],
+        "tags": [],
+        "blackboard": [
+            {
+                "key": "damage_scale",
+                "targets": 99,
+                "value": 1.36,
+                "types": [
+                    "phys",
+                    "arts",
+                    "true"
+                ],
+                "category": [
+                    "fragile"
+                ]
+            },
+            {
+                "key": "damage_scale",
+                "targets": 99,
+                "value": 1.42,
+                "types": [
+                    "phys",
+                    "arts",
+                    "true"
+                ],
+                "category": [
+                    "fragile"
+                ],
+                "module": "umd-y"
+            },
+            {
+                "key": "tremble",
+                "value": 7.0
+            }
+        ]
+    },
+    "skchr_hbound_1": {
+        "name_zh": "触礁",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "旅骨"
+        ],
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": null,
+                "description_zh": "投掷一个炼金单元，在<@ba.vup>9</>秒内使落点周围的地面敌人移动速度<@ba.vup>-40%</>，每秒受到相当于攻击力<@ba.vup>60%</>的法术伤害\\n<@ba.rem>可充能2次</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 2,
+                    "spCost": 18,
+                    "initSp": 5,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "projectile_delay_time",
+                        "value": 9.0
+                    },
+                    {
+                        "key": "atk_scale",
+                        "value": 0.6
+                    },
+                    {
+                        "key": "projectile_range",
+                        "value": 1.5
+                    },
+                    {
+                        "key": "interval",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "move_speed",
+                        "value": -0.4
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "投掷一个炼金单元，在<@ba.vup>9</>秒内使落点周围的地面敌人移动速度<@ba.vup>-45%</>，每秒受到相当于攻击力<@ba.vup>65%</>的法术伤害\\n<@ba.rem>可充能2次</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 2,
+                    "spCost": 17,
+                    "initSp": 5,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "projectile_delay_time",
+                        "value": 9.0
+                    },
+                    {
+                        "key": "atk_scale",
+                        "value": 0.65
+                    },
+                    {
+                        "key": "projectile_range",
+                        "value": 1.5
+                    },
+                    {
+                        "key": "interval",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "move_speed",
+                        "value": -0.45
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "投掷一个炼金单元，在<@ba.vup>10</>秒内使落点周围的地面敌人移动速度<@ba.vup>-45%</>，每秒受到相当于攻击力<@ba.vup>70%</>的法术伤害\\n<@ba.rem>可充能2次</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 2,
+                    "spCost": 17,
+                    "initSp": 6,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "projectile_delay_time",
+                        "value": 10.0
+                    },
+                    {
+                        "key": "atk_scale",
+                        "value": 0.7
+                    },
+                    {
+                        "key": "projectile_range",
+                        "value": 1.5
+                    },
+                    {
+                        "key": "interval",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "move_speed",
+                        "value": -0.45
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "投掷一个炼金单元，在<@ba.vup>10</>秒内使落点周围的地面敌人移动速度<@ba.vup>-50%</>，每秒受到相当于攻击力<@ba.vup>80%</>的法术伤害\\n<@ba.rem>可充能2次</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 2,
+                    "spCost": 16,
+                    "initSp": 6,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "projectile_delay_time",
+                        "value": 10.0
+                    },
+                    {
+                        "key": "atk_scale",
+                        "value": 0.8
+                    },
+                    {
+                        "key": "projectile_range",
+                        "value": 1.5
+                    },
+                    {
+                        "key": "interval",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "move_speed",
+                        "value": -0.5
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "dot",
+            "arts",
+            "aspd_unrelated"
+        ],
+        "blackboard": [
+            {
+                "key": "ms_down",
+                "targets": 99,
+                "value": 0.5,
+                "duration": 10,
+                "target_air": false
+            }
+        ]
+    },
+    "skchr_hbound_2": {
+        "name_zh": "座浅",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "旅骨"
+        ],
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": null,
+                "description_zh": "投掷一个炼金单元，在<@ba.vup>32</>秒内使落点周围的地面敌人每秒受到相当于攻击力<@ba.vup>17%</>的法术伤害；重量大于等于3的敌人移动速度<@ba.vup>-70%</>，每秒额外受到相当于攻击力<@ba.vup>150%</>的法术伤害",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 54,
+                    "initSp": 29,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "projectile_delay_time",
+                        "value": 32.0
+                    },
+                    {
+                        "key": "atk_scale",
+                        "value": 0.17
+                    },
+                    {
+                        "key": "projectile_range",
+                        "value": 2.0
+                    },
+                    {
+                        "key": "interval",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "move_speed",
+                        "value": -0.7
+                    },
+                    {
+                        "key": "heavy_atk_scale",
+                        "value": 1.5
+                    },
+                    {
+                        "key": "value",
+                        "value": 3.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "投掷一个炼金单元，在<@ba.vup>33</>秒内使落点周围的地面敌人每秒受到相当于攻击力<@ba.vup>18%</>的法术伤害；重量大于等于3的敌人移动速度<@ba.vup>-70%</>，每秒额外受到相当于攻击力<@ba.vup>160%</>的法术伤害",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 52,
+                    "initSp": 30,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "projectile_delay_time",
+                        "value": 33.0
+                    },
+                    {
+                        "key": "atk_scale",
+                        "value": 0.18
+                    },
+                    {
+                        "key": "projectile_range",
+                        "value": 2.0
+                    },
+                    {
+                        "key": "interval",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "move_speed",
+                        "value": -0.7
+                    },
+                    {
+                        "key": "heavy_atk_scale",
+                        "value": 1.6
+                    },
+                    {
+                        "key": "value",
+                        "value": 3.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "投掷一个炼金单元，在<@ba.vup>34</>秒内使落点周围的地面敌人每秒受到相当于攻击力<@ba.vup>19%</>的法术伤害；重量大于等于3的敌人移动速度<@ba.vup>-70%</>，每秒额外受到相当于攻击力<@ba.vup>170%</>的法术伤害",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 52,
+                    "initSp": 31,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "projectile_delay_time",
+                        "value": 34.0
+                    },
+                    {
+                        "key": "atk_scale",
+                        "value": 0.19
+                    },
+                    {
+                        "key": "projectile_range",
+                        "value": 2.0
+                    },
+                    {
+                        "key": "interval",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "move_speed",
+                        "value": -0.7
+                    },
+                    {
+                        "key": "heavy_atk_scale",
+                        "value": 1.7
+                    },
+                    {
+                        "key": "value",
+                        "value": 3.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "投掷一个炼金单元，在<@ba.vup>35</>秒内使落点周围的地面敌人每秒受到相当于攻击力<@ba.vup>20%</>的法术伤害；重量大于等于3的敌人移动速度<@ba.vup>-70%</>，每秒额外受到相当于攻击力<@ba.vup>180%</>的法术伤害",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 50,
+                    "initSp": 32,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "projectile_delay_time",
+                        "value": 35.0
+                    },
+                    {
+                        "key": "atk_scale",
+                        "value": 0.2
+                    },
+                    {
+                        "key": "projectile_range",
+                        "value": 2.0
+                    },
+                    {
+                        "key": "interval",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "move_speed",
+                        "value": -0.7
+                    },
+                    {
+                        "key": "heavy_atk_scale",
+                        "value": 1.8
+                    },
+                    {
+                        "key": "value",
+                        "value": 3.0
+                    }
+                ]
+            }
+        ],
+        "tags": [],
+        "blackboard": [
+            {
+                "key": "ms_down",
+                "targets": 99,
+                "value": 0.7,
+                "duration": 35,
+                "conditions": [
+                    "weight_gte_3"
+                ],
+                "target_air": false
+            }
+        ]
+    },
+    "skchr_clemnt_1": {
+        "name_zh": "冲蚀",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "克莱门莎"
+        ],
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spType": "INCREASE_WHEN_ATTACK",
+        "levels": [
+            {
+                "rangeId": null,
+                "description_zh": "下次攻击的攻击力提高至<@ba.vup>225%</>并造成相当于物理伤害<@ba.vup>30%</>的<$ba.dt.erosion2>侵蚀损伤</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WHEN_ATTACK",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 3,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 2.25
+                    },
+                    {
+                        "key": "ep_damage_ratio",
+                        "value": 0.3
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "下次攻击的攻击力提高至<@ba.vup>250%</>并造成相当于物理伤害<@ba.vup>30%</>的<$ba.dt.erosion2>侵蚀损伤</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WHEN_ATTACK",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 2,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 2.5
+                    },
+                    {
+                        "key": "ep_damage_ratio",
+                        "value": 0.3
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "下次攻击的攻击力提高至<@ba.vup>265%</>并造成相当于物理伤害<@ba.vup>35%</>的<$ba.dt.erosion2>侵蚀损伤</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WHEN_ATTACK",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 2,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 2.65
+                    },
+                    {
+                        "key": "ep_damage_ratio",
+                        "value": 0.35
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "下次攻击的攻击力提高至<@ba.vup>290%</>并造成相当于物理伤害<@ba.vup>35%</>的<$ba.dt.erosion2>侵蚀损伤</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WHEN_ATTACK",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 2,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 2.9
+                    },
+                    {
+                        "key": "ep_damage_ratio",
+                        "value": 0.35
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "erosion",
+            "ele_dmg"
+        ],
+        "blackboard": [
+            {
+                "key": "def_down",
+                "order": "initial_add",
+                "targets": 1,
+                "value": 120,
+                "target_air": false,
+                "conditions": [
+                    "erosion"
+                ]
+            }
+        ]
+    },
+    "skchr_clemnt_2": {
+        "name_zh": "风暴潮",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "克莱门莎"
+        ],
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": "4-1",
+                "description_zh": "攻击范围<@ba.vup>扩大</>，攻击速度<@ba.vup>+100</>，每次攻击对目标及其周围最多<@ba.vup>5</>名地面敌人造成相当于攻击力<@ba.vup>230%</>的物理伤害；向前方召唤浮游放逐舱，放逐舱使周围累计不超过<@ba.vup>8</>重量的最多<@ba.vup>15</>名地面敌人不断向前移动；放逐舱在移动3格后消失并留下漩涡，处于漩涡的所有敌人移动速度<@ba.vup>-70%</>且每秒受到<@ba.vup>200</>点<$ba.dt.erosion2>侵蚀损伤</>和相当于攻击力<@ba.vup>285%</>的物理伤害",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 20,
+                    "initSp": 12,
+                    "increment": 1.0
+                },
+                "duration": 16.0,
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 100.0
+                    },
+                    {
+                        "key": "attack@aoe_atk_scale",
+                        "value": 2.3
+                    },
+                    {
+                        "key": "attack@max_passenger_mass",
+                        "value": 8.0
+                    },
+                    {
+                        "key": "attack@max_passenger_cnt",
+                        "value": 15.0
+                    },
+                    {
+                        "key": "attack@move_speed",
+                        "value": -0.7
+                    },
+                    {
+                        "key": "attack@water_element",
+                        "value": 200.0
+                    },
+                    {
+                        "key": "attack@physical_atk_scale",
+                        "value": 2.85
+                    },
+                    {
+                        "key": "attack@max_target",
+                        "value": 5.0
+                    }
+                ]
+            },
+            {
+                "rangeId": "4-1",
+                "description_zh": "攻击范围<@ba.vup>扩大</>，攻击速度<@ba.vup>+100</>，每次攻击对目标及其周围最多<@ba.vup>5</>名地面敌人造成相当于攻击力<@ba.vup>230%</>的物理伤害；向前方召唤浮游放逐舱，放逐舱使周围累计不超过<@ba.vup>8</>重量的最多<@ba.vup>15</>名地面敌人不断向前移动；放逐舱在移动3格后消失并留下漩涡，处于漩涡的所有敌人移动速度<@ba.vup>-70%</>且每秒受到<@ba.vup>200</>点<$ba.dt.erosion2>侵蚀损伤</>和相当于攻击力<@ba.vup>290%</>的物理伤害",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 20,
+                    "initSp": 13,
+                    "increment": 1.0
+                },
+                "duration": 16.0,
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 100.0
+                    },
+                    {
+                        "key": "attack@aoe_atk_scale",
+                        "value": 2.3
+                    },
+                    {
+                        "key": "attack@max_passenger_mass",
+                        "value": 8.0
+                    },
+                    {
+                        "key": "attack@max_passenger_cnt",
+                        "value": 15.0
+                    },
+                    {
+                        "key": "attack@move_speed",
+                        "value": -0.7
+                    },
+                    {
+                        "key": "attack@water_element",
+                        "value": 200.0
+                    },
+                    {
+                        "key": "attack@physical_atk_scale",
+                        "value": 2.9
+                    },
+                    {
+                        "key": "attack@max_target",
+                        "value": 5.0
+                    }
+                ]
+            },
+            {
+                "rangeId": "4-1",
+                "description_zh": "攻击范围<@ba.vup>扩大</>，攻击速度<@ba.vup>+100</>，每次攻击对目标及其周围最多<@ba.vup>5</>名地面敌人造成相当于攻击力<@ba.vup>235%</>的物理伤害；向前方召唤浮游放逐舱，放逐舱使周围累计不超过<@ba.vup>8</>重量的最多<@ba.vup>15</>名地面敌人不断向前移动；放逐舱在移动3格后消失并留下漩涡，处于漩涡的所有敌人移动速度<@ba.vup>-70%</>且每秒受到<@ba.vup>200</>点<$ba.dt.erosion2>侵蚀损伤</>和相当于攻击力<@ba.vup>295%</>的物理伤害",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 20,
+                    "initSp": 13,
+                    "increment": 1.0
+                },
+                "duration": 16.0,
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 100.0
+                    },
+                    {
+                        "key": "attack@aoe_atk_scale",
+                        "value": 2.35
+                    },
+                    {
+                        "key": "attack@max_passenger_mass",
+                        "value": 8.0
+                    },
+                    {
+                        "key": "attack@max_passenger_cnt",
+                        "value": 15.0
+                    },
+                    {
+                        "key": "attack@move_speed",
+                        "value": -0.7
+                    },
+                    {
+                        "key": "attack@water_element",
+                        "value": 200.0
+                    },
+                    {
+                        "key": "attack@physical_atk_scale",
+                        "value": 2.95
+                    },
+                    {
+                        "key": "attack@max_target",
+                        "value": 5.0
+                    }
+                ]
+            },
+            {
+                "rangeId": "4-1",
+                "description_zh": "攻击范围<@ba.vup>扩大</>，攻击速度<@ba.vup>+100</>，每次攻击对目标及其周围最多<@ba.vup>5</>名地面敌人造成相当于攻击力<@ba.vup>250%</>的物理伤害；向前方召唤浮游放逐舱，放逐舱使周围累计不超过<@ba.vup>8</>重量的最多<@ba.vup>15</>名地面敌人不断向前移动；放逐舱在移动3格后消失并留下漩涡，处于漩涡的所有敌人移动速度<@ba.vup>-70%</>且每秒受到<@ba.vup>200</>点<$ba.dt.erosion2>侵蚀损伤</>和相当于攻击力<@ba.vup>300%</>的物理伤害",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 20,
+                    "initSp": 15,
+                    "increment": 1.0
+                },
+                "duration": 16.0,
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 100.0
+                    },
+                    {
+                        "key": "attack@aoe_atk_scale",
+                        "value": 2.5
+                    },
+                    {
+                        "key": "attack@max_passenger_mass",
+                        "value": 8.0
+                    },
+                    {
+                        "key": "attack@max_passenger_cnt",
+                        "value": 15.0
+                    },
+                    {
+                        "key": "attack@move_speed",
+                        "value": -0.7
+                    },
+                    {
+                        "key": "attack@water_element",
+                        "value": 200.0
+                    },
+                    {
+                        "key": "attack@physical_atk_scale",
+                        "value": 3.0
+                    },
+                    {
+                        "key": "attack@max_target",
+                        "value": 5.0
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "aoe",
+            "push",
+            "erosion",
+            "ele_dmg"
+        ],
+        "blackboard": [
+            {
+                "key": "attack_speed",
+                "value": 100.0
+            },
+            {
+                "key": "def_down",
+                "order": "initial_add",
+                "targets": 15,
+                "value": 120,
+                "target_air": true,
+                "conditions": [
+                    "erosion"
+                ]
+            },
+            {
+                "key": "force",
+                "value": 99.0
+            },
+            {
+                "key": "max_target",
+                "value": 5.0
+            }
+        ]
+    },
+    "skchr_clemnt_3": {
+        "name_zh": "与海为敌",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "克莱门莎"
+        ],
+        "skillType": "MANUAL",
+        "durationType": "AMMO",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": "3-2",
+                "description_zh": "攻击范围<@ba.vup>扩大</>，攻击目标数<@ba.vup>+2</>，每次攻击对目标造成相当于攻击力<@ba.vup>200%</>的物理伤害并额外造成相当于物理伤害<@ba.vup>20%</>的<$ba.dt.erosion2>侵蚀损伤</>；当全场有敌人<$ba.dt.erosion2>侵蚀损伤</>爆发时，消耗1发弹药对目标所在位置及其周围四格内所有地面敌人造成<@ba.vup>3</>次相当于攻击力<@ba.vup>270%</>的物理伤害与相当于攻击力<@ba.vup>200%</>的元素伤害\\n<@ba.rem>技能装有10发弹药，打完后结束（可随时停止技能）</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 45,
+                    "initSp": 28,
+                    "increment": 1.0
+                },
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "attack@max_target",
+                        "value": 3.0
+                    },
+                    {
+                        "key": "attack@atk_scale",
+                        "value": 2.0
+                    },
+                    {
+                        "key": "attack@ep_damage_ratio",
+                        "value": 0.2
+                    },
+                    {
+                        "key": "attack@ep_break_duration",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "projectile_life_time",
+                        "value": 3.5
+                    },
+                    {
+                        "key": "s3_atk_scale",
+                        "value": 2.7
+                    },
+                    {
+                        "key": "ep_damage_scale",
+                        "value": 2.0
+                    },
+                    {
+                        "key": "trigger_time",
+                        "value": 10.0
+                    },
+                    {
+                        "key": "audio_trigger_cnt",
+                        "value": 3.0
+                    },
+                    {
+                        "key": "ep_break_duration",
+                        "value": 1.0
+                    }
+                ]
+            },
+            {
+                "rangeId": "3-2",
+                "description_zh": "攻击范围<@ba.vup>扩大</>，攻击目标数<@ba.vup>+2</>，每次攻击对目标造成相当于攻击力<@ba.vup>220%</>的物理伤害并额外造成相当于物理伤害<@ba.vup>20%</>的<$ba.dt.erosion2>侵蚀损伤</>；当全场有敌人<$ba.dt.erosion2>侵蚀损伤</>爆发时，消耗1发弹药对目标所在位置及其周围四格内所有地面敌人造成<@ba.vup>3</>次相当于攻击力<@ba.vup>280%</>的物理伤害与相当于攻击力<@ba.vup>210%</>的元素伤害\\n<@ba.rem>技能装有10发弹药，打完后结束（可随时停止技能）</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 45,
+                    "initSp": 29,
+                    "increment": 1.0
+                },
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "attack@max_target",
+                        "value": 3.0
+                    },
+                    {
+                        "key": "attack@atk_scale",
+                        "value": 2.2
+                    },
+                    {
+                        "key": "attack@ep_damage_ratio",
+                        "value": 0.2
+                    },
+                    {
+                        "key": "attack@ep_break_duration",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "projectile_life_time",
+                        "value": 3.5
+                    },
+                    {
+                        "key": "s3_atk_scale",
+                        "value": 2.8
+                    },
+                    {
+                        "key": "ep_damage_scale",
+                        "value": 2.1
+                    },
+                    {
+                        "key": "trigger_time",
+                        "value": 10.0
+                    },
+                    {
+                        "key": "audio_trigger_cnt",
+                        "value": 3.0
+                    },
+                    {
+                        "key": "ep_break_duration",
+                        "value": 1.0
+                    }
+                ]
+            },
+            {
+                "rangeId": "3-2",
+                "description_zh": "攻击范围<@ba.vup>扩大</>，攻击目标数<@ba.vup>+2</>，每次攻击对目标造成相当于攻击力<@ba.vup>230%</>的物理伤害并额外造成相当于物理伤害<@ba.vup>20%</>的<$ba.dt.erosion2>侵蚀损伤</>；当全场有敌人<$ba.dt.erosion2>侵蚀损伤</>爆发时，消耗1发弹药对目标所在位置及其周围四格内所有地面敌人造成<@ba.vup>3</>次相当于攻击力<@ba.vup>290%</>的物理伤害与相当于攻击力<@ba.vup>230%</>的元素伤害\\n<@ba.rem>技能装有10发弹药，打完后结束（可随时停止技能）</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 45,
+                    "initSp": 30,
+                    "increment": 1.0
+                },
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "attack@max_target",
+                        "value": 3.0
+                    },
+                    {
+                        "key": "attack@atk_scale",
+                        "value": 2.3
+                    },
+                    {
+                        "key": "attack@ep_damage_ratio",
+                        "value": 0.2
+                    },
+                    {
+                        "key": "attack@ep_break_duration",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "projectile_life_time",
+                        "value": 3.5
+                    },
+                    {
+                        "key": "s3_atk_scale",
+                        "value": 2.9
+                    },
+                    {
+                        "key": "ep_damage_scale",
+                        "value": 2.3
+                    },
+                    {
+                        "key": "trigger_time",
+                        "value": 10.0
+                    },
+                    {
+                        "key": "audio_trigger_cnt",
+                        "value": 3.0
+                    },
+                    {
+                        "key": "ep_break_duration",
+                        "value": 1.0
+                    }
+                ]
+            },
+            {
+                "rangeId": "3-2",
+                "description_zh": "攻击范围<@ba.vup>扩大</>，攻击目标数<@ba.vup>+2</>，每次攻击对目标造成相当于攻击力<@ba.vup>235%</>的物理伤害并额外造成相当于物理伤害<@ba.vup>20%</>的<$ba.dt.erosion2>侵蚀损伤</>；当全场有敌人<$ba.dt.erosion2>侵蚀损伤</>爆发时，消耗1发弹药对目标所在位置及其周围四格内所有地面敌人造成<@ba.vup>3</>次相当于攻击力<@ba.vup>300%</>的物理伤害与相当于攻击力<@ba.vup>250%</>的元素伤害\\n<@ba.rem>技能装有10发弹药，打完后结束（可随时停止技能）</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 42,
+                    "initSp": 30,
+                    "increment": 1.0
+                },
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "attack@max_target",
+                        "value": 3.0
+                    },
+                    {
+                        "key": "attack@atk_scale",
+                        "value": 2.35
+                    },
+                    {
+                        "key": "attack@ep_damage_ratio",
+                        "value": 0.2
+                    },
+                    {
+                        "key": "attack@ep_break_duration",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "projectile_life_time",
+                        "value": 3.5
+                    },
+                    {
+                        "key": "s3_atk_scale",
+                        "value": 3.0
+                    },
+                    {
+                        "key": "ep_damage_scale",
+                        "value": 2.5
+                    },
+                    {
+                        "key": "trigger_time",
+                        "value": 10.0
+                    },
+                    {
+                        "key": "audio_trigger_cnt",
+                        "value": 3.0
+                    },
+                    {
+                        "key": "ep_break_duration",
+                        "value": 1.0
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "erosion",
+            "ele_dmg"
+        ],
+        "blackboard": [
+            {
+                "key": "max_target",
+                "value": 3.0
+            },
+            {
+                "key": "def_down",
+                "order": "initial_add",
+                "targets": 3,
+                "value": 120,
+                "target_air": false,
+                "conditions": [
+                    "erosion"
+                ]
+            },
+            {
+                "key": "trigger_time",
+                "value": 10.0
+            }
+        ]
+    },
+    "skchr_hdbell_1": {
+        "name_zh": "花椰菜冲击",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "行铃"
+        ],
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": "5-1",
+                "description_zh": "下次攻击改为驱使驮兽，<@ba.vup>中等力度地</>推开碰触的目标并造成相当于攻击力<@ba.vup>210%</>的物理伤害",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 10,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 2.1
+                    },
+                    {
+                        "key": "force",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "projectile_range",
+                        "value": 0.5
+                    }
+                ]
+            },
+            {
+                "rangeId": "5-1",
+                "description_zh": "下次攻击改为驱使驮兽，<@ba.vup>中等力度地</>推开碰触的目标并造成相当于攻击力<@ba.vup>220%</>的物理伤害",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 10,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 2.2
+                    },
+                    {
+                        "key": "force",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "projectile_range",
+                        "value": 0.5
+                    }
+                ]
+            },
+            {
+                "rangeId": "5-1",
+                "description_zh": "下次攻击改为驱使驮兽，<@ba.vup>中等力度地</>推开碰触的目标并造成相当于攻击力<@ba.vup>230%</>的物理伤害",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 10,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 2.3
+                    },
+                    {
+                        "key": "force",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "projectile_range",
+                        "value": 0.5
+                    }
+                ]
+            },
+            {
+                "rangeId": "5-1",
+                "description_zh": "下次攻击改为驱使驮兽，<@ba.vup>中等力度地</>推开碰触的目标并造成相当于攻击力<@ba.vup>240%</>的物理伤害",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 9,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 2.4
+                    },
+                    {
+                        "key": "force",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "projectile_range",
+                        "value": 0.5
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "push"
+        ],
+        "blackboard": [
+            {
+                "key": "force",
+                "value": 1.0
+            }
+        ]
+    },
+    "skchr_hdbell_2": {
+        "name_zh": "蔬菜大拼盘",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "行铃"
+        ],
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": "5-1",
+                "description_zh": "攻击间隔<@ba.vup>小幅缩短(-0.5)</>，攻击力<@ba.vup>+45%</>，攻击改为驱使驮兽，驮兽每经过一格对敌人造成的伤害额外提高<@ba.vup>12%</>（最高额外提高<@ba.vup>48%</>）",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 44,
+                    "initSp": 24,
+                    "increment": 1.0
+                },
+                "duration": 36.0,
+                "blackboard": [
+                    {
+                        "key": "base_attack_time",
+                        "value": -0.5
+                    },
+                    {
+                        "key": "atk",
+                        "value": 0.45
+                    },
+                    {
+                        "key": "attack@delta_atk_scale",
+                        "value": 0.12
+                    },
+                    {
+                        "key": "attack@max_atk_scale",
+                        "value": 1.48
+                    },
+                    {
+                        "key": "attack@projectile_range",
+                        "value": 0.5
+                    }
+                ]
+            },
+            {
+                "rangeId": "5-1",
+                "description_zh": "攻击间隔<@ba.vup>小幅缩短(-0.5)</>，攻击力<@ba.vup>+50%</>，攻击改为驱使驮兽，驮兽每经过一格对敌人造成的伤害额外提高<@ba.vup>12%</>（最高额外提高<@ba.vup>48%</>）",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 43,
+                    "initSp": 24,
+                    "increment": 1.0
+                },
+                "duration": 36.0,
+                "blackboard": [
+                    {
+                        "key": "base_attack_time",
+                        "value": -0.5
+                    },
+                    {
+                        "key": "atk",
+                        "value": 0.5
+                    },
+                    {
+                        "key": "attack@delta_atk_scale",
+                        "value": 0.12
+                    },
+                    {
+                        "key": "attack@max_atk_scale",
+                        "value": 1.48
+                    },
+                    {
+                        "key": "attack@projectile_range",
+                        "value": 0.5
+                    }
+                ]
+            },
+            {
+                "rangeId": "5-1",
+                "description_zh": "攻击间隔<@ba.vup>小幅缩短(-0.5)</>，攻击力<@ba.vup>+55%</>，攻击改为驱使驮兽，驮兽每经过一格对敌人造成的伤害额外提高<@ba.vup>12%</>（最高额外提高<@ba.vup>48%</>）",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 42,
+                    "initSp": 24,
+                    "increment": 1.0
+                },
+                "duration": 36.0,
+                "blackboard": [
+                    {
+                        "key": "base_attack_time",
+                        "value": -0.5
+                    },
+                    {
+                        "key": "atk",
+                        "value": 0.55
+                    },
+                    {
+                        "key": "attack@delta_atk_scale",
+                        "value": 0.12
+                    },
+                    {
+                        "key": "attack@max_atk_scale",
+                        "value": 1.48
+                    },
+                    {
+                        "key": "attack@projectile_range",
+                        "value": 0.5
+                    }
+                ]
+            },
+            {
+                "rangeId": "5-1",
+                "description_zh": "攻击间隔<@ba.vup>小幅缩短(-0.5)</>，攻击力<@ba.vup>+60%</>，攻击改为驱使驮兽，驮兽每经过一格对敌人造成的伤害额外提高<@ba.vup>12%</>（最高额外提高<@ba.vup>48%</>）",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 40,
+                    "initSp": 27,
+                    "increment": 1.0
+                },
+                "duration": 36.0,
+                "blackboard": [
+                    {
+                        "key": "base_attack_time",
+                        "value": -0.5
+                    },
+                    {
+                        "key": "atk",
+                        "value": 0.6
+                    },
+                    {
+                        "key": "attack@delta_atk_scale",
+                        "value": 0.12
+                    },
+                    {
+                        "key": "attack@max_atk_scale",
+                        "value": 1.48
+                    },
+                    {
+                        "key": "attack@projectile_range",
+                        "value": 0.5
+                    }
+                ]
+            }
+        ],
+        "tags": [],
+        "blackboard": []
+    },
+    "skchr_alga_1": {
+        "name_zh": "交叉施压",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "奥尔佳"
+        ],
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spType": "INCREASE_WHEN_ATTACK",
+        "levels": [
+            {
+                "rangeId": null,
+                "description_zh": "下次攻击造成相当于攻击力<@ba.vup>145%</>的物理伤害，并连续攻击两次",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WHEN_ATTACK",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 4,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 1.45
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "下次攻击造成相当于攻击力<@ba.vup>155%</>的物理伤害，并连续攻击两次",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WHEN_ATTACK",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 4,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 1.55
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "下次攻击造成相当于攻击力<@ba.vup>165%</>的物理伤害，并连续攻击两次",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WHEN_ATTACK",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 4,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 1.65
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "下次攻击造成相当于攻击力<@ba.vup>175%</>的物理伤害，并连续攻击两次",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WHEN_ATTACK",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 3,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 1.75
+                    }
+                ]
+            }
+        ],
+        "tags": [],
+        "blackboard": []
+    },
+    "skchr_alga_2": {
+        "name_zh": "只为我的答案",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "奥尔佳"
+        ],
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": "3-2",
+                "description_zh": "攻击力<@ba.vup>+50%</>，攻击距离延长，天赋效果提升至<@ba.vup>1.7</>倍，每次攻击使目标更容易受到友方攻击且使其受到<$ba.sluggish>停顿</>效果，持续<@ba.vup>2</>秒",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 30,
+                    "initSp": 15,
+                    "increment": 1.0
+                },
+                "duration": 15.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.5
+                    },
+                    {
+                        "key": "talent_scale",
+                        "value": 1.7
+                    },
+                    {
+                        "key": "attack@debuff_duration",
+                        "value": 2.0
+                    },
+                    {
+                        "key": "attack@taunt_level",
+                        "value": 1.0
+                    }
+                ]
+            },
+            {
+                "rangeId": "3-2",
+                "description_zh": "攻击力<@ba.vup>+60%</>，攻击距离延长，天赋效果提升至<@ba.vup>1.8</>倍，每次攻击使目标更容易受到友方攻击且使其受到<$ba.sluggish>停顿</>效果，持续<@ba.vup>2</>秒",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 30,
+                    "initSp": 15,
+                    "increment": 1.0
+                },
+                "duration": 15.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.6
+                    },
+                    {
+                        "key": "talent_scale",
+                        "value": 1.8
+                    },
+                    {
+                        "key": "attack@debuff_duration",
+                        "value": 2.0
+                    },
+                    {
+                        "key": "attack@taunt_level",
+                        "value": 1.0
+                    }
+                ]
+            },
+            {
+                "rangeId": "3-2",
+                "description_zh": "攻击力<@ba.vup>+70%</>，攻击距离延长，天赋效果提升至<@ba.vup>1.9</>倍，每次攻击使目标更容易受到友方攻击且使其受到<$ba.sluggish>停顿</>效果，持续<@ba.vup>2</>秒",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 30,
+                    "initSp": 15,
+                    "increment": 1.0
+                },
+                "duration": 15.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.7
+                    },
+                    {
+                        "key": "talent_scale",
+                        "value": 1.9
+                    },
+                    {
+                        "key": "attack@debuff_duration",
+                        "value": 2.0
+                    },
+                    {
+                        "key": "attack@taunt_level",
+                        "value": 1.0
+                    }
+                ]
+            },
+            {
+                "rangeId": "3-2",
+                "description_zh": "攻击力<@ba.vup>+80%</>，攻击距离延长，天赋效果提升至<@ba.vup>2</>倍，每次攻击使目标更容易受到友方攻击且使其受到<$ba.sluggish>停顿</>效果，持续<@ba.vup>2</>秒",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 30,
+                    "initSp": 20,
+                    "increment": 1.0
+                },
+                "duration": 15.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.8
+                    },
+                    {
+                        "key": "talent_scale",
+                        "value": 2.0
+                    },
+                    {
+                        "key": "attack@debuff_duration",
+                        "value": 2.0
+                    },
+                    {
+                        "key": "attack@taunt_level",
+                        "value": 1.0
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "change_target_priority"
+        ],
+        "blackboard": [
+            {
+                "key": "sluggish",
+                "targets": 1,
+                "value": 2.0,
+                "target_air": false
+            },
+            {
+                "key": "ms_down",
+                "targets": 1,
+                "value": 0.8,
+                "duration": 2.0,
+                "category": [
+                    "sluggish"
+                ],
+                "target_air": false
+            },
+            {
+                "key": "ally_atk",
+                "value": 0.1
+            },
+            {
+                "key": "ally_atk",
+                "value": 0.24,
+                "conditions": [
+                    "elite_boss"
+                ]
+            }
+        ]
+    },
+    "skchr_caledo_1": {
+        "name_zh": "无公差切割",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "镜匠"
+        ],
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+        "levels": [
+            {
+                "rangeId": null,
+                "description_zh": "下次攻击对阻挡的所有敌人造成相当于攻击力<@ba.vup>250%</>的物理伤害，并造成相当于攻击力<@ba.vup>50%</>的<$ba.dt.rampage2>狂躁损伤</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 6,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 2.5
+                    },
+                    {
+                        "key": "ep_damage_ratio",
+                        "value": 0.5
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "下次攻击对阻挡的所有敌人造成相当于攻击力<@ba.vup>270%</>的物理伤害，并造成相当于攻击力<@ba.vup>50%</>的<$ba.dt.rampage2>狂躁损伤</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 5,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 2.7
+                    },
+                    {
+                        "key": "ep_damage_ratio",
+                        "value": 0.5
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "下次攻击对阻挡的所有敌人造成相当于攻击力<@ba.vup>280%</>的物理伤害，并造成相当于攻击力<@ba.vup>50%</>的<$ba.dt.rampage2>狂躁损伤</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 5,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 2.8
+                    },
+                    {
+                        "key": "ep_damage_ratio",
+                        "value": 0.5
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "下次攻击对阻挡的所有敌人造成相当于攻击力<@ba.vup>290%</>的物理伤害，并造成相当于攻击力<@ba.vup>50%</>的<$ba.dt.rampage2>狂躁损伤</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 3,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 2.9
+                    },
+                    {
+                        "key": "ep_damage_ratio",
+                        "value": 0.5
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "rampage",
+            "ele_dmg"
+        ],
+        "blackboard": []
+    },
+    "skchr_caledo_2": {
+        "name_zh": "“多面镜”",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "镜匠"
+        ],
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": null,
+                "description_zh": "攻击力<@ba.vup>+90%</>，生命上限<@ba.vup>+70%</>，将受到的物理与法术伤害的<@ba.vup>30%</>转化为一半的<$ba.dt.rampage>狂躁损伤</>，同时攻击阻挡的所有敌人，每次攻击额外造成相当于攻击力<@ba.vup>25%</>的<$ba.dt.rampage2>狂躁损伤</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 55,
+                    "initSp": 35,
+                    "increment": 1.0
+                },
+                "duration": 35.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.9
+                    },
+                    {
+                        "key": "max_hp",
+                        "value": 0.7
+                    },
+                    {
+                        "key": "damage_resistance",
+                        "value": 0.3
+                    },
+                    {
+                        "key": "attack@ep_damage_ratio",
+                        "value": 0.25
+                    },
+                    {
+                        "key": "ep_damage_ratio",
+                        "value": 0.15
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "攻击力<@ba.vup>+100%</>，生命上限<@ba.vup>+80%</>，将受到的物理与法术伤害的<@ba.vup>30%</>转化为一半的<$ba.dt.rampage>狂躁损伤</>，同时攻击阻挡的所有敌人，每次攻击额外造成相当于攻击力<@ba.vup>25%</>的<$ba.dt.rampage2>狂躁损伤</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 53,
+                    "initSp": 35,
+                    "increment": 1.0
+                },
+                "duration": 35.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "max_hp",
+                        "value": 0.8
+                    },
+                    {
+                        "key": "damage_resistance",
+                        "value": 0.3
+                    },
+                    {
+                        "key": "attack@ep_damage_ratio",
+                        "value": 0.25
+                    },
+                    {
+                        "key": "ep_damage_ratio",
+                        "value": 0.15
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "攻击力<@ba.vup>+110%</>，生命上限<@ba.vup>+90%</>，将受到的物理与法术伤害的<@ba.vup>30%</>转化为一半的<$ba.dt.rampage>狂躁损伤</>，同时攻击阻挡的所有敌人，每次攻击额外造成相当于攻击力<@ba.vup>25%</>的<$ba.dt.rampage2>狂躁损伤</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 52,
+                    "initSp": 35,
+                    "increment": 1.0
+                },
+                "duration": 35.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 1.1
+                    },
+                    {
+                        "key": "max_hp",
+                        "value": 0.9
+                    },
+                    {
+                        "key": "damage_resistance",
+                        "value": 0.3
+                    },
+                    {
+                        "key": "attack@ep_damage_ratio",
+                        "value": 0.25
+                    },
+                    {
+                        "key": "ep_damage_ratio",
+                        "value": 0.15
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "攻击力<@ba.vup>+120%</>，生命上限<@ba.vup>+100%</>，将受到的物理与法术伤害的<@ba.vup>30%</>转化为一半的<$ba.dt.rampage>狂躁损伤</>，同时攻击阻挡的所有敌人，每次攻击额外造成相当于攻击力<@ba.vup>25%</>的<$ba.dt.rampage2>狂躁损伤</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 50,
+                    "initSp": 35,
+                    "increment": 1.0
+                },
+                "duration": 35.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 1.2
+                    },
+                    {
+                        "key": "max_hp",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "damage_resistance",
+                        "value": 0.3
+                    },
+                    {
+                        "key": "attack@ep_damage_ratio",
+                        "value": 0.25
+                    },
+                    {
+                        "key": "ep_damage_ratio",
+                        "value": 0.15
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "rampage",
+            "ele_dmg"
+        ],
+        "blackboard": [
+            {
+                "key": "max_hp",
+                "value": 1.0
+            },
+            {
+                "key": "dmg_res",
+                "types": [
+                    "phys",
+                    "arts"
+                ],
+                "value": 0.3,
+                "duration": 35.0
+            }
+        ]
+    },
+    "skchr_tocka_1": {
+        "name_zh": "一无所有之人",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "冻河"
+        ],
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": null,
+                "description_zh": "对范围内<@ba.vup>2</>名干员施加<$ba.triggereffect>触发型效果</>（只选择未持有该效果的目标）：\\n受到攻击时，获得相当于冻河<@ba.vup>190%</>攻击力的<$ba.barrier>屏障</>（在10秒内衰减），并使攻击者<$ba.stun>晕眩</><@ba.vup>3</>秒",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 15,
+                    "initSp": 8,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "shield_atk_scale",
+                        "value": 1.9
+                    },
+                    {
+                        "key": "shield_time",
+                        "value": 10.0
+                    },
+                    {
+                        "key": "stun",
+                        "value": 3.0
+                    },
+                    {
+                        "key": "max_target",
+                        "value": 2.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "对范围内<@ba.vup>3</>名干员施加<$ba.triggereffect>触发型效果</>（只选择未持有该效果的目标）：\\n受到攻击时，获得相当于冻河<@ba.vup>210%</>攻击力的<$ba.barrier>屏障</>（在10秒内衰减），并使攻击者<$ba.stun>晕眩</><@ba.vup>3</>秒",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 14,
+                    "initSp": 8,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "shield_atk_scale",
+                        "value": 2.1
+                    },
+                    {
+                        "key": "shield_time",
+                        "value": 10.0
+                    },
+                    {
+                        "key": "stun",
+                        "value": 3.0
+                    },
+                    {
+                        "key": "max_target",
+                        "value": 3.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "对范围内<@ba.vup>3</>名干员施加<$ba.triggereffect>触发型效果</>（只选择未持有该效果的目标）：\\n受到攻击时，获得相当于冻河<@ba.vup>230%</>攻击力的<$ba.barrier>屏障</>（在10秒内衰减），并使攻击者<$ba.stun>晕眩</><@ba.vup>3</>秒",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 13,
+                    "initSp": 8,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "shield_atk_scale",
+                        "value": 2.3
+                    },
+                    {
+                        "key": "shield_time",
+                        "value": 10.0
+                    },
+                    {
+                        "key": "stun",
+                        "value": 3.0
+                    },
+                    {
+                        "key": "max_target",
+                        "value": 3.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "对范围内<@ba.vup>3</>名干员施加<$ba.triggereffect>触发型效果</>（只选择未持有该效果的目标）：\\n受到攻击时，获得相当于冻河<@ba.vup>250%</>攻击力的<$ba.barrier>屏障</>（在10秒内衰减），并使攻击者<$ba.stun>晕眩</><@ba.vup>3</>秒",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 12,
+                    "initSp": 8,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "shield_atk_scale",
+                        "value": 2.5
+                    },
+                    {
+                        "key": "shield_time",
+                        "value": 10.0
+                    },
+                    {
+                        "key": "stun",
+                        "value": 3.0
+                    },
+                    {
+                        "key": "max_target",
+                        "value": 3.0
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "barrier",
+            "ally_barrier"
+        ],
+        "blackboard": [
+            {
+                "key": "stun",
+                "targets": 1,
+                "value": 3.0,
+                "conditions": [
+                    "when_attacked"
+                ],
+                "target_air": true
+            },
+            {
+                "key": "max_target",
+                "value": 3.0
+            }
+        ]
+    },
+    "skchr_tocka_2": {
+        "name_zh": "意欲呼啸之心",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "冻河"
+        ],
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": null,
+                "description_zh": "对<@ba.vup>全场</>1名干员施加<$ba.triggereffect>触发型效果</>（只选择未持有该效果的目标）：\\n技能可开启时，在<@ba.vup>15</>秒内攻击速度<@ba.vup>+35</>，期间技能变为自动开启",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 6,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 35.0
+                    },
+                    {
+                        "key": "buff_duration",
+                        "value": 15.0
+                    },
+                    {
+                        "key": "max_target",
+                        "value": 1.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "对<@ba.vup>全场</>1名干员施加<$ba.triggereffect>触发型效果</>（只选择未持有该效果的目标）：\\n技能可开启时，在<@ba.vup>15</>秒内攻击速度<@ba.vup>+40</>，期间技能变为自动开启",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 6,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 40.0
+                    },
+                    {
+                        "key": "buff_duration",
+                        "value": 15.0
+                    },
+                    {
+                        "key": "max_target",
+                        "value": 1.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "对<@ba.vup>全场</>1名干员施加<$ba.triggereffect>触发型效果</>（只选择未持有该效果的目标）：\\n技能可开启时，在<@ba.vup>15</>秒内攻击速度<@ba.vup>+45</>，期间技能变为自动开启",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 6,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 45.0
+                    },
+                    {
+                        "key": "buff_duration",
+                        "value": 15.0
+                    },
+                    {
+                        "key": "max_target",
+                        "value": 1.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "对<@ba.vup>全场</>1名干员施加<$ba.triggereffect>触发型效果</>（只选择未持有该效果的目标）：\\n技能可开启时，在<@ba.vup>15</>秒内攻击速度<@ba.vup>+50</>，期间技能变为自动开启",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 5,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 50.0
+                    },
+                    {
+                        "key": "buff_duration",
+                        "value": 15.0
+                    },
+                    {
+                        "key": "max_target",
+                        "value": 1.0
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "ally_auto_skill"
+        ],
+        "blackboard": [
+            {
+                "key": "ally_aspd",
+                "value": 50.0,
+                "duration": 15.0
+            }
+        ]
+    },
+    "skchr_tocka_3": {
+        "name_zh": "踽踽独行之春",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "冻河"
+        ],
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": null,
+                "description_zh": "攻击速度<@ba.vup>+70</>，攻击对4个敌人造成攻击力<@ba.vup>190%</>的物理伤害并使目标<$ba.stun>晕眩</><@ba.vup>0.5</>秒，立刻对范围内另一名干员施加<$ba.triggereffect>触发型效果</>（已存在时改为将其触发）：\\n开启技能时自身和冻河攻击力<@ba.vup>+90%</>（在<@ba.vup>15</>秒内衰减），并将该<$ba.triggereffect>触发型效果</>转移给冻河攻击范围内技力比例最高的另一名干员；冻河技能期间拥有该效果的干员每秒获得<@ba.vup>1</>点技力",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 25,
+                    "initSp": 10,
+                    "increment": 1.0
+                },
+                "duration": 20.0,
+                "blackboard": [
+                    {
+                        "key": "attack@max_target",
+                        "value": 4.0
+                    },
+                    {
+                        "key": "attack@stun",
+                        "value": 0.5
+                    },
+                    {
+                        "key": "attack@atk_scale",
+                        "value": 1.9
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 70.0
+                    },
+                    {
+                        "key": "bonus_duration",
+                        "value": 15.0
+                    },
+                    {
+                        "key": "bonus_init_atk",
+                        "value": 0.9
+                    },
+                    {
+                        "key": "bonus_atk_dec_per_sec",
+                        "value": 0.06
+                    },
+                    {
+                        "key": "bonus_sp",
+                        "value": 1.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "攻击速度<@ba.vup>+70</>，攻击对4个敌人造成攻击力<@ba.vup>200%</>的物理伤害并使目标<$ba.stun>晕眩</><@ba.vup>0.5</>秒，立刻对范围内另一名干员施加<$ba.triggereffect>触发型效果</>（已存在时改为将其触发）：\\n开启技能时自身和冻河攻击力<@ba.vup>+100%</>（在<@ba.vup>15</>秒内衰减），并将该<$ba.triggereffect>触发型效果</>转移给冻河攻击范围内技力比例最高的另一名干员；冻河技能期间拥有该效果的干员每秒获得<@ba.vup>1</>点技力",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 23,
+                    "initSp": 11,
+                    "increment": 1.0
+                },
+                "duration": 20.0,
+                "blackboard": [
+                    {
+                        "key": "attack@max_target",
+                        "value": 4.0
+                    },
+                    {
+                        "key": "attack@stun",
+                        "value": 0.5
+                    },
+                    {
+                        "key": "attack@atk_scale",
+                        "value": 2.0
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 70.0
+                    },
+                    {
+                        "key": "bonus_duration",
+                        "value": 15.0
+                    },
+                    {
+                        "key": "bonus_init_atk",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "bonus_atk_dec_per_sec",
+                        "value": 0.067
+                    },
+                    {
+                        "key": "bonus_sp",
+                        "value": 1.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "攻击速度<@ba.vup>+70</>，攻击对4个敌人造成攻击力<@ba.vup>210%</>的物理伤害并使目标<$ba.stun>晕眩</><@ba.vup>0.5</>秒，立刻对范围内另一名干员施加<$ba.triggereffect>触发型效果</>（已存在时改为将其触发）：\\n开启技能时自身和冻河攻击力<@ba.vup>+110%</>（在<@ba.vup>15</>秒内衰减），并将该<$ba.triggereffect>触发型效果</>转移给冻河攻击范围内技力比例最高的另一名干员；冻河技能期间拥有该效果的干员每秒获得<@ba.vup>1</>点技力",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 22,
+                    "initSp": 12,
+                    "increment": 1.0
+                },
+                "duration": 20.0,
+                "blackboard": [
+                    {
+                        "key": "attack@max_target",
+                        "value": 4.0
+                    },
+                    {
+                        "key": "attack@stun",
+                        "value": 0.5
+                    },
+                    {
+                        "key": "attack@atk_scale",
+                        "value": 2.1
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 70.0
+                    },
+                    {
+                        "key": "bonus_duration",
+                        "value": 15.0
+                    },
+                    {
+                        "key": "bonus_init_atk",
+                        "value": 1.1
+                    },
+                    {
+                        "key": "bonus_atk_dec_per_sec",
+                        "value": 0.073
+                    },
+                    {
+                        "key": "bonus_sp",
+                        "value": 1.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "攻击速度<@ba.vup>+80</>，攻击对4个敌人造成攻击力<@ba.vup>220%</>的物理伤害并使目标<$ba.stun>晕眩</><@ba.vup>0.5</>秒，立刻对范围内另一名干员施加<$ba.triggereffect>触发型效果</>（已存在时改为将其触发）：\\n开启技能时自身和冻河攻击力<@ba.vup>+120%</>（在<@ba.vup>15</>秒内衰减），并将该<$ba.triggereffect>触发型效果</>转移给冻河攻击范围内技力比例最高的另一名干员；冻河技能期间拥有该效果的干员每秒获得<@ba.vup>1</>点技力",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 20,
+                    "initSp": 13,
+                    "increment": 1.0
+                },
+                "duration": 20.0,
+                "blackboard": [
+                    {
+                        "key": "attack@max_target",
+                        "value": 4.0
+                    },
+                    {
+                        "key": "attack@stun",
+                        "value": 0.5
+                    },
+                    {
+                        "key": "attack@atk_scale",
+                        "value": 2.2
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 80.0
+                    },
+                    {
+                        "key": "bonus_duration",
+                        "value": 15.0
+                    },
+                    {
+                        "key": "bonus_init_atk",
+                        "value": 1.2
+                    },
+                    {
+                        "key": "bonus_atk_dec_per_sec",
+                        "value": 0.08
+                    },
+                    {
+                        "key": "bonus_sp",
+                        "value": 1.0
+                    }
+                ]
+            }
+        ],
+        "tags": [],
+        "blackboard": [
+            {
+                "key": "max_target",
+                "value": 4.0
+            },
+            {
+                "key": "stun",
+                "targets": 4,
+                "value": 0.5,
+                "target_air": true
+            },
+            {
+                "key": "attack_speed",
+                "value": 80.0
+            },
+            {
+                "key": "sp_gain",
+                "value": 1.0
+            },
+            {
+                "key": "ally_sp_gain",
+                "value": 1.0
+            }
+        ]
+    },
+    "skchr_dminon_1": {
+        "name_zh": "停步",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "国度"
+        ],
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": null,
+                "description_zh": "攻击速度<@ba.vup>+70</>，每个敌人首次踏上“国度”时会<$ba.sluggish>停顿</><@ba.vup>4</>秒",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 35,
+                    "initSp": 18,
+                    "increment": 1.0
+                },
+                "duration": 20.0,
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 70.0
+                    },
+                    {
+                        "key": "sluggish",
+                        "value": 4.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "攻击速度<@ba.vup>+72</>，每个敌人首次踏上“国度”时会<$ba.sluggish>停顿</><@ba.vup>5</>秒",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 34,
+                    "initSp": 20,
+                    "increment": 1.0
+                },
+                "duration": 20.0,
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 72.0
+                    },
+                    {
+                        "key": "sluggish",
+                        "value": 5.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "攻击速度<@ba.vup>+75</>，每个敌人首次踏上“国度”时会<$ba.sluggish>停顿</><@ba.vup>5</>秒",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 32,
+                    "initSp": 21,
+                    "increment": 1.0
+                },
+                "duration": 20.0,
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 75.0
+                    },
+                    {
+                        "key": "sluggish",
+                        "value": 5.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "攻击速度<@ba.vup>+80</>，每个敌人首次踏上“国度”时会<$ba.sluggish>停顿</><@ba.vup>5</>秒",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 30,
+                    "initSp": 22,
+                    "increment": 1.0
+                },
+                "duration": 20.0,
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 80.0
+                    },
+                    {
+                        "key": "sluggish",
+                        "value": 5.0
+                    }
+                ]
+            }
+        ],
+        "tags": [],
+        "blackboard": [
+            {
+                "key": "attack_speed",
+                "value": 80.0
+            },
+            {
+                "key": "sluggish",
+                "targets": 99,
+                "value": 5.0,
+                "target_air": false
+            },
+            {
+                "key": "ms_down",
+                "targets": 99,
+                "value": 0.8,
+                "duration": 5.0,
+                "category": [
+                    "sluggish"
+                ],
+                "target_air": false
+            }
+        ]
+    },
+    "skchr_dminon_2": {
+        "name_zh": "受戮",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "国度"
+        ],
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": "y-3",
+                "description_zh": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+55%</>，使“国度”上的敌人无法闪避物理和法术攻击\\n<@ba.rem>第二次及以后使用时额外使攻击速度<@ba.vup>+30</>，且持续时间无限</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 50,
+                    "initSp": 29,
+                    "increment": 1.0
+                },
+                "duration": 20.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.55
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 30.0
+                    }
+                ]
+            },
+            {
+                "rangeId": "y-3",
+                "description_zh": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+66%</>，使“国度”上的敌人无法闪避物理和法术攻击\\n<@ba.rem>第二次及以后使用时额外使攻击速度<@ba.vup>+30</>，且持续时间无限</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 47,
+                    "initSp": 31,
+                    "increment": 1.0
+                },
+                "duration": 20.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.66
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 30.0
+                    }
+                ]
+            },
+            {
+                "rangeId": "y-3",
+                "description_zh": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+71%</>，使“国度”上的敌人无法闪避物理和法术攻击\\n<@ba.rem>第二次及以后使用时额外使攻击速度<@ba.vup>+30</>，且持续时间无限</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 46,
+                    "initSp": 33,
+                    "increment": 1.0
+                },
+                "duration": 20.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.71
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 30.0
+                    }
+                ]
+            },
+            {
+                "rangeId": "y-3",
+                "description_zh": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+75%</>，使“国度”上的敌人无法闪避物理和法术攻击\\n<@ba.rem>第二次及以后使用时额外使攻击速度<@ba.vup>+30</>，且持续时间无限</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 45,
+                    "initSp": 35,
+                    "increment": 1.0
+                },
+                "duration": 20.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.75
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 30.0
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "disable_evasion"
+        ],
+        "blackboard": [
+            {
+                "key": "attack_speed",
+                "value": 30.0
+            }
+        ]
+    },
+    "skchr_dminon_3": {
+        "name_zh": "无人的国度",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "国度"
+        ],
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": "y-10",
+                "description_zh": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+70%</>，攻击速度<@ba.vup>+30</>，同时攻击“国度”上的所有敌人，“国度”上的单位被地面敌人攻击时，在伤害来源周围四格扩散“国度”，并造成相当于攻击力<@ba.vup>60%</>的物理伤害（每0.5秒最多触发1次）\\n<@ba.rem>技能结束后，重置场上的“国度”状态</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 51,
+                    "initSp": 30,
+                    "increment": 1.0
+                },
+                "duration": 36.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.7
+                    },
+                    {
+                        "key": "attack@aoe_atk_scale",
+                        "value": 0.6
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 30.0
+                    },
+                    {
+                        "key": "attack@cd",
+                        "value": 0.5
+                    }
+                ]
+            },
+            {
+                "rangeId": "y-10",
+                "description_zh": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+80%</>，攻击速度<@ba.vup>+35</>，同时攻击“国度”上的所有敌人，“国度”上的单位被地面敌人攻击时，在伤害来源周围四格扩散“国度”，并造成相当于攻击力<@ba.vup>70%</>的物理伤害（每0.5秒最多触发1次）\\n<@ba.rem>技能结束后，重置场上的“国度”状态</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 49,
+                    "initSp": 30,
+                    "increment": 1.0
+                },
+                "duration": 36.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.8
+                    },
+                    {
+                        "key": "attack@aoe_atk_scale",
+                        "value": 0.7
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 35.0
+                    },
+                    {
+                        "key": "attack@cd",
+                        "value": 0.5
+                    }
+                ]
+            },
+            {
+                "rangeId": "y-10",
+                "description_zh": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+90%</>，攻击速度<@ba.vup>+37</>，同时攻击“国度”上的所有敌人，“国度”上的单位被地面敌人攻击时，在伤害来源周围四格扩散“国度”，并造成相当于攻击力<@ba.vup>75%</>的物理伤害（每0.5秒最多触发1次）\\n<@ba.rem>技能结束后，重置场上的“国度”状态</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 47,
+                    "initSp": 30,
+                    "increment": 1.0
+                },
+                "duration": 36.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.9
+                    },
+                    {
+                        "key": "attack@aoe_atk_scale",
+                        "value": 0.75
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 37.0
+                    },
+                    {
+                        "key": "attack@cd",
+                        "value": 0.5
+                    }
+                ]
+            },
+            {
+                "rangeId": "y-10",
+                "description_zh": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+100%</>，攻击速度<@ba.vup>+40</>，同时攻击“国度”上的所有敌人，“国度”上的单位被地面敌人攻击时，在伤害来源周围四格扩散“国度”，并造成相当于攻击力<@ba.vup>80%</>的物理伤害（每0.5秒最多触发1次）\\n<@ba.rem>技能结束后，重置场上的“国度”状态</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 45,
+                    "initSp": 30,
+                    "increment": 1.0
+                },
+                "duration": 36.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "attack@aoe_atk_scale",
+                        "value": 0.8
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 40.0
+                    },
+                    {
+                        "key": "attack@cd",
+                        "value": 0.5
+                    }
+                ]
+            }
+        ],
+        "tags": [],
+        "blackboard": [
+            {
+                "key": "attack_speed",
+                "value": 40.0
+            }
+        ]
+    },
+    "skchr_oxi_1": {
+        "name_zh": "照霎白夜",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "塔露拉"
+        ],
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": null,
+                "description_zh": "对目标所在地块上的所有地面敌人造成攻击力<@ba.vup>490%</>的法术伤害，并造成<@ba.vup>2.5</>秒<$ba.fear>恐惧</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 8,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 4.9
+                    },
+                    {
+                        "key": "fear",
+                        "value": 2.5
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "对目标所在地块上的所有地面敌人造成攻击力<@ba.vup>520%</>的法术伤害，并造成<@ba.vup>2.5</>秒<$ba.fear>恐惧</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 8,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 5.2
+                    },
+                    {
+                        "key": "fear",
+                        "value": 2.5
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "对目标所在地块上的所有地面敌人造成攻击力<@ba.vup>550%</>的法术伤害，并造成<@ba.vup>2.5</>秒<$ba.fear>恐惧</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 8,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 5.5
+                    },
+                    {
+                        "key": "fear",
+                        "value": 2.5
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "对目标所在地块上的所有地面敌人造成攻击力<@ba.vup>600%</>的法术伤害，并造成<@ba.vup>3</>秒<$ba.fear>恐惧</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 8,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 6.0
+                    },
+                    {
+                        "key": "fear",
+                        "value": 3.0
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "aoe"
+        ],
+        "blackboard": [
+            {
+                "key": "fear",
+                "targets": 99,
+                "value": 3.0,
+                "target_air": false
+            }
+        ]
+    },
+    "skchr_oxi_2": {
+        "name_zh": "阂断骤雪",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "塔露拉"
+        ],
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": null,
+                "description_zh": "获得<@ba.vup>90%</>的<$ba.protect>庇护</>（持续<@ba.vup>0.2</>秒后逐渐降低），对攻击来源造成塔露拉攻击力<@ba.vup>230%</>的范围法术伤害，并治疗塔露拉相当于伤害量<@ba.vup>5%</>的生命值；之后<@ba.vup>5</>秒内攻击所有阻挡的敌人，攻击力<@ba.vup>+47%</>和防御力<@ba.vup>+47%</>（可叠加<@ba.vup>5</>层）\\n<@ba.rem>受到攻击后触发，可充能5次</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 5,
+                    "spCost": 8,
+                    "initSp": 18,
+                    "increment": 1.0
+                },
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "skill_duration",
+                        "value": 1.3
+                    },
+                    {
+                        "key": "damage_remaining_scale",
+                        "value": 0.1
+                    },
+                    {
+                        "key": "damage_resistance",
+                        "value": 0.9
+                    },
+                    {
+                        "key": "shelter_hold_duration",
+                        "value": 0.2
+                    },
+                    {
+                        "key": "retaliate_atk_scale",
+                        "value": 2.3
+                    },
+                    {
+                        "key": "heal_ratio",
+                        "value": 0.05
+                    },
+                    {
+                        "key": "atk",
+                        "value": 0.47
+                    },
+                    {
+                        "key": "def",
+                        "value": 0.47
+                    },
+                    {
+                        "key": "max_stack_cnt",
+                        "value": 5.0
+                    },
+                    {
+                        "key": "stack_duration",
+                        "value": 5.0
+                    },
+                    {
+                        "key": "ability_range_radius",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "attack@buffed_attack_atk_scale",
+                        "value": 1.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "获得<@ba.vup>90%</>的<$ba.protect>庇护</>（持续<@ba.vup>0.2</>秒后逐渐降低），对攻击来源造成塔露拉攻击力<@ba.vup>250%</>的范围法术伤害，并治疗塔露拉相当于伤害量<@ba.vup>5%</>的生命值；之后<@ba.vup>5</>秒内攻击所有阻挡的敌人，攻击力<@ba.vup>+50%</>和防御力<@ba.vup>+50%</>（可叠加<@ba.vup>5</>层）\\n<@ba.rem>受到攻击后触发，可充能5次</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 5,
+                    "spCost": 8,
+                    "initSp": 19,
+                    "increment": 1.0
+                },
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "skill_duration",
+                        "value": 1.3
+                    },
+                    {
+                        "key": "damage_remaining_scale",
+                        "value": 0.1
+                    },
+                    {
+                        "key": "damage_resistance",
+                        "value": 0.9
+                    },
+                    {
+                        "key": "shelter_hold_duration",
+                        "value": 0.2
+                    },
+                    {
+                        "key": "retaliate_atk_scale",
+                        "value": 2.5
+                    },
+                    {
+                        "key": "heal_ratio",
+                        "value": 0.05
+                    },
+                    {
+                        "key": "atk",
+                        "value": 0.5
+                    },
+                    {
+                        "key": "def",
+                        "value": 0.5
+                    },
+                    {
+                        "key": "max_stack_cnt",
+                        "value": 5.0
+                    },
+                    {
+                        "key": "stack_duration",
+                        "value": 5.0
+                    },
+                    {
+                        "key": "ability_range_radius",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "attack@buffed_attack_atk_scale",
+                        "value": 1.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "获得<@ba.vup>90%</>的<$ba.protect>庇护</>（持续<@ba.vup>0.2</>秒后逐渐降低），对攻击来源造成塔露拉攻击力<@ba.vup>270%</>的范围法术伤害，并治疗塔露拉相当于伤害量<@ba.vup>5%</>的生命值；之后<@ba.vup>5</>秒内攻击所有阻挡的敌人，攻击力<@ba.vup>+55%</>和防御力<@ba.vup>+55%</>（可叠加<@ba.vup>5</>层）\\n<@ba.rem>受到攻击后触发，可充能5次</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 5,
+                    "spCost": 8,
+                    "initSp": 20,
+                    "increment": 1.0
+                },
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "skill_duration",
+                        "value": 1.3
+                    },
+                    {
+                        "key": "damage_remaining_scale",
+                        "value": 0.1
+                    },
+                    {
+                        "key": "damage_resistance",
+                        "value": 0.9
+                    },
+                    {
+                        "key": "shelter_hold_duration",
+                        "value": 0.2
+                    },
+                    {
+                        "key": "retaliate_atk_scale",
+                        "value": 2.7
+                    },
+                    {
+                        "key": "heal_ratio",
+                        "value": 0.05
+                    },
+                    {
+                        "key": "atk",
+                        "value": 0.55
+                    },
+                    {
+                        "key": "def",
+                        "value": 0.55
+                    },
+                    {
+                        "key": "max_stack_cnt",
+                        "value": 5.0
+                    },
+                    {
+                        "key": "stack_duration",
+                        "value": 5.0
+                    },
+                    {
+                        "key": "ability_range_radius",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "attack@buffed_attack_atk_scale",
+                        "value": 1.0
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "获得<@ba.vup>90%</>的<$ba.protect>庇护</>（持续<@ba.vup>0.2</>秒后逐渐降低），对攻击来源造成塔露拉攻击力<@ba.vup>300%</>的范围法术伤害，并治疗塔露拉相当于伤害量<@ba.vup>5%</>的生命值；之后<@ba.vup>5</>秒内攻击所有阻挡的敌人，攻击力<@ba.vup>+60%</>和防御力<@ba.vup>+60%</>（可叠加<@ba.vup>5</>层）\\n<@ba.rem>受到攻击后触发，可充能5次</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 5,
+                    "spCost": 7,
+                    "initSp": 21,
+                    "increment": 1.0
+                },
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "skill_duration",
+                        "value": 1.3
+                    },
+                    {
+                        "key": "damage_remaining_scale",
+                        "value": 0.1
+                    },
+                    {
+                        "key": "damage_resistance",
+                        "value": 0.9
+                    },
+                    {
+                        "key": "shelter_hold_duration",
+                        "value": 0.2
+                    },
+                    {
+                        "key": "retaliate_atk_scale",
+                        "value": 3.0
+                    },
+                    {
+                        "key": "heal_ratio",
+                        "value": 0.05
+                    },
+                    {
+                        "key": "atk",
+                        "value": 0.6
+                    },
+                    {
+                        "key": "def",
+                        "value": 0.6
+                    },
+                    {
+                        "key": "max_stack_cnt",
+                        "value": 5.0
+                    },
+                    {
+                        "key": "stack_duration",
+                        "value": 5.0
+                    },
+                    {
+                        "key": "ability_range_radius",
+                        "value": 1.0
+                    },
+                    {
+                        "key": "attack@buffed_attack_atk_scale",
+                        "value": 1.0
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "heal_self",
+            "protect"
+        ],
+        "blackboard": [
+            {
+                "key": "dmg_res",
+                "types": [
+                    "phys",
+                    "arts"
+                ],
+                "value": 0.9,
+                "category": [
+                    "protect"
+                ]
+            },
+            {
+                "key": "reflect_dmg",
+                "dep_stat": "atk",
+                "value": 3.0,
+                "damage_type": "arts"
+            },
+            {
+                "key": "ct",
+                "value": 5.0
+            }
+        ]
+    },
+    "skchr_oxi_3": {
+        "name_zh": "日冕重烈",
+        "name_ja": "",
+        "name_en": "",
+        "chara_list": [
+            "塔露拉"
+        ],
+        "skillType": "MANUAL",
+        "durationType": "NONE",
+        "spType": "INCREASE_WITH_TIME",
+        "levels": [
+            {
+                "rangeId": null,
+                "description_zh": "攻击力<@ba.vup>+120%</>；停止攻击以持续引导场地进入以下状态：每<@ba.vup>2.67</>秒在5行范围内，朝部署方向召唤“簇火”，“簇火”碰到敌人时爆炸造成攻击力<@ba.vup>175%</>的范围法术伤害；若目标处于<$ba.dt.burning2>灼燃损伤</>爆发期间则改为造成元素伤害\\n<$ba.overdrive>过载</>：“簇火”生成间隔缩短至<@ba.vup>2</>秒，范围扩展最多13行\\n被同波次的多个“簇火”命中时，后续“簇火”造成的伤害降低至<@ba.vup>15%</>\\n<@ba.rem>该技能可随时主动关闭</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 45,
+                    "initSp": 38,
+                    "increment": 1.0
+                },
+                "duration": 36.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 1.2
+                    },
+                    {
+                        "key": "heatwave_atk_scale",
+                        "value": 1.75
+                    },
+                    {
+                        "key": "normal_interval",
+                        "value": 2.67
+                    },
+                    {
+                        "key": "overload_interval",
+                        "value": 2.0
+                    },
+                    {
+                        "key": "wave_speed",
+                        "value": 2.3
+                    },
+                    {
+                        "key": "normal_half_width",
+                        "value": 2.0
+                    },
+                    {
+                        "key": "overload_half_width",
+                        "value": 6.0
+                    },
+                    {
+                        "key": "projectile_range",
+                        "value": 0.5
+                    },
+                    {
+                        "key": "range_radius",
+                        "value": 1.5
+                    },
+                    {
+                        "key": "random_birth_delay",
+                        "value": 0.0
+                    },
+                    {
+                        "key": "wave_exit_distance",
+                        "value": 5.0
+                    },
+                    {
+                        "key": "same_wave_repeat_damage_scale",
+                        "value": 0.15
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "攻击力<@ba.vup>+124%</>；停止攻击以持续引导场地进入以下状态：每<@ba.vup>2.67</>秒在5行范围内，朝部署方向召唤“簇火”，“簇火”碰到敌人时爆炸造成攻击力<@ba.vup>190%</>的范围法术伤害；若目标处于<$ba.dt.burning2>灼燃损伤</>爆发期间则改为造成元素伤害\\n<$ba.overdrive>过载</>：“簇火”生成间隔缩短至<@ba.vup>2</>秒，范围扩展最多13行\\n被同波次的多个“簇火”命中时，后续“簇火”造成的伤害降低至<@ba.vup>15%</>\\n<@ba.rem>该技能可随时主动关闭</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 45,
+                    "initSp": 38,
+                    "increment": 1.0
+                },
+                "duration": 36.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 1.24
+                    },
+                    {
+                        "key": "heatwave_atk_scale",
+                        "value": 1.9
+                    },
+                    {
+                        "key": "normal_interval",
+                        "value": 2.67
+                    },
+                    {
+                        "key": "overload_interval",
+                        "value": 2.0
+                    },
+                    {
+                        "key": "wave_speed",
+                        "value": 2.3
+                    },
+                    {
+                        "key": "normal_half_width",
+                        "value": 2.0
+                    },
+                    {
+                        "key": "overload_half_width",
+                        "value": 6.0
+                    },
+                    {
+                        "key": "projectile_range",
+                        "value": 0.5
+                    },
+                    {
+                        "key": "range_radius",
+                        "value": 1.5
+                    },
+                    {
+                        "key": "random_birth_delay",
+                        "value": 0.0
+                    },
+                    {
+                        "key": "wave_exit_distance",
+                        "value": 5.0
+                    },
+                    {
+                        "key": "same_wave_repeat_damage_scale",
+                        "value": 0.15
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "攻击力<@ba.vup>+132%</>；停止攻击以持续引导场地进入以下状态：每<@ba.vup>2.67</>秒在5行范围内，朝部署方向召唤“簇火”，“簇火”碰到敌人时爆炸造成攻击力<@ba.vup>220%</>的范围法术伤害；若目标处于<$ba.dt.burning2>灼燃损伤</>爆发期间则改为造成元素伤害\\n<$ba.overdrive>过载</>：“簇火”生成间隔缩短至<@ba.vup>2</>秒，范围扩展最多13行\\n被同波次的多个“簇火”命中时，后续“簇火”造成的伤害降低至<@ba.vup>15%</>\\n<@ba.rem>该技能可随时主动关闭</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 45,
+                    "initSp": 38,
+                    "increment": 1.0
+                },
+                "duration": 36.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 1.32
+                    },
+                    {
+                        "key": "heatwave_atk_scale",
+                        "value": 2.2
+                    },
+                    {
+                        "key": "normal_interval",
+                        "value": 2.67
+                    },
+                    {
+                        "key": "overload_interval",
+                        "value": 2.0
+                    },
+                    {
+                        "key": "wave_speed",
+                        "value": 2.3
+                    },
+                    {
+                        "key": "normal_half_width",
+                        "value": 2.0
+                    },
+                    {
+                        "key": "overload_half_width",
+                        "value": 6.0
+                    },
+                    {
+                        "key": "projectile_range",
+                        "value": 0.5
+                    },
+                    {
+                        "key": "range_radius",
+                        "value": 1.5
+                    },
+                    {
+                        "key": "random_birth_delay",
+                        "value": 0.0
+                    },
+                    {
+                        "key": "wave_exit_distance",
+                        "value": 5.0
+                    },
+                    {
+                        "key": "same_wave_repeat_damage_scale",
+                        "value": 0.15
+                    }
+                ]
+            },
+            {
+                "rangeId": null,
+                "description_zh": "攻击力<@ba.vup>+140%</>；停止攻击以持续引导场地进入以下状态：每<@ba.vup>2.67</>秒在5行范围内，朝部署方向召唤“簇火”，“簇火”碰到敌人时爆炸造成攻击力<@ba.vup>250%</>的范围法术伤害；若目标处于<$ba.dt.burning2>灼燃损伤</>爆发期间则改为造成元素伤害\\n<$ba.overdrive>过载</>：“簇火”生成间隔缩短至<@ba.vup>2</>秒，范围扩展最多13行\\n被同波次的多个“簇火”命中时，后续“簇火”造成的伤害降低至<@ba.vup>15%</>\\n<@ba.rem>该技能可随时主动关闭</>",
+                "description_ja": "",
+                "description_en": "",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 45,
+                    "initSp": 38,
+                    "increment": 1.0
+                },
+                "duration": 36.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 1.4
+                    },
+                    {
+                        "key": "heatwave_atk_scale",
+                        "value": 2.5
+                    },
+                    {
+                        "key": "normal_interval",
+                        "value": 2.67
+                    },
+                    {
+                        "key": "overload_interval",
+                        "value": 2.0
+                    },
+                    {
+                        "key": "wave_speed",
+                        "value": 2.3
+                    },
+                    {
+                        "key": "normal_half_width",
+                        "value": 2.0
+                    },
+                    {
+                        "key": "overload_half_width",
+                        "value": 6.0
+                    },
+                    {
+                        "key": "projectile_range",
+                        "value": 0.5
+                    },
+                    {
+                        "key": "range_radius",
+                        "value": 1.5
+                    },
+                    {
+                        "key": "random_birth_delay",
+                        "value": 0.0
+                    },
+                    {
+                        "key": "wave_exit_distance",
+                        "value": 5.0
+                    },
+                    {
+                        "key": "same_wave_repeat_damage_scale",
+                        "value": 0.15
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "overdrive",
+            "aspd_unrelated",
+            "ailment_but_skill_cont",
+            "skill_manual_off"
+        ],
+        "blackboard": []
     }
 }
