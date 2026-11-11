@@ -81,13 +81,11 @@
           "blackboard": [
             {
               "key": "max_hp",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             },
             {
               "key": "atk",
-              "value": 0.25,
-              "valueStr": null
+              "value": 0.25
             }
           ]
         },
@@ -106,28 +104,23 @@
             },
             {
               "key": "physical",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             },
             {
               "key": "magical",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             },
             {
               "key": "damage_resistance",
-              "value": 0.9,
-              "valueStr": null
+              "value": 0.9
             },
             {
               "key": "block_time",
-              "value": 40.0,
-              "valueStr": null
+              "value": 40.0
             },
             {
               "key": "damage_scale[decay].decay_time",
-              "value": 5.0,
-              "valueStr": null
+              "value": 5.0
             }
           ]
         },
@@ -136,8 +129,7 @@
           "blackboard": [
             {
               "key": "value",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             }
           ]
         },
@@ -151,8 +143,7 @@
             },
             {
               "key": "reborn.patrt_t_state_2[reborn_invincible].duration",
-              "value": 10.0,
-              "valueStr": null
+              "value": 10.0
             }
           ]
         },
@@ -171,8 +162,7 @@
             },
             {
               "key": "atk_scale",
-              "value": 0.14,
-              "valueStr": null
+              "value": 0.14
             }
           ]
         },
@@ -201,8 +191,7 @@
             },
             {
               "key": "atk_scale",
-              "value": 0.45,
-              "valueStr": null
+              "value": 0.45
             }
           ]
         }
@@ -240,8 +229,7 @@
           "blackboard": [
             {
               "key": "atk",
-              "value": 1.4,
-              "valueStr": null
+              "value": 1.4
             },
             {
               "key": "enemy_level_type",
@@ -250,13 +238,11 @@
             },
             {
               "key": "def",
-              "value": 1.4,
-              "valueStr": null
+              "value": 1.4
             },
             {
               "key": "max_hp",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             }
           ]
         }
@@ -290,8 +276,7 @@
           "blackboard": [
             {
               "key": "max_hp",
-              "value": 1.5,
-              "valueStr": null
+              "value": 1.5
             },
             {
               "key": "enemy_level_type",
@@ -305,8 +290,7 @@
           "blackboard": [
             {
               "key": "attack_speed",
-              "value": 50.0,
-              "valueStr": null
+              "value": 50.0
             },
             {
               "key": "enemy_level_type",
@@ -388,8 +372,7 @@
             },
             {
               "key": "max_hp",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             }
           ]
         },
@@ -408,58 +391,47 @@
             },
             {
               "key": "respawn_cnt",
-              "value": 0.0,
-              "valueStr": null
+              "value": 0.0
             },
             {
               "key": "cold_immune",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             },
             {
               "key": "disarmed_combat_immune",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             },
             {
               "key": "feared_immune",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             },
             {
               "key": "levitate_immune",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             },
             {
               "key": "stun_immune",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             },
             {
               "key": "unmovable_immune",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             },
             {
               "key": "sluggish_immune",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             },
             {
               "key": "attracted_immune",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             },
             {
               "key": "sleep_immune",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             },
             {
               "key": "frozen_immune",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             }
           ]
         },
@@ -478,13 +450,11 @@
             },
             {
               "key": "respawn_time",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             },
             {
               "key": "show_toast",
-              "value": 0.0,
-              "valueStr": null
+              "value": 0.0
             }
           ]
         },
@@ -540,8 +510,7 @@
           "blackboard": [
             {
               "key": "max_hp",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             },
             {
               "key": "enemy",
@@ -550,8 +519,7 @@
             },
             {
               "key": "atk",
-              "value": 0.5,
-              "valueStr": null
+              "value": 0.5
             }
           ]
         },
@@ -560,8 +528,7 @@
           "blackboard": [
             {
               "key": "attack_speed",
-              "value": 70.0,
-              "valueStr": null
+              "value": 70.0
             },
             {
               "key": "enemy",
@@ -595,8 +562,7 @@
           "blackboard": [
             {
               "key": "move_speed",
-              "value": 1.4,
-              "valueStr": null
+              "value": 1.4
             }
           ]
         }
@@ -611,8 +577,7 @@
           "blackboard": [
             {
               "key": "value",
-              "value": 7.0,
-              "valueStr": null
+              "value": 7.0
             }
           ]
         }
@@ -627,8 +592,7 @@
           "blackboard": [
             {
               "key": "max_hp",
-              "value": -1500.0,
-              "valueStr": null
+              "value": -1500.0
             }
           ]
         }
@@ -700,8 +664,7 @@
             },
             {
               "key": "atk",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             }
           ]
         }
@@ -773,8 +736,7 @@
             },
             {
               "key": "atk",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             }
           ]
         }
@@ -838,8 +800,7 @@
           "blackboard": [
             {
               "key": "max_hp",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             },
             {
               "key": "enemy",
@@ -848,13 +809,11 @@
             },
             {
               "key": "atk",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             },
             {
               "key": "def",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             }
           ]
         }
@@ -918,8 +877,7 @@
           "blackboard": [
             {
               "key": "max_hp",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             },
             {
               "key": "enemy",
@@ -928,13 +886,11 @@
             },
             {
               "key": "atk",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             },
             {
               "key": "def",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             }
           ]
         }
@@ -949,8 +905,7 @@
           "blackboard": [
             {
               "key": "attack_speed",
-              "value": -40.0,
-              "valueStr": null
+              "value": -40.0
             }
           ]
         }
@@ -965,8 +920,7 @@
           "blackboard": [
             {
               "key": "attack_speed",
-              "value": -60.0,
-              "valueStr": null
+              "value": -60.0
             }
           ]
         }
@@ -1097,8 +1051,7 @@
             },
             {
               "key": "max_hp",
-              "value": 10.0,
-              "valueStr": null
+              "value": 10.0
             }
           ]
         },
@@ -1107,13 +1060,11 @@
           "blackboard": [
             {
               "key": "max_hp",
-              "value": 1.8,
-              "valueStr": null
+              "value": 1.8
             },
             {
               "key": "atk",
-              "value": 1.4,
-              "valueStr": null
+              "value": 1.4
             }
           ]
         },
@@ -1127,8 +1078,7 @@
             },
             {
               "key": "def",
-              "value": 800.0,
-              "valueStr": null
+              "value": 800.0
             }
           ]
         },
@@ -1142,8 +1092,7 @@
             },
             {
               "key": "max_hp",
-              "value": 4.0,
-              "valueStr": null
+              "value": 4.0
             }
           ]
         },
@@ -1167,8 +1116,7 @@
           "blackboard": [
             {
               "key": "atk",
-              "value": 0.5,
-              "valueStr": null
+              "value": 0.5
             }
           ]
         },
@@ -1177,8 +1125,7 @@
           "blackboard": [
             {
               "key": "attack_speed",
-              "value": -50.0,
-              "valueStr": null
+              "value": -50.0
             }
           ]
         }
@@ -1213,8 +1160,7 @@
           "blackboard": [
             {
               "key": "scale",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             }
           ]
         }
@@ -1285,8 +1231,7 @@
             },
             {
               "key": "max_hp",
-              "value": 1.5,
-              "valueStr": null
+              "value": 1.5
             }
           ]
         }
@@ -1436,8 +1381,7 @@
           "blackboard": [
             {
               "key": "move_speed",
-              "value": 1.4,
-              "valueStr": null
+              "value": 1.4
             }
           ]
         }
@@ -1465,8 +1409,7 @@
           "blackboard": [
             {
               "key": "max_hp",
-              "value": 1.4,
-              "valueStr": null
+              "value": 1.4
             }
           ]
         }
@@ -1494,8 +1437,7 @@
           "blackboard": [
             {
               "key": "max_hp",
-              "value": 1.8,
-              "valueStr": null
+              "value": 1.8
             }
           ]
         }
@@ -1555,8 +1497,7 @@
             },
             {
               "key": "mass_level",
-              "value": 3.0,
-              "valueStr": null
+              "value": 3.0
             }
           ]
         },
@@ -1604,8 +1545,7 @@
             },
             {
               "key": "mass_level",
-              "value": 3.0,
-              "valueStr": null
+              "value": 3.0
             }
           ]
         },
@@ -1619,8 +1559,7 @@
             },
             {
               "key": "max_hp",
-              "value": 1.8,
-              "valueStr": null
+              "value": 1.8
             }
           ]
         }
@@ -1675,8 +1614,7 @@
           "blackboard": [
             {
               "key": "defup.def",
-              "value": 600.0,
-              "valueStr": null
+              "value": 600.0
             },
             {
               "key": "enemy",
@@ -1695,8 +1633,7 @@
             },
             {
               "key": "magic_resistance",
-              "value": 50.0,
-              "valueStr": null
+              "value": 50.0
             }
           ]
         }
@@ -1751,8 +1688,7 @@
           "blackboard": [
             {
               "key": "magdef_add.magic_resistance",
-              "value": 40.0,
-              "valueStr": null
+              "value": 40.0
             },
             {
               "key": "enemy",
@@ -1771,8 +1707,7 @@
             },
             {
               "key": "def",
-              "value": 900.0,
-              "valueStr": null
+              "value": 900.0
             }
           ]
         }
@@ -1929,13 +1864,11 @@
           "blackboard": [
             {
               "key": "atk",
-              "value": -0.3,
-              "valueStr": null
+              "value": -0.3
             },
             {
               "key": "max_hp",
-              "value": -0.3,
-              "valueStr": null
+              "value": -0.3
             }
           ]
         },
@@ -1949,13 +1882,11 @@
             },
             {
               "key": "max_hp",
-              "value": 3.0,
-              "valueStr": null
+              "value": 3.0
             },
             {
               "key": "atk",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             }
           ]
         },
@@ -1964,8 +1895,7 @@
           "blackboard": [
             {
               "key": "taunt_level",
-              "value": -2.0,
-              "valueStr": null
+              "value": -2.0
             },
             {
               "key": "char",
@@ -1984,8 +1914,7 @@
             },
             {
               "key": "max_hp",
-              "value": 7.0,
-              "valueStr": null
+              "value": 7.0
             }
           ]
         },
@@ -1999,8 +1928,7 @@
             },
             {
               "key": "move_speed",
-              "value": 4.0,
-              "valueStr": null
+              "value": 4.0
             }
           ]
         },
@@ -2024,13 +1952,11 @@
             },
             {
               "key": "def",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             },
             {
               "key": "max_hp",
-              "value": 3.0,
-              "valueStr": null
+              "value": 3.0
             }
           ]
         },
@@ -2044,8 +1970,7 @@
             },
             {
               "key": "max_hp",
-              "value": 3.0,
-              "valueStr": null
+              "value": 3.0
             }
           ]
         },
@@ -2054,8 +1979,7 @@
           "blackboard": [
             {
               "key": "value",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             }
           ]
         }
@@ -2075,8 +1999,7 @@
             },
             {
               "key": "buildable_type",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             }
           ]
         },
@@ -2095,13 +2018,11 @@
             },
             {
               "key": "interval",
-              "value": 3.0,
-              "valueStr": null
+              "value": 3.0
             },
             {
               "key": "cost",
-              "value": -3.0,
-              "valueStr": null
+              "value": -3.0
             }
           ]
         }
@@ -2121,15 +2042,14 @@
             },
             {
               "key": "buildable_type",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             }
           ]
         }
       ]
     },
     "enemy_speed_a": {
-      "desc": "所有敌人移动速度提升<@recalrune.nag>60%</>，且生命值<@recalrune.nag>+{max_hp:0%}</>",
+      "desc": "所有敌人移动速度提升<@recalrune.nag>60%</>，且生命值<@recalrune.nag>+70%</>",
       "mods": [
         {
           "targets": [
@@ -2156,8 +2076,7 @@
           "blackboard": [
             {
               "key": "move_speed",
-              "value": 1.6,
-              "valueStr": null
+              "value": 1.6
             }
           ]
         },
@@ -2166,15 +2085,14 @@
           "blackboard": [
             {
               "key": "max_hp",
-              "value": 0.7,
-              "valueStr": null
+              "value": 0.7
             }
           ]
         }
       ]
     },
     "enemy_speed_b": {
-      "desc": "所有敌人移动速度降低<@recalrune.pos>40%</>，但生命值<@recalrune.nag>+{max_hp:0%}</>，攻击力<@recalrune.nag>+{atk:0%}</>",
+      "desc": "所有敌人移动速度降低<@recalrune.pos>40%</>，但生命值<@recalrune.nag>+200%</>，攻击力<@recalrune.nag>+70%</>",
       "mods": [
         {
           "targets": [
@@ -2207,8 +2125,7 @@
           "blackboard": [
             {
               "key": "move_speed",
-              "value": 0.6,
-              "valueStr": null
+              "value": 0.6
             }
           ]
         },
@@ -2217,13 +2134,11 @@
           "blackboard": [
             {
               "key": "max_hp",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             },
             {
               "key": "atk",
-              "value": 0.7,
-              "valueStr": null
+              "value": 0.7
             }
           ]
         }
@@ -2315,7 +2230,7 @@
       ]
     },
     "emppnt_level_up_2": {
-      "desc": "出现额外的<帝国炮火中枢先兆者>，且<帝国炮火中枢先兆者>的防御力<@recalrune.nag>+{def:0%}</>，攻击力<@recalrune.nag>+{atk:0%}</>，生命值<@recalrune.nag>+{max_hp:0%}</>",
+      "desc": "出现额外的<帝国炮火中枢先兆者>，且<帝国炮火中枢先兆者>的防御力<@recalrune.nag>+100%</>，攻击力<@recalrune.nag>+100%</>，生命值<@recalrune.nag>+200%</>",
       "mods": [
         {
           "targets": [
@@ -2366,18 +2281,15 @@
             },
             {
               "key": "def",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             },
             {
               "key": "atk",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             },
             {
               "key": "max_hp",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             }
           ]
         },
@@ -2394,7 +2306,7 @@
       ]
     },
     "airforce_frost_2": {
-      "desc": "<寒霜>受到攻击范围外的伤害降低<@recalrune.nag>{damage_resistance:0%}</>，且生命值<@recalrune.nag>+{max_hp:0%}</>",
+      "desc": "<寒霜>受到攻击范围外的伤害降低<@recalrune.nag>70%</>，且生命值<@recalrune.nag>+300%</>",
       "mods": [
         {
           "targets": [
@@ -2426,23 +2338,19 @@
             },
             {
               "key": "physical",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             },
             {
               "key": "magical",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             },
             {
               "key": "damage_resistance",
-              "value": 0.7,
-              "valueStr": null
+              "value": 0.7
             },
             {
               "key": "range_radius",
-              "value": 2.5,
-              "valueStr": null
+              "value": 2.5
             }
           ]
         },
@@ -2456,15 +2364,14 @@
             },
             {
               "key": "max_hp",
-              "value": 3.0,
-              "valueStr": null
+              "value": 3.0
             }
           ]
         }
       ]
     },
     "airforce_lazerd_2": {
-      "desc": "<法术大师A1>和<法术大师A2>的生命值<@recalrune.nag>+{max_hp:0%}</>，攻击力<@recalrune.nag>+{atk:0%}</>，防御力<@recalrune.nag>+{def:0%}</>",
+      "desc": "<法术大师A1>和<法术大师A2>的生命值<@recalrune.nag>+300%</>，攻击力<@recalrune.nag>+200%</>，防御力<@recalrune.nag>+200%</>",
       "mods": [
         {
           "targets": [
@@ -2504,18 +2411,15 @@
             },
             {
               "key": "max_hp",
-              "value": 3.0,
-              "valueStr": null
+              "value": 3.0
             },
             {
               "key": "atk",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             },
             {
               "key": "def",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             }
           ]
         }
@@ -2530,15 +2434,14 @@
           "blackboard": [
             {
               "key": "scale",
-              "value": 1.75,
-              "valueStr": null
+              "value": 1.75
             }
           ]
         }
       ]
     },
     "tyokai_immue_3": {
-      "desc": "<豪华赞助无人机><@recalrune.nag>免疫</>沉睡，冻结和晕眩，且生命值<@recalrune.nag>+{max_hp:0%}</>",
+      "desc": "<豪华赞助无人机><@recalrune.nag>免疫</>沉睡，冻结和晕眩，且生命值<@recalrune.nag>+350%</>",
       "mods": [
         {
           "targets": [
@@ -2588,8 +2491,7 @@
             },
             {
               "key": "sleeping",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             }
           ]
         },
@@ -2618,15 +2520,14 @@
             },
             {
               "key": "max_hp",
-              "value": 3.5,
-              "valueStr": null
+              "value": 3.5
             }
           ]
         }
       ]
     },
     "tyokai_fightback_3": {
-      "desc": "<豪华赞助无人机>的攻击力<@recalrune.nag>+{atk:0}</>，生命值<@recalrune.nag>+{max_hp:0%}</>，且受到物理和法术伤害时对目标造成相当于攻击力<@recalrune.nag>{atk_scale:0%}</>的法术伤害",
+      "desc": "<豪华赞助无人机>的攻击力<@recalrune.nag>+500</>，生命值<@recalrune.nag>+100%</>，且受到物理和法术伤害时对目标造成相当于攻击力<@recalrune.nag>60%</>的法术伤害",
       "mods": [
         {
           "targets": [
@@ -2679,13 +2580,11 @@
             },
             {
               "key": "atk_scale",
-              "value": 0.6,
-              "valueStr": null
+              "value": 0.6
             },
             {
               "key": "type",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             }
           ]
         },
@@ -2699,8 +2598,7 @@
             },
             {
               "key": "atk",
-              "value": 500.0,
-              "valueStr": null
+              "value": 500.0
             }
           ]
         },
@@ -2714,15 +2612,14 @@
             },
             {
               "key": "max_hp",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             }
           ]
         }
       ]
     },
     "enemy_attri_base_2": {
-      "desc": "所有敌人生命值提升至<@recalrune.nag>{max_hp:0%}</>，防御力提升至<@recalrune.nag>{def:0%}</>",
+      "desc": "所有敌人生命值提升至<@recalrune.nag>200%</>，防御力提升至<@recalrune.nag>160%</>",
       "mods": [
         {
           "targets": [
@@ -2748,20 +2645,18 @@
           "blackboard": [
             {
               "key": "max_hp",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             },
             {
               "key": "def",
-              "value": 1.6,
-              "valueStr": null
+              "value": 1.6
             }
           ]
         }
       ]
     },
     "enemy_attri_atk_2": {
-      "desc": "所有敌人攻击力提升至<@recalrune.nag>{atk:0%}</>",
+      "desc": "所有敌人攻击力提升至<@recalrune.nag>200%</>",
       "mods": [
         {
           "targets": [
@@ -2782,15 +2677,14 @@
           "blackboard": [
             {
               "key": "atk",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             }
           ]
         }
       ]
     },
     "global_magic_resist_2": {
-      "desc": "所有敌人法术抗性<@recalrune.nag>+{magic_resistance:0}</>，生命值提升至<@recalrune.nag>{max_hp:0%}</>",
+      "desc": "所有敌人法术抗性<@recalrune.nag>+30</>，生命值提升至<@recalrune.nag>130%</>",
       "mods": [
         {
           "targets": [
@@ -2817,8 +2711,7 @@
           "blackboard": [
             {
               "key": "magic_resistance",
-              "value": 30.0,
-              "valueStr": null
+              "value": 30.0
             }
           ]
         },
@@ -2827,15 +2720,14 @@
           "blackboard": [
             {
               "key": "max_hp",
-              "value": 1.3,
-              "valueStr": null
+              "value": 1.3
             }
           ]
         }
       ]
     },
     "defdrn_up_2": {
-      "desc": "<御4>的生命值<@recalrune.nag>+{max_hp:0%}</>，提供的防御力加成额外<@recalrune.nag>+{defup.def}</>",
+      "desc": "<御4>的生命值<@recalrune.nag>+500%</>，提供的防御力加成额外<@recalrune.nag>+1500</>",
       "mods": [
         {
           "targets": [
@@ -2862,8 +2754,7 @@
           "blackboard": [
             {
               "key": "defup.def",
-              "value": 1500.0,
-              "valueStr": null
+              "value": 1500.0
             },
             {
               "key": "enemy",
@@ -2882,15 +2773,14 @@
             },
             {
               "key": "max_hp",
-              "value": 5.0,
-              "valueStr": null
+              "value": 5.0
             }
           ]
         }
       ]
     },
     "emppnt_more_2": {
-      "desc": "场上初始额外出现的一个<寒霜>替换为<帝国炮火中枢先兆者>，且<帝国炮火中枢先兆者>的生命值<@recalrune.nag>+{max_hp:0%}</>",
+      "desc": "场上初始额外出现的一个<寒霜>替换为<帝国炮火中枢先兆者>，且<帝国炮火中枢先兆者>的生命值<@recalrune.nag>+100%</>",
       "mods": [
         {
           "targets": [
@@ -2954,15 +2844,14 @@
             },
             {
               "key": "max_hp",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             }
           ]
         }
       ]
     },
     "lunmag_strong_2": {
-      "desc": "场上初始出现<特战术师组长>，且<特战术师组长>最大生命值提升至<@recalrune.nag>{max_hp}倍</>，防御力提升至<@recalrune.nag>{def}倍</>，攻击力提升至<@recalrune.nag>{atk}倍</>，攻击范围<@recalrune.nag>扩大</>",
+      "desc": "场上初始出现<特战术师组长>，且<特战术师组长>最大生命值提升至<@recalrune.nag>3倍</>，防御力提升至<@recalrune.nag>2倍</>，攻击力提升至<@recalrune.nag>1.3倍</>，攻击范围<@recalrune.nag>扩大</>",
       "mods": [
         {
           "targets": [
@@ -3015,18 +2904,15 @@
             },
             {
               "key": "max_hp",
-              "value": 3.0,
-              "valueStr": null
+              "value": 3.0
             },
             {
               "key": "def",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             },
             {
               "key": "atk",
-              "value": 1.3,
-              "valueStr": null
+              "value": 1.3
             }
           ]
         },
@@ -3050,8 +2936,7 @@
             },
             {
               "key": "scale",
-              "value": 1.5,
-              "valueStr": null
+              "value": 1.5
             }
           ]
         }
@@ -3066,8 +2951,7 @@
           "blackboard": [
             {
               "key": "scale",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             }
           ]
         }
@@ -3082,15 +2966,14 @@
           "blackboard": [
             {
               "key": "scale",
-              "value": 4.0,
-              "valueStr": null
+              "value": 4.0
             }
           ]
         }
       ]
     },
     "global_squadnum_2": {
-      "desc": "最多可编入<@recalrune.nag>{value}</>名干员进入作战",
+      "desc": "最多可编入<@recalrune.nag>7</>名干员进入作战",
       "mods": [],
       "runes": [
         {
@@ -3098,8 +2981,7 @@
           "blackboard": [
             {
               "key": "value",
-              "value": 7.0,
-              "valueStr": null
+              "value": 7.0
             }
           ]
         }
@@ -3114,8 +2996,7 @@
           "blackboard": [
             {
               "key": "value",
-              "value": -4.0,
-              "valueStr": null
+              "value": -4.0
             }
           ]
         }
@@ -3130,8 +3011,7 @@
           "blackboard": [
             {
               "key": "scale",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             }
           ]
         }
@@ -3146,8 +3026,7 @@
           "blackboard": [
             {
               "key": "scale",
-              "value": 3.0,
-              "valueStr": null
+              "value": 3.0
             }
           ]
         }
@@ -3162,8 +3041,7 @@
           "blackboard": [
             {
               "key": "scale",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             }
           ]
         }
@@ -3178,8 +3056,7 @@
           "blackboard": [
             {
               "key": "scale",
-              "value": 3.0,
-              "valueStr": null
+              "value": 3.0
             }
           ]
         }
@@ -3246,13 +3123,11 @@
           "blackboard": [
             {
               "key": "max_hp",
-              "value": 0.8,
-              "valueStr": null
+              "value": 0.8
             },
             {
               "key": "atk",
-              "value": 0.6,
-              "valueStr": null
+              "value": 0.6
             }
           ]
         },
@@ -3261,8 +3136,7 @@
           "blackboard": [
             {
               "key": "atk",
-              "value": -0.4,
-              "valueStr": null
+              "value": -0.4
             }
           ]
         },
@@ -3271,8 +3145,7 @@
           "blackboard": [
             {
               "key": "max_hp",
-              "value": -0.4,
-              "valueStr": null
+              "value": -0.4
             }
           ]
         },
@@ -3281,8 +3154,7 @@
           "blackboard": [
             {
               "key": "def",
-              "value": 400.0,
-              "valueStr": null
+              "value": 400.0
             }
           ]
         },
@@ -3309,7 +3181,7 @@
       ]
     },
     "enemy_dufrbl_a": {
-      "desc": "<净浊之焰>造成的伤害提升至<@recalrune.nag>{atk:0%}</>，我方防御点可承受的敌方数量变为<@recalrune.nag>1</>",
+      "desc": "<净浊之焰>造成的伤害提升至<@recalrune.nag>200%</>，我方防御点可承受的敌方数量变为<@recalrune.nag>1</>",
       "mods": [
         {
           "targets": [
@@ -3335,8 +3207,7 @@
             },
             {
               "key": "atk",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             }
           ]
         },
@@ -3345,15 +3216,14 @@
           "blackboard": [
             {
               "key": "value",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             }
           ]
         }
       ]
     },
     "enemy_dufrbl_b": {
-      "desc": "<净浊之焰>造成的伤害降低至<@recalrune.pos>{atk:0%}</>，但是进入目标点后会<@recalrune.nag>扣除1点目标生命值</>",
+      "desc": "<净浊之焰>造成的伤害降低至<@recalrune.pos>40%</>，但是进入目标点后会<@recalrune.nag>扣除1点目标生命值</>",
       "mods": [
         {
           "targets": [
@@ -3389,8 +3259,7 @@
             },
             {
               "key": "value",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             }
           ]
         },
@@ -3404,8 +3273,7 @@
             },
             {
               "key": "atk",
-              "value": 0.4,
-              "valueStr": null
+              "value": 0.4
             }
           ]
         }
@@ -3434,8 +3302,7 @@
           "blackboard": [
             {
               "key": "def",
-              "value": 1200.0,
-              "valueStr": null
+              "value": 1200.0
             },
             {
               "key": "enemy_level_type",
@@ -3574,8 +3441,7 @@
             },
             {
               "key": "magic_resistance",
-              "value": 70.0,
-              "valueStr": null
+              "value": 70.0
             }
           ]
         },
@@ -3594,8 +3460,7 @@
             },
             {
               "key": "magic_resistance",
-              "value": 70.0,
-              "valueStr": null
+              "value": 70.0
             }
           ]
         },
@@ -3614,8 +3479,7 @@
             },
             {
               "key": "magic_resistance",
-              "value": 70.0,
-              "valueStr": null
+              "value": 70.0
             }
           ]
         },
@@ -3624,15 +3488,14 @@
           "blackboard": [
             {
               "key": "magic_resistance",
-              "value": 30.0,
-              "valueStr": null
+              "value": 30.0
             }
           ]
         }
       ]
     },
     "enemy_duholydushdo_a_3": {
-      "desc": "出现额外的<深池伙友卫队精英>和<深池伙友影刃精英>，<深池伙友卫队精英>的最大生命值<@recalrune.nag>+{max_hp:0%}</>，防御力<@recalrune.nag>+{def}</>；<深池伙友影刃精英>的攻击力<@recalrune.nag>+100%</>，最大生命值<@recalrune.nag>+80%</>",
+      "desc": "出现额外的<深池伙友卫队精英>和<深池伙友影刃精英>，<深池伙友卫队精英>的最大生命值<@recalrune.nag>+150%</>，防御力<@recalrune.nag>+600</>；<深池伙友影刃精英>的攻击力<@recalrune.nag>+100%</>，最大生命值<@recalrune.nag>+80%</>",
       "mods": [
         {
           "targets": [
@@ -3715,8 +3578,7 @@
             },
             {
               "key": "max_hp",
-              "value": 1.5,
-              "valueStr": null
+              "value": 1.5
             }
           ]
         },
@@ -3730,8 +3592,7 @@
             },
             {
               "key": "def",
-              "value": 600.0,
-              "valueStr": null
+              "value": 600.0
             }
           ]
         },
@@ -3745,13 +3606,11 @@
             },
             {
               "key": "atk",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             },
             {
               "key": "max_hp",
-              "value": 0.8,
-              "valueStr": null
+              "value": 0.8
             }
           ]
         },
@@ -3778,7 +3637,7 @@
       ]
     },
     "enemy_duholydushdo_b_3": {
-      "desc": "出现额外的<深池伙友卫队精英>和<深池伙友影刃精英>，且两者靠近时，<深池伙友卫队精英>激活力场使周围我方攻击速度额外<@recalrune.nag>{traitAbility.attack_speed}</>，<深池伙友影刃精英>的攻击速度进一步<@recalrune.nag>提升</>",
+      "desc": "出现额外的<深池伙友卫队精英>和<深池伙友影刃精英>，且两者靠近时，<深池伙友卫队精英>激活力场使周围我方攻击速度额外<@recalrune.nag>-60</>，<深池伙友影刃精英>的攻击速度进一步<@recalrune.nag>提升(-0.3)</>",
       "mods": [
         {
           "targets": [
@@ -3836,8 +3695,7 @@
             },
             {
               "key": "traitAbility.base_attack_time",
-              "value": -0.3,
-              "valueStr": null
+              "value": -0.3
             }
           ]
         },
@@ -3851,8 +3709,7 @@
             },
             {
               "key": "traitAbility.attack_speed",
-              "value": -60.0,
-              "valueStr": null
+              "value": -60.0
             }
           ]
         },
@@ -3879,7 +3736,7 @@
       ]
     },
     "enemy_duphlx_b_2": {
-      "desc": "出现<深池方阵指挥官>，<深池方阵指挥官>的攻击力<@recalrune.nag>+{atk:0%}</>，最大生命值<@recalrune.nag>+{max_hp:0%}</>，其他<深池方阵指挥官>位于附近时，防御力额外<@recalrune.nag>+{auraDefup.def}</>",
+      "desc": "出现<深池方阵指挥官>，<深池方阵指挥官>的攻击力<@recalrune.nag>+40%</>，最大生命值<@recalrune.nag>+100%</>，其他<深池方阵指挥官>位于附近时，防御力额外<@recalrune.nag>+1000</>",
       "mods": [
         {
           "targets": [
@@ -3934,8 +3791,7 @@
             },
             {
               "key": "auraDefup.def",
-              "value": 1000.0,
-              "valueStr": null
+              "value": 1000.0
             }
           ]
         },
@@ -3949,13 +3805,11 @@
             },
             {
               "key": "atk",
-              "value": 0.4,
-              "valueStr": null
+              "value": 0.4
             },
             {
               "key": "max_hp",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             }
           ]
         },
@@ -3993,8 +3847,7 @@
           "blackboard": [
             {
               "key": "move_speed",
-              "value": 1.5,
-              "valueStr": null
+              "value": 1.5
             }
           ]
         }
@@ -4030,7 +3883,7 @@
       ]
     },
     "trap_dupilr_2": {
-      "desc": "<破碎支柱>初始位置改变且最大生命值提升至<@recalrune.nag>{max_hp:0%}</>，防御力<@recalrune.nag>+{def}</>，并且地图右侧初始存在<深池焚毁队长>",
+      "desc": "<破碎支柱>初始位置改变且最大生命值提升至<@recalrune.nag>500%</>，防御力<@recalrune.nag>+800</>，并且地图右侧初始存在<深池焚毁队长>",
       "mods": [
         {
           "targets": [
@@ -4125,8 +3978,7 @@
             },
             {
               "key": "max_hp",
-              "value": 5.0,
-              "valueStr": null
+              "value": 5.0
             }
           ]
         },
@@ -4140,8 +3992,7 @@
             },
             {
               "key": "def",
-              "value": 800.0,
-              "valueStr": null
+              "value": 800.0
             }
           ]
         },
@@ -4197,7 +4048,7 @@
       ]
     },
     "enemy_atk_2": {
-      "desc": "所有敌人的攻击力<@recalrune.nag>+{atk:0%}</>",
+      "desc": "所有敌人的攻击力<@recalrune.nag>+60%</>",
       "mods": [
         {
           "targets": [
@@ -4219,15 +4070,14 @@
           "blackboard": [
             {
               "key": "atk",
-              "value": 0.6,
-              "valueStr": null
+              "value": 0.6
             }
           ]
         }
       ]
     },
     "enemy_atk_3": {
-      "desc": "所有敌人的攻击力<@recalrune.nag>+{atk:0%}</>",
+      "desc": "所有敌人的攻击力<@recalrune.nag>+80%</>",
       "mods": [
         {
           "targets": [
@@ -4249,15 +4099,14 @@
           "blackboard": [
             {
               "key": "atk",
-              "value": 0.8,
-              "valueStr": null
+              "value": 0.8
             }
           ]
         }
       ]
     },
     "enemy_duspfr_a_3": {
-      "desc": "<深池焚毁者队长>最大生命值<@recalrune.nag>+{max_hp:0%}</>，技能持续时间增加至<@recalrune.nag>{duspfr_flame[cd].duration:0%}</>，造成的法术伤害增加至<@recalrune.nag>{atk_scale:0%}</>",
+      "desc": "<深池焚毁者队长>最大生命值<@recalrune.nag>+100%</>，技能持续时间增加至<@recalrune.nag>150%</>，造成的法术伤害增加至<@recalrune.nag>250%</>",
       "mods": [
         {
           "targets": [
@@ -4302,13 +4151,11 @@
             },
             {
               "key": "duspfr_flame[cd].duration",
-              "value": 1.5,
-              "valueStr": null
+              "value": 1.5
             },
             {
               "key": "atk_scale",
-              "value": 2.5,
-              "valueStr": null
+              "value": 2.5
             }
           ]
         },
@@ -4322,15 +4169,14 @@
             },
             {
               "key": "max_hp",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             }
           ]
         }
       ]
     },
     "enemy_duspfr_b_3": {
-      "desc": "<深池焚毁者队长>最大生命值<@recalrune.nag>+{max_hp:0%}</>，死亡时爆炸伤害增加至<@recalrune.nag>{atk_scale:0%}</>",
+      "desc": "<深池焚毁者队长>最大生命值<@recalrune.nag>+200%</>，死亡时爆炸伤害增加至<@recalrune.nag>300%</>",
       "mods": [
         {
           "targets": [
@@ -4369,8 +4215,7 @@
             },
             {
               "key": "max_hp",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             }
           ]
         },
@@ -4389,15 +4234,14 @@
             },
             {
               "key": "atk_scale",
-              "value": 3.0,
-              "valueStr": null
+              "value": 3.0
             }
           ]
         }
       ]
     },
     "char_exclude_medsip_2": {
-      "desc": "医疗和狙击干员的部署费用提升至<@recalrune.nag>{scale}</>倍",
+      "desc": "医疗和狙击干员的部署费用提升至<@recalrune.nag>2</>倍",
       "mods": [],
       "runes": [
         {
@@ -4405,8 +4249,7 @@
           "blackboard": [
             {
               "key": "scale",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             }
           ]
         }
@@ -4423,7 +4266,7 @@
       ]
     },
     "char_exclude_magshel_2": {
-      "desc": "辅助和特种干员的部署费用提升至<@recalrune.nag>{scale}</>倍",
+      "desc": "辅助和特种干员的部署费用提升至<@recalrune.nag>2</>倍",
       "mods": [],
       "runes": [
         {
@@ -4431,8 +4274,7 @@
           "blackboard": [
             {
               "key": "scale",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             }
           ]
         }
@@ -4520,8 +4362,7 @@
             },
             {
               "key": "damage",
-              "value": 50.0,
-              "valueStr": null
+              "value": 50.0
             }
           ]
         },
@@ -4530,8 +4371,7 @@
           "blackboard": [
             {
               "key": "value",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             }
           ]
         },
@@ -4550,8 +4390,7 @@
           "blackboard": [
             {
               "key": "max_hp",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             }
           ]
         }
@@ -4635,8 +4474,7 @@
             },
             {
               "key": "scale",
-              "value": 0.5,
-              "valueStr": null
+              "value": 0.5
             }
           ]
         },
@@ -4655,8 +4493,7 @@
             },
             {
               "key": "atk_scale",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             }
           ]
         }
@@ -4706,8 +4543,7 @@
             },
             {
               "key": "damage",
-              "value": 50.0,
-              "valueStr": null
+              "value": 50.0
             }
           ]
         },
@@ -4721,8 +4557,7 @@
             },
             {
               "key": "poison_trigger_giver.smephi_poison_trigger.duration",
-              "value": 1.5,
-              "valueStr": null
+              "value": 1.5
             }
           ]
         }
@@ -4756,13 +4591,11 @@
             },
             {
               "key": "reborn.smephi_suicide_after_buff.duration",
-              "value": 0.3,
-              "valueStr": null
+              "value": 0.3
             },
             {
               "key": "reborn.smephi_heal[sheild].value",
-              "value": 10.0,
-              "valueStr": null
+              "value": 10.0
             }
           ]
         }
@@ -4860,23 +4693,19 @@
             },
             {
               "key": "rage_aura.atk",
-              "value": 0.2,
-              "valueStr": null
+              "value": 0.2
             },
             {
               "key": "rage_aura.attack_speed",
-              "value": 20.0,
-              "valueStr": null
+              "value": 20.0
             },
             {
               "key": "rage_aura_state_3.atk",
-              "value": 0.4,
-              "valueStr": null
+              "value": 0.4
             },
             {
               "key": "rage_aura_state_3.attack_speed",
-              "value": 40.0,
-              "valueStr": null
+              "value": 40.0
             }
           ]
         }
@@ -4923,8 +4752,7 @@
           "blackboard": [
             {
               "key": "move_speed",
-              "value": 0.5,
-              "valueStr": null
+              "value": 0.5
             }
           ]
         },
@@ -4938,33 +4766,27 @@
             },
             {
               "key": "cooldown_0",
-              "value": 0.7,
-              "valueStr": null
+              "value": 0.7
             },
             {
               "key": "cooldown_1",
-              "value": 0.7,
-              "valueStr": null
+              "value": 0.7
             },
             {
               "key": "cooldown_2",
-              "value": 0.7,
-              "valueStr": null
+              "value": 0.7
             },
             {
               "key": "cooldown_3",
-              "value": 0.7,
-              "valueStr": null
+              "value": 0.7
             },
             {
               "key": "cooldown_4",
-              "value": 0.7,
-              "valueStr": null
+              "value": 0.7
             },
             {
               "key": "cooldown_5",
-              "value": 0.7,
-              "valueStr": null
+              "value": 0.7
             },
             {
               "key": "skill",
@@ -5031,13 +4853,11 @@
             },
             {
               "key": "max_hp",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             },
             {
               "key": "atk",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             }
           ]
         }
@@ -5076,8 +4896,7 @@
             },
             {
               "key": "atk",
-              "value": 1.5,
-              "valueStr": null
+              "value": 1.5
             }
           ]
         },
@@ -5091,8 +4910,7 @@
             },
             {
               "key": "scale",
-              "value": 0.5,
-              "valueStr": null
+              "value": 0.5
             }
           ]
         }
@@ -5142,8 +4960,7 @@
             },
             {
               "key": "damage_resistance",
-              "value": 0.6,
-              "valueStr": null
+              "value": 0.6
             }
           ]
         },
@@ -5203,8 +5020,7 @@
             },
             {
               "key": "damage_resistance",
-              "value": 0.9,
-              "valueStr": null
+              "value": 0.9
             }
           ]
         },
@@ -5242,8 +5058,7 @@
           "blackboard": [
             {
               "key": "max_hp",
-              "value": 1.6,
-              "valueStr": null
+              "value": 1.6
             }
           ]
         }
@@ -5271,8 +5086,7 @@
           "blackboard": [
             {
               "key": "max_hp",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             }
           ]
         }
@@ -5301,8 +5115,7 @@
           "blackboard": [
             {
               "key": "def",
-              "value": 2000.0,
-              "valueStr": null
+              "value": 2000.0
             },
             {
               "key": "enemy_level_type",
@@ -5341,8 +5154,7 @@
             },
             {
               "key": "magic_resistance",
-              "value": 30.0,
-              "valueStr": null
+              "value": 30.0
             }
           ]
         }
@@ -5357,8 +5169,7 @@
           "blackboard": [
             {
               "key": "atk",
-              "value": -0.2,
-              "valueStr": null
+              "value": -0.2
             }
           ]
         }
@@ -5373,8 +5184,7 @@
           "blackboard": [
             {
               "key": "atk",
-              "value": -0.4,
-              "valueStr": null
+              "value": -0.4
             }
           ]
         }
@@ -5389,8 +5199,7 @@
           "blackboard": [
             {
               "key": "scale",
-              "value": 1.75,
-              "valueStr": null
+              "value": 1.75
             }
           ]
         }
@@ -5405,8 +5214,7 @@
           "blackboard": [
             {
               "key": "scale",
-              "value": 2.5,
-              "valueStr": null
+              "value": 2.5
             }
           ]
         }
@@ -5421,8 +5229,7 @@
           "blackboard": [
             {
               "key": "scale",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             }
           ]
         }
@@ -5437,8 +5244,7 @@
           "blackboard": [
             {
               "key": "scale",
-              "value": 3.0,
-              "valueStr": null
+              "value": 3.0
             }
           ]
         }
@@ -5453,8 +5259,7 @@
           "blackboard": [
             {
               "key": "scale",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             }
           ]
         }
@@ -5469,8 +5274,7 @@
           "blackboard": [
             {
               "key": "scale",
-              "value": 3.0,
-              "valueStr": null
+              "value": 3.0
             }
           ]
         }
@@ -5507,13 +5311,11 @@
           "blackboard": [
             {
               "key": "max_hp",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             },
             {
               "key": "atk",
-              "value": 0.5,
-              "valueStr": null
+              "value": 0.5
             }
           ]
         },
@@ -5522,8 +5324,7 @@
           "blackboard": [
             {
               "key": "atk",
-              "value": -0.5,
-              "valueStr": null
+              "value": -0.5
             }
           ]
         }
@@ -5599,8 +5400,7 @@
             },
             {
               "key": "max_hp",
-              "value": 3.0,
-              "valueStr": null
+              "value": 3.0
             }
           ]
         },
@@ -5674,8 +5474,7 @@
             },
             {
               "key": "hp_ratio",
-              "value": 0.5,
-              "valueStr": null
+              "value": 0.5
             },
             {
               "key": "enemy",
@@ -5694,13 +5493,11 @@
             },
             {
               "key": "max_hp",
-              "value": 0.5,
-              "valueStr": null
+              "value": 0.5
             },
             {
               "key": "move_speed",
-              "value": 0.5,
-              "valueStr": null
+              "value": 0.5
             }
           ]
         },
@@ -5738,8 +5535,7 @@
           "blackboard": [
             {
               "key": "sp_recover_ratio",
-              "value": -0.4,
-              "valueStr": null
+              "value": -0.4
             }
           ]
         }
@@ -5800,8 +5596,7 @@
             },
             {
               "key": "max_hp",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             }
           ]
         }
@@ -5915,8 +5710,7 @@
           "blackboard": [
             {
               "key": "max_hp",
-              "value": 4.0,
-              "valueStr": null
+              "value": 4.0
             },
             {
               "key": "enemy",
@@ -5925,8 +5719,7 @@
             },
             {
               "key": "atk",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             }
           ]
         }
@@ -5946,8 +5739,7 @@
             },
             {
               "key": "damage_scale",
-              "value": -0.3,
-              "valueStr": null
+              "value": -0.3
             }
           ]
         }
@@ -5967,8 +5759,7 @@
             },
             {
               "key": "damage_scale",
-              "value": -0.3,
-              "valueStr": null
+              "value": -0.3
             }
           ]
         }
@@ -5997,15 +5788,14 @@
           "blackboard": [
             {
               "key": "atk",
-              "value": 0.5,
-              "valueStr": null
+              "value": 0.5
             }
           ]
         }
       ]
     },
     "enemy_atk_3": {
-      "desc": "所有敌人的攻击力<@recalrune.nag>+{atk:0%}</>",
+      "desc": "所有敌人的攻击力<@recalrune.nag>+80%</>",
       "mods": [
         {
           "targets": [
@@ -6027,15 +5817,14 @@
           "blackboard": [
             {
               "key": "atk",
-              "value": 0.8,
-              "valueStr": null
+              "value": 0.8
             }
           ]
         }
       ]
     },
     "enemy_maxhp_2": {
-      "desc": "所有敌人生命值提升至<@recalrune.nag>{max_hp:0%}</>",
+      "desc": "所有敌人生命值提升至<@recalrune.nag>160%</>",
       "mods": [
         {
           "targets": [
@@ -6056,15 +5845,14 @@
           "blackboard": [
             {
               "key": "max_hp",
-              "value": 1.6,
-              "valueStr": null
+              "value": 1.6
             }
           ]
         }
       ]
     },
     "enemy_maxhp_3": {
-      "desc": "所有敌人生命值提升至<@recalrune.nag>{max_hp:0%}</>",
+      "desc": "所有敌人生命值提升至<@recalrune.nag>200%</>",
       "mods": [
         {
           "targets": [
@@ -6085,8 +5873,7 @@
           "blackboard": [
             {
               "key": "max_hp",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             }
           ]
         }
@@ -6101,8 +5888,7 @@
           "blackboard": [
             {
               "key": "scale",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             }
           ]
         }
@@ -6117,15 +5903,14 @@
           "blackboard": [
             {
               "key": "scale",
-              "value": 4.0,
-              "valueStr": null
+              "value": 4.0
             }
           ]
         }
       ]
     },
     "char_exclude_wrsn_2": {
-      "desc": "近卫和狙击干员的部署费用提升至<@recalrune.nag>{scale}</>倍",
+      "desc": "近卫和狙击干员的部署费用提升至<@recalrune.nag>2</>倍",
       "mods": [],
       "runes": [
         {
@@ -6133,8 +5918,7 @@
           "blackboard": [
             {
               "key": "scale",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             }
           ]
         }
@@ -6151,7 +5935,7 @@
       ]
     },
     "char_exclude_casp_2": {
-      "desc": "术师和特种干员的部署费用提升至<@recalrune.nag>{scale}</>倍",
+      "desc": "术师和特种干员的部署费用提升至<@recalrune.nag>2</>倍",
       "mods": [],
       "runes": [
         {
@@ -6159,8 +5943,7 @@
           "blackboard": [
             {
               "key": "scale",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             }
           ]
         }
@@ -6207,13 +5990,11 @@
           "blackboard": [
             {
               "key": "max_hp",
-              "value": 1.2,
-              "valueStr": null
+              "value": 1.2
             },
             {
               "key": "def",
-              "value": 0.3,
-              "valueStr": null
+              "value": 0.3
             }
           ]
         },
@@ -6227,8 +6008,7 @@
             },
             {
               "key": "damage",
-              "value": 500.0,
-              "valueStr": null
+              "value": 500.0
             }
           ]
         }
@@ -6277,8 +6057,7 @@
             },
             {
               "key": "freeze",
-              "value": 3.5,
-              "valueStr": null
+              "value": 3.5
             },
             {
               "key": "enemy",
@@ -6297,8 +6076,7 @@
             },
             {
               "key": "freeze",
-              "value": 1.5,
-              "valueStr": null
+              "value": 1.5
             },
             {
               "key": "enemy",
@@ -6317,8 +6095,7 @@
             },
             {
               "key": "freeze",
-              "value": 1.5,
-              "valueStr": null
+              "value": 1.5
             },
             {
               "key": "enemy",
@@ -6337,8 +6114,7 @@
             },
             {
               "key": "freeze",
-              "value": 2.8,
-              "valueStr": null
+              "value": 2.8
             },
             {
               "key": "enemy",
@@ -6357,8 +6133,7 @@
             },
             {
               "key": "freeze",
-              "value": 2.8,
-              "valueStr": null
+              "value": 2.8
             },
             {
               "key": "enemy",
@@ -6377,8 +6152,7 @@
             },
             {
               "key": "freeze",
-              "value": 0.8,
-              "valueStr": null
+              "value": 0.8
             },
             {
               "key": "enemy",
@@ -6397,8 +6171,7 @@
             },
             {
               "key": "freeze",
-              "value": 0.8,
-              "valueStr": null
+              "value": 0.8
             },
             {
               "key": "enemy",
@@ -6417,8 +6190,7 @@
             },
             {
               "key": "freeze",
-              "value": 0.8,
-              "valueStr": null
+              "value": 0.8
             },
             {
               "key": "enemy",
@@ -6437,8 +6209,7 @@
             },
             {
               "key": "freeze",
-              "value": 3.6,
-              "valueStr": null
+              "value": 3.6
             },
             {
               "key": "enemy",
@@ -6457,8 +6228,7 @@
             },
             {
               "key": "freeze",
-              "value": 1.5,
-              "valueStr": null
+              "value": 1.5
             },
             {
               "key": "enemy",
@@ -6477,8 +6247,7 @@
             },
             {
               "key": "freeze",
-              "value": 3.8,
-              "valueStr": null
+              "value": 3.8
             },
             {
               "key": "enemy",
@@ -6497,8 +6266,7 @@
             },
             {
               "key": "freeze",
-              "value": 3.8,
-              "valueStr": null
+              "value": 3.8
             },
             {
               "key": "enemy",
@@ -6569,8 +6337,7 @@
             },
             {
               "key": "max_hp",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             }
           ]
         },
@@ -6579,8 +6346,7 @@
           "blackboard": [
             {
               "key": "scale",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             },
             {
               "key": "enemy",
@@ -6657,8 +6423,7 @@
           "blackboard": [
             {
               "key": "max_hp",
-              "value": -800.0,
-              "valueStr": null
+              "value": -800.0
             }
           ]
         }
@@ -6748,8 +6513,7 @@
             },
             {
               "key": "max_hp",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             }
           ]
         },
@@ -6763,8 +6527,7 @@
             },
             {
               "key": "move_speed",
-              "value": 1.5,
-              "valueStr": null
+              "value": 1.5
             }
           ]
         }
@@ -6779,8 +6542,7 @@
           "blackboard": [
             {
               "key": "respawn_time",
-              "value": 70.0,
-              "valueStr": null
+              "value": 70.0
             },
             {
               "key": "key",
@@ -6832,8 +6594,7 @@
             },
             {
               "key": "max_hp",
-              "value": 0.8,
-              "valueStr": null
+              "value": 0.8
             }
           ]
         },
@@ -6904,8 +6665,7 @@
             },
             {
               "key": "max_hp",
-              "value": 1.2,
-              "valueStr": null
+              "value": 1.2
             }
           ]
         },
@@ -6919,8 +6679,7 @@
             },
             {
               "key": "attack_speed",
-              "value": 20.0,
-              "valueStr": null
+              "value": 20.0
             }
           ]
         },
@@ -6934,8 +6693,7 @@
             },
             {
               "key": "freeze",
-              "value": 2.3,
-              "valueStr": null
+              "value": 2.3
             },
             {
               "key": "enemy",
@@ -7008,8 +6766,7 @@
             },
             {
               "key": "max_hp",
-              "value": 0.8,
-              "valueStr": null
+              "value": 0.8
             }
           ]
         },
@@ -7105,8 +6862,7 @@
             },
             {
               "key": "max_hp",
-              "value": 1.2,
-              "valueStr": null
+              "value": 1.2
             }
           ]
         },
@@ -7120,8 +6876,7 @@
             },
             {
               "key": "move_speed",
-              "value": 1.6,
-              "valueStr": null
+              "value": 1.6
             }
           ]
         },
@@ -7174,8 +6929,7 @@
           "blackboard": [
             {
               "key": "max_hp",
-              "value": 1.6,
-              "valueStr": null
+              "value": 1.6
             }
           ]
         }
@@ -7203,8 +6957,7 @@
           "blackboard": [
             {
               "key": "max_hp",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             }
           ]
         }
@@ -7232,8 +6985,7 @@
           "blackboard": [
             {
               "key": "atk",
-              "value": 0.6,
-              "valueStr": null
+              "value": 0.6
             }
           ]
         }
@@ -7261,8 +7013,7 @@
           "blackboard": [
             {
               "key": "atk",
-              "value": 0.4,
-              "valueStr": null
+              "value": 0.4
             }
           ]
         }
@@ -7277,8 +7028,7 @@
           "blackboard": [
             {
               "key": "scale",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             }
           ]
         }
@@ -7293,8 +7043,7 @@
           "blackboard": [
             {
               "key": "scale",
-              "value": 3.0,
-              "valueStr": null
+              "value": 3.0
             }
           ]
         }
@@ -7309,8 +7058,7 @@
           "blackboard": [
             {
               "key": "scale",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             }
           ]
         }
@@ -7325,8 +7073,7 @@
           "blackboard": [
             {
               "key": "scale",
-              "value": 3.0,
-              "valueStr": null
+              "value": 3.0
             }
           ]
         }
@@ -7375,13 +7122,11 @@
           "blackboard": [
             {
               "key": "max_hp",
-              "value": 0.2,
-              "valueStr": null
+              "value": 0.2
             },
             {
               "key": "atk",
-              "value": 0.15,
-              "valueStr": null
+              "value": 0.15
             }
           ]
         },
@@ -7406,8 +7151,7 @@
           "blackboard": [
             {
               "key": "value",
-              "value": -5.0,
-              "valueStr": null
+              "value": -5.0
             }
           ]
         }
@@ -7422,8 +7166,7 @@
           "blackboard": [
             {
               "key": "value",
-              "value": 200.0,
-              "valueStr": null
+              "value": 200.0
             }
           ]
         },
@@ -7432,8 +7175,7 @@
           "blackboard": [
             {
               "key": "value",
-              "value": 25.0,
-              "valueStr": null
+              "value": 25.0
             }
           ]
         }
@@ -7491,8 +7233,7 @@
             },
             {
               "key": "ep_damage",
-              "value": 100.0,
-              "valueStr": null
+              "value": 100.0
             },
             {
               "key": "modifier_custom_key",
@@ -7506,13 +7247,11 @@
           "blackboard": [
             {
               "key": "PollutedDie.polluted_damage_low",
-              "value": 3.0,
-              "valueStr": null
+              "value": 3.0
             },
             {
               "key": "PollutedDie.polluted_damage_high",
-              "value": 3.0,
-              "valueStr": null
+              "value": 3.0
             }
           ]
         },
@@ -7521,13 +7260,11 @@
           "blackboard": [
             {
               "key": "PollutedArea.Polluted_damage_low",
-              "value": 3.0,
-              "valueStr": null
+              "value": 3.0
             },
             {
               "key": "PollutedArea.Polluted_damage_high",
-              "value": 3.0,
-              "valueStr": null
+              "value": 3.0
             }
           ]
         },
@@ -7546,13 +7283,11 @@
             },
             {
               "key": "polluted_damage_high",
-              "value": 3.0,
-              "valueStr": null
+              "value": 3.0
             },
             {
               "key": "polluted_damage_low",
-              "value": 3.0,
-              "valueStr": null
+              "value": 3.0
             }
           ]
         }
@@ -7610,8 +7345,7 @@
             },
             {
               "key": "max_hp",
-              "value": 0.8,
-              "valueStr": null
+              "value": 0.8
             }
           ]
         },
@@ -7625,8 +7359,7 @@
             },
             {
               "key": "move_speed",
-              "value": 1.8,
-              "valueStr": null
+              "value": 1.8
             }
           ]
         },
@@ -7677,8 +7410,7 @@
           "blackboard": [
             {
               "key": "scale",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             },
             {
               "key": "enemy",
@@ -7697,8 +7429,7 @@
             },
             {
               "key": "max_hp",
-              "value": 0.6,
-              "valueStr": null
+              "value": 0.6
             }
           ]
         }
@@ -7726,8 +7457,7 @@
           "blackboard": [
             {
               "key": "atk",
-              "value": 0.8,
-              "valueStr": null
+              "value": 0.8
             }
           ]
         }
@@ -7755,8 +7485,7 @@
           "blackboard": [
             {
               "key": "atk",
-              "value": 0.6,
-              "valueStr": null
+              "value": 0.6
             }
           ]
         }
@@ -7784,8 +7513,7 @@
           "blackboard": [
             {
               "key": "atk",
-              "value": 1.4,
-              "valueStr": null
+              "value": 1.4
             }
           ]
         }
@@ -7813,8 +7541,7 @@
           "blackboard": [
             {
               "key": "atk",
-              "value": 1.7,
-              "valueStr": null
+              "value": 1.7
             }
           ]
         }
@@ -7829,8 +7556,7 @@
           "blackboard": [
             {
               "key": "scale",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             }
           ]
         }
@@ -7845,8 +7571,7 @@
           "blackboard": [
             {
               "key": "scale",
-              "value": 4.0,
-              "valueStr": null
+              "value": 4.0
             }
           ]
         }
@@ -7875,8 +7600,7 @@
           "blackboard": [
             {
               "key": "max_hp",
-              "value": 0.8,
-              "valueStr": null
+              "value": 0.8
             }
           ]
         }
@@ -7905,8 +7629,7 @@
           "blackboard": [
             {
               "key": "max_hp",
-              "value": 1.3,
-              "valueStr": null
+              "value": 1.3
             }
           ]
         }
@@ -7926,8 +7649,7 @@
             },
             {
               "key": "damage_scale",
-              "value": -0.25,
-              "valueStr": null
+              "value": -0.25
             }
           ]
         }
@@ -7947,8 +7669,7 @@
             },
             {
               "key": "damage_scale",
-              "value": -0.25,
-              "valueStr": null
+              "value": -0.25
             }
           ]
         }
@@ -8058,8 +7779,7 @@
             },
             {
               "key": "taunt_level",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             }
           ]
         },
@@ -8083,8 +7803,7 @@
             },
             {
               "key": "move_speed",
-              "value": 2.0,
-              "valueStr": null
+              "value": 2.0
             }
           ]
         },
@@ -8103,8 +7822,7 @@
             },
             {
               "key": "atk",
-              "value": 3.0,
-              "valueStr": null
+              "value": 3.0
             }
           ]
         },
@@ -8178,8 +7896,7 @@
             },
             {
               "key": "max_hp",
-              "value": 3.0,
-              "valueStr": null
+              "value": 3.0
             }
           ]
         },
@@ -8193,13 +7910,11 @@
             },
             {
               "key": "max_hp",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             },
             {
               "key": "atk",
-              "value": 1.0,
-              "valueStr": null
+              "value": 1.0
             }
           ]
         },

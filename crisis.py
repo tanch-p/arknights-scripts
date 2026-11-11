@@ -5,7 +5,7 @@ from operator import itemgetter
 from stages import get_trimmed_stage_data
 from tiles import get_special_tiles
 from waves_new import get_wave_spawns_data
-from runes import get_crisis_runes
+from runes import format_crisis_description, get_crisis_runes
 from chara_skills import replace_substrings
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -32,6 +32,10 @@ def update_crisis_runes():
     with open("crisis_runes.json", encoding="utf-8") as f:
         crisis_runes_table = json.load(f)
 
+    for stage_runes in crisis_runes_table.values():
+        for rune in stage_runes.values():
+            rune["desc"] = format_crisis_description(rune["desc"], rune["runes"])
+
     return_dict = {}
     for season in cn_crisisv2_table["recalRuneData"]["seasons"]:
         season_data = cn_crisisv2_table["recalRuneData"]["seasons"][season]
@@ -49,7 +53,9 @@ def update_crisis_runes():
                 ]
                 mods = get_crisis_runes(runes)
                 return_dict[stage_id][rune_data["runeId"]] = {
-                    "desc": rune_data["packedRune"]["description"],
+                    "desc": format_crisis_description(
+                        rune_data["packedRune"]["description"], runes
+                    ),
                     "mods": mods,
                     "runes": runes,
                 }
